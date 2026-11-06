@@ -1,0 +1,412 @@
+fdc_id,description,publication_date,protein_g,fat_g,carbohydrate_g,fiber_g,energy_general_kcal,energy_specific_kcal,calories_kcal,energy_method,source,data_type
+321358,"Hummus, commercial",2019-04-01,7.35,17.1,14.9,5.4,243.0,229.0,229.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+321359,"Milk, reduced fat, fluid, 2% milkfat, with added vitamin A and vitamin D",2019-04-01,3.35,1.9,4.91,,,,,Missing,USDA FoodData Central,Foundation Foods
+321360,"Tomatoes, grape, raw",2019-04-01,0.83,0.63,5.51,2.1,31.0,27.0,27.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+321505,"Salt, table, iodized",2019-04-01,,,,,,,,Missing,USDA FoodData Central,Foundation Foods
+321611,"Beans, snap, green, canned, regular pack, drained solids",2019-04-01,1.04,0.39,4.11,,24.0,20.0,20.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+321900,"Broccoli, raw",2019-04-01,2.57,0.34,6.29,2.4,,,,Missing,USDA FoodData Central,Foundation Foods
+322228,"Milk, lowfat, fluid, 1% milkfat, with added vitamin A and vitamin D",2019-04-01,3.38,0.95,5.19,,,,,Missing,USDA FoodData Central,Foundation Foods
+322559,"Milk, nonfat, fluid, with added vitamin A and vitamin D (fat free or skim)",2019-04-01,3.43,0.08,4.89,,,,,Missing,USDA FoodData Central,Foundation Foods
+322892,"Milk, whole, 3.25% milkfat, with added vitamin D",2019-04-01,3.28,3.2,4.67,,,,,Missing,USDA FoodData Central,Foundation Foods
+323121,"Frankfurter, beef, unheated",2019-04-01,11.7,28.0,2.89,,310.0,314.0,314.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+323294,"Nuts, almonds, dry roasted, with salt added",2019-04-01,20.4,57.8,16.2,11.0,667.0,621.0,621.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+323444,"Cheese, ricotta, whole milk",2019-04-01,7.81,11.0,6.86,,,,,Missing,USDA FoodData Central,Foundation Foods
+323505,"Kale, raw",2019-04-01,2.92,1.49,4.42,4.1,43.0,35.0,35.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+323604,"Egg, whole, raw, frozen, pasteurized",2019-04-01,12.3,10.3,0.91,,146.0,150.0,150.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+323697,"Egg, white, raw, frozen, pasteurized",2019-04-01,10.1,0.16,0.74,,45.0,48.0,48.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+323793,"Egg, white, dried",2019-04-01,79.9,0.65,6.02,,350.0,376.0,376.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+324038,"Sauce, salsa, ready-to-serve",2019-04-01,1.44,0.19,6.74,1.8,,,,Missing,USDA FoodData Central,Foundation Foods
+324157,"Sausage, breakfast sausage, beef, pre-cooked, unprepared",2019-04-01,13.3,28.7,3.37,,325.0,329.0,329.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+324317,"Onion rings, breaded, par fried, frozen, prepared, heated in oven",2019-04-01,4.52,14.4,36.3,2.4,293.0,289.0,289.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+324653,"Pickles, cucumber, dill or kosher dill",2019-04-01,0.48,0.43,1.99,1.0,14.0,12.0,12.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+324860,"Peanut butter, smooth style, with salt",2019-04-01,22.5,51.1,22.3,4.8,639.0,597.0,597.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+325036,"Cheese, parmesan, grated",2019-04-01,29.6,28.0,12.4,,420.0,420.0,420.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+325198,"Cheese, pasteurized process, American, vitamin D fortified",2019-04-01,18.0,30.6,5.27,,368.0,366.0,366.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+325287,"Grapefruit juice, white, canned or bottled, unsweetened",2019-04-01,0.55,0.7,7.59,0.2,39.0,37.0,37.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+325430,"Peaches, yellow, raw",2019-04-01,0.91,0.27,10.1,1.5,46.0,42.0,42.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+325524,"Seeds, sunflower seed kernels, dry roasted, with salt added",2019-04-01,21.0,56.1,17.1,10.3,657.0,612.0,612.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+325658,"Sausage, Italian, pork, mild, cooked, pan-fried",2019-04-01,18.2,26.2,2.15,,,,,Missing,USDA FoodData Central,Foundation Foods
+325871,"Bread, white, commercially prepared",2019-04-01,9.43,3.59,49.2,2.3,267.0,270.0,270.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+325992,"Sausage, turkey, breakfast links, mild, raw",2019-04-01,16.7,10.4,0.93,,,,,Missing,USDA FoodData Central,Foundation Foods
+326135,"Cheese, swiss",2019-04-01,27.0,31.0,1.44,,,,,Missing,USDA FoodData Central,Foundation Foods
+326196,"Kale, frozen, cooked, boiled, drained, without salt",2019-04-01,2.94,1.21,5.3,,44.0,36.0,36.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+326458,"Carrots, frozen, unprepared (Includes foods for USDA's Food Distribution Program)",2019-04-01,0.81,0.47,7.92,3.2,,,,Missing,USDA FoodData Central,Foundation Foods
+326698,"Mustard, prepared, yellow",2019-04-01,4.25,3.38,5.3,4.3,69.0,61.0,61.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+326905,"Figs, dried, uncooked",2019-04-01,3.3,0.92,63.9,9.8,,,,Missing,USDA FoodData Central,Foundation Foods
+327046,"Kiwifruit, green, raw",2019-04-01,1.06,0.44,14.0,3.0,64.0,58.0,58.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+327198,"Melons, cantaloupe, raw",2019-04-01,0.82,0.18,8.16,0.8,,,,Missing,USDA FoodData Central,Foundation Foods
+327357,"Nectarines, raw",2019-04-01,1.06,0.28,9.18,1.5,43.0,39.0,39.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+327501,"Oranges, raw, navels (Includes foods for USDA's Food Distribution Program)",2019-04-01,0.91,0.15,11.8,2.0,,,,Missing,USDA FoodData Central,Foundation Foods
+327699,"Strawberries, raw",2019-04-01,0.64,0.22,7.63,1.8,,,,Missing,USDA FoodData Central,Foundation Foods
+327923,"Lettuce, cos or romaine, raw",2019-04-01,1.24,0.26,3.24,1.8,,,,Missing,USDA FoodData Central,Foundation Foods
+328637,"Cheese, cheddar",2019-04-01,23.3,34.0,2.44,,409.0,408.0,408.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+328841,"Cheese, cottage, lowfat, 2% milkfat",2019-04-01,11.0,2.3,4.31,,82.0,84.0,84.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+329370,"Cheese, mozzarella, low moisture, part-skim",2019-04-01,23.7,20.4,4.44,,296.0,298.0,298.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+329490,"Egg, whole, dried",2019-04-01,48.1,39.8,1.87,,558.0,576.0,576.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+329596,"Egg, yolk, raw, frozen, pasteurized",2019-04-01,15.6,25.1,0.59,,291.0,297.0,297.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+329716,"Egg, yolk, dried",2019-04-01,34.2,55.5,1.07,,641.0,654.0,654.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+329830,"Cheese, dry white, queso seco",2019-04-01,24.5,24.3,2.07,,,,,Missing,USDA FoodData Central,Foundation Foods
+330137,"Yogurt, Greek, plain, nonfat",2019-04-01,10.3,0.37,3.64,,59.0,61.0,61.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+330415,"Yogurt, Greek, strawberry, nonfat",2019-04-01,8.06,0.15,12.2,0.6,82.0,83.0,83.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+330458,"Oil, coconut",2019-04-01,0.0,99.1,0.84,,895.0,833.0,833.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+330869,"Turkey, ground, 93% lean, 7% fat, pan-broiled crumbles",2019-04-01,27.1,11.6,0.0,,,,,Missing,USDA FoodData Central,Foundation Foods
+331897,"Chicken, broilers or fryers, drumstick, meat only, cooked, braised",2019-04-01,23.9,5.95,0.0,,149.0,156.0,156.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+331960,"Chicken, broiler or fryers, breast, skinless, boneless, meat only, cooked, braised",2019-04-01,32.1,3.24,0.0,,158.0,166.0,166.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+332282,"Sauce, pasta, spaghetti/marinara, ready-to-serve",2019-04-01,1.41,1.48,8.05,1.8,51.0,45.0,45.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+332397,"Ham, sliced, pre-packaged, deli meat (96%fat free, water added)",2019-04-01,16.7,3.73,0.27,,101.0,106.0,106.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+332597,"Pears, raw, bartlett (Includes foods for USDA's Food Distribution Program)",2019-04-01,0.38,0.16,15.1,3.1,,,,Missing,USDA FoodData Central,Foundation Foods
+332791,"Olives, green, Manzanilla, stuffed with pimiento",2019-04-01,1.15,12.9,4.96,4.0,141.0,130.0,130.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+332864,"Sausage, pork, chorizo, link or ground, cooked, pan-fried",2019-04-01,19.3,28.1,2.63,,,,,Missing,USDA FoodData Central,Foundation Foods
+333008,"Cookies, oatmeal, soft, with raisins",2019-04-01,5.79,14.3,69.6,3.3,430.0,,430.0,Atwater General (2047),USDA FoodData Central,Foundation Foods
+333281,"Tomatoes, canned, red, ripe, diced",2019-04-01,0.84,0.5,3.32,,21.0,18.0,18.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+333374,"Fish, haddock, raw",2019-04-01,16.3,0.45,0.0,,69.0,74.0,74.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+333476,"Fish, pollock, raw",2019-04-01,12.3,0.41,0.0,,53.0,56.0,56.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+334194,"Fish, tuna, light, canned in water, drained solids",2019-04-01,19.0,0.94,0.08,,85.0,90.0,90.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+334247,"Sugars, granulated",2019-04-01,0.0,0.32,99.6,,,,,Missing,USDA FoodData Central,Foundation Foods
+334462,"Restaurant, Chinese, sweet and sour pork",2019-04-01,8.88,13.6,25.5,1.0,,,,Missing,USDA FoodData Central,Foundation Foods
+334536,"Restaurant, Chinese, fried rice, without meat",2019-04-01,3.84,3.19,32.5,,174.0,,174.0,Atwater General (2047),USDA FoodData Central,Foundation Foods
+334628,"Restaurant, Latino, tamale, pork",2019-04-01,7.38,9.04,15.8,2.4,174.0,,174.0,Atwater General (2047),USDA FoodData Central,Foundation Foods
+334720,"Restaurant, Latino, pupusas con frijoles (pupusas, bean)",2019-04-01,5.59,9.01,31.5,5.8,229.0,,229.0,Atwater General (2047),USDA FoodData Central,Foundation Foods
+334849,"Beef, loin, top loin steak, boneless, lip-on, separable lean only, trimmed to 1/8"" fat, choice, raw",2019-04-01,22.8,6.39,0.0,,,,,Missing,USDA FoodData Central,Foundation Foods
+334897,"Beef, loin, tenderloin roast, separable lean only, boneless, trimmed to 0"" fat, select, cooked, roasted",2019-04-01,27.7,6.36,0.0,,,,,Missing,USDA FoodData Central,Foundation Foods
+334898,"Beef, round, eye of round roast, boneless, separable lean only, trimmed to 0"" fat, select, raw",2019-04-01,23.4,2.48,0.0,,,,,Missing,USDA FoodData Central,Foundation Foods
+334963,"Beef, round, top round roast, boneless, separable lean only, trimmed to 0"" fat, select, raw",2019-04-01,23.7,2.41,0.0,,,,,Missing,USDA FoodData Central,Foundation Foods
+335061,"Beef, short loin, t-bone steak, bone-in, separable lean only, trimmed to 1/8"" fat, choice, cooked, grilled",2019-04-01,27.3,11.4,0.0,,,,,Missing,USDA FoodData Central,Foundation Foods
+335109,"Beef, short loin, porterhouse steak, separable lean only, trimmed to 1/8"" fat, select, raw",2019-04-01,22.7,5.32,0.0,,,,,Missing,USDA FoodData Central,Foundation Foods
+335240,"Bread, whole-wheat, commercially prepared",2019-04-01,12.3,3.55,43.1,6.0,254.0,,254.0,Atwater General (2047),USDA FoodData Central,Foundation Foods
+335245,"Beans, Dry, Dark Red Kidney (0% moisture)",2019-04-01,25.9,1.31,,4.3,,,,Missing,USDA FoodData Central,Foundation Foods
+335306,"Beans, Dry, Pink (0% moisture)",2019-04-01,23.4,1.2,,4.1,,,,Missing,USDA FoodData Central,Foundation Foods
+335419,"Beans, Dry, Navy (0% moisture)",2019-04-01,24.1,1.51,,4.3,,,,Missing,USDA FoodData Central,Foundation Foods
+335422,"Beans, Dry, Light Red Kidney (0% moisture)",2019-04-01,25.0,1.03,,4.5,,,,Missing,USDA FoodData Central,Foundation Foods
+335425,"Beans, Dry, Brown (0% moisture)",2019-04-01,25.6,1.12,,4.1,,,,Missing,USDA FoodData Central,Foundation Foods
+335428,"Beans, Dry, Flor de Mayo (0% moisture)",2019-04-01,23.3,0.86,,4.0,,,,Missing,USDA FoodData Central,Foundation Foods
+335433,"Beans, Dry, Carioca (0% moisture)",2019-04-01,25.2,1.44,,4.5,,,,Missing,USDA FoodData Central,Foundation Foods
+335442,"Beans, Dry, Tan (0% moisture)",2019-04-01,26.8,1.14,,4.4,,,,Missing,USDA FoodData Central,Foundation Foods
+335695,"Beans, Dry, Pinto (0% moisture)",2019-04-01,23.7,1.24,,4.1,,,,Missing,USDA FoodData Central,Foundation Foods
+335774,"Beans, Dry, Small Red (0% moisture)",2019-04-01,23.5,1.28,,4.1,,,,Missing,USDA FoodData Central,Foundation Foods
+335777,"Beans, Dry, Medium Red (0% moisture)",2019-04-01,25.5,1.04,,4.3,,,,Missing,USDA FoodData Central,Foundation Foods
+335782,"Beans, Dry, Cranberry (0% moisture)",2019-04-01,24.4,1.23,,4.3,,,,Missing,USDA FoodData Central,Foundation Foods
+335785,"Beans, Dry, Light Tan (0% moisture)",2019-04-01,24.6,1.28,,4.3,,,,Missing,USDA FoodData Central,Foundation Foods
+335912,"Beans, Dry, Black (0% moisture)",2019-04-01,24.4,1.45,,4.2,,,,Missing,USDA FoodData Central,Foundation Foods
+335927,"Beans, Dry, Small White (0% moisture)",2019-04-01,24.5,1.32,,4.3,,,,Missing,USDA FoodData Central,Foundation Foods
+335930,"Beans, Dry, Red (0% moisture)",2019-04-01,21.3,1.16,,4.0,,,,Missing,USDA FoodData Central,Foundation Foods
+336067,"Beans, Dry, Great Northern (0% moisture)",2019-04-01,24.7,1.24,,4.3,,,,Missing,USDA FoodData Central,Foundation Foods
+746758,"Beef, loin, tenderloin roast, separable lean only, boneless, trimmed to 0"" fat, select, cooked, roasted",2019-12-16,27.7,6.36,0.0,,168.0,176.0,176.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+746759,"Beef, loin, top loin steak, boneless, lip-on, separable lean only, trimmed to 1/8"" fat, choice, raw",2019-12-16,22.8,6.39,0.0,,149.0,155.0,155.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+746760,"Beef, round, eye of round roast, boneless, separable lean only, trimmed to 0"" fat, select, raw",2019-12-16,23.4,2.48,0.0,,116.0,122.0,122.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+746761,"Beef, round, top round roast, boneless, separable lean only, trimmed to 0"" fat, select, raw",2019-12-16,23.7,2.41,0.0,,116.0,123.0,123.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+746762,"Beef, short loin, porterhouse steak, separable lean only, trimmed to 1/8"" fat, select, raw",2019-12-16,22.7,5.32,0.0,,139.0,145.0,145.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+746763,"Beef, short loin, t-bone steak, bone-in, separable lean only, trimmed to 1/8"" fat, choice, cooked, grilled",2019-12-16,27.3,11.4,0.0,,212.0,219.0,219.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+746764,"Carrots, frozen, unprepared",2019-12-16,0.81,0.47,7.92,3.2,39.0,37.0,37.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+746765,"Cheese, dry white, queso seco",2019-12-16,24.5,24.3,2.07,,325.0,326.0,326.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+746766,"Cheese, ricotta, whole milk",2019-12-16,7.81,11.0,6.86,,158.0,157.0,157.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+746767,"Cheese, swiss",2019-12-16,27.0,31.0,1.44,,393.0,393.0,393.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+746768,"Figs, dried, uncooked",2019-12-16,3.3,0.92,63.9,9.8,277.0,249.0,249.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+746769,"Lettuce, cos or romaine, raw",2019-12-16,1.24,0.26,3.24,1.8,20.0,17.0,17.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+746770,"Melons, cantaloupe, raw",2019-12-16,0.82,0.18,8.16,0.8,38.0,34.0,34.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+746771,"Oranges, raw, navels",2019-12-16,0.91,0.15,11.8,2.0,52.0,47.0,47.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+746772,"Milk, lowfat, fluid, 1% milkfat, with added vitamin A and vitamin D",2019-12-16,3.38,0.95,5.18,,43.0,43.0,43.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+746773,"Pears, raw, bartlett",2019-12-16,0.38,0.16,15.1,3.1,63.0,57.0,57.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+746774,"Restaurant, Chinese, sweet and sour pork",2019-12-16,8.88,13.6,25.5,1.0,260.0,,260.0,Atwater General (2047),USDA FoodData Central,Foundation Foods
+746775,"Salt, table, iodized",2019-12-16,,,,,0.0,,0.0,Atwater General (2047),USDA FoodData Central,Foundation Foods
+746776,"Milk, nonfat, fluid, with added vitamin A and vitamin D (fat free or skim)",2019-12-16,3.43,0.08,4.92,,34.0,34.0,34.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+746777,"Sauce, salsa, ready-to-serve",2019-12-16,1.44,0.19,6.74,1.8,34.0,29.0,29.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+746778,"Milk, reduced fat, fluid, 2% milkfat, with added vitamin A and vitamin D",2019-12-16,3.36,1.9,4.9,,50.0,50.0,50.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+746779,"Sausage, breakfast sausage, beef, pre-cooked, unprepared",2019-12-16,13.3,28.7,3.37,,341.0,346.0,346.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+746780,"Sausage, Italian, pork, mild, cooked, pan-fried",2019-12-16,18.2,26.2,2.15,,317.0,322.0,322.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+746781,"Sausage, pork, chorizo, link or ground, cooked, pan-fried",2019-12-16,19.3,28.1,2.63,,,,,Missing,USDA FoodData Central,Foundation Foods
+746782,"Milk, whole, 3.25% milkfat, with added vitamin D",2019-12-16,3.27,3.2,4.63,,61.0,60.0,60.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+746783,"Sausage, turkey, breakfast links, mild, raw",2019-12-16,16.7,10.4,0.93,,164.0,169.0,169.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+746784,"Sugars, granulated",2019-12-16,0.0,0.32,99.6,,401.0,385.0,385.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+746785,"Turkey, ground, 93% lean, 7% fat, pan-broiled crumbles",2019-12-16,27.1,11.6,0.0,,213.0,220.0,220.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+746952,"Ham, sliced, restaurant",2019-12-16,19.6,3.68,2.36,,121.0,126.0,126.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+747429,"Cheese, American, restaurant",2019-12-16,17.5,31.1,6.35,,375.0,373.0,373.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+747430,"Beans, Dry, Medium Red (0% moisture)",2019-12-16,25.5,1.04,,4.3,,,,Missing,USDA FoodData Central,Foundation Foods
+747431,"Beans, Dry, Red (0% moisture)",2019-12-16,21.3,1.16,,4.0,,,,Missing,USDA FoodData Central,Foundation Foods
+747432,"Beans, Dry, Flor de Mayo (0% moisture)",2019-12-16,23.3,0.86,,4.0,,,,Missing,USDA FoodData Central,Foundation Foods
+747433,"Beans, Dry, Brown (0% moisture)",2019-12-16,25.6,1.12,,4.1,,,,Missing,USDA FoodData Central,Foundation Foods
+747434,"Beans, Dry, Tan (0% moisture)",2019-12-16,26.8,1.14,,4.4,,,,Missing,USDA FoodData Central,Foundation Foods
+747435,"Beans, Dry, Light Tan (0% moisture)",2019-12-16,24.6,1.28,,4.3,,,,Missing,USDA FoodData Central,Foundation Foods
+747436,"Beans, Dry, Carioca (0% moisture)",2019-12-16,25.2,1.44,,4.5,,,,Missing,USDA FoodData Central,Foundation Foods
+747437,"Beans, Dry, Cranberry (0% moisture)",2019-12-16,24.4,1.23,,4.3,,,,Missing,USDA FoodData Central,Foundation Foods
+747438,"Beans, Dry, Light Red Kidney (0% moisture)",2019-12-16,25.0,1.03,,4.5,,,,Missing,USDA FoodData Central,Foundation Foods
+747439,"Beans, Dry, Pink (0% moisture)",2019-12-16,23.4,1.2,,4.1,,,,Missing,USDA FoodData Central,Foundation Foods
+747440,"Beans, Dry, Dark Red Kidney (0% moisture)",2019-12-16,25.9,1.31,,4.3,,,,Missing,USDA FoodData Central,Foundation Foods
+747441,"Beans, Dry, Navy (0% moisture)",2019-12-16,24.1,1.51,,4.3,,,,Missing,USDA FoodData Central,Foundation Foods
+747442,"Beans, Dry, Small White (0% moisture)",2019-12-16,24.5,1.32,,4.3,,,,Missing,USDA FoodData Central,Foundation Foods
+747443,"Beans, Dry, Small Red (0% moisture)",2019-12-16,23.5,1.28,,4.1,,,,Missing,USDA FoodData Central,Foundation Foods
+747444,"Beans, Dry, Black (0% moisture)",2019-12-16,24.4,1.45,,4.2,,,,Missing,USDA FoodData Central,Foundation Foods
+747445,"Beans, Dry, Pinto (0% moisture)",2019-12-16,23.7,1.24,,4.1,,,,Missing,USDA FoodData Central,Foundation Foods
+747446,"Beans, Dry, Great Northern (0% moisture)",2019-12-16,24.7,1.24,,4.3,,,,Missing,USDA FoodData Central,Foundation Foods
+747447,"Broccoli, raw",2019-12-16,2.57,0.34,6.27,2.4,39.0,32.0,32.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+747448,"Strawberries, raw",2019-12-16,0.64,0.22,7.63,1.8,35.0,31.0,31.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+747693,"Ketchup, restaurant",2019-12-16,1.11,0.55,26.8,,117.0,103.0,103.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+747997,"Eggs, Grade A, Large, egg white",2019-12-16,10.7,0.0,2.36,,52.0,55.0,55.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+748236,"Eggs, Grade A, Large, egg yolk",2019-12-16,16.2,28.8,1.02,,328.0,334.0,334.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+748278,"Oil, canola",2019-12-16,,,,,,,,Missing,USDA FoodData Central,Foundation Foods
+748323,"Oil, corn",2019-12-16,,,,,,,,Missing,USDA FoodData Central,Foundation Foods
+748366,"Oil, soybean",2019-12-16,,,,,,,,Missing,USDA FoodData Central,Foundation Foods
+748608,"Oil, olive, extra virgin",2019-12-16,,,,,,,,Missing,USDA FoodData Central,Foundation Foods
+748967,"Eggs, Grade A, Large, egg whole",2019-12-16,12.4,9.96,0.96,0.0,143.0,147.0,147.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+749420,"Pork, cured, bacon, cooked, restaurant",2019-12-16,40.9,36.5,2.1,,501.0,512.0,512.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+789828,"Butter, stick, unsalted",2020-04-01,,81.5,,,,,,Missing,USDA FoodData Central,Foundation Foods
+789890,"Flour, wheat, all-purpose, enriched, bleached",2020-04-01,10.9,1.48,77.3,,366.0,375.0,375.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+789951,"Flour, wheat, all-purpose, enriched, unbleached",2020-04-01,13.1,1.48,73.2,,359.0,367.0,367.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+790018,"Flour, wheat, all-purpose, unenriched, unbleached",2020-04-01,12.0,1.7,74.6,3.0,362.0,370.0,370.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+790085,"Flour, whole wheat, unenriched",2020-04-01,15.1,2.73,71.2,10.6,370.0,346.0,346.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+790146,"Flour, bread, white, enriched, unbleached",2020-04-01,14.3,1.65,72.8,,363.0,372.0,372.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+790214,"Flour, rice, white, unenriched",2020-04-01,6.94,1.3,79.8,0.5,359.0,369.0,369.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+790276,"Flour, corn, yellow, fine meal, enriched",2020-04-01,6.2,1.74,80.8,4.3,364.0,372.0,372.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+790508,"Butter, stick, salted",2020-04-01,,82.2,,,,,,Missing,USDA FoodData Central,Foundation Foods
+790577,"Onions, red, raw",2020-04-01,0.94,0.1,9.93,2.2,44.0,42.0,42.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+790646,"Onions, yellow, raw",2020-04-01,0.83,0.05,8.61,1.9,38.0,36.0,36.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+790774,"Bananas, overripe, raw",2020-04-01,0.73,0.22,20.1,1.7,,,,Missing,USDA FoodData Central,Foundation Foods
+790991,"Bananas, ripe and slightly ripe, raw",2020-04-01,0.74,0.29,23.0,1.7,,,,Missing,USDA FoodData Central,Foundation Foods
+1104647,"Garlic, raw",2020-10-30,6.62,0.38,28.2,2.7,143.0,130.0,130.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+1104705,"Flour, soy, defatted",2020-10-30,51.1,3.33,32.9,,366.0,339.0,339.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+1104766,"Flour, soy, full-fat",2020-10-30,38.6,20.7,27.9,,452.0,421.0,421.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+1104812,"Flour, rice, brown",2020-10-30,7.19,3.85,75.5,,365.0,368.0,368.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+1104867,"Flour, rice, glutinous",2020-10-30,6.69,1.16,80.1,,358.0,368.0,368.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+1104913,"Flour, pastry, unenriched, unbleached",2020-10-30,8.75,1.64,77.2,,359.0,367.0,367.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+1104962,"Onions, white, raw",2020-10-30,0.89,0.13,7.68,1.2,36.0,33.0,33.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+1105073,"Bananas, overripe, raw",2020-04-01,0.73,0.22,20.1,1.7,85.0,77.0,77.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+1105314,"Bananas, ripe and slightly ripe, raw",2020-04-01,0.74,0.29,23.0,1.7,98.0,88.0,88.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+1105430,"Apples, red delicious, with skin, raw",2020-10-30,0.19,0.21,14.8,2.0,62.0,56.0,56.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+1105547,"Apples, honeycrisp, with skin, raw",2020-10-30,0.1,0.1,14.7,1.7,60.0,54.0,54.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+1105664,"Apples, granny smith, with skin, raw",2020-10-30,0.27,0.14,14.2,2.5,59.0,53.0,53.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+1105781,"Apples, gala, with skin, raw",2020-10-30,0.13,0.15,14.8,2.1,61.0,55.0,55.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+1105897,"Apples, fuji, with skin, raw",2020-10-30,0.15,0.16,15.7,2.1,65.0,58.0,58.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+1750337,"Soy milk, unsweetened, plain, shelf stable",2021-04-28,3.546875,2.125,1.293125,0.0,38.485,38.485,38.485,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+1750338,"Almond milk, unsweetened, plain, shelf stable",2021-04-28,0.5546875,1.221,0.3371125,0.0,14.5562,14.5562,14.5562,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+1750339,"Apples, red delicious, with skin, raw",2020-10-30,0.1875,0.2125,14.7817,2.043,61.7893,55.622745,55.622745,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+1750340,"Apples, fuji, with skin, raw",2020-10-30,0.1484375,0.1625,15.6511625,2.075,64.6609,58.20306,58.20306,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+1750341,"Apples, gala, with skin, raw",2020-10-30,0.1328125,0.15,14.7680875,2.109,60.9536,54.866865,54.866865,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+1750342,"Apples, granny smith, with skin, raw",2020-10-30,0.265625,0.1375,14.142975,2.514,58.8719,52.958085,52.958085,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+1750343,"Apples, honeycrisp, with skin, raw",2020-10-30,0.1015625,0.1,14.6819375,1.721,60.034,54.033225,54.033225,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+1750344,"Mushroom, lion's mane",2021-04-28,2.5,0.2563,7.5897,,42.6655,35.107387,35.107387,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+1750345,"Mushroom, oyster",2021-04-28,2.89875,0.1875,6.94125,,41.0475,33.31965,33.31965,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+1750346,"Mushrooms, shiitake",2021-04-28,2.414375,0.195,8.170625,,44.095,36.3915875,36.3915875,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+1750347,"Mushrooms, white button",2021-04-28,2.890625,0.3708,4.079375,,31.2172,24.8732585,24.8732585,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+1750348,"Oil, peanut",2021-04-28,,,,,,,,Missing,USDA FoodData Central,Foundation Foods
+1750349,"Oil, sunflower",2021-04-28,,,,,,,,Missing,USDA FoodData Central,Foundation Foods
+1750350,"Oil, safflower",2021-04-28,,,,,,,,Missing,USDA FoodData Central,Foundation Foods
+1750351,"Oil, olive, extra light",2021-04-28,,,,,,,,Missing,USDA FoodData Central,Foundation Foods
+1750352,"Spinach, baby",2021-04-28,2.851875,0.6188,2.406325,1.558,26.602,20.72851125,20.72851125,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+1750353,"Spinach, mature",2021-04-28,2.90625,0.6044,2.64135,1.588,27.63,21.5796975,21.5796975,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+1750354,"Tomato, roma",2021-04-28,0.695625,0.425,3.837475,0.9706,21.9574,18.95436075,18.95436075,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+1999626,"Mushroom, lion's mane",2021-10-28,2.5,0.2563,7.5897,4.376,42.6655,35.107387,35.107387,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+1999627,"Mushroom, oyster",2021-10-28,2.89875,0.1875,6.94125,2.85,41.0475,33.31965,33.31965,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+1999628,"Mushrooms, shiitake",2021-10-28,2.414375,0.195,8.170625,4.166,44.095,36.3915875,36.3915875,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+1999629,"Mushrooms, white button",2021-10-28,2.890625,0.3708,4.079375,1.717,31.2172,24.8732585,24.8732585,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+1999630,"Soy milk, unsweetened, plain, shelf stable",2021-10-28,3.546875,2.125,1.293125,0.0,38.485,38.485,38.485,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+1999631,"Almond milk, unsweetened, plain, shelf stable",2021-10-28,0.5546875,1.221,0.3371125,0.0,14.5562,14.5562,14.5562,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+1999632,"Spinach, baby",2021-10-28,2.851875,0.6188,2.406325,1.558,26.602,20.72851125,20.72851125,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+1999633,"Spinach, mature",2021-10-28,2.90625,0.6044,2.64135,1.588,27.63,21.5796975,21.5796975,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+1999634,"Tomato, roma",2021-10-28,0.695625,0.425,3.837475,0.9706,21.9574,18.95436075,18.95436075,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2003586,"Flour, 00",2021-10-28,11.4,1.52,74.4462,2.656,357.0648,365.610744,365.610744,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2003587,"Flour, spelt, whole grain",2021-10-28,14.475,2.543,70.723,9.339,363.679,340.5831,340.5831,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2003588,"Flour, semolina, coarse and semi-coarse",2021-10-28,11.73125,1.597,73.82345,3.216,356.5918,365.0310665,365.0310665,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2003589,"Flour, semolina, fine",2021-10-28,13.33125,1.838,71.98575,3.683,357.81,365.9569125,365.9569125,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2003590,"Apple juice, with added vitamin C, from concentrate, shelf stable",2021-10-28,0.0859375,0.2863,11.3639625,,48.3763,47.231814,47.231814,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2003591,"Orange juice, no pulp, not fortified, from concentrate, refrigerated",2021-10-28,0.734375,0.325,10.340625,,47.225,45.723,45.723,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2003592,"Grape juice, purple, with added vitamin C, from concentrate, shelf stable",2021-10-28,0.2578125,0.2875,15.6227875,,66.1099,64.513952,64.513952,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2003593,"Grape juice, white, with added vitamin C, from concentrate, shelf stable",2021-10-28,0.09375,0.265,15.84375,,66.135,64.64055,64.64055,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2003594,"Cranberry juice, not fortified, from concentrate, shelf stable",2021-10-28,0.0,0.3375,7.26375,,32.0925,31.298775,31.298775,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2003595,"Grapefruit juice, red, not fortified, not from concentrate, refrigerated",2021-10-28,0.5703125,0.2669,9.1021875,,41.0921,39.830778,39.830778,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2003596,"Tomato juice, with added ingredients, from concentrate, shelf stable",2021-10-28,0.859375,0.2875,4.320625,,23.3075,19.92788125,19.92788125,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2003597,"Orange juice, no pulp, not fortified, not from concentrate, refrigerated",2021-10-28,0.8125,0.3563,10.0124,,46.5063,44.960839,44.960839,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2003598,"Mushroom, portabella",2021-10-28,2.75,0.3117,4.6583,1.879,32.4385,26.024813,26.024813,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2003599,"Mushroom, king oyster",2021-10-28,2.40625,0.3075,8.50065,3.009,46.3951,38.460412,38.460412,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2003600,"Mushroom, enoki",2021-10-28,2.416875,0.245,8.141425,2.945,44.4382,36.7150215,36.7150215,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2003601,"Mushroom, crimini",2021-10-28,3.09375,0.1967,4.01455,1.781,30.2035,23.722638,23.722638,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2003602,"Mushroom, maitake",2021-10-28,2.203125,0.265,6.604375,3.071,37.615,30.9734625,30.9734625,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2003603,"Mushroom, beech",2021-10-28,2.18,0.4494,6.7593,3.139,39.8018,32.995442,32.995442,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2003604,"Mushroom, pioppini",2021-10-28,3.5,0.24,5.7637,2.753,39.2148,31.236476,31.236476,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2257044,"Soy milk, sweetened, plain, refrigerated",2022-04-28,2.776875,1.957,2.996125,0.0,40.705,,40.705,Atwater General (2047),USDA FoodData Central,Foundation Foods
+2257045,"Almond milk, unsweetened, plain, refrigerated",2022-04-28,0.65625,1.558,0.67075,0.0,19.33,,19.33,Atwater General (2047),USDA FoodData Central,Foundation Foods
+2257046,"Oat milk, unsweetened, plain, refrigerated",2022-04-28,0.796875,2.749,5.100325,0.0,48.3298,,48.3298,Atwater General (2047),USDA FoodData Central,Foundation Foods
+2258586,"Carrots, mature, raw",2022-04-28,0.94125,0.3506,10.26755,3.095,47.9906,44.978589,44.978589,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2258587,"Carrots, baby, raw",2022-04-28,0.805,0.1375,9.0787,2.694,40.7723,38.250983,38.250983,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2258588,"Peppers, bell, green, raw",2022-04-28,0.715,0.1063,4.7781,0.9419,22.9291,19.692148,19.692148,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2258589,"Peppers, bell, yellow, raw",2022-04-28,0.819375,0.1211,6.601725,1.071,30.7743,26.58104025,26.58104025,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2258590,"Peppers, bell, red, raw",2022-04-28,0.895625,0.1256,6.653175,1.158,31.3256,26.98843175,26.98843175,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2258591,"Peppers, bell, orange, raw",2022-04-28,0.881875,0.1556,6.703125,0.9674,31.7404,27.38430325,27.38430325,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2259792,"Buttermilk, low fat",2022-04-28,3.464978,1.081,4.811522,,42.835,42.9180362,42.9180362,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2259793,"Yogurt, plain, whole milk",2022-04-28,3.824172,4.484,5.574928,,77.9524,77.3185458,77.3185458,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2259794,"Yogurt, Greek, plain, whole milk",2022-04-28,8.77888,4.394,4.75402,,93.6776,94.507135,94.507135,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2259795,"Cheese, parmesan, grated, refrigerated",2022-04-28,30.13912,29.5,4.33188,,403.384,404.763418,404.763418,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2259796,"Cheese, feta, whole milk, crumbled",2022-04-28,19.70782,19.08,5.58318,,272.884,273.472498,273.472498,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2261420,"Flour, almond",2022-04-28,26.24375,50.23,16.24925,9.266,622.042,577.62536,577.62536,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2261421,"Flour, oat, whole grain",2022-04-28,13.16875,6.309,69.91725,10.5,389.125,386.429275,386.429275,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2261422,"Flour, potato",2022-04-28,8.1125,0.9513,79.9422,5.401,360.7805,352.682197,352.682197,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2262072,"Peanut butter, creamy",2022-04-28,23.99124,49.43,22.70376,6.323,631.65,589.383006,589.383006,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2262073,"Sesame butter, creamy",2022-04-28,19.7054,62.4,14.179,8.372,697.1376,648.374268,648.374268,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2262074,"Almond butter, creamy",2022-04-28,20.78734,53.04,21.23666,9.718,645.456,602.510076,602.510076,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2262075,"Flaxseed, ground",2022-04-28,18.0359,37.28,34.3551,23.13,545.084,514.44343,514.44343,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2263887,"Strawberries, raw",2022-04-28,0.640625,0.22,7.964375,,36.4,32.66565,32.66565,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2263888,"Raspberries, raw",2022-04-28,1.008125,0.1875,12.904375,,57.3375,51.412425,51.412425,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2263889,"Blueberries, raw",2022-04-28,0.703125,0.3063,14.571775,,63.8563,57.384621,57.384621,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2263890,"Grapes, red, seedless, raw",2022-04-28,0.914375,0.1638,20.196825,,85.919,77.151876,77.151876,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2263891,"Grapes, green, seedless, raw",2022-04-28,0.89875,0.2325,18.60375,,80.1025,71.939325,71.939325,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2263892,"Applesauce, unsweetened, with added vitamin C",2022-04-28,0.2734375,0.1625,12.2615625,,51.6025,46.4205,46.4205,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2346384,"Cottage cheese, full fat, large or small curd",2022-10-28,11.62436,4.225,4.59964,,102.921,104.574374,104.574374,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2346385,"Cream cheese, full fat, block",2022-10-28,5.78985,33.49,4.55615,,342.794,336.73206,336.73206,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2346386,"Cream, heavy",2022-10-28,2.017994,35.56,3.799506,,343.31,335.8933226,335.8933226,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2346387,"Cream, sour, full fat",2022-10-28,3.070694,17.99,5.555506,,196.4148,192.7437716,192.7437716,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2346388,"Lettuce, iceberg, raw",2022-10-28,0.7425,0.07375,3.36875,,17.10875,14.455425,14.455425,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2346389,"Lettuce, romaine, green, raw",2022-10-28,0.976875,0.07125,4.055575,,20.77105,17.45834025,17.45834025,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2346390,"Lettuce, leaf, red, raw",2022-10-28,0.883125,0.1063,3.260575,,17.5315,14.68480875,14.68480875,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2346391,"Lettuce, leaf, green, raw",2022-10-28,1.09375,0.1563,4.06615,,22.0463,18.4931365,18.4931365,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2346392,"Nuts, pine nuts, raw",2022-10-28,15.7039,61.27,18.5921,3.941,688.614,642.99228,642.99228,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2346393,"Nuts, almonds, whole, raw",2022-10-28,21.45038,51.09,20.03462,10.78,625.75,583.597022,583.597022,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2346394,"Nuts, walnuts, English, halves, raw",2022-10-28,14.5644,69.74,10.9096,5.21,729.556,678.66434,678.66434,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2346395,"Nuts, pecans, halves, raw",2022-10-28,9.9587,73.28,12.6993,5.793,750.152,699.59644,699.59644,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2346396,"Oats, whole grain, rolled, old fashioned",2022-10-28,13.49645,5.89,68.65755,,381.626,378.866123,378.866123,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2346397,"Oats, whole grain, steel cut",2022-10-28,12.51118,5.8,69.75082,,381.248,379.2080612,379.2080612,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2346398,"Pineapple, raw",2022-10-28,0.4609375,0.2113,14.0914625,0.9346,60.1113,54.046596,54.046596,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2346399,"Cherries, sweet, dark red, raw",2022-10-28,1.039375,0.1925,16.163125,,70.5425,63.290775,63.290775,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2346400,"Beans, snap, green, raw",2022-10-28,1.96875,0.275,7.41245,3.011,39.9998,33.5679465,33.5679465,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2346401,"Potatoes, russet, without skin, raw",2022-10-28,2.27375,0.36,17.77125,,83.42,80.9523625,80.9523625,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2346402,"Potatoes, red, without skin, raw",2022-10-28,2.0625,0.2475,16.27,,75.5575,73.373425,73.373425,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2346403,"Potatoes, gold, without skin, raw",2022-10-28,1.8125,0.2638,15.9624,,73.4738,71.575228,71.575228,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2346404,"Sweet potatoes, orange flesh, without skin, raw",2022-10-28,1.578125,0.375,17.327875,,78.999,77.35727375,77.35727375,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2346405,"Celery, raw",2022-10-28,0.4921875,0.1625,3.3165125,,16.6973,14.83215875,14.83215875,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2346406,"Cucumber, with peel, raw",2022-10-28,0.625,0.1775,2.9525,,15.9075,13.934925,13.934925,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2346407,"Cabbage, green, raw",2022-10-28,0.96125,0.2275,6.38375,,31.4275,27.8695,27.8695,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2346408,"Cabbage, red, raw",2022-10-28,1.2425,0.2138,6.7899,,34.0538,29.943836,29.943836,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2346409,"Strawberries, raw",2022-10-28,0.640625,0.22,7.964375,,36.4,32.66565,32.66565,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2346410,"Raspberries, raw",2022-10-28,1.008125,0.1875,12.904375,,57.3375,51.412425,51.412425,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2346411,"Blueberries, raw",2022-10-28,0.703125,0.3063,14.571775,,63.8563,57.384621,57.384621,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2346412,"Grapes, red, seedless, raw",2022-10-28,0.914375,0.1638,20.196825,,85.919,77.151876,77.151876,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2346413,"Grapes, green, seedless, raw",2022-10-28,0.89875,0.2325,18.60375,,80.1025,71.939325,71.939325,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2346414,"Applesauce, unsweetened, with added vitamin C",2022-10-28,0.2734375,0.1625,12.2615625,,51.6025,46.4205,46.4205,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2512371,"Flour, amaranth",2023-04-20,13.2093,6.236,68.7787,7.209,384.076,377.9609,377.9609,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2512372,"Flour, quinoa",2023-04-20,11.92235,6.601,69.52465,6.295,385.197,378.394015,378.394015,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2512373,"Flour, sorghum",2023-04-20,8.27277,3.586,77.39123,6.019,374.93,363.8590417,363.8590417,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2512374,"Flour, buckwheat",2023-04-20,8.88492,2.484,75.01808,10.35,357.968,334.3016028,334.3016028,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2512375,"Flour, rye",2023-04-20,8.3952,1.908,77.1618,13.68,359.4,350.962038,350.962038,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2512376,"Flour, barley",2023-04-20,8.72168,2.45,77.39832,12.79,366.53,357.191828,357.191828,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2512377,"Flour, cassava",2023-04-20,0.918225,0.4938,87.312975,4.834,357.369,358.55706075,358.55706075,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2512378,"Buckwheat, whole grain",2023-04-20,11.06534,3.039,71.13066,4.046,356.135,331.6005206,331.6005206,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2512379,"Millet, whole grain",2023-04-20,10.02177,4.194,74.44623,2.619,375.618,380.6064975,380.6064975,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2512380,"Rice, brown, long grain, unenriched, raw",2023-04-20,7.25305,3.306,76.68795,3.021,365.518,368.3584745,368.3584745,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2512381,"Rice, white, long grain, unenriched, raw",2023-04-20,7.03885,1.033,80.31315,0.1488,358.705,369.637321,369.637321,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2514743,"Beef, ground, 90% lean meat / 10% fat, raw",2023-04-20,18.15625,12.85,0.0,,184.8648,190.134819,190.134819,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2514744,"Beef, ground, 80% lean meat / 20% fat, raw",2023-04-20,17.53125,19.44,0.0,,242.61,247.812675,247.812675,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2514745,"Pork, ground, raw",2023-04-20,17.80625,17.49,0.0,,228.2728,233.442059,233.442059,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2514746,"Chicken, ground, with additives, raw",2023-04-20,17.9125,7.161,0.0,,133.0498,138.128494,138.128494,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2514747,"Turkey, ground, 93% lean/ 7% fat, raw",2023-04-20,17.34375,9.591,0.0,,152.615,157.5897,157.5897,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2515373,"Nuts, brazilnuts, raw",2023-04-20,15.03684,57.43,21.64216,5.984,663.586,620.950526,620.950526,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2515374,"Nuts, cashew nuts, raw",2023-04-20,17.4423,38.86,36.2887,4.104,564.664,533.47799,533.47799,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2515375,"Nuts, hazelnuts or filberts, raw",2023-04-20,13.4938,53.49,26.5012,8.41,641.39,602.39467,602.39467,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2515376,"Peanuts, raw",2023-04-20,23.205,43.28,26.498,8.014,588.332,550.62181,550.62181,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2515377,"Flour, chestnut",2023-04-20,5.28675,4.636,80.45025,8.711,384.672,384.58086,384.58086,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2515378,"Nuts, macadamia nuts, raw",2023-04-20,7.7857,64.93,24.0943,7.563,711.89,668.54428,668.54428,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2515379,"Nuts, pistachio nuts, raw",2023-04-20,20.5057,45.02,27.6943,6.969,597.98,560.68798,560.68798,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2515380,"Seeds, pumpkin seeds (pepitas), raw",2023-04-20,29.9079,40.03,18.6751,5.079,554.602,514.83917,514.83917,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2515381,"Seeds, sunflower seed, kernel, raw",2023-04-20,18.8733,48.44,24.5007,7.215,609.456,570.651,570.651,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2515382,"Flour, coconut",2023-04-20,16.1385,15.28,58.9025,34.24,437.684,423.62737,423.62737,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2644281,"Beans, cannellini, dry",2023-10-26,21.5625,2.199,59.7955,,345.223,336.59519,336.59519,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2644282,"Chickpeas, (garbanzo beans, bengal gram), dry",2023-10-26,21.275,6.274,60.358,,382.998,371.99469,371.99469,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2644283,"Lentils, dry",2023-10-26,23.56875,1.925,62.17125,,360.285,350.9328,350.9328,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2644284,"Blackeye pea, dry",2023-10-26,21.225,2.419,61.836,,354.015,345.5703,345.5703,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2644285,"Beans, black, canned, sodium added, drained and rinsed",2023-10-26,6.9125,1.273,19.8135,,118.361,115.28233,115.28233,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2644286,"Beans, navy, canned, sodium added, drained and rinsed",2023-10-26,6.56875,1.398,19.98325,,118.79,115.82665,115.82665,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2644287,"Beans, cannellini, canned, sodium added, drained and rinsed",2023-10-26,7.4125,1.169,18.8185,,115.445,112.0972,112.0972,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2644288,"Chickpeas (garbanzo beans, bengal gram), canned, sodium added, drained and rinsed",2023-10-26,7.01875,3.096,20.32025,,137.22,132.972,132.972,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2644289,"Beans, kidney, dark red, canned, sodium added, sugar added, drained and rinsed",2023-10-26,7.8,1.256,21.03,,126.624,123.17082,123.17082,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2644290,"Beans, kidney, light red, canned, sodium added, sugar added, drained and rinsed",2023-10-26,7.30625,1.299,21.44675,,126.703,123.51359,123.51359,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2644291,"Peas, green, sweet, canned, sodium added, sugar added, drained and rinsed",2023-10-26,4.734375,1.153,12.707625,,80.145,77.798925,77.798925,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2644292,"Beans, pinto, canned, sodium added, drained and rinsed",2023-10-26,6.69375,1.266,19.60025,,116.57,113.59675,113.59675,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2644293,"Blackeye pea, canned, sodium added, drained and rinsed",2023-10-26,6.925,1.296,19.1659,,116.0276,112.882483,112.882483,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2644294,"Beans, great northern, canned, sodium added, drained and rinsed",2023-10-26,7.03125,1.266,19.32875,,116.834,113.66287,113.66287,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2646168,"Pork, loin, boneless, raw",2023-10-26,21.11875,9.469,0.0,,167.769,173.72307,173.72307,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2646169,"Pork, loin, tenderloin, boneless, raw",2023-10-26,21.58125,3.899,0.0,,119.039,125.02117,125.02117,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2646170,"Chicken, breast, boneless, skinless, raw",2023-10-26,22.525,1.934,0.0,,106.034,112.20227,112.20227,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2646171,"Chicken, thigh, boneless, skinless, raw",2023-10-26,18.6125,7.916,0.0,,144.07,149.306475,149.306475,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2646172,"Beef, ribeye, steak, boneless, choice, raw",2023-10-26,18.74375,20.04,0.0,,254.11,259.611425,259.611425,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2646173,"Beef, round, top round, boneless, choice, raw",2023-10-26,21.475,5.703,0.852,,140.635,146.43655,146.43655,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2646174,"Beef, chuck, roast, boneless, choice, raw",2023-10-26,18.4,17.8,0.0,,231.7048,237.096894,237.096894,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2646175,"Beef, flank, steak, boneless, choice, raw",2023-10-26,20.13125,9.399,0.0,,163.8998,169.562744,169.562744,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2647437,"Yogurt, plain, nonfat",2023-10-26,4.22675,0.0875,8.07675,,50.0015,50.07437,50.07437,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2647438,"Cheese, monterey jack, solid",2023-10-26,22.6171,32.63,1.8979,,391.73,390.73759,390.73759,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2647439,"Cheese, pasteurized process cheese food or product, American, singles",2023-10-26,15.5672,23.86,8.1898,,309.768,307.89587,307.89587,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2647440,"Cheese, provolone, sliced",2023-10-26,23.45288,28.13,2.45312,,356.794,356.900072,356.900072,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2647441,"Cheese, oaxaca, solid",2023-10-26,22.14498,22.1,2.40202,,297.088,298.113882,298.113882,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2647442,"Cheese, queso fresco, solid",2023-10-26,18.8848,23.36,2.9572,,297.608,297.41686,297.41686,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2647443,"Cheese, cotija, solid",2023-10-26,23.83568,27.24,2.72432,,351.4,351.761072,351.761072,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2684440,"Fish, salmon, sockeye, wild caught, raw",2024-04-18,22.3,4.936,0.0,,129.984,136.22202,136.22202,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2684441,"Fish, salmon, Atlantic, farm raised, raw",2024-04-18,20.31875,13.11,0.0,,197.294,203.10632,203.10632,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2684442,"Fish, tilapia, farm raised, raw",2024-04-18,19.0,2.479,0.0,,94.659,99.95727,99.95727,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2684443,"Crustaceans, shrimp, farm raised, raw",2024-04-18,15.56875,0.8013,0.48495,,71.4265,75.699433,75.699433,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2684444,"Fish, cod, Atlantic, wild caught, raw",2024-04-18,16.06875,0.6675,0.0,,65.9855,70.477065,70.477065,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2684445,"Fish, catfish, farm raised, raw",2024-04-18,16.46875,7.308,0.0,,129.1124,133.787497,133.787497,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2684446,"Crustaceans, crab, blue swimming, lump, pasteurized, refrigerated",2024-04-18,18.65,0.8075,0.0,,80.9935,86.021115,86.021115,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2685568,"Squash, summer, green, zucchini, includes skin, raw",2024-04-18,0.984375,0.205,3.27,0.7525,19.0,16.0,16.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2685569,"Squash, summer, yellow, includes skin, raw",2024-04-18,0.890625,0.135,4.39,0.9563,22.0,19.0,19.0,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2685570,"Squash, winter, butternut, raw",2024-04-18,1.14875,0.1675,10.50745,1.959,48.1323,41.7165215,41.7165215,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2685571,"Squash, winter, acorn, raw",2024-04-18,1.25,0.1825,10.48,2.635,48.5625,41.991125,41.991125,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2685572,"Cabbage, bok choy, raw",2024-04-18,1.02375,0.2338,3.51495,1.259,20.259,17.0032275,17.0032275,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2685573,"Cauliflower, raw",2024-04-18,1.640625,0.2375,4.723075,1.948,27.5923,22.85237775,22.85237775,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2685574,"Collards, raw",2024-04-18,2.96875,0.77,7.02225,3.816,46.894,38.7580825,38.7580825,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2685575,"Brussels sprouts, raw",2024-04-18,3.984375,0.565,9.615625,4.785,59.485,48.77870625,48.77870625,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2685576,"Beets, raw",2024-04-18,1.6875,0.3025,8.787,3.119,44.6205,40.965255,40.965255,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2685577,"Eggplant, raw",2024-04-18,0.851875,0.12,5.399325,2.448,26.0848,22.35856525,22.35856525,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2685578,"Tomatoes, whole, canned, solids and liquids, with salt added",2024-04-18,0.8675,0.2063,4.2874,0.8725,22.4763,19.149449,19.149449,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2685579,"Tomato, sauce, canned, with salt added",2024-04-18,1.351875,0.3825,6.331625,1.636,34.1765,29.10400125,29.10400125,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2685580,"Tomato, paste, canned, without salt added",2024-04-18,4.234375,0.7325,20.188125,4.704,104.2825,88.53450625,88.53450625,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2685581,"Tomatoes, crushed, canned",2024-04-18,1.4375,0.3975,7.137,1.944,37.8755,32.313665,32.313665,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2685582,"Tomato, puree, canned",2024-04-18,1.578125,0.265,8.036875,1.971,40.845,34.76031875,34.76031875,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2710815,"Apricot, with skin, raw",2024-10-31,0.96125,0.405,10.23875,1.51,48.445,43.47915,43.47915,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2710816,"Melons, honeydew, raw",2024-10-31,0.53125,0.2163,8.14995,,36.6715,32.935251,32.935251,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2710817,"Plantains, ripe, raw",2024-10-31,1.15625,0.8933,30.95215,2.125,136.4733,122.789661,122.789661,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2710818,"Plantains, underripe, raw",2024-10-31,1.229375,0.685,33.587325,2.53,145.4318,144.50803225,144.50803225,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2710819,"Chia seeds, dry, raw",2024-10-31,17.013,32.89,38.273,,517.154,490.09552,490.09552,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2710820,"Bulgur, dry, raw",2024-10-31,11.75625,2.421,75.88175,11.72,372.341,349.3017225,349.3017225,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2710821,"Wild rice, dry, raw",2024-10-31,12.7875,1.704,75.6695,4.26,369.164,358.55263,358.55263,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2710822,"Arugula, baby, raw",2024-10-31,1.64875,0.325,5.36825,2.28,30.993,25.9078525,25.9078525,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2710823,"Asparagus, green, raw",2024-10-31,1.4375,0.2163,5.1012,1.883,28.1015,23.529215,23.529215,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2710824,"Avocado, Hass, peeled, raw",2024-10-31,1.8125,20.31,8.3235,,223.334,206.0493,206.0493,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2710825,"Rice, black, unenriched, raw",2024-10-31,7.56875,3.438,77.18825,4.179,369.97,360.53871,360.53871,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2710826,"Corn, sweet, yellow and white kernels,  fresh, raw",2024-10-31,2.789375,1.626,14.689625,2.428,84.55,72.85765625,72.85765625,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2710827,"Einkorn, grain, dry, raw",2024-10-31,15.11719,3.811,68.65381,8.913,369.383,345.6801839,345.6801839,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2710828,"Farro, pearled, dry, raw",2024-10-31,12.63944,3.103,72.13156,7.31,367.011,344.0049964,344.0049964,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2710829,"Fonio, grain, dry, raw",2024-10-31,7.16875,1.693,81.30525,2.197,369.133,376.8911025,376.8911025,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2710830,"Khorasan, grain, dry, raw",2024-10-31,14.75573,2.8,71.79427,10.52,371.4,347.7914113,347.7914113,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2710831,"Kiwifruit (kiwi), green, peeled, raw",2024-10-31,1.008125,0.64,13.818075,2.129,65.0648,58.48917,58.48917,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2710832,"Mandarin, seedless, peeled, raw",2024-10-31,1.039375,0.4575,13.421825,1.328,61.9623,55.640145,55.640145,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2710833,"Mango, Tommy Atkins, peeled, raw",2024-10-31,0.5625,0.5725,15.265,1.753,68.4625,61.635825,61.635825,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2710834,"Mango, Ataulfo, peeled, raw",2024-10-31,0.6875,0.6813,17.3962,1.289,78.4665,70.638801,70.638801,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2710835,"Corn flour, masa harina, white or yellow, dry, raw",2024-10-31,7.5625,4.34,76.6895,7.038,376.068,366.03011,366.03011,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2710836,"Pear, Anjou, green, with skin, raw",2024-10-31,0.3125,0.3713,14.7674,2.636,63.6613,57.320421,57.320421,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2710837,"Plum, black, with skin, raw",2024-10-31,0.578125,0.2825,13.455575,1.346,58.6773,52.747095,52.747095,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2710838,"Rice, red, unenriched, dry, raw",2024-10-31,8.5625,3.44,76.1545,4.198,369.828,359.99995,359.99995,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2710839,"Sorghum bran, white, unenriched, dry, raw",2024-10-31,11.16875,9.259,68.69525,34.95,402.787,364.50325,364.50325,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2710840,"Sorghum flour, white, pearled, unenriched, dry, raw",2024-10-31,10.2125,3.238,73.5065,3.299,364.018,349.558015,349.558015,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2710841,"Sorghum grain, white, pearled, unenriched, dry, raw",2024-10-31,10.25,3.265,74.872,3.916,369.873,338.38971,338.38971,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2710842,"Sorghum, whole grain, white, dry, raw",2024-10-31,10.08125,4.219,73.57375,8.274,372.591,340.98918,340.98918,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2710843,"Plantains, overripe, raw",2024-10-31,1.166875,0.99,29.191425,1.792,130.3432,117.29613,117.29613,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2727566,"Chicken, drumstick, meat and skin, raw",2025-04-24,18.35625,5.94,-0.47505,,124.9848,130.121544,130.121544,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2727567,"Chicken, thigh, meat and skin, raw",2025-04-24,17.10625,13.35,-0.17255,,187.8848,192.792919,192.792919,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2727568,"Chicken, wing, meat and skin, raw",2025-04-24,18.40625,10.64,-0.45875,,167.55,172.792125,172.792125,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2727569,"Chicken, breast, meat and skin, raw",2025-04-24,21.40625,4.777,-0.42825,,126.905,132.8359,132.8359,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2727570,"Lamb, ground, raw",2025-04-24,17.4625,18.64,-0.2508,,236.6068,241.727079,241.727079,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2727571,"Bison, ground, raw",2025-04-24,19.88125,8.88,-0.14955,,158.8468,164.411779,164.411779,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2727572,"Beef, short loin (NY strip steak), raw",2025-04-24,21.325,11.54,0.2212,,190.0448,196.004594,196.004594,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2727573,"Beef, tenderloin steak, raw",2025-04-24,21.09375,6.456,0.18025,,143.2,149.001,149.001,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2727574,"Beef, top sirloin steak, raw",2025-04-24,21.975,5.708,0.218,,140.144,146.16307,146.16307,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2727575,"Pork, chop, center cut, raw",2025-04-24,22.8125,5.475,-0.5625,,138.275,144.617,144.617,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2727576,"Pork, belly, with skin, raw",2025-04-24,15.2,35.83,-0.705,,380.45,385.36225,385.36225,Atwater Specific (2048),USDA FoodData Central,Foundation Foods
+2727577,"Pawpaw, peeled, seeded, raw",2025-04-24,1.151875,,,,,,,Missing,USDA FoodData Central,Foundation Foods
+2727578,"Squash, pie pumpkin, peeled, seeded, raw",2025-04-24,0.854375,,,,,,,Missing,USDA FoodData Central,Foundation Foods
+2727579,"Squash, spaghetti, peeled, seeded, raw",2025-04-24,0.791875,,,,,,,Missing,USDA FoodData Central,Foundation Foods
+2727580,"Rutabaga, peeled, raw",2025-04-24,0.8875,,,,,,,Missing,USDA FoodData Central,Foundation Foods
+2727581,"Blackberries, raw",2025-04-24,1.52625,,,,,,,Missing,USDA FoodData Central,Foundation Foods
+2727582,"Tomatillos, dehusked, raw",2025-04-24,1.064375,,,,,,,Missing,USDA FoodData Central,Foundation Foods
+2727583,"Cabbage, napa, leaf, destemmed, raw",2025-04-24,1.06375,,,,,,,Missing,USDA FoodData Central,Foundation Foods
+2727584,"Leeks, bulb and greens, root removed, raw",2025-04-24,1.4675,,,,,,,Missing,USDA FoodData Central,Foundation Foods
+2727585,"Green onion, (scallion), bulb and greens, root removed, raw",2025-04-24,0.66875,,,,,,,Missing,USDA FoodData Central,Foundation Foods
+2727586,"Shallots, bulb, peeled, root removed, raw",2025-04-24,1.3775,,,,,,,Missing,USDA FoodData Central,Foundation Foods
+2727587,"Juice, prune, shelf-stable",2025-04-24,0.422625,,,,,,,Missing,USDA FoodData Central,Foundation Foods
+2727588,"Juice, pomegranate, from concentrate, shelf-stable",2025-04-24,0.0,,,,,,,Missing,USDA FoodData Central,Foundation Foods
+2727589,"Juice, tart cherry, from concentrate, shelf-stable",2025-04-24,0.1465625,,,,,,,Missing,USDA FoodData Central,Foundation Foods
