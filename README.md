@@ -31,9 +31,9 @@ The food snapshot is ready for the planned lookup integration; the application l
 
 ## What is in this snapshot
 
-`notebooks/` contains the main notebook and catalog build history. `data/` contains source metadata, prepared resources, and the acquired USDA bundle. `results/` contains EDA figures and tables, review packages, producer records, and the saved preparation checks. `docs/` contains review and supporting documentation.
+`notebooks/` contains the main notebook, earlier preparation notebooks, and catalog build history. `data/` contains the committed source register and earlier processed and synthetic inputs. `docs/` contains review and environment documentation.
 
-The existing root cleaning script and `README.txt` describe the earlier heterogeneous dataset package. The large master CSV is an ingestion index, not a jointly labeled athlete-training dataset.
+The complete local preparation evidence—including generated reports and newer reference bundles—is not yet published on this branch. Saved outputs are visible in the main notebook. Complete reproduction will require the remaining inputs and artifacts through a documented access route.
 
 ## Running the current work
 
