@@ -1,0 +1,4477 @@
+{
+  "final_evaluation_profiles": false,
+  "pass_fail_results": null,
+  "records": [
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Applicability, comparison, units, measurement window, and qualifications have been reviewed and adopted.",
+          "Required schedule or history data are complete."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_A12_14_MAX_HOURS"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "check_outcome": "Met"
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "organized_basketball_hours_per_week",
+        "profile": {
+          "age": 13,
+          "school_grade": 8
+        },
+        "unit": "hours/week",
+        "value": 9
+      },
+      "rationale": "Compare a source-limit condition only; whole-plan enforcement remains a separate decision.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_A12_14_MAX_HOURS"
+      ],
+      "test_category": "source_limit_condition",
+      "test_id": "NBA_A12_14_MAX_HOURS_BELOW",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Applicability, comparison, units, measurement window, and qualifications have been reviewed and adopted.",
+          "Required schedule or history data are complete."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_A12_14_MAX_HOURS"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "check_outcome": "Met"
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "organized_basketball_hours_per_week",
+        "profile": {
+          "age": 13,
+          "school_grade": 8
+        },
+        "unit": "hours/week",
+        "value": 10
+      },
+      "rationale": "Compare a source-limit condition only; whole-plan enforcement remains a separate decision.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_A12_14_MAX_HOURS"
+      ],
+      "test_category": "source_limit_condition",
+      "test_id": "NBA_A12_14_MAX_HOURS_EQUAL",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Applicability, comparison, units, measurement window, and qualifications have been reviewed and adopted.",
+          "Required schedule or history data are complete."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_A12_14_MAX_HOURS"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "check_outcome": "Violated"
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "organized_basketball_hours_per_week",
+        "profile": {
+          "age": 13,
+          "school_grade": 8
+        },
+        "unit": "hours/week",
+        "value": 11
+      },
+      "rationale": "Compare a source-limit condition only; whole-plan enforcement remains a separate decision.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_A12_14_MAX_HOURS"
+      ],
+      "test_category": "source_limit_condition",
+      "test_id": "NBA_A12_14_MAX_HOURS_ABOVE",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Applicability, comparison, units, measurement window, and qualifications have been reviewed and adopted.",
+          "Required schedule or history data are complete."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_G9_12_MAX_HOURS"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "check_outcome": "Met"
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "organized_basketball_hours_per_week",
+        "profile": {
+          "age": 15,
+          "school_grade": 10
+        },
+        "unit": "hours/week",
+        "value": 13
+      },
+      "rationale": "Compare a source-limit condition only; whole-plan enforcement remains a separate decision.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_G9_12_MAX_HOURS"
+      ],
+      "test_category": "source_limit_condition",
+      "test_id": "NBA_G9_12_MAX_HOURS_BELOW",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Applicability, comparison, units, measurement window, and qualifications have been reviewed and adopted.",
+          "Required schedule or history data are complete."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_G9_12_MAX_HOURS"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "check_outcome": "Met"
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "organized_basketball_hours_per_week",
+        "profile": {
+          "age": 15,
+          "school_grade": 10
+        },
+        "unit": "hours/week",
+        "value": 14
+      },
+      "rationale": "Compare a source-limit condition only; whole-plan enforcement remains a separate decision.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_G9_12_MAX_HOURS"
+      ],
+      "test_category": "source_limit_condition",
+      "test_id": "NBA_G9_12_MAX_HOURS_EQUAL",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Applicability, comparison, units, measurement window, and qualifications have been reviewed and adopted.",
+          "Required schedule or history data are complete."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_G9_12_MAX_HOURS"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "check_outcome": "Violated"
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "organized_basketball_hours_per_week",
+        "profile": {
+          "age": 15,
+          "school_grade": 10
+        },
+        "unit": "hours/week",
+        "value": 15
+      },
+      "rationale": "Compare a source-limit condition only; whole-plan enforcement remains a separate decision.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_G9_12_MAX_HOURS"
+      ],
+      "test_category": "source_limit_condition",
+      "test_id": "NBA_G9_12_MAX_HOURS_ABOVE",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Applicability, comparison, units, measurement window, and qualifications have been reviewed and adopted.",
+          "Required schedule or history data are complete."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_A12_14_MIN_REST"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "check_outcome": "Violated"
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "rest_days_per_week",
+        "profile": {
+          "age": 13,
+          "school_grade": 8
+        },
+        "unit": "days/week",
+        "value": 0
+      },
+      "rationale": "Compare a source-limit condition only; whole-plan enforcement remains a separate decision.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_A12_14_MIN_REST"
+      ],
+      "test_category": "source_limit_condition",
+      "test_id": "NBA_A12_14_MIN_REST_BELOW",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Applicability, comparison, units, measurement window, and qualifications have been reviewed and adopted.",
+          "Required schedule or history data are complete."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_A12_14_MIN_REST"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "check_outcome": "Met"
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "rest_days_per_week",
+        "profile": {
+          "age": 13,
+          "school_grade": 8
+        },
+        "unit": "days/week",
+        "value": 1
+      },
+      "rationale": "Compare a source-limit condition only; whole-plan enforcement remains a separate decision.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_A12_14_MIN_REST"
+      ],
+      "test_category": "source_limit_condition",
+      "test_id": "NBA_A12_14_MIN_REST_EQUAL",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Applicability, comparison, units, measurement window, and qualifications have been reviewed and adopted.",
+          "Required schedule or history data are complete."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_A12_14_MIN_REST"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "check_outcome": "Met"
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "rest_days_per_week",
+        "profile": {
+          "age": 13,
+          "school_grade": 8
+        },
+        "unit": "days/week",
+        "value": 2
+      },
+      "rationale": "Compare a source-limit condition only; whole-plan enforcement remains a separate decision.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_A12_14_MIN_REST"
+      ],
+      "test_category": "source_limit_condition",
+      "test_id": "NBA_A12_14_MIN_REST_ABOVE",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Applicability, comparison, units, measurement window, and qualifications have been reviewed and adopted.",
+          "Required schedule or history data are complete."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_G9_12_MIN_REST"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "check_outcome": "Violated"
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "rest_days_per_week",
+        "profile": {
+          "age": 15,
+          "school_grade": 10
+        },
+        "unit": "days/week",
+        "value": 0
+      },
+      "rationale": "Compare a source-limit condition only; whole-plan enforcement remains a separate decision.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_G9_12_MIN_REST"
+      ],
+      "test_category": "source_limit_condition",
+      "test_id": "NBA_G9_12_MIN_REST_BELOW",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Applicability, comparison, units, measurement window, and qualifications have been reviewed and adopted.",
+          "Required schedule or history data are complete."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_G9_12_MIN_REST"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "check_outcome": "Met"
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "rest_days_per_week",
+        "profile": {
+          "age": 15,
+          "school_grade": 10
+        },
+        "unit": "days/week",
+        "value": 1
+      },
+      "rationale": "Compare a source-limit condition only; whole-plan enforcement remains a separate decision.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_G9_12_MIN_REST"
+      ],
+      "test_category": "source_limit_condition",
+      "test_id": "NBA_G9_12_MIN_REST_EQUAL",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Applicability, comparison, units, measurement window, and qualifications have been reviewed and adopted.",
+          "Required schedule or history data are complete."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_G9_12_MIN_REST"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "check_outcome": "Met"
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "rest_days_per_week",
+        "profile": {
+          "age": 15,
+          "school_grade": 10
+        },
+        "unit": "days/week",
+        "value": 2
+      },
+      "rationale": "Compare a source-limit condition only; whole-plan enforcement remains a separate decision.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_G9_12_MIN_REST"
+      ],
+      "test_category": "source_limit_condition",
+      "test_id": "NBA_G9_12_MIN_REST_ABOVE",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Applicability, comparison, units, measurement window, and qualifications have been reviewed and adopted.",
+          "Required schedule or history data are complete."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_A12_14_MAX_MONTHS"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "check_outcome": "Met"
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "organized_basketball_months_per_year",
+        "profile": {
+          "age": 13,
+          "school_grade": 8
+        },
+        "unit": "months/year",
+        "value": 6
+      },
+      "rationale": "Compare a source-limit condition only; whole-plan enforcement remains a separate decision.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_A12_14_MAX_MONTHS"
+      ],
+      "test_category": "source_limit_condition",
+      "test_id": "NBA_A12_14_MAX_MONTHS_BELOW",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Applicability, comparison, units, measurement window, and qualifications have been reviewed and adopted.",
+          "Required schedule or history data are complete."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_A12_14_MAX_MONTHS"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "check_outcome": "Met"
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "organized_basketball_months_per_year",
+        "profile": {
+          "age": 13,
+          "school_grade": 8
+        },
+        "unit": "months/year",
+        "value": 7
+      },
+      "rationale": "Compare a source-limit condition only; whole-plan enforcement remains a separate decision.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_A12_14_MAX_MONTHS"
+      ],
+      "test_category": "source_limit_condition",
+      "test_id": "NBA_A12_14_MAX_MONTHS_EQUAL",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Applicability, comparison, units, measurement window, and qualifications have been reviewed and adopted.",
+          "Required schedule or history data are complete."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_A12_14_MAX_MONTHS"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "check_outcome": "Violated"
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "organized_basketball_months_per_year",
+        "profile": {
+          "age": 13,
+          "school_grade": 8
+        },
+        "unit": "months/year",
+        "value": 8
+      },
+      "rationale": "Compare a source-limit condition only; whole-plan enforcement remains a separate decision.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_A12_14_MAX_MONTHS"
+      ],
+      "test_category": "source_limit_condition",
+      "test_id": "NBA_A12_14_MAX_MONTHS_ABOVE",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "The descriptive recommendation interpretation and measurement period have been adopted."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_A13_14_SLEEP"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "recommendation_position": "below",
+        "required_failure_inferred_from_position_alone": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "sleep_hours_per_night",
+        "profile": {
+          "age": 13,
+          "school_grade": 8
+        },
+        "unit": "hours/night",
+        "value": 7
+      },
+      "rationale": "A descriptive recommendation is not automatically a mandatory minimum, maximum, or equality check.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_A13_14_SLEEP"
+      ],
+      "test_category": "descriptive_recommendation",
+      "test_id": "NBA_A13_14_SLEEP_BELOW",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "The descriptive recommendation interpretation and measurement period have been adopted."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_A13_14_SLEEP"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "recommendation_position": "within",
+        "required_failure_inferred_from_position_alone": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "sleep_hours_per_night",
+        "profile": {
+          "age": 13,
+          "school_grade": 8
+        },
+        "unit": "hours/night",
+        "value": 8
+      },
+      "rationale": "A descriptive recommendation is not automatically a mandatory minimum, maximum, or equality check.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_A13_14_SLEEP"
+      ],
+      "test_category": "descriptive_recommendation",
+      "test_id": "NBA_A13_14_SLEEP_LOWER",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "The descriptive recommendation interpretation and measurement period have been adopted."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_A13_14_SLEEP"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "recommendation_position": "within",
+        "required_failure_inferred_from_position_alone": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "sleep_hours_per_night",
+        "profile": {
+          "age": 13,
+          "school_grade": 8
+        },
+        "unit": "hours/night",
+        "value": 9
+      },
+      "rationale": "A descriptive recommendation is not automatically a mandatory minimum, maximum, or equality check.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_A13_14_SLEEP"
+      ],
+      "test_category": "descriptive_recommendation",
+      "test_id": "NBA_A13_14_SLEEP_INSIDE",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "The descriptive recommendation interpretation and measurement period have been adopted."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_A13_14_SLEEP"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "recommendation_position": "within",
+        "required_failure_inferred_from_position_alone": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "sleep_hours_per_night",
+        "profile": {
+          "age": 13,
+          "school_grade": 8
+        },
+        "unit": "hours/night",
+        "value": 10
+      },
+      "rationale": "A descriptive recommendation is not automatically a mandatory minimum, maximum, or equality check.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_A13_14_SLEEP"
+      ],
+      "test_category": "descriptive_recommendation",
+      "test_id": "NBA_A13_14_SLEEP_UPPER",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "The descriptive recommendation interpretation and measurement period have been adopted."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_A13_14_SLEEP"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "recommendation_position": "above",
+        "required_failure_inferred_from_position_alone": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "sleep_hours_per_night",
+        "profile": {
+          "age": 13,
+          "school_grade": 8
+        },
+        "unit": "hours/night",
+        "value": 11
+      },
+      "rationale": "A descriptive recommendation is not automatically a mandatory minimum, maximum, or equality check.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_A13_14_SLEEP"
+      ],
+      "test_category": "descriptive_recommendation",
+      "test_id": "NBA_A13_14_SLEEP_ABOVE",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "The descriptive recommendation interpretation and measurement period have been adopted."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_G9_12_SLEEP"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "recommendation_position": "below",
+        "required_failure_inferred_from_position_alone": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "sleep_hours_per_night",
+        "profile": {
+          "age": 15,
+          "school_grade": 10
+        },
+        "unit": "hours/night",
+        "value": 7
+      },
+      "rationale": "A descriptive recommendation is not automatically a mandatory minimum, maximum, or equality check.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_G9_12_SLEEP"
+      ],
+      "test_category": "descriptive_recommendation",
+      "test_id": "NBA_G9_12_SLEEP_BELOW",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "The descriptive recommendation interpretation and measurement period have been adopted."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_G9_12_SLEEP"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "recommendation_position": "within",
+        "required_failure_inferred_from_position_alone": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "sleep_hours_per_night",
+        "profile": {
+          "age": 15,
+          "school_grade": 10
+        },
+        "unit": "hours/night",
+        "value": 8
+      },
+      "rationale": "A descriptive recommendation is not automatically a mandatory minimum, maximum, or equality check.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_G9_12_SLEEP"
+      ],
+      "test_category": "descriptive_recommendation",
+      "test_id": "NBA_G9_12_SLEEP_LOWER",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "The descriptive recommendation interpretation and measurement period have been adopted."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_G9_12_SLEEP"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "recommendation_position": "within",
+        "required_failure_inferred_from_position_alone": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "sleep_hours_per_night",
+        "profile": {
+          "age": 15,
+          "school_grade": 10
+        },
+        "unit": "hours/night",
+        "value": 9
+      },
+      "rationale": "A descriptive recommendation is not automatically a mandatory minimum, maximum, or equality check.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_G9_12_SLEEP"
+      ],
+      "test_category": "descriptive_recommendation",
+      "test_id": "NBA_G9_12_SLEEP_INSIDE",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "The descriptive recommendation interpretation and measurement period have been adopted."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_G9_12_SLEEP"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "recommendation_position": "within",
+        "required_failure_inferred_from_position_alone": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "sleep_hours_per_night",
+        "profile": {
+          "age": 15,
+          "school_grade": 10
+        },
+        "unit": "hours/night",
+        "value": 10
+      },
+      "rationale": "A descriptive recommendation is not automatically a mandatory minimum, maximum, or equality check.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_G9_12_SLEEP"
+      ],
+      "test_category": "descriptive_recommendation",
+      "test_id": "NBA_G9_12_SLEEP_UPPER",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "The descriptive recommendation interpretation and measurement period have been adopted."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_G9_12_SLEEP"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "recommendation_position": "above",
+        "required_failure_inferred_from_position_alone": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "sleep_hours_per_night",
+        "profile": {
+          "age": 15,
+          "school_grade": 10
+        },
+        "unit": "hours/night",
+        "value": 11
+      },
+      "rationale": "A descriptive recommendation is not automatically a mandatory minimum, maximum, or equality check.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_G9_12_SLEEP"
+      ],
+      "test_category": "descriptive_recommendation",
+      "test_id": "NBA_G9_12_SLEEP_ABOVE",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "The descriptive recommendation interpretation and measurement period have been adopted."
+        ],
+        "reviewed_contract_ids": [
+          "CDC_TEENS_SLEEP"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "recommendation_position": "below",
+        "required_failure_inferred_from_position_alone": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "sleep_hours_per_24h",
+        "profile": {
+          "age": 15,
+          "school_grade": 10
+        },
+        "unit": "hours/day",
+        "value": 7
+      },
+      "rationale": "A descriptive recommendation is not automatically a mandatory minimum, maximum, or equality check.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "CDC_TEENS_SLEEP"
+      ],
+      "test_category": "descriptive_recommendation",
+      "test_id": "CDC_TEENS_SLEEP_BELOW",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "The descriptive recommendation interpretation and measurement period have been adopted."
+        ],
+        "reviewed_contract_ids": [
+          "CDC_TEENS_SLEEP"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "recommendation_position": "within",
+        "required_failure_inferred_from_position_alone": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "sleep_hours_per_24h",
+        "profile": {
+          "age": 15,
+          "school_grade": 10
+        },
+        "unit": "hours/day",
+        "value": 8
+      },
+      "rationale": "A descriptive recommendation is not automatically a mandatory minimum, maximum, or equality check.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "CDC_TEENS_SLEEP"
+      ],
+      "test_category": "descriptive_recommendation",
+      "test_id": "CDC_TEENS_SLEEP_LOWER",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "The descriptive recommendation interpretation and measurement period have been adopted."
+        ],
+        "reviewed_contract_ids": [
+          "CDC_TEENS_SLEEP"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "recommendation_position": "within",
+        "required_failure_inferred_from_position_alone": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "sleep_hours_per_24h",
+        "profile": {
+          "age": 15,
+          "school_grade": 10
+        },
+        "unit": "hours/day",
+        "value": 9
+      },
+      "rationale": "A descriptive recommendation is not automatically a mandatory minimum, maximum, or equality check.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "CDC_TEENS_SLEEP"
+      ],
+      "test_category": "descriptive_recommendation",
+      "test_id": "CDC_TEENS_SLEEP_INSIDE",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "The descriptive recommendation interpretation and measurement period have been adopted."
+        ],
+        "reviewed_contract_ids": [
+          "CDC_TEENS_SLEEP"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "recommendation_position": "within",
+        "required_failure_inferred_from_position_alone": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "sleep_hours_per_24h",
+        "profile": {
+          "age": 15,
+          "school_grade": 10
+        },
+        "unit": "hours/day",
+        "value": 10
+      },
+      "rationale": "A descriptive recommendation is not automatically a mandatory minimum, maximum, or equality check.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "CDC_TEENS_SLEEP"
+      ],
+      "test_category": "descriptive_recommendation",
+      "test_id": "CDC_TEENS_SLEEP_UPPER",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "The descriptive recommendation interpretation and measurement period have been adopted."
+        ],
+        "reviewed_contract_ids": [
+          "CDC_TEENS_SLEEP"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "recommendation_position": "above",
+        "required_failure_inferred_from_position_alone": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "sleep_hours_per_24h",
+        "profile": {
+          "age": 15,
+          "school_grade": 10
+        },
+        "unit": "hours/day",
+        "value": 11
+      },
+      "rationale": "A descriptive recommendation is not automatically a mandatory minimum, maximum, or equality check.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "CDC_TEENS_SLEEP"
+      ],
+      "test_category": "descriptive_recommendation",
+      "test_id": "CDC_TEENS_SLEEP_ABOVE",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "The descriptive recommendation interpretation and measurement period have been adopted."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_A12_14_PRACTICE_LENGTH"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "recommendation_position": "below",
+        "required_failure_inferred_from_position_alone": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "practice_duration_minutes",
+        "profile": {
+          "age": 13,
+          "school_grade": 8
+        },
+        "unit": "minutes/practice",
+        "value": 59
+      },
+      "rationale": "A descriptive recommendation is not automatically a mandatory minimum, maximum, or equality check.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_A12_14_PRACTICE_LENGTH"
+      ],
+      "test_category": "descriptive_recommendation",
+      "test_id": "NBA_A12_14_PRACTICE_LENGTH_BELOW",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "The descriptive recommendation interpretation and measurement period have been adopted."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_A12_14_PRACTICE_LENGTH"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "recommendation_position": "within",
+        "required_failure_inferred_from_position_alone": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "practice_duration_minutes",
+        "profile": {
+          "age": 13,
+          "school_grade": 8
+        },
+        "unit": "minutes/practice",
+        "value": 60
+      },
+      "rationale": "A descriptive recommendation is not automatically a mandatory minimum, maximum, or equality check.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_A12_14_PRACTICE_LENGTH"
+      ],
+      "test_category": "descriptive_recommendation",
+      "test_id": "NBA_A12_14_PRACTICE_LENGTH_LOWER",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "The descriptive recommendation interpretation and measurement period have been adopted."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_A12_14_PRACTICE_LENGTH"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "recommendation_position": "within",
+        "required_failure_inferred_from_position_alone": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "practice_duration_minutes",
+        "profile": {
+          "age": 13,
+          "school_grade": 8
+        },
+        "unit": "minutes/practice",
+        "value": 75
+      },
+      "rationale": "A descriptive recommendation is not automatically a mandatory minimum, maximum, or equality check.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_A12_14_PRACTICE_LENGTH"
+      ],
+      "test_category": "descriptive_recommendation",
+      "test_id": "NBA_A12_14_PRACTICE_LENGTH_INSIDE",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "The descriptive recommendation interpretation and measurement period have been adopted."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_A12_14_PRACTICE_LENGTH"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "recommendation_position": "within",
+        "required_failure_inferred_from_position_alone": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "practice_duration_minutes",
+        "profile": {
+          "age": 13,
+          "school_grade": 8
+        },
+        "unit": "minutes/practice",
+        "value": 90
+      },
+      "rationale": "A descriptive recommendation is not automatically a mandatory minimum, maximum, or equality check.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_A12_14_PRACTICE_LENGTH"
+      ],
+      "test_category": "descriptive_recommendation",
+      "test_id": "NBA_A12_14_PRACTICE_LENGTH_UPPER",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "The descriptive recommendation interpretation and measurement period have been adopted."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_A12_14_PRACTICE_LENGTH"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "recommendation_position": "above",
+        "required_failure_inferred_from_position_alone": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "practice_duration_minutes",
+        "profile": {
+          "age": 13,
+          "school_grade": 8
+        },
+        "unit": "minutes/practice",
+        "value": 91
+      },
+      "rationale": "A descriptive recommendation is not automatically a mandatory minimum, maximum, or equality check.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_A12_14_PRACTICE_LENGTH"
+      ],
+      "test_category": "descriptive_recommendation",
+      "test_id": "NBA_A12_14_PRACTICE_LENGTH_ABOVE",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "The descriptive recommendation interpretation and measurement period have been adopted."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_G9_12_PRACTICE_LENGTH"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "recommendation_position": "below",
+        "required_failure_inferred_from_position_alone": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "practice_duration_minutes",
+        "profile": {
+          "age": 15,
+          "school_grade": 10
+        },
+        "unit": "minutes/practice",
+        "value": 89
+      },
+      "rationale": "A descriptive recommendation is not automatically a mandatory minimum, maximum, or equality check.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_G9_12_PRACTICE_LENGTH"
+      ],
+      "test_category": "descriptive_recommendation",
+      "test_id": "NBA_G9_12_PRACTICE_LENGTH_BELOW",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "The descriptive recommendation interpretation and measurement period have been adopted."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_G9_12_PRACTICE_LENGTH"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "recommendation_position": "within",
+        "required_failure_inferred_from_position_alone": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "practice_duration_minutes",
+        "profile": {
+          "age": 15,
+          "school_grade": 10
+        },
+        "unit": "minutes/practice",
+        "value": 90
+      },
+      "rationale": "A descriptive recommendation is not automatically a mandatory minimum, maximum, or equality check.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_G9_12_PRACTICE_LENGTH"
+      ],
+      "test_category": "descriptive_recommendation",
+      "test_id": "NBA_G9_12_PRACTICE_LENGTH_LOWER",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "The descriptive recommendation interpretation and measurement period have been adopted."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_G9_12_PRACTICE_LENGTH"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "recommendation_position": "within",
+        "required_failure_inferred_from_position_alone": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "practice_duration_minutes",
+        "profile": {
+          "age": 15,
+          "school_grade": 10
+        },
+        "unit": "minutes/practice",
+        "value": 105
+      },
+      "rationale": "A descriptive recommendation is not automatically a mandatory minimum, maximum, or equality check.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_G9_12_PRACTICE_LENGTH"
+      ],
+      "test_category": "descriptive_recommendation",
+      "test_id": "NBA_G9_12_PRACTICE_LENGTH_INSIDE",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "The descriptive recommendation interpretation and measurement period have been adopted."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_G9_12_PRACTICE_LENGTH"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "recommendation_position": "within",
+        "required_failure_inferred_from_position_alone": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "practice_duration_minutes",
+        "profile": {
+          "age": 15,
+          "school_grade": 10
+        },
+        "unit": "minutes/practice",
+        "value": 120
+      },
+      "rationale": "A descriptive recommendation is not automatically a mandatory minimum, maximum, or equality check.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_G9_12_PRACTICE_LENGTH"
+      ],
+      "test_category": "descriptive_recommendation",
+      "test_id": "NBA_G9_12_PRACTICE_LENGTH_UPPER",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "The descriptive recommendation interpretation and measurement period have been adopted."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_G9_12_PRACTICE_LENGTH"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "recommendation_position": "above",
+        "required_failure_inferred_from_position_alone": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "practice_duration_minutes",
+        "profile": {
+          "age": 15,
+          "school_grade": 10
+        },
+        "unit": "minutes/practice",
+        "value": 121
+      },
+      "rationale": "A descriptive recommendation is not automatically a mandatory minimum, maximum, or equality check.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_G9_12_PRACTICE_LENGTH"
+      ],
+      "test_category": "descriptive_recommendation",
+      "test_id": "NBA_G9_12_PRACTICE_LENGTH_ABOVE",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "The descriptive recommendation interpretation and measurement period have been adopted."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_A12_14_PRACTICES"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "recommendation_position": "below",
+        "required_failure_inferred_from_position_alone": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "practices_per_week",
+        "profile": {
+          "age": 13,
+          "school_grade": 8
+        },
+        "unit": "practices/week",
+        "value": 1
+      },
+      "rationale": "A descriptive recommendation is not automatically a mandatory minimum, maximum, or equality check.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_A12_14_PRACTICES"
+      ],
+      "test_category": "descriptive_recommendation",
+      "test_id": "NBA_A12_14_PRACTICES_BELOW",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "The descriptive recommendation interpretation and measurement period have been adopted."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_A12_14_PRACTICES"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "recommendation_position": "within",
+        "required_failure_inferred_from_position_alone": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "practices_per_week",
+        "profile": {
+          "age": 13,
+          "school_grade": 8
+        },
+        "unit": "practices/week",
+        "value": 2
+      },
+      "rationale": "A descriptive recommendation is not automatically a mandatory minimum, maximum, or equality check.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_A12_14_PRACTICES"
+      ],
+      "test_category": "descriptive_recommendation",
+      "test_id": "NBA_A12_14_PRACTICES_LOWER",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "The descriptive recommendation interpretation and measurement period have been adopted."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_A12_14_PRACTICES"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "recommendation_position": "within",
+        "required_failure_inferred_from_position_alone": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "practices_per_week",
+        "profile": {
+          "age": 13,
+          "school_grade": 8
+        },
+        "unit": "practices/week",
+        "value": 3
+      },
+      "rationale": "A descriptive recommendation is not automatically a mandatory minimum, maximum, or equality check.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_A12_14_PRACTICES"
+      ],
+      "test_category": "descriptive_recommendation",
+      "test_id": "NBA_A12_14_PRACTICES_INSIDE",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "The descriptive recommendation interpretation and measurement period have been adopted."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_A12_14_PRACTICES"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "recommendation_position": "within",
+        "required_failure_inferred_from_position_alone": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "practices_per_week",
+        "profile": {
+          "age": 13,
+          "school_grade": 8
+        },
+        "unit": "practices/week",
+        "value": 4
+      },
+      "rationale": "A descriptive recommendation is not automatically a mandatory minimum, maximum, or equality check.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_A12_14_PRACTICES"
+      ],
+      "test_category": "descriptive_recommendation",
+      "test_id": "NBA_A12_14_PRACTICES_UPPER",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "The descriptive recommendation interpretation and measurement period have been adopted."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_A12_14_PRACTICES"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "recommendation_position": "above",
+        "required_failure_inferred_from_position_alone": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "practices_per_week",
+        "profile": {
+          "age": 13,
+          "school_grade": 8
+        },
+        "unit": "practices/week",
+        "value": 5
+      },
+      "rationale": "A descriptive recommendation is not automatically a mandatory minimum, maximum, or equality check.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_A12_14_PRACTICES"
+      ],
+      "test_category": "descriptive_recommendation",
+      "test_id": "NBA_A12_14_PRACTICES_ABOVE",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "The descriptive recommendation interpretation and measurement period have been adopted."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_G9_12_PRACTICES"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "recommendation_position": "below",
+        "required_failure_inferred_from_position_alone": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "practices_per_week",
+        "profile": {
+          "age": 15,
+          "school_grade": 10
+        },
+        "unit": "practices/week",
+        "value": 2
+      },
+      "rationale": "A descriptive recommendation is not automatically a mandatory minimum, maximum, or equality check.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_G9_12_PRACTICES"
+      ],
+      "test_category": "descriptive_recommendation",
+      "test_id": "NBA_G9_12_PRACTICES_BELOW",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "The descriptive recommendation interpretation and measurement period have been adopted."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_G9_12_PRACTICES"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "recommendation_position": "within",
+        "required_failure_inferred_from_position_alone": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "practices_per_week",
+        "profile": {
+          "age": 15,
+          "school_grade": 10
+        },
+        "unit": "practices/week",
+        "value": 3
+      },
+      "rationale": "A descriptive recommendation is not automatically a mandatory minimum, maximum, or equality check.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_G9_12_PRACTICES"
+      ],
+      "test_category": "descriptive_recommendation",
+      "test_id": "NBA_G9_12_PRACTICES_LOWER",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "The descriptive recommendation interpretation and measurement period have been adopted."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_G9_12_PRACTICES"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "recommendation_position": "within",
+        "required_failure_inferred_from_position_alone": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "practices_per_week",
+        "profile": {
+          "age": 15,
+          "school_grade": 10
+        },
+        "unit": "practices/week",
+        "value": 4
+      },
+      "rationale": "A descriptive recommendation is not automatically a mandatory minimum, maximum, or equality check.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_G9_12_PRACTICES"
+      ],
+      "test_category": "descriptive_recommendation",
+      "test_id": "NBA_G9_12_PRACTICES_UPPER",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "The descriptive recommendation interpretation and measurement period have been adopted."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_G9_12_PRACTICES"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "recommendation_position": "above",
+        "required_failure_inferred_from_position_alone": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "practices_per_week",
+        "profile": {
+          "age": 15,
+          "school_grade": 10
+        },
+        "unit": "practices/week",
+        "value": 5
+      },
+      "rationale": "A descriptive recommendation is not automatically a mandatory minimum, maximum, or equality check.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_G9_12_PRACTICES"
+      ],
+      "test_category": "descriptive_recommendation",
+      "test_id": "NBA_G9_12_PRACTICES_ABOVE",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "The descriptive recommendation interpretation and measurement period have been adopted."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_A12_14_GAMES_WEEK"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "recommendation_position": "below",
+        "required_failure_inferred_from_position_alone": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "games_per_week",
+        "profile": {
+          "age": 13,
+          "school_grade": 8
+        },
+        "unit": "games/week",
+        "value": 1
+      },
+      "rationale": "A descriptive recommendation is not automatically a mandatory minimum, maximum, or equality check.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_A12_14_GAMES_WEEK"
+      ],
+      "test_category": "descriptive_recommendation",
+      "test_id": "NBA_A12_14_GAMES_WEEK_BELOW",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "The descriptive recommendation interpretation and measurement period have been adopted."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_A12_14_GAMES_WEEK"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "recommendation_position": "within",
+        "required_failure_inferred_from_position_alone": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "games_per_week",
+        "profile": {
+          "age": 13,
+          "school_grade": 8
+        },
+        "unit": "games/week",
+        "value": 2
+      },
+      "rationale": "A descriptive recommendation is not automatically a mandatory minimum, maximum, or equality check.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_A12_14_GAMES_WEEK"
+      ],
+      "test_category": "descriptive_recommendation",
+      "test_id": "NBA_A12_14_GAMES_WEEK_EXACT",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "The descriptive recommendation interpretation and measurement period have been adopted."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_A12_14_GAMES_WEEK"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "recommendation_position": "above",
+        "required_failure_inferred_from_position_alone": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "games_per_week",
+        "profile": {
+          "age": 13,
+          "school_grade": 8
+        },
+        "unit": "games/week",
+        "value": 3
+      },
+      "rationale": "A descriptive recommendation is not automatically a mandatory minimum, maximum, or equality check.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_A12_14_GAMES_WEEK"
+      ],
+      "test_category": "descriptive_recommendation",
+      "test_id": "NBA_A12_14_GAMES_WEEK_ABOVE",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "The descriptive recommendation interpretation and measurement period have been adopted."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_G9_12_GAMES_WEEK"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "recommendation_position": "below",
+        "required_failure_inferred_from_position_alone": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "games_per_week",
+        "profile": {
+          "age": 15,
+          "school_grade": 10
+        },
+        "unit": "games/week",
+        "value": 1
+      },
+      "rationale": "A descriptive recommendation is not automatically a mandatory minimum, maximum, or equality check.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_G9_12_GAMES_WEEK"
+      ],
+      "test_category": "descriptive_recommendation",
+      "test_id": "NBA_G9_12_GAMES_WEEK_BELOW",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "The descriptive recommendation interpretation and measurement period have been adopted."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_G9_12_GAMES_WEEK"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "recommendation_position": "within",
+        "required_failure_inferred_from_position_alone": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "games_per_week",
+        "profile": {
+          "age": 15,
+          "school_grade": 10
+        },
+        "unit": "games/week",
+        "value": 2
+      },
+      "rationale": "A descriptive recommendation is not automatically a mandatory minimum, maximum, or equality check.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_G9_12_GAMES_WEEK"
+      ],
+      "test_category": "descriptive_recommendation",
+      "test_id": "NBA_G9_12_GAMES_WEEK_LOWER",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "The descriptive recommendation interpretation and measurement period have been adopted."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_G9_12_GAMES_WEEK"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "recommendation_position": "within",
+        "required_failure_inferred_from_position_alone": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "games_per_week",
+        "profile": {
+          "age": 15,
+          "school_grade": 10
+        },
+        "unit": "games/week",
+        "value": 3
+      },
+      "rationale": "A descriptive recommendation is not automatically a mandatory minimum, maximum, or equality check.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_G9_12_GAMES_WEEK"
+      ],
+      "test_category": "descriptive_recommendation",
+      "test_id": "NBA_G9_12_GAMES_WEEK_UPPER",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "The descriptive recommendation interpretation and measurement period have been adopted."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_G9_12_GAMES_WEEK"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "recommendation_position": "above",
+        "required_failure_inferred_from_position_alone": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "metric": "games_per_week",
+        "profile": {
+          "age": 15,
+          "school_grade": 10
+        },
+        "unit": "games/week",
+        "value": 4
+      },
+      "rationale": "A descriptive recommendation is not automatically a mandatory minimum, maximum, or equality check.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_G9_12_GAMES_WEEK"
+      ],
+      "test_category": "descriptive_recommendation",
+      "test_id": "NBA_G9_12_GAMES_WEEK_ABOVE",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Relevant proposed policy has been reviewed and adopted for the test harness.",
+          "Source applicability is resolved except where the case explicitly tests unresolved applicability."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_G9_12_MAX_MONTHS"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "minimum_participation_inferred": false,
+        "range_of_published_maximums": [
+          9,
+          10
+        ],
+        "selected_application_cutoff": null
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "reported_months": 8
+      },
+      "rationale": "A lower endpoint in a range of maximums is not a participation minimum.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_G9_12_MAX_MONTHS"
+      ],
+      "test_category": "representation",
+      "test_id": "ANNUAL_RANGE_NO_MINIMUM",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Relevant proposed policy has been reviewed and adopted for the test harness.",
+          "Source applicability is resolved except where the case explicitly tests unresolved applicability."
+        ],
+        "reviewed_contract_ids": [
+          "AAP_WEEKLY_SPORT_REST"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "reject_for_exceeding_two_rest_days": false,
+        "scope_review_still_required": true
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "reported_rest_days": 3
+      },
+      "rationale": "The recorded rest recommendation does not prohibit additional rest.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "AAP_WEEKLY_SPORT_REST"
+      ],
+      "test_category": "representation",
+      "test_id": "AAP_REST_NOT_CEILING",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Relevant proposed policy has been reviewed and adopted for the test harness.",
+          "Source applicability is resolved except where the case explicitly tests unresolved applicability."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_A12_SLEEP",
+          "POLICY_SCOPE"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "project_scope": "outside_target",
+        "response_behavior": "explain_target_age_scope"
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "age": 12,
+        "source_age_predicate_matches": true
+      },
+      "rationale": "The source exception remains recorded while the application target is 13-17.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_A12_SLEEP",
+        "POLICY_SCOPE"
+      ],
+      "test_category": "scope",
+      "test_id": "AGE12_PROJECT_SCOPE",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Relevant proposed policy has been reviewed and adopted for the test harness.",
+          "Source applicability is resolved except where the case explicitly tests unresolved applicability."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_A12_14_MAX_HOURS",
+          "NBA_G9_12_MAX_HOURS",
+          "POLICY_RESULT_SEMANTICS"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "check_outcome": "Unknown",
+        "response_behavior": "request_segment_resolution"
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "age": 14,
+        "school_grade": 9,
+        "segment_precedence_decision": null
+      },
+      "rationale": "Do not silently select either a stricter or more permissive limit.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_A12_14_MAX_HOURS",
+        "NBA_G9_12_MAX_HOURS",
+        "POLICY_RESULT_SEMANTICS"
+      ],
+      "test_category": "applicability",
+      "test_id": "OVERLAPPING_SEGMENTS",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Relevant proposed policy has been reviewed and adopted for the test harness.",
+          "Source applicability is resolved except where the case explicitly tests unresolved applicability."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_G9_12_MAX_HOURS",
+          "POLICY_RESULT_SEMANTICS"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "check_outcome": "Unknown"
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "age": 15,
+        "school_grade": null
+      },
+      "rationale": "Missing grade does not establish that a grade-based source is inapplicable.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_G9_12_MAX_HOURS",
+        "POLICY_RESULT_SEMANTICS"
+      ],
+      "test_category": "applicability",
+      "test_id": "MISSING_GRADE",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Relevant proposed policy has been reviewed and adopted for the test harness.",
+          "Source applicability is resolved except where the case explicitly tests unresolved applicability."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_G9_12_MAX_HOURS"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "check_outcome": "Not applicable",
+        "reason": "known_grade_outside_9_to_12"
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "age": 13,
+        "school_grade": 8
+      },
+      "rationale": "An established population exclusion supports Not applicable.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_G9_12_MAX_HOURS"
+      ],
+      "test_category": "applicability",
+      "test_id": "KNOWN_OUTSIDE_GRADE",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Relevant proposed policy has been reviewed and adopted for the test harness.",
+          "Source applicability is resolved except where the case explicitly tests unresolved applicability."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_A12_14_MAX_HOURS",
+          "POLICY_TIMING_INTEGRITY"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "check_outcome": "Met",
+        "organized_hours": 10
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "age": 13,
+        "organized_minutes": 600,
+        "school_grade": 8
+      },
+      "rationale": "Adopted hour/minute conversion must retain the boundary.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_A12_14_MAX_HOURS",
+        "POLICY_TIMING_INTEGRITY"
+      ],
+      "test_category": "units",
+      "test_id": "MINUTES_AT_LIMIT",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Relevant proposed policy has been reviewed and adopted for the test harness.",
+          "Source applicability is resolved except where the case explicitly tests unresolved applicability."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_A12_14_MAX_HOURS",
+          "POLICY_TIMING_INTEGRITY"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "check_outcome": "Violated"
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "age": 13,
+        "organized_minutes": 601,
+        "school_grade": 8
+      },
+      "rationale": "Do not round a known excess back into the limit.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_A12_14_MAX_HOURS",
+        "POLICY_TIMING_INTEGRITY"
+      ],
+      "test_category": "units",
+      "test_id": "MINUTES_ABOVE_LIMIT",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Relevant proposed policy has been reviewed and adopted for the test harness.",
+          "Source applicability is resolved except where the case explicitly tests unresolved applicability."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_A12_14_MAX_HOURS",
+          "POLICY_RESULT_SEMANTICS"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "check_outcome": "Violated"
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "additional_session_hours": null,
+        "age": 13,
+        "known_hours": 11,
+        "school_grade": 8
+      },
+      "rationale": "A proven conflict survives unrelated missing duration information.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_A12_14_MAX_HOURS",
+        "POLICY_RESULT_SEMANTICS"
+      ],
+      "test_category": "partial_information",
+      "test_id": "KNOWN_EXCESS_UNKNOWN_EXTRA",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Relevant proposed policy has been reviewed and adopted for the test harness.",
+          "Source applicability is resolved except where the case explicitly tests unresolved applicability."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_A12_14_MIN_REST",
+          "POLICY_RESULT_SEMANTICS"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "check_outcome": "Violated"
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "known_organized_activity_days": 7,
+        "some_durations_unknown": true
+      },
+      "rationale": "Known organized activity on all seven days establishes no basketball-rest day.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_A12_14_MIN_REST",
+        "POLICY_RESULT_SEMANTICS"
+      ],
+      "test_category": "partial_information",
+      "test_id": "KNOWN_SEVEN_ACTIVE_DAYS",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Relevant proposed policy has been reviewed and adopted for the test harness.",
+          "Source applicability is resolved except where the case explicitly tests unresolved applicability."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_A12_14_MIN_REST",
+          "POLICY_RESULT_SEMANTICS"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "check_outcome": "Unknown"
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "known_organized_activity_days": 2,
+        "remaining_day_activity_unknown": true
+      },
+      "rationale": "Missing activity history must not manufacture rest days.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_A12_14_MIN_REST",
+        "POLICY_RESULT_SEMANTICS"
+      ],
+      "test_category": "partial_information",
+      "test_id": "INCOMPLETE_WEEK_REST",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Relevant proposed policy has been reviewed and adopted for the test harness.",
+          "Source applicability is resolved except where the case explicitly tests unresolved applicability."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_A12_14_MAX_MONTHS",
+          "POLICY_RESULT_SEMANTICS"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "check_outcome": "Unknown"
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "annual_history": null,
+        "weekly_plan_available": true
+      },
+      "rationale": "A proposed week does not establish annual participation.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_A12_14_MAX_MONTHS",
+        "POLICY_RESULT_SEMANTICS"
+      ],
+      "test_category": "history",
+      "test_id": "ANNUAL_HISTORY_MISSING",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Relevant proposed policy has been reviewed and adopted for the test harness.",
+          "Source applicability is resolved except where the case explicitly tests unresolved applicability."
+        ],
+        "reviewed_contract_ids": [
+          "CDC_TEENS_SLEEP",
+          "POLICY_RESULT_SEMANTICS"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "check_outcome": "Unknown"
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "reported_sleep": null,
+        "weekly_training_plan_available": true
+      },
+      "rationale": "A training plan does not establish actual sleep.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "CDC_TEENS_SLEEP",
+        "POLICY_RESULT_SEMANTICS"
+      ],
+      "test_category": "history",
+      "test_id": "SLEEP_HISTORY_MISSING",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Relevant proposed policy has been reviewed and adopted for the test harness.",
+          "Source applicability is resolved except where the case explicitly tests unresolved applicability."
+        ],
+        "reviewed_contract_ids": [
+          "CDC_TEENS_SLEEP",
+          "NBA_G9_12_SLEEP"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "nightly_condition": "Unknown",
+        "periods_silently_equated": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "daily_sleep_hours": 9,
+        "nightly_sleep_hours": null
+      },
+      "rationale": "Daily and nightly reports need their own measurement contracts.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "CDC_TEENS_SLEEP",
+        "NBA_G9_12_SLEEP"
+      ],
+      "test_category": "measurement_period",
+      "test_id": "DAILY_NIGHTLY_PERIOD",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Relevant proposed policy has been reviewed and adopted for the test harness.",
+          "Source applicability is resolved except where the case explicitly tests unresolved applicability."
+        ],
+        "reviewed_contract_ids": [
+          "POLICY_SESSION_ACCOUNTING"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "counted_minutes": 60
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "component_minutes": [
+          20,
+          20,
+          20
+        ],
+        "components_are_inside_parent": true,
+        "parent_minutes": 60
+      },
+      "rationale": "Components contained in a practice are not added again.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "POLICY_SESSION_ACCOUNTING"
+      ],
+      "test_category": "accounting",
+      "test_id": "PARENT_COMPONENT_COUNTING",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Relevant proposed policy has been reviewed and adopted for the test harness.",
+          "Source applicability is resolved except where the case explicitly tests unresolved applicability."
+        ],
+        "reviewed_contract_ids": [
+          "POLICY_TIMING_INTEGRITY",
+          "POLICY_SESSION_ACCOUNTING"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "schedule_minutes": 8,
+        "source_prescription_changed": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "planned_session_minutes": 8,
+        "source_prescription": "4 x 1 minute"
+      },
+      "rationale": "Planned time budgets remain separate from mixed source prescriptions.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "POLICY_TIMING_INTEGRITY",
+        "POLICY_SESSION_ACCOUNTING"
+      ],
+      "test_category": "accounting",
+      "test_id": "SOURCE_PLANNED_TIME",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Relevant proposed policy has been reviewed and adopted for the test harness.",
+          "Source applicability is resolved except where the case explicitly tests unresolved applicability."
+        ],
+        "reviewed_contract_ids": [
+          "NBA_A12_14_MAX_HOURS",
+          "POLICY_SESSION_ACCOUNTING"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "check_outcome": "Unknown",
+        "unknown_session_excluded_as_zero": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "additional_session_classification": null,
+        "known_hours": 5
+      },
+      "rationale": "Uncertain classification cannot silently remove potentially counted activity.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "NBA_A12_14_MAX_HOURS",
+        "POLICY_SESSION_ACCOUNTING"
+      ],
+      "test_category": "accounting",
+      "test_id": "CLASSIFICATION_UNKNOWN",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Relevant proposed policy has been reviewed and adopted for the test harness.",
+          "Source applicability is resolved except where the case explicitly tests unresolved applicability."
+        ],
+        "reviewed_contract_ids": [
+          "USER_AVAILABLE_TIME"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "check_outcome": "Violated"
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "available_days": [
+          "Tuesday",
+          "Thursday"
+        ],
+        "proposed_day": "Monday"
+      },
+      "rationale": "This requirement comes from the synthetic user inputs, not a publisher.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "USER_AVAILABLE_TIME"
+      ],
+      "test_category": "user_constraint",
+      "test_id": "UNAVAILABLE_DAY",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Relevant proposed policy has been reviewed and adopted for the test harness.",
+          "Source applicability is resolved except where the case explicitly tests unresolved applicability."
+        ],
+        "reviewed_contract_ids": [
+          "USER_AVAILABLE_TIME",
+          "USER_EXISTING_COMMITMENTS"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "check_outcome": "Violated",
+        "existing_commitments_removed": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "available_minutes": 90,
+        "existing_minutes": 90,
+        "proposed_additional_minutes": 30
+      },
+      "rationale": "Existing commitments consume the supplied budget.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "USER_AVAILABLE_TIME",
+        "USER_EXISTING_COMMITMENTS"
+      ],
+      "test_category": "user_constraint",
+      "test_id": "COMMITMENTS_USE_BUDGET",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Relevant proposed policy has been reviewed and adopted for the test harness.",
+          "Source applicability is resolved except where the case explicitly tests unresolved applicability."
+        ],
+        "reviewed_contract_ids": [
+          "POLICY_TIMING_INTEGRITY",
+          "USER_EXISTING_COMMITMENTS"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "check_outcome": "Violated"
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "existing_interval": [
+          "10:00",
+          "11:00"
+        ],
+        "proposed_interval": [
+          "10:30",
+          "11:30"
+        ],
+        "same_date_zone": true
+      },
+      "rationale": "The adopted time-interval contract must identify overlap.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "POLICY_TIMING_INTEGRITY",
+        "USER_EXISTING_COMMITMENTS"
+      ],
+      "test_category": "timing",
+      "test_id": "OVERLAPPING_ACTIVITIES",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Relevant proposed policy has been reviewed and adopted for the test harness.",
+          "Source applicability is resolved except where the case explicitly tests unresolved applicability."
+        ],
+        "reviewed_contract_ids": [
+          "USER_PARTICIPANTS"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "check_outcome": "Unknown"
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "activity_minimum_participants": null,
+        "available_participants": 1
+      },
+      "rationale": "An unknown source requirement is not an assumed one-person drill.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "USER_PARTICIPANTS"
+      ],
+      "test_category": "user_constraint",
+      "test_id": "UNKNOWN_PARTICIPANT_REQUIREMENT",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Relevant proposed policy has been reviewed and adopted for the test harness.",
+          "Source applicability is resolved except where the case explicitly tests unresolved applicability."
+        ],
+        "reviewed_contract_ids": [
+          "USER_PARTICIPANTS"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "check_outcome": "Violated",
+        "fixture_only": true
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "available_participants": 1,
+        "synthetic_activity_minimum": 2
+      },
+      "rationale": "The test supplies a synthetic requirement rather than inferring one from the catalog.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "USER_PARTICIPANTS"
+      ],
+      "test_category": "user_constraint",
+      "test_id": "KNOWN_PARTICIPANT_CONFLICT",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Relevant proposed policy has been reviewed and adopted for the test harness.",
+          "Source applicability is resolved except where the case explicitly tests unresolved applicability."
+        ],
+        "reviewed_contract_ids": [
+          "USER_EQUIPMENT_SPACE"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "check_outcome": "Violated",
+        "fixture_only": true
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "available_resources": [
+          "basketball"
+        ],
+        "synthetic_required_resources": [
+          "basketball",
+          "hoop"
+        ]
+      },
+      "rationale": "A known required resource is unavailable in this synthetic case.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "USER_EQUIPMENT_SPACE"
+      ],
+      "test_category": "user_constraint",
+      "test_id": "EQUIPMENT_SPACE_CONFLICT",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Relevant proposed policy has been reviewed and adopted for the test harness.",
+          "Source applicability is resolved except where the case explicitly tests unresolved applicability."
+        ],
+        "reviewed_contract_ids": [
+          "USER_EQUIPMENT_SPACE"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "check_outcome": "Unknown"
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "activity_requirements_reviewed": false,
+        "available_resources": [
+          "basketball"
+        ]
+      },
+      "rationale": "Available equipment alone does not prove that unknown requirements are met.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "USER_EQUIPMENT_SPACE"
+      ],
+      "test_category": "user_constraint",
+      "test_id": "UNKNOWN_ACTIVITY_REQUIREMENT",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Relevant proposed policy has been reviewed and adopted for the test harness.",
+          "Source applicability is resolved except where the case explicitly tests unresolved applicability."
+        ],
+        "reviewed_contract_ids": [
+          "POLICY_CATALOG_ELIGIBILITY"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "response_behavior": "explain_no_eligible_catalog_activities",
+        "unapproved_activity_selected": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "eligible_drill_count": 0,
+        "request_requires_drill_selection": true
+      },
+      "rationale": "The current empty eligible collection cannot supply approved drill selections.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "POLICY_CATALOG_ELIGIBILITY"
+      ],
+      "test_category": "eligibility",
+      "test_id": "REAL_CATALOG_EMPTY_ELIGIBILITY",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Relevant proposed policy has been reviewed and adopted for the test harness.",
+          "Source applicability is resolved except where the case explicitly tests unresolved applicability."
+        ],
+        "reviewed_contract_ids": [
+          "POLICY_CATALOG_ELIGIBILITY"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "check_outcome": "Met",
+        "real_catalog_changed": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "approved": true,
+        "eligible": true,
+        "fixture_activity_id": "TEST-ONLY-ACTIVITY",
+        "fixture_only": true,
+        "requirements_reviewed": true
+      },
+      "rationale": "A hypothetical positive fixture does not approve a real catalog record.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "POLICY_CATALOG_ELIGIBILITY"
+      ],
+      "test_category": "eligibility",
+      "test_id": "SYNTHETIC_APPROVED_ACTIVITY",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Relevant proposed policy has been reviewed and adopted for the test harness.",
+          "Source applicability is resolved except where the case explicitly tests unresolved applicability."
+        ],
+        "reviewed_contract_ids": [
+          "POLICY_REQUIRED_INFORMATION"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "complete_plan_claimed": false,
+        "response_behavior": "request_clarification"
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "case_type": "missing_essential_information",
+        "required_profile_input_missing": true
+      },
+      "rationale": "Shared essential-input gaps have predefined clarification behavior.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "POLICY_REQUIRED_INFORMATION"
+      ],
+      "test_category": "response_behavior",
+      "test_id": "ESSENTIAL_PROFILE_MISSING",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Relevant proposed policy has been reviewed and adopted for the test harness.",
+          "Source applicability is resolved except where the case explicitly tests unresolved applicability."
+        ],
+        "reviewed_contract_ids": [
+          "POLICY_REQUIRED_INFORMATION",
+          "POLICY_INDEPENDENT_EVALUATION"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "check_outcome": "Unknown",
+        "feasible_case_success": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "case_type": "feasible",
+        "required_plan_duration_missing": true
+      },
+      "rationale": "A planner output omission cannot improve its score by removing a required check.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "POLICY_REQUIRED_INFORMATION",
+        "POLICY_INDEPENDENT_EVALUATION"
+      ],
+      "test_category": "evaluation",
+      "test_id": "REQUIRED_OUTPUT_MISSING",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Relevant proposed policy has been reviewed and adopted for the test harness.",
+          "Source applicability is resolved except where the case explicitly tests unresolved applicability."
+        ],
+        "reviewed_contract_ids": [
+          "POLICY_INDEPENDENT_EVALUATION",
+          "POLICY_RESULT_SEMANTICS"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "advisory_outcome": "Unknown",
+        "new_required_failure_invented": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "advisory_history_missing": true,
+        "all_required_case_checks_met": true
+      },
+      "rationale": "Use the frozen case-level contract rather than introducing a new required check after generation.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "POLICY_INDEPENDENT_EVALUATION",
+        "POLICY_RESULT_SEMANTICS"
+      ],
+      "test_category": "evaluation",
+      "test_id": "OPTIONAL_HISTORY_UNKNOWN",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Relevant proposed policy has been reviewed and adopted for the test harness.",
+          "Source applicability is resolved except where the case explicitly tests unresolved applicability."
+        ],
+        "reviewed_contract_ids": [
+          "POLICY_INDEPENDENT_EVALUATION"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "denominator": 150,
+        "numerator": 149
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "executed": 150,
+        "scheduled_feasible": 150,
+        "successful": 149
+      },
+      "rationale": "An executed failure stays in the fixed primary denominator.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "POLICY_INDEPENDENT_EVALUATION"
+      ],
+      "test_category": "evaluation",
+      "test_id": "ONE_EXECUTED_FAILURE",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Relevant proposed policy has been reviewed and adopted for the test harness.",
+          "Source applicability is resolved except where the case explicitly tests unresolved applicability."
+        ],
+        "reviewed_contract_ids": [
+          "POLICY_INDEPENDENT_EVALUATION"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "completed_final_rate_reportable": false,
+        "experiment_status": "incomplete",
+        "scheduled_denominator": 150
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "executed": 149,
+        "scheduled_feasible": 150,
+        "successful": 149
+      },
+      "rationale": "An unexecuted job makes the comparison incomplete.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "POLICY_INDEPENDENT_EVALUATION"
+      ],
+      "test_category": "evaluation",
+      "test_id": "UNEXECUTED_JOB",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Relevant proposed policy has been reviewed and adopted for the test harness.",
+          "Source applicability is resolved except where the case explicitly tests unresolved applicability."
+        ],
+        "reviewed_contract_ids": [
+          "POLICY_INDEPENDENT_EVALUATION"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "feasible_case_success": false,
+        "internal_result_substituted_for_final_score": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "independent_required_check": "Violated",
+        "version4_internal_result": "pass"
+      },
+      "rationale": "Version 4's internal grader cannot replace independent evaluation.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "POLICY_INDEPENDENT_EVALUATION"
+      ],
+      "test_category": "evaluation",
+      "test_id": "INTERNAL_SCORE_NOT_FINAL",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Relevant proposed policy has been reviewed and adopted for the test harness.",
+          "Source applicability is resolved except where the case explicitly tests unresolved applicability."
+        ],
+        "reviewed_contract_ids": [
+          "POLICY_SCOPE"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "rehabilitation_program_generated": false,
+        "response_behavior": "scope_explanation_or_professional_guidance"
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "request_type": "injury_rehabilitation_program"
+      },
+      "rationale": "Keep the response within the defined project scope.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "POLICY_SCOPE"
+      ],
+      "test_category": "scope",
+      "test_id": "REHABILITATION_REQUEST",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Relevant proposed policy has been reviewed and adopted for the test harness.",
+          "Source applicability is resolved except where the case explicitly tests unresolved applicability."
+        ],
+        "reviewed_contract_ids": [
+          "POLICY_SCOPE",
+          "POLICY_RESULT_SEMANTICS"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "medical_clearance_inferred": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "injury_state": "unknown"
+      },
+      "rationale": "Unknown injury status is not a report of no injury or clearance.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "POLICY_SCOPE",
+        "POLICY_RESULT_SEMANTICS"
+      ],
+      "test_category": "scope",
+      "test_id": "UNKNOWN_INJURY_STATE",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Relevant proposed policy has been reviewed and adopted for the test harness.",
+          "Source applicability is resolved except where the case explicitly tests unresolved applicability."
+        ],
+        "reviewed_contract_ids": [
+          "POLICY_REVIEW_ACTIVATION"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "enabled_for_planner": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "adoption_decision": null,
+        "peer_review": "pending",
+        "source_values_match": true
+      },
+      "rationale": "Prepared evidence does not create a human adoption decision.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "POLICY_REVIEW_ACTIVATION"
+      ],
+      "test_category": "review_state",
+      "test_id": "PREPARATION_NOT_ACTIVATION",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Finite numeric duration validation and the missing-information policy have been adopted."
+        ],
+        "reviewed_contract_ids": [
+          "POLICY_TIMING_INTEGRITY",
+          "POLICY_REQUIRED_INFORMATION"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "check_outcome": "Unknown",
+        "coerced_to_zero": false,
+        "input_problem_identified": true
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "session_duration": null,
+        "unit": "minutes"
+      },
+      "rationale": "Invalid or missing session duration is not a valid zero-minute contribution.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "POLICY_TIMING_INTEGRITY",
+        "POLICY_REQUIRED_INFORMATION"
+      ],
+      "test_category": "invalid_or_missing_input",
+      "test_id": "DURATION_MISSING",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Finite numeric duration validation and the missing-information policy have been adopted."
+        ],
+        "reviewed_contract_ids": [
+          "POLICY_TIMING_INTEGRITY",
+          "POLICY_REQUIRED_INFORMATION"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "check_outcome": "Unknown",
+        "coerced_to_zero": false,
+        "input_problem_identified": true
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "session_duration": -1,
+        "unit": "minutes"
+      },
+      "rationale": "Invalid or missing session duration is not a valid zero-minute contribution.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "POLICY_TIMING_INTEGRITY",
+        "POLICY_REQUIRED_INFORMATION"
+      ],
+      "test_category": "invalid_or_missing_input",
+      "test_id": "DURATION_NEGATIVE",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Finite numeric duration validation and the missing-information policy have been adopted."
+        ],
+        "reviewed_contract_ids": [
+          "POLICY_TIMING_INTEGRITY",
+          "POLICY_REQUIRED_INFORMATION"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "check_outcome": "Unknown",
+        "coerced_to_zero": false,
+        "input_problem_identified": true
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "session_duration": true,
+        "unit": "minutes"
+      },
+      "rationale": "Invalid or missing session duration is not a valid zero-minute contribution.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "POLICY_TIMING_INTEGRITY",
+        "POLICY_REQUIRED_INFORMATION"
+      ],
+      "test_category": "invalid_or_missing_input",
+      "test_id": "DURATION_BOOLEAN",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Finite numeric duration validation and the missing-information policy have been adopted."
+        ],
+        "reviewed_contract_ids": [
+          "POLICY_TIMING_INTEGRITY",
+          "POLICY_REQUIRED_INFORMATION"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "check_outcome": "Unknown",
+        "coerced_to_zero": false,
+        "input_problem_identified": true
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "session_duration": "NaN",
+        "unit": "minutes"
+      },
+      "rationale": "Invalid or missing session duration is not a valid zero-minute contribution.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "POLICY_TIMING_INTEGRITY",
+        "POLICY_REQUIRED_INFORMATION"
+      ],
+      "test_category": "invalid_or_missing_input",
+      "test_id": "DURATION_NAN_TEXT",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Finite numeric duration validation and the missing-information policy have been adopted."
+        ],
+        "reviewed_contract_ids": [
+          "POLICY_TIMING_INTEGRITY",
+          "POLICY_REQUIRED_INFORMATION"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "check_outcome": "Unknown",
+        "coerced_to_zero": false,
+        "input_problem_identified": true
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "session_duration": "Infinity",
+        "unit": "minutes"
+      },
+      "rationale": "Invalid or missing session duration is not a valid zero-minute contribution.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "POLICY_TIMING_INTEGRITY",
+        "POLICY_REQUIRED_INFORMATION"
+      ],
+      "test_category": "invalid_or_missing_input",
+      "test_id": "DURATION_INFINITY_TEXT",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [
+          "Finite numeric duration validation and the missing-information policy have been adopted."
+        ],
+        "reviewed_contract_ids": [
+          "POLICY_TIMING_INTEGRITY",
+          "POLICY_REQUIRED_INFORMATION"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "check_outcome": "Unknown",
+        "coerced_to_zero": false,
+        "input_problem_identified": true
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "session_duration": 8,
+        "unit": "hours/night"
+      },
+      "rationale": "Invalid or missing session duration is not a valid zero-minute contribution.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "POLICY_TIMING_INTEGRITY",
+        "POLICY_REQUIRED_INFORMATION"
+      ],
+      "test_category": "invalid_or_missing_input",
+      "test_id": "DURATION_INCOMPATIBLE_UNIT",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [],
+        "reviewed_contract_ids": [
+          "RECOVERY-GUIDANCE-ed612a4be4514a8669e0",
+          "POLICY_RESULT_SEMANTICS"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "automatic_second_sleep_score_created": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "guidance_topic": "Sleep",
+        "no_additional_personal_history": true
+      },
+      "rationale": "Retain the qualitative statement and review its use without inventing an executable threshold.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "RECOVERY-GUIDANCE-ed612a4be4514a8669e0",
+        "POLICY_RESULT_SEMANTICS"
+      ],
+      "test_category": "qualitative_guidance",
+      "test_id": "GENERAL_SLEEP",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [],
+        "reviewed_contract_ids": [
+          "RECOVERY-GUIDANCE-b4431f70157742ed152d",
+          "POLICY_RESULT_SEMANTICS"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "automatic_duplicate_rest_check_created": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "guidance_topic": "Rest",
+        "no_additional_personal_history": true
+      },
+      "rationale": "Retain the qualitative statement and review its use without inventing an executable threshold.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "RECOVERY-GUIDANCE-b4431f70157742ed152d",
+        "POLICY_RESULT_SEMANTICS"
+      ],
+      "test_category": "qualitative_guidance",
+      "test_id": "GENERAL_REST",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [],
+        "reviewed_contract_ids": [
+          "RECOVERY-GUIDANCE-6e306f115a65dbdd9e95",
+          "POLICY_RESULT_SEMANTICS"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "numeric_progression_percentage_invented": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "guidance_topic": "Training load",
+        "no_additional_personal_history": true
+      },
+      "rationale": "Retain the qualitative statement and review its use without inventing an executable threshold.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "RECOVERY-GUIDANCE-6e306f115a65dbdd9e95",
+        "POLICY_RESULT_SEMANTICS"
+      ],
+      "test_category": "qualitative_guidance",
+      "test_id": "GENERAL_TRAINING_LOAD",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [],
+        "reviewed_contract_ids": [
+          "RECOVERY-GUIDANCE-48fe143c5cd140813352",
+          "POLICY_RESULT_SEMANTICS"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "diagnosis_inferred": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "guidance_topic": "Fatigue",
+        "no_additional_personal_history": true
+      },
+      "rationale": "Retain the qualitative statement and review its use without inventing an executable threshold.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "RECOVERY-GUIDANCE-48fe143c5cd140813352",
+        "POLICY_RESULT_SEMANTICS"
+      ],
+      "test_category": "qualitative_guidance",
+      "test_id": "GENERAL_FATIGUE",
+      "test_layer": "contract_unit"
+    },
+    {
+      "contract_prerequisites": {
+        "additional_assumptions": [],
+        "reviewed_contract_ids": [
+          "RECOVERY-GUIDANCE-9918e3d81af2dba2604b",
+          "POLICY_RESULT_SEMANTICS"
+        ],
+        "this_is_a_conditional_specification": true
+      },
+      "evaluation_role": "development_contract_specification",
+      "execution_status": "not_run",
+      "expected_if_contract_adopted": {
+        "injury_state_or_medical_clearance_inferred": false
+      },
+      "fixture_context": {
+        "applicability": "Established by the unit harness unless the case explicitly tests missing or unresolved applicability.",
+        "complete_end_to_end_profile": false,
+        "context_defaults_must_not_override_explicit_inputs": true,
+        "measurement_window": "Established by the unit harness unless the case explicitly tests incomplete or incompatible measurement context."
+      },
+      "freeze_status": "draft_pending_review",
+      "independent_review_status": "pending",
+      "inputs": {
+        "guidance_topic": "Injury",
+        "no_additional_personal_history": true
+      },
+      "rationale": "Retain the qualitative statement and review its use without inventing an executable threshold.",
+      "retrieval_eligible": false,
+      "review_date": null,
+      "reviewer": null,
+      "specification_origin": "assistant_authored_contract_example",
+      "subject_candidate_ids": [
+        "RECOVERY-GUIDANCE-9918e3d81af2dba2604b",
+        "POLICY_RESULT_SEMANTICS"
+      ],
+      "test_category": "qualitative_guidance",
+      "test_id": "GENERAL_INJURY",
+      "test_layer": "contract_unit"
+    }
+  ],
+  "retrieval_eligible": false,
+  "schema_version": "step13-development-test-specifications-1",
+  "status": "draft_pending_independent_review",
+  "validator_tests_executed": 0
+}

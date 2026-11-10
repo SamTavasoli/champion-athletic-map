@@ -1,0 +1,26 @@
+{
+  "step": "12-28",
+  "cases": 8,
+  "source_comparison_pairs": 11,
+  "source_occurrence_checks": 19,
+  "unique_source_urls": 7,
+  "official_page_fetch_counts": {
+    "fetched": 7
+  },
+  "activity_heading_screens": {
+    "exact_heading_present": 18,
+    "similar_heading_review": 1
+  },
+  "prescription_text_screens": {
+    "recorded_phrase_present_in_section": 15,
+    "recorded_prescription_unspecified": 1,
+    "requires_manual_prescription_check": 2,
+    "section_not_available_for_comparison": 1
+  },
+  "manual_reconciliation_decisions_complete": 0,
+  "auto_merges": 0,
+  "auto_approvals": 0,
+  "input_catalog_modified": false,
+  "source_html_persisted": false,
+  "source_review_limit": "HTML heading and phrase screens are not independent verification of instructional meaning, variation equivalence, or reuse permissions."
+}

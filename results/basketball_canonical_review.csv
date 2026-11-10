@@ -1,0 +1,28 @@
+group_id,normalized_name,display_name,source_occurrences,evidence_ids,curriculum_levels,proposed_skills,scope_review,distinctness_status,permission_status,planner_approved
+JR-GROUP-0001,1 2 3 triple threat,1.2.3. Triple Threat,2,JR-EVID-0004;JR-EVID-0026,Rookie;Starter,footwork,basketball_drill_candidate,pending_review,pending_review,no
+JR-GROUP-0002,advantage numbers game,Advantage Numbers Game,1,JR-EVID-0030,Rookie,offense,basketball_drill_candidate,pending_review,pending_review,no
+JR-GROUP-0003,around the world wraps,Around The World Wraps,1,JR-EVID-0008,Rookie,ball_handling,basketball_drill_candidate,pending_review,pending_review,no
+JR-GROUP-0004,cone dribbling,Cone Dribbling,2,JR-EVID-0011;JR-EVID-0015,MVP;Starter,ball_handling,basketball_drill_candidate,pending_review,pending_review,no
+JR-GROUP-0005,diamond passing,Diamond Passing,1,JR-EVID-0010,Starter,passing,basketball_drill_candidate,pending_review,pending_review,no
+JR-GROUP-0006,forward backward lateral march,Forward/Backward/Lateral March,1,JR-EVID-0019,Rookie,footwork,general_warmup_candidate,pending_review,pending_review,no
+JR-GROUP-0007,gates passing game,Gates Passing Game,1,JR-EVID-0027,Rookie,passing,basketball_drill_candidate,pending_review,pending_review,no
+JR-GROUP-0008,gauntlet dribbling,Gauntlet Dribbling,1,JR-EVID-0012,All-Star,ball_handling,basketball_drill_candidate,pending_review,pending_review,no
+JR-GROUP-0009,high knees,High Knees,1,JR-EVID-0020,Rookie,footwork,general_warmup_candidate,pending_review,pending_review,no
+JR-GROUP-0010,hot ball taps,Hot Ball (Taps),1,JR-EVID-0007,Rookie,ball_handling,basketball_drill_candidate,pending_review,pending_review,no
+JR-GROUP-0011,partner decision dribbling game,Partner Decision Dribbling Game,1,JR-EVID-0013,All-Star,ball_handling,basketball_drill_candidate,pending_review,pending_review,no
+JR-GROUP-0012,pound pass drill,Pound Pass Drill,1,JR-EVID-0016,MVP,passing,basketball_drill_candidate,pending_review,pending_review,no
+JR-GROUP-0013,quick feet,Quick Feet,1,JR-EVID-0021,Rookie,footwork,general_warmup_candidate,pending_review,pending_review,no
+JR-GROUP-0014,red light,Red Light,1,JR-EVID-0028,Rookie,ball_handling,basketball_drill_candidate,pending_review,pending_review,no
+JR-GROUP-0015,retreat dribble drill,Retreat Dribble Drill,1,JR-EVID-0005,Starter,ball_handling,basketball_drill_candidate,pending_review,pending_review,no
+JR-GROUP-0016,run to that line,Run to That Line,2,JR-EVID-0009;JR-EVID-0018,Rookie;Starter,footwork,general_warmup_candidate,pending_review,pending_review,no
+JR-GROUP-0017,running stop drill,Running Stop Drill,1,JR-EVID-0001,Rookie,footwork,basketball_drill_candidate,pending_review,pending_review,no
+JR-GROUP-0018,shooting line game,Shooting Line Game,1,JR-EVID-0029,Rookie,shooting,basketball_drill_candidate,pending_review,pending_review,no
+JR-GROUP-0019,side push,Side Push,1,JR-EVID-0022,Rookie,footwork,general_warmup_candidate,pending_review,pending_review,no
+JR-GROUP-0020,skip pass 2 on 1,Skip Pass 2 on 1,1,JR-EVID-0014,All-Star,passing,basketball_drill_candidate,pending_review,pending_review,no
+JR-GROUP-0021,slip pass drill,Slip Pass Drill,1,JR-EVID-0017,MVP,passing,basketball_drill_candidate,pending_review,pending_review,no
+JR-GROUP-0022,smacks,Smacks,1,JR-EVID-0002,Rookie,ball_handling,basketball_drill_candidate,pending_review,pending_review,no
+JR-GROUP-0023,stationary crossover low middle high,"Stationary Crossover Low, Middle, High",1,JR-EVID-0003,Rookie,ball_handling,basketball_drill_candidate,pending_review,pending_review,no
+JR-GROUP-0024,stationary dribble low middle,Stationary Dribble Low/Middle,1,JR-EVID-0024,Rookie,ball_handling,basketball_drill_candidate,pending_review,pending_review,no
+JR-GROUP-0025,the escape game,The Escape Game,1,JR-EVID-0006,Rookie,footwork,general_warmup_candidate,pending_review,pending_review,no
+JR-GROUP-0026,toss catch,Toss & Catch,1,JR-EVID-0023,Rookie,ball_handling,basketball_drill_candidate,pending_review,pending_review,no
+JR-GROUP-0027,up or down game,Up or Down Game,1,JR-EVID-0025,Rookie,ball_handling,basketball_drill_candidate,pending_review,pending_review,no

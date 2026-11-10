@@ -1,0 +1,4 @@
+candidate_group_id,evidence_id,drill_name,reviewed_fields,retain_recommendations,revision_recommendations,evidence_gaps,source_url,human_review_status,catalog_approved,planner_eligible
+JR-REVIEW-0032,JR-EVID-0012,Gauntlet Dribbling,2,1,1,0,https://jr.nba.com/basketball-practice-plans/all-star/,pending,no,no
+JR-REVIEW-0040,JR-EVID-0013,Partner Decision Dribbling Game,2,2,0,0,https://jr.nba.com/basketball-practice-plans/all-star/,pending,no,no
+JR-REVIEW-0057,JR-EVID-0014,Skip Pass 2 on 1,2,1,1,0,https://jr.nba.com/basketball-practice-plans/all-star/,pending,no,no

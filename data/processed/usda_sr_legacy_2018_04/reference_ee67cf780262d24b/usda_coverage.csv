@@ -1,0 +1,16 @@
+food_category_id,food_category,selected_foods,available_nutrient_fields,unavailable_nutrient_fields,foods_with_household_records
+1,Dairy and Egg Products,10,50,0,10
+2,Spices and Herbs,2,10,0,2
+4,Fats and Oils,3,15,0,3
+5,Poultry Products,8,40,0,8
+8,Breakfast Cereals,2,10,0,2
+9,Fruits and Fruit Juices,12,60,0,12
+10,Pork Products,4,20,0,4
+11,Vegetables and Vegetable Products,16,80,0,16
+12,Nut and Seed Products,6,30,0,6
+13,Beef Products,4,20,0,4
+14,Beverages,3,15,0,3
+15,Finfish and Shellfish Products,8,39,1,8
+16,Legumes and Legume Products,12,59,1,12
+18,Baked Products,2,10,0,2
+20,Cereal Grains and Pasta,8,40,0,8

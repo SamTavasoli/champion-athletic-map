@@ -1,0 +1,24 @@
+{
+  "step": "12-30",
+  "catalog_candidate_groups": 144,
+  "review_cases": 8,
+  "source_comparison_pairs": 11,
+  "unique_source_urls": 7,
+  "fetched_source_pages": 7,
+  "source_occurrences_screened": 19,
+  "source_section_statuses": {
+    "section_available_for_screening": 18,
+    "section_unavailable": 1
+  },
+  "pair_content_signals": {
+    "high_text_similarity_review": 4,
+    "identical_extracted_sections": 6,
+    "insufficient_section_evidence": 1
+  },
+  "manual_distinctness_decisions_pending": 8,
+  "canonical_merges": 0,
+  "catalog_approvals": 0,
+  "planner_eligible": 0,
+  "original_files_overwritten": false,
+  "git_operations": false
+}

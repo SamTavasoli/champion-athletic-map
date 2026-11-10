@@ -1,0 +1,24 @@
+check_name,status,details
+evidence_values:NBA_A12_14_MAX_HOURS,pass,"Typed values, metric, units, and source population correspond to the dated evidence entry for NBA_A12_14_MAX_HOURS"
+evidence_values:NBA_G9_12_MAX_HOURS,pass,"Typed values, metric, units, and source population correspond to the dated evidence entry for NBA_G9_12_MAX_HOURS"
+evidence_values:NBA_A12_14_MIN_REST,pass,"Typed values, metric, units, and source population correspond to the dated evidence entry for NBA_A12_14_MIN_REST"
+evidence_values:NBA_G9_12_MIN_REST,pass,"Typed values, metric, units, and source population correspond to the dated evidence entry for NBA_G9_12_MIN_REST"
+evidence_values:NBA_A12_14_MAX_MONTHS,pass,"Typed values, metric, units, and source population correspond to the dated evidence entry for NBA_A12_14_MAX_MONTHS"
+evidence_values:NBA_G9_12_MAX_MONTHS,pass,"Typed values, metric, units, and source population correspond to the dated evidence entry for NBA_G9_12_MAX_MONTHS"
+evidence_values:NBA_A13_14_SLEEP,pass,"Typed values, metric, units, and source population correspond to the dated evidence entry for NBA_A13_14_SLEEP"
+evidence_values:NBA_G9_12_SLEEP,pass,"Typed values, metric, units, and source population correspond to the dated evidence entry for NBA_G9_12_SLEEP"
+evidence_values:NBA_A12_SLEEP,pass,"Typed values, metric, units, and source population correspond to the dated evidence entry for NBA_A12_SLEEP"
+evidence_values:NBA_A12_14_PRACTICE_LENGTH,pass,"Typed values, metric, units, and source population correspond to the dated evidence entry for NBA_A12_14_PRACTICE_LENGTH"
+evidence_values:NBA_G9_12_PRACTICE_LENGTH,pass,"Typed values, metric, units, and source population correspond to the dated evidence entry for NBA_G9_12_PRACTICE_LENGTH"
+evidence_values:NBA_A12_14_PRACTICES,pass,"Typed values, metric, units, and source population correspond to the dated evidence entry for NBA_A12_14_PRACTICES"
+evidence_values:NBA_G9_12_PRACTICES,pass,"Typed values, metric, units, and source population correspond to the dated evidence entry for NBA_G9_12_PRACTICES"
+evidence_values:NBA_A12_14_GAMES_WEEK,pass,"Typed values, metric, units, and source population correspond to the dated evidence entry for NBA_A12_14_GAMES_WEEK"
+evidence_values:NBA_G9_12_GAMES_WEEK,pass,"Typed values, metric, units, and source population correspond to the dated evidence entry for NBA_G9_12_GAMES_WEEK"
+evidence_values:CDC_TEENS_SLEEP,pass,"Typed values, metric, units, and source population correspond to the dated evidence entry for CDC_TEENS_SLEEP"
+evidence_values:AAP_WEEKLY_SPORT_REST,pass,"Typed values, metric, units, and source population correspond to the dated evidence entry for AAP_WEEKLY_SPORT_REST"
+record_identity,pass,All inventory candidates remain separate.
+raw_records_preserved,pass,Original field values and upstream assertions remain intact.
+review_decisions_preserved,pass,All original review fields remain unchanged.
+application_decisions_unadopted,pass,Source values have not become application operators or active rules.
+evidence_references,pass,Every proposal references its supporting evidence scope.
+original_source_relationships,pass,Original references match the expected publisher or explicitly retained AAP article aliases.

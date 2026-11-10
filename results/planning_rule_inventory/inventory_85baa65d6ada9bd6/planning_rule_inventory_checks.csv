@@ -1,0 +1,12 @@
+check_name,status,details
+current_step12_producer,pass,The current source-linked Step 12 integration checkpoint is identified.
+step12_saved_checks,pass,The saved linked-schema checks all passed.
+current_step12_handoff,pass,The revised handoff permits rule development.
+catalog_exclusions,pass,The review-only catalog and zero planner eligibility are preserved.
+reference_dimensions,pass,Reference counts agree with the verified Step 11 inventory.
+reference_readme,pass,The registered README is available and nonempty.
+reference_shapes,pass,"Numeric bounds, required reference fields, and intentional one-sided values pass structural checks."
+unique_candidate_ids,pass,Structured IDs and content-derived guidance IDs are unique.
+original_records_preserved,pass,Every original source field and verification assertion is preserved.
+no_adoption_or_activation,pass,"No rule is adopted, enforced, or enabled."
+source_memberships,pass,Every candidate has a stable source-URL identity; aliases remain separate.

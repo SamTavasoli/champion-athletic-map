@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "registration_complete": true,
+  "inspection_complete": true,
+  "audited_at": "2026-11-08T17:35:52.348550+00:00",
+  "registered_sources": 39,
+  "existing_source_ids_preserved": 38,
+  "new_source_ids": [
+    "reference_usda_sr_legacy_2018"
+  ],
+  "local_files_inspected": 23,
+  "historical_inputs_not_found": 9,
+  "later_outputs": {
+    "catalog_basketball_v01": "present",
+    "catalog_basketball_v02": "present",
+    "local_exercise_catalog": "present",
+    "local_basketball_drills": "present"
+  },
+  "tracked_issues": 14,
+  "issue_status_counts": {
+    "open": 14
+  },
+  "required_checks_passed": 43,
+  "required_checks_failed": 0,
+  "existing_permission_decisions_changed": 0,
+  "external_pages_refreshed_by_code": false
+}

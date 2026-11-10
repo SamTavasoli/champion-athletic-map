@@ -1,0 +1,18 @@
+candidate_rule_id,evidence_id,comparison,original_reference_url,supporting_evidence_url,evidence_access_basis,source_values_typed,adopted_application_operator,peer_review_status
+NBA_A12_14_MAX_HOURS,NBA_TABLES,matches_evidence_entry,https://youthguidelines.nba.com/,https://youthguidelines.nba.com/,publisher_page_opened,"{""published_maximum"": 10}",,pending
+NBA_G9_12_MAX_HOURS,NBA_TABLES,matches_evidence_entry,https://youthguidelines.nba.com/,https://youthguidelines.nba.com/,publisher_page_opened,"{""published_maximum"": 14}",,pending
+NBA_A12_14_MIN_REST,NBA_TABLES,matches_evidence_entry,https://youthguidelines.nba.com/,https://youthguidelines.nba.com/,publisher_page_opened,"{""published_minimum"": 1}",,pending
+NBA_G9_12_MIN_REST,NBA_TABLES,matches_evidence_entry,https://youthguidelines.nba.com/,https://youthguidelines.nba.com/,publisher_page_opened,"{""published_minimum"": 1}",,pending
+NBA_A12_14_MAX_MONTHS,NBA_TABLES,matches_evidence_entry,https://youthguidelines.nba.com/,https://youthguidelines.nba.com/,publisher_page_opened,"{""published_maximum"": 7}",,pending
+NBA_G9_12_MAX_MONTHS,NBA_TABLES,matches_evidence_entry,https://youthguidelines.nba.com/,https://youthguidelines.nba.com/,publisher_page_opened,"{""range_of_published_maximums"": [9, 10], ""selected_application_cutoff"": null}",,pending
+NBA_A13_14_SLEEP,NBA_TABLES,matches_evidence_entry,https://youthguidelines.nba.com/,https://youthguidelines.nba.com/,publisher_page_opened,"{""published_recommended_range"": [8, 10]}",,pending
+NBA_G9_12_SLEEP,NBA_TABLES,matches_evidence_entry,https://youthguidelines.nba.com/,https://youthguidelines.nba.com/,publisher_page_opened,"{""published_recommended_range"": [8, 10]}",,pending
+NBA_A12_SLEEP,NBA_TABLES,matches_evidence_entry,https://youthguidelines.nba.com/,https://youthguidelines.nba.com/,publisher_page_opened,"{""published_recommended_range"": [9, 12]}",,pending
+NBA_A12_14_PRACTICE_LENGTH,NBA_TABLES,matches_evidence_entry,https://youthguidelines.nba.com/,https://youthguidelines.nba.com/,publisher_page_opened,"{""published_recommended_range"": [60, 90]}",,pending
+NBA_G9_12_PRACTICE_LENGTH,NBA_TABLES,matches_evidence_entry,https://youthguidelines.nba.com/,https://youthguidelines.nba.com/,publisher_page_opened,"{""published_recommended_range"": [90, 120]}",,pending
+NBA_A12_14_PRACTICES,NBA_TABLES,matches_evidence_entry,https://youthguidelines.nba.com/,https://youthguidelines.nba.com/,publisher_page_opened,"{""published_recommended_range"": [2, 4]}",,pending
+NBA_G9_12_PRACTICES,NBA_TABLES,matches_evidence_entry,https://youthguidelines.nba.com/,https://youthguidelines.nba.com/,publisher_page_opened,"{""published_recommended_range"": [3, 4]}",,pending
+NBA_A12_14_GAMES_WEEK,NBA_TABLES,matches_evidence_entry,https://youthguidelines.nba.com/,https://youthguidelines.nba.com/,publisher_page_opened,"{""published_recommended_value"": 2}",,pending
+NBA_G9_12_GAMES_WEEK,NBA_TABLES,matches_evidence_entry,https://youthguidelines.nba.com/,https://youthguidelines.nba.com/,publisher_page_opened,"{""published_recommended_range"": [2, 3]}",,pending
+CDC_TEENS_SLEEP,CDC_SLEEP,matches_evidence_entry,https://www.cdc.gov/sleep/about/,https://www.cdc.gov/sleep/about/,publisher_page_opened,"{""published_recommended_range"": [8, 10]}",,pending
+AAP_WEEKLY_SPORT_REST,AAP_REST_SUMMARY,matches_evidence_entry,https://publications.aap.org/pediatrics/article/153/2/e2023065129/196435,https://www.healthychildren.org/English/health-issues/injuries-emergencies/sports-injuries/Pages/Too-Much-Too-Soon-Overtraining.aspx,official_AAP_public_summary_opened,"{""published_rest_recommendation"": [1, 2], ""upper_value_is_rest_ceiling"": false}",,pending

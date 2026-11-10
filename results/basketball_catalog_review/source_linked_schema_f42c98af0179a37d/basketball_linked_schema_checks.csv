@@ -1,0 +1,16 @@
+check_name,status,details
+original_catalog_fields,pass,Every original catalog field and row remains unchanged.
+original_registry_fields,pass,Every original occurrence field and row remains unchanged.
+canonical_fields_unknown,pass,Candidate canonical fields remain unknown pending review.
+unknown_numeric_fields,pass,"No numeric minima, elapsed durations, rest values, or units were inferred."
+all_planned_fields_present,pass,All nine planned concepts have dedicated fields in the linked schema.
+source_membership,pass,All source-to-candidate memberships are preserved.
+imported_occurrences_preserved,pass,Imported occurrences remain separate and complete.
+annotation_input_lineage,pass,Imported annotation lineage matches the inspected input bytes.
+unique_field_lineage,pass,Each planned field has exactly one lineage record per occurrence.
+unique_source_locators,pass,Recorded source-locator identifiers are unique.
+source_index_membership,pass,The source index includes each occurrence exactly once.
+worklist_preserved,pass,All original worklist fields and task statuses are preserved.
+field_reviews_preserved,pass,The saved field ledger remains exactly as inspected.
+no_new_eligibility,pass,No candidate or source occurrence becomes planner eligible.
+no_new_approval,pass,Catalog approvals and approved identifiers remain unchanged.

@@ -1,0 +1,44 @@
+canonical_candidate_id,normalized_name,display_name,occurrences,evidence_ids,curriculum_levels,proposed_skills,scope_candidate,distinctness_status,source_verification,permission_status,planner_approved
+JR-CAN-0001,1 2 3 triple threat,1.2.3. Triple Threat,2,JR-EVID-0004;JR-EVID-0026,Rookie;Starter,footwork,basketball_drill,pending_review,pending,pending_review,no
+JR-CAN-0002,1 on 1 half court,1 on 1 Half-court,1,JR-EVID-0031,All-Star,ball_handling,basketball_drill,pending_review,pending,pending_review,no
+JR-CAN-0003,1 on 1 stunt recover,1 on 1 – Stunt & Recover,1,JR-EVID-0045,MVP,defense,basketball_drill,pending_review,pending,pending_review,no
+JR-CAN-0004,3 on 1 transition,3 on 1 Transition,1,JR-EVID-0033,All-Star,passing,basketball_drill,pending_review,pending,pending_review,no
+JR-CAN-0005,3 on 3 dictated pass cut or pass ball screen,3 on 3 Dictated – Pass & Cut or Pass & Ball Screen,1,JR-EVID-0037,All-Star,offense,basketball_drill,pending_review,pending,pending_review,no
+JR-CAN-0006,3 second deny 1 on 1,3-Second Deny 1 on 1,1,JR-EVID-0035,All-Star,defense,basketball_drill,pending_review,pending,pending_review,no
+JR-CAN-0007,4 on 4 shell to rebound,4 on 4 Shell to Rebound,1,JR-EVID-0046,MVP,defense,basketball_drill,pending_review,pending,pending_review,no
+JR-CAN-0008,5 on 5 dictated minimum 4 passes,5 on 5 Dictated – Minimum 4 Passes,1,JR-EVID-0038,All-Star,offense,basketball_drill,pending_review,pending,pending_review,no
+JR-CAN-0009,advantage numbers game,Advantage Numbers Game,1,JR-EVID-0030,Rookie,offense,basketball_drill,pending_review,pending,pending_review,no
+JR-CAN-0010,around the world wraps,Around The World Wraps,1,JR-EVID-0008,Rookie,ball_handling,basketball_drill,pending_review,pending,pending_review,no
+JR-CAN-0011,catch a second ball series,Catch a Second Ball Series,1,JR-EVID-0039,MVP,ball_handling,basketball_drill,pending_review,pending,pending_review,no
+JR-CAN-0012,cone dribbling,Cone Dribbling,2,JR-EVID-0011;JR-EVID-0015,MVP;Starter,ball_handling,basketball_drill,pending_review,pending,pending_review,no
+JR-CAN-0013,diamond passing,Diamond Passing,1,JR-EVID-0010,Starter,passing,basketball_drill,pending_review,pending,pending_review,no
+JR-CAN-0014,floater series,Floater Series,1,JR-EVID-0042,MVP,finishing,basketball_drill,pending_review,pending,pending_review,no
+JR-CAN-0015,forward backward lateral march,Forward/Backward/Lateral March,1,JR-EVID-0019,Rookie,footwork,general_warmup,pending_review,pending,pending_review,no
+JR-CAN-0016,gates passing game,Gates Passing Game,1,JR-EVID-0027,Rookie,passing,basketball_drill,pending_review,pending,pending_review,no
+JR-CAN-0017,gauntlet dribbling,Gauntlet Dribbling,1,JR-EVID-0012,All-Star,ball_handling,basketball_drill,pending_review,pending,pending_review,no
+JR-CAN-0018,high knees,High Knees,1,JR-EVID-0020,Rookie,footwork,general_warmup,pending_review,pending,pending_review,no
+JR-CAN-0019,hook pass drill,Hook Pass Drill,1,JR-EVID-0041,MVP,passing,basketball_drill,pending_review,pending,pending_review,no
+JR-CAN-0020,hot ball taps,Hot Ball (Taps),1,JR-EVID-0007,Rookie,ball_handling,basketball_drill,pending_review,pending,pending_review,no
+JR-CAN-0021,jump to the ball drill,Jump to the Ball Drill,1,JR-EVID-0036,All-Star,defense,basketball_drill,pending_review,pending,pending_review,no
+JR-CAN-0022,partner decision dribbling game,Partner Decision Dribbling Game,1,JR-EVID-0013,All-Star,ball_handling,basketball_drill,pending_review,pending,pending_review,no
+JR-CAN-0023,pick pop shooting,Pick & Pop Shooting,1,JR-EVID-0043,MVP,shooting,basketball_drill,pending_review,pending,pending_review,no
+JR-CAN-0024,pivot 1 on 1,Pivot 1 on 1,1,JR-EVID-0032,All-Star,footwork,basketball_drill,pending_review,pending,pending_review,no
+JR-CAN-0025,pound pass drill,Pound Pass Drill,1,JR-EVID-0016,MVP,passing,basketball_drill,pending_review,pending,pending_review,no
+JR-CAN-0026,progression shooting competition,Progression Shooting Competition,1,JR-EVID-0034,All-Star,shooting,basketball_drill,pending_review,pending,pending_review,no
+JR-CAN-0027,quick feet,Quick Feet,1,JR-EVID-0021,Rookie,footwork,general_warmup,pending_review,pending,pending_review,no
+JR-CAN-0028,rebound score,Rebound & Score,1,JR-EVID-0044,MVP,rebounding,basketball_drill,pending_review,pending,pending_review,no
+JR-CAN-0029,red light,Red Light,1,JR-EVID-0028,Rookie,ball_handling,basketball_drill,pending_review,pending,pending_review,no
+JR-CAN-0030,retreat dribble drill,Retreat Dribble Drill,1,JR-EVID-0005,Starter,ball_handling,basketball_drill,pending_review,pending,pending_review,no
+JR-CAN-0031,rhythm dribbling,Rhythm Dribbling,1,JR-EVID-0040,MVP,ball_handling,basketball_drill,pending_review,pending,pending_review,no
+JR-CAN-0032,run to that line,Run to That Line,2,JR-EVID-0009;JR-EVID-0018,Rookie;Starter,footwork,general_warmup,pending_review,pending,pending_review,no
+JR-CAN-0033,running stop drill,Running Stop Drill,1,JR-EVID-0001,Rookie,footwork,basketball_drill,pending_review,pending,pending_review,no
+JR-CAN-0034,shooting line game,Shooting Line Game,1,JR-EVID-0029,Rookie,shooting,basketball_drill,pending_review,pending,pending_review,no
+JR-CAN-0035,side push,Side Push,1,JR-EVID-0022,Rookie,footwork,general_warmup,pending_review,pending,pending_review,no
+JR-CAN-0036,skip pass 2 on 1,Skip Pass 2 on 1,1,JR-EVID-0014,All-Star,passing,basketball_drill,pending_review,pending,pending_review,no
+JR-CAN-0037,slip pass drill,Slip Pass Drill,1,JR-EVID-0017,MVP,passing,basketball_drill,pending_review,pending,pending_review,no
+JR-CAN-0038,smacks,Smacks,1,JR-EVID-0002,Rookie,ball_handling,basketball_drill,pending_review,pending,pending_review,no
+JR-CAN-0039,stationary crossover low middle high,"Stationary Crossover Low, Middle, High",1,JR-EVID-0003,Rookie,ball_handling,basketball_drill,pending_review,pending,pending_review,no
+JR-CAN-0040,stationary dribble low middle,Stationary Dribble Low/Middle,1,JR-EVID-0024,Rookie,ball_handling,basketball_drill,pending_review,pending,pending_review,no
+JR-CAN-0041,the escape game,The Escape Game,1,JR-EVID-0006,Rookie,footwork,general_warmup,pending_review,pending,pending_review,no
+JR-CAN-0042,toss catch,Toss & Catch,1,JR-EVID-0023,Rookie,ball_handling,basketball_drill,pending_review,pending,pending_review,no
+JR-CAN-0043,up or down game,Up or Down Game,1,JR-EVID-0025,Rookie,ball_handling,basketball_drill,pending_review,pending,pending_review,no

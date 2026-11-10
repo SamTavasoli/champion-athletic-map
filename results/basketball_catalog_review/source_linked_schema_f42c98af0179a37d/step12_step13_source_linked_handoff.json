@@ -1,0 +1,62 @@
+{
+  "approved_distinct_drills": 0,
+  "approved_drill_target": 100,
+  "artifact_path_convention": "Bundle artifact filenames refer to siblings of this handoff file.",
+  "assessment_producer": "results/basketball_catalog_review/schema_assessment_f55dd3f0b7c5b396/step12_schema_assessment_summary.json",
+  "baseline_catalog": "data/processed/basketball_drill_catalog_v0_3_9_REVIEW_ONLY.csv",
+  "baseline_catalog_version": "0.3.9",
+  "baseline_registry": "results/basketball_drill_source_registry_v0_3_9.csv",
+  "basketball_candidates": 132,
+  "bundle_artifacts": {
+    "candidates": "basketball_candidate_schema_REVIEW_ONLY.csv",
+    "field_dictionary": "basketball_schema_field_dictionary.csv",
+    "field_lineage": "basketball_extended_field_lineage.csv",
+    "review_worklist": "basketball_review_worklist_with_schema_status.csv",
+    "source_index": "basketball_recorded_source_index.csv",
+    "source_occurrences": "basketball_source_occurrence_schema_REVIEW_ONLY.csv"
+  },
+  "explicit_identity_cases_pending": 8,
+  "full_step12_approval_objective_complete": false,
+  "general_warmups": 12,
+  "human_field_confirmations_pending": 68,
+  "integration_checkpoint_status": "passed",
+  "linked_schema_version": "basketball-source-linked-schema-1",
+  "metrics": {
+    "approvals_created": 0,
+    "candidates_with_imported_annotations": 22,
+    "canonical_values_newly_verified": 0,
+    "catalog_candidates": 144,
+    "checks_passed": 15,
+    "field_lineage_rows": 1404,
+    "imported_annotation_occurrences": 23,
+    "open_worklist_tasks": 327,
+    "original_catalog_columns_preserved": 70,
+    "original_registry_columns_preserved": 37,
+    "planned_concepts_represented": 9,
+    "planner_eligible": 0,
+    "recorded_source_locators": 42,
+    "source_occurrences": 156
+  },
+  "new_approval_decisions": 0,
+  "next_step": "13 — Youth Participation Guidelines and Planning Rules",
+  "planner_eligible": 0,
+  "planning_boundaries": [
+    "The linked schema is review-only; no records have become planner eligible.",
+    "Candidate canonical fields remain unknown pending adoption of reviewed occurrence evidence.",
+    "Imported summaries, goals, modifications, and solo adaptations remain under review.",
+    "Source prescriptions remain separate from numeric elapsed durations, rest, and planner time budgets.",
+    "Curriculum levels remain publisher categories, without inferred age or grade eligibility.",
+    "Step 13 should review rule population segments, units, conditions, and required athlete inputs before activation."
+  ],
+  "publisher_source_refresh_performed": false,
+  "remaining_work": [
+    "Resolve the recorded field confirmations and identity/variation cases.",
+    "Review instructional evidence, missing practical requirements, and annotation provenance.",
+    "Complete intended-use permissions and applicable youth-rule reviews.",
+    "Record canonical content adoption, catalog approvals, and eligibility decisions separately.",
+    "Measure approved distinct-drill coverage against the target before claiming the full objective is complete."
+  ],
+  "schema_version": "step12-linked-schema-step13-handoff-1",
+  "scope": "Verified local schema preparation and saved-artifact integration; content reviews and final drill approvals remain open.",
+  "step13_rule_development_can_proceed": true
+}

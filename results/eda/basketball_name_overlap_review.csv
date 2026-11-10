@@ -1,0 +1,45 @@
+imported_source_id,historical_catalog_source_id,normalized_name,matched_candidate_groups,candidate_ids,interpretation_limit
+aditi_jr_nba_drills,catalog_basketball_v01,1 2 3 triple threat,1,JR-REVIEW-0001,Name correspondence only; snapshots overlap and are not additive or canonical identity decisions.
+aditi_jr_nba_drills,catalog_basketball_v01,2 on 1 shooting game,0,,Name correspondence only; snapshots overlap and are not additive or canonical identity decisions.
+aditi_jr_nba_drills,catalog_basketball_v01,2 on 2 full court transition game,0,,Name correspondence only; snapshots overlap and are not additive or canonical identity decisions.
+aditi_jr_nba_drills,catalog_basketball_v01,3 line layups add variations,0,,Name correspondence only; snapshots overlap and are not additive or canonical identity decisions.
+aditi_jr_nba_drills,catalog_basketball_v01,3 on 2 advantage,0,,Name correspondence only; snapshots overlap and are not additive or canonical identity decisions.
+aditi_jr_nba_drills,catalog_basketball_v01,3 on 3 numbers game,0,,Name correspondence only; snapshots overlap and are not additive or canonical identity decisions.
+aditi_jr_nba_drills,catalog_basketball_v01,circle reads,0,,Name correspondence only; snapshots overlap and are not additive or canonical identity decisions.
+aditi_jr_nba_drills,catalog_basketball_v01,cone dribbling,1,JR-REVIEW-0025,Name correspondence only; snapshots overlap and are not additive or canonical identity decisions.
+aditi_jr_nba_drills,catalog_basketball_v01,decision 1 on 1,0,,Name correspondence only; snapshots overlap and are not additive or canonical identity decisions.
+aditi_jr_nba_drills,catalog_basketball_v01,defense i love it drill,0,,Name correspondence only; snapshots overlap and are not additive or canonical identity decisions.
+aditi_jr_nba_drills,catalog_basketball_v01,diamond passing,1,JR-REVIEW-0026,Name correspondence only; snapshots overlap and are not additive or canonical identity decisions.
+aditi_jr_nba_drills,catalog_basketball_v01,dribble relays,0,,Name correspondence only; snapshots overlap and are not additive or canonical identity decisions.
+aditi_jr_nba_drills,catalog_basketball_v01,drop step lay up breakdown drill,0,,Name correspondence only; snapshots overlap and are not additive or canonical identity decisions.
+aditi_jr_nba_drills,catalog_basketball_v01,form shooting 1 hand,0,,Name correspondence only; snapshots overlap and are not additive or canonical identity decisions.
+aditi_jr_nba_drills,catalog_basketball_v01,jump stop game,0,,Name correspondence only; snapshots overlap and are not additive or canonical identity decisions.
+aditi_jr_nba_drills,catalog_basketball_v01,pass cut drill,0,,Name correspondence only; snapshots overlap and are not additive or canonical identity decisions.
+aditi_jr_nba_drills,catalog_basketball_v01,retreat dribble drill,1,JR-REVIEW-0050,Name correspondence only; snapshots overlap and are not additive or canonical identity decisions.
+aditi_jr_nba_drills,catalog_basketball_v01,run to that line,1,JR-REVIEW-0053,Name correspondence only; snapshots overlap and are not additive or canonical identity decisions.
+aditi_jr_nba_drills,catalog_basketball_v01,shield steal,0,,Name correspondence only; snapshots overlap and are not additive or canonical identity decisions.
+aditi_jr_nba_drills,catalog_basketball_v01,shoot and follow,0,,Name correspondence only; snapshots overlap and are not additive or canonical identity decisions.
+aditi_jr_nba_drills,catalog_basketball_v01,stationary crossover low mid high,0,,Name correspondence only; snapshots overlap and are not additive or canonical identity decisions.
+aditi_jr_nba_drills,catalog_basketball_v01,the chase game,0,,Name correspondence only; snapshots overlap and are not additive or canonical identity decisions.
+aditi_jr_nba_drills,catalog_basketball_v02,1 2 3 triple threat,1,JR-REVIEW-0001,Name correspondence only; snapshots overlap and are not additive or canonical identity decisions.
+aditi_jr_nba_drills,catalog_basketball_v02,2 on 1 shooting game,0,,Name correspondence only; snapshots overlap and are not additive or canonical identity decisions.
+aditi_jr_nba_drills,catalog_basketball_v02,2 on 2 full court transition game,0,,Name correspondence only; snapshots overlap and are not additive or canonical identity decisions.
+aditi_jr_nba_drills,catalog_basketball_v02,3 line layups add variations,0,,Name correspondence only; snapshots overlap and are not additive or canonical identity decisions.
+aditi_jr_nba_drills,catalog_basketball_v02,3 on 2 advantage,0,,Name correspondence only; snapshots overlap and are not additive or canonical identity decisions.
+aditi_jr_nba_drills,catalog_basketball_v02,3 on 3 numbers game,0,,Name correspondence only; snapshots overlap and are not additive or canonical identity decisions.
+aditi_jr_nba_drills,catalog_basketball_v02,circle reads,0,,Name correspondence only; snapshots overlap and are not additive or canonical identity decisions.
+aditi_jr_nba_drills,catalog_basketball_v02,cone dribbling,1,JR-REVIEW-0025,Name correspondence only; snapshots overlap and are not additive or canonical identity decisions.
+aditi_jr_nba_drills,catalog_basketball_v02,decision 1 on 1,0,,Name correspondence only; snapshots overlap and are not additive or canonical identity decisions.
+aditi_jr_nba_drills,catalog_basketball_v02,defense i love it drill,0,,Name correspondence only; snapshots overlap and are not additive or canonical identity decisions.
+aditi_jr_nba_drills,catalog_basketball_v02,diamond passing,1,JR-REVIEW-0026,Name correspondence only; snapshots overlap and are not additive or canonical identity decisions.
+aditi_jr_nba_drills,catalog_basketball_v02,dribble relays,0,,Name correspondence only; snapshots overlap and are not additive or canonical identity decisions.
+aditi_jr_nba_drills,catalog_basketball_v02,drop step lay up breakdown drill,0,,Name correspondence only; snapshots overlap and are not additive or canonical identity decisions.
+aditi_jr_nba_drills,catalog_basketball_v02,form shooting 1 hand,0,,Name correspondence only; snapshots overlap and are not additive or canonical identity decisions.
+aditi_jr_nba_drills,catalog_basketball_v02,jump stop game,0,,Name correspondence only; snapshots overlap and are not additive or canonical identity decisions.
+aditi_jr_nba_drills,catalog_basketball_v02,pass cut drill,1,JR-NEW-0008,Name correspondence only; snapshots overlap and are not additive or canonical identity decisions.
+aditi_jr_nba_drills,catalog_basketball_v02,retreat dribble drill,1,JR-REVIEW-0050,Name correspondence only; snapshots overlap and are not additive or canonical identity decisions.
+aditi_jr_nba_drills,catalog_basketball_v02,run to that line,1,JR-REVIEW-0053,Name correspondence only; snapshots overlap and are not additive or canonical identity decisions.
+aditi_jr_nba_drills,catalog_basketball_v02,shield steal,0,,Name correspondence only; snapshots overlap and are not additive or canonical identity decisions.
+aditi_jr_nba_drills,catalog_basketball_v02,shoot and follow,0,,Name correspondence only; snapshots overlap and are not additive or canonical identity decisions.
+aditi_jr_nba_drills,catalog_basketball_v02,stationary crossover low mid high,0,,Name correspondence only; snapshots overlap and are not additive or canonical identity decisions.
+aditi_jr_nba_drills,catalog_basketball_v02,the chase game,1,JR-NEW-0052,Name correspondence only; snapshots overlap and are not additive or canonical identity decisions.

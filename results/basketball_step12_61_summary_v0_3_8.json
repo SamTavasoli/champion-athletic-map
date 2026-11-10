@@ -1,0 +1,33 @@
+{
+  "step": "12-61",
+  "catalog_version": "0.3.8",
+  "catalog_candidate_groups": 144,
+  "registered_source_occurrences": 156,
+  "source_plan": "All-Star Practice Plan 1",
+  "confirmed_metadata_decisions": 6,
+  "retain_current": 4,
+  "revised_participant_fields": 2,
+  "pending_other_wave3_fields": 68,
+  "team_signoffs": 0,
+  "catalog_approvals": 0,
+  "planner_eligible": 0,
+  "decision_authority": "user_confirmed_metadata_only",
+  "input_sha256": {
+    "data/processed/basketball_drill_catalog_v0_3_7_REVIEW_ONLY.csv": "cebf636fbd62763e9374bbcca653ccc26d09ed627723148e00c2f0b52db5b1d0",
+    "results/basketball_drill_source_registry_v0_3_7.csv": "965b945c18e36cd1fcc4237e936aa7b3e2be17b2d307b71f37c1dea20fa7bda4",
+    "results/basketball_wave3_plan1_field_decisions_v0_3_7.csv": "1e2a8da83ee9d2c028b545d1289e4906b6e6a51994b62033cfca31a654a6267e",
+    "results/basketball_wave3_remaining_after_plan1_v0_3_7.csv": "5bb1e5e13f6f23803d5c71817a17873d5b60538f13864a746f942b152d9e0fd8",
+    "results/basketball_wave3_remaining_field_review_v0_3_7.csv": "c7dd5a83a647c646efb902d0f1658753123dd52fe52d604a4a8c00b4f13382c0",
+    "results/basketball_step12_60_summary_v0_3_7.json": "c029a6ddc2fa910beb966a57959e8d5094fce646a5cdd11aa62d84832c0d0ffb",
+    "results/basketball_step12_58_summary_v0_3_7.json": "6e2d242ffad401af0c5be92a765a8d84c8b02d71616bd1473ca9e831304177e9"
+  },
+  "output_sha256": {
+    "data/processed/basketball_drill_catalog_v0_3_8_REVIEW_ONLY.csv": "cb9b5fba8a638ecfa6a45cb6b6b7c3b1df92bc8e1302f375b4f789bb27e528cc",
+    "results/basketball_drill_source_registry_v0_3_8.csv": "0b9cb50d421d443824b68f778f6b0d89c950178599f0818788ca8844150e07ac",
+    "results/basketball_wave3_plan1_confirmed_field_decisions_v0_3_8.csv": "892d7378a9219c7e175ebf9d3e4de66c260e2bda6b229ec7a1dc3bfe16262ca6",
+    "results/basketball_wave3_plan1_metadata_change_log_v0_3_8.csv": "2606ebc790286329599999a3c3d3497f22baefdbbca485f2617719441c24b5b2",
+    "results/basketball_wave3_remaining_requirement_reviews_v0_3_8.csv": "5bb1e5e13f6f23803d5c71817a17873d5b60538f13864a746f942b152d9e0fd8"
+  },
+  "original_inputs_modified": false,
+  "git_operations_performed": false
+}

@@ -1,0 +1,69 @@
+{
+  "step": "12-53",
+  "catalog_version": "0.3.6",
+  "run_date": "2026-11-07",
+  "catalog_candidates": 144,
+  "source_occurrences": 156,
+  "wave3_candidates": 42,
+  "requirement_field_reviews": 84,
+  "publisher_heading_matches": {
+    "exact_heading_found": 42
+  },
+  "equipment_cue_distribution": {
+    "basketball;hoop": 15,
+    "basketball": 21,
+    "": 1,
+    "basketball;cones": 2,
+    "hoop": 1,
+    "basketball;hoop;cones;chair": 1,
+    "basketball;hoop;cones": 1
+  },
+  "participant_cue_distribution": {
+    "group;player": 1,
+    "partner_or_pair;player": 5,
+    "team;group;player": 1,
+    "player": 4,
+    "partner_or_pair;team;player": 1,
+    "coach;partner_or_pair;player": 3,
+    "partner_or_pair;defender;player": 1,
+    "partner_or_pair;group;player": 2,
+    "team;player": 2,
+    "coach;player": 6,
+    "coach;defender;player": 5,
+    "coach;group;player": 1,
+    "defender;team;player": 1,
+    "defender;team;group": 1,
+    "defender;group;player": 1,
+    "coach;defender;team;player": 1,
+    "coach;defender;team;group;player": 1,
+    "defender;player": 3,
+    "coach;team;player": 1,
+    "defender;team;group;player": 1
+  },
+  "evidence_flags": {
+    "generic_cues_repeated_across_source_pages": 36,
+    "no_keyword_evidence": 1,
+    "specific_participant_role_not_established_by_generic_cue": 1
+  },
+  "review_priorities": {
+    "medium": 37,
+    "standard": 5
+  },
+  "signoffs": 0,
+  "approved": 0,
+  "planner_eligible": 0,
+  "input_sha256": {
+    "data/processed/basketball_drill_catalog_v0_3_6_REVIEW_ONLY.csv": "a9e9831ebf497e150b4bbf0ec7fc48a12c2e285350b0671cd74f423dac1000d5",
+    "results/basketball_drill_source_registry_v0_3_6.csv": "191242faae20c8655162cf044a98fa50758cc07789238f0d7a0a54997902f4cc",
+    "results/basketball_catalog_readiness_worklist_v0_3_1.csv": "5178de11f0ee96a4bd950be295f06f231cf34ee1729d72a107eeab90dc328f2f",
+    "results/basketball_wave3_publisher_checks_v0_3_5.csv": "8a84db50bda3370b18895e558b0e603248dfea582c958238fd32f78ee205060f",
+    "results/basketball_wave3_field_comparisons_v0_3_5.csv": "f5b8ccd46439e72ef287857dfe21fc98140eaac905919797b340fa2e185912bc",
+    "results/basketball_step12_52_summary_v0_3_6.json": "deb1b7cdd4b473e6ac2f3248412a35c18ddc5dcba2940577bf8191b9ef21f922"
+  },
+  "report_sha256": {
+    "evidence": "da3eafeabc4ad1fdb1591fd36dc779ba4194bfd03317cf0de6b4d65680dd222b",
+    "decision_sheet": "530f7543270b073793daeaecf9ef65b3a83fb7edc9033f574c8971e45b813cb2",
+    "worklist": "078b36a92cd3bc0771d43199f7898e6cf3e8d7d10335fafdb3d4aaffcf64fdec"
+  },
+  "interpretation": "Repeated keyword cues are screening flags, not drill-specific evidence of requirements."
+}

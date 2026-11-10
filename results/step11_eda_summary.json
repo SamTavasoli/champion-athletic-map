@@ -1,0 +1,1650 @@
+{
+  "schema_version": "step11-integrated-eda-1",
+  "recipe_version": "integrated-eda-0.2.0",
+  "analyzed_at": "2026-11-08T21:41:47.509757+00:00",
+  "status": "completed_with_reviews",
+  "scope": {
+    "pre_split_exploration": true,
+    "new_dataset_partitions": 0,
+    "models_trained": 0,
+    "approval_decisions_created": 0,
+    "publisher_sources_refreshed": false,
+    "observations_and_final_data_summary": "pending local output review",
+    "optional_historical_snapshots": {
+      "catalog_basketball_v01": {
+        "availability": "loaded_historical_snapshot",
+        "records": 67,
+        "name_comparison_status": "compared_names",
+        "comparable_catalog_name_groups": 67
+      },
+      "catalog_basketball_v02": {
+        "availability": "loaded_historical_snapshot",
+        "records": 129,
+        "name_comparison_status": "compared_names",
+        "comparable_catalog_name_groups": 129
+      },
+      "local_basketball_drills": {
+        "availability": "loaded_historical_snapshot",
+        "records": 32,
+        "name_comparison_status": "not_comparable_schema",
+        "comparable_catalog_name_groups": null
+      }
+    }
+  },
+  "source_inventory": {
+    "registered_entries": 39,
+    "step09_inspected_files": 23,
+    "historical_input_gaps": 9,
+    "step09_quality_status_counts": {
+      "needs_review": 33,
+      "pass": 293,
+      "not_checked": 9
+    }
+  },
+  "input_hashes": {
+    "Champions_Athletic_Agent_Ready_Dataset _Package/athlete_profile_clean.csv": "24a78537469f9265322d5fb9348dffbd733b84631c5847220a4d0cc0b5f9bb7f",
+    "Champions_Athletic_Agent_Ready_Dataset _Package/basketball_season_clean.csv": "ad20ffb26700c669b2e92f4af51c1cfc396202b4ad8891b1bc852b503038e8b7",
+    "Champions_Athletic_Agent_Ready_Dataset _Package/champions_master_agent_ready.csv": "ef9d3f219c0dce707694668e3ccd5d8d23d9d6ec95b5ea8a293749e7c130d01e",
+    "Champions_Athletic_Agent_Ready_Dataset _Package/data_quality_audit.csv": "46ef820173200798d45f2d3af7d00d1b5d245597e9395d5fb0d1cb2190c2ea29",
+    "Champions_Athletic_Agent_Ready_Dataset _Package/exercise_clean.csv": "6a7d71d6ed6a34c5a95b294adb9374ead80e9308caab448478e6dbcaf4b7f81c",
+    "Champions_Athletic_Agent_Ready_Dataset _Package/food_category_clean.csv": "3eec12cb77bb5aab38d0f891032339f45364c807cca3730a9326f3d31d19c17e",
+    "Champions_Athletic_Agent_Ready_Dataset _Package/food_portion_clean.csv": "17a75d1a65cd3f39d3675a64528dbaf96f27b9cacf8b9bb992c785e0695c1a4a",
+    "Champions_Athletic_Agent_Ready_Dataset _Package/food_sample_link_clean.csv": "02dda092a561de89177abec5055e37c60e75326c03396619bf0a3611ca1e6122",
+    "Champions_Athletic_Agent_Ready_Dataset _Package/nutrient_result_clean.csv": "6a2a0c46e2f9631d165100778f6c4a04805ca7cadb029d83013ab6490ddec059",
+    "Champions_Athletic_Agent_Ready_Dataset _Package/player_bio_clean.csv": "855f1320a0b308df743b3c3bd2d12ef6b827eaadebdbdcd069862c9991878fc2",
+    "Champions_Athletic_Agent_Ready_Dataset _Package/player_career_clean.csv": "ad93cc151412eb8b992fef76fe91cd39bf20dd836952221caeed565104c9270f",
+    "data/processed/basketball_drill_catalog_v0_1.csv": "52e05b5882fad99ff1237748b86316484274424dbd793c39a64cec6e14ddddf5",
+    "data/processed/basketball_drill_catalog_v0_2_REVIEW_ONLY.csv": "e8abe199d3e2044ef33babeb2ab54f30b12bb137e8f8980a0564e11e71676a54",
+    "data/processed/basketball_drills.csv": "7d85e315d5c1cd527e0638e2a0228608ea30ffee72c8d3cece304946991d8257",
+    "data/processed/exercise_catalog.csv": "ecf9e7ebe88f71e4350c747291b269976c0d2b01ba295dcdd63459065a3246fe",
+    "data/processed/jr_nba_drills_master.csv": "bf9c63fb486a2df39206e133c458d73ab3c63a120667f15fa11018a395f8d538",
+    "data/processed/jr_nba_rag_documents.json": "a9c6339eecac6c4ec1db77ba431dea21a6fe0588380e09b4c42adc6feee67f5e",
+    "data/processed/recovery_guidance.csv": "292a48fd2841edc2be6c05a74b7e2fa3586760a5e9e048844bf7590a0c6725c1",
+    "data/processed/usda_foundation_nutrition.csv": "ab0804ff01929ec4737840dec4caaa74b9920fe1b9f17bd0371d996e8d86bb04",
+    "data/processed/usda_nutrition_quality_report.csv": "2718727f289a30ba0adb71d2957fdd6fe2a7c14fc9191816eadc2ad75f21ac21",
+    "data/references/recovery/YOUTH_BASKETBALL_RECOVERY_RULES_README.md": "0accff6522bd427d1db77424b727ca51c138319a4a0f7f6cd4b7d7470c8a7e04",
+    "data/references/recovery/youth_basketball_recovery_rules_v0_1.csv": "d4ef1ab35329e747b980d19fb0339c28ee3dff41e5b60724490193b0dab46ac6",
+    "data/source_manifest.csv": "a4321c8065b1a6e01cdd48aec72e15ba87fd5333002aaff996ad792f64875ad2",
+    "data/synthetic/synthetic_athlete_profiles.csv": "713ba430049c2f8e6460f349c53d06f2bc8e8a369d3dc218d9a733684c68f6cc",
+    "results/data_inventory.csv": "22debd13f1ba496737f9c9c96485b5054e7af4a897f51d3f13564484ad205fdf",
+    "results/exercise_cleaning_log.csv": "287f89e2a4ac280176719754c37bb1b81e383db3779af44972657e7293dd7a1b",
+    "results/exercise_group_membership.csv": "f708420a3334d7f17f7ef73b3fe51123e1f9baff9cd6bc64a6a0e6d4dc7264a3",
+    "results/exercise_review_carryover.csv": "c3a72f9b877e357518078cd6180e8684f5464202ee1e0c270dabf190c14db573",
+    "results/exercise_review_queue.csv": "e46a4ab4a61f1ad299d40f3a42f672531ee9948c718bda9e9214507fce363acd",
+    "results/initial_quality_checks.csv": "f3d2bbf77ae9ba28c99b33d2288de86d7be1b86a8c6bea99128f6ffe33f864c3",
+    "results/source_file_inventory.csv": "827304456bfb6dcebf4e786256c5c62b347d8bf040f907581c31bcf367f8d6bc",
+    "results/step08_source_audit_summary.json": "cfe9e77935d6d9e22923c25096fdaaf3f356417c05348d23c3e5c3b5b0548564",
+    "results/step09_quality_summary.json": "33c46bc3a5c0cc10596bf3753c0a6bbcc854626ec4aef970472b6d8a178b0bec",
+    "results/step10_exercise_preparation.json": "e5a86eb8224e579bac479c88844dddbb491c40bde11c61ba6ee00a804c689fa2"
+  },
+  "software": {
+    "python": "3.12.6",
+    "pandas": "3.1.1",
+    "numpy": "2.5.4",
+    "matplotlib": "3.11.2"
+  },
+  "methods": {
+    "feature_contract": {
+      "input_fields": [
+        "exercise_name_prepared",
+        "description_prepared"
+      ],
+      "model_text_field": "classifier_text",
+      "target_field": "body_part_prepared",
+      "split_group_field": "split_group_id",
+      "final_splits_created": false,
+      "excluded_from_features": [
+        "body_part",
+        "body_part_prepared",
+        "goal_tag",
+        "agent_text",
+        "catalog_id",
+        "equipment",
+        "difficulty_level",
+        "review_flags",
+        "label_review_status",
+        "split_group_label_count",
+        "source_metadata"
+      ]
+    },
+    "text_lengths": "Regex word counts, not model-tokenizer lengths.",
+    "categorical_associations": "Bias-corrected Cramer's V with expected-cell sparsity; descriptive, missing category included, no p-values.",
+    "nutrition_numeric_states": "Blank/null/none/NA-style tokens are missing; numeric NaN/infinity are nonfinite; invalid text and negatives are separate.",
+    "nutrition_correlations": "Pearson and average-tie-rank Spearman; pairwise finite nonnegative values; minimum 10 pairs; constant/insufficient pairs unavailable.",
+    "population_inference": "No causal, population-prevalence, real-athlete outcome, or measured-model-performance claims.",
+    "figure_rendering": "All charts regenerated from current verified inputs; DejaVu Sans, 160 dpi. Rendering can differ across software versions."
+  },
+  "exercise_metrics": {
+    "source_records": 2909,
+    "catalog_records": 2909,
+    "body_part_categories": 17,
+    "preliminary_classifier_candidates": 2909,
+    "described_records": 1359,
+    "name_only_records": 1550,
+    "missing_description_percent": 53.2829,
+    "current_formatting_changes": 0,
+    "records_with_active_findings": 2072,
+    "records_with_unresolved_findings": 2072,
+    "review_queue_entries": 2333,
+    "observed_review_entries": 2333,
+    "active_review_entries": 2333,
+    "unresolved_active_entries": 2333,
+    "historical_review_entries": 0,
+    "split_groups": 2581,
+    "singleton_split_groups": 2389,
+    "multi_record_split_groups": 192,
+    "records_in_multi_record_split_groups": 520,
+    "largest_split_group": 10,
+    "mixed_label_split_groups": 46,
+    "records_in_mixed_label_split_groups": 131,
+    "largest_two_label_percent": 44.8608,
+    "largest_to_smallest_label_ratio": 82.5,
+    "majority_reference": {
+      "population": "preliminary candidates with present source labels",
+      "records": 2909,
+      "majority_labels": [
+        "abdominals"
+      ],
+      "majority_records": 660,
+      "descriptive_accuracy": 0.22688209006531454,
+      "evaluation_status": "Full-catalog descriptive reference; no holdout predictions or measured model performance."
+    },
+    "class_counts": {
+      "abdominals": 660,
+      "abductors": 21,
+      "adductors": 17,
+      "biceps": 168,
+      "calves": 47,
+      "chest": 260,
+      "forearms": 31,
+      "glutes": 81,
+      "hamstrings": 121,
+      "lats": 124,
+      "lower back": 97,
+      "middle back": 116,
+      "neck": 8,
+      "quadriceps": 645,
+      "shoulders": 338,
+      "traps": 24,
+      "triceps": 151
+    },
+    "low_support_labels": [
+      "neck"
+    ],
+    "relationship_counts_are_overlapping": true,
+    "per_label_split_group_counts_can_overlap": true
+  },
+  "supporting_metrics": {
+    "nutrition": {
+      "records": 411,
+      "core_fields_present": 321,
+      "finite_core_complete": 321,
+      "finite_core_incomplete": 90,
+      "nonnegative_finite_core_complete": 313,
+      "negative_measurement_records": 8,
+      "invalid_or_nonfinite_measurement_cells": 0,
+      "energy_method_rows_checked": 322,
+      "energy_method_rows_uncheckable": 89,
+      "energy_method_inconsistencies": 0
+    },
+    "profiles": {
+      "derived_athlete_profile": {
+        "availability": "loaded",
+        "records": 30,
+        "unknown_injury_statuses": 10,
+        "reported_no_injury_statuses": 0,
+        "schema_absent_planning_groups": [
+          "school_grade",
+          "session_minutes",
+          "existing_commitments",
+          "sleep_information",
+          "annual_participation"
+        ],
+        "evaluation_role": "fictional_development_examples; final-test independence not established"
+      },
+      "aditi_synthetic_athletes": {
+        "availability": "loaded",
+        "records": 60,
+        "unknown_injury_statuses": 23,
+        "reported_no_injury_statuses": 35,
+        "schema_absent_planning_groups": [
+          "school_grade",
+          "session_minutes",
+          "existing_commitments",
+          "sleep_information",
+          "annual_participation"
+        ],
+        "evaluation_role": "fictional_development_examples; final-test independence not established"
+      }
+    },
+    "basketball": {
+      "imported_source_occurrences": 23,
+      "imported_normalized_name_groups": 22,
+      "rag_documents": 23,
+      "optional_historical_sources": {
+        "catalog_basketball_v01": {
+          "availability": "loaded_historical_snapshot",
+          "records": 67,
+          "name_comparison_status": "compared_names",
+          "comparable_catalog_name_groups": 67
+        },
+        "catalog_basketball_v02": {
+          "availability": "loaded_historical_snapshot",
+          "records": 129,
+          "name_comparison_status": "compared_names",
+          "comparable_catalog_name_groups": 129
+        },
+        "local_basketball_drills": {
+          "availability": "loaded_historical_snapshot",
+          "records": 32,
+          "name_comparison_status": "not_comparable_schema",
+          "comparable_catalog_name_groups": null
+        }
+      },
+      "name_overlaps_by_snapshot": {
+        "catalog_basketball_v01": 5,
+        "catalog_basketball_v02": 7,
+        "local_basketball_drills": null
+      }
+    },
+    "recovery": {
+      "guidance_records": 5,
+      "rule_records": 17,
+      "recorded_verification_status_counts": {
+        "source_verified_policy_reference_not_individual_prescription": 17
+      },
+      "step09_conditional_schema_findings": {
+        "invalid_bounds": 0,
+        "invalid_segment_pairs": 0,
+        "incomplete_source_fields": 0
+      },
+      "planner_rules_activated_by_this_analysis": 0
+    },
+    "master": {
+      "records": 256337,
+      "entity_counts": {
+        "exercise": 2909,
+        "player_bio": 3922,
+        "player_career": 4550,
+        "basketball_season": 24625,
+        "food_sample_link": 75055,
+        "nutrient_result": 134267,
+        "food_category": 28,
+        "food_portion": 10951,
+        "athlete_profile": 30
+      },
+      "structural_findings_from_step09": {
+        "empty_json_payload": 2
+      }
+    },
+    "provenance": {
+      "registered_source_entries": 39,
+      "historical_input_gaps": 9
+    }
+  },
+  "findings": [
+    {
+      "finding_id": "EX01",
+      "domain": "exercise",
+      "observation": "1550 of 2909 exercises lack an available description.",
+      "implication": "Report text availability by label and assess name-only performance separately.",
+      "limitation": "A missing description is not evidence that an exercise is unusable or unsuitable for a particular athlete."
+    },
+    {
+      "finding_id": "EX02",
+      "domain": "exercise",
+      "observation": "The two largest source-label categories account for 44.8608% of records; the largest/smallest ratio is 82.5.",
+      "implication": "Use per-class metrics and training-only balancing; examine distinct split-group support before final partitions.",
+      "limitation": "Source-label counts describe this collected catalog, not population exercise prevalence or validated muscle targeting."
+    },
+    {
+      "finding_id": "EX03",
+      "domain": "exercise",
+      "observation": "2581 split groups retain 2909 exercises, including 46 mixed-label groups.",
+      "implication": "Use group-aware partitioning and investigate label conflicts before freezing training targets.",
+      "limitation": "Similarity links are conservative split protection and do not establish canonical exercise identity or statistical independence."
+    },
+    {
+      "finding_id": "EX04",
+      "domain": "exercise",
+      "observation": "The review queue contains 2333 entries; 2333 active entries remain unresolved across 2072 exercises.",
+      "implication": "Track review progress without treating overlapping findings as independent records or automatically excluding flagged examples.",
+      "limitation": "A preserved handling decision does not independently verify the original publisher label or youth suitability."
+    },
+    {
+      "finding_id": "EX05",
+      "domain": "exercise",
+      "observation": "Categorical associations and cross-tabs describe the source labels, text availability, and catalog metadata.",
+      "implication": "Inspect uneven documentation and collection patterns while retaining the name-and-description feature contract.",
+      "limitation": "No p-values or causal claims are made; sparse categories and related records limit interpretation, and metadata association does not authorize new predictors."
+    },
+    {
+      "finding_id": "SUP-NUTRITION",
+      "domain": "nutrition",
+      "observation": "411 food records; 321 have finite core values and 313 have finite nonnegative core values.",
+      "implication": "Use explicit numeric eligibility masks and report the sample size for each comparison.",
+      "limitation": "Completeness and nonnegativity do not independently verify food identity, reference amount, or suitability for an individual athlete."
+    },
+    {
+      "finding_id": "SUP-NUTRITION-DEPENDENCE",
+      "domain": "nutrition",
+      "observation": "Energy and macronutrient associations were described using finite nonnegative pairs.",
+      "implication": "Interpret food-composition patterns in the context of the recorded energy convention.",
+      "limitation": "Derived food energy can be mathematically related to macronutrients; these are not independent athlete outcomes or evidence of benefit."
+    },
+    {
+      "finding_id": "SUP-FICTIONAL-PROFILES",
+      "domain": "profiles",
+      "observation": "derived_athlete_profile: 30 records; aditi_synthetic_athletes: 60 records",
+      "implication": "Use the separate sources to examine request and constraint coverage and identify missing planner inputs.",
+      "limitation": "Fictional development examples do not establish population prevalence, validated drill labels, or an independent final test set."
+    },
+    {
+      "finding_id": "SUP-BASKETBALL",
+      "domain": "basketball",
+      "observation": "23 imported activity occurrences form 22 normalized name groups and link to 23 derived RAG documents.",
+      "implication": "Review coaching coverage, identities, permissions, and requirements in Step 12; evaluate retrieval separately.",
+      "limitation": "Derived RAG documents are another representation of the same activities, not additional independent drills or source evidence. Historical catalog versions are not additive."
+    },
+    {
+      "finding_id": "SUP-RECOVERY",
+      "domain": "recovery",
+      "observation": "5 guidance records and 17 structured reference rules were described.",
+      "implication": "Use Step 13 to reconcile population segments, evidence, and planning inputs before implementation.",
+      "limitation": "These are reference rules, not measured recovery outcomes. Recorded verification wording is not an individual prescription or approval by this analysis."
+    },
+    {
+      "finding_id": "SUP-MASTER",
+      "domain": "master",
+      "observation": "The verified Step 9 summary records 256337 master-index rows across 9 entity types.",
+      "implication": "Keep source domains separate and choose inputs according to each project component.",
+      "limitation": "Historical player records and nutrition tables do not supply validated youth drill-to-profile outcomes or a joint supervised target."
+    },
+    {
+      "finding_id": "SUP-PROVENANCE",
+      "domain": "provenance",
+      "observation": "9 historical inputs were absent from the checked Step 8 locations.",
+      "implication": "Retain the lineage limitation and resolve publisher inputs and permissions before release.",
+      "limitation": "This local analysis does not refresh publisher pages, validate source acquisition, or grant usage rights."
+    }
+  ],
+  "verified_checks": [
+    {
+      "check_name": "step10_producer",
+      "status": "pass",
+      "details": "The current catalog must have a completed Step 10 producer record."
+    },
+    {
+      "check_name": "step09_quality",
+      "status": "pass",
+      "details": "The saved quality inspection must have no required failures."
+    },
+    {
+      "check_name": "quality_report_counts",
+      "status": "pass",
+      "details": "The quality-check table agrees with its saved summary counters."
+    },
+    {
+      "check_name": "source_register_ids",
+      "status": "pass",
+      "details": "Source identifiers are unique and resolve across the preceding reports."
+    },
+    {
+      "check_name": "source_identity:derived_exercise",
+      "status": "pass",
+      "details": "Current source bytes agree with the completed Step 9 inspection."
+    },
+    {
+      "check_name": "source_dimensions:derived_exercise",
+      "status": "pass",
+      "details": "Loaded dimensions agree with the Step 9 inspection."
+    },
+    {
+      "check_name": "source_identity:derived_player_bio",
+      "status": "pass",
+      "details": "Current source bytes agree with the completed Step 9 inspection."
+    },
+    {
+      "check_name": "source_identity:derived_player_career",
+      "status": "pass",
+      "details": "Current source bytes agree with the completed Step 9 inspection."
+    },
+    {
+      "check_name": "source_identity:derived_basketball_season",
+      "status": "pass",
+      "details": "Current source bytes agree with the completed Step 9 inspection."
+    },
+    {
+      "check_name": "source_identity:derived_food_sample_link",
+      "status": "pass",
+      "details": "Current source bytes agree with the completed Step 9 inspection."
+    },
+    {
+      "check_name": "source_identity:derived_nutrient_result",
+      "status": "pass",
+      "details": "Current source bytes agree with the completed Step 9 inspection."
+    },
+    {
+      "check_name": "source_identity:derived_food_category",
+      "status": "pass",
+      "details": "Current source bytes agree with the completed Step 9 inspection."
+    },
+    {
+      "check_name": "source_identity:derived_food_portion",
+      "status": "pass",
+      "details": "Current source bytes agree with the completed Step 9 inspection."
+    },
+    {
+      "check_name": "source_identity:derived_athlete_profile",
+      "status": "pass",
+      "details": "Current source bytes agree with the completed Step 9 inspection."
+    },
+    {
+      "check_name": "source_dimensions:derived_athlete_profile",
+      "status": "pass",
+      "details": "Loaded dimensions agree with the Step 9 inspection."
+    },
+    {
+      "check_name": "source_identity:derived_master",
+      "status": "pass",
+      "details": "Current source bytes agree with the completed Step 9 inspection."
+    },
+    {
+      "check_name": "source_identity:derived_audit",
+      "status": "pass",
+      "details": "Current source bytes agree with the completed Step 9 inspection."
+    },
+    {
+      "check_name": "source_identity:aditi_jr_nba_drills",
+      "status": "pass",
+      "details": "Current source bytes agree with the completed Step 9 inspection."
+    },
+    {
+      "check_name": "source_dimensions:aditi_jr_nba_drills",
+      "status": "pass",
+      "details": "Loaded dimensions agree with the Step 9 inspection."
+    },
+    {
+      "check_name": "source_identity:aditi_jr_nba_rag",
+      "status": "pass",
+      "details": "Current source bytes agree with the completed Step 9 inspection."
+    },
+    {
+      "check_name": "source_dimensions:aditi_jr_nba_rag",
+      "status": "pass",
+      "details": "Loaded dimensions agree with the Step 9 inspection."
+    },
+    {
+      "check_name": "source_identity:aditi_usda_foundation_nutrition",
+      "status": "pass",
+      "details": "Current source bytes agree with the completed Step 9 inspection."
+    },
+    {
+      "check_name": "source_dimensions:aditi_usda_foundation_nutrition",
+      "status": "pass",
+      "details": "Loaded dimensions agree with the Step 9 inspection."
+    },
+    {
+      "check_name": "source_identity:aditi_usda_quality_report",
+      "status": "pass",
+      "details": "Current source bytes agree with the completed Step 9 inspection."
+    },
+    {
+      "check_name": "source_identity:aditi_recovery_guidance",
+      "status": "pass",
+      "details": "Current source bytes agree with the completed Step 9 inspection."
+    },
+    {
+      "check_name": "source_dimensions:aditi_recovery_guidance",
+      "status": "pass",
+      "details": "Loaded dimensions agree with the Step 9 inspection."
+    },
+    {
+      "check_name": "source_identity:aditi_synthetic_athletes",
+      "status": "pass",
+      "details": "Current source bytes agree with the completed Step 9 inspection."
+    },
+    {
+      "check_name": "source_dimensions:aditi_synthetic_athletes",
+      "status": "pass",
+      "details": "Loaded dimensions agree with the Step 9 inspection."
+    },
+    {
+      "check_name": "source_identity:recovery_rules_v01",
+      "status": "pass",
+      "details": "Current source bytes agree with the completed Step 9 inspection."
+    },
+    {
+      "check_name": "source_dimensions:recovery_rules_v01",
+      "status": "pass",
+      "details": "Loaded dimensions agree with the Step 9 inspection."
+    },
+    {
+      "check_name": "source_identity:recovery_rules_readme_v01",
+      "status": "pass",
+      "details": "Current source bytes agree with the completed Step 9 inspection."
+    },
+    {
+      "check_name": "source_identity:catalog_basketball_v01",
+      "status": "pass",
+      "details": "Current source bytes agree with the completed Step 9 inspection."
+    },
+    {
+      "check_name": "source_dimensions:catalog_basketball_v01",
+      "status": "pass",
+      "details": "Loaded dimensions agree with the Step 9 inspection."
+    },
+    {
+      "check_name": "source_identity:catalog_basketball_v02",
+      "status": "pass",
+      "details": "Current source bytes agree with the completed Step 9 inspection."
+    },
+    {
+      "check_name": "source_dimensions:catalog_basketball_v02",
+      "status": "pass",
+      "details": "Loaded dimensions agree with the Step 9 inspection."
+    },
+    {
+      "check_name": "source_identity:local_basketball_drills",
+      "status": "pass",
+      "details": "Current source bytes agree with the completed Step 9 inspection."
+    },
+    {
+      "check_name": "source_dimensions:local_basketball_drills",
+      "status": "pass",
+      "details": "Loaded dimensions agree with the Step 9 inspection."
+    },
+    {
+      "check_name": "analysis_sources",
+      "status": "pass",
+      "details": "All required domain tables are available; Step 12 outputs remain optional."
+    },
+    {
+      "check_name": "step10_artifact:catalog",
+      "status": "pass",
+      "details": "Prepared artifacts must match their current producer record; rerun Step 10 after review edits."
+    },
+    {
+      "check_name": "step10_dimensions:catalog",
+      "status": "pass",
+      "details": "Prepared table dimensions and field order agree."
+    },
+    {
+      "check_name": "step10_artifact:cleaning_log",
+      "status": "pass",
+      "details": "Prepared artifacts must match their current producer record; rerun Step 10 after review edits."
+    },
+    {
+      "check_name": "step10_dimensions:cleaning_log",
+      "status": "pass",
+      "details": "Prepared table dimensions and field order agree."
+    },
+    {
+      "check_name": "step10_artifact:review_queue",
+      "status": "pass",
+      "details": "Prepared artifacts must match their current producer record; rerun Step 10 after review edits."
+    },
+    {
+      "check_name": "step10_dimensions:review_queue",
+      "status": "pass",
+      "details": "Prepared table dimensions and field order agree."
+    },
+    {
+      "check_name": "step10_artifact:group_membership",
+      "status": "pass",
+      "details": "Prepared artifacts must match their current producer record; rerun Step 10 after review edits."
+    },
+    {
+      "check_name": "step10_dimensions:group_membership",
+      "status": "pass",
+      "details": "Prepared table dimensions and field order agree."
+    },
+    {
+      "check_name": "step10_artifact:review_carryover",
+      "status": "pass",
+      "details": "Prepared artifacts must match their current producer record; rerun Step 10 after review edits."
+    },
+    {
+      "check_name": "step10_dimensions:review_carryover",
+      "status": "pass",
+      "details": "Prepared table dimensions and field order agree."
+    },
+    {
+      "check_name": "feature_contract",
+      "status": "pass",
+      "details": "Step 11 uses the documented text fields, separate target, and unsplit group mapping."
+    },
+    {
+      "check_name": "exercise_parent",
+      "status": "pass",
+      "details": "The prepared catalog links to the verified cleaned exercise source."
+    },
+    {
+      "check_name": "catalog_identifiers",
+      "status": "pass",
+      "details": "Catalog identifiers and cleaned-file positions retain one-to-one source coverage."
+    },
+    {
+      "check_name": "source_and_text_preservation",
+      "status": "pass",
+      "details": "Original source values and the two-field classifier input were independently checked."
+    },
+    {
+      "check_name": "review_identifiers",
+      "status": "pass",
+      "details": "Review entries resolve uniquely to catalog records."
+    },
+    {
+      "check_name": "split_membership",
+      "status": "pass",
+      "details": "Every exercise has exactly one recorded split-group membership."
+    },
+    {
+      "check_name": "comparison_links",
+      "status": "pass",
+      "details": "Linked records remain together; missing descriptions do not form a shared-description group."
+    },
+    {
+      "check_name": "exercise_summary:catalog_records",
+      "status": "pass",
+      "details": "Recomputed exercise measures agree with Step 10."
+    },
+    {
+      "check_name": "exercise_summary:name_only_records",
+      "status": "pass",
+      "details": "Recomputed exercise measures agree with Step 10."
+    },
+    {
+      "check_name": "exercise_summary:review_queue_entries",
+      "status": "pass",
+      "details": "Recomputed exercise measures agree with Step 10."
+    },
+    {
+      "check_name": "exercise_summary:unresolved_active_entries",
+      "status": "pass",
+      "details": "Recomputed exercise measures agree with Step 10."
+    },
+    {
+      "check_name": "split_group_count",
+      "status": "pass",
+      "details": "The EDA uses the exact saved split mapping."
+    },
+    {
+      "check_name": "nutrition_summary:records",
+      "status": "pass",
+      "details": "The recomputed nutrition screening agrees with the verified Step 9 summary."
+    },
+    {
+      "check_name": "nutrition_summary:finite_core_complete",
+      "status": "pass",
+      "details": "The recomputed nutrition screening agrees with the verified Step 9 summary."
+    },
+    {
+      "check_name": "nutrition_summary:finite_core_incomplete",
+      "status": "pass",
+      "details": "The recomputed nutrition screening agrees with the verified Step 9 summary."
+    },
+    {
+      "check_name": "nutrition_summary:nonnegative_finite_core_complete",
+      "status": "pass",
+      "details": "The recomputed nutrition screening agrees with the verified Step 9 summary."
+    },
+    {
+      "check_name": "master_index_counts",
+      "status": "pass",
+      "details": "The separate domain totals reconcile to the verified master index."
+    },
+    {
+      "check_name": "drill_document_correspondence",
+      "status": "pass",
+      "details": "Imported occurrences and their derived documents have one-to-one identifier correspondence."
+    }
+  ],
+  "artifacts": {
+    "results/eda/exercise_body_part_distribution.csv": {
+      "sha256": "91ff3934bb22a65069190cb5a1b47665d4cc5a8a4c28602a0c23f8c543e433ca",
+      "bytes": 369,
+      "kind": "table",
+      "rows": 17,
+      "columns": [
+        "body_part",
+        "records",
+        "percent"
+      ]
+    },
+    "results/eda/exercise_text_lengths.csv": {
+      "sha256": "b6823b833ab1e5423b8a80603aa8001865dde4d72fcf66ece4be590445de5d05",
+      "bytes": 343510,
+      "kind": "table",
+      "rows": 2909,
+      "columns": [
+        "catalog_id",
+        "body_part",
+        "split_group_id",
+        "has_description",
+        "name_words",
+        "description_words",
+        "classifier_words"
+      ]
+    },
+    "results/eda/exercise_text_length_statistics.csv": {
+      "sha256": "323561b10634dd9994e858ab4765e3ee3508148e884098d19ea5c2534d978d32",
+      "bytes": 329,
+      "kind": "table",
+      "rows": 4,
+      "columns": [
+        "population",
+        "records",
+        "mean_words",
+        "median_words",
+        "p25_words",
+        "p75_words",
+        "p95_words",
+        "maximum_words"
+      ]
+    },
+    "results/eda/exercise_label_text_statistics.csv": {
+      "sha256": "cf5f76e674af6eb39d00113eb3d0b4909e709948322dfa61c53304361c5a14e7",
+      "bytes": 3452,
+      "kind": "table",
+      "rows": 51,
+      "columns": [
+        "body_part",
+        "population",
+        "records",
+        "mean_words",
+        "median_words",
+        "p25_words",
+        "p75_words",
+        "p95_words",
+        "maximum_words"
+      ]
+    },
+    "results/eda/exercise_description_coverage.csv": {
+      "sha256": "9785156c11ca9c6d4557c97c8d313e3623cfac4a6e159c11e209db1684dbb215",
+      "bytes": 539,
+      "kind": "table",
+      "rows": 17,
+      "columns": [
+        "body_part",
+        "records",
+        "missing_descriptions",
+        "available_descriptions",
+        "missing_percent"
+      ]
+    },
+    "results/eda/exercise_field_completeness.csv": {
+      "sha256": "f52f7218a12d5dc5720ec26f5706fa227f20966a331fb6599cdf38eaac406c4b",
+      "bytes": 817,
+      "kind": "table",
+      "rows": 17,
+      "columns": [
+        "scope",
+        "field",
+        "records",
+        "missing",
+        "explicit_unknown",
+        "present",
+        "missing_percent"
+      ]
+    },
+    "results/eda/exercise_equipment_distribution.csv": {
+      "sha256": "4b4615c27e3a368140eb335605daa42eebb7d64be7d49dc7b4ab5a62bade5bbc",
+      "bytes": 418,
+      "kind": "table",
+      "rows": 13,
+      "columns": [
+        "equipment",
+        "records",
+        "percent",
+        "value_state"
+      ]
+    },
+    "results/eda/exercise_difficulty_distribution.csv": {
+      "sha256": "248d797d08f7b9d967e2bccab796d6491ec05bd25572768bd50d22c6c1764332",
+      "bytes": 131,
+      "kind": "table",
+      "rows": 3,
+      "columns": [
+        "difficulty",
+        "records",
+        "percent",
+        "value_state"
+      ]
+    },
+    "results/eda/exercise_type_distribution.csv": {
+      "sha256": "8712297873ef4e01e2a02ba8adb28cd980d917fc7f8a2e43eaec0dbf2b56c004",
+      "bytes": 264,
+      "kind": "table",
+      "rows": 7,
+      "columns": [
+        "exercise_type",
+        "records",
+        "percent",
+        "value_state"
+      ]
+    },
+    "results/eda/exercise_review_issues.csv": {
+      "sha256": "30ba31dcd778d03e2049063f63789eaf25b44262add89763c31502b586c85181",
+      "bytes": 554,
+      "kind": "table",
+      "rows": 8,
+      "columns": [
+        "issue_type",
+        "queue_entries",
+        "observed_entries",
+        "retained_custom_entries",
+        "historical_entries",
+        "active_entries",
+        "unresolved_entries",
+        "distinct_active_records",
+        "distinct_unresolved_records"
+      ]
+    },
+    "results/eda/exercise_review_status.csv": {
+      "sha256": "4274319143bdc55ce16eac389f5fa460b8b41bc9e39f13ba590d6a8b32a4dd09",
+      "bytes": 182,
+      "kind": "table",
+      "rows": 2,
+      "columns": [
+        "entity",
+        "finding_state",
+        "review_status",
+        "entries",
+        "distinct_records",
+        "active",
+        "unresolved"
+      ]
+    },
+    "results/eda/exercise_comparison_summary.csv": {
+      "sha256": "b84f078517011fd565a19683ef2262483653125a77b3477d880b76f664199732",
+      "bytes": 409,
+      "kind": "table",
+      "rows": 6,
+      "columns": [
+        "relation_type",
+        "repeated_groups",
+        "records_in_repeated_groups",
+        "additional_records",
+        "different_label_groups",
+        "largest_group",
+        "link_role"
+      ]
+    },
+    "results/eda/exercise_split_group_summary.csv": {
+      "sha256": "1c860bdb6d55541e6ab887ca6594c2c0697c798490f7056aa8fbaebf7c606e4b",
+      "bytes": 257836,
+      "kind": "table",
+      "rows": 2581,
+      "columns": [
+        "split_group_id",
+        "member_count",
+        "label_count",
+        "labels_json",
+        "name_only_records",
+        "described_records"
+      ]
+    },
+    "results/eda/exercise_split_group_size_distribution.csv": {
+      "sha256": "c0f5f41e1de24ec4597759068261fc63f3bba45c16cea5ace7677d7aaa71da67",
+      "bytes": 167,
+      "kind": "table",
+      "rows": 7,
+      "columns": [
+        "member_count",
+        "groups",
+        "records",
+        "percent_of_records"
+      ]
+    },
+    "results/eda/exercise_label_readiness.csv": {
+      "sha256": "0693aedd8333430be42bb1f7ff1cf84d0cd50f86c957977e5a9b669787100612",
+      "bytes": 1340,
+      "kind": "table",
+      "rows": 17,
+      "columns": [
+        "body_part",
+        "records",
+        "percent",
+        "described_records",
+        "name_only_records",
+        "description_missing_percent",
+        "distinct_split_groups",
+        "mixed_label_split_groups",
+        "single_label_split_groups",
+        "largest_within_label_split_group",
+        "largest_group_share_of_label_percent",
+        "records_with_unresolved_findings",
+        "low_support_under_10_records"
+      ]
+    },
+    "results/eda/exercise_categorical_associations.csv": {
+      "sha256": "74c66c302c61d48d18df6703dc6d2c80bc5f0e5a0f1e5804c5e467d243557b61",
+      "bytes": 1465,
+      "kind": "table",
+      "rows": 6,
+      "columns": [
+        "left_field",
+        "right_field",
+        "paired_records",
+        "left_categories",
+        "right_categories",
+        "observed_nonzero_cells",
+        "possible_cells",
+        "chi_square_descriptive",
+        "bias_corrected_cramers_v",
+        "minimum_expected_cell",
+        "expected_cells_below_5",
+        "percent_expected_cells_below_5",
+        "missing_category_included",
+        "interpretation"
+      ]
+    },
+    "results/eda/exercise_label_metadata_crosstabs.csv": {
+      "sha256": "774ef2dbe0acc39b739d8b58e3ac6b69995a8a04a93c24ad662af717ff32bcb3",
+      "bytes": 21808,
+      "kind": "table",
+      "rows": 425,
+      "columns": [
+        "left_field",
+        "left_value",
+        "right_field",
+        "right_value",
+        "records",
+        "percent_within_left"
+      ]
+    },
+    "results/eda/exercise_preparation_summary.csv": {
+      "sha256": "2fdc1c0a63977c54f1045381747a16a5dcd5ca45acbec6f44274ec3754c06aae",
+      "bytes": 282,
+      "kind": "table",
+      "rows": 10,
+      "columns": [
+        "measure",
+        "count"
+      ]
+    },
+    "results/eda/exercise_eda_findings.csv": {
+      "sha256": "36b74916a622411817a9218f93e7fd50e84e3124ae5f85ec34b747e9ee2beb31",
+      "bytes": 582,
+      "kind": "table",
+      "rows": 4,
+      "columns": [
+        "finding_id",
+        "metric",
+        "value",
+        "evidence",
+        "follow_up"
+      ]
+    },
+    "results/eda/nutrition_field_completeness.csv": {
+      "sha256": "c5dae1025668d66cd109a3db423aecff1cb169c4ff46505776bee3f2c7a8c2d7",
+      "bytes": 689,
+      "kind": "table",
+      "rows": 7,
+      "columns": [
+        "source_id",
+        "nutrient",
+        "total_records",
+        "missing_records",
+        "missing_pct",
+        "invalid_numeric_records",
+        "nonfinite_records",
+        "negative_records",
+        "finite_records",
+        "finite_nonnegative_records"
+      ]
+    },
+    "results/eda/nutrition_descriptive_statistics.csv": {
+      "sha256": "99e6effd649fcaf8083dad079882cf90c726eacefc9b46903fbc5640e596c84a",
+      "bytes": 1867,
+      "kind": "table",
+      "rows": 7,
+      "columns": [
+        "source_id",
+        "nutrient",
+        "analysis_subset",
+        "eligible_records",
+        "mean",
+        "standard_deviation_population",
+        "minimum",
+        "q1",
+        "median",
+        "q3",
+        "maximum",
+        "reference_amount_status"
+      ]
+    },
+    "results/eda/nutrition_pairwise_correlations.csv": {
+      "sha256": "feb3840cf6b8a8188a54a309c4088a95176db20ffa397524d34a7d1c9b2a8393",
+      "bytes": 5745,
+      "kind": "table",
+      "rows": 20,
+      "columns": [
+        "source_id",
+        "first_field",
+        "second_field",
+        "method",
+        "eligible_pair_records",
+        "excluded_records",
+        "coefficient",
+        "status",
+        "eligibility",
+        "interpretation_limit"
+      ]
+    },
+    "results/eda/nutrition_energy_methods.csv": {
+      "sha256": "5029df981865c21f6b4d04640761c8f64cd5a9eacab5c4c9a4cc78eeb50f4466",
+      "bytes": 351,
+      "kind": "table",
+      "rows": 3,
+      "columns": [
+        "source_id",
+        "field",
+        "value",
+        "records",
+        "denominator_records",
+        "percent",
+        "record_unit"
+      ]
+    },
+    "results/eda/nutrition_energy_comparison.csv": {
+      "sha256": "ea78846dee2f49379e9bc77eb0d75ec4bf85e1e3c2e09e4480a465b8fb492b83",
+      "bytes": 874,
+      "kind": "table",
+      "rows": 3,
+      "columns": [
+        "source_id",
+        "first_field",
+        "second_field",
+        "eligible_pair_records",
+        "excluded_records",
+        "mean_signed_difference",
+        "median_signed_difference",
+        "mean_absolute_difference",
+        "maximum_absolute_difference",
+        "interpretation_limit"
+      ]
+    },
+    "results/eda/nutrition_anomaly_review.csv": {
+      "sha256": "8a0b02def555917bc1096d1249e41b14ae1d643c51a3dbad2188fb02ca585345",
+      "bytes": 1253,
+      "kind": "table",
+      "rows": 8,
+      "columns": [
+        "source_id",
+        "source_row",
+        "fdc_id",
+        "field",
+        "source_value",
+        "finding",
+        "handling"
+      ]
+    },
+    "results/eda/synthetic_athlete_distributions.csv": {
+      "sha256": "878a9b27a53345c5418c090e429a1a74186f4b8ae7319188d17a87d3758bef75",
+      "bytes": 8100,
+      "kind": "table",
+      "rows": 85,
+      "columns": [
+        "source_id",
+        "field",
+        "value",
+        "records",
+        "denominator_records",
+        "percent",
+        "record_unit"
+      ]
+    },
+    "results/eda/synthetic_goal_by_experience.csv": {
+      "sha256": "43c7cb0a4a15c113d1bad886e967b36cff98ba4078ab4024ca594f9344b2245a",
+      "bytes": 7882,
+      "kind": "table",
+      "rows": 46,
+      "columns": [
+        "source_id",
+        "experience_level",
+        "second_field",
+        "value",
+        "profiles",
+        "experience_level_profiles",
+        "within_level_percent",
+        "interpretation_limit"
+      ]
+    },
+    "results/eda/synthetic_days_by_experience.csv": {
+      "sha256": "4e58fabb4c1989553b3c07e61484083ab6da466410e5fc84933e72c973ce589e",
+      "bytes": 4264,
+      "kind": "table",
+      "rows": 26,
+      "columns": [
+        "source_id",
+        "experience_level",
+        "second_field",
+        "value",
+        "profiles",
+        "experience_level_profiles",
+        "within_level_percent",
+        "interpretation_limit"
+      ]
+    },
+    "results/eda/profile_planning_input_coverage.csv": {
+      "sha256": "d758f4a9d8d02b8753d1da33edcc32547bfa0bd05dd24e039dbf119e71edd2d9",
+      "bytes": 4304,
+      "kind": "table",
+      "rows": 22,
+      "columns": [
+        "source_id",
+        "planning_field_group",
+        "schema_presence",
+        "source_fields",
+        "total_records",
+        "nonmissing_nonunknown_records",
+        "explicit_unknown_records",
+        "missing_value_records",
+        "schema_absent_records",
+        "interpretation_limit"
+      ]
+    },
+    "results/eda/basketball_rag_traceability.csv": {
+      "sha256": "f496c0588fdf8661cdffeab798b7968f4f7d5d82f5ddfb2e40796231663faffb",
+      "bytes": 1319,
+      "kind": "table",
+      "rows": 8,
+      "columns": [
+        "source_id",
+        "metric",
+        "value",
+        "unit",
+        "interpretation_limit"
+      ]
+    },
+    "results/eda/basketball_skill_coverage.csv": {
+      "sha256": "00c09d774d37bd9257cf223696499e6c401af9a4323b16cae07e5a57ca395c70",
+      "bytes": 4231,
+      "kind": "table",
+      "rows": 46,
+      "columns": [
+        "source_id",
+        "field",
+        "value",
+        "records",
+        "denominator_records",
+        "percent",
+        "record_unit"
+      ]
+    },
+    "results/eda/basketball_source_coverage.csv": {
+      "sha256": "a36b506d7af154e23e3adf99502e5a86165dcc514ec5f45753497f7840ac3d4c",
+      "bytes": 1380,
+      "kind": "table",
+      "rows": 14,
+      "columns": [
+        "source_id",
+        "field",
+        "value",
+        "records",
+        "denominator_records",
+        "percent",
+        "record_unit"
+      ]
+    },
+    "results/eda/basketball_level_coverage.csv": {
+      "sha256": "4cff8e8e56c4fe7bdd08d12fbc78169e91d952033a76d6fa4b3bb7f12a68e6fe",
+      "bytes": 1793,
+      "kind": "table",
+      "rows": 18,
+      "columns": [
+        "source_id",
+        "field",
+        "value",
+        "records",
+        "denominator_records",
+        "percent",
+        "record_unit"
+      ]
+    },
+    "results/eda/basketball_participant_requirements.csv": {
+      "sha256": "19b3ea6aad60a481470688cdf46b7d3b475791a0c9e05ed849b3d88d4176c8b4",
+      "bytes": 10537,
+      "kind": "table",
+      "rows": 99,
+      "columns": [
+        "source_id",
+        "field",
+        "value",
+        "records",
+        "denominator_records",
+        "percent",
+        "record_unit"
+      ]
+    },
+    "results/eda/basketball_catalog_review_summary.csv": {
+      "sha256": "9fe48ebf14be7256a079b08929954fcbf984c28d0158ef069b113ef57ad13561",
+      "bytes": 2865,
+      "kind": "table",
+      "rows": 26,
+      "columns": [
+        "source_id",
+        "field",
+        "value",
+        "records",
+        "denominator_records",
+        "percent",
+        "record_unit"
+      ]
+    },
+    "results/eda/basketball_name_overlap_review.csv": {
+      "sha256": "7d1d64ba5eec704ccc63ded820dcda815da20ea068cd7dda11da90b591b520fa",
+      "bytes": 7551,
+      "kind": "table",
+      "rows": 44,
+      "columns": [
+        "imported_source_id",
+        "historical_catalog_source_id",
+        "normalized_name",
+        "matched_candidate_groups",
+        "candidate_ids",
+        "interpretation_limit"
+      ]
+    },
+    "results/eda/recovery_guidance_topics.csv": {
+      "sha256": "08b12cc4baef3b49442c30da20075dfa4093abce704621bab2b8a94ec01b084e",
+      "bytes": 396,
+      "kind": "table",
+      "rows": 5,
+      "columns": [
+        "source_id",
+        "field",
+        "value",
+        "records",
+        "denominator_records",
+        "percent",
+        "record_unit"
+      ]
+    },
+    "results/eda/recovery_rule_types.csv": {
+      "sha256": "a47e01adf7ebb812c2a249c9e9baafdd4eb6e29e7a14906dc68c2fde6368dd9c",
+      "bytes": 441,
+      "kind": "table",
+      "rows": 5,
+      "columns": [
+        "source_id",
+        "field",
+        "value",
+        "records",
+        "denominator_records",
+        "percent",
+        "record_unit"
+      ]
+    },
+    "results/eda/recovery_rule_coverage.csv": {
+      "sha256": "3c730c7891f7d5cf903e81ad1723126bbba2687c88eef76e4cb8914ff5b39c55",
+      "bytes": 4930,
+      "kind": "table",
+      "rows": 17,
+      "columns": [
+        "source_id",
+        "segment",
+        "metric",
+        "rule_type",
+        "unit",
+        "rules",
+        "source_urls_present",
+        "lower_bounds_present",
+        "upper_bounds_present",
+        "verification_statuses",
+        "interpretation_limit"
+      ]
+    },
+    "results/eda/master_entity_coverage.csv": {
+      "sha256": "373791c83bf0dc65f690fec810254d6103b8b17b8c0522b1bd59cfb4aa03e804",
+      "bytes": 1909,
+      "kind": "table",
+      "rows": 9,
+      "columns": [
+        "entity_type",
+        "master_records",
+        "prepared_domain_records",
+        "role",
+        "interpretation_limit"
+      ]
+    },
+    "results/eda/source_provenance_coverage.csv": {
+      "sha256": "fa346b84663d82eb9ed58652191c6db0744037cbf701d8363d03877b52b2383c",
+      "bytes": 8563,
+      "kind": "table",
+      "rows": 39,
+      "columns": [
+        "source_id",
+        "availability_at_step08",
+        "observed_records_at_step08",
+        "hash_status_at_step08",
+        "count_status_at_step08",
+        "producer_step",
+        "interpretation_limit"
+      ]
+    },
+    "results/eda/integrated_data_dictionary.csv": {
+      "sha256": "12950a2d6334143f90b87654e2f331a0f4578bf042b55c6e4d2df599051e9a23",
+      "bytes": 8717,
+      "kind": "table",
+      "rows": 31,
+      "columns": [
+        "source_id",
+        "field_group",
+        "available_source_fields",
+        "plain_language_definition",
+        "variable_type",
+        "model_or_system_role",
+        "limitations_or_cautions"
+      ]
+    },
+    "results/eda/eda_quality_causes_and_production_handling.csv": {
+      "sha256": "a79a25dafdd4e2f7a75aab8b7520b1c49292b3b9f56bc7bf1a5db0aaaeddb476",
+      "bytes": 14684,
+      "kind": "table",
+      "rows": 33,
+      "columns": [
+        "source_id",
+        "finding",
+        "affected_count",
+        "affected_unit",
+        "observed_evidence",
+        "possible_cause",
+        "cause_status",
+        "current_handling",
+        "proposed_production_handling"
+      ]
+    },
+    "results/eda/integrated_eda_findings.csv": {
+      "sha256": "b283670cedc9fef213272d29b85c49154d1985dcce0b2e236c26f93b6bf4d40a",
+      "bytes": 4139,
+      "kind": "table",
+      "rows": 12,
+      "columns": [
+        "finding_id",
+        "domain",
+        "observation",
+        "implication",
+        "limitation"
+      ]
+    },
+    "results/eda/eda_input_register.csv": {
+      "sha256": "fc647e870e74612e164f31638af5f42d59cdcbd6ec05e2c8a5863ab9086c2870",
+      "bytes": 7019,
+      "kind": "table",
+      "rows": 43,
+      "columns": [
+        "source_id",
+        "relative_path",
+        "authority",
+        "role",
+        "availability",
+        "records",
+        "sha256"
+      ]
+    },
+    "results/eda/eda_source_scope.csv": {
+      "sha256": "cc63aee21253c3d89c6a7b8a8328e3d763e9d324ff0bb2592857e9e74db396f7",
+      "bytes": 8737,
+      "kind": "table",
+      "rows": 39,
+      "columns": [
+        "source_id",
+        "title",
+        "intended_role",
+        "availability_at_step09",
+        "analysis_scope",
+        "permission_status",
+        "source_url",
+        "limitations"
+      ]
+    },
+    "results/eda/integrated_eda_summary.csv": {
+      "sha256": "ccec97e163456450bcc710cb8723c037cbe5f5a999d1734791ec36fd494a9a80",
+      "bytes": 2112,
+      "kind": "table",
+      "rows": 44,
+      "columns": [
+        "domain",
+        "measure",
+        "value",
+        "unit"
+      ]
+    },
+    "results/eda/eda_integrity_checks.csv": {
+      "sha256": "6b327f78a635781aa0be87d551e998f4a0e16a892d1ee119e7fa4324ef5bf2b2",
+      "bytes": 6910,
+      "kind": "table",
+      "rows": 66,
+      "columns": [
+        "check_name",
+        "status",
+        "details"
+      ]
+    },
+    "results/figures/exercise_body_part_distribution.png": {
+      "sha256": "edb68de1a34f8403dc28698bfb556b6bf019f00f15b48fe1cc5d657bb2ffdf5e",
+      "bytes": 64990,
+      "kind": "figure",
+      "format": "png",
+      "dpi": 160
+    },
+    "results/figures/exercise_missing_description_by_class.png": {
+      "sha256": "de1881d4d56ec8fad01c350e73e1aabc806ec1374f2f11c492115cf3500420d5",
+      "bytes": 65638,
+      "kind": "figure",
+      "format": "png",
+      "dpi": 160
+    },
+    "results/figures/exercise_name_word_length.png": {
+      "sha256": "023a95d8de5e49d2b5ad63ae79ed8079e144ffa057bad723e89f2c155635bee4",
+      "bytes": 33377,
+      "kind": "figure",
+      "format": "png",
+      "dpi": 160
+    },
+    "results/figures/exercise_description_word_length.png": {
+      "sha256": "9de36adb496d945c4f8a6258b3f741b8ee2e1d3c6ee89520e102451f92d16b48",
+      "bytes": 34319,
+      "kind": "figure",
+      "format": "png",
+      "dpi": 160
+    },
+    "results/figures/nutrition_missingness.png": {
+      "sha256": "377c5200a46600427d9ca4727a874df8ba2ee0f5da5d2be7aaf7ed8e5f1f1c25",
+      "bytes": 45020,
+      "kind": "figure",
+      "format": "png",
+      "dpi": 160
+    },
+    "results/figures/nutrition_spearman_correlations.png": {
+      "sha256": "0d476d962dc7f7259b6a1ef102aaf324b822fdab64a327c1a2de863bd768f345",
+      "bytes": 97919,
+      "kind": "figure",
+      "format": "png",
+      "dpi": 160
+    },
+    "results/figures/synthetic_athlete_age_coverage.png": {
+      "sha256": "6fa7978f8e0a884a3df25b5a15f1c927d5bf1722daef6b22a5c88003e7c35f36",
+      "bytes": 35730,
+      "kind": "figure",
+      "format": "png",
+      "dpi": 160
+    },
+    "results/figures/basketball_imported_skill_coverage.png": {
+      "sha256": "dd7ed40cab0e1cf274477a10305b23043d9c90ea8f97faa7a7b94ed1b8ec9b11",
+      "bytes": 44633,
+      "kind": "figure",
+      "format": "png",
+      "dpi": 160
+    },
+    "results/figures/exercise_split_group_support_by_class.png": {
+      "sha256": "085f7dc33591d790ee2732c38c4df47c46402afad641483e6fae60f06e0fabfc",
+      "bytes": 71023,
+      "kind": "figure",
+      "format": "png",
+      "dpi": 160
+    }
+  },
+  "previous_artifacts": {
+    "results/eda/exercise_body_part_distribution.csv": {
+      "sha256": "868873e6589961d5bb94907a0a8a07a1be494da4f0ca5706028d07606fe1298c",
+      "backup_path": "results/backups/step11/20261108T221934_167196Z/results/eda/exercise_body_part_distribution.csv"
+    },
+    "results/eda/exercise_text_length_statistics.csv": {
+      "sha256": "c6e198bec0d137d707d38e22ee84e45aabc6b5956b85b3d69c01f9ac5e4eae37",
+      "backup_path": "results/backups/step11/20261108T221934_167196Z/results/eda/exercise_text_length_statistics.csv"
+    },
+    "results/eda/exercise_description_coverage.csv": {
+      "sha256": "604ec240df9e3e05090030a8473209251d8a152ecda8c812426669fd62b188c6",
+      "backup_path": "results/backups/step11/20261108T221934_167196Z/results/eda/exercise_description_coverage.csv"
+    },
+    "results/eda/exercise_equipment_distribution.csv": {
+      "sha256": "76852c51a07ec71db9765e9604320b21f1c5e1eec29a85e6447836b475cf68f1",
+      "backup_path": "results/backups/step11/20261108T221934_167196Z/results/eda/exercise_equipment_distribution.csv"
+    },
+    "results/eda/exercise_difficulty_distribution.csv": {
+      "sha256": "6d6d928fffad0d533e899314f142b2bdce9f1f0bc9e65aaf200902b348bc82ba",
+      "backup_path": "results/backups/step11/20261108T221934_167196Z/results/eda/exercise_difficulty_distribution.csv"
+    },
+    "results/eda/exercise_review_issues.csv": {
+      "sha256": "6e499249ad00f9b8a93d824c635896a0a373170eccb8b37c5fb1eb164dddc3d4",
+      "backup_path": "results/backups/step11/20261108T221934_167196Z/results/eda/exercise_review_issues.csv"
+    },
+    "results/eda/exercise_preparation_summary.csv": {
+      "sha256": "25f2ca2eaa67fa5eaecf5d6e166fd20c4877effdf8a8be972cd7b2705bd606b3",
+      "backup_path": "results/backups/step11/20261108T221934_167196Z/results/eda/exercise_preparation_summary.csv"
+    },
+    "results/eda/exercise_eda_findings.csv": {
+      "sha256": "f232f5e5c2d1d7b200246fef3f69a93f8df72d813a45af4de2ae349c8eaf9d16",
+      "backup_path": "results/backups/step11/20261108T221934_167196Z/results/eda/exercise_eda_findings.csv"
+    },
+    "results/eda/nutrition_field_completeness.csv": {
+      "sha256": "5961aab1fe3ea5e79d663deee24d29da28140372c0439fe7caf344cd3057117e",
+      "backup_path": "results/backups/step11/20261108T221934_167196Z/results/eda/nutrition_field_completeness.csv"
+    },
+    "results/eda/nutrition_descriptive_statistics.csv": {
+      "sha256": "59f4969d87174ad2391c87ef59d164f24634a44005e1a9e737ec6fbec8fd2b4a",
+      "backup_path": "results/backups/step11/20261108T221934_167196Z/results/eda/nutrition_descriptive_statistics.csv"
+    },
+    "results/eda/nutrition_pairwise_correlations.csv": {
+      "sha256": "daa2f716fbf4c0163004a4616d06629ef94ab999dfeca44ecba148ae7a19b95a",
+      "backup_path": "results/backups/step11/20261108T221934_167196Z/results/eda/nutrition_pairwise_correlations.csv"
+    },
+    "results/eda/nutrition_energy_methods.csv": {
+      "sha256": "5d63e6de04875f363ff4f609413a6d22635d798ec5889714ee1a4012f14fb22f",
+      "backup_path": "results/backups/step11/20261108T221934_167196Z/results/eda/nutrition_energy_methods.csv"
+    },
+    "results/eda/nutrition_energy_comparison.csv": {
+      "sha256": "d88bd4c8ff5d5f4511b9471c86152cc9f34b46e383c861abfa40f02fa8e03359",
+      "backup_path": "results/backups/step11/20261108T221934_167196Z/results/eda/nutrition_energy_comparison.csv"
+    },
+    "results/eda/nutrition_anomaly_review.csv": {
+      "sha256": "949a9d6697e79b8dd1fc580c3f43ee4a9da5a2327e3ee4e145886d0c2ae8f489",
+      "backup_path": "results/backups/step11/20261108T221934_167196Z/results/eda/nutrition_anomaly_review.csv"
+    },
+    "results/eda/synthetic_athlete_distributions.csv": {
+      "sha256": "2699127e22c3629e010d194c330bd1436da68db4a77eef04f6fe43d3cc65c35d",
+      "backup_path": "results/backups/step11/20261108T221934_167196Z/results/eda/synthetic_athlete_distributions.csv"
+    },
+    "results/eda/synthetic_goal_by_experience.csv": {
+      "sha256": "fea5daf11f2b5ebf5ccf3d53f1ca7c178599bd988b72b213cfc64dc0826daef2",
+      "backup_path": "results/backups/step11/20261108T221934_167196Z/results/eda/synthetic_goal_by_experience.csv"
+    },
+    "results/eda/synthetic_days_by_experience.csv": {
+      "sha256": "2006b373b6e48002ff1bbd462d718b29fdbaf130feb0cf3c69d3a053648eb9a2",
+      "backup_path": "results/backups/step11/20261108T221934_167196Z/results/eda/synthetic_days_by_experience.csv"
+    },
+    "results/eda/basketball_rag_traceability.csv": {
+      "sha256": "794395082a6dac2aea42ee6332f53f7844ad0ad11ee8e77255558b343102ae91",
+      "backup_path": "results/backups/step11/20261108T221934_167196Z/results/eda/basketball_rag_traceability.csv"
+    },
+    "results/eda/basketball_skill_coverage.csv": {
+      "sha256": "fe0f3e9499d42a17089553aeabb88d4e2321268125d26639fe9e1ba6b642f822",
+      "backup_path": "results/backups/step11/20261108T221934_167196Z/results/eda/basketball_skill_coverage.csv"
+    },
+    "results/eda/basketball_source_coverage.csv": {
+      "sha256": "662a37da61946f731ec52f74bfb1853b9b01892a4405420d601a167fafb44a04",
+      "backup_path": "results/backups/step11/20261108T221934_167196Z/results/eda/basketball_source_coverage.csv"
+    },
+    "results/eda/basketball_level_coverage.csv": {
+      "sha256": "92636e6ef5d7194ed1a8269434fa6c100610e3d7105a88a5f8a2cea904bf5762",
+      "backup_path": "results/backups/step11/20261108T221934_167196Z/results/eda/basketball_level_coverage.csv"
+    },
+    "results/eda/basketball_participant_requirements.csv": {
+      "sha256": "4987d09161c75155c7720c292a319bfed2e7bd255033b86ce756671efc925149",
+      "backup_path": "results/backups/step11/20261108T221934_167196Z/results/eda/basketball_participant_requirements.csv"
+    },
+    "results/eda/basketball_catalog_review_summary.csv": {
+      "sha256": "291026ceb8812317d713effdb7ee7aa835c6e7ab422fa0ad518709035754a6a8",
+      "backup_path": "results/backups/step11/20261108T221934_167196Z/results/eda/basketball_catalog_review_summary.csv"
+    },
+    "results/eda/basketball_name_overlap_review.csv": {
+      "sha256": "28857d7f155486e109392844a05d0f54b871e6e5bea13bd6e9d9d50dd4054442",
+      "backup_path": "results/backups/step11/20261108T221934_167196Z/results/eda/basketball_name_overlap_review.csv"
+    },
+    "results/eda/recovery_guidance_topics.csv": {
+      "sha256": "15e983526e69c4b8084db4fadc9d3e6c05ae5c3985023e6a87cb33226a9707b6",
+      "backup_path": "results/backups/step11/20261108T221934_167196Z/results/eda/recovery_guidance_topics.csv"
+    },
+    "results/eda/recovery_rule_types.csv": {
+      "sha256": "0ec109272209249b9a38ef44ecfec61c74dbf02c65383be65d55eccbc8840d93",
+      "backup_path": "results/backups/step11/20261108T221934_167196Z/results/eda/recovery_rule_types.csv"
+    },
+    "results/eda/recovery_rule_coverage.csv": {
+      "sha256": "3ab5272ed74fa9d64c117c8e05f8fbde26bb29d1c9f71965b8e916a10dd6e9d1",
+      "backup_path": "results/backups/step11/20261108T221934_167196Z/results/eda/recovery_rule_coverage.csv"
+    },
+    "results/eda/integrated_data_dictionary.csv": {
+      "sha256": "ffe4697fb1abf0593c1a384d17d19a479b8a4e9eed2d4dc70f59dd2c4d7c3eea",
+      "backup_path": "results/backups/step11/20261108T221934_167196Z/results/eda/integrated_data_dictionary.csv"
+    },
+    "results/eda/eda_quality_causes_and_production_handling.csv": {
+      "sha256": "71efc12608c5a287fea6a2cf2fd59bb9d1758be68f3db975e38129ff410343cb",
+      "backup_path": "results/backups/step11/20261108T221934_167196Z/results/eda/eda_quality_causes_and_production_handling.csv"
+    },
+    "results/eda/integrated_eda_findings.csv": {
+      "sha256": "addf25850b24ad3abbc3d5b97a471422813f6b94fb5082d41f85b3c04da91d2e",
+      "backup_path": "results/backups/step11/20261108T221934_167196Z/results/eda/integrated_eda_findings.csv"
+    },
+    "results/eda/integrated_eda_summary.csv": {
+      "sha256": "603d8cc4a9544771ed95f0a89d01e36af3fd4d2b28094cdf2c736bc2f26b439d",
+      "backup_path": "results/backups/step11/20261108T221934_167196Z/results/eda/integrated_eda_summary.csv"
+    },
+    "results/figures/exercise_body_part_distribution.png": {
+      "sha256": "5b8ea0ff368f9ab89740680b24a94f6562c0a7d70989ba602b72e414933c9905",
+      "backup_path": "results/backups/step11/20261108T221934_167196Z/results/figures/exercise_body_part_distribution.png"
+    },
+    "results/figures/exercise_missing_description_by_class.png": {
+      "sha256": "4712530e939b9cb9b73549174c9e9cc1dc503ee187ec9dc2a8354ca5ece85966",
+      "backup_path": "results/backups/step11/20261108T221934_167196Z/results/figures/exercise_missing_description_by_class.png"
+    },
+    "results/figures/exercise_name_word_length.png": {
+      "sha256": "2172932056889f3991b682dbf3996a90b6a38b6e414c9ab07b248e24aefe1dec",
+      "backup_path": "results/backups/step11/20261108T221934_167196Z/results/figures/exercise_name_word_length.png"
+    },
+    "results/figures/exercise_description_word_length.png": {
+      "sha256": "959db60c1a1201a29aa3db988cb9a43ca585b1b646e4de39a066aa3e8aa0c806",
+      "backup_path": "results/backups/step11/20261108T221934_167196Z/results/figures/exercise_description_word_length.png"
+    },
+    "results/figures/nutrition_missingness.png": {
+      "sha256": "2148ca124292ac692cde8e1126be012a7f7afd73084a2082a7819f09134175ec",
+      "backup_path": "results/backups/step11/20261108T221934_167196Z/results/figures/nutrition_missingness.png"
+    },
+    "results/figures/nutrition_spearman_correlations.png": {
+      "sha256": "0a78b339e8794efcb0a4ff620dbea2dd29b63a0f40954c4e8ade59c13e7d0543",
+      "backup_path": "results/backups/step11/20261108T221934_167196Z/results/figures/nutrition_spearman_correlations.png"
+    },
+    "results/figures/synthetic_athlete_age_coverage.png": {
+      "sha256": "135756ffdcedf3d7eea287835a795892b68d14621e576a1a9538ccd51b51928f",
+      "backup_path": "results/backups/step11/20261108T221934_167196Z/results/figures/synthetic_athlete_age_coverage.png"
+    },
+    "results/figures/basketball_imported_skill_coverage.png": {
+      "sha256": "649a577dc4b31c2f7a92d77b28ea9b6dbcd507cff9a6d66a4487b0fad9ebf83c",
+      "backup_path": "results/backups/step11/20261108T221934_167196Z/results/figures/basketball_imported_skill_coverage.png"
+    }
+  },
+  "output_scope_note": "Only the listed artifacts belong to this run; other older files in the report folders were not reassessed."
+}

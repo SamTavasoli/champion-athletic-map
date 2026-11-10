@@ -1,0 +1,6 @@
+display_concept,nutrient_id,nutrient_name,unit_name,nutrient_nbr,reference_mass_g,reference_basis,recorded_rows,numeric_usable_rows,selection_policy,definition_source,basis_evidence
+energy,1008,Energy,KCAL,208,100,edible_food,7793,7793,use_exact_recorded_id; no_4_9_4_recalculation_or_Foundation_fallback,data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/nutrient.csv,SR_LEGACY_BASIS;FDC_FIELD_BASIS
+protein,1003,Protein,G,203,100,edible_food,7793,7793,use_exact_recorded_id,data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/nutrient.csv,SR_LEGACY_BASIS;FDC_FIELD_BASIS
+total_fat,1004,Total lipid (fat),G,204,100,edible_food,7793,7793,use_exact_recorded_id,data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/nutrient.csv,SR_LEGACY_BASIS;FDC_FIELD_BASIS
+carbohydrate,1005,"Carbohydrate, by difference",G,205,100,edible_food,7793,7793,use_exact_recorded_id,data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/nutrient.csv,SR_LEGACY_BASIS;FDC_FIELD_BASIS
+dietary_fiber,1079,"Fiber, total dietary",G,291,100,edible_food,7231,7231,use_exact_recorded_id,data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/nutrient.csv,SR_LEGACY_BASIS;FDC_FIELD_BASIS

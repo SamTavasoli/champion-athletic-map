@@ -1,0 +1,6 @@
+finding_id,count,meaning,handling
+SR_FIBER_COVERAGE,562,Foods without a fiber record,fiber unavailable; preserve other valid nutrient facts
+SR_PORTION_NUMERIC_REVIEW,18,Portion rows failing positive amount/weight plus measure-description screening,retain rows; block automatic household conversion; explicit edible-gram use remains separate
+SR_PORTION_PLACEHOLDER,14449,Expected SR placeholder unit IDs,use SR modifier and food-bound portion; this ID alone is not a defect
+SR_DERIVATION_NOT_RECORDED,181743,Nutrient records without a derivation reference,keep provenance field unavailable; do not call every nutrient a direct laboratory measurement
+FOUNDATION_SCOPE,8,Earlier Foundation records with a negative value,retain Foundation finding separately; do not transfer it to SR records

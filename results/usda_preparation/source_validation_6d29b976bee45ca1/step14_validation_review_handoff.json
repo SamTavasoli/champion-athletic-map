@@ -1,0 +1,36 @@
+{
+  "lookup_calculation_tests": "not_executed",
+  "lookup_ready": false,
+  "measurement_basis": "official_documentation_snapshots_verified",
+  "metrics": {
+    "alternative_energy_record_counts": {
+      "2047": 0,
+      "2048": 0
+    },
+    "blank_derivation_references": 181743,
+    "core_four_numeric_complete_foods": 7793,
+    "fiber_absent_foods": 562,
+    "foods_with_portions": 7533,
+    "joined_nutrient_rows": 644125,
+    "nutrient_definitions": 474,
+    "nutrient_value_records": 644125,
+    "nutrients_with_source_values": 149,
+    "portion_expected_unit_9999": 14449,
+    "portion_numeric_screen_fail": 18,
+    "portion_numeric_screen_pass": 14431,
+    "portion_records": 14449,
+    "prototype_selected_foods": 0,
+    "recorded_anomaly_rows": 18,
+    "source_food_records": 7793
+  },
+  "open_actions": [
+    "Select and freeze prototype food IDs with a transparent scope policy.",
+    "Prepare selected food/nutrient tables with field-specific eligibility.",
+    "Validate supported calculation cases and source comparisons before the Step 24 handoff.",
+    "Keep flagged household measures unavailable for automatic count conversion."
+  ],
+  "prototype_selection": "pending",
+  "schema_version": "step14-validation-review-handoff-1",
+  "source_acquisition_producer": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/step14_source_acquisition_summary.json",
+  "source_and_join_validation": "passed"
+}

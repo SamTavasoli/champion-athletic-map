@@ -1,0 +1,4 @@
+source_id,first_field,second_field,eligible_pair_records,excluded_records,mean_signed_difference,median_signed_difference,mean_absolute_difference,maximum_absolute_difference,interpretation_limit
+aditi_usda_foundation_nutrition,energy_general_kcal,energy_specific_kcal,312,99,5.687988396314103,3.3637093749999973,8.977006097916666,62.0,Differences between energy conventions are not automatically errors; all pairs use the same source row.
+aditi_usda_foundation_nutrition,calories_kcal,energy_specific_kcal,312,99,0.0,0.0,0.0,0.0,Differences between energy conventions are not automatically errors; all pairs use the same source row.
+aditi_usda_foundation_nutrition,calories_kcal,energy_general_kcal,322,89,-5.5113427939441,-3.213181000000004,8.698217088664597,62.0,Differences between energy conventions are not automatically errors; all pairs use the same source row.

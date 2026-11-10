@@ -1,0 +1,98 @@
+{
+  "from_step": "12",
+  "to_step": "13 - Youth Participation Guidelines and Planning Rules",
+  "catalog_version": "0.3.9",
+  "integration_checkpoint_status": "passed",
+  "full_step12_complete": false,
+  "final_approval_target_met": false,
+  "rule_development_can_proceed": true,
+  "planner_use_of_unapproved_catalog_allowed": false,
+  "catalog_approved_by_this_step": false,
+  "rules_adopted_by_this_step": 0,
+  "catalog_reference": "data/processed/basketball_drill_catalog_v0_3_9_REVIEW_ONLY.csv",
+  "source_registry_reference": "results/basketball_drill_source_registry_v0_3_9.csv",
+  "coverage_reference": "results/eda/basketball_drill_coverage_v0_3_9.csv",
+  "readiness_reference": "results/basketball_candidate_readiness_v0_3_9.csv",
+  "observations_reference": "results/basketball_step12_observations_v0_3_9.md",
+  "audit_reference": "results/basketball_step12_final_audit_v0_3_9.csv",
+  "pending_tasks": [
+    {
+      "task": "Confirm the 68 Wave 3 field proposals",
+      "count": 68,
+      "unit": "fields",
+      "status": "pending_human_confirmation",
+      "evidence": "results/basketball_wave3_draft_metadata_review_v0_3_9.csv",
+      "required_before": "Adopting the draft metadata as confirmed; approval gates remain separate."
+    },
+    {
+      "task": "Resolve documented identity comparisons",
+      "count": 8,
+      "unit": "cases_across_9_candidate_groups",
+      "status": "pending",
+      "evidence": "results/basketball_canonical_reconciliation_status_v0_3_9.csv",
+      "required_before": "Claiming a final distinct canonical drill set."
+    },
+    {
+      "task": "Complete source-backed instructional and practical metadata review",
+      "status": "pending",
+      "evidence": "results/eda/basketball_metadata_completeness_v0_3_9.csv",
+      "blank_basketball_fields": {
+        "equipment": 56,
+        "participants": 56,
+        "space": 70,
+        "source_prescription": 4
+      },
+      "required_before": "Using any affected record for planning; preserve genuinely unspecified information."
+    },
+    {
+      "task": "Link essential planning fields to existing source evidence or add appropriate schema fields",
+      "status": "pending",
+      "evidence": "results/basketball_catalog_schema_review_v0_3_9.csv",
+      "concepts_without_dedicated_columns": [
+        "source_instructions",
+        "primary_goal",
+        "secondary_skills",
+        "numeric_minimum_participants",
+        "separate_duration",
+        "separate_rest_interval",
+        "difficulty_modifications",
+        "solo_adaptations",
+        "adaptation_provenance"
+      ],
+      "required_before": "Planner/RAG integration; absent columns do not establish absent source information."
+    },
+    {
+      "task": "Finalize broader distinctness, source permissions, and intended-use reviews",
+      "status": "pending",
+      "evidence": "results/basketball_candidate_readiness_v0_3_9.csv",
+      "required_before": "Final catalog approval and any intended public reuse."
+    },
+    {
+      "task": "Prepare and review youth participation and planning rules",
+      "status": "next_step_13",
+      "required_before": "Evaluating youth-rule compatibility or enabling planner use."
+    },
+    {
+      "task": "Establish at least 100 distinct, source-verified, approved basketball drills",
+      "target": 100,
+      "current_approved": 0,
+      "status": "not_achieved",
+      "required_before": "Declaring the full Step 12 drill-approval objective complete."
+    }
+  ],
+  "step13_work": [
+    "Inventory existing guideline records and verify their sources and interpretations.",
+    "Keep published guidance, user constraints, and project policies distinguishable.",
+    "Record applicability, units, qualifications, provenance, and review status for each rule.",
+    "Handle age/grade ambiguities and missing information without an automatic pass.",
+    "Plan boundary, conflict, missing-data, and schedule-accounting tests.",
+    "Keep catalog candidates excluded from planner use until required approvals are complete."
+  ],
+  "audit_scope": "Saved Steps 12-63 through 12-65 manifest-declared artifacts, draft replay, and report checks.",
+  "not_performed": [
+    "Full notebook clean execution",
+    "Live source refresh",
+    "Rerunning historical Steps 12-1 through 12-62",
+    "Final content/permission/youth approval"
+  ]
+}

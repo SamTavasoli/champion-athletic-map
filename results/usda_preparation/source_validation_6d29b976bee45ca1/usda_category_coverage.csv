@@ -1,0 +1,29 @@
+food_category_id,code,description,food_records
+1,0100,Dairy and Egg Products,291
+2,0200,Spices and Herbs,63
+3,0300,Baby Foods,345
+4,0400,Fats and Oils,216
+5,0500,Poultry Products,383
+6,0600,"Soups, Sauces, and Gravies",254
+7,0700,Sausages and Luncheon Meats,167
+8,0800,Breakfast Cereals,195
+9,0900,Fruits and Fruit Juices,355
+10,1000,Pork Products,336
+11,1100,Vegetables and Vegetable Products,814
+12,1200,Nut and Seed Products,137
+13,1300,Beef Products,954
+14,1400,Beverages,366
+15,1500,Finfish and Shellfish Products,264
+16,1600,Legumes and Legume Products,290
+17,1700,"Lamb, Veal, and Game Products",464
+18,1800,Baked Products,517
+19,1900,Sweets,358
+20,2000,Cereal Grains and Pasta,181
+21,2100,Fast Foods,312
+22,2200,"Meals, Entrees, and Side Dishes",81
+23,2500,Snacks,176
+24,3500,American Indian/Alaska Native Foods,165
+25,3600,Restaurant Foods,109
+26,4500,Branded Food Products Database,0
+27,2600,Quality Control Materials,0
+28,1410,Alcoholic Beverages,0

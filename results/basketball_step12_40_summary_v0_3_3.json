@@ -1,0 +1,40 @@
+{
+  "analysis_date": "2026-11-07",
+  "approved": 0,
+  "catalog_candidate_groups": 144,
+  "catalog_version": "0.3.3",
+  "input_sha256": {
+    "catalog_current": "d41b9e6652f333206ea0fd7bf6165d0d6b743d37562fcea3e47761ca4a0a5d0f",
+    "catalog_previous": "f1d6baa27525da44ecad021698f670fa3eef3350b5fd069e650b6a754135b291",
+    "publisher_checks": "d4bf715e95b53c569dde66a4abe3b7c6fe5c7f3ed7218485ab3aeddf2dcf6fb8",
+    "publisher_fields": "655a31a15eb97e3b44055879590f9e7414790621d5cd38f58356e07cb9510dae",
+    "readiness": "5178de11f0ee96a4bd950be295f06f231cf34ee1729d72a107eeab90dc328f2f",
+    "registry_current": "90acfe374bf0dbd4ea8c8edc22e3d4846d4489d79695c80d1a8121a830650f25",
+    "registry_previous": "6f919f8be250a1e211aab44cc34d1e6e568581b7bc7835a8bd419ba87ab64f2f",
+    "space_evidence": "277a2ea75efa22d2b8b7806e28e1b3660ca1c49c8cbb809179337b7934661efa",
+    "space_revisions": "631ce3bb9fc28b425cda6ec4e1ed76b714b6d82315ce7cec3771e68d4c876a74"
+  },
+  "notes": "Publisher heading and phrase matches are evidence screens. All field signoffs, permissions, canonical decisions, and youth suitability remain pending.",
+  "output_sha256": {
+    "coverage": "6dccf2caa45de7829f344f8c128e3f8fe340287a0655382701a2b47e54b22662",
+    "fields": "bc219636e1dc9b22eeb2a981f3764bba8233f57312403f00a8e85895441c33d4",
+    "matrix": "1c62326505bea9b87b7f233dc1e5b867b614d020c6836b59c791bf39ffadcc49",
+    "worklist": "87356e9c38375883ea947aa243fa97986caac27d58a11917913b038983bed280"
+  },
+  "planner_eligible": 0,
+  "registry_space_changes_verified": 5,
+  "review_priorities": {
+    "high": 1,
+    "medium": 5,
+    "standard": 8
+  },
+  "source_headings_present": 14,
+  "source_occurrences": 156,
+  "source_prescription_phrases_present": 14,
+  "space_evidence_explicit": 5,
+  "space_proposals_inferred": 1,
+  "step": "12-40",
+  "wave2_candidates": 14,
+  "wave2_field_decisions_pending": 56,
+  "wave2_other_space_records": 8
+}

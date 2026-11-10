@@ -1,0 +1,60 @@
+{
+  "step": "12-55",
+  "catalog_version": "0.3.6",
+  "catalog_candidates": 144,
+  "registered_source_occurrences": 156,
+  "wave3_candidates": 42,
+  "equipment_participant_field_recommendations": 84,
+  "recommendations_by_action": {
+    "retain_current_pending_signoff": 2,
+    "retain_current_pending_source_signoff": 74,
+    "review_base_vs_optional_participation": 3,
+    "review_equipment_space_separation": 3,
+    "source_section_detail_review": 2
+  },
+  "targeted_exception_fields": [
+    {
+      "evidence_id": "JR-EVID-0029",
+      "field": "equipment"
+    },
+    {
+      "evidence_id": "JR-EVID-0069",
+      "field": "participants"
+    },
+    {
+      "evidence_id": "JR-EVID-0069",
+      "field": "equipment"
+    },
+    {
+      "evidence_id": "JR-EVID-0054",
+      "field": "equipment"
+    },
+    {
+      "evidence_id": "JR-EVID-0070",
+      "field": "equipment"
+    },
+    {
+      "evidence_id": "JR-EVID-0008",
+      "field": "participants"
+    },
+    {
+      "evidence_id": "JR-EVID-0024",
+      "field": "participants"
+    },
+    {
+      "evidence_id": "JR-EVID-0023",
+      "field": "participants"
+    }
+  ],
+  "human_signoffs": 0,
+  "catalog_approvals": 0,
+  "planner_eligible": 0,
+  "input_sha256": {
+    "data/processed/basketball_drill_catalog_v0_3_6_REVIEW_ONLY.csv": "a9e9831ebf497e150b4bbf0ec7fc48a12c2e285350b0671cd74f423dac1000d5",
+    "results/basketball_drill_source_registry_v0_3_6.csv": "191242faae20c8655162cf044a98fa50758cc07789238f0d7a0a54997902f4cc",
+    "results/basketball_wave3_drill_specific_source_evidence_v0_3_6.csv": "1f2fc06c6989618b24e7688b549485a79786ce80a2c95461ccf5cce5b3d06107",
+    "results/basketball_wave3_requirement_field_review_v0_3_6.csv": "d0d6917e38cd92bc4dfc24fe34a1b968195d13987343a30fbf7b63b7bde6a6ce",
+    "results/basketball_wave3_requirement_reviewer_worklist_v0_3_6.csv": "7fc8ba624f63bc2f6bd47eda0a7a002323ea387df3070be33f2ac936a7a4544e"
+  },
+  "interpretation": "These are evidence-linked review recommendations, not independently approved equipment/participant requirements or final drill approvals."
+}

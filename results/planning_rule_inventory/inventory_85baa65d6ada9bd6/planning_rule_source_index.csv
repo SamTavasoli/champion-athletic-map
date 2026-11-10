@@ -1,0 +1,5 @@
+source_id,source_url,candidate_records,source_organization_labels,current_source_review_status,source_refresh_performed,alias_or_duplicate_source_review,intended_use_review
+GUID-SRC-02a6f52948e23af63d62,https://doi.org/10.1542/peds.2023-065129,4,AAP,pending,no,pending,pending
+GUID-SRC-99d3191bcecc4f3eb644,https://publications.aap.org/pediatrics/article/153/2/e2023065129/196435,1,American Academy of Pediatrics,pending,no,pending,pending
+GUID-SRC-ee04609f55557dd1ceaf,https://www.cdc.gov/sleep/about/,2,CDC,pending,no,pending,pending
+GUID-SRC-80a2fd2378ca883484e8,https://youthguidelines.nba.com/,15,NBA and USA Basketball,pending,no,pending,pending

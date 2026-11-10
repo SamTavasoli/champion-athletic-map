@@ -1,0 +1,100 @@
+source_id,field,value,records,denominator_records,percent,record_unit
+aditi_jr_nba_drills,group_requirement,Group,16,23,69.5652,source_occurrences
+aditi_jr_nba_drills,group_requirement,Partner,5,23,21.7391,source_occurrences
+aditi_jr_nba_drills,group_requirement,Individual,2,23,8.6957,source_occurrences
+catalog_basketball_v01,participants,Individual base activity,7,67,10.4478,candidate_groups_v0.1_historical
+catalog_basketball_v01,participants,Coach-directed group,4,67,5.9701,candidate_groups_v0.1_historical
+catalog_basketball_v01,participants,Coach-directed players,3,67,4.4776,candidate_groups_v0.1_historical
+catalog_basketball_v01,participants,Individual movement activity,3,67,4.4776,candidate_groups_v0.1_historical
+catalog_basketball_v01,participants,Players and coach,3,67,4.4776,candidate_groups_v0.1_historical
+catalog_basketball_v01,participants,Two players per pair,3,67,4.4776,candidate_groups_v0.1_historical
+catalog_basketball_v01,participants,Pairs,2,67,2.9851,candidate_groups_v0.1_historical
+catalog_basketball_v01,participants,"Three attackers, one defender",2,67,2.9851,candidate_groups_v0.1_historical
+catalog_basketball_v01,participants,Two teams of three,2,67,2.9851,candidate_groups_v0.1_historical
+catalog_basketball_v01,participants,Attacker and defender,1,67,1.4925,candidate_groups_v0.1_historical
+catalog_basketball_v01,participants,"Attacker, defender, coach or player passer",1,67,1.4925,candidate_groups_v0.1_historical
+catalog_basketball_v01,participants,"Attacker, defender, passer",1,67,1.4925,candidate_groups_v0.1_historical
+catalog_basketball_v01,participants,Group activity,1,67,1.4925,candidate_groups_v0.1_historical
+catalog_basketball_v01,participants,Group with defender or coach,1,67,1.4925,candidate_groups_v0.1_historical
+catalog_basketball_v01,participants,Group with multiple defenders,1,67,1.4925,candidate_groups_v0.1_historical
+catalog_basketball_v01,participants,Groups of five,1,67,1.4925,candidate_groups_v0.1_historical
+catalog_basketball_v01,participants,"Guards, post players, and coach",1,67,1.4925,candidate_groups_v0.1_historical
+catalog_basketball_v01,participants,"Guards, post players, coach",1,67,1.4925,candidate_groups_v0.1_historical
+catalog_basketball_v01,participants,Individual base activity; optional partner variation,1,67,1.4925,candidate_groups_v0.1_historical
+catalog_basketball_v01,participants,Multiple players and coach,1,67,1.4925,candidate_groups_v0.1_historical
+catalog_basketball_v01,participants,Multiple players in group,1,67,1.4925,candidate_groups_v0.1_historical
+catalog_basketball_v01,participants,Multiple players in lines,1,67,1.4925,candidate_groups_v0.1_historical
+catalog_basketball_v01,participants,Multiple players in passing lines,1,67,1.4925,candidate_groups_v0.1_historical
+catalog_basketball_v01,participants,Multiple players including defender,1,67,1.4925,candidate_groups_v0.1_historical
+catalog_basketball_v01,participants,Offense and defender,1,67,1.4925,candidate_groups_v0.1_historical
+catalog_basketball_v01,participants,Offense and defenders,1,67,1.4925,candidate_groups_v0.1_historical
+catalog_basketball_v01,participants,Offense and defense,1,67,1.4925,candidate_groups_v0.1_historical
+catalog_basketball_v01,participants,One attacker and two defenders,1,67,1.4925,candidate_groups_v0.1_historical
+catalog_basketball_v01,participants,Pairs with coach directions,1,67,1.4925,candidate_groups_v0.1_historical
+catalog_basketball_v01,participants,Partners,1,67,1.4925,candidate_groups_v0.1_historical
+catalog_basketball_v01,participants,Players and coach or passer,1,67,1.4925,candidate_groups_v0.1_historical
+catalog_basketball_v01,participants,Players and coach or receiver,1,67,1.4925,candidate_groups_v0.1_historical
+catalog_basketball_v01,participants,Players practice movement patterns,1,67,1.4925,candidate_groups_v0.1_historical
+catalog_basketball_v01,participants,Rotating shooters,1,67,1.4925,candidate_groups_v0.1_historical
+catalog_basketball_v01,participants,"Shooter, passer, rebounder",1,67,1.4925,candidate_groups_v0.1_historical
+catalog_basketball_v01,participants,Small groups,1,67,1.4925,candidate_groups_v0.1_historical
+catalog_basketball_v01,participants,Teams,1,67,1.4925,candidate_groups_v0.1_historical
+catalog_basketball_v01,participants,Three active players plus substitutes,1,67,1.4925,candidate_groups_v0.1_historical
+catalog_basketball_v01,participants,Three teams of four in source example,1,67,1.4925,candidate_groups_v0.1_historical
+catalog_basketball_v01,participants,Two groups,1,67,1.4925,candidate_groups_v0.1_historical
+catalog_basketball_v01,participants,Two lines of players,1,67,1.4925,candidate_groups_v0.1_historical
+catalog_basketball_v01,participants,Two or more groups,1,67,1.4925,candidate_groups_v0.1_historical
+catalog_basketball_v01,participants,Two teams,1,67,1.4925,candidate_groups_v0.1_historical
+catalog_basketball_v01,participants,Two teams and coach,1,67,1.4925,candidate_groups_v0.1_historical
+catalog_basketball_v01,participants,Two teams of five,1,67,1.4925,candidate_groups_v0.1_historical
+catalog_basketball_v01,participants,Two teams of four,1,67,1.4925,candidate_groups_v0.1_historical
+catalog_basketball_v01,participants,Two teams of two,1,67,1.4925,candidate_groups_v0.1_historical
+catalog_basketball_v02,participants,[missing],62,129,48.062,candidate_groups_v0.2_historical
+catalog_basketball_v02,participants,Individual base activity,7,129,5.4264,candidate_groups_v0.2_historical
+catalog_basketball_v02,participants,Coach-directed group,4,129,3.1008,candidate_groups_v0.2_historical
+catalog_basketball_v02,participants,Coach-directed players,3,129,2.3256,candidate_groups_v0.2_historical
+catalog_basketball_v02,participants,Individual movement activity,3,129,2.3256,candidate_groups_v0.2_historical
+catalog_basketball_v02,participants,Players and coach,3,129,2.3256,candidate_groups_v0.2_historical
+catalog_basketball_v02,participants,Two players per pair,3,129,2.3256,candidate_groups_v0.2_historical
+catalog_basketball_v02,participants,Pairs,2,129,1.5504,candidate_groups_v0.2_historical
+catalog_basketball_v02,participants,"Three attackers, one defender",2,129,1.5504,candidate_groups_v0.2_historical
+catalog_basketball_v02,participants,Two teams of three,2,129,1.5504,candidate_groups_v0.2_historical
+catalog_basketball_v02,participants,Attacker and defender,1,129,0.7752,candidate_groups_v0.2_historical
+catalog_basketball_v02,participants,"Attacker, defender, coach or player passer",1,129,0.7752,candidate_groups_v0.2_historical
+catalog_basketball_v02,participants,"Attacker, defender, passer",1,129,0.7752,candidate_groups_v0.2_historical
+catalog_basketball_v02,participants,Group activity,1,129,0.7752,candidate_groups_v0.2_historical
+catalog_basketball_v02,participants,Group with defender or coach,1,129,0.7752,candidate_groups_v0.2_historical
+catalog_basketball_v02,participants,Group with multiple defenders,1,129,0.7752,candidate_groups_v0.2_historical
+catalog_basketball_v02,participants,Groups of five,1,129,0.7752,candidate_groups_v0.2_historical
+catalog_basketball_v02,participants,"Guards, post players, and coach",1,129,0.7752,candidate_groups_v0.2_historical
+catalog_basketball_v02,participants,"Guards, post players, coach",1,129,0.7752,candidate_groups_v0.2_historical
+catalog_basketball_v02,participants,Individual base activity; optional partner variation,1,129,0.7752,candidate_groups_v0.2_historical
+catalog_basketball_v02,participants,Multiple players and coach,1,129,0.7752,candidate_groups_v0.2_historical
+catalog_basketball_v02,participants,Multiple players in group,1,129,0.7752,candidate_groups_v0.2_historical
+catalog_basketball_v02,participants,Multiple players in lines,1,129,0.7752,candidate_groups_v0.2_historical
+catalog_basketball_v02,participants,Multiple players in passing lines,1,129,0.7752,candidate_groups_v0.2_historical
+catalog_basketball_v02,participants,Multiple players including defender,1,129,0.7752,candidate_groups_v0.2_historical
+catalog_basketball_v02,participants,Offense and defender,1,129,0.7752,candidate_groups_v0.2_historical
+catalog_basketball_v02,participants,Offense and defenders,1,129,0.7752,candidate_groups_v0.2_historical
+catalog_basketball_v02,participants,Offense and defense,1,129,0.7752,candidate_groups_v0.2_historical
+catalog_basketball_v02,participants,One attacker and two defenders,1,129,0.7752,candidate_groups_v0.2_historical
+catalog_basketball_v02,participants,Pairs with coach directions,1,129,0.7752,candidate_groups_v0.2_historical
+catalog_basketball_v02,participants,Partners,1,129,0.7752,candidate_groups_v0.2_historical
+catalog_basketball_v02,participants,Players and coach or passer,1,129,0.7752,candidate_groups_v0.2_historical
+catalog_basketball_v02,participants,Players and coach or receiver,1,129,0.7752,candidate_groups_v0.2_historical
+catalog_basketball_v02,participants,Players practice movement patterns,1,129,0.7752,candidate_groups_v0.2_historical
+catalog_basketball_v02,participants,Rotating shooters,1,129,0.7752,candidate_groups_v0.2_historical
+catalog_basketball_v02,participants,"Shooter, passer, rebounder",1,129,0.7752,candidate_groups_v0.2_historical
+catalog_basketball_v02,participants,Small groups,1,129,0.7752,candidate_groups_v0.2_historical
+catalog_basketball_v02,participants,Teams,1,129,0.7752,candidate_groups_v0.2_historical
+catalog_basketball_v02,participants,Three active players plus substitutes,1,129,0.7752,candidate_groups_v0.2_historical
+catalog_basketball_v02,participants,Three teams of four in source example,1,129,0.7752,candidate_groups_v0.2_historical
+catalog_basketball_v02,participants,Two groups,1,129,0.7752,candidate_groups_v0.2_historical
+catalog_basketball_v02,participants,Two lines of players,1,129,0.7752,candidate_groups_v0.2_historical
+catalog_basketball_v02,participants,Two or more groups,1,129,0.7752,candidate_groups_v0.2_historical
+catalog_basketball_v02,participants,Two teams,1,129,0.7752,candidate_groups_v0.2_historical
+catalog_basketball_v02,participants,Two teams and coach,1,129,0.7752,candidate_groups_v0.2_historical
+catalog_basketball_v02,participants,Two teams of five,1,129,0.7752,candidate_groups_v0.2_historical
+catalog_basketball_v02,participants,Two teams of four,1,129,0.7752,candidate_groups_v0.2_historical
+catalog_basketball_v02,participants,Two teams of two,1,129,0.7752,candidate_groups_v0.2_historical
+local_basketball_drills,participant_format,[missing],32,32,100.0,local_candidate_items

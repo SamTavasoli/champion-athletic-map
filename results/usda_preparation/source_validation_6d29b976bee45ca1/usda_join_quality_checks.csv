@@ -1,0 +1,49 @@
+check_name,status,observed,expected
+parsed_rows:food.csv,pass,7793,7793
+unique_key:food.csv.fdc_id,pass,7793,7793
+parsed_rows:nutrient.csv,pass,474,474
+unique_key:nutrient.csv.id,pass,474,474
+parsed_rows:food_category.csv,pass,28,28
+unique_key:food_category.csv.id,pass,28,28
+parsed_rows:measure_unit.csv,pass,122,122
+unique_key:measure_unit.csv.id,pass,122,122
+parsed_rows:sr_legacy_food.csv,pass,7793,7793
+unique_key:sr_legacy_food.csv.fdc_id,pass,7793,7793
+parsed_rows:food_nutrient_derivation.csv,pass,64,64
+unique_key:food_nutrient_derivation.csv.id,pass,64,64
+parsed_rows:food_nutrient_source.csv,pass,10,10
+unique_key:food_nutrient_source.csv.id,pass,10,10
+legacy_food_correspondence,pass,7793,7793
+legacy_ndb_identity,pass,nonempty unique NDB numbers,nonempty unique NDB numbers
+food_data_type,pass,['sr_legacy_food'],['sr_legacy_food']
+food_description,pass,all nonempty,all nonempty
+food_category_links,pass,all matched,all matched
+derivation_source_links,pass,nonblank references matched,nonblank references matched
+display_definition:1008,pass,"{'id': '1008', 'name': 'Energy', 'unit_name': 'KCAL', 'nutrient_nbr': '208', 'rank': '300.0'}","{'display_concept': 'energy', 'nutrient_id': '1008', 'expected_name': 'Energy', 'expected_unit': 'KCAL', 'expected_nutrient_nbr': '208'}"
+display_definition:1003,pass,"{'id': '1003', 'name': 'Protein', 'unit_name': 'G', 'nutrient_nbr': '203', 'rank': '600.0'}","{'display_concept': 'protein', 'nutrient_id': '1003', 'expected_name': 'Protein', 'expected_unit': 'G', 'expected_nutrient_nbr': '203'}"
+display_definition:1004,pass,"{'id': '1004', 'name': 'Total lipid (fat)', 'unit_name': 'G', 'nutrient_nbr': '204', 'rank': '800.0'}","{'display_concept': 'total_fat', 'nutrient_id': '1004', 'expected_name': 'Total lipid (fat)', 'expected_unit': 'G', 'expected_nutrient_nbr': '204'}"
+display_definition:1005,pass,"{'id': '1005', 'name': 'Carbohydrate, by difference', 'unit_name': 'G', 'nutrient_nbr': '205', 'rank': '1110.0'}","{'display_concept': 'carbohydrate', 'nutrient_id': '1005', 'expected_name': 'Carbohydrate, by difference', 'expected_unit': 'G', 'expected_nutrient_nbr': '205'}"
+display_definition:1079,pass,"{'id': '1079', 'name': 'Fiber, total dietary', 'unit_name': 'G', 'nutrient_nbr': '291', 'rank': '1200.0'}","{'display_concept': 'dietary_fiber', 'nutrient_id': '1079', 'expected_name': 'Fiber, total dietary', 'expected_unit': 'G', 'expected_nutrient_nbr': '291'}"
+parsed_rows:food_nutrient.csv,pass,644125,644125
+duplicate_nutrient_record_ids,pass,0,0
+duplicate_food_nutrient_pairs,pass,0,0
+orphan_nutrient_food_refs,pass,0,0
+orphan_nutrient_definition_refs,pass,0,0
+orphan_nonblank_derivation_refs,pass,0,0
+nutrient_join_cardinality,pass,644125,644125
+parsed_rows:food_portion.csv,pass,14449,14449
+unique_key:food_portion.csv.id,pass,14449,14449
+portion_food_refs,pass,all matched,all matched
+portion_unit_refs,pass,all matched,all matched
+parsed_rows:all_downloaded_table_record_counts.csv,pass,9,9
+publisher_count:food,pass,7793,7793
+publisher_count:food_attribute,pass,1074,1074
+publisher_count:food_calorie_conversion_factor,pass,4693,4693
+publisher_count:food_nutrient,pass,644125,644125
+publisher_count:food_nutrient_conversion_factor,pass,10770,10770
+publisher_count:food_portion,pass,14449,14449
+publisher_count:food_protein_conversion_factor,pass,6077,6077
+publisher_count:food_update_log_entry,pass,7793,7793
+publisher_count:sr_legacy_food,pass,7793,7793
+documentation_snapshot:SR_LEGACY_DOC,pass,fdc33442adb5707d448676e92b54f9adeaad63b6df267b683b5fe728307391cf,fdc33442adb5707d448676e92b54f9adeaad63b6df267b683b5fe728307391cf
+documentation_snapshot:FDC_FIELDS_DOC,pass,e21d658d4d3fa583aceaa78e23efd4e64dbf9010fd0210a87b94edbcfb56928a,e21d658d4d3fa583aceaa78e23efd4e64dbf9010fd0210a87b94edbcfb56928a

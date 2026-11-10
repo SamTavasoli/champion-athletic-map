@@ -1,0 +1,68 @@
+check,passed,required,detail
+source_parent_graph,True,True,All parents resolve; the graph is acyclic.
+file_access:raw_exercise,True,False,not_found_in_checked_locations
+file_access:raw_player_bio,True,False,not_found_in_checked_locations
+file_access:raw_player_career,True,False,not_found_in_checked_locations
+file_access:raw_basketball_season,True,False,not_found_in_checked_locations
+file_access:raw_food_sample_link,True,False,not_found_in_checked_locations
+file_access:raw_nutrient_result,True,False,not_found_in_checked_locations
+file_access:raw_food_category,True,False,not_found_in_checked_locations
+file_access:raw_food_portion,True,False,not_found_in_checked_locations
+file_access:raw_athlete_profile,True,False,not_found_in_checked_locations
+file_access:derived_exercise,True,True,Champions_Athletic_Agent_Ready_Dataset _Package/exercise_clean.csv
+recorded_file_facts:derived_exercise,True,True,hash=unchanged; count=matches
+file_access:derived_player_bio,True,True,Champions_Athletic_Agent_Ready_Dataset _Package/player_bio_clean.csv
+recorded_file_facts:derived_player_bio,True,True,hash=unchanged; count=matches
+file_access:derived_player_career,True,True,Champions_Athletic_Agent_Ready_Dataset _Package/player_career_clean.csv
+recorded_file_facts:derived_player_career,True,True,hash=unchanged; count=matches
+file_access:derived_basketball_season,True,True,Champions_Athletic_Agent_Ready_Dataset _Package/basketball_season_clean.csv
+recorded_file_facts:derived_basketball_season,True,True,hash=unchanged; count=matches
+file_access:derived_food_sample_link,True,True,Champions_Athletic_Agent_Ready_Dataset _Package/food_sample_link_clean.csv
+recorded_file_facts:derived_food_sample_link,True,True,hash=unchanged; count=matches
+file_access:derived_nutrient_result,True,True,Champions_Athletic_Agent_Ready_Dataset _Package/nutrient_result_clean.csv
+recorded_file_facts:derived_nutrient_result,True,True,hash=unchanged; count=matches
+file_access:derived_food_category,True,True,Champions_Athletic_Agent_Ready_Dataset _Package/food_category_clean.csv
+recorded_file_facts:derived_food_category,True,True,hash=unchanged; count=matches
+file_access:derived_food_portion,True,True,Champions_Athletic_Agent_Ready_Dataset _Package/food_portion_clean.csv
+recorded_file_facts:derived_food_portion,True,True,hash=unchanged; count=matches
+file_access:derived_athlete_profile,True,True,Champions_Athletic_Agent_Ready_Dataset _Package/athlete_profile_clean.csv
+recorded_file_facts:derived_athlete_profile,True,True,hash=unchanged; count=matches
+file_access:derived_master,True,True,Champions_Athletic_Agent_Ready_Dataset _Package/champions_master_agent_ready.csv
+recorded_file_facts:derived_master,True,True,hash=unchanged; count=matches
+file_access:derived_audit,True,True,Champions_Athletic_Agent_Ready_Dataset _Package/data_quality_audit.csv
+recorded_file_facts:derived_audit,True,True,hash=unchanged; count=matches
+file_access:reference_jr_nba,True,False,external_reference_not_refreshed
+file_access:reference_youth_guidelines,True,False,external_reference_not_refreshed
+file_access:reference_usda,True,False,external_reference_not_refreshed
+file_access:reference_usda_foundation_2025,True,False,external_reference_not_refreshed
+file_access:reference_cdc_sleep,True,False,external_reference_not_refreshed
+file_access:reference_aap_overuse,True,False,external_reference_not_refreshed
+file_access:aditi_jr_nba_drills,True,True,data/processed/jr_nba_drills_master.csv
+recorded_file_facts:aditi_jr_nba_drills,True,True,hash=unchanged; count=matches
+file_access:aditi_jr_nba_rag,True,True,data/processed/jr_nba_rag_documents.json
+recorded_file_facts:aditi_jr_nba_rag,True,True,hash=unchanged; count=matches
+file_access:aditi_usda_foundation_nutrition,True,True,data/processed/usda_foundation_nutrition.csv
+recorded_file_facts:aditi_usda_foundation_nutrition,True,True,hash=unchanged; count=matches
+file_access:aditi_usda_quality_report,True,True,data/processed/usda_nutrition_quality_report.csv
+recorded_file_facts:aditi_usda_quality_report,True,True,hash=unchanged; count=matches
+file_access:aditi_recovery_guidance,True,True,data/processed/recovery_guidance.csv
+recorded_file_facts:aditi_recovery_guidance,True,True,hash=unchanged; count=matches
+file_access:aditi_synthetic_athletes,True,True,data/synthetic/synthetic_athlete_profiles.csv
+recorded_file_facts:aditi_synthetic_athletes,True,True,hash=unchanged; count=matches
+file_access:recovery_rules_v01,True,True,data/references/recovery/youth_basketball_recovery_rules_v0_1.csv
+recorded_file_facts:recovery_rules_v01,True,True,hash=unchanged; count=matches
+file_access:recovery_rules_readme_v01,True,True,data/references/recovery/YOUTH_BASKETBALL_RECOVERY_RULES_README.md
+recorded_file_facts:recovery_rules_readme_v01,True,True,hash=unchanged; count=not_applicable
+file_access:catalog_basketball_v01,True,False,data/processed/basketball_drill_catalog_v0_1.csv
+recorded_file_facts:catalog_basketball_v01,True,False,hash=unchanged; count=matches
+file_access:catalog_basketball_v02,True,False,data/processed/basketball_drill_catalog_v0_2_REVIEW_ONLY.csv
+recorded_file_facts:catalog_basketball_v02,True,False,hash=unchanged; count=matches
+file_access:local_exercise_catalog,True,False,data/processed/exercise_catalog.csv
+recorded_file_facts:local_exercise_catalog,True,False,hash=unchanged; count=matches
+file_access:local_basketball_drills,True,False,data/processed/basketball_drills.csv
+recorded_file_facts:local_basketball_drills,True,False,hash=unchanged; count=matches
+file_access:reference_usda_sr_legacy_2018,True,False,external_reference_not_refreshed
+drill_rag_identifier_correspondence,True,True,23 drill rows; 23 derived documents
+fictional_profile_identifiers,True,True,60 development examples; final-test independence is not established here
+recovery_rule_identifiers,True,True,17 rule records
+recovery_v01_snapshot,True,True,Pinned v0.1 reference bytes; applicability remains under review

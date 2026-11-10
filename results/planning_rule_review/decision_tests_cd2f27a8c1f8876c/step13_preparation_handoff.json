@@ -1,0 +1,43 @@
+{
+  "AAP_full_report_direct_access_complete": false,
+  "artifact_filenames": {
+    "decision_candidates": "planning_rule_decision_candidates_REVIEW_ONLY.json",
+    "decision_ledger": "planning_rule_decisions_PENDING.csv",
+    "remaining_questions": "planning_rule_remaining_questions.csv",
+    "test_specifications": "planning_rule_test_specifications_DRAFT.json"
+  },
+  "catalog_approved_drills": 0,
+  "catalog_planner_eligible": 0,
+  "full_step13_adoption_complete": false,
+  "interpretation_producer": "results/planning_rule_review/interpretation_f155332298c032ef/step13_interpretation_summary.json",
+  "metrics": {
+    "candidate_ids_with_specifications": 34,
+    "case_candidate_reference_rows": 132,
+    "constraint_policy_templates": 12,
+    "decision_candidates": 34,
+    "distinct_test_specifications": 102,
+    "independently_reviewed_specifications": 0,
+    "origin_counts": {
+      "project_policy": 8,
+      "published_guidance": 22,
+      "user_constraint": 4
+    },
+    "published_candidates": 22,
+    "rules_adopted": 0,
+    "rules_enabled": 0,
+    "structural_checks_passed": 14,
+    "validator_tests_executed": 0
+  },
+  "next_actions": [
+    "Review source applicability, qualifications, and pending coverage questions.",
+    "Record independent review and adoption decisions for candidate definitions and project policies.",
+    "Review and freeze the development specifications before implementing and executing the validator.",
+    "Keep final evaluation scoring independent of Version 4's internal evaluator.",
+    "Export an adopted rule package after recorded adoption; record runtime activation as a separate decision."
+  ],
+  "runtime_activation_performed": false,
+  "schema_version": "step13-preparation-handoff-1",
+  "source_coverage_complete": false,
+  "status": "prepared_with_open_reviews",
+  "structural_preparation_checkpoint": "passed"
+}

@@ -1,0 +1,36 @@
+{
+  "step": "12-35",
+  "run_date": "2026-11-07",
+  "baseline_catalog_groups": 144,
+  "approved_drills": 0,
+  "planner_eligible_drills": 0,
+  "sources_targeted": 86,
+  "source_origins": {
+    "aditi_starter_drill_dataset": 23,
+    "v0_2_heading_expansion": 63
+  },
+  "official_pages_requested": 9,
+  "official_pages_fetched": 9,
+  "heading_checks": {
+    "documented_mid_middle_alias": 1,
+    "exact_heading": 84,
+    "similar_heading_needs_review": 1
+  },
+  "plan_location_mismatches": 0,
+  "original_source_values_changed": false,
+  "catalog_or_approval_decisions_changed": false,
+  "git_operations_performed": false,
+  "input_sha256": {
+    "catalog": "75d2a0a14147ef9994e6cd0f63d15d9fabb25791908aff8d20ab0f5e44d6180d",
+    "registry": "7d9915db969081f074c20e7277529e5ddbdacdd7755f88a5596ca546c02083c4",
+    "source_gaps": "8dd96987ac674d85373a42414b7eac38d1eaca3863d4d92c7b67f0dd9e2750c8",
+    "readiness": "5178de11f0ee96a4bd950be295f06f231cf34ee1729d72a107eeab90dc328f2f"
+  },
+  "report_sha256": {
+    "page_access": "aa8d778b11375dc8803bda2dcf770bc0c50423194281cf5e28dbd424452d8648",
+    "checks": "c00e449b06b53124b98c0b0afb48ab655b37c4019daa0b675a00f7ce817e7aa4",
+    "worklist": "44a73f1f4764460b4707aa49d69dec057f0ac52f341a2802852b7f30ce31ca6b",
+    "coverage": "2e038b3b7453536064dc721cf99605fe806a95a2bd81575e03ec7af76b5b7b74"
+  },
+  "interpretation": "Heading checks establish candidate source locations only; instructional, requirement, copyright, and eligibility reviews remain pending."
+}

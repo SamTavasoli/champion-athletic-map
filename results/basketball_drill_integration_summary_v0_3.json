@@ -1,0 +1,31 @@
+{
+  "catalog_version": "0.3_REVIEW_ONLY",
+  "baseline_catalog_groups": 129,
+  "baseline_basketball_candidates": 117,
+  "baseline_warmup_candidates": 12,
+  "existing_evidence_records": 70,
+  "expanded_v02_evidence_records": 63,
+  "imported_aditi_drill_records": 23,
+  "imported_aditi_unique_names": 22,
+  "imported_exact_name_match_groups": 7,
+  "new_normalized_name_candidate_groups": 15,
+  "provisional_v03_candidate_groups": 144,
+  "provisional_basketball_candidate_groups": 132,
+  "provisional_general_warmup_groups": 12,
+  "combined_evidence_records_with_possible_duplicates": 156,
+  "suggested_near_match_pairs": 1,
+  "catalog_approved_drills": 0,
+  "planner_eligible_drills": 0,
+  "source_permissions_review": "pending",
+  "activity_distinctness_review": "pending",
+  "youth_planning_rule_review": "pending_step_13",
+  "inputs_sha256": {
+    "catalog_v01": "52e05b5882fad99ff1237748b86316484274424dbd793c39a64cec6e14ddddf5",
+    "catalog_v02": "e8abe199d3e2044ef33babeb2ab54f30b12bb137e8f8980a0564e11e71676a54",
+    "archive_v02": "e8abe199d3e2044ef33babeb2ab54f30b12bb137e8f8980a0564e11e71676a54",
+    "expanded_evidence": "87a93f7df70f4ec6565949b0c5974ecdc08a63b9551301e379eac3db228e8805",
+    "checklist": "287134ee33a5a3a7c0d5e30e819ee8b308ee51e0a4207d9b32aa5dc4fcf4817f",
+    "aditi_drills": "bf9c63fb486a2df39206e133c458d73ab3c63a120667f15fa11018a395f8d538",
+    "aditi_rag": "a9c6339eecac6c4ec1db77ba431dea21a6fe0588380e09b4c42adc6feee67f5e"
+  }
+}

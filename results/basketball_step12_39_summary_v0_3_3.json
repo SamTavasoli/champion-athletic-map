@@ -1,0 +1,27 @@
+{
+  "analysis_date": "2026-11-07",
+  "approved_drills": 0,
+  "catalog_candidates": 144,
+  "catalog_version": "0.3.3",
+  "explicit_source_space_updates": 5,
+  "inferred_space_proposals": 1,
+  "input_sha256": {
+    "catalog": "f1d6baa27525da44ecad021698f670fa3eef3350b5fd069e650b6a754135b291",
+    "readiness": "5178de11f0ee96a4bd950be295f06f231cf34ee1729d72a107eeab90dc328f2f",
+    "registry": "6f919f8be250a1e211aab44cc34d1e6e568581b7bc7835a8bd419ba87ab64f2f",
+    "wave2_checks": "d4bf715e95b53c569dde66a4abe3b7c6fe5c7f3ed7218485ab3aeddf2dcf6fb8"
+  },
+  "limitations": "Section headings and location cues are evidence for metadata preparation only. Editorial signoff, usage permissions, drill distinctness, and youth suitability remain pending.",
+  "output_sha256": {
+    "catalog": "d41b9e6652f333206ea0fd7bf6165d0d6b743d37562fcea3e47761ca4a0a5d0f",
+    "evidence": "277a2ea75efa22d2b8b7806e28e1b3660ca1c49c8cbb809179337b7934661efa",
+    "registry": "90acfe374bf0dbd4ea8c8edc22e3d4846d4489d79695c80d1a8121a830650f25",
+    "revisions": "631ce3bb9fc28b425cda6ec4e1ed76b714b6d82315ce7cec3771e68d4c876a74"
+  },
+  "planner_eligible_drills": 0,
+  "registry_source_occurrences": 156,
+  "source_heading_or_fact_review_remaining": 0,
+  "step": "12-39",
+  "targeted_source_space_records": 6,
+  "wave2_review_records": 14
+}

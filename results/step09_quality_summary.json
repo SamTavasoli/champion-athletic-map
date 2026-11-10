@@ -1,0 +1,248 @@
+{
+  "status": "completed_with_reviews",
+  "loading_complete": true,
+  "domain_complete": true,
+  "audited_at": "2026-11-08T18:23:20.585813+00:00",
+  "manifest_records": 39,
+  "local_files_inspected": 23,
+  "structured_datasets_loaded": 22,
+  "historical_inputs_not_found": 9,
+  "expected_later_outputs": 0,
+  "check_status_counts": {
+    "needs_review": 33,
+    "pass": 293,
+    "not_checked": 9
+  },
+  "total_checks": 335,
+  "required_failures": 0,
+  "source_control_hashes": {
+    "data/source_manifest.csv": "a4321c8065b1a6e01cdd48aec72e15ba87fd5333002aaff996ad792f64875ad2",
+    "results/source_file_inventory.csv": "827304456bfb6dcebf4e786256c5c62b347d8bf040f907581c31bcf367f8d6bc",
+    "results/step08_source_audit_summary.json": "cfe9e77935d6d9e22923c25096fdaaf3f356417c05348d23c3e5c3b5b0548564"
+  },
+  "domain_metrics": {
+    "exercise": {
+      "records": 2909,
+      "body_part_categories": 17,
+      "label_counts": {
+        "abdominals": 660,
+        "adductors": 17,
+        "abductors": 21,
+        "biceps": 168,
+        "calves": 47,
+        "chest": 260,
+        "forearms": 31,
+        "glutes": 81,
+        "hamstrings": 121,
+        "lats": 124,
+        "lower back": 97,
+        "middle back": 116,
+        "traps": 24,
+        "neck": 8,
+        "quadriceps": 645,
+        "shoulders": 338,
+        "triceps": 151
+      },
+      "missing_names": 0,
+      "missing_labels": 0,
+      "missing_descriptions": 1550,
+      "additional_normalized_name_matches": 35,
+      "repeated_normalized_name_groups": 35,
+      "different_label_name_groups": 11,
+      "different_label_name_keys": [
+        "alternating sit through with crunch",
+        "barbell deadlift",
+        "machine low row",
+        "pjr pull over",
+        "power snatch",
+        "push up to side plank",
+        "single arm incline cable cross over",
+        "single arm kettlebell row",
+        "sled push",
+        "smith machine close grip bench press",
+        "standing dumbbell knee crunch"
+      ],
+      "largest_two_label_fraction": 0.44860776899278104
+    },
+    "exercise_catalog": {
+      "records": 2909,
+      "invalid_position_links": 0,
+      "mapping_gaps": 0,
+      "repeated_positions": 0,
+      "source_value_differences": 0
+    },
+    "derived_athlete_profile": {
+      "records": 30,
+      "invalid_integer_ranges": 0,
+      "invalid_synthetic_markers": 0,
+      "unexpected_generator_categories": 0,
+      "missing_planning_field_groups": [
+        "school_grade",
+        "session_minutes",
+        "existing_commitments",
+        "sleep_information",
+        "annual_participation"
+      ],
+      "unknown_injury_statuses": 10,
+      "missing_goals": 0,
+      "age_counts": {
+        "17": 5,
+        "14": 6,
+        "16": 4,
+        "15": 4,
+        "13": 11
+      },
+      "scenario_counts": {}
+    },
+    "aditi_synthetic_athletes": {
+      "records": 60,
+      "invalid_integer_ranges": 0,
+      "invalid_synthetic_markers": 0,
+      "unexpected_generator_categories": 0,
+      "missing_planning_field_groups": [
+        "school_grade",
+        "session_minutes",
+        "existing_commitments",
+        "sleep_information",
+        "annual_participation"
+      ],
+      "unknown_injury_statuses": 23,
+      "missing_goals": 0,
+      "age_counts": {
+        "16": 12,
+        "17": 12,
+        "14": 12,
+        "13": 12,
+        "15": 12
+      },
+      "scenario_counts": {
+        "injury_concern": 2,
+        "unknown_injury_status": 1,
+        "limited_equipment": 1,
+        "limited_schedule": 1,
+        "excessive_training_request": 1,
+        "advanced_drill_request": 1,
+        "conflicting_constraints": 1,
+        "standard": 52
+      }
+    },
+    "nutrition": {
+      "records": 411,
+      "core_fields_present": 321,
+      "finite_core_complete": 321,
+      "finite_core_incomplete": 90,
+      "nonnegative_finite_core_complete": 313,
+      "missing_numeric_fields": {
+        "fiber_g": 204,
+        "energy_general_kcal": 89,
+        "energy_specific_kcal": 99,
+        "calories_kcal": 89,
+        "protein_g": 12,
+        "fat_g": 23,
+        "carbohydrate_g": 59
+      },
+      "invalid_numeric_fields": {},
+      "negative_numeric_fields": {
+        "carbohydrate_g": 8
+      },
+      "energy_inconsistencies": 0
+    },
+    "drills": {
+      "source_occurrences": 23,
+      "normalized_names": 22,
+      "missing_metadata": {
+        "drill_name": 0,
+        "duration": 0,
+        "equipment": 0,
+        "instructions_summary": 0,
+        "group_requirement": 0,
+        "source_document": 0,
+        "source_page": 0
+      },
+      "rag_documents": 23,
+      "linkage_problems": 0,
+      "catalog_name_overlap": 7
+    },
+    "catalog_basketball_v01": {
+      "records": 67,
+      "unapproved_eligible": 0,
+      "unknown_eligibility": 0
+    },
+    "catalog_basketball_v02": {
+      "records": 129,
+      "unapproved_eligible": 0,
+      "unknown_eligibility": 0
+    },
+    "local_basketball_drills": {
+      "records": 32,
+      "unapproved_eligible": 0,
+      "unknown_eligibility": 0
+    },
+    "recovery_guidance": {
+      "records": 5,
+      "incomplete_source_fields": 0
+    },
+    "recovery_rules": {
+      "records": 17,
+      "invalid_bounds": 0,
+      "invalid_segment_pairs": 0,
+      "incomplete_source_fields": 0
+    },
+    "master": {
+      "records": 256337,
+      "entity_counts": {
+        "exercise": 2909,
+        "player_bio": 3922,
+        "player_career": 4550,
+        "basketball_season": 24625,
+        "food_sample_link": 75055,
+        "nutrient_result": 134267,
+        "food_category": 28,
+        "food_portion": 10951,
+        "athlete_profile": 30
+      },
+      "domains": {
+        "exercise": {
+          "prepared_rows": 2909,
+          "master_rows": 2909
+        },
+        "player_bio": {
+          "prepared_rows": 3922,
+          "master_rows": 3922
+        },
+        "player_career": {
+          "prepared_rows": 4550,
+          "master_rows": 4550
+        },
+        "basketball_season": {
+          "prepared_rows": 24625,
+          "master_rows": 24625
+        },
+        "food_sample_link": {
+          "prepared_rows": 75055,
+          "master_rows": 75055
+        },
+        "nutrient_result": {
+          "prepared_rows": 134267,
+          "master_rows": 134267
+        },
+        "food_category": {
+          "prepared_rows": 28,
+          "master_rows": 28
+        },
+        "food_portion": {
+          "prepared_rows": 10951,
+          "master_rows": 10951
+        },
+        "athlete_profile": {
+          "prepared_rows": 30,
+          "master_rows": 30
+        }
+      },
+      "structural_findings": {
+        "empty_json_payload": 2
+      }
+    }
+  },
+  "examples_per_finding_limit": 5
+}

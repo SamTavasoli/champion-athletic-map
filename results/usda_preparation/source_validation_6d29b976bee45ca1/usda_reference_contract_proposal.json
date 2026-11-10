@@ -1,0 +1,112 @@
+{
+  "catalog_release": "2018-04",
+  "display_definitions": [
+    {
+      "basis_evidence": "SR_LEGACY_BASIS;FDC_FIELD_BASIS",
+      "definition_source": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/nutrient.csv",
+      "display_concept": "energy",
+      "numeric_usable_rows": 7793,
+      "nutrient_id": "1008",
+      "nutrient_name": "Energy",
+      "nutrient_nbr": "208",
+      "recorded_rows": 7793,
+      "reference_basis": "edible_food",
+      "reference_mass_g": 100,
+      "selection_policy": "use_exact_recorded_id; no_4_9_4_recalculation_or_Foundation_fallback",
+      "unit_name": "KCAL"
+    },
+    {
+      "basis_evidence": "SR_LEGACY_BASIS;FDC_FIELD_BASIS",
+      "definition_source": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/nutrient.csv",
+      "display_concept": "protein",
+      "numeric_usable_rows": 7793,
+      "nutrient_id": "1003",
+      "nutrient_name": "Protein",
+      "nutrient_nbr": "203",
+      "recorded_rows": 7793,
+      "reference_basis": "edible_food",
+      "reference_mass_g": 100,
+      "selection_policy": "use_exact_recorded_id",
+      "unit_name": "G"
+    },
+    {
+      "basis_evidence": "SR_LEGACY_BASIS;FDC_FIELD_BASIS",
+      "definition_source": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/nutrient.csv",
+      "display_concept": "total_fat",
+      "numeric_usable_rows": 7793,
+      "nutrient_id": "1004",
+      "nutrient_name": "Total lipid (fat)",
+      "nutrient_nbr": "204",
+      "recorded_rows": 7793,
+      "reference_basis": "edible_food",
+      "reference_mass_g": 100,
+      "selection_policy": "use_exact_recorded_id",
+      "unit_name": "G"
+    },
+    {
+      "basis_evidence": "SR_LEGACY_BASIS;FDC_FIELD_BASIS",
+      "definition_source": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/nutrient.csv",
+      "display_concept": "carbohydrate",
+      "numeric_usable_rows": 7793,
+      "nutrient_id": "1005",
+      "nutrient_name": "Carbohydrate, by difference",
+      "nutrient_nbr": "205",
+      "recorded_rows": 7793,
+      "reference_basis": "edible_food",
+      "reference_mass_g": 100,
+      "selection_policy": "use_exact_recorded_id",
+      "unit_name": "G"
+    },
+    {
+      "basis_evidence": "SR_LEGACY_BASIS;FDC_FIELD_BASIS",
+      "definition_source": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/nutrient.csv",
+      "display_concept": "dietary_fiber",
+      "numeric_usable_rows": 7231,
+      "nutrient_id": "1079",
+      "nutrient_name": "Fiber, total dietary",
+      "nutrient_nbr": "291",
+      "recorded_rows": 7231,
+      "reference_basis": "edible_food",
+      "reference_mass_g": 100,
+      "selection_policy": "use_exact_recorded_id",
+      "unit_name": "G"
+    }
+  ],
+  "energy_policy": "Return source nutrient 1008 in KCAL; retain derivation metadata; do not invent a universal Atwater method or recompute 4/9/4.",
+  "lookup_ready": false,
+  "missing_value_policy": "Absent or unusable nutrient stays unavailable; a valid recorded zero remains zero. Eligibility is field-specific.",
+  "prototype_selection": "pending; full source screening is not a selected prototype reference",
+  "quantity_policy": {
+    "complete_source_portions": "mass = copies * source_gram_weight",
+    "edible_mass_g": "N100g * requested_grams / 100",
+    "household_gates": "Match food and portion IDs; use exact measure text; require positive finite amount/weight and handle footnotes; no name-only or generic-volume conversion.",
+    "nonpositive_amount": "Block automatic household counts unless row meaning is independently resolved; keep valid per-100g facts and explicit gram scaling.",
+    "same_defined_measure_units": "mass = requested_units / positive_source_amount * source_gram_weight"
+  },
+  "reference_basis": "edible_food",
+  "reference_mass_g": 100,
+  "runtime_lookup_implemented": false,
+  "schema_version": "step14-food-reference-contract-proposal-1",
+  "scope": "Food composition facts; no diet, intake target, supplement, or allergy-safety decisions.",
+  "source_acquisition_producer": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/step14_source_acquisition_summary.json",
+  "source_data_type": "sr_legacy_food",
+  "source_table_paths": {
+    "all_downloaded_table_record_counts.csv": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/all_downloaded_table_record_counts.csv",
+    "food.csv": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/food.csv",
+    "food_category.csv": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/food_category.csv",
+    "food_nutrient.csv": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/food_nutrient.csv",
+    "food_nutrient_derivation.csv": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/food_nutrient_derivation.csv",
+    "food_nutrient_source.csv": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/food_nutrient_source.csv",
+    "food_portion.csv": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/food_portion.csv",
+    "measure_unit.csv": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/measure_unit.csv",
+    "nutrient.csv": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/nutrient.csv",
+    "sr_legacy_food.csv": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/sr_legacy_food.csv"
+  },
+  "source_terms": {
+    "locally_archived": false,
+    "locator": "Licensing",
+    "policy": "Retain USDA attribution; no extra project permission gate is introduced.",
+    "review_type": "assistant_official_source_review",
+    "url": "https://fdc.nal.usda.gov/api-guide/"
+  }
+}

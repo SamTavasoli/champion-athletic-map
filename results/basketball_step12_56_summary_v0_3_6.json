@@ -1,0 +1,21 @@
+{
+  "step": "12-56",
+  "catalog_version": "0.3.6",
+  "wave3_candidates": 42,
+  "total_field_review_records": 84,
+  "targeted_exception_fields": 10,
+  "reviewed_source_urls": 5,
+  "source_check_results": {
+    "source_cues_supported_for_review": 10
+  },
+  "proposed_field_actions": {
+    "retain_current": 7,
+    "retain_current_pending_source_signoff": 74,
+    "revise_value": 3
+  },
+  "actual_reviewer_decisions": 0,
+  "catalog_edits": 0,
+  "catalog_approvals": 0,
+  "planner_eligible": 0,
+  "note": "Source cues require reviewer interpretation; no automatic field signoffs or approvals."
+}

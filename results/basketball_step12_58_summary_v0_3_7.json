@@ -1,0 +1,35 @@
+{
+  "approved_drills": 0,
+  "catalog_candidates": 144,
+  "catalog_version": "0.3.7",
+  "changed_catalog_fields": 3,
+  "changed_registry_fields": 3,
+  "confirmed_targeted_field_decisions": 10,
+  "distinct_candidate_groups_in_targeted_review": 9,
+  "git_operations_performed": false,
+  "input_catalog_version": "0.3.6",
+  "input_sha256": {
+    "data/processed/basketball_drill_catalog_v0_3_6_REVIEW_ONLY.csv": "a9e9831ebf497e150b4bbf0ec7fc48a12c2e285350b0671cd74f423dac1000d5",
+    "results/Step_12_57_Targeted_Review_Recommendations_REVIEW_ONLY.csv": "5bea0c8bfb0821ca1fca5a377ea2f271bcd9647c1c41de08b3083395722278f4",
+    "results/basketball_drill_source_registry_v0_3_6.csv": "191242faae20c8655162cf044a98fa50758cc07789238f0d7a0a54997902f4cc",
+    "results/basketball_wave3_field_decision_proposals_v0_3_6.csv": "7e7bec07c69ae3ea1fc82d7c7a50372a15cdabda3db1135b7322bbfc1df3aba4",
+    "results/basketball_wave3_targeted_reconciliation_packet_v0_3_6.csv": "61a19b7128fcd1da88ee652ee752dbd1fe6de4294f2487ce5830bea5ad6a7a69"
+  },
+  "output_sha256": {
+    "data/processed/basketball_drill_catalog_v0_3_7_REVIEW_ONLY.csv": "cebf636fbd62763e9374bbcca653ccc26d09ed627723148e00c2f0b52db5b1d0",
+    "results/basketball_drill_source_registry_v0_3_7.csv": "965b945c18e36cd1fcc4237e936aa7b3e2be17b2d307b71f37c1dea20fa7bda4",
+    "results/basketball_wave3_confirmed_requirement_decisions_v0_3_7.csv": "4a5bb42e178bf11f00db76255c2ec328b029836ff1512eec0cb166205573cc2c",
+    "results/basketball_wave3_pending_requirement_reviews_v0_3_7.csv": "905d3df89f7740ab03c2ce17f91be4ccba18f120a3c7538d7b1501c0711b7711",
+    "results/basketball_wave3_requirement_change_log_v0_3_7.csv": "47addce19e42bb9571258b1e069a4bb2aa74e320f5262af7b866f4ab2e1aad55"
+  },
+  "permission_review": "pending",
+  "planner_eligible_drills": 0,
+  "retained_fields": 7,
+  "revised_equipment_fields": 3,
+  "source_inputs_preserved": true,
+  "source_occurrences": 156,
+  "step": "12-58",
+  "team_signoff": "pending",
+  "wave3_fields_still_pending": 74,
+  "youth_planning_review": "pending"
+}

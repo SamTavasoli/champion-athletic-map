@@ -1,0 +1,8 @@
+source_id,nutrient,total_records,missing_records,missing_pct,invalid_numeric_records,nonfinite_records,negative_records,finite_records,finite_nonnegative_records
+aditi_usda_foundation_nutrition,protein_g,411,12,2.9197,0,0,0,399,399
+aditi_usda_foundation_nutrition,fat_g,411,23,5.5961,0,0,0,388,388
+aditi_usda_foundation_nutrition,carbohydrate_g,411,59,14.3552,0,0,8,352,344
+aditi_usda_foundation_nutrition,fiber_g,411,204,49.635,0,0,0,207,207
+aditi_usda_foundation_nutrition,energy_general_kcal,411,89,21.6545,0,0,0,322,322
+aditi_usda_foundation_nutrition,energy_specific_kcal,411,99,24.0876,0,0,0,312,312
+aditi_usda_foundation_nutrition,calories_kcal,411,89,21.6545,0,0,0,322,322

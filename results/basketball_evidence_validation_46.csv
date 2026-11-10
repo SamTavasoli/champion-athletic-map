@@ -1,0 +1,40 @@
+evidence_id,drill_name,issue_type,recommended_action,status
+JR-EVID-0004,1.2.3. Triple Threat,repeated_name,Compare source instructions and variations.,open
+JR-EVID-0006,The Escape Game,general_warmup_scope,Decide whether this counts toward the basketball-drill target.,open
+JR-EVID-0009,Run to That Line,repeated_name,Compare source instructions and variations.,open
+JR-EVID-0009,Run to That Line,general_warmup_scope,Decide whether this counts toward the basketball-drill target.,open
+JR-EVID-0011,Cone Dribbling,repeated_name,Compare source instructions and variations.,open
+JR-EVID-0012,Gauntlet Dribbling,timing_unverified,Confirm the source prescription or retain unknown timing.,open
+JR-EVID-0013,Partner Decision Dribbling Game,timing_unverified,Confirm the source prescription or retain unknown timing.,open
+JR-EVID-0015,Cone Dribbling,repeated_name,Compare source instructions and variations.,open
+JR-EVID-0018,Run to That Line,repeated_name,Compare source instructions and variations.,open
+JR-EVID-0018,Run to That Line,general_warmup_scope,Decide whether this counts toward the basketball-drill target.,open
+JR-EVID-0018,Run to That Line,missing_summary,Review the practice plan and prepare a permitted factual summary.,open
+JR-EVID-0018,Run to That Line,equipment_ambiguous,Verify the equipment requirements against the source.,open
+JR-EVID-0019,Forward/Backward/Lateral March,general_warmup_scope,Decide whether this counts toward the basketball-drill target.,open
+JR-EVID-0019,Forward/Backward/Lateral March,missing_summary,Review the practice plan and prepare a permitted factual summary.,open
+JR-EVID-0019,Forward/Backward/Lateral March,timing_unverified,Confirm the source prescription or retain unknown timing.,open
+JR-EVID-0019,Forward/Backward/Lateral March,equipment_ambiguous,Verify the equipment requirements against the source.,open
+JR-EVID-0020,High Knees,general_warmup_scope,Decide whether this counts toward the basketball-drill target.,open
+JR-EVID-0020,High Knees,missing_summary,Review the practice plan and prepare a permitted factual summary.,open
+JR-EVID-0020,High Knees,timing_unverified,Confirm the source prescription or retain unknown timing.,open
+JR-EVID-0020,High Knees,equipment_ambiguous,Verify the equipment requirements against the source.,open
+JR-EVID-0021,Quick Feet,general_warmup_scope,Decide whether this counts toward the basketball-drill target.,open
+JR-EVID-0021,Quick Feet,description_overlap,Compare source descriptions before assigning distinct IDs.,open
+JR-EVID-0021,Quick Feet,missing_summary,Review the practice plan and prepare a permitted factual summary.,open
+JR-EVID-0021,Quick Feet,timing_unverified,Confirm the source prescription or retain unknown timing.,open
+JR-EVID-0021,Quick Feet,equipment_ambiguous,Verify the equipment requirements against the source.,open
+JR-EVID-0022,Side Push,general_warmup_scope,Decide whether this counts toward the basketball-drill target.,open
+JR-EVID-0022,Side Push,description_overlap,Compare source descriptions before assigning distinct IDs.,open
+JR-EVID-0022,Side Push,missing_summary,Review the practice plan and prepare a permitted factual summary.,open
+JR-EVID-0022,Side Push,timing_unverified,Confirm the source prescription or retain unknown timing.,open
+JR-EVID-0022,Side Push,equipment_ambiguous,Verify the equipment requirements against the source.,open
+JR-EVID-0023,Toss & Catch,missing_summary,Review the practice plan and prepare a permitted factual summary.,open
+JR-EVID-0024,Stationary Dribble Low/Middle,missing_summary,Review the practice plan and prepare a permitted factual summary.,open
+JR-EVID-0025,Up or Down Game,missing_summary,Review the practice plan and prepare a permitted factual summary.,open
+JR-EVID-0026,1.2.3. Triple Threat,repeated_name,Compare source instructions and variations.,open
+JR-EVID-0026,1.2.3. Triple Threat,missing_summary,Review the practice plan and prepare a permitted factual summary.,open
+JR-EVID-0027,Gates Passing Game,missing_summary,Review the practice plan and prepare a permitted factual summary.,open
+JR-EVID-0028,Red Light,missing_summary,Review the practice plan and prepare a permitted factual summary.,open
+JR-EVID-0029,Shooting Line Game,missing_summary,Review the practice plan and prepare a permitted factual summary.,open
+JR-EVID-0030,Advantage Numbers Game,missing_summary,Review the practice plan and prepare a permitted factual summary.,open

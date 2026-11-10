@@ -1,0 +1,3 @@
+evidence_id,candidate_group_id,drill_name,field,previous_value,new_value,decision_reference,source_url,team_signoff
+JR-EVID-0012,JR-REVIEW-0032,Gauntlet Dribbling,participants,Group with multiple defenders,One offensive ball handler and 2-3 defenders per lane; players rotate roles,results/basketball_wave3_plan1_confirmed_field_decisions_v0_3_8.csv,https://jr.nba.com/basketball-practice-plans/all-star/,pending
+JR-EVID-0014,JR-REVIEW-0057,Skip Pass 2 on 1,participants,Multiple players including defender,Two active attackers and one defender; additional players in wing passing lines,results/basketball_wave3_plan1_confirmed_field_decisions_v0_3_8.csv,https://jr.nba.com/basketball-practice-plans/all-star/,pending

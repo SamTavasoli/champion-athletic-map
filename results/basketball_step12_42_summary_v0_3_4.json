@@ -1,0 +1,59 @@
+{
+  "approved_drills": 0,
+  "catalog_candidates": 144,
+  "catalog_version": "0.3.4",
+  "created_on": "2026-11-07",
+  "evidence_basis_claims": {
+    "activity_implied": 7,
+    "operational_inference": 2,
+    "source_explicit": 47
+  },
+  "field_decisions": 56,
+  "input_sha256": {
+    "catalog": "d41b9e6652f333206ea0fd7bf6165d0d6b743d37562fcea3e47761ca4a0a5d0f",
+    "fields": "9ab993b60e57877dcd70cc2c0d42392b79363d3f740a040d47a71cabf3e595ad",
+    "packet": "4156efa4f6d9dacb963a1402e8a50214d6d6645ac40bd5b6a932e4016dc81194",
+    "registry": "90acfe374bf0dbd4ea8c8edc22e3d4846d4489d79695c80d1a8121a830650f25"
+  },
+  "limits": "All proposals require independent review. A keyword cue or source-explicit label is not itself evidence of a signed verification. No baseline metadata fields or approval decisions were changed.",
+  "metadata_values_applied": 0,
+  "output_sha256": {
+    "candidate_sheet": "0914e7df18ceda2c06b9d614efac6d7ef03554dd949c5fb6b739be4a35a7e97d",
+    "catalog": "ee7952561c1c07c69a1637ec4c5c9943895e897f72795337edbf117e9e292daf",
+    "field_sheet": "4b29d1786c891ab6107e8ce6af3720a4284d81f5835033b452b580cc3401a667"
+  },
+  "planner_eligible_drills": 0,
+  "priority_counts": {
+    "high": 1,
+    "medium": 5,
+    "standard": 8
+  },
+  "review_evidence_classes": {
+    "activity_implied_requires_source_review": 7,
+    "claimed_explicit_but_no_source_cue": 1,
+    "exact_phrase_seen_pending_signoff": 14,
+    "keyword_evidence_pending_source_review": 32,
+    "operational_inference_requires_confirmation": 2
+  },
+  "reviewer_decisions_signed": 0,
+  "source_occurrences": 156,
+  "special_attention_fields": [
+    {
+      "evidence_id": "JR-EVID-0059",
+      "field": "equipment",
+      "reason": "operational_inference_requires_confirmation"
+    },
+    {
+      "evidence_id": "JR-EVID-0059",
+      "field": "space",
+      "reason": "operational_inference_requires_confirmation"
+    },
+    {
+      "evidence_id": "JR-EVID-0002",
+      "field": "space",
+      "reason": "claimed_explicit_but_no_source_cue"
+    }
+  ],
+  "step": "12-42",
+  "wave2_candidates": 14
+}

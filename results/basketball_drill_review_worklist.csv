@@ -1,0 +1,68 @@
+candidate_group_id,normalized_name,display_name,source_occurrences,evidence_ids,source_locations,proposed_skills,scope_flag,source_instructions_review,equipment_review,participants_review,timing_review,distinctness_review,scope_review,permission_review,reviewed_source_url,reviewer,review_notes,approval_status,planner_eligible
+JR-REVIEW-0001,1 2 3 triple threat,1.2.3. Triple Threat,2,JR-EVID-0004;JR-EVID-0026,Starter Plan 2; Rookie Plan 2,footwork,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0002,1 on 1 1 half court,1 on 1+1 Half-court,1,JR-EVID-0056,All-Star Plan 3,ball_handling,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0003,1 on 1 dribble battle,1 on 1 Dribble Battle,1,JR-EVID-0055,All-Star Plan 3,ball_handling,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0004,1 on 1 half court,1 on 1 Half-court,1,JR-EVID-0031,All-Star Plan 2,ball_handling,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0005,1 on 1 stunt recover,1 on 1 – Stunt & Recover,1,JR-EVID-0045,MVP Plan 2,defense,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0006,2 ball alternate react,2 Ball Alternate & React,1,JR-EVID-0064,MVP Plan 3,ball_handling,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0007,2 ball jab drill,2-Ball Jab Drill,1,JR-EVID-0063,MVP Plan 3,ball_handling,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0008,2 on 2 box out game,2 on 2 Box Out Game,1,JR-EVID-0052,Starter Plan 3,rebounding,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0009,2 person closeout drill,2-Person Closeout Drill,1,JR-EVID-0053,Starter Plan 3,defense,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0010,3 on 1 drive and kick reaction,3 on 1 Drive and Kick Reaction,1,JR-EVID-0061,All-Star Plan 3,passing,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0011,3 on 1 transition,3 on 1 Transition,1,JR-EVID-0033,All-Star Plan 2,passing,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0012,3 on 3 dictated pass cut or pass ball screen,3 on 3 Dictated – Pass & Cut or Pass & Ball Screen,1,JR-EVID-0037,All-Star Plan 2,offense,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0013,3 on 3 from help the helper,3 on 3 from Help the Helper,1,JR-EVID-0062,All-Star Plan 3,defense,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0014,3 person shooting,3-Person Shooting,1,JR-EVID-0059,All-Star Plan 3,shooting,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0015,3 second deny 1 on 1,3-Second Deny 1 on 1,1,JR-EVID-0035,All-Star Plan 2,defense,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0016,4 on 4 continuous with constraints,4 on 4 Continuous with Constraints,1,JR-EVID-0054,Starter Plan 3,offense,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0017,4 on 4 shell to rebound,4 on 4 Shell to Rebound,1,JR-EVID-0046,MVP Plan 2,defense,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0018,5 on 0 fast break,5 on 0 Fast Break,1,JR-EVID-0069,MVP Plan 3,offense,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0019,5 on 5 dictated minimum 4 passes,5 on 5 Dictated – Minimum 4 Passes,1,JR-EVID-0038,All-Star Plan 2,offense,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0020,advantage numbers game,Advantage Numbers Game,1,JR-EVID-0030,Rookie Plan 2,offense,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0021,animal layups,Animal Layups,1,JR-EVID-0058,All-Star Plan 3,finishing,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0022,around the world wraps,Around The World Wraps,1,JR-EVID-0008,Rookie Plan 1,ball_handling,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0023,balance the floor drill,Balance the Floor Drill,1,JR-EVID-0070,MVP Plan 3,offense,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0024,catch a second ball series,Catch a Second Ball Series,1,JR-EVID-0039,MVP Plan 2,ball_handling,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0025,cone dribbling,Cone Dribbling,2,JR-EVID-0011;JR-EVID-0015,Starter Plan 1; MVP Plan 1,ball_handling,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0026,diamond passing,Diamond Passing,1,JR-EVID-0010,Starter Plan 1,passing,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0027,filling the corner drill,Filling the Corner Drill,1,JR-EVID-0066,MVP Plan 3,offense,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0028,floater series,Floater Series,1,JR-EVID-0042,MVP Plan 2,finishing,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0029,forward backward lateral march,Forward/Backward/Lateral March,1,JR-EVID-0019,Rookie Plan 2,footwork,general_warmup_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0030,free throw golf,Free Throw Golf,1,JR-EVID-0051,Starter Plan 3,shooting,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0031,gates passing game,Gates Passing Game,1,JR-EVID-0027,Rookie Plan 2,passing,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0032,gauntlet dribbling,Gauntlet Dribbling,1,JR-EVID-0012,All-Star Plan 1,ball_handling,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0033,get open 1 on 1,Get Open 1 on 1,1,JR-EVID-0060,All-Star Plan 3,offense,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0034,high knees,High Knees,1,JR-EVID-0020,Rookie Plan 2,footwork,general_warmup_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0035,hook pass drill,Hook Pass Drill,1,JR-EVID-0041,MVP Plan 2,passing,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0036,hot ball taps,Hot Ball (Taps),1,JR-EVID-0007,Rookie Plan 1,ball_handling,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0037,jail break,Jail Break,1,JR-EVID-0047,Starter Plan 3,ball_handling,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0038,jump to the ball drill,Jump to the Ball Drill,1,JR-EVID-0036,All-Star Plan 2,defense,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0039,loop shooting drill,Loop Shooting Drill,1,JR-EVID-0065,MVP Plan 3,shooting,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0040,partner decision dribbling game,Partner Decision Dribbling Game,1,JR-EVID-0013,All-Star Plan 1,ball_handling,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0041,pick pop shooting,Pick & Pop Shooting,1,JR-EVID-0043,MVP Plan 2,shooting,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0042,pivot 1 on 1,Pivot 1 on 1,1,JR-EVID-0032,All-Star Plan 2,footwork,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0043,pocket pass shoot,Pocket Pass & Shoot,1,JR-EVID-0068,MVP Plan 3,passing,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0044,pound pass 1 on 1,Pound Pass 1 on 1,1,JR-EVID-0057,All-Star Plan 3,passing,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0045,pound pass drill,Pound Pass Drill,1,JR-EVID-0016,MVP Plan 1,passing,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0046,progression shooting competition,Progression Shooting Competition,1,JR-EVID-0034,All-Star Plan 2,shooting,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0047,quick feet,Quick Feet,1,JR-EVID-0021,Rookie Plan 2,footwork,general_warmup_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0048,rebound score,Rebound & Score,1,JR-EVID-0044,MVP Plan 2,rebounding,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0049,red light,Red Light,1,JR-EVID-0028,Rookie Plan 2,ball_handling,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0050,retreat dribble drill,Retreat Dribble Drill,1,JR-EVID-0005,Starter Plan 2,ball_handling,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0051,rhythm dribbling,Rhythm Dribbling,1,JR-EVID-0040,MVP Plan 2,ball_handling,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0052,rooted 1 on 1,Rooted 1 on 1,1,JR-EVID-0049,Starter Plan 3,offense,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0053,run to that line,Run to That Line,2,JR-EVID-0009;JR-EVID-0018,Starter Plan 1; Rookie Plan 2,footwork,general_warmup_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0054,running stop drill,Running Stop Drill,1,JR-EVID-0001,Rookie Plan 3,footwork,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0055,shooting line game,Shooting Line Game,1,JR-EVID-0029,Rookie Plan 2,shooting,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0056,side push,Side Push,1,JR-EVID-0022,Rookie Plan 2,footwork,general_warmup_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0057,skip pass 2 on 1,Skip Pass 2 on 1,1,JR-EVID-0014,All-Star Plan 1,passing,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0058,slip pass drill,Slip Pass Drill,1,JR-EVID-0017,MVP Plan 1,passing,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0059,smacks,Smacks,1,JR-EVID-0002,Rookie Plan 3,ball_handling,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0060,spin 5 series,Spin 5 Series,1,JR-EVID-0067,MVP Plan 3,finishing,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0061,stationary crossover low middle high,"Stationary Crossover Low, Middle, High",1,JR-EVID-0003,Rookie Plan 3,ball_handling,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0062,stationary dribble low middle,Stationary Dribble Low/Middle,1,JR-EVID-0024,Rookie Plan 2,ball_handling,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0063,the escape game,The Escape Game,1,JR-EVID-0006,Rookie Plan 1,footwork,general_warmup_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0064,the kick pass drill,The Kick Pass Drill,1,JR-EVID-0050,Starter Plan 3,passing,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0065,toss catch,Toss & Catch,1,JR-EVID-0023,Rookie Plan 2,ball_handling,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0066,tuck back drill,Tuck Back Drill,1,JR-EVID-0048,Starter Plan 3,footwork,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no
+JR-REVIEW-0067,up or down game,Up or Down Game,1,JR-EVID-0025,Rookie Plan 2,ball_handling,basketball_drill_candidate,pending,pending,pending,pending,pending,pending,pending,,,,pending,no

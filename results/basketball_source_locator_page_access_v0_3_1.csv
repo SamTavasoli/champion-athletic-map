@@ -1,0 +1,10 @@
+source_url,fetch_status,http_status,final_url,html_headings_found,referenced_source_occurrences,fetch_error
+https://jr.nba.com/basketball-practice-plans/all-star/page/4/,fetched,200,https://jr.nba.com/basketball-practice-plans/all-star/page/4/,52,9,
+https://jr.nba.com/basketball-practice-plans/all-star/page/5/,fetched,200,https://jr.nba.com/basketball-practice-plans/all-star/page/5/,56,6,
+https://jr.nba.com/basketball-practice-plans/mvp/page/4/,fetched,200,https://jr.nba.com/basketball-practice-plans/mvp/page/4/,57,14,
+https://jr.nba.com/basketball-practice-plans/mvp/page/5/,fetched,200,https://jr.nba.com/basketball-practice-plans/mvp/page/5/,53,6,
+https://jr.nba.com/basketball-practice-plans/rookie/page/4/,fetched,200,https://jr.nba.com/basketball-practice-plans/rookie/page/4/,68,10,
+https://jr.nba.com/basketball-practice-plans/starter/,fetched,200,https://jr.nba.com/basketball-practice-plans/starter/,64,13,
+https://jr.nba.com/basketball-practice-plans/starter/page/2/,fetched,200,https://jr.nba.com/basketball-practice-plans/starter/page/2/,54,10,
+https://jr.nba.com/basketball-practice-plans/starter/page/4/,fetched,200,https://jr.nba.com/basketball-practice-plans/starter/page/4/,53,10,
+https://jr.nba.com/basketball-practice-plans/starter/page/5/,fetched,200,https://jr.nba.com/basketball-practice-plans/starter/page/5/,59,8,

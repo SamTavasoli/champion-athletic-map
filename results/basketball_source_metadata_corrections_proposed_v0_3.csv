@@ -1,0 +1,2 @@
+case_id,evidence_id,record_role,field,existing_recorded_value,proposed_source_value,official_source_url,evidence_basis,proposed_status,source_dataset_updated,review_decision,reviewer,review_notes
+JR-MATCH-0008,ADI-JRNBA002,imported,source_prescription,3 x 20 seconds,3 x 20 seconds each,https://jr.nba.com/basketball-practice-plans/starter/,official_heading_adjacent_prescription_screen,source_text_supported_pending_review,no,pending,,

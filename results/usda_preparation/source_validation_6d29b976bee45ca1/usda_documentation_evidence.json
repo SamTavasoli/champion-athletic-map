@@ -1,0 +1,55 @@
+{
+  "evidence_cards": [
+    {
+      "evidence_id": "SR_LEGACY_BASIS",
+      "interpretation": "The SR amount describes 100 grams of edible food.",
+      "locator": "Section 4.5, Table 6; printed p.12 / PDF p.13",
+      "reference_id": "SR_LEGACY_DOC",
+      "short_excerpt": "Amount in 100 g, edible portion"
+    },
+    {
+      "evidence_id": "FDC_FIELD_BASIS",
+      "interpretation": "FDC nutrient amount uses a 100-gram basis; its unit comes from the nutrient definition.",
+      "locator": "food_nutrient.amount and nutrient.unit_name; PDF pp.5,10",
+      "reference_id": "FDC_FIELDS_DOC",
+      "short_excerpt": ""
+    },
+    {
+      "evidence_id": "FDC_PORTION_MEANING",
+      "interpretation": "Amount counts measure units; SR modifier carries the measure text. Gram weight belongs to the whole recorded measure. ID 9999 is expected for SR.",
+      "locator": "food_portion; PDF p.7",
+      "reference_id": "FDC_FIELDS_DOC",
+      "short_excerpt": ""
+    }
+  ],
+  "note": "PDF fingerprints verify the reviewed snapshots; this code does not parse PDFs or perform an independent human review.",
+  "references": [
+    {
+      "bytes": 177990,
+      "downloaded_at_utc": "2026-11-09T05:08:54.795610+00:00",
+      "filename": "references/usda_sr_legacy_documentation.pdf",
+      "fingerprint_role": "match_the_document_snapshot_reviewed; not_a_publisher_checksum",
+      "interpretation_review_date": "2026-11-08",
+      "interpretation_review_time_zone": "America/Los_Angeles",
+      "reference_id": "SR_LEGACY_DOC",
+      "response_url": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/SR-Legacy/SR-Legacy_Doc.pdf",
+      "review_type": "assistant_primary_source_review",
+      "sha256": "fdc33442adb5707d448676e92b54f9adeaad63b6df267b683b5fe728307391cf",
+      "url": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/SR-Legacy/SR-Legacy_Doc.pdf"
+    },
+    {
+      "bytes": 148996,
+      "downloaded_at_utc": "2026-11-09T05:08:55.375205+00:00",
+      "filename": "references/fdc_download_field_descriptions_oct2020.pdf",
+      "fingerprint_role": "match_the_document_snapshot_reviewed; not_a_publisher_checksum",
+      "interpretation_review_date": "2026-11-08",
+      "interpretation_review_time_zone": "America/Los_Angeles",
+      "reference_id": "FDC_FIELDS_DOC",
+      "response_url": "https://fdc.nal.usda.gov/docs/Download_Field_Descriptions_Oct2020.pdf",
+      "review_type": "assistant_primary_source_review",
+      "sha256": "e21d658d4d3fa583aceaa78e23efd4e64dbf9010fd0210a87b94edbcfb56928a",
+      "url": "https://fdc.nal.usda.gov/docs/Download_Field_Descriptions_Oct2020.pdf"
+    }
+  ],
+  "schema_version": "step14-documentation-evidence-1"
+}

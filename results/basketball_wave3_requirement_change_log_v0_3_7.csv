@@ -1,0 +1,4 @@
+candidate_group_id,evidence_id,drill_name,field,old_value,new_value,change_reason,source_url,review_basis
+JR-REVIEW-0016,JR-EVID-0054,4 on 4 Continuous with Constraints,equipment,Basketball and court with hoops,Basketball; two hoops,Separate the two-basket activity equipment from full-court playing-space requirements.,https://jr.nba.com/basketball-practice-plans/starter/page/3/,confirmed_metadata_only
+JR-REVIEW-0018,JR-EVID-0069,5 on 0 Fast Break,equipment,Basketball and full court,Basketballs (two initial ball handlers); hoop for layup finish,"Move full-court requirements to the space field, separate from basketball and hoop equipment.",https://jr.nba.com/basketball-practice-plans/mvp/page/3/,confirmed_metadata_only
+JR-REVIEW-0023,JR-EVID-0070,Balance the Floor Drill,equipment,Basketball and court,Basketball,Basketball is documented; court access remains a separate space requirement.,https://jr.nba.com/basketball-practice-plans/mvp/page/3/,confirmed_metadata_only

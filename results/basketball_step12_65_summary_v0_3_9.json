@@ -1,0 +1,112 @@
+{
+  "step": "12-65",
+  "catalog_version": "0.3.9",
+  "catalog_state": "review_only_draft_pending_human_confirmation",
+  "catalog_candidate_groups": 144,
+  "registered_source_occurrences": 156,
+  "basketball_candidate_groups": 132,
+  "general_warmup_candidate_groups": 12,
+  "basketball_primary_skill_candidate_counts": {
+    "ball_handling": 29,
+    "shooting": 25,
+    "passing": 18,
+    "finishing": 9,
+    "footwork": 5,
+    "defense": 11
+  },
+  "primary_skill_areas_with_candidates": 6,
+  "basketball_candidates_in_six_primary_labels": 97,
+  "basketball_candidates_with_other_existing_skill_labels": 35,
+  "blank_core_metadata_by_scope": {
+    "all_candidates": {
+      "equipment": 62,
+      "participants": 62,
+      "space": 76,
+      "source_prescription": 6
+    },
+    "basketball_drill_candidate": {
+      "equipment": 56,
+      "participants": 56,
+      "space": 70,
+      "source_prescription": 4
+    },
+    "general_warmup_candidate": {
+      "equipment": 6,
+      "participants": 6,
+      "space": 6,
+      "source_prescription": 2
+    }
+  },
+  "recorded_unspecified_metadata_by_scope": {
+    "all_candidates": {
+      "equipment": 0,
+      "participants": 0,
+      "space": 0,
+      "source_prescription": 7
+    },
+    "basketball_drill_candidate": {
+      "equipment": 0,
+      "participants": 0,
+      "space": 0,
+      "source_prescription": 3
+    },
+    "general_warmup_candidate": {
+      "equipment": 0,
+      "participants": 0,
+      "space": 0,
+      "source_prescription": 4
+    }
+  },
+  "planned_concepts_without_dedicated_catalog_columns": [
+    "source_instructions",
+    "primary_goal",
+    "secondary_skills",
+    "numeric_minimum_participants",
+    "separate_duration",
+    "separate_rest_interval",
+    "difficulty_modifications",
+    "solo_adaptations",
+    "adaptation_provenance"
+  ],
+  "candidate_readiness_rows": 144,
+  "coverage_report_rows": 58,
+  "completeness_report_rows": 60,
+  "schema_report_rows": 18,
+  "human_field_confirmations_pending": 68,
+  "candidate_groups_with_wave3_confirmations_pending": 38,
+  "explicit_identity_cases_pending": 8,
+  "explicit_identity_case_candidate_groups_pending": 9,
+  "approved_drill_target": 100,
+  "approved_distinct_drills_verified": 0,
+  "catalog_approvals": 0,
+  "planner_eligible": 0,
+  "final_approval_target_met": false,
+  "catalog_modified": false,
+  "original_inputs_modified": false,
+  "git_operations_performed": false,
+  "limitations": [
+    "Candidate counts are not verified distinct or approved drill counts.",
+    "Warm-up scope is excluded from basketball-only skill coverage and the 100-drill target.",
+    "Curriculum memberships overlap; raw skill labels are preserved without automatic remapping.",
+    "Nonblank fields and recorded absence assertions do not establish independent source verification.",
+    "Mixed prescriptions are not converted into numeric durations or minimum participant counts.",
+    "Schema gaps apply to these tables; source evidence may be available elsewhere.",
+    "The 68 human confirmations concern the current Wave 3 packet, not all outstanding catalog work.",
+    "These reports do not authorize retrieval, public reuse, or athlete-specific recommendations."
+  ],
+  "input_sha256": {
+    "data/processed/basketball_drill_catalog_v0_3_9_REVIEW_ONLY.csv": "13f602caf2756108b758703fae21444e9b26b21f742b5a491d7c255e1031b3d0",
+    "results/basketball_drill_source_registry_v0_3_9.csv": "b9d353a44612d04a7540aed39deb17c99bc77760ff2b3379284aab6378d58faf",
+    "results/basketball_wave3_draft_metadata_review_v0_3_9.csv": "c5ad3c6339bb40955d8a87355dcccd805c47670f399bef3b5cc321d6b7fdbec3",
+    "results/basketball_wave3_draft_metadata_change_log_v0_3_9.csv": "188765144fc49828d401044da8502e7a33410f2d65e9f377827aed45943d5b23",
+    "results/basketball_source_linkage_audit_v0_3_9.csv": "fbec3a4a2bb653bf1534f27839d56116b36910fd99e48a621a68ac295a3fc338",
+    "results/basketball_canonical_reconciliation_status_v0_3_9.csv": "017b86c9b36a59cbe43f493ece30fbfe86ef37fc23a20e64e8106a0a5c298caf",
+    "results/basketball_step12_64_summary_v0_3_9.json": "eb5293c4a68d7f131a11315b661d5f05065a2ca021d452fa234876768cee37b9"
+  },
+  "output_sha256": {
+    "results/eda/basketball_drill_coverage_v0_3_9.csv": "5b873fe73019a0c962eada7af681db569e40dede3b4b9f29293019af7e049dde",
+    "results/eda/basketball_metadata_completeness_v0_3_9.csv": "08a910575a609e65eb4427c243c9ff6092d29d523f350fde2ba79a75af18cd5d",
+    "results/basketball_candidate_readiness_v0_3_9.csv": "2618aa102195af19d47be6e6e8845f193f214cb4f3a1bdcd5fb371b6b65ed84d",
+    "results/basketball_catalog_schema_review_v0_3_9.csv": "57e41d54904173598fe2bb01fc6f3703d92b7d5a7a7cf36f78ab7e0280f3335b"
+  }
+}

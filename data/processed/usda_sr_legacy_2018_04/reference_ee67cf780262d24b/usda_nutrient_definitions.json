@@ -1,0 +1,88 @@
+{
+  "definitions": [
+    {
+      "basis_evidence": "SR_LEGACY_BASIS;FDC_FIELD_BASIS",
+      "definition_source": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/nutrient.csv",
+      "display_concept": "energy",
+      "numeric_usable_rows": 7793,
+      "nutrient_id": "1008",
+      "nutrient_name": "Energy",
+      "nutrient_nbr": "208",
+      "recorded_rows": 7793,
+      "reference_basis": "edible_food",
+      "reference_mass_g": 100,
+      "selection_policy": "use_exact_recorded_id; no_4_9_4_recalculation_or_Foundation_fallback",
+      "unit_name": "KCAL"
+    },
+    {
+      "basis_evidence": "SR_LEGACY_BASIS;FDC_FIELD_BASIS",
+      "definition_source": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/nutrient.csv",
+      "display_concept": "protein",
+      "numeric_usable_rows": 7793,
+      "nutrient_id": "1003",
+      "nutrient_name": "Protein",
+      "nutrient_nbr": "203",
+      "recorded_rows": 7793,
+      "reference_basis": "edible_food",
+      "reference_mass_g": 100,
+      "selection_policy": "use_exact_recorded_id",
+      "unit_name": "G"
+    },
+    {
+      "basis_evidence": "SR_LEGACY_BASIS;FDC_FIELD_BASIS",
+      "definition_source": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/nutrient.csv",
+      "display_concept": "total_fat",
+      "numeric_usable_rows": 7793,
+      "nutrient_id": "1004",
+      "nutrient_name": "Total lipid (fat)",
+      "nutrient_nbr": "204",
+      "recorded_rows": 7793,
+      "reference_basis": "edible_food",
+      "reference_mass_g": 100,
+      "selection_policy": "use_exact_recorded_id",
+      "unit_name": "G"
+    },
+    {
+      "basis_evidence": "SR_LEGACY_BASIS;FDC_FIELD_BASIS",
+      "definition_source": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/nutrient.csv",
+      "display_concept": "carbohydrate",
+      "numeric_usable_rows": 7793,
+      "nutrient_id": "1005",
+      "nutrient_name": "Carbohydrate, by difference",
+      "nutrient_nbr": "205",
+      "recorded_rows": 7793,
+      "reference_basis": "edible_food",
+      "reference_mass_g": 100,
+      "selection_policy": "use_exact_recorded_id",
+      "unit_name": "G"
+    },
+    {
+      "basis_evidence": "SR_LEGACY_BASIS;FDC_FIELD_BASIS",
+      "definition_source": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/nutrient.csv",
+      "display_concept": "dietary_fiber",
+      "numeric_usable_rows": 7231,
+      "nutrient_id": "1079",
+      "nutrient_name": "Fiber, total dietary",
+      "nutrient_nbr": "291",
+      "recorded_rows": 7231,
+      "reference_basis": "edible_food",
+      "reference_mass_g": 100,
+      "selection_policy": "use_exact_recorded_id",
+      "unit_name": "G"
+    }
+  ],
+  "energy_policy": "Return source nutrient 1008 in KCAL; retain derivation metadata; do not invent a universal Atwater method or recompute 4/9/4.",
+  "quantity_semantics": "Complete record counts and counts of the same defined measure are distinct; only exact food-bound portion IDs are accepted.",
+  "reference_basis": "edible_food",
+  "reference_mass_g": 100,
+  "rounding": "Retain raw source text and Decimal precision in calculations. UI display rounding is a later, explicit presentation policy.",
+  "schema_version": "step14-selected-nutrient-definitions-1",
+  "technical_limits": {
+    "decimal_precision": 50,
+    "max_adjusted_exponent": 1000,
+    "max_numeric_text_length": 128,
+    "max_significant_digits": 50,
+    "min_adjusted_exponent": -1000
+  },
+  "validation_producer": "results/usda_preparation/source_validation_6d29b976bee45ca1/step14_source_validation_summary.json"
+}

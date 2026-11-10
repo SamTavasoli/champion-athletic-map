@@ -1,0 +1,336 @@
+source_id,check_name,status,affected_count,details,next_action,required,affected_unit
+raw_exercise,historical_input_availability,needs_review,1,Historical publisher or fictional-profile input; provenance remains unresolved.,,False,files
+raw_player_bio,historical_input_availability,needs_review,1,Historical publisher or fictional-profile input; provenance remains unresolved.,,False,files
+raw_player_career,historical_input_availability,needs_review,1,Historical publisher or fictional-profile input; provenance remains unresolved.,,False,files
+raw_basketball_season,historical_input_availability,needs_review,1,Historical publisher or fictional-profile input; provenance remains unresolved.,,False,files
+raw_food_sample_link,historical_input_availability,needs_review,1,Historical publisher or fictional-profile input; provenance remains unresolved.,,False,files
+raw_nutrient_result,historical_input_availability,needs_review,1,Historical publisher or fictional-profile input; provenance remains unresolved.,,False,files
+raw_food_category,historical_input_availability,needs_review,1,Historical publisher or fictional-profile input; provenance remains unresolved.,,False,files
+raw_food_portion,historical_input_availability,needs_review,1,Historical publisher or fictional-profile input; provenance remains unresolved.,,False,files
+raw_athlete_profile,historical_input_availability,needs_review,1,Historical publisher or fictional-profile input; provenance remains unresolved.,,False,files
+derived_exercise,step08_snapshot_integrity,pass,0,Current bytes compared with the latest Step 8 file observation.,,True,files
+derived_exercise,historical_registration_hash,pass,0,Historical registration is kept separate from the current run anchor.,,False,files
+derived_exercise,required_columns,pass,0,All fields needed for these checks are present.,,True,columns
+derived_exercise,nonempty_dataset,pass,0,,,True,datasets
+derived_exercise,record_structure,pass,0,,,True,records
+derived_exercise,exact_row_duplicate_screen,pass,0,Repeated full-row fingerprints; no records were removed.,,False,records
+derived_exercise,missing_values,needs_review,5519,Missing/null-like cells; optional and conditional fields need domain-specific interpretation.,,False,cells
+derived_exercise,step08_row_count,pass,0,Step 8=2909; current=2909,,True,datasets
+derived_exercise,file_stability_during_inspection,pass,0,,,True,files
+derived_player_bio,step08_snapshot_integrity,pass,0,Current bytes compared with the latest Step 8 file observation.,,True,files
+derived_player_bio,historical_registration_hash,pass,0,Historical registration is kept separate from the current run anchor.,,False,files
+derived_player_bio,required_columns,pass,0,All fields needed for these checks are present.,,True,columns
+derived_player_bio,nonempty_dataset,pass,0,,,True,datasets
+derived_player_bio,record_structure,pass,0,,,True,records
+derived_player_bio,exact_row_duplicate_screen,pass,0,Repeated full-row fingerprints; no records were removed.,,False,records
+derived_player_bio,missing_values,needs_review,1306,Missing/null-like cells; optional and conditional fields need domain-specific interpretation.,,False,cells
+derived_player_bio,step08_row_count,pass,0,Step 8=3922; current=3922,,True,datasets
+derived_player_bio,file_stability_during_inspection,pass,0,,,True,files
+derived_player_career,step08_snapshot_integrity,pass,0,Current bytes compared with the latest Step 8 file observation.,,True,files
+derived_player_career,historical_registration_hash,pass,0,Historical registration is kept separate from the current run anchor.,,False,files
+derived_player_career,required_columns,pass,0,All fields needed for these checks are present.,,True,columns
+derived_player_career,nonempty_dataset,pass,0,,,True,datasets
+derived_player_career,record_structure,pass,0,,,True,records
+derived_player_career,exact_row_duplicate_screen,pass,0,Repeated full-row fingerprints; no records were removed.,,False,records
+derived_player_career,missing_values,needs_review,341,Missing/null-like cells; optional and conditional fields need domain-specific interpretation.,,False,cells
+derived_player_career,step08_row_count,pass,0,Step 8=4550; current=4550,,True,datasets
+derived_player_career,file_stability_during_inspection,pass,0,,,True,files
+derived_basketball_season,step08_snapshot_integrity,pass,0,Current bytes compared with the latest Step 8 file observation.,,True,files
+derived_basketball_season,historical_registration_hash,pass,0,Historical registration is kept separate from the current run anchor.,,False,files
+derived_basketball_season,required_columns,pass,0,All fields needed for these checks are present.,,True,columns
+derived_basketball_season,nonempty_dataset,pass,0,,,True,datasets
+derived_basketball_season,record_structure,pass,0,,,True,records
+derived_basketball_season,exact_row_duplicate_screen,pass,0,Repeated full-row fingerprints; no records were removed.,,False,records
+derived_basketball_season,missing_values,needs_review,102237,Missing/null-like cells; optional and conditional fields need domain-specific interpretation.,,False,cells
+derived_basketball_season,step08_row_count,pass,0,Step 8=24625; current=24625,,True,datasets
+derived_basketball_season,file_stability_during_inspection,pass,0,,,True,files
+derived_food_sample_link,step08_snapshot_integrity,pass,0,Current bytes compared with the latest Step 8 file observation.,,True,files
+derived_food_sample_link,historical_registration_hash,pass,0,Historical registration is kept separate from the current run anchor.,,False,files
+derived_food_sample_link,required_columns,pass,0,All fields needed for these checks are present.,,True,columns
+derived_food_sample_link,nonempty_dataset,pass,0,,,True,datasets
+derived_food_sample_link,record_structure,pass,0,,,True,records
+derived_food_sample_link,exact_row_duplicate_screen,pass,0,Repeated full-row fingerprints; no records were removed.,,False,records
+derived_food_sample_link,missing_values,pass,0,Missing/null-like cells; optional and conditional fields need domain-specific interpretation.,,False,cells
+derived_food_sample_link,step08_row_count,pass,0,Step 8=75055; current=75055,,True,datasets
+derived_food_sample_link,file_stability_during_inspection,pass,0,,,True,files
+derived_nutrient_result,step08_snapshot_integrity,pass,0,Current bytes compared with the latest Step 8 file observation.,,True,files
+derived_nutrient_result,historical_registration_hash,pass,0,Historical registration is kept separate from the current run anchor.,,False,files
+derived_nutrient_result,required_columns,pass,0,All fields needed for these checks are present.,,True,columns
+derived_nutrient_result,nonempty_dataset,pass,0,,,True,datasets
+derived_nutrient_result,record_structure,pass,0,,,True,records
+derived_nutrient_result,exact_row_duplicate_screen,pass,0,Repeated full-row fingerprints; no records were removed.,,False,records
+derived_nutrient_result,missing_values,needs_review,34072,Missing/null-like cells; optional and conditional fields need domain-specific interpretation.,,False,cells
+derived_nutrient_result,step08_row_count,pass,0,Step 8=134267; current=134267,,True,datasets
+derived_nutrient_result,file_stability_during_inspection,pass,0,,,True,files
+derived_food_category,step08_snapshot_integrity,pass,0,Current bytes compared with the latest Step 8 file observation.,,True,files
+derived_food_category,historical_registration_hash,pass,0,Historical registration is kept separate from the current run anchor.,,False,files
+derived_food_category,required_columns,pass,0,All fields needed for these checks are present.,,True,columns
+derived_food_category,nonempty_dataset,pass,0,,,True,datasets
+derived_food_category,record_structure,pass,0,,,True,records
+derived_food_category,exact_row_duplicate_screen,pass,0,Repeated full-row fingerprints; no records were removed.,,False,records
+derived_food_category,missing_values,pass,0,Missing/null-like cells; optional and conditional fields need domain-specific interpretation.,,False,cells
+derived_food_category,step08_row_count,pass,0,Step 8=28; current=28,,True,datasets
+derived_food_category,file_stability_during_inspection,pass,0,,,True,files
+derived_food_portion,step08_snapshot_integrity,pass,0,Current bytes compared with the latest Step 8 file observation.,,True,files
+derived_food_portion,historical_registration_hash,pass,0,Historical registration is kept separate from the current run anchor.,,False,files
+derived_food_portion,required_columns,pass,0,All fields needed for these checks are present.,,True,columns
+derived_food_portion,nonempty_dataset,pass,0,,,True,datasets
+derived_food_portion,record_structure,pass,0,,,True,records
+derived_food_portion,exact_row_duplicate_screen,pass,0,Repeated full-row fingerprints; no records were removed.,,False,records
+derived_food_portion,missing_values,needs_review,45972,Missing/null-like cells; optional and conditional fields need domain-specific interpretation.,,False,cells
+derived_food_portion,step08_row_count,pass,0,Step 8=10951; current=10951,,True,datasets
+derived_food_portion,file_stability_during_inspection,pass,0,,,True,files
+derived_athlete_profile,step08_snapshot_integrity,pass,0,Current bytes compared with the latest Step 8 file observation.,,True,files
+derived_athlete_profile,historical_registration_hash,pass,0,Historical registration is kept separate from the current run anchor.,,False,files
+derived_athlete_profile,required_columns,pass,0,All fields needed for these checks are present.,,True,columns
+derived_athlete_profile,nonempty_dataset,pass,0,,,True,datasets
+derived_athlete_profile,record_structure,pass,0,,,True,records
+derived_athlete_profile,exact_row_duplicate_screen,pass,0,Repeated full-row fingerprints; no records were removed.,,False,records
+derived_athlete_profile,missing_values,pass,0,Missing/null-like cells; optional and conditional fields need domain-specific interpretation.,,False,cells
+derived_athlete_profile,explicit_unknown_values,needs_review,10,Literal unknown is preserved separately from missing values.,,False,cells
+derived_athlete_profile,identifier_uniqueness,pass,0,athlete_id: missing=0; repeated=0,,True,records
+derived_athlete_profile,step08_row_count,pass,0,Step 8=30; current=30,,True,datasets
+derived_athlete_profile,file_stability_during_inspection,pass,0,,,True,files
+derived_master,step08_snapshot_integrity,pass,0,Current bytes compared with the latest Step 8 file observation.,,True,files
+derived_master,historical_registration_hash,pass,0,Historical registration is kept separate from the current run anchor.,,False,files
+derived_master,required_columns,pass,0,All fields needed for these checks are present.,,True,columns
+derived_master,nonempty_dataset,pass,0,,,True,datasets
+derived_master,record_structure,pass,0,,,True,records
+derived_master,exact_row_duplicate_screen,pass,0,Repeated full-row fingerprints; no records were removed.,,False,records
+derived_master,missing_values,needs_review,2,Missing/null-like cells; optional and conditional fields need domain-specific interpretation.,,False,cells
+derived_master,identifier_uniqueness,pass,0,record_id: missing=0; repeated=0,,True,records
+derived_master,step08_row_count,pass,0,Step 8=256337; current=256337,,True,datasets
+derived_master,file_stability_during_inspection,pass,0,,,True,files
+derived_audit,step08_snapshot_integrity,pass,0,Current bytes compared with the latest Step 8 file observation.,,True,files
+derived_audit,historical_registration_hash,pass,0,Historical registration is kept separate from the current run anchor.,,False,files
+derived_audit,required_columns,pass,0,All fields needed for these checks are present.,,True,columns
+derived_audit,nonempty_dataset,pass,0,,,True,datasets
+derived_audit,record_structure,pass,0,,,True,records
+derived_audit,exact_row_duplicate_screen,pass,0,Repeated full-row fingerprints; no records were removed.,,False,records
+derived_audit,missing_values,pass,0,Missing/null-like cells; optional and conditional fields need domain-specific interpretation.,,False,cells
+derived_audit,step08_row_count,pass,0,Step 8=9; current=9,,True,datasets
+derived_audit,file_stability_during_inspection,pass,0,,,True,files
+reference_jr_nba,publisher_content_review,not_checked,0,External source content and permissions are outside this local quality inspection.,,False,sources
+reference_youth_guidelines,publisher_content_review,not_checked,0,External source content and permissions are outside this local quality inspection.,,False,sources
+reference_usda,publisher_content_review,not_checked,0,External source content and permissions are outside this local quality inspection.,,False,sources
+reference_usda_foundation_2025,publisher_content_review,not_checked,0,External source content and permissions are outside this local quality inspection.,,False,sources
+reference_cdc_sleep,publisher_content_review,not_checked,0,External source content and permissions are outside this local quality inspection.,,False,sources
+reference_aap_overuse,publisher_content_review,not_checked,0,External source content and permissions are outside this local quality inspection.,,False,sources
+aditi_jr_nba_drills,step08_snapshot_integrity,pass,0,Current bytes compared with the latest Step 8 file observation.,,True,files
+aditi_jr_nba_drills,historical_registration_hash,pass,0,Historical registration is kept separate from the current run anchor.,,False,files
+aditi_jr_nba_drills,required_columns,pass,0,All fields needed for these checks are present.,,True,columns
+aditi_jr_nba_drills,nonempty_dataset,pass,0,,,True,datasets
+aditi_jr_nba_drills,record_structure,pass,0,,,True,records
+aditi_jr_nba_drills,exact_row_duplicate_screen,pass,0,Repeated full-row fingerprints; no records were removed.,,False,records
+aditi_jr_nba_drills,missing_values,pass,0,Missing/null-like cells; optional and conditional fields need domain-specific interpretation.,,False,cells
+aditi_jr_nba_drills,identifier_uniqueness,pass,0,drill_id: missing=0; repeated=0,,True,records
+aditi_jr_nba_drills,step08_row_count,pass,0,Step 8=23; current=23,,True,datasets
+aditi_jr_nba_drills,file_stability_during_inspection,pass,0,,,True,files
+aditi_jr_nba_rag,step08_snapshot_integrity,pass,0,Current bytes compared with the latest Step 8 file observation.,,True,files
+aditi_jr_nba_rag,historical_registration_hash,pass,0,Historical registration is kept separate from the current run anchor.,,False,files
+aditi_jr_nba_rag,required_columns,pass,0,All fields needed for these checks are present.,,True,columns
+aditi_jr_nba_rag,nonempty_dataset,pass,0,,,True,datasets
+aditi_jr_nba_rag,record_structure,pass,0,,,True,records
+aditi_jr_nba_rag,exact_row_duplicate_screen,pass,0,Repeated full-row fingerprints; no records were removed.,,False,records
+aditi_jr_nba_rag,missing_values,pass,0,Missing/null-like cells; optional and conditional fields need domain-specific interpretation.,,False,cells
+aditi_jr_nba_rag,identifier_uniqueness,pass,0,drill_id: missing=0; repeated=0,,True,records
+aditi_jr_nba_rag,step08_row_count,pass,0,Step 8=23; current=23,,True,datasets
+aditi_jr_nba_rag,file_stability_during_inspection,pass,0,,,True,files
+aditi_usda_foundation_nutrition,step08_snapshot_integrity,pass,0,Current bytes compared with the latest Step 8 file observation.,,True,files
+aditi_usda_foundation_nutrition,historical_registration_hash,pass,0,Historical registration is kept separate from the current run anchor.,,False,files
+aditi_usda_foundation_nutrition,required_columns,pass,0,All fields needed for these checks are present.,,True,columns
+aditi_usda_foundation_nutrition,nonempty_dataset,pass,0,,,True,datasets
+aditi_usda_foundation_nutrition,record_structure,pass,0,,,True,records
+aditi_usda_foundation_nutrition,exact_row_duplicate_screen,pass,0,Repeated full-row fingerprints; no records were removed.,,False,records
+aditi_usda_foundation_nutrition,missing_values,needs_review,575,Missing/null-like cells; optional and conditional fields need domain-specific interpretation.,,False,cells
+aditi_usda_foundation_nutrition,identifier_uniqueness,pass,0,fdc_id: missing=0; repeated=0,,True,records
+aditi_usda_foundation_nutrition,step08_row_count,pass,0,Step 8=411; current=411,,True,datasets
+aditi_usda_foundation_nutrition,file_stability_during_inspection,pass,0,,,True,files
+aditi_usda_quality_report,step08_snapshot_integrity,pass,0,Current bytes compared with the latest Step 8 file observation.,,True,files
+aditi_usda_quality_report,historical_registration_hash,pass,0,Historical registration is kept separate from the current run anchor.,,False,files
+aditi_usda_quality_report,required_columns,pass,0,All fields needed for these checks are present.,,True,columns
+aditi_usda_quality_report,nonempty_dataset,pass,0,,,True,datasets
+aditi_usda_quality_report,record_structure,pass,0,,,True,records
+aditi_usda_quality_report,exact_row_duplicate_screen,pass,0,Repeated full-row fingerprints; no records were removed.,,False,records
+aditi_usda_quality_report,missing_values,pass,0,Missing/null-like cells; optional and conditional fields need domain-specific interpretation.,,False,cells
+aditi_usda_quality_report,identifier_uniqueness,pass,0,column: missing=0; repeated=0,,True,records
+aditi_usda_quality_report,step08_row_count,pass,0,Step 8=13; current=13,,True,datasets
+aditi_usda_quality_report,file_stability_during_inspection,pass,0,,,True,files
+aditi_recovery_guidance,step08_snapshot_integrity,pass,0,Current bytes compared with the latest Step 8 file observation.,,True,files
+aditi_recovery_guidance,historical_registration_hash,pass,0,Historical registration is kept separate from the current run anchor.,,False,files
+aditi_recovery_guidance,required_columns,pass,0,All fields needed for these checks are present.,,True,columns
+aditi_recovery_guidance,nonempty_dataset,pass,0,,,True,datasets
+aditi_recovery_guidance,record_structure,pass,0,,,True,records
+aditi_recovery_guidance,exact_row_duplicate_screen,pass,0,Repeated full-row fingerprints; no records were removed.,,False,records
+aditi_recovery_guidance,missing_values,pass,0,Missing/null-like cells; optional and conditional fields need domain-specific interpretation.,,False,cells
+aditi_recovery_guidance,step08_row_count,pass,0,Step 8=5; current=5,,True,datasets
+aditi_recovery_guidance,file_stability_during_inspection,pass,0,,,True,files
+aditi_synthetic_athletes,step08_snapshot_integrity,pass,0,Current bytes compared with the latest Step 8 file observation.,,True,files
+aditi_synthetic_athletes,historical_registration_hash,pass,0,Historical registration is kept separate from the current run anchor.,,False,files
+aditi_synthetic_athletes,required_columns,pass,0,All fields needed for these checks are present.,,True,columns
+aditi_synthetic_athletes,nonempty_dataset,pass,0,,,True,datasets
+aditi_synthetic_athletes,record_structure,pass,0,,,True,records
+aditi_synthetic_athletes,exact_row_duplicate_screen,pass,0,Repeated full-row fingerprints; no records were removed.,,False,records
+aditi_synthetic_athletes,missing_values,needs_review,110,Missing/null-like cells; optional and conditional fields need domain-specific interpretation.,,False,cells
+aditi_synthetic_athletes,explicit_unknown_values,needs_review,23,Literal unknown is preserved separately from missing values.,,False,cells
+aditi_synthetic_athletes,identifier_uniqueness,pass,0,athlete_id: missing=0; repeated=0,,True,records
+aditi_synthetic_athletes,step08_row_count,pass,0,Step 8=60; current=60,,True,datasets
+aditi_synthetic_athletes,file_stability_during_inspection,pass,0,,,True,files
+recovery_rules_v01,step08_snapshot_integrity,pass,0,Current bytes compared with the latest Step 8 file observation.,,True,files
+recovery_rules_v01,historical_registration_hash,pass,0,Historical registration is kept separate from the current run anchor.,,False,files
+recovery_rules_v01,required_columns,pass,0,All fields needed for these checks are present.,,True,columns
+recovery_rules_v01,nonempty_dataset,pass,0,,,True,datasets
+recovery_rules_v01,record_structure,pass,0,,,True,records
+recovery_rules_v01,exact_row_duplicate_screen,pass,0,Repeated full-row fingerprints; no records were removed.,,False,records
+recovery_rules_v01,missing_values,pass,41,Missing/null-like cells; optional and conditional fields need domain-specific interpretation.,,False,cells
+recovery_rules_v01,identifier_uniqueness,pass,0,rule_id: missing=0; repeated=0,,True,records
+recovery_rules_v01,step08_row_count,pass,0,Step 8=17; current=17,,True,datasets
+recovery_rules_v01,file_stability_during_inspection,pass,0,,,True,files
+recovery_rules_readme_v01,step08_snapshot_integrity,pass,0,Current bytes compared with the latest Step 8 file observation.,,True,files
+recovery_rules_readme_v01,historical_registration_hash,pass,0,Historical registration is kept separate from the current run anchor.,,False,files
+recovery_rules_readme_v01,file_stability_during_inspection,pass,0,,,True,files
+catalog_basketball_v01,step08_snapshot_integrity,pass,0,Current bytes compared with the latest Step 8 file observation.,,True,files
+catalog_basketball_v01,historical_registration_hash,pass,0,Historical registration is kept separate from the current run anchor.,,False,files
+catalog_basketball_v01,required_columns,pass,0,All fields needed for these checks are present.,,True,columns
+catalog_basketball_v01,nonempty_dataset,pass,0,,,True,datasets
+catalog_basketball_v01,record_structure,pass,0,,,True,records
+catalog_basketball_v01,exact_row_duplicate_screen,pass,0,Repeated full-row fingerprints; no records were removed.,,False,records
+catalog_basketball_v01,missing_values,needs_review,83,Missing/null-like cells; optional and conditional fields need domain-specific interpretation.,,False,cells
+catalog_basketball_v01,identifier_uniqueness,pass,0,catalog_candidate_id: missing=0; repeated=0,,True,records
+catalog_basketball_v01,step08_row_count,pass,0,Step 8=67; current=67,,True,datasets
+catalog_basketball_v01,file_stability_during_inspection,pass,0,,,True,files
+catalog_basketball_v02,step08_snapshot_integrity,pass,0,Current bytes compared with the latest Step 8 file observation.,,True,files
+catalog_basketball_v02,historical_registration_hash,pass,0,Historical registration is kept separate from the current run anchor.,,False,files
+catalog_basketball_v02,required_columns,pass,0,All fields needed for these checks are present.,,True,columns
+catalog_basketball_v02,nonempty_dataset,pass,0,,,True,datasets
+catalog_basketball_v02,record_structure,pass,0,,,True,records
+catalog_basketball_v02,exact_row_duplicate_screen,pass,0,Repeated full-row fingerprints; no records were removed.,,False,records
+catalog_basketball_v02,missing_values,needs_review,337,Missing/null-like cells; optional and conditional fields need domain-specific interpretation.,,False,cells
+catalog_basketball_v02,identifier_uniqueness,pass,0,catalog_candidate_id: missing=0; repeated=0,,True,records
+catalog_basketball_v02,step08_row_count,pass,0,Step 8=129; current=129,,True,datasets
+catalog_basketball_v02,file_stability_during_inspection,pass,0,,,True,files
+local_exercise_catalog,step08_snapshot_integrity,pass,0,Current bytes compared with the latest Step 8 file observation.,,True,files
+local_exercise_catalog,historical_registration_hash,pass,0,Historical registration is kept separate from the current run anchor.,,False,files
+local_exercise_catalog,required_columns,pass,0,All fields needed for these checks are present.,,True,columns
+local_exercise_catalog,nonempty_dataset,pass,0,,,True,datasets
+local_exercise_catalog,record_structure,pass,0,,,True,records
+local_exercise_catalog,exact_row_duplicate_screen,pass,0,Repeated full-row fingerprints; no records were removed.,,False,records
+local_exercise_catalog,missing_values,needs_review,8451,Missing/null-like cells; optional and conditional fields need domain-specific interpretation.,,False,cells
+local_exercise_catalog,identifier_uniqueness,pass,0,catalog_id: missing=0; repeated=0,,True,records
+local_exercise_catalog,step08_row_count,pass,0,Step 8=2909; current=2909,,True,datasets
+local_exercise_catalog,file_stability_during_inspection,pass,0,,,True,files
+local_basketball_drills,step08_snapshot_integrity,pass,0,Current bytes compared with the latest Step 8 file observation.,,True,files
+local_basketball_drills,historical_registration_hash,pass,0,Historical registration is kept separate from the current run anchor.,,False,files
+local_basketball_drills,required_columns,pass,0,All fields needed for these checks are present.,,True,columns
+local_basketball_drills,nonempty_dataset,pass,0,,,True,datasets
+local_basketball_drills,record_structure,pass,0,,,True,records
+local_basketball_drills,exact_row_duplicate_screen,pass,0,Repeated full-row fingerprints; no records were removed.,,False,records
+local_basketball_drills,missing_values,needs_review,448,Missing/null-like cells; optional and conditional fields need domain-specific interpretation.,,False,cells
+local_basketball_drills,identifier_uniqueness,pass,0,candidate_id: missing=0; repeated=0,,True,records
+local_basketball_drills,step08_row_count,pass,0,Step 8=32; current=32,,True,datasets
+local_basketball_drills,file_stability_during_inspection,pass,0,,,True,files
+reference_usda_sr_legacy_2018,publisher_content_review,not_checked,0,External source content and permissions are outside this local quality inspection.,,False,sources
+derived_exercise,classification_names_and_labels,pass,0,Missing names=0; missing body-part labels=0.,Resolve missing classification identifiers or labels in Step 10.,True,cells
+derived_exercise,exercise_description_availability,needs_review,1550,Descriptions are reviewed separately from optional ratings.,Document text-preparation choices in Step 10.,False,records
+derived_exercise,normalized_exercise_name_overlap,needs_review,35,Additional records sharing a normalized name; a name match alone does not establish a duplicate.,"Compare descriptions, labels, and identifiers before any consolidation.",False,records
+derived_exercise,normalized_name_label_conflicts,needs_review,11,Different body-part labels share a normalized exercise-name key.,Review the source and group related names before classifier splitting; retain original labels.,False,groups
+local_exercise_catalog,cleaned_exercise_position_links,pass,0,Invalid positions=0; coverage differences=0; repeated positions=0.,Reconcile the saved catalog version with its cleaned source in Step 10.,False,link findings
+local_exercise_catalog,preserved_exercise_names_and_labels,pass,0,Original name and label fields are compared at the documented cleaned positions.,Keep source labels separate from reviewed and predicted labels.,False,records
+derived_athlete_profile,profile_integer_ranges,pass,0,Current snapshot expects integer ages 13–17 and integer availability 0–7 days.,Review these examples without silently correcting their constraints.,False,records
+derived_athlete_profile,planning_input_coverage,needs_review,5,"Planned field groups absent from this schema: school_grade, session_minutes, existing_commitments, sleep_information, annual_participation",Extend documented profile inputs and reserve an independent final evaluation set.,False,field groups
+aditi_synthetic_athletes,synthetic_data_marker,pass,0,Each declared synthetic example must retain its explicit marker.,Review the source labeling before these profiles are used.,True,records
+aditi_synthetic_athletes,profile_category_conventions,pass,0,"Current generator conventions: basketball, three experience levels, and five positions.",Document new categories or correct inconsistent source values.,False,records
+aditi_synthetic_athletes,profile_integer_ranges,pass,0,Current snapshot expects integer ages 13–17 and integer availability 2–5 days.,Review these examples without silently correcting their constraints.,False,records
+aditi_synthetic_athletes,planning_input_coverage,needs_review,5,"Planned field groups absent from this schema: school_grade, session_minutes, existing_commitments, sleep_information, annual_participation",Extend documented profile inputs and reserve an independent final evaluation set.,False,field groups
+aditi_usda_foundation_nutrition,numeric_finiteness:protein_g,pass,0,Nonmissing measurements must parse as finite numbers.,Review the original nutrient measurement and units.,False,records
+aditi_usda_foundation_nutrition,negative_measurements:protein_g,pass,0,Negative measurements are preserved for source-level investigation.,Check source values and calculation conventions; do not replace them with zero.,False,records
+aditi_usda_foundation_nutrition,numeric_finiteness:fat_g,pass,0,Nonmissing measurements must parse as finite numbers.,Review the original nutrient measurement and units.,False,records
+aditi_usda_foundation_nutrition,negative_measurements:fat_g,pass,0,Negative measurements are preserved for source-level investigation.,Check source values and calculation conventions; do not replace them with zero.,False,records
+aditi_usda_foundation_nutrition,numeric_finiteness:carbohydrate_g,pass,0,Nonmissing measurements must parse as finite numbers.,Review the original nutrient measurement and units.,False,records
+aditi_usda_foundation_nutrition,negative_measurements:carbohydrate_g,needs_review,8,Negative measurements are preserved for source-level investigation.,Check source values and calculation conventions; do not replace them with zero.,False,records
+aditi_usda_foundation_nutrition,numeric_finiteness:fiber_g,pass,0,Nonmissing measurements must parse as finite numbers.,Review the original nutrient measurement and units.,False,records
+aditi_usda_foundation_nutrition,negative_measurements:fiber_g,pass,0,Negative measurements are preserved for source-level investigation.,Check source values and calculation conventions; do not replace them with zero.,False,records
+aditi_usda_foundation_nutrition,numeric_finiteness:energy_general_kcal,pass,0,Nonmissing measurements must parse as finite numbers.,Review the original nutrient measurement and units.,False,records
+aditi_usda_foundation_nutrition,negative_measurements:energy_general_kcal,pass,0,Negative measurements are preserved for source-level investigation.,Check source values and calculation conventions; do not replace them with zero.,False,records
+aditi_usda_foundation_nutrition,numeric_finiteness:energy_specific_kcal,pass,0,Nonmissing measurements must parse as finite numbers.,Review the original nutrient measurement and units.,False,records
+aditi_usda_foundation_nutrition,negative_measurements:energy_specific_kcal,pass,0,Negative measurements are preserved for source-level investigation.,Check source values and calculation conventions; do not replace them with zero.,False,records
+aditi_usda_foundation_nutrition,numeric_finiteness:calories_kcal,pass,0,Nonmissing measurements must parse as finite numbers.,Review the original nutrient measurement and units.,False,records
+aditi_usda_foundation_nutrition,negative_measurements:calories_kcal,pass,0,Negative measurements are preserved for source-level investigation.,Check source values and calculation conventions; do not replace them with zero.,False,records
+aditi_usda_foundation_nutrition,finite_core_nutrition,needs_review,90,Present core fields=321; finite core values=321; finite nonnegative core values=313; total=411.,Keep incomplete foods distinguishable from measured zero values.,False,records
+aditi_usda_foundation_nutrition,selected_energy_consistency,pass,0,Selected calories are compared with the energy method named in this prepared table.,Review preparation logic before selecting or substituting energy measures.,False,records
+aditi_usda_foundation_nutrition,publication_date_format,pass,0,Nonmissing publication dates should use an ISO date.,,False,records
+aditi_usda_foundation_nutrition,nutrient_units_and_reference_quantity,not_checked,0,Column names describe grams/kcal; original archive units and reference quantities still require provenance review.,Verify the source archive and quantity basis before food calculations.,False,datasets
+aditi_usda_quality_report,nutrition_report_correspondence,pass,0,Prepared report counts are compared with this run's field measurements.,Review differing count definitions or preparation versions.,False,records
+aditi_jr_nba_drills,drill_source_metadata,pass,0,"{""drill_name"": 0, ""duration"": 0, ""equipment"": 0, ""group_requirement"": 0, ""instructions_summary"": 0, ""source_document"": 0, ""source_page"": 0}","Verify instructional sections, requirements, and any proposed adaptations in Step 12.",False,cells
+aditi_jr_nba_rag,retrieval_document_text,pass,0,Each document requires string drill_id and nonempty text.,,True,records
+aditi_jr_nba_rag,drill_document_correspondence,pass,0,Structured occurrences=23; documents=23.,,True,records
+catalog_basketball_v01,planner_approval_gate,pass,0,Only an explicitly approved record may be marked planner eligible.,Keep unapproved candidates out of planning inputs.,True,records
+catalog_basketball_v01,eligibility_encoding,pass,0,Blank or unrecognized eligibility values remain unresolved and are not treated as eligible.,,False,records
+catalog_basketball_v02,planner_approval_gate,pass,0,Only an explicitly approved record may be marked planner eligible.,Keep unapproved candidates out of planning inputs.,True,records
+catalog_basketball_v02,eligibility_encoding,pass,0,Blank or unrecognized eligibility values remain unresolved and are not treated as eligible.,,False,records
+aditi_jr_nba_drills,catalog_normalized_name_overlap,needs_review,7,Imported unique names=22; overlapping catalog names=7. Names alone do not resolve identity.,Compare source occurrences and variations in Step 12.,False,names
+local_basketball_drills,planner_approval_gate,pass,0,Only an explicitly approved record may be marked planner eligible.,Keep unapproved candidates out of planning inputs.,True,records
+local_basketball_drills,eligibility_encoding,pass,0,Blank or unrecognized eligibility values remain unresolved and are not treated as eligible.,,False,records
+aditi_recovery_guidance,guidance_source_fields,pass,0,Guidance needs readable text and an HTTPS source reference.,Verify the original section before applying the guidance.,False,records
+recovery_rules_v01,conditional_rule_bounds,pass,0,"Maximum, minimum, range, exact, and published-range types have different required bounds.",Resolve structure and source interpretation in Step 13.,False,records
+recovery_rules_v01,conditional_rule_segments,pass,0,Age and grade pairs are checked when supplied; a general rule may omit both pairs.,,False,field pairs
+recovery_rules_v01,rule_source_fields,pass,0,"Source URLs, metrics, units, and recorded verification status are inspected without activating rules.",,False,records
+derived_master,unexpected_entity_type,pass,0,Structural source links and JSON objects are checked; original publisher rows remain unverified.,,True,records
+derived_master,missing_lineage_fields,pass,0,Structural source links and JSON objects are checked; original publisher rows remain unverified.,,True,records
+derived_master,source_filename_mismatch,pass,0,Structural source links and JSON objects are checked; original publisher rows remain unverified.,,True,records
+derived_master,invalid_cleaned_position,pass,0,Structural source links and JSON objects are checked; original publisher rows remain unverified.,,True,records
+derived_master,repeated_cleaned_position,pass,0,Structural source links and JSON objects are checked; original publisher rows remain unverified.,,True,records
+derived_master,invalid_json_payload,pass,0,Structural source links and JSON objects are checked; original publisher rows remain unverified.,,True,records
+derived_audit,unique_audit_domains,pass,0,,,True,domains
+derived_master,prepared_domain_count:exercise,pass,0,Prepared rows=2909; master rows=2909.,,True,records
+derived_master,cleaned_position_coverage:exercise,pass,0,Positions must cover each one-based prepared-file row exactly once.,,True,positions
+derived_exercise,earlier_audit_row_count,pass,0,Earlier audit=2909.0; current prepared file=2909.,,False,datasets
+derived_master,prepared_domain_count:player_bio,pass,0,Prepared rows=3922; master rows=3922.,,True,records
+derived_master,cleaned_position_coverage:player_bio,pass,0,Positions must cover each one-based prepared-file row exactly once.,,True,positions
+derived_player_bio,earlier_audit_row_count,pass,0,Earlier audit=3922.0; current prepared file=3922.,,False,datasets
+derived_master,prepared_domain_count:player_career,pass,0,Prepared rows=4550; master rows=4550.,,True,records
+derived_master,cleaned_position_coverage:player_career,pass,0,Positions must cover each one-based prepared-file row exactly once.,,True,positions
+derived_player_career,earlier_audit_row_count,pass,0,Earlier audit=4550.0; current prepared file=4550.,,False,datasets
+derived_master,prepared_domain_count:basketball_season,pass,0,Prepared rows=24625; master rows=24625.,,True,records
+derived_master,cleaned_position_coverage:basketball_season,pass,0,Positions must cover each one-based prepared-file row exactly once.,,True,positions
+derived_basketball_season,earlier_audit_row_count,pass,0,Earlier audit=24625.0; current prepared file=24625.,,False,datasets
+derived_master,prepared_domain_count:food_sample_link,pass,0,Prepared rows=75055; master rows=75055.,,True,records
+derived_master,cleaned_position_coverage:food_sample_link,pass,0,Positions must cover each one-based prepared-file row exactly once.,,True,positions
+derived_food_sample_link,earlier_audit_row_count,pass,0,Earlier audit=75055.0; current prepared file=75055.,,False,datasets
+derived_master,prepared_domain_count:nutrient_result,pass,0,Prepared rows=134267; master rows=134267.,,True,records
+derived_master,cleaned_position_coverage:nutrient_result,pass,0,Positions must cover each one-based prepared-file row exactly once.,,True,positions
+derived_nutrient_result,earlier_audit_row_count,pass,0,Earlier audit=134267.0; current prepared file=134267.,,False,datasets
+derived_master,prepared_domain_count:food_category,pass,0,Prepared rows=28; master rows=28.,,True,records
+derived_master,cleaned_position_coverage:food_category,pass,0,Positions must cover each one-based prepared-file row exactly once.,,True,positions
+derived_food_category,earlier_audit_row_count,pass,0,Earlier audit=28.0; current prepared file=28.,,False,datasets
+derived_master,prepared_domain_count:food_portion,pass,0,Prepared rows=10951; master rows=10951.,,True,records
+derived_master,cleaned_position_coverage:food_portion,pass,0,Positions must cover each one-based prepared-file row exactly once.,,True,positions
+derived_food_portion,earlier_audit_row_count,pass,0,Earlier audit=10951.0; current prepared file=10951.,,False,datasets
+derived_master,prepared_domain_count:athlete_profile,pass,0,Prepared rows=30; master rows=30.,,True,records
+derived_master,cleaned_position_coverage:athlete_profile,pass,0,Positions must cover each one-based prepared-file row exactly once.,,True,positions
+derived_athlete_profile,earlier_audit_row_count,pass,0,Earlier audit=30.0; current prepared file=30.,,False,datasets
+derived_master,empty_json_payloads,needs_review,2,Missing source values can be omitted from payloads; empty objects still require review.,,False,records
+derived_master,payload_value_identity,not_checked,0,Payload values were not compared cell-by-cell with prepared tables; numeric formatting and omitted-null handling need a documented comparison rule.,,False,datasets
+inspection,input_unchanged_before_save:Champions_Athletic_Agent_Ready_Dataset _Package/exercise_clean.csv,pass,0,File metadata compared with the end of its inspection.,,True,files
+inspection,input_unchanged_before_save:Champions_Athletic_Agent_Ready_Dataset _Package/player_bio_clean.csv,pass,0,File metadata compared with the end of its inspection.,,True,files
+inspection,input_unchanged_before_save:Champions_Athletic_Agent_Ready_Dataset _Package/player_career_clean.csv,pass,0,File metadata compared with the end of its inspection.,,True,files
+inspection,input_unchanged_before_save:Champions_Athletic_Agent_Ready_Dataset _Package/basketball_season_clean.csv,pass,0,File metadata compared with the end of its inspection.,,True,files
+inspection,input_unchanged_before_save:Champions_Athletic_Agent_Ready_Dataset _Package/food_sample_link_clean.csv,pass,0,File metadata compared with the end of its inspection.,,True,files
+inspection,input_unchanged_before_save:Champions_Athletic_Agent_Ready_Dataset _Package/nutrient_result_clean.csv,pass,0,File metadata compared with the end of its inspection.,,True,files
+inspection,input_unchanged_before_save:Champions_Athletic_Agent_Ready_Dataset _Package/food_category_clean.csv,pass,0,File metadata compared with the end of its inspection.,,True,files
+inspection,input_unchanged_before_save:Champions_Athletic_Agent_Ready_Dataset _Package/food_portion_clean.csv,pass,0,File metadata compared with the end of its inspection.,,True,files
+inspection,input_unchanged_before_save:Champions_Athletic_Agent_Ready_Dataset _Package/athlete_profile_clean.csv,pass,0,File metadata compared with the end of its inspection.,,True,files
+inspection,input_unchanged_before_save:Champions_Athletic_Agent_Ready_Dataset _Package/champions_master_agent_ready.csv,pass,0,File metadata compared with the end of its inspection.,,True,files
+inspection,input_unchanged_before_save:Champions_Athletic_Agent_Ready_Dataset _Package/data_quality_audit.csv,pass,0,File metadata compared with the end of its inspection.,,True,files
+inspection,input_unchanged_before_save:data/processed/jr_nba_drills_master.csv,pass,0,File metadata compared with the end of its inspection.,,True,files
+inspection,input_unchanged_before_save:data/processed/jr_nba_rag_documents.json,pass,0,File metadata compared with the end of its inspection.,,True,files
+inspection,input_unchanged_before_save:data/processed/usda_foundation_nutrition.csv,pass,0,File metadata compared with the end of its inspection.,,True,files
+inspection,input_unchanged_before_save:data/processed/usda_nutrition_quality_report.csv,pass,0,File metadata compared with the end of its inspection.,,True,files
+inspection,input_unchanged_before_save:data/processed/recovery_guidance.csv,pass,0,File metadata compared with the end of its inspection.,,True,files
+inspection,input_unchanged_before_save:data/synthetic/synthetic_athlete_profiles.csv,pass,0,File metadata compared with the end of its inspection.,,True,files
+inspection,input_unchanged_before_save:data/references/recovery/youth_basketball_recovery_rules_v0_1.csv,pass,0,File metadata compared with the end of its inspection.,,True,files
+inspection,input_unchanged_before_save:data/references/recovery/YOUTH_BASKETBALL_RECOVERY_RULES_README.md,pass,0,File metadata compared with the end of its inspection.,,True,files
+inspection,input_unchanged_before_save:data/processed/basketball_drill_catalog_v0_1.csv,pass,0,File metadata compared with the end of its inspection.,,True,files
+inspection,input_unchanged_before_save:data/processed/basketball_drill_catalog_v0_2_REVIEW_ONLY.csv,pass,0,File metadata compared with the end of its inspection.,,True,files
+inspection,input_unchanged_before_save:data/processed/exercise_catalog.csv,pass,0,File metadata compared with the end of its inspection.,,True,files
+inspection,input_unchanged_before_save:data/processed/basketball_drills.csv,pass,0,File metadata compared with the end of its inspection.,,True,files

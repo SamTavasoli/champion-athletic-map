@@ -1,0 +1,22 @@
+source_id,field,previous_value,proposed_value,applied
+raw_exercise,relative_path,,data/raw/megaGymDataset(1).csv,True
+raw_player_bio,relative_path,,data/raw/Players(1).csv,True
+raw_player_career,relative_path,,data/raw/player_data(1).csv,True
+raw_basketball_season,relative_path,,data/raw/Seasons_Stats(1).csv,True
+raw_food_sample_link,relative_path,,data/raw/sub_sample_food(1).csv,True
+raw_nutrient_result,relative_path,,data/raw/sub_sample_result(1).csv,True
+raw_food_category,relative_path,,data/raw/food_category(1).csv,True
+raw_food_portion,relative_path,,data/raw/food_portion(1).csv,True
+raw_athlete_profile,relative_path,,data/raw/athlete_test_profiles.csv,True
+reference_usda_sr_legacy_2018,source_id,,reference_usda_sr_legacy_2018,True
+reference_usda_sr_legacy_2018,title,,SR Legacy planned reference,True
+reference_usda_sr_legacy_2018,asset_type,,external_reference,True
+reference_usda_sr_legacy_2018,intended_role,,planned_food_reference,True
+reference_usda_sr_legacy_2018,publisher,,USDA ARS,True
+reference_usda_sr_legacy_2018,source_url,,https://fdc.nal.usda.gov/download-datasets/,True
+reference_usda_sr_legacy_2018,version_or_release,,April 2018; acquisition not established,True
+reference_usda_sr_legacy_2018,file_status,,reference_not_downloaded,True
+reference_usda_sr_legacy_2018,license_or_terms,,CC0 1.0 for verified FoodData Central data,True
+reference_usda_sr_legacy_2018,permission_status,,source_terms_documented,True
+reference_usda_sr_legacy_2018,limitations,,This registration does not establish a saved source archive or verified local derivation.,True
+reference_usda_sr_legacy_2018,next_action,,"Document source evidence, applicability, and permitted use.",True

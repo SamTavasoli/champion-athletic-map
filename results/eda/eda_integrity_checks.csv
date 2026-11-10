@@ -1,0 +1,67 @@
+check_name,status,details
+step10_producer,pass,The current catalog must have a completed Step 10 producer record.
+step09_quality,pass,The saved quality inspection must have no required failures.
+quality_report_counts,pass,The quality-check table agrees with its saved summary counters.
+source_register_ids,pass,Source identifiers are unique and resolve across the preceding reports.
+source_identity:derived_exercise,pass,Current source bytes agree with the completed Step 9 inspection.
+source_dimensions:derived_exercise,pass,Loaded dimensions agree with the Step 9 inspection.
+source_identity:derived_player_bio,pass,Current source bytes agree with the completed Step 9 inspection.
+source_identity:derived_player_career,pass,Current source bytes agree with the completed Step 9 inspection.
+source_identity:derived_basketball_season,pass,Current source bytes agree with the completed Step 9 inspection.
+source_identity:derived_food_sample_link,pass,Current source bytes agree with the completed Step 9 inspection.
+source_identity:derived_nutrient_result,pass,Current source bytes agree with the completed Step 9 inspection.
+source_identity:derived_food_category,pass,Current source bytes agree with the completed Step 9 inspection.
+source_identity:derived_food_portion,pass,Current source bytes agree with the completed Step 9 inspection.
+source_identity:derived_athlete_profile,pass,Current source bytes agree with the completed Step 9 inspection.
+source_dimensions:derived_athlete_profile,pass,Loaded dimensions agree with the Step 9 inspection.
+source_identity:derived_master,pass,Current source bytes agree with the completed Step 9 inspection.
+source_identity:derived_audit,pass,Current source bytes agree with the completed Step 9 inspection.
+source_identity:aditi_jr_nba_drills,pass,Current source bytes agree with the completed Step 9 inspection.
+source_dimensions:aditi_jr_nba_drills,pass,Loaded dimensions agree with the Step 9 inspection.
+source_identity:aditi_jr_nba_rag,pass,Current source bytes agree with the completed Step 9 inspection.
+source_dimensions:aditi_jr_nba_rag,pass,Loaded dimensions agree with the Step 9 inspection.
+source_identity:aditi_usda_foundation_nutrition,pass,Current source bytes agree with the completed Step 9 inspection.
+source_dimensions:aditi_usda_foundation_nutrition,pass,Loaded dimensions agree with the Step 9 inspection.
+source_identity:aditi_usda_quality_report,pass,Current source bytes agree with the completed Step 9 inspection.
+source_identity:aditi_recovery_guidance,pass,Current source bytes agree with the completed Step 9 inspection.
+source_dimensions:aditi_recovery_guidance,pass,Loaded dimensions agree with the Step 9 inspection.
+source_identity:aditi_synthetic_athletes,pass,Current source bytes agree with the completed Step 9 inspection.
+source_dimensions:aditi_synthetic_athletes,pass,Loaded dimensions agree with the Step 9 inspection.
+source_identity:recovery_rules_v01,pass,Current source bytes agree with the completed Step 9 inspection.
+source_dimensions:recovery_rules_v01,pass,Loaded dimensions agree with the Step 9 inspection.
+source_identity:recovery_rules_readme_v01,pass,Current source bytes agree with the completed Step 9 inspection.
+source_identity:catalog_basketball_v01,pass,Current source bytes agree with the completed Step 9 inspection.
+source_dimensions:catalog_basketball_v01,pass,Loaded dimensions agree with the Step 9 inspection.
+source_identity:catalog_basketball_v02,pass,Current source bytes agree with the completed Step 9 inspection.
+source_dimensions:catalog_basketball_v02,pass,Loaded dimensions agree with the Step 9 inspection.
+source_identity:local_basketball_drills,pass,Current source bytes agree with the completed Step 9 inspection.
+source_dimensions:local_basketball_drills,pass,Loaded dimensions agree with the Step 9 inspection.
+analysis_sources,pass,All required domain tables are available; Step 12 outputs remain optional.
+step10_artifact:catalog,pass,Prepared artifacts must match their current producer record; rerun Step 10 after review edits.
+step10_dimensions:catalog,pass,Prepared table dimensions and field order agree.
+step10_artifact:cleaning_log,pass,Prepared artifacts must match their current producer record; rerun Step 10 after review edits.
+step10_dimensions:cleaning_log,pass,Prepared table dimensions and field order agree.
+step10_artifact:review_queue,pass,Prepared artifacts must match their current producer record; rerun Step 10 after review edits.
+step10_dimensions:review_queue,pass,Prepared table dimensions and field order agree.
+step10_artifact:group_membership,pass,Prepared artifacts must match their current producer record; rerun Step 10 after review edits.
+step10_dimensions:group_membership,pass,Prepared table dimensions and field order agree.
+step10_artifact:review_carryover,pass,Prepared artifacts must match their current producer record; rerun Step 10 after review edits.
+step10_dimensions:review_carryover,pass,Prepared table dimensions and field order agree.
+feature_contract,pass,"Step 11 uses the documented text fields, separate target, and unsplit group mapping."
+exercise_parent,pass,The prepared catalog links to the verified cleaned exercise source.
+catalog_identifiers,pass,Catalog identifiers and cleaned-file positions retain one-to-one source coverage.
+source_and_text_preservation,pass,Original source values and the two-field classifier input were independently checked.
+review_identifiers,pass,Review entries resolve uniquely to catalog records.
+split_membership,pass,Every exercise has exactly one recorded split-group membership.
+comparison_links,pass,Linked records remain together; missing descriptions do not form a shared-description group.
+exercise_summary:catalog_records,pass,Recomputed exercise measures agree with Step 10.
+exercise_summary:name_only_records,pass,Recomputed exercise measures agree with Step 10.
+exercise_summary:review_queue_entries,pass,Recomputed exercise measures agree with Step 10.
+exercise_summary:unresolved_active_entries,pass,Recomputed exercise measures agree with Step 10.
+split_group_count,pass,The EDA uses the exact saved split mapping.
+nutrition_summary:records,pass,The recomputed nutrition screening agrees with the verified Step 9 summary.
+nutrition_summary:finite_core_complete,pass,The recomputed nutrition screening agrees with the verified Step 9 summary.
+nutrition_summary:finite_core_incomplete,pass,The recomputed nutrition screening agrees with the verified Step 9 summary.
+nutrition_summary:nonnegative_finite_core_complete,pass,The recomputed nutrition screening agrees with the verified Step 9 summary.
+master_index_counts,pass,The separate domain totals reconcile to the verified master index.
+drill_document_correspondence,pass,Imported occurrences and their derived documents have one-to-one identifier correspondence.

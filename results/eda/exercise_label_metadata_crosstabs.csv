@@ -1,0 +1,426 @@
+left_field,left_value,right_field,right_value,records,percent_within_left
+body_part,abdominals,description_availability,available,296,44.8485
+body_part,abdominals,description_availability,unavailable,364,55.1515
+body_part,abductors,description_availability,available,8,38.0952
+body_part,abductors,description_availability,unavailable,13,61.9048
+body_part,adductors,description_availability,available,7,41.1765
+body_part,adductors,description_availability,unavailable,10,58.8235
+body_part,biceps,description_availability,available,101,60.119
+body_part,biceps,description_availability,unavailable,67,39.881
+body_part,calves,description_availability,available,26,55.3191
+body_part,calves,description_availability,unavailable,21,44.6809
+body_part,chest,description_availability,available,147,56.5385
+body_part,chest,description_availability,unavailable,113,43.4615
+body_part,forearms,description_availability,available,16,51.6129
+body_part,forearms,description_availability,unavailable,15,48.3871
+body_part,glutes,description_availability,available,29,35.8025
+body_part,glutes,description_availability,unavailable,52,64.1975
+body_part,hamstrings,description_availability,available,50,41.3223
+body_part,hamstrings,description_availability,unavailable,71,58.6777
+body_part,lats,description_availability,available,69,55.6452
+body_part,lats,description_availability,unavailable,55,44.3548
+body_part,lower back,description_availability,available,42,43.299
+body_part,lower back,description_availability,unavailable,55,56.701
+body_part,middle back,description_availability,available,47,40.5172
+body_part,middle back,description_availability,unavailable,69,59.4828
+body_part,neck,description_availability,available,0,0.0
+body_part,neck,description_availability,unavailable,8,100.0
+body_part,quadriceps,description_availability,available,244,37.8295
+body_part,quadriceps,description_availability,unavailable,401,62.1705
+body_part,shoulders,description_availability,available,172,50.8876
+body_part,shoulders,description_availability,unavailable,166,49.1124
+body_part,traps,description_availability,available,17,70.8333
+body_part,traps,description_availability,unavailable,7,29.1667
+body_part,triceps,description_availability,available,88,58.2781
+body_part,triceps,description_availability,unavailable,63,41.7219
+body_part,abdominals,equipment,[missing],3,0.4545
+body_part,abdominals,equipment,bands,8,1.2121
+body_part,abdominals,equipment,barbell,12,1.8182
+body_part,abdominals,equipment,body only,434,65.7576
+body_part,abdominals,equipment,cable,30,4.5455
+body_part,abdominals,equipment,dumbbell,49,7.4242
+body_part,abdominals,equipment,e-z curl bar,0,0.0
+body_part,abdominals,equipment,exercise ball,21,3.1818
+body_part,abdominals,equipment,foam roll,0,0.0
+body_part,abdominals,equipment,kettlebells,19,2.8788
+body_part,abdominals,equipment,machine,5,0.7576
+body_part,abdominals,equipment,medicine ball,18,2.7273
+body_part,abdominals,equipment,other,61,9.2424
+body_part,abductors,equipment,[missing],0,0.0
+body_part,abductors,equipment,bands,2,9.5238
+body_part,abductors,equipment,barbell,0,0.0
+body_part,abductors,equipment,body only,17,80.9524
+body_part,abductors,equipment,cable,0,0.0
+body_part,abductors,equipment,dumbbell,0,0.0
+body_part,abductors,equipment,e-z curl bar,0,0.0
+body_part,abductors,equipment,exercise ball,0,0.0
+body_part,abductors,equipment,foam roll,1,4.7619
+body_part,abductors,equipment,kettlebells,0,0.0
+body_part,abductors,equipment,machine,1,4.7619
+body_part,abductors,equipment,medicine ball,0,0.0
+body_part,abductors,equipment,other,0,0.0
+body_part,adductors,equipment,[missing],2,11.7647
+body_part,adductors,equipment,bands,1,5.8824
+body_part,adductors,equipment,barbell,0,0.0
+body_part,adductors,equipment,body only,10,58.8235
+body_part,adductors,equipment,cable,0,0.0
+body_part,adductors,equipment,dumbbell,0,0.0
+body_part,adductors,equipment,e-z curl bar,0,0.0
+body_part,adductors,equipment,exercise ball,0,0.0
+body_part,adductors,equipment,foam roll,1,5.8824
+body_part,adductors,equipment,kettlebells,0,0.0
+body_part,adductors,equipment,machine,1,5.8824
+body_part,adductors,equipment,medicine ball,0,0.0
+body_part,adductors,equipment,other,2,11.7647
+body_part,biceps,equipment,[missing],0,0.0
+body_part,biceps,equipment,bands,4,2.381
+body_part,biceps,equipment,barbell,26,15.4762
+body_part,biceps,equipment,body only,6,3.5714
+body_part,biceps,equipment,cable,30,17.8571
+body_part,biceps,equipment,dumbbell,79,47.0238
+body_part,biceps,equipment,e-z curl bar,10,5.9524
+body_part,biceps,equipment,exercise ball,0,0.0
+body_part,biceps,equipment,foam roll,1,0.5952
+body_part,biceps,equipment,kettlebells,0,0.0
+body_part,biceps,equipment,machine,6,3.5714
+body_part,biceps,equipment,medicine ball,0,0.0
+body_part,biceps,equipment,other,6,3.5714
+body_part,calves,equipment,[missing],3,6.383
+body_part,calves,equipment,bands,3,6.383
+body_part,calves,equipment,barbell,4,8.5106
+body_part,calves,equipment,body only,8,17.0213
+body_part,calves,equipment,cable,0,0.0
+body_part,calves,equipment,dumbbell,4,8.5106
+body_part,calves,equipment,e-z curl bar,0,0.0
+body_part,calves,equipment,exercise ball,0,0.0
+body_part,calves,equipment,foam roll,1,2.1277
+body_part,calves,equipment,kettlebells,0,0.0
+body_part,calves,equipment,machine,18,38.2979
+body_part,calves,equipment,medicine ball,0,0.0
+body_part,calves,equipment,other,6,12.766
+body_part,chest,equipment,[missing],0,0.0
+body_part,chest,equipment,bands,12,4.6154
+body_part,chest,equipment,barbell,25,9.6154
+body_part,chest,equipment,body only,88,33.8462
+body_part,chest,equipment,cable,25,9.6154
+body_part,chest,equipment,dumbbell,50,19.2308
+body_part,chest,equipment,e-z curl bar,2,0.7692
+body_part,chest,equipment,exercise ball,3,1.1538
+body_part,chest,equipment,foam roll,0,0.0
+body_part,chest,equipment,kettlebells,6,2.3077
+body_part,chest,equipment,machine,25,9.6154
+body_part,chest,equipment,medicine ball,7,2.6923
+body_part,chest,equipment,other,17,6.5385
+body_part,forearms,equipment,[missing],1,3.2258
+body_part,forearms,equipment,bands,2,6.4516
+body_part,forearms,equipment,barbell,5,16.129
+body_part,forearms,equipment,body only,1,3.2258
+body_part,forearms,equipment,cable,3,9.6774
+body_part,forearms,equipment,dumbbell,10,32.2581
+body_part,forearms,equipment,e-z curl bar,0,0.0
+body_part,forearms,equipment,exercise ball,0,0.0
+body_part,forearms,equipment,foam roll,0,0.0
+body_part,forearms,equipment,kettlebells,1,3.2258
+body_part,forearms,equipment,machine,0,0.0
+body_part,forearms,equipment,medicine ball,0,0.0
+body_part,forearms,equipment,other,8,25.8065
+body_part,glutes,equipment,[missing],0,0.0
+body_part,glutes,equipment,bands,5,6.1728
+body_part,glutes,equipment,barbell,5,6.1728
+body_part,glutes,equipment,body only,54,66.6667
+body_part,glutes,equipment,cable,4,4.9383
+body_part,glutes,equipment,dumbbell,4,4.9383
+body_part,glutes,equipment,e-z curl bar,0,0.0
+body_part,glutes,equipment,exercise ball,2,2.4691
+body_part,glutes,equipment,foam roll,1,1.2346
+body_part,glutes,equipment,kettlebells,3,3.7037
+body_part,glutes,equipment,machine,1,1.2346
+body_part,glutes,equipment,medicine ball,1,1.2346
+body_part,glutes,equipment,other,1,1.2346
+body_part,hamstrings,equipment,[missing],6,4.9587
+body_part,hamstrings,equipment,bands,2,1.6529
+body_part,hamstrings,equipment,barbell,25,20.6612
+body_part,hamstrings,equipment,body only,35,28.9256
+body_part,hamstrings,equipment,cable,2,1.6529
+body_part,hamstrings,equipment,dumbbell,6,4.9587
+body_part,hamstrings,equipment,e-z curl bar,0,0.0
+body_part,hamstrings,equipment,exercise ball,2,1.6529
+body_part,hamstrings,equipment,foam roll,1,0.8264
+body_part,hamstrings,equipment,kettlebells,12,9.9174
+body_part,hamstrings,equipment,machine,19,15.7025
+body_part,hamstrings,equipment,medicine ball,0,0.0
+body_part,hamstrings,equipment,other,11,9.0909
+body_part,lats,equipment,[missing],3,2.4194
+body_part,lats,equipment,bands,7,5.6452
+body_part,lats,equipment,barbell,4,3.2258
+body_part,lats,equipment,body only,23,18.5484
+body_part,lats,equipment,cable,25,20.1613
+body_part,lats,equipment,dumbbell,19,15.3226
+body_part,lats,equipment,e-z curl bar,0,0.0
+body_part,lats,equipment,exercise ball,0,0.0
+body_part,lats,equipment,foam roll,1,0.8065
+body_part,lats,equipment,kettlebells,10,8.0645
+body_part,lats,equipment,machine,11,8.871
+body_part,lats,equipment,medicine ball,3,2.4194
+body_part,lats,equipment,other,18,14.5161
+body_part,lower back,equipment,[missing],4,4.1237
+body_part,lower back,equipment,bands,3,3.0928
+body_part,lower back,equipment,barbell,16,16.4948
+body_part,lower back,equipment,body only,31,31.9588
+body_part,lower back,equipment,cable,5,5.1546
+body_part,lower back,equipment,dumbbell,16,16.4948
+body_part,lower back,equipment,e-z curl bar,0,0.0
+body_part,lower back,equipment,exercise ball,3,3.0928
+body_part,lower back,equipment,foam roll,1,1.0309
+body_part,lower back,equipment,kettlebells,7,7.2165
+body_part,lower back,equipment,machine,1,1.0309
+body_part,lower back,equipment,medicine ball,0,0.0
+body_part,lower back,equipment,other,10,10.3093
+body_part,middle back,equipment,[missing],0,0.0
+body_part,middle back,equipment,bands,7,6.0345
+body_part,middle back,equipment,barbell,22,18.9655
+body_part,middle back,equipment,body only,11,9.4828
+body_part,middle back,equipment,cable,20,17.2414
+body_part,middle back,equipment,dumbbell,26,22.4138
+body_part,middle back,equipment,e-z curl bar,0,0.0
+body_part,middle back,equipment,exercise ball,0,0.0
+body_part,middle back,equipment,foam roll,0,0.0
+body_part,middle back,equipment,kettlebells,9,7.7586
+body_part,middle back,equipment,machine,7,6.0345
+body_part,middle back,equipment,medicine ball,1,0.8621
+body_part,middle back,equipment,other,13,11.2069
+body_part,neck,equipment,[missing],0,0.0
+body_part,neck,equipment,bands,0,0.0
+body_part,neck,equipment,barbell,0,0.0
+body_part,neck,equipment,body only,5,62.5
+body_part,neck,equipment,cable,0,0.0
+body_part,neck,equipment,dumbbell,0,0.0
+body_part,neck,equipment,e-z curl bar,0,0.0
+body_part,neck,equipment,exercise ball,0,0.0
+body_part,neck,equipment,foam roll,0,0.0
+body_part,neck,equipment,kettlebells,0,0.0
+body_part,neck,equipment,machine,0,0.0
+body_part,neck,equipment,medicine ball,0,0.0
+body_part,neck,equipment,other,3,37.5
+body_part,quadriceps,equipment,[missing],6,0.9302
+body_part,quadriceps,equipment,bands,16,2.4806
+body_part,quadriceps,equipment,barbell,74,11.4729
+body_part,quadriceps,equipment,body only,296,45.8915
+body_part,quadriceps,equipment,cable,3,0.4651
+body_part,quadriceps,equipment,dumbbell,82,12.7132
+body_part,quadriceps,equipment,e-z curl bar,0,0.0
+body_part,quadriceps,equipment,exercise ball,3,0.4651
+body_part,quadriceps,equipment,foam roll,1,0.155
+body_part,quadriceps,equipment,kettlebells,43,6.6667
+body_part,quadriceps,equipment,machine,53,8.2171
+body_part,quadriceps,equipment,medicine ball,4,0.6202
+body_part,quadriceps,equipment,other,64,9.9225
+body_part,shoulders,equipment,[missing],3,0.8876
+body_part,shoulders,equipment,bands,19,5.6213
+body_part,shoulders,equipment,barbell,40,11.8343
+body_part,shoulders,equipment,body only,31,9.1716
+body_part,shoulders,equipment,cable,32,9.4675
+body_part,shoulders,equipment,dumbbell,129,38.1657
+body_part,shoulders,equipment,e-z curl bar,3,0.8876
+body_part,shoulders,equipment,exercise ball,1,0.2959
+body_part,shoulders,equipment,foam roll,2,0.5917
+body_part,shoulders,equipment,kettlebells,37,10.9467
+body_part,shoulders,equipment,machine,12,3.5503
+body_part,shoulders,equipment,medicine ball,3,0.8876
+body_part,shoulders,equipment,other,26,7.6923
+body_part,traps,equipment,[missing],1,4.1667
+body_part,traps,equipment,bands,2,8.3333
+body_part,traps,equipment,barbell,5,20.8333
+body_part,traps,equipment,body only,0,0.0
+body_part,traps,equipment,cable,2,8.3333
+body_part,traps,equipment,dumbbell,5,20.8333
+body_part,traps,equipment,e-z curl bar,0,0.0
+body_part,traps,equipment,exercise ball,0,0.0
+body_part,traps,equipment,foam roll,0,0.0
+body_part,traps,equipment,kettlebells,1,4.1667
+body_part,traps,equipment,machine,8,33.3333
+body_part,traps,equipment,medicine ball,0,0.0
+body_part,traps,equipment,other,0,0.0
+body_part,triceps,equipment,[missing],0,0.0
+body_part,triceps,equipment,bands,5,3.3113
+body_part,triceps,equipment,barbell,18,11.9205
+body_part,triceps,equipment,body only,28,18.543
+body_part,triceps,equipment,cable,42,27.8146
+body_part,triceps,equipment,dumbbell,34,22.5166
+body_part,triceps,equipment,e-z curl bar,7,4.6358
+body_part,triceps,equipment,exercise ball,0,0.0
+body_part,triceps,equipment,foam roll,0,0.0
+body_part,triceps,equipment,kettlebells,1,0.6623
+body_part,triceps,equipment,machine,7,4.6358
+body_part,triceps,equipment,medicine ball,1,0.6623
+body_part,triceps,equipment,other,8,5.298
+body_part,abdominals,difficulty,beginner,29,4.3939
+body_part,abdominals,difficulty,expert,1,0.1515
+body_part,abdominals,difficulty,intermediate,630,95.4545
+body_part,abductors,difficulty,beginner,3,14.2857
+body_part,abductors,difficulty,expert,0,0.0
+body_part,abductors,difficulty,intermediate,18,85.7143
+body_part,adductors,difficulty,beginner,7,41.1765
+body_part,adductors,difficulty,expert,0,0.0
+body_part,adductors,difficulty,intermediate,10,58.8235
+body_part,biceps,difficulty,beginner,37,22.0238
+body_part,biceps,difficulty,expert,0,0.0
+body_part,biceps,difficulty,intermediate,131,77.9762
+body_part,calves,difficulty,beginner,16,34.0426
+body_part,calves,difficulty,expert,0,0.0
+body_part,calves,difficulty,intermediate,31,65.9574
+body_part,chest,difficulty,beginner,67,25.7692
+body_part,chest,difficulty,expert,0,0.0
+body_part,chest,difficulty,intermediate,193,74.2308
+body_part,forearms,difficulty,beginner,18,58.0645
+body_part,forearms,difficulty,expert,0,0.0
+body_part,forearms,difficulty,intermediate,13,41.9355
+body_part,glutes,difficulty,beginner,13,16.0494
+body_part,glutes,difficulty,expert,0,0.0
+body_part,glutes,difficulty,intermediate,68,83.9506
+body_part,hamstrings,difficulty,beginner,58,47.9339
+body_part,hamstrings,difficulty,expert,0,0.0
+body_part,hamstrings,difficulty,intermediate,63,52.0661
+body_part,lats,difficulty,beginner,19,15.3226
+body_part,lats,difficulty,expert,2,1.6129
+body_part,lats,difficulty,intermediate,103,83.0645
+body_part,lower back,difficulty,beginner,20,20.6186
+body_part,lower back,difficulty,expert,0,0.0
+body_part,lower back,difficulty,intermediate,77,79.3814
+body_part,middle back,difficulty,beginner,14,12.069
+body_part,middle back,difficulty,expert,0,0.0
+body_part,middle back,difficulty,intermediate,102,87.931
+body_part,neck,difficulty,beginner,6,75.0
+body_part,neck,difficulty,expert,0,0.0
+body_part,neck,difficulty,intermediate,2,25.0
+body_part,quadriceps,difficulty,beginner,76,11.7829
+body_part,quadriceps,difficulty,expert,10,1.5504
+body_part,quadriceps,difficulty,intermediate,559,86.6667
+body_part,shoulders,difficulty,beginner,47,13.9053
+body_part,shoulders,difficulty,expert,0,0.0
+body_part,shoulders,difficulty,intermediate,291,86.0947
+body_part,traps,difficulty,beginner,5,20.8333
+body_part,traps,difficulty,expert,0,0.0
+body_part,traps,difficulty,intermediate,19,79.1667
+body_part,triceps,difficulty,beginner,24,15.894
+body_part,triceps,difficulty,expert,0,0.0
+body_part,triceps,difficulty,intermediate,127,84.106
+body_part,abdominals,exercise_type,cardio,2,0.303
+body_part,abdominals,exercise_type,olympic weightlifting,0,0.0
+body_part,abdominals,exercise_type,plyometrics,6,0.9091
+body_part,abdominals,exercise_type,powerlifting,0,0.0
+body_part,abdominals,exercise_type,strength,642,97.2727
+body_part,abdominals,exercise_type,stretching,10,1.5152
+body_part,abdominals,exercise_type,strongman,0,0.0
+body_part,abductors,exercise_type,cardio,0,0.0
+body_part,abductors,exercise_type,olympic weightlifting,0,0.0
+body_part,abductors,exercise_type,plyometrics,0,0.0
+body_part,abductors,exercise_type,powerlifting,0,0.0
+body_part,abductors,exercise_type,strength,12,57.1429
+body_part,abductors,exercise_type,stretching,9,42.8571
+body_part,abductors,exercise_type,strongman,0,0.0
+body_part,adductors,exercise_type,cardio,0,0.0
+body_part,adductors,exercise_type,olympic weightlifting,0,0.0
+body_part,adductors,exercise_type,plyometrics,4,23.5294
+body_part,adductors,exercise_type,powerlifting,0,0.0
+body_part,adductors,exercise_type,strength,6,35.2941
+body_part,adductors,exercise_type,stretching,7,41.1765
+body_part,adductors,exercise_type,strongman,0,0.0
+body_part,biceps,exercise_type,cardio,0,0.0
+body_part,biceps,exercise_type,olympic weightlifting,0,0.0
+body_part,biceps,exercise_type,plyometrics,0,0.0
+body_part,biceps,exercise_type,powerlifting,0,0.0
+body_part,biceps,exercise_type,strength,165,98.2143
+body_part,biceps,exercise_type,stretching,3,1.7857
+body_part,biceps,exercise_type,strongman,0,0.0
+body_part,calves,exercise_type,cardio,1,2.1277
+body_part,calves,exercise_type,olympic weightlifting,0,0.0
+body_part,calves,exercise_type,plyometrics,0,0.0
+body_part,calves,exercise_type,powerlifting,0,0.0
+body_part,calves,exercise_type,strength,33,70.2128
+body_part,calves,exercise_type,stretching,13,27.6596
+body_part,calves,exercise_type,strongman,0,0.0
+body_part,chest,exercise_type,cardio,1,0.3846
+body_part,chest,exercise_type,olympic weightlifting,0,0.0
+body_part,chest,exercise_type,plyometrics,15,5.7692
+body_part,chest,exercise_type,powerlifting,3,1.1538
+body_part,chest,exercise_type,strength,237,91.1538
+body_part,chest,exercise_type,stretching,3,1.1538
+body_part,chest,exercise_type,strongman,1,0.3846
+body_part,forearms,exercise_type,cardio,0,0.0
+body_part,forearms,exercise_type,olympic weightlifting,0,0.0
+body_part,forearms,exercise_type,plyometrics,0,0.0
+body_part,forearms,exercise_type,powerlifting,0,0.0
+body_part,forearms,exercise_type,strength,27,87.0968
+body_part,forearms,exercise_type,stretching,2,6.4516
+body_part,forearms,exercise_type,strongman,2,6.4516
+body_part,glutes,exercise_type,cardio,0,0.0
+body_part,glutes,exercise_type,olympic weightlifting,1,1.2346
+body_part,glutes,exercise_type,plyometrics,0,0.0
+body_part,glutes,exercise_type,powerlifting,4,4.9383
+body_part,glutes,exercise_type,strength,67,82.716
+body_part,glutes,exercise_type,stretching,9,11.1111
+body_part,glutes,exercise_type,strongman,0,0.0
+body_part,hamstrings,exercise_type,cardio,1,0.8264
+body_part,hamstrings,exercise_type,olympic weightlifting,11,9.0909
+body_part,hamstrings,exercise_type,plyometrics,9,7.438
+body_part,hamstrings,exercise_type,powerlifting,9,7.438
+body_part,hamstrings,exercise_type,strength,65,53.719
+body_part,hamstrings,exercise_type,stretching,25,20.6612
+body_part,hamstrings,exercise_type,strongman,1,0.8264
+body_part,lats,exercise_type,cardio,0,0.0
+body_part,lats,exercise_type,olympic weightlifting,0,0.0
+body_part,lats,exercise_type,plyometrics,3,2.4194
+body_part,lats,exercise_type,powerlifting,0,0.0
+body_part,lats,exercise_type,strength,113,91.129
+body_part,lats,exercise_type,stretching,8,6.4516
+body_part,lats,exercise_type,strongman,0,0.0
+body_part,lower back,exercise_type,cardio,0,0.0
+body_part,lower back,exercise_type,olympic weightlifting,0,0.0
+body_part,lower back,exercise_type,plyometrics,0,0.0
+body_part,lower back,exercise_type,powerlifting,7,7.2165
+body_part,lower back,exercise_type,strength,73,75.2577
+body_part,lower back,exercise_type,stretching,13,13.4021
+body_part,lower back,exercise_type,strongman,4,4.1237
+body_part,middle back,exercise_type,cardio,1,0.8621
+body_part,middle back,exercise_type,olympic weightlifting,0,0.0
+body_part,middle back,exercise_type,plyometrics,0,0.0
+body_part,middle back,exercise_type,powerlifting,0,0.0
+body_part,middle back,exercise_type,strength,111,95.6897
+body_part,middle back,exercise_type,stretching,4,3.4483
+body_part,middle back,exercise_type,strongman,0,0.0
+body_part,neck,exercise_type,cardio,0,0.0
+body_part,neck,exercise_type,olympic weightlifting,0,0.0
+body_part,neck,exercise_type,plyometrics,0,0.0
+body_part,neck,exercise_type,powerlifting,0,0.0
+body_part,neck,exercise_type,strength,6,75.0
+body_part,neck,exercise_type,stretching,2,25.0
+body_part,neck,exercise_type,strongman,0,0.0
+body_part,quadriceps,exercise_type,cardio,27,4.186
+body_part,quadriceps,exercise_type,olympic weightlifting,16,2.4806
+body_part,quadriceps,exercise_type,plyometrics,53,8.2171
+body_part,quadriceps,exercise_type,powerlifting,6,0.9302
+body_part,quadriceps,exercise_type,strength,515,79.845
+body_part,quadriceps,exercise_type,stretching,18,2.7907
+body_part,quadriceps,exercise_type,strongman,10,1.5504
+body_part,shoulders,exercise_type,cardio,2,0.5917
+body_part,shoulders,exercise_type,olympic weightlifting,5,1.4793
+body_part,shoulders,exercise_type,plyometrics,6,1.7751
+body_part,shoulders,exercise_type,powerlifting,0,0.0
+body_part,shoulders,exercise_type,strength,303,89.645
+body_part,shoulders,exercise_type,stretching,18,5.3254
+body_part,shoulders,exercise_type,strongman,4,1.1834
+body_part,traps,exercise_type,cardio,0,0.0
+body_part,traps,exercise_type,olympic weightlifting,2,8.3333
+body_part,traps,exercise_type,plyometrics,0,0.0
+body_part,traps,exercise_type,powerlifting,0,0.0
+body_part,traps,exercise_type,strength,22,91.6667
+body_part,traps,exercise_type,stretching,0,0.0
+body_part,traps,exercise_type,strongman,0,0.0
+body_part,triceps,exercise_type,cardio,0,0.0
+body_part,triceps,exercise_type,olympic weightlifting,0,0.0
+body_part,triceps,exercise_type,plyometrics,1,0.6623
+body_part,triceps,exercise_type,powerlifting,8,5.298
+body_part,triceps,exercise_type,strength,139,92.053
+body_part,triceps,exercise_type,stretching,3,1.9868
+body_part,triceps,exercise_type,strongman,0,0.0

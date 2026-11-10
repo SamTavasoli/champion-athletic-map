@@ -1,0 +1,7 @@
+domain,relationship,method,effect_size,observations,expected_cells_below_5_pct,caveat
+exercise,body-part vs description available,bias-corrected Cramers V,0.1492,2909,5.88,Descriptive association; not classifier performance.
+exercise,body-part vs equipment,bias-corrected Cramers V,0.1982,2909,57.92,Review sparse equipment categories before inferring patterns.
+exercise,body-part vs difficulty,bias-corrected Cramers V,0.2172,2909,43.14,Metadata categories may be incomplete.
+basketball,skill category vs participant requirements,bias-corrected Cramers V,0.0,23,100.0,Small sample and sparse cells; exploratory only.
+synthetic_profiles,experience level vs available days,bias-corrected Cramers V,0.1222,60,50.0,Generator-created associations are not real athlete evidence.
+synthetic_profiles,experience level vs primary goal,bias-corrected Cramers V,0.0,60,100.0,"Generated sample, sparse contingency table; use for scenario coverage only."

@@ -1,0 +1,9 @@
+source_id,metric,value,unit,interpretation_limit
+aditi_jr_nba_drills,imported_source_occurrences,23,source_occurrences,Identifier correspondence is not independent source verification or retrieval-quality evaluation.
+aditi_jr_nba_drills,imported_normalized_name_groups,22,name_groups,Identifier correspondence is not independent source verification or retrieval-quality evaluation.
+aditi_jr_nba_drills,rag_documents,23,derived_documents,Identifier correspondence is not independent source verification or retrieval-quality evaluation.
+aditi_jr_nba_drills,duplicate_drill_identifier_excess,0,records,Identifier correspondence is not independent source verification or retrieval-quality evaluation.
+aditi_jr_nba_drills,duplicate_rag_identifier_excess,0,records,Identifier correspondence is not independent source verification or retrieval-quality evaluation.
+aditi_jr_nba_drills,drill_ids_without_rag,0,identifiers,Identifier correspondence is not independent source verification or retrieval-quality evaluation.
+aditi_jr_nba_drills,rag_ids_without_drill,0,identifiers,Identifier correspondence is not independent source verification or retrieval-quality evaluation.
+aditi_jr_nba_drills,blank_rag_text,0,documents,Identifier correspondence is not independent source verification or retrieval-quality evaluation.

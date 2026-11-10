@@ -1,0 +1,9 @@
+skill_coverage_bucket,candidate_groups,with_existing_metadata_review_pending_signoff,candidate_groups_linked_to_overlap_cases,candidate_groups_with_field_gap_flags,source_verified_approved_drills,planner_eligible_drills,interpretation
+ball_handling,29,2,3,20,0,0,Candidate coverage only; not evidence of a distinct or approved drill.
+shooting,25,1,0,22,0,0,Candidate coverage only; not evidence of a distinct or approved drill.
+passing,18,1,2,13,0,0,Candidate coverage only; not evidence of a distinct or approved drill.
+finishing,9,1,0,8,0,0,Candidate coverage only; not evidence of a distinct or approved drill.
+footwork,5,1,0,4,0,0,Candidate coverage only; not evidence of a distinct or approved drill.
+defense,11,1,0,7,0,0,Candidate coverage only; not evidence of a distinct or approved drill.
+other_basketball_skill,35,10,3,27,0,0,Candidate coverage only; not evidence of a distinct or approved drill.
+general_warmup,12,0,1,11,0,0,Candidate coverage only; not evidence of a distinct or approved drill.

@@ -1,0 +1,32 @@
+{
+  "step": "12-41",
+  "catalog_version_read_only": "0.3.3",
+  "catalog_candidate_count": 144,
+  "source_occurrence_count": 156,
+  "wave2_candidates": 14,
+  "field_decision_drafts": 56,
+  "candidate_priorities": {
+    "high": 1,
+    "medium": 5,
+    "standard": 8
+  },
+  "field_wording_differences": {
+    "participants": 12,
+    "space": 14,
+    "equipment": 8
+  },
+  "source_basis_counts": {
+    "operational_inference": 2,
+    "source_explicit": 47,
+    "activity_implied": 7
+  },
+  "operational_inference_rows": [
+    "JR-EVID-0059:equipment",
+    "JR-EVID-0059:space"
+  ],
+  "reviewer_decisions_completed": 0,
+  "catalog_approved": 0,
+  "planner_eligible": 0,
+  "source_documents_copied": false,
+  "note": "Factual metadata proposals for team review, not signed approvals or finalized permissions."
+}

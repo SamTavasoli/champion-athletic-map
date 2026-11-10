@@ -1,0 +1,77 @@
+case_id,status,case_type,expected,observed
+food_identity:170379,pass,source_identity,"Broccoli, raw","Broccoli, raw"
+source_nutrient:170379:1003,pass,source_nutrient_record,"('1518850', '2.82', 'G')","('1518850', '2.82', 'G')"
+source_nutrient:170379:1004,pass,source_nutrient_record,"('1518830', '0.37', 'G')","('1518830', '0.37', 'G')"
+source_nutrient:170379:1005,pass,source_nutrient_record,"('1518808', '6.64', 'G')","('1518808', '6.64', 'G')"
+source_nutrient:170379:1008,pass,source_nutrient_record,"('1518809', '34', 'KCAL')","('1518809', '34', 'KCAL')"
+source_nutrient:170379:1079,pass,source_nutrient_record,"('1518854', '2.6', 'G')","('1518854', '2.6', 'G')"
+food_identity:171267,pass,source_identity,"Milk, reduced fat, fluid, 2% milkfat, with added vitamin A and vitamin D","Milk, reduced fat, fluid, 2% milkfat, with added vitamin A and vitamin D"
+source_nutrient:171267:1003,pass,source_nutrient_record,"('1595856', '3.3', 'G')","('1595856', '3.3', 'G')"
+source_nutrient:171267:1004,pass,source_nutrient_record,"('1595969', '1.98', 'G')","('1595969', '1.98', 'G')"
+source_nutrient:171267:1005,pass,source_nutrient_record,"('1595920', '4.8', 'G')","('1595920', '4.8', 'G')"
+source_nutrient:171267:1008,pass,source_nutrient_record,"('1595921', '50', 'KCAL')","('1595921', '50', 'KCAL')"
+source_nutrient:171267:1079,pass,source_nutrient_record,"('1595892', '0', 'G')","('1595892', '0', 'G')"
+food_identity:171287,pass,source_identity,"Egg, whole, raw, fresh","Egg, whole, raw, fresh"
+source_nutrient:171287:1003,pass,source_nutrient_record,"('1597683', '12.56', 'G')","('1597683', '12.56', 'G')"
+source_nutrient:171287:1004,pass,source_nutrient_record,"('1597714', '9.51', 'G')","('1597714', '9.51', 'G')"
+source_nutrient:171287:1005,pass,source_nutrient_record,"('1597748', '0.72', 'G')","('1597748', '0.72', 'G')"
+source_nutrient:171287:1008,pass,source_nutrient_record,"('1597626', '143', 'KCAL')","('1597626', '143', 'KCAL')"
+source_nutrient:171287:1079,pass,source_nutrient_record,"('1597756', '0', 'G')","('1597756', '0', 'G')"
+food_identity:171413,pass,source_identity,"Oil, olive, salad or cooking","Oil, olive, salad or cooking"
+source_nutrient:171413:1003,pass,source_nutrient_record,"('1607794', '0', 'G')","('1607794', '0', 'G')"
+source_nutrient:171413:1004,pass,source_nutrient_record,"('1607766', '100', 'G')","('1607766', '100', 'G')"
+source_nutrient:171413:1005,pass,source_nutrient_record,"('1607767', '0', 'G')","('1607767', '0', 'G')"
+source_nutrient:171413:1008,pass,source_nutrient_record,"('1607768', '884', 'KCAL')","('1607768', '884', 'KCAL')"
+source_nutrient:171413:1079,pass,source_nutrient_record,"('1607828', '0', 'G')","('1607828', '0', 'G')"
+food_identity:172470,pass,source_identity,"Peanut butter, smooth style, without salt","Peanut butter, smooth style, without salt"
+source_nutrient:172470:1003,pass,source_nutrient_record,"('1697629', '22.21', 'G')","('1697629', '22.21', 'G')"
+source_nutrient:172470:1004,pass,source_nutrient_record,"('1697676', '51.36', 'G')","('1697676', '51.36', 'G')"
+source_nutrient:172470:1005,pass,source_nutrient_record,"('1697677', '22.31', 'G')","('1697677', '22.31', 'G')"
+source_nutrient:172470:1008,pass,source_nutrient_record,"('1697678', '598', 'KCAL')","('1697678', '598', 'KCAL')"
+source_nutrient:172470:1079,pass,source_nutrient_record,"('1697635', '5', 'G')","('1697635', '5', 'G')"
+food_identity:173944,pass,source_identity,"Bananas, raw","Bananas, raw"
+source_nutrient:173944:1003,pass,source_nutrient_record,"('1817943', '1.09', 'G')","('1817943', '1.09', 'G')"
+source_nutrient:173944:1004,pass,source_nutrient_record,"('1817956', '0.33', 'G')","('1817956', '0.33', 'G')"
+source_nutrient:173944:1005,pass,source_nutrient_record,"('1817899', '22.84', 'G')","('1817899', '22.84', 'G')"
+source_nutrient:173944:1008,pass,source_nutrient_record,"('1817900', '89', 'KCAL')","('1817900', '89', 'KCAL')"
+source_nutrient:173944:1079,pass,source_nutrient_record,"('1817936', '2.6', 'G')","('1817936', '2.6', 'G')"
+food_identity:174272,pass,source_identity,Tempeh,Tempeh
+source_nutrient:174272:1003,pass,source_nutrient_record,"('1845305', '20.29', 'G')","('1845305', '20.29', 'G')"
+source_nutrient:174272:1004,pass,source_nutrient_record,"('1845352', '10.8', 'G')","('1845352', '10.8', 'G')"
+source_nutrient:174272:1005,pass,source_nutrient_record,"('1845312', '7.64', 'G')","('1845312', '7.64', 'G')"
+source_nutrient:174272:1008,pass,source_nutrient_record,"('1845313', '192', 'KCAL')","('1845313', '192', 'KCAL')"
+source_portion:93515:fdc_id,pass,source_portion_record,173944,173944
+source_portion:93515:amount_raw,pass,source_portion_record,1,1
+source_portion:93515:gram_weight_raw,pass,source_portion_record,118,118
+source_portion:93515:modifier,pass,source_portion_record,"medium (7"" to 7-7/8"" long)","medium (7"" to 7-7/8"" long)"
+source_portion:93515:measure_unit_id,pass,source_portion_record,9999,9999
+source_portion:88320:fdc_id,pass,source_portion_record,171267,171267
+source_portion:88320:amount_raw,pass,source_portion_record,1,1
+source_portion:88320:gram_weight_raw,pass,source_portion_record,244,244
+source_portion:88320:modifier,pass,source_portion_record,cup,cup
+source_portion:88320:measure_unit_id,pass,source_portion_record,9999,9999
+source_portion:88374:fdc_id,pass,source_portion_record,171287,171287
+source_portion:88374:amount_raw,pass,source_portion_record,1,1
+source_portion:88374:gram_weight_raw,pass,source_portion_record,50,50
+source_portion:88374:modifier,pass,source_portion_record,large,large
+source_portion:88374:measure_unit_id,pass,source_portion_record,9999,9999
+source_portion:88667:fdc_id,pass,source_portion_record,171413,171413
+source_portion:88667:amount_raw,pass,source_portion_record,1,1
+source_portion:88667:gram_weight_raw,pass,source_portion_record,13.5,13.5
+source_portion:88667:modifier,pass,source_portion_record,tablespoon,tablespoon
+source_portion:88667:measure_unit_id,pass,source_portion_record,9999,9999
+source_portion:90673:fdc_id,pass,source_portion_record,172470,172470
+source_portion:90673:amount_raw,pass,source_portion_record,2,2
+source_portion:90673:gram_weight_raw,pass,source_portion_record,32,32
+source_portion:90673:modifier,pass,source_portion_record,tbsp,tbsp
+source_portion:90673:measure_unit_id,pass,source_portion_record,9999,9999
+source_portion:86532:fdc_id,pass,source_portion_record,170379,170379
+source_portion:86532:amount_raw,pass,source_portion_record,0.5,0.5
+source_portion:86532:gram_weight_raw,pass,source_portion_record,44,44
+source_portion:86532:modifier,pass,source_portion_record,"cup, chopped or diced","cup, chopped or diced"
+source_portion:86532:measure_unit_id,pass,source_portion_record,9999,9999
+source_portion:86528:fdc_id,pass,source_portion_record,170379,170379
+source_portion:86528:amount_raw,pass,source_portion_record,1,1
+source_portion:86528:gram_weight_raw,pass,source_portion_record,91,91
+source_portion:86528:modifier,pass,source_portion_record,cup chopped,cup chopped
+source_portion:86528:measure_unit_id,pass,source_portion_record,9999,9999

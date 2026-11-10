@@ -1,0 +1,4 @@
+source_id,field,value,records,denominator_records,percent,record_unit
+aditi_usda_foundation_nutrition,energy_method,Atwater Specific (2048),312,411,75.9124,food_records
+aditi_usda_foundation_nutrition,energy_method,Missing,89,411,21.6545,food_records
+aditi_usda_foundation_nutrition,energy_method,Atwater General (2047),10,411,2.4331,food_records

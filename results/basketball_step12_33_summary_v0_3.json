@@ -1,0 +1,22 @@
+{
+  "stage": "12-33",
+  "catalog_version": "0.3.1-review-only",
+  "original_catalog_candidates": 144,
+  "annotated_catalog_candidates": 144,
+  "source_registry_records": 156,
+  "source_comparison_pairs": 11,
+  "review_cases": 8,
+  "same_published_section_supported_pairs": 5,
+  "identical_cross_page_text_pairs": 1,
+  "similar_cross_page_section_pairs": 4,
+  "insufficient_section_pairs": 1,
+  "catalog_groups_linked_to_review_cases": 9,
+  "name_alias_cases": 1,
+  "source_metadata_correction_proposals": 1,
+  "human_canonical_signoffs": 0,
+  "automatic_merges": 0,
+  "catalog_approvals": 0,
+  "planner_eligible": 0,
+  "original_source_files_modified": false,
+  "git_operations": false
+}

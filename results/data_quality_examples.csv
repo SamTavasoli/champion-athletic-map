@@ -1,0 +1,13 @@
+source_id,finding,record_position,identifier,details
+derived_master,empty_json_payload,3133,player_bio:224,Prepared source: Players(1).csv; position: 224
+derived_master,empty_json_payload,11694,basketball_season:313,Prepared source: Seasons_Stats(1).csv; position: 313
+derived_exercise,normalized_name_label_conflicts,,alternating sit through with crunch,"abdominals, middle back"
+derived_exercise,normalized_name_label_conflicts,,barbell deadlift,"hamstrings, lower back"
+derived_exercise,normalized_name_label_conflicts,,machine low row,"middle back, traps"
+derived_exercise,normalized_name_label_conflicts,,pjr pull over,"lats, triceps"
+derived_exercise,normalized_name_label_conflicts,,power snatch,"hamstrings, quadriceps"
+aditi_usda_foundation_nutrition,negative_numeric:carbohydrate_g,388,2727566,-0.47505
+aditi_usda_foundation_nutrition,negative_numeric:carbohydrate_g,389,2727567,-0.17255
+aditi_usda_foundation_nutrition,negative_numeric:carbohydrate_g,390,2727568,-0.45875
+aditi_usda_foundation_nutrition,negative_numeric:carbohydrate_g,391,2727569,-0.42825
+aditi_usda_foundation_nutrition,negative_numeric:carbohydrate_g,392,2727570,-0.2508
