@@ -218,3 +218,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local configuration variants; keep a credential-free example shareable.
+.env.*
+!.env.example
+
+# Local duplicate backups; keep the named Step 12 build-history notebook.
+/notebooks/*_BACKUP*.ipynb
+/results/backups/
