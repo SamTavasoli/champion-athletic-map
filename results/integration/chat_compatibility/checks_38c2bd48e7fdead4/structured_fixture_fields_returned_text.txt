@@ -1,0 +1,1 @@
+{"commitments": ["fixture A", "fixture B"], "fixture_id": "structured_fixture_fields", "note": "  preserve inside JSON  ", "school_grade": null}

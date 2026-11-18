@@ -1,0 +1,42 @@
+{
+  "accepted_render_layouts": [
+    "system_user_assistant_llama_roles_with_optional_leading_bos"
+  ],
+  "all_required_reference_delivery_text_must_remain_attached": true,
+  "backend_added_system_text_policy": "record_and_count_in_full_with_submitted_system_content_preserved",
+  "backend_model_loading_can_occur_during_render_preparation": true,
+  "backend_token_count_agreement_verified": false,
+  "configured_context_tokens": 8192,
+  "content_boundary_policy": "reject_outer_whitespace_or_literal_model_controls_without_modifying_content",
+  "fresh_message_roles": [
+    "system",
+    "user"
+  ],
+  "input_count_is_provisional_not_a_verified_backend_upper_bound": true,
+  "maximum_input_with_2048_output_before_boundary_reserve": 5888,
+  "maximum_output_tokens": 2048,
+  "model": "llama3.1:8b",
+  "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+  "native_tool_calling": false,
+  "ollama_runtime_candidate": "0.40.16",
+  "operational_generation_ready": false,
+  "preflight_debug_field": "_debug_render_only",
+  "render_preparation_calls_are_separate_from_logical_generations": true,
+  "render_strategy": "actual_local_backend_debug_render_only_for_each_distinct_request",
+  "runtime_asset_allowlist": [
+    "prompt_preflight.py",
+    "preflight_policy.json"
+  ],
+  "safety_margin_tokens": 256,
+  "schema_version": "step24-render-preflight-policy-1",
+  "shift": false,
+  "software_fixtures_audits_and_go_reference_capture_are_not_generation_context": true,
+  "source_references": [
+    "https://github.com/ollama/ollama/blob/v0.40.16/api/types.go",
+    "https://github.com/ollama/ollama/blob/v0.40.16/server/routes.go",
+    "https://github.com/ollama/ollama/blob/v0.40.16/template/template.go"
+  ],
+  "truncate": false,
+  "unrecognized_render_layout_policy": "retain_response_and_block_without_generation",
+  "unverified_boundary_reserve_tokens": 2
+}

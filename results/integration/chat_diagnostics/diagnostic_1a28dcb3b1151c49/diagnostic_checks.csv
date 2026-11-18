@@ -1,0 +1,11 @@
+check,status,observed
+saved_suite_and_prior_file_integrity,pass,764
+raw_response_text_request_and_render_bindings,pass,4
+original_measurements_reproduced_without_generation,pass,4
+original_token_count_agreement_preserved,pass,"[1, 1, 1, 1]"
+strict_json_objects_separated_from_exact_fixture_values,pass,4 JSON objects / 3 exact matches
+original_exact_fixture_gate,blocked,"preserved from Step 24-5; no normalization, repair or regeneration"
+cause_review_and_next_integration_decision,pending,not established by saved-response diagnosis
+representative_plan_and_workflow_capacity,pending,not established by saved-response diagnosis
+operational_generation_readiness,pending,not established by saved-response diagnosis
+all_bound_inputs_unchanged_after_diagnosis,pass,764

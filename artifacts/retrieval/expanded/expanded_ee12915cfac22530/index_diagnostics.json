@@ -1,0 +1,89 @@
+{
+  "actual_corpus_queries_run": 0,
+  "approved_basketball_catalog_drills": 0,
+  "core_encoded_token_counts": [
+    129,
+    148,
+    138,
+    117,
+    87,
+    161,
+    130,
+    125,
+    150,
+    132,
+    151
+  ],
+  "corpus_id": "expanded-corpus:aa58799145ccff5c8ea285b3b1eb0bc4fdc41ef85ad90ffb03db3ce3c4687c58",
+  "coverage_scope": "scoped_basketball_resources_teen_sleep_and_youth_activity_reference_corpus",
+  "distinct_reference_units": 11,
+  "fitted_classifier_or_planner_approval_created": false,
+  "generation_context_budget_verified": false,
+  "lexical": {
+    "csr_data_sha256": "83bae2b863ca965bce126a17c55960008980b7dd40ade0c9757bb4dfd67f6f11",
+    "csr_indices_sha256": "fd35bb861c3db31844e41a71743c3f656180876f634efca546e009d86e0d343c",
+    "csr_indptr_sha256": "3d25dec79191437bfb10d4602c4d4522506ba2fedeae4b5be694a398161842b0",
+    "density": 0.130997715156131,
+    "dtype": "float64",
+    "feature_order_sha256": "a0000ec5cefeddc711f829f6674b953575c4778822de75837d300c63b82afd81",
+    "features": 1313,
+    "fitted_policy": {
+      "analyzer": "word",
+      "binary": false,
+      "classifier_vectorizer_or_preprocessor_reused": false,
+      "decode_error": "strict",
+      "dtype": "float64",
+      "encoding": "utf-8",
+      "lowercase": true,
+      "max_df": 1.0,
+      "max_features": null,
+      "min_df": 1,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "norm": "l2",
+      "preprocessor": null,
+      "query_vocabulary_or_idf_fitting": false,
+      "smooth_idf": true,
+      "stop_words": null,
+      "strip_accents": null,
+      "sublinear_tf": false,
+      "token_pattern": "(?u)\\b\\w\\w+\\b",
+      "tokenizer": null,
+      "use_idf": true
+    },
+    "idf_array_sha256": "8ada742841ccdcb2e6c28cab3fc8aef7f4226b8af666c7bb5b733f8a74c1ee82",
+    "matrix_format": "csr",
+    "nonzero_values": 1892,
+    "rows": 11,
+    "vocabulary_sha256": "d1f701e2c2bb2cf124646ebf37c63394aebaa013470ce24770e431d7356e83c2",
+    "zero_vector_rows": 0
+  },
+  "nba_review_targets_still_pending": 20,
+  "passages": 11,
+  "planned_benchmark_ready": false,
+  "quality_scores_available": false,
+  "questions_or_judgments_used": 0,
+  "schema_version": "step23-expanded-index-diagnostics-1",
+  "selected_retrieval_route": null,
+  "semantic": {
+    "device": "cpu",
+    "dtype": "float32",
+    "matrix_sha256": "5d46ab006083974df1a25495183a6899f6dcdfd0f5406d9448d862f4281f2ffe",
+    "model_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "norm_max": 1.000000076139042,
+    "norm_min": 1.0000000119226649,
+    "shape": [
+      11,
+      384
+    ]
+  },
+  "source_alias_rows_represented": 12,
+  "source_family_counts": {
+    "CDC-SLEEP-ABOUT": 1,
+    "CDC-YOUTH-PHYSICAL-ACTIVITY": 4,
+    "UGA-PEDB-BASKETBALL-TEXTBOOK": 6
+  },
+  "unproven_warmups_still_deferred": 12
+}

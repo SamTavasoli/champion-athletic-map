@@ -1,0 +1,299 @@
+{
+  "cases": [
+    {
+      "call_id": "step24-5:38c2bd48e7fdead4:basic_json",
+      "case_id": "basic_json",
+      "completed_response": true,
+      "done_reason": "stop",
+      "field_comparison": {
+        "diagnostic_truncated": false,
+        "differences": [],
+        "exact_match": true
+      },
+      "fixture_exact_match": true,
+      "json_object_valid": true,
+      "measurement": {
+        "acceptable_response": true,
+        "cached_count": 0,
+        "completed_model_response": true,
+        "done_reason": "stop",
+        "fixture_exact_match": true,
+        "input_count": 78,
+        "issues": [],
+        "json_error_type": null,
+        "json_object_valid": true,
+        "metrics_valid": true,
+        "observed_input_offset": 1,
+        "offset_classification": "within_boundary_reserve",
+        "operational_generation_ready": false,
+        "output_count": 14,
+        "prompt_count_includes_cached_tokens": true,
+        "schema_version": "step24-chat-response-measurement-1",
+        "within_boundary_reserve": true
+      },
+      "raw_response_relative_path": "results/integration/chat_compatibility/checks_38c2bd48e7fdead4/raw/007_generation.json",
+      "raw_response_sha256": "c722f7c130b9cba010a9e9a86656473ebb57c967c508619ee5a3f2c931eb7be5",
+      "returned_text_utf8_sha256": "e757eb5307ed901d8fd3b105d8c172cd5a05fb3686f51ef9434d448db9342419"
+    },
+    {
+      "call_id": "step24-5:38c2bd48e7fdead4:unicode_and_internal_newlines",
+      "case_id": "unicode_and_internal_newlines",
+      "completed_response": true,
+      "done_reason": "stop",
+      "field_comparison": {
+        "diagnostic_truncated": false,
+        "differences": [
+          {
+            "actual_preview": "\"Caf\\u00e9 \\u03a9 \\u4e2d\\u6587 \\ud83c\\udfda\"",
+            "actual_preview_truncated": false,
+            "actual_type": "string",
+            "expected_preview": "\"Caf\\u00e9 \\u03a9 \\u4e2d\\u6587 \\ud83c\\udfc0\"",
+            "expected_preview_truncated": false,
+            "expected_type": "string",
+            "kind": "string_mismatch",
+            "path": "/text",
+            "string_details": {
+              "actual_codepoint_length": 11,
+              "actual_utf8_length": 20,
+              "actual_utf8_sha256": "46079ea58d0a95d8b1610406c972b7687db480d4a90d38c1b3a851ea7b31d18c",
+              "actual_window": [
+                {
+                  "codepoint": "U+0066",
+                  "escaped_character": "\"f\"",
+                  "index": 2,
+                  "name": "LATIN SMALL LETTER F"
+                },
+                {
+                  "codepoint": "U+00E9",
+                  "escaped_character": "\"\\u00e9\"",
+                  "index": 3,
+                  "name": "LATIN SMALL LETTER E WITH ACUTE"
+                },
+                {
+                  "codepoint": "U+0020",
+                  "escaped_character": "\" \"",
+                  "index": 4,
+                  "name": "SPACE"
+                },
+                {
+                  "codepoint": "U+03A9",
+                  "escaped_character": "\"\\u03a9\"",
+                  "index": 5,
+                  "name": "GREEK CAPITAL LETTER OMEGA"
+                },
+                {
+                  "codepoint": "U+0020",
+                  "escaped_character": "\" \"",
+                  "index": 6,
+                  "name": "SPACE"
+                },
+                {
+                  "codepoint": "U+4E2D",
+                  "escaped_character": "\"\\u4e2d\"",
+                  "index": 7,
+                  "name": "CJK UNIFIED IDEOGRAPH-4E2D"
+                },
+                {
+                  "codepoint": "U+6587",
+                  "escaped_character": "\"\\u6587\"",
+                  "index": 8,
+                  "name": "CJK UNIFIED IDEOGRAPH-6587"
+                },
+                {
+                  "codepoint": "U+0020",
+                  "escaped_character": "\" \"",
+                  "index": 9,
+                  "name": "SPACE"
+                },
+                {
+                  "codepoint": "U+1F3DA",
+                  "escaped_character": "\"\\ud83c\\udfda\"",
+                  "index": 10,
+                  "name": "DERELICT HOUSE BUILDING"
+                }
+              ],
+              "expected_codepoint_length": 11,
+              "expected_utf8_length": 20,
+              "expected_utf8_sha256": "b72d8c5e3f26a88213776c781b73cfd161554cdae8ea82e723f3895fe50a8cd4",
+              "expected_window": [
+                {
+                  "codepoint": "U+0066",
+                  "escaped_character": "\"f\"",
+                  "index": 2,
+                  "name": "LATIN SMALL LETTER F"
+                },
+                {
+                  "codepoint": "U+00E9",
+                  "escaped_character": "\"\\u00e9\"",
+                  "index": 3,
+                  "name": "LATIN SMALL LETTER E WITH ACUTE"
+                },
+                {
+                  "codepoint": "U+0020",
+                  "escaped_character": "\" \"",
+                  "index": 4,
+                  "name": "SPACE"
+                },
+                {
+                  "codepoint": "U+03A9",
+                  "escaped_character": "\"\\u03a9\"",
+                  "index": 5,
+                  "name": "GREEK CAPITAL LETTER OMEGA"
+                },
+                {
+                  "codepoint": "U+0020",
+                  "escaped_character": "\" \"",
+                  "index": 6,
+                  "name": "SPACE"
+                },
+                {
+                  "codepoint": "U+4E2D",
+                  "escaped_character": "\"\\u4e2d\"",
+                  "index": 7,
+                  "name": "CJK UNIFIED IDEOGRAPH-4E2D"
+                },
+                {
+                  "codepoint": "U+6587",
+                  "escaped_character": "\"\\u6587\"",
+                  "index": 8,
+                  "name": "CJK UNIFIED IDEOGRAPH-6587"
+                },
+                {
+                  "codepoint": "U+0020",
+                  "escaped_character": "\" \"",
+                  "index": 9,
+                  "name": "SPACE"
+                },
+                {
+                  "codepoint": "U+1F3C0",
+                  "escaped_character": "\"\\ud83c\\udfc0\"",
+                  "index": 10,
+                  "name": "BASKETBALL AND HOOP"
+                }
+              ],
+              "first_differing_codepoint_index": 10,
+              "nfc_comparison_status": "compared_without_modifying_values",
+              "nfc_equivalent": false,
+              "normalization_performed": false
+            }
+          }
+        ],
+        "exact_match": false
+      },
+      "fixture_exact_match": false,
+      "json_object_valid": true,
+      "measurement": {
+        "acceptable_response": false,
+        "cached_count": 65,
+        "completed_model_response": true,
+        "done_reason": "stop",
+        "fixture_exact_match": false,
+        "input_count": 100,
+        "issues": [
+          "fixture_value_or_type_mismatch"
+        ],
+        "json_error_type": null,
+        "json_object_valid": true,
+        "metrics_valid": true,
+        "observed_input_offset": 1,
+        "offset_classification": "within_boundary_reserve",
+        "operational_generation_ready": false,
+        "output_count": 55,
+        "prompt_count_includes_cached_tokens": true,
+        "schema_version": "step24-chat-response-measurement-1",
+        "within_boundary_reserve": true
+      },
+      "raw_response_relative_path": "results/integration/chat_compatibility/checks_38c2bd48e7fdead4/raw/011_generation.json",
+      "raw_response_sha256": "ee706faf530e736334d46b0eb7e343587d5a53133f88bd70de837855016d3986",
+      "returned_text_utf8_sha256": "956f7c714e265e2633eb9b8a73114255ca13ce853d82153fa9bb3c8ca7b1ee16"
+    },
+    {
+      "call_id": "step24-5:38c2bd48e7fdead4:structured_fixture_fields",
+      "case_id": "structured_fixture_fields",
+      "completed_response": true,
+      "done_reason": "stop",
+      "field_comparison": {
+        "diagnostic_truncated": false,
+        "differences": [],
+        "exact_match": true
+      },
+      "fixture_exact_match": true,
+      "json_object_valid": true,
+      "measurement": {
+        "acceptable_response": true,
+        "cached_count": 61,
+        "completed_model_response": true,
+        "done_reason": "stop",
+        "fixture_exact_match": true,
+        "input_count": 102,
+        "issues": [],
+        "json_error_type": null,
+        "json_object_valid": true,
+        "metrics_valid": true,
+        "observed_input_offset": 1,
+        "offset_classification": "within_boundary_reserve",
+        "operational_generation_ready": false,
+        "output_count": 38,
+        "prompt_count_includes_cached_tokens": true,
+        "schema_version": "step24-chat-response-measurement-1",
+        "within_boundary_reserve": true
+      },
+      "raw_response_relative_path": "results/integration/chat_compatibility/checks_38c2bd48e7fdead4/raw/015_generation.json",
+      "raw_response_sha256": "0ea993e6b882e422553eeec4f8b1fc7cca5b06be245b49dcae40ddc4a5e9fd2e",
+      "returned_text_utf8_sha256": "28c7d913ae7e50f1f0d3092742844485bb40fb7c0e1667ff2e42965c746e8236"
+    },
+    {
+      "call_id": "step24-5:38c2bd48e7fdead4:complete_reference_companion",
+      "case_id": "complete_reference_companion",
+      "completed_response": true,
+      "done_reason": "stop",
+      "field_comparison": {
+        "diagnostic_truncated": false,
+        "differences": [],
+        "exact_match": true
+      },
+      "fixture_exact_match": true,
+      "json_object_valid": true,
+      "measurement": {
+        "acceptable_response": true,
+        "cached_count": 49,
+        "completed_model_response": true,
+        "done_reason": "stop",
+        "fixture_exact_match": true,
+        "input_count": 391,
+        "issues": [],
+        "json_error_type": null,
+        "json_object_valid": true,
+        "metrics_valid": true,
+        "observed_input_offset": 1,
+        "offset_classification": "within_boundary_reserve",
+        "operational_generation_ready": false,
+        "output_count": 65,
+        "prompt_count_includes_cached_tokens": true,
+        "schema_version": "step24-chat-response-measurement-1",
+        "within_boundary_reserve": true
+      },
+      "raw_response_relative_path": "results/integration/chat_compatibility/checks_38c2bd48e7fdead4/raw/019_generation.json",
+      "raw_response_sha256": "a7e8db4271e284d00d6d018c503f0aa4c5f7bec12468ff150bd15efe67e55795",
+      "returned_text_utf8_sha256": "c37b952ea45df59f1b5bd36dddd696f2e23bd2f65ffe638f4fd881fd91c15a19"
+    }
+  ],
+  "original_aggregate": {
+    "all_completed_model_responses": true,
+    "all_metrics_valid": true,
+    "backend_count_agreement_for_saved_fixtures": true,
+    "fixed_observed_input_offset": 1,
+    "fixture_count": 4,
+    "json_generation_compatible_for_saved_fixtures": false,
+    "measurement_scope": "saved_software_fixtures_only_not_arbitrary_prompts_or_capacity",
+    "observed_input_offsets": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "observed_offset_interpreted_as_bos_policy": false,
+    "operational_generation_ready": false,
+    "schema_version": "step24-chat-measurement-aggregate-1"
+  }
+}

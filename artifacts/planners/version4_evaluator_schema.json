@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Planner evaluator assessment",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "assessment_complete": {
+      "type": "boolean"
+    },
+    "issues": {
+      "type": "array",
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "category": {
+            "type": "string",
+            "enum": [
+              "goal_relevance",
+              "missing_information",
+              "contradiction",
+              "unsupported_claim",
+              "scope",
+              "response_type",
+              "unresolved_required_check",
+              "clarity"
+            ]
+          },
+          "path": {
+            "type": "string",
+            "maxLength": 160
+          },
+          "problem": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 240,
+            "pattern": "\\S"
+          },
+          "evidence_ref": {
+            "anyOf": [
+              {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 240,
+                "pattern": "\\S"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "uncertainty": {
+            "anyOf": [
+              {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 240,
+                "pattern": "\\S"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "correction": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 240,
+            "pattern": "\\S"
+          }
+        },
+        "required": [
+          "category",
+          "path",
+          "problem",
+          "evidence_ref",
+          "uncertainty",
+          "correction"
+        ]
+      }
+    }
+  },
+  "required": [
+    "assessment_complete",
+    "issues"
+  ]
+}

@@ -1,0 +1,5 @@
+candidate_id,seed,status,split,learning_rate,dropout,class_weighting,evaluated_records,groups,correct_records,accuracy,macro_f1,class_denominator,best_epoch,selected_validation_loss,loss_objective
+N0,42,reused_verified,validation,0.001,0.2,none,435,384,315,0.7241379310344828,0.540130110761601,16,25,1.2239498956818564,unweighted cross-entropy
+N1,42,completed,validation,0.0003,0.2,none,435,384,289,0.664367816091954,0.3597413841706803,16,30,1.327720487909793,unweighted cross-entropy
+N2,42,completed,validation,0.001,0.4,none,435,384,315,0.7241379310344828,0.5279380887290376,16,30,1.2084979724308522,unweighted cross-entropy
+N3,42,completed,validation,0.001,0.2,training_frequency,435,384,297,0.6827586206896552,0.5711446509354461,16,19,1.6816732587341088,training-frequency-weighted cross-entropy

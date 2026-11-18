@@ -1,0 +1,9 @@
+﻿contrast,population,matched_profiles,excluded_profiles,mean_paired_difference_seconds,median_paired_difference_seconds,uncertainty_interval,interpretation
+V2-V1,all_terminal,200,0,8.461574333996104,7.748262149980292,,Observed paired timing difference; no new timing hypothesis test or post-hoc bootstrap introduced.
+V2-V1,both_workflows_completed,186,14,7.693265691932519,7.63047949995962,,Observed paired timing difference; no new timing hypothesis test or post-hoc bootstrap introduced.
+V3-V2,all_terminal,200,0,7.7163095885014625,8.34097044999362,,Observed paired timing difference; no new timing hypothesis test or post-hoc bootstrap introduced.
+V3-V2,both_workflows_completed,185,15,8.498295938919261,8.569664899958298,,Observed paired timing difference; no new timing hypothesis test or post-hoc bootstrap introduced.
+V4-V3,all_terminal,200,0,39.604083786497064,35.26955565001117,,Observed paired timing difference; no new timing hypothesis test or post-hoc bootstrap introduced.
+V4-V3,both_workflows_completed,197,3,39.65302821471791,35.133201299991924,,Observed paired timing difference; no new timing hypothesis test or post-hoc bootstrap introduced.
+V4-V1,all_terminal,200,0,55.781967708994635,51.18613809996168,,Observed paired timing difference; no new timing hypothesis test or post-hoc bootstrap introduced.
+V4-V1,both_workflows_completed,197,3,55.886237096441214,51.27717819996178,,Observed paired timing difference; no new timing hypothesis test or post-hoc bootstrap introduced.

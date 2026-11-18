@@ -1,0 +1,36 @@
+{
+  "checks": {
+    "figure_copies": "passed",
+    "notebook_pdf_package": "passed",
+    "python_export_syntax": "passed"
+  },
+  "file_sha256": {
+    "README.md": "a3a89a9465ba14cb909115888fc9157e259f3283720d863071102d67e7436a43",
+    "docs/report_figures_and_code_exports.md": "7b645168d26e8abff1628836a8551b6d1220101bd63e55fbfbf717dc0e0cd65a",
+    "docs/reproducibility.md": "408e616d7ce71e4e7fad99cead16cb3b9d3c376d50f52488e9bef78ed787cda2",
+    "docs/results_limitations_and_future_improvements.md": "4a4f68e17adfe7932dd106fc6cfae569511f4e4123c359a524e5f9c7247393ed",
+    "docs/statistical_analysis_findings.md": "fd348e593287c3d3e2bb52a12feb310f5d99cc6e8e61630d7586d937ab4c1ff3",
+    "docs/technical_guide.md": "bf073be725303c12b27812c49a757016bcf5ff597a89a166fbf6d8c901f23e5d",
+    "reports/Champions_Athletic_Map_Notebook_PDFs.zip": "9a474c515cc7db19b9f689949ffed01f3c125916a507b9a9e7446fb41d66fa02",
+    "reports/code_exports/champion_athletic_map.py": "605dbe90d062ca7171ae11955694041285b8dd1f6ab2a42373d51c84cdf01582",
+    "reports/figures/classifier_macro_f1_differences.svg": "358126ee6f341086d02ce143f3d82c2bea91f1d687ea79211d4e337f9f22a7e5",
+    "reports/figures/planner_execution.svg": "cc2e6115aed40628e4fc7b74a37dfa3d8a0a44f60d40d390e34d7b4564ceafa2",
+    "reports/figures/planner_runtime.svg": "12f644d44f19c6f6fddb3fe0ceb6df8549c6b9bb53b903bf67f7917fa5911caf",
+    "reports/final_report/Champions_Athletic_Map_Report_Draft.docx": "34eb73fdf321f082c5806870717cf9a29f1ea2bb0ca76d70fc76b7a0102fbacb",
+    "reports/final_report/Champions_Athletic_Map_Report_Draft.pdf": "342356c291cf2708a9ada33d3aabfbde7c7dff5dbbe68ae0c1f4c938f09ff4e3"
+  },
+  "files_expected": 13,
+  "files_present": 13,
+  "final_submission_ready": false,
+  "issues": [],
+  "new_model_calls": 0,
+  "notebook_pdf_scope": "Recorded notebook snapshot; later checkpoint/documentation edits are not claimed to be included.",
+  "notebook_pdf_source_sha256": "12220533185906be4b1369d7a9b064bd0d22e854b894db8801bf1e5fde52946c",
+  "readme_changed_by_this_cell": false,
+  "report_status": "draft_for_team_review",
+  "repository_access_walkthrough": "not_recorded",
+  "research_results_changed": false,
+  "schema_version": "step38-documentation-checkpoint-1",
+  "status": "prepared_pending_review",
+  "team_report_review": "pending"
+}

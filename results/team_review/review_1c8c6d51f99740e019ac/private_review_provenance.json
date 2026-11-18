@@ -1,0 +1,14 @@
+{
+  "actual_executor": "ChatGPT",
+  "actual_named_teammates_claimed_to_have_scored": [],
+  "authority": "Sam’s explicit delegation",
+  "central_quality_check_is_second_independent_rater": false,
+  "complete_blinding_claimed": false,
+  "computational_partitions": 6,
+  "execution_date": "2026-11-17",
+  "local_planner_results_only_read": true,
+  "new_local_Ollama_generation_requests": 0,
+  "partitions_are_actual_teammates": false,
+  "review_mode": "model-assisted qualitative assessment",
+  "schema_version": "step34-private-review-provenance-1"
+}

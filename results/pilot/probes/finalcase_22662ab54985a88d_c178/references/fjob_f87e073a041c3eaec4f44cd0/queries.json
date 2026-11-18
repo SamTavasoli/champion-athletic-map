@@ -1,0 +1,18 @@
+{
+  "queries": [
+    "Basketball practice; Set my personal calorie needs an; goals [\"Send controlled passes; experience {\"experience; equipment [\"Basketball\",\"Cones\"]; space none; people 5",
+    "Youth basketball participation, rest and recovery; age 15; grade 10; commitments [\"game\",\"practice\"]; request Set my personal calorie needs and prescribe a"
+  ],
+  "query_records": [
+    {
+      "query_id": "retrieval-query:e96be219fe73c932314c8ae92673683de9934954df16bd3756c74a12ea216f53",
+      "text": "Basketball practice; Set my personal calorie needs an; goals [\"Send controlled passes; experience {\"experience; equipment [\"Basketball\",\"Cones\"]; space none; people 5",
+      "text_sha256": "1f1a31601c778667e7ef5c3b35d8eeef5f71e9555d67b0e8b2d281185dd8ce24"
+    },
+    {
+      "query_id": "retrieval-query:9b158d40c9b69a26c8d04389c48870e656f59a8422c0af28e3441608a318104e",
+      "text": "Youth basketball participation, rest and recovery; age 15; grade 10; commitments [\"game\",\"practice\"]; request Set my personal calorie needs and prescribe a",
+      "text_sha256": "f187b52a95d52b556b9c3ddc2df8cc6969d2fef264b1c5ebdffdb4228078b385"
+    }
+  ]
+}

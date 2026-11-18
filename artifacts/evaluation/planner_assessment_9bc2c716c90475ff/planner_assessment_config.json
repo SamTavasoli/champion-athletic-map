@@ -1,0 +1,92 @@
+{
+  "actual_rates_available": false,
+  "advisory_findings": "Report advisory unknowns and violations separately; they do not alone fail the required-check primary measure. Essentiality follows the accepted request and adopted policy, not a blanket missing-history penalty.",
+  "assessment_completeness": "Checker errors and missing expected assessments remain external assessment failures. Retain known partial violations separately; do not convert an absent checker result into semantic unknown or a model violation.",
+  "case_scoring_ready": "An externally supplied prerequisite in artificial fixtures; not an implemented case-acceptance validator or proof of reference readiness.",
+  "case_success": "Require the designated returned response, valid shared parsing, required plan and activity content, request completeness, and every required applicable check met.",
+  "coverage": {
+    "denominator": "met + violated + unknown",
+    "incomplete_assessment_ratio": null,
+    "interpretation": "Conclusive coverage is not a pass rate.",
+    "not_applicable_reported_separately": true,
+    "numerator": "met + violated",
+    "required_and_advisory_separate": true,
+    "unit": "expected parent checks, not number of activity instances",
+    "zero_denominator": null
+  },
+  "deferred_implementation": [
+    "accepted-case and mask import validation",
+    "shared planner response parser",
+    "participation-rule and activity constraint execution",
+    "runtime food and evidence checks",
+    "real-case population aggregation",
+    "human rubric and ratings",
+    "pilot operational finalization"
+  ],
+  "empty_mask": "A bare empty, missing or advisory-only obligation list cannot establish required-check readiness in this component. Reviewed non-applicability is an explicit required parent assessment with an evidence basis; required plan/completeness gates still apply. This readiness hold is not a planner failure.",
+  "evidence_ratios": {
+    "attribution_coverage": "Source-dependent claims with usable attribution / source-dependent claims reviewed",
+    "cited_claim_support": "Supported cited claims / cited claims assessed",
+    "empty_denominator": "Unavailable, with counts. No supplied IDs does not mean perfect attribution. ID validity and factual support remain separate.",
+    "id_validity": "Resolvable distinct IDs / supplied distinct IDs"
+  },
+  "execution": "Unstarted or awaiting permitted resumption is incomplete. Terminal timeout, failed execution or missing designated response prevents success without requiring downstream activity assessments.",
+  "expectation_boundary": "Expected obligations and applicability must come from accepted private annotations and adopted public contracts/rules/policies before final outputs. This helper does not prepare or approve them.",
+  "expected_instances": "Instances needed for the parent condition, established by adopted applicability. Keep unrelated advisory/optional findings separate from required conditions.",
+  "format_and_independence": "Optional source-ID fields remain optional. Version4 internal acceptance does not determine the external outcome; earlier diagnostic drafts cannot replace the designated response after fatal execution.",
+  "human_review": "Preserve malformed but readable returned text for later independent human review; no automated human scores or reviewer decisions are assigned here.",
+  "input_hashes": {
+    "artifacts/evaluation/classifier_metrics_db3e5f3df78a126c/classifier_metric_config.json": "9c0ff72c83509deac20945d122babde529a17a1e23dcc069804da6e7edbf1116",
+    "artifacts/evaluation/classifier_metrics_db3e5f3df78a126c/classifier_metric_probe_checks.csv": "40d742299ca57f20bf527ba3896eb03e7fa6cdbd3a32b28f087d63a26e27af49",
+    "artifacts/evaluation/classifier_metrics_db3e5f3df78a126c/classifier_metric_probes.json": "6a962b5c9721b16e87f1b551b351144bc5584f3fcd488c1cb6ac6a1ff7fa6604",
+    "artifacts/evaluation/classifier_metrics_db3e5f3df78a126c/classifier_metrics.py": "10b026d0deed9eb674a1a2b194f9523b9445f54e6a139aaca64aae578aa165d6",
+    "artifacts/evaluation/classifier_metrics_db3e5f3df78a126c/step17_classifier_metric_summary.json": "fcc69484579048b344648287334f29d8c364d239f9f422969a453d96bd9292b1",
+    "artifacts/splits/exercise_split_config.json": "1694be410134288b9df58f651f20c9dc19f1a811f338b99e2dffb61ef4829f1a",
+    "data/processed/exercise_groups.csv": "30190adb8245a348a3243fcdff4bc40515cca773e2f874ebab83739f02d9c764",
+    "data/processed/exercise_split_manifest.csv": "c0723b13ce259f964c2c7952b4203edba75a7553146c5bdb4a637ed134a4f5ac",
+    "results/exercise_benchmark_review_decisions.csv": "cfdf0e29094e76fc6400fc12580dfedb7748f1dd85b67968705cd3af85ff32b1",
+    "results/exercise_class_eligibility.csv": "560d130d9aa2c136b552d1dd61735eb448105691c58b7f9729e3cdd6dd8ebeb0",
+    "results/exercise_split_candidates.csv": "d659186e893a9ae7c1f652bbe00f7ce5e30c9afafcd5dd9c091d16972dcd6f02",
+    "results/exercise_split_checks.csv": "eca5e80d470ddf3f8b41b174cb39e5d2f5582e478b672412a5eed29109c83212",
+    "results/exercise_split_summary.csv": "42ed48528dc4be8c7693bd75b9a921ce2fc93c7675db6dd42fdd4fc52bbdbaf2",
+    "results/step15_exercise_split_summary.json": "e3d4f7cf0de057d2d28f74716e03e41a0a4f4f46d75d49f8f3f6b05d0bbe554d"
+  },
+  "parent_aggregation": "An established violation dominates. Otherwise necessary unknowns prevent met. Preserve all instance findings and evidence; justified non-applicability needs a reason and evidence reference.",
+  "parent_preparation_component": "db3e5f3df78a126cfd35d69e06d552002aff9d2305ceafbbfe405e56458b9748",
+  "planned_jobs": 800,
+  "planned_populations_per_version": {
+    "all_scheduled_cases": 200,
+    "conflicting_constraints": 15,
+    "feasible": 150,
+    "missing_information": 20,
+    "outside_scope": 15
+  },
+  "planned_versions": 4,
+  "policy_sha256": "4b3be4a66b2439734d2483e1b88794b0222297bc29ced649ce810215bd7419f9",
+  "policy_version": "planner-assessment-policy-1",
+  "population_readiness": "These counts are design targets. Do not calculate final rates from unaccepted drafts, drop failed jobs, or describe an incomplete experiment as complete.",
+  "primary_measure": "Successful feasible cases divided by all 150 accepted feasible final cases per version once the declared roster and assessment are complete.",
+  "recipe_version": "planner-assessment-contract-0.1.0",
+  "response_assessment": "Malformed output, missing required plan, incomplete scope or omitted required activity content prevents success. Unavailable or failed external parsing/assessment remains incomplete.",
+  "schema_version": "planner-assessment-contract-1",
+  "scope": "Pure aggregation of supplied artificial facts. No planner text, profile content, rule thresholds, source lookups or model calls are evaluated.",
+  "scoring_complete_scope": "The case calculator's scoring_complete flag resolves its primary disposition only. A decisive missing response or incomplete-plan failure does not certify every ancillary assessment as finished. Preserve any existing checker-error ledger and unresolved coverage independently; this flag alone cannot finalize an experiment.",
+  "semantic_results": [
+    "met",
+    "violated",
+    "unknown",
+    "not_applicable"
+  ],
+  "software": {
+    "pandas": "3.1.1",
+    "python": "3.12.6"
+  },
+  "source_sections": [
+    "17.4",
+    "17.5",
+    "17.6",
+    "17.7",
+    "17.12"
+  ],
+  "status": "policy_calculators_prepared; operational_scoring_and_full_protocol_not_ready"
+}

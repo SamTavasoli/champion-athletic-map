@@ -1,0 +1,1192 @@
+{
+  "schema_version": "step30-pytest-execution-1",
+  "pytest_exit_code": 0,
+  "collected": [
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_case_review.py::test_public_amendments_preserve_every_original_fact_and_separate_private_review",
+      "requirement": "31:case-review-lineage",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_case_review/test_pilot_case_review.py:75",
+      "description": "test_public_amendments_preserve_every_original_fact_and_separate_private_review"
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_case_review.py::test_repeated_review_reuses_identical_outputs_and_does_not_run_jobs",
+      "requirement": "31:case-review-lineage",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_case_review/test_pilot_case_review.py:96",
+      "description": "test_repeated_review_reuses_identical_outputs_and_does_not_run_jobs"
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_case_review.py::test_authoring_decision_is_not_inferred_from_a_present_commitment_list",
+      "requirement": "31:case-review-lineage",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_case_review/test_pilot_case_review.py:104",
+      "description": "test_authoring_decision_is_not_inferred_from_a_present_commitment_list"
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_case_review.py::test_missing_schedule_cannot_receive_a_true_attestation",
+      "requirement": "31:case-review-lineage",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_case_review/test_pilot_case_review.py:117",
+      "description": "test_missing_schedule_cannot_receive_a_true_attestation"
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_case_review.py::test_changed_preparation_input_is_preserved_and_rejected",
+      "requirement": "31:case-review-lineage",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_case_review/test_pilot_case_review.py:127",
+      "description": "test_changed_preparation_input_is_preserved_and_rejected"
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_case_review.py::test_review_requires_exact_source_and_adopted_resource_bindings[canonical]",
+      "requirement": "31:case-review-lineage",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_case_review/test_pilot_case_review.py:137",
+      "description": "test_review_requires_exact_source_and_adopted_resource_bindings[canonical]"
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_case_review.py::test_review_requires_exact_source_and_adopted_resource_bindings[source_choice]",
+      "requirement": "31:case-review-lineage",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_case_review/test_pilot_case_review.py:137",
+      "description": "test_review_requires_exact_source_and_adopted_resource_bindings[source_choice]"
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_case_review.py::test_review_requires_exact_source_and_adopted_resource_bindings[release]",
+      "requirement": "31:case-review-lineage",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_case_review/test_pilot_case_review.py:137",
+      "description": "test_review_requires_exact_source_and_adopted_resource_bindings[release]"
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_case_review.py::test_existing_different_versioned_output_is_never_overwritten",
+      "requirement": "31:case-review-lineage",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_case_review/test_pilot_case_review.py:154",
+      "description": "test_existing_different_versioned_output_is_never_overwritten"
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_schema_is_versioned_strict_and_public_projection_preserves_coverage",
+      "requirement": "31:explicit-weekly-schedule-coverage",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_case_review/test_pilot_schedule.py:56",
+      "description": "test_schema_is_versioned_strict_and_public_projection_preserves_coverage"
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_small_complete_calendar_can_establish_required_caps_and_rest",
+      "requirement": "31:explicit-weekly-schedule-coverage",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_case_review/test_pilot_schedule.py:77",
+      "description": "test_small_complete_calendar_can_establish_required_caps_and_rest"
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_incomplete_coverage_never_proves_cap_or_rest[absent]",
+      "requirement": "31:explicit-weekly-schedule-coverage",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_case_review/test_pilot_schedule.py:91",
+      "description": "test_incomplete_coverage_never_proves_cap_or_rest[absent]"
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_incomplete_coverage_never_proves_cap_or_rest[false]",
+      "requirement": "31:explicit-weekly-schedule-coverage",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_case_review/test_pilot_schedule.py:91",
+      "description": "test_incomplete_coverage_never_proves_cap_or_rest[false]"
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_incomplete_coverage_never_proves_cap_or_rest[null]",
+      "requirement": "31:explicit-weekly-schedule-coverage",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_case_review/test_pilot_schedule.py:91",
+      "description": "test_incomplete_coverage_never_proves_cap_or_rest[null]"
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_incomplete_coverage_never_proves_cap_or_rest[different_window]",
+      "requirement": "31:explicit-weekly-schedule-coverage",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_case_review/test_pilot_schedule.py:91",
+      "description": "test_incomplete_coverage_never_proves_cap_or_rest[different_window]"
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_incomplete_coverage_never_proves_cap_or_rest[unknown_existing]",
+      "requirement": "31:explicit-weekly-schedule-coverage",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_case_review/test_pilot_schedule.py:91",
+      "description": "test_incomplete_coverage_never_proves_cap_or_rest[unknown_existing]"
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_invalid_calendar_or_component_cannot_gain_a_pass[missing_time]",
+      "requirement": "31:explicit-weekly-schedule-coverage",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_case_review/test_pilot_schedule.py:109",
+      "description": "test_invalid_calendar_or_component_cannot_gain_a_pass[missing_time]"
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_invalid_calendar_or_component_cannot_gain_a_pass[duration_mismatch]",
+      "requirement": "31:explicit-weekly-schedule-coverage",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_case_review/test_pilot_schedule.py:109",
+      "description": "test_invalid_calendar_or_component_cannot_gain_a_pass[duration_mismatch]"
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_invalid_calendar_or_component_cannot_gain_a_pass[outside_week]",
+      "requirement": "31:explicit-weekly-schedule-coverage",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_case_review/test_pilot_schedule.py:109",
+      "description": "test_invalid_calendar_or_component_cannot_gain_a_pass[outside_week]"
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_invalid_calendar_or_component_cannot_gain_a_pass[missing_parent]",
+      "requirement": "31:explicit-weekly-schedule-coverage",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_case_review/test_pilot_schedule.py:109",
+      "description": "test_invalid_calendar_or_component_cannot_gain_a_pass[missing_parent]"
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_invalid_calendar_or_component_cannot_gain_a_pass[child_outside]",
+      "requirement": "31:explicit-weekly-schedule-coverage",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_case_review/test_pilot_schedule.py:109",
+      "description": "test_invalid_calendar_or_component_cannot_gain_a_pass[child_outside]"
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_invalid_calendar_or_component_cannot_gain_a_pass[duplicate_id]",
+      "requirement": "31:explicit-weekly-schedule-coverage",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_case_review/test_pilot_schedule.py:109",
+      "description": "test_invalid_calendar_or_component_cannot_gain_a_pass[duplicate_id]"
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_invalid_calendar_or_component_cannot_gain_a_pass[overlap]",
+      "requirement": "31:explicit-weekly-schedule-coverage",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_case_review/test_pilot_schedule.py:109",
+      "description": "test_invalid_calendar_or_component_cannot_gain_a_pass[overlap]"
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_malformed_source_commitment_blocks_completeness[activity_type-None]",
+      "requirement": "31:explicit-weekly-schedule-coverage",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_case_review/test_pilot_schedule.py:132",
+      "description": "test_malformed_source_commitment_blocks_completeness[activity_type-None]"
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_malformed_source_commitment_blocks_completeness[date-None]",
+      "requirement": "31:explicit-weekly-schedule-coverage",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_case_review/test_pilot_schedule.py:132",
+      "description": "test_malformed_source_commitment_blocks_completeness[date-None]"
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_malformed_source_commitment_blocks_completeness[start_time-None]",
+      "requirement": "31:explicit-weekly-schedule-coverage",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_case_review/test_pilot_schedule.py:132",
+      "description": "test_malformed_source_commitment_blocks_completeness[start_time-None]"
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_hidden_child_in_nontraining_roots_cannot_claim_seven_rest_days",
+      "requirement": "31:explicit-weekly-schedule-coverage",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_case_review/test_pilot_schedule.py:143",
+      "description": "test_hidden_child_in_nontraining_roots_cannot_claim_seven_rest_days"
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_changed_description_in_nontraining_roots_cannot_hide_training",
+      "requirement": "31:explicit-weekly-schedule-coverage",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_case_review/test_pilot_schedule.py:156",
+      "description": "test_changed_description_in_nontraining_roots_cannot_hide_training"
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_unknown_graph_and_ignored_child_rows_cannot_produce_proof",
+      "requirement": "31:explicit-weekly-schedule-coverage",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_case_review/test_pilot_schedule.py:172",
+      "description": "test_unknown_graph_and_ignored_child_rows_cannot_produce_proof"
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_known_public_challenges_have_a_supported_basis_and_wrong_types_do_not[request_text0-patch0-correct0-wrong0]",
+      "requirement": "31:explicit-weekly-schedule-coverage",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_case_review/test_pilot_schedule.py:183",
+      "description": "test_known_public_challenges_have_a_supported_basis_and_wrong_types_do_not[request_text0-patch0-correct0-wrong0]"
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_known_public_challenges_have_a_supported_basis_and_wrong_types_do_not[Give me a personalized daily calorie target and exact meal portions for changing my body weight.-patch1-correct1-wrong1]",
+      "requirement": "31:explicit-weekly-schedule-coverage",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_case_review/test_pilot_schedule.py:183",
+      "description": "test_known_public_challenges_have_a_supported_basis_and_wrong_types_do_not[Give me a personalized daily calorie target and exact meal portions for changing my body weight.-patch1-correct1-wrong1]"
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_known_public_challenges_have_a_supported_basis_and_wrong_types_do_not[request_text2-patch2-correct2-wrong2]",
+      "requirement": "31:explicit-weekly-schedule-coverage",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_case_review/test_pilot_schedule.py:183",
+      "description": "test_known_public_challenges_have_a_supported_basis_and_wrong_types_do_not[request_text2-patch2-correct2-wrong2]"
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_daily_request_accepts_supported_conflict_or_targeted_clarification",
+      "requirement": "31:explicit-weekly-schedule-coverage",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_case_review/test_pilot_schedule.py:208",
+      "description": "test_daily_request_accepts_supported_conflict_or_targeted_clarification"
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_extended_practice_count_recomputes_the_supplied_limit_conflict",
+      "requirement": "31:explicit-weekly-schedule-coverage",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_case_review/test_pilot_schedule.py:222",
+      "description": "test_extended_practice_count_recomputes_the_supplied_limit_conflict"
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_upper_bound_counts_added_root_without_description_keywords",
+      "requirement": "31:explicit-weekly-schedule-coverage",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_case_review/test_pilot_schedule.py:232",
+      "description": "test_upper_bound_counts_added_root_without_description_keywords"
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_existing_lower_bound_violation_is_not_downgraded_by_the_wrapper",
+      "requirement": "31:explicit-weekly-schedule-coverage",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_case_review/test_pilot_schedule.py:242",
+      "description": "test_existing_lower_bound_violation_is_not_downgraded_by_the_wrapper"
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_complete_coverage_prevents_unnecessary_coverage_question_from_waiving_schedule",
+      "requirement": "31:explicit-weekly-schedule-coverage",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_case_review/test_pilot_schedule.py:250",
+      "description": "test_complete_coverage_prevents_unnecessary_coverage_question_from_waiving_schedule"
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_legacy_globals_client_schema_advisories_and_sources_stay_unchanged",
+      "requirement": "31:explicit-weekly-schedule-coverage",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_case_review/test_pilot_schedule.py:257",
+      "description": "test_legacy_globals_client_schema_advisories_and_sources_stay_unchanged"
+    }
+  ],
+  "phases": [
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_case_review.py::test_public_amendments_preserve_every_original_fact_and_separate_private_review",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.21071280000614934,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_case_review.py::test_public_amendments_preserve_every_original_fact_and_separate_private_review",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.21604989998741075,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_case_review.py::test_public_amendments_preserve_every_original_fact_and_separate_private_review",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00019550000433810055,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_case_review.py::test_repeated_review_reuses_identical_outputs_and_does_not_run_jobs",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.21119449997786433,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_case_review.py::test_repeated_review_reuses_identical_outputs_and_does_not_run_jobs",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.37667279999004677,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_case_review.py::test_repeated_review_reuses_identical_outputs_and_does_not_run_jobs",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001516000193078071,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_case_review.py::test_authoring_decision_is_not_inferred_from_a_present_commitment_list",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.2146519000234548,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_case_review.py::test_authoring_decision_is_not_inferred_from_a_present_commitment_list",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.22167699999408796,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_case_review.py::test_authoring_decision_is_not_inferred_from_a_present_commitment_list",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014409999130293727,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_case_review.py::test_missing_schedule_cannot_receive_a_true_attestation",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.19176899999729358,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_case_review.py::test_missing_schedule_cannot_receive_a_true_attestation",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.18705999999656342,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_case_review.py::test_missing_schedule_cannot_receive_a_true_attestation",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014130002819001675,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_case_review.py::test_changed_preparation_input_is_preserved_and_rejected",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.2177967999887187,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_case_review.py::test_changed_preparation_input_is_preserved_and_rejected",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.06263669999316335,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_case_review.py::test_changed_preparation_input_is_preserved_and_rejected",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013649999164044857,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_case_review.py::test_review_requires_exact_source_and_adopted_resource_bindings[canonical]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.17733299999963492,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_case_review.py::test_review_requires_exact_source_and_adopted_resource_bindings[canonical]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.13675429997965693,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_case_review.py::test_review_requires_exact_source_and_adopted_resource_bindings[canonical]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013660002150572836,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_case_review.py::test_review_requires_exact_source_and_adopted_resource_bindings[source_choice]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.17281200000434183,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_case_review.py::test_review_requires_exact_source_and_adopted_resource_bindings[source_choice]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.14878769998904318,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_case_review.py::test_review_requires_exact_source_and_adopted_resource_bindings[source_choice]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001364000199828297,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_case_review.py::test_review_requires_exact_source_and_adopted_resource_bindings[release]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.1743813999928534,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_case_review.py::test_review_requires_exact_source_and_adopted_resource_bindings[release]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.1385673000186216,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_case_review.py::test_review_requires_exact_source_and_adopted_resource_bindings[release]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014399999054148793,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_case_review.py::test_existing_different_versioned_output_is_never_overwritten",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.18170980000286363,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_case_review.py::test_existing_different_versioned_output_is_never_overwritten",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.280685599980643,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_case_review.py::test_existing_different_versioned_output_is_never_overwritten",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013380000018514693,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_schema_is_versioned_strict_and_public_projection_preserves_coverage",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00021499997819773853,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_schema_is_versioned_strict_and_public_projection_preserves_coverage",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.06223869998939335,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_schema_is_versioned_strict_and_public_projection_preserves_coverage",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001317999849561602,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_small_complete_calendar_can_establish_required_caps_and_rest",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.009266400011256337,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_small_complete_calendar_can_establish_required_caps_and_rest",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.04960679999203421,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_small_complete_calendar_can_establish_required_caps_and_rest",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013010000111535192,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_incomplete_coverage_never_proves_cap_or_rest[absent]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.010034499980974942,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_incomplete_coverage_never_proves_cap_or_rest[absent]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.047711299994261935,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_incomplete_coverage_never_proves_cap_or_rest[absent]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014669998199678957,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_incomplete_coverage_never_proves_cap_or_rest[false]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.010034700011601672,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_incomplete_coverage_never_proves_cap_or_rest[false]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.04795249999733642,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_incomplete_coverage_never_proves_cap_or_rest[false]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001346999779343605,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_incomplete_coverage_never_proves_cap_or_rest[null]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.010239099996397272,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_incomplete_coverage_never_proves_cap_or_rest[null]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.04791369999293238,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_incomplete_coverage_never_proves_cap_or_rest[null]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013569998554885387,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_incomplete_coverage_never_proves_cap_or_rest[different_window]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.009526300011202693,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_incomplete_coverage_never_proves_cap_or_rest[different_window]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.048077200015541166,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_incomplete_coverage_never_proves_cap_or_rest[different_window]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013720002607442439,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_incomplete_coverage_never_proves_cap_or_rest[unknown_existing]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.010494999994989485,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_incomplete_coverage_never_proves_cap_or_rest[unknown_existing]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.05047970000305213,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_incomplete_coverage_never_proves_cap_or_rest[unknown_existing]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00015380000695586205,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_invalid_calendar_or_component_cannot_gain_a_pass[missing_time]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.009906599996611476,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_invalid_calendar_or_component_cannot_gain_a_pass[missing_time]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.04984110000077635,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_invalid_calendar_or_component_cannot_gain_a_pass[missing_time]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013570001465268433,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_invalid_calendar_or_component_cannot_gain_a_pass[duration_mismatch]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.009905699989758432,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_invalid_calendar_or_component_cannot_gain_a_pass[duration_mismatch]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.048899499990511686,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_invalid_calendar_or_component_cannot_gain_a_pass[duration_mismatch]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013380000018514693,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_invalid_calendar_or_component_cannot_gain_a_pass[outside_week]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.010763300000689924,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_invalid_calendar_or_component_cannot_gain_a_pass[outside_week]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.04906479999772273,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_invalid_calendar_or_component_cannot_gain_a_pass[outside_week]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001379000023007393,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_invalid_calendar_or_component_cannot_gain_a_pass[missing_parent]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.010301300004357472,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_invalid_calendar_or_component_cannot_gain_a_pass[missing_parent]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.04768519999925047,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_invalid_calendar_or_component_cannot_gain_a_pass[missing_parent]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013780000153928995,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_invalid_calendar_or_component_cannot_gain_a_pass[child_outside]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.010665900015737861,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_invalid_calendar_or_component_cannot_gain_a_pass[child_outside]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.04685709998011589,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_invalid_calendar_or_component_cannot_gain_a_pass[child_outside]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013359999866224825,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_invalid_calendar_or_component_cannot_gain_a_pass[duplicate_id]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.009676999994553626,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_invalid_calendar_or_component_cannot_gain_a_pass[duplicate_id]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.048032699996838346,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_invalid_calendar_or_component_cannot_gain_a_pass[duplicate_id]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013800000306218863,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_invalid_calendar_or_component_cannot_gain_a_pass[overlap]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.010952400014502928,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_invalid_calendar_or_component_cannot_gain_a_pass[overlap]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.04835120000643656,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_invalid_calendar_or_component_cannot_gain_a_pass[overlap]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00012780001270584762,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_malformed_source_commitment_blocks_completeness[activity_type-None]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.009901200013700873,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_malformed_source_commitment_blocks_completeness[activity_type-None]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.04818510002223775,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_malformed_source_commitment_blocks_completeness[activity_type-None]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00016020002658478916,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_malformed_source_commitment_blocks_completeness[date-None]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.009487500006798655,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_malformed_source_commitment_blocks_completeness[date-None]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.047010500013129786,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_malformed_source_commitment_blocks_completeness[date-None]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001469000126235187,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_malformed_source_commitment_blocks_completeness[start_time-None]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.009512799995718524,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_malformed_source_commitment_blocks_completeness[start_time-None]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.047266799985663965,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_malformed_source_commitment_blocks_completeness[start_time-None]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014000001829117537,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_hidden_child_in_nontraining_roots_cannot_claim_seven_rest_days",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.011505099973874167,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_hidden_child_in_nontraining_roots_cannot_claim_seven_rest_days",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.05680419999407604,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_hidden_child_in_nontraining_roots_cannot_claim_seven_rest_days",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013040000339969993,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_changed_description_in_nontraining_roots_cannot_hide_training",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.010390999988885596,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_changed_description_in_nontraining_roots_cannot_hide_training",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.04823549999855459,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_changed_description_in_nontraining_roots_cannot_hide_training",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013719999697059393,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_unknown_graph_and_ignored_child_rows_cannot_produce_proof",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00021739999647252262,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_unknown_graph_and_ignored_child_rows_cannot_produce_proof",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00029180001001805067,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_unknown_graph_and_ignored_child_rows_cannot_produce_proof",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.490000618621707e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_known_public_challenges_have_a_supported_basis_and_wrong_types_do_not[request_text0-patch0-correct0-wrong0]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.009934799978509545,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_known_public_challenges_have_a_supported_basis_and_wrong_types_do_not[request_text0-patch0-correct0-wrong0]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.09721300000092015,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_known_public_challenges_have_a_supported_basis_and_wrong_types_do_not[request_text0-patch0-correct0-wrong0]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00015629999688826501,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_known_public_challenges_have_a_supported_basis_and_wrong_types_do_not[Give me a personalized daily calorie target and exact meal portions for changing my body weight.-patch1-correct1-wrong1]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.011399000009987503,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_known_public_challenges_have_a_supported_basis_and_wrong_types_do_not[Give me a personalized daily calorie target and exact meal portions for changing my body weight.-patch1-correct1-wrong1]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.10803319999831729,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_known_public_challenges_have_a_supported_basis_and_wrong_types_do_not[Give me a personalized daily calorie target and exact meal portions for changing my body weight.-patch1-correct1-wrong1]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00015759997768327594,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_known_public_challenges_have_a_supported_basis_and_wrong_types_do_not[request_text2-patch2-correct2-wrong2]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.010027200012700632,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_known_public_challenges_have_a_supported_basis_and_wrong_types_do_not[request_text2-patch2-correct2-wrong2]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.09606380001059733,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_known_public_challenges_have_a_supported_basis_and_wrong_types_do_not[request_text2-patch2-correct2-wrong2]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014319998444989324,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_daily_request_accepts_supported_conflict_or_targeted_clarification",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.009642799996072426,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_daily_request_accepts_supported_conflict_or_targeted_clarification",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.14135640001040883,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_daily_request_accepts_supported_conflict_or_targeted_clarification",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013909998233430088,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_extended_practice_count_recomputes_the_supplied_limit_conflict",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.013549499999498948,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_extended_practice_count_recomputes_the_supplied_limit_conflict",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.05754869998781942,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_extended_practice_count_recomputes_the_supplied_limit_conflict",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013760000001639128,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_upper_bound_counts_added_root_without_description_keywords",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.01080979997641407,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_upper_bound_counts_added_root_without_description_keywords",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.051474499981850386,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_upper_bound_counts_added_root_without_description_keywords",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013149998267181218,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_existing_lower_bound_violation_is_not_downgraded_by_the_wrapper",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.009807199996430427,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_existing_lower_bound_violation_is_not_downgraded_by_the_wrapper",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.046481800003675744,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_existing_lower_bound_violation_is_not_downgraded_by_the_wrapper",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00012729997979477048,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_complete_coverage_prevents_unnecessary_coverage_question_from_waiving_schedule",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.010290400008670986,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_complete_coverage_prevents_unnecessary_coverage_question_from_waiving_schedule",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.047864699998172,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_complete_coverage_prevents_unnecessary_coverage_question_from_waiving_schedule",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013210001634433866,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_legacy_globals_client_schema_advisories_and_sources_stay_unchanged",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.009828799986280501,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_legacy_globals_client_schema_advisories_and_sources_stay_unchanged",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0507682999887038,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_case_review/test_pilot_schedule.py::test_legacy_globals_client_schema_advisories_and_sources_stay_unchanged",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00015269999857991934,
+      "expected_failure": false,
+      "detail": null
+    }
+  ],
+  "collection_errors": [],
+  "deselected": [],
+  "new_model_calls": 0,
+  "query_encoder_processes": 0,
+  "network_policy": "blocked_in_routine_tests",
+  "fixtures": "authored_public_examples"
+}

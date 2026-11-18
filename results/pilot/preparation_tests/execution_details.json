@@ -1,0 +1,1223 @@
+{
+  "schema_version": "step30-pytest-execution-1",
+  "pytest_exit_code": 0,
+  "collected": [
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_preparation.py::test_preparation_separates_public_facts_from_provisional_reviews",
+      "requirement": "31.1:preparation-state",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_preparation/test_pilot_preparation.py:55",
+      "description": "test_preparation_separates_public_facts_from_provisional_reviews"
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_preparation.py::test_preparation_keeps_semantic_prerequisites_and_study_approval_pending",
+      "requirement": "31.1:preparation-state",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_preparation/test_pilot_preparation.py:72",
+      "description": "test_preparation_keeps_semantic_prerequisites_and_study_approval_pending"
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_preparation.py::test_repeated_preparation_keeps_one_immutable_selection_and_distinct_observations",
+      "requirement": "31.1:preparation-state",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_preparation/test_pilot_preparation.py:85",
+      "description": "test_repeated_preparation_keeps_one_immutable_selection_and_distinct_observations"
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_preparation.py::test_unsuccessful_step30_stops_before_selection_or_metadata_requests",
+      "requirement": "31.1:preparation-state",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_preparation/test_pilot_preparation.py:97",
+      "description": "test_unsuccessful_step30_stops_before_selection_or_metadata_requests"
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_preparation.py::test_existing_edited_selection_file_is_preserved",
+      "requirement": "31.1:preparation-state",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_preparation/test_pilot_preparation.py:107",
+      "description": "test_existing_edited_selection_file_is_preserved"
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_a_prior_evidence_folder_is_never_overwritten",
+      "requirement": "31.6:readiness-metadata",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_preparation/test_pilot_readiness.py:210",
+      "description": "test_a_prior_evidence_folder_is_never_overwritten"
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_a_resident_matching_context_is_an_observation_not_generation_verification",
+      "requirement": "31.6:readiness-metadata",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_preparation/test_pilot_readiness.py:127",
+      "description": "test_a_resident_matching_context_is_an_observation_not_generation_verification"
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_ambiguous_installed_models_do_not_match",
+      "requirement": "31.6:readiness-metadata",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_preparation/test_pilot_readiness.py:191",
+      "description": "test_ambiguous_installed_models_do_not_match"
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_changed_environment_and_missing_cache_remain_blocked",
+      "requirement": "31.6:readiness-metadata",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_preparation/test_pilot_readiness.py:160",
+      "description": "test_changed_environment_and_missing_cache_remain_blocked"
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_existing_request_markers_and_incomplete_calls_are_preserved",
+      "requirement": "31.6:readiness-metadata",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_preparation/test_pilot_readiness.py:195",
+      "description": "test_existing_request_markers_and_incomplete_calls_are_preserved"
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_http_error_body_is_preserved_as_failure_evidence",
+      "requirement": "31.6:readiness-metadata",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_preparation/test_pilot_readiness.py:236",
+      "description": "test_http_error_body_is_preserved_as_failure_evidence"
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_malformed_metadata_collections_do_not_raise",
+      "requirement": "31.6:readiness-metadata",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_preparation/test_pilot_readiness.py:177",
+      "description": "test_malformed_metadata_collections_do_not_raise"
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_matching_files_and_metadata_are_recorded_without_loading_or_generation",
+      "requirement": "31.6:readiness-metadata",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_preparation/test_pilot_readiness.py:107",
+      "description": "test_matching_files_and_metadata_are_recorded_without_loading_or_generation"
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_metadata_transport_rejects_generation_before_opening_a_connection",
+      "requirement": "31.6:readiness-metadata",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_preparation/test_pilot_readiness.py:246",
+      "description": "test_metadata_transport_rejects_generation_before_opening_a_connection"
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_missing_native_tokenizer_file_is_detected_without_loading_it",
+      "requirement": "31.6:readiness-metadata",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_preparation/test_pilot_readiness.py:153",
+      "description": "test_missing_native_tokenizer_file_is_detected_without_loading_it"
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_missing_reference_data_does_not_suppress_other_findings",
+      "requirement": "31.6:readiness-metadata",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_preparation/test_pilot_readiness.py:145",
+      "description": "test_missing_reference_data_does_not_suppress_other_findings"
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_request_only_or_unreadable_saved_result_needs_inspection",
+      "requirement": "31.6:readiness-metadata",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_preparation/test_pilot_readiness.py:228",
+      "description": "test_request_only_or_unreadable_saved_result_needs_inspection"
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_skipped_routine_cases_do_not_establish_completed_integration",
+      "requirement": "31.6:readiness-metadata",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_preparation/test_pilot_readiness.py:133",
+      "description": "test_skipped_routine_cases_do_not_establish_completed_integration"
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_step30_source_change_is_reported",
+      "requirement": "31.6:readiness-metadata",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_preparation/test_pilot_readiness.py:139",
+      "description": "test_step30_source_change_is_reported"
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_unavailable_server_reports_all_metadata_attempts_without_crashing",
+      "requirement": "31.6:readiness-metadata",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_preparation/test_pilot_readiness.py:168",
+      "description": "test_unavailable_server_reports_all_metadata_attempts_without_crashing"
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_unresolved_saved_result_blocks_even_without_an_active_marker",
+      "requirement": "31.6:readiness-metadata",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_preparation/test_pilot_readiness.py:217",
+      "description": "test_unresolved_saved_result_blocks_even_without_an_active_marker"
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_wrong_digest_or_remote_template_is_not_accepted",
+      "requirement": "31.6:readiness-metadata",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_preparation/test_pilot_readiness.py:184",
+      "description": "test_wrong_digest_or_remote_template_is_not_accepted"
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_verified_pool_has_one_hundred_development_records_and_seven_retained_revisions",
+      "requirement": "31.2:development-selection",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_preparation/test_pilot_selection.py:32",
+      "description": "test_verified_pool_has_one_hundred_development_records_and_seven_retained_revisions"
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_selection_matches_the_prespecified_twenty_profile_coverage",
+      "requirement": "31.2:development-selection",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_preparation/test_pilot_selection.py:39",
+      "description": "test_selection_matches_the_prespecified_twenty_profile_coverage"
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_feasible_intents_prefer_fully_stated_selection_fields",
+      "requirement": "31.2:development-selection",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_preparation/test_pilot_selection.py:51",
+      "description": "test_feasible_intents_prefer_fully_stated_selection_fields"
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_public_inputs_remain_unchanged_and_separate_from_private_review",
+      "requirement": "31.2:development-selection",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_preparation/test_pilot_selection.py:57",
+      "description": "test_public_inputs_remain_unchanged_and_separate_from_private_review"
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_seeded_selection_is_stable_under_input_order_and_does_not_modify_sources",
+      "requirement": "31.2:development-selection",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_preparation/test_pilot_selection.py:72",
+      "description": "test_seeded_selection_is_stable_under_input_order_and_does_not_modify_sources"
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_balanced_jobs_are_eighty_unique_plans_not_submitted_requests",
+      "requirement": "31.2:development-selection",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_preparation/test_pilot_selection.py:81",
+      "description": "test_balanced_jobs_are_eighty_unique_plans_not_submitted_requests"
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_job_preparation_rejects_changed_public_facts",
+      "requirement": "31.2:development-selection",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_preparation/test_pilot_selection.py:101",
+      "description": "test_job_preparation_rejects_changed_public_facts"
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_private_metadata_is_rejected_at_the_public_boundary[record]",
+      "requirement": "31.2:development-selection",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_preparation/test_pilot_selection.py:108",
+      "description": "test_private_metadata_is_rejected_at_the_public_boundary[record]"
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_private_metadata_is_rejected_at_the_public_boundary[input]",
+      "requirement": "31.2:development-selection",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_preparation/test_pilot_selection.py:108",
+      "description": "test_private_metadata_is_rejected_at_the_public_boundary[input]"
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_private_metadata_is_rejected_at_the_public_boundary[nested]",
+      "requirement": "31.2:development-selection",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_preparation/test_pilot_selection.py:108",
+      "description": "test_private_metadata_is_rejected_at_the_public_boundary[nested]"
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_insufficient_stratum_is_reported_without_relaxing_quotas",
+      "requirement": "31.2:development-selection",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_preparation/test_pilot_selection.py:121",
+      "description": "test_insufficient_stratum_is_reported_without_relaxing_quotas"
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_repeated_families_cannot_be_counted_as_twenty_distinct_families",
+      "requirement": "31.2:development-selection",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_preparation/test_pilot_selection.py:129",
+      "description": "test_repeated_families_cannot_be_counted_as_twenty_distinct_families"
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_missing_food_coverage_is_not_silently_accepted",
+      "requirement": "31.2:development-selection",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_preparation/test_pilot_selection.py:137",
+      "description": "test_missing_food_coverage_is_not_silently_accepted"
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_changed_development_artifact_is_rejected_before_selection",
+      "requirement": "31.2:development-selection",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_preparation/test_pilot_selection.py:153",
+      "description": "test_changed_development_artifact_is_rejected_before_selection"
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_changed_retained_revision_is_rejected_before_selection",
+      "requirement": "31.2:development-selection",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_preparation/test_pilot_selection.py:161",
+      "description": "test_changed_retained_revision_is_rejected_before_selection"
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_metadata_partition_cannot_introduce_a_held_out_record",
+      "requirement": "31.2:development-selection",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_preparation/test_pilot_selection.py:169",
+      "description": "test_metadata_partition_cannot_introduce_a_held_out_record"
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_duplicate_profile_identity_is_rejected",
+      "requirement": "31.2:development-selection",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_preparation/test_pilot_selection.py:176",
+      "description": "test_duplicate_profile_identity_is_rejected"
+    }
+  ],
+  "phases": [
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_preparation.py::test_preparation_separates_public_facts_from_provisional_reviews",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.2238867999985814,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_preparation.py::test_preparation_separates_public_facts_from_provisional_reviews",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.07145629997830838,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_preparation.py::test_preparation_separates_public_facts_from_provisional_reviews",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00020110001787543297,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_preparation.py::test_preparation_keeps_semantic_prerequisites_and_study_approval_pending",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.06450259999837726,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_preparation.py::test_preparation_keeps_semantic_prerequisites_and_study_approval_pending",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.056177100021159276,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_preparation.py::test_preparation_keeps_semantic_prerequisites_and_study_approval_pending",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014429999282583594,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_preparation.py::test_repeated_preparation_keeps_one_immutable_selection_and_distinct_observations",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.054051299986895174,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_preparation.py::test_repeated_preparation_keeps_one_immutable_selection_and_distinct_observations",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.1001477999961935,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_preparation.py::test_repeated_preparation_keeps_one_immutable_selection_and_distinct_observations",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013470000703819096,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_preparation.py::test_unsuccessful_step30_stops_before_selection_or_metadata_requests",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0516840000054799,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_preparation.py::test_unsuccessful_step30_stops_before_selection_or_metadata_requests",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0013307000044733286,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_preparation.py::test_unsuccessful_step30_stops_before_selection_or_metadata_requests",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00012569999671541154,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_preparation.py::test_existing_edited_selection_file_is_preserved",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.05696280000847764,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_preparation.py::test_existing_edited_selection_file_is_preserved",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.10384760002489202,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_preparation.py::test_existing_edited_selection_file_is_preserved",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013960001524537802,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_a_prior_evidence_folder_is_never_overwritten",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00030949999927543104,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_a_prior_evidence_folder_is_never_overwritten",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.15721070001018234,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_a_prior_evidence_folder_is_never_overwritten",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013540001236833632,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_a_resident_matching_context_is_an_observation_not_generation_verification",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00029070000164210796,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_a_resident_matching_context_is_an_observation_not_generation_verification",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.038061699975514784,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_a_resident_matching_context_is_an_observation_not_generation_verification",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00021600001491606236,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_ambiguous_installed_models_do_not_match",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00035659997956827283,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_ambiguous_installed_models_do_not_match",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.04750069999136031,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_ambiguous_installed_models_do_not_match",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013840000610798597,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_changed_environment_and_missing_cache_remain_blocked",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002468000166118145,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_changed_environment_and_missing_cache_remain_blocked",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.03494670000509359,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_changed_environment_and_missing_cache_remain_blocked",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.000135600013891235,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_existing_request_markers_and_incomplete_calls_are_preserved",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00025179999647662044,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_existing_request_markers_and_incomplete_calls_are_preserved",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.047094999987166375,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_existing_request_markers_and_incomplete_calls_are_preserved",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013529998250305653,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_http_error_body_is_preserved_as_failure_evidence",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00023759997566230595,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_http_error_body_is_preserved_as_failure_evidence",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.044528900005389005,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_http_error_body_is_preserved_as_failure_evidence",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013020000187680125,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_malformed_metadata_collections_do_not_raise",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00023419997887685895,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_malformed_metadata_collections_do_not_raise",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.03233760001603514,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_malformed_metadata_collections_do_not_raise",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.000145500001963228,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_matching_files_and_metadata_are_recorded_without_loading_or_generation",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00023999999393709004,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_matching_files_and_metadata_are_recorded_without_loading_or_generation",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.09485370002221316,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_matching_files_and_metadata_are_recorded_without_loading_or_generation",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00018420000560581684,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_metadata_transport_rejects_generation_before_opening_a_connection",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00023750000400468707,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_metadata_transport_rejects_generation_before_opening_a_connection",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0110424000013154,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_metadata_transport_rejects_generation_before_opening_a_connection",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001351000100839883,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_missing_native_tokenizer_file_is_detected_without_loading_it",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002290000265929848,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_missing_native_tokenizer_file_is_detected_without_loading_it",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.032158999994862825,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_missing_native_tokenizer_file_is_detected_without_loading_it",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013440000475384295,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_missing_reference_data_does_not_suppress_other_findings",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00023519998649135232,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_missing_reference_data_does_not_suppress_other_findings",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.03258639998966828,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_missing_reference_data_does_not_suppress_other_findings",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013780000153928995,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_request_only_or_unreadable_saved_result_needs_inspection",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002454000059515238,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_request_only_or_unreadable_saved_result_needs_inspection",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.04036339998128824,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_request_only_or_unreadable_saved_result_needs_inspection",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00018370000179857016,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_skipped_routine_cases_do_not_establish_completed_integration",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0003024999750778079,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_skipped_routine_cases_do_not_establish_completed_integration",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.01906649998272769,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_skipped_routine_cases_do_not_establish_completed_integration",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014319998444989324,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_step30_source_change_is_reported",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002330999996047467,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_step30_source_change_is_reported",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.018747399997664616,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_step30_source_change_is_reported",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013800000306218863,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_unavailable_server_reports_all_metadata_attempts_without_crashing",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00024599998141638935,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_unavailable_server_reports_all_metadata_attempts_without_crashing",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.03131780002149753,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_unavailable_server_reports_all_metadata_attempts_without_crashing",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013010000111535192,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_unresolved_saved_result_blocks_even_without_an_active_marker",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00023360000341199338,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_unresolved_saved_result_blocks_even_without_an_active_marker",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0385942000139039,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_unresolved_saved_result_blocks_even_without_an_active_marker",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013920001219958067,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_wrong_digest_or_remote_template_is_not_accepted",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00023509998572990298,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_wrong_digest_or_remote_template_is_not_accepted",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0332545000128448,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_readiness.py::ReadinessTests::test_wrong_digest_or_remote_template_is_not_accepted",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00015070001245476305,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_verified_pool_has_one_hundred_development_records_and_seven_retained_revisions",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.049301200022455305,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_verified_pool_has_one_hundred_development_records_and_seven_retained_revisions",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00020070001482963562,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_verified_pool_has_one_hundred_development_records_and_seven_retained_revisions",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00010350000229664147,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_selection_matches_the_prespecified_twenty_profile_coverage",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0078747000079602,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_selection_matches_the_prespecified_twenty_profile_coverage",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00011290001566521823,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_selection_matches_the_prespecified_twenty_profile_coverage",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.759999764151871e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_feasible_intents_prefer_fully_stated_selection_fields",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00017690000822767615,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_feasible_intents_prefer_fully_stated_selection_fields",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 7.760000880807638e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_feasible_intents_prefer_fully_stated_selection_fields",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.740000728517771e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_public_inputs_remain_unchanged_and_separate_from_private_review",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00016720002167858183,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_public_inputs_remain_unchanged_and_separate_from_private_review",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00014200000441633165,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_public_inputs_remain_unchanged_and_separate_from_private_review",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.340000593103468e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_seeded_selection_is_stable_under_input_order_and_does_not_modify_sources",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00015889998758211732,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_seeded_selection_is_stable_under_input_order_and_does_not_modify_sources",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.011141499999212101,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_seeded_selection_is_stable_under_input_order_and_does_not_modify_sources",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00012730000889860094,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_balanced_jobs_are_eighty_unique_plans_not_submitted_requests",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00021660001948475838,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_balanced_jobs_are_eighty_unique_plans_not_submitted_requests",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0032884000102058053,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_balanced_jobs_are_eighty_unique_plans_not_submitted_requests",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.960000170394778e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_job_preparation_rejects_changed_public_facts",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0001967000134754926,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_job_preparation_rejects_changed_public_facts",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.000892700016265735,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_job_preparation_rejects_changed_public_facts",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.890000754036009e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_private_metadata_is_rejected_at_the_public_boundary[record]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00020740000763908029,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_private_metadata_is_rejected_at_the_public_boundary[record]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0027221000054851174,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_private_metadata_is_rejected_at_the_public_boundary[record]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00010120001388713717,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_private_metadata_is_rejected_at_the_public_boundary[input]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00022059999173507094,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_private_metadata_is_rejected_at_the_public_boundary[input]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0026283000188414007,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_private_metadata_is_rejected_at_the_public_boundary[input]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.850000449456275e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_private_metadata_is_rejected_at_the_public_boundary[nested]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00019130000146105886,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_private_metadata_is_rejected_at_the_public_boundary[nested]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0025505999801680446,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_private_metadata_is_rejected_at_the_public_boundary[nested]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.739999611862004e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_insufficient_stratum_is_reported_without_relaxing_quotas",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0001635999942664057,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_insufficient_stratum_is_reported_without_relaxing_quotas",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0044049999851267785,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_insufficient_stratum_is_reported_without_relaxing_quotas",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.129999671131372e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_repeated_families_cannot_be_counted_as_twenty_distinct_families",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00017419998766854405,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_repeated_families_cannot_be_counted_as_twenty_distinct_families",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.005899400013731793,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_repeated_families_cannot_be_counted_as_twenty_distinct_families",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00012030001380480826,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_missing_food_coverage_is_not_silently_accepted",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00020599999697878957,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_missing_food_coverage_is_not_silently_accepted",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.008305700001074001,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_missing_food_coverage_is_not_silently_accepted",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00011069999891333282,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_changed_development_artifact_is_rejected_before_selection",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0009938000002875924,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_changed_development_artifact_is_rejected_before_selection",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.05668340000556782,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_changed_development_artifact_is_rejected_before_selection",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014509999891743064,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_changed_retained_revision_is_rejected_before_selection",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0010073000157717615,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_changed_retained_revision_is_rejected_before_selection",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.08815440000034869,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_changed_retained_revision_is_rejected_before_selection",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013229998876340687,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_metadata_partition_cannot_introduce_a_held_out_record",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00022159999934956431,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_metadata_partition_cannot_introduce_a_held_out_record",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.005526799999643117,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_metadata_partition_cannot_introduce_a_held_out_record",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001100999943446368,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_duplicate_profile_identity_is_rejected",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00020179999410174787,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_duplicate_profile_identity_is_rejected",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0077049999963492155,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_preparation/test_pilot_selection.py::test_duplicate_profile_identity_is_rejected",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00017880002269521356,
+      "expected_failure": false,
+      "detail": null
+    }
+  ],
+  "collection_errors": [],
+  "deselected": [],
+  "new_model_calls": 0,
+  "query_encoder_processes": 0,
+  "network_policy": "blocked_in_routine_tests",
+  "fixtures": "authored_public_examples"
+}

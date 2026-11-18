@@ -1,0 +1,21 @@
+﻿planner,population,outcomes,measured,missing,mean_seconds,median_seconds,p95_seconds,p95_method,minimum_seconds,maximum_seconds,scope
+1,all_terminal,200,200,0,10.435265166503669,10.56872530002147,15.102737190015604,linear percentile,1.7098062000004575,22.59782989998348,Measured saved end-to-end request time; external scoring excluded.
+1,workflow_completed,199,199,0,10.379740840204624,10.560834300005808,14.74696943000308,linear percentile,1.7098062000004575,22.59782989998348,Measured saved end-to-end request time; external scoring excluded.
+1,workflow_not_completed,1,1,0,21.48460610001348,21.48460610001348,21.48460610001348,linear percentile,21.48460610001348,21.48460610001348,Measured saved end-to-end request time; external scoring excluded.
+1,strict_format_valid,75,75,0,8.244710722674306,8.92833080003038,11.912778930016792,linear percentile,1.7098062000004575,17.78733950003516,Measured saved end-to-end request time; external scoring excluded.
+1,automatic_primary_success,0,0,0,,,,linear percentile,,,Measured saved end-to-end request time; external scoring excluded.
+2,all_terminal,200,200,0,18.896839500499773,18.411986849969253,29.49729396998591,linear percentile,8.75793290004367,40.17866129998583,Measured saved end-to-end request time; external scoring excluded.
+2,workflow_completed,186,186,0,18.073761938172968,18.250483249983517,22.432905650042812,linear percentile,8.75793290004367,40.17866129998583,Measured saved end-to-end request time; external scoring excluded.
+2,workflow_not_completed,14,14,0,29.83201282855589,29.559143249993213,30.775938684976428,linear percentile,29.040680299978703,31.250834599952213,Measured saved end-to-end request time; external scoring excluded.
+2,strict_format_valid,62,62,0,16.200887067745732,17.052864350000164,22.159375754982463,linear percentile,8.75793290004367,24.176300499995705,Measured saved end-to-end request time; external scoring excluded.
+2,automatic_primary_success,0,0,0,,,,linear percentile,,,Measured saved end-to-end request time; external scoring excluded.
+3,all_terminal,200,200,0,26.613149089001237,26.981344950007042,32.93450514503347,linear percentile,12.672922900004778,38.14385310001671,Measured saved end-to-end request time; external scoring excluded.
+3,workflow_completed,199,199,0,26.563807126634224,26.977942200028338,32.8938134899945,linear percentile,12.672922900004778,38.14385310001671,Measured saved end-to-end request time; external scoring excluded.
+3,workflow_not_completed,1,1,0,36.432199600036256,36.432199600036256,36.432199600036256,linear percentile,36.432199600036256,36.432199600036256,Measured saved end-to-end request time; external scoring excluded.
+3,strict_format_valid,67,67,0,24.103877082093508,24.700260299956426,30.497931099985724,linear percentile,12.672922900004778,33.81929889996536,Measured saved end-to-end request time; external scoring excluded.
+3,automatic_primary_success,0,0,0,,,,linear percentile,,,Measured saved end-to-end request time; external scoring excluded.
+4,all_terminal,200,200,0,66.2172328754983,62.10372750001261,81.25466996497126,linear percentile,29.11078520002775,828.3115348999854,Measured saved end-to-end request time; external scoring excluded.
+4,workflow_completed,198,198,0,66.32452893636167,62.24024534999626,81.27734909497084,linear percentile,29.11078520002775,828.3115348999854,Measured saved end-to-end request time; external scoring excluded.
+4,workflow_not_completed,2,2,0,55.594922850024886,55.594922850024886,59.189208705048074,linear percentile,51.60127189999912,59.58857380005065,Measured saved end-to-end request time; external scoring excluded.
+4,strict_format_valid,69,69,0,57.60810498551101,59.306659599998966,70.5862222800264,linear percentile,29.11078520002775,86.1196634999942,Measured saved end-to-end request time; external scoring excluded.
+4,automatic_primary_success,0,0,0,,,,linear percentile,,,Measured saved end-to-end request time; external scoring excluded.

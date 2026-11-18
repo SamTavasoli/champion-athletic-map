@@ -1,0 +1,2525 @@
+{
+  "schema_version": "step30-pytest-execution-1",
+  "pytest_exit_code": 1,
+  "collected": [
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_existing_application_gate_rejects_test_scope_without_inspecting_text",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:73",
+      "description": "test_existing_application_gate_rejects_test_scope_without_inspecting_text"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_real_frozen_field_preparation_keeps_name_only_and_unicode[  Synthetic\\t footwork - Side\\n to\\t side -Synthetic footwork\\n\\nSide to side-False]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:84",
+      "description": "test_real_frozen_field_preparation_keeps_name_only_and_unicode[  Synthetic\\t footwork - Side\\n to\\t side -Synthetic footwork\\n\\nSide to side-False]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_real_frozen_field_preparation_keeps_name_only_and_unicode[Fictional drill-None-Fictional drill-True]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:84",
+      "description": "test_real_frozen_field_preparation_keeps_name_only_and_unicode[Fictional drill-None-Fictional drill-True]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_real_frozen_field_preparation_keeps_name_only_and_unicode[Fictional drill- N/A -Fictional drill-True]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:84",
+      "description": "test_real_frozen_field_preparation_keeps_name_only_and_unicode[Fictional drill- N/A -Fictional drill-True]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_real_frozen_field_preparation_keeps_name_only_and_unicode[\\uff23af\\xe9 \\u03a9-unknown \\U0001f3c0-\\uff23af\\xe9 \\u03a9\\n\\nunknown \\U0001f3c0-False]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:84",
+      "description": "test_real_frozen_field_preparation_keeps_name_only_and_unicode[\\uff23af\\xe9 \\u03a9-unknown \\U0001f3c0-\\uff23af\\xe9 \\u03a9\\n\\nunknown \\U0001f3c0-False]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_real_frozen_field_preparation_rejects_invalid_fields[-None]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:96",
+      "description": "test_real_frozen_field_preparation_rejects_invalid_fields[-None]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_real_frozen_field_preparation_rejects_invalid_fields[NONE-description]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:96",
+      "description": "test_real_frozen_field_preparation_rejects_invalid_fields[NONE-description]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_real_frozen_field_preparation_rejects_invalid_fields[None-detail]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:96",
+      "description": "test_real_frozen_field_preparation_rejects_invalid_fields[None-detail]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_real_frozen_field_preparation_rejects_invalid_fields[name-4]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:96",
+      "description": "test_real_frozen_field_preparation_rejects_invalid_fields[name-4]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_frozen_scorer_retains_all_sixteen_classes_and_zero_division",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:102",
+      "description": "test_frozen_scorer_retains_all_sixteen_classes_and_zero_division"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_real_frozen_scorer_refuses_silent_alignment_or_unknown_labels",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:116",
+      "description": "test_real_frozen_scorer_refuses_silent_alignment_or_unknown_labels"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_neural_encoding_preserves_unknown_and_empty_token_rows",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:123",
+      "description": "test_saved_neural_encoding_preserves_unknown_and_empty_token_rows"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_real_low_level_logistic_route_keeps_all_zero_tfidf_input",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:133",
+      "description": "test_real_low_level_logistic_route_keeps_all_zero_tfidf_input"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_real_loader_dependency_gate_precedes_model_deserialization",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:152",
+      "description": "test_real_loader_dependency_gate_precedes_model_deserialization"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_selects_every_artificial_test_record_in_stable_id_order",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:195",
+      "description": "test_population_selects_every_artificial_test_record_in_stable_id_order"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[duplicate]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:204",
+      "description": "test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[duplicate]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[missing_group]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:204",
+      "description": "test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[missing_group]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[lineage]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:204",
+      "description": "test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[lineage]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[invalid_eligibility]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:204",
+      "description": "test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[invalid_eligibility]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[target]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:204",
+      "description": "test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[target]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[class_index]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:204",
+      "description": "test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[class_index]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[excluded_partition]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:204",
+      "description": "test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[excluded_partition]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[row_count]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:204",
+      "description": "test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[row_count]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[support]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:204",
+      "description": "test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[support]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[class_coverage]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:204",
+      "description": "test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[class_coverage]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_rejects_shared_group_between_training_and_test_before_alignment",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:223",
+      "description": "test_population_rejects_shared_group_between_training_and_test_before_alignment"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_catalog_alignment_uses_allowlisted_text_and_frozen_manifest_targets",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:233",
+      "description": "test_catalog_alignment_uses_allowlisted_text_and_frozen_manifest_targets"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[missing]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:247",
+      "description": "test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[missing]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[duplicate]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:247",
+      "description": "test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[duplicate]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[extra]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:247",
+      "description": "test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[extra]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[source_file]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:247",
+      "description": "test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[source_file]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[source_sha256]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:247",
+      "description": "test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[source_sha256]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[source_cleaned_record_position]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:247",
+      "description": "test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[source_cleaned_record_position]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[preparation_version]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:247",
+      "description": "test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[preparation_version]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[split_group_id]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:247",
+      "description": "test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[split_group_id]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[target]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:247",
+      "description": "test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[target]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[text]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:247",
+      "description": "test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[text]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_dedicated_inference_uses_low_level_saved_route_without_claiming_synthetic_scope",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:262",
+      "description": "test_dedicated_inference_uses_low_level_saved_route_without_claiming_synthetic_scope"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_inference_rejects_invalid_class_indices_and_score_axes[True-probabilities0]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:280",
+      "description": "test_inference_rejects_invalid_class_indices_and_score_axes[True-probabilities0]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_inference_rejects_invalid_class_indices_and_score_axes[16-probabilities1]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:280",
+      "description": "test_inference_rejects_invalid_class_indices_and_score_axes[16-probabilities1]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_inference_rejects_invalid_class_indices_and_score_axes[0-probabilities2]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:280",
+      "description": "test_inference_rejects_invalid_class_indices_and_score_axes[0-probabilities2]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_inference_rejects_invalid_class_indices_and_score_axes[0-probabilities3]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:280",
+      "description": "test_inference_rejects_invalid_class_indices_and_score_axes[0-probabilities3]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_inference_rejects_invalid_class_indices_and_score_axes[0-probabilities4]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:280",
+      "description": "test_inference_rejects_invalid_class_indices_and_score_axes[0-probabilities4]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_inference_rejects_invalid_class_indices_and_score_axes[0-probabilities5]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:280",
+      "description": "test_inference_rejects_invalid_class_indices_and_score_axes[0-probabilities5]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_artificial_protocol_is_explicit_and_cannot_be_used_as_the_approved_production_protocol",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:367",
+      "description": "test_artificial_protocol_is_explicit_and_cannot_be_used_as_the_approved_production_protocol"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_frozen_protocol_and_sources_fail_before_any_feature_table_parse[protocol_identity]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:375",
+      "description": "test_frozen_protocol_and_sources_fail_before_any_feature_table_parse[protocol_identity]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_frozen_protocol_and_sources_fail_before_any_feature_table_parse[model_bytes]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:375",
+      "description": "test_frozen_protocol_and_sources_fail_before_any_feature_table_parse[model_bytes]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_frozen_protocol_and_sources_fail_before_any_feature_table_parse[scorer_bytes]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:375",
+      "description": "test_frozen_protocol_and_sources_fail_before_any_feature_table_parse[scorer_bytes]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_frozen_protocol_and_sources_fail_before_any_feature_table_parse[data_bytes]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:375",
+      "description": "test_frozen_protocol_and_sources_fail_before_any_feature_table_parse[data_bytes]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_frozen_protocol_and_sources_fail_before_any_feature_table_parse[checkpoint_bindings]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:375",
+      "description": "test_frozen_protocol_and_sources_fail_before_any_feature_table_parse[checkpoint_bindings]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_immutable_output_writer_never_clobbers_an_existing_result",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:400",
+      "description": "test_immutable_output_writer_never_clobbers_an_existing_result"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_complete_artificial_execution_has_all_three_full_populations_and_real_metric_results",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:447",
+      "description": "test_complete_artificial_execution_has_all_three_full_populations_and_real_metric_results"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_preflight_failures_precede_population_and_feature_table_parsing[environment]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:476",
+      "description": "test_preflight_failures_precede_population_and_feature_table_parsing[environment]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_preflight_failures_precede_population_and_feature_table_parsing[model_identity]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:476",
+      "description": "test_preflight_failures_precede_population_and_feature_table_parsing[model_identity]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_preflight_failures_precede_population_and_feature_table_parsing[software_evidence]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:476",
+      "description": "test_preflight_failures_precede_population_and_feature_table_parsing[software_evidence]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_partial_failure_never_scores_a_subset_or_repeats_completed_inference[exception]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:509",
+      "description": "test_partial_failure_never_scores_a_subset_or_repeats_completed_inference[exception]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_partial_failure_never_scores_a_subset_or_repeats_completed_inference[invalid_prediction]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:509",
+      "description": "test_partial_failure_never_scores_a_subset_or_repeats_completed_inference[invalid_prediction]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_partial_failure_never_scores_a_subset_or_repeats_completed_inference[interruption]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:509",
+      "description": "test_partial_failure_never_scores_a_subset_or_repeats_completed_inference[interruption]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_tampered_completed_prediction_blocks_reuse_before_new_inference",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:540",
+      "description": "test_tampered_completed_prediction_blocks_reuse_before_new_inference"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_native_yes_no_eligibility_convention_keeps_excluded_records_out",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:553",
+      "description": "test_native_yes_no_eligibility_convention_keeps_excluded_records_out"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_benchmark_target_is_authoritative_even_when_original_source_label_differs",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:565",
+      "description": "test_benchmark_target_is_authoritative_even_when_original_source_label_differs"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_different_existing_public_summary_blocks_before_any_new_predictions",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:577",
+      "description": "test_different_existing_public_summary_blocks_before_any_new_predictions"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[missing]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:589",
+      "description": "test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[missing]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[extra]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:589",
+      "description": "test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[extra]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[duplicate_id]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:589",
+      "description": "test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[duplicate_id]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[unexpected_id]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:589",
+      "description": "test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[unexpected_id]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[input_hash]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:589",
+      "description": "test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[input_hash]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[group]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:589",
+      "description": "test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[group]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[label]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:589",
+      "description": "test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[label]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[receipt_identity]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:589",
+      "description": "test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[receipt_identity]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[receipt_family]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:589",
+      "description": "test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[receipt_family]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[record_family]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:589",
+      "description": "test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[record_family]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[record_release]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:589",
+      "description": "test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[record_release]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[record_scope]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:589",
+      "description": "test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[record_scope]"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_finished_public_summary_is_bound_on_zero_inference_reuse",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:619",
+      "description": "test_finished_public_summary_is_bound_on_zero_inference_reuse"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_frozen_numerical_runtime_is_restored_before_cuda_work_and_mismatches_rejected[None]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:634",
+      "description": "A fake Torch API checks control ordering without loading Torch or any model."
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_frozen_numerical_runtime_is_restored_before_cuda_work_and_mismatches_rejected[cuda_build]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:634",
+      "description": "A fake Torch API checks control ordering without loading Torch or any model."
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_frozen_numerical_runtime_is_restored_before_cuda_work_and_mismatches_rejected[hardware]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:634",
+      "description": "A fake Torch API checks control ordering without loading Torch or any model."
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_frozen_numerical_runtime_is_restored_before_cuda_work_and_mismatches_rejected[initialized_workspace]",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_evaluation.py:634",
+      "description": "A fake Torch API checks control ordering without loading Torch or any model."
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_reports.py::test_reports_keep_complete_order_precision_and_deterministic_errors",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_reports.py:56",
+      "description": "test_reports_keep_complete_order_precision_and_deterministic_errors"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_reports.py::test_reports_reject_partial_or_misaligned_comparisons_before_output",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step32/test_classifier_test_reports.py:91",
+      "description": "test_reports_reject_partial_or_misaligned_comparisons_before_output"
+    }
+  ],
+  "phases": [
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_existing_application_gate_rejects_test_scope_without_inspecting_text",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0077948999824002385,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_existing_application_gate_rejects_test_scope_without_inspecting_text",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0004075000179000199,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_existing_application_gate_rejects_test_scope_without_inspecting_text",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.000125700025819242,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_real_frozen_field_preparation_keeps_name_only_and_unicode[  Synthetic\\t footwork - Side\\n to\\t side -Synthetic footwork\\n\\nSide to side-False]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0003301000106148422,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_real_frozen_field_preparation_keeps_name_only_and_unicode[  Synthetic\\t footwork - Side\\n to\\t side -Synthetic footwork\\n\\nSide to side-False]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00014540000120177865,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_real_frozen_field_preparation_keeps_name_only_and_unicode[  Synthetic\\t footwork - Side\\n to\\t side -Synthetic footwork\\n\\nSide to side-False]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00010080001084133983,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_real_frozen_field_preparation_keeps_name_only_and_unicode[Fictional drill-None-Fictional drill-True]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00026020000223070383,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_real_frozen_field_preparation_keeps_name_only_and_unicode[Fictional drill-None-Fictional drill-True]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 7.070001447573304e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_real_frozen_field_preparation_keeps_name_only_and_unicode[Fictional drill-None-Fictional drill-True]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.440000237897038e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_real_frozen_field_preparation_keeps_name_only_and_unicode[Fictional drill- N/A -Fictional drill-True]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00026299996534362435,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_real_frozen_field_preparation_keeps_name_only_and_unicode[Fictional drill- N/A -Fictional drill-True]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 7.380003808066249e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_real_frozen_field_preparation_keeps_name_only_and_unicode[Fictional drill- N/A -Fictional drill-True]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.059997344389558e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_real_frozen_field_preparation_keeps_name_only_and_unicode[\\uff23af\\xe9 \\u03a9-unknown \\U0001f3c0-\\uff23af\\xe9 \\u03a9\\n\\nunknown \\U0001f3c0-False]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00025679997634142637,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_real_frozen_field_preparation_keeps_name_only_and_unicode[\\uff23af\\xe9 \\u03a9-unknown \\U0001f3c0-\\uff23af\\xe9 \\u03a9\\n\\nunknown \\U0001f3c0-False]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 8.259998867288232e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_real_frozen_field_preparation_keeps_name_only_and_unicode[\\uff23af\\xe9 \\u03a9-unknown \\U0001f3c0-\\uff23af\\xe9 \\u03a9\\n\\nunknown \\U0001f3c0-False]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.249998791143298e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_real_frozen_field_preparation_rejects_invalid_fields[-None]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0001993000041693449,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_real_frozen_field_preparation_rejects_invalid_fields[-None]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 8.349999552592635e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_real_frozen_field_preparation_rejects_invalid_fields[-None]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.379997987300158e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_real_frozen_field_preparation_rejects_invalid_fields[NONE-description]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002106999745592475,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_real_frozen_field_preparation_rejects_invalid_fields[NONE-description]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 7.650000043213367e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_real_frozen_field_preparation_rejects_invalid_fields[NONE-description]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.690000347793102e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_real_frozen_field_preparation_rejects_invalid_fields[None-detail]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00019180000526830554,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_real_frozen_field_preparation_rejects_invalid_fields[None-detail]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 6.390002090483904e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_real_frozen_field_preparation_rejects_invalid_fields[None-detail]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.24999699741602e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_real_frozen_field_preparation_rejects_invalid_fields[name-4]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00020409998251125216,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_real_frozen_field_preparation_rejects_invalid_fields[name-4]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 7.6299998909235e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_real_frozen_field_preparation_rejects_invalid_fields[name-4]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.240002742037177e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_frozen_scorer_retains_all_sixteen_classes_and_zero_division",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 6.839410800021142,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_frozen_scorer_retains_all_sixteen_classes_and_zero_division",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.1451554999803193,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_frozen_scorer_retains_all_sixteen_classes_and_zero_division",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013129995204508305,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_real_frozen_scorer_refuses_silent_alignment_or_unknown_labels",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00021329999435693026,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_real_frozen_scorer_refuses_silent_alignment_or_unknown_labels",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0001018000184558332,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_real_frozen_scorer_refuses_silent_alignment_or_unknown_labels",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.559999357908964e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_neural_encoding_preserves_unknown_and_empty_token_rows",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.005476200021803379,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_neural_encoding_preserves_unknown_and_empty_token_rows",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0001379000023007393,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_neural_encoding_preserves_unknown_and_empty_token_rows",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.42000187933445e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_real_low_level_logistic_route_keeps_all_zero_tfidf_input",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0001984999980777502,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_real_low_level_logistic_route_keeps_all_zero_tfidf_input",
+      "phase": "call",
+      "outcome": "failed",
+      "duration_seconds": 0.2477394999586977,
+      "expected_failure": false,
+      "detail": "frozen_api = <module 'step32_frozen_inference_api' from 'C:\\\\Users\\\\samta\\\\Documents\\\\champion-athletic-map\\\\artifacts\\\\classifiers\\\\exercise-classifier-4f6b6f435ef52fef8f4cca6d\\\\src\\\\champion_athletic_map\\\\classifier_inference.py'>\ntext_api = <module 'step32_frozen_text_api' from 'C:\\\\Users\\\\samta\\\\Documents\\\\champion-athletic-map\\\\src\\\\champion_athletic_map\\\\text_preprocessing.py'>\n\n    \u001b[0m\u001b[94mdef\u001b[39;49;00m\u001b[90m \u001b[39;49;00m\u001b[92mtest_real_low_level_logistic_route_keeps_all_zero_tfidf_input\u001b[39;49;00m(frozen_api, text_api):\u001b[90m\u001b[39;49;00m\n        \u001b[94mimport\u001b[39;49;00m\u001b[90m \u001b[39;49;00m\u001b[04m\u001b[96mnumpy\u001b[39;49;00m\u001b[90m \u001b[39;49;00m\u001b[94mas\u001b[39;49;00m\u001b[90m \u001b[39;49;00m\u001b[04m\u001b[96mnp\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n        \u001b[94mfrom\u001b[39;49;00m\u001b[90m \u001b[39;49;00m\u001b[04m\u001b[96msklearn\u001b[39;49;00m\u001b[04m\u001b[96m.\u001b[39;49;00m\u001b[04m\u001b[96mfeature_extraction\u001b[39;49;00m\u001b[04m\u001b[96m.\u001b[39;49;00m\u001b[04m\u001b[96mtext\u001b[39;49;00m\u001b[90m \u001b[39;49;00m\u001b[94mimport\u001b[39;49;00m TfidfVectorizer\u001b[90m\u001b[39;49;00m\n        \u001b[94mfrom\u001b[39;49;00m\u001b[90m \u001b[39;49;00m\u001b[04m\u001b[96msklearn\u001b[39;49;00m\u001b[04m\u001b[96m.\u001b[39;49;00m\u001b[04m\u001b[96mlinear_model\u001b[39;49;00m\u001b[90m \u001b[39;49;00m\u001b[94mimport\u001b[39;49;00m LogisticRegression\u001b[90m\u001b[39;49;00m\n        \u001b[94mfrom\u001b[39;49;00m\u001b[90m \u001b[39;49;00m\u001b[04m\u001b[96msklearn\u001b[39;49;00m\u001b[04m\u001b[96m.\u001b[39;49;00m\u001b[04m\u001b[96mpipeline\u001b[39;49;00m\u001b[90m \u001b[39;49;00m\u001b[94mimport\u001b[39;49;00m Pipeline\u001b[90m\u001b[39;49;00m\n        examples = [\u001b[33m\"\u001b[39;49;00m\u001b[33martificialtoken\u001b[39;49;00m\u001b[33m\"\u001b[39;49;00m + \u001b[96mstr\u001b[39;49;00m(index) \u001b[94mfor\u001b[39;49;00m index \u001b[95min\u001b[39;49;00m \u001b[96mrange\u001b[39;49;00m(\u001b[94m16\u001b[39;49;00m)]\u001b[90m\u001b[39;49;00m\n        model = Pipeline([(\u001b[33m\"\u001b[39;49;00m\u001b[33mtfidf\u001b[39;49;00m\u001b[33m\"\u001b[39;49;00m, TfidfVectorizer(tokenizer=text_api.tokenize_canonical_text,\u001b[90m\u001b[39;49;00m\n            lowercase=\u001b[94mFalse\u001b[39;49;00m, token_pattern=\u001b[94mNone\u001b[39;49;00m)), (\u001b[33m\"\u001b[39;49;00m\u001b[33mclassifier\u001b[39;49;00m\u001b[33m\"\u001b[39;49;00m, LogisticRegression(max_iter=\u001b[94m200\u001b[39;49;00m))])\u001b[90m\u001b[39;49;00m\n        model.fit(examples, np.arange(\u001b[94m16\u001b[39;49;00m))\u001b[90m\u001b[39;49;00m\n        handle = {\u001b[33m\"\u001b[39;49;00m\u001b[33mfamily\u001b[39;49;00m\u001b[33m\"\u001b[39;49;00m: \u001b[33m\"\u001b[39;49;00m\u001b[33mlogistic_regression\u001b[39;49;00m\u001b[33m\"\u001b[39;49;00m, \u001b[33m\"\u001b[39;49;00m\u001b[33mmodel\u001b[39;49;00m\u001b[33m\"\u001b[39;49;00m: model, \u001b[33m\"\u001b[39;49;00m\u001b[33mclass_order\u001b[39;49;00m\u001b[33m\"\u001b[39;49;00m: examples}\u001b[90m\u001b[39;49;00m\n        flags = {}\u001b[90m\u001b[39;49;00m\n>       index, probabilities, logits = frozen_api._prediction_sklearn(handle, \u001b[33m\"\u001b[39;49;00m\u001b[33mtotally_unseen_æ_名字\u001b[39;49;00m\u001b[33m\"\u001b[39;49;00m, flags)\u001b[90m\u001b[39;49;00m\n                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\u001b[90m\u001b[39;49;00m\n\n\u001b[1m\u001b[31mtests\\step32\\test_classifier_test_evaluation.py\u001b[0m:144: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nhandle = {'family': 'logistic_regression', 'model': Pipeline(steps=[('tfidf',\n                 TfidfVectorizer(lowercase=False,...icialtoken0', 'artificialtoken1', 'artificialtoken2', 'artificialtoken3', 'artificialtoken4', 'artificialtoken5', ...]}\ncanonical = 'totally_unseen_æ_名字'\nflags = {'tfidf_zero_vector': True, 'tfidf_nonzero_features': 0, 'empty_tokens': None}\n\n    \u001b[0m\u001b[94mdef\u001b[39;49;00m\u001b[90m \u001b[39;49;00m\u001b[92m_prediction_sklearn\u001b[39;49;00m(handle, canonical, flags):\u001b[90m\u001b[39;49;00m\n    \u001b[90m    \u001b[39;49;00m\u001b[33m\"\"\"Transform once, then reuse the same feature row for labels and scores.\"\"\"\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n        \u001b[94mimport\u001b[39;49;00m\u001b[90m \u001b[39;49;00m\u001b[04m\u001b[96moperator\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n        \u001b[94mimport\u001b[39;49;00m\u001b[90m \u001b[39;49;00m\u001b[04m\u001b[96mnumpy\u001b[39;49;00m\u001b[90m \u001b[39;49;00m\u001b[94mas\u001b[39;49;00m\u001b[90m \u001b[39;49;00m\u001b[04m\u001b[96mnp\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n    \u001b[90m\u001b[39;49;00m\n        family, model, class_count = handle[\u001b[33m\"\u001b[39;49;00m\u001b[33mfamily\u001b[39;49;00m\u001b[33m\"\u001b[39;49;00m], handle[\u001b[33m\"\u001b[39;49;00m\u001b[33mmodel\u001b[39;49;00m\u001b[33m\"\u001b[39;49;00m], \u001b[96mlen\u001b[39;49;00m(handle[\u001b[33m\"\u001b[39;49;00m\u001b[33mclass_order\u001b[39;49;00m\u001b[33m\"\u001b[39;49;00m])\u001b[90m\u001b[39;49;00m\n        \u001b[94mif\u001b[39;49;00m family == \u001b[33m\"\u001b[39;49;00m\u001b[33mlogistic_regression\u001b[39;49;00m\u001b[33m\"\u001b[39;49;00m:\u001b[90m\u001b[39;49;00m\n            \u001b[94mif\u001b[39;49;00m \u001b[95mnot\u001b[39;49;00m \u001b[96mhasattr\u001b[39;49;00m(model, \u001b[33m\"\u001b[39;49;00m\u001b[33msteps\u001b[39;49;00m\u001b[33m\"\u001b[39;49;00m) \u001b[95mor\u001b[39;49;00m \u001b[96mlen\u001b[39;49;00m(model.steps) < \u001b[94m2\u001b[39;49;00m:\u001b[90m\u001b[39;49;00m\n                \u001b[94mraise\u001b[39;49;00m \u001b[96mValueError\u001b[39;49;00m(\u001b[33m\"\u001b[39;49;00m\u001b[33mselected_logistic_artifact_is_not_a_complete_pipeline\u001b[39;49;00m\u001b[33m\"\u001b[39;49;00m)\u001b[90m\u001b[39;49;00m\n            features = model[:-\u001b[94m1\u001b[39;49;00m].transform([canonical])\u001b[90m\u001b[39;49;00m\n            classifier = model.steps[-\u001b[94m1\u001b[39;49;00m][\u001b[94m1\u001b[39;49;00m]\u001b[90m\u001b[39;49;00m\n            \u001b[94mif\u001b[39;49;00m \u001b[95mnot\u001b[39;49;00m \u001b[96mhasattr\u001b[39;49;00m(features, \u001b[33m\"\u001b[39;49;00m\u001b[33mshape\u001b[39;49;00m\u001b[33m\"\u001b[39;49;00m) \u001b[95mor\u001b[39;49;00m \u001b[96mlen\u001b[39;49;00m(features.shape) != \u001b[94m2\u001b[39;49;00m \u001b[95mor\u001b[39;49;00m features.shape[\u001b[94m0\u001b[39;49;00m] != \u001b[94m1\u001b[39;49;00m:\u001b[90m\u001b[39;49;00m\n                \u001b[94mraise\u001b[39;49;00m \u001b[96mValueError\u001b[39;49;00m(\u001b[33m\"\u001b[39;49;00m\u001b[33mtfidf_transform_did_not_keep_one_input_row\u001b[39;49;00m\u001b[33m\"\u001b[39;49;00m)\u001b[90m\u001b[39;49;00m\n            stored_values = features.data \u001b[94mif\u001b[39;49;00m \u001b[96mhasattr\u001b[39;49;00m(features, \u001b[33m\"\u001b[39;49;00m\u001b[33mgetnnz\u001b[39;49;00m\u001b[33m\"\u001b[39;49;00m) \u001b[94melse\u001b[39;49;00m np.asarray(features)\u001b[90m\u001b[39;49;00m\n            \u001b[94mif\u001b[39;49;00m \u001b[95mnot\u001b[39;49;00m \u001b[96mbool\u001b[39;49;00m(np.isfinite(stored_values).all()):\u001b[90m\u001b[39;49;00m\n                \u001b[94mraise\u001b[39;49;00m \u001b[96mValueError\u001b[39;49;00m(\u001b[33m\"\u001b[39;49;00m\u001b[33mtfidf_transform_produced_nonfinite_features\u001b[39;49;00m\u001b[33m\"\u001b[39;49;00m)\u001b[90m\u001b[39;49;00m\n            nonzero = \u001b[96mint\u001b[39;49;00m(features.getnnz()) \u001b[94mif\u001b[39;49;00m \u001b[96mhasattr\u001b[39;49;00m(features, \u001b[33m\"\u001b[39;49;00m\u001b[33mgetnnz\u001b[39;49;00m\u001b[33m\"\u001b[39;49;00m) \u001b[94melse\u001b[39;49;00m \u001b[96mint\u001b[39;49;00m(np.count_nonzero(features))\u001b[90m\u001b[39;49;00m\n            flags[\u001b[33m\"\u001b[39;49;00m\u001b[33mtfidf_zero_vector\u001b[39;49;00m\u001b[33m\"\u001b[39;49;00m] = nonzero == \u001b[94m0\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n            flags[\u001b[33m\"\u001b[39;49;00m\u001b[33mtfidf_nonzero_features\u001b[39;49;00m\u001b[33m\"\u001b[39;49;00m] = nonzero\u001b[90m\u001b[39;49;00m\n            \u001b[90m# A zero vector may reflect filtering or vocabulary coverage. It does\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n            \u001b[90m# not justify a second normalization/tokenization pass to infer why.\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n            flags[\u001b[33m\"\u001b[39;49;00m\u001b[33mempty_tokens\u001b[39;49;00m\u001b[33m\"\u001b[39;49;00m] = \u001b[94mNone\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n        \u001b[94melif\u001b[39;49;00m family == \u001b[33m\"\u001b[39;49;00m\u001b[33mmajority\u001b[39;49;00m\u001b[33m\"\u001b[39;49;00m:\u001b[90m\u001b[39;49;00m\n            classifier, features = model, [canonical]\u001b[90m\u001b[39;49;00m\n            flags[\u001b[33m\"\u001b[39;49;00m\u001b[33mconstant_training_majority_prediction\u001b[39;49;00m\u001b[33m\"\u001b[39;49;00m] = \u001b[94mTrue\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n        \u001b[94melse\u001b[39;49;00m:\u001b[90m\u001b[39;49;00m\n            \u001b[94mraise\u001b[39;49;00m \u001b[96mValueError\u001b[39;49;00m(\u001b[33m\"\u001b[39;49;00m\u001b[33munsupported_sklearn_model_family\u001b[39;49;00m\u001b[33m\"\u001b[39;49;00m)\u001b[90m\u001b[39;49;00m\n        _prediction_class_indices(classifier, class_count)\u001b[90m\u001b[39;49;00m\n        predicted = np.asarray(classifier.predict(features))\u001b[90m\u001b[39;49;00m\n        \u001b[94mif\u001b[39;49;00m predicted.shape != (\u001b[94m1\u001b[39;49;00m,):\u001b[90m\u001b[39;49;00m\n            \u001b[94mraise\u001b[39;49;00m \u001b[96mValueError\u001b[39;49;00m(\u001b[33m\"\u001b[39;49;00m\u001b[33mclassifier_prediction_did_not_keep_one_input_row\u001b[39;49;00m\u001b[33m\"\u001b[39;49;00m)\u001b[90m\u001b[39;49;00m\n        \u001b[94mtry\u001b[39;49;00m:\u001b[90m\u001b[39;49;00m\n            index = operator.index(predicted.tolist()[\u001b[94m0\u001b[39;49;00m])\u001b[90m\u001b[39;49;00m\n        \u001b[94mexcept\u001b[39;49;00m \u001b[96mTypeError\u001b[39;49;00m:\u001b[90m\u001b[39;49;00m\n            \u001b[94mraise\u001b[39;49;00m \u001b[96mValueError\u001b[39;49;00m(\u001b[33m\"\u001b[39;49;00m\u001b[33mclassifier_prediction_is_not_an_integer_index\u001b[39;49;00m\u001b[33m\"\u001b[39;49;00m) \u001b[94mfrom\u001b[39;49;00m\u001b[90m \u001b[39;49;00m\u001b[94mNone\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n        \u001b[94mif\u001b[39;49;00m \u001b[96misinstance\u001b[39;49;00m(predicted.tolist()[\u001b[94m0\u001b[39;49;00m], (\u001b[96mbool\u001b[39;49;00m, np.bool_)) \u001b[95mor\u001b[39;49;00m \u001b[95mnot\u001b[39;49;00m \u001b[94m0\u001b[39;49;00m <= index < class_count:\u001b[90m\u001b[39;49;00m\n            \u001b[94mraise\u001b[39;49;00m \u001b[96mValueError\u001b[39;49;00m(\u001b[33m\"\u001b[39;49;00m\u001b[33mclassifier_prediction_is_outside_frozen_mapping\u001b[39;49;00m\u001b[33m\"\u001b[39;49;00m)\u001b[90m\u001b[39;49;00m\n        probabilities = _prediction_validate_probabilities(classifier.predict_proba(features), class_count)\u001b[90m\u001b[39;49;00m\n        \u001b[94mif\u001b[39;49;00m index != \u001b[96mint\u001b[39;49;00m(np.argmax(probabilities)):\u001b[90m\u001b[39;49;00m\n>           \u001b[94mraise\u001b[39;49;00m \u001b[96mValueError\u001b[39;49;00m(\u001b[33m\"\u001b[39;49;00m\u001b[33mclassifier_prediction_disagrees_with_probability_argmax\u001b[39;49;00m\u001b[33m\"\u001b[39;49;00m)\u001b[90m\u001b[39;49;00m\n\u001b[1m\u001b[31mE           ValueError: classifier_prediction_disagrees_with_probability_argmax\u001b[0m\n\n\u001b[1m\u001b[31martifacts\\classifiers\\exercise-classifier-4f6b6f435ef52fef8f4cca6d\\src\\champion_athletic_map\\classifier_inference.py\u001b[0m:538: ValueError"
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_real_low_level_logistic_route_keeps_all_zero_tfidf_input",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00020060001406818628,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_real_loader_dependency_gate_precedes_model_deserialization",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00025939999613910913,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_real_loader_dependency_gate_precedes_model_deserialization",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.010657000006176531,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_real_loader_dependency_gate_precedes_model_deserialization",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013350002700462937,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_selects_every_artificial_test_record_in_stable_id_order",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.014893800020217896,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_selects_every_artificial_test_record_in_stable_id_order",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.000331499963067472,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_selects_every_artificial_test_record_in_stable_id_order",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.770004544407129e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[duplicate]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00022109999554231763,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[duplicate]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00015490001533180475,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[duplicate]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.289999095723033e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[missing_group]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0001917000045068562,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[missing_group]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00012809998588636518,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[missing_group]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.599999662488699e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[lineage]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00017879996448755264,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[lineage]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0002528000040911138,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[lineage]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.950002327561378e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[invalid_eligibility]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00017219997243955731,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[invalid_eligibility]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00024399999529123306,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[invalid_eligibility]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.120003622025251e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[target]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00018660002388060093,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[target]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00032950000604614615,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[target]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.830001413822174e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[class_index]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00018989999080076814,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[class_index]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.000248999975156039,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[class_index]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.740000728517771e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[excluded_partition]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00019690004410222173,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[excluded_partition]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0002986000035889447,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[excluded_partition]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00017989997286349535,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[row_count]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002190999803133309,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[row_count]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00015189999248832464,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[row_count]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014369998825713992,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[support]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002194000408053398,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[support]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0002825999981723726,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[support]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.440000237897038e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[class_coverage]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00019880000036209822,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[class_coverage]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0002646999782882631,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_rejects_silent_drops_invalid_targets_and_wrong_frozen_counts[class_coverage]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.110003545880318e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_rejects_shared_group_between_training_and_test_before_alignment",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0001715999678708613,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_rejects_shared_group_between_training_and_test_before_alignment",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0003299000090919435,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_population_rejects_shared_group_between_training_and_test_before_alignment",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.740000728517771e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_catalog_alignment_uses_allowlisted_text_and_frozen_manifest_targets",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00016380002489313483,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_catalog_alignment_uses_allowlisted_text_and_frozen_manifest_targets",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0003914999542757869,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_catalog_alignment_uses_allowlisted_text_and_frozen_manifest_targets",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.09000339359045e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[missing]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00019230000907555223,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[missing]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00027980003505945206,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[missing]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.750002598389983e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[duplicate]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00019839999731630087,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[duplicate]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0002756000030785799,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[duplicate]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.690000347793102e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[extra]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00018510001245886087,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[extra]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0002749999985098839,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[extra]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.839995669201016e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[source_file]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00018159998580813408,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[source_file]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0002753000007942319,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[source_file]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.029997115954757e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[source_sha256]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0001936000189743936,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[source_sha256]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0002762000076472759,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[source_sha256]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.780001033097506e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[source_cleaned_record_position]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0003239000216126442,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[source_cleaned_record_position]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0005058000097051263,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[source_cleaned_record_position]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001344000338576734,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[preparation_version]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00031750003108754754,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[preparation_version]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0004940999788232148,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[preparation_version]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013599998783320189,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[split_group_id]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0003247000277042389,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[split_group_id]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0005077999667264521,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[split_group_id]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001430999836884439,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[target]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0003245000261813402,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[target]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0004881999921053648,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[target]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013719999697059393,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[text]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0003008999628946185,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[text]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0004955999902449548,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_catalog_alignment_rejects_changed_lineage_missing_records_and_feature_disagreement[text]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00012430001515895128,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_dedicated_inference_uses_low_level_saved_route_without_claiming_synthetic_scope",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002373000024817884,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_dedicated_inference_uses_low_level_saved_route_without_claiming_synthetic_scope",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.010244500008411705,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_dedicated_inference_uses_low_level_saved_route_without_claiming_synthetic_scope",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013209995813667774,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_inference_rejects_invalid_class_indices_and_score_axes[True-probabilities0]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00027870002668350935,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_inference_rejects_invalid_class_indices_and_score_axes[True-probabilities0]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 8.85000335983932e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_inference_rejects_invalid_class_indices_and_score_axes[True-probabilities0]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.3099992480129e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_inference_rejects_invalid_class_indices_and_score_axes[16-probabilities1]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00022260000696405768,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_inference_rejects_invalid_class_indices_and_score_axes[16-probabilities1]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 7.429998368024826e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_inference_rejects_invalid_class_indices_and_score_axes[16-probabilities1]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.869995897635818e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_inference_rejects_invalid_class_indices_and_score_axes[0-probabilities2]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00020589999621734023,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_inference_rejects_invalid_class_indices_and_score_axes[0-probabilities2]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 7.170002209022641e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_inference_rejects_invalid_class_indices_and_score_axes[0-probabilities2]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.240002742037177e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_inference_rejects_invalid_class_indices_and_score_axes[0-probabilities3]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0001867999671958387,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_inference_rejects_invalid_class_indices_and_score_axes[0-probabilities3]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 7.719994755461812e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_inference_rejects_invalid_class_indices_and_score_axes[0-probabilities3]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.399998139590025e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_inference_rejects_invalid_class_indices_and_score_axes[0-probabilities4]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00019729998894035816,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_inference_rejects_invalid_class_indices_and_score_axes[0-probabilities4]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 6.659998325631022e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_inference_rejects_invalid_class_indices_and_score_axes[0-probabilities4]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.250002818182111e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_inference_rejects_invalid_class_indices_and_score_axes[0-probabilities5]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00018590001855045557,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_inference_rejects_invalid_class_indices_and_score_axes[0-probabilities5]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 6.580003537237644e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_inference_rejects_invalid_class_indices_and_score_axes[0-probabilities5]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.51999905332923e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_artificial_protocol_is_explicit_and_cannot_be_used_as_the_approved_production_protocol",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.11652859998866916,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_artificial_protocol_is_explicit_and_cannot_be_used_as_the_approved_production_protocol",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.020048699981998652,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_artificial_protocol_is_explicit_and_cannot_be_used_as_the_approved_production_protocol",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00015440001152455807,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_frozen_protocol_and_sources_fail_before_any_feature_table_parse[protocol_identity]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.04845310002565384,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_frozen_protocol_and_sources_fail_before_any_feature_table_parse[protocol_identity]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.007345199992414564,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_frozen_protocol_and_sources_fail_before_any_feature_table_parse[protocol_identity]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.000145800004247576,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_frozen_protocol_and_sources_fail_before_any_feature_table_parse[model_bytes]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.04727499996079132,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_frozen_protocol_and_sources_fail_before_any_feature_table_parse[model_bytes]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.008745600003749132,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_frozen_protocol_and_sources_fail_before_any_feature_table_parse[model_bytes]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.000145800004247576,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_frozen_protocol_and_sources_fail_before_any_feature_table_parse[scorer_bytes]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.04042279999703169,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_frozen_protocol_and_sources_fail_before_any_feature_table_parse[scorer_bytes]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.009961599949747324,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_frozen_protocol_and_sources_fail_before_any_feature_table_parse[scorer_bytes]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014299998292699456,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_frozen_protocol_and_sources_fail_before_any_feature_table_parse[data_bytes]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.03515869996044785,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_frozen_protocol_and_sources_fail_before_any_feature_table_parse[data_bytes]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00841539999237284,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_frozen_protocol_and_sources_fail_before_any_feature_table_parse[data_bytes]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001433999859727919,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_frozen_protocol_and_sources_fail_before_any_feature_table_parse[checkpoint_bindings]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.03599709999980405,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_frozen_protocol_and_sources_fail_before_any_feature_table_parse[checkpoint_bindings]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.010821399977430701,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_frozen_protocol_and_sources_fail_before_any_feature_table_parse[checkpoint_bindings]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014619994908571243,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_immutable_output_writer_never_clobbers_an_existing_result",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.001061999995727092,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_immutable_output_writer_never_clobbers_an_existing_result",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.008852400002069771,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_immutable_output_writer_never_clobbers_an_existing_result",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001289999927394092,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_complete_artificial_execution_has_all_three_full_populations_and_real_metric_results",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.036501700000371784,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_complete_artificial_execution_has_all_three_full_populations_and_real_metric_results",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.25865209999028593,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_complete_artificial_execution_has_all_three_full_populations_and_real_metric_results",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014049996389076114,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_preflight_failures_precede_population_and_feature_table_parsing[environment]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.03591989999404177,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_preflight_failures_precede_population_and_feature_table_parsing[environment]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.021039599960204214,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_preflight_failures_precede_population_and_feature_table_parsing[environment]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001385000068694353,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_preflight_failures_precede_population_and_feature_table_parsing[model_identity]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.03541899996344,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_preflight_failures_precede_population_and_feature_table_parsing[model_identity]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.029064200003631413,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_preflight_failures_precede_population_and_feature_table_parsing[model_identity]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014349998673424125,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_preflight_failures_precede_population_and_feature_table_parsing[software_evidence]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.04727310000453144,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_preflight_failures_precede_population_and_feature_table_parsing[software_evidence]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.022371299972292036,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_preflight_failures_precede_population_and_feature_table_parsing[software_evidence]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014379998901858926,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_partial_failure_never_scores_a_subset_or_repeats_completed_inference[exception]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.04025180003372952,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_partial_failure_never_scores_a_subset_or_repeats_completed_inference[exception]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.07309670001268387,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_partial_failure_never_scores_a_subset_or_repeats_completed_inference[exception]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013639999087899923,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_partial_failure_never_scores_a_subset_or_repeats_completed_inference[invalid_prediction]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.03704429999925196,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_partial_failure_never_scores_a_subset_or_repeats_completed_inference[invalid_prediction]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.06755039998097345,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_partial_failure_never_scores_a_subset_or_repeats_completed_inference[invalid_prediction]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014110002666711807,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_partial_failure_never_scores_a_subset_or_repeats_completed_inference[interruption]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.03419249999569729,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_partial_failure_never_scores_a_subset_or_repeats_completed_inference[interruption]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0662795000243932,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_partial_failure_never_scores_a_subset_or_repeats_completed_inference[interruption]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001400999608449638,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_tampered_completed_prediction_blocks_reuse_before_new_inference",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.03459679998923093,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_tampered_completed_prediction_blocks_reuse_before_new_inference",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0988266000058502,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_tampered_completed_prediction_blocks_reuse_before_new_inference",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014289998216554523,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_native_yes_no_eligibility_convention_keeps_excluded_records_out",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00023110001347959042,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_native_yes_no_eligibility_convention_keeps_excluded_records_out",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0002959000412374735,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_native_yes_no_eligibility_convention_keeps_excluded_records_out",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.169998181983829e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_benchmark_target_is_authoritative_even_when_original_source_label_differs",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00017630000365898013,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_benchmark_target_is_authoritative_even_when_original_source_label_differs",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.000430900021456182,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_benchmark_target_is_authoritative_even_when_original_source_label_differs",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.54999928176403e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_different_existing_public_summary_blocks_before_any_new_predictions",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.034471600025426596,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_different_existing_public_summary_blocks_before_any_new_predictions",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.027705400018021464,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_different_existing_public_summary_blocks_before_any_new_predictions",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001680999994277954,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[missing]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0012635999592021108,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[missing]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.010917700012214482,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[missing]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001289999927394092,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[extra]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0009591999696567655,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[extra]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.012223500001709908,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[extra]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013049994595348835,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[duplicate_id]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.001014400040730834,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[duplicate_id]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.01579090004088357,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[duplicate_id]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001303000026382506,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[unexpected_id]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0010093000018969178,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[unexpected_id]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.016844699974171817,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[unexpected_id]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00012879999121651053,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[input_hash]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.001020299969241023,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[input_hash]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.013737800007220358,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[input_hash]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013510003918781877,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[group]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.001040700008161366,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[group]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.013084800040815026,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[group]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013179995585232973,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[label]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00100460002431646,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[label]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.013891900016460568,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[label]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013350002700462937,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[receipt_identity]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0010423000203445554,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[receipt_identity]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.010852399980649352,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[receipt_identity]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014810002176091075,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[receipt_family]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0011851000017486513,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[receipt_family]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.009803300024941564,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[receipt_family]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00012699997751042247,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[record_family]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0012224999954923987,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[record_family]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.011505700007546693,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[record_family]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013070000568404794,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[record_release]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.012001499999314547,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[record_release]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.011081599979661405,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[record_release]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013290002243593335,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[record_scope]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0010849999962374568,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[record_scope]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.011347400024533272,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_saved_prediction_join_rejects_incomplete_or_misaligned_output_without_subset_scoring[record_scope]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00012069998774677515,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_finished_public_summary_is_bound_on_zero_inference_reuse",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.03481909999391064,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_finished_public_summary_is_bound_on_zero_inference_reuse",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.09383329999400303,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_finished_public_summary_is_bound_on_zero_inference_reuse",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001333000254817307,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_frozen_numerical_runtime_is_restored_before_cuda_work_and_mismatches_rejected[None]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002519999979995191,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_frozen_numerical_runtime_is_restored_before_cuda_work_and_mismatches_rejected[None]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0001341000315733254,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_frozen_numerical_runtime_is_restored_before_cuda_work_and_mismatches_rejected[None]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.979998528957367e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_frozen_numerical_runtime_is_restored_before_cuda_work_and_mismatches_rejected[cuda_build]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00019489997066557407,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_frozen_numerical_runtime_is_restored_before_cuda_work_and_mismatches_rejected[cuda_build]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0003056999994441867,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_frozen_numerical_runtime_is_restored_before_cuda_work_and_mismatches_rejected[cuda_build]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00010820000898092985,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_frozen_numerical_runtime_is_restored_before_cuda_work_and_mismatches_rejected[hardware]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00022119999630376697,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_frozen_numerical_runtime_is_restored_before_cuda_work_and_mismatches_rejected[hardware]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00012849998893216252,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_frozen_numerical_runtime_is_restored_before_cuda_work_and_mismatches_rejected[hardware]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.890003664419055e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_frozen_numerical_runtime_is_restored_before_cuda_work_and_mismatches_rejected[initialized_workspace]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00019039999460801482,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_frozen_numerical_runtime_is_restored_before_cuda_work_and_mismatches_rejected[initialized_workspace]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00010390003444626927,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_evaluation.py::test_frozen_numerical_runtime_is_restored_before_cuda_work_and_mismatches_rejected[initialized_workspace]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.420000085607171e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_reports.py::test_reports_keep_complete_order_precision_and_deterministic_errors",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.021434900001622736,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_reports.py::test_reports_keep_complete_order_precision_and_deterministic_errors",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 3.127356300014071,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_reports.py::test_reports_keep_complete_order_precision_and_deterministic_errors",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014650000957772136,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_reports.py::test_reports_reject_partial_or_misaligned_comparisons_before_output",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.013549999974202365,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_reports.py::test_reports_reject_partial_or_misaligned_comparisons_before_output",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0009496999555267394,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step32/test_classifier_test_reports.py::test_reports_reject_partial_or_misaligned_comparisons_before_output",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00023780000628903508,
+      "expected_failure": false,
+      "detail": null
+    }
+  ],
+  "collection_errors": [],
+  "deselected": [],
+  "new_model_calls": 0,
+  "query_encoder_processes": 0,
+  "network_policy": "blocked_in_routine_tests",
+  "fixtures": "authored_public_examples"
+}

@@ -1,0 +1,117 @@
+{
+  "http_events": [
+    {
+      "elapsed_seconds": 0.01813,
+      "endpoint": "/api/version",
+      "http_status": 200,
+      "method": "GET",
+      "response_sha256": "d08fbf1a7a1f1d21f83de452346b795b32ecd448b8ad5479144768bcedd23665",
+      "status": "ok",
+      "timeout_seconds": 15
+    },
+    {
+      "elapsed_seconds": 0.019333,
+      "endpoint": "/api/tags",
+      "http_status": 200,
+      "method": "GET",
+      "response_sha256": "e17033770bf7ff7ff06a4f696eff9f2dd9713305370b94d9acbafe83a051849b",
+      "status": "ok",
+      "timeout_seconds": 15
+    },
+    {
+      "elapsed_seconds": 0.122616,
+      "endpoint": "/api/show",
+      "http_status": 200,
+      "method": "POST",
+      "response_sha256": "b3cecc49c2c972a8580077a1bb7e0856118c5c57af05acdb9da3af179194c71a",
+      "status": "ok",
+      "timeout_seconds": 15
+    },
+    {
+      "elapsed_seconds": 0.013669,
+      "endpoint": "/api/ps",
+      "http_status": 200,
+      "method": "GET",
+      "response_sha256": "a6fe9ec6e26a38d99fca418b69826e0238b7a2bb319ff05eb153a6fcfd1fa28d",
+      "status": "ok",
+      "timeout_seconds": 15
+    },
+    {
+      "elapsed_seconds": 0.021623,
+      "endpoint": "/api/tags",
+      "http_status": 200,
+      "method": "GET",
+      "response_sha256": "e17033770bf7ff7ff06a4f696eff9f2dd9713305370b94d9acbafe83a051849b",
+      "status": "ok",
+      "timeout_seconds": 15
+    },
+    {
+      "elapsed_seconds": 0.000754,
+      "endpoint": "/api/version",
+      "http_status": 200,
+      "method": "GET",
+      "response_sha256": "d08fbf1a7a1f1d21f83de452346b795b32ecd448b8ad5479144768bcedd23665",
+      "status": "ok",
+      "timeout_seconds": 15
+    }
+  ],
+  "observed_at_utc": "2026-11-13T15:35:37.541262+00:00",
+  "retry_count": 0,
+  "running_model_metadata_does_not_verify_our_future_request_offloading": true,
+  "schema_version": "step24-runtime-metadata-events-1",
+  "selected_running_models": [],
+  "selected_tag_after": {
+    "capabilities": [
+      "completion",
+      "tools"
+    ],
+    "details": {
+      "context_length": 131072,
+      "embedding_length": 4096,
+      "families": [
+        "llama"
+      ],
+      "family": "llama",
+      "format": "gguf",
+      "parameter_size": "8.0B",
+      "parent_model": "",
+      "quantization_level": "Q4_K_M",
+      "runner": "ggml"
+    },
+    "digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+    "model": "llama3.1:8b",
+    "modified_at": "2026-11-05T08:18:36.0100447-08:00",
+    "name": "llama3.1:8b",
+    "size": 4920753328
+  },
+  "selected_tag_before": {
+    "capabilities": [
+      "completion",
+      "tools"
+    ],
+    "details": {
+      "context_length": 131072,
+      "embedding_length": 4096,
+      "families": [
+        "llama"
+      ],
+      "family": "llama",
+      "format": "gguf",
+      "parameter_size": "8.0B",
+      "parent_model": "",
+      "quantization_level": "Q4_K_M",
+      "runner": "ggml"
+    },
+    "digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+    "model": "llama3.1:8b",
+    "modified_at": "2026-11-05T08:18:36.0100447-08:00",
+    "name": "llama3.1:8b",
+    "size": 4920753328
+  },
+  "version_after": {
+    "version": "0.40.16"
+  },
+  "version_before": {
+    "version": "0.40.16"
+  }
+}

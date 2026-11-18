@@ -1,0 +1,18 @@
+{
+  "queries": [
+    "Basketball practice; Give me an injury rehabilitation; goals [\"Improve defensive foot; experience {\"experience; equipment [\"Basketball\",\"Cones\",\"H; space single_hoop_; people 4",
+    "Youth basketball participation, rest and recovery; age 15; grade 10; commitments []; request Give me an injury rehabilitation program that"
+  ],
+  "query_records": [
+    {
+      "query_id": "retrieval-query:2455c168313242a16464cf0daecaba7a243e78c19821306d1c3df41e52cba85d",
+      "text": "Basketball practice; Give me an injury rehabilitation; goals [\"Improve defensive foot; experience {\"experience; equipment [\"Basketball\",\"Cones\",\"H; space single_hoop_; people 4",
+      "text_sha256": "21c543b8f1ade17e4c808456bc6d5de7600bcbfac1e8aa3fd3a769fed40e9b38"
+    },
+    {
+      "query_id": "retrieval-query:74716c304f3120d2abf4cb1b8749c9ac8f89c111b1f1bdc248416433e50e8032",
+      "text": "Youth basketball participation, rest and recovery; age 15; grade 10; commitments []; request Give me an injury rehabilitation program that",
+      "text_sha256": "90e4db8338e2afad7c4cc5fbd7d51e1e8678e01184ea61d1ec9b508c68d935e2"
+    }
+  ]
+}

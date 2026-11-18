@@ -1,0 +1,31 @@
+{
+  "analysis_of_saved_outputs_only": true,
+  "coded_measure_remains_separate": true,
+  "combined_quality_score": null,
+  "formal_significance_tests": false,
+  "frozen_primary_metric_changed": false,
+  "heldout_exposure_record": "Final800 replies, pilot findings and Step34 review were known before this implementation; no scores, cases, prompts or model selections are changed.",
+  "original_two_independent_reviewer_component_completed": false,
+  "pattern_source_check": "native_source_reopened_and_verified",
+  "planner_contrasts": [
+    "V2-V1",
+    "V3-V2",
+    "V4-V3",
+    "V4-V1"
+  ],
+  "planner_numerical_clarification": "Planner settings froze family-paired resampling, seed42,2000 individual-percentile resamples; generator, group ordering and interpolation were not explicit. At Step35 we record PCG64, sorted exact group IDs and linear percentiles, matching the already frozen classifier conventions. This clarification is after final-output exposure, not claimed to have been frozen for the planner.",
+  "planner_original_protocol_check": "reopened_and_verified",
+  "posthoc_new_passing_threshold": null,
+  "primary_planner_denominator": 150,
+  "recorded_on": "2026-11-17",
+  "resamples": 2000,
+  "retrieval_population_discrepancy_preserved": true,
+  "retrieval_population_policy": "Use actual frozen source support statuses and saved metric denominators; preserve early planned20/10 discrepancy without relabeling or rerunning.",
+  "review_policy": "One ChatGPT-assisted supplementary assessment under Sam delegation,40profiles/160replies/800entries. No independent teammate raters or agreement are invented.",
+  "schema_version": "step35-analysis-method-1",
+  "seed": 42,
+  "source_lookup_or_model_execution": false,
+  "timing_intervals_introduced": false,
+  "timing_summary_convention": "Median, mean, min/max and linear p95; these descriptive conventions are recorded at analysis time. All-terminal and completed populations kept separate.",
+  "wording_pattern_sensitivity": "Retain original14-group mapping; select feasible150 first, then group its members. Only3 original patterns are eligible (52/50/48); retain record-level weighting and multiplicity."
+}

@@ -1,0 +1,117 @@
+{
+  "cache_policy": "fresh_per_job; verified continuation reuses its original work",
+  "configuration_id": "52dfb5abc93e3017df8f02f588294b705e284c47f097d8d8efc5d9e7848ff622",
+  "job_id": "p31d_88d6bfee05772bb8_c10_v2",
+  "module_bindings": {
+    "src/champion_athletic_map/reference_context.py": "e9e7ee5bdd1f2ef28aa3edb03713a1439bc18614a92b88d85c2035552432542c",
+    "src/champion_athletic_map/reference_preparation.py": "50e27d8d5cd84313b1935ae3d6212e90bcb2a83177eab5b4cd1b4e8db788392c"
+  },
+  "policy_sha256": "2861c552121ab81f93560ac982c9db9223a28aff66f071a0acd93d38133359c5",
+  "public_input_sha256": "5e855859db01b7901148c13fac7dc671539f5c01cd448f0321a0c5debf952edf",
+  "public_record": {
+    "input": {
+      "age": 15,
+      "athlete_request": "I want two extra basketball sessions for this week, focused on this goal: Improve ball control. Please account for the commitments and limits I provided.",
+      "availability": [
+        {
+          "date": "2026-11-21",
+          "end_time": "17:15",
+          "start_time": "17:00"
+        },
+        {
+          "date": "2026-11-22",
+          "end_time": "17:15",
+          "start_time": "17:00"
+        }
+      ],
+      "basketball_background": {
+        "experience_level": "intermediate",
+        "reported_skill_level": "Consistency drops when combining familiar skills."
+      },
+      "equipment": [
+        {
+          "name": "Basketball",
+          "quantity": 1
+        },
+        {
+          "name": "Cones",
+          "quantity": 4
+        }
+      ],
+      "existing_commitments": [
+        {
+          "activity_kind": "practice",
+          "activity_type": "organized_basketball",
+          "date": "2026-11-16",
+          "description": "Basketball practice",
+          "end_time": "16:30",
+          "sport": "Basketball",
+          "start_time": "15:30"
+        },
+        {
+          "activity_kind": "practice",
+          "activity_type": "organized_basketball",
+          "date": "2026-11-19",
+          "description": "Basketball practice",
+          "end_time": "16:30",
+          "sport": "Basketball",
+          "start_time": "15:30"
+        }
+      ],
+      "goals": [
+        "Improve ball control"
+      ],
+      "participants_available": 2,
+      "planning_window": {
+        "end_date": "2026-11-22",
+        "start_date": "2026-11-16",
+        "timezone": "America/Los_Angeles"
+      },
+      "reported_limitations": [],
+      "schedule_coverage": {
+        "end_date": "2026-11-22",
+        "existing_commitments_complete": true,
+        "start_date": "2026-11-16",
+        "timezone": "America/Los_Angeles"
+      },
+      "school_grade": 10,
+      "space": {
+        "court_access": "none",
+        "hoop_access": false,
+        "restrictions": [
+          "Only one participant may move in the marked practice rectangle at a time.",
+          "Other participants wait in the designated waiting area between turns."
+        ],
+        "usable_area_description": "Clear, level practice rectangle 6 m long and 4 m wide, with a separate designated waiting area. No court or hoop."
+      },
+      "time_limits": {
+        "max_additional_minutes_per_week": 30,
+        "max_additional_sessions_per_week": 2,
+        "max_session_minutes": 15
+      }
+    },
+    "profile_id": "athlete:39baf7f3bdca5662874c308a",
+    "schema_version": "athlete-profile-input-2"
+  },
+  "query_runtime_configuration_sha256": "2b4736babf13c86cf1ba56054fb614861439d56730ccd8e955ff165bad8eeca9",
+  "schema_sha256": "a0f87a6932f16ca8001111729470e19a0aeb41127f84bac68ecda5f7d612a684",
+  "schema_version": "pilot-fresh-references-1",
+  "source_bindings": {
+    "artifacts/language_model/active_resource_release.json": "b05bfd994b9d722e6179ee2a3e2136975118a51468eb490bec166c231f15303b",
+    "artifacts/language_model/approved_resources/team-approved-f0dcb9e9943e381b/adopted_drills.json": "32ee86843189f03aa6d02270313c2b4b84ebb0f221f4561b938b62c50d90368f",
+    "artifacts/language_model/approved_resources/team-approved-f0dcb9e9943e381b/adopted_rules.json": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b",
+    "artifacts/language_model/approved_resources/team-approved-f0dcb9e9943e381b/decisions.json": "1b30e7607f26c9c451bce921ce623b622a8342a1978a624b2f9a0daba8fce4a2",
+    "artifacts/language_model/approved_resources/team-approved-f0dcb9e9943e381b/manifest.json": "d048af8432bfc339a2504460cbbdbca7011745774d92f0024aa15148dc55db6b",
+    "artifacts/language_model/shared_contracts/contracts_3293242853ce2cf7/step24_7_shared_contract_summary.json": "519362b211147f88651839f4001ea63bd4e01e77698c93538f985e6dbaca8da9",
+    "artifacts/language_model/shared_contracts/contracts_3293242853ce2cf7/verified_inputs.json": "a32910d258af3c4b829594c568a84a4b5a353c6a5a985f3658dacff58639ad0d",
+    "artifacts/retrieval/query_runtime/query_f6db9aad37d7a9b9/query_runtime_manifest.json": "8daf73c245153a4fdfbf6282b4d6ff56d3dd42cf0013ffc9c7579c80bce10166",
+    "data/processed/usda_sr_legacy_2018_04/reference_ee67cf780262d24b/step14_food_reference_summary.json": "ee67cf780262d24bf02bcc7230104e65bcbfe6508b44f3c36eb03100d85295af",
+    "data/processed/usda_sr_legacy_2018_04/reference_ee67cf780262d24b/usda_food_reference.py": "b665381f328e9ebfefbe8c42ef01e6905a7085dc4789290939194b4488b69136",
+    "data/unified/v1/READ_ME_FIRST.txt": "780d9adde210fadc443bb70e9fde9b0b278233bee937926d52d6bbd521bd1504",
+    "data/unified/v1/champions_unified_dataset.csv": "ee8903644570bc158440821e7b307aa6a4c5277b9070c724faf59119848ba625",
+    "data/unified/v1/dataset_manifest.json": "21e56bbef6151a2aa4cdef4af6aba7a2a156aaf811714198d9afdb5615a06de2",
+    "data/unified/v1/load_unified_dataset.py": "69af88c450180cc70af260798cb5cb081aee086e2bf79bca06998b13db2b1668",
+    "results/step24_language_model_integration_summary.json": "37961c8189167a2889ad9dfb4fc1801d3b1e6fd9c1cb28aeee82e56b0c89db06",
+    "src/champion_athletic_map/reference_tools.py": "6e2125f4a4b21ffc44ee8d6180f81dc10bfccd223fff398913b205cc9b4bc132"
+  }
+}

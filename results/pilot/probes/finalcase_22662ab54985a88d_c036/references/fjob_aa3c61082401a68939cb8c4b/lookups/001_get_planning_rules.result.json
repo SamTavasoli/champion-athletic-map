@@ -1,0 +1,1443 @@
+{
+  "data": {
+    "adopted_rule_count": 29,
+    "available_rule_count": 23,
+    "current_public_input_gaps": [
+      "No explicit schedule-completeness field; no automatic Met from a missing activity list.",
+      "Sleep history is a nightly average, not a daily 24-hour report.",
+      "Annual history lacks a month-counting convention."
+    ],
+    "matched_population_count": 23,
+    "not_applicable_rule_ids": [
+      "NBA_A12_14_MAX_HOURS",
+      "NBA_A12_14_MIN_REST",
+      "NBA_A13_14_SLEEP",
+      "NBA_A12_14_PRACTICE_LENGTH",
+      "NBA_A12_14_PRACTICES",
+      "NBA_A12_14_GAMES_WEEK"
+    ],
+    "project_overlap_policy": {
+      "advisory_ranges": "Show applicable contextual guidance; do not invent a precedence rule or turn recommended lower values into required minimum training.",
+      "origin": "team_adopted_project_policy_not_publisher_precedence",
+      "overlapping_required_bounds": "Use the most restrictive supported applicable bound as one conceptual check; do not score aliases twice. Age 14/grade 9 therefore uses 600 minutes for this prototype.",
+      "policy_id": "PROJECT_NBA_OVERLAP_CONSERVATIVE_V1",
+      "population_matching": "Match reported age category and separately reported grade category. Never infer grade from age. Project scope is 13–17.",
+      "unknown_grade": "A known applicable age-based bound remains usable; age 15–17 with unknown grade does not establish a grade-based rule."
+    },
+    "rules": [
+      {
+        "applicability": {
+          "overlap_policy": "PROJECT_NBA_OVERLAP_CONSERVATIVE_V1",
+          "project_age_max": 17,
+          "project_age_min": 13,
+          "source_conditions": {
+            "age_max": null,
+            "age_min": null,
+            "grade_max": 12,
+            "grade_min": 9
+          }
+        },
+        "applicability_assessment": {
+          "basis": "Population scope only; request mode, complete schedule and other required inputs remain unassessed.",
+          "known_outside_scope_inputs": [],
+          "missing_scope_inputs": [],
+          "status": "matched"
+        },
+        "candidate_rule_id": "NBA_G9_12_MAX_HOURS",
+        "corrections_and_qualifications": [
+          "Publisher category facts are retained; overlap resolution is PROJECT_NBA_OVERLAP_CONSERVATIVE_V1, not asserted publisher precedence.",
+          "Count games, practices and focused structured basketball; exclude genuinely informal peer/self play. App-prescribed structured basketball counts by project policy.",
+          "Include known existing commitments. Components do not add time already inside a parent session. A cap is not a training target.",
+          "A known distinct-session lower bound above the cap establishes Violated. Met requires complete classified dated coverage; otherwise Unknown.",
+          "An explicit public schedule-completeness mechanism and checker implementation are needed before automatic Met results.",
+          "Retain concurrent-sport, multi-game and camp qualifications; the cap is not unconditional permission."
+        ],
+        "display_name": "Weekly basketball limit — grades 9–12",
+        "measurement_window": {
+          "end_field": "/planning_window/end_date",
+          "kind": "seven_consecutive_local_dates",
+          "policy_origin": "project_window_interpretation_not_publisher_window_definition",
+          "required_day_count": 7,
+          "start_field": "/planning_window/start_date",
+          "timezone_field": "/planning_window/timezone"
+        },
+        "missing_and_null_handling": {
+          "known_conflict": "A proven violation remains Violated even when other information is missing",
+          "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+          "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+          "not_applicable": "Only after population or request-mode exclusion is established"
+        },
+        "policy_origin": "published_guidance_with_explicit_project_interpretation",
+        "record_kind": "structured_reference",
+        "required_inputs": {
+          "measurement": [
+            "dated_complete_schedule",
+            "activity_classification",
+            "durations",
+            "session_component_links",
+            "other_sport_and_event_context"
+          ],
+          "population": [
+            "age",
+            "school_grade"
+          ],
+          "segment_resolution": [
+            "school_grade"
+          ]
+        },
+        "reviewed_enforcement": "required_prototype_constraint",
+        "reviewed_operator": "<=",
+        "reviewed_threshold": 840,
+        "reviewed_unit": "minutes/declared_seven_day_window",
+        "source_population_conditions": {
+          "age_max": null,
+          "age_min": null,
+          "grade_max": 12,
+          "grade_min": 9
+        },
+        "source_statement_values_typed": {
+          "published_maximum": 14
+        },
+        "source_unit": "hours/week",
+        "source_url": "https://youthguidelines.nba.com/"
+      },
+      {
+        "applicability": {
+          "overlap_policy": "PROJECT_NBA_OVERLAP_CONSERVATIVE_V1",
+          "project_age_max": 17,
+          "project_age_min": 13,
+          "source_conditions": {
+            "age_max": null,
+            "age_min": null,
+            "grade_max": 12,
+            "grade_min": 9
+          }
+        },
+        "applicability_assessment": {
+          "basis": "Population scope only; request mode, complete schedule and other required inputs remain unassessed.",
+          "known_outside_scope_inputs": [],
+          "missing_scope_inputs": [],
+          "status": "matched"
+        },
+        "candidate_rule_id": "NBA_G9_12_MIN_REST",
+        "corrections_and_qualifications": [
+          "Publisher category facts are retained; overlap resolution is PROJECT_NBA_OVERLAP_CONSERVATIVE_V1, not asserted publisher precedence.",
+          "A rest day has no organized basketball; other ordinary activity does not by itself cancel this basketball-specific rest day.",
+          "All seven dates known to contain organized basketball establishes Violated. A rest-day pass requires complete classified day coverage; otherwise Unknown.",
+          "Existing commitments and newly proposed sessions count together. Source scope differs from broader AAP sports-rest advice."
+        ],
+        "display_name": "Basketball rest day — grades 9–12",
+        "measurement_window": {
+          "end_field": "/planning_window/end_date",
+          "kind": "seven_consecutive_local_dates",
+          "policy_origin": "project_window_interpretation_not_publisher_window_definition",
+          "required_day_count": 7,
+          "start_field": "/planning_window/start_date",
+          "timezone_field": "/planning_window/timezone"
+        },
+        "missing_and_null_handling": {
+          "known_conflict": "A proven violation remains Violated even when other information is missing",
+          "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+          "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+          "not_applicable": "Only after population or request-mode exclusion is established"
+        },
+        "policy_origin": "published_guidance_with_explicit_project_interpretation",
+        "record_kind": "structured_reference",
+        "required_inputs": {
+          "measurement": [
+            "dated_complete_schedule",
+            "organized_basketball_days",
+            "existing_and_proposed_commitments"
+          ],
+          "population": [
+            "age",
+            "school_grade"
+          ],
+          "segment_resolution": [
+            "school_grade"
+          ]
+        },
+        "reviewed_enforcement": "required_prototype_constraint",
+        "reviewed_operator": ">=",
+        "reviewed_threshold": 1,
+        "reviewed_unit": "local_days/declared_seven_day_window",
+        "source_population_conditions": {
+          "age_max": null,
+          "age_min": null,
+          "grade_max": 12,
+          "grade_min": 9
+        },
+        "source_statement_values_typed": {
+          "published_minimum": 1
+        },
+        "source_unit": "days/week",
+        "source_url": "https://youthguidelines.nba.com/"
+      },
+      {
+        "applicability": {
+          "overlap_policy": "PROJECT_NBA_OVERLAP_CONSERVATIVE_V1",
+          "project_age_max": 17,
+          "project_age_min": 13,
+          "source_conditions": {
+            "age_max": null,
+            "age_min": null,
+            "grade_max": 12,
+            "grade_min": 9
+          }
+        },
+        "applicability_assessment": {
+          "basis": "Population scope only; request mode, complete schedule and other required inputs remain unassessed.",
+          "known_outside_scope_inputs": [],
+          "missing_scope_inputs": [],
+          "status": "matched"
+        },
+        "candidate_rule_id": "NBA_G9_12_SLEEP",
+        "corrections_and_qualifications": [
+          "Publisher category facts are retained; overlap resolution is PROJECT_NBA_OVERLAP_CONSERVATIVE_V1, not asserted publisher precedence.",
+          "Reported average_hours_per_night is not proof that every night met the range. Do not substitute it for a 24-hour daily total.",
+          "Use alongside the CDC record as contextual support, not an extra scored duplicate."
+        ],
+        "display_name": "Nightly sleep guidance — grades 9–12",
+        "measurement_window": "reported_night",
+        "missing_and_null_handling": {
+          "known_conflict": "A proven violation remains Violated even when other information is missing",
+          "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+          "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+          "not_applicable": "Only after population or request-mode exclusion is established"
+        },
+        "policy_origin": "published_guidance_with_explicit_project_interpretation",
+        "record_kind": "structured_reference",
+        "required_inputs": {
+          "measurement": [
+            "reported_sleep",
+            "reporting_dates",
+            "nightly_measurement_period"
+          ],
+          "population": [
+            "age",
+            "school_grade"
+          ],
+          "segment_resolution": [
+            "school_grade"
+          ]
+        },
+        "reviewed_enforcement": "advisory",
+        "reviewed_operator": "describe_nightly_recommended_range",
+        "reviewed_threshold": [
+          8,
+          10
+        ],
+        "reviewed_unit": "hours/night",
+        "source_population_conditions": {
+          "age_max": null,
+          "age_min": null,
+          "grade_max": 12,
+          "grade_min": 9
+        },
+        "source_statement_values_typed": {
+          "published_recommended_range": [
+            8,
+            10
+          ]
+        },
+        "source_unit": "hours/night",
+        "source_url": "https://youthguidelines.nba.com/"
+      },
+      {
+        "applicability": {
+          "overlap_policy": "PROJECT_NBA_OVERLAP_CONSERVATIVE_V1",
+          "project_age_max": 17,
+          "project_age_min": 13,
+          "source_conditions": {
+            "age_max": null,
+            "age_min": null,
+            "grade_max": 12,
+            "grade_min": 9
+          }
+        },
+        "applicability_assessment": {
+          "basis": "Population scope only; request mode, complete schedule and other required inputs remain unassessed.",
+          "known_outside_scope_inputs": [],
+          "missing_scope_inputs": [],
+          "status": "matched"
+        },
+        "candidate_rule_id": "NBA_G9_12_PRACTICE_LENGTH",
+        "corrections_and_qualifications": [
+          "Publisher category facts are retained; overlap resolution is PROJECT_NBA_OVERLAP_CONSERVATIVE_V1, not asserted publisher precedence.",
+          "Do not force recommended minimum frequency or duration when the user has less time, requests fewer sessions, or is organizing existing commitments.",
+          "Practice length applies to a whole practice, not each drill or a component warm-up. Game frequency recommendations do not replace daily-event qualifications."
+        ],
+        "display_name": "Practice length guidance — grades 9–12",
+        "measurement_window": "one_practice_session",
+        "missing_and_null_handling": {
+          "known_conflict": "A proven violation remains Violated even when other information is missing",
+          "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+          "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+          "not_applicable": "Only after population or request-mode exclusion is established"
+        },
+        "policy_origin": "published_guidance_with_explicit_project_interpretation",
+        "record_kind": "structured_reference",
+        "required_inputs": {
+          "measurement": [
+            "practice_session_ids",
+            "practice_durations"
+          ],
+          "population": [
+            "age",
+            "school_grade"
+          ],
+          "segment_resolution": [
+            "school_grade"
+          ]
+        },
+        "reviewed_enforcement": "advisory",
+        "reviewed_operator": "describe_recommended_value_or_range",
+        "reviewed_threshold": [
+          90,
+          120
+        ],
+        "reviewed_unit": "minutes/practice",
+        "source_population_conditions": {
+          "age_max": null,
+          "age_min": null,
+          "grade_max": 12,
+          "grade_min": 9
+        },
+        "source_statement_values_typed": {
+          "published_recommended_range": [
+            90,
+            120
+          ]
+        },
+        "source_unit": "minutes/practice",
+        "source_url": "https://youthguidelines.nba.com/"
+      },
+      {
+        "applicability": {
+          "overlap_policy": "PROJECT_NBA_OVERLAP_CONSERVATIVE_V1",
+          "project_age_max": 17,
+          "project_age_min": 13,
+          "source_conditions": {
+            "age_max": null,
+            "age_min": null,
+            "grade_max": 12,
+            "grade_min": 9
+          }
+        },
+        "applicability_assessment": {
+          "basis": "Population scope only; request mode, complete schedule and other required inputs remain unassessed.",
+          "known_outside_scope_inputs": [],
+          "missing_scope_inputs": [],
+          "status": "matched"
+        },
+        "candidate_rule_id": "NBA_G9_12_PRACTICES",
+        "corrections_and_qualifications": [
+          "Publisher category facts are retained; overlap resolution is PROJECT_NBA_OVERLAP_CONSERVATIVE_V1, not asserted publisher precedence.",
+          "Do not force recommended minimum frequency or duration when the user has less time, requests fewer sessions, or is organizing existing commitments.",
+          "Practice length applies to a whole practice, not each drill or a component warm-up. Game frequency recommendations do not replace daily-event qualifications."
+        ],
+        "display_name": "Practice frequency guidance — grades 9–12",
+        "measurement_window": {
+          "end_field": "/planning_window/end_date",
+          "kind": "seven_consecutive_local_dates",
+          "policy_origin": "project_window_interpretation_not_publisher_window_definition",
+          "required_day_count": 7,
+          "start_field": "/planning_window/start_date",
+          "timezone_field": "/planning_window/timezone"
+        },
+        "missing_and_null_handling": {
+          "known_conflict": "A proven violation remains Violated even when other information is missing",
+          "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+          "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+          "not_applicable": "Only after population or request-mode exclusion is established"
+        },
+        "policy_origin": "published_guidance_with_explicit_project_interpretation",
+        "record_kind": "structured_reference",
+        "required_inputs": {
+          "measurement": [
+            "practice_session_ids",
+            "dated_complete_schedule",
+            "session_component_links"
+          ],
+          "population": [
+            "age",
+            "school_grade"
+          ],
+          "segment_resolution": [
+            "school_grade"
+          ]
+        },
+        "reviewed_enforcement": "advisory",
+        "reviewed_operator": "describe_recommended_value_or_range",
+        "reviewed_threshold": [
+          3,
+          4
+        ],
+        "reviewed_unit": "practices/week",
+        "source_population_conditions": {
+          "age_max": null,
+          "age_min": null,
+          "grade_max": 12,
+          "grade_min": 9
+        },
+        "source_statement_values_typed": {
+          "published_recommended_range": [
+            3,
+            4
+          ]
+        },
+        "source_unit": "practices/week",
+        "source_url": "https://youthguidelines.nba.com/"
+      },
+      {
+        "applicability": {
+          "overlap_policy": "PROJECT_NBA_OVERLAP_CONSERVATIVE_V1",
+          "project_age_max": 17,
+          "project_age_min": 13,
+          "source_conditions": {
+            "age_max": null,
+            "age_min": null,
+            "grade_max": 12,
+            "grade_min": 9
+          }
+        },
+        "applicability_assessment": {
+          "basis": "Population scope only; request mode, complete schedule and other required inputs remain unassessed.",
+          "known_outside_scope_inputs": [],
+          "missing_scope_inputs": [],
+          "status": "matched"
+        },
+        "candidate_rule_id": "NBA_G9_12_GAMES_WEEK",
+        "corrections_and_qualifications": [
+          "Publisher category facts are retained; overlap resolution is PROJECT_NBA_OVERLAP_CONSERVATIVE_V1, not asserted publisher precedence.",
+          "Do not force recommended minimum frequency or duration when the user has less time, requests fewer sessions, or is organizing existing commitments.",
+          "Practice length applies to a whole practice, not each drill or a component warm-up. Game frequency recommendations do not replace daily-event qualifications."
+        ],
+        "display_name": "Game frequency guidance — grades 9–12",
+        "measurement_window": {
+          "end_field": "/planning_window/end_date",
+          "kind": "seven_consecutive_local_dates",
+          "policy_origin": "project_window_interpretation_not_publisher_window_definition",
+          "required_day_count": 7,
+          "start_field": "/planning_window/start_date",
+          "timezone_field": "/planning_window/timezone"
+        },
+        "missing_and_null_handling": {
+          "known_conflict": "A proven violation remains Violated even when other information is missing",
+          "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+          "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+          "not_applicable": "Only after population or request-mode exclusion is established"
+        },
+        "policy_origin": "published_guidance_with_explicit_project_interpretation",
+        "record_kind": "structured_reference",
+        "required_inputs": {
+          "measurement": [
+            "game_ids",
+            "dated_complete_schedule",
+            "tournament_and_multigame_context"
+          ],
+          "population": [
+            "age",
+            "school_grade"
+          ],
+          "segment_resolution": [
+            "school_grade"
+          ]
+        },
+        "reviewed_enforcement": "advisory",
+        "reviewed_operator": "describe_recommended_value_or_range",
+        "reviewed_threshold": [
+          2,
+          3
+        ],
+        "reviewed_unit": "games/week",
+        "source_population_conditions": {
+          "age_max": null,
+          "age_min": null,
+          "grade_max": 12,
+          "grade_min": 9
+        },
+        "source_statement_values_typed": {
+          "published_recommended_range": [
+            2,
+            3
+          ]
+        },
+        "source_unit": "games/week",
+        "source_url": "https://youthguidelines.nba.com/"
+      },
+      {
+        "applicability": {
+          "project_age_max": 17,
+          "project_age_min": 13,
+          "source_conditions": {
+            "age_max": 17,
+            "age_min": 13,
+            "grade_max": null,
+            "grade_min": null
+          }
+        },
+        "applicability_assessment": {
+          "basis": "Population scope only; request mode, complete schedule and other required inputs remain unassessed.",
+          "known_outside_scope_inputs": [],
+          "missing_scope_inputs": [],
+          "status": "matched"
+        },
+        "candidate_rule_id": "CDC_TEENS_SLEEP",
+        "corrections_and_qualifications": [
+          "No automated daily-sleep violation or pass from average_hours_per_night alone. Preserve daily versus nightly measurement and naps.",
+          "Show guidance without treating it as a training target, diagnosis, or medical clearance."
+        ],
+        "display_name": "Daily sleep guidance — ages 13–17",
+        "measurement_window": "reported_daily_period",
+        "missing_and_null_handling": {
+          "known_conflict": "A proven violation remains Violated even when other information is missing",
+          "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+          "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+          "not_applicable": "Only after population or request-mode exclusion is established"
+        },
+        "policy_origin": "published_guidance_with_explicit_project_interpretation",
+        "record_kind": "structured_reference",
+        "required_inputs": {
+          "measurement": [
+            "reported_sleep",
+            "reporting_dates",
+            "daily_measurement_period"
+          ],
+          "population": [
+            "age"
+          ],
+          "segment_resolution": []
+        },
+        "reviewed_enforcement": "advisory",
+        "reviewed_operator": "describe_daily_recommended_range",
+        "reviewed_threshold": [
+          8,
+          10
+        ],
+        "reviewed_unit": "hours/24_hours",
+        "source_population_conditions": {
+          "age_max": 17,
+          "age_min": 13,
+          "grade_max": null,
+          "grade_min": null
+        },
+        "source_statement_values_typed": {
+          "published_recommended_range": [
+            8,
+            10
+          ]
+        },
+        "source_unit": "hours/day",
+        "source_url": "https://www.cdc.gov/sleep/about/"
+      },
+      {
+        "applicability": {
+          "project_age_max": 17,
+          "project_age_min": 13,
+          "source_conditions": {
+            "age_max": null,
+            "age_min": null,
+            "grade_max": null,
+            "grade_min": null
+          }
+        },
+        "applicability_assessment": {
+          "basis": "Population scope only; request mode, complete schedule and other required inputs remain unassessed.",
+          "known_outside_scope_inputs": [],
+          "missing_scope_inputs": [],
+          "status": "matched"
+        },
+        "candidate_rule_id": "AAP_WEEKLY_SPORT_REST",
+        "corrections_and_qualifications": [
+          "Scope is competition and sport-specific training, including other organized sports; it is not limited to basketball and does not forbid free play.",
+          "Keep advisory; two days is not a maximum. No claim of direct full-clinical-report review."
+        ],
+        "display_name": "Weekly rest from sport-specific training and competition",
+        "measurement_window": {
+          "end_field": "/planning_window/end_date",
+          "kind": "seven_consecutive_local_dates",
+          "policy_origin": "project_window_interpretation_not_publisher_window_definition",
+          "required_day_count": 7,
+          "start_field": "/planning_window/start_date",
+          "timezone_field": "/planning_window/timezone"
+        },
+        "missing_and_null_handling": {
+          "known_conflict": "A proven violation remains Violated even when other information is missing",
+          "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+          "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+          "not_applicable": "Only after population or request-mode exclusion is established"
+        },
+        "policy_origin": "published_guidance_with_explicit_project_interpretation",
+        "record_kind": "structured_reference",
+        "required_inputs": {
+          "measurement": [
+            "complete_sport_schedule",
+            "competition_and_training_classification"
+          ],
+          "population": [
+            "age"
+          ],
+          "segment_resolution": []
+        },
+        "reviewed_enforcement": "advisory",
+        "reviewed_operator": "describe_broad_sports_rest_recommendation",
+        "reviewed_threshold": {
+          "minimum_guidance": 1,
+          "preferred_range": [
+            1,
+            2
+          ],
+          "upper_value_is_rest_ceiling": false
+        },
+        "reviewed_unit": "days/week",
+        "source_population_conditions": {
+          "age_max": null,
+          "age_min": null,
+          "grade_max": null,
+          "grade_min": null
+        },
+        "source_statement_values_typed": {
+          "published_rest_recommendation": [
+            1,
+            2
+          ],
+          "upper_value_is_rest_ceiling": false
+        },
+        "source_unit": "days/week",
+        "source_url": "https://www.healthychildren.org/English/health-issues/injuries-emergencies/sports-injuries/Pages/Too-Much-Too-Soon-Overtraining.aspx"
+      },
+      {
+        "applicability": {
+          "project_age_max": 17,
+          "project_age_min": 13,
+          "source_conditions": null
+        },
+        "applicability_assessment": {
+          "basis": "Population scope only; request mode, complete schedule and other required inputs remain unassessed.",
+          "known_outside_scope_inputs": [],
+          "missing_scope_inputs": [],
+          "status": "matched"
+        },
+        "candidate_rule_id": "RECOVERY-GUIDANCE-6e306f115a65dbdd9e95",
+        "corrections_and_qualifications": [
+          "The DOI and publisher/AAP summary URLs are related source aliases, not independently corroborating studies. Keep attribution and source versions.",
+          "Do not score a qualitative reminder as a numeric health check. Existing or persistent symptoms require an appropriate human review rather than model diagnosis."
+        ],
+        "display_name": "Gradual training progression — contextual advice",
+        "measurement_window": "not_a_numeric_comparison",
+        "missing_and_null_handling": {
+          "known_conflict": "A proven violation remains Violated even when other information is missing",
+          "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+          "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+          "not_applicable": "Only after population or request-mode exclusion is established"
+        },
+        "policy_origin": "published_guidance_with_explicit_project_interpretation",
+        "record_kind": "general_guidance",
+        "required_inputs": {
+          "measurement": [
+            "relevant_reported_context"
+          ],
+          "population": [
+            "age"
+          ],
+          "segment_resolution": []
+        },
+        "reviewed_enforcement": "contextual_advisory",
+        "reviewed_operator": "contextual_reminder_only",
+        "reviewed_threshold": null,
+        "reviewed_unit": "",
+        "source_population_conditions": null,
+        "source_statement_values_typed": null,
+        "source_unit": "",
+        "source_url": "https://www.healthychildren.org/English/health-issues/injuries-emergencies/sports-injuries/Pages/Preventing-Overuse-Injuries.aspx"
+      },
+      {
+        "applicability": {
+          "project_age_max": 17,
+          "project_age_min": 13,
+          "source_conditions": null
+        },
+        "applicability_assessment": {
+          "basis": "Population scope only; request mode, complete schedule and other required inputs remain unassessed.",
+          "known_outside_scope_inputs": [],
+          "missing_scope_inputs": [],
+          "status": "matched"
+        },
+        "candidate_rule_id": "RECOVERY-GUIDANCE-48fe143c5cd140813352",
+        "corrections_and_qualifications": [
+          "The DOI and publisher/AAP summary URLs are related source aliases, not independently corroborating studies. Keep attribution and source versions.",
+          "Do not score a qualitative reminder as a numeric health check. Existing or persistent symptoms require an appropriate human review rather than model diagnosis."
+        ],
+        "display_name": "Persistent fatigue — request human review",
+        "measurement_window": "not_a_numeric_comparison",
+        "missing_and_null_handling": {
+          "known_conflict": "A proven violation remains Violated even when other information is missing",
+          "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+          "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+          "not_applicable": "Only after population or request-mode exclusion is established"
+        },
+        "policy_origin": "published_guidance_with_explicit_project_interpretation",
+        "record_kind": "general_guidance",
+        "required_inputs": {
+          "measurement": [
+            "relevant_reported_context"
+          ],
+          "population": [
+            "age"
+          ],
+          "segment_resolution": []
+        },
+        "reviewed_enforcement": "contextual_advisory",
+        "reviewed_operator": "contextual_reminder_only",
+        "reviewed_threshold": null,
+        "reviewed_unit": "",
+        "source_population_conditions": null,
+        "source_statement_values_typed": null,
+        "source_unit": "",
+        "source_url": "https://www.healthychildren.org/English/news/Pages/AAP-calls-out-causes-of-injury-overtraining-and-burnout-in-youth-sports.aspx"
+      },
+      {
+        "applicability": {
+          "project_age_max": 17,
+          "project_age_min": 13,
+          "source_conditions": null
+        },
+        "applicability_assessment": {
+          "basis": "Population scope only; request mode, complete schedule and other required inputs remain unassessed.",
+          "known_outside_scope_inputs": [],
+          "missing_scope_inputs": [],
+          "status": "matched"
+        },
+        "candidate_rule_id": "RECOVERY-GUIDANCE-9918e3d81af2dba2604b",
+        "corrections_and_qualifications": [
+          "The DOI and publisher/AAP summary URLs are related source aliases, not independently corroborating studies. Keep attribution and source versions.",
+          "Do not score a qualitative reminder as a numeric health check. Existing or persistent symptoms require an appropriate human review rather than model diagnosis."
+        ],
+        "display_name": "Overuse and recovery — contextual advice",
+        "measurement_window": "not_a_numeric_comparison",
+        "missing_and_null_handling": {
+          "known_conflict": "A proven violation remains Violated even when other information is missing",
+          "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+          "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+          "not_applicable": "Only after population or request-mode exclusion is established"
+        },
+        "policy_origin": "published_guidance_with_explicit_project_interpretation",
+        "record_kind": "general_guidance",
+        "required_inputs": {
+          "measurement": [
+            "relevant_reported_context"
+          ],
+          "population": [
+            "age"
+          ],
+          "segment_resolution": []
+        },
+        "reviewed_enforcement": "contextual_advisory",
+        "reviewed_operator": "contextual_reminder_only",
+        "reviewed_threshold": null,
+        "reviewed_unit": "",
+        "source_population_conditions": null,
+        "source_statement_values_typed": null,
+        "source_unit": "",
+        "source_url": "https://www.healthychildren.org/English/health-issues/injuries-emergencies/sports-injuries/Pages/Preventing-Overuse-Injuries.aspx"
+      },
+      {
+        "applicability": {
+          "project_age_max": 17,
+          "project_age_min": 13,
+          "source_conditions": null
+        },
+        "applicability_assessment": {
+          "basis": "Population scope only; request mode, complete schedule and other required inputs remain unassessed.",
+          "known_outside_scope_inputs": [],
+          "missing_scope_inputs": [],
+          "status": "matched"
+        },
+        "candidate_rule_id": "USER_AVAILABLE_TIME",
+        "corrections_and_qualifications": [
+          "These are project software requirements, not health claims or publisher rules. Human peer review has not been fabricated."
+        ],
+        "display_name": "Available days and session budgets",
+        "measurement_window": {
+          "end_field": "/planning_window/end_date",
+          "kind": "seven_consecutive_local_dates",
+          "policy_origin": "project_window_interpretation_not_publisher_window_definition",
+          "required_day_count": 7,
+          "start_field": "/planning_window/start_date",
+          "timezone_field": "/planning_window/timezone"
+        },
+        "missing_and_null_handling": {
+          "known_conflict": "A proven violation remains Violated even when other information is missing",
+          "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+          "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+          "not_applicable": "Only after population or request-mode exclusion is established"
+        },
+        "policy_origin": "project_design_not_medical_guidance",
+        "project_definition": {
+          "definition": "Every newly added session must fit a supplied date/time slot and known additional-session/minute limits. Preserve zero limits. Existing commitments are included as supplied rather than tested as newly added sessions.",
+          "fields": [
+            "/availability",
+            "/time_limits",
+            "/existing_commitments"
+          ],
+          "unknown": "Clarify only availability or budget information essential to the requested new activities. An existing-commitments-only calendar does not need new availability."
+        },
+        "record_kind": "user_constraint_template",
+        "required_inputs": {
+          "public_or_review_inputs": [
+            "/availability",
+            "/time_limits",
+            "/existing_commitments"
+          ]
+        },
+        "reviewed_enforcement": "required_project_policy",
+        "reviewed_operator": "new_sessions_within_supplied_availability_and_budgets",
+        "reviewed_threshold": null,
+        "reviewed_unit": "",
+        "source_population_conditions": null,
+        "source_statement_values_typed": null,
+        "source_unit": "",
+        "source_url": ""
+      },
+      {
+        "applicability": {
+          "project_age_max": 17,
+          "project_age_min": 13,
+          "source_conditions": null
+        },
+        "applicability_assessment": {
+          "basis": "Population scope only; request mode, complete schedule and other required inputs remain unassessed.",
+          "known_outside_scope_inputs": [],
+          "missing_scope_inputs": [],
+          "status": "matched"
+        },
+        "candidate_rule_id": "USER_EQUIPMENT_SPACE",
+        "corrections_and_qualifications": [
+          "These are project software requirements, not health claims or publisher rules. Human peer review has not been fabricated."
+        ],
+        "display_name": "Available equipment and space",
+        "measurement_window": {
+          "end_field": "/planning_window/end_date",
+          "kind": "seven_consecutive_local_dates",
+          "policy_origin": "project_window_interpretation_not_publisher_window_definition",
+          "required_day_count": 7,
+          "start_field": "/planning_window/start_date",
+          "timezone_field": "/planning_window/timezone"
+        },
+        "missing_and_null_handling": {
+          "known_conflict": "A proven violation remains Violated even when other information is missing",
+          "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+          "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+          "not_applicable": "Only after population or request-mode exclusion is established"
+        },
+        "policy_origin": "project_design_not_medical_guidance",
+        "project_definition": {
+          "definition": "Compare reviewed equipment quantities and space requirements with the supplied resources; true/false/null and unknown quantities remain distinct. Existing practices are facts, not newly recommended catalog activities.",
+          "fields": [
+            "/equipment",
+            "/space"
+          ],
+          "unknown": "Unverified activity requirements or essential resources yield Unknown, not an assumed hoop, court, ball, or partner."
+        },
+        "record_kind": "user_constraint_template",
+        "required_inputs": {
+          "public_or_review_inputs": [
+            "/equipment",
+            "/space"
+          ]
+        },
+        "reviewed_enforcement": "required_project_policy",
+        "reviewed_operator": "new_activity_requirements_supported_by_supplied_resources",
+        "reviewed_threshold": null,
+        "reviewed_unit": "",
+        "source_population_conditions": null,
+        "source_statement_values_typed": null,
+        "source_unit": "",
+        "source_url": ""
+      },
+      {
+        "applicability": {
+          "project_age_max": 17,
+          "project_age_min": 13,
+          "source_conditions": null
+        },
+        "applicability_assessment": {
+          "basis": "Population scope only; request mode, complete schedule and other required inputs remain unassessed.",
+          "known_outside_scope_inputs": [],
+          "missing_scope_inputs": [],
+          "status": "matched"
+        },
+        "candidate_rule_id": "USER_PARTICIPANTS",
+        "corrections_and_qualifications": [
+          "These are project software requirements, not health claims or publisher rules. Human peer review has not been fabricated."
+        ],
+        "display_name": "Available participants and roles",
+        "measurement_window": {
+          "end_field": "/planning_window/end_date",
+          "kind": "seven_consecutive_local_dates",
+          "policy_origin": "project_window_interpretation_not_publisher_window_definition",
+          "required_day_count": 7,
+          "start_field": "/planning_window/start_date",
+          "timezone_field": "/planning_window/timezone"
+        },
+        "missing_and_null_handling": {
+          "known_conflict": "A proven violation remains Violated even when other information is missing",
+          "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+          "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+          "not_applicable": "Only after population or request-mode exclusion is established"
+        },
+        "policy_origin": "project_design_not_medical_guidance",
+        "project_definition": {
+          "definition": "participants_available includes the athlete. Match both count and required roles; do not assume a partner or treat an unknown requirement as solo-compatible.",
+          "fields": [
+            "/participants_available"
+          ],
+          "unknown": "Clarify essential missing participant facts before adding an activity; no partner is required merely to display an existing practice."
+        },
+        "record_kind": "user_constraint_template",
+        "required_inputs": {
+          "public_or_review_inputs": [
+            "/participants_available"
+          ]
+        },
+        "reviewed_enforcement": "required_project_policy",
+        "reviewed_operator": "available_participants_meet_reviewed_minimum_and_roles",
+        "reviewed_threshold": null,
+        "reviewed_unit": "",
+        "source_population_conditions": null,
+        "source_statement_values_typed": null,
+        "source_unit": "",
+        "source_url": ""
+      },
+      {
+        "applicability": {
+          "project_age_max": 17,
+          "project_age_min": 13,
+          "source_conditions": null
+        },
+        "applicability_assessment": {
+          "basis": "Population scope only; request mode, complete schedule and other required inputs remain unassessed.",
+          "known_outside_scope_inputs": [],
+          "missing_scope_inputs": [],
+          "status": "matched"
+        },
+        "candidate_rule_id": "USER_EXISTING_COMMITMENTS",
+        "corrections_and_qualifications": [
+          "These are project software requirements, not health claims or publisher rules. Human peer review has not been fabricated."
+        ],
+        "display_name": "Existing practices, games, and other commitments",
+        "measurement_window": {
+          "end_field": "/planning_window/end_date",
+          "kind": "seven_consecutive_local_dates",
+          "policy_origin": "project_window_interpretation_not_publisher_window_definition",
+          "required_day_count": 7,
+          "start_field": "/planning_window/start_date",
+          "timezone_field": "/planning_window/timezone"
+        },
+        "missing_and_null_handling": {
+          "known_conflict": "A proven violation remains Violated even when other information is missing",
+          "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+          "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+          "not_applicable": "Only after population or request-mode exclusion is established"
+        },
+        "policy_origin": "project_design_not_medical_guidance",
+        "project_definition": {
+          "definition": "Preserve supplied dates/times/content and link schedule entries through existing_commitment_refs. Keep known commitments when assessing participation; never silently delete them to fit a new plan. Existing facts need no catalog approval.",
+          "fields": [
+            "/existing_commitments"
+          ],
+          "unknown": "Retain unknown times as unknown. Ask only when needed for the requested calculation or new schedule; a known conflict remains reportable."
+        },
+        "record_kind": "user_constraint_template",
+        "required_inputs": {
+          "public_or_review_inputs": [
+            "/existing_commitments"
+          ]
+        },
+        "reviewed_enforcement": "required_project_policy",
+        "reviewed_operator": "preserve_supplied_commitments_and_count_them",
+        "reviewed_threshold": null,
+        "reviewed_unit": "",
+        "source_population_conditions": null,
+        "source_statement_values_typed": null,
+        "source_unit": "",
+        "source_url": ""
+      },
+      {
+        "applicability": {
+          "project_age_max": 17,
+          "project_age_min": 13,
+          "source_conditions": null
+        },
+        "applicability_assessment": {
+          "basis": "Population scope only; request mode, complete schedule and other required inputs remain unassessed.",
+          "known_outside_scope_inputs": [],
+          "missing_scope_inputs": [],
+          "status": "matched"
+        },
+        "candidate_rule_id": "POLICY_REQUIRED_INFORMATION",
+        "corrections_and_qualifications": [
+          "These are project software requirements, not health claims or publisher rules. Human peer review has not been fabricated."
+        ],
+        "display_name": "Case-level essential information",
+        "measurement_window": {
+          "end_field": "/planning_window/end_date",
+          "kind": "seven_consecutive_local_dates",
+          "policy_origin": "project_window_interpretation_not_publisher_window_definition",
+          "required_day_count": 7,
+          "start_field": "/planning_window/start_date",
+          "timezone_field": "/planning_window/timezone"
+        },
+        "missing_and_null_handling": {
+          "known_conflict": "A proven violation remains Violated even when other information is missing",
+          "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+          "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+          "not_applicable": "Only after population or request-mode exclusion is established"
+        },
+        "policy_origin": "project_design_not_medical_guidance",
+        "project_definition": {
+          "definition": "Ask clarification for missing athlete facts essential to the requested action. Treat malformed/incomplete model output as output failure. A supplied-practices-only calendar can be a plan with zero added training.",
+          "fields": [
+            "/athlete_request",
+            "/planning_window",
+            "/existing_commitments"
+          ],
+          "unknown": "Do not ask irrelevant equipment/partner questions when no new activity is proposed; do not use outside_scope merely because a source approval is pending."
+        },
+        "record_kind": "project_policy_template",
+        "required_inputs": {
+          "public_or_review_inputs": [
+            "/athlete_request",
+            "/planning_window",
+            "/existing_commitments"
+          ]
+        },
+        "reviewed_enforcement": "required_project_policy",
+        "reviewed_operator": "task_relevant_essential_information_only",
+        "reviewed_threshold": null,
+        "reviewed_unit": "",
+        "source_population_conditions": null,
+        "source_statement_values_typed": null,
+        "source_unit": "",
+        "source_url": ""
+      },
+      {
+        "applicability": {
+          "project_age_max": 17,
+          "project_age_min": 13,
+          "source_conditions": null
+        },
+        "applicability_assessment": {
+          "basis": "Population scope only; request mode, complete schedule and other required inputs remain unassessed.",
+          "known_outside_scope_inputs": [],
+          "missing_scope_inputs": [],
+          "status": "matched"
+        },
+        "candidate_rule_id": "POLICY_TIMING_INTEGRITY",
+        "corrections_and_qualifications": [
+          "These are project software requirements, not health claims or publisher rules. Human peer review has not been fabricated."
+        ],
+        "display_name": "Durations, units, time budgets, and overlap",
+        "measurement_window": {
+          "end_field": "/planning_window/end_date",
+          "kind": "seven_consecutive_local_dates",
+          "policy_origin": "project_window_interpretation_not_publisher_window_definition",
+          "required_day_count": 7,
+          "start_field": "/planning_window/start_date",
+          "timezone_field": "/planning_window/timezone"
+        },
+        "missing_and_null_handling": {
+          "known_conflict": "A proven violation remains Violated even when other information is missing",
+          "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+          "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+          "not_applicable": "Only after population or request-mode exclusion is established"
+        },
+        "policy_origin": "project_design_not_medical_guidance",
+        "project_definition": {
+          "definition": "Use valid local dates and HH:MM times. Where both endpoints exist, duration must agree. Do not convert source repetitions into minutes. Do not guess an overnight end date from end_time earlier than start_time. Distinct overlapping sessions require conflict review.",
+          "fields": [
+            "/planning_window",
+            "/availability",
+            "/existing_commitments"
+          ],
+          "unknown": "Unknown duration is not zero; inconsistent endpoints are a conflict or clarification need. Preserve unknown values."
+        },
+        "record_kind": "project_policy_template",
+        "required_inputs": {
+          "public_or_review_inputs": [
+            "/planning_window",
+            "/availability",
+            "/existing_commitments"
+          ]
+        },
+        "reviewed_enforcement": "required_project_policy",
+        "reviewed_operator": "consistent_duration_units_and_no_unsupported_overlap",
+        "reviewed_threshold": null,
+        "reviewed_unit": "",
+        "source_population_conditions": null,
+        "source_statement_values_typed": null,
+        "source_unit": "",
+        "source_url": ""
+      },
+      {
+        "applicability": {
+          "project_age_max": 17,
+          "project_age_min": 13,
+          "source_conditions": null
+        },
+        "applicability_assessment": {
+          "basis": "Population scope only; request mode, complete schedule and other required inputs remain unassessed.",
+          "known_outside_scope_inputs": [],
+          "missing_scope_inputs": [],
+          "status": "matched"
+        },
+        "candidate_rule_id": "POLICY_SESSION_ACCOUNTING",
+        "corrections_and_qualifications": [
+          "These are project software requirements, not health claims or publisher rules. Human peer review has not been fabricated."
+        ],
+        "display_name": "Activity classification and component accounting",
+        "measurement_window": {
+          "end_field": "/planning_window/end_date",
+          "kind": "seven_consecutive_local_dates",
+          "policy_origin": "project_window_interpretation_not_publisher_window_definition",
+          "required_day_count": 7,
+          "start_field": "/planning_window/start_date",
+          "timezone_field": "/planning_window/timezone"
+        },
+        "missing_and_null_handling": {
+          "known_conflict": "A proven violation remains Violated even when other information is missing",
+          "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+          "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+          "not_applicable": "Only after population or request-mode exclusion is established"
+        },
+        "policy_origin": "project_design_not_medical_guidance",
+        "project_definition": {
+          "definition": "Count a separate session once. A component must reference an existing non-self parent and is not an extra independent session. Parent/component spans must be consistent; do not double count included warm-ups or source-commitment links.",
+          "fields": [
+            "response/weekly_schedule/*/activities",
+            "/existing_commitments"
+          ],
+          "unknown": "If links or extents cannot establish a reliable total, return Unknown rather than choosing the smallest total."
+        },
+        "record_kind": "project_policy_template",
+        "required_inputs": {
+          "public_or_review_inputs": [
+            "response/weekly_schedule/*/activities",
+            "/existing_commitments"
+          ]
+        },
+        "reviewed_enforcement": "required_project_policy",
+        "reviewed_operator": "count_distinct_parent_sessions_once",
+        "reviewed_threshold": null,
+        "reviewed_unit": "",
+        "source_population_conditions": null,
+        "source_statement_values_typed": null,
+        "source_unit": "",
+        "source_url": ""
+      },
+      {
+        "applicability": {
+          "project_age_max": 17,
+          "project_age_min": 13,
+          "source_conditions": null
+        },
+        "applicability_assessment": {
+          "basis": "Population scope only; request mode, complete schedule and other required inputs remain unassessed.",
+          "known_outside_scope_inputs": [],
+          "missing_scope_inputs": [],
+          "status": "matched"
+        },
+        "candidate_rule_id": "POLICY_CATALOG_ELIGIBILITY",
+        "corrections_and_qualifications": [
+          "These are project software requirements, not health claims or publisher rules. Human peer review has not been fabricated."
+        ],
+        "display_name": "Approved and sufficiently documented activities",
+        "measurement_window": {
+          "end_field": "/planning_window/end_date",
+          "kind": "seven_consecutive_local_dates",
+          "policy_origin": "project_window_interpretation_not_publisher_window_definition",
+          "required_day_count": 7,
+          "start_field": "/planning_window/start_date",
+          "timezone_field": "/planning_window/timezone"
+        },
+        "missing_and_null_handling": {
+          "known_conflict": "A proven violation remains Violated even when other information is missing",
+          "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+          "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+          "not_applicable": "Only after population or request-mode exclusion is established"
+        },
+        "policy_origin": "project_design_not_medical_guidance",
+        "project_definition": {
+          "definition": "A workflow that actually selects an available catalog record must honor that record's approval, source and case-relevant resource conditions. This is not a requirement that every model-generated description name a catalog entry. Version 1 has no catalog access: source/catalog IDs remain optional, IDs must not be invented, and observable content/resource checks remain independent. Existing user commitments need no catalog ID or approval but still contribute to participation checks.",
+          "fields": [
+            "planner_version",
+            "explicit_catalog_selection",
+            "response/weekly_schedule/*/activities",
+            "/existing_commitments"
+          ],
+          "unknown": "Never fail Version 1 solely for an absent source/catalog ID or hidden catalog membership. Exclude known ineligible records from actual catalog lookups. Cross-version content scoring and denominators remain governed by the frozen protocol; new catalog-membership scoring is not adopted here."
+        },
+        "record_kind": "project_policy_template",
+        "required_inputs": {
+          "public_or_review_inputs": [
+            "planner_version",
+            "explicit_catalog_selection",
+            "response/weekly_schedule/*/activities",
+            "/existing_commitments"
+          ]
+        },
+        "reviewed_enforcement": "required_project_policy",
+        "reviewed_operator": "explicit_catalog_selections_require_reviewed_eligibility",
+        "reviewed_threshold": null,
+        "reviewed_unit": "",
+        "source_population_conditions": null,
+        "source_statement_values_typed": null,
+        "source_unit": "",
+        "source_url": ""
+      },
+      {
+        "applicability": {
+          "project_age_max": 17,
+          "project_age_min": 13,
+          "source_conditions": null
+        },
+        "applicability_assessment": {
+          "basis": "Population scope only; request mode, complete schedule and other required inputs remain unassessed.",
+          "known_outside_scope_inputs": [],
+          "missing_scope_inputs": [],
+          "status": "matched"
+        },
+        "candidate_rule_id": "POLICY_SCOPE",
+        "corrections_and_qualifications": [
+          "These are project software requirements, not health claims or publisher rules. Human peer review has not been fabricated."
+        ],
+        "display_name": "Project age and content scope",
+        "measurement_window": {
+          "end_field": "/planning_window/end_date",
+          "kind": "seven_consecutive_local_dates",
+          "policy_origin": "project_window_interpretation_not_publisher_window_definition",
+          "required_day_count": 7,
+          "start_field": "/planning_window/start_date",
+          "timezone_field": "/planning_window/timezone"
+        },
+        "missing_and_null_handling": {
+          "known_conflict": "A proven violation remains Violated even when other information is missing",
+          "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+          "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+          "not_applicable": "Only after population or request-mode exclusion is established"
+        },
+        "policy_origin": "project_design_not_medical_guidance",
+        "project_definition": {
+          "definition": "Scope includes weekly basketball skill planning for ages 13–17, organizing supplied basketball commitments, relevant clarifications/conflicts, and optional factual food composition. Unknown essential age prompts clarification; known outside-target age or unrelated content uses outside_scope. No medical diagnosis, clearance, weight-cutting or individualized diet prescription.",
+          "fields": [
+            "/age",
+            "/athlete_request",
+            "/reported_limitations",
+            "/food_question"
+          ],
+          "unknown": "An in-scope request with missing resources remains clarification/constraint_conflict as appropriate; a request to display two supplied practices is in scope."
+        },
+        "record_kind": "project_policy_template",
+        "required_inputs": {
+          "public_or_review_inputs": [
+            "/age",
+            "/athlete_request",
+            "/reported_limitations",
+            "/food_question"
+          ]
+        },
+        "reviewed_enforcement": "required_project_policy",
+        "reviewed_operator": "basketball_planning_and_supplied_calendar_are_in_scope",
+        "reviewed_threshold": null,
+        "reviewed_unit": "",
+        "source_population_conditions": null,
+        "source_statement_values_typed": null,
+        "source_unit": "",
+        "source_url": ""
+      },
+      {
+        "applicability": {
+          "project_age_max": 17,
+          "project_age_min": 13,
+          "source_conditions": null
+        },
+        "applicability_assessment": {
+          "basis": "Population scope only; request mode, complete schedule and other required inputs remain unassessed.",
+          "known_outside_scope_inputs": [],
+          "missing_scope_inputs": [],
+          "status": "matched"
+        },
+        "candidate_rule_id": "POLICY_RESULT_SEMANTICS",
+        "corrections_and_qualifications": [
+          "These are project software requirements, not health claims or publisher rules. Human peer review has not been fabricated."
+        ],
+        "display_name": "Met, Violated, Unknown, and Not applicable",
+        "measurement_window": {
+          "end_field": "/planning_window/end_date",
+          "kind": "seven_consecutive_local_dates",
+          "policy_origin": "project_window_interpretation_not_publisher_window_definition",
+          "required_day_count": 7,
+          "start_field": "/planning_window/start_date",
+          "timezone_field": "/planning_window/timezone"
+        },
+        "missing_and_null_handling": {
+          "known_conflict": "A proven violation remains Violated even when other information is missing",
+          "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+          "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+          "not_applicable": "Only after population or request-mode exclusion is established"
+        },
+        "policy_origin": "project_design_not_medical_guidance",
+        "project_definition": {
+          "definition": "Use Met, Violated, Unknown and Not applicable with explicit evidence. Partial known information can establish a violation; incomplete information does not establish a pass or exclusion.",
+          "fields": [
+            "check_applicability",
+            "known_inputs",
+            "accounting_integrity"
+          ],
+          "unknown": "Follow shared result semantics; do not replace Unknown by Met."
+        },
+        "record_kind": "project_policy_template",
+        "required_inputs": {
+          "public_or_review_inputs": [
+            "check_applicability",
+            "known_inputs",
+            "accounting_integrity"
+          ]
+        },
+        "reviewed_enforcement": "required_project_policy",
+        "reviewed_operator": "four_state_check_results",
+        "reviewed_threshold": null,
+        "reviewed_unit": "",
+        "source_population_conditions": null,
+        "source_statement_values_typed": null,
+        "source_unit": "",
+        "source_url": ""
+      },
+      {
+        "applicability": {
+          "project_age_max": 17,
+          "project_age_min": 13,
+          "source_conditions": null
+        },
+        "applicability_assessment": {
+          "basis": "Population scope only; request mode, complete schedule and other required inputs remain unassessed.",
+          "known_outside_scope_inputs": [],
+          "missing_scope_inputs": [],
+          "status": "matched"
+        },
+        "candidate_rule_id": "POLICY_INDEPENDENT_EVALUATION",
+        "corrections_and_qualifications": [
+          "These are project software requirements, not health claims or publisher rules. Human peer review has not been fabricated."
+        ],
+        "display_name": "Common evaluation and denominators",
+        "measurement_window": "workflow_or_release",
+        "missing_and_null_handling": {
+          "known_conflict": "A proven violation remains Violated even when other information is missing",
+          "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+          "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+          "not_applicable": "Only after population or request-mode exclusion is established"
+        },
+        "policy_origin": "project_design_not_medical_guidance",
+        "project_definition": {
+          "definition": "Use the shared protocol, complete planned-job denominator and case-level checks fixed before final outcomes. The scorer stays separate from Version 4 self-evaluation; preserve failures and missing outputs. No private labels or feasibility witnesses enter model prompts.",
+          "fields": [
+            "docs/evaluation_protocol.md",
+            "frozen_case_checks",
+            "job_status",
+            "independent_scores"
+          ],
+          "unknown": "Record missing scores/outcomes as specified by the protocol; never remove failed jobs to improve a rate."
+        },
+        "record_kind": "project_policy_template",
+        "required_inputs": {
+          "public_or_review_inputs": [
+            "docs/evaluation_protocol.md",
+            "frozen_case_checks",
+            "job_status",
+            "independent_scores"
+          ]
+        },
+        "reviewed_enforcement": "required_project_policy",
+        "reviewed_operator": "same_frozen_job_level_protocol_for_all_versions",
+        "reviewed_threshold": null,
+        "reviewed_unit": "",
+        "source_population_conditions": null,
+        "source_statement_values_typed": null,
+        "source_unit": "",
+        "source_url": ""
+      },
+      {
+        "applicability": {
+          "project_age_max": 17,
+          "project_age_min": 13,
+          "source_conditions": null
+        },
+        "applicability_assessment": {
+          "basis": "Population scope only; request mode, complete schedule and other required inputs remain unassessed.",
+          "known_outside_scope_inputs": [],
+          "missing_scope_inputs": [],
+          "status": "matched"
+        },
+        "candidate_rule_id": "POLICY_REVIEW_ACTIVATION",
+        "corrections_and_qualifications": [
+          "These are project software requirements, not health claims or publisher rules. Human peer review has not been fabricated."
+        ],
+        "display_name": "Separate preparation, adoption, and activation",
+        "measurement_window": "workflow_or_release",
+        "missing_and_null_handling": {
+          "known_conflict": "A proven violation remains Violated even when other information is missing",
+          "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+          "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+          "not_applicable": "Only after population or request-mode exclusion is established"
+        },
+        "policy_origin": "project_design_not_medical_guidance",
+        "project_definition": {
+          "authorization": "Use the final team approval record and its evidence; do not invent individual reviewer actions.",
+          "definition": "The recorded final team decision under authorized delegation establishes adoption. No additional manual confirmation is required. Resource installation and automatic validator implementation remain separate facts.",
+          "independent_human_peer_review_claimed": false,
+          "installation": "Reference availability begins after the approved release is installed and its manifest is verified.",
+          "validator": "Installing definitions does not claim that automatic rule evaluation is implemented."
+        },
+        "record_kind": "project_policy_template",
+        "required_inputs": {
+          "public_or_review_inputs": [
+            "final_team_approval_record",
+            "active_resource_release_manifest",
+            "reference_availability",
+            "validator_implementation_status"
+          ]
+        },
+        "reviewed_enforcement": "required_project_policy",
+        "reviewed_operator": "reviewed_package_requires_recorded_adoption_and_activation",
+        "reviewed_threshold": null,
+        "reviewed_unit": "",
+        "source_population_conditions": null,
+        "source_statement_values_typed": null,
+        "source_unit": "",
+        "source_url": ""
+      }
+    ],
+    "shared_result_semantics": {
+      "known_conflict": "A proven violation remains Violated even when other information is missing",
+      "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+      "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+      "not_applicable": "Only after population or request-mode exclusion is established"
+    },
+    "unknown_population_count": 0,
+    "validator_execution_ready": false
+  },
+  "data_version": "team-approved-f0dcb9e9943e381b",
+  "issues": [
+    "Adopted definitions are available as references. This lookup does not execute schedule checks or establish that a plan meets them."
+  ],
+  "request_id": "b76bcf636d0e431a81943670d3736559",
+  "source_refs": [
+    "https://www.cdc.gov/sleep/about/",
+    "https://www.healthychildren.org/English/health-issues/injuries-emergencies/sports-injuries/Pages/Preventing-Overuse-Injuries.aspx",
+    "https://www.healthychildren.org/English/health-issues/injuries-emergencies/sports-injuries/Pages/Too-Much-Too-Soon-Overtraining.aspx",
+    "https://www.healthychildren.org/English/news/Pages/AAP-calls-out-causes-of-injury-overtraining-and-burnout-in-youth-sports.aspx",
+    "https://youthguidelines.nba.com/"
+  ],
+  "status": "found"
+}

@@ -1,0 +1,8 @@
+{
+  "args": [],
+  "kwargs": {
+    "grams": "220",
+    "search_text": "Lentils, raw"
+  },
+  "method": "lookup_food"
+}

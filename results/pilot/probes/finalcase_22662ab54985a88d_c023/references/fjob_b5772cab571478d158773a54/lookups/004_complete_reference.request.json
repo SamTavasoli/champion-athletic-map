@@ -1,0 +1,81 @@
+{
+  "args": [
+    {
+      "answerability_established_by_score": false,
+      "complete_required_delivery_text": "Youth daily activity and weekly activity mix\n\nCDC's general recommendation for children and adolescents aged 6–17 is at least 60 minutes of moderate-to-vigorous activity each day. Most should be aerobic, with vigorous aerobic activity on at least three days each week. Muscle- and bone-strengthening activity are each included on at least three days weekly as part of the daily activity, rather than as separate additional sixty-minute blocks. Choices should be varied, age-appropriate and enjoyable.\n\nPopulation-level activity guidance for ages 6–17. The daily amount covers the activity mix; the weekly components do not require separate additional sixty-minute sessions. This is not an individualized basketball workload or an adopted project planning threshold.\n\nSelected CDC factual text was paraphrased and shortened; substantive meaning and the listed scope qualifications are retained.\n\nSource: Centers for Disease Control and Prevention (CDC), Child Activity: An Overview.\n\nUse of CDC information and links does not imply endorsement by the United States Government, HHS, CDC, or ATSDR.\n\nPreserve the source's substantive meaning and all stated scope qualifications. Population-level activity guidance for ages 6–17. The daily amount covers the activity mix; the weekly components do not require separate additional sixty-minute sessions. This is not an individualized basketball workload or an adopted project planning threshold.\n\nThe underlying CDC material is freely available on the agency website: https://www.cdc.gov/physical-activity-basics/guidelines/children.html.\n\nCDC permitted-use policy: https://www.cdc.gov/other/agencymaterials.html",
+      "generation_context_budget_verified": false,
+      "passage_id": "additional-cdc-retrieval-passage:37cda77c268aefd65e3b41cf0b9ef96e6b54fae53575239becef0d347400c908",
+      "rank": 1,
+      "reference_unit_id": "cdc-scoped-reference-unit:9ae26e325e4559ccf326a009199fd14308bd73a6b3a3b9e13c887a4ed52a73f7",
+      "required_delivery_must_be_attached": true,
+      "required_delivery_record": {
+        "200_token_encoder_core_cap_applies_to_this_delivery": false,
+        "delivery_bundle_id": "additional-cdc-passage-delivery:6d70805987cc3b3732344f05309d7c31be91b2ee763a23f3d61f272238746750",
+        "delivery_is_not_used_as_embedding_passage": true,
+        "display_text": "Youth daily activity and weekly activity mix\n\nCDC's general recommendation for children and adolescents aged 6–17 is at least 60 minutes of moderate-to-vigorous activity each day. Most should be aerobic, with vigorous aerobic activity on at least three days each week. Muscle- and bone-strengthening activity are each included on at least three days weekly as part of the daily activity, rather than as separate additional sixty-minute blocks. Choices should be varied, age-appropriate and enjoyable.\n\nPopulation-level activity guidance for ages 6–17. The daily amount covers the activity mix; the weekly components do not require separate additional sixty-minute sessions. This is not an individualized basketball workload or an adopted project planning threshold.\n\nSelected CDC factual text was paraphrased and shortened; substantive meaning and the listed scope qualifications are retained.\n\nSource: Centers for Disease Control and Prevention (CDC), Child Activity: An Overview.\n\nUse of CDC information and links does not imply endorsement by the United States Government, HHS, CDC, or ATSDR.\n\nPreserve the source's substantive meaning and all stated scope qualifications. Population-level activity guidance for ages 6–17. The daily amount covers the activity mix; the weekly components do not require separate additional sixty-minute sessions. This is not an individualized basketball workload or an adopted project planning threshold.\n\nThe underlying CDC material is freely available on the agency website: https://www.cdc.gov/physical-activity-basics/guidelines/children.html.\n\nCDC permitted-use policy: https://www.cdc.gov/other/agencymaterials.html",
+        "display_text_sha256": "a2ff3e370a346198a89911f16bbbcd61c082ca23bc5a62d8fab4b4459b2dd7cc",
+        "full_text_measured_without_truncation": true,
+        "generation_model_tokenizer_or_prompt_budget_verified": false,
+        "minilm_encoded_token_ids_sha256": "10623d5dc3532a37ed7fdce6db9940ca80442364574cf4d10b51c89ae6048365",
+        "minilm_encoded_tokens_including_specials": 333,
+        "passage_id": "additional-cdc-retrieval-passage:37cda77c268aefd65e3b41cf0b9ef96e6b54fae53575239becef0d347400c908",
+        "reference_unit_id": "cdc-scoped-reference-unit:9ae26e325e4559ccf326a009199fd14308bd73a6b3a3b9e13c887a4ed52a73f7",
+        "required_context_and_usage_credit_are_indivisible": true,
+        "schema_version": "step23-additional-cdc-token-budgeted-delivery-1",
+        "source_delivery_bundle": {
+          "delivery_bundle_id": "cdc-required-delivery:5f9580cc35f05fd313af744822c959bb66db531e7ed93163404e4fe821e23900",
+          "delivery_must_remain_indivisible": true,
+          "display_text": "Youth daily activity and weekly activity mix\n\nCDC's general recommendation for children and adolescents aged 6–17 is at least 60 minutes of moderate-to-vigorous activity each day. Most should be aerobic, with vigorous aerobic activity on at least three days each week. Muscle- and bone-strengthening activity are each included on at least three days weekly as part of the daily activity, rather than as separate additional sixty-minute blocks. Choices should be varied, age-appropriate and enjoyable.\n\nPopulation-level activity guidance for ages 6–17. The daily amount covers the activity mix; the weekly components do not require separate additional sixty-minute sessions. This is not an individualized basketball workload or an adopted project planning threshold.\n\nSelected CDC factual text was paraphrased and shortened; substantive meaning and the listed scope qualifications are retained.\n\nSource: Centers for Disease Control and Prevention (CDC), Child Activity: An Overview.\n\nUse of CDC information and links does not imply endorsement by the United States Government, HHS, CDC, or ATSDR.\n\nPreserve the source's substantive meaning and all stated scope qualifications. Population-level activity guidance for ages 6–17. The daily amount covers the activity mix; the weekly components do not require separate additional sixty-minute sessions. This is not an individualized basketball workload or an adopted project planning threshold.\n\nThe underlying CDC material is freely available on the agency website: https://www.cdc.gov/physical-activity-basics/guidelines/children.html.\n\nCDC permitted-use policy: https://www.cdc.gov/other/agencymaterials.html",
+          "display_text_sha256": "a2ff3e370a346198a89911f16bbbcd61c082ca23bc5a62d8fab4b4459b2dd7cc",
+          "does_not_grant_planner_eligibility": true,
+          "generation_model_token_budget_verified": false,
+          "modification_notice": "Selected CDC factual text was paraphrased and shortened; substantive meaning and the listed scope qualifications are retained.",
+          "not_embedding_passage_text": true,
+          "permission_assessment_id": "cdc-scoped-permission:4f507234d44ad06f5bad1c3eba3a57c7562e0da38540a8c271618ed47d64e4ec",
+          "permission_record_sha256": "55bfba4efb3a3c8af08ea25cab6c6ca086daec931731532dcada1920a6c1c1fe",
+          "prominent_nonendorsement_required": true,
+          "publisher_policy_url": "https://www.cdc.gov/other/agencymaterials.html",
+          "reference_core_may_be_delivered_without_companion": false,
+          "reference_text": "CDC's general recommendation for children and adolescents aged 6–17 is at least 60 minutes of moderate-to-vigorous activity each day. Most should be aerobic, with vigorous aerobic activity on at least three days each week. Muscle- and bone-strengthening activity are each included on at least three days weekly as part of the daily activity, rather than as separate additional sixty-minute blocks. Choices should be varied, age-appropriate and enjoyable.",
+          "reference_unit_id": "cdc-scoped-reference-unit:9ae26e325e4559ccf326a009199fd14308bd73a6b3a3b9e13c887a4ed52a73f7",
+          "reference_unit_record_sha256": "ce7c61aab0ce9754ef0fa075d900aaacb9a3bfc2173f870b24257f211c7f82f9",
+          "required_context": "Population-level activity guidance for ages 6–17. The daily amount covers the activity mix; the weekly components do not require separate additional sixty-minute sessions. This is not an individualized basketball workload or an adopted project planning threshold.",
+          "required_notices": [
+            {
+              "notice_kind": "publisher_credit",
+              "text": "Source: Centers for Disease Control and Prevention (CDC), Child Activity: An Overview."
+            },
+            {
+              "notice_kind": "prominent_nonendorsement",
+              "text": "Use of CDC information and links does not imply endorsement by the United States Government, HHS, CDC, or ATSDR."
+            },
+            {
+              "notice_kind": "unchanged_substantive_meaning",
+              "text": "Preserve the source's substantive meaning and all stated scope qualifications. Population-level activity guidance for ages 6–17. The daily amount covers the activity mix; the weekly components do not require separate additional sixty-minute sessions. This is not an individualized basketball workload or an adopted project planning threshold."
+            },
+            {
+              "notice_kind": "free_availability",
+              "text": "The underlying CDC material is freely available on the agency website: https://www.cdc.gov/physical-activity-basics/guidelines/children.html."
+            }
+          ],
+          "schema_version": "step23-cdc-required-delivery-bundle-1",
+          "scope": "US_internal_educational_and_academic_research_text_only",
+          "source_context_required": true,
+          "source_url": "https://www.cdc.gov/physical-activity-basics/guidelines/children.html",
+          "source_version_id": "cdc-content-source-version:1fa780b078877175c47f80a88cd8e7cadd84b7ae1c8d743665b59bc29a400245",
+          "source_version_record_sha256": "072da3aefe3ae67b413832080874c882f919293ae268ed905bed7557ed46ec23",
+          "title": "Youth daily activity and weekly activity mix",
+          "token_count": null
+        },
+        "source_delivery_bundle_id": "cdc-required-delivery:5f9580cc35f05fd313af744822c959bb66db531e7ed93163404e4fe821e23900",
+        "source_delivery_record_sha256": "c2535f342aa2964059ad8980acf66659cf47188d92249bc247bcdbbfa0747565",
+        "source_unit_record_sha256": "ce7c61aab0ce9754ef0fa075d900aaacb9a3bfc2173f870b24257f211c7f82f9"
+      },
+      "score": 0.6139294645515528,
+      "score_kind": "embedding_cosine",
+      "standalone_core_delivery_allowed": false
+    }
+  ],
+  "kwargs": {},
+  "method": "complete_reference"
+}

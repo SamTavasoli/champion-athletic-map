@@ -1,0 +1,191 @@
+{
+  "artifacts": {
+    "artifacts/evaluation/scoring_config.json": "3034c30e3c7c802e0d73d9dfcd544f4a628520ffe8c7bf2c5a6823745ddbe97a",
+    "data/evaluation/human_review_sample.csv": "e7a9dcafdaa7d2a1f2459fa0322533edf5c58b7defb7dc03e5f65b58392b2d56",
+    "data/evaluation/human_review_template.csv": "6f3c891f393cbedb38088721c331e6bd3a69a6f8d743fbeba1426fe4ef7a78ee",
+    "docs/evaluation_protocol.md": "bc4c8637bc40e76c98fb26e665afedd11620ff405f2633d76af8d44f6c8d3a13",
+    "docs/human_review_rubric.md": "82f167f6176caefde171547485c48c8c40998ee7950cea55059575c9856a861c",
+    "results/evaluation_protocol_checks.csv": "1d9fa68466281bbd03229b234a37b92894dbab37c1726f1bc47e39ef7de181bb"
+  },
+  "bootstrap_resamples_run": 0,
+  "check_scope": "Accumulated saved artificial component checks, not operational parser/rule/runner or end-to-end validation.",
+  "classifier_feature_preparation_can_continue": true,
+  "component_check_summary": [
+    {
+      "component": "classifier",
+      "component_scenarios": 16,
+      "saved_checks": 82
+    },
+    {
+      "component": "planner",
+      "component_scenarios": 44,
+      "saved_checks": 116
+    },
+    {
+      "component": "human",
+      "component_scenarios": 41,
+      "saved_checks": 120
+    },
+    {
+      "component": "evidence",
+      "component_scenarios": 50,
+      "saved_checks": 151
+    },
+    {
+      "component": "runtime",
+      "component_scenarios": 46,
+      "saved_checks": 123
+    },
+    {
+      "component": "paired",
+      "component_scenarios": 31,
+      "saved_checks": 87
+    }
+  ],
+  "component_scenarios_summed": 228,
+  "definitions_prepared": true,
+  "final_classifier_scoring_ready": false,
+  "final_planner_scoring_ready": false,
+  "human_rating_template_rows": 0,
+  "human_ratings_assigned": 0,
+  "human_sample_rows": 0,
+  "input_hashes": {
+    "artifacts/evaluation/classifier_metrics_db3e5f3df78a126c/classifier_metric_config.json": "9c0ff72c83509deac20945d122babde529a17a1e23dcc069804da6e7edbf1116",
+    "artifacts/evaluation/classifier_metrics_db3e5f3df78a126c/classifier_metric_probe_checks.csv": "40d742299ca57f20bf527ba3896eb03e7fa6cdbd3a32b28f087d63a26e27af49",
+    "artifacts/evaluation/classifier_metrics_db3e5f3df78a126c/classifier_metric_probes.json": "6a962b5c9721b16e87f1b551b351144bc5584f3fcd488c1cb6ac6a1ff7fa6604",
+    "artifacts/evaluation/classifier_metrics_db3e5f3df78a126c/classifier_metrics.py": "10b026d0deed9eb674a1a2b194f9523b9445f54e6a139aaca64aae578aa165d6",
+    "artifacts/evaluation/classifier_metrics_db3e5f3df78a126c/step17_classifier_metric_summary.json": "fcc69484579048b344648287334f29d8c364d239f9f422969a453d96bd9292b1",
+    "artifacts/evaluation/evidence_accounting_c546a28e0ec3a34b/evidence_accounting.py": "2c0e96b652697cb098db69a72e9dd3daa0e546e0d236967680017a166130ded5",
+    "artifacts/evaluation/evidence_accounting_c546a28e0ec3a34b/evidence_accounting_config.json": "7b7b212033dccd2cd3332d780813256e564e6811c02e37aa1ebd0cc8cdcf6855",
+    "artifacts/evaluation/evidence_accounting_c546a28e0ec3a34b/evidence_accounting_policy.md": "7615a2e90e57ae5e6548457c6ed4c62eb8b0655ea5d06adff37d189eafac3287",
+    "artifacts/evaluation/evidence_accounting_c546a28e0ec3a34b/evidence_accounting_probe_checks.csv": "de787cb66e085ea088956f756c1456d2025e22a1ffb2f7e68b15afa416c1ffcf",
+    "artifacts/evaluation/evidence_accounting_c546a28e0ec3a34b/evidence_accounting_probes.json": "e5a551a0d90307809fd575f031b3e6bc47bdcad2dbd899f3fc324353fe70144f",
+    "artifacts/evaluation/evidence_accounting_c546a28e0ec3a34b/step17_evidence_accounting_summary.json": "0e7031a73c8e2f7e2b11f088347450aaf89dc06c4828094325427800c9caf7ad",
+    "artifacts/evaluation/human_review_9e637c0f3932c371/human_rating_entry_schema.json": "06ac801126f040348402b2ed34cf7da48058a9defb8dbcebe85b27961d30d9a2",
+    "artifacts/evaluation/human_review_9e637c0f3932c371/human_review_config.json": "ee688f57b443701b4ba7d95ae8c843703ba864ed244e57503f992d1c183b22ff",
+    "artifacts/evaluation/human_review_9e637c0f3932c371/human_review_examples.json": "d88fbf062ce1fd6eee2c523b4ce09824eef21126a8a9b5ccba3cfe070ee4ad60",
+    "artifacts/evaluation/human_review_9e637c0f3932c371/human_review_metrics.py": "dbe3d87cb7766bcee6d211db0ee2de16efb1030fd1133e7a65d2d4424973eaed",
+    "artifacts/evaluation/human_review_9e637c0f3932c371/human_review_probe_checks.csv": "4c372d1a1434713c15801b23d5f76e736863501b2f2138c7234ffa3745fb768f",
+    "artifacts/evaluation/human_review_9e637c0f3932c371/human_review_probes.json": "9742907c0c5c8e177565c6fb73c7cdb826a337b0907a0bcd5662dd95744a90f7",
+    "artifacts/evaluation/human_review_9e637c0f3932c371/human_review_rubric.md": "82f167f6176caefde171547485c48c8c40998ee7950cea55059575c9856a861c",
+    "artifacts/evaluation/human_review_9e637c0f3932c371/step17_human_review_summary.json": "f864b0e01f9092656e3effc190716b4a1463513ab71aade638bf840820c63ab2",
+    "artifacts/evaluation/paired_comparison_acf00a1a848823fb/paired_comparison.py": "389357159c6fd0f8a35f2ac94fba5f2483932f8a7d56a078a0e4271405d55b68",
+    "artifacts/evaluation/paired_comparison_acf00a1a848823fb/paired_comparison_config.json": "e210a9c0828fb2599b28460ac141a01a77d47501dbe9d25b27cc79c2246d7e6d",
+    "artifacts/evaluation/paired_comparison_acf00a1a848823fb/paired_comparison_policy.md": "9912e41d752a7b727d9110e1f460079d7f6cd773df17d5468640fbc0ae8c725a",
+    "artifacts/evaluation/paired_comparison_acf00a1a848823fb/paired_comparison_probe_checks.csv": "ee98ae6e75e1d42ffc678daaafadccb093bf89ee41725c6e91acc170c0f83a75",
+    "artifacts/evaluation/paired_comparison_acf00a1a848823fb/paired_comparison_probes.json": "b9fcce9bd7b386c39f8a07c9a1507a58dd3d5efdcbda08dacb44754c78ed3717",
+    "artifacts/evaluation/paired_comparison_acf00a1a848823fb/step17_paired_comparison_summary.json": "fa24c4991e777b9a7c2df642b9f841671d675e51d7d371c32f968db790c62c7a",
+    "artifacts/evaluation/planner_assessment_9bc2c716c90475ff/planner_assessment_config.json": "e0bbbe4ad5611c3f13e8fd7cebf5ba179c5a0ae2e95ca4d1feee13617444709a",
+    "artifacts/evaluation/planner_assessment_9bc2c716c90475ff/planner_assessment_policy.py": "4b3be4a66b2439734d2483e1b88794b0222297bc29ced649ce810215bd7419f9",
+    "artifacts/evaluation/planner_assessment_9bc2c716c90475ff/planner_assessment_probe_checks.csv": "288bc84d25a466565d355e8ce9f9ccfbe005a255671fbb184fc730fb491d3422",
+    "artifacts/evaluation/planner_assessment_9bc2c716c90475ff/planner_assessment_probes.json": "d738473dfb922f9273fe437c374819b6d8a9debd37d098a66e2d0fbb0fb02aa2",
+    "artifacts/evaluation/planner_assessment_9bc2c716c90475ff/step17_planner_assessment_summary.json": "6ca747afbbeb1ffc162730961f145aee9c77edc61adc3eb73e41a7075c006ee7",
+    "artifacts/evaluation/runtime_accounting_12404b69651ab1bc/runtime_accounting.py": "b66e081c1867eb08c58177b2d3561967faa89ddd7191938ad444f9b89d808678",
+    "artifacts/evaluation/runtime_accounting_12404b69651ab1bc/runtime_accounting_config.json": "64d26eda0afcf058e5354a4b6845c6b59a6ef1fe0b1a6fb48091503693d830e8",
+    "artifacts/evaluation/runtime_accounting_12404b69651ab1bc/runtime_accounting_policy.md": "c8a1fb787818b959fe363d9e73b1abb5b48e6d78aca1e4c4e50bcb684a31f978",
+    "artifacts/evaluation/runtime_accounting_12404b69651ab1bc/runtime_accounting_probe_checks.csv": "ff12163dc554f2ebe8dba5b447611ec14d0dc2f887e48bbea8ad116f868c5173",
+    "artifacts/evaluation/runtime_accounting_12404b69651ab1bc/runtime_accounting_probes.json": "3011097f34bc5baca150daf3d37e8904dbedaec1ad813cd702e13199777776f6",
+    "artifacts/evaluation/runtime_accounting_12404b69651ab1bc/step17_runtime_accounting_summary.json": "8770989fa7f10fd93fa1a492a19f97ea3a18f859b8ca573f0d77bcdb622e060c",
+    "artifacts/splits/exercise_split_config.json": "1694be410134288b9df58f651f20c9dc19f1a811f338b99e2dffb61ef4829f1a",
+    "data/processed/exercise_groups.csv": "30190adb8245a348a3243fcdff4bc40515cca773e2f874ebab83739f02d9c764",
+    "data/processed/exercise_split_manifest.csv": "c0723b13ce259f964c2c7952b4203edba75a7553146c5bdb4a637ed134a4f5ac",
+    "results/exercise_benchmark_review_decisions.csv": "cfdf0e29094e76fc6400fc12580dfedb7748f1dd85b67968705cd3af85ff32b1",
+    "results/exercise_class_eligibility.csv": "560d130d9aa2c136b552d1dd61735eb448105691c58b7f9729e3cdd6dd8ebeb0",
+    "results/exercise_split_candidates.csv": "d659186e893a9ae7c1f652bbe00f7ce5e30c9afafcd5dd9c091d16972dcd6f02",
+    "results/exercise_split_checks.csv": "eca5e80d470ddf3f8b41b174cb39e5d2f5582e478b672412a5eed29109c83212",
+    "results/exercise_split_summary.csv": "42ed48528dc4be8c7693bd75b9a921ce2fc93c7675db6dd42fdd4fc52bbdbaf2",
+    "results/step15_exercise_split_summary.json": "e3d4f7cf0de057d2d28f74716e03e41a0a4f4f46d75d49f8f3f6b05d0bbe554d"
+  },
+  "models_trained": 0,
+  "operational_end_to_end_validation_complete": false,
+  "planner_jobs_run": 0,
+  "preparation_counts": {
+    "accepted_development_profiles": 0,
+    "accepted_final_profiles": 0,
+    "adopted_expectations": 0,
+    "development_drafts": 100,
+    "human_review_decisions": 0,
+    "protected_test_candidate_drafts": 200
+  },
+  "private_checkpoint_binding": "Selected earlier inputs were rehashed in memory. Private hashes, paths, identities and receipt fields are not published here. Future finalization must privately bind accepted profiles/expectations and adopted references.",
+  "protocol_digest": "84fc2bd9e193944a51c3275d009d91af1ea16cf6f2528426736c128d15e64221",
+  "protocol_ready": false,
+  "readiness_gates": [
+    {
+      "dependency": "Adopted planning rules and exact rule versions",
+      "needed_before": "Reference-dependent case acceptance, operational checks and final planner scoring",
+      "status": "pending"
+    },
+    {
+      "dependency": "Approved basketball activities and source support",
+      "needed_before": "Feasibility approval, reference-dependent checks and final planner scoring",
+      "status": "pending"
+    },
+    {
+      "dependency": "Food lookup routing, source versions, units and factual checks",
+      "needed_before": "Food-case expectations and final factual assessment",
+      "status": "pending"
+    },
+    {
+      "dependency": "Accepted profiles, scenario categories and adopted families",
+      "needed_before": "Final population freeze, human sample selection and planner comparisons",
+      "status": "pending"
+    },
+    {
+      "dependency": "Adopted private expectations, check masks and feasibility evidence",
+      "needed_before": "Final case-level automated scoring",
+      "status": "pending"
+    },
+    {
+      "dependency": "Shared output contract and verified parser version",
+      "needed_before": "Operational response interpretation and final planner scoring",
+      "status": "pending"
+    },
+    {
+      "dependency": "Source-dependent validators and adopted-threshold boundary fixtures",
+      "needed_before": "Below/equal/above adopted-threshold tests and operational scoring readiness",
+      "status": "pending"
+    },
+    {
+      "dependency": "Human calibration, sampling, anonymized packets and review assignments",
+      "needed_before": "Independent human rating and agreement reporting",
+      "status": "pending"
+    },
+    {
+      "dependency": "Workflow timing, call/attempt logging and available resource telemetry",
+      "needed_before": "Actual runtime/resource reporting",
+      "status": "pending"
+    },
+    {
+      "dependency": "Independent score ledger, workflow aliases and designated-response hashes",
+      "needed_before": "Research scoring and matched planner comparisons",
+      "status": "pending"
+    },
+    {
+      "dependency": "Development integration fixtures and end-to-end scorer validation",
+      "needed_before": "Operational evaluation harness readiness",
+      "status": "pending"
+    },
+    {
+      "dependency": "Step 31 pilot, bootstrap procedure and final protocol/settings freeze",
+      "needed_before": "Held-out planner execution, uncertainty intervals and final evaluation",
+      "status": "pending"
+    },
+    {
+      "dependency": "Selected classifier models and complete held-out predictions",
+      "needed_before": "Step 32 final classifier scoring",
+      "status": "pending"
+    }
+  ],
+  "recipe_version": "evaluation-protocol-assembly-0.1.0",
+  "review_assignments_created": 0,
+  "sample_ids_selected": 0,
+  "saved_artificial_component_checks": 679,
+  "schema_version": "step17-evaluation-design-producer-1",
+  "selected_input_files_verified": 161,
+  "selected_profile_checkpoint_integrity_verified": true,
+  "status": "protocol_preparation_complete_final_scoring_blocked",
+  "study_cases_scored": 0,
+  "study_profiles_parsed": 0,
+  "study_responses_read": 0
+}

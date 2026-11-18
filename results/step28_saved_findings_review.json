@@ -1,0 +1,40 @@
+{
+  "acceptance_policy_changed": false,
+  "accepted_study_profiles": 0,
+  "active_workflow_changed": false,
+  "candidate_config_path": "artifacts/planners/version4_candidate_focused_config.json",
+  "candidate_config_sha256": "b1ffd025ba11e4de3b8b33a5db757e8f8158e820d4d2171020e8a6212b38f6b9",
+  "evaluator_false_positives_recorded": [
+    1,
+    2,
+    3,
+    6
+  ],
+  "independent_scoring_available": false,
+  "lossless_candidate_checks": 6,
+  "new_model_calls": 0,
+  "operational_generation_ready": false,
+  "original_context_overflow_tokens": 125,
+  "original_results_changed": false,
+  "planning_errors_remain": true,
+  "readiness": "awaiting_pilot",
+  "run_id": "v4-candidate-focused-54c30e2c8a003a13",
+  "schema_version": "step28-saved-findings-review-1",
+  "source_files_sha256": {
+    "artifacts/planners/active_version4_development.json": "aab659039581d6874e81cb738019fc8c7ac1f73f6998819709b50b8d83aa8632",
+    "artifacts/planners/version4_acceptance_policy.json": "e8d87dc54931a57ce5e17ca8a3eff3192f95eb2e211016cf76f157251e371006",
+    "artifacts/planners/version4_config.json": "042e66d552d922689a6f28ee12880bb8e84d6d9a45c8aa172f2b1101a29a7035",
+    "artifacts/planners/version4_evaluator_schema.json": "f8485f589cfaadff419e43ab0c1c5c30275e012dc0dad87895eff4337703621f",
+    "docs/prompts/planner_v4/evaluator.md": "b2b52a1a8e1ddec642a736ab9a0588602095039e225d752f0cc647b78f4db845",
+    "docs/prompts/planner_v4/revision.md": "e87e245738b90c98e704a8dea8e3cdfeabb401b33d2a2416ad5be867b00c87b4",
+    "results/planner_v4/evaluator_fix/development_runs.jsonl": "97f1b8d6039e7504b3dc598f3719dd949a1f2d8b27da1453386c82a557258fd6",
+    "results/planner_v4/evaluator_fix/remaining_findings.json": "d5f4aca1ff28c301ceb32dcfabb3422475f4c5140ae1f558c1cd86f8b7d39381",
+    "results/step28_planner_v4_evaluator_fix_summary.json": "12cc5f24c2c2d9bdb7043c2ac3452ae5ae5760c975c31b26996cac8d70a10643",
+    "src/champion_athletic_map/evaluated_role_adapter.py": "832ba424ffde9d0159ee75704963793dc68c54712ea04a57c5588cac9fa9c16e",
+    "src/champion_athletic_map/planners/evaluated_specialists.py": "22e310a1f2ad4c9a2681a3b735cb84f429c9439eb628bc7ba1bf16c7c32ce5b8",
+    "src/champion_athletic_map/planning_checks.py": "935fef910fca8650d8912df490ec44c22b3adb66afc086edcc89f201d6151dcb",
+    "src/champion_athletic_map/rule_checks.py": "38b555a0682bca84c39da8013bb8d05f748ce1ab64b183a9c16132a07bb298b0"
+  },
+  "source_findings_sha256": "d5f4aca1ff28c301ceb32dcfabb3422475f4c5140ae1f558c1cd86f8b7d39381",
+  "source_run_id": "v4-evaluator-fix-4d857208cab548ce"
+}

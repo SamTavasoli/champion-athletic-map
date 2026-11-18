@@ -1,0 +1,3284 @@
+{
+  "schema_version": "step28-remaining-findings-1",
+  "run_id": "v4-evaluator-fix-4d857208cab548ce",
+  "source_log_sha256": "97f1b8d6039e7504b3dc598f3719dd949a1f2d8b27da1453386c82a557258fd6",
+  "examples": [
+    {
+      "example": 1,
+      "profile_id": "athlete:3ceae454f8a62ee308cd87f4",
+      "terminal_state": "revision_limit_reached",
+      "selected_candidate_id": "candidate_2",
+      "public_input": {
+        "age": 13,
+        "athlete_request": "Please plan two extra basketball sessions this week to work on changes of direction. Use only the availability and resources I have listed.",
+        "availability": [
+          {
+            "date": "2026-11-16",
+            "end_time": "17:50",
+            "start_time": "17:30"
+          },
+          {
+            "date": "2026-11-18",
+            "end_time": "17:50",
+            "start_time": "17:30"
+          },
+          {
+            "date": "2026-11-21",
+            "end_time": "17:50",
+            "start_time": "17:30"
+          }
+        ],
+        "basketball_background": {
+          "experience_level": "advanced"
+        },
+        "equipment": [
+          {
+            "name": "Basketball",
+            "quantity": 1
+          },
+          {
+            "name": "Cones",
+            "quantity": 4
+          },
+          {
+            "name": "Hoop",
+            "quantity": 1
+          }
+        ],
+        "existing_commitments": [],
+        "food_question": "For the food \"Strawberries, raw\", how many grams of protein are recorded for 100 g?",
+        "goals": [
+          "Improve changes of direction"
+        ],
+        "participants_available": 2,
+        "planning_window": {
+          "end_date": "2026-11-22",
+          "start_date": "2026-11-16",
+          "timezone": "America/Los_Angeles"
+        },
+        "reported_limitations": [],
+        "school_grade": 8,
+        "space": {
+          "court_access": "full_court",
+          "hoop_access": true,
+          "restrictions": [],
+          "usable_area_description": "Full basketball court available during the listed windows."
+        },
+        "time_limits": {
+          "max_additional_minutes_per_week": 60,
+          "max_additional_sessions_per_week": 3,
+          "max_session_minutes": 20
+        }
+      },
+      "returned_response": {
+        "audit": {
+          "profile_id": "athlete:3ceae454f8a62ee308cd87f4",
+          "profile_schema_version": "athlete-profile-input-1",
+          "public_input_sha256": "28a0477f394f06448c10563ec88d5c23248ba9439aff88ec973f9b9035cc2e06",
+          "raw_response_utf8_sha256": "a1dadd4742d23fbfb7789145d19a0b6a30bf7cec24dd24250efc4e59be19a33d"
+        },
+        "authoritative_public_input": {
+          "age": 13,
+          "athlete_request": "Please plan two extra basketball sessions this week to work on changes of direction. Use only the availability and resources I have listed.",
+          "availability": [
+            {
+              "date": "2026-11-16",
+              "end_time": "17:50",
+              "start_time": "17:30"
+            },
+            {
+              "date": "2026-11-18",
+              "end_time": "17:50",
+              "start_time": "17:30"
+            },
+            {
+              "date": "2026-11-21",
+              "end_time": "17:50",
+              "start_time": "17:30"
+            }
+          ],
+          "basketball_background": {
+            "experience_level": "advanced"
+          },
+          "equipment": [
+            {
+              "name": "Basketball",
+              "quantity": 1
+            },
+            {
+              "name": "Cones",
+              "quantity": 4
+            },
+            {
+              "name": "Hoop",
+              "quantity": 1
+            }
+          ],
+          "existing_commitments": [],
+          "food_question": "For the food \"Strawberries, raw\", how many grams of protein are recorded for 100 g?",
+          "goals": [
+            "Improve changes of direction"
+          ],
+          "participants_available": 2,
+          "planning_window": {
+            "end_date": "2026-11-22",
+            "start_date": "2026-11-16",
+            "timezone": "America/Los_Angeles"
+          },
+          "reported_limitations": [],
+          "school_grade": 8,
+          "space": {
+            "court_access": "full_court",
+            "hoop_access": true,
+            "restrictions": [],
+            "usable_area_description": "Full basketball court available during the listed windows."
+          },
+          "time_limits": {
+            "max_additional_minutes_per_week": 60,
+            "max_additional_sessions_per_week": 3,
+            "max_session_minutes": 20
+          }
+        },
+        "input_authority": "supplied_public_input_only",
+        "model_output": {
+          "error_code": null,
+          "issues": [],
+          "parse_valid": true,
+          "parsed_object": {
+            "explanation": "Two additional basketball sessions have been scheduled to work on changes of direction, while respecting the athlete's existing commitments and available resources.",
+            "planning_window": {
+              "end_date": "2026-11-22",
+              "start_date": "2026-11-16",
+              "timezone": "America/Los_Angeles"
+            },
+            "response_type": "plan",
+            "weekly_schedule": [
+              {
+                "activities": [
+                  {
+                    "activity_id": "session1",
+                    "description": "Basketball session to work on changes of direction",
+                    "duration_minutes": 20,
+                    "existing_commitment_refs": [],
+                    "relationship": {
+                      "kind": "separate_session",
+                      "parent_activity_id": null
+                    },
+                    "resources": {
+                      "equipment": [
+                        {
+                          "name": "Basketball",
+                          "quantity": 1
+                        },
+                        {
+                          "name": "Cones",
+                          "quantity": 4
+                        }
+                      ],
+                      "participants": 2,
+                      "space": "full_court"
+                    },
+                    "timing": {
+                      "end_time": "17:50",
+                      "start_time": "17:30"
+                    }
+                  }
+                ],
+                "date": "2026-11-16",
+                "rest_arrangements": "Rest for 30 minutes after the session"
+              },
+              {
+                "activities": [],
+                "date": "2026-11-17",
+                "rest_arrangements": "Rest and recovery day"
+              },
+              {
+                "activities": [
+                  {
+                    "activity_id": "session2",
+                    "description": "Basketball session to work on changes of direction",
+                    "duration_minutes": 20,
+                    "existing_commitment_refs": [],
+                    "relationship": {
+                      "kind": "separate_session",
+                      "parent_activity_id": null
+                    },
+                    "resources": {
+                      "equipment": [
+                        {
+                          "name": "Basketball",
+                          "quantity": 1
+                        },
+                        {
+                          "name": "Cones",
+                          "quantity": 4
+                        }
+                      ],
+                      "participants": 2,
+                      "space": "full_court"
+                    },
+                    "timing": {
+                      "end_time": "17:50",
+                      "start_time": "17:30"
+                    }
+                  }
+                ],
+                "date": "2026-11-18",
+                "rest_arrangements": "Rest for 30 minutes after the session"
+              },
+              {
+                "activities": [],
+                "date": "2026-11-19",
+                "rest_arrangements": "Rest and recovery day"
+              },
+              {
+                "activities": [],
+                "date": "2026-11-20",
+                "rest_arrangements": "Rest and recovery day"
+              },
+              {
+                "activities": [
+                  {
+                    "activity_id": "session3",
+                    "description": "Basketball session to work on changes of direction",
+                    "duration_minutes": 20,
+                    "existing_commitment_refs": [],
+                    "relationship": {
+                      "kind": "separate_session",
+                      "parent_activity_id": null
+                    },
+                    "resources": {
+                      "equipment": [
+                        {
+                          "name": "Basketball",
+                          "quantity": 1
+                        },
+                        {
+                          "name": "Cones",
+                          "quantity": 4
+                        }
+                      ],
+                      "participants": 2,
+                      "space": "full_court"
+                    },
+                    "timing": {
+                      "end_time": "17:50",
+                      "start_time": "17:30"
+                    }
+                  }
+                ],
+                "date": "2026-11-21",
+                "rest_arrangements": "Rest for 30 minutes after the session"
+              },
+              {
+                "activities": [],
+                "date": "2026-11-22",
+                "rest_arrangements": "Rest and recovery day"
+              }
+            ]
+          },
+          "raw_text": "{\n  \"response_type\": \"plan\",\n  \"explanation\": \"Two additional basketball sessions have been scheduled to work on changes of direction, while respecting the athlete's existing commitments and available resources.\",\n  \"planning_window\": {\n    \"start_date\": \"2026-11-16\",\n    \"end_date\": \"2026-11-22\",\n    \"timezone\": \"America/Los_Angeles\"\n  },\n  \"weekly_schedule\": [\n    {\n      \"date\": \"2026-11-16\",\n      \"activities\": [\n        {\n          \"activity_id\": \"session1\",\n          \"description\": \"Basketball session to work on changes of direction\",\n          \"duration_minutes\": 20,\n          \"existing_commitment_refs\": [],\n          \"relationship\": {\n            \"kind\": \"separate_session\",\n            \"parent_activity_id\": null\n          },\n          \"resources\": {\n            \"equipment\": [\n              {\n                \"name\": \"Basketball\",\n                \"quantity\": 1\n              },\n              {\n                \"name\": \"Cones\",\n                \"quantity\": 4\n              }\n            ],\n            \"participants\": 2,\n            \"space\": \"full_court\"\n          },\n          \"timing\": {\n            \"start_time\": \"17:30\",\n            \"end_time\": \"17:50\"\n          }\n        }\n      ],\n      \"rest_arrangements\": \"Rest for 30 minutes after the session\"\n    },\n    {\n      \"date\": \"2026-11-17\",\n      \"activities\": [],\n      \"rest_arrangements\": \"Rest and recovery day\"\n    },\n    {\n      \"date\": \"2026-11-18\",\n      \"activities\": [\n        {\n          \"activity_id\": \"session2\",\n          \"description\": \"Basketball session to work on changes of direction\",\n          \"duration_minutes\": 20,\n          \"existing_commitment_refs\": [],\n          \"relationship\": {\n            \"kind\": \"separate_session\",\n            \"parent_activity_id\": null\n          },\n          \"resources\": {\n            \"equipment\": [\n              {\n                \"name\": \"Basketball\",\n                \"quantity\": 1\n              },\n              {\n                \"name\": \"Cones\",\n                \"quantity\": 4\n              }\n            ],\n            \"participants\": 2,\n            \"space\": \"full_court\"\n          },\n          \"timing\": {\n            \"start_time\": \"17:30\",\n            \"end_time\": \"17:50\"\n          }\n        }\n      ],\n      \"rest_arrangements\": \"Rest for 30 minutes after the session\"\n    },\n    {\n      \"date\": \"2026-11-19\",\n      \"activities\": [],\n      \"rest_arrangements\": \"Rest and recovery day\"\n    },\n    {\n      \"date\": \"2026-11-20\",\n      \"activities\": [],\n      \"rest_arrangements\": \"Rest and recovery day\"\n    },\n    {\n      \"date\": \"2026-11-21\",\n      \"activities\": [\n        {\n          \"activity_id\": \"session3\",\n          \"description\": \"Basketball session to work on changes of direction\",\n          \"duration_minutes\": 20,\n          \"existing_commitment_refs\": [],\n          \"relationship\": {\n            \"kind\": \"separate_session\",\n            \"parent_activity_id\": null\n          },\n          \"resources\": {\n            \"equipment\": [\n              {\n                \"name\": \"Basketball\",\n                \"quantity\": 1\n              },\n              {\n                \"name\": \"Cones\",\n                \"quantity\": 4\n              }\n            ],\n            \"participants\": 2,\n            \"space\": \"full_court\"\n          },\n          \"timing\": {\n            \"start_time\": \"17:30\",\n            \"end_time\": \"17:50\"\n          }\n        }\n      ],\n      \"rest_arrangements\": \"Rest for 30 minutes after the session\"\n    },\n    {\n      \"date\": \"2026-11-22\",\n      \"activities\": [],\n      \"rest_arrangements\": \"Rest and recovery day\"\n    }\n  ]\n}"
+        },
+        "schema_version": "step24-source-and-response-record-1",
+        "semantic_correctness_verified": false
+      },
+      "diagnostic_candidate_id": "candidate_2",
+      "diagnostic_candidate": {
+        "audit": {
+          "profile_id": "athlete:3ceae454f8a62ee308cd87f4",
+          "profile_schema_version": "athlete-profile-input-1",
+          "public_input_sha256": "28a0477f394f06448c10563ec88d5c23248ba9439aff88ec973f9b9035cc2e06",
+          "raw_response_utf8_sha256": "a1dadd4742d23fbfb7789145d19a0b6a30bf7cec24dd24250efc4e59be19a33d"
+        },
+        "authoritative_public_input": {
+          "age": 13,
+          "athlete_request": "Please plan two extra basketball sessions this week to work on changes of direction. Use only the availability and resources I have listed.",
+          "availability": [
+            {
+              "date": "2026-11-16",
+              "end_time": "17:50",
+              "start_time": "17:30"
+            },
+            {
+              "date": "2026-11-18",
+              "end_time": "17:50",
+              "start_time": "17:30"
+            },
+            {
+              "date": "2026-11-21",
+              "end_time": "17:50",
+              "start_time": "17:30"
+            }
+          ],
+          "basketball_background": {
+            "experience_level": "advanced"
+          },
+          "equipment": [
+            {
+              "name": "Basketball",
+              "quantity": 1
+            },
+            {
+              "name": "Cones",
+              "quantity": 4
+            },
+            {
+              "name": "Hoop",
+              "quantity": 1
+            }
+          ],
+          "existing_commitments": [],
+          "food_question": "For the food \"Strawberries, raw\", how many grams of protein are recorded for 100 g?",
+          "goals": [
+            "Improve changes of direction"
+          ],
+          "participants_available": 2,
+          "planning_window": {
+            "end_date": "2026-11-22",
+            "start_date": "2026-11-16",
+            "timezone": "America/Los_Angeles"
+          },
+          "reported_limitations": [],
+          "school_grade": 8,
+          "space": {
+            "court_access": "full_court",
+            "hoop_access": true,
+            "restrictions": [],
+            "usable_area_description": "Full basketball court available during the listed windows."
+          },
+          "time_limits": {
+            "max_additional_minutes_per_week": 60,
+            "max_additional_sessions_per_week": 3,
+            "max_session_minutes": 20
+          }
+        },
+        "input_authority": "supplied_public_input_only",
+        "model_output": {
+          "error_code": null,
+          "issues": [],
+          "parse_valid": true,
+          "parsed_object": {
+            "explanation": "Two additional basketball sessions have been scheduled to work on changes of direction, while respecting the athlete's existing commitments and available resources.",
+            "planning_window": {
+              "end_date": "2026-11-22",
+              "start_date": "2026-11-16",
+              "timezone": "America/Los_Angeles"
+            },
+            "response_type": "plan",
+            "weekly_schedule": [
+              {
+                "activities": [
+                  {
+                    "activity_id": "session1",
+                    "description": "Basketball session to work on changes of direction",
+                    "duration_minutes": 20,
+                    "existing_commitment_refs": [],
+                    "relationship": {
+                      "kind": "separate_session",
+                      "parent_activity_id": null
+                    },
+                    "resources": {
+                      "equipment": [
+                        {
+                          "name": "Basketball",
+                          "quantity": 1
+                        },
+                        {
+                          "name": "Cones",
+                          "quantity": 4
+                        }
+                      ],
+                      "participants": 2,
+                      "space": "full_court"
+                    },
+                    "timing": {
+                      "end_time": "17:50",
+                      "start_time": "17:30"
+                    }
+                  }
+                ],
+                "date": "2026-11-16",
+                "rest_arrangements": "Rest for 30 minutes after the session"
+              },
+              {
+                "activities": [],
+                "date": "2026-11-17",
+                "rest_arrangements": "Rest and recovery day"
+              },
+              {
+                "activities": [
+                  {
+                    "activity_id": "session2",
+                    "description": "Basketball session to work on changes of direction",
+                    "duration_minutes": 20,
+                    "existing_commitment_refs": [],
+                    "relationship": {
+                      "kind": "separate_session",
+                      "parent_activity_id": null
+                    },
+                    "resources": {
+                      "equipment": [
+                        {
+                          "name": "Basketball",
+                          "quantity": 1
+                        },
+                        {
+                          "name": "Cones",
+                          "quantity": 4
+                        }
+                      ],
+                      "participants": 2,
+                      "space": "full_court"
+                    },
+                    "timing": {
+                      "end_time": "17:50",
+                      "start_time": "17:30"
+                    }
+                  }
+                ],
+                "date": "2026-11-18",
+                "rest_arrangements": "Rest for 30 minutes after the session"
+              },
+              {
+                "activities": [],
+                "date": "2026-11-19",
+                "rest_arrangements": "Rest and recovery day"
+              },
+              {
+                "activities": [],
+                "date": "2026-11-20",
+                "rest_arrangements": "Rest and recovery day"
+              },
+              {
+                "activities": [
+                  {
+                    "activity_id": "session3",
+                    "description": "Basketball session to work on changes of direction",
+                    "duration_minutes": 20,
+                    "existing_commitment_refs": [],
+                    "relationship": {
+                      "kind": "separate_session",
+                      "parent_activity_id": null
+                    },
+                    "resources": {
+                      "equipment": [
+                        {
+                          "name": "Basketball",
+                          "quantity": 1
+                        },
+                        {
+                          "name": "Cones",
+                          "quantity": 4
+                        }
+                      ],
+                      "participants": 2,
+                      "space": "full_court"
+                    },
+                    "timing": {
+                      "end_time": "17:50",
+                      "start_time": "17:30"
+                    }
+                  }
+                ],
+                "date": "2026-11-21",
+                "rest_arrangements": "Rest for 30 minutes after the session"
+              },
+              {
+                "activities": [],
+                "date": "2026-11-22",
+                "rest_arrangements": "Rest and recovery day"
+              }
+            ]
+          },
+          "raw_text": "{\n  \"response_type\": \"plan\",\n  \"explanation\": \"Two additional basketball sessions have been scheduled to work on changes of direction, while respecting the athlete's existing commitments and available resources.\",\n  \"planning_window\": {\n    \"start_date\": \"2026-11-16\",\n    \"end_date\": \"2026-11-22\",\n    \"timezone\": \"America/Los_Angeles\"\n  },\n  \"weekly_schedule\": [\n    {\n      \"date\": \"2026-11-16\",\n      \"activities\": [\n        {\n          \"activity_id\": \"session1\",\n          \"description\": \"Basketball session to work on changes of direction\",\n          \"duration_minutes\": 20,\n          \"existing_commitment_refs\": [],\n          \"relationship\": {\n            \"kind\": \"separate_session\",\n            \"parent_activity_id\": null\n          },\n          \"resources\": {\n            \"equipment\": [\n              {\n                \"name\": \"Basketball\",\n                \"quantity\": 1\n              },\n              {\n                \"name\": \"Cones\",\n                \"quantity\": 4\n              }\n            ],\n            \"participants\": 2,\n            \"space\": \"full_court\"\n          },\n          \"timing\": {\n            \"start_time\": \"17:30\",\n            \"end_time\": \"17:50\"\n          }\n        }\n      ],\n      \"rest_arrangements\": \"Rest for 30 minutes after the session\"\n    },\n    {\n      \"date\": \"2026-11-17\",\n      \"activities\": [],\n      \"rest_arrangements\": \"Rest and recovery day\"\n    },\n    {\n      \"date\": \"2026-11-18\",\n      \"activities\": [\n        {\n          \"activity_id\": \"session2\",\n          \"description\": \"Basketball session to work on changes of direction\",\n          \"duration_minutes\": 20,\n          \"existing_commitment_refs\": [],\n          \"relationship\": {\n            \"kind\": \"separate_session\",\n            \"parent_activity_id\": null\n          },\n          \"resources\": {\n            \"equipment\": [\n              {\n                \"name\": \"Basketball\",\n                \"quantity\": 1\n              },\n              {\n                \"name\": \"Cones\",\n                \"quantity\": 4\n              }\n            ],\n            \"participants\": 2,\n            \"space\": \"full_court\"\n          },\n          \"timing\": {\n            \"start_time\": \"17:30\",\n            \"end_time\": \"17:50\"\n          }\n        }\n      ],\n      \"rest_arrangements\": \"Rest for 30 minutes after the session\"\n    },\n    {\n      \"date\": \"2026-11-19\",\n      \"activities\": [],\n      \"rest_arrangements\": \"Rest and recovery day\"\n    },\n    {\n      \"date\": \"2026-11-20\",\n      \"activities\": [],\n      \"rest_arrangements\": \"Rest and recovery day\"\n    },\n    {\n      \"date\": \"2026-11-21\",\n      \"activities\": [\n        {\n          \"activity_id\": \"session3\",\n          \"description\": \"Basketball session to work on changes of direction\",\n          \"duration_minutes\": 20,\n          \"existing_commitment_refs\": [],\n          \"relationship\": {\n            \"kind\": \"separate_session\",\n            \"parent_activity_id\": null\n          },\n          \"resources\": {\n            \"equipment\": [\n              {\n                \"name\": \"Basketball\",\n                \"quantity\": 1\n              },\n              {\n                \"name\": \"Cones\",\n                \"quantity\": 4\n              }\n            ],\n            \"participants\": 2,\n            \"space\": \"full_court\"\n          },\n          \"timing\": {\n            \"start_time\": \"17:30\",\n            \"end_time\": \"17:50\"\n          }\n        }\n      ],\n      \"rest_arrangements\": \"Rest for 30 minutes after the session\"\n    },\n    {\n      \"date\": \"2026-11-22\",\n      \"activities\": [],\n      \"rest_arrangements\": \"Rest and recovery day\"\n    }\n  ]\n}"
+        },
+        "schema_version": "step24-source-and-response-record-1",
+        "semantic_correctness_verified": false
+      },
+      "required_findings": [
+        {
+          "applicability": "applicable_or_unresolved",
+          "candidate_id": "candidate_2",
+          "check_id": "requested_session_count",
+          "data_versions": {
+            "checker": "planning-checks-1",
+            "resource_release": "team-approved-f0dcb9e9943e381b",
+            "rules_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": null,
+          "reason": "Requested 2 additional sessions; scheduled 3.",
+          "required": true,
+          "rule_ids": [],
+          "status": "violated"
+        },
+        {
+          "applicability": "applicable_or_unresolved",
+          "candidate_id": "candidate_2",
+          "check_id": "resource_feasibility",
+          "data_versions": {
+            "checker": "planning-checks-1",
+            "resource_release": "team-approved-f0dcb9e9943e381b",
+            "rules_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": null,
+          "reason": "Free-form activity requirements are not independently verified; declared resource conflicts remain actionable.",
+          "required": true,
+          "rule_ids": [],
+          "status": "unknown"
+        },
+        {
+          "applicability": "applicable_or_unresolved",
+          "candidate_id": "candidate_2",
+          "check_id": "rule:USER_EQUIPMENT_SPACE",
+          "data_versions": {
+            "checker": "planning-checks-1",
+            "resource_release": "team-approved-f0dcb9e9943e381b",
+            "rules_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": null,
+          "reason": "Declared equipment space checks: unknown; unknown activity-specific requirements are not assumed.",
+          "required": true,
+          "rule_ids": [
+            "USER_EQUIPMENT_SPACE"
+          ],
+          "status": "unknown"
+        },
+        {
+          "applicability": "applicable_or_unresolved",
+          "candidate_id": "candidate_2",
+          "check_id": "rule:USER_PARTICIPANTS",
+          "data_versions": {
+            "checker": "planning-checks-1",
+            "resource_release": "team-approved-f0dcb9e9943e381b",
+            "rules_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": null,
+          "reason": "Declared participants checks: unknown; unknown activity-specific requirements are not assumed.",
+          "required": true,
+          "rule_ids": [
+            "USER_PARTICIPANTS"
+          ],
+          "status": "unknown"
+        },
+        {
+          "applicability": "applicable",
+          "candidate_id": "candidate_2",
+          "check_id": "rule:NBA_A12_14_MAX_HOURS",
+          "data_versions": {
+            "release_id": "team-approved-f0dcb9e9943e381b",
+            "rule_file_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": {
+            "known_minutes_lower_bound": 60,
+            "maximum_minutes": 600
+          },
+          "reason": "Time is below the cap on known records; complete classified coverage is not established.",
+          "required": true,
+          "rule_ids": [
+            "NBA_A12_14_MAX_HOURS"
+          ],
+          "status": "unknown"
+        },
+        {
+          "applicability": "applicable",
+          "candidate_id": "candidate_2",
+          "check_id": "rule:NBA_A12_14_MIN_REST",
+          "data_versions": {
+            "release_id": "team-approved-f0dcb9e9943e381b",
+            "rule_file_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": {
+            "complete_schedule_established": false,
+            "known_active_days": 3
+          },
+          "reason": "Apparently free days do not establish rest without complete classified schedule coverage.",
+          "required": true,
+          "rule_ids": [
+            "NBA_A12_14_MIN_REST"
+          ],
+          "status": "unknown"
+        },
+        {
+          "applicability": "applicable",
+          "candidate_id": "candidate_2",
+          "check_id": "food_facts_numeric",
+          "data_versions": {},
+          "observed": null,
+          "reason": "No structured food statement was supplied for exact quantity, identity and unit comparison.",
+          "required": true,
+          "rule_ids": [],
+          "status": "unknown"
+        }
+      ],
+      "evaluator_findings": [
+        {
+          "category": "scope",
+          "correction": "Please provide a more specific goal, such as 'Improve changes of direction by increasing speed and agility'.",
+          "evidence_ref": null,
+          "path": "/athlete_input/goals",
+          "problem": "The goal 'Improve changes of direction' is not specific enough to plan a basketball practice around it.",
+          "uncertainty": null
+        }
+      ],
+      "acceptance": {
+        "accepted": false,
+        "blocking_check_ids": [
+          "requested_session_count",
+          "resource_feasibility",
+          "rule:USER_EQUIPMENT_SPACE",
+          "rule:USER_PARTICIPANTS",
+          "rule:NBA_A12_14_MAX_HOURS",
+          "rule:NBA_A12_14_MIN_REST",
+          "food_facts_numeric"
+        ],
+        "blocking_evaluator_categories": [
+          "scope"
+        ],
+        "coverage_valid": true,
+        "disagreements": [],
+        "evaluator_valid": true
+      },
+      "failed_stage": null,
+      "execution_error": null,
+      "failed_request_context": null,
+      "failed_request_id": null,
+      "source_outcome_sha256": "67886d7f1332cca15262b65c65b9093f990e677b375ec550c63c7a87d0a00dbf"
+    },
+    {
+      "example": 2,
+      "profile_id": "athlete:06265b25ff63c151f6243a9c",
+      "terminal_state": "revision_limit_reached",
+      "selected_candidate_id": "candidate_2",
+      "public_input": {
+        "age": 17,
+        "athlete_request": "Please plan two extra basketball sessions this week to work on defensive footwork. Use only the availability and resources I have listed.",
+        "availability": [
+          {
+            "date": "2026-11-17",
+            "end_time": "17:45",
+            "start_time": "17:30"
+          },
+          {
+            "date": "2026-11-19",
+            "end_time": "17:45",
+            "start_time": "17:30"
+          }
+        ],
+        "basketball_background": {
+          "experience_level": "beginner"
+        },
+        "equipment": [
+          {
+            "name": "Basketball",
+            "quantity": 1
+          },
+          {
+            "name": "Cones",
+            "quantity": 4
+          }
+        ],
+        "existing_commitments": [
+          {
+            "activity_kind": "travel",
+            "activity_type": "nontraining",
+            "date": "2026-11-20",
+            "description": "School travel",
+            "end_time": "16:30",
+            "start_time": "15:30"
+          }
+        ],
+        "food_question": "For the food \"Bananas, raw\", how many kilocalories of energy are recorded for 150 g?",
+        "goals": [
+          "Improve defensive footwork"
+        ],
+        "participants_available": 4,
+        "planning_window": {
+          "end_date": "2026-11-22",
+          "start_date": "2026-11-16",
+          "timezone": "America/Los_Angeles"
+        },
+        "reported_limitations": [],
+        "school_grade": 12,
+        "space": {
+          "court_access": "none",
+          "hoop_access": false,
+          "restrictions": [
+            "Only one participant may move inside the marked practice rectangle at a time.",
+            "Other participants must wait in the designated waiting area between turns."
+          ],
+          "usable_area_description": "Clear, level indoor practice rectangle 6 m long and 4 m wide, with a separate designated waiting area outside the marked rectangle. No court or hoop."
+        },
+        "time_limits": {
+          "max_additional_minutes_per_week": 30,
+          "max_additional_sessions_per_week": 2,
+          "max_session_minutes": 15
+        }
+      },
+      "returned_response": {
+        "audit": {
+          "profile_id": "athlete:06265b25ff63c151f6243a9c",
+          "profile_schema_version": "athlete-profile-input-1",
+          "public_input_sha256": "c2185a124fa0f23e4287f028a30434f4ba2154596b3d88e8ae6855d524f98815",
+          "raw_response_utf8_sha256": "d568cde26c4cb0bc0ee9197eeff1666e8c63a7c405197734a2fc145fde5577bd"
+        },
+        "authoritative_public_input": {
+          "age": 17,
+          "athlete_request": "Please plan two extra basketball sessions this week to work on defensive footwork. Use only the availability and resources I have listed.",
+          "availability": [
+            {
+              "date": "2026-11-17",
+              "end_time": "17:45",
+              "start_time": "17:30"
+            },
+            {
+              "date": "2026-11-19",
+              "end_time": "17:45",
+              "start_time": "17:30"
+            }
+          ],
+          "basketball_background": {
+            "experience_level": "beginner"
+          },
+          "equipment": [
+            {
+              "name": "Basketball",
+              "quantity": 1
+            },
+            {
+              "name": "Cones",
+              "quantity": 4
+            }
+          ],
+          "existing_commitments": [
+            {
+              "activity_kind": "travel",
+              "activity_type": "nontraining",
+              "date": "2026-11-20",
+              "description": "School travel",
+              "end_time": "16:30",
+              "start_time": "15:30"
+            }
+          ],
+          "food_question": "For the food \"Bananas, raw\", how many kilocalories of energy are recorded for 150 g?",
+          "goals": [
+            "Improve defensive footwork"
+          ],
+          "participants_available": 4,
+          "planning_window": {
+            "end_date": "2026-11-22",
+            "start_date": "2026-11-16",
+            "timezone": "America/Los_Angeles"
+          },
+          "reported_limitations": [],
+          "school_grade": 12,
+          "space": {
+            "court_access": "none",
+            "hoop_access": false,
+            "restrictions": [
+              "Only one participant may move inside the marked practice rectangle at a time.",
+              "Other participants must wait in the designated waiting area between turns."
+            ],
+            "usable_area_description": "Clear, level indoor practice rectangle 6 m long and 4 m wide, with a separate designated waiting area outside the marked rectangle. No court or hoop."
+          },
+          "time_limits": {
+            "max_additional_minutes_per_week": 30,
+            "max_additional_sessions_per_week": 2,
+            "max_session_minutes": 15
+          }
+        },
+        "input_authority": "supplied_public_input_only",
+        "model_output": {
+          "error_code": null,
+          "issues": [],
+          "parse_valid": true,
+          "parsed_object": {
+            "explanation": "Two extra basketball sessions have been planned to work on defensive footwork, using the available equipment and space.",
+            "planning_window": {
+              "end_date": "2026-11-22",
+              "start_date": "2026-11-16",
+              "timezone": "America/Los_Angeles"
+            },
+            "response_type": "plan",
+            "weekly_schedule": [
+              {
+                "activities": [],
+                "date": "2026-11-16",
+                "rest_arrangements": "No activities planned. Rest and recovery are important for athletes."
+              },
+              {
+                "activities": [
+                  {
+                    "activity_id": "defensive_footwork_session_1",
+                    "description": "Defensive footwork drills using cones",
+                    "duration_minutes": 15,
+                    "existing_commitment_refs": [],
+                    "relationship": {
+                      "kind": "separate_session",
+                      "parent_activity_id": null
+                    },
+                    "resources": {
+                      "equipment": [
+                        {
+                          "name": "Cones",
+                          "quantity": 4
+                        }
+                      ],
+                      "participants": 4,
+                      "space": "Clear, level indoor practice rectangle 6 m long and 4 m wide"
+                    }
+                  }
+                ],
+                "date": "2026-11-17",
+                "rest_arrangements": "No rest arrangements needed for this day."
+              },
+              {
+                "activities": [],
+                "date": "2026-11-18",
+                "rest_arrangements": "No activities planned. Rest and recovery are important for athletes."
+              },
+              {
+                "activities": [
+                  {
+                    "activity_id": "defensive_footwork_session_2",
+                    "description": "Defensive footwork drills using cones",
+                    "duration_minutes": 15,
+                    "existing_commitment_refs": [],
+                    "relationship": {
+                      "kind": "separate_session",
+                      "parent_activity_id": null
+                    },
+                    "resources": {
+                      "equipment": [
+                        {
+                          "name": "Cones",
+                          "quantity": 4
+                        }
+                      ],
+                      "participants": 4,
+                      "space": "Clear, level indoor practice rectangle 6 m long and 4 m wide"
+                    }
+                  }
+                ],
+                "date": "2026-11-19",
+                "rest_arrangements": "No rest arrangements needed for this day."
+              },
+              {
+                "activities": [],
+                "date": "2026-11-20",
+                "rest_arrangements": "No activities planned. Rest and recovery are important for athletes."
+              },
+              {
+                "activities": [],
+                "date": "2026-11-21",
+                "rest_arrangements": "No activities planned. Rest and recovery are important for athletes."
+              },
+              {
+                "activities": [],
+                "date": "2026-11-22",
+                "rest_arrangements": "No activities planned. Rest and recovery are important for athletes."
+              }
+            ]
+          },
+          "raw_text": "{\n  \"response_type\": \"plan\",\n  \"explanation\": \"Two extra basketball sessions have been planned to work on defensive footwork, using the available equipment and space.\",\n  \"planning_window\": {\n    \"start_date\": \"2026-11-16\",\n    \"end_date\": \"2026-11-22\",\n    \"timezone\": \"America/Los_Angeles\"\n  },\n  \"weekly_schedule\": [\n    {\n      \"date\": \"2026-11-16\",\n      \"activities\": [],\n      \"rest_arrangements\": \"No activities planned. Rest and recovery are important for athletes.\"\n    },\n    {\n      \"date\": \"2026-11-17\",\n      \"activities\": [\n        {\n          \"activity_id\": \"defensive_footwork_session_1\",\n          \"description\": \"Defensive footwork drills using cones\",\n          \"duration_minutes\": 15,\n          \"existing_commitment_refs\": [],\n          \"relationship\": {\n            \"kind\": \"separate_session\",\n            \"parent_activity_id\": null\n          },\n          \"resources\": {\n            \"equipment\": [\n              {\n                \"name\": \"Cones\",\n                \"quantity\": 4\n              }\n            ],\n            \"participants\": 4,\n            \"space\": \"Clear, level indoor practice rectangle 6 m long and 4 m wide\"\n          }\n        }\n      ],\n      \"rest_arrangements\": \"No rest arrangements needed for this day.\"\n    },\n    {\n      \"date\": \"2026-11-18\",\n      \"activities\": [],\n      \"rest_arrangements\": \"No activities planned. Rest and recovery are important for athletes.\"\n    },\n    {\n      \"date\": \"2026-11-19\",\n      \"activities\": [\n        {\n          \"activity_id\": \"defensive_footwork_session_2\",\n          \"description\": \"Defensive footwork drills using cones\",\n          \"duration_minutes\": 15,\n          \"existing_commitment_refs\": [],\n          \"relationship\": {\n            \"kind\": \"separate_session\",\n            \"parent_activity_id\": null\n          },\n          \"resources\": {\n            \"equipment\": [\n              {\n                \"name\": \"Cones\",\n                \"quantity\": 4\n              }\n            ],\n            \"participants\": 4,\n            \"space\": \"Clear, level indoor practice rectangle 6 m long and 4 m wide\"\n          }\n        }\n      ],\n      \"rest_arrangements\": \"No rest arrangements needed for this day.\"\n    },\n    {\n      \"date\": \"2026-11-20\",\n      \"activities\": [],\n      \"rest_arrangements\": \"No activities planned. Rest and recovery are important for athletes.\"\n    },\n    {\n      \"date\": \"2026-11-21\",\n      \"activities\": [],\n      \"rest_arrangements\": \"No activities planned. Rest and recovery are important for athletes.\"\n    },\n    {\n      \"date\": \"2026-11-22\",\n      \"activities\": [],\n      \"rest_arrangements\": \"No activities planned. Rest and recovery are important for athletes.\"\n    }\n  ]\n}"
+        },
+        "schema_version": "step24-source-and-response-record-1",
+        "semantic_correctness_verified": false
+      },
+      "diagnostic_candidate_id": "candidate_2",
+      "diagnostic_candidate": {
+        "audit": {
+          "profile_id": "athlete:06265b25ff63c151f6243a9c",
+          "profile_schema_version": "athlete-profile-input-1",
+          "public_input_sha256": "c2185a124fa0f23e4287f028a30434f4ba2154596b3d88e8ae6855d524f98815",
+          "raw_response_utf8_sha256": "d568cde26c4cb0bc0ee9197eeff1666e8c63a7c405197734a2fc145fde5577bd"
+        },
+        "authoritative_public_input": {
+          "age": 17,
+          "athlete_request": "Please plan two extra basketball sessions this week to work on defensive footwork. Use only the availability and resources I have listed.",
+          "availability": [
+            {
+              "date": "2026-11-17",
+              "end_time": "17:45",
+              "start_time": "17:30"
+            },
+            {
+              "date": "2026-11-19",
+              "end_time": "17:45",
+              "start_time": "17:30"
+            }
+          ],
+          "basketball_background": {
+            "experience_level": "beginner"
+          },
+          "equipment": [
+            {
+              "name": "Basketball",
+              "quantity": 1
+            },
+            {
+              "name": "Cones",
+              "quantity": 4
+            }
+          ],
+          "existing_commitments": [
+            {
+              "activity_kind": "travel",
+              "activity_type": "nontraining",
+              "date": "2026-11-20",
+              "description": "School travel",
+              "end_time": "16:30",
+              "start_time": "15:30"
+            }
+          ],
+          "food_question": "For the food \"Bananas, raw\", how many kilocalories of energy are recorded for 150 g?",
+          "goals": [
+            "Improve defensive footwork"
+          ],
+          "participants_available": 4,
+          "planning_window": {
+            "end_date": "2026-11-22",
+            "start_date": "2026-11-16",
+            "timezone": "America/Los_Angeles"
+          },
+          "reported_limitations": [],
+          "school_grade": 12,
+          "space": {
+            "court_access": "none",
+            "hoop_access": false,
+            "restrictions": [
+              "Only one participant may move inside the marked practice rectangle at a time.",
+              "Other participants must wait in the designated waiting area between turns."
+            ],
+            "usable_area_description": "Clear, level indoor practice rectangle 6 m long and 4 m wide, with a separate designated waiting area outside the marked rectangle. No court or hoop."
+          },
+          "time_limits": {
+            "max_additional_minutes_per_week": 30,
+            "max_additional_sessions_per_week": 2,
+            "max_session_minutes": 15
+          }
+        },
+        "input_authority": "supplied_public_input_only",
+        "model_output": {
+          "error_code": null,
+          "issues": [],
+          "parse_valid": true,
+          "parsed_object": {
+            "explanation": "Two extra basketball sessions have been planned to work on defensive footwork, using the available equipment and space.",
+            "planning_window": {
+              "end_date": "2026-11-22",
+              "start_date": "2026-11-16",
+              "timezone": "America/Los_Angeles"
+            },
+            "response_type": "plan",
+            "weekly_schedule": [
+              {
+                "activities": [],
+                "date": "2026-11-16",
+                "rest_arrangements": "No activities planned. Rest and recovery are important for athletes."
+              },
+              {
+                "activities": [
+                  {
+                    "activity_id": "defensive_footwork_session_1",
+                    "description": "Defensive footwork drills using cones",
+                    "duration_minutes": 15,
+                    "existing_commitment_refs": [],
+                    "relationship": {
+                      "kind": "separate_session",
+                      "parent_activity_id": null
+                    },
+                    "resources": {
+                      "equipment": [
+                        {
+                          "name": "Cones",
+                          "quantity": 4
+                        }
+                      ],
+                      "participants": 4,
+                      "space": "Clear, level indoor practice rectangle 6 m long and 4 m wide"
+                    }
+                  }
+                ],
+                "date": "2026-11-17",
+                "rest_arrangements": "No rest arrangements needed for this day."
+              },
+              {
+                "activities": [],
+                "date": "2026-11-18",
+                "rest_arrangements": "No activities planned. Rest and recovery are important for athletes."
+              },
+              {
+                "activities": [
+                  {
+                    "activity_id": "defensive_footwork_session_2",
+                    "description": "Defensive footwork drills using cones",
+                    "duration_minutes": 15,
+                    "existing_commitment_refs": [],
+                    "relationship": {
+                      "kind": "separate_session",
+                      "parent_activity_id": null
+                    },
+                    "resources": {
+                      "equipment": [
+                        {
+                          "name": "Cones",
+                          "quantity": 4
+                        }
+                      ],
+                      "participants": 4,
+                      "space": "Clear, level indoor practice rectangle 6 m long and 4 m wide"
+                    }
+                  }
+                ],
+                "date": "2026-11-19",
+                "rest_arrangements": "No rest arrangements needed for this day."
+              },
+              {
+                "activities": [],
+                "date": "2026-11-20",
+                "rest_arrangements": "No activities planned. Rest and recovery are important for athletes."
+              },
+              {
+                "activities": [],
+                "date": "2026-11-21",
+                "rest_arrangements": "No activities planned. Rest and recovery are important for athletes."
+              },
+              {
+                "activities": [],
+                "date": "2026-11-22",
+                "rest_arrangements": "No activities planned. Rest and recovery are important for athletes."
+              }
+            ]
+          },
+          "raw_text": "{\n  \"response_type\": \"plan\",\n  \"explanation\": \"Two extra basketball sessions have been planned to work on defensive footwork, using the available equipment and space.\",\n  \"planning_window\": {\n    \"start_date\": \"2026-11-16\",\n    \"end_date\": \"2026-11-22\",\n    \"timezone\": \"America/Los_Angeles\"\n  },\n  \"weekly_schedule\": [\n    {\n      \"date\": \"2026-11-16\",\n      \"activities\": [],\n      \"rest_arrangements\": \"No activities planned. Rest and recovery are important for athletes.\"\n    },\n    {\n      \"date\": \"2026-11-17\",\n      \"activities\": [\n        {\n          \"activity_id\": \"defensive_footwork_session_1\",\n          \"description\": \"Defensive footwork drills using cones\",\n          \"duration_minutes\": 15,\n          \"existing_commitment_refs\": [],\n          \"relationship\": {\n            \"kind\": \"separate_session\",\n            \"parent_activity_id\": null\n          },\n          \"resources\": {\n            \"equipment\": [\n              {\n                \"name\": \"Cones\",\n                \"quantity\": 4\n              }\n            ],\n            \"participants\": 4,\n            \"space\": \"Clear, level indoor practice rectangle 6 m long and 4 m wide\"\n          }\n        }\n      ],\n      \"rest_arrangements\": \"No rest arrangements needed for this day.\"\n    },\n    {\n      \"date\": \"2026-11-18\",\n      \"activities\": [],\n      \"rest_arrangements\": \"No activities planned. Rest and recovery are important for athletes.\"\n    },\n    {\n      \"date\": \"2026-11-19\",\n      \"activities\": [\n        {\n          \"activity_id\": \"defensive_footwork_session_2\",\n          \"description\": \"Defensive footwork drills using cones\",\n          \"duration_minutes\": 15,\n          \"existing_commitment_refs\": [],\n          \"relationship\": {\n            \"kind\": \"separate_session\",\n            \"parent_activity_id\": null\n          },\n          \"resources\": {\n            \"equipment\": [\n              {\n                \"name\": \"Cones\",\n                \"quantity\": 4\n              }\n            ],\n            \"participants\": 4,\n            \"space\": \"Clear, level indoor practice rectangle 6 m long and 4 m wide\"\n          }\n        }\n      ],\n      \"rest_arrangements\": \"No rest arrangements needed for this day.\"\n    },\n    {\n      \"date\": \"2026-11-20\",\n      \"activities\": [],\n      \"rest_arrangements\": \"No activities planned. Rest and recovery are important for athletes.\"\n    },\n    {\n      \"date\": \"2026-11-21\",\n      \"activities\": [],\n      \"rest_arrangements\": \"No activities planned. Rest and recovery are important for athletes.\"\n    },\n    {\n      \"date\": \"2026-11-22\",\n      \"activities\": [],\n      \"rest_arrangements\": \"No activities planned. Rest and recovery are important for athletes.\"\n    }\n  ]\n}"
+        },
+        "schema_version": "step24-source-and-response-record-1",
+        "semantic_correctness_verified": false
+      },
+      "required_findings": [
+        {
+          "applicability": "applicable_or_unresolved",
+          "candidate_id": "candidate_2",
+          "check_id": "existing_commitments",
+          "data_versions": {
+            "checker": "planning-checks-1",
+            "resource_release": "team-approved-f0dcb9e9943e381b",
+            "rules_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": null,
+          "reason": "Commitment 0 must appear once as a root session.",
+          "required": true,
+          "rule_ids": [],
+          "status": "violated"
+        },
+        {
+          "applicability": "applicable_or_unresolved",
+          "candidate_id": "candidate_2",
+          "check_id": "timing_durations",
+          "data_versions": {
+            "checker": "planning-checks-1",
+            "resource_release": "team-approved-f0dcb9e9943e381b",
+            "rules_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": null,
+          "reason": "Activity timing or duration is unknown.",
+          "required": true,
+          "rule_ids": [],
+          "status": "unknown"
+        },
+        {
+          "applicability": "applicable_or_unresolved",
+          "candidate_id": "candidate_2",
+          "check_id": "availability_and_collisions",
+          "data_versions": {
+            "checker": "planning-checks-1",
+            "resource_release": "team-approved-f0dcb9e9943e381b",
+            "rules_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": null,
+          "reason": "Added session availability or timing is unknown.",
+          "required": true,
+          "rule_ids": [],
+          "status": "unknown"
+        },
+        {
+          "applicability": "applicable_or_unresolved",
+          "candidate_id": "candidate_2",
+          "check_id": "resource_feasibility",
+          "data_versions": {
+            "checker": "planning-checks-1",
+            "resource_release": "team-approved-f0dcb9e9943e381b",
+            "rules_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": null,
+          "reason": "Narrative space restrictions require interpretation; no coded feasibility pass.; Free-form activity requirements are not independently verified; declared resource conflicts remain actionable.",
+          "required": true,
+          "rule_ids": [],
+          "status": "unknown"
+        },
+        {
+          "applicability": "applicable_or_unresolved",
+          "candidate_id": "candidate_2",
+          "check_id": "rule:USER_AVAILABLE_TIME",
+          "data_versions": {
+            "checker": "planning-checks-1",
+            "resource_release": "team-approved-f0dcb9e9943e381b",
+            "rules_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": null,
+          "reason": "Added session availability or timing is unknown.",
+          "required": true,
+          "rule_ids": [
+            "USER_AVAILABLE_TIME"
+          ],
+          "status": "unknown"
+        },
+        {
+          "applicability": "applicable_or_unresolved",
+          "candidate_id": "candidate_2",
+          "check_id": "rule:USER_EQUIPMENT_SPACE",
+          "data_versions": {
+            "checker": "planning-checks-1",
+            "resource_release": "team-approved-f0dcb9e9943e381b",
+            "rules_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": null,
+          "reason": "Declared equipment space checks: unknown; unknown activity-specific requirements are not assumed.",
+          "required": true,
+          "rule_ids": [
+            "USER_EQUIPMENT_SPACE"
+          ],
+          "status": "unknown"
+        },
+        {
+          "applicability": "applicable_or_unresolved",
+          "candidate_id": "candidate_2",
+          "check_id": "rule:USER_PARTICIPANTS",
+          "data_versions": {
+            "checker": "planning-checks-1",
+            "resource_release": "team-approved-f0dcb9e9943e381b",
+            "rules_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": null,
+          "reason": "Declared participants checks: unknown; unknown activity-specific requirements are not assumed.",
+          "required": true,
+          "rule_ids": [
+            "USER_PARTICIPANTS"
+          ],
+          "status": "unknown"
+        },
+        {
+          "applicability": "applicable_or_unresolved",
+          "candidate_id": "candidate_2",
+          "check_id": "rule:USER_EXISTING_COMMITMENTS",
+          "data_versions": {
+            "checker": "planning-checks-1",
+            "resource_release": "team-approved-f0dcb9e9943e381b",
+            "rules_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": null,
+          "reason": "Commitment 0 must appear once as a root session.",
+          "required": true,
+          "rule_ids": [
+            "USER_EXISTING_COMMITMENTS"
+          ],
+          "status": "violated"
+        },
+        {
+          "applicability": "applicable_or_unresolved",
+          "candidate_id": "candidate_2",
+          "check_id": "rule:POLICY_TIMING_INTEGRITY",
+          "data_versions": {
+            "checker": "planning-checks-1",
+            "resource_release": "team-approved-f0dcb9e9943e381b",
+            "rules_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": null,
+          "reason": "Activity timing or duration is unknown.; Added session availability or timing is unknown.",
+          "required": true,
+          "rule_ids": [
+            "POLICY_TIMING_INTEGRITY"
+          ],
+          "status": "unknown"
+        },
+        {
+          "applicability": "applicable",
+          "candidate_id": "candidate_2",
+          "check_id": "rule:NBA_G9_12_MAX_HOURS",
+          "data_versions": {
+            "release_id": "team-approved-f0dcb9e9943e381b",
+            "rule_file_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": {
+            "known_minutes_lower_bound": 0,
+            "maximum_minutes": 840
+          },
+          "reason": "Time is below the cap on known records; complete classified coverage is not established.",
+          "required": true,
+          "rule_ids": [
+            "NBA_G9_12_MAX_HOURS"
+          ],
+          "status": "unknown"
+        },
+        {
+          "applicability": "applicable",
+          "candidate_id": "candidate_2",
+          "check_id": "rule:NBA_G9_12_MIN_REST",
+          "data_versions": {
+            "release_id": "team-approved-f0dcb9e9943e381b",
+            "rule_file_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": {
+            "complete_schedule_established": false,
+            "known_active_days": 0
+          },
+          "reason": "Apparently free days do not establish rest without complete classified schedule coverage.",
+          "required": true,
+          "rule_ids": [
+            "NBA_G9_12_MIN_REST"
+          ],
+          "status": "unknown"
+        },
+        {
+          "applicability": "applicable",
+          "candidate_id": "candidate_2",
+          "check_id": "food_facts_numeric",
+          "data_versions": {},
+          "observed": null,
+          "reason": "No structured food statement was supplied for exact quantity, identity and unit comparison.",
+          "required": true,
+          "rule_ids": [],
+          "status": "unknown"
+        }
+      ],
+      "evaluator_findings": [
+        {
+          "category": "scope",
+          "correction": "Please provide a more specific goal, such as 'Improve defensive footwork by practicing shuffling and sliding drills'.",
+          "evidence_ref": null,
+          "path": "/athlete_input/goals",
+          "problem": "The goal 'Improve defensive footwork' is not specific enough to plan a basketball practice around it.",
+          "uncertainty": null
+        }
+      ],
+      "acceptance": {
+        "accepted": false,
+        "blocking_check_ids": [
+          "existing_commitments",
+          "timing_durations",
+          "availability_and_collisions",
+          "resource_feasibility",
+          "rule:USER_AVAILABLE_TIME",
+          "rule:USER_EQUIPMENT_SPACE",
+          "rule:USER_PARTICIPANTS",
+          "rule:USER_EXISTING_COMMITMENTS",
+          "rule:POLICY_TIMING_INTEGRITY",
+          "rule:NBA_G9_12_MAX_HOURS",
+          "rule:NBA_G9_12_MIN_REST",
+          "food_facts_numeric"
+        ],
+        "blocking_evaluator_categories": [
+          "scope"
+        ],
+        "coverage_valid": true,
+        "disagreements": [],
+        "evaluator_valid": true
+      },
+      "failed_stage": null,
+      "execution_error": null,
+      "failed_request_context": null,
+      "failed_request_id": null,
+      "source_outcome_sha256": "04abaa37cf5c29c2d3e83fab7d5542e84f624ee500ed152c39a97215fe8504b8"
+    },
+    {
+      "example": 3,
+      "profile_id": "athlete:5dc2a65fa122b86f793a3ca3",
+      "terminal_state": "execution_error",
+      "selected_candidate_id": null,
+      "public_input": {
+        "age": 14,
+        "athlete_request": "I want two extra basketball sessions for this week, focused on this goal: Improve shooting consistency. Please account for the commitments and limits I provided.",
+        "availability": [
+          {
+            "date": "2026-11-17",
+            "end_time": "18:30",
+            "start_time": "17:30"
+          },
+          {
+            "date": "2026-11-19",
+            "end_time": "18:30",
+            "start_time": "17:30"
+          }
+        ],
+        "basketball_background": {
+          "experience_level": "beginner",
+          "reported_skill_level": "Working on basic movement patterns."
+        },
+        "equipment": [
+          {
+            "name": "Basketball",
+            "quantity": 1
+          },
+          {
+            "name": "Cones",
+            "quantity": 4
+          },
+          {
+            "name": "Hoop",
+            "quantity": 1
+          }
+        ],
+        "existing_commitments": [
+          {
+            "activity_kind": "travel",
+            "activity_type": "nontraining",
+            "date": "2026-11-20",
+            "description": "School travel",
+            "end_time": "16:30",
+            "start_time": "15:30"
+          }
+        ],
+        "food_question": "For the food \"Grapes, red or green (European type, such as Thompson seedless), raw\", how many grams of protein are recorded for 100 g?",
+        "goals": [
+          "Improve shooting consistency"
+        ],
+        "participants_available": 2,
+        "planning_window": {
+          "end_date": "2026-11-22",
+          "start_date": "2026-11-16",
+          "timezone": "America/Los_Angeles"
+        },
+        "reported_limitations": [],
+        "school_grade": 8,
+        "space": {
+          "court_access": "single_hoop_area",
+          "hoop_access": true,
+          "restrictions": [],
+          "usable_area_description": "Paved area with a hoop and clear space around it."
+        },
+        "time_limits": {
+          "max_additional_minutes_per_week": 120,
+          "max_additional_sessions_per_week": 2,
+          "max_session_minutes": 60
+        }
+      },
+      "returned_response": null,
+      "diagnostic_candidate_id": "candidate_1",
+      "diagnostic_candidate": {
+        "audit": {
+          "profile_id": "athlete:5dc2a65fa122b86f793a3ca3",
+          "profile_schema_version": "athlete-profile-input-1",
+          "public_input_sha256": "52060c597a58b9126d0fe18213e27a16cddf7b7f21dfda4c72b5fe7eb95b35bf",
+          "raw_response_utf8_sha256": "bdf1c547f97591b149049a438894ec2656b00e7c28f972a3049f2e99a921d7af"
+        },
+        "authoritative_public_input": {
+          "age": 14,
+          "athlete_request": "I want two extra basketball sessions for this week, focused on this goal: Improve shooting consistency. Please account for the commitments and limits I provided.",
+          "availability": [
+            {
+              "date": "2026-11-17",
+              "end_time": "18:30",
+              "start_time": "17:30"
+            },
+            {
+              "date": "2026-11-19",
+              "end_time": "18:30",
+              "start_time": "17:30"
+            }
+          ],
+          "basketball_background": {
+            "experience_level": "beginner",
+            "reported_skill_level": "Working on basic movement patterns."
+          },
+          "equipment": [
+            {
+              "name": "Basketball",
+              "quantity": 1
+            },
+            {
+              "name": "Cones",
+              "quantity": 4
+            },
+            {
+              "name": "Hoop",
+              "quantity": 1
+            }
+          ],
+          "existing_commitments": [
+            {
+              "activity_kind": "travel",
+              "activity_type": "nontraining",
+              "date": "2026-11-20",
+              "description": "School travel",
+              "end_time": "16:30",
+              "start_time": "15:30"
+            }
+          ],
+          "food_question": "For the food \"Grapes, red or green (European type, such as Thompson seedless), raw\", how many grams of protein are recorded for 100 g?",
+          "goals": [
+            "Improve shooting consistency"
+          ],
+          "participants_available": 2,
+          "planning_window": {
+            "end_date": "2026-11-22",
+            "start_date": "2026-11-16",
+            "timezone": "America/Los_Angeles"
+          },
+          "reported_limitations": [],
+          "school_grade": 8,
+          "space": {
+            "court_access": "single_hoop_area",
+            "hoop_access": true,
+            "restrictions": [],
+            "usable_area_description": "Paved area with a hoop and clear space around it."
+          },
+          "time_limits": {
+            "max_additional_minutes_per_week": 120,
+            "max_additional_sessions_per_week": 2,
+            "max_session_minutes": 60
+          }
+        },
+        "input_authority": "supplied_public_input_only",
+        "model_output": {
+          "error_code": null,
+          "issues": [],
+          "parse_valid": true,
+          "parsed_object": {
+            "explanation": "A plan has been created to accommodate two extra basketball sessions for the week, focusing on improving shooting consistency.",
+            "planning_window": {
+              "end_date": "2026-11-22",
+              "start_date": "2026-11-16",
+              "timezone": "America/Los_Angeles"
+            },
+            "response_type": "plan",
+            "weekly_schedule": [
+              {
+                "activities": [],
+                "date": "2026-11-16",
+                "rest_arrangements": "No activities scheduled. Rest and recovery are important for athletes."
+              },
+              {
+                "activities": [
+                  {
+                    "activity_id": "shooting_practice_1",
+                    "description": "Shooting practice to improve shooting consistency",
+                    "duration_minutes": 60,
+                    "existing_commitment_refs": [],
+                    "relationship": {
+                      "kind": "separate_session",
+                      "parent_activity_id": null
+                    },
+                    "resources": {
+                      "equipment": [
+                        {
+                          "name": "Basketball",
+                          "quantity": 1
+                        }
+                      ],
+                      "participants": 2,
+                      "space": "single_hoop_area"
+                    },
+                    "timing": {
+                      "end_time": "18:30",
+                      "start_time": "17:30"
+                    }
+                  }
+                ],
+                "date": "2026-11-17",
+                "rest_arrangements": "No rest arrangements needed for this day."
+              },
+              {
+                "activities": [],
+                "date": "2026-11-18",
+                "rest_arrangements": "No activities scheduled. Rest and recovery are important for athletes."
+              },
+              {
+                "activities": [
+                  {
+                    "activity_id": "shooting_practice_2",
+                    "description": "Shooting practice to improve shooting consistency",
+                    "duration_minutes": 60,
+                    "existing_commitment_refs": [],
+                    "relationship": {
+                      "kind": "separate_session",
+                      "parent_activity_id": null
+                    },
+                    "resources": {
+                      "equipment": [
+                        {
+                          "name": "Basketball",
+                          "quantity": 1
+                        }
+                      ],
+                      "participants": 2,
+                      "space": "single_hoop_area"
+                    },
+                    "timing": {
+                      "end_time": "18:30",
+                      "start_time": "17:30"
+                    }
+                  }
+                ],
+                "date": "2026-11-19",
+                "rest_arrangements": "No rest arrangements needed for this day."
+              },
+              {
+                "activities": [],
+                "date": "2026-11-20",
+                "rest_arrangements": "No activities scheduled. Rest and recovery are important for athletes."
+              },
+              {
+                "activities": [],
+                "date": "2026-11-21",
+                "rest_arrangements": "No activities scheduled. Rest and recovery are important for athletes."
+              },
+              {
+                "activities": [],
+                "date": "2026-11-22",
+                "rest_arrangements": "No activities scheduled. Rest and recovery are important for athletes."
+              }
+            ]
+          },
+          "raw_text": "{\n  \"response_type\": \"plan\",\n  \"explanation\": \"A plan has been created to accommodate two extra basketball sessions for the week, focusing on improving shooting consistency.\",\n  \"planning_window\": {\n    \"start_date\": \"2026-11-16\",\n    \"end_date\": \"2026-11-22\",\n    \"timezone\": \"America/Los_Angeles\"\n  },\n  \"weekly_schedule\": [\n    {\n      \"date\": \"2026-11-16\",\n      \"activities\": [],\n      \"rest_arrangements\": \"No activities scheduled. Rest and recovery are important for athletes.\"\n    },\n    {\n      \"date\": \"2026-11-17\",\n      \"activities\": [\n        {\n          \"activity_id\": \"shooting_practice_1\",\n          \"description\": \"Shooting practice to improve shooting consistency\",\n          \"duration_minutes\": 60,\n          \"existing_commitment_refs\": [],\n          \"relationship\": {\n            \"kind\": \"separate_session\",\n            \"parent_activity_id\": null\n          },\n          \"resources\": {\n            \"equipment\": [\n              {\n                \"name\": \"Basketball\",\n                \"quantity\": 1\n              }\n            ],\n            \"participants\": 2,\n            \"space\": \"single_hoop_area\"\n          },\n          \"timing\": {\n            \"start_time\": \"17:30\",\n            \"end_time\": \"18:30\"\n          }\n        }\n      ],\n      \"rest_arrangements\": \"No rest arrangements needed for this day.\"\n    },\n    {\n      \"date\": \"2026-11-18\",\n      \"activities\": [],\n      \"rest_arrangements\": \"No activities scheduled. Rest and recovery are important for athletes.\"\n    },\n    {\n      \"date\": \"2026-11-19\",\n      \"activities\": [\n        {\n          \"activity_id\": \"shooting_practice_2\",\n          \"description\": \"Shooting practice to improve shooting consistency\",\n          \"duration_minutes\": 60,\n          \"existing_commitment_refs\": [],\n          \"relationship\": {\n            \"kind\": \"separate_session\",\n            \"parent_activity_id\": null\n          },\n          \"resources\": {\n            \"equipment\": [\n              {\n                \"name\": \"Basketball\",\n                \"quantity\": 1\n              }\n            ],\n            \"participants\": 2,\n            \"space\": \"single_hoop_area\"\n          },\n          \"timing\": {\n            \"start_time\": \"17:30\",\n            \"end_time\": \"18:30\"\n          }\n        }\n      ],\n      \"rest_arrangements\": \"No rest arrangements needed for this day.\"\n    },\n    {\n      \"date\": \"2026-11-20\",\n      \"activities\": [],\n      \"rest_arrangements\": \"No activities scheduled. Rest and recovery are important for athletes.\"\n    },\n    {\n      \"date\": \"2026-11-21\",\n      \"activities\": [],\n      \"rest_arrangements\": \"No activities scheduled. Rest and recovery are important for athletes.\"\n    },\n    {\n      \"date\": \"2026-11-22\",\n      \"activities\": [],\n      \"rest_arrangements\": \"No activities scheduled. Rest and recovery are important for athletes.\"\n    }\n  ]\n}"
+        },
+        "schema_version": "step24-source-and-response-record-1",
+        "semantic_correctness_verified": false
+      },
+      "required_findings": [
+        {
+          "applicability": "applicable_or_unresolved",
+          "candidate_id": "candidate_1",
+          "check_id": "existing_commitments",
+          "data_versions": {
+            "checker": "planning-checks-1",
+            "resource_release": "team-approved-f0dcb9e9943e381b",
+            "rules_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": null,
+          "reason": "Commitment 0 must appear once as a root session.",
+          "required": true,
+          "rule_ids": [],
+          "status": "violated"
+        },
+        {
+          "applicability": "applicable_or_unresolved",
+          "candidate_id": "candidate_1",
+          "check_id": "resource_feasibility",
+          "data_versions": {
+            "checker": "planning-checks-1",
+            "resource_release": "team-approved-f0dcb9e9943e381b",
+            "rules_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": null,
+          "reason": "Free-form activity requirements are not independently verified; declared resource conflicts remain actionable.",
+          "required": true,
+          "rule_ids": [],
+          "status": "unknown"
+        },
+        {
+          "applicability": "applicable_or_unresolved",
+          "candidate_id": "candidate_1",
+          "check_id": "rule:USER_EQUIPMENT_SPACE",
+          "data_versions": {
+            "checker": "planning-checks-1",
+            "resource_release": "team-approved-f0dcb9e9943e381b",
+            "rules_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": null,
+          "reason": "Declared equipment space checks: unknown; unknown activity-specific requirements are not assumed.",
+          "required": true,
+          "rule_ids": [
+            "USER_EQUIPMENT_SPACE"
+          ],
+          "status": "unknown"
+        },
+        {
+          "applicability": "applicable_or_unresolved",
+          "candidate_id": "candidate_1",
+          "check_id": "rule:USER_PARTICIPANTS",
+          "data_versions": {
+            "checker": "planning-checks-1",
+            "resource_release": "team-approved-f0dcb9e9943e381b",
+            "rules_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": null,
+          "reason": "Declared participants checks: unknown; unknown activity-specific requirements are not assumed.",
+          "required": true,
+          "rule_ids": [
+            "USER_PARTICIPANTS"
+          ],
+          "status": "unknown"
+        },
+        {
+          "applicability": "applicable_or_unresolved",
+          "candidate_id": "candidate_1",
+          "check_id": "rule:USER_EXISTING_COMMITMENTS",
+          "data_versions": {
+            "checker": "planning-checks-1",
+            "resource_release": "team-approved-f0dcb9e9943e381b",
+            "rules_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": null,
+          "reason": "Commitment 0 must appear once as a root session.",
+          "required": true,
+          "rule_ids": [
+            "USER_EXISTING_COMMITMENTS"
+          ],
+          "status": "violated"
+        },
+        {
+          "applicability": "applicable",
+          "candidate_id": "candidate_1",
+          "check_id": "rule:NBA_A12_14_MAX_HOURS",
+          "data_versions": {
+            "release_id": "team-approved-f0dcb9e9943e381b",
+            "rule_file_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": {
+            "known_minutes_lower_bound": 0,
+            "maximum_minutes": 600
+          },
+          "reason": "Time is below the cap on known records; complete classified coverage is not established.",
+          "required": true,
+          "rule_ids": [
+            "NBA_A12_14_MAX_HOURS"
+          ],
+          "status": "unknown"
+        },
+        {
+          "applicability": "applicable",
+          "candidate_id": "candidate_1",
+          "check_id": "rule:NBA_A12_14_MIN_REST",
+          "data_versions": {
+            "release_id": "team-approved-f0dcb9e9943e381b",
+            "rule_file_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": {
+            "complete_schedule_established": false,
+            "known_active_days": 0
+          },
+          "reason": "Apparently free days do not establish rest without complete classified schedule coverage.",
+          "required": true,
+          "rule_ids": [
+            "NBA_A12_14_MIN_REST"
+          ],
+          "status": "unknown"
+        },
+        {
+          "applicability": "applicable",
+          "candidate_id": "candidate_1",
+          "check_id": "food_facts_numeric",
+          "data_versions": {},
+          "observed": null,
+          "reason": "No structured food statement was supplied for exact quantity, identity and unit comparison.",
+          "required": true,
+          "rule_ids": [],
+          "status": "unknown"
+        }
+      ],
+      "evaluator_findings": [
+        {
+          "category": "scope",
+          "correction": "Please provide a more specific goal, such as 'Improve shooting from the free throw line' or 'Increase three-point shooting accuracy'.",
+          "evidence_ref": "https://www.usabasketball.com/training/",
+          "path": "/athlete_input/goals",
+          "problem": "The goal 'Improve shooting consistency' is not specific enough to plan a basketball training program.",
+          "uncertainty": null
+        }
+      ],
+      "acceptance": {
+        "accepted": false,
+        "blocking_check_ids": [
+          "existing_commitments",
+          "resource_feasibility",
+          "rule:USER_EQUIPMENT_SPACE",
+          "rule:USER_PARTICIPANTS",
+          "rule:USER_EXISTING_COMMITMENTS",
+          "rule:NBA_A12_14_MAX_HOURS",
+          "rule:NBA_A12_14_MIN_REST",
+          "food_facts_numeric"
+        ],
+        "blocking_evaluator_categories": [
+          "scope"
+        ],
+        "coverage_valid": true,
+        "disagreements": [],
+        "evaluator_valid": true
+      },
+      "failed_stage": "revision",
+      "execution_error": "ValueError: The complete role request exceeds its reserved context budget.",
+      "failed_request_context": {
+        "backend_added_system_prefix": "",
+        "backend_added_system_suffix": "",
+        "backend_token_count_agreement_verified": false,
+        "configured_context_tokens": 8192,
+        "counting_basis": "native_encoder_over_complete_actual_backend_render_only_prompt",
+        "effective_backend_context_verified": false,
+        "exact_submitted_content_preserved": true,
+        "input_ceiling_after_output_and_margin": 5888,
+        "local_input_tokens_with_boundary_reserve": 6013,
+        "operational_generation_ready": false,
+        "output_format": "native_json_schema",
+        "output_reserve": 2048,
+        "remaining_tokens_after_all_reserves": -125,
+        "rendered_body_tokens": 6011,
+        "rendered_bos_present": false,
+        "rendered_prompt_sha256": "21d6c35bff89acb735308e6f0ef15092db30dfcc6bc1c8980a7e82379424aa3c",
+        "request_sha256": "2c0be69cf3db7002acc42524a1868102f2bcb73d83d292901cffcada16865f63",
+        "safety_margin": 256,
+        "status": "context_overflow",
+        "token_count_is_provisional": true,
+        "unverified_boundary_reserve": 2
+      },
+      "failed_request_id": "s28_fix_4d857208cab548ce_03_revision2",
+      "source_outcome_sha256": "e8ce22592ee6b208439632cfc37cee282f04709ac53fbd72c3558d9276155af3"
+    },
+    {
+      "example": 4,
+      "profile_id": "athlete:5f8b4d8612de86a9d21be839",
+      "terminal_state": "revision_limit_reached",
+      "selected_candidate_id": "candidate_2",
+      "public_input": {
+        "age": 13,
+        "athlete_request": "Plan a passing rotation for everyone who will attend, with equal turns for each person. I have not confirmed the number of participants.",
+        "availability": [
+          {
+            "date": "2026-11-17",
+            "end_time": "18:00",
+            "start_time": "17:30"
+          },
+          {
+            "date": "2026-11-21",
+            "end_time": "18:00",
+            "start_time": "17:30"
+          }
+        ],
+        "basketball_background": {
+          "experience_level": "beginner",
+          "position": "Small Forward"
+        },
+        "equipment": [
+          {
+            "name": "Basketball"
+          }
+        ],
+        "existing_commitments": [
+          {
+            "activity_kind": "practice",
+            "activity_type": "organized_basketball",
+            "date": "2026-11-16",
+            "description": "Basketball practice",
+            "end_time": "16:30",
+            "sport": "Basketball",
+            "start_time": "15:30"
+          },
+          {
+            "activity_kind": "practice",
+            "activity_type": "organized_basketball",
+            "date": "2026-11-19",
+            "description": "Basketball practice",
+            "end_time": "16:30",
+            "sport": "Basketball",
+            "start_time": "15:30"
+          }
+        ],
+        "goals": [
+          "Improve decision-making",
+          "Improve passing accuracy"
+        ],
+        "participants_available": null,
+        "planning_window": {
+          "end_date": "2026-11-22",
+          "start_date": "2026-11-16",
+          "timezone": "America/Los_Angeles"
+        },
+        "reported_limitations": [
+          "Injury status is unknown."
+        ],
+        "school_grade": 8,
+        "space": {
+          "court_access": "none",
+          "hoop_access": false,
+          "restrictions": [
+            "Only one participant may move in the marked practice rectangle at a time.",
+            "Other participants wait in the designated waiting area between turns."
+          ],
+          "usable_area_description": "Clear, level practice rectangle 6 m long and 4 m wide, with a separate designated waiting area. No court or hoop."
+        },
+        "time_limits": {
+          "max_additional_minutes_per_week": 60,
+          "max_additional_sessions_per_week": 2,
+          "max_session_minutes": 30
+        }
+      },
+      "returned_response": {
+        "audit": {
+          "profile_id": "athlete:5f8b4d8612de86a9d21be839",
+          "profile_schema_version": "athlete-profile-input-1",
+          "public_input_sha256": "b1bab1a43c198bd65d4b71629371529e19d306f5438e7845acb159ab53728c08",
+          "raw_response_utf8_sha256": "3a62e8f94d7186170108e1319ac843b6db3dd46772f05690b9a89a79ce9732c4"
+        },
+        "authoritative_public_input": {
+          "age": 13,
+          "athlete_request": "Plan a passing rotation for everyone who will attend, with equal turns for each person. I have not confirmed the number of participants.",
+          "availability": [
+            {
+              "date": "2026-11-17",
+              "end_time": "18:00",
+              "start_time": "17:30"
+            },
+            {
+              "date": "2026-11-21",
+              "end_time": "18:00",
+              "start_time": "17:30"
+            }
+          ],
+          "basketball_background": {
+            "experience_level": "beginner",
+            "position": "Small Forward"
+          },
+          "equipment": [
+            {
+              "name": "Basketball"
+            }
+          ],
+          "existing_commitments": [
+            {
+              "activity_kind": "practice",
+              "activity_type": "organized_basketball",
+              "date": "2026-11-16",
+              "description": "Basketball practice",
+              "end_time": "16:30",
+              "sport": "Basketball",
+              "start_time": "15:30"
+            },
+            {
+              "activity_kind": "practice",
+              "activity_type": "organized_basketball",
+              "date": "2026-11-19",
+              "description": "Basketball practice",
+              "end_time": "16:30",
+              "sport": "Basketball",
+              "start_time": "15:30"
+            }
+          ],
+          "goals": [
+            "Improve decision-making",
+            "Improve passing accuracy"
+          ],
+          "participants_available": null,
+          "planning_window": {
+            "end_date": "2026-11-22",
+            "start_date": "2026-11-16",
+            "timezone": "America/Los_Angeles"
+          },
+          "reported_limitations": [
+            "Injury status is unknown."
+          ],
+          "school_grade": 8,
+          "space": {
+            "court_access": "none",
+            "hoop_access": false,
+            "restrictions": [
+              "Only one participant may move in the marked practice rectangle at a time.",
+              "Other participants wait in the designated waiting area between turns."
+            ],
+            "usable_area_description": "Clear, level practice rectangle 6 m long and 4 m wide, with a separate designated waiting area. No court or hoop."
+          },
+          "time_limits": {
+            "max_additional_minutes_per_week": 60,
+            "max_additional_sessions_per_week": 2,
+            "max_session_minutes": 30
+          }
+        },
+        "input_authority": "supplied_public_input_only",
+        "model_output": {
+          "error_code": null,
+          "issues": [],
+          "parse_valid": true,
+          "parsed_object": {
+            "explanation": "The athlete's goals and circumstances cannot be met due to conflicting constraints.",
+            "response_type": "constraint_conflict",
+            "unresolved_issues": [
+              "The number of participants is unknown, which makes it difficult to plan a passing rotation.",
+              "The space and equipment limitations need to be taken into account when planning the passing rotation.",
+              "The injury status is unknown, which may impact the athlete's ability to participate in the passing rotation."
+            ]
+          },
+          "raw_text": "{\n  \"response_type\": \"constraint_conflict\",\n  \"explanation\": \"The athlete's goals and circumstances cannot be met due to conflicting constraints.\",\n  \"unresolved_issues\": [\n    \"The number of participants is unknown, which makes it difficult to plan a passing rotation.\",\n    \"The space and equipment limitations need to be taken into account when planning the passing rotation.\",\n    \"The injury status is unknown, which may impact the athlete's ability to participate in the passing rotation.\"\n  ]\n}"
+        },
+        "schema_version": "step24-source-and-response-record-1",
+        "semantic_correctness_verified": false
+      },
+      "diagnostic_candidate_id": "candidate_2",
+      "diagnostic_candidate": {
+        "audit": {
+          "profile_id": "athlete:5f8b4d8612de86a9d21be839",
+          "profile_schema_version": "athlete-profile-input-1",
+          "public_input_sha256": "b1bab1a43c198bd65d4b71629371529e19d306f5438e7845acb159ab53728c08",
+          "raw_response_utf8_sha256": "3a62e8f94d7186170108e1319ac843b6db3dd46772f05690b9a89a79ce9732c4"
+        },
+        "authoritative_public_input": {
+          "age": 13,
+          "athlete_request": "Plan a passing rotation for everyone who will attend, with equal turns for each person. I have not confirmed the number of participants.",
+          "availability": [
+            {
+              "date": "2026-11-17",
+              "end_time": "18:00",
+              "start_time": "17:30"
+            },
+            {
+              "date": "2026-11-21",
+              "end_time": "18:00",
+              "start_time": "17:30"
+            }
+          ],
+          "basketball_background": {
+            "experience_level": "beginner",
+            "position": "Small Forward"
+          },
+          "equipment": [
+            {
+              "name": "Basketball"
+            }
+          ],
+          "existing_commitments": [
+            {
+              "activity_kind": "practice",
+              "activity_type": "organized_basketball",
+              "date": "2026-11-16",
+              "description": "Basketball practice",
+              "end_time": "16:30",
+              "sport": "Basketball",
+              "start_time": "15:30"
+            },
+            {
+              "activity_kind": "practice",
+              "activity_type": "organized_basketball",
+              "date": "2026-11-19",
+              "description": "Basketball practice",
+              "end_time": "16:30",
+              "sport": "Basketball",
+              "start_time": "15:30"
+            }
+          ],
+          "goals": [
+            "Improve decision-making",
+            "Improve passing accuracy"
+          ],
+          "participants_available": null,
+          "planning_window": {
+            "end_date": "2026-11-22",
+            "start_date": "2026-11-16",
+            "timezone": "America/Los_Angeles"
+          },
+          "reported_limitations": [
+            "Injury status is unknown."
+          ],
+          "school_grade": 8,
+          "space": {
+            "court_access": "none",
+            "hoop_access": false,
+            "restrictions": [
+              "Only one participant may move in the marked practice rectangle at a time.",
+              "Other participants wait in the designated waiting area between turns."
+            ],
+            "usable_area_description": "Clear, level practice rectangle 6 m long and 4 m wide, with a separate designated waiting area. No court or hoop."
+          },
+          "time_limits": {
+            "max_additional_minutes_per_week": 60,
+            "max_additional_sessions_per_week": 2,
+            "max_session_minutes": 30
+          }
+        },
+        "input_authority": "supplied_public_input_only",
+        "model_output": {
+          "error_code": null,
+          "issues": [],
+          "parse_valid": true,
+          "parsed_object": {
+            "explanation": "The athlete's goals and circumstances cannot be met due to conflicting constraints.",
+            "response_type": "constraint_conflict",
+            "unresolved_issues": [
+              "The number of participants is unknown, which makes it difficult to plan a passing rotation.",
+              "The space and equipment limitations need to be taken into account when planning the passing rotation.",
+              "The injury status is unknown, which may impact the athlete's ability to participate in the passing rotation."
+            ]
+          },
+          "raw_text": "{\n  \"response_type\": \"constraint_conflict\",\n  \"explanation\": \"The athlete's goals and circumstances cannot be met due to conflicting constraints.\",\n  \"unresolved_issues\": [\n    \"The number of participants is unknown, which makes it difficult to plan a passing rotation.\",\n    \"The space and equipment limitations need to be taken into account when planning the passing rotation.\",\n    \"The injury status is unknown, which may impact the athlete's ability to participate in the passing rotation.\"\n  ]\n}"
+        },
+        "schema_version": "step24-source-and-response-record-1",
+        "semantic_correctness_verified": false
+      },
+      "required_findings": [
+        {
+          "applicability": "applicable_or_unresolved",
+          "candidate_id": "candidate_2",
+          "check_id": "calendar_window",
+          "data_versions": {
+            "checker": "planning-checks-1",
+            "resource_release": "team-approved-f0dcb9e9943e381b",
+            "rules_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": null,
+          "reason": "Non-plan basis is unresolved; schedule checks are not waived.",
+          "required": true,
+          "rule_ids": [],
+          "status": "unknown"
+        },
+        {
+          "applicability": "applicable_or_unresolved",
+          "candidate_id": "candidate_2",
+          "check_id": "existing_commitments",
+          "data_versions": {
+            "checker": "planning-checks-1",
+            "resource_release": "team-approved-f0dcb9e9943e381b",
+            "rules_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": null,
+          "reason": "Non-plan basis is unresolved; schedule checks are not waived.",
+          "required": true,
+          "rule_ids": [],
+          "status": "unknown"
+        },
+        {
+          "applicability": "applicable_or_unresolved",
+          "candidate_id": "candidate_2",
+          "check_id": "activity_accounting",
+          "data_versions": {
+            "checker": "planning-checks-1",
+            "resource_release": "team-approved-f0dcb9e9943e381b",
+            "rules_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": null,
+          "reason": "Non-plan basis is unresolved; schedule checks are not waived.",
+          "required": true,
+          "rule_ids": [],
+          "status": "unknown"
+        },
+        {
+          "applicability": "applicable_or_unresolved",
+          "candidate_id": "candidate_2",
+          "check_id": "timing_durations",
+          "data_versions": {
+            "checker": "planning-checks-1",
+            "resource_release": "team-approved-f0dcb9e9943e381b",
+            "rules_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": null,
+          "reason": "Non-plan basis is unresolved; schedule checks are not waived.",
+          "required": true,
+          "rule_ids": [],
+          "status": "unknown"
+        },
+        {
+          "applicability": "applicable_or_unresolved",
+          "candidate_id": "candidate_2",
+          "check_id": "availability_and_collisions",
+          "data_versions": {
+            "checker": "planning-checks-1",
+            "resource_release": "team-approved-f0dcb9e9943e381b",
+            "rules_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": null,
+          "reason": "Non-plan basis is unresolved; schedule checks are not waived.",
+          "required": true,
+          "rule_ids": [],
+          "status": "unknown"
+        },
+        {
+          "applicability": "applicable_or_unresolved",
+          "candidate_id": "candidate_2",
+          "check_id": "additional_training_limits",
+          "data_versions": {
+            "checker": "planning-checks-1",
+            "resource_release": "team-approved-f0dcb9e9943e381b",
+            "rules_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": null,
+          "reason": "Non-plan basis is unresolved; schedule checks are not waived.",
+          "required": true,
+          "rule_ids": [],
+          "status": "unknown"
+        },
+        {
+          "applicability": "applicable_or_unresolved",
+          "candidate_id": "candidate_2",
+          "check_id": "requested_session_count",
+          "data_versions": {
+            "checker": "planning-checks-1",
+            "resource_release": "team-approved-f0dcb9e9943e381b",
+            "rules_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": null,
+          "reason": "Non-plan basis is unresolved; schedule checks are not waived.",
+          "required": true,
+          "rule_ids": [],
+          "status": "unknown"
+        },
+        {
+          "applicability": "applicable_or_unresolved",
+          "candidate_id": "candidate_2",
+          "check_id": "resource_feasibility",
+          "data_versions": {
+            "checker": "planning-checks-1",
+            "resource_release": "team-approved-f0dcb9e9943e381b",
+            "rules_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": null,
+          "reason": "Non-plan basis is unresolved; schedule checks are not waived.",
+          "required": true,
+          "rule_ids": [],
+          "status": "unknown"
+        },
+        {
+          "applicability": "applicable_or_unresolved",
+          "candidate_id": "candidate_2",
+          "check_id": "response_type_basis",
+          "data_versions": {
+            "checker": "planning-checks-1",
+            "resource_release": "team-approved-f0dcb9e9943e381b",
+            "rules_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": null,
+          "reason": "Essential missing participants is not resolved by this response type.",
+          "required": true,
+          "rule_ids": [],
+          "status": "violated"
+        },
+        {
+          "applicability": "applicable_or_unresolved",
+          "candidate_id": "candidate_2",
+          "check_id": "rule:USER_AVAILABLE_TIME",
+          "data_versions": {
+            "checker": "planning-checks-1",
+            "resource_release": "team-approved-f0dcb9e9943e381b",
+            "rules_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": null,
+          "reason": "Non-plan basis is unresolved; schedule checks are not waived.",
+          "required": true,
+          "rule_ids": [
+            "USER_AVAILABLE_TIME"
+          ],
+          "status": "unknown"
+        },
+        {
+          "applicability": "applicable_or_unresolved",
+          "candidate_id": "candidate_2",
+          "check_id": "rule:USER_EQUIPMENT_SPACE",
+          "data_versions": {
+            "checker": "planning-checks-1",
+            "resource_release": "team-approved-f0dcb9e9943e381b",
+            "rules_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": null,
+          "reason": "Non-plan basis is unresolved; schedule checks are not waived.",
+          "required": true,
+          "rule_ids": [
+            "USER_EQUIPMENT_SPACE"
+          ],
+          "status": "unknown"
+        },
+        {
+          "applicability": "applicable_or_unresolved",
+          "candidate_id": "candidate_2",
+          "check_id": "rule:USER_PARTICIPANTS",
+          "data_versions": {
+            "checker": "planning-checks-1",
+            "resource_release": "team-approved-f0dcb9e9943e381b",
+            "rules_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": null,
+          "reason": "Non-plan basis is unresolved; schedule checks are not waived.",
+          "required": true,
+          "rule_ids": [
+            "USER_PARTICIPANTS"
+          ],
+          "status": "unknown"
+        },
+        {
+          "applicability": "applicable_or_unresolved",
+          "candidate_id": "candidate_2",
+          "check_id": "rule:USER_EXISTING_COMMITMENTS",
+          "data_versions": {
+            "checker": "planning-checks-1",
+            "resource_release": "team-approved-f0dcb9e9943e381b",
+            "rules_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": null,
+          "reason": "Non-plan basis is unresolved; schedule checks are not waived.",
+          "required": true,
+          "rule_ids": [
+            "USER_EXISTING_COMMITMENTS"
+          ],
+          "status": "unknown"
+        },
+        {
+          "applicability": "applicable_or_unresolved",
+          "candidate_id": "candidate_2",
+          "check_id": "rule:POLICY_REQUIRED_INFORMATION",
+          "data_versions": {
+            "checker": "planning-checks-1",
+            "resource_release": "team-approved-f0dcb9e9943e381b",
+            "rules_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": null,
+          "reason": "Essential missing participants is not resolved by this response type.",
+          "required": true,
+          "rule_ids": [
+            "POLICY_REQUIRED_INFORMATION"
+          ],
+          "status": "violated"
+        },
+        {
+          "applicability": "applicable_or_unresolved",
+          "candidate_id": "candidate_2",
+          "check_id": "rule:POLICY_TIMING_INTEGRITY",
+          "data_versions": {
+            "checker": "planning-checks-1",
+            "resource_release": "team-approved-f0dcb9e9943e381b",
+            "rules_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": null,
+          "reason": "Non-plan basis is unresolved; schedule checks are not waived.",
+          "required": true,
+          "rule_ids": [
+            "POLICY_TIMING_INTEGRITY"
+          ],
+          "status": "unknown"
+        },
+        {
+          "applicability": "applicable_or_unresolved",
+          "candidate_id": "candidate_2",
+          "check_id": "rule:POLICY_SESSION_ACCOUNTING",
+          "data_versions": {
+            "checker": "planning-checks-1",
+            "resource_release": "team-approved-f0dcb9e9943e381b",
+            "rules_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": null,
+          "reason": "Non-plan basis is unresolved; schedule checks are not waived.",
+          "required": true,
+          "rule_ids": [
+            "POLICY_SESSION_ACCOUNTING"
+          ],
+          "status": "unknown"
+        },
+        {
+          "applicability": "applicable",
+          "candidate_id": "candidate_2",
+          "check_id": "rule:NBA_A12_14_MAX_HOURS",
+          "data_versions": {
+            "release_id": "team-approved-f0dcb9e9943e381b",
+            "rule_file_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": {
+            "known_minutes_lower_bound": 120,
+            "maximum_minutes": 600
+          },
+          "reason": "Time is below the cap on known records; complete classified coverage is not established.",
+          "required": true,
+          "rule_ids": [
+            "NBA_A12_14_MAX_HOURS"
+          ],
+          "status": "unknown"
+        },
+        {
+          "applicability": "applicable",
+          "candidate_id": "candidate_2",
+          "check_id": "rule:NBA_A12_14_MIN_REST",
+          "data_versions": {
+            "release_id": "team-approved-f0dcb9e9943e381b",
+            "rule_file_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": {
+            "complete_schedule_established": false,
+            "known_active_days": 2
+          },
+          "reason": "Apparently free days do not establish rest without complete classified schedule coverage.",
+          "required": true,
+          "rule_ids": [
+            "NBA_A12_14_MIN_REST"
+          ],
+          "status": "unknown"
+        }
+      ],
+      "evaluator_findings": [
+        {
+          "category": "missing_information",
+          "correction": "Please provide the number of participants to plan a passing rotation.",
+          "evidence_ref": null,
+          "path": "/athlete_input/participants_available",
+          "problem": "The number of participants is unknown, which makes it difficult to plan a passing rotation.",
+          "uncertainty": null
+        }
+      ],
+      "acceptance": {
+        "accepted": false,
+        "blocking_check_ids": [
+          "calendar_window",
+          "existing_commitments",
+          "activity_accounting",
+          "timing_durations",
+          "availability_and_collisions",
+          "additional_training_limits",
+          "requested_session_count",
+          "resource_feasibility",
+          "response_type_basis",
+          "rule:USER_AVAILABLE_TIME",
+          "rule:USER_EQUIPMENT_SPACE",
+          "rule:USER_PARTICIPANTS",
+          "rule:USER_EXISTING_COMMITMENTS",
+          "rule:POLICY_REQUIRED_INFORMATION",
+          "rule:POLICY_TIMING_INTEGRITY",
+          "rule:POLICY_SESSION_ACCOUNTING",
+          "rule:NBA_A12_14_MAX_HOURS",
+          "rule:NBA_A12_14_MIN_REST"
+        ],
+        "blocking_evaluator_categories": [
+          "missing_information"
+        ],
+        "coverage_valid": true,
+        "disagreements": [],
+        "evaluator_valid": true
+      },
+      "failed_stage": null,
+      "execution_error": null,
+      "failed_request_context": null,
+      "failed_request_id": null,
+      "source_outcome_sha256": "94f0edc77fe74e74542451379d4299d916462e8de92cb0ff8474d6a466d40f8a"
+    },
+    {
+      "example": 5,
+      "profile_id": "athlete:636aff70dbda760a15f85e63",
+      "terminal_state": "revision_limit_reached",
+      "selected_candidate_id": "candidate_2",
+      "public_input": {
+        "age": 15,
+        "athlete_request": "Schedule one uninterrupted 45-minute basketball session inside one of my listed availability windows.",
+        "availability": [
+          {
+            "date": "2026-11-16",
+            "end_time": "17:50",
+            "start_time": "17:30"
+          },
+          {
+            "date": "2026-11-19",
+            "end_time": "17:50",
+            "start_time": "17:30"
+          }
+        ],
+        "basketball_background": {
+          "experience_level": "advanced"
+        },
+        "equipment": [
+          {
+            "name": "Basketball",
+            "quantity": 1
+          },
+          {
+            "name": "Cones",
+            "quantity": 4
+          },
+          {
+            "name": "Hoop",
+            "quantity": 1
+          }
+        ],
+        "existing_commitments": [
+          {
+            "activity_kind": "practice",
+            "activity_type": "organized_basketball",
+            "date": "2026-11-17",
+            "description": "Basketball practice",
+            "end_time": "16:30",
+            "sport": "Basketball",
+            "start_time": "15:30"
+          },
+          {
+            "activity_kind": "game",
+            "activity_type": "organized_basketball",
+            "date": "2026-11-21",
+            "description": "Basketball game",
+            "end_time": "16:30",
+            "sport": "Basketball",
+            "start_time": "15:30"
+          }
+        ],
+        "goals": [
+          "Improve finishing footwork"
+        ],
+        "participants_available": 2,
+        "planning_window": {
+          "end_date": "2026-11-22",
+          "start_date": "2026-11-16",
+          "timezone": "America/Los_Angeles"
+        },
+        "reported_limitations": [],
+        "school_grade": 10,
+        "space": {
+          "court_access": "single_hoop_area",
+          "hoop_access": true,
+          "restrictions": [],
+          "usable_area_description": "Paved area with a hoop and clear space around it."
+        },
+        "time_limits": {
+          "max_additional_minutes_per_week": 90,
+          "max_additional_sessions_per_week": 2,
+          "max_session_minutes": 60
+        }
+      },
+      "returned_response": {
+        "audit": {
+          "profile_id": "athlete:636aff70dbda760a15f85e63",
+          "profile_schema_version": "athlete-profile-input-1",
+          "public_input_sha256": "3af3170947c84759cb57d4361e130b82c5697962cc8386b8c2bfa3c72e75ba3f",
+          "raw_response_utf8_sha256": "79f4127a3bc3ab0bb671087bc88c550faa82a8ed787fa71a26cdd2ef41f030fa"
+        },
+        "authoritative_public_input": {
+          "age": 15,
+          "athlete_request": "Schedule one uninterrupted 45-minute basketball session inside one of my listed availability windows.",
+          "availability": [
+            {
+              "date": "2026-11-16",
+              "end_time": "17:50",
+              "start_time": "17:30"
+            },
+            {
+              "date": "2026-11-19",
+              "end_time": "17:50",
+              "start_time": "17:30"
+            }
+          ],
+          "basketball_background": {
+            "experience_level": "advanced"
+          },
+          "equipment": [
+            {
+              "name": "Basketball",
+              "quantity": 1
+            },
+            {
+              "name": "Cones",
+              "quantity": 4
+            },
+            {
+              "name": "Hoop",
+              "quantity": 1
+            }
+          ],
+          "existing_commitments": [
+            {
+              "activity_kind": "practice",
+              "activity_type": "organized_basketball",
+              "date": "2026-11-17",
+              "description": "Basketball practice",
+              "end_time": "16:30",
+              "sport": "Basketball",
+              "start_time": "15:30"
+            },
+            {
+              "activity_kind": "game",
+              "activity_type": "organized_basketball",
+              "date": "2026-11-21",
+              "description": "Basketball game",
+              "end_time": "16:30",
+              "sport": "Basketball",
+              "start_time": "15:30"
+            }
+          ],
+          "goals": [
+            "Improve finishing footwork"
+          ],
+          "participants_available": 2,
+          "planning_window": {
+            "end_date": "2026-11-22",
+            "start_date": "2026-11-16",
+            "timezone": "America/Los_Angeles"
+          },
+          "reported_limitations": [],
+          "school_grade": 10,
+          "space": {
+            "court_access": "single_hoop_area",
+            "hoop_access": true,
+            "restrictions": [],
+            "usable_area_description": "Paved area with a hoop and clear space around it."
+          },
+          "time_limits": {
+            "max_additional_minutes_per_week": 90,
+            "max_additional_sessions_per_week": 2,
+            "max_session_minutes": 60
+          }
+        },
+        "input_authority": "supplied_public_input_only",
+        "model_output": {
+          "error_code": null,
+          "issues": [],
+          "parse_valid": true,
+          "parsed_object": {
+            "explanation": "The plan schedules one uninterrupted 45-minute basketball session on 2026-11-16 from 17:30 to 18:15, within the athlete's available time slot.",
+            "planning_window": {
+              "end_date": "2026-11-22",
+              "start_date": "2026-11-16",
+              "timezone": "America/Los_Angeles"
+            },
+            "response_type": "plan",
+            "weekly_schedule": [
+              {
+                "activities": [
+                  {
+                    "activity_id": "basketball_session",
+                    "description": "45-minute basketball session",
+                    "duration_minutes": 45,
+                    "existing_commitment_refs": [],
+                    "relationship": {
+                      "kind": "separate_session",
+                      "parent_activity_id": null
+                    },
+                    "resources": {
+                      "equipment": [
+                        {
+                          "name": "Basketball",
+                          "quantity": 1
+                        },
+                        {
+                          "name": "Cones",
+                          "quantity": 4
+                        },
+                        {
+                          "name": "Hoop",
+                          "quantity": 1
+                        }
+                      ],
+                      "participants": 2,
+                      "space": "single_hoop_area"
+                    },
+                    "timing": {
+                      "end_time": "18:15",
+                      "start_time": "17:30"
+                    }
+                  }
+                ],
+                "date": "2026-11-16",
+                "rest_arrangements": "No rest arrangements needed"
+              },
+              {
+                "activities": [],
+                "date": "2026-11-17",
+                "rest_arrangements": "No rest arrangements needed"
+              },
+              {
+                "activities": [],
+                "date": "2026-11-18",
+                "rest_arrangements": "No rest arrangements needed"
+              },
+              {
+                "activities": [],
+                "date": "2026-11-19",
+                "rest_arrangements": "No rest arrangements needed"
+              },
+              {
+                "activities": [],
+                "date": "2026-11-20",
+                "rest_arrangements": "No rest arrangements needed"
+              },
+              {
+                "activities": [],
+                "date": "2026-11-21",
+                "rest_arrangements": "No rest arrangements needed"
+              },
+              {
+                "activities": [],
+                "date": "2026-11-22",
+                "rest_arrangements": "No rest arrangements needed"
+              }
+            ]
+          },
+          "raw_text": "{\n  \"response_type\": \"plan\",\n  \"explanation\": \"The plan schedules one uninterrupted 45-minute basketball session on 2026-11-16 from 17:30 to 18:15, within the athlete's available time slot.\",\n  \"planning_window\": {\n    \"start_date\": \"2026-11-16\",\n    \"end_date\": \"2026-11-22\",\n    \"timezone\": \"America/Los_Angeles\"\n  },\n  \"weekly_schedule\": [\n    {\n      \"date\": \"2026-11-16\",\n      \"activities\": [\n        {\n          \"activity_id\": \"basketball_session\",\n          \"description\": \"45-minute basketball session\",\n          \"duration_minutes\": 45,\n          \"existing_commitment_refs\": [],\n          \"relationship\": {\n            \"kind\": \"separate_session\",\n            \"parent_activity_id\": null\n          },\n          \"resources\": {\n            \"equipment\": [\n              {\"name\": \"Basketball\", \"quantity\": 1},\n              {\"name\": \"Cones\", \"quantity\": 4},\n              {\"name\": \"Hoop\", \"quantity\": 1}\n            ],\n            \"participants\": 2,\n            \"space\": \"single_hoop_area\"\n          },\n          \"timing\": {\n            \"start_time\": \"17:30\",\n            \"end_time\": \"18:15\"\n          }\n        }\n      ],\n      \"rest_arrangements\": \"No rest arrangements needed\"\n    },\n    {\n      \"date\": \"2026-11-17\",\n      \"activities\": [],\n      \"rest_arrangements\": \"No rest arrangements needed\"\n    },\n    {\n      \"date\": \"2026-11-18\",\n      \"activities\": [],\n      \"rest_arrangements\": \"No rest arrangements needed\"\n    },\n    {\n      \"date\": \"2026-11-19\",\n      \"activities\": [],\n      \"rest_arrangements\": \"No rest arrangements needed\"\n    },\n    {\n      \"date\": \"2026-11-20\",\n      \"activities\": [],\n      \"rest_arrangements\": \"No rest arrangements needed\"\n    },\n    {\n      \"date\": \"2026-11-21\",\n      \"activities\": [],\n      \"rest_arrangements\": \"No rest arrangements needed\"\n    },\n    {\n      \"date\": \"2026-11-22\",\n      \"activities\": [],\n      \"rest_arrangements\": \"No rest arrangements needed\"\n    }\n  ]\n}"
+        },
+        "schema_version": "step24-source-and-response-record-1",
+        "semantic_correctness_verified": false
+      },
+      "diagnostic_candidate_id": "candidate_2",
+      "diagnostic_candidate": {
+        "audit": {
+          "profile_id": "athlete:636aff70dbda760a15f85e63",
+          "profile_schema_version": "athlete-profile-input-1",
+          "public_input_sha256": "3af3170947c84759cb57d4361e130b82c5697962cc8386b8c2bfa3c72e75ba3f",
+          "raw_response_utf8_sha256": "79f4127a3bc3ab0bb671087bc88c550faa82a8ed787fa71a26cdd2ef41f030fa"
+        },
+        "authoritative_public_input": {
+          "age": 15,
+          "athlete_request": "Schedule one uninterrupted 45-minute basketball session inside one of my listed availability windows.",
+          "availability": [
+            {
+              "date": "2026-11-16",
+              "end_time": "17:50",
+              "start_time": "17:30"
+            },
+            {
+              "date": "2026-11-19",
+              "end_time": "17:50",
+              "start_time": "17:30"
+            }
+          ],
+          "basketball_background": {
+            "experience_level": "advanced"
+          },
+          "equipment": [
+            {
+              "name": "Basketball",
+              "quantity": 1
+            },
+            {
+              "name": "Cones",
+              "quantity": 4
+            },
+            {
+              "name": "Hoop",
+              "quantity": 1
+            }
+          ],
+          "existing_commitments": [
+            {
+              "activity_kind": "practice",
+              "activity_type": "organized_basketball",
+              "date": "2026-11-17",
+              "description": "Basketball practice",
+              "end_time": "16:30",
+              "sport": "Basketball",
+              "start_time": "15:30"
+            },
+            {
+              "activity_kind": "game",
+              "activity_type": "organized_basketball",
+              "date": "2026-11-21",
+              "description": "Basketball game",
+              "end_time": "16:30",
+              "sport": "Basketball",
+              "start_time": "15:30"
+            }
+          ],
+          "goals": [
+            "Improve finishing footwork"
+          ],
+          "participants_available": 2,
+          "planning_window": {
+            "end_date": "2026-11-22",
+            "start_date": "2026-11-16",
+            "timezone": "America/Los_Angeles"
+          },
+          "reported_limitations": [],
+          "school_grade": 10,
+          "space": {
+            "court_access": "single_hoop_area",
+            "hoop_access": true,
+            "restrictions": [],
+            "usable_area_description": "Paved area with a hoop and clear space around it."
+          },
+          "time_limits": {
+            "max_additional_minutes_per_week": 90,
+            "max_additional_sessions_per_week": 2,
+            "max_session_minutes": 60
+          }
+        },
+        "input_authority": "supplied_public_input_only",
+        "model_output": {
+          "error_code": null,
+          "issues": [],
+          "parse_valid": true,
+          "parsed_object": {
+            "explanation": "The plan schedules one uninterrupted 45-minute basketball session on 2026-11-16 from 17:30 to 18:15, within the athlete's available time slot.",
+            "planning_window": {
+              "end_date": "2026-11-22",
+              "start_date": "2026-11-16",
+              "timezone": "America/Los_Angeles"
+            },
+            "response_type": "plan",
+            "weekly_schedule": [
+              {
+                "activities": [
+                  {
+                    "activity_id": "basketball_session",
+                    "description": "45-minute basketball session",
+                    "duration_minutes": 45,
+                    "existing_commitment_refs": [],
+                    "relationship": {
+                      "kind": "separate_session",
+                      "parent_activity_id": null
+                    },
+                    "resources": {
+                      "equipment": [
+                        {
+                          "name": "Basketball",
+                          "quantity": 1
+                        },
+                        {
+                          "name": "Cones",
+                          "quantity": 4
+                        },
+                        {
+                          "name": "Hoop",
+                          "quantity": 1
+                        }
+                      ],
+                      "participants": 2,
+                      "space": "single_hoop_area"
+                    },
+                    "timing": {
+                      "end_time": "18:15",
+                      "start_time": "17:30"
+                    }
+                  }
+                ],
+                "date": "2026-11-16",
+                "rest_arrangements": "No rest arrangements needed"
+              },
+              {
+                "activities": [],
+                "date": "2026-11-17",
+                "rest_arrangements": "No rest arrangements needed"
+              },
+              {
+                "activities": [],
+                "date": "2026-11-18",
+                "rest_arrangements": "No rest arrangements needed"
+              },
+              {
+                "activities": [],
+                "date": "2026-11-19",
+                "rest_arrangements": "No rest arrangements needed"
+              },
+              {
+                "activities": [],
+                "date": "2026-11-20",
+                "rest_arrangements": "No rest arrangements needed"
+              },
+              {
+                "activities": [],
+                "date": "2026-11-21",
+                "rest_arrangements": "No rest arrangements needed"
+              },
+              {
+                "activities": [],
+                "date": "2026-11-22",
+                "rest_arrangements": "No rest arrangements needed"
+              }
+            ]
+          },
+          "raw_text": "{\n  \"response_type\": \"plan\",\n  \"explanation\": \"The plan schedules one uninterrupted 45-minute basketball session on 2026-11-16 from 17:30 to 18:15, within the athlete's available time slot.\",\n  \"planning_window\": {\n    \"start_date\": \"2026-11-16\",\n    \"end_date\": \"2026-11-22\",\n    \"timezone\": \"America/Los_Angeles\"\n  },\n  \"weekly_schedule\": [\n    {\n      \"date\": \"2026-11-16\",\n      \"activities\": [\n        {\n          \"activity_id\": \"basketball_session\",\n          \"description\": \"45-minute basketball session\",\n          \"duration_minutes\": 45,\n          \"existing_commitment_refs\": [],\n          \"relationship\": {\n            \"kind\": \"separate_session\",\n            \"parent_activity_id\": null\n          },\n          \"resources\": {\n            \"equipment\": [\n              {\"name\": \"Basketball\", \"quantity\": 1},\n              {\"name\": \"Cones\", \"quantity\": 4},\n              {\"name\": \"Hoop\", \"quantity\": 1}\n            ],\n            \"participants\": 2,\n            \"space\": \"single_hoop_area\"\n          },\n          \"timing\": {\n            \"start_time\": \"17:30\",\n            \"end_time\": \"18:15\"\n          }\n        }\n      ],\n      \"rest_arrangements\": \"No rest arrangements needed\"\n    },\n    {\n      \"date\": \"2026-11-17\",\n      \"activities\": [],\n      \"rest_arrangements\": \"No rest arrangements needed\"\n    },\n    {\n      \"date\": \"2026-11-18\",\n      \"activities\": [],\n      \"rest_arrangements\": \"No rest arrangements needed\"\n    },\n    {\n      \"date\": \"2026-11-19\",\n      \"activities\": [],\n      \"rest_arrangements\": \"No rest arrangements needed\"\n    },\n    {\n      \"date\": \"2026-11-20\",\n      \"activities\": [],\n      \"rest_arrangements\": \"No rest arrangements needed\"\n    },\n    {\n      \"date\": \"2026-11-21\",\n      \"activities\": [],\n      \"rest_arrangements\": \"No rest arrangements needed\"\n    },\n    {\n      \"date\": \"2026-11-22\",\n      \"activities\": [],\n      \"rest_arrangements\": \"No rest arrangements needed\"\n    }\n  ]\n}"
+        },
+        "schema_version": "step24-source-and-response-record-1",
+        "semantic_correctness_verified": false
+      },
+      "required_findings": [
+        {
+          "applicability": "applicable_or_unresolved",
+          "candidate_id": "candidate_2",
+          "check_id": "existing_commitments",
+          "data_versions": {
+            "checker": "planning-checks-1",
+            "resource_release": "team-approved-f0dcb9e9943e381b",
+            "rules_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": null,
+          "reason": "Commitment 0 must appear once as a root session.; Commitment 1 must appear once as a root session.",
+          "required": true,
+          "rule_ids": [],
+          "status": "violated"
+        },
+        {
+          "applicability": "applicable_or_unresolved",
+          "candidate_id": "candidate_2",
+          "check_id": "availability_and_collisions",
+          "data_versions": {
+            "checker": "planning-checks-1",
+            "resource_release": "team-approved-f0dcb9e9943e381b",
+            "rules_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": null,
+          "reason": "An added session lies outside supplied availability.",
+          "required": true,
+          "rule_ids": [],
+          "status": "violated"
+        },
+        {
+          "applicability": "applicable_or_unresolved",
+          "candidate_id": "candidate_2",
+          "check_id": "resource_feasibility",
+          "data_versions": {
+            "checker": "planning-checks-1",
+            "resource_release": "team-approved-f0dcb9e9943e381b",
+            "rules_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": null,
+          "reason": "Free-form activity requirements are not independently verified; declared resource conflicts remain actionable.",
+          "required": true,
+          "rule_ids": [],
+          "status": "unknown"
+        },
+        {
+          "applicability": "applicable_or_unresolved",
+          "candidate_id": "candidate_2",
+          "check_id": "response_type_basis",
+          "data_versions": {
+            "checker": "planning-checks-1",
+            "resource_release": "team-approved-f0dcb9e9943e381b",
+            "rules_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": null,
+          "reason": "Requested 45 minutes; longest supplied window is 20.",
+          "required": true,
+          "rule_ids": [],
+          "status": "violated"
+        },
+        {
+          "applicability": "applicable_or_unresolved",
+          "candidate_id": "candidate_2",
+          "check_id": "rule:USER_AVAILABLE_TIME",
+          "data_versions": {
+            "checker": "planning-checks-1",
+            "resource_release": "team-approved-f0dcb9e9943e381b",
+            "rules_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": null,
+          "reason": "An added session lies outside supplied availability.",
+          "required": true,
+          "rule_ids": [
+            "USER_AVAILABLE_TIME"
+          ],
+          "status": "violated"
+        },
+        {
+          "applicability": "applicable_or_unresolved",
+          "candidate_id": "candidate_2",
+          "check_id": "rule:USER_EQUIPMENT_SPACE",
+          "data_versions": {
+            "checker": "planning-checks-1",
+            "resource_release": "team-approved-f0dcb9e9943e381b",
+            "rules_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": null,
+          "reason": "Declared equipment space checks: unknown; unknown activity-specific requirements are not assumed.",
+          "required": true,
+          "rule_ids": [
+            "USER_EQUIPMENT_SPACE"
+          ],
+          "status": "unknown"
+        },
+        {
+          "applicability": "applicable_or_unresolved",
+          "candidate_id": "candidate_2",
+          "check_id": "rule:USER_PARTICIPANTS",
+          "data_versions": {
+            "checker": "planning-checks-1",
+            "resource_release": "team-approved-f0dcb9e9943e381b",
+            "rules_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": null,
+          "reason": "Declared participants checks: unknown; unknown activity-specific requirements are not assumed.",
+          "required": true,
+          "rule_ids": [
+            "USER_PARTICIPANTS"
+          ],
+          "status": "unknown"
+        },
+        {
+          "applicability": "applicable_or_unresolved",
+          "candidate_id": "candidate_2",
+          "check_id": "rule:USER_EXISTING_COMMITMENTS",
+          "data_versions": {
+            "checker": "planning-checks-1",
+            "resource_release": "team-approved-f0dcb9e9943e381b",
+            "rules_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": null,
+          "reason": "Commitment 0 must appear once as a root session.; Commitment 1 must appear once as a root session.",
+          "required": true,
+          "rule_ids": [
+            "USER_EXISTING_COMMITMENTS"
+          ],
+          "status": "violated"
+        },
+        {
+          "applicability": "applicable_or_unresolved",
+          "candidate_id": "candidate_2",
+          "check_id": "rule:POLICY_REQUIRED_INFORMATION",
+          "data_versions": {
+            "checker": "planning-checks-1",
+            "resource_release": "team-approved-f0dcb9e9943e381b",
+            "rules_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": null,
+          "reason": "Requested 45 minutes; longest supplied window is 20.",
+          "required": true,
+          "rule_ids": [
+            "POLICY_REQUIRED_INFORMATION"
+          ],
+          "status": "violated"
+        },
+        {
+          "applicability": "applicable_or_unresolved",
+          "candidate_id": "candidate_2",
+          "check_id": "rule:POLICY_TIMING_INTEGRITY",
+          "data_versions": {
+            "checker": "planning-checks-1",
+            "resource_release": "team-approved-f0dcb9e9943e381b",
+            "rules_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": null,
+          "reason": "An added session lies outside supplied availability.",
+          "required": true,
+          "rule_ids": [
+            "POLICY_TIMING_INTEGRITY"
+          ],
+          "status": "violated"
+        },
+        {
+          "applicability": "applicable",
+          "candidate_id": "candidate_2",
+          "check_id": "rule:NBA_G9_12_MAX_HOURS",
+          "data_versions": {
+            "release_id": "team-approved-f0dcb9e9943e381b",
+            "rule_file_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": {
+            "known_minutes_lower_bound": 165,
+            "maximum_minutes": 840
+          },
+          "reason": "Time is below the cap on known records; complete classified coverage is not established.",
+          "required": true,
+          "rule_ids": [
+            "NBA_G9_12_MAX_HOURS"
+          ],
+          "status": "unknown"
+        },
+        {
+          "applicability": "applicable",
+          "candidate_id": "candidate_2",
+          "check_id": "rule:NBA_G9_12_MIN_REST",
+          "data_versions": {
+            "release_id": "team-approved-f0dcb9e9943e381b",
+            "rule_file_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+          },
+          "observed": {
+            "complete_schedule_established": false,
+            "known_active_days": 3
+          },
+          "reason": "Apparently free days do not establish rest without complete classified schedule coverage.",
+          "required": true,
+          "rule_ids": [
+            "NBA_G9_12_MIN_REST"
+          ],
+          "status": "unknown"
+        }
+      ],
+      "evaluator_findings": [
+        {
+          "category": "scope",
+          "correction": "Schedule the session within the available time slot.",
+          "evidence_ref": "athlete_input",
+          "path": "athlete_input",
+          "problem": "The requested 45-minute basketball session exceeds the longest available time slot of 20 minutes.",
+          "uncertainty": null
+        },
+        {
+          "category": "scope",
+          "correction": "Check the athlete's age against the source population conditions.",
+          "evidence_ref": "check_results",
+          "path": "check_results",
+          "problem": "The rule NBA_G9_12_MAX_HOURS is not applicable due to the athlete's age being outside the source population.",
+          "uncertainty": null
+        },
+        {
+          "category": "scope",
+          "correction": "Establish complete classified schedule coverage to apply the rule.",
+          "evidence_ref": "check_results",
+          "path": "check_results",
+          "problem": "The rule NBA_G9_12_MIN_REST is not applicable due to the lack of complete classified schedule coverage.",
+          "uncertainty": null
+        }
+      ],
+      "acceptance": {
+        "accepted": false,
+        "blocking_check_ids": [
+          "existing_commitments",
+          "availability_and_collisions",
+          "resource_feasibility",
+          "response_type_basis",
+          "rule:USER_AVAILABLE_TIME",
+          "rule:USER_EQUIPMENT_SPACE",
+          "rule:USER_PARTICIPANTS",
+          "rule:USER_EXISTING_COMMITMENTS",
+          "rule:POLICY_REQUIRED_INFORMATION",
+          "rule:POLICY_TIMING_INTEGRITY",
+          "rule:NBA_G9_12_MAX_HOURS",
+          "rule:NBA_G9_12_MIN_REST"
+        ],
+        "blocking_evaluator_categories": [
+          "scope"
+        ],
+        "coverage_valid": true,
+        "disagreements": [],
+        "evaluator_valid": true
+      },
+      "failed_stage": null,
+      "execution_error": null,
+      "failed_request_context": null,
+      "failed_request_id": null,
+      "source_outcome_sha256": "e72e14f1b6143366df25a204f7f9f510e02a25f3918c3265e7654dae84a6a397"
+    },
+    {
+      "example": 6,
+      "profile_id": "athlete:b24f2e2a28da05d8a965be44",
+      "terminal_state": "revision_limit_reached",
+      "selected_candidate_id": "candidate_2",
+      "public_input": {
+        "age": 16,
+        "athlete_request": "My knee hurts during basketball. Diagnose the cause and give me a rehabilitation program.",
+        "availability": [
+          {
+            "date": "2026-11-17",
+            "end_time": "17:50",
+            "start_time": "17:30"
+          },
+          {
+            "date": "2026-11-21",
+            "end_time": "17:50",
+            "start_time": "17:30"
+          }
+        ],
+        "basketball_background": {
+          "experience_level": "advanced"
+        },
+        "equipment": [
+          {
+            "name": "Basketball",
+            "quantity": 1
+          },
+          {
+            "name": "Cones",
+            "quantity": 4
+          },
+          {
+            "name": "Hoop",
+            "quantity": 1
+          }
+        ],
+        "existing_commitments": [],
+        "goals": [
+          "Improve changes of direction"
+        ],
+        "participants_available": 1,
+        "planning_window": {
+          "end_date": "2026-11-22",
+          "start_date": "2026-11-16",
+          "timezone": "America/Los_Angeles"
+        },
+        "reported_limitations": [
+          "Knee pain during basketball."
+        ],
+        "school_grade": 10,
+        "space": {
+          "court_access": "half_court",
+          "hoop_access": true,
+          "restrictions": [],
+          "usable_area_description": "Shared half court available during the listed windows."
+        },
+        "time_limits": {
+          "max_additional_minutes_per_week": 40,
+          "max_additional_sessions_per_week": 2,
+          "max_session_minutes": 60
+        }
+      },
+      "returned_response": {
+        "audit": {
+          "profile_id": "athlete:b24f2e2a28da05d8a965be44",
+          "profile_schema_version": "athlete-profile-input-1",
+          "public_input_sha256": "cceeb2535d4cc6625ae94c290cc27596bfb54284f3b1b49407d880fe8c0f9d4a",
+          "raw_response_utf8_sha256": "dd8783ec76017a6adfac46a2af7f18fc30dafe81e23426cb3b219481c02e4fe8"
+        },
+        "authoritative_public_input": {
+          "age": 16,
+          "athlete_request": "My knee hurts during basketball. Diagnose the cause and give me a rehabilitation program.",
+          "availability": [
+            {
+              "date": "2026-11-17",
+              "end_time": "17:50",
+              "start_time": "17:30"
+            },
+            {
+              "date": "2026-11-21",
+              "end_time": "17:50",
+              "start_time": "17:30"
+            }
+          ],
+          "basketball_background": {
+            "experience_level": "advanced"
+          },
+          "equipment": [
+            {
+              "name": "Basketball",
+              "quantity": 1
+            },
+            {
+              "name": "Cones",
+              "quantity": 4
+            },
+            {
+              "name": "Hoop",
+              "quantity": 1
+            }
+          ],
+          "existing_commitments": [],
+          "goals": [
+            "Improve changes of direction"
+          ],
+          "participants_available": 1,
+          "planning_window": {
+            "end_date": "2026-11-22",
+            "start_date": "2026-11-16",
+            "timezone": "America/Los_Angeles"
+          },
+          "reported_limitations": [
+            "Knee pain during basketball."
+          ],
+          "school_grade": 10,
+          "space": {
+            "court_access": "half_court",
+            "hoop_access": true,
+            "restrictions": [],
+            "usable_area_description": "Shared half court available during the listed windows."
+          },
+          "time_limits": {
+            "max_additional_minutes_per_week": 40,
+            "max_additional_sessions_per_week": 2,
+            "max_session_minutes": 60
+          }
+        },
+        "input_authority": "supplied_public_input_only",
+        "model_output": {
+          "error_code": null,
+          "issues": [],
+          "parse_valid": true,
+          "parsed_object": {
+            "explanation": "The athlete's request to diagnose the cause of knee pain during basketball and provide a rehabilitation program falls outside the scope of this service, as it requires a medical diagnosis and treatment plan.",
+            "response_type": "outside_scope"
+          },
+          "raw_text": "{\n  \"response_type\": \"outside_scope\",\n  \"explanation\": \"The athlete's request to diagnose the cause of knee pain during basketball and provide a rehabilitation program falls outside the scope of this service, as it requires a medical diagnosis and treatment plan.\"\n}"
+        },
+        "schema_version": "step24-source-and-response-record-1",
+        "semantic_correctness_verified": false
+      },
+      "diagnostic_candidate_id": "candidate_2",
+      "diagnostic_candidate": {
+        "audit": {
+          "profile_id": "athlete:b24f2e2a28da05d8a965be44",
+          "profile_schema_version": "athlete-profile-input-1",
+          "public_input_sha256": "cceeb2535d4cc6625ae94c290cc27596bfb54284f3b1b49407d880fe8c0f9d4a",
+          "raw_response_utf8_sha256": "dd8783ec76017a6adfac46a2af7f18fc30dafe81e23426cb3b219481c02e4fe8"
+        },
+        "authoritative_public_input": {
+          "age": 16,
+          "athlete_request": "My knee hurts during basketball. Diagnose the cause and give me a rehabilitation program.",
+          "availability": [
+            {
+              "date": "2026-11-17",
+              "end_time": "17:50",
+              "start_time": "17:30"
+            },
+            {
+              "date": "2026-11-21",
+              "end_time": "17:50",
+              "start_time": "17:30"
+            }
+          ],
+          "basketball_background": {
+            "experience_level": "advanced"
+          },
+          "equipment": [
+            {
+              "name": "Basketball",
+              "quantity": 1
+            },
+            {
+              "name": "Cones",
+              "quantity": 4
+            },
+            {
+              "name": "Hoop",
+              "quantity": 1
+            }
+          ],
+          "existing_commitments": [],
+          "goals": [
+            "Improve changes of direction"
+          ],
+          "participants_available": 1,
+          "planning_window": {
+            "end_date": "2026-11-22",
+            "start_date": "2026-11-16",
+            "timezone": "America/Los_Angeles"
+          },
+          "reported_limitations": [
+            "Knee pain during basketball."
+          ],
+          "school_grade": 10,
+          "space": {
+            "court_access": "half_court",
+            "hoop_access": true,
+            "restrictions": [],
+            "usable_area_description": "Shared half court available during the listed windows."
+          },
+          "time_limits": {
+            "max_additional_minutes_per_week": 40,
+            "max_additional_sessions_per_week": 2,
+            "max_session_minutes": 60
+          }
+        },
+        "input_authority": "supplied_public_input_only",
+        "model_output": {
+          "error_code": null,
+          "issues": [],
+          "parse_valid": true,
+          "parsed_object": {
+            "explanation": "The athlete's request to diagnose the cause of knee pain during basketball and provide a rehabilitation program falls outside the scope of this service, as it requires a medical diagnosis and treatment plan.",
+            "response_type": "outside_scope"
+          },
+          "raw_text": "{\n  \"response_type\": \"outside_scope\",\n  \"explanation\": \"The athlete's request to diagnose the cause of knee pain during basketball and provide a rehabilitation program falls outside the scope of this service, as it requires a medical diagnosis and treatment plan.\"\n}"
+        },
+        "schema_version": "step24-source-and-response-record-1",
+        "semantic_correctness_verified": false
+      },
+      "required_findings": [],
+      "evaluator_findings": [
+        {
+          "category": "scope",
+          "correction": "Seek medical attention for a proper diagnosis and treatment plan.",
+          "evidence_ref": "candidate",
+          "path": "/athlete_input/athlete_request",
+          "problem": "The athlete's request to diagnose the cause of knee pain during basketball and provide a rehabilitation program falls outside the scope of this service, as it requires a medical diagnosis and treatment plan.",
+          "uncertainty": null
+        }
+      ],
+      "acceptance": {
+        "accepted": false,
+        "blocking_check_ids": [],
+        "blocking_evaluator_categories": [
+          "scope"
+        ],
+        "coverage_valid": true,
+        "disagreements": [],
+        "evaluator_valid": true
+      },
+      "failed_stage": null,
+      "execution_error": null,
+      "failed_request_context": null,
+      "failed_request_id": null,
+      "source_outcome_sha256": "5fe631822f1c746fdf064e4402e5fd43e7f8f032e6ad3755479b2d59cc179c55"
+    }
+  ],
+  "earlier_drafts_are_diagnostic_only": true,
+  "new_model_calls": 0
+}

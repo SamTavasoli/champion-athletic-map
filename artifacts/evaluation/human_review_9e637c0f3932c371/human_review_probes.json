@@ -1,0 +1,1588 @@
+{
+  "probes": [
+    {
+      "arguments": [
+        {
+          "comment": null,
+          "dimension": "response_suitability",
+          "not_applicable_reason": null,
+          "rating_status": "rated",
+          "response_id": "toy:r1",
+          "reviewer_id": "toy:A",
+          "score": 0
+        }
+      ],
+      "expected": {
+        "value": true
+      },
+      "function": "validate_rating_entry",
+      "group": "entry_validation",
+      "name": "response_suitability_score_0"
+    },
+    {
+      "arguments": [
+        {
+          "comment": null,
+          "dimension": "response_suitability",
+          "not_applicable_reason": null,
+          "rating_status": "rated",
+          "response_id": "toy:r1",
+          "reviewer_id": "toy:A",
+          "score": 1
+        }
+      ],
+      "expected": {
+        "value": true
+      },
+      "function": "validate_rating_entry",
+      "group": "entry_validation",
+      "name": "response_suitability_score_1"
+    },
+    {
+      "arguments": [
+        {
+          "comment": null,
+          "dimension": "response_suitability",
+          "not_applicable_reason": null,
+          "rating_status": "rated",
+          "response_id": "toy:r1",
+          "reviewer_id": "toy:A",
+          "score": 2
+        }
+      ],
+      "expected": {
+        "value": true
+      },
+      "function": "validate_rating_entry",
+      "group": "entry_validation",
+      "name": "response_suitability_score_2"
+    },
+    {
+      "arguments": [
+        {
+          "comment": null,
+          "dimension": "profile_fit",
+          "not_applicable_reason": null,
+          "rating_status": "rated",
+          "response_id": "toy:r1",
+          "reviewer_id": "toy:A",
+          "score": 0
+        }
+      ],
+      "expected": {
+        "value": true
+      },
+      "function": "validate_rating_entry",
+      "group": "entry_validation",
+      "name": "profile_fit_score_0"
+    },
+    {
+      "arguments": [
+        {
+          "comment": null,
+          "dimension": "profile_fit",
+          "not_applicable_reason": null,
+          "rating_status": "rated",
+          "response_id": "toy:r1",
+          "reviewer_id": "toy:A",
+          "score": 1
+        }
+      ],
+      "expected": {
+        "value": true
+      },
+      "function": "validate_rating_entry",
+      "group": "entry_validation",
+      "name": "profile_fit_score_1"
+    },
+    {
+      "arguments": [
+        {
+          "comment": null,
+          "dimension": "profile_fit",
+          "not_applicable_reason": null,
+          "rating_status": "rated",
+          "response_id": "toy:r1",
+          "reviewer_id": "toy:A",
+          "score": 2
+        }
+      ],
+      "expected": {
+        "value": true
+      },
+      "function": "validate_rating_entry",
+      "group": "entry_validation",
+      "name": "profile_fit_score_2"
+    },
+    {
+      "arguments": [
+        {
+          "comment": null,
+          "dimension": "practicality_completeness",
+          "not_applicable_reason": null,
+          "rating_status": "rated",
+          "response_id": "toy:r1",
+          "reviewer_id": "toy:A",
+          "score": 0
+        }
+      ],
+      "expected": {
+        "value": true
+      },
+      "function": "validate_rating_entry",
+      "group": "entry_validation",
+      "name": "practicality_completeness_score_0"
+    },
+    {
+      "arguments": [
+        {
+          "comment": null,
+          "dimension": "practicality_completeness",
+          "not_applicable_reason": null,
+          "rating_status": "rated",
+          "response_id": "toy:r1",
+          "reviewer_id": "toy:A",
+          "score": 1
+        }
+      ],
+      "expected": {
+        "value": true
+      },
+      "function": "validate_rating_entry",
+      "group": "entry_validation",
+      "name": "practicality_completeness_score_1"
+    },
+    {
+      "arguments": [
+        {
+          "comment": null,
+          "dimension": "practicality_completeness",
+          "not_applicable_reason": null,
+          "rating_status": "rated",
+          "response_id": "toy:r1",
+          "reviewer_id": "toy:A",
+          "score": 2
+        }
+      ],
+      "expected": {
+        "value": true
+      },
+      "function": "validate_rating_entry",
+      "group": "entry_validation",
+      "name": "practicality_completeness_score_2"
+    },
+    {
+      "arguments": [
+        {
+          "comment": null,
+          "dimension": "evidence_accuracy",
+          "not_applicable_reason": null,
+          "rating_status": "rated",
+          "response_id": "toy:r1",
+          "reviewer_id": "toy:A",
+          "score": 0
+        }
+      ],
+      "expected": {
+        "value": true
+      },
+      "function": "validate_rating_entry",
+      "group": "entry_validation",
+      "name": "evidence_accuracy_score_0"
+    },
+    {
+      "arguments": [
+        {
+          "comment": null,
+          "dimension": "evidence_accuracy",
+          "not_applicable_reason": null,
+          "rating_status": "rated",
+          "response_id": "toy:r1",
+          "reviewer_id": "toy:A",
+          "score": 1
+        }
+      ],
+      "expected": {
+        "value": true
+      },
+      "function": "validate_rating_entry",
+      "group": "entry_validation",
+      "name": "evidence_accuracy_score_1"
+    },
+    {
+      "arguments": [
+        {
+          "comment": null,
+          "dimension": "evidence_accuracy",
+          "not_applicable_reason": null,
+          "rating_status": "rated",
+          "response_id": "toy:r1",
+          "reviewer_id": "toy:A",
+          "score": 2
+        }
+      ],
+      "expected": {
+        "value": true
+      },
+      "function": "validate_rating_entry",
+      "group": "entry_validation",
+      "name": "evidence_accuracy_score_2"
+    },
+    {
+      "arguments": [
+        {
+          "comment": null,
+          "dimension": "clarity",
+          "not_applicable_reason": null,
+          "rating_status": "rated",
+          "response_id": "toy:r1",
+          "reviewer_id": "toy:A",
+          "score": 0
+        }
+      ],
+      "expected": {
+        "value": true
+      },
+      "function": "validate_rating_entry",
+      "group": "entry_validation",
+      "name": "clarity_score_0"
+    },
+    {
+      "arguments": [
+        {
+          "comment": null,
+          "dimension": "clarity",
+          "not_applicable_reason": null,
+          "rating_status": "rated",
+          "response_id": "toy:r1",
+          "reviewer_id": "toy:A",
+          "score": 1
+        }
+      ],
+      "expected": {
+        "value": true
+      },
+      "function": "validate_rating_entry",
+      "group": "entry_validation",
+      "name": "clarity_score_1"
+    },
+    {
+      "arguments": [
+        {
+          "comment": null,
+          "dimension": "clarity",
+          "not_applicable_reason": null,
+          "rating_status": "rated",
+          "response_id": "toy:r1",
+          "reviewer_id": "toy:A",
+          "score": 2
+        }
+      ],
+      "expected": {
+        "value": true
+      },
+      "function": "validate_rating_entry",
+      "group": "entry_validation",
+      "name": "clarity_score_2"
+    },
+    {
+      "arguments": [
+        {
+          "comment": null,
+          "dimension": "evidence_accuracy",
+          "not_applicable_reason": null,
+          "rating_status": "missing",
+          "response_id": "toy:r1",
+          "reviewer_id": "toy:A",
+          "score": null
+        }
+      ],
+      "expected": {
+        "value": true
+      },
+      "function": "validate_rating_entry",
+      "group": "entry_validation",
+      "name": "explicit_missing_is_not_zero"
+    },
+    {
+      "arguments": [
+        {
+          "comment": null,
+          "dimension": "evidence_accuracy",
+          "not_applicable_reason": "No substantive claims in this artificial example.",
+          "rating_status": "not_applicable",
+          "response_id": "toy:r1",
+          "reviewer_id": "toy:A",
+          "score": null
+        }
+      ],
+      "expected": {
+        "value": true
+      },
+      "function": "validate_rating_entry",
+      "group": "entry_validation",
+      "name": "evidence_non_applicability_with_reason"
+    },
+    {
+      "arguments": [
+        {
+          "comment": null,
+          "dimension": "evidence_accuracy",
+          "not_applicable_reason": null,
+          "rating_status": "rated",
+          "response_id": "toy:r1",
+          "reviewer_id": "toy:A",
+          "score": null
+        }
+      ],
+      "expected_exception": "ValueError",
+      "function": "validate_rating_entry",
+      "group": "input_rejection",
+      "name": "rated_without_score"
+    },
+    {
+      "arguments": [
+        {
+          "comment": null,
+          "dimension": "evidence_accuracy",
+          "not_applicable_reason": null,
+          "rating_status": "missing",
+          "response_id": "toy:r1",
+          "reviewer_id": "toy:A",
+          "score": 0
+        }
+      ],
+      "expected_exception": "ValueError",
+      "function": "validate_rating_entry",
+      "group": "input_rejection",
+      "name": "missing_with_score"
+    },
+    {
+      "arguments": [
+        {
+          "comment": null,
+          "dimension": "evidence_accuracy",
+          "not_applicable_reason": "No substantive claims in this artificial example.",
+          "rating_status": "not_applicable",
+          "response_id": "toy:r1",
+          "reviewer_id": "toy:A",
+          "score": 2
+        }
+      ],
+      "expected_exception": "ValueError",
+      "function": "validate_rating_entry",
+      "group": "input_rejection",
+      "name": "non_applicable_with_score"
+    },
+    {
+      "arguments": [
+        {
+          "comment": null,
+          "dimension": "evidence_accuracy",
+          "not_applicable_reason": " ",
+          "rating_status": "not_applicable",
+          "response_id": "toy:r1",
+          "reviewer_id": "toy:A",
+          "score": null
+        }
+      ],
+      "expected_exception": "ValueError",
+      "function": "validate_rating_entry",
+      "group": "input_rejection",
+      "name": "non_applicable_without_reason"
+    },
+    {
+      "arguments": [
+        {
+          "comment": null,
+          "dimension": "clarity",
+          "not_applicable_reason": "No substantive claims in this artificial example.",
+          "rating_status": "not_applicable",
+          "response_id": "toy:r1",
+          "reviewer_id": "toy:A",
+          "score": null
+        }
+      ],
+      "expected_exception": "ValueError",
+      "function": "validate_rating_entry",
+      "group": "input_rejection",
+      "name": "non_evidence_dimension_cannot_be_na"
+    },
+    {
+      "arguments": [
+        {
+          "comment": null,
+          "dimension": "evidence_accuracy",
+          "not_applicable_reason": null,
+          "rating_status": "rated",
+          "response_id": "toy:r1",
+          "reviewer_id": "toy:A",
+          "score": false
+        }
+      ],
+      "expected_exception": "ValueError",
+      "function": "validate_rating_entry",
+      "group": "input_rejection",
+      "name": "boolean_is_not_ordinal_score"
+    },
+    {
+      "arguments": [
+        {
+          "comment": null,
+          "dimension": "evidence_accuracy",
+          "not_applicable_reason": null,
+          "rating_status": "rated",
+          "response_id": "toy:r1",
+          "reviewer_id": "toy:A",
+          "score": "1"
+        }
+      ],
+      "expected_exception": "ValueError",
+      "function": "validate_rating_entry",
+      "group": "input_rejection",
+      "name": "string_is_not_ordinal_score"
+    },
+    {
+      "arguments": [
+        {
+          "comment": null,
+          "dimension": "evidence_accuracy",
+          "not_applicable_reason": null,
+          "rating_status": "rated",
+          "response_id": "toy:r1",
+          "reviewer_id": "toy:A",
+          "score": 3
+        }
+      ],
+      "expected_exception": "ValueError",
+      "function": "validate_rating_entry",
+      "group": "input_rejection",
+      "name": "score_outside_rubric"
+    },
+    {
+      "arguments": [
+        {
+          "comment": null,
+          "dimension": "evidence_accuracy",
+          "not_applicable_reason": "not applicable",
+          "rating_status": "rated",
+          "response_id": "toy:r1",
+          "reviewer_id": "toy:A",
+          "score": 0
+        }
+      ],
+      "expected_exception": "ValueError",
+      "function": "validate_rating_entry",
+      "group": "input_rejection",
+      "name": "rated_with_stray_na_reason"
+    },
+    {
+      "arguments": [
+        {
+          "comment": null,
+          "dimension": "evidence_accuracy",
+          "not_applicable_reason": null,
+          "planner_version": "toy:version",
+          "rating_status": "rated",
+          "response_id": "toy:r1",
+          "reviewer_id": "toy:A",
+          "score": 0
+        }
+      ],
+      "expected_exception": "ValueError",
+      "function": "validate_rating_entry",
+      "group": "input_rejection",
+      "name": "version_label_not_a_rating_entry_field"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r1",
+            "reviewer_id": "toy:A",
+            "score": 0
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r1",
+            "reviewer_id": "toy:B",
+            "score": 0
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r2",
+            "reviewer_id": "toy:A",
+            "score": 0
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r2",
+            "reviewer_id": "toy:B",
+            "score": 1
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r3",
+            "reviewer_id": "toy:A",
+            "score": 1
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r3",
+            "reviewer_id": "toy:B",
+            "score": 1
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r4",
+            "reviewer_id": "toy:A",
+            "score": 1
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r4",
+            "reviewer_id": "toy:B",
+            "score": 2
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r5",
+            "reviewer_id": "toy:A",
+            "score": 2
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r5",
+            "reviewer_id": "toy:B",
+            "score": 1
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r6",
+            "reviewer_id": "toy:A",
+            "score": 2
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r6",
+            "reviewer_id": "toy:B",
+            "score": 2
+          }
+        ],
+        [
+          "toy:r1",
+          "toy:r2",
+          "toy:r3",
+          "toy:r4",
+          "toy:r5",
+          "toy:r6"
+        ],
+        [
+          "toy:A",
+          "toy:B"
+        ],
+        "evidence_accuracy"
+      ],
+      "expected": {
+        "exact_agreement": 0.5,
+        "expected_linear_disagreement": 0.4166666666666667,
+        "joint_numeric_confusion": [
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ]
+        ],
+        "joint_numeric_marginals.toy:A": {
+          "0": 2,
+          "1": 2,
+          "2": 2
+        },
+        "joint_numeric_marginals.toy:B": {
+          "0": 1,
+          "1": 3,
+          "2": 2
+        },
+        "linear_weighted_kappa": 0.4,
+        "n_exact_matches": 3,
+        "n_joint_numeric": 6,
+        "observed_linear_disagreement": 0.25
+      },
+      "function": "summarize_reviewer_agreement",
+      "group": "agreement",
+      "name": "hand_calculated_linear_kappa"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r6",
+            "reviewer_id": "toy:B",
+            "score": 2
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r6",
+            "reviewer_id": "toy:A",
+            "score": 2
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r5",
+            "reviewer_id": "toy:B",
+            "score": 1
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r5",
+            "reviewer_id": "toy:A",
+            "score": 2
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r4",
+            "reviewer_id": "toy:B",
+            "score": 2
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r4",
+            "reviewer_id": "toy:A",
+            "score": 1
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r3",
+            "reviewer_id": "toy:B",
+            "score": 1
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r3",
+            "reviewer_id": "toy:A",
+            "score": 1
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r2",
+            "reviewer_id": "toy:B",
+            "score": 1
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r2",
+            "reviewer_id": "toy:A",
+            "score": 0
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r1",
+            "reviewer_id": "toy:B",
+            "score": 0
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r1",
+            "reviewer_id": "toy:A",
+            "score": 0
+          }
+        ],
+        [
+          "toy:r1",
+          "toy:r2",
+          "toy:r3",
+          "toy:r4",
+          "toy:r5",
+          "toy:r6"
+        ],
+        [
+          "toy:A",
+          "toy:B"
+        ],
+        "evidence_accuracy"
+      ],
+      "expected": {
+        "exact_agreement": 0.5,
+        "linear_weighted_kappa": 0.4,
+        "n_joint_numeric": 6
+      },
+      "function": "summarize_reviewer_agreement",
+      "group": "agreement",
+      "name": "pair_by_response_id_not_row_order"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r1",
+            "reviewer_id": "toy:A",
+            "score": 0
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r1",
+            "reviewer_id": "toy:B",
+            "score": 0
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r2",
+            "reviewer_id": "toy:A",
+            "score": 1
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r2",
+            "reviewer_id": "toy:B",
+            "score": 1
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r3",
+            "reviewer_id": "toy:A",
+            "score": 2
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r3",
+            "reviewer_id": "toy:B",
+            "score": 2
+          }
+        ],
+        [
+          "toy:r1",
+          "toy:r2",
+          "toy:r3"
+        ],
+        [
+          "toy:A",
+          "toy:B"
+        ],
+        "evidence_accuracy"
+      ],
+      "expected": {
+        "exact_agreement": 1,
+        "linear_weighted_kappa": 1
+      },
+      "function": "summarize_reviewer_agreement",
+      "group": "agreement",
+      "name": "perfect_nonconstant"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r1",
+            "reviewer_id": "toy:A",
+            "score": 0
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r1",
+            "reviewer_id": "toy:B",
+            "score": 2
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r2",
+            "reviewer_id": "toy:A",
+            "score": 2
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r2",
+            "reviewer_id": "toy:B",
+            "score": 0
+          }
+        ],
+        [
+          "toy:r1",
+          "toy:r2"
+        ],
+        [
+          "toy:A",
+          "toy:B"
+        ],
+        "evidence_accuracy"
+      ],
+      "expected": {
+        "exact_agreement": 0,
+        "linear_weighted_kappa": -1
+      },
+      "function": "summarize_reviewer_agreement",
+      "group": "agreement",
+      "name": "negative_agreement_is_not_clipped"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r1",
+            "reviewer_id": "toy:A",
+            "score": 1
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r1",
+            "reviewer_id": "toy:B",
+            "score": 1
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r2",
+            "reviewer_id": "toy:A",
+            "score": 1
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r2",
+            "reviewer_id": "toy:B",
+            "score": 1
+          }
+        ],
+        [
+          "toy:r1",
+          "toy:r2"
+        ],
+        [
+          "toy:A",
+          "toy:B"
+        ],
+        "evidence_accuracy"
+      ],
+      "expected": {
+        "exact_agreement": 1,
+        "kappa_unavailable_reason": "zero_expected_disagreement",
+        "linear_weighted_kappa": null
+      },
+      "function": "summarize_reviewer_agreement",
+      "group": "agreement",
+      "name": "identical_constants_have_undefined_kappa"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r1",
+            "reviewer_id": "toy:A",
+            "score": 0
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r1",
+            "reviewer_id": "toy:B",
+            "score": 2
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r2",
+            "reviewer_id": "toy:A",
+            "score": 0
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r2",
+            "reviewer_id": "toy:B",
+            "score": 2
+          }
+        ],
+        [
+          "toy:r1",
+          "toy:r2"
+        ],
+        [
+          "toy:A",
+          "toy:B"
+        ],
+        "evidence_accuracy"
+      ],
+      "expected": {
+        "exact_agreement": 0,
+        "kappa_unavailable_reason": null,
+        "linear_weighted_kappa": 0
+      },
+      "function": "summarize_reviewer_agreement",
+      "group": "agreement",
+      "name": "different_constants_have_defined_zero_kappa"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r1",
+            "reviewer_id": "toy:A",
+            "score": 0
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r1",
+            "reviewer_id": "toy:B",
+            "score": 0
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r2",
+            "reviewer_id": "toy:A",
+            "score": 0
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r2",
+            "reviewer_id": "toy:B",
+            "score": 1
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r3",
+            "reviewer_id": "toy:A",
+            "score": 1
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r3",
+            "reviewer_id": "toy:B",
+            "score": 1
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r4",
+            "reviewer_id": "toy:A",
+            "score": 1
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r4",
+            "reviewer_id": "toy:B",
+            "score": 2
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r5",
+            "reviewer_id": "toy:A",
+            "score": 2
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r5",
+            "reviewer_id": "toy:B",
+            "score": 1
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r6",
+            "reviewer_id": "toy:A",
+            "score": 2
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r6",
+            "reviewer_id": "toy:B",
+            "score": 2
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": "No substantive claims in this artificial example.",
+            "rating_status": "not_applicable",
+            "response_id": "toy:r7",
+            "reviewer_id": "toy:A",
+            "score": null
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": "No substantive claims in this artificial example.",
+            "rating_status": "not_applicable",
+            "response_id": "toy:r7",
+            "reviewer_id": "toy:B",
+            "score": null
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": "No substantive claims in this artificial example.",
+            "rating_status": "not_applicable",
+            "response_id": "toy:r8",
+            "reviewer_id": "toy:A",
+            "score": null
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r8",
+            "reviewer_id": "toy:B",
+            "score": 0
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r9",
+            "reviewer_id": "toy:A",
+            "score": 2
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": "No substantive claims in this artificial example.",
+            "rating_status": "not_applicable",
+            "response_id": "toy:r9",
+            "reviewer_id": "toy:B",
+            "score": null
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "missing",
+            "response_id": "toy:r10",
+            "reviewer_id": "toy:A",
+            "score": null
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r10",
+            "reviewer_id": "toy:B",
+            "score": 1
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r11",
+            "reviewer_id": "toy:A",
+            "score": 1
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "missing",
+            "response_id": "toy:r11",
+            "reviewer_id": "toy:B",
+            "score": null
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "missing",
+            "response_id": "toy:r12",
+            "reviewer_id": "toy:A",
+            "score": null
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "missing",
+            "response_id": "toy:r12",
+            "reviewer_id": "toy:B",
+            "score": null
+          }
+        ],
+        [
+          "toy:r1",
+          "toy:r2",
+          "toy:r3",
+          "toy:r4",
+          "toy:r5",
+          "toy:r6",
+          "toy:r7",
+          "toy:r8",
+          "toy:r9",
+          "toy:r10",
+          "toy:r11",
+          "toy:r12"
+        ],
+        [
+          "toy:A",
+          "toy:B"
+        ],
+        "evidence_accuracy"
+      ],
+      "expected": {
+        "exact_agreement": 0.5,
+        "linear_weighted_kappa": 0.4,
+        "n_expected_responses": 12,
+        "n_joint_numeric": 6,
+        "per_reviewer.toy:A.numeric_score_counts": {
+          "0": 2,
+          "1": 3,
+          "2": 3
+        },
+        "per_reviewer.toy:A.status_counts": {
+          "missing": 2,
+          "not_applicable": 2,
+          "rated": 8
+        },
+        "per_reviewer.toy:B.numeric_score_counts": {
+          "0": 2,
+          "1": 4,
+          "2": 2
+        },
+        "state_counts.both_not_applicable": 1,
+        "state_counts.missing_rating_entries": 4,
+        "state_counts.one_reviewer_not_applicable": 2,
+        "state_counts.pairs_with_missing": 3
+      },
+      "function": "summarize_reviewer_agreement",
+      "group": "status_accounting",
+      "name": "na_and_missing_do_not_enter_numeric_agreement"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": "No substantive claims in this artificial example.",
+            "rating_status": "not_applicable",
+            "response_id": "toy:r1",
+            "reviewer_id": "toy:A",
+            "score": null
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "missing",
+            "response_id": "toy:r1",
+            "reviewer_id": "toy:B",
+            "score": null
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "missing",
+            "response_id": "toy:r2",
+            "reviewer_id": "toy:A",
+            "score": null
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": "No substantive claims in this artificial example.",
+            "rating_status": "not_applicable",
+            "response_id": "toy:r2",
+            "reviewer_id": "toy:B",
+            "score": null
+          }
+        ],
+        [
+          "toy:r1",
+          "toy:r2"
+        ],
+        [
+          "toy:A",
+          "toy:B"
+        ],
+        "evidence_accuracy"
+      ],
+      "expected": {
+        "exact_agreement": null,
+        "linear_weighted_kappa": null,
+        "n_joint_numeric": 0,
+        "state_counts.na_with_missing_peer": 2,
+        "state_counts.one_reviewer_not_applicable": 2,
+        "state_counts.pairs_with_missing": 2
+      },
+      "function": "summarize_reviewer_agreement",
+      "group": "status_accounting",
+      "name": "na_with_missing_counts_overlap"
+    },
+    {
+      "arguments": [
+        [],
+        [
+          "toy:r1",
+          "toy:r2"
+        ],
+        [
+          "toy:A",
+          "toy:B"
+        ],
+        "clarity"
+      ],
+      "expected": {
+        "exact_agreement": null,
+        "linear_weighted_kappa": null,
+        "n_expected_responses": 2,
+        "n_joint_numeric": 0,
+        "per_reviewer.toy:A.not_recorded": 2,
+        "per_reviewer.toy:A.numeric_score_counts": {
+          "0": 0,
+          "1": 0,
+          "2": 0
+        },
+        "per_reviewer.toy:A.recorded_missing": 0,
+        "state_counts.missing_rating_entries": 4
+      },
+      "function": "summarize_reviewer_agreement",
+      "group": "status_accounting",
+      "name": "absent_entries_remain_pending"
+    },
+    {
+      "arguments": [
+        [],
+        [],
+        [
+          "toy:A",
+          "toy:B"
+        ],
+        "evidence_accuracy"
+      ],
+      "expected": {
+        "exact_agreement": null,
+        "kappa_unavailable_reason": "no_joint_numeric_ratings",
+        "linear_weighted_kappa": null,
+        "n_expected_responses": 0,
+        "n_joint_numeric": 0
+      },
+      "function": "summarize_reviewer_agreement",
+      "group": "status_accounting",
+      "name": "empty_roster_has_no_agreement_rate"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r1",
+            "reviewer_id": "toy:A",
+            "score": 0
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r1",
+            "reviewer_id": "toy:B",
+            "score": 0
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r1",
+            "reviewer_id": "toy:A",
+            "score": 0
+          }
+        ],
+        [
+          "toy:r1"
+        ],
+        [
+          "toy:A",
+          "toy:B"
+        ],
+        "evidence_accuracy"
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_reviewer_agreement",
+      "group": "input_rejection",
+      "name": "duplicate_pair_rejected"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:not_in_roster",
+            "reviewer_id": "toy:A",
+            "score": 0
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r1",
+            "reviewer_id": "toy:B",
+            "score": 0
+          }
+        ],
+        [
+          "toy:r1"
+        ],
+        [
+          "toy:A",
+          "toy:B"
+        ],
+        "evidence_accuracy"
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_reviewer_agreement",
+      "group": "input_rejection",
+      "name": "unmatched_response_not_silently_dropped"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "comment": null,
+            "dimension": "clarity",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r1",
+            "reviewer_id": "toy:A",
+            "score": 0
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r1",
+            "reviewer_id": "toy:B",
+            "score": 0
+          }
+        ],
+        [
+          "toy:r1"
+        ],
+        [
+          "toy:A",
+          "toy:B"
+        ],
+        "evidence_accuracy"
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_reviewer_agreement",
+      "group": "input_rejection",
+      "name": "different_dimensions_not_pooled"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r1",
+            "reviewer_id": "toy:A",
+            "score": 0
+          },
+          {
+            "comment": null,
+            "dimension": "evidence_accuracy",
+            "not_applicable_reason": null,
+            "rating_status": "rated",
+            "response_id": "toy:r1",
+            "reviewer_id": "toy:B",
+            "score": 0
+          }
+        ],
+        [
+          "toy:r1"
+        ],
+        [
+          "toy:A",
+          "toy:A"
+        ],
+        "evidence_accuracy"
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_reviewer_agreement",
+      "group": "input_rejection",
+      "name": "two_distinct_reviewers_required"
+    }
+  ],
+  "scope": "artificial rating records and hand-specified agreement expectations"
+}

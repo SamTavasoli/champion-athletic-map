@@ -1,0 +1,61 @@
+{
+  "args": [
+    {
+      "answerability_established_by_score": false,
+      "complete_required_delivery_text": "Controlled dribbling and court awareness\n\nThe UGA chapter emphasizes fingertip control rather than the palm and describes dribbling with one hand at a time. Keeping the head raised is presented as a way to notice defenders, teammates and surrounding space. The chapter also advises limiting unnecessary dribbling because a pass can move the ball forward quickly and create openings. Direction changes may involve a crossover, a behind-the-back movement or a transfer between the legs. Its central control concept is being able to handle the ball on either side and transfer it between hands while maintaining awareness.\n\nGeneral introductory basketball reference, selected and paraphrased from the cited chapter. No youth-specific suitability, training dose, medical clearance or planner approval is established.\n\nSource: 3. Fundamentals – Dribbling, Ch.1 - Basketball, UGA PEDB Program. https://open.online.uga.edu/basketball/chapter/fundamentals-dribbling/\nCh.1 - Basketball Copyright © by UGA PEDB Program is licensed under a Creative Commons Attribution 4.0 International License, except where otherwise noted. https://creativecommons.org/licenses/by/4.0/\nSelected explanatory text was paraphrased and shortened; listed omissions are outside this reference unit.\nThe selected paraphrase is shared under CC BY 4.0. UGA endorsement is not implied. License rights and disclaimers remain available at https://creativecommons.org/licenses/by/4.0/ and https://creativecommons.org/licenses/by/4.0/legalcode.en.",
+      "generation_context_budget_verified": false,
+      "passage_id": "uga-retrieval-passage:b302a7ba74cdca47d521a43ac10adb1e67ae161a7cbe54f60b3f9d2f84979daf",
+      "rank": 4,
+      "reference_unit_id": "uga-reference-unit:118cf8fb6c0ae92cb6494815d431bfd70f3ea364ddda29ff64a3750fcd7b2c58",
+      "required_delivery_must_be_attached": true,
+      "required_delivery_record": {
+        "200_token_encoder_core_cap_applies_to_this_delivery": false,
+        "delivery_bundle_id": "uga-passage-delivery:9aa3831c6e4098842b9d32780fa5ee77d206cb4108eec872c1fab23aad1c218c",
+        "delivery_is_not_used_as_embedding_passage": true,
+        "display_text": "Controlled dribbling and court awareness\n\nThe UGA chapter emphasizes fingertip control rather than the palm and describes dribbling with one hand at a time. Keeping the head raised is presented as a way to notice defenders, teammates and surrounding space. The chapter also advises limiting unnecessary dribbling because a pass can move the ball forward quickly and create openings. Direction changes may involve a crossover, a behind-the-back movement or a transfer between the legs. Its central control concept is being able to handle the ball on either side and transfer it between hands while maintaining awareness.\n\nGeneral introductory basketball reference, selected and paraphrased from the cited chapter. No youth-specific suitability, training dose, medical clearance or planner approval is established.\n\nSource: 3. Fundamentals – Dribbling, Ch.1 - Basketball, UGA PEDB Program. https://open.online.uga.edu/basketball/chapter/fundamentals-dribbling/\nCh.1 - Basketball Copyright © by UGA PEDB Program is licensed under a Creative Commons Attribution 4.0 International License, except where otherwise noted. https://creativecommons.org/licenses/by/4.0/\nSelected explanatory text was paraphrased and shortened; listed omissions are outside this reference unit.\nThe selected paraphrase is shared under CC BY 4.0. UGA endorsement is not implied. License rights and disclaimers remain available at https://creativecommons.org/licenses/by/4.0/ and https://creativecommons.org/licenses/by/4.0/legalcode.en.",
+        "display_text_sha256": "f0f215a39131bf371993883fc2044cebedd28ff431425fdb1b7623c05916ed03",
+        "full_text_measured_without_truncation": true,
+        "generation_model_tokenizer_or_prompt_budget_verified": false,
+        "minilm_encoded_token_ids_sha256": "82500bcea9da7422a67e92260dd7d1bc4ad21fa3d64b85adb0b8dfc7e5656082",
+        "minilm_encoded_tokens_including_specials": 346,
+        "passage_id": "uga-retrieval-passage:b302a7ba74cdca47d521a43ac10adb1e67ae161a7cbe54f60b3f9d2f84979daf",
+        "reference_unit_id": "uga-reference-unit:118cf8fb6c0ae92cb6494815d431bfd70f3ea364ddda29ff64a3750fcd7b2c58",
+        "required_context_and_usage_credit_are_indivisible": true,
+        "schema_version": "step23-uga-token-budgeted-delivery-1",
+        "source_delivery_bundle": {
+          "chapter_url": "https://open.online.uga.edu/basketball/chapter/fundamentals-dribbling/",
+          "copyright_and_creator_notice": "Ch.1 - Basketball. Copyright © UGA PEDB Program.",
+          "delivery_bundle_id": "uga-required-delivery:878cec5616d5b049931588b4f5d51eaab24bad9af28382d8ae82d79a1380953c",
+          "display_text": "Controlled dribbling and court awareness\n\nThe UGA chapter emphasizes fingertip control rather than the palm and describes dribbling with one hand at a time. Keeping the head raised is presented as a way to notice defenders, teammates and surrounding space. The chapter also advises limiting unnecessary dribbling because a pass can move the ball forward quickly and create openings. Direction changes may involve a crossover, a behind-the-back movement or a transfer between the legs. Its central control concept is being able to handle the ball on either side and transfer it between hands while maintaining awareness.\n\nGeneral introductory basketball reference, selected and paraphrased from the cited chapter. No youth-specific suitability, training dose, medical clearance or planner approval is established.\n\nSource: 3. Fundamentals – Dribbling, Ch.1 - Basketball, UGA PEDB Program. https://open.online.uga.edu/basketball/chapter/fundamentals-dribbling/\nCh.1 - Basketball Copyright © by UGA PEDB Program is licensed under a Creative Commons Attribution 4.0 International License, except where otherwise noted. https://creativecommons.org/licenses/by/4.0/\nSelected explanatory text was paraphrased and shortened; listed omissions are outside this reference unit.\nThe selected paraphrase is shared under CC BY 4.0. UGA endorsement is not implied. License rights and disclaimers remain available at https://creativecommons.org/licenses/by/4.0/ and https://creativecommons.org/licenses/by/4.0/legalcode.en.",
+          "embedding_input_is_reference_core_only": true,
+          "encoded_token_count": null,
+          "generation_model_context_budget_verified": false,
+          "legalcode_url": "https://creativecommons.org/licenses/by/4.0/legalcode.en",
+          "license_compatible_downstream_rights_preserved": true,
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "license_warranty_disclaimer_is_linked_and_preserved": true,
+          "modification_notice": "Selected explanatory text was paraphrased and shortened; listed omissions are outside this reference unit.",
+          "no_uga_endorsement_implied": true,
+          "original_license_notice": "Ch.1 - Basketball Copyright © by UGA PEDB Program is licensed under a Creative Commons Attribution 4.0 International License, except where otherwise noted.",
+          "reference_text": "The UGA chapter emphasizes fingertip control rather than the palm and describes dribbling with one hand at a time. Keeping the head raised is presented as a way to notice defenders, teammates and surrounding space. The chapter also advises limiting unnecessary dribbling because a pass can move the ball forward quickly and create openings. Direction changes may involve a crossover, a behind-the-back movement or a transfer between the legs. Its central control concept is being able to handle the ball on either side and transfer it between hands while maintaining awareness.",
+          "reference_text_sha256": "fab50b760a613f4425a6009dcc0def4fe87ef163ab4c90513fcef8fbe16a902e",
+          "reference_unit_id": "uga-reference-unit:118cf8fb6c0ae92cb6494815d431bfd70f3ea364ddda29ff64a3750fcd7b2c58",
+          "reference_unit_record_sha256": "8a617814099117840897093932beb36a82be371500e0d833fe74ec6a3f3fd664",
+          "required_context": "General introductory basketball reference, selected and paraphrased from the cited chapter. No youth-specific suitability, training dose, medical clearance or planner approval is established.",
+          "schema_version": "step23-uga-required-delivery-1",
+          "source_version_record_sha256": "5c387c459f3cdb93ac95396f17d1bfe704291b6f1365b552c5371b4d0595d944",
+          "standalone_reference_without_required_context_and_credit_allowed": false,
+          "supplied_additional_warranty_or_modification_notices_observed": []
+        },
+        "source_delivery_bundle_id": "uga-required-delivery:878cec5616d5b049931588b4f5d51eaab24bad9af28382d8ae82d79a1380953c",
+        "source_delivery_record_sha256": "287accafd779a01e6f63a477872fa1736d47142e6935f0a1486c4ad4c4c16d94",
+        "source_unit_record_sha256": "8a617814099117840897093932beb36a82be371500e0d833fe74ec6a3f3fd664"
+      },
+      "score": 0.38751885661268065,
+      "score_kind": "embedding_cosine",
+      "standalone_core_delivery_allowed": false
+    }
+  ],
+  "kwargs": {},
+  "method": "complete_reference"
+}

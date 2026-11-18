@@ -1,0 +1,10 @@
+{
+  "execution_timeout": 1200,
+  "kernel_name": "step36-analysis",
+  "kernel_transport": "tcp",
+  "notebook_path": "C:\\Users\\samta\\Documents\\champion-athletic-map\\results\\reproducibility\\repro_20261117T174153Z_3e7049a7\\reproduction_notebook.ipynb",
+  "python": "C:\\Users\\samta\\Documents\\champion-athletic-map\\results\\reproducibility\\repro_20261117T174153Z_3e7049a7\\environment\\venv\\Scripts\\python.exe",
+  "run_folder": "C:\\Users\\samta\\Documents\\champion-athletic-map\\results\\reproducibility\\repro_20261117T174153Z_3e7049a7",
+  "stage_root": "C:\\Users\\samta\\Documents\\champion-athletic-map\\results\\reproducibility\\repro_20261117T174153Z_3e7049a7\\project",
+  "startup_timeout": 60
+}

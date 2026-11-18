@@ -1,0 +1,121 @@
+{
+  "args": [
+    {
+      "answerability_established_by_score": false,
+      "complete_required_delivery_text": "Teen sleep — CDC general reference\n\nFor teenagers aged 13–17, CDC lists 8–10 hours of sleep daily as a general recommendation. Sleep quality also matters. Sleep difficulties or symptoms of a sleep disorder should be discussed with a healthcare provider. This reference is not an individualized basketball prescription or an adopted planning threshold.\n\nDuration alone does not describe sleep quality.\nSleep problems and symptoms of a sleep disorder warrant healthcare-provider discussion.\nUnderlying citation: Paruthi S, Brooks LJ, D'Ambrosio C, et al. Recommended amount of sleep for pediatric populations: a consensus statement of the American Academy of Sleep Medicine. J Clin Sleep Med. 2016;12(6):785–786.\n\nSource: Centers for Disease Control and Prevention (CDC), About Sleep.\nUse of CDC information and links does not imply endorsement by the United States Government, HHS, CDC, or ATSDR.\nPreserve the source's substantive meaning, including its age range, daily reporting basis and sleep-quality and provider-context qualifications.\nThe underlying CDC material is freely available on the agency website: https://www.cdc.gov/sleep/about/.",
+      "generation_context_budget_verified": false,
+      "passage_id": "retrieval-passage:c82841f0f05c9cafae4e2c2fd41d801658f4226998b0381e5134ba248360f1b2",
+      "rank": 5,
+      "reference_unit_id": "reference-unit:826434d4d2d9eca996497c4fa1e36fdb85d4a62df0d6c7ce121f6e4e3b782512",
+      "required_delivery_must_be_attached": true,
+      "required_delivery_record": {
+        "attached_delivery_metadata_count_over_200": true,
+        "complete_delivery_was_embedded": false,
+        "complete_display_text": "Teen sleep — CDC general reference\n\nFor teenagers aged 13–17, CDC lists 8–10 hours of sleep daily as a general recommendation. Sleep quality also matters. Sleep difficulties or symptoms of a sleep disorder should be discussed with a healthcare provider. This reference is not an individualized basketball prescription or an adopted planning threshold.\n\nDuration alone does not describe sleep quality.\nSleep problems and symptoms of a sleep disorder warrant healthcare-provider discussion.\nUnderlying citation: Paruthi S, Brooks LJ, D'Ambrosio C, et al. Recommended amount of sleep for pediatric populations: a consensus statement of the American Academy of Sleep Medicine. J Clin Sleep Med. 2016;12(6):785–786.\n\nSource: Centers for Disease Control and Prevention (CDC), About Sleep.\nUse of CDC information and links does not imply endorsement by the United States Government, HHS, CDC, or ATSDR.\nPreserve the source's substantive meaning, including its age range, daily reporting basis and sleep-quality and provider-context qualifications.\nThe underlying CDC material is freely available on the agency website: https://www.cdc.gov/sleep/about/.",
+        "complete_display_text_sha256": "7a3eecb3a3d6c6544aadf191da5e6a857ca6e9323680a76d013c6e9577c02a2b",
+        "embedding_core_cap_is_not_a_full_delivery_or_llm_context_cap": true,
+        "full_delivery_minilm_token_count_including_specials": 241,
+        "llm_delivery_budget_status": "pending_step24_generation_model_tokenizer",
+        "llm_delivery_budget_verified": false,
+        "passage_id": "retrieval-passage:c82841f0f05c9cafae4e2c2fd41d801658f4226998b0381e5134ba248360f1b2",
+        "reference_unit_id": "reference-unit:826434d4d2d9eca996497c4fa1e36fdb85d4a62df0d6c7ce121f6e4e3b782512",
+        "required_delivery_is_indivisible": true,
+        "required_source_and_notice_bytes_unchanged": true,
+        "schema_version": "step23-required-passage-delivery-bundle-1",
+        "source_delivery_bundle": {
+          "applicable_use_scope": "U.S. internal educational and academic research only",
+          "display_text": "Teen sleep — CDC general reference\n\nFor teenagers aged 13–17, CDC lists 8–10 hours of sleep daily as a general recommendation. Sleep quality also matters. Sleep difficulties or symptoms of a sleep disorder should be discussed with a healthcare provider. This reference is not an individualized basketball prescription or an adopted planning threshold.\n\nDuration alone does not describe sleep quality.\nSleep problems and symptoms of a sleep disorder warrant healthcare-provider discussion.\nUnderlying citation: Paruthi S, Brooks LJ, D'Ambrosio C, et al. Recommended amount of sleep for pediatric populations: a consensus statement of the American Academy of Sleep Medicine. J Clin Sleep Med. 2016;12(6):785–786.\n\nSource: Centers for Disease Control and Prevention (CDC), About Sleep.\nUse of CDC information and links does not imply endorsement by the United States Government, HHS, CDC, or ATSDR.\nPreserve the source's substantive meaning, including its age range, daily reporting basis and sleep-quality and provider-context qualifications.\nThe underlying CDC material is freely available on the agency website: https://www.cdc.gov/sleep/about/.",
+          "encoded_token_count": null,
+          "generated_answer_created": false,
+          "heading": "Teen sleep — CDC general reference",
+          "mandatory_usage_notices": {
+            "addendum": {
+              "role": "agency_content_creation_and_review_context_only_not_an_independent_reuse_license",
+              "source_url": "https://www.cdc.gov/other/generative-ai.html",
+              "source_version_sha256": "d11ea29d721d7a1e43ac68179633aa2216a769b011195383eb3f0c1dc176d5b6"
+            },
+            "project_scope_limits": {
+              "assistant_review_is_not_cdc_or_government_review": true,
+              "direct_links_open_new_window_without_framing": true,
+              "international_rights_clearance_claimed": false,
+              "link_rel": "noopener noreferrer",
+              "link_target": "_blank",
+              "no_cdc_endorsement_or_validation_of_project_claimed": true,
+              "no_images_logos_third_party_article_bodies": true,
+              "periodic_source_revision_check_required": true,
+              "permission_is_not_blanket_legal_clearance": true,
+              "use_scope": "U.S. internal educational and academic research only"
+            },
+            "publisher_conditions": [
+              {
+                "condition_id": "credit_CDC",
+                "delivery_requirement": "retain_with_every_display_or_export_of_the_scoped_reference",
+                "notice": "Source: Centers for Disease Control and Prevention (CDC), About Sleep."
+              },
+              {
+                "condition_id": "prominent_unambiguous_nonendorsement_disclaimer",
+                "delivery_requirement": "retain_with_every_display_or_export_of_the_scoped_reference",
+                "notice": "Use of CDC information and links does not imply endorsement by the United States Government, HHS, CDC, or ATSDR."
+              },
+              {
+                "condition_id": "do_not_change_substantive_content",
+                "delivery_requirement": "retain_with_every_display_or_export_of_the_scoped_reference",
+                "notice": "Preserve the source's substantive meaning, including its age range, daily reporting basis and sleep-quality and provider-context qualifications."
+              },
+              {
+                "condition_id": "state_free_availability_on_CDC_website",
+                "delivery_requirement": "retain_with_every_display_or_export_of_the_scoped_reference",
+                "notice": "The underlying CDC material is freely available on the agency website: https://www.cdc.gov/sleep/about/."
+              }
+            ],
+            "publisher_policy_source_version_sha256": "10d70e4d00d83c8d0d9494bc204494a09b72f6a0ec6605a9cfa8fcf6ce35f6b9",
+            "publisher_policy_url": "https://www.cdc.gov/other/agencymaterials.html",
+            "publisher_required_condition_ids": [
+              "credit_CDC",
+              "prominent_unambiguous_nonendorsement_disclaimer",
+              "do_not_change_substantive_content",
+              "state_free_availability_on_CDC_website"
+            ],
+            "schema_version": "step23-cdc-mandatory-usage-notices-1"
+          },
+          "mandatory_usage_notices_sha256": "efe4275ae011404f2038331aa0950cfd1ff8e71eba50701375d723dac6310994",
+          "reference_text": "For teenagers aged 13–17, CDC lists 8–10 hours of sleep daily as a general recommendation. Sleep quality also matters. Sleep difficulties or symptoms of a sleep disorder should be discussed with a healthcare provider. This reference is not an individualized basketball prescription or an adopted planning threshold.",
+          "reference_unit_id": "reference-unit:826434d4d2d9eca996497c4fa1e36fdb85d4a62df0d6c7ce121f6e4e3b782512",
+          "required_context": {
+            "provider_context": "Sleep problems and symptoms of a sleep disorder warrant healthcare-provider discussion.",
+            "sleep_quality": "Duration alone does not describe sleep quality.",
+            "third_party_article_body_captured_or_reproduced": false,
+            "underlying_source_citation": "Paruthi S, Brooks LJ, D'Ambrosio C, et al. Recommended amount of sleep for pediatric populations: a consensus statement of the American Academy of Sleep Medicine. J Clin Sleep Med. 2016;12(6):785–786."
+          },
+          "required_display_order": [
+            "heading",
+            "reference_text",
+            "required_context",
+            "mandatory_usage_notices"
+          ],
+          "schema_version": "step23-reference-delivery-bundle-1",
+          "source_link_rel": "noopener noreferrer",
+          "source_link_target": "_blank",
+          "source_locator": "Getting enough sleep > Sleep Recommended Daily > Teen",
+          "source_url": "https://www.cdc.gov/sleep/about/",
+          "source_version_sha256": "b928bc97f2ab5430e56b1a5af83b51695aaa23cc523b12de800721bc7f916adb",
+          "standalone_reference_display_without_notices_allowed": false,
+          "token_budget_verified": false
+        },
+        "source_delivery_bundle_binding": {
+          "delivery_bundle_record_sha256": "af445084b6f1a49d7b1a4870a7937d9590208d839be86250b5531bfcfcfa171a",
+          "hash_basis": "canonical_pretty_json_record_utf8_with_final_newline",
+          "record_locator": "/records/0",
+          "relative_path": "results/retrieval/evidence_units/units_2bd8becc93ba13af/delivery_bundles.jsonl"
+        },
+        "source_delivery_bundle_record_sha256": "af445084b6f1a49d7b1a4870a7937d9590208d839be86250b5531bfcfcfa171a",
+        "standalone_core_delivery_allowed": false
+      },
+      "score": 0.29743257168183457,
+      "score_kind": "embedding_cosine",
+      "standalone_core_delivery_allowed": false
+    }
+  ],
+  "kwargs": {},
+  "method": "complete_reference"
+}

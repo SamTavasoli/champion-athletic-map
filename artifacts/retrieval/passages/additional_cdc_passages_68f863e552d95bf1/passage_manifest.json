@@ -1,0 +1,71 @@
+{
+  "additional_cdc_passage_preparation_id": "additional-cdc-passage-preparation:68f863e552d95bf177bb4ec94dac4ba20e41084721a5263b7eec87ad843f329b",
+  "cdc_reference_expansion_id": "cdc-reference-expansion:1db9ffd175965a27b27d504d04bb121fb48cd5f200fbb95a9855d2c65be88400",
+  "coverage": {
+    "basketball_drill_catalog_approvals": 0,
+    "corpus_embeddings_or_indexes_created": 0,
+    "existing_pilot_index_passages": 7,
+    "generation_model_context_budget_verified": false,
+    "nba_targets_still_pending": 20,
+    "new_additional_cdc_passages": 4,
+    "new_additional_cdc_reference_units": 4,
+    "new_human_reviews_or_reference_admissions": 0,
+    "new_independent_research_studies": 0,
+    "new_passages_in_existing_pilot_index": 0,
+    "new_required_delivery_bundles": 4,
+    "operational_retrieval_ready": false,
+    "passages_per_new_reference_unit": 1,
+    "planned_retrieval_benchmark_coverage_confirmed": false,
+    "prior_admitted_reference_units": 7,
+    "prior_tokenizer_verified_passages": 7,
+    "question_families_cannot_cross_partitions": true,
+    "question_family_capacity": "unassessed",
+    "questions_or_judgments_created": 0,
+    "related_guidance_group_ids": [
+      "CDC-YOUTH-PHYSICAL-ACTIVITY-GUIDANCE"
+    ],
+    "scoped_reference_units_now_recorded": 11,
+    "scoped_tokenizer_verified_passages_now_recorded": 11,
+    "short_intact_unit_exceptions": 4,
+    "source_disjoint_question_partitions_added_as_requirement": false,
+    "source_family_ids": [
+      "CDC-YOUTH-PHYSICAL-ACTIVITY"
+    ],
+    "step23_complete": false,
+    "warmup_targets_still_deferred": 12
+  },
+  "delivery_record_hashes": {
+    "additional-cdc-passage-delivery:3ffa77c5d6fc5e76ce922c2b40eba3191df5717a90c512f87756870c1e55eaaf": "beb5e9fd4f4ff795440f3a2541a80aed3822bac919cd5c310fb43b6f9238bbce",
+    "additional-cdc-passage-delivery:5e4e3c8fff8ea3cbed10fd4d465970c6009d2d0e0a124ddf1d1c90fb6ee94f12": "e76e8163fe0dad6452e91e79696b6166851db87ec775c0d58c1c04717aac74e9",
+    "additional-cdc-passage-delivery:6d70805987cc3b3732344f05309d7c31be91b2ee763a23f3d61f272238746750": "33b9ac7c1fc6fcdc22384d0d518043a11cd79893a7683bb633c9709091ad9b80",
+    "additional-cdc-passage-delivery:d2f0aa3d306295a55b89807c8ffbf465af6023f834e2d6be22b1e8077a73d20e": "5c2de227ea34373094fc211e0c3efa88e4d7e8edc9baa06bf3e2f3d5f762ab67"
+  },
+  "passage_record_hashes": {
+    "additional-cdc-retrieval-passage:1720a0d47e15da4799f50d22daa7d54bfa54bb216dabc5c47460eb0a453da42b": "1209d0b70a85def8bcece4dff172665c036a1437578b079c011bfb9d979232a2",
+    "additional-cdc-retrieval-passage:37cda77c268aefd65e3b41cf0b9ef96e6b54fae53575239becef0d347400c908": "e4063dd841c547d84a3492de56ed7eb9374996210b6c836f62c7af2d1d69b590",
+    "additional-cdc-retrieval-passage:629f87cc13372bf8d4177f8095eb7e57ed8fba4611c254b0f133665c79a88e40": "09bc9ddbc1035baa062f05c818aa4732def51c34e1888bf061951ac7910e3537",
+    "additional-cdc-retrieval-passage:c26a0710ffbb1a1e9ab9f42437c2481207b459836f9f8e8444674376e214bb5d": "2f69ad582577d15eb8cb7f3e1a025ca05c0071d3a6f96084aec5554aa7b73bed"
+  },
+  "payload_hashes": {
+    "artifacts/retrieval/passages/additional_cdc_passages_68f863e552d95bf1/passage_checks.csv": "33cec97b077b7cc8ad019bdb12afb322fd30cae870ecbe1e3f82f01f7cdd4a10",
+    "artifacts/retrieval/passages/additional_cdc_passages_68f863e552d95bf1/required_delivery_bundles.jsonl": "bd6064a2596ed9978dc01bbfa953562852403d6f7f07b5fdffa8b9df5da3afce",
+    "artifacts/retrieval/passages/additional_cdc_passages_68f863e552d95bf1/retrieval_passages.jsonl": "3721feb3db31a878231e225d44e651f5bf7fa8f7480a7081b622576699f0afd8",
+    "artifacts/retrieval/passages/additional_cdc_passages_68f863e552d95bf1/source_unit_links.csv": "db1d65780144b6353378f74c8b1855bcfeaa1b4a09eb6f8cd1f5db32728733df",
+    "artifacts/retrieval/passages/additional_cdc_passages_68f863e552d95bf1/tokenizer_measurements.json": "46f3297de403a9ad5a9ca4812bed53e6dc6984b352985df04ea600ee7ec6e341",
+    "artifacts/retrieval/passages/additional_cdc_passages_68f863e552d95bf1/tokenizer_worker.py": "bb1e908034b31cd3d54e03b4e4f1de39c22556457da1dc0532f8773e8ea6a0d1"
+  },
+  "schema_version": "step23-additional-cdc-token-budgeted-passage-manifest-1",
+  "semantic_runtime_adoption_id": "semantic-runtime-adoption:1e7ec007d3464722a59d16ef72a82588526f7071588771fa37a84c39f7213654",
+  "sizing_policy": {
+    "encoded_core_cap": 200,
+    "full_delivery_companion_embedded_or_silently_truncated": false,
+    "generation_tokenizer_prompt_budget_is_separate_step24_work": true,
+    "heading_and_special_tokens_included": true,
+    "intact_short_unit_exception_allowed": true,
+    "nominal_target": [
+      150,
+      200
+    ],
+    "source_text_changed_to_meet_target": false
+  }
+}

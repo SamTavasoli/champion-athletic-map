@@ -1,0 +1,22 @@
+{
+  "admitted_reference_units": 1,
+  "basketball_drill_units": 0,
+  "embedding_operations": 0,
+  "food_facts_as_passages": 0,
+  "full_planned_retrieval_benchmark_coverage_supported": false,
+  "general_exercise_units": 0,
+  "independent_source_count": 1,
+  "index_built": false,
+  "linked_source_review_targets": 2,
+  "operational_corpus_ready": false,
+  "operational_passages_created": 0,
+  "operational_retrieval_ready": false,
+  "planner_eligibility_granted": false,
+  "project_policy_units": 0,
+  "protected_records_admitted": 0,
+  "questions_or_judgments_created": 0,
+  "scope": "sleep_only_pilot_reference_collection",
+  "tokenized_passages_created": 0,
+  "underlying_source_concepts": 1,
+  "unselected_review_targets_assessed_this_stage": 0
+}

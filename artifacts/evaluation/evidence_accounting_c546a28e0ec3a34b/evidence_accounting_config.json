@@ -1,0 +1,101 @@
+{
+  "assessment_policy": "Completed support findings have a note and a recorded evidence basis for supported, contradicted, and missing-qualification findings. Basis strings are provenance placeholders; these helpers do not resolve or verify them.",
+  "citation_presence": "A declared supplied citation can be unresolved or unusable. Presence alone establishes neither usable attribution nor support. Record absent attribution only when no citation was supplied for that claim.",
+  "cited_support": "Assess whether supplied cited evidence supports the associated claim under relevant age, units, quantities, conditions, and qualifications. An unrelated but valid ID can coexist with insufficient support or contradiction.",
+  "claim_scope": "Inventory substantive factual/instructional claims actually present in the returned text. An omitted requested answer is a completeness failure, not an invented unsupported claim. Citation presence and source dependence require separate upstream annotation and review.",
+  "completion_meaning": "measure_complete means inventory and assessment work are complete for the declared scope. It does not mean findings are conclusive, evidence is adequate, or a response passes; completed unknowns remain visible.",
+  "finding_scope": "Each supplied assessment records one primary finding. Retain detailed findings and source qualifiers in later case-level evidence records; these counts do not replace them.",
+  "helper_version": "evidence-accounting-1",
+  "independence": "Use independent external evaluation. Version 4 internal acceptance and checker output do not assign these external research findings.",
+  "inventory_policy": "The caller must enumerate the declared response/sampling scope completely, save claim/reference inventories, and attest completeness. These helpers cannot establish that no claim or reference was omitted. Partial inventories cannot yield a numeric rate.",
+  "measures": {
+    "attribution": {
+      "denominator": "completed attribution reviews of source-dependent claims",
+      "numerator": "reviewed source-dependent claims with usable attribution",
+      "results": [
+        "usable",
+        "absent",
+        "unusable",
+        "unknown"
+      ],
+      "source_independent_claims": "excluded and counted separately"
+    },
+    "claim_support": {
+      "denominator": "completed claim support assessments in the declared subset",
+      "numerator": "claims with a completed supported finding",
+      "primary_evidence_support_subset": "cited",
+      "results": [
+        "supported",
+        "contradicted",
+        "insufficient_support",
+        "missing_qualification",
+        "unknown"
+      ],
+      "subsets": [
+        "all_claims",
+        "cited",
+        "uncited"
+      ],
+      "unit": "claim, not citation occurrence or claim-reference link"
+    },
+    "reference_ids": {
+      "deduplication": "exact supplied identifier strings within one response; preserve occurrences separately",
+      "denominator": "all distinct supplied IDs in this response",
+      "numerator": "resolved distinct supplied IDs",
+      "results": [
+        "resolved",
+        "unresolved",
+        "unknown"
+      ]
+    }
+  },
+  "operational_implementations": {
+    "accepted_reference_integration": "pending",
+    "attribution_review_workflow": "pending",
+    "claim_inventory_extraction": "pending",
+    "factual_support_checks": "pending",
+    "reference_resolver": "pending",
+    "retrieval_benchmark": "pending",
+    "source_version_binding": "pending"
+  },
+  "protocol_ready": false,
+  "ratio_policy": "Empty denominators stay null. An incomplete declared inventory or unfinished assessment makes the affected subset ratio unavailable. Counts remain visible; no partial ratio is presented as a completed measure.",
+  "recipe_version": "evidence-accounting-contract-0.1.0",
+  "reporting": "Save response/version identifiers, assessed sample and claim roster, source versions and locators, evaluator/checker version, notes and error codes in the later evidence ledger. Report per-response and per-version counts/denominators; do not deduplicate IDs globally across responses or treat all claim samples as the entire benchmark.",
+  "retrieval_handoff": {
+    "accepted_complete_evidence_bundle": true,
+    "hit_at_k": [
+      1,
+      3,
+      5
+    ],
+    "mrr_at_k": 5,
+    "recall_at_k": [
+      1,
+      3,
+      5
+    ],
+    "selection_order": [
+      "development Recall@5",
+      "development MRR@5",
+      "simpler lexical method"
+    ],
+    "separate_reporting": [
+      "unsupported questions",
+      "evidence-adequacy failures"
+    ],
+    "status": "planned; no retrieval scores computed here",
+    "step": 23,
+    "substitutes_for_planner_or_claim_scores": false
+  },
+  "schema_version": "evidence-accounting-config-1",
+  "software": {
+    "pandas": "3.1.1",
+    "python": "3.12.6"
+  },
+  "source_prescription": "Separate planner scheduling choices from source-prescribed doses or durations; authored scheduling choices must not be labelled as copied source facts.",
+  "status": "accounting_preparation_only",
+  "uncited_support": "Uncited substantive factual/instructional claims can be checked against adopted neutral references. Their accuracy is reported separately from missing attribution; no uncited claim is assumed false.",
+  "unit": "one declared response and an identified evidence-assessment scope per call",
+  "unknown_policy": "A completed unknown finding is counted separately and is not supported/resolved/usable. It is not a proven contradiction, absent attribution, or checker crash."
+}

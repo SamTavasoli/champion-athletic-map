@@ -1,0 +1,28 @@
+{
+  "fit_provenance": {
+    "benchmark_id": "exercise-benchmark:fb56823695069d9dd15a5280812e8b8faff81550732489cd3b1cc075b532b7df",
+    "fit_split": "train",
+    "full_untruncated_training_tokens": true,
+    "ordered_training_ids_sha256": "13687916fd0815bf4680d421150ddd9be7e70f98cc509d054cf97d739f99a0c4",
+    "test_used_for_fit": false,
+    "text_policy_digest": "66985187734156c980104ed3f7c39ec58aeeb0ba61c82c19db3de0afb813e174",
+    "training_input_table_sha256": "c075673cece8619e4d248aeac4b0a237c55f869a09b27e7ad4432a7b51873faf",
+    "training_records": 1999,
+    "validation_used_for_fit": false
+  },
+  "fit_split": "train",
+  "length_basis": "max(1, full raw-token length), before truncation",
+  "max_sequence_length": 81,
+  "maximum": 256,
+  "maximum_effective_length": 112,
+  "method": "nearest_rank",
+  "minimum": 16,
+  "minimum_effective_length": 1,
+  "n_empty_token_sequences": 0,
+  "n_sequences": 1999,
+  "nearest_rank_length": 81,
+  "percentile": 0.95,
+  "percentile_rank": 1900,
+  "schema_version": "neural-sequence-limit-1",
+  "split_verification": "caller_responsibility"
+}

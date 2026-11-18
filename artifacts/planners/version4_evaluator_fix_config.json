@@ -1,0 +1,28 @@
+{
+  "acceptance_policy_sha256": "e8d87dc54931a57ce5e17ca8a3eff3192f95eb2e211016cf76f157251e371006",
+  "accepted_study_profiles": 0,
+  "automatic_repairs": 0,
+  "automatic_retries": 0,
+  "continuation_class": "ResumedEvaluatedPlanner",
+  "evaluator_prompt": {
+    "path": "docs/prompts/planner_v4/evaluator_clarified_v2.md",
+    "sha256": "6cb9e18f5c9d402644b6c3efbf3046163cf5fdf3ee6d4525c5735528f39a314f"
+  },
+  "evaluator_schema_sha256": "f8485f589cfaadff419e43ab0c1c5c30275e012dc0dad87895eff4337703621f",
+  "fresh_workflow_class": "CorrectedEvaluatedPlanner",
+  "independent_scoring_available": false,
+  "maximum_new_calls_per_example": 5,
+  "maximum_revisions": 2,
+  "operational_generation_ready": false,
+  "planner_version": 4,
+  "reuse": "verified_completed_original_step28_initial_drafts_only",
+  "run_id": "v4-evaluator-fix-4d857208cab548ce",
+  "schema_version": "planner-v4-evaluator-fix-1",
+  "source_config_path": "artifacts/planners/version4_config.json",
+  "source_config_sha256": "042e66d552d922689a6f28ee12880bb8e84d6d9a45c8aa172f2b1101a29a7035",
+  "source_log_sha256": "10e7d8925d032604576cbefb7e7dd54bb166d38d19c48e2a59eb5bd64373dcc6",
+  "source_run_id": "v4-development-219024aa0b492cb3",
+  "source_summary_sha256": "ba941f26906a0717102505cff01c1d58c971f3ec7e628193c7ab43521e333f17",
+  "workflow_module": "src/champion_athletic_map/planners/evaluator_prompt_fix.py",
+  "workflow_sha256": "0262fec7bc2eb00c45c09293b7c53883d5dbb71ee9db513ab65bc8f258add35b"
+}

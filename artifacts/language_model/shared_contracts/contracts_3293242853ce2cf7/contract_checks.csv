@@ -1,0 +1,48 @@
+check,status,observed
+inherited_diagnosis_and_project_integrity,pass,770
+original_public_schema_and_validator_version,pass,4.26.0
+input_only_projection_and_audit_separation,pass,wrapper metadata stays outside model-visible JSON
+exact_unicode_and_whitespace_preserved,pass,text values retained exactly
+source_record_unchanged_by_projection,pass,original wrapper and input unchanged
+audit_id_changes_do_not_change_public_facts,pass,public hash independent of wrapper ID
+absent_null_and_empty_remain_distinct,pass,no missing-value substitution
+zero_false_and_unknown_grade_preserved,pass,"no inferred equipment, grade or time"
+overlapping_commitments_are_preserved,pass,no feasibility decision or conflict repair
+reject_private_wrapper,pass,schema rejected; no field scrubbing
+reject_private_expectation,pass,schema rejected; no field scrubbing
+reject_private_nested,pass,schema rejected; no field scrubbing
+reject_private_deep_nested,pass,schema rejected; no field scrubbing
+reject_changed_study_week,pass,schema rejected; no field scrubbing
+reject_invalid_participant_count,pass,schema rejected; no field scrubbing
+reject_outside_study_age,pass,schema rejected; no field scrubbing
+prepared_fact_mutation_detected,pass,public hash and snapshot must agree
+response_plan,pass,structural fixture accepted without corrections
+response_plan_with_activity,pass,structural fixture accepted without corrections
+response_clarification,pass,structural fixture accepted without corrections
+response_constraint_conflict,pass,structural fixture accepted without corrections
+response_outside_scope,pass,structural fixture accepted without corrections
+source_ids_optional_for_reference_free_response,pass,no required invented citation or catalog ID
+reject_response_missing_clarification_question,pass,raw outcome retained without repair
+retain_invalid_missing_clarification_question,pass,invalid output preserved beside original facts
+reject_response_incomplete_week_structure,pass,raw outcome retained without repair
+retain_invalid_incomplete_week_structure,pass,invalid output preserved beside original facts
+reject_response_duplicate_schedule_day,pass,raw outcome retained without repair
+retain_invalid_duplicate_schedule_day,pass,invalid output preserved beside original facts
+reject_response_source_fact_override_field,pass,raw outcome retained without repair
+retain_invalid_source_fact_override_field,pass,invalid output preserved beside original facts
+reject_response_duplicate_json_keys,pass,raw outcome retained without repair
+retain_invalid_duplicate_json_keys,pass,invalid output preserved beside original facts
+reject_response_nonfinite_number,pass,raw outcome retained without repair
+retain_invalid_nonfinite_number,pass,invalid output preserved beside original facts
+reject_response_malformed_json,pass,raw outcome retained without repair
+retain_invalid_malformed_json,pass,invalid output preserved beside original facts
+reject_response_nonobject_json,pass,raw outcome retained without repair
+retain_invalid_nonobject_json,pass,invalid output preserved beside original facts
+changed_generated_text_never_overwrites_original_facts,pass,original and erroneous generated text remain separate
+repaired_parsed_object_rejected,pass,parsed values must match raw model text
+prior_exact_echo_gate,blocked,original model-produced emoji substitution remains recorded; no rerun or repair
+public_case_review_and_acceptance,pending,not established by offline structural contracts
+response_factual_and_constraint_validation,pending,not established by offline structural contracts
+assembled_prompt_and_plan_capacity,pending,not established by offline structural contracts
+shared_lookup_and_operational_readiness,pending,not established by offline structural contracts
+prior_bound_inputs_unchanged,pass,771

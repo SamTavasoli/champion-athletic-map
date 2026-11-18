@@ -1,0 +1,18 @@
+{
+  "queries": [
+    "Basketball practice; Add one 10-minute basketball pra; goals [\"Improve accuracy from ; experience {\"experience; equipment [\"Basketball\",\"Cones\",\"H; space single_hoop_; people 1",
+    "Youth basketball participation, rest and recovery; age 16; grade 11; commitments [\"practice\"]; request Add one 10-minute basketball practice block w"
+  ],
+  "query_records": [
+    {
+      "query_id": "retrieval-query:a7d194fcc0f7593f4800346f5978d11f0a9f2e5a4af93bdd02fe2dc6b47ab82c",
+      "text": "Basketball practice; Add one 10-minute basketball pra; goals [\"Improve accuracy from ; experience {\"experience; equipment [\"Basketball\",\"Cones\",\"H; space single_hoop_; people 1",
+      "text_sha256": "cf059fc9a37cfc181834d5e8a3b6c19b0391a85af301c8113d99e854b5cbf562"
+    },
+    {
+      "query_id": "retrieval-query:158e9d0c6c3a169b81edfd7af234a2d3527ce23cde92b35b460917aa6005a89f",
+      "text": "Youth basketball participation, rest and recovery; age 16; grade 11; commitments [\"practice\"]; request Add one 10-minute basketball practice block w",
+      "text_sha256": "4a7e57a5ee31630902847e5b22b13af811d9af90249ed67fa5f5b8b4a62c2db0"
+    }
+  ]
+}

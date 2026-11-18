@@ -1,0 +1,42 @@
+{
+  "data": {
+    "age_eligibility_inferred": false,
+    "alias_resolved": false,
+    "approved_variant": "specified_source_base_variant_only",
+    "canonical_drill_id": "JR-NEW-0057",
+    "catalog_candidate_id": "JR-NEW-0057",
+    "content_provenance": "Original brief description and factual resources reviewed against primary source.",
+    "content_use_scope": "Source-linked metadata and original summary only; no approval to redistribute publisher text, diagrams, images or video.",
+    "drill_name": "Early-Cross Jab Series",
+    "duration_minutes": null,
+    "equipment": "Ball",
+    "instructions": "Approach a partner, change hands before closing the distance, then jab in the opposite direction past the defender. Work both hands and exchange roles.",
+    "medical_suitability_certified": false,
+    "minimum_participants": null,
+    "participants": "Partners",
+    "primary_goal": "Crossover footwork",
+    "primary_goal_provenance": "project editorial classification, not publisher-certified assessment",
+    "publisher_attribution": "Jr. NBA/Jr. WNBA instructional curriculum",
+    "requested_drill_id": "JR-NEW-0057",
+    "rest_seconds": null,
+    "scope": "basketball_drill_candidate",
+    "secondary_skills": [],
+    "solo_adaptation": null,
+    "source_curriculum_level": "MVP",
+    "source_prescription": "4 minutes",
+    "source_representation": "official linked PDF read 2026-11-13",
+    "source_url": "https://ak-static.cms.nba.com/wp-content/uploads/sites/52/2016/12/JrNBA17_Curriculum_MVP_PP_05.pdf",
+    "space": "Court space",
+    "use_conditions": "Use only when the actual equipment, player roles, space, skill prerequisites and supervision are satisfied. Ask for missing facts; do not invent durations, rest, coach availability or solo adaptations. Apply adopted participation rules separately."
+  },
+  "data_version": "team-approved-f0dcb9e9943e381b",
+  "issues": [
+    "Use only the reviewed variant and its stated resource/supervision conditions; unknown time and rest remain unknown."
+  ],
+  "request_id": "fe3cce050fb04d6eb91f707ee7238ce8",
+  "source_refs": [
+    "JR-NEW-0057",
+    "https://ak-static.cms.nba.com/wp-content/uploads/sites/52/2016/12/JrNBA17_Curriculum_MVP_PP_05.pdf"
+  ],
+  "status": "found"
+}

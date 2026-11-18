@@ -1,0 +1,8 @@
+{
+  "args": [],
+  "kwargs": {
+    "grams": "100",
+    "search_text": "Grapes, red or green (European type, such as Thompson seedless), raw"
+  },
+  "method": "lookup_food"
+}

@@ -1,0 +1,1655 @@
+{
+  "probes": [
+    {
+      "arguments": [
+        [
+          {
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1"
+          },
+          {
+            "family_id": "toy:f1",
+            "profile_id": "toy:p2"
+          },
+          {
+            "family_id": "toy:f1",
+            "profile_id": "toy:p3"
+          },
+          {
+            "family_id": "toy:f2",
+            "profile_id": "toy:p4"
+          }
+        ],
+        [
+          {
+            "disposition": "non_success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1",
+            "scoring_complete": true,
+            "success": false,
+            "version_id": "V1"
+          },
+          {
+            "disposition": "non_success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p2",
+            "scoring_complete": true,
+            "success": false,
+            "version_id": "V1"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p3",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V1"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f2",
+            "profile_id": "toy:p4",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V1"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V2"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p2",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V2"
+          },
+          {
+            "disposition": "non_success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p3",
+            "scoring_complete": true,
+            "success": false,
+            "version_id": "V2"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f2",
+            "profile_id": "toy:p4",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V2"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V3"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p2",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V3"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p3",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V3"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f2",
+            "profile_id": "toy:p4",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V3"
+          },
+          {
+            "disposition": "non_success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1",
+            "scoring_complete": true,
+            "success": false,
+            "version_id": "V4"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p2",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V4"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p3",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V4"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f2",
+            "profile_id": "toy:p4",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V4"
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "bootstrap_performed": false,
+        "contrasts.V2_minus_V1.difference_percentage_points": 25,
+        "contrasts.V2_minus_V1.pair_counts": {
+          "improved": 2,
+          "incomplete": 0,
+          "unchanged_non_success": 0,
+          "unchanged_success": 1,
+          "worsened": 1
+        },
+        "contrasts.V3_minus_V2.difference_percentage_points": 25,
+        "contrasts.V4_minus_V1.difference_percentage_points": 25,
+        "contrasts.V4_minus_V3.difference_percentage_points": -25,
+        "experiment_complete": true,
+        "per_version.V1.success_rate": 0.5,
+        "per_version.V2.success_rate": 0.75,
+        "per_version.V3.success_rate": 1,
+        "per_version.V4.success_rate": 0.75
+      },
+      "function": "summarize_paired_feasible_results",
+      "group": "paired_arithmetic",
+      "name": "all_four_fixed_later_minus_earlier_contrasts"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1"
+          },
+          {
+            "family_id": "toy:f1",
+            "profile_id": "toy:p2"
+          },
+          {
+            "family_id": "toy:f1",
+            "profile_id": "toy:p3"
+          },
+          {
+            "family_id": "toy:f2",
+            "profile_id": "toy:p4"
+          }
+        ],
+        [
+          {
+            "disposition": "non_success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1",
+            "scoring_complete": true,
+            "success": false,
+            "version_id": "V1"
+          },
+          {
+            "disposition": "non_success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p2",
+            "scoring_complete": true,
+            "success": false,
+            "version_id": "V1"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p3",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V1"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f2",
+            "profile_id": "toy:p4",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V1"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V2"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p2",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V2"
+          },
+          {
+            "disposition": "non_success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p3",
+            "scoring_complete": true,
+            "success": false,
+            "version_id": "V2"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f2",
+            "profile_id": "toy:p4",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V2"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V3"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p2",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V3"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p3",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V3"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f2",
+            "profile_id": "toy:p4",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V3"
+          },
+          {
+            "disposition": "non_success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1",
+            "scoring_complete": true,
+            "success": false,
+            "version_id": "V4"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p2",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V4"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p3",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V4"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f2",
+            "profile_id": "toy:p4",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V4"
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "contrasts.V2_minus_V1.denominator_profiles": 4,
+        "contrasts.V2_minus_V1.paired_case_outcomes.0.family_id": "toy:f1",
+        "contrasts.V2_minus_V1.paired_case_outcomes.0.success_difference": 1,
+        "contrasts.V2_minus_V1.paired_case_outcomes.2.success_difference": -1,
+        "families": 2,
+        "family_sizes": {
+          "toy:f1": 3,
+          "toy:f2": 1
+        },
+        "per_version.V1.denominator_profiles": 4
+      },
+      "function": "summarize_paired_feasible_results",
+      "group": "paired_arithmetic",
+      "name": "family_sizes_do_not_reweight_point_estimates"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "family_id": "toy:f2",
+            "profile_id": "toy:p4"
+          },
+          {
+            "family_id": "toy:f1",
+            "profile_id": "toy:p3"
+          },
+          {
+            "family_id": "toy:f1",
+            "profile_id": "toy:p2"
+          },
+          {
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1"
+          }
+        ],
+        [
+          {
+            "disposition": "success",
+            "family_id": "toy:f2",
+            "profile_id": "toy:p4",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V4"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p3",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V4"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p2",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V4"
+          },
+          {
+            "disposition": "non_success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1",
+            "scoring_complete": true,
+            "success": false,
+            "version_id": "V4"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f2",
+            "profile_id": "toy:p4",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V3"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p3",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V3"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p2",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V3"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V3"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f2",
+            "profile_id": "toy:p4",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V2"
+          },
+          {
+            "disposition": "non_success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p3",
+            "scoring_complete": true,
+            "success": false,
+            "version_id": "V2"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p2",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V2"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V2"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f2",
+            "profile_id": "toy:p4",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V1"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p3",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V1"
+          },
+          {
+            "disposition": "non_success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p2",
+            "scoring_complete": true,
+            "success": false,
+            "version_id": "V1"
+          },
+          {
+            "disposition": "non_success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1",
+            "scoring_complete": true,
+            "success": false,
+            "version_id": "V1"
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "contrasts.V2_minus_V1.difference_percentage_points": 25,
+        "contrasts.V2_minus_V1.paired_case_outcomes.0.profile_id": "toy:p1",
+        "contrasts.V2_minus_V1.paired_case_outcomes.3.profile_id": "toy:p4"
+      },
+      "function": "summarize_paired_feasible_results",
+      "group": "paired_arithmetic",
+      "name": "row_order_does_not_change_matching"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1"
+          },
+          {
+            "family_id": "toy:f2",
+            "profile_id": "toy:p2"
+          }
+        ],
+        [
+          {
+            "disposition": "non_success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1",
+            "scoring_complete": true,
+            "success": false,
+            "version_id": "V1"
+          },
+          {
+            "disposition": "non_success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1",
+            "scoring_complete": true,
+            "success": false,
+            "version_id": "V2"
+          },
+          {
+            "disposition": "non_success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1",
+            "scoring_complete": true,
+            "success": false,
+            "version_id": "V3"
+          },
+          {
+            "disposition": "non_success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1",
+            "scoring_complete": true,
+            "success": false,
+            "version_id": "V4"
+          },
+          {
+            "disposition": "non_success",
+            "family_id": "toy:f2",
+            "profile_id": "toy:p2",
+            "scoring_complete": true,
+            "success": false,
+            "version_id": "V1"
+          },
+          {
+            "disposition": "non_success",
+            "family_id": "toy:f2",
+            "profile_id": "toy:p2",
+            "scoring_complete": true,
+            "success": false,
+            "version_id": "V2"
+          },
+          {
+            "disposition": "non_success",
+            "family_id": "toy:f2",
+            "profile_id": "toy:p2",
+            "scoring_complete": true,
+            "success": false,
+            "version_id": "V3"
+          },
+          {
+            "disposition": "non_success",
+            "family_id": "toy:f2",
+            "profile_id": "toy:p2",
+            "scoring_complete": true,
+            "success": false,
+            "version_id": "V4"
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "contrasts.V2_minus_V1.difference_percentage_points": 0,
+        "contrasts.V2_minus_V1.pair_counts.unchanged_non_success": 2,
+        "per_version.V1.completed_profiles": 2,
+        "per_version.V1.success_rate": 0
+      },
+      "function": "summarize_paired_feasible_results",
+      "group": "paired_arithmetic",
+      "name": "completed_non_successes_are_not_missing"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1"
+          },
+          {
+            "family_id": "toy:f2",
+            "profile_id": "toy:p2"
+          }
+        ],
+        [
+          {
+            "disposition": "non_success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1",
+            "scoring_complete": true,
+            "success": false,
+            "version_id": "V1"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V2"
+          },
+          {
+            "disposition": "non_success",
+            "family_id": "toy:f2",
+            "profile_id": "toy:p2",
+            "scoring_complete": true,
+            "success": false,
+            "version_id": "V1"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f2",
+            "profile_id": "toy:p2",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V2"
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "contrasts.V2_minus_V1.difference_percentage_points": 100,
+        "contrasts.V2_minus_V1.pair_counts.improved": 2
+      },
+      "function": "summarize_paired_feasible_results",
+      "group": "paired_arithmetic",
+      "name": "all_improved_is_plus_one_hundred_points"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1"
+          },
+          {
+            "family_id": "toy:f2",
+            "profile_id": "toy:p2"
+          }
+        ],
+        [
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V1"
+          },
+          {
+            "disposition": "non_success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1",
+            "scoring_complete": true,
+            "success": false,
+            "version_id": "V2"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f2",
+            "profile_id": "toy:p2",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V1"
+          },
+          {
+            "disposition": "non_success",
+            "family_id": "toy:f2",
+            "profile_id": "toy:p2",
+            "scoring_complete": true,
+            "success": false,
+            "version_id": "V2"
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "contrasts.V2_minus_V1.difference_percentage_points": -100,
+        "contrasts.V2_minus_V1.pair_counts.worsened": 2
+      },
+      "function": "summarize_paired_feasible_results",
+      "group": "paired_arithmetic",
+      "name": "all_worsened_is_minus_one_hundred_points"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1"
+          },
+          {
+            "family_id": "toy:f2",
+            "profile_id": "toy:p2"
+          }
+        ],
+        [
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V1"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V2"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f2",
+            "profile_id": "toy:p2",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V1"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f2",
+            "profile_id": "toy:p2",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V2"
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "contrasts.V2_minus_V1.difference_percentage_points": 0,
+        "contrasts.V3_minus_V2.difference_percentage_points": null,
+        "experiment_complete": false,
+        "per_version.V3.status_counts.not_recorded": 2
+      },
+      "function": "summarize_paired_feasible_results",
+      "group": "completion",
+      "name": "other_versions_do_not_block_completed_contrast"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1"
+          },
+          {
+            "family_id": "toy:f2",
+            "profile_id": "toy:p2"
+          }
+        ],
+        [
+          {
+            "disposition": "non_success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1",
+            "scoring_complete": true,
+            "success": false,
+            "version_id": "V1"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V2"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f2",
+            "profile_id": "toy:p2",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V1"
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "contrasts.V2_minus_V1.completed_pairs": 1,
+        "contrasts.V2_minus_V1.denominator_profiles": 2,
+        "contrasts.V2_minus_V1.difference_percentage_points": null,
+        "contrasts.V2_minus_V1.pair_counts.improved": 1,
+        "contrasts.V2_minus_V1.pair_counts.incomplete": 1,
+        "per_version.V2.status_counts.not_recorded": 1,
+        "per_version.V2.success_rate": null
+      },
+      "function": "summarize_paired_feasible_results",
+      "group": "completion",
+      "name": "missing_partner_does_not_reduce_denominator"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1"
+          },
+          {
+            "family_id": "toy:f2",
+            "profile_id": "toy:p2"
+          }
+        ],
+        [
+          {
+            "disposition": "non_success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1",
+            "scoring_complete": true,
+            "success": false,
+            "version_id": "V1"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V2"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f2",
+            "profile_id": "toy:p2",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V1"
+          },
+          {
+            "disposition": "not_ready",
+            "family_id": "toy:f2",
+            "profile_id": "toy:p2",
+            "scoring_complete": false,
+            "success": null,
+            "version_id": "V2"
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "contrasts.V2_minus_V1.difference_percentage_points": null,
+        "contrasts.V2_minus_V1.pair_counts.incomplete": 1,
+        "contrasts.V2_minus_V1.paired_case_outcomes.1.later_success": null,
+        "per_version.V2.status_counts.non_success": 0,
+        "per_version.V2.status_counts.not_ready": 1
+      },
+      "function": "summarize_paired_feasible_results",
+      "group": "completion",
+      "name": "not_ready_is_not_a_completed_failure"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1"
+          },
+          {
+            "family_id": "toy:f2",
+            "profile_id": "toy:p2"
+          }
+        ],
+        [
+          {
+            "disposition": "non_success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1",
+            "scoring_complete": true,
+            "success": false,
+            "version_id": "V1"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V2"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f2",
+            "profile_id": "toy:p2",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V1"
+          },
+          {
+            "disposition": "execution_incomplete",
+            "family_id": "toy:f2",
+            "profile_id": "toy:p2",
+            "scoring_complete": false,
+            "success": null,
+            "version_id": "V2"
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "contrasts.V2_minus_V1.difference_percentage_points": null,
+        "contrasts.V2_minus_V1.pair_counts.incomplete": 1,
+        "contrasts.V2_minus_V1.paired_case_outcomes.1.later_success": null,
+        "per_version.V2.status_counts.execution_incomplete": 1,
+        "per_version.V2.status_counts.non_success": 0
+      },
+      "function": "summarize_paired_feasible_results",
+      "group": "completion",
+      "name": "execution_incomplete_is_not_a_completed_failure"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1"
+          },
+          {
+            "family_id": "toy:f2",
+            "profile_id": "toy:p2"
+          }
+        ],
+        [
+          {
+            "disposition": "non_success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1",
+            "scoring_complete": true,
+            "success": false,
+            "version_id": "V1"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V2"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f2",
+            "profile_id": "toy:p2",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V1"
+          },
+          {
+            "disposition": "assessment_incomplete",
+            "family_id": "toy:f2",
+            "profile_id": "toy:p2",
+            "scoring_complete": false,
+            "success": null,
+            "version_id": "V2"
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "contrasts.V2_minus_V1.difference_percentage_points": null,
+        "contrasts.V2_minus_V1.pair_counts.incomplete": 1,
+        "contrasts.V2_minus_V1.paired_case_outcomes.1.later_success": null,
+        "per_version.V2.status_counts.assessment_incomplete": 1,
+        "per_version.V2.status_counts.non_success": 0
+      },
+      "function": "summarize_paired_feasible_results",
+      "group": "completion",
+      "name": "assessment_incomplete_is_not_a_completed_failure"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1"
+          },
+          {
+            "family_id": "toy:f1",
+            "profile_id": "toy:p2"
+          },
+          {
+            "family_id": "toy:f1",
+            "profile_id": "toy:p3"
+          },
+          {
+            "family_id": "toy:f2",
+            "profile_id": "toy:p4"
+          }
+        ],
+        [
+          {
+            "disposition": "non_success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1",
+            "scoring_complete": true,
+            "success": false,
+            "version_id": "V1"
+          },
+          {
+            "disposition": "non_success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p2",
+            "scoring_complete": true,
+            "success": false,
+            "version_id": "V1"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p3",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V1"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f2",
+            "profile_id": "toy:p4",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V1"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V2"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p2",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V2"
+          },
+          {
+            "disposition": "non_success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p3",
+            "scoring_complete": true,
+            "success": false,
+            "version_id": "V2"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f2",
+            "profile_id": "toy:p4",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V2"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V3"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p2",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V3"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p3",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V3"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f2",
+            "profile_id": "toy:p4",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V3"
+          },
+          {
+            "disposition": "non_success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1",
+            "scoring_complete": true,
+            "success": false,
+            "version_id": "V4"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p2",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V4"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p3",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V4"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f2",
+            "profile_id": "toy:p4",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V4"
+          }
+        ],
+        false
+      ],
+      "expected": {
+        "contrasts.V2_minus_V1.difference_percentage_points": null,
+        "contrasts.V2_minus_V1.unavailable_reason": "population_not_ready",
+        "experiment_complete": false,
+        "per_version.V1.success_rate": null,
+        "per_version.V1.successes_observed": 2
+      },
+      "function": "summarize_paired_feasible_results",
+      "group": "completion",
+      "name": "unready_population_keeps_full_rates_unavailable"
+    },
+    {
+      "arguments": [
+        [],
+        [],
+        true
+      ],
+      "expected": {
+        "contrasts.V2_minus_V1.difference_percentage_points": null,
+        "contrasts.V2_minus_V1.unavailable_reason": "zero_denominator",
+        "experiment_complete": false,
+        "families": 0,
+        "per_version.V1.success_rate": null,
+        "profiles": 0
+      },
+      "function": "summarize_paired_feasible_results",
+      "group": "completion",
+      "name": "empty_population_has_no_success_rate"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1"
+          },
+          {
+            "family_id": "toy:f2",
+            "profile_id": "toy:p2"
+          }
+        ],
+        [],
+        true
+      ],
+      "expected": {
+        "contrasts.V2_minus_V1.pair_counts.incomplete": 2,
+        "experiment_complete": false,
+        "per_version.V1.denominator_profiles": 2,
+        "per_version.V1.status_counts.not_recorded": 2
+      },
+      "function": "summarize_paired_feasible_results",
+      "group": "completion",
+      "name": "all_unrecorded_profiles_remain_in_roster"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1"
+          },
+          {
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1"
+          }
+        ],
+        [],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_paired_feasible_results",
+      "group": "input_rejection",
+      "name": "duplicate_profile_roster"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "family_id": null,
+            "profile_id": "toy:p1"
+          }
+        ],
+        [],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_paired_feasible_results",
+      "group": "input_rejection",
+      "name": "missing_family_identifier"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "category": "feasible",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1"
+          }
+        ],
+        [],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_paired_feasible_results",
+      "group": "input_rejection",
+      "name": "extra_category_in_compact_roster"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1"
+          },
+          {
+            "family_id": "toy:f2",
+            "profile_id": "toy:p2"
+          }
+        ],
+        [
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V1"
+          },
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V1"
+          }
+        ],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_paired_feasible_results",
+      "group": "input_rejection",
+      "name": "duplicate_profile_version"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1"
+          },
+          {
+            "family_id": "toy:f2",
+            "profile_id": "toy:p2"
+          }
+        ],
+        [
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:other",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V1"
+          }
+        ],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_paired_feasible_results",
+      "group": "input_rejection",
+      "name": "out_of_roster_profile"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1"
+          },
+          {
+            "family_id": "toy:f2",
+            "profile_id": "toy:p2"
+          }
+        ],
+        [
+          {
+            "disposition": "success",
+            "family_id": "toy:wrong-family",
+            "profile_id": "toy:p1",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V1"
+          }
+        ],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_paired_feasible_results",
+      "group": "input_rejection",
+      "name": "family_mismatch"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1"
+          },
+          {
+            "family_id": "toy:f2",
+            "profile_id": "toy:p2"
+          }
+        ],
+        [
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V5"
+          }
+        ],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_paired_feasible_results",
+      "group": "input_rejection",
+      "name": "unknown_version"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1"
+          },
+          {
+            "family_id": "toy:f2",
+            "profile_id": "toy:p2"
+          }
+        ],
+        [
+          {
+            "disposition": "execution_incomplete",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1",
+            "scoring_complete": false,
+            "success": false,
+            "version_id": "V1"
+          }
+        ],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_paired_feasible_results",
+      "group": "input_rejection",
+      "name": "pending_cannot_be_false"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1"
+          },
+          {
+            "family_id": "toy:f2",
+            "profile_id": "toy:p2"
+          }
+        ],
+        [
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1",
+            "scoring_complete": true,
+            "success": null,
+            "version_id": "V1"
+          }
+        ],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_paired_feasible_results",
+      "group": "input_rejection",
+      "name": "completed_cannot_be_null"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1"
+          },
+          {
+            "family_id": "toy:f2",
+            "profile_id": "toy:p2"
+          }
+        ],
+        [
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1",
+            "scoring_complete": true,
+            "success": 1,
+            "version_id": "V1"
+          }
+        ],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_paired_feasible_results",
+      "group": "input_rejection",
+      "name": "numeric_one_cannot_be_boolean_success"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1"
+          },
+          {
+            "family_id": "toy:f2",
+            "profile_id": "toy:p2"
+          }
+        ],
+        [
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1",
+            "scoring_complete": true,
+            "success": false,
+            "version_id": "V1"
+          }
+        ],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_paired_feasible_results",
+      "group": "input_rejection",
+      "name": "success_disposition_cannot_be_false"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1"
+          },
+          {
+            "family_id": "toy:f2",
+            "profile_id": "toy:p2"
+          }
+        ],
+        [
+          {
+            "disposition": "non_success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V1"
+          }
+        ],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_paired_feasible_results",
+      "group": "input_rejection",
+      "name": "non_success_disposition_cannot_be_true"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1"
+          },
+          {
+            "family_id": "toy:f2",
+            "profile_id": "toy:p2"
+          }
+        ],
+        [
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1",
+            "scoring_complete": 1,
+            "success": true,
+            "version_id": "V1"
+          }
+        ],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_paired_feasible_results",
+      "group": "input_rejection",
+      "name": "numeric_completion_flag"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1"
+          },
+          {
+            "family_id": "toy:f2",
+            "profile_id": "toy:p2"
+          }
+        ],
+        [
+          {
+            "disposition": "internal_accepted",
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V1"
+          }
+        ],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_paired_feasible_results",
+      "group": "input_rejection",
+      "name": "unknown_disposition"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1"
+          },
+          {
+            "family_id": "toy:f2",
+            "profile_id": "toy:p2"
+          }
+        ],
+        [
+          {
+            "disposition": "success",
+            "family_id": "toy:f1",
+            "internal_acceptance": true,
+            "profile_id": "toy:p1",
+            "scoring_complete": true,
+            "success": true,
+            "version_id": "V1"
+          }
+        ],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_paired_feasible_results",
+      "group": "input_rejection",
+      "name": "internal_acceptance_not_an_external_score"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1"
+          },
+          {
+            "family_id": "toy:f2",
+            "profile_id": "toy:p2"
+          }
+        ],
+        [],
+        1
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_paired_feasible_results",
+      "group": "input_rejection",
+      "name": "nonboolean_population_readiness"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "family_id": "toy:f1",
+            "profile_id": "toy:p1"
+          },
+          {
+            "family_id": "toy:f2",
+            "profile_id": "toy:p2"
+          }
+        ],
+        {},
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_paired_feasible_results",
+      "group": "input_rejection",
+      "name": "nonlist_outcomes"
+    }
+  ],
+  "scope": "artificial feasible-case outcomes with hand-specified paired expectations; no actual study results"
+}

@@ -1,0 +1,8 @@
+{
+  "args": [],
+  "kwargs": {
+    "grams": "80",
+    "search_text": "Fish, cod, Atlantic, cooked, dry heat"
+  },
+  "method": "lookup_food"
+}

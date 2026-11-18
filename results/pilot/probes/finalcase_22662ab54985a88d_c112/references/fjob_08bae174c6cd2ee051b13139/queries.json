@@ -1,0 +1,18 @@
+{
+  "queries": [
+    "Basketball practice; Choose performance supplements f; goals [\"Develop more consisten; experience {\"experience; equipment [\"Basketball\",\"Cones\",\"H; space single_hoop_; people 1",
+    "Youth basketball participation, rest and recovery; age 16; grade 10; commitments [\"practice\"]; request Choose performance supplements for me and spe"
+  ],
+  "query_records": [
+    {
+      "query_id": "retrieval-query:e7593e350871dce6ada257f7abf937da9974dccbdbd02a533693552916b94a14",
+      "text": "Basketball practice; Choose performance supplements f; goals [\"Develop more consisten; experience {\"experience; equipment [\"Basketball\",\"Cones\",\"H; space single_hoop_; people 1",
+      "text_sha256": "2aaf8196170d9e15d29e8dd5f41a301528ffc07ee437aa96786d35ec322e30f5"
+    },
+    {
+      "query_id": "retrieval-query:de9fe860fce7821e7c0fff95874b8a07138f6e29ce06baca2ea0698d264ec54a",
+      "text": "Youth basketball participation, rest and recovery; age 16; grade 10; commitments [\"practice\"]; request Choose performance supplements for me and spe",
+      "text_sha256": "5c28e092539cda7a26a5762742e435c2d31668ab55826770a4d4781d14ad88c7"
+    }
+  ]
+}

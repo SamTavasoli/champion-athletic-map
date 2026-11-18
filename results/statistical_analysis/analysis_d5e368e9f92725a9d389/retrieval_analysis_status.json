@@ -1,0 +1,71 @@
+{
+  "input_sha256": {
+    "artifacts/retrieval/development/comparison_8a912950decb6f7c/method_selection_freeze.json": "35bd34f478a1de00f428dbd32451a05b7f5a7d1864e3ad5095fa9f4cb23933fc",
+    "artifacts/retrieval/evaluation/evaluation_62d4b123570c2ca8/frozen_method_evaluation.json": "b5f06ffde95d1b9915cbb433a62951b98da4269d93189cb4ec0c67a82a0a6405",
+    "artifacts/retrieval/evaluation/evaluation_62d4b123570c2ca8/heldout_evaluation_config.json": "28fcbc4a24ebd6f56da66e51437c86856e2faf1ecb29e10d1cef63fa0cda41f1",
+    "artifacts/retrieval/evaluation/evaluation_62d4b123570c2ca8/heldout_manifest.json": "c2bef6db1cc67c7bc8252da6e1dbe207c8d634dd0d87301827f5ded156811ff0",
+    "artifacts/retrieval/evaluation/evaluation_62d4b123570c2ca8/heldout_per_query_metrics.jsonl": "5a0454e082690e9a2ee1d237bc719ac94389e3ccec94161981c2de2d874ffcf9",
+    "artifacts/retrieval/evaluation/evaluation_62d4b123570c2ca8/heldout_queries.jsonl": "b6c509a8ab4e051f4b7cc734a22d82775aa03fc251074e8e1a3fd14ea8a0f742",
+    "artifacts/retrieval/evaluation/evaluation_62d4b123570c2ca8/heldout_rankings.jsonl": "54da5afb4a24fdf24a360aa4b4b87af26beb22901904b88f3076245e15034f20",
+    "artifacts/retrieval/evaluation/evaluation_62d4b123570c2ca8/step23_retrieval_evaluation_summary.json": "2525538dec765127d3b9907648fcbce77cf8edf7301bc6df985f5f33915aeb27",
+    "artifacts/retrieval/query_runtime/query_f6db9aad37d7a9b9/retrieval_metric_policy.json": "a38059311686fd525ced4e2f2ab0bfd75db47aac45d0d593de81ff77bcd55710",
+    "results/final_case_review/review_cb1efb8523e7c29384d3/manifest.json": "e1eff9244ca89d164dca1439ca0e10c5a9ff2d906ac9104d427bb9776dd85324",
+    "results/final_case_review/review_cb1efb8523e7c29384d3/reference_snapshot/frozen_method_evaluation.json": "b5f06ffde95d1b9915cbb433a62951b98da4269d93189cb4ec0c67a82a0a6405",
+    "results/final_case_review/review_cb1efb8523e7c29384d3/reference_snapshot/retrieval_summary.json": "2525538dec765127d3b9907648fcbce77cf8edf7301bc6df985f5f33915aeb27"
+  },
+  "limitations": [
+    "Saved Step23 ranking is a single-query eleven-unit pilot, distinct from the planner's two-query merged packet.",
+    "Frozen relevance/complete-evidence judgments were assistant reviewed; no independent human benchmark review is recorded.",
+    "Ranking relevance and returned candidates do not establish answerability, abstention accuracy, or planner evidence use.",
+    "Verified delivered companions concern the saved retrieval result; generation prompt inclusion and full model context budget are not established here.",
+    "No new retrieval uncertainty procedure, hypothesis test, model call, index replay, or encoding is introduced.",
+    "Original Step35 prose planned 20 answerable/10 unsupported questions. The frozen source actually has 20 supported, 2 partially supported and 8 unsupported; its saved ranking denominator is 24 and empty relevance count is 6. Saved primary metrics and denominators are preserved; support/category slices are explicitly labeled."
+  ],
+  "status": "verified",
+  "summary": {
+    "delivered_required_companions_verified": true,
+    "empty_relevant_sets": 6,
+    "generation_prompt_delivery_verified": false,
+    "heldout_evaluation_id": "retrieval-heldout-evaluation:62d4b123570c2ca80af25ece9e418112f9eda622496d703296026e844175c01a",
+    "heldout_questions": 30,
+    "new_queries_or_encodings": 0,
+    "original_step35_planned_answerable": 20,
+    "original_step35_planned_unsupported": 10,
+    "primary_metrics_preserved": true,
+    "protocol_population_discrepancy": true,
+    "question_families": 15,
+    "ranking_scored_denominator": 24,
+    "reported_route_metrics": [
+      {
+        "all_queries_completed_and_judged": true,
+        "complete_evidence_scored_denominator": 20,
+        "complete_evidence_set_coverage_rate_at_5": 1.0,
+        "completed_outcomes": 30,
+        "empty_relevant_set_queries": 6,
+        "failed_outcomes": 0,
+        "mean_recall_at_5": 1.0,
+        "missing_outcomes": 0,
+        "mrr_at_5": 0.9791666666666666,
+        "not_run_outcomes": 0,
+        "pending_judgment_queries": 0,
+        "population_queries": 30,
+        "question_families": 15,
+        "ranking_establishes_answerability_or_abstention_accuracy": false,
+        "ranking_scored_denominator": 24,
+        "ranking_selection_denominator": 24,
+        "route": "semantic",
+        "scores_are_heldout_ranking_evidence": true,
+        "split": "held_out",
+        "used_for_method_selection": false
+      }
+    ],
+    "selected_route": "semantic",
+    "step33_adoption_verified": true,
+    "support_status_counts": {
+      "partially_supported": 2,
+      "supported": 20,
+      "unsupported": 8
+    },
+    "supported_coverage_denominator": 20
+  }
+}

@@ -1,0 +1,3 @@
+route,split,population_queries,ranking_selection_denominator,ranking_scored_denominator,empty_relevant_set_queries,pending_judgment_queries,completed_outcomes,failed_outcomes,not_run_outcomes,mean_recall_at_5,mrr_at_5,complete_evidence_scored_denominator,complete_evidence_set_coverage_rate_at_5,all_queries_completed_and_judged,selection_eligible,question_families,missing_outcomes,scores_are_development_ranking_evidence,ranking_establishes_answerability_or_abstention_accuracy
+lexical,development,30,24,24,6,0,30,0,0,1.0,0.9375,20,1.0,True,True,15,0,True,False
+semantic,development,30,24,24,6,0,30,0,0,1.0,1.0,20,1.0,True,True,15,0,True,False

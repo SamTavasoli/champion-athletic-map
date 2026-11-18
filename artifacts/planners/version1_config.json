@@ -1,0 +1,60 @@
+{
+  "accepted_study_profiles": 0,
+  "adapter_sha256": "838ae0b8ca97a2dbf1154813f3c517b796ddaf95cb32f96a30cf7c59ab353145",
+  "automatic_repairs": 0,
+  "automatic_retries": 0,
+  "classifier_access": false,
+  "data_reader_sha256": "492b2e943a5e404dc5752f8987a6b836c2c65a32c276d7c46d6d88f2137c5abf",
+  "dataset": {
+    "dataset_id": "champions-unified-132a2202b69046ae",
+    "file_sha256": {
+      "READ_ME_FIRST.txt": "780d9adde210fadc443bb70e9fde9b0b278233bee937926d52d6bbd521bd1504",
+      "champions_unified_dataset.csv": "ee8903644570bc158440821e7b307aa6a4c5277b9070c724faf59119848ba625",
+      "dataset_manifest.json": "21e56bbef6151a2aa4cdef4af6aba7a2a156aaf811714198d9afdb5615a06de2",
+      "load_unified_dataset.py": "69af88c450180cc70af260798cb5cb081aee086e2bf79bca06998b13db2b1668"
+    },
+    "relative_directory": "data/unified/v1"
+  },
+  "development_selection": [
+    {
+      "coverage": "ordinary_planning_request",
+      "profile_id": "athlete:3ceae454f8a62ee308cd87f4"
+    },
+    {
+      "coverage": "limited_space_and_resources",
+      "profile_id": "athlete:06265b25ff63c151f6243a9c"
+    },
+    {
+      "coverage": "existing_commitments",
+      "profile_id": "athlete:5dc2a65fa122b86f793a3ca3"
+    },
+    {
+      "coverage": "missing_participant_information",
+      "profile_id": "athlete:5f8b4d8612de86a9d21be839"
+    },
+    {
+      "coverage": "incompatible_time_window",
+      "profile_id": "athlete:636aff70dbda760a15f85e63"
+    },
+    {
+      "coverage": "request_outside_supported_scope",
+      "profile_id": "athlete:b24f2e2a28da05d8a965be44"
+    }
+  ],
+  "generation_budget_per_job": 1,
+  "independent_scoring_available": false,
+  "integration_config_sha256": "5cd4b3e8f31180ccb717f9d5713be95faa337f9ca2add247f09a815494bf6bc4",
+  "operational_generation_ready": false,
+  "planner_version": 1,
+  "reference_access": false,
+  "reference_packets_sha256": "bd89d9fb6f667260b59dd75eb0af551a3433509091771eb202272611c41fb633",
+  "response_schema_sha256": "5e812df290ffe5bfbdf17c847abbe7136fa5eae5c084d815caab5a5e5bd1f6f8",
+  "reviewer": false,
+  "run_id": "v1-development-6a4679b6f64233e7",
+  "schema_version": "planner-v1-config-1",
+  "shared_instruction_version": "shared-planner-task-1",
+  "shared_instructions_path": "docs/prompts/shared_planner_task_v1.md",
+  "shared_instructions_sha256": "0037cf55abb43ec844379773e029e1689bdec47f60100779c1eb3613281fbb22",
+  "specialists": false,
+  "workflow_sha256": "029184ef049a87f23cd10b6cd5462ae69e03939495e9eb092495ce36198accb8"
+}

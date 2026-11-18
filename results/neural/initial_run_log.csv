@@ -1,0 +1,2 @@
+attempt,model_id,candidate_id,seed,status,device,started_at_utc,finished_at_utc,failure_code,training_digest,epochs_completed,best_epoch,optimizer_steps,stop_reason,warning_count,warnings_json,setup_seconds,training_epochs_seconds,restore_and_final_validation_seconds,partial_history_retained
+1,neural_classifier_n0,N0,42,completed,cuda:0,2026-11-12T00:14:39.903080+00:00,2026-11-12T00:14:51.188007+00:00,,48cdf7d7c1e039474d9247c738480a192267c81ffd1cec973131af15ec803af2,30,25,1890,patience_exhausted,0,[],0.04531909991055727,10.880331499967724,0.044589600060135126,True

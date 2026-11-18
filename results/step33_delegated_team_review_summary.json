@@ -1,0 +1,19 @@
+{
+  "case_decisions_recorded": 200,
+  "final_planner_execution_authorized": false,
+  "final_protocol_frozen": false,
+  "independent_teammate_case_review_claimed": false,
+  "native_food_revalidated": true,
+  "new_model_calls": 0,
+  "package_directory": "results/final_case_review/review_cb1efb8523e7c29384d3/delegated_review_ae2274034fa35533515d",
+  "project_decisions": "results/final_case_review/review_cb1efb8523e7c29384d3/delegated_review_ae2274034fa35533515d/project_decisions.csv",
+  "project_decisions_recorded": 4,
+  "review_id": "ae2274034fa35533515d841e0364e64da3419c5f59117839092aa9bc14997f79",
+  "reviewed_public_case_file": "results/final_case_review/review_cb1efb8523e7c29384d3/delegated_review_ae2274034fa35533515d/reviewed_case_versions.jsonl",
+  "schema_version": "delegated-team-case-review-installation-1",
+  "software_fixture": false,
+  "space_permission_amendments": 4,
+  "status": "delegated_team_review_recorded",
+  "team_decisions": "results/final_case_review/review_cb1efb8523e7c29384d3/delegated_review_ae2274034fa35533515d/team_decisions.csv",
+  "verified_food_answers": 20
+}

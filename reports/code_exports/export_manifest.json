@@ -1,0 +1,117 @@
+{
+  "code_execution_performed": false,
+  "files": [
+    {
+      "bytes": 54482,
+      "path": "reports/code_exports/step35/step35_analysis_runner.py",
+      "sha256": "6ecfcbf3f5f086e1ccada0c0a9a9fad0ae8f1c84681a8c9ec95c5fbdb74762fb",
+      "source_module": "step35_analysis_runner.py",
+      "source_notebook": "Step_35_Results_Analysis_One_Code_Cell.ipynb",
+      "source_notebook_sha256": "3f5c994d42ebaef5f3b663b88355feaab813ceced9c2c699f75d02e59930519d",
+      "source_step": 35
+    },
+    {
+      "bytes": 20831,
+      "path": "reports/code_exports/step35/step35_classifier_inputs.py",
+      "sha256": "779ad5122577b9123e27930d4abb6a778c2eaadd98bfb0f349ab4cbc1702ed12",
+      "source_module": "step35_classifier_inputs.py",
+      "source_notebook": "Step_35_Results_Analysis_One_Code_Cell.ipynb",
+      "source_notebook_sha256": "3f5c994d42ebaef5f3b663b88355feaab813ceced9c2c699f75d02e59930519d",
+      "source_step": 35
+    },
+    {
+      "bytes": 22508,
+      "path": "reports/code_exports/step35/step35_native_runtime_analysis.py",
+      "sha256": "cdf9e007339292848214c31bdb814a2d8e2450a5477e5cba6cedf5ffe4cde936",
+      "source_module": "step35_native_runtime_analysis.py",
+      "source_notebook": "Step_35_Results_Analysis_One_Code_Cell.ipynb",
+      "source_notebook_sha256": "3f5c994d42ebaef5f3b663b88355feaab813ceced9c2c699f75d02e59930519d",
+      "source_step": 35
+    },
+    {
+      "bytes": 30529,
+      "path": "reports/code_exports/step35/step35_retrieval_analysis.py",
+      "sha256": "31f4ea493d4845e75a2fde6ccae1732f9367f4292bb072f3d802b6f1535846ef",
+      "source_module": "step35_retrieval_analysis.py",
+      "source_notebook": "Step_35_Results_Analysis_One_Code_Cell.ipynb",
+      "source_notebook_sha256": "3f5c994d42ebaef5f3b663b88355feaab813ceced9c2c699f75d02e59930519d",
+      "source_step": 35
+    },
+    {
+      "bytes": 10661,
+      "path": "reports/code_exports/step35/step35_statistics_core.py",
+      "sha256": "2cfab1a99a4499d471e34292dc9b6ea8abc4f1afe045e1961966d1df98a23010",
+      "source_module": "step35_statistics_core.py",
+      "source_notebook": "Step_35_Results_Analysis_One_Code_Cell.ipynb",
+      "source_notebook_sha256": "3f5c994d42ebaef5f3b663b88355feaab813ceced9c2c699f75d02e59930519d",
+      "source_step": 35
+    },
+    {
+      "bytes": 1676,
+      "path": "reports/code_exports/step36/comparison_driver.py",
+      "sha256": "32b59b9f99bbdfc0856a0b21ba916b076fd07d34bf0eb898705c1df3ffcde566",
+      "source_module": "comparison_driver.py",
+      "source_notebook": "Step_36_Reproducibility_Check_One_Code_Cell.ipynb",
+      "source_notebook_sha256": "970533c6a405d7fc3313e28efd2e89cc8988529ec6543d0b2daf28a946d296b6",
+      "source_step": 36
+    },
+    {
+      "bytes": 16016,
+      "path": "reports/code_exports/step36/notebook_driver.py",
+      "sha256": "fc72a4d36338c3af12f3b3141fb05a9dedc26f7fbbe1f0a01b339b203f607606",
+      "source_module": "notebook_driver.py",
+      "source_notebook": "Step_36_Reproducibility_Check_One_Code_Cell.ipynb",
+      "source_notebook_sha256": "970533c6a405d7fc3313e28efd2e89cc8988529ec6543d0b2daf28a946d296b6",
+      "source_step": 36
+    },
+    {
+      "bytes": 49577,
+      "path": "reports/code_exports/step36/reproduction_compare.py",
+      "sha256": "9cc1c93ffad77c5706936b095704d6fb2e034413a96738de106a2d902a09a9a7",
+      "source_module": "reproduction_compare.py",
+      "source_notebook": "Step_36_Reproducibility_Check_One_Code_Cell.ipynb",
+      "source_notebook_sha256": "970533c6a405d7fc3313e28efd2e89cc8988529ec6543d0b2daf28a946d296b6",
+      "source_step": 36
+    },
+    {
+      "bytes": 25042,
+      "path": "reports/code_exports/step36/reproduction_coordinator.py",
+      "sha256": "cb7552e74379133b2bbaf7a210f243fcb8019f4031098c9da7067a2a1734beda",
+      "source_module": "reproduction_coordinator.py",
+      "source_notebook": "Step_36_Reproducibility_Check_One_Code_Cell.ipynb",
+      "source_notebook_sha256": "970533c6a405d7fc3313e28efd2e89cc8988529ec6543d0b2daf28a946d296b6",
+      "source_step": 36
+    },
+    {
+      "bytes": 17598,
+      "path": "reports/code_exports/step36/reproduction_environment.py",
+      "sha256": "5e3a4cd4a382016b964b601d8fd8dcddcc4092a9ca8b7a68355364693e953837",
+      "source_module": "reproduction_environment.py",
+      "source_notebook": "Step_36_Reproducibility_Check_One_Code_Cell.ipynb",
+      "source_notebook_sha256": "970533c6a405d7fc3313e28efd2e89cc8988529ec6543d0b2daf28a946d296b6",
+      "source_step": 36
+    },
+    {
+      "bytes": 23223,
+      "path": "reports/code_exports/step36/reproduction_inputs.py",
+      "sha256": "f6e25a64b0570f7d2e9389f383d722d6ef92ccb33a169d2728a7ea8309e72b5c",
+      "source_module": "reproduction_inputs.py",
+      "source_notebook": "Step_36_Reproducibility_Check_One_Code_Cell.ipynb",
+      "source_notebook_sha256": "970533c6a405d7fc3313e28efd2e89cc8988529ec6543d0b2daf28a946d296b6",
+      "source_step": 36
+    },
+    {
+      "bytes": 20666,
+      "path": "reports/code_exports/step37/results_discussion.py",
+      "sha256": "4b2522ce2de9b7ad4ed9aadc0fdc57b0c35868a0f6796064007511b6e41c7dc0",
+      "source_module": "results_discussion.py",
+      "source_notebook": "Step_37_Results_Limitations_And_Future_Improvements_One_Code_Cell.ipynb",
+      "source_notebook_sha256": "0a143f2ae06dfccd14bc8c94b81e887336037108efe1f080273751c481049fbf",
+      "source_step": 37
+    }
+  ],
+  "main_notebook_export_performed": false,
+  "model_calls": 0,
+  "schema_version": "step38-readable-code-exports-1",
+  "scope": "Readable helper source copies; native research figures remain in the recorded Step35 analysis folder."
+}

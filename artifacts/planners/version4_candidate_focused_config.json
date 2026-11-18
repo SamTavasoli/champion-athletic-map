@@ -1,0 +1,30 @@
+{
+  "acceptance_policy_sha256": "e8d87dc54931a57ce5e17ca8a3eff3192f95eb2e211016cf76f157251e371006",
+  "accepted_study_profiles": 0,
+  "automatic_repairs": 0,
+  "automatic_retries": 0,
+  "coordinator_output_tokens": 2048,
+  "evaluator_output_tokens": 768,
+  "evaluator_prompt": {
+    "path": "docs/prompts/planner_v4/evaluator_candidate_focused_v3.md",
+    "sha256": "fb14bc9fbe663886df2c3c9728aa663927eb4ec989d7388468421fa49cdfcfb9"
+  },
+  "evaluator_schema_sha256": "f8485f589cfaadff419e43ab0c1c5c30275e012dc0dad87895eff4337703621f",
+  "independent_scoring_available": false,
+  "maximum_revisions": 2,
+  "module_sha256": {
+    "src/champion_athletic_map/context_encoding.py": "2626f39229a163b024c0ce3aa7310b54e2cc2911c94f64e739f8a4d8557935be",
+    "src/champion_athletic_map/planners/candidate_focused.py": "7bce1c36a43627decf2d3412e6d796c6c9f5b40a7e577e41d03c14b9725e9bfc"
+  },
+  "operational_generation_ready": false,
+  "planner_version": 4,
+  "readiness": "awaiting_pilot",
+  "reviewed_findings_path": "results/planner_v4/evaluator_fix/remaining_findings.json",
+  "reviewed_findings_sha256": "d5f4aca1ff28c301ceb32dcfabb3422475f4c5140ae1f558c1cd86f8b7d39381",
+  "run_id": "v4-candidate-focused-54c30e2c8a003a13",
+  "schema_version": "planner-v4-candidate-focused-1",
+  "source_config_path": "artifacts/planners/version4_config.json",
+  "source_config_sha256": "042e66d552d922689a6f28ee12880bb8e84d6d9a45c8aa172f2b1101a29a7035",
+  "workflow_class": "CandidateFocusedEvaluatedPlanner",
+  "workflow_module": "src/champion_athletic_map/planners/candidate_focused.py"
+}

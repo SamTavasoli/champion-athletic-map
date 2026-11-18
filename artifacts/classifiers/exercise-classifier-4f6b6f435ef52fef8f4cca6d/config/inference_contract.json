@@ -1,0 +1,64 @@
+{
+  "feature_fields": [
+    "exercise_name",
+    "description"
+  ],
+  "input_construction": "Step 10 per-field whitespace/null preparation; name first, then two newlines before a present description",
+  "input_hash": "SHA256 of the exact canonical input encoded as UTF-8",
+  "integrity": {
+    "explicit_selected_artifact": true,
+    "fitted_state_checked_before_and_after_inference": true,
+    "missing_or_incompatible_artifact_fallback": false,
+    "neural_eval_and_no_grad": true,
+    "neural_strict_weights_only_device_mapping": true,
+    "verify_all_manifest_payloads_before_deserialization": true,
+    "verify_source_modules_and_dependency_versions": true
+  },
+  "interface_id": "classifier-interface-preparation:87575e9800e7e772e056ce88c429c6abf35982a9055d10bb0c455d04dd50b63f",
+  "interface_source_sha256": "4d5b788ad562cea82bd4102d170f4b50a5115ec291a800dc5feba6d40c5a7902",
+  "metadata_are_model_features": false,
+  "normalization": {
+    "logistic": "saved full pipeline feature transform once, then classifier outputs from that matrix",
+    "majority": "training-derived fitted constant model; no learned text features",
+    "neural": "saved Step 18 canonical preparation once, then fixed vocabulary encoding and retained positions"
+  },
+  "outputs": {
+    "prediction_adopts_catalog_label": false,
+    "prediction_grants_planner_eligibility": false,
+    "probabilities_calibrated": false,
+    "score_class_order_frozen": true,
+    "source_and_review_values_automatically_changed": false
+  },
+  "required_public_api": [
+    "ClassifierLoadError",
+    "fingerprint_classifier_state",
+    "load_classifier",
+    "predict_exercise",
+    "predict_from_bundle",
+    "prepare_exercise_input",
+    "verify_classifier_integrity"
+  ],
+  "runtime_statuses": [
+    "produced",
+    "disabled",
+    "invalid_input",
+    "unsupported",
+    "deferred",
+    "loading_error",
+    "failed"
+  ],
+  "schema_version": "exercise-classifier-inference-contract-1",
+  "scope_gate": {
+    "catalog_scope_authorization_owner": "the frozen population-screening workflow; a supplied scope string is not a review decision",
+    "default_action": "defer_without_reading_input_text",
+    "default_input_scope": "new_record",
+    "producing_scopes": [
+      "synthetic",
+      "development_train",
+      "development_validation"
+    ],
+    "protected_or_unproven_scope_action": "defer_before_input_preparation_or_model_loading",
+    "supported_record_type": "general_exercise",
+    "unsupported_record_types_predicted": false
+  }
+}

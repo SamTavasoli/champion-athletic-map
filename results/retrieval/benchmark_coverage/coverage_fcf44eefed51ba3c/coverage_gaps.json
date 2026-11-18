@@ -1,0 +1,41 @@
+{
+  "corpus_id": "pilot-corpus:917f12a3f56929da76a59808167bcca057fc9017047b57b5fb46fe2d1409884d",
+  "required_work": [
+    {
+      "action": "Assess representative information needs for all three planned categories; review and explicitly admit additional sources where the existing seven units lack support.",
+      "dependency": "reviewed_reference_coverage",
+      "status": "pending"
+    },
+    {
+      "action": "Draft families before partitioning; keep paraphrases and equivalent needs together; assess category balance without treating publisher or chapter IDs as family assignments.",
+      "dependency": "question_family_design_and_separation",
+      "status": "pending"
+    },
+    {
+      "action": "Bind separate reviewed judgments to exact corpus/unit versions; define unsupported classification and distinguish no relevant evidence from partial relevance with insufficient complete support.",
+      "dependency": "relevance_and_complete_evidence_review",
+      "status": "pending"
+    },
+    {
+      "action": "Define handling of empty relevant sets and selection denominators before scoring, retaining the frozen development Recall@5/MRR@5/lexical tie rule.",
+      "dependency": "metric_denominators_and_empty_gold",
+      "status": "pending"
+    },
+    {
+      "action": "Verify query preparation with the same pinned encoder contract before executing semantic queries.",
+      "dependency": "semantic_query_encoder",
+      "status": "pending"
+    }
+  ],
+  "schema_version": "step23-benchmark-coverage-gaps-1",
+  "status": "full_planned_benchmark_coverage_not_yet_established",
+  "unchanged_boundaries": {
+    "all_prepared_candidates_must_be_approved": false,
+    "human_reviews_created": 0,
+    "nba_targets_pending": 20,
+    "planner_approvals_created": 0,
+    "question_specific_unsupported_findings_created": false,
+    "source_or_permission_reviews_reopened_by_this_audit": false,
+    "unproven_warmup_targets_deferred": 12
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "accepted_study_profiles": 0,
+  "automatic_repairs": 0,
+  "automatic_retries": 0,
+  "baseline_v2_config_sha256": "d688a4624b3ca9aba6dbe690dcf60bfd2558cf3972a69c97eeb918eb96e97153",
+  "classifier_access": false,
+  "coordinator_revisions": 0,
+  "dataset": {
+    "dataset_id": "champions-unified-132a2202b69046ae",
+    "file_sha256": {
+      "READ_ME_FIRST.txt": "780d9adde210fadc443bb70e9fde9b0b278233bee937926d52d6bbd521bd1504",
+      "champions_unified_dataset.csv": "ee8903644570bc158440821e7b307aa6a4c5277b9070c724faf59119848ba625",
+      "dataset_manifest.json": "21e56bbef6151a2aa4cdef4af6aba7a2a156aaf811714198d9afdb5615a06de2",
+      "load_unified_dataset.py": "69af88c450180cc70af260798cb5cb081aee086e2bf79bca06998b13db2b1668"
+    },
+    "relative_directory": "data/unified/v1"
+  },
+  "development_selection": [
+    {
+      "coverage": "ordinary_planning_request",
+      "profile_id": "athlete:3ceae454f8a62ee308cd87f4"
+    },
+    {
+      "coverage": "limited_space_and_resources",
+      "profile_id": "athlete:06265b25ff63c151f6243a9c"
+    },
+    {
+      "coverage": "existing_commitments",
+      "profile_id": "athlete:5dc2a65fa122b86f793a3ca3"
+    },
+    {
+      "coverage": "missing_participant_information",
+      "profile_id": "athlete:5f8b4d8612de86a9d21be839"
+    },
+    {
+      "coverage": "incompatible_time_window",
+      "profile_id": "athlete:636aff70dbda760a15f85e63"
+    },
+    {
+      "coverage": "request_outside_supported_scope",
+      "profile_id": "athlete:b24f2e2a28da05d8a965be44"
+    }
+  ],
+  "evaluator_access": false,
+  "food_routing": "nonblank_public_food_question",
+  "independent_scoring_available": false,
+  "maximum_calls_with_food": 4,
+  "maximum_calls_without_food": 3,
+  "module_sha256": {
+    "src/champion_athletic_map/planners/specialists.py": "505b02f36ce2c602503fed4796be63b126e981cf1988cd86d3f1aa02734291ef",
+    "src/champion_athletic_map/role_adapter.py": "728cda501a3f8aa497095af337929b87f74a127093c7beb413f5e1c7fe82b594"
+  },
+  "note_schema_path": "artifacts/planners/version3_note_schema.json",
+  "note_schema_sha256": "b2dd1515e9324a6db2c92c74519ade39d6633858bec0846663b1d8758f2b0589",
+  "note_schema_version": "specialist-note-1",
+  "operational_generation_ready": false,
+  "planner_version": 3,
+  "prompts": {
+    "coordinator": {
+      "path": "docs/prompts/planner_v3/coordinator.md",
+      "sha256": "37ad8b59dc978e6c829097c01df338c1c0ea29331024fb2525718cf5e75a181a"
+    },
+    "food": {
+      "path": "docs/prompts/planner_v3/food.md",
+      "sha256": "75f44f5271da1e5c12a3f316e2e4d91bde16eb5852a7f735ae1e640baa6fe698"
+    },
+    "recovery": {
+      "path": "docs/prompts/planner_v3/recovery.md",
+      "sha256": "0ce33ccf4fd66da402ed2e6abf993e898c5262f7a54746fe4d665d9e4f98e2d7"
+    },
+    "training": {
+      "path": "docs/prompts/planner_v3/training.md",
+      "sha256": "0e504776466178a7ad346e7c4a408687eff2537c2ea9f35c61c85e2418dd7d3a"
+    }
+  },
+  "reference_policy": {
+    "max_packet_tokens": 2200,
+    "max_rule_bundles": 2,
+    "policy_version": "shared-planning-references-1",
+    "source_configuration_sha256": "f50e956ba9b63911b45e4f94926819339edfe1a4afda38d23ae036e3606fecfd"
+  },
+  "reference_preparation_calls": 0,
+  "role_output_tokens": {
+    "coordinator": 2048,
+    "food": 512,
+    "recovery": 512,
+    "training": 512
+  },
+  "run_id": "v3-development-1bb6365b6e909aec",
+  "schema_version": "planner-v3-config-1",
+  "shared_instruction_version": "shared-planner-task-1",
+  "shared_instructions_sha256": "0037cf55abb43ec844379773e029e1689bdec47f60100779c1eb3613281fbb22",
+  "stage_order": [
+    "training",
+    "recovery",
+    "food",
+    "coordinator"
+  ]
+}

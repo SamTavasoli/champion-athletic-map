@@ -1,0 +1,27 @@
+{
+  "approval_authority": {
+    "authority_basis": "User explicitly delegated approval of supported items to the assistant.",
+    "authorization_date": "2026-11-13",
+    "authorization_excerpt": "I leave all of it to you.",
+    "decision_label": "Approved by team — under Sam’s delegated authority",
+    "delegating_team_member": "Sam",
+    "independent_human_peer_review_claimed": false
+  },
+  "benchmark_runs": 0,
+  "counts": {
+    "approved_drill_records": 136,
+    "approved_rule_definitions": 29,
+    "basketball_variants": 127,
+    "gym_exercises_approved_for_planning": 0,
+    "held_drills": 7,
+    "held_rules": 5,
+    "warmups": 9
+  },
+  "distinct_drill_target_verified": false,
+  "historical_preparation_files_preserved": true,
+  "model_calls": 0,
+  "release_id": "team-approved-f0dcb9e9943e381b",
+  "rule_validator_execution_ready": false,
+  "searches": 0,
+  "status": "team_approved_resources_installed"
+}

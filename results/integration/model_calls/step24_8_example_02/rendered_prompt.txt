@@ -1,0 +1,14 @@
+<|start_header_id|>system<|end_header_id|>
+
+Help with a youth basketball planning request. Follow the athlete's request and preserve unknown facts. Ask concise questions when details are missing. Do not infer equipment, partners, available time or school grade. This call has no reference packet or lookup results. Return only a JSON object using the answer format below.
+
+Answer the athlete_request in the supplied profile. Return one JSON answer object, never a JSON schema. Keep supplied facts unchanged and ask about essential unknowns.
+Use response_type: plan, clarification, constraint_conflict, or outside_scope. Always include a short explanation.
+For clarification, include a nonempty questions array covering the requested missing details. For constraint_conflict, include nonempty unresolved_issues. Omit weekly_schedule for non-plan replies.
+Plans need planning_window {start_date,end_date,timezone} and seven weekly_schedule entries. Each day needs date, activities, rest_arrangements. Each activity needs activity_id, description, duration_minutes, resources {equipment:[{name,quantity}],space,participants}, and relationship {kind,parent_activity_id}. Use separate_session with null parent, or part_of_activity referencing another activity. Unknown durations and resource values may be null. Source IDs are optional.
+Example of a clarification answer:
+{"response_type":"clarification","explanation":"I need a few details before planning.","questions":["Which days and times are available?"]}
+Write the answer for the actual athlete request; the example illustrates the format only.<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+{"age":15,"athlete_request":"I want to work on basketball ball handling next week. Before making a plan, ask me for the missing details about my available time, equipment, space and training partners.","availability":null,"equipment":null,"existing_commitments":null,"participants_available":null,"planning_window":{"end_date":"2026-11-22","start_date":"2026-11-16","timezone":"America/Los_Angeles"},"school_grade":null,"space":null}<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+

@@ -1,0 +1,386 @@
+{
+  "schema_version": "step30-pytest-execution-1",
+  "pytest_exit_code": 1,
+  "collected": [
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_prepare_freezes_twenty_amended_profiles_eighty_original_ordered_jobs",
+      "requirement": "31:resumable-development-pilot",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/development_pilot/test_development_pilot.py:142",
+      "description": "test_prepare_freezes_twenty_amended_profiles_eighty_original_ordered_jobs"
+    },
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_batches_resume_next_case_and_completed_receipt_skips_runtime",
+      "requirement": "31:resumable-development-pilot",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/development_pilot/test_development_pilot.py:156",
+      "description": "test_batches_resume_next_case_and_completed_receipt_skips_runtime"
+    },
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_four_five_case_batches_record_all_jobs_then_reuse_without_calls",
+      "requirement": "31:resumable-development-pilot",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/development_pilot/test_development_pilot.py:170",
+      "description": "test_four_five_case_batches_record_all_jobs_then_reuse_without_calls"
+    },
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_fatal_v4_is_terminal_and_assessed_without_draft_fallback",
+      "requirement": "31:resumable-development-pilot",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/development_pilot/test_development_pilot.py:185",
+      "description": "test_fatal_v4_is_terminal_and_assessed_without_draft_fallback"
+    },
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_reference_failure_stops_batch_and_is_not_automatically_repeated",
+      "requirement": "31:resumable-development-pilot",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/development_pilot/test_development_pilot.py:195",
+      "description": "test_reference_failure_stops_batch_and_is_not_automatically_repeated"
+    },
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_injected_saved_cases_cannot_be_reused_as_production_observations",
+      "requirement": "31:resumable-development-pilot",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/development_pilot/test_development_pilot.py:207",
+      "description": "test_injected_saved_cases_cannot_be_reused_as_production_observations"
+    },
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_changed_completed_inputs_and_evidence_block_before_new_calls[completed_outcome]",
+      "requirement": "31:resumable-development-pilot",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/development_pilot/test_development_pilot.py:216",
+      "description": "test_changed_completed_inputs_and_evidence_block_before_new_calls[completed_outcome]"
+    },
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_changed_completed_inputs_and_evidence_block_before_new_calls[child_pointer]",
+      "requirement": "31:resumable-development-pilot",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/development_pilot/test_development_pilot.py:216",
+      "description": "test_changed_completed_inputs_and_evidence_block_before_new_calls[child_pointer]"
+    },
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_changed_completed_inputs_and_evidence_block_before_new_calls[parent_candidate]",
+      "requirement": "31:resumable-development-pilot",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/development_pilot/test_development_pilot.py:216",
+      "description": "test_changed_completed_inputs_and_evidence_block_before_new_calls[parent_candidate]"
+    },
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_changed_completed_inputs_and_evidence_block_before_new_calls[software]",
+      "requirement": "31:resumable-development-pilot",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/development_pilot/test_development_pilot.py:216",
+      "description": "test_changed_completed_inputs_and_evidence_block_before_new_calls[software]"
+    },
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_default_router_selects_operational_runtime_and_audited_assessor",
+      "requirement": "31:resumable-development-pilot",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/development_pilot/test_development_pilot.py:238",
+      "description": "test_default_router_selects_operational_runtime_and_audited_assessor"
+    },
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_batch_lock_is_exclusive_and_released_without_deleting_persistent_markers",
+      "requirement": "31:resumable-development-pilot",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/development_pilot/test_development_pilot.py:271",
+      "description": "test_batch_lock_is_exclusive_and_released_without_deleting_persistent_markers"
+    }
+  ],
+  "phases": [
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_prepare_freezes_twenty_amended_profiles_eighty_original_ordered_jobs",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.13465329998871312,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_prepare_freezes_twenty_amended_profiles_eighty_original_ordered_jobs",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.27885740000056103,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_prepare_freezes_twenty_amended_profiles_eighty_original_ordered_jobs",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00016360002337023616,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_batches_resume_next_case_and_completed_receipt_skips_runtime",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.08790270000463352,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_batches_resume_next_case_and_completed_receipt_skips_runtime",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 1.6234656000160612,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_batches_resume_next_case_and_completed_receipt_skips_runtime",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001598999951966107,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_four_five_case_batches_record_all_jobs_then_reuse_without_calls",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.08731440000701696,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_four_five_case_batches_record_all_jobs_then_reuse_without_calls",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 14.840827099978924,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_four_five_case_batches_record_all_jobs_then_reuse_without_calls",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014030002057552338,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_fatal_v4_is_terminal_and_assessed_without_draft_fallback",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.1212715000147,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_fatal_v4_is_terminal_and_assessed_without_draft_fallback",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.6351420999853872,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_fatal_v4_is_terminal_and_assessed_without_draft_fallback",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014509999891743064,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_reference_failure_stops_batch_and_is_not_automatically_repeated",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.10344619996612892,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_reference_failure_stops_batch_and_is_not_automatically_repeated",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.40954059996875003,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_reference_failure_stops_batch_and_is_not_automatically_repeated",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013780000153928995,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_injected_saved_cases_cannot_be_reused_as_production_observations",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.08511309995083138,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_injected_saved_cases_cannot_be_reused_as_production_observations",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.6805324999731965,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_injected_saved_cases_cannot_be_reused_as_production_observations",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001286999904550612,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_changed_completed_inputs_and_evidence_block_before_new_calls[completed_outcome]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.09600349998800084,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_changed_completed_inputs_and_evidence_block_before_new_calls[completed_outcome]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.5871422000345774,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_changed_completed_inputs_and_evidence_block_before_new_calls[completed_outcome]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00015619996702298522,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_changed_completed_inputs_and_evidence_block_before_new_calls[child_pointer]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.083709699974861,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_changed_completed_inputs_and_evidence_block_before_new_calls[child_pointer]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.5817765999818221,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_changed_completed_inputs_and_evidence_block_before_new_calls[child_pointer]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014399999054148793,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_changed_completed_inputs_and_evidence_block_before_new_calls[parent_candidate]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.08370139996986836,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_changed_completed_inputs_and_evidence_block_before_new_calls[parent_candidate]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.5769186000106856,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_changed_completed_inputs_and_evidence_block_before_new_calls[parent_candidate]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001453000004403293,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_changed_completed_inputs_and_evidence_block_before_new_calls[software]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.08437689999118447,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_changed_completed_inputs_and_evidence_block_before_new_calls[software]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.5785312000080012,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_changed_completed_inputs_and_evidence_block_before_new_calls[software]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014730001566931605,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_default_router_selects_operational_runtime_and_audited_assessor",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.08070610003778711,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_default_router_selects_operational_runtime_and_audited_assessor",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.6458004000014625,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_default_router_selects_operational_runtime_and_audited_assessor",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00015569996321573853,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_batch_lock_is_exclusive_and_released_without_deleting_persistent_markers",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.09124370000790805,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_batch_lock_is_exclusive_and_released_without_deleting_persistent_markers",
+      "phase": "call",
+      "outcome": "failed",
+      "duration_seconds": 0.0010995000484399498,
+      "expected_failure": false,
+      "detail": "saved = namespace(root=WindowsPath('C:/Users/samta/AppData/Local/Temp/pytest-of-samta/pytest-12/test_batch_lock_is_exclusive_a...nthetic_prepared_case20_v2', 'order_label': 'D'}], candidate_path='artifacts/synthetic_operational/configuration.json')\n\n    \u001b[0m\u001b[94mdef\u001b[39;49;00m\u001b[90m \u001b[39;49;00m\u001b[92mtest_batch_lock_is_exclusive_and_released_without_deleting_persistent_markers\u001b[39;49;00m(saved):\u001b[90m\u001b[39;49;00m\n        \u001b[94mwith\u001b[39;49;00m API.batch_lock(saved.root, saved.manifest):\u001b[90m\u001b[39;49;00m\n            \u001b[94mwith\u001b[39;49;00m pytest.raises(\u001b[96mRuntimeError\u001b[39;49;00m, match=\u001b[33m\"\u001b[39;49;00m\u001b[33mAnother development-pilot batch\u001b[39;49;00m\u001b[33m\"\u001b[39;49;00m):\u001b[90m\u001b[39;49;00m\n>               \u001b[94mwith\u001b[39;49;00m API.batch_lock(saved.root, saved.manifest):\u001b[90m\u001b[39;49;00m\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\u001b[90m\u001b[39;49;00m\n\n\u001b[1m\u001b[31mtests\\development_pilot\\test_development_pilot.py\u001b[0m:274: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\u001b[1m\u001b[31mC:\\Program Files\\Python312\\Lib\\contextlib.py\u001b[0m:137: in __enter__\n    \u001b[0m\u001b[94mreturn\u001b[39;49;00m \u001b[96mnext\u001b[39;49;00m(\u001b[96mself\u001b[39;49;00m.gen)\u001b[90m\u001b[39;49;00m\n           ^^^^^^^^^^^^^^\u001b[90m\u001b[39;49;00m\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nroot = WindowsPath('C:/Users/samta/AppData/Local/Temp/pytest-of-samta/pytest-12/test_batch_lock_is_exclusive_a0')\nmanifest = {'schema_version': 'resumable-development-pilot-1', 'mode': 'fixed_provisional_development_pilot', 'parent_operational...ot/probes/first_operational_probe.json': 'ce1d801fc3a46d0f4b849a300c3ab7491426a78ff3c0f693d2b8936a6bc41f91', ...}, ...}\n\n    \u001b[0m\u001b[37m@contextmanager\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n    \u001b[94mdef\u001b[39;49;00m\u001b[90m \u001b[39;49;00m\u001b[92mbatch_lock\u001b[39;49;00m(root, manifest):\u001b[90m\u001b[39;49;00m\n        path = root / \u001b[33m\"\u001b[39;49;00m\u001b[33mresults/pilot/development_batches\u001b[39;49;00m\u001b[33m\"\u001b[39;49;00m / manifest[\u001b[33m\"\u001b[39;49;00m\u001b[33mpilot_id\u001b[39;49;00m\u001b[33m\"\u001b[39;49;00m] / \u001b[33m\"\u001b[39;49;00m\u001b[33mbatch.lock\u001b[39;49;00m\u001b[33m\"\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n        path.parent.mkdir(parents=\u001b[94mTrue\u001b[39;49;00m, exist_ok=\u001b[94mTrue\u001b[39;49;00m)\u001b[90m\u001b[39;49;00m\n        \u001b[94mwith\u001b[39;49;00m path.open(\u001b[33m\"\u001b[39;49;00m\u001b[33ma+b\u001b[39;49;00m\u001b[33m\"\u001b[39;49;00m) \u001b[94mas\u001b[39;49;00m handle:\u001b[90m\u001b[39;49;00m\n            handle.seek(\u001b[94m0\u001b[39;49;00m)\u001b[90m\u001b[39;49;00m\n>           \u001b[94mif\u001b[39;49;00m \u001b[95mnot\u001b[39;49;00m handle.read(\u001b[94m1\u001b[39;49;00m):\u001b[90m\u001b[39;49;00m\n                   ^^^^^^^^^^^^^^\u001b[90m\u001b[39;49;00m\n\u001b[1m\u001b[31mE           PermissionError: [Errno 13] Permission denied\u001b[0m\n\n\u001b[1m\u001b[31msrc\\champion_athletic_map\\development_pilot.py\u001b[0m:192: PermissionError"
+    },
+    {
+      "test_id": "tests/development_pilot/test_development_pilot.py::test_batch_lock_is_exclusive_and_released_without_deleting_persistent_markers",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00020519999088719487,
+      "expected_failure": false,
+      "detail": null
+    }
+  ],
+  "collection_errors": [],
+  "deselected": [],
+  "new_model_calls": 0,
+  "query_encoder_processes": 0,
+  "network_policy": "blocked_in_routine_tests",
+  "fixtures": "authored_public_examples"
+}

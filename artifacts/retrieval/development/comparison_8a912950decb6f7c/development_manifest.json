@@ -1,0 +1,28 @@
+{
+  "benchmark_preparation_id": "retrieval-benchmark-preparation:9b572b07c872d1a7178b19039dda68dd51d01213792f6424e417cab479272e97",
+  "corpus_id": "expanded-corpus:aa58799145ccff5c8ea285b3b1eb0bc4fdc41ef85ad90ffb03db3ce3c4687c58",
+  "development_comparison_id": "retrieval-development-comparison:8a912950decb6f7cde229661dd95442772da63053b279b92d8925c3b38cd4102",
+  "expanded_retrieval_id": "expanded-retrieval-index:ee12915cfac22530096a9b573f046c886696c5b769aca11f6f20967f0068f5b9",
+  "generation_context_budget_verified": false,
+  "held_out_queries_executed": 0,
+  "payload_hashes": {
+    "development_category_metrics.csv": "e1441624245d9205f5510361b93052aabe5f9d3fe29212d790e7814e586e89fa",
+    "development_checks.csv": "5d12e4e33e471a2c2ec8459696d44a3904a360836a6331cecb2fd581d4f8c45b",
+    "development_comparison_config.json": "bc4e972d0e92db29e9ef3ffebb6c330e4caf700acc627b44d7568b9415ea9958",
+    "development_diagnostics.json": "63baef9668a0ecd57b15b2a6b8d36ceb38d3695a6149b41d51f7ecf11cdd9d4a",
+    "development_error_audit.jsonl": "80d80711d0bb492a55128737f42aeffb1b24875b2737be76110821ad2be8b23d",
+    "development_per_query_metrics.jsonl": "ff62d245d7985b31c6c2956e5556d6ceef5123f4c51699d5bbff33ef85f73c13",
+    "development_queries.jsonl": "cfb492ef603e490c3781c7162b51aa7ccb3bf1281a11df219da611d93bda0905",
+    "development_query_embeddings.npy": "9bd669b0d609f79d68cca6416d09392200a29b7010a49337161e5801ad7498cf",
+    "development_query_verification.json": "7140d06a886e227a2c2aa530f619eb663b50118cdd4c7243e1de4f2b475b4ccf",
+    "development_rankings.jsonl": "aa75bac91b16fb74d846ed12aa754fcab3fc5bddb50ffe56cb6d19e11e2c68c0",
+    "development_replay_worker.py": "4d1574648f0ead0f84f391415659a53715848116072bccaf05fbdf2a8a12a239",
+    "development_route_metrics.csv": "58cbc76738c4a35e555ea48a71f8c80694932e348ba5ed4d7c80993e36d519a7",
+    "method_selection_freeze.json": "35bd34f478a1de00f428dbd32451a05b7f5a7d1864e3ad5095fa9f4cb23933fc"
+  },
+  "query_preparation_id": "retrieval-query-preparation:f6db9aad37d7a9b920acb188429f9858ba7669273396843bd629ee3726dc2474",
+  "schema_version": "step23-development-comparison-manifest-1",
+  "selected_route": "semantic",
+  "selection_freeze_id": "retrieval-method-selection:724eb24082e2fa21c47fe778566d5d97e04bc33e4479a54533af107545bf2ff5",
+  "step23_complete": false
+}

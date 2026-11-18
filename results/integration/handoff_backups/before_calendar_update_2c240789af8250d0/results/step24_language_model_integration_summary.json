@@ -1,0 +1,218 @@
+{
+  "accepted_study_profiles": 0,
+  "benchmark_reruns_in_this_cell": 0,
+  "calendar_request_status": "not_fulfilled",
+  "calendar_response_explanation": "Here is your seven-day calendar with your existing basketball practices included.",
+  "checks": [
+    {
+      "check": "current_backend_response",
+      "detail": "returned",
+      "evidence": "results/integration/model_calls/step24_12_calendar_example_04",
+      "status": "pass"
+    },
+    {
+      "check": "current_response_format",
+      "detail": "outside_scope",
+      "evidence": "results/integration/model_calls/step24_12_calendar_example_04",
+      "status": "pass"
+    },
+    {
+      "check": "current_complete_prompt_budget",
+      "detail": "Includes reserved output capacity",
+      "evidence": "results/integration/model_calls/step24_12_calendar_example_04",
+      "status": "pass"
+    },
+    {
+      "check": "calendar_request_answered",
+      "detail": "Expected plan; observed outside_scope",
+      "evidence": "results/integration/model_calls/step24_12_calendar_example_04",
+      "status": "fail"
+    },
+    {
+      "check": "version_1_reference_boundary",
+      "detail": "Reference packet rejected",
+      "evidence": "results/integration/reference_packets/step24_10_example_01.json",
+      "status": "pass"
+    },
+    {
+      "check": "versions_2_4_matched_packet",
+      "detail": "Identical model-visible reference data",
+      "evidence": "results/integration/reference_packets/step24_10_example_01.json",
+      "status": "pass"
+    },
+    {
+      "check": "saved_references_lookup",
+      "detail": "found",
+      "evidence": "results/integration/reference_tools/example_722784ccdcf8.json",
+      "status": "pass"
+    },
+    {
+      "check": "saved_food_lookup",
+      "detail": "found",
+      "evidence": "results/integration/reference_tools/example_722784ccdcf8.json",
+      "status": "pass"
+    },
+    {
+      "check": "saved_drill_availability",
+      "detail": "not_eligible",
+      "evidence": "results/integration/reference_tools/example_722784ccdcf8.json",
+      "status": "pass"
+    },
+    {
+      "check": "saved_exercise_availability",
+      "detail": "not_eligible",
+      "evidence": "results/integration/reference_tools/example_722784ccdcf8.json",
+      "status": "pass"
+    },
+    {
+      "check": "saved_rules_availability",
+      "detail": "unavailable",
+      "evidence": "results/integration/reference_tools/example_722784ccdcf8.json",
+      "status": "pass"
+    },
+    {
+      "check": "earlier_exact_echo_fixture",
+      "detail": "Original emoji mismatch retained",
+      "evidence": "results/integration/chat_compatibility/checks_38c2bd48e7fdead4/step24_5_chat_measurement_summary.json",
+      "status": "fail"
+    },
+    {
+      "check": "reference_generation_current_configuration",
+      "detail": "Not established by these development examples",
+      "evidence": "Steps 25–31 and source review",
+      "status": "pending"
+    },
+    {
+      "check": "representative_workflow_capacity",
+      "detail": "Not established by these development examples",
+      "evidence": "Steps 25–31 and source review",
+      "status": "pending"
+    },
+    {
+      "check": "source_approvals_and_rule_adoption",
+      "detail": "Not established by these development examples",
+      "evidence": "Steps 25–31 and source review",
+      "status": "pending"
+    },
+    {
+      "check": "accepted_study_profiles",
+      "detail": "Not established by these development examples",
+      "evidence": "Steps 25–31 and source review",
+      "status": "pending"
+    },
+    {
+      "check": "operational_generation_readiness",
+      "detail": "Not established by these development examples",
+      "evidence": "Steps 25–31 and source review",
+      "status": "pending"
+    }
+  ],
+  "current_budget": {
+    "backend_added_system_prefix": "",
+    "backend_added_system_suffix": "",
+    "backend_token_count_agreement_verified": false,
+    "configured_context_tokens": 8192,
+    "counting_basis": "native_encoder_over_complete_actual_backend_render_only_prompt",
+    "effective_backend_context_verified": false,
+    "exact_submitted_content_preserved": true,
+    "input_ceiling_after_output_and_margin": 5888,
+    "local_input_tokens_with_boundary_reserve": 833,
+    "operational_generation_ready": false,
+    "output_format": "native_json_schema",
+    "output_reserve": 2048,
+    "remaining_tokens_after_all_reserves": 5055,
+    "rendered_body_tokens": 831,
+    "rendered_bos_present": false,
+    "rendered_prompt_sha256": "d8b171cb16ca3ae6f6a121d2b97debd9ccea55043d4e9ed3c7754cc1fa2ec0bf",
+    "request_sha256": "7fa49d6b4731e50638fb9ce7c9e52ed7a235d270e6dfc7ed8c577a3527cbb97a",
+    "safety_margin": 256,
+    "status": "within_local_budget",
+    "token_count_is_provisional": true,
+    "unverified_boundary_reserve": 2
+  },
+  "current_configuration": {
+    "automatic_repairs": 0,
+    "automatic_retries": 0,
+    "boundary_reserve_tokens": 2,
+    "concurrent_model_requests": 1,
+    "contracts_directory": "artifacts/language_model/shared_contracts/contracts_3293242853ce2cf7",
+    "endpoint": "http://127.0.0.1:11434/api/chat",
+    "fresh_messages_per_job": true,
+    "model": "llama3.1:8b",
+    "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+    "operational_generation_ready": false,
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 2048,
+      "seed": 42,
+      "temperature": 0
+    },
+    "output_mode": "native_json_schema",
+    "packet_policy_version": "shared-reference-packet-policy-1",
+    "prompt_version": "shared-json-instructions-5",
+    "purpose": "Shared development foundation; final operating limits remain pending.",
+    "quantization": "Q4_K_M",
+    "reference_access": {
+      "1": "none",
+      "2_3_4": "same_case_same_packet"
+    },
+    "reference_packet_tokens": 2200,
+    "runtime_version_from_saved_response": "0.40.16",
+    "safety_margin_tokens": 256,
+    "schema_version": "step24-integration-1",
+    "stream": false,
+    "timeouts_seconds": {
+      "generation": 120,
+      "metadata": 8,
+      "render": 60
+    }
+  },
+  "current_configuration_reference_generation_verified": false,
+  "current_observed_response_type": "outside_scope",
+  "current_response_format_valid": true,
+  "earlier_diagnostic_status": "saved_response_differences_recorded_original_gate_preserved",
+  "earlier_exact_echo_compatibility": false,
+  "earlier_fixture_count_agreement": true,
+  "evidence_sha256": {
+    "artifacts/language_model/shared_contracts/contracts_3293242853ce2cf7/planner_response_schema.json": "5e812df290ffe5bfbdf17c847abbe7136fa5eae5c084d815caab5a5e5bd1f6f8",
+    "artifacts/language_model/shared_contracts/contracts_3293242853ce2cf7/public_input.py": "56d406a462a35687aaa69fd1820140aca80e6386b22452e9032b5f8d7a12835c",
+    "artifacts/language_model/shared_contracts/contracts_3293242853ce2cf7/public_profile_record_schema.json": "c608b6a369395ef578cd4aa77b709a5e50889ef7e9a2e715b0904fb55c3da2c8",
+    "artifacts/language_model/shared_contracts/contracts_3293242853ce2cf7/response_contract.py": "572bf36fc98056eff77a6d63b428703f1315e5056d935ed6b6815171b7e57ac5",
+    "results/integration/chat_compatibility/checks_38c2bd48e7fdead4/step24_5_chat_measurement_summary.json": "40d3af96d6c7311522e031134fac88acd6afc35bb43c7ad0e81afb1641ee4f41",
+    "results/integration/chat_diagnostics/diagnostic_1a28dcb3b1151c49/step24_6_response_diagnosis_summary.json": "af51af8c51f6878cb14d2ee66a3f133e54d15b13f9fa15f0c858f000c25e42e2",
+    "results/integration/model_calls/step24_11_reference_example_01/request.json": "568d592b60221c3299c68074978a164643c5dac72fd1ad250f05ac025a94b63f",
+    "results/integration/model_calls/step24_11_reference_example_01/result.json": "9b652646179d0ca48db51c3607cf39cfccaa6ccdd1431c6da103e84296536992",
+    "results/integration/model_calls/step24_12_calendar_example_01/request.json": "3c0a0587a316ca67ec46244cd8a523a300ecf4f66bb65564c5722e6fb506b768",
+    "results/integration/model_calls/step24_12_calendar_example_01/result.json": "d711166536dbb7614d07ca08fb50cb28a06383539bfaefad83bae7fc4ffcb030",
+    "results/integration/model_calls/step24_12_calendar_example_02/request.json": "f8660f13e465b912e6f88305a4b6cd481363e0890e755ac506af0de45877b6aa",
+    "results/integration/model_calls/step24_12_calendar_example_02/result.json": "296b7dc98f49d1cc5c64fa7e0d58bc0236bd61811f25ca930daf88e403850988",
+    "results/integration/model_calls/step24_12_calendar_example_03/request.json": "ccfe31c651590fe8e478f3b9875318b0dff3015147f6c33d0ecf93cb0814537f",
+    "results/integration/model_calls/step24_12_calendar_example_03/result.json": "067741feb3cc98919baccdce0c29932396fc366e2d552429f87c26899dd8e03e",
+    "results/integration/model_calls/step24_12_calendar_example_04/backend_response.json": "9f5804f88925c7dc9da5bbb53736568c91a05a43a0aebcef19ff41cba8813017",
+    "results/integration/model_calls/step24_12_calendar_example_04/rendered_prompt.txt": "d8b171cb16ca3ae6f6a121d2b97debd9ccea55043d4e9ed3c7754cc1fa2ec0bf",
+    "results/integration/model_calls/step24_12_calendar_example_04/request.json": "9003dd6eda8d1726e4aee5dba545c0ea8820ed500b4970060fbd69f520a6a7c2",
+    "results/integration/model_calls/step24_12_calendar_example_04/result.json": "7597d09c78fa3336a8dfd701c3a884d82e89d68a9f6288fc66743215a8f08af2",
+    "results/integration/model_calls/step24_8_example_01/request.json": "aa1f941b82265350efdc855b4c52f9251e8e42c19cc661f888caf560a5c457bc",
+    "results/integration/model_calls/step24_8_example_01/result.json": "a09e140bdc903d54fabd1866594797e4ee5e8c2e0eae502a913ac2c97d04231f",
+    "results/integration/model_calls/step24_8_example_02/request.json": "c8714a2c9bc29b0878165c96c9700ca81782dc2a464a79348f40cc5b21c82e5b",
+    "results/integration/model_calls/step24_8_example_02/result.json": "7498e8a884a201fdac97a2a44ee6c1f8a2908dfb8fb394e9a6877112453ea1bb",
+    "results/integration/reference_packets/step24_10_example_01.json": "d5de8d5b647630f29fc92bed86cd937e6967e2c20ab8657faa26f2d061fc2304",
+    "results/integration/reference_tools/example_722784ccdcf8.json": "fba623964630c5c797b066375d67e3843362ca92e5a001ca83af0693a9bc0ee2",
+    "src/champion_athletic_map/llm.py": "082328472fed3cf67f8a473fa0e041cd5a6bf1714785d754f4fbe6a35d2dd8d8",
+    "src/champion_athletic_map/reference_packets.py": "ab3ab6e9674d810dcca1ffd8ea98a71dec5a19513b1ded225fac307528378dac",
+    "src/champion_athletic_map/reference_tools.py": "e763d1d45c09e0a73bd8c9a36e07ae8be4ca664247f032ff17f6edf81f4f02ee"
+  },
+  "http_requests_in_this_cell": 0,
+  "model_calls_in_this_cell": 0,
+  "operational_generation_ready": false,
+  "output_sha256": {
+    "artifacts/language_model/integration_config.json": "22803ae95f8ad65c29126438c0d39125b4718ea940bf8470e769ab96c941928e",
+    "docs/model_integration.md": "8097b2ef559fac0ebb93a8d4ed73348d72326bd4cfe7569aa803e3c5ed13c3a5",
+    "docs/reference_tool_contracts.md": "df1e49fb7b3ef40f42d541e16e336241fda8040e6a12c133828679388e36d4e2",
+    "results/integration/development_checks.csv": "1b09462f8383dec5e25da6a3c217585ff264572ec054f1a8340ccec2f8195378",
+    "results/integration/development_run_log.jsonl": "ecc68fb550af2155b3762ccf93230f9ee339dab49dc6bae1644cd34a0630e5e9"
+  },
+  "ready_for_step25": "development_with_documented_limitations",
+  "schema_version": "step24-integration-summary-1",
+  "status": "shared_integration_saved_with_behavior_limitations"
+}

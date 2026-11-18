@@ -1,0 +1,18 @@
+{
+  "queries": [
+    "Basketball practice; Add a 20-minute basketball sessi; goals [\"Improve defense\"]; experience {\"experience; equipment [\"Basketball\"]; space none; people 1",
+    "Youth basketball participation, rest and recovery; age 15; grade 9; commitments [\"practice\"]; request Add a 20-minute basketball session this week "
+  ],
+  "query_records": [
+    {
+      "query_id": "retrieval-query:09704e4bc715d832f2c1e0766857ed701d903fdc0dbac70666b3ddf7779c558c",
+      "text": "Basketball practice; Add a 20-minute basketball sessi; goals [\"Improve defense\"]; experience {\"experience; equipment [\"Basketball\"]; space none; people 1",
+      "text_sha256": "a7a9bd8fea573100519b55795808ec83fdbb2b47a7943b58266ba5ce6a5d6b9c"
+    },
+    {
+      "query_id": "retrieval-query:c3f70ef87bd4f4747faaad233266b063ae59c4f98fae6736f7ecd0e997b41e84",
+      "text": "Youth basketball participation, rest and recovery; age 15; grade 9; commitments [\"practice\"]; request Add a 20-minute basketball session this week ",
+      "text_sha256": "d037042c26f81ad164977d1f7286f40fd27d3f9dfee7df3da80289308b9a784c"
+    }
+  ]
+}

@@ -1,0 +1,769 @@
+model,actual_index,predicted_index,actual_label,predicted_label,count,row_proportion
+majority,0,0,abdominals,abdominals,101,1.0
+majority,0,1,abdominals,abductors,0,0.0
+majority,0,2,abdominals,adductors,0,0.0
+majority,0,3,abdominals,biceps,0,0.0
+majority,0,4,abdominals,calves,0,0.0
+majority,0,5,abdominals,chest,0,0.0
+majority,0,6,abdominals,forearms,0,0.0
+majority,0,7,abdominals,glutes,0,0.0
+majority,0,8,abdominals,hamstrings,0,0.0
+majority,0,9,abdominals,lats,0,0.0
+majority,0,10,abdominals,lower back,0,0.0
+majority,0,11,abdominals,middle back,0,0.0
+majority,0,12,abdominals,quadriceps,0,0.0
+majority,0,13,abdominals,shoulders,0,0.0
+majority,0,14,abdominals,traps,0,0.0
+majority,0,15,abdominals,triceps,0,0.0
+majority,1,0,abductors,abdominals,4,1.0
+majority,1,1,abductors,abductors,0,0.0
+majority,1,2,abductors,adductors,0,0.0
+majority,1,3,abductors,biceps,0,0.0
+majority,1,4,abductors,calves,0,0.0
+majority,1,5,abductors,chest,0,0.0
+majority,1,6,abductors,forearms,0,0.0
+majority,1,7,abductors,glutes,0,0.0
+majority,1,8,abductors,hamstrings,0,0.0
+majority,1,9,abductors,lats,0,0.0
+majority,1,10,abductors,lower back,0,0.0
+majority,1,11,abductors,middle back,0,0.0
+majority,1,12,abductors,quadriceps,0,0.0
+majority,1,13,abductors,shoulders,0,0.0
+majority,1,14,abductors,traps,0,0.0
+majority,1,15,abductors,triceps,0,0.0
+majority,2,0,adductors,abdominals,2,1.0
+majority,2,1,adductors,abductors,0,0.0
+majority,2,2,adductors,adductors,0,0.0
+majority,2,3,adductors,biceps,0,0.0
+majority,2,4,adductors,calves,0,0.0
+majority,2,5,adductors,chest,0,0.0
+majority,2,6,adductors,forearms,0,0.0
+majority,2,7,adductors,glutes,0,0.0
+majority,2,8,adductors,hamstrings,0,0.0
+majority,2,9,adductors,lats,0,0.0
+majority,2,10,adductors,lower back,0,0.0
+majority,2,11,adductors,middle back,0,0.0
+majority,2,12,adductors,quadriceps,0,0.0
+majority,2,13,adductors,shoulders,0,0.0
+majority,2,14,adductors,traps,0,0.0
+majority,2,15,adductors,triceps,0,0.0
+majority,3,0,biceps,abdominals,28,1.0
+majority,3,1,biceps,abductors,0,0.0
+majority,3,2,biceps,adductors,0,0.0
+majority,3,3,biceps,biceps,0,0.0
+majority,3,4,biceps,calves,0,0.0
+majority,3,5,biceps,chest,0,0.0
+majority,3,6,biceps,forearms,0,0.0
+majority,3,7,biceps,glutes,0,0.0
+majority,3,8,biceps,hamstrings,0,0.0
+majority,3,9,biceps,lats,0,0.0
+majority,3,10,biceps,lower back,0,0.0
+majority,3,11,biceps,middle back,0,0.0
+majority,3,12,biceps,quadriceps,0,0.0
+majority,3,13,biceps,shoulders,0,0.0
+majority,3,14,biceps,traps,0,0.0
+majority,3,15,biceps,triceps,0,0.0
+majority,4,0,calves,abdominals,7,1.0
+majority,4,1,calves,abductors,0,0.0
+majority,4,2,calves,adductors,0,0.0
+majority,4,3,calves,biceps,0,0.0
+majority,4,4,calves,calves,0,0.0
+majority,4,5,calves,chest,0,0.0
+majority,4,6,calves,forearms,0,0.0
+majority,4,7,calves,glutes,0,0.0
+majority,4,8,calves,hamstrings,0,0.0
+majority,4,9,calves,lats,0,0.0
+majority,4,10,calves,lower back,0,0.0
+majority,4,11,calves,middle back,0,0.0
+majority,4,12,calves,quadriceps,0,0.0
+majority,4,13,calves,shoulders,0,0.0
+majority,4,14,calves,traps,0,0.0
+majority,4,15,calves,triceps,0,0.0
+majority,5,0,chest,abdominals,43,1.0
+majority,5,1,chest,abductors,0,0.0
+majority,5,2,chest,adductors,0,0.0
+majority,5,3,chest,biceps,0,0.0
+majority,5,4,chest,calves,0,0.0
+majority,5,5,chest,chest,0,0.0
+majority,5,6,chest,forearms,0,0.0
+majority,5,7,chest,glutes,0,0.0
+majority,5,8,chest,hamstrings,0,0.0
+majority,5,9,chest,lats,0,0.0
+majority,5,10,chest,lower back,0,0.0
+majority,5,11,chest,middle back,0,0.0
+majority,5,12,chest,quadriceps,0,0.0
+majority,5,13,chest,shoulders,0,0.0
+majority,5,14,chest,traps,0,0.0
+majority,5,15,chest,triceps,0,0.0
+majority,6,0,forearms,abdominals,6,1.0
+majority,6,1,forearms,abductors,0,0.0
+majority,6,2,forearms,adductors,0,0.0
+majority,6,3,forearms,biceps,0,0.0
+majority,6,4,forearms,calves,0,0.0
+majority,6,5,forearms,chest,0,0.0
+majority,6,6,forearms,forearms,0,0.0
+majority,6,7,forearms,glutes,0,0.0
+majority,6,8,forearms,hamstrings,0,0.0
+majority,6,9,forearms,lats,0,0.0
+majority,6,10,forearms,lower back,0,0.0
+majority,6,11,forearms,middle back,0,0.0
+majority,6,12,forearms,quadriceps,0,0.0
+majority,6,13,forearms,shoulders,0,0.0
+majority,6,14,forearms,traps,0,0.0
+majority,6,15,forearms,triceps,0,0.0
+majority,7,0,glutes,abdominals,14,1.0
+majority,7,1,glutes,abductors,0,0.0
+majority,7,2,glutes,adductors,0,0.0
+majority,7,3,glutes,biceps,0,0.0
+majority,7,4,glutes,calves,0,0.0
+majority,7,5,glutes,chest,0,0.0
+majority,7,6,glutes,forearms,0,0.0
+majority,7,7,glutes,glutes,0,0.0
+majority,7,8,glutes,hamstrings,0,0.0
+majority,7,9,glutes,lats,0,0.0
+majority,7,10,glutes,lower back,0,0.0
+majority,7,11,glutes,middle back,0,0.0
+majority,7,12,glutes,quadriceps,0,0.0
+majority,7,13,glutes,shoulders,0,0.0
+majority,7,14,glutes,traps,0,0.0
+majority,7,15,glutes,triceps,0,0.0
+majority,8,0,hamstrings,abdominals,16,1.0
+majority,8,1,hamstrings,abductors,0,0.0
+majority,8,2,hamstrings,adductors,0,0.0
+majority,8,3,hamstrings,biceps,0,0.0
+majority,8,4,hamstrings,calves,0,0.0
+majority,8,5,hamstrings,chest,0,0.0
+majority,8,6,hamstrings,forearms,0,0.0
+majority,8,7,hamstrings,glutes,0,0.0
+majority,8,8,hamstrings,hamstrings,0,0.0
+majority,8,9,hamstrings,lats,0,0.0
+majority,8,10,hamstrings,lower back,0,0.0
+majority,8,11,hamstrings,middle back,0,0.0
+majority,8,12,hamstrings,quadriceps,0,0.0
+majority,8,13,hamstrings,shoulders,0,0.0
+majority,8,14,hamstrings,traps,0,0.0
+majority,8,15,hamstrings,triceps,0,0.0
+majority,9,0,lats,abdominals,22,1.0
+majority,9,1,lats,abductors,0,0.0
+majority,9,2,lats,adductors,0,0.0
+majority,9,3,lats,biceps,0,0.0
+majority,9,4,lats,calves,0,0.0
+majority,9,5,lats,chest,0,0.0
+majority,9,6,lats,forearms,0,0.0
+majority,9,7,lats,glutes,0,0.0
+majority,9,8,lats,hamstrings,0,0.0
+majority,9,9,lats,lats,0,0.0
+majority,9,10,lats,lower back,0,0.0
+majority,9,11,lats,middle back,0,0.0
+majority,9,12,lats,quadriceps,0,0.0
+majority,9,13,lats,shoulders,0,0.0
+majority,9,14,lats,traps,0,0.0
+majority,9,15,lats,triceps,0,0.0
+majority,10,0,lower back,abdominals,8,1.0
+majority,10,1,lower back,abductors,0,0.0
+majority,10,2,lower back,adductors,0,0.0
+majority,10,3,lower back,biceps,0,0.0
+majority,10,4,lower back,calves,0,0.0
+majority,10,5,lower back,chest,0,0.0
+majority,10,6,lower back,forearms,0,0.0
+majority,10,7,lower back,glutes,0,0.0
+majority,10,8,lower back,hamstrings,0,0.0
+majority,10,9,lower back,lats,0,0.0
+majority,10,10,lower back,lower back,0,0.0
+majority,10,11,lower back,middle back,0,0.0
+majority,10,12,lower back,quadriceps,0,0.0
+majority,10,13,lower back,shoulders,0,0.0
+majority,10,14,lower back,traps,0,0.0
+majority,10,15,lower back,triceps,0,0.0
+majority,11,0,middle back,abdominals,15,1.0
+majority,11,1,middle back,abductors,0,0.0
+majority,11,2,middle back,adductors,0,0.0
+majority,11,3,middle back,biceps,0,0.0
+majority,11,4,middle back,calves,0,0.0
+majority,11,5,middle back,chest,0,0.0
+majority,11,6,middle back,forearms,0,0.0
+majority,11,7,middle back,glutes,0,0.0
+majority,11,8,middle back,hamstrings,0,0.0
+majority,11,9,middle back,lats,0,0.0
+majority,11,10,middle back,lower back,0,0.0
+majority,11,11,middle back,middle back,0,0.0
+majority,11,12,middle back,quadriceps,0,0.0
+majority,11,13,middle back,shoulders,0,0.0
+majority,11,14,middle back,traps,0,0.0
+majority,11,15,middle back,triceps,0,0.0
+majority,12,0,quadriceps,abdominals,97,1.0
+majority,12,1,quadriceps,abductors,0,0.0
+majority,12,2,quadriceps,adductors,0,0.0
+majority,12,3,quadriceps,biceps,0,0.0
+majority,12,4,quadriceps,calves,0,0.0
+majority,12,5,quadriceps,chest,0,0.0
+majority,12,6,quadriceps,forearms,0,0.0
+majority,12,7,quadriceps,glutes,0,0.0
+majority,12,8,quadriceps,hamstrings,0,0.0
+majority,12,9,quadriceps,lats,0,0.0
+majority,12,10,quadriceps,lower back,0,0.0
+majority,12,11,quadriceps,middle back,0,0.0
+majority,12,12,quadriceps,quadriceps,0,0.0
+majority,12,13,quadriceps,shoulders,0,0.0
+majority,12,14,quadriceps,traps,0,0.0
+majority,12,15,quadriceps,triceps,0,0.0
+majority,13,0,shoulders,abdominals,43,1.0
+majority,13,1,shoulders,abductors,0,0.0
+majority,13,2,shoulders,adductors,0,0.0
+majority,13,3,shoulders,biceps,0,0.0
+majority,13,4,shoulders,calves,0,0.0
+majority,13,5,shoulders,chest,0,0.0
+majority,13,6,shoulders,forearms,0,0.0
+majority,13,7,shoulders,glutes,0,0.0
+majority,13,8,shoulders,hamstrings,0,0.0
+majority,13,9,shoulders,lats,0,0.0
+majority,13,10,shoulders,lower back,0,0.0
+majority,13,11,shoulders,middle back,0,0.0
+majority,13,12,shoulders,quadriceps,0,0.0
+majority,13,13,shoulders,shoulders,0,0.0
+majority,13,14,shoulders,traps,0,0.0
+majority,13,15,shoulders,triceps,0,0.0
+majority,14,0,traps,abdominals,4,1.0
+majority,14,1,traps,abductors,0,0.0
+majority,14,2,traps,adductors,0,0.0
+majority,14,3,traps,biceps,0,0.0
+majority,14,4,traps,calves,0,0.0
+majority,14,5,traps,chest,0,0.0
+majority,14,6,traps,forearms,0,0.0
+majority,14,7,traps,glutes,0,0.0
+majority,14,8,traps,hamstrings,0,0.0
+majority,14,9,traps,lats,0,0.0
+majority,14,10,traps,lower back,0,0.0
+majority,14,11,traps,middle back,0,0.0
+majority,14,12,traps,quadriceps,0,0.0
+majority,14,13,traps,shoulders,0,0.0
+majority,14,14,traps,traps,0,0.0
+majority,14,15,traps,triceps,0,0.0
+majority,15,0,triceps,abdominals,28,1.0
+majority,15,1,triceps,abductors,0,0.0
+majority,15,2,triceps,adductors,0,0.0
+majority,15,3,triceps,biceps,0,0.0
+majority,15,4,triceps,calves,0,0.0
+majority,15,5,triceps,chest,0,0.0
+majority,15,6,triceps,forearms,0,0.0
+majority,15,7,triceps,glutes,0,0.0
+majority,15,8,triceps,hamstrings,0,0.0
+majority,15,9,triceps,lats,0,0.0
+majority,15,10,triceps,lower back,0,0.0
+majority,15,11,triceps,middle back,0,0.0
+majority,15,12,triceps,quadriceps,0,0.0
+majority,15,13,triceps,shoulders,0,0.0
+majority,15,14,triceps,traps,0,0.0
+majority,15,15,triceps,triceps,0,0.0
+logistic_regression,0,0,abdominals,abdominals,77,0.7623762376237624
+logistic_regression,0,1,abdominals,abductors,0,0.0
+logistic_regression,0,2,abdominals,adductors,1,0.009900990099009901
+logistic_regression,0,3,abdominals,biceps,0,0.0
+logistic_regression,0,4,abdominals,calves,0,0.0
+logistic_regression,0,5,abdominals,chest,2,0.019801980198019802
+logistic_regression,0,6,abdominals,forearms,0,0.0
+logistic_regression,0,7,abdominals,glutes,2,0.019801980198019802
+logistic_regression,0,8,abdominals,hamstrings,2,0.019801980198019802
+logistic_regression,0,9,abdominals,lats,4,0.039603960396039604
+logistic_regression,0,10,abdominals,lower back,0,0.0
+logistic_regression,0,11,abdominals,middle back,1,0.009900990099009901
+logistic_regression,0,12,abdominals,quadriceps,9,0.0891089108910891
+logistic_regression,0,13,abdominals,shoulders,2,0.019801980198019802
+logistic_regression,0,14,abdominals,traps,0,0.0
+logistic_regression,0,15,abdominals,triceps,1,0.009900990099009901
+logistic_regression,1,0,abductors,abdominals,0,0.0
+logistic_regression,1,1,abductors,abductors,0,0.0
+logistic_regression,1,2,abductors,adductors,1,0.25
+logistic_regression,1,3,abductors,biceps,0,0.0
+logistic_regression,1,4,abductors,calves,1,0.25
+logistic_regression,1,5,abductors,chest,0,0.0
+logistic_regression,1,6,abductors,forearms,0,0.0
+logistic_regression,1,7,abductors,glutes,1,0.25
+logistic_regression,1,8,abductors,hamstrings,0,0.0
+logistic_regression,1,9,abductors,lats,0,0.0
+logistic_regression,1,10,abductors,lower back,0,0.0
+logistic_regression,1,11,abductors,middle back,0,0.0
+logistic_regression,1,12,abductors,quadriceps,1,0.25
+logistic_regression,1,13,abductors,shoulders,0,0.0
+logistic_regression,1,14,abductors,traps,0,0.0
+logistic_regression,1,15,abductors,triceps,0,0.0
+logistic_regression,2,0,adductors,abdominals,1,0.5
+logistic_regression,2,1,adductors,abductors,0,0.0
+logistic_regression,2,2,adductors,adductors,0,0.0
+logistic_regression,2,3,adductors,biceps,0,0.0
+logistic_regression,2,4,adductors,calves,0,0.0
+logistic_regression,2,5,adductors,chest,0,0.0
+logistic_regression,2,6,adductors,forearms,0,0.0
+logistic_regression,2,7,adductors,glutes,0,0.0
+logistic_regression,2,8,adductors,hamstrings,0,0.0
+logistic_regression,2,9,adductors,lats,0,0.0
+logistic_regression,2,10,adductors,lower back,0,0.0
+logistic_regression,2,11,adductors,middle back,0,0.0
+logistic_regression,2,12,adductors,quadriceps,1,0.5
+logistic_regression,2,13,adductors,shoulders,0,0.0
+logistic_regression,2,14,adductors,traps,0,0.0
+logistic_regression,2,15,adductors,triceps,0,0.0
+logistic_regression,3,0,biceps,abdominals,0,0.0
+logistic_regression,3,1,biceps,abductors,0,0.0
+logistic_regression,3,2,biceps,adductors,0,0.0
+logistic_regression,3,3,biceps,biceps,27,0.9642857142857143
+logistic_regression,3,4,biceps,calves,0,0.0
+logistic_regression,3,5,biceps,chest,0,0.0
+logistic_regression,3,6,biceps,forearms,0,0.0
+logistic_regression,3,7,biceps,glutes,0,0.0
+logistic_regression,3,8,biceps,hamstrings,0,0.0
+logistic_regression,3,9,biceps,lats,0,0.0
+logistic_regression,3,10,biceps,lower back,0,0.0
+logistic_regression,3,11,biceps,middle back,0,0.0
+logistic_regression,3,12,biceps,quadriceps,0,0.0
+logistic_regression,3,13,biceps,shoulders,1,0.03571428571428571
+logistic_regression,3,14,biceps,traps,0,0.0
+logistic_regression,3,15,biceps,triceps,0,0.0
+logistic_regression,4,0,calves,abdominals,0,0.0
+logistic_regression,4,1,calves,abductors,1,0.14285714285714285
+logistic_regression,4,2,calves,adductors,1,0.14285714285714285
+logistic_regression,4,3,calves,biceps,0,0.0
+logistic_regression,4,4,calves,calves,5,0.7142857142857143
+logistic_regression,4,5,calves,chest,0,0.0
+logistic_regression,4,6,calves,forearms,0,0.0
+logistic_regression,4,7,calves,glutes,0,0.0
+logistic_regression,4,8,calves,hamstrings,0,0.0
+logistic_regression,4,9,calves,lats,0,0.0
+logistic_regression,4,10,calves,lower back,0,0.0
+logistic_regression,4,11,calves,middle back,0,0.0
+logistic_regression,4,12,calves,quadriceps,0,0.0
+logistic_regression,4,13,calves,shoulders,0,0.0
+logistic_regression,4,14,calves,traps,0,0.0
+logistic_regression,4,15,calves,triceps,0,0.0
+logistic_regression,5,0,chest,abdominals,3,0.06976744186046512
+logistic_regression,5,1,chest,abductors,0,0.0
+logistic_regression,5,2,chest,adductors,0,0.0
+logistic_regression,5,3,chest,biceps,0,0.0
+logistic_regression,5,4,chest,calves,0,0.0
+logistic_regression,5,5,chest,chest,35,0.813953488372093
+logistic_regression,5,6,chest,forearms,0,0.0
+logistic_regression,5,7,chest,glutes,3,0.06976744186046512
+logistic_regression,5,8,chest,hamstrings,0,0.0
+logistic_regression,5,9,chest,lats,0,0.0
+logistic_regression,5,10,chest,lower back,0,0.0
+logistic_regression,5,11,chest,middle back,1,0.023255813953488372
+logistic_regression,5,12,chest,quadriceps,0,0.0
+logistic_regression,5,13,chest,shoulders,0,0.0
+logistic_regression,5,14,chest,traps,0,0.0
+logistic_regression,5,15,chest,triceps,1,0.023255813953488372
+logistic_regression,6,0,forearms,abdominals,1,0.16666666666666666
+logistic_regression,6,1,forearms,abductors,0,0.0
+logistic_regression,6,2,forearms,adductors,0,0.0
+logistic_regression,6,3,forearms,biceps,0,0.0
+logistic_regression,6,4,forearms,calves,0,0.0
+logistic_regression,6,5,forearms,chest,0,0.0
+logistic_regression,6,6,forearms,forearms,3,0.5
+logistic_regression,6,7,forearms,glutes,0,0.0
+logistic_regression,6,8,forearms,hamstrings,1,0.16666666666666666
+logistic_regression,6,9,forearms,lats,0,0.0
+logistic_regression,6,10,forearms,lower back,0,0.0
+logistic_regression,6,11,forearms,middle back,0,0.0
+logistic_regression,6,12,forearms,quadriceps,0,0.0
+logistic_regression,6,13,forearms,shoulders,1,0.16666666666666666
+logistic_regression,6,14,forearms,traps,0,0.0
+logistic_regression,6,15,forearms,triceps,0,0.0
+logistic_regression,7,0,glutes,abdominals,1,0.07142857142857142
+logistic_regression,7,1,glutes,abductors,2,0.14285714285714285
+logistic_regression,7,2,glutes,adductors,0,0.0
+logistic_regression,7,3,glutes,biceps,0,0.0
+logistic_regression,7,4,glutes,calves,0,0.0
+logistic_regression,7,5,glutes,chest,0,0.0
+logistic_regression,7,6,glutes,forearms,0,0.0
+logistic_regression,7,7,glutes,glutes,6,0.42857142857142855
+logistic_regression,7,8,glutes,hamstrings,1,0.07142857142857142
+logistic_regression,7,9,glutes,lats,0,0.0
+logistic_regression,7,10,glutes,lower back,1,0.07142857142857142
+logistic_regression,7,11,glutes,middle back,0,0.0
+logistic_regression,7,12,glutes,quadriceps,3,0.21428571428571427
+logistic_regression,7,13,glutes,shoulders,0,0.0
+logistic_regression,7,14,glutes,traps,0,0.0
+logistic_regression,7,15,glutes,triceps,0,0.0
+logistic_regression,8,0,hamstrings,abdominals,1,0.0625
+logistic_regression,8,1,hamstrings,abductors,2,0.125
+logistic_regression,8,2,hamstrings,adductors,0,0.0
+logistic_regression,8,3,hamstrings,biceps,0,0.0
+logistic_regression,8,4,hamstrings,calves,0,0.0
+logistic_regression,8,5,hamstrings,chest,0,0.0
+logistic_regression,8,6,hamstrings,forearms,0,0.0
+logistic_regression,8,7,hamstrings,glutes,2,0.125
+logistic_regression,8,8,hamstrings,hamstrings,8,0.5
+logistic_regression,8,9,hamstrings,lats,0,0.0
+logistic_regression,8,10,hamstrings,lower back,0,0.0
+logistic_regression,8,11,hamstrings,middle back,0,0.0
+logistic_regression,8,12,hamstrings,quadriceps,1,0.0625
+logistic_regression,8,13,hamstrings,shoulders,2,0.125
+logistic_regression,8,14,hamstrings,traps,0,0.0
+logistic_regression,8,15,hamstrings,triceps,0,0.0
+logistic_regression,9,0,lats,abdominals,1,0.045454545454545456
+logistic_regression,9,1,lats,abductors,0,0.0
+logistic_regression,9,2,lats,adductors,1,0.045454545454545456
+logistic_regression,9,3,lats,biceps,0,0.0
+logistic_regression,9,4,lats,calves,0,0.0
+logistic_regression,9,5,lats,chest,0,0.0
+logistic_regression,9,6,lats,forearms,0,0.0
+logistic_regression,9,7,lats,glutes,0,0.0
+logistic_regression,9,8,lats,hamstrings,0,0.0
+logistic_regression,9,9,lats,lats,15,0.6818181818181818
+logistic_regression,9,10,lats,lower back,0,0.0
+logistic_regression,9,11,lats,middle back,2,0.09090909090909091
+logistic_regression,9,12,lats,quadriceps,1,0.045454545454545456
+logistic_regression,9,13,lats,shoulders,1,0.045454545454545456
+logistic_regression,9,14,lats,traps,1,0.045454545454545456
+logistic_regression,9,15,lats,triceps,0,0.0
+logistic_regression,10,0,lower back,abdominals,1,0.125
+logistic_regression,10,1,lower back,abductors,0,0.0
+logistic_regression,10,2,lower back,adductors,0,0.0
+logistic_regression,10,3,lower back,biceps,0,0.0
+logistic_regression,10,4,lower back,calves,0,0.0
+logistic_regression,10,5,lower back,chest,0,0.0
+logistic_regression,10,6,lower back,forearms,0,0.0
+logistic_regression,10,7,lower back,glutes,0,0.0
+logistic_regression,10,8,lower back,hamstrings,1,0.125
+logistic_regression,10,9,lower back,lats,0,0.0
+logistic_regression,10,10,lower back,lower back,6,0.75
+logistic_regression,10,11,lower back,middle back,0,0.0
+logistic_regression,10,12,lower back,quadriceps,0,0.0
+logistic_regression,10,13,lower back,shoulders,0,0.0
+logistic_regression,10,14,lower back,traps,0,0.0
+logistic_regression,10,15,lower back,triceps,0,0.0
+logistic_regression,11,0,middle back,abdominals,2,0.13333333333333333
+logistic_regression,11,1,middle back,abductors,0,0.0
+logistic_regression,11,2,middle back,adductors,0,0.0
+logistic_regression,11,3,middle back,biceps,0,0.0
+logistic_regression,11,4,middle back,calves,0,0.0
+logistic_regression,11,5,middle back,chest,0,0.0
+logistic_regression,11,6,middle back,forearms,0,0.0
+logistic_regression,11,7,middle back,glutes,0,0.0
+logistic_regression,11,8,middle back,hamstrings,0,0.0
+logistic_regression,11,9,middle back,lats,3,0.2
+logistic_regression,11,10,middle back,lower back,1,0.06666666666666667
+logistic_regression,11,11,middle back,middle back,8,0.5333333333333333
+logistic_regression,11,12,middle back,quadriceps,1,0.06666666666666667
+logistic_regression,11,13,middle back,shoulders,0,0.0
+logistic_regression,11,14,middle back,traps,0,0.0
+logistic_regression,11,15,middle back,triceps,0,0.0
+logistic_regression,12,0,quadriceps,abdominals,10,0.10309278350515463
+logistic_regression,12,1,quadriceps,abductors,4,0.041237113402061855
+logistic_regression,12,2,quadriceps,adductors,1,0.010309278350515464
+logistic_regression,12,3,quadriceps,biceps,1,0.010309278350515464
+logistic_regression,12,4,quadriceps,calves,0,0.0
+logistic_regression,12,5,quadriceps,chest,0,0.0
+logistic_regression,12,6,quadriceps,forearms,0,0.0
+logistic_regression,12,7,quadriceps,glutes,1,0.010309278350515464
+logistic_regression,12,8,quadriceps,hamstrings,3,0.030927835051546393
+logistic_regression,12,9,quadriceps,lats,0,0.0
+logistic_regression,12,10,quadriceps,lower back,3,0.030927835051546393
+logistic_regression,12,11,quadriceps,middle back,2,0.020618556701030927
+logistic_regression,12,12,quadriceps,quadriceps,70,0.7216494845360825
+logistic_regression,12,13,quadriceps,shoulders,2,0.020618556701030927
+logistic_regression,12,14,quadriceps,traps,0,0.0
+logistic_regression,12,15,quadriceps,triceps,0,0.0
+logistic_regression,13,0,shoulders,abdominals,4,0.09302325581395349
+logistic_regression,13,1,shoulders,abductors,0,0.0
+logistic_regression,13,2,shoulders,adductors,0,0.0
+logistic_regression,13,3,shoulders,biceps,0,0.0
+logistic_regression,13,4,shoulders,calves,1,0.023255813953488372
+logistic_regression,13,5,shoulders,chest,1,0.023255813953488372
+logistic_regression,13,6,shoulders,forearms,0,0.0
+logistic_regression,13,7,shoulders,glutes,0,0.0
+logistic_regression,13,8,shoulders,hamstrings,1,0.023255813953488372
+logistic_regression,13,9,shoulders,lats,0,0.0
+logistic_regression,13,10,shoulders,lower back,1,0.023255813953488372
+logistic_regression,13,11,shoulders,middle back,0,0.0
+logistic_regression,13,12,shoulders,quadriceps,1,0.023255813953488372
+logistic_regression,13,13,shoulders,shoulders,33,0.7674418604651163
+logistic_regression,13,14,shoulders,traps,0,0.0
+logistic_regression,13,15,shoulders,triceps,1,0.023255813953488372
+logistic_regression,14,0,traps,abdominals,0,0.0
+logistic_regression,14,1,traps,abductors,0,0.0
+logistic_regression,14,2,traps,adductors,0,0.0
+logistic_regression,14,3,traps,biceps,0,0.0
+logistic_regression,14,4,traps,calves,0,0.0
+logistic_regression,14,5,traps,chest,0,0.0
+logistic_regression,14,6,traps,forearms,0,0.0
+logistic_regression,14,7,traps,glutes,0,0.0
+logistic_regression,14,8,traps,hamstrings,0,0.0
+logistic_regression,14,9,traps,lats,0,0.0
+logistic_regression,14,10,traps,lower back,0,0.0
+logistic_regression,14,11,traps,middle back,1,0.25
+logistic_regression,14,12,traps,quadriceps,0,0.0
+logistic_regression,14,13,traps,shoulders,0,0.0
+logistic_regression,14,14,traps,traps,3,0.75
+logistic_regression,14,15,traps,triceps,0,0.0
+logistic_regression,15,0,triceps,abdominals,0,0.0
+logistic_regression,15,1,triceps,abductors,0,0.0
+logistic_regression,15,2,triceps,adductors,0,0.0
+logistic_regression,15,3,triceps,biceps,0,0.0
+logistic_regression,15,4,triceps,calves,0,0.0
+logistic_regression,15,5,triceps,chest,2,0.07142857142857142
+logistic_regression,15,6,triceps,forearms,0,0.0
+logistic_regression,15,7,triceps,glutes,0,0.0
+logistic_regression,15,8,triceps,hamstrings,0,0.0
+logistic_regression,15,9,triceps,lats,0,0.0
+logistic_regression,15,10,triceps,lower back,0,0.0
+logistic_regression,15,11,triceps,middle back,0,0.0
+logistic_regression,15,12,triceps,quadriceps,0,0.0
+logistic_regression,15,13,triceps,shoulders,1,0.03571428571428571
+logistic_regression,15,14,triceps,traps,0,0.0
+logistic_regression,15,15,triceps,triceps,25,0.8928571428571429
+neural,0,0,abdominals,abdominals,73,0.7227722772277227
+neural,0,1,abdominals,abductors,1,0.009900990099009901
+neural,0,2,abdominals,adductors,1,0.009900990099009901
+neural,0,3,abdominals,biceps,0,0.0
+neural,0,4,abdominals,calves,1,0.009900990099009901
+neural,0,5,abdominals,chest,2,0.019801980198019802
+neural,0,6,abdominals,forearms,3,0.0297029702970297
+neural,0,7,abdominals,glutes,1,0.009900990099009901
+neural,0,8,abdominals,hamstrings,2,0.019801980198019802
+neural,0,9,abdominals,lats,8,0.07920792079207921
+neural,0,10,abdominals,lower back,0,0.0
+neural,0,11,abdominals,middle back,0,0.0
+neural,0,12,abdominals,quadriceps,5,0.04950495049504951
+neural,0,13,abdominals,shoulders,2,0.019801980198019802
+neural,0,14,abdominals,traps,1,0.009900990099009901
+neural,0,15,abdominals,triceps,1,0.009900990099009901
+neural,1,0,abductors,abdominals,0,0.0
+neural,1,1,abductors,abductors,0,0.0
+neural,1,2,abductors,adductors,2,0.5
+neural,1,3,abductors,biceps,0,0.0
+neural,1,4,abductors,calves,1,0.25
+neural,1,5,abductors,chest,0,0.0
+neural,1,6,abductors,forearms,0,0.0
+neural,1,7,abductors,glutes,0,0.0
+neural,1,8,abductors,hamstrings,0,0.0
+neural,1,9,abductors,lats,0,0.0
+neural,1,10,abductors,lower back,0,0.0
+neural,1,11,abductors,middle back,0,0.0
+neural,1,12,abductors,quadriceps,0,0.0
+neural,1,13,abductors,shoulders,0,0.0
+neural,1,14,abductors,traps,0,0.0
+neural,1,15,abductors,triceps,1,0.25
+neural,2,0,adductors,abdominals,0,0.0
+neural,2,1,adductors,abductors,0,0.0
+neural,2,2,adductors,adductors,0,0.0
+neural,2,3,adductors,biceps,0,0.0
+neural,2,4,adductors,calves,1,0.5
+neural,2,5,adductors,chest,0,0.0
+neural,2,6,adductors,forearms,0,0.0
+neural,2,7,adductors,glutes,0,0.0
+neural,2,8,adductors,hamstrings,0,0.0
+neural,2,9,adductors,lats,0,0.0
+neural,2,10,adductors,lower back,0,0.0
+neural,2,11,adductors,middle back,0,0.0
+neural,2,12,adductors,quadriceps,1,0.5
+neural,2,13,adductors,shoulders,0,0.0
+neural,2,14,adductors,traps,0,0.0
+neural,2,15,adductors,triceps,0,0.0
+neural,3,0,biceps,abdominals,0,0.0
+neural,3,1,biceps,abductors,0,0.0
+neural,3,2,biceps,adductors,0,0.0
+neural,3,3,biceps,biceps,27,0.9642857142857143
+neural,3,4,biceps,calves,0,0.0
+neural,3,5,biceps,chest,0,0.0
+neural,3,6,biceps,forearms,0,0.0
+neural,3,7,biceps,glutes,0,0.0
+neural,3,8,biceps,hamstrings,0,0.0
+neural,3,9,biceps,lats,1,0.03571428571428571
+neural,3,10,biceps,lower back,0,0.0
+neural,3,11,biceps,middle back,0,0.0
+neural,3,12,biceps,quadriceps,0,0.0
+neural,3,13,biceps,shoulders,0,0.0
+neural,3,14,biceps,traps,0,0.0
+neural,3,15,biceps,triceps,0,0.0
+neural,4,0,calves,abdominals,0,0.0
+neural,4,1,calves,abductors,0,0.0
+neural,4,2,calves,adductors,1,0.14285714285714285
+neural,4,3,calves,biceps,0,0.0
+neural,4,4,calves,calves,5,0.7142857142857143
+neural,4,5,calves,chest,0,0.0
+neural,4,6,calves,forearms,0,0.0
+neural,4,7,calves,glutes,0,0.0
+neural,4,8,calves,hamstrings,1,0.14285714285714285
+neural,4,9,calves,lats,0,0.0
+neural,4,10,calves,lower back,0,0.0
+neural,4,11,calves,middle back,0,0.0
+neural,4,12,calves,quadriceps,0,0.0
+neural,4,13,calves,shoulders,0,0.0
+neural,4,14,calves,traps,0,0.0
+neural,4,15,calves,triceps,0,0.0
+neural,5,0,chest,abdominals,0,0.0
+neural,5,1,chest,abductors,0,0.0
+neural,5,2,chest,adductors,0,0.0
+neural,5,3,chest,biceps,1,0.023255813953488372
+neural,5,4,chest,calves,0,0.0
+neural,5,5,chest,chest,36,0.8372093023255814
+neural,5,6,chest,forearms,0,0.0
+neural,5,7,chest,glutes,1,0.023255813953488372
+neural,5,8,chest,hamstrings,0,0.0
+neural,5,9,chest,lats,1,0.023255813953488372
+neural,5,10,chest,lower back,0,0.0
+neural,5,11,chest,middle back,0,0.0
+neural,5,12,chest,quadriceps,1,0.023255813953488372
+neural,5,13,chest,shoulders,1,0.023255813953488372
+neural,5,14,chest,traps,0,0.0
+neural,5,15,chest,triceps,2,0.046511627906976744
+neural,6,0,forearms,abdominals,1,0.16666666666666666
+neural,6,1,forearms,abductors,0,0.0
+neural,6,2,forearms,adductors,0,0.0
+neural,6,3,forearms,biceps,0,0.0
+neural,6,4,forearms,calves,0,0.0
+neural,6,5,forearms,chest,0,0.0
+neural,6,6,forearms,forearms,3,0.5
+neural,6,7,forearms,glutes,0,0.0
+neural,6,8,forearms,hamstrings,1,0.16666666666666666
+neural,6,9,forearms,lats,0,0.0
+neural,6,10,forearms,lower back,0,0.0
+neural,6,11,forearms,middle back,0,0.0
+neural,6,12,forearms,quadriceps,0,0.0
+neural,6,13,forearms,shoulders,1,0.16666666666666666
+neural,6,14,forearms,traps,0,0.0
+neural,6,15,forearms,triceps,0,0.0
+neural,7,0,glutes,abdominals,0,0.0
+neural,7,1,glutes,abductors,0,0.0
+neural,7,2,glutes,adductors,0,0.0
+neural,7,3,glutes,biceps,0,0.0
+neural,7,4,glutes,calves,0,0.0
+neural,7,5,glutes,chest,1,0.07142857142857142
+neural,7,6,glutes,forearms,0,0.0
+neural,7,7,glutes,glutes,8,0.5714285714285714
+neural,7,8,glutes,hamstrings,0,0.0
+neural,7,9,glutes,lats,0,0.0
+neural,7,10,glutes,lower back,2,0.14285714285714285
+neural,7,11,glutes,middle back,0,0.0
+neural,7,12,glutes,quadriceps,3,0.21428571428571427
+neural,7,13,glutes,shoulders,0,0.0
+neural,7,14,glutes,traps,0,0.0
+neural,7,15,glutes,triceps,0,0.0
+neural,8,0,hamstrings,abdominals,0,0.0
+neural,8,1,hamstrings,abductors,2,0.125
+neural,8,2,hamstrings,adductors,0,0.0
+neural,8,3,hamstrings,biceps,1,0.0625
+neural,8,4,hamstrings,calves,1,0.0625
+neural,8,5,hamstrings,chest,0,0.0
+neural,8,6,hamstrings,forearms,0,0.0
+neural,8,7,hamstrings,glutes,0,0.0
+neural,8,8,hamstrings,hamstrings,6,0.375
+neural,8,9,hamstrings,lats,0,0.0
+neural,8,10,hamstrings,lower back,1,0.0625
+neural,8,11,hamstrings,middle back,0,0.0
+neural,8,12,hamstrings,quadriceps,2,0.125
+neural,8,13,hamstrings,shoulders,2,0.125
+neural,8,14,hamstrings,traps,1,0.0625
+neural,8,15,hamstrings,triceps,0,0.0
+neural,9,0,lats,abdominals,1,0.045454545454545456
+neural,9,1,lats,abductors,0,0.0
+neural,9,2,lats,adductors,0,0.0
+neural,9,3,lats,biceps,1,0.045454545454545456
+neural,9,4,lats,calves,0,0.0
+neural,9,5,lats,chest,0,0.0
+neural,9,6,lats,forearms,0,0.0
+neural,9,7,lats,glutes,0,0.0
+neural,9,8,lats,hamstrings,0,0.0
+neural,9,9,lats,lats,15,0.6818181818181818
+neural,9,10,lats,lower back,0,0.0
+neural,9,11,lats,middle back,2,0.09090909090909091
+neural,9,12,lats,quadriceps,0,0.0
+neural,9,13,lats,shoulders,1,0.045454545454545456
+neural,9,14,lats,traps,1,0.045454545454545456
+neural,9,15,lats,triceps,1,0.045454545454545456
+neural,10,0,lower back,abdominals,2,0.25
+neural,10,1,lower back,abductors,0,0.0
+neural,10,2,lower back,adductors,0,0.0
+neural,10,3,lower back,biceps,1,0.125
+neural,10,4,lower back,calves,1,0.125
+neural,10,5,lower back,chest,0,0.0
+neural,10,6,lower back,forearms,0,0.0
+neural,10,7,lower back,glutes,0,0.0
+neural,10,8,lower back,hamstrings,1,0.125
+neural,10,9,lower back,lats,0,0.0
+neural,10,10,lower back,lower back,3,0.375
+neural,10,11,lower back,middle back,0,0.0
+neural,10,12,lower back,quadriceps,0,0.0
+neural,10,13,lower back,shoulders,0,0.0
+neural,10,14,lower back,traps,0,0.0
+neural,10,15,lower back,triceps,0,0.0
+neural,11,0,middle back,abdominals,1,0.06666666666666667
+neural,11,1,middle back,abductors,0,0.0
+neural,11,2,middle back,adductors,0,0.0
+neural,11,3,middle back,biceps,0,0.0
+neural,11,4,middle back,calves,0,0.0
+neural,11,5,middle back,chest,1,0.06666666666666667
+neural,11,6,middle back,forearms,0,0.0
+neural,11,7,middle back,glutes,1,0.06666666666666667
+neural,11,8,middle back,hamstrings,0,0.0
+neural,11,9,middle back,lats,3,0.2
+neural,11,10,middle back,lower back,1,0.06666666666666667
+neural,11,11,middle back,middle back,8,0.5333333333333333
+neural,11,12,middle back,quadriceps,0,0.0
+neural,11,13,middle back,shoulders,0,0.0
+neural,11,14,middle back,traps,0,0.0
+neural,11,15,middle back,triceps,0,0.0
+neural,12,0,quadriceps,abdominals,14,0.14432989690721648
+neural,12,1,quadriceps,abductors,3,0.030927835051546393
+neural,12,2,quadriceps,adductors,2,0.020618556701030927
+neural,12,3,quadriceps,biceps,2,0.020618556701030927
+neural,12,4,quadriceps,calves,2,0.020618556701030927
+neural,12,5,quadriceps,chest,1,0.010309278350515464
+neural,12,6,quadriceps,forearms,0,0.0
+neural,12,7,quadriceps,glutes,6,0.061855670103092786
+neural,12,8,quadriceps,hamstrings,2,0.020618556701030927
+neural,12,9,quadriceps,lats,2,0.020618556701030927
+neural,12,10,quadriceps,lower back,5,0.05154639175257732
+neural,12,11,quadriceps,middle back,0,0.0
+neural,12,12,quadriceps,quadriceps,56,0.5773195876288659
+neural,12,13,quadriceps,shoulders,2,0.020618556701030927
+neural,12,14,quadriceps,traps,0,0.0
+neural,12,15,quadriceps,triceps,0,0.0
+neural,13,0,shoulders,abdominals,3,0.06976744186046512
+neural,13,1,shoulders,abductors,0,0.0
+neural,13,2,shoulders,adductors,0,0.0
+neural,13,3,shoulders,biceps,0,0.0
+neural,13,4,shoulders,calves,4,0.09302325581395349
+neural,13,5,shoulders,chest,1,0.023255813953488372
+neural,13,6,shoulders,forearms,0,0.0
+neural,13,7,shoulders,glutes,0,0.0
+neural,13,8,shoulders,hamstrings,2,0.046511627906976744
+neural,13,9,shoulders,lats,2,0.046511627906976744
+neural,13,10,shoulders,lower back,0,0.0
+neural,13,11,shoulders,middle back,0,0.0
+neural,13,12,shoulders,quadriceps,1,0.023255813953488372
+neural,13,13,shoulders,shoulders,30,0.6976744186046512
+neural,13,14,shoulders,traps,0,0.0
+neural,13,15,shoulders,triceps,0,0.0
+neural,14,0,traps,abdominals,0,0.0
+neural,14,1,traps,abductors,0,0.0
+neural,14,2,traps,adductors,0,0.0
+neural,14,3,traps,biceps,0,0.0
+neural,14,4,traps,calves,0,0.0
+neural,14,5,traps,chest,0,0.0
+neural,14,6,traps,forearms,0,0.0
+neural,14,7,traps,glutes,0,0.0
+neural,14,8,traps,hamstrings,0,0.0
+neural,14,9,traps,lats,1,0.25
+neural,14,10,traps,lower back,0,0.0
+neural,14,11,traps,middle back,1,0.25
+neural,14,12,traps,quadriceps,0,0.0
+neural,14,13,traps,shoulders,0,0.0
+neural,14,14,traps,traps,2,0.5
+neural,14,15,traps,triceps,0,0.0
+neural,15,0,triceps,abdominals,0,0.0
+neural,15,1,triceps,abductors,0,0.0
+neural,15,2,triceps,adductors,0,0.0
+neural,15,3,triceps,biceps,0,0.0
+neural,15,4,triceps,calves,0,0.0
+neural,15,5,triceps,chest,2,0.07142857142857142
+neural,15,6,triceps,forearms,0,0.0
+neural,15,7,triceps,glutes,0,0.0
+neural,15,8,triceps,hamstrings,0,0.0
+neural,15,9,triceps,lats,0,0.0
+neural,15,10,triceps,lower back,0,0.0
+neural,15,11,triceps,middle back,0,0.0
+neural,15,12,triceps,quadriceps,0,0.0
+neural,15,13,triceps,shoulders,1,0.03571428571428571
+neural,15,14,triceps,traps,0,0.0
+neural,15,15,triceps,triceps,25,0.8928571428571429

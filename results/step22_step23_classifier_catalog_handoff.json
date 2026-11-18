@@ -1,0 +1,224 @@
+{
+  "approval_gate": {
+    "assessment_scope": "this_development_export_only",
+    "automatic_eligibility_grants": 0,
+    "automatic_indexing_allowed": false,
+    "documented_planner_approved_records_in_export": 0,
+    "documented_retrieval_approved_records_in_export": 0,
+    "export_record_approval_assessment_status": "pending_separate_source_and_reference_use_review",
+    "export_records_requiring_approval_assessment": 2434,
+    "global_eligibility_assessment_status": "not_assessed_by_this_classifier_handoff",
+    "global_planner_eligible_record_count": null,
+    "global_retrieval_eligible_record_count": null,
+    "guideline_reference_review_automatically_adopts_executable_planning_rule": false,
+    "prediction_or_tag_acceptance_is_sufficient_for_approval": false,
+    "retrieval_inclusion_requires": [
+      "explicit_record_level_inclusion_list",
+      "source_verification_and_traceable_locator",
+      "permitted_use_review",
+      "documented_reference_use_review_for_current_record_version",
+      "protected_group_exclusion_and_supported_record_scope",
+      "retention_of_source_wording_applicability_definitions_and_qualifications"
+    ],
+    "source_or_review_disagreement_is_not_resolved_by_model_score": true,
+    "training_selection_also_requires": [
+      "documented_planner_eligibility_review",
+      "applicable_adopted_planning_rules_and_youth_suitability",
+      "preserved_activity_instructions_equipment_participant_and_space_requirements"
+    ]
+  },
+  "artifact_references": {
+    "bundle_manifest": {
+      "relative_path": "artifacts/classifiers/exercise-classifier-4f6b6f435ef52fef8f4cca6d/manifest.json",
+      "sha256": "582e8c5650601a6cd0973389cafa0b1ffba900173d0e30cdb409e2b97b09a2fd"
+    },
+    "bundle_producer": {
+      "relative_path": "results/step22_classifier_bundle_summary.json",
+      "sha256": "252f2c83a9932b6cec817e8905e09808eb5687086daf690312688a810b4783e4"
+    },
+    "catalog_producer": {
+      "relative_path": "results/step22_catalog_tagging_summary.json",
+      "sha256": "7cd8f3b9c70c114e54966af654c131c7bbb45a98b6fad309ad1fcce73200a90f"
+    },
+    "development_catalog": {
+      "relative_path": "data/processed/exercise_catalog_tagged.csv",
+      "sha256": "ebbf1e866d5284b8bfce4490f6029aa8343248d0f7d5269be90ae4ad1723a98d"
+    },
+    "model_card": {
+      "relative_path": "docs/classifier_model_card.md",
+      "sha256": "d25ccb0536e976aad7edf773565a84ab74f8c5563152226a53de1d92606f76cf"
+    },
+    "model_reload_checks": {
+      "relative_path": "results/model_reload_checks.csv",
+      "sha256": "ebd645c3aee76e875e7f0603cfb422036e0b243433461734fff7af42718630dd"
+    },
+    "population_accounting": {
+      "relative_path": "results/exercise_tagging_population.csv",
+      "sha256": "aed1da53ed9fc6f6d511e4a9a9d5d2ff9ea718c0698fb6050c52c83432c07cd3"
+    },
+    "review_worklist": {
+      "relative_path": "results/exercise_tag_review.csv",
+      "sha256": "649c849b9f75893a12314241e3f2c7cc2e8c4540611f0e1f302dde9d3ffa1fdd"
+    },
+    "selection_record": {
+      "relative_path": "artifacts/model_selection.json",
+      "sha256": "5437bf9d63bad661b5ae9b62aa5b3bf052c4855ba05844922aa02ca975b019ae"
+    },
+    "suggestions": {
+      "relative_path": "data/processed/exercise_tag_predictions.csv",
+      "sha256": "ae01cfbb138b6ce8e9292b455b1a0b5de099ee0f2af5379b43d2461f4e85618e"
+    },
+    "tagging_checks": {
+      "relative_path": "results/exercise_tagging_checks.csv",
+      "sha256": "639973b0f6ce463500e2789907d979232f8504e2ead7cbf1bf4eb9aebd811beb"
+    }
+  },
+  "bundle_producer_id": "classifier-bundle-save:d48ab60760883d74c6270f1cda376275bc5f7200e5c4679f77d0c915f33d5312",
+  "catalog_producer_id": "development-catalog-tagging:16165cd9846510c786c3e5912af3aa1f23c33be44c05fe3e7dff92f4d27e397d",
+  "catalog_version": "exercise-development-tags-16165cd9846510c786c3e591",
+  "class_order": [
+    "abdominals",
+    "abductors",
+    "adductors",
+    "biceps",
+    "calves",
+    "chest",
+    "forearms",
+    "glutes",
+    "hamstrings",
+    "lats",
+    "lower back",
+    "middle back",
+    "quadriceps",
+    "shoulders",
+    "traps",
+    "triceps"
+  ],
+  "development_population": {
+    "actual_human_review_decisions": 0,
+    "approved_planner_record_ids": [],
+    "approved_retrieval_record_ids": [],
+    "catalog_records": 2434,
+    "effective_source_labels": 2434,
+    "pending_review_entries": 2434,
+    "source_verification_pending_records": 2434,
+    "training_in_sample_previews": 1999,
+    "validation_development_previews": 435
+  },
+  "development_tagging_exports_complete": true,
+  "handoff_id": "classifier-catalog-handoff:1b24b632bbb583be4b53166ed1c6f2b1a4b0c9db7cadd35a5302a7a277eb1201",
+  "handoff_prepared": true,
+  "human_tag_review_complete": false,
+  "identity_sha256": "1b24b632bbb583be4b53166ed1c6f2b1a4b0c9db7cadd35a5302a7a277eb1201",
+  "information_use": {
+    "corpus_construction": "explicit_eligible_record_list_no_recursive_project_indexing",
+    "development_catalog_automatically_indexable": false,
+    "development_catalog_role": "candidate_exercise_lookup_with_label_origin_and_review_status",
+    "excluded_index_material": [
+      "athlete_profiles_and_private_evaluation_expectations",
+      "retrieval_questions_relevance_judgments_and_expected_answers",
+      "reviewer_rationales_internal_decision_sheets_and_pending_review_worklists",
+      "raw_prediction_exports_and_model_scores",
+      "generated_plans_and_earlier_model_responses",
+      "protected_classifier_test_records_and_groups",
+      "unresolved_permission_or_required_review_material"
+    ],
+    "food_facts_role": "structured_lookup_with_source_versions_and_units",
+    "planning_rules_role": "structured_tools_with_separate_adoption",
+    "raw_suggestion_scores_are_reference_passages": false,
+    "retrieval_benchmark_executed": false,
+    "retrieval_index_construction_executed": false,
+    "retrieval_or_planner_evaluation_scores_created": 0,
+    "review_worklist_is_reference_passage_material": false,
+    "step23_eligibility_and_source_preparation_allowed": true
+  },
+  "label_policy": {
+    "body_part_labels_do_not_replace_basketball_skill_categories": true,
+    "documented_review_has_precedence": true,
+    "effective_label_origin": "source",
+    "frozen_benchmark_targets_changed": false,
+    "new_model_or_input_does_not_inherit_acceptance": true,
+    "pending_suggestions_adopted": false,
+    "rejected_source_cannot_be_fallback": true,
+    "source_labels_changed": false,
+    "source_verification_status": "original_source_verification_pending"
+  },
+  "model_bundle_verified": true,
+  "new_records": {
+    "action": "defer_until_complete_protected_group_screening",
+    "population_count": null,
+    "population_selected": false,
+    "predictions": 0,
+    "repeated_relation_digests_alone_clear_records": false,
+    "screening_complete": false
+  },
+  "planner_eligibility_granted": false,
+  "protected_population": {
+    "all_group_related_catalog_records": 439,
+    "eligible_test_records": 438,
+    "group_related_excluded_records": 1,
+    "held_out_classifier_evaluation_step": 32,
+    "held_out_groups": 385,
+    "identifier_exported": false,
+    "other_excluded_predictions": 0,
+    "other_excluded_review_only_records": 36,
+    "protected_predictions": 0,
+    "text_transformed": false
+  },
+  "recipe_version": "classifier-catalog-handoff-0.1.0",
+  "release_id": "exercise-classifier-4f6b6f435ef52fef8f4cca6d",
+  "research_artifacts": {
+    "logistic_regression": {
+      "best_epoch": null,
+      "candidate_id": "L5",
+      "configuration_id": "logistic-tuning-config:d3c831cfda4fc18f6cf8c445f47555f11841fbcaf3dbacc8185a8101caf7933c",
+      "model_id": "tfidf_logistic_regression",
+      "run_id": "logistic-tuning-run:7da15dbd8450461b8cf3a663e8bd7887",
+      "seed": 42
+    },
+    "majority": {
+      "best_epoch": null,
+      "candidate_id": null,
+      "configuration_id": "majority_class:cfb30d05710cdc4cd520bc1f0d20d4448a280fc330193842cbb5a0aa4c7e9530",
+      "model_id": "majority_class",
+      "run_id": "majority_class:ea5589af06c64cdd9a273c0a83605692",
+      "seed": 42
+    },
+    "neural": {
+      "best_epoch": 19,
+      "candidate_id": "N3",
+      "configuration_id": "neural-tuning-config:21a897ae11f50d7808e8a4bf629aff15f60e2d196be3cdcda49e1608a711b1c8",
+      "model_id": "neural_classifier",
+      "run_id": "neural-tuning-run:62cc2a0384284f62b024d6a7be048dd0",
+      "seed": 42
+    }
+  },
+  "retrieval_approval_ready": false,
+  "retrieval_index_built": false,
+  "reviewed_catalog_readiness": "pending",
+  "schema_version": "step22-step23-classifier-catalog-handoff-1",
+  "selection_id": "classifier-model-selection:f7c959560435263cd7a9f66e2c934f0d93e9d8cd3541183f017ca1c84864b32a",
+  "status": "prepared_with_open_source_and_eligibility_reviews",
+  "tagging_model": {
+    "candidate_id": "L5",
+    "configuration_id": "logistic-tuning-config:d3c831cfda4fc18f6cf8c445f47555f11841fbcaf3dbacc8185a8101caf7933c",
+    "model_family": "logistic_regression",
+    "model_id": "tfidf_logistic_regression",
+    "run_id": "logistic-tuning-run:7da15dbd8450461b8cf3a663e8bd7887",
+    "status": "selected"
+  },
+  "test_text_processed": false,
+  "version_controls": {
+    "classifier_final_evaluation_step": 32,
+    "final_experiment_freeze_step": 31,
+    "later_corrections_preserve_original_history_and_affected_versions": true,
+    "planner_versions_with_retrieval": [
+      "V2",
+      "V3",
+      "V4"
+    ],
+    "post_test_revision_changes_frozen_planner_comparison": false,
+    "post_test_tagging_requires_separate_catalog_revision": true,
+    "same_identified_model_and_catalog_for_planner_workflows": true
+  }
+}

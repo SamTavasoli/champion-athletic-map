@@ -1,0 +1,285 @@
+{
+  "capture_metadata_preserved": true,
+  "captures": [
+    {
+      "capture_id": "UGA-BASKETBALL-63-HTML",
+      "capture_origin": "assistant_environment_official_https_capture",
+      "chapter_id": 63,
+      "final_url": "https://open.online.uga.edu/basketball/chapter/2-fundamentals-passing/",
+      "http_status": 200,
+      "observed_at_utc": "2026-11-12T22:28:11.078270+00:00",
+      "publisher_requests_this_execution": 0,
+      "raw_filename": "uga_basketball_63_html.html",
+      "representation": "html",
+      "requested_url": "https://open.online.uga.edu/basketball/chapter/2-fundamentals-passing/",
+      "response_bytes": 60158,
+      "response_headers": {
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Thu, 12 Nov 2026 22:28:11 GMT",
+        "ETag": null,
+        "Last-Modified": null
+      },
+      "retrieval_method": "Python urllib HTTPS GET; default TLS certificate verification; official-host redirects only",
+      "sha256": "fe35d9bede8aa0ad9d65e52ea3d7fc6708e2644fe809650f8372ca0e767b30ac"
+    },
+    {
+      "capture_id": "UGA-BASKETBALL-63-API",
+      "capture_origin": "assistant_environment_official_https_capture",
+      "chapter_id": 63,
+      "final_url": "https://open.online.uga.edu/basketball/wp-json/pressbooks/v2/chapters/63",
+      "http_status": 200,
+      "observed_at_utc": "2026-11-12T22:28:11.093711+00:00",
+      "publisher_requests_this_execution": 0,
+      "raw_filename": "uga_basketball_63_api.json",
+      "representation": "api",
+      "requested_url": "https://open.online.uga.edu/basketball/wp-json/pressbooks/v2/chapters/63",
+      "response_bytes": 13718,
+      "response_headers": {
+        "Content-Type": "application/json; charset=UTF-8",
+        "Date": "Thu, 12 Nov 2026 22:28:11 GMT",
+        "ETag": null,
+        "Last-Modified": null
+      },
+      "retrieval_method": "Python urllib HTTPS GET; default TLS certificate verification; official-host redirects only",
+      "sha256": "d94607825afdb395279a0f4fb4d1c572d9fe2d9bf3250d78895f98bc49a35efc"
+    },
+    {
+      "capture_id": "UGA-BASKETBALL-65-HTML",
+      "capture_origin": "assistant_environment_official_https_capture",
+      "chapter_id": 65,
+      "final_url": "https://open.online.uga.edu/basketball/chapter/fundamentals-dribbling/",
+      "http_status": 200,
+      "observed_at_utc": "2026-11-12T22:28:10.994105+00:00",
+      "publisher_requests_this_execution": 0,
+      "raw_filename": "uga_basketball_65_html.html",
+      "representation": "html",
+      "requested_url": "https://open.online.uga.edu/basketball/chapter/fundamentals-dribbling/",
+      "response_bytes": 58096,
+      "response_headers": {
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Thu, 12 Nov 2026 22:28:10 GMT",
+        "ETag": null,
+        "Last-Modified": null
+      },
+      "retrieval_method": "Python urllib HTTPS GET; default TLS certificate verification; official-host redirects only",
+      "sha256": "61bcc6994b988dcaf5e8f2fe610eccd973c4a8d119a4fb6c9612c0e0e649ce55"
+    },
+    {
+      "capture_id": "UGA-BASKETBALL-65-API",
+      "capture_origin": "assistant_environment_official_https_capture",
+      "chapter_id": 65,
+      "final_url": "https://open.online.uga.edu/basketball/wp-json/pressbooks/v2/chapters/65",
+      "http_status": 200,
+      "observed_at_utc": "2026-11-12T22:28:17.006091+00:00",
+      "publisher_requests_this_execution": 0,
+      "raw_filename": "uga_basketball_65_api.json",
+      "representation": "api",
+      "requested_url": "https://open.online.uga.edu/basketball/wp-json/pressbooks/v2/chapters/65",
+      "response_bytes": 9479,
+      "response_headers": {
+        "Content-Type": "application/json; charset=UTF-8",
+        "Date": "Thu, 12 Nov 2026 22:28:16 GMT",
+        "ETag": null,
+        "Last-Modified": null
+      },
+      "retrieval_method": "Python urllib HTTPS GET; default TLS certificate verification; official-host redirects only",
+      "sha256": "804afbf729d6555284e6dad9bfc9d2251757538cf51cc486a03024ff793ea2e1"
+    },
+    {
+      "capture_id": "UGA-BASKETBALL-111-HTML",
+      "capture_origin": "assistant_environment_official_https_capture",
+      "chapter_id": 111,
+      "final_url": "https://open.online.uga.edu/basketball/chapter/fundamentals-shooting/",
+      "http_status": 200,
+      "observed_at_utc": "2026-11-12T22:28:16.942232+00:00",
+      "publisher_requests_this_execution": 0,
+      "raw_filename": "uga_basketball_111_html.html",
+      "representation": "html",
+      "requested_url": "https://open.online.uga.edu/basketball/chapter/fundamentals-shooting/",
+      "response_bytes": 56311,
+      "response_headers": {
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Thu, 12 Nov 2026 22:28:16 GMT",
+        "ETag": null,
+        "Last-Modified": null
+      },
+      "retrieval_method": "Python urllib HTTPS GET; default TLS certificate verification; official-host redirects only",
+      "sha256": "16cfd107eabe7cea42e03701c94b9834f93f27ac4627a9c9b0211d1f736f9686"
+    },
+    {
+      "capture_id": "UGA-BASKETBALL-111-API",
+      "capture_origin": "assistant_environment_official_https_capture",
+      "chapter_id": 111,
+      "final_url": "https://open.online.uga.edu/basketball/wp-json/pressbooks/v2/chapters/111",
+      "http_status": 200,
+      "observed_at_utc": "2026-11-12T22:28:16.912495+00:00",
+      "publisher_requests_this_execution": 0,
+      "raw_filename": "uga_basketball_111_api.json",
+      "representation": "api",
+      "requested_url": "https://open.online.uga.edu/basketball/wp-json/pressbooks/v2/chapters/111",
+      "response_bytes": 5648,
+      "response_headers": {
+        "Content-Type": "application/json; charset=UTF-8",
+        "Date": "Thu, 12 Nov 2026 22:28:16 GMT",
+        "ETag": null,
+        "Last-Modified": null
+      },
+      "retrieval_method": "Python urllib HTTPS GET; default TLS certificate verification; official-host redirects only",
+      "sha256": "66fce67e4609cab814629da4fe8764a268f58134800bd8bec130a24d5460746c"
+    },
+    {
+      "capture_id": "UGA-BASKETBALL-67-HTML",
+      "capture_origin": "assistant_environment_official_https_capture",
+      "chapter_id": 67,
+      "final_url": "https://open.online.uga.edu/basketball/chapter/4-fundamentals-spacing-rebounding/",
+      "http_status": 200,
+      "observed_at_utc": "2026-11-12T22:28:20.614077+00:00",
+      "publisher_requests_this_execution": 0,
+      "raw_filename": "uga_basketball_67_html.html",
+      "representation": "html",
+      "requested_url": "https://open.online.uga.edu/basketball/chapter/4-fundamentals-spacing-rebounding/",
+      "response_bytes": 60800,
+      "response_headers": {
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Thu, 12 Nov 2026 22:28:20 GMT",
+        "ETag": null,
+        "Last-Modified": null
+      },
+      "retrieval_method": "Python urllib HTTPS GET; default TLS certificate verification; official-host redirects only",
+      "sha256": "0c4b45ef4eaccf0640f5b7caf011104690e73b8f75331dcae498bc7500628f76"
+    },
+    {
+      "capture_id": "UGA-BASKETBALL-67-API",
+      "capture_origin": "assistant_environment_official_https_capture",
+      "chapter_id": 67,
+      "final_url": "https://open.online.uga.edu/basketball/wp-json/pressbooks/v2/chapters/67",
+      "http_status": 200,
+      "observed_at_utc": "2026-11-12T22:28:21.250033+00:00",
+      "publisher_requests_this_execution": 0,
+      "raw_filename": "uga_basketball_67_api.json",
+      "representation": "api",
+      "requested_url": "https://open.online.uga.edu/basketball/wp-json/pressbooks/v2/chapters/67",
+      "response_bytes": 14625,
+      "response_headers": {
+        "Content-Type": "application/json; charset=UTF-8",
+        "Date": "Thu, 12 Nov 2026 22:28:21 GMT",
+        "ETag": null,
+        "Last-Modified": null
+      },
+      "retrieval_method": "Python urllib HTTPS GET; default TLS certificate verification; official-host redirects only",
+      "sha256": "961558cc918ecae28dd23a60430e7df0506e3b3950977db78181f3f96abbf9ce"
+    },
+    {
+      "capture_id": "UGA-BASKETBALL-29-HTML",
+      "capture_origin": "assistant_environment_official_https_capture",
+      "chapter_id": 29,
+      "final_url": "https://open.online.uga.edu/basketball/chapter/2-basketball-fundamentals-skills-and-techniques/",
+      "http_status": 200,
+      "observed_at_utc": "2026-11-12T22:28:21.046990+00:00",
+      "publisher_requests_this_execution": 0,
+      "raw_filename": "uga_basketball_29_html.html",
+      "representation": "html",
+      "requested_url": "https://open.online.uga.edu/basketball/chapter/2-basketball-fundamentals-skills-and-techniques/",
+      "response_bytes": 59191,
+      "response_headers": {
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Thu, 12 Nov 2026 22:28:21 GMT",
+        "ETag": null,
+        "Last-Modified": null
+      },
+      "retrieval_method": "Python urllib HTTPS GET; default TLS certificate verification; official-host redirects only",
+      "sha256": "885aff8ec1a1f2416b79d0359e53376aa26c095c3a62f3c4f1bc152054da3808"
+    },
+    {
+      "capture_id": "UGA-BASKETBALL-29-API",
+      "capture_origin": "assistant_environment_official_https_capture",
+      "chapter_id": 29,
+      "final_url": "https://open.online.uga.edu/basketball/wp-json/pressbooks/v2/chapters/29",
+      "http_status": 200,
+      "observed_at_utc": "2026-11-12T22:28:24.681276+00:00",
+      "publisher_requests_this_execution": 0,
+      "raw_filename": "uga_basketball_29_api.json",
+      "representation": "api",
+      "requested_url": "https://open.online.uga.edu/basketball/wp-json/pressbooks/v2/chapters/29",
+      "response_bytes": 10608,
+      "response_headers": {
+        "Content-Type": "application/json; charset=UTF-8",
+        "Date": "Thu, 12 Nov 2026 22:28:24 GMT",
+        "ETag": null,
+        "Last-Modified": null
+      },
+      "retrieval_method": "Python urllib HTTPS GET; default TLS certificate verification; official-host redirects only",
+      "sha256": "10bd2d2d670819abe86012dfa86d80f93b2c5bd92f34f54f6eaffe7218df96db"
+    },
+    {
+      "capture_id": "UGA-BASKETBALL-42-HTML",
+      "capture_origin": "assistant_environment_official_https_capture",
+      "chapter_id": 42,
+      "final_url": "https://open.online.uga.edu/basketball/chapter/3-basketball-strategies/",
+      "http_status": 200,
+      "observed_at_utc": "2026-11-12T22:28:24.262228+00:00",
+      "publisher_requests_this_execution": 0,
+      "raw_filename": "uga_basketball_42_html.html",
+      "representation": "html",
+      "requested_url": "https://open.online.uga.edu/basketball/chapter/3-basketball-strategies/",
+      "response_bytes": 56717,
+      "response_headers": {
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Thu, 12 Nov 2026 22:28:24 GMT",
+        "ETag": null,
+        "Last-Modified": null
+      },
+      "retrieval_method": "Python urllib HTTPS GET; default TLS certificate verification; official-host redirects only",
+      "sha256": "d987821b85858652c93fed82fc1793744e7f2b6e4c206a4f328b08048ec0b2b0"
+    },
+    {
+      "capture_id": "UGA-BASKETBALL-42-API",
+      "capture_origin": "assistant_environment_official_https_capture",
+      "chapter_id": 42,
+      "final_url": "https://open.online.uga.edu/basketball/wp-json/pressbooks/v2/chapters/42",
+      "http_status": 200,
+      "observed_at_utc": "2026-11-12T22:28:24.749950+00:00",
+      "publisher_requests_this_execution": 0,
+      "raw_filename": "uga_basketball_42_api.json",
+      "representation": "api",
+      "requested_url": "https://open.online.uga.edu/basketball/wp-json/pressbooks/v2/chapters/42",
+      "response_bytes": 6576,
+      "response_headers": {
+        "Content-Type": "application/json; charset=UTF-8",
+        "Date": "Thu, 12 Nov 2026 22:28:24 GMT",
+        "ETag": null,
+        "Last-Modified": null
+      },
+      "retrieval_method": "Python urllib HTTPS GET; default TLS certificate verification; official-host redirects only",
+      "sha256": "510b318cd836429ccb8ecb1e5c590f5b53e62bf4768228740cbc28ab37bc2701"
+    },
+    {
+      "capture_id": "CC-BY-4-LEGALCODE",
+      "capture_origin": "assistant_environment_official_https_capture",
+      "final_url": "https://creativecommons.org/licenses/by/4.0/legalcode.en",
+      "http_status": 200,
+      "observed_at_utc": "2026-11-12T22:30:01.510199+00:00",
+      "publisher_requests_this_execution": 0,
+      "raw_filename": "cc_by_4_legalcode.html",
+      "representation": "license_legalcode",
+      "requested_url": "https://creativecommons.org/licenses/by/4.0/legalcode.en",
+      "response_bytes": 48742,
+      "response_headers": {
+        "Content-Type": "text/html",
+        "Date": "Thu, 12 Nov 2026 22:30:01 GMT",
+        "ETag": null,
+        "Last-Modified": "Thu, 01 Oct 2026 17:09:56 GMT"
+      },
+      "retrieval_method": "Python urllib HTTPS GET with default TLS certificate verification",
+      "sha256": "58230517b7895aa219ff46a6ed63e67057a1582fb9ea054b16728a8c13525650"
+    }
+  ],
+  "independent_human_authentication_or_freshness_review": false,
+  "media_assets_downloaded": 0,
+  "original_logical_https_requests": 13,
+  "publisher_requests_on_this_machine_this_execution": 0,
+  "raw_capture_files_are_internal_audit_only": true,
+  "raw_capture_is_not_corpus_text": true,
+  "schema_version": "step23-uga-imported-captures-1",
+  "session_and_transport_only_headers_not_exported": true
+}

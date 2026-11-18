@@ -1,0 +1,43 @@
+check_name,expected,observed,status
+verified_input_hashes,32,32,pass
+review_identity:manifest_draft,a319677564f075298661200fdc3034148f0df26f4c17dab286e849c4e2b87ca4,a319677564f075298661200fdc3034148f0df26f4c17dab286e849c4e2b87ca4,pass
+review_identity:decisions,cfdf0e29094e76fc6400fc12580dfedb7748f1dd85b67968705cd3af85ff32b1,cfdf0e29094e76fc6400fc12580dfedb7748f1dd85b67968705cd3af85ff32b1,pass
+review_identity:class_eligibility,605809f724a3b2ac9459df844868c22f623d76f5e81510e8c91b7188a96bf212,605809f724a3b2ac9459df844868c22f623d76f5e81510e8c91b7188a96bf212,pass
+review_identity:verified_groups,30190adb8245a348a3243fcdff4bc40515cca773e2f874ebab83739f02d9c764,30190adb8245a348a3243fcdff4bc40515cca773e2f874ebab83739f02d9c764,pass
+proposal_identity:manifest_candidate,c0723b13ce259f964c2c7952b4203edba75a7553146c5bdb4a637ed134a4f5ac,c0723b13ce259f964c2c7952b4203edba75a7553146c5bdb4a637ed134a4f5ac,pass
+proposal_identity:candidates,d659186e893a9ae7c1f652bbe00f7ce5e30c9afafcd5dd9c091d16972dcd6f02,d659186e893a9ae7c1f652bbe00f7ce5e30c9afafcd5dd9c091d16972dcd6f02,pass
+proposal_identity:class_eligibility,560d130d9aa2c136b552d1dd61735eb448105691c58b7f9729e3cdd6dd8ebeb0,560d130d9aa2c136b552d1dd61735eb448105691c58b7f9729e3cdd6dd8ebeb0,pass
+proposal_identity:allocation_summary,5554724c17ccb5237f9a5f751f8b9fe13e79f944eb1a8b8dac76a5d16e585d68,5554724c17ccb5237f9a5f751f8b9fe13e79f944eb1a8b8dac76a5d16e585d68,pass
+proposal_identity:class_support,f255b029786a9f44d29f3b4cdf5331047a39f2f048a67e18b63b727de1624761,f255b029786a9f44d29f3b4cdf5331047a39f2f048a67e18b63b727de1624761,pass
+review_policy,30ba457da390c07222d10fc3fa912028d0d10f31853b3c68630adc25ae5a875a,30ba457da390c07222d10fc3fa912028d0d10f31853b3c68630adc25ae5a875a,pass
+search_config,e2943c52beb2cdcaee615cb822107184bc513e647f39dd4ffec98ab66ccfd78e,e2943c52beb2cdcaee615cb822107184bc513e647f39dd4ffec98ab66ccfd78e,pass
+original_source_fields_preserved,True,Compared all original source fields,pass
+one_manifest_row_per_source_id,2909,2909,pass
+only_split_column_changed_after_review,True,All reviewed manifest fields compared,pass
+source_metadata_and_review_states_preserved,True,"Labels, groups, and review states unchanged",pass
+classifier_input_allowlist,Name plus available description,Verified against saved classifier_text,pass
+eligibility_and_assignments,True,Eligible assigned; excluded unassigned with reasons,pass
+review_exclusions_reconcile,22 name conflicts + 7 supplied-field concerns + 8 low-support records,"{'unresolved_same_name_target_conflict': 22, 'class_below_minimum_group_support': 8, 'unresolved_source_field_inconsistency': 7}",pass
+source_totals_reconcile,2909,2909,pass
+class_order_and_indices,"['abdominals', 'abductors', 'adductors', 'biceps', 'calves', 'chest', 'forearms', 'glutes', 'hamstrings', 'lats', 'lower back', 'middle back', 'quadriceps', 'shoulders', 'traps', 'triceps']",Declared order and eligible indices agree,pass
+authoritative_group_mapping_preserved,2909,2909,pass
+record_decision_coverage,2909,2909,pass
+record_decision_references_and_targets,True,Every record reference resolves to its unchanged target and decision,pass
+broader_findings_have_group_handling,Preserve recorded groups and separate record-target decisions,Group policy and evidence hash resolve,pass
+group_separation,0,0,pass
+strict_input_separation,0,0,pass
+all_saved_comparison_relations_separated,0,0,pass
+minimum_class_group_support,6 / 2 / 2,"[12, 3, 2]",pass
+overall_record_share_tolerances,"Inclusive 67-73%, 12-18%, 12-18%","[0.6960306406685237, 0.15146239554317548, 0.15250696378830084]",pass
+saved_class_support_matches_manifest,True,True,pass
+candidate_numbers_and_seeds,0-999 with declared seeds,1000,pass
+candidate_log_balance_and_support_audit,True,True,pass
+selected_candidate_is_declared_rank_one,One passed candidate at rank 1,831,pass
+selected_metadata_and_no_model_selection,Recorded rank-one seeds and balance-only selection,831,pass
+selected_log_matrices_match_assignments,True,Selected counts recomputed by ID,pass
+selected_seed_replay,True,All selected record assignments reproduced,pass
+saved_word_count_alignment,2909,2909,pass
+descriptive_summary_totals,2872,2872,pass
+output_paths_are_separate_from_inputs,True,Nine distinct project-contained output paths,pass
+output_paths_are_files_or_absent,True,No destination directory conflict,pass
+inputs_unchanged_after_final_checks,32,32,pass

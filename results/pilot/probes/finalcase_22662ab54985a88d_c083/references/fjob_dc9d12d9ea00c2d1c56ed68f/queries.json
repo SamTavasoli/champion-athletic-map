@@ -1,0 +1,18 @@
+{
+  "queries": [
+    "Basketball practice; Give each person in my passing g; goals [\"Improve timing in a pa; experience {\"experience; equipment [\"Basketball\",\"Cones\",\"H; space full_court; people unkn",
+    "Youth basketball participation, rest and recovery; age 14; grade 9; commitments [\"practice\"]; request Give each person in my passing group an exact"
+  ],
+  "query_records": [
+    {
+      "query_id": "retrieval-query:e1ee886037227b3220cc7a3526dbbee83601f6488a4fbc23b3ddf555aeae780d",
+      "text": "Basketball practice; Give each person in my passing g; goals [\"Improve timing in a pa; experience {\"experience; equipment [\"Basketball\",\"Cones\",\"H; space full_court; people unkn",
+      "text_sha256": "25ee99d04bde0874f431e6ae02bd7c1e7d5b66e994d358133692d69316b1030b"
+    },
+    {
+      "query_id": "retrieval-query:ad9b15241f589ab5a39e5abb5f09a364d37133c560da0b6dfc6dad741e58c1a0",
+      "text": "Youth basketball participation, rest and recovery; age 14; grade 9; commitments [\"practice\"]; request Give each person in my passing group an exact",
+      "text_sha256": "9040b119bdf5ad5670db005615907147d1fae2769b324b6784386963b013749e"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "config_path": "artifacts/planners/version4_evaluator_fix_config.json",
+  "config_sha256": "4de9e13bb185bdeefc2533fcb53bb59c3d19e555d43c935c6d05a6c27fa4d9ad",
+  "schema_version": "active-version4-development-1",
+  "summary_path": "results/step28_planner_v4_evaluator_fix_summary.json",
+  "workflow_class": "CorrectedEvaluatedPlanner",
+  "workflow_module": "src/champion_athletic_map/planners/evaluator_prompt_fix.py"
+}

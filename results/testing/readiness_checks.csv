@@ -1,0 +1,10 @@
+area,status,reason
+routine_suite,passed,Executed controlled cases; model quality and live execution are separate.
+source_adoption,adopted,"Active team-approved release; 127 basketball records, nine warm-ups and 29 rule definitions."
+manual_saved_example_flow,user_reported_pass,"Loading, editing, progress and JSON restoration confirmed in Step 29."
+remaining_manual_browser_checks,pending,"CSV cell inspection, connection reset and separate real browser sessions remain unverified."
+fresh_real_backend,not_run,Routine suite uses scripted responses; optional local metadata test is separate.
+complete_rule_execution,pending,Complete classified-schedule coverage and some free-form resource facts cannot yet be established.
+independent_scoring,pending,"Synthetic arithmetic passes do not complete accepted case populations, case masks or independent semantic scoring."
+representative_pilot,pending_step31,"Actual workflow capacity, timing, native backend and operating limits have not been verified by this suite."
+protocol_freeze,not_frozen,"Required checking, scoring and pilot prerequisites remain open."

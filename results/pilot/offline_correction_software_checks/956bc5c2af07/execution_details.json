@@ -1,0 +1,2773 @@
+{
+  "schema_version": "step30-pytest-execution-1",
+  "pytest_exit_code": 0,
+  "collected": [
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_actual_saved_full_requests_reproduce_then_fit_with_all_retained_fields[0]",
+      "requirement": "31:bounded-candidate-revision",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_bounded_revision.py:50",
+      "description": "test_actual_saved_full_requests_reproduce_then_fit_with_all_retained_fields[0]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_actual_saved_full_requests_reproduce_then_fit_with_all_retained_fields[1]",
+      "requirement": "31:bounded-candidate-revision",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_bounded_revision.py:50",
+      "description": "test_actual_saved_full_requests_reproduce_then_fit_with_all_retained_fields[1]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_actual_saved_full_requests_reproduce_then_fit_with_all_retained_fields[2]",
+      "requirement": "31:bounded-candidate-revision",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_bounded_revision.py:50",
+      "description": "test_actual_saved_full_requests_reproduce_then_fit_with_all_retained_fields[2]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_actual_saved_full_requests_reproduce_then_fit_with_all_retained_fields[3]",
+      "requirement": "31:bounded-candidate-revision",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_bounded_revision.py:50",
+      "description": "test_actual_saved_full_requests_reproduce_then_fit_with_all_retained_fields[3]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_actual_saved_full_requests_reproduce_then_fit_with_all_retained_fields[4]",
+      "requirement": "31:bounded-candidate-revision",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_bounded_revision.py:50",
+      "description": "test_actual_saved_full_requests_reproduce_then_fit_with_all_retained_fields[4]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_nonrevision_requests_are_unchanged[training]",
+      "requirement": "31:bounded-candidate-revision",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_bounded_revision.py:87",
+      "description": "test_nonrevision_requests_are_unchanged[training]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_nonrevision_requests_are_unchanged[recovery]",
+      "requirement": "31:bounded-candidate-revision",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_bounded_revision.py:87",
+      "description": "test_nonrevision_requests_are_unchanged[recovery]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_nonrevision_requests_are_unchanged[food]",
+      "requirement": "31:bounded-candidate-revision",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_bounded_revision.py:87",
+      "description": "test_nonrevision_requests_are_unchanged[food]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_nonrevision_requests_are_unchanged[coordinator]",
+      "requirement": "31:bounded-candidate-revision",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_bounded_revision.py:87",
+      "description": "test_nonrevision_requests_are_unchanged[coordinator]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_nonrevision_requests_are_unchanged[evaluator]",
+      "requirement": "31:bounded-candidate-revision",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_bounded_revision.py:87",
+      "description": "test_nonrevision_requests_are_unchanged[evaluator]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_nonrevision_requests_are_unchanged[final]",
+      "requirement": "31:bounded-candidate-revision",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_bounded_revision.py:87",
+      "description": "test_nonrevision_requests_are_unchanged[final]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_standalone_runtime_transform_keeps_budget_confirmation_pending",
+      "requirement": "31:bounded-candidate-revision",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_bounded_revision.py:97",
+      "description": "test_standalone_runtime_transform_keeps_budget_confirmation_pending"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_complete_oversized_authoritative_source_stays_blocked",
+      "requirement": "31:bounded-candidate-revision",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_bounded_revision.py:105",
+      "description": "test_complete_oversized_authoritative_source_stays_blocked"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_source_message_hash_tampering_is_rejected",
+      "requirement": "31:bounded-candidate-revision",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_bounded_revision.py:117",
+      "description": "test_source_message_hash_tampering_is_rejected"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_public_fact_substitution_is_rejected_even_with_rehashed_wire",
+      "requirement": "31:bounded-candidate-revision",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_bounded_revision.py:124",
+      "description": "test_public_fact_substitution_is_rejected_even_with_rehashed_wire"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_literal_native_boundaries_are_not_silently_removed[0]",
+      "requirement": "31:bounded-candidate-revision",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_bounded_revision.py:134",
+      "description": "test_literal_native_boundaries_are_not_silently_removed[0]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_literal_native_boundaries_are_not_silently_removed[1]",
+      "requirement": "31:bounded-candidate-revision",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_bounded_revision.py:134",
+      "description": "test_literal_native_boundaries_are_not_silently_removed[1]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_duplicate_user_fields_and_nonfinite_values_are_rejected",
+      "requirement": "31:bounded-candidate-revision",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_bounded_revision.py:143",
+      "description": "test_duplicate_user_fields_and_nonfinite_values_are_rejected"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_existing_generation_limits_are_required[num_ctx-16384]",
+      "requirement": "31:bounded-candidate-revision",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_bounded_revision.py:156",
+      "description": "test_existing_generation_limits_are_required[num_ctx-16384]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_existing_generation_limits_are_required[num_predict-1024]",
+      "requirement": "31:bounded-candidate-revision",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_bounded_revision.py:156",
+      "description": "test_existing_generation_limits_are_required[num_predict-1024]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_existing_generation_limits_are_required[seed-7]",
+      "requirement": "31:bounded-candidate-revision",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_bounded_revision.py:156",
+      "description": "test_existing_generation_limits_are_required[seed-7]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_existing_generation_limits_are_required[temperature-False]",
+      "requirement": "31:bounded-candidate-revision",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_bounded_revision.py:156",
+      "description": "test_existing_generation_limits_are_required[temperature-False]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_required_codec_instructions_cannot_disappear",
+      "requirement": "31:bounded-candidate-revision",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_bounded_revision.py:164",
+      "description": "test_required_codec_instructions_cannot_disappear"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_unexpected_user_fields_are_preserved_by_rejection_instead_of_dropped",
+      "requirement": "31:bounded-candidate-revision",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_bounded_revision.py:172",
+      "description": "test_unexpected_user_fields_are_preserved_by_rejection_instead_of_dropped"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_corrected_runtime.py::test_runtime_changes_only_revision_role_and_keeps_baseline_and_all_shared_facts",
+      "requirement": "31:bounded-revision-and-food-runtime",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_corrected_runtime.py:59",
+      "description": "test_runtime_changes_only_revision_role_and_keeps_baseline_and_all_shared_facts"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_corrected_runtime.py::test_real_independent_and_internal_checker_keep_incomplete_food_field_blocked",
+      "requirement": "31:bounded-revision-and-food-runtime",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_corrected_runtime.py:102",
+      "description": "test_real_independent_and_internal_checker_keep_incomplete_food_field_blocked"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_corrected_runtime.py::test_role_keeps_original_generate_transport_and_skips_nonrevision_transforms",
+      "requirement": "31:bounded-revision-and-food-runtime",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_corrected_runtime.py:125",
+      "description": "test_role_keeps_original_generate_transport_and_skips_nonrevision_transforms"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_supported_field_forms_are_complete_and_numeric[250g of Blueberries, raw contains 1.85g of protein.]",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:45",
+      "description": "test_supported_field_forms_are_complete_and_numeric[250g of Blueberries, raw contains 1.85g of protein.]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_supported_field_forms_are_complete_and_numeric[250 g Blueberries, raw contains 1.85 g Protein.]",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:45",
+      "description": "test_supported_field_forms_are_complete_and_numeric[250 g Blueberries, raw contains 1.85 g Protein.]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_supported_field_forms_are_complete_and_numeric[250 grams of Blueberries, raw, provides 1.850 grams of protein.]",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:45",
+      "description": "test_supported_field_forms_are_complete_and_numeric[250 grams of Blueberries, raw, provides 1.850 grams of protein.]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_supported_field_forms_are_complete_and_numeric[Protein in 250g of Blueberries, raw is 1.85g.]",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:45",
+      "description": "test_supported_field_forms_are_complete_and_numeric[Protein in 250g of Blueberries, raw is 1.85g.]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_supported_field_forms_are_complete_and_numeric[Blueberries, raw has 1.85g of protein per 250g.]",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:45",
+      "description": "test_supported_field_forms_are_complete_and_numeric[Blueberries, raw has 1.85g of protein per 250g.]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_supported_field_forms_are_complete_and_numeric[The supplied reference states that 250g of Blueberries, raw contains 1.85g of protein.]",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:45",
+      "description": "test_supported_field_forms_are_complete_and_numeric[The supplied reference states that 250g of Blueberries, raw contains 1.85g of protein.]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_answer_elsewhere_does_not_fill_food_field",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:57",
+      "description": "test_correct_answer_elsewhere_does_not_fill_food_field"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ 250g of Blueberries, raw contains 99g of protein.-violated]",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:67",
+      "description": "test_correct_claim_does_not_mask_bad_or_unverified_claims[ 250g of Blueberries, raw contains 99g of protein.-violated]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ Protein in 250g of Blueberries, raw is -1g.-violated]",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:67",
+      "description": "test_correct_claim_does_not_mask_bad_or_unverified_claims[ Protein in 250g of Blueberries, raw is -1g.-violated]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ The protein amount totals 99 g.-unknown]",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:67",
+      "description": "test_correct_claim_does_not_mask_bad_or_unverified_claims[ The protein amount totals 99 g.-unknown]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ Protein 99 g.-unknown]",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:67",
+      "description": "test_correct_claim_does_not_mask_bad_or_unverified_claims[ Protein 99 g.-unknown]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ 250g of Blueberries, raw contains NaN g protein.-unknown]",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:67",
+      "description": "test_correct_claim_does_not_mask_bad_or_unverified_claims[ 250g of Blueberries, raw contains NaN g protein.-unknown]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ 250g of Blueberries, raw contains two grams of protein.-unknown]",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:67",
+      "description": "test_correct_claim_does_not_mask_bad_or_unverified_claims[ 250g of Blueberries, raw contains two grams of protein.-unknown]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ The athlete requested protein and 250g of Blueberries, raw contains 99g of protein.-unknown]",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:67",
+      "description": "test_correct_claim_does_not_mask_bad_or_unverified_claims[ The athlete requested protein and 250g of Blueberries, raw contains 99g of protein.-unknown]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ The question asks about protein and 250g of Blueberries, raw contains 99g of protein.-unknown]",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:67",
+      "description": "test_correct_claim_does_not_mask_bad_or_unverified_claims[ The question asks about protein and 250g of Blueberries, raw contains 99g of protein.-unknown]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ 250g of Blueberries, raw might contain 99g of protein.-unknown]",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:67",
+      "description": "test_correct_claim_does_not_mask_bad_or_unverified_claims[ 250g of Blueberries, raw might contain 99g of protein.-unknown]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ 250g of Blueberries, raw does not contain 99g of protein.-unknown]",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:67",
+      "description": "test_correct_claim_does_not_mask_bad_or_unverified_claims[ 250g of Blueberries, raw does not contain 99g of protein.-unknown]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ 250g of Other berries contains 99g of protein.-unknown]",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:67",
+      "description": "test_correct_claim_does_not_mask_bad_or_unverified_claims[ 250g of Other berries contains 99g of protein.-unknown]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ 250g of Blueberries, raw contains 99mg of protein.-unknown]",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:67",
+      "description": "test_correct_claim_does_not_mask_bad_or_unverified_claims[ 250g of Blueberries, raw contains 99mg of protein.-unknown]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ 100g of Blueberries, raw contains 0.74g of protein.-unknown]",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:67",
+      "description": "test_correct_claim_does_not_mask_bad_or_unverified_claims[ 100g of Blueberries, raw contains 0.74g of protein.-unknown]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ 250g of Blueberries, raw contains approximately 1.85g of protein.-unknown]",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:67",
+      "description": "test_correct_claim_does_not_mask_bad_or_unverified_claims[ 250g of Blueberries, raw contains approximately 1.85g of protein.-unknown]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_questions_mentions_and_subject_titles_are_not_extra_assertions[The athlete has also asked about the protein content of 250g of Blueberries, raw.]",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:88",
+      "description": "test_questions_mentions_and_subject_titles_are_not_extra_assertions[The athlete has also asked about the protein content of 250g of Blueberries, raw.]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_questions_mentions_and_subject_titles_are_not_extra_assertions[Is 1.85 g protein correct?]",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:88",
+      "description": "test_questions_mentions_and_subject_titles_are_not_extra_assertions[Is 1.85 g protein correct?]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_questions_mentions_and_subject_titles_are_not_extra_assertions[Does 250g of Blueberries, raw contain 99g protein?]",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:88",
+      "description": "test_questions_mentions_and_subject_titles_are_not_extra_assertions[Does 250g of Blueberries, raw contain 99g protein?]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_questions_mentions_and_subject_titles_are_not_extra_assertions[Protein in 250g of Blueberries, raw]",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:88",
+      "description": "test_questions_mentions_and_subject_titles_are_not_extra_assertions[Protein in 250g of Blueberries, raw]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_questions_mentions_and_subject_titles_are_not_extra_assertions[For the food \"Blueberries, raw\", how many grams of protein are recorded for 250 g?]",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:88",
+      "description": "test_questions_mentions_and_subject_titles_are_not_extra_assertions[For the food \"Blueberries, raw\", how many grams of protein are recorded for 250 g?]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_question_or_label_is_not_a_field_answer[For the food \"Blueberries, raw\", how many grams of protein are recorded for 250 g?]",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:98",
+      "description": "test_question_or_label_is_not_a_field_answer[For the food \"Blueberries, raw\", how many grams of protein are recorded for 250 g?]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_question_or_label_is_not_a_field_answer[For the food 'Blueberries, raw', how many grams of protein are recorded for 250 g?]",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:98",
+      "description": "test_question_or_label_is_not_a_field_answer[For the food 'Blueberries, raw', how many grams of protein are recorded for 250 g?]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_question_or_label_is_not_a_field_answer[For the food \\u201cBlueberries, raw\\u201d, how many grams of protein are recorded for 250 g?]",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:98",
+      "description": "test_question_or_label_is_not_a_field_answer[For the food \\u201cBlueberries, raw\\u201d, how many grams of protein are recorded for 250 g?]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_question_or_label_is_not_a_field_answer[Protein in 250g of Blueberries, raw]",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:98",
+      "description": "test_question_or_label_is_not_a_field_answer[Protein in 250g of Blueberries, raw]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_question_or_label_is_not_a_field_answer[]",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:98",
+      "description": "test_question_or_label_is_not_a_field_answer[]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_explicit_unknown_stays_unknown[Unknown]",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:106",
+      "description": "test_explicit_unknown_stays_unknown[Unknown]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_explicit_unknown_stays_unknown[The requested protein amount is unknown.]",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:106",
+      "description": "test_explicit_unknown_stays_unknown[The requested protein amount is unknown.]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_explicit_unknown_stays_unknown[I cannot verify the protein amount from the supplied references.]",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:106",
+      "description": "test_explicit_unknown_stays_unknown[I cannot verify the protein amount from the supplied references.]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_explicit_unknown_stays_unknown[The value is not available.]",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:106",
+      "description": "test_explicit_unknown_stays_unknown[The value is not available.]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[source_footnote-< 0.74 g per 100 g]",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:113",
+      "description": "test_source_ambiguity_and_qualifiers_never_become_numeric_passes[source_footnote-< 0.74 g per 100 g]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[source_footnote-Approximately 0.74 g]",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:113",
+      "description": "test_source_ambiguity_and_qualifiers_never_become_numeric_passes[source_footnote-Approximately 0.74 g]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[source_footnote-value2]",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:113",
+      "description": "test_source_ambiguity_and_qualifiers_never_become_numeric_passes[source_footnote-value2]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[qualifier-<]",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:113",
+      "description": "test_source_ambiguity_and_qualifiers_never_become_numeric_passes[qualifier-<]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[value_qualifier-estimated]",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:113",
+      "description": "test_source_ambiguity_and_qualifiers_never_become_numeric_passes[value_qualifier-estimated]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[amount-NaN]",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:113",
+      "description": "test_source_ambiguity_and_qualifiers_never_become_numeric_passes[amount-NaN]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[amount-Infinity]",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:113",
+      "description": "test_source_ambiguity_and_qualifiers_never_become_numeric_passes[amount-Infinity]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[status-unavailable]",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:113",
+      "description": "test_source_ambiguity_and_qualifiers_never_become_numeric_passes[status-unavailable]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[fdc_id-another-food]",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:113",
+      "description": "test_source_ambiguity_and_qualifiers_never_become_numeric_passes[fdc_id-another-food]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[grams-100]",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:113",
+      "description": "test_source_ambiguity_and_qualifiers_never_become_numeric_passes[grams-100]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[nutrient_id-1008]",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:113",
+      "description": "test_source_ambiguity_and_qualifiers_never_become_numeric_passes[nutrient_id-1008]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[reason-value11]",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:113",
+      "description": "test_source_ambiguity_and_qualifiers_never_become_numeric_passes[reason-value11]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[amount_per_100g_raw-0.8]",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:113",
+      "description": "test_source_ambiguity_and_qualifiers_never_become_numeric_passes[amount_per_100g_raw-0.8]"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_duplicate_food_source_is_unknown",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:126",
+      "description": "test_duplicate_food_source_is_unknown"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_wrong_additional_food_value_is_not_hidden",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:131",
+      "description": "test_wrong_additional_food_value_is_not_hidden"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_multiple_clauses_are_all_compared",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:141",
+      "description": "test_multiple_clauses_are_all_compared"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_wrong_value_still_has_field_coverage_but_fails_numeric_accuracy",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:146",
+      "description": "test_wrong_value_still_has_field_coverage_but_fails_numeric_accuracy"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_grounding_is_separate_and_input_copies_are_protected",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:151",
+      "description": "test_grounding_is_separate_and_input_copies_are_protected"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_observed_checks_do_not_duplicate_unrelated_calendar_prose",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:163",
+      "description": "test_observed_checks_do_not_duplicate_unrelated_calendar_prose"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_actual_six_food_values_and_old_twenty_four_echo_or_unknown_replies",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:181",
+      "description": "test_actual_six_food_values_and_old_twenty_four_echo_or_unknown_replies"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_actual_sixteen_outcomes_keep_v2_numeric_recognition_separate",
+      "requirement": "31:offline-revision-and-food-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_food_response_validation.py:209",
+      "description": "test_actual_sixteen_outcomes_keep_v2_numeric_recognition_separate"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_offline_corrections.py::test_actual_five_revisions_fit_and_sixteen_food_outcomes_stay_separate",
+      "requirement": "31:saved-probe-offline-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_offline_corrections.py:85",
+      "description": "test_actual_five_revisions_fit_and_sixteen_food_outcomes_stay_separate"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_offline_corrections.py::test_repeated_preparation_keeps_source_hashes_and_archives_observations",
+      "requirement": "31:saved-probe-offline-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_offline_corrections.py:113",
+      "description": "test_repeated_preparation_keeps_source_hashes_and_archives_observations"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_offline_corrections.py::test_modified_captured_render_request_is_rejected",
+      "requirement": "31:saved-probe-offline-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_offline_corrections.py:127",
+      "description": "test_modified_captured_render_request_is_rejected"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_offline_corrections.py::test_render_only_flag_cannot_be_changed_even_with_updated_capture_hash",
+      "requirement": "31:saved-probe-offline-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_offline_corrections.py:141",
+      "description": "test_render_only_flag_cannot_be_changed_even_with_updated_capture_hash"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_offline_corrections.py::test_changed_designated_outcome_is_not_repaired_or_substituted",
+      "requirement": "31:saved-probe-offline-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_offline_corrections.py:162",
+      "description": "test_changed_designated_outcome_is_not_repaired_or_substituted"
+    },
+    {
+      "test_id": "tests/offline_corrections/test_offline_corrections.py::test_failed_software_evidence_cannot_create_a_candidate",
+      "requirement": "31:saved-probe-offline-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/offline_corrections/test_offline_corrections.py:176",
+      "description": "test_failed_software_evidence_cannot_create_a_candidate"
+    }
+  ],
+  "phases": [
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_actual_saved_full_requests_reproduce_then_fit_with_all_retained_fields[0]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.3078319000196643,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_actual_saved_full_requests_reproduce_then_fit_with_all_retained_fields[0]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.030861200008075684,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_actual_saved_full_requests_reproduce_then_fit_with_all_retained_fields[0]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00019049999536946416,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_actual_saved_full_requests_reproduce_then_fit_with_all_retained_fields[1]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0003027000348083675,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_actual_saved_full_requests_reproduce_then_fit_with_all_retained_fields[1]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.025477200048044324,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_actual_saved_full_requests_reproduce_then_fit_with_all_retained_fields[1]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001488000270910561,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_actual_saved_full_requests_reproduce_then_fit_with_all_retained_fields[2]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00026810000417754054,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_actual_saved_full_requests_reproduce_then_fit_with_all_retained_fields[2]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.02538130001630634,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_actual_saved_full_requests_reproduce_then_fit_with_all_retained_fields[2]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014449999434873462,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_actual_saved_full_requests_reproduce_then_fit_with_all_retained_fields[3]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002639000304043293,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_actual_saved_full_requests_reproduce_then_fit_with_all_retained_fields[3]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.02090529998531565,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_actual_saved_full_requests_reproduce_then_fit_with_all_retained_fields[3]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013880000915378332,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_actual_saved_full_requests_reproduce_then_fit_with_all_retained_fields[4]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002609999501146376,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_actual_saved_full_requests_reproduce_then_fit_with_all_retained_fields[4]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.023516600020229816,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_actual_saved_full_requests_reproduce_then_fit_with_all_retained_fields[4]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00012909999350085855,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_nonrevision_requests_are_unchanged[training]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00025509996339678764,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_nonrevision_requests_are_unchanged[training]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0006505000055767596,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_nonrevision_requests_are_unchanged[training]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.369999704882503e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_nonrevision_requests_are_unchanged[recovery]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00018830003682523966,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_nonrevision_requests_are_unchanged[recovery]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.000631399976555258,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_nonrevision_requests_are_unchanged[recovery]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.049997268244624e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_nonrevision_requests_are_unchanged[food]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00019230000907555223,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_nonrevision_requests_are_unchanged[food]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0011212000390514731,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_nonrevision_requests_are_unchanged[food]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00016329996287822723,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_nonrevision_requests_are_unchanged[coordinator]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00024510000366717577,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_nonrevision_requests_are_unchanged[coordinator]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0006540000322274864,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_nonrevision_requests_are_unchanged[coordinator]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.730002446100116e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_nonrevision_requests_are_unchanged[evaluator]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0001947000273503363,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_nonrevision_requests_are_unchanged[evaluator]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.000637899967841804,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_nonrevision_requests_are_unchanged[evaluator]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.430000161752105e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_nonrevision_requests_are_unchanged[final]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00018670002464205027,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_nonrevision_requests_are_unchanged[final]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0006167999817989767,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_nonrevision_requests_are_unchanged[final]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.249998791143298e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_standalone_runtime_transform_keeps_budget_confirmation_pending",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00016580004012212157,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_standalone_runtime_transform_keeps_budget_confirmation_pending",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.002138199983164668,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_standalone_runtime_transform_keeps_budget_confirmation_pending",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.23000043258071e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_complete_oversized_authoritative_source_stays_blocked",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0001789000234566629,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_complete_oversized_authoritative_source_stays_blocked",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.04624560003867373,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_complete_oversized_authoritative_source_stays_blocked",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001346999779343605,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_source_message_hash_tampering_is_rejected",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0003274999908171594,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_source_message_hash_tampering_is_rejected",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0005552999791689217,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_source_message_hash_tampering_is_rejected",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.759998647496104e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_public_fact_substitution_is_rejected_even_with_rehashed_wire",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00016769999638199806,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_public_fact_substitution_is_rejected_even_with_rehashed_wire",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0012171000125817955,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_public_fact_substitution_is_rejected_even_with_rehashed_wire",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.589997353032231e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_literal_native_boundaries_are_not_silently_removed[0]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00021649996051564813,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_literal_native_boundaries_are_not_silently_removed[0]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0004824999487027526,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_literal_native_boundaries_are_not_silently_removed[0]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.319999324157834e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_literal_native_boundaries_are_not_silently_removed[1]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00018769997404888272,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_literal_native_boundaries_are_not_silently_removed[1]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.000451300002168864,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_literal_native_boundaries_are_not_silently_removed[1]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.129997877404094e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_duplicate_user_fields_and_nonfinite_values_are_rejected",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00015889998758211732,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_duplicate_user_fields_and_nonfinite_values_are_rejected",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0012594999861903489,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_duplicate_user_fields_and_nonfinite_values_are_rejected",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.47000046633184e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_existing_generation_limits_are_required[num_ctx-16384]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00023849995341151953,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_existing_generation_limits_are_required[num_ctx-16384]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.000548299984075129,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_existing_generation_limits_are_required[num_ctx-16384]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.509996743872762e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_existing_generation_limits_are_required[num_predict-1024]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00022849999368190765,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_existing_generation_limits_are_required[num_predict-1024]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0003869999782182276,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_existing_generation_limits_are_required[num_predict-1024]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.249998791143298e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_existing_generation_limits_are_required[seed-7]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00023360003251582384,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_existing_generation_limits_are_required[seed-7]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0004900999483652413,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_existing_generation_limits_are_required[seed-7]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00010350003140047193,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_existing_generation_limits_are_required[temperature-False]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00023060000967234373,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_existing_generation_limits_are_required[temperature-False]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0003907000063918531,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_existing_generation_limits_are_required[temperature-False]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00012919999426230788,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_required_codec_instructions_cannot_disappear",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00019449996761977673,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_required_codec_instructions_cannot_disappear",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.001017899950966239,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_required_codec_instructions_cannot_disappear",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.6399977337569e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_unexpected_user_fields_are_preserved_by_rejection_instead_of_dropped",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00018710002768784761,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_unexpected_user_fields_are_preserved_by_rejection_instead_of_dropped",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0017807999975048006,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_bounded_revision.py::test_unexpected_user_fields_are_preserved_by_rejection_instead_of_dropped",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.019983600010164082,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_corrected_runtime.py::test_runtime_changes_only_revision_role_and_keeps_baseline_and_all_shared_facts",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.014588899968657643,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_corrected_runtime.py::test_runtime_changes_only_revision_role_and_keeps_baseline_and_all_shared_facts",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.21904259995790198,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_corrected_runtime.py::test_runtime_changes_only_revision_role_and_keeps_baseline_and_all_shared_facts",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013880000915378332,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_corrected_runtime.py::test_real_independent_and_internal_checker_keep_incomplete_food_field_blocked",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00021630001720041037,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_corrected_runtime.py::test_real_independent_and_internal_checker_keep_incomplete_food_field_blocked",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.20811180002056062,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_corrected_runtime.py::test_real_independent_and_internal_checker_keep_incomplete_food_field_blocked",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013589998707175255,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_corrected_runtime.py::test_role_keeps_original_generate_transport_and_skips_nonrevision_transforms",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00023399997735396028,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_corrected_runtime.py::test_role_keeps_original_generate_transport_and_skips_nonrevision_transforms",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0013524999958463013,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_corrected_runtime.py::test_role_keeps_original_generate_transport_and_skips_nonrevision_transforms",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00010469998233020306,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_supported_field_forms_are_complete_and_numeric[250g of Blueberries, raw contains 1.85g of protein.]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0004759000148624182,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_supported_field_forms_are_complete_and_numeric[250g of Blueberries, raw contains 1.85g of protein.]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0004878999898210168,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_supported_field_forms_are_complete_and_numeric[250g of Blueberries, raw contains 1.85g of protein.]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00015679997159168124,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_supported_field_forms_are_complete_and_numeric[250 g Blueberries, raw contains 1.85 g Protein.]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0005584000027738512,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_supported_field_forms_are_complete_and_numeric[250 g Blueberries, raw contains 1.85 g Protein.]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00046120001934468746,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_supported_field_forms_are_complete_and_numeric[250 g Blueberries, raw contains 1.85 g Protein.]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00021549995290115476,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_supported_field_forms_are_complete_and_numeric[250 grams of Blueberries, raw, provides 1.850 grams of protein.]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00030040001729503274,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_supported_field_forms_are_complete_and_numeric[250 grams of Blueberries, raw, provides 1.850 grams of protein.]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00019880000036209822,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_supported_field_forms_are_complete_and_numeric[250 grams of Blueberries, raw, provides 1.850 grams of protein.]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.889999637380242e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_supported_field_forms_are_complete_and_numeric[Protein in 250g of Blueberries, raw is 1.85g.]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00023179996060207486,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_supported_field_forms_are_complete_and_numeric[Protein in 250g of Blueberries, raw is 1.85g.]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0001708000199869275,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_supported_field_forms_are_complete_and_numeric[Protein in 250g of Blueberries, raw is 1.85g.]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.139999747276306e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_supported_field_forms_are_complete_and_numeric[Blueberries, raw has 1.85g of protein per 250g.]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00022540002828463912,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_supported_field_forms_are_complete_and_numeric[Blueberries, raw has 1.85g of protein per 250g.]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00017039995873346925,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_supported_field_forms_are_complete_and_numeric[Blueberries, raw has 1.85g of protein per 250g.]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.040003012865782e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_supported_field_forms_are_complete_and_numeric[The supplied reference states that 250g of Blueberries, raw contains 1.85g of protein.]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00021949998335912824,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_supported_field_forms_are_complete_and_numeric[The supplied reference states that 250g of Blueberries, raw contains 1.85g of protein.]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00018119998276233673,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_supported_field_forms_are_complete_and_numeric[The supplied reference states that 250g of Blueberries, raw contains 1.85g of protein.]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.58000130392611e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_answer_elsewhere_does_not_fill_food_field",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00018319999799132347,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_answer_elsewhere_does_not_fill_food_field",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0001846000086516142,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_answer_elsewhere_does_not_fill_food_field",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.550001075491309e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ 250g of Blueberries, raw contains 99g of protein.-violated]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00026320002507418394,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ 250g of Blueberries, raw contains 99g of protein.-violated]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00025759998243302107,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ 250g of Blueberries, raw contains 99g of protein.-violated]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.26000066101551e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ Protein in 250g of Blueberries, raw is -1g.-violated]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002519999979995191,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ Protein in 250g of Blueberries, raw is -1g.-violated]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0002232000115327537,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ Protein in 250g of Blueberries, raw is -1g.-violated]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.009998757392168e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ The protein amount totals 99 g.-unknown]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002559999702498317,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ The protein amount totals 99 g.-unknown]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00019609997980296612,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ The protein amount totals 99 g.-unknown]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.520000847056508e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ Protein 99 g.-unknown]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00025430001551285386,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ Protein 99 g.-unknown]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00019200000679120421,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ Protein 99 g.-unknown]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.66000191308558e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ 250g of Blueberries, raw contains NaN g protein.-unknown]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002277999883517623,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ 250g of Blueberries, raw contains NaN g protein.-unknown]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.000195200031157583,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ 250g of Blueberries, raw contains NaN g protein.-unknown]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.119999594986439e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ 250g of Blueberries, raw contains two grams of protein.-unknown]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00024279998615384102,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ 250g of Blueberries, raw contains two grams of protein.-unknown]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00019480002811178565,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ 250g of Blueberries, raw contains two grams of protein.-unknown]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.070005035027862e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ The athlete requested protein and 250g of Blueberries, raw contains 99g of protein.-unknown]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002818000502884388,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ The athlete requested protein and 250g of Blueberries, raw contains 99g of protein.-unknown]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00020589999621734023,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ The athlete requested protein and 250g of Blueberries, raw contains 99g of protein.-unknown]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00011099997209385037,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ The question asks about protein and 250g of Blueberries, raw contains 99g of protein.-unknown]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002902999985963106,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ The question asks about protein and 250g of Blueberries, raw contains 99g of protein.-unknown]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0002077000099234283,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ The question asks about protein and 250g of Blueberries, raw contains 99g of protein.-unknown]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00010080001084133983,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ 250g of Blueberries, raw might contain 99g of protein.-unknown]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0005391000304371119,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ 250g of Blueberries, raw might contain 99g of protein.-unknown]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0002731999848037958,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ 250g of Blueberries, raw might contain 99g of protein.-unknown]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00011049996828660369,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ 250g of Blueberries, raw does not contain 99g of protein.-unknown]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0003010999644175172,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ 250g of Blueberries, raw does not contain 99g of protein.-unknown]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0004985000123269856,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ 250g of Blueberries, raw does not contain 99g of protein.-unknown]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0002694000140763819,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ 250g of Other berries contains 99g of protein.-unknown]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0006959000020287931,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ 250g of Other berries contains 99g of protein.-unknown]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0002502999850548804,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ 250g of Other berries contains 99g of protein.-unknown]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00011470000026747584,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ 250g of Blueberries, raw contains 99mg of protein.-unknown]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0006360000115819275,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ 250g of Blueberries, raw contains 99mg of protein.-unknown]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0004285000031813979,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ 250g of Blueberries, raw contains 99mg of protein.-unknown]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00018289999570697546,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ 100g of Blueberries, raw contains 0.74g of protein.-unknown]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0008028000011108816,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ 100g of Blueberries, raw contains 0.74g of protein.-unknown]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0004966000560671091,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ 100g of Blueberries, raw contains 0.74g of protein.-unknown]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00021959998412057757,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ 250g of Blueberries, raw contains approximately 1.85g of protein.-unknown]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0005914000212214887,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ 250g of Blueberries, raw contains approximately 1.85g of protein.-unknown]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00022350001381710172,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_correct_claim_does_not_mask_bad_or_unverified_claims[ 250g of Blueberries, raw contains approximately 1.85g of protein.-unknown]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00010810000821948051,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_questions_mentions_and_subject_titles_are_not_extra_assertions[The athlete has also asked about the protein content of 250g of Blueberries, raw.]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002471000188961625,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_questions_mentions_and_subject_titles_are_not_extra_assertions[The athlete has also asked about the protein content of 250g of Blueberries, raw.]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00019650004105642438,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_questions_mentions_and_subject_titles_are_not_extra_assertions[The athlete has also asked about the protein content of 250g of Blueberries, raw.]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.68999632075429e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_questions_mentions_and_subject_titles_are_not_extra_assertions[Is 1.85 g protein correct?]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002267000381834805,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_questions_mentions_and_subject_titles_are_not_extra_assertions[Is 1.85 g protein correct?]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0001666999887675047,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_questions_mentions_and_subject_titles_are_not_extra_assertions[Is 1.85 g protein correct?]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.85000335983932e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_questions_mentions_and_subject_titles_are_not_extra_assertions[Does 250g of Blueberries, raw contain 99g protein?]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00021210004342719913,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_questions_mentions_and_subject_titles_are_not_extra_assertions[Does 250g of Blueberries, raw contain 99g protein?]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00015619996702298522,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_questions_mentions_and_subject_titles_are_not_extra_assertions[Does 250g of Blueberries, raw contain 99g protein?]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.360001422464848e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_questions_mentions_and_subject_titles_are_not_extra_assertions[Protein in 250g of Blueberries, raw]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002389000146649778,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_questions_mentions_and_subject_titles_are_not_extra_assertions[Protein in 250g of Blueberries, raw]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00018269999418407679,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_questions_mentions_and_subject_titles_are_not_extra_assertions[Protein in 250g of Blueberries, raw]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.360001422464848e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_questions_mentions_and_subject_titles_are_not_extra_assertions[For the food \"Blueberries, raw\", how many grams of protein are recorded for 250 g?]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002128999913111329,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_questions_mentions_and_subject_titles_are_not_extra_assertions[For the food \"Blueberries, raw\", how many grams of protein are recorded for 250 g?]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00016649998724460602,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_questions_mentions_and_subject_titles_are_not_extra_assertions[For the food \"Blueberries, raw\", how many grams of protein are recorded for 250 g?]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.200000204145908e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_question_or_label_is_not_a_field_answer[For the food \"Blueberries, raw\", how many grams of protein are recorded for 250 g?]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00023449998116120696,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_question_or_label_is_not_a_field_answer[For the food \"Blueberries, raw\", how many grams of protein are recorded for 250 g?]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00011020002420991659,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_question_or_label_is_not_a_field_answer[For the food \"Blueberries, raw\", how many grams of protein are recorded for 250 g?]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.709996473044157e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_question_or_label_is_not_a_field_answer[For the food 'Blueberries, raw', how many grams of protein are recorded for 250 g?]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002204999909736216,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_question_or_label_is_not_a_field_answer[For the food 'Blueberries, raw', how many grams of protein are recorded for 250 g?]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00010990002192556858,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_question_or_label_is_not_a_field_answer[For the food 'Blueberries, raw', how many grams of protein are recorded for 250 g?]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.940002251416445e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_question_or_label_is_not_a_field_answer[For the food \\u201cBlueberries, raw\\u201d, how many grams of protein are recorded for 250 g?]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002148000057786703,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_question_or_label_is_not_a_field_answer[For the food \\u201cBlueberries, raw\\u201d, how many grams of protein are recorded for 250 g?]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00011789996642619371,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_question_or_label_is_not_a_field_answer[For the food \\u201cBlueberries, raw\\u201d, how many grams of protein are recorded for 250 g?]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.229998638853431e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_question_or_label_is_not_a_field_answer[Protein in 250g of Blueberries, raw]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0003168000257574022,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_question_or_label_is_not_a_field_answer[Protein in 250g of Blueberries, raw]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00012809998588636518,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_question_or_label_is_not_a_field_answer[Protein in 250g of Blueberries, raw]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.890003664419055e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_question_or_label_is_not_a_field_answer[]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00023829995188862085,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_question_or_label_is_not_a_field_answer[]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00010059995111078024,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_question_or_label_is_not_a_field_answer[]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.020002860575914e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_explicit_unknown_stays_unknown[Unknown]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002180000301450491,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_explicit_unknown_stays_unknown[Unknown]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00011530000483617187,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_explicit_unknown_stays_unknown[Unknown]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.099997648969293e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_explicit_unknown_stays_unknown[The requested protein amount is unknown.]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00020060001406818628,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_explicit_unknown_stays_unknown[The requested protein amount is unknown.]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00012119999155402184,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_explicit_unknown_stays_unknown[The requested protein amount is unknown.]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.670001989230514e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_explicit_unknown_stays_unknown[I cannot verify the protein amount from the supplied references.]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002194000408053398,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_explicit_unknown_stays_unknown[I cannot verify the protein amount from the supplied references.]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00012639997294172645,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_explicit_unknown_stays_unknown[I cannot verify the protein amount from the supplied references.]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00010850001126527786,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_explicit_unknown_stays_unknown[The value is not available.]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00020489998860284686,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_explicit_unknown_stays_unknown[The value is not available.]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00012009998317807913,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_explicit_unknown_stays_unknown[The value is not available.]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.169998181983829e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[source_footnote-< 0.74 g per 100 g]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00024530000519007444,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[source_footnote-< 0.74 g per 100 g]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00016709999181330204,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[source_footnote-< 0.74 g per 100 g]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.940004045143723e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[source_footnote-Approximately 0.74 g]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00025049998657777905,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[source_footnote-Approximately 0.74 g]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00015310000162571669,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[source_footnote-Approximately 0.74 g]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.329999400302768e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[source_footnote-value2]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002521999995224178,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[source_footnote-value2]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0001571999746374786,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[source_footnote-value2]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.379999781027436e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[qualifier-<]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00023410003632307053,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[qualifier-<]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00016469997353851795,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[qualifier-<]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.560001151636243e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[value_qualifier-estimated]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002242999617010355,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[value_qualifier-estimated]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0001563999685458839,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[value_qualifier-estimated]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.680002065375447e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[amount-NaN]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0004235999658703804,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[amount-NaN]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0001838000025600195,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[amount-NaN]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.410001803189516e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[amount-Infinity]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002578999847173691,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[amount-Infinity]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00016789999790489674,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[amount-Infinity]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00010080001084133983,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[status-unavailable]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002505999873392284,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[status-unavailable]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0001639999682083726,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[status-unavailable]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00010359997395426035,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[fdc_id-another-food]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002891999902203679,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[fdc_id-another-food]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00017389998538419604,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[fdc_id-another-food]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.780004620552063e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[grams-100]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0005999999702908099,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[grams-100]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00032380002085119486,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[grams-100]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001970999874174595,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[nutrient_id-1008]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0004200999974273145,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[nutrient_id-1008]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00018420000560581684,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[nutrient_id-1008]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00010459998156875372,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[reason-value11]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00026210001669824123,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[reason-value11]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0001598999951966107,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[reason-value11]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.610001532360911e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[amount_per_100g_raw-0.8]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002463000128045678,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[amount_per_100g_raw-0.8]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00018010003259405494,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_source_ambiguity_and_qualifiers_never_become_numeric_passes[amount_per_100g_raw-0.8]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.919998072087765e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_duplicate_food_source_is_unknown",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00017610000213608146,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_duplicate_food_source_is_unknown",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00017739995382726192,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_duplicate_food_source_is_unknown",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.289999095723033e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_wrong_additional_food_value_is_not_hidden",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00019539997447282076,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_wrong_additional_food_value_is_not_hidden",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0012458999990485609,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_wrong_additional_food_value_is_not_hidden",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.549997048452497e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_multiple_clauses_are_all_compared",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00021430000197142363,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_multiple_clauses_are_all_compared",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00029689999064430594,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_multiple_clauses_are_all_compared",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.729996625334024e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_wrong_value_still_has_field_coverage_but_fails_numeric_accuracy",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00018120004096999764,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_wrong_value_still_has_field_coverage_but_fails_numeric_accuracy",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00018230004934594035,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_wrong_value_still_has_field_coverage_but_fails_numeric_accuracy",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.020004654303193e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_grounding_is_separate_and_input_copies_are_protected",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00019779999274760485,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_grounding_is_separate_and_input_copies_are_protected",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00024449999909847975,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_grounding_is_separate_and_input_copies_are_protected",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.169998181983829e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_observed_checks_do_not_duplicate_unrelated_calendar_prose",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00019240000983700156,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_observed_checks_do_not_duplicate_unrelated_calendar_prose",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.007022899982985109,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_observed_checks_do_not_duplicate_unrelated_calendar_prose",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00011680001625791192,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_actual_six_food_values_and_old_twenty_four_echo_or_unknown_replies",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002541000139899552,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_actual_six_food_values_and_old_twenty_four_echo_or_unknown_replies",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.061098999984096736,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_actual_six_food_values_and_old_twenty_four_echo_or_unknown_replies",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00012590002734214067,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_actual_sixteen_outcomes_keep_v2_numeric_recognition_separate",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002145000034943223,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_actual_sixteen_outcomes_keep_v2_numeric_recognition_separate",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.023334699973929673,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_food_response_validation.py::test_actual_sixteen_outcomes_keep_v2_numeric_recognition_separate",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00012640003114938736,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_offline_corrections.py::test_actual_five_revisions_fit_and_sixteen_food_outcomes_stay_separate",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.2753872000030242,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_offline_corrections.py::test_actual_five_revisions_fit_and_sixteen_food_outcomes_stay_separate",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 2.885833200009074,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_offline_corrections.py::test_actual_five_revisions_fit_and_sixteen_food_outcomes_stay_separate",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014260003808885813,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_offline_corrections.py::test_repeated_preparation_keeps_source_hashes_and_archives_observations",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002883999841287732,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_offline_corrections.py::test_repeated_preparation_keeps_source_hashes_and_archives_observations",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 3.7537397000123747,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_offline_corrections.py::test_repeated_preparation_keeps_source_hashes_and_archives_observations",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00018540001474320889,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_offline_corrections.py::test_modified_captured_render_request_is_rejected",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002875000354833901,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_offline_corrections.py::test_modified_captured_render_request_is_rejected",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.7092650000122376,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_offline_corrections.py::test_modified_captured_render_request_is_rejected",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013890000991523266,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_offline_corrections.py::test_render_only_flag_cannot_be_changed_even_with_updated_capture_hash",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00027359998784959316,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_offline_corrections.py::test_render_only_flag_cannot_be_changed_even_with_updated_capture_hash",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.7264073000405915,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_offline_corrections.py::test_render_only_flag_cannot_be_changed_even_with_updated_capture_hash",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014970003394410014,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_offline_corrections.py::test_changed_designated_outcome_is_not_repaired_or_substituted",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00027270003920421004,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_offline_corrections.py::test_changed_designated_outcome_is_not_repaired_or_substituted",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.019258600019384176,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_offline_corrections.py::test_changed_designated_outcome_is_not_repaired_or_substituted",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013480003690347075,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_offline_corrections.py::test_failed_software_evidence_cannot_create_a_candidate",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00026050000451505184,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_offline_corrections.py::test_failed_software_evidence_cannot_create_a_candidate",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0005452000186778605,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/offline_corrections/test_offline_corrections.py::test_failed_software_evidence_cannot_create_a_candidate",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0002445999998599291,
+      "expected_failure": false,
+      "detail": null
+    }
+  ],
+  "collection_errors": [],
+  "deselected": [],
+  "new_model_calls": 0,
+  "query_encoder_processes": 0,
+  "network_policy": "blocked_in_routine_tests",
+  "fixtures": "authored_public_examples"
+}

@@ -1,0 +1,25 @@
+check,status,observed
+inherited_tokenizer_and_project_integrity,pass,710
+captured_go_template_reference_cases,pass,12
+context_budget_at_below_and_above_boundary,pass,3
+reject_native_tools,pass,no request submitted
+reject_truncation,pass,no request submitted
+reject_shifting,pass,no request submitted
+reject_streaming,pass,no request submitted
+reject_history,pass,no request submitted
+reject_control_token,pass,no request submitted
+reject_noncanonical_boundary,pass,no request submitted
+reject_unbounded_output,pass,no request submitted
+actual_oversized_text_rejected_by_local_budget,pass,6526
+complete_admitted_reference_companion_preserved,pass,reference-unit:826434d4d2d9eca996497c4fa1e36fdb85d4a62df0d6c7ce121f6e4e3b782512
+live_runtime_and_model_identity_before_rendering,pass,0.40.16 / pinned digest / recorded defaults
+backend_render_basic_json,pass,30
+backend_render_unicode_and_internal_newlines,pass,38
+backend_render_structured_fixture_fields,pass,49
+backend_render_complete_reference_companion,pass,348
+backend_reports_sufficient_runner_context,pass,[8192]
+runtime_identity_after_rendering,pass,version and model digest unchanged
+prior_inputs_and_native_encoder_unchanged,pass,710
+backend_token_count_agreement,pending,not established by render-only preparation
+json_generation_and_parsing_compatibility,pending,not established by render-only preparation
+operational_generation_readiness,pending,not established by render-only preparation

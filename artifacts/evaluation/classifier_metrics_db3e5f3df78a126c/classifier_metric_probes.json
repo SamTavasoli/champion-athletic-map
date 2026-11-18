@@ -1,0 +1,574 @@
+{
+  "probes": [
+    {
+      "class_order": [
+        "toy_C",
+        "toy_A",
+        "toy_B"
+      ],
+      "expected": {
+        "accuracy": 1,
+        "class_order": [
+          "toy_C",
+          "toy_A",
+          "toy_B"
+        ],
+        "confusion_counts": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "confusion_row_proportions": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "macro_f1": 1,
+        "n_groups": 3,
+        "n_records": 4,
+        "per_class.0.label": "toy_C",
+        "per_class.1.support_records": 2,
+        "status": "available"
+      },
+      "groups": [
+        "g1",
+        "g1",
+        "g2",
+        "g3"
+      ],
+      "kind": "calculation",
+      "name": "perfect_with_reordered_classes",
+      "y_pred": [
+        "toy_A",
+        "toy_A",
+        "toy_B",
+        "toy_C"
+      ],
+      "y_true": [
+        "toy_A",
+        "toy_A",
+        "toy_B",
+        "toy_C"
+      ]
+    },
+    {
+      "class_order": [
+        "toy_A",
+        "toy_B",
+        "toy_C"
+      ],
+      "expected": {
+        "accuracy": 0.6666666666666666,
+        "confusion_axes": {
+          "columns": "predicted",
+          "rows": "actual"
+        },
+        "confusion_counts": [
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "confusion_row_proportions": [
+          [
+            0.6666666666666666,
+            0.3333333333333333,
+            0
+          ],
+          [
+            0,
+            0.5,
+            0.5
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "macro_f1": 0.6555555555555556,
+        "n_groups": 4,
+        "n_records": 6,
+        "per_class.0.f1": 0.8,
+        "per_class.0.precision": 1,
+        "per_class.0.recall": 0.6666666666666666,
+        "per_class.0.support_groups": 2,
+        "per_class.1.f1": 0.5,
+        "per_class.1.precision": 0.5,
+        "per_class.1.recall": 0.5,
+        "per_class.1.support_groups": 2,
+        "per_class.2.f1": 0.6666666666666666,
+        "per_class.2.precision": 0.5,
+        "per_class.2.recall": 1,
+        "per_class.2.support_groups": 1
+      },
+      "groups": [
+        "g1",
+        "g1",
+        "g2",
+        "g1",
+        "g3",
+        "g4"
+      ],
+      "kind": "calculation",
+      "name": "asymmetric_counts_and_overlapping_groups",
+      "y_pred": [
+        "toy_A",
+        "toy_A",
+        "toy_B",
+        "toy_B",
+        "toy_C",
+        "toy_C"
+      ],
+      "y_true": [
+        "toy_A",
+        "toy_A",
+        "toy_A",
+        "toy_B",
+        "toy_B",
+        "toy_C"
+      ]
+    },
+    {
+      "class_order": [
+        "toy_A",
+        "toy_B",
+        "toy_C"
+      ],
+      "expected": {
+        "accuracy": 0.5,
+        "confusion_row_proportions": [
+          [
+            0.5,
+            0.5,
+            0
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "macro_f1": 0.2222222222222222,
+        "per_class.0.f1": 0.6666666666666666,
+        "per_class.1.f1_defined": true,
+        "per_class.1.precision_defined": true,
+        "per_class.1.predicted_records": 1,
+        "per_class.1.recall": 0,
+        "per_class.1.recall_defined": false,
+        "per_class.1.support_records": 0,
+        "per_class.2.f1": 0,
+        "per_class.2.f1_defined": false
+      },
+      "groups": [
+        "g1",
+        "g2"
+      ],
+      "kind": "calculation",
+      "name": "class_predicted_without_actual_support",
+      "y_pred": [
+        "toy_A",
+        "toy_B"
+      ],
+      "y_true": [
+        "toy_A",
+        "toy_A"
+      ]
+    },
+    {
+      "class_order": [
+        "toy_A",
+        "toy_B",
+        "toy_C"
+      ],
+      "expected": {
+        "accuracy": 0.5,
+        "confusion_counts": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "macro_f1": 0.2222222222222222,
+        "per_class.0.f1": 0.6666666666666666,
+        "per_class.1.f1": 0,
+        "per_class.1.precision": 0,
+        "per_class.1.precision_defined": false,
+        "per_class.1.predicted_records": 0,
+        "per_class.1.recall": 0,
+        "per_class.1.recall_defined": true,
+        "per_class.1.support_records": 1
+      },
+      "groups": [
+        "g1",
+        "g2"
+      ],
+      "kind": "calculation",
+      "name": "actual_class_never_predicted",
+      "y_pred": [
+        "toy_A",
+        "toy_A"
+      ],
+      "y_true": [
+        "toy_A",
+        "toy_B"
+      ]
+    },
+    {
+      "class_order": [
+        "toy_A",
+        "toy_B",
+        "toy_C"
+      ],
+      "expected": {
+        "accuracy": 0,
+        "confusion_counts": [
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        "macro_f1": 0,
+        "per_class.0.recall_defined": true,
+        "status": "available"
+      },
+      "groups": [
+        "g1",
+        "g2",
+        "g3"
+      ],
+      "kind": "calculation",
+      "name": "all_incorrect_observations",
+      "y_pred": [
+        "toy_B",
+        "toy_C",
+        "toy_A"
+      ],
+      "y_true": [
+        "toy_A",
+        "toy_B",
+        "toy_C"
+      ]
+    },
+    {
+      "class_order": [
+        "toy_A",
+        "toy_B",
+        "toy_C"
+      ],
+      "expected": {
+        "accuracy": null,
+        "confusion_row_proportions": [
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null
+          ]
+        ],
+        "macro_f1": null,
+        "n_groups": 0,
+        "n_records": 0,
+        "per_class.0.f1": null,
+        "per_class.0.precision": null,
+        "per_class.0.recall": null,
+        "status": "unavailable_no_evaluated_records"
+      },
+      "groups": [],
+      "kind": "unavailable",
+      "name": "empty_evaluation_is_unavailable",
+      "y_pred": [],
+      "y_true": []
+    },
+    {
+      "class_order": [
+        "abdominals",
+        "abductors",
+        "adductors",
+        "biceps",
+        "calves",
+        "chest",
+        "forearms",
+        "glutes",
+        "hamstrings",
+        "lats",
+        "lower back",
+        "middle back",
+        "quadriceps",
+        "shoulders",
+        "traps",
+        "triceps"
+      ],
+      "expected": {
+        "accuracy": 1,
+        "class_order": [
+          "abdominals",
+          "abductors",
+          "adductors",
+          "biceps",
+          "calves",
+          "chest",
+          "forearms",
+          "glutes",
+          "hamstrings",
+          "lats",
+          "lower back",
+          "middle back",
+          "quadriceps",
+          "shoulders",
+          "traps",
+          "triceps"
+        ],
+        "macro_f1": 0.125,
+        "per_class.2.f1": 0,
+        "per_class.2.f1_defined": false,
+        "per_class.2.support_records": 0,
+        "status": "available"
+      },
+      "groups": [
+        "toy:frozen1",
+        "toy:frozen2"
+      ],
+      "kind": "calculation",
+      "name": "fixed_benchmark_order_with_two_artificial_classes_present",
+      "y_pred": [
+        "abdominals",
+        "abductors"
+      ],
+      "y_true": [
+        "abdominals",
+        "abductors"
+      ]
+    },
+    {
+      "class_order": [
+        "toy_A",
+        "toy_B",
+        "toy_C"
+      ],
+      "expected_exception": "ValueError",
+      "groups": [
+        "g1"
+      ],
+      "kind": "input_rejection",
+      "name": "unknown_prediction",
+      "y_pred": [
+        "toy_unknown"
+      ],
+      "y_true": [
+        "toy_A"
+      ]
+    },
+    {
+      "class_order": [
+        "toy_A",
+        "toy_B",
+        "toy_C"
+      ],
+      "expected_exception": "ValueError",
+      "groups": [
+        "g1"
+      ],
+      "kind": "input_rejection",
+      "name": "unknown_actual_label",
+      "y_pred": [
+        "toy_A"
+      ],
+      "y_true": [
+        "toy_unknown"
+      ]
+    },
+    {
+      "class_order": [
+        "toy_A",
+        "toy_B",
+        "toy_C"
+      ],
+      "expected_exception": "ValueError",
+      "groups": [
+        "g1",
+        "g2"
+      ],
+      "kind": "input_rejection",
+      "name": "incomplete_predictions",
+      "y_pred": [
+        "toy_A"
+      ],
+      "y_true": [
+        "toy_A",
+        "toy_B"
+      ]
+    },
+    {
+      "class_order": [
+        "toy_A",
+        "toy_B",
+        "toy_C"
+      ],
+      "expected_exception": "ValueError",
+      "groups": [
+        "g1"
+      ],
+      "kind": "input_rejection",
+      "name": "missing_predictions",
+      "y_pred": null,
+      "y_true": [
+        "toy_A"
+      ]
+    },
+    {
+      "class_order": [
+        "toy_A",
+        "toy_B",
+        "toy_C"
+      ],
+      "expected_exception": "ValueError",
+      "groups": [],
+      "kind": "input_rejection",
+      "name": "group_count_mismatch",
+      "y_pred": [
+        "toy_A"
+      ],
+      "y_true": [
+        "toy_A"
+      ]
+    },
+    {
+      "class_order": [
+        "toy_A",
+        "toy_B",
+        "toy_C"
+      ],
+      "expected_exception": "ValueError",
+      "groups": [
+        " "
+      ],
+      "kind": "input_rejection",
+      "name": "blank_group",
+      "y_pred": [
+        "toy_A"
+      ],
+      "y_true": [
+        "toy_A"
+      ]
+    },
+    {
+      "class_order": [
+        "toy_A",
+        "toy_A"
+      ],
+      "expected_exception": "ValueError",
+      "groups": [
+        "g1"
+      ],
+      "kind": "input_rejection",
+      "name": "duplicate_class_order",
+      "y_pred": [
+        "toy_A"
+      ],
+      "y_true": [
+        "toy_A"
+      ]
+    },
+    {
+      "class_order": [
+        "toy_A",
+        "toy_B",
+        "toy_C"
+      ],
+      "expected_exception": "ValueError",
+      "groups": [
+        "g1"
+      ],
+      "kind": "input_rejection",
+      "name": "numeric_prediction_is_not_a_label",
+      "y_pred": [
+        0
+      ],
+      "y_true": [
+        "toy_A"
+      ]
+    },
+    {
+      "class_order": [],
+      "expected_exception": "ValueError",
+      "groups": [],
+      "kind": "input_rejection",
+      "name": "empty_class_order",
+      "y_pred": [],
+      "y_true": []
+    }
+  ],
+  "scope": "artificial metric examples, not benchmark observations"
+}

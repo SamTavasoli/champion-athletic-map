@@ -1,0 +1,9 @@
+﻿check,status
+independent_dependency_installation,passed
+fresh_kernel_notebook_execution,passed
+saved_analysis_outputs,failed
+protected_originals,passed
+full_main_notebook_execution,not_tested
+data_rebuild,not_tested
+training_repetition,not_tested
+live_generation,not_tested

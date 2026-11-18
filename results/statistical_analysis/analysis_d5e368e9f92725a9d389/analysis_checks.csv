@@ -1,0 +1,9 @@
+﻿check,status,observed,expected
+all_designated_planner_jobs_assessed,passed,800,800
+four_version_pairing,passed,200,200
+supplementary_review_entries,passed,800,800
+classifier_saved_input_analysis,complete,438,438
+retrieval_saved_evidence,verified,30,30
+native_runtime_details,complete,800,800
+primary_bootstrap_draws,passed,2000,2000
+independent_reviewer_agreement,unavailable_not_collected,0,2

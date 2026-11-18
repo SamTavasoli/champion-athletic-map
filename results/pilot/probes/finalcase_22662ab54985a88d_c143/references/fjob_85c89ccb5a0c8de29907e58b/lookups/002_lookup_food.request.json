@@ -1,0 +1,8 @@
+{
+  "args": [],
+  "kwargs": {
+    "grams": "80",
+    "search_text": "Oranges, raw, all commercial varieties"
+  },
+  "method": "lookup_food"
+}

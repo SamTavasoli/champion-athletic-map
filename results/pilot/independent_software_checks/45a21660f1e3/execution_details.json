@@ -1,0 +1,2897 @@
+{
+  "schema_version": "step30-pytest-execution-1",
+  "pytest_exit_code": 0,
+  "collected": [
+    {
+      "test_id": "tests/independent_assessment/test_independent_assessment_run.py::test_real_loader_keeps_four_originals_and_amended_v4_separate_without_writes",
+      "requirement": "31:independent-assessment-components",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_assessment_run.py:120",
+      "description": "test_real_loader_keeps_four_originals_and_amended_v4_separate_without_writes"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_assessment_run.py::test_real_loader_rejects_changed_sources_or_duplicate_arms[damaged_outcome]",
+      "requirement": "31:independent-assessment-components",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_assessment_run.py:133",
+      "description": "test_real_loader_rejects_changed_sources_or_duplicate_arms[damaged_outcome]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_assessment_run.py::test_real_loader_rejects_changed_sources_or_duplicate_arms[damaged_reference]",
+      "requirement": "31:independent-assessment-components",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_assessment_run.py:133",
+      "description": "test_real_loader_rejects_changed_sources_or_duplicate_arms[damaged_reference]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_assessment_run.py::test_real_loader_rejects_changed_sources_or_duplicate_arms[public_input]",
+      "requirement": "31:independent-assessment-components",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_assessment_run.py:133",
+      "description": "test_real_loader_rejects_changed_sources_or_duplicate_arms[public_input]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_assessment_run.py::test_real_loader_rejects_changed_sources_or_duplicate_arms[duplicate_version]",
+      "requirement": "31:independent-assessment-components",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_assessment_run.py:133",
+      "description": "test_real_loader_rejects_changed_sources_or_duplicate_arms[duplicate_version]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_assessment_run.py::test_run_is_idempotent_with_fresh_software_evidence_and_preserves_inputs",
+      "requirement": "31:independent-assessment-components",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_assessment_run.py:172",
+      "description": "test_run_is_idempotent_with_fresh_software_evidence_and_preserves_inputs"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_assessment_run.py::test_unexecuted_or_changed_software_evidence_cannot_authorize_assessment[evidence0]",
+      "requirement": "31:independent-assessment-components",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_assessment_run.py:192",
+      "description": "test_unexecuted_or_changed_software_evidence_cannot_authorize_assessment[evidence0]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_assessment_run.py::test_unexecuted_or_changed_software_evidence_cannot_authorize_assessment[evidence1]",
+      "requirement": "31:independent-assessment-components",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_assessment_run.py:192",
+      "description": "test_unexecuted_or_changed_software_evidence_cannot_authorize_assessment[evidence1]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_assessment_run.py::test_changed_immutable_assessment_is_preserved_and_rejected",
+      "requirement": "31:independent-assessment-components",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_assessment_run.py:204",
+      "description": "test_changed_immutable_assessment_is_preserved_and_rejected"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_omitted_food_answer_is_missing_not_a_claimed_wrong_number",
+      "requirement": "31:independent-food-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_food.py:35",
+      "description": "test_omitted_food_answer_is_missing_not_a_claimed_wrong_number"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_plain_correct_answer_needs_no_catalogue_or_source_ids[100 g Strawberries, raw contains 0.67 g protein]",
+      "requirement": "31:independent-food-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_food.py:43",
+      "description": "test_plain_correct_answer_needs_no_catalogue_or_source_ids[100 g Strawberries, raw contains 0.67 g protein]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_plain_correct_answer_needs_no_catalogue_or_source_ids[100 g of Strawberries, raw: 0.670 grams Protein.]",
+      "requirement": "31:independent-food-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_food.py:43",
+      "description": "test_plain_correct_answer_needs_no_catalogue_or_source_ids[100 g of Strawberries, raw: 0.670 grams Protein.]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_plain_correct_answer_needs_no_catalogue_or_source_ids[Protein in 100g of raw strawberries: 0.67g]",
+      "requirement": "31:independent-food-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_food.py:43",
+      "description": "test_plain_correct_answer_needs_no_catalogue_or_source_ids[Protein in 100g of raw strawberries: 0.67g]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_plain_correct_answer_needs_no_catalogue_or_source_ids[Strawberries, raw provides 0.67 g protein per 100 g.]",
+      "requirement": "31:independent-food-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_food.py:43",
+      "description": "test_plain_correct_answer_needs_no_catalogue_or_source_ids[Strawberries, raw provides 0.67 g protein per 100 g.]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_plain_correct_answer_needs_no_catalogue_or_source_ids[100 g raw strawberries \\u2014 0.67 g protein.]",
+      "requirement": "31:independent-food-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_food.py:43",
+      "description": "test_plain_correct_answer_needs_no_catalogue_or_source_ids[100 g raw strawberries \\u2014 0.67 g protein.]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_correct_answer_in_explanation_is_checked_like_structured_food_facts",
+      "requirement": "31:independent-food-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_food.py:56",
+      "description": "test_correct_answer_in_explanation_is_checked_like_structured_food_facts"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_source_attribution_is_a_separate_optional_measure",
+      "requirement": "31:independent-food-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_food.py:61",
+      "description": "test_source_attribution_is_a_separate_optional_measure"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_attribution_problem_never_changes_correct_numeric_claim[wrong-id-https://fdc.nal.usda.gov/food-details/167762/nutrients-violated]",
+      "requirement": "31:independent-food-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_food.py:72",
+      "description": "test_attribution_problem_never_changes_correct_numeric_claim[wrong-id-https://fdc.nal.usda.gov/food-details/167762/nutrients-violated]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_attribution_problem_never_changes_correct_numeric_claim[167762-None-unknown]",
+      "requirement": "31:independent-food-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_food.py:72",
+      "description": "test_attribution_problem_never_changes_correct_numeric_claim[167762-None-unknown]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_attribution_problem_never_changes_correct_numeric_claim[None-https://unverified.example/food-unknown]",
+      "requirement": "31:independent-food-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_food.py:72",
+      "description": "test_attribution_problem_never_changes_correct_numeric_claim[None-https://unverified.example/food-unknown]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_recognized_changed_values_or_units_are_actual_numeric_violations[100 g Strawberries, raw contains 6.7 g protein]",
+      "requirement": "31:independent-food-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_food.py:80",
+      "description": "test_recognized_changed_values_or_units_are_actual_numeric_violations[100 g Strawberries, raw contains 6.7 g protein]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_recognized_changed_values_or_units_are_actual_numeric_violations[100 g Strawberries, raw contains 0.7 g protein]",
+      "requirement": "31:independent-food-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_food.py:80",
+      "description": "test_recognized_changed_values_or_units_are_actual_numeric_violations[100 g Strawberries, raw contains 0.7 g protein]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_recognized_changed_values_or_units_are_actual_numeric_violations[100 g Strawberries, raw contains 0.67 kcal protein]",
+      "requirement": "31:independent-food-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_food.py:80",
+      "description": "test_recognized_changed_values_or_units_are_actual_numeric_violations[100 g Strawberries, raw contains 0.67 kcal protein]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_recognized_changed_values_or_units_are_actual_numeric_violations[100 g Strawberries, raw contains -0.67 g protein]",
+      "requirement": "31:independent-food-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_food.py:80",
+      "description": "test_recognized_changed_values_or_units_are_actual_numeric_violations[100 g Strawberries, raw contains -0.67 g protein]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_approximate_or_unsupported_numeric_prose_remains_unknown[100 g Strawberries, raw contains about 0.67 g protein]",
+      "requirement": "31:independent-food-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_food.py:87",
+      "description": "test_approximate_or_unsupported_numeric_prose_remains_unknown[100 g Strawberries, raw contains about 0.67 g protein]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_approximate_or_unsupported_numeric_prose_remains_unknown[Approximately 100 g raw strawberries provides 0.67 g protein.]",
+      "requirement": "31:independent-food-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_food.py:87",
+      "description": "test_approximate_or_unsupported_numeric_prose_remains_unknown[Approximately 100 g raw strawberries provides 0.67 g protein.]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_approximate_or_unsupported_numeric_prose_remains_unknown[Protein: roughly 0.7 g in 100 g raw strawberries.]",
+      "requirement": "31:independent-food-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_food.py:87",
+      "description": "test_approximate_or_unsupported_numeric_prose_remains_unknown[Protein: roughly 0.7 g in 100 g raw strawberries.]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_approximate_or_unsupported_numeric_prose_remains_unknown[For 100 g strawberries, protein is around two-thirds of a gram.]",
+      "requirement": "31:independent-food-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_food.py:87",
+      "description": "test_approximate_or_unsupported_numeric_prose_remains_unknown[For 100 g strawberries, protein is around two-thirds of a gram.]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_exact_scaling_does_not_use_binary_float_or_an_undeclared_tolerance",
+      "requirement": "31:independent-food-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_food.py:97",
+      "description": "test_exact_scaling_does_not_use_binary_float_or_an_undeclared_tolerance"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_correct_fact_for_wrong_quantity_is_not_a_false_numeric_fact",
+      "requirement": "31:independent-food-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_food.py:104",
+      "description": "test_correct_fact_for_wrong_quantity_is_not_a_false_numeric_fact"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_correct_energy_fact_does_not_fulfill_a_protein_question",
+      "requirement": "31:independent-food-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_food.py:109",
+      "description": "test_correct_energy_fact_does_not_fulfill_a_protein_question"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_energy_question_and_kilocalorie_unit_are_supported",
+      "requirement": "31:independent-food-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_food.py:114",
+      "description": "test_energy_question_and_kilocalorie_unit_are_supported"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_conflicting_food_claims_do_not_pass_by_selecting_the_correct_one",
+      "requirement": "31:independent-food-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_food.py:119",
+      "description": "test_conflicting_food_claims_do_not_pass_by_selecting_the_correct_one"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_alias_requires_exact_source_identity_and_description",
+      "requirement": "31:independent-food-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_food.py:126",
+      "description": "test_alias_requires_exact_source_identity_and_description"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_unrecognized_question_never_receives_a_guessed_completeness_pass",
+      "requirement": "31:independent-food-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_food.py:132",
+      "description": "test_unrecognized_question_never_receives_a_guessed_completeness_pass"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_empty_reference_truth_does_not_prove_factual_incorrectness",
+      "requirement": "31:independent-food-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_food.py:138",
+      "description": "test_empty_reference_truth_does_not_prove_factual_incorrectness"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_grounding_claim_in_unsupported_wording_is_not_reported_absent",
+      "requirement": "31:independent-food-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_food.py:144",
+      "description": "test_grounding_claim_in_unsupported_wording_is_not_reported_absent"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_bare_numeric_answer_is_unsupported_not_proven_omitted[True]",
+      "requirement": "31:independent-food-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_food.py:150",
+      "description": "test_bare_numeric_answer_is_unsupported_not_proven_omitted[True]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_bare_numeric_answer_is_unsupported_not_proven_omitted[False]",
+      "requirement": "31:independent-food-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_food.py:150",
+      "description": "test_bare_numeric_answer_is_unsupported_not_proven_omitted[False]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_food_answer_in_other_public_response_text_is_not_reported_omitted",
+      "requirement": "31:independent-food-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_food.py:156",
+      "description": "test_food_answer_in_other_public_response_text_is_not_reported_omitted"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_matching_response_evidence_url_can_ground_without_food_id",
+      "requirement": "31:independent-food-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_food.py:163",
+      "description": "test_matching_response_evidence_url_can_ground_without_food_id"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_resolving_source_identity_does_not_claim_support_for_a_wrong_number",
+      "requirement": "31:independent-food-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_food.py:169",
+      "description": "test_resolving_source_identity_does_not_claim_support_for_a_wrong_number"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_conflicting_assessment_truth_stays_unknown_instead_of_choosing_a_record",
+      "requirement": "31:independent-food-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_food.py:176",
+      "description": "test_conflicting_assessment_truth_stays_unknown_instead_of_choosing_a_record"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_questionless_calendar_has_no_food_obligation",
+      "requirement": "31:independent-food-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_food.py:185",
+      "description": "test_questionless_calendar_has_no_food_obligation"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_inputs_stay_unchanged_and_planner_identity_is_not_an_assessor_input",
+      "requirement": "31:independent-food-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_food.py:190",
+      "description": "test_inputs_stay_unchanged_and_planner_identity_is_not_an_assessor_input"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_all_common_required_checks_have_a_positive_path_without_catalog_ids",
+      "requirement": "31:independent-saved-plan-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_plan_assessment.py:57",
+      "description": "test_all_common_required_checks_have_a_positive_path_without_catalog_ids"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_same_resources_can_fit_declarations_but_have_unverified_real_requirements",
+      "requirement": "31:independent-saved-plan-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_plan_assessment.py:65",
+      "description": "test_same_resources_can_fit_declarations_but_have_unverified_real_requirements"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_three_roots_do_not_satisfy_two_requested_sessions_even_under_cap_three",
+      "requirement": "31:independent-saved-plan-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_plan_assessment.py:73",
+      "description": "test_three_roots_do_not_satisfy_two_requested_sessions_even_under_cap_three"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_food_accuracy_is_separate_from_citations_and_internal_verdict",
+      "requirement": "31:independent-saved-plan-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_plan_assessment.py:83",
+      "description": "test_food_accuracy_is_separate_from_citations_and_internal_verdict"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_omitted_requested_food_answer_remains_a_completeness_failure",
+      "requirement": "31:independent-saved-plan-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_plan_assessment.py:97",
+      "description": "test_omitted_requested_food_answer_remains_a_completeness_failure"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_components_are_not_extra_sessions_and_invalid_graph_cannot_pass",
+      "requirement": "31:independent-saved-plan-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_plan_assessment.py:105",
+      "description": "test_components_are_not_extra_sessions_and_invalid_graph_cannot_pass"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_child_resource_shortage_is_not_hidden_inside_parent_session[False]",
+      "requirement": "31:independent-saved-plan-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_plan_assessment.py:120",
+      "description": "test_child_resource_shortage_is_not_hidden_inside_parent_session[False]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_child_resource_shortage_is_not_hidden_inside_parent_session[True]",
+      "requirement": "31:independent-saved-plan-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_plan_assessment.py:120",
+      "description": "test_child_resource_shortage_is_not_hidden_inside_parent_session[True]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_missing_external_required_rows_cannot_make_a_pass",
+      "requirement": "31:independent-saved-plan-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_plan_assessment.py:139",
+      "description": "test_missing_external_required_rows_cannot_make_a_pass"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_missing_designated_reply_does_not_fall_back_to_an_earlier_draft",
+      "requirement": "31:independent-saved-plan-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_plan_assessment.py:145",
+      "description": "test_missing_designated_reply_does_not_fall_back_to_an_earlier_draft"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_literal_request_grammar_does_not_convert_cap_or_equipment_into_a_request[Plan two extra basketball sessions.-2]",
+      "requirement": "31:independent-saved-plan-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_plan_assessment.py:154",
+      "description": "test_literal_request_grammar_does_not_convert_cap_or_equipment_into_a_request[Plan two extra basketball sessions.-2]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_literal_request_grammar_does_not_convert_cap_or_equipment_into_a_request[Plan 3 additional practices.-3]",
+      "requirement": "31:independent-saved-plan-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_plan_assessment.py:154",
+      "description": "test_literal_request_grammar_does_not_convert_cap_or_equipment_into_a_request[Plan 3 additional practices.-3]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_literal_request_grammar_does_not_convert_cap_or_equipment_into_a_request[No additional training this week.-0]",
+      "requirement": "31:independent-saved-plan-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_plan_assessment.py:154",
+      "description": "test_literal_request_grammar_does_not_convert_cap_or_equipment_into_a_request[No additional training this week.-0]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_literal_request_grammar_does_not_convert_cap_or_equipment_into_a_request[Two balls are available for practice.-None]",
+      "requirement": "31:independent-saved-plan-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_plan_assessment.py:154",
+      "description": "test_literal_request_grammar_does_not_convert_cap_or_equipment_into_a_request[Two balls are available for practice.-None]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_noninterpreted_numeric_request_stays_unknown",
+      "requirement": "31:independent-saved-plan-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_plan_assessment.py:161",
+      "description": "test_noninterpreted_numeric_request_stays_unknown"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_source_release_and_record_bindings_are_verified",
+      "requirement": "31:independent-resource-proof",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_resources.py:56",
+      "description": "test_source_release_and_record_bindings_are_verified"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_concrete_base_actions_can_pass_without_any_catalog_id[description0-1-equipment0]",
+      "requirement": "31:independent-resource-proof",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_resources.py:63",
+      "description": "test_concrete_base_actions_can_pass_without_any_catalog_id[description0-1-equipment0]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_concrete_base_actions_can_pass_without_any_catalog_id[description1-4-equipment1]",
+      "requirement": "31:independent-resource-proof",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_resources.py:63",
+      "description": "test_concrete_base_actions_can_pass_without_any_catalog_id[description1-4-equipment1]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_concrete_base_actions_can_pass_without_any_catalog_id[description2-2-equipment2]",
+      "requirement": "31:independent-resource-proof",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_resources.py:63",
+      "description": "test_concrete_base_actions_can_pass_without_any_catalog_id[description2-2-equipment2]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_concrete_base_actions_can_pass_without_any_catalog_id[description3-4-equipment3]",
+      "requirement": "31:independent-resource-proof",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_resources.py:63",
+      "description": "test_concrete_base_actions_can_pass_without_any_catalog_id[description3-4-equipment3]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_literal_quantity_fit_is_distinct_from_vague_requirement_evidence",
+      "requirement": "31:independent-resource-proof",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_resources.py:76",
+      "description": "test_literal_quantity_fit_is_distinct_from_vague_requirement_evidence"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_name_and_catalog_id_alone_never_supply_action_role_proof",
+      "requirement": "31:independent-resource-proof",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_resources.py:82",
+      "description": "test_name_and_catalog_id_alone_never_supply_action_role_proof"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_unreviewed_additions_and_negations_do_not_pass_keyword_matching[ Then sprint across the court.]",
+      "requirement": "31:independent-resource-proof",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_resources.py:88",
+      "description": "test_unreviewed_additions_and_negations_do_not_pass_keyword_matching[ Then sprint across the court.]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_unreviewed_additions_and_negations_do_not_pass_keyword_matching[ Do not change hands.]",
+      "requirement": "31:independent-resource-proof",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_resources.py:88",
+      "description": "test_unreviewed_additions_and_negations_do_not_pass_keyword_matching[ Do not change hands.]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_unreviewed_additions_and_negations_do_not_pass_keyword_matching[ Then add a weighted vest.]",
+      "requirement": "31:independent-resource-proof",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_resources.py:88",
+      "description": "test_unreviewed_additions_and_negations_do_not_pass_keyword_matching[ Then add a weighted vest.]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_missing_or_conflicting_material_facts_do_not_pass[unknown_ball]",
+      "requirement": "31:independent-resource-proof",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_resources.py:93",
+      "description": "test_missing_or_conflicting_material_facts_do_not_pass[unknown_ball]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_missing_or_conflicting_material_facts_do_not_pass[no_ball]",
+      "requirement": "31:independent-resource-proof",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_resources.py:93",
+      "description": "test_missing_or_conflicting_material_facts_do_not_pass[no_ball]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_missing_or_conflicting_material_facts_do_not_pass[unknown_people]",
+      "requirement": "31:independent-resource-proof",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_resources.py:93",
+      "description": "test_missing_or_conflicting_material_facts_do_not_pass[unknown_people]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_missing_or_conflicting_material_facts_do_not_pass[one_for_pair]",
+      "requirement": "31:independent-resource-proof",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_resources.py:93",
+      "description": "test_missing_or_conflicting_material_facts_do_not_pass[one_for_pair]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_missing_or_conflicting_material_facts_do_not_pass[unknown_space]",
+      "requirement": "31:independent-resource-proof",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_resources.py:93",
+      "description": "test_missing_or_conflicting_material_facts_do_not_pass[unknown_space]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_missing_or_conflicting_material_facts_do_not_pass[restrictions]",
+      "requirement": "31:independent-resource-proof",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_resources.py:93",
+      "description": "test_missing_or_conflicting_material_facts_do_not_pass[restrictions]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_incomplete_declared_equipment_is_not_a_positive_proof",
+      "requirement": "31:independent-resource-proof",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_resources.py:112",
+      "description": "test_incomplete_declared_equipment_is_not_a_positive_proof"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_understated_required_ball_or_pair_roles_are_caught_independently",
+      "requirement": "31:independent-resource-proof",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_resources.py:120",
+      "description": "test_understated_required_ball_or_pair_roles_are_caught_independently"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_turn_taking_does_not_require_a_ball_for_every_available_person",
+      "requirement": "31:independent-resource-proof",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_resources.py:125",
+      "description": "test_turn_taking_does_not_require_a_ball_for_every_available_person"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_a_held_catalog_reference_cannot_supply_eligible_resource_proof",
+      "requirement": "31:independent-resource-proof",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_resources.py:130",
+      "description": "test_a_held_catalog_reference_cannot_supply_eligible_resource_proof"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_no_court_adaptation_is_unknown_not_a_false_physical_impossibility",
+      "requirement": "31:independent-resource-proof",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_resources.py:138",
+      "description": "test_no_court_adaptation_is_unknown_not_a_false_physical_impossibility"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_shortage_of_markers_and_hoop_unavailability_are_actionable",
+      "requirement": "31:independent-resource-proof",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_resources.py:145",
+      "description": "test_shortage_of_markers_and_hoop_unavailability_are_actionable"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_empty_activities_are_resource_inapplicable_not_an_overall_plan_pass",
+      "requirement": "31:independent-resource-proof",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_resources.py:155",
+      "description": "test_empty_activities_are_resource_inapplicable_not_an_overall_plan_pass"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_changed_source_or_contract_record_hash_is_rejected[source]",
+      "requirement": "31:independent-resource-proof",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_resources.py:162",
+      "description": "test_changed_source_or_contract_record_hash_is_rejected[source]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_changed_source_or_contract_record_hash_is_rejected[record]",
+      "requirement": "31:independent-resource-proof",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_resources.py:162",
+      "description": "test_changed_source_or_contract_record_hash_is_rejected[record]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_resource_assessment_does_not_mutate_inputs_or_contracts",
+      "requirement": "31:independent-resource-proof",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_resources.py:177",
+      "description": "test_resource_assessment_does_not_mutate_inputs_or_contracts"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_missing_public_resource_groups_remain_unknown[equipment-None]",
+      "requirement": "31:independent-resource-proof",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_resources.py:184",
+      "description": "test_missing_public_resource_groups_remain_unknown[equipment-None]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_missing_public_resource_groups_remain_unknown[participants_available-None]",
+      "requirement": "31:independent-resource-proof",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_resources.py:184",
+      "description": "test_missing_public_resource_groups_remain_unknown[participants_available-None]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_missing_public_resource_groups_remain_unknown[space-None]",
+      "requirement": "31:independent-resource-proof",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_resources.py:184",
+      "description": "test_missing_public_resource_groups_remain_unknown[space-None]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_zero_is_a_known_shortage_while_null_remains_unknown",
+      "requirement": "31:independent-resource-proof",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_resources.py:191",
+      "description": "test_zero_is_a_known_shortage_while_null_remains_unknown"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_malformed_activity_resources_do_not_crash_or_pass[None]",
+      "requirement": "31:independent-resource-proof",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_resources.py:202",
+      "description": "test_malformed_activity_resources_do_not_crash_or_pass[None]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_malformed_activity_resources_do_not_crash_or_pass[bad1]",
+      "requirement": "31:independent-resource-proof",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_resources.py:202",
+      "description": "test_malformed_activity_resources_do_not_crash_or_pass[bad1]"
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_malformed_activity_resources_do_not_crash_or_pass[bad2]",
+      "requirement": "31:independent-resource-proof",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/independent_assessment/test_independent_resources.py:202",
+      "description": "test_malformed_activity_resources_do_not_crash_or_pass[bad2]"
+    }
+  ],
+  "phases": [
+    {
+      "test_id": "tests/independent_assessment/test_independent_assessment_run.py::test_real_loader_keeps_four_originals_and_amended_v4_separate_without_writes",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.10460120000061579,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_assessment_run.py::test_real_loader_keeps_four_originals_and_amended_v4_separate_without_writes",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.109301200020127,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_assessment_run.py::test_real_loader_keeps_four_originals_and_amended_v4_separate_without_writes",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00018250002176500857,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_assessment_run.py::test_real_loader_rejects_changed_sources_or_duplicate_arms[damaged_outcome]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.05390939998324029,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_assessment_run.py::test_real_loader_rejects_changed_sources_or_duplicate_arms[damaged_outcome]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.08288599998923019,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_assessment_run.py::test_real_loader_rejects_changed_sources_or_duplicate_arms[damaged_outcome]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014639997971244156,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_assessment_run.py::test_real_loader_rejects_changed_sources_or_duplicate_arms[damaged_reference]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.047682999982498586,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_assessment_run.py::test_real_loader_rejects_changed_sources_or_duplicate_arms[damaged_reference]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.08756300000823103,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_assessment_run.py::test_real_loader_rejects_changed_sources_or_duplicate_arms[damaged_reference]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014720001490786672,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_assessment_run.py::test_real_loader_rejects_changed_sources_or_duplicate_arms[public_input]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.05467759998282418,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_assessment_run.py::test_real_loader_rejects_changed_sources_or_duplicate_arms[public_input]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.09624669997720048,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_assessment_run.py::test_real_loader_rejects_changed_sources_or_duplicate_arms[public_input]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014150000060908496,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_assessment_run.py::test_real_loader_rejects_changed_sources_or_duplicate_arms[duplicate_version]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.05740520000108518,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_assessment_run.py::test_real_loader_rejects_changed_sources_or_duplicate_arms[duplicate_version]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.09515400000964291,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_assessment_run.py::test_real_loader_rejects_changed_sources_or_duplicate_arms[duplicate_version]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014650000957772136,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_assessment_run.py::test_run_is_idempotent_with_fresh_software_evidence_and_preserves_inputs",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.05273130000568926,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_assessment_run.py::test_run_is_idempotent_with_fresh_software_evidence_and_preserves_inputs",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.13781830001971684,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_assessment_run.py::test_run_is_idempotent_with_fresh_software_evidence_and_preserves_inputs",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013959998614154756,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_assessment_run.py::test_unexecuted_or_changed_software_evidence_cannot_authorize_assessment[evidence0]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.043846599990502,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_assessment_run.py::test_unexecuted_or_changed_software_evidence_cannot_authorize_assessment[evidence0]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.07250339997699484,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_assessment_run.py::test_unexecuted_or_changed_software_evidence_cannot_authorize_assessment[evidence0]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001404000213369727,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_assessment_run.py::test_unexecuted_or_changed_software_evidence_cannot_authorize_assessment[evidence1]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.05202610002015717,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_assessment_run.py::test_unexecuted_or_changed_software_evidence_cannot_authorize_assessment[evidence1]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.06085999999777414,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_assessment_run.py::test_unexecuted_or_changed_software_evidence_cannot_authorize_assessment[evidence1]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001382000045850873,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_assessment_run.py::test_changed_immutable_assessment_is_preserved_and_rejected",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.04060940002091229,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_assessment_run.py::test_changed_immutable_assessment_is_preserved_and_rejected",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.09790629998315126,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_assessment_run.py::test_changed_immutable_assessment_is_preserved_and_rejected",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014170000213198364,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_omitted_food_answer_is_missing_not_a_claimed_wrong_number",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00021180001203902066,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_omitted_food_answer_is_missing_not_a_claimed_wrong_number",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.003557899995939806,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_omitted_food_answer_is_missing_not_a_claimed_wrong_number",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00011350002023391426,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_plain_correct_answer_needs_no_catalogue_or_source_ids[100 g Strawberries, raw contains 0.67 g protein]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00024140000459738076,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_plain_correct_answer_needs_no_catalogue_or_source_ids[100 g Strawberries, raw contains 0.67 g protein]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0002530000056140125,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_plain_correct_answer_needs_no_catalogue_or_source_ids[100 g Strawberries, raw contains 0.67 g protein]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.580000187270343e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_plain_correct_answer_needs_no_catalogue_or_source_ids[100 g of Strawberries, raw: 0.670 grams Protein.]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0001818999880924821,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_plain_correct_answer_needs_no_catalogue_or_source_ids[100 g of Strawberries, raw: 0.670 grams Protein.]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00020179999410174787,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_plain_correct_answer_needs_no_catalogue_or_source_ids[100 g of Strawberries, raw: 0.670 grams Protein.]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.659999002702534e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_plain_correct_answer_needs_no_catalogue_or_source_ids[Protein in 100g of raw strawberries: 0.67g]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0001886999816633761,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_plain_correct_answer_needs_no_catalogue_or_source_ids[Protein in 100g of raw strawberries: 0.67g]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00018839997937902808,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_plain_correct_answer_needs_no_catalogue_or_source_ids[Protein in 100g of raw strawberries: 0.67g]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.019999950192869e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_plain_correct_answer_needs_no_catalogue_or_source_ids[Strawberries, raw provides 0.67 g protein per 100 g.]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00018239999189972878,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_plain_correct_answer_needs_no_catalogue_or_source_ids[Strawberries, raw provides 0.67 g protein per 100 g.]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0001936000189743936,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_plain_correct_answer_needs_no_catalogue_or_source_ids[Strawberries, raw provides 0.67 g protein per 100 g.]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.319999324157834e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_plain_correct_answer_needs_no_catalogue_or_source_ids[100 g raw strawberries \\u2014 0.67 g protein.]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00016769999638199806,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_plain_correct_answer_needs_no_catalogue_or_source_ids[100 g raw strawberries \\u2014 0.67 g protein.]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0002015999925788492,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_plain_correct_answer_needs_no_catalogue_or_source_ids[100 g raw strawberries \\u2014 0.67 g protein.]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.480000542476773e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_correct_answer_in_explanation_is_checked_like_structured_food_facts",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00015479998546652496,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_correct_answer_in_explanation_is_checked_like_structured_food_facts",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0002198000147473067,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_correct_answer_in_explanation_is_checked_like_structured_food_facts",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001247999898623675,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_source_attribution_is_a_separate_optional_measure",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00027049999334849417,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_source_attribution_is_a_separate_optional_measure",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00039999998989515007,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_source_attribution_is_a_separate_optional_measure",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.669997962191701e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_attribution_problem_never_changes_correct_numeric_claim[wrong-id-https://fdc.nal.usda.gov/food-details/167762/nutrients-violated]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.000308899994706735,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_attribution_problem_never_changes_correct_numeric_claim[wrong-id-https://fdc.nal.usda.gov/food-details/167762/nutrients-violated]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0002353000163566321,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_attribution_problem_never_changes_correct_numeric_claim[wrong-id-https://fdc.nal.usda.gov/food-details/167762/nutrients-violated]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00010109998402185738,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_attribution_problem_never_changes_correct_numeric_claim[167762-None-unknown]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00024819999816827476,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_attribution_problem_never_changes_correct_numeric_claim[167762-None-unknown]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0002970999921672046,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_attribution_problem_never_changes_correct_numeric_claim[167762-None-unknown]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00021800000104121864,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_attribution_problem_never_changes_correct_numeric_claim[None-https://unverified.example/food-unknown]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00026309999520890415,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_attribution_problem_never_changes_correct_numeric_claim[None-https://unverified.example/food-unknown]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00021800000104121864,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_attribution_problem_never_changes_correct_numeric_claim[None-https://unverified.example/food-unknown]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00010079998173750937,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_recognized_changed_values_or_units_are_actual_numeric_violations[100 g Strawberries, raw contains 6.7 g protein]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00019839999731630087,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_recognized_changed_values_or_units_are_actual_numeric_violations[100 g Strawberries, raw contains 6.7 g protein]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00021800000104121864,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_recognized_changed_values_or_units_are_actual_numeric_violations[100 g Strawberries, raw contains 6.7 g protein]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.359999628737569e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_recognized_changed_values_or_units_are_actual_numeric_violations[100 g Strawberries, raw contains 0.7 g protein]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002571999793872237,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_recognized_changed_values_or_units_are_actual_numeric_violations[100 g Strawberries, raw contains 0.7 g protein]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00021379999816417694,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_recognized_changed_values_or_units_are_actual_numeric_violations[100 g Strawberries, raw contains 0.7 g protein]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.839997462928295e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_recognized_changed_values_or_units_are_actual_numeric_violations[100 g Strawberries, raw contains 0.67 kcal protein]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00018050000653602183,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_recognized_changed_values_or_units_are_actual_numeric_violations[100 g Strawberries, raw contains 0.67 kcal protein]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00019139997311867774,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_recognized_changed_values_or_units_are_actual_numeric_violations[100 g Strawberries, raw contains 0.67 kcal protein]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.769999840296805e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_recognized_changed_values_or_units_are_actual_numeric_violations[100 g Strawberries, raw contains -0.67 g protein]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0001841000048443675,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_recognized_changed_values_or_units_are_actual_numeric_violations[100 g Strawberries, raw contains -0.67 g protein]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00020699997548945248,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_recognized_changed_values_or_units_are_actual_numeric_violations[100 g Strawberries, raw contains -0.67 g protein]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.499997784383595e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_approximate_or_unsupported_numeric_prose_remains_unknown[100 g Strawberries, raw contains about 0.67 g protein]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0003403000009711832,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_approximate_or_unsupported_numeric_prose_remains_unknown[100 g Strawberries, raw contains about 0.67 g protein]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00015850001364015043,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_approximate_or_unsupported_numeric_prose_remains_unknown[100 g Strawberries, raw contains about 0.67 g protein]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.249998791143298e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_approximate_or_unsupported_numeric_prose_remains_unknown[Approximately 100 g raw strawberries provides 0.67 g protein.]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0001804000057745725,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_approximate_or_unsupported_numeric_prose_remains_unknown[Approximately 100 g raw strawberries provides 0.67 g protein.]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.000149500003317371,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_approximate_or_unsupported_numeric_prose_remains_unknown[Approximately 100 g raw strawberries provides 0.67 g protein.]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001640999980736524,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_approximate_or_unsupported_numeric_prose_remains_unknown[Protein: roughly 0.7 g in 100 g raw strawberries.]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00021279999054968357,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_approximate_or_unsupported_numeric_prose_remains_unknown[Protein: roughly 0.7 g in 100 g raw strawberries.]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00016870000399649143,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_approximate_or_unsupported_numeric_prose_remains_unknown[Protein: roughly 0.7 g in 100 g raw strawberries.]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.399999933317304e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_approximate_or_unsupported_numeric_prose_remains_unknown[For 100 g strawberries, protein is around two-thirds of a gram.]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00017250000382773578,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_approximate_or_unsupported_numeric_prose_remains_unknown[For 100 g strawberries, protein is around two-thirds of a gram.]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00015410000924021006,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_approximate_or_unsupported_numeric_prose_remains_unknown[For 100 g strawberries, protein is around two-thirds of a gram.]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.359999628737569e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_exact_scaling_does_not_use_binary_float_or_an_undeclared_tolerance",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00015010000788606703,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_exact_scaling_does_not_use_binary_float_or_an_undeclared_tolerance",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00029479997465386987,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_exact_scaling_does_not_use_binary_float_or_an_undeclared_tolerance",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.799998275004327e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_correct_fact_for_wrong_quantity_is_not_a_false_numeric_fact",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.000149200001033023,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_correct_fact_for_wrong_quantity_is_not_a_false_numeric_fact",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00019390002125874162,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_correct_fact_for_wrong_quantity_is_not_a_false_numeric_fact",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.369997911155224e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_correct_energy_fact_does_not_fulfill_a_protein_question",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00014139999984763563,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_correct_energy_fact_does_not_fulfill_a_protein_question",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00019150000298395753,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_correct_energy_fact_does_not_fulfill_a_protein_question",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.54999928176403e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_energy_question_and_kilocalorie_unit_are_supported",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00014960000407882035,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_energy_question_and_kilocalorie_unit_are_supported",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00018339999951422215,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_energy_question_and_kilocalorie_unit_are_supported",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.159999222494662e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_conflicting_food_claims_do_not_pass_by_selecting_the_correct_one",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0001517999917268753,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_conflicting_food_claims_do_not_pass_by_selecting_the_correct_one",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00019039999460801482,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_conflicting_food_claims_do_not_pass_by_selecting_the_correct_one",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.829998503439128e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_alias_requires_exact_source_identity_and_description",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00013970001600682735,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_alias_requires_exact_source_identity_and_description",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00015969999367371202,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_alias_requires_exact_source_identity_and_description",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.639999967068434e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_unrecognized_question_never_receives_a_guessed_completeness_pass",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00015300000086426735,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_unrecognized_question_never_receives_a_guessed_completeness_pass",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0001866999955382198,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_unrecognized_question_never_receives_a_guessed_completeness_pass",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.529999129474163e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_empty_reference_truth_does_not_prove_factual_incorrectness",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00015219999477267265,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_empty_reference_truth_does_not_prove_factual_incorrectness",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00011330001871101558,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_empty_reference_truth_does_not_prove_factual_incorrectness",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.350000669248402e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_grounding_claim_in_unsupported_wording_is_not_reported_absent",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00014409999130293727,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_grounding_claim_in_unsupported_wording_is_not_reported_absent",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.000149500003317371,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_grounding_claim_in_unsupported_wording_is_not_reported_absent",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.619999814778566e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_bare_numeric_answer_is_unsupported_not_proven_omitted[True]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00017789998673833907,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_bare_numeric_answer_is_unsupported_not_proven_omitted[True]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00016010002582333982,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_bare_numeric_answer_is_unsupported_not_proven_omitted[True]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.690000347793102e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_bare_numeric_answer_is_unsupported_not_proven_omitted[False]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00017469999147579074,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_bare_numeric_answer_is_unsupported_not_proven_omitted[False]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0001443000219296664,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_bare_numeric_answer_is_unsupported_not_proven_omitted[False]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.619999814778566e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_food_answer_in_other_public_response_text_is_not_reported_omitted",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00014859999646432698,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_food_answer_in_other_public_response_text_is_not_reported_omitted",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0001807000080589205,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_food_answer_in_other_public_response_text_is_not_reported_omitted",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00010750000365078449,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_matching_response_evidence_url_can_ground_without_food_id",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00017759998445399106,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_matching_response_evidence_url_can_ground_without_food_id",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00022159999934956431,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_matching_response_evidence_url_can_ground_without_food_id",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.200000204145908e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_resolving_source_identity_does_not_claim_support_for_a_wrong_number",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00015360000543296337,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_resolving_source_identity_does_not_claim_support_for_a_wrong_number",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00021880000713281333,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_resolving_source_identity_does_not_claim_support_for_a_wrong_number",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.460000390186906e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_conflicting_assessment_truth_stays_unknown_instead_of_choosing_a_record",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00016170000890269876,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_conflicting_assessment_truth_stays_unknown_instead_of_choosing_a_record",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0002547999902162701,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_conflicting_assessment_truth_stays_unknown_instead_of_choosing_a_record",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.989999721758068e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_questionless_calendar_has_no_food_obligation",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00015589999384246767,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_questionless_calendar_has_no_food_obligation",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0001168999879155308,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_questionless_calendar_has_no_food_obligation",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.020001066848636e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_inputs_stay_unchanged_and_planner_identity_is_not_an_assessor_input",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00014059999375604093,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_inputs_stay_unchanged_and_planner_identity_is_not_an_assessor_input",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0005030000174883753,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_food.py::test_inputs_stay_unchanged_and_planner_identity_is_not_an_assessor_input",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.449999197386205e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_all_common_required_checks_have_a_positive_path_without_catalog_ids",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.10136980001698248,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_all_common_required_checks_have_a_positive_path_without_catalog_ids",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.08150569998542778,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_all_common_required_checks_have_a_positive_path_without_catalog_ids",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013489997945725918,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_same_resources_can_fit_declarations_but_have_unverified_real_requirements",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.02995339999324642,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_same_resources_can_fit_declarations_but_have_unverified_real_requirements",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0841214999963995,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_same_resources_can_fit_declarations_but_have_unverified_real_requirements",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013920001219958067,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_three_roots_do_not_satisfy_two_requested_sessions_even_under_cap_three",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.031455099990125746,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_three_roots_do_not_satisfy_two_requested_sessions_even_under_cap_three",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.07273440001881681,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_three_roots_do_not_satisfy_two_requested_sessions_even_under_cap_three",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013000000035390258,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_food_accuracy_is_separate_from_citations_and_internal_verdict",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.027749600005336106,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_food_accuracy_is_separate_from_citations_and_internal_verdict",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.07713249998050742,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_food_accuracy_is_separate_from_citations_and_internal_verdict",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013050000416114926,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_omitted_requested_food_answer_remains_a_completeness_failure",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.029371899989200756,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_omitted_requested_food_answer_remains_a_completeness_failure",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.07788569998228922,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_omitted_requested_food_answer_remains_a_completeness_failure",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00012909999350085855,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_components_are_not_extra_sessions_and_invalid_graph_cannot_pass",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.028933199995663017,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_components_are_not_extra_sessions_and_invalid_graph_cannot_pass",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.1557998999778647,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_components_are_not_extra_sessions_and_invalid_graph_cannot_pass",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001314000110141933,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_child_resource_shortage_is_not_hidden_inside_parent_session[False]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.027900799992494285,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_child_resource_shortage_is_not_hidden_inside_parent_session[False]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.07871929998509586,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_child_resource_shortage_is_not_hidden_inside_parent_session[False]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001303000026382506,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_child_resource_shortage_is_not_hidden_inside_parent_session[True]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.029638400010298938,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_child_resource_shortage_is_not_hidden_inside_parent_session[True]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.08553479998954572,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_child_resource_shortage_is_not_hidden_inside_parent_session[True]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013470000703819096,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_missing_external_required_rows_cannot_make_a_pass",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.028955600020708516,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_missing_external_required_rows_cannot_make_a_pass",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.07995610000216402,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_missing_external_required_rows_cannot_make_a_pass",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00012909999350085855,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_missing_designated_reply_does_not_fall_back_to_an_earlier_draft",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.028645599988522008,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_missing_designated_reply_does_not_fall_back_to_an_earlier_draft",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.05448409999371506,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_missing_designated_reply_does_not_fall_back_to_an_earlier_draft",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00017400001524947584,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_literal_request_grammar_does_not_convert_cap_or_equipment_into_a_request[Plan two extra basketball sessions.-2]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00026879998040385544,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_literal_request_grammar_does_not_convert_cap_or_equipment_into_a_request[Plan two extra basketball sessions.-2]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00012199999764561653,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_literal_request_grammar_does_not_convert_cap_or_equipment_into_a_request[Plan two extra basketball sessions.-2]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.210000280290842e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_literal_request_grammar_does_not_convert_cap_or_equipment_into_a_request[Plan 3 additional practices.-3]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00021470000501722097,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_literal_request_grammar_does_not_convert_cap_or_equipment_into_a_request[Plan 3 additional practices.-3]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 6.849999772384763e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_literal_request_grammar_does_not_convert_cap_or_equipment_into_a_request[Plan 3 additional practices.-3]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.909999112598598e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_literal_request_grammar_does_not_convert_cap_or_equipment_into_a_request[No additional training this week.-0]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0001970999874174595,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_literal_request_grammar_does_not_convert_cap_or_equipment_into_a_request[No additional training this week.-0]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0001821999903768301,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_literal_request_grammar_does_not_convert_cap_or_equipment_into_a_request[No additional training this week.-0]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.550001075491309e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_literal_request_grammar_does_not_convert_cap_or_equipment_into_a_request[Two balls are available for practice.-None]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002069000038318336,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_literal_request_grammar_does_not_convert_cap_or_equipment_into_a_request[Two balls are available for practice.-None]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 6.510000093840063e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_literal_request_grammar_does_not_convert_cap_or_equipment_into_a_request[Two balls are available for practice.-None]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.919999188743532e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_noninterpreted_numeric_request_stays_unknown",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00014670001110062003,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_noninterpreted_numeric_request_stays_unknown",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0002929000183939934,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_plan_assessment.py::test_noninterpreted_numeric_request_stays_unknown",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.939999341033399e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_source_release_and_record_bindings_are_verified",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.03720740001881495,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_source_release_and_record_bindings_are_verified",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00010390000534243882,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_source_release_and_record_bindings_are_verified",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00010219999239780009,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_concrete_base_actions_can_pass_without_any_catalog_id[description0-1-equipment0]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.018699700012803078,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_concrete_base_actions_can_pass_without_any_catalog_id[description0-1-equipment0]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00017660000594332814,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_concrete_base_actions_can_pass_without_any_catalog_id[description0-1-equipment0]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014600000577047467,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_concrete_base_actions_can_pass_without_any_catalog_id[description1-4-equipment1]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.017008400027407333,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_concrete_base_actions_can_pass_without_any_catalog_id[description1-4-equipment1]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00017559999832883477,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_concrete_base_actions_can_pass_without_any_catalog_id[description1-4-equipment1]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00011350002023391426,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_concrete_base_actions_can_pass_without_any_catalog_id[description2-2-equipment2]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.01753780001308769,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_concrete_base_actions_can_pass_without_any_catalog_id[description2-2-equipment2]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00016850000247359276,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_concrete_base_actions_can_pass_without_any_catalog_id[description2-2-equipment2]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00012929999502375722,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_concrete_base_actions_can_pass_without_any_catalog_id[description3-4-equipment3]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.016862399992533028,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_concrete_base_actions_can_pass_without_any_catalog_id[description3-4-equipment3]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00018339999951422215,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_concrete_base_actions_can_pass_without_any_catalog_id[description3-4-equipment3]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013040000339969993,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_literal_quantity_fit_is_distinct_from_vague_requirement_evidence",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.016959300002781674,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_literal_quantity_fit_is_distinct_from_vague_requirement_evidence",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00015629999688826501,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_literal_quantity_fit_is_distinct_from_vague_requirement_evidence",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00012090001837350428,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_name_and_catalog_id_alone_never_supply_action_role_proof",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.01737169999978505,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_name_and_catalog_id_alone_never_supply_action_role_proof",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00015459998394362628,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_name_and_catalog_id_alone_never_supply_action_role_proof",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00011150000500492752,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_unreviewed_additions_and_negations_do_not_pass_keyword_matching[ Then sprint across the court.]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.017984399979468435,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_unreviewed_additions_and_negations_do_not_pass_keyword_matching[ Then sprint across the court.]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00014789999113418162,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_unreviewed_additions_and_negations_do_not_pass_keyword_matching[ Then sprint across the court.]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00011529997573234141,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_unreviewed_additions_and_negations_do_not_pass_keyword_matching[ Do not change hands.]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.01867259998107329,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_unreviewed_additions_and_negations_do_not_pass_keyword_matching[ Do not change hands.]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00020600002608262002,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_unreviewed_additions_and_negations_do_not_pass_keyword_matching[ Do not change hands.]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00016039999900385737,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_unreviewed_additions_and_negations_do_not_pass_keyword_matching[ Then add a weighted vest.]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.01762250001775101,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_unreviewed_additions_and_negations_do_not_pass_keyword_matching[ Then add a weighted vest.]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00014630000805482268,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_unreviewed_additions_and_negations_do_not_pass_keyword_matching[ Then add a weighted vest.]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00011480000102892518,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_missing_or_conflicting_material_facts_do_not_pass[unknown_ball]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.018792199989547953,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_missing_or_conflicting_material_facts_do_not_pass[unknown_ball]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00017520002438686788,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_missing_or_conflicting_material_facts_do_not_pass[unknown_ball]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001385000068694353,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_missing_or_conflicting_material_facts_do_not_pass[no_ball]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.026740799978142604,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_missing_or_conflicting_material_facts_do_not_pass[no_ball]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00016429999959655106,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_missing_or_conflicting_material_facts_do_not_pass[no_ball]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00012099999003112316,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_missing_or_conflicting_material_facts_do_not_pass[unknown_people]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.028249599999981,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_missing_or_conflicting_material_facts_do_not_pass[unknown_people]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0001784999913070351,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_missing_or_conflicting_material_facts_do_not_pass[unknown_people]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001516000193078071,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_missing_or_conflicting_material_facts_do_not_pass[one_for_pair]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.026694799977121875,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_missing_or_conflicting_material_facts_do_not_pass[one_for_pair]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.000301799998851493,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_missing_or_conflicting_material_facts_do_not_pass[one_for_pair]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00025079998886212707,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_missing_or_conflicting_material_facts_do_not_pass[unknown_space]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.026692199986428022,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_missing_or_conflicting_material_facts_do_not_pass[unknown_space]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.000225499999942258,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_missing_or_conflicting_material_facts_do_not_pass[unknown_space]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001655000087339431,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_missing_or_conflicting_material_facts_do_not_pass[restrictions]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.02325070000370033,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_missing_or_conflicting_material_facts_do_not_pass[restrictions]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0002525000018067658,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_missing_or_conflicting_material_facts_do_not_pass[restrictions]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00018140001338906586,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_incomplete_declared_equipment_is_not_a_positive_proof",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.022852599999168888,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_incomplete_declared_equipment_is_not_a_positive_proof",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00017330000991933048,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_incomplete_declared_equipment_is_not_a_positive_proof",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014369998825713992,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_understated_required_ball_or_pair_roles_are_caught_independently",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.019524100003764033,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_understated_required_ball_or_pair_roles_are_caught_independently",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0001739000144880265,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_understated_required_ball_or_pair_roles_are_caught_independently",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00011130000348202884,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_turn_taking_does_not_require_a_ball_for_every_available_person",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.01918239999213256,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_turn_taking_does_not_require_a_ball_for_every_available_person",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00020290000247769058,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_turn_taking_does_not_require_a_ball_for_every_available_person",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00011140000424347818,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_a_held_catalog_reference_cannot_supply_eligible_resource_proof",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.025340400025015697,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_a_held_catalog_reference_cannot_supply_eligible_resource_proof",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0002508999896235764,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_a_held_catalog_reference_cannot_supply_eligible_resource_proof",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00017770001431927085,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_no_court_adaptation_is_unknown_not_a_false_physical_impossibility",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.022660200018435717,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_no_court_adaptation_is_unknown_not_a_false_physical_impossibility",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0001650999765843153,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_no_court_adaptation_is_unknown_not_a_false_physical_impossibility",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001109000004362315,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_shortage_of_markers_and_hoop_unavailability_are_actionable",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.02001500001642853,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_shortage_of_markers_and_hoop_unavailability_are_actionable",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00019600000814534724,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_shortage_of_markers_and_hoop_unavailability_are_actionable",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00010660002590157092,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_empty_activities_are_resource_inapplicable_not_an_overall_plan_pass",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.01935849999426864,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_empty_activities_are_resource_inapplicable_not_an_overall_plan_pass",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00012489999062381685,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_empty_activities_are_resource_inapplicable_not_an_overall_plan_pass",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00015780000831000507,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_changed_source_or_contract_record_hash_is_rejected[source]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.020461999985855073,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_changed_source_or_contract_record_hash_is_rejected[source]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0061274000036064535,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_changed_source_or_contract_record_hash_is_rejected[source]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0003068000078201294,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_changed_source_or_contract_record_hash_is_rejected[record]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0213645999901928,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_changed_source_or_contract_record_hash_is_rejected[record]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.011026799998944625,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_changed_source_or_contract_record_hash_is_rejected[record]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013270002091303468,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_resource_assessment_does_not_mutate_inputs_or_contracts",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.017833099991548806,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_resource_assessment_does_not_mutate_inputs_or_contracts",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00022429999080486596,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_resource_assessment_does_not_mutate_inputs_or_contracts",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00011190000805072486,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_missing_public_resource_groups_remain_unknown[equipment-None]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.01827569998567924,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_missing_public_resource_groups_remain_unknown[equipment-None]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0002804999821819365,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_missing_public_resource_groups_remain_unknown[equipment-None]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013620001845993102,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_missing_public_resource_groups_remain_unknown[participants_available-None]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.029388199996901676,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_missing_public_resource_groups_remain_unknown[participants_available-None]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00023210002109408379,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_missing_public_resource_groups_remain_unknown[participants_available-None]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00017800001660361886,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_missing_public_resource_groups_remain_unknown[space-None]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.03473049998865463,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_missing_public_resource_groups_remain_unknown[space-None]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00021200001356191933,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_missing_public_resource_groups_remain_unknown[space-None]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00020970002515241504,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_zero_is_a_known_shortage_while_null_remains_unknown",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.027489300002343953,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_zero_is_a_known_shortage_while_null_remains_unknown",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0003437999985180795,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_zero_is_a_known_shortage_while_null_remains_unknown",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00018959998851642013,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_malformed_activity_resources_do_not_crash_or_pass[None]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.024587599997175857,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_malformed_activity_resources_do_not_crash_or_pass[None]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00017870002193376422,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_malformed_activity_resources_do_not_crash_or_pass[None]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013580001541413367,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_malformed_activity_resources_do_not_crash_or_pass[bad1]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.023790399980498478,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_malformed_activity_resources_do_not_crash_or_pass[bad1]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00020180002320557833,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_malformed_activity_resources_do_not_crash_or_pass[bad1]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00016759999562054873,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_malformed_activity_resources_do_not_crash_or_pass[bad2]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.019482600007904693,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_malformed_activity_resources_do_not_crash_or_pass[bad2]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00013990001752972603,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/independent_assessment/test_independent_resources.py::test_malformed_activity_resources_do_not_crash_or_pass[bad2]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00016969998250715435,
+      "expected_failure": false,
+      "detail": null
+    }
+  ],
+  "collection_errors": [],
+  "deselected": [],
+  "new_model_calls": 0,
+  "query_encoder_processes": 0,
+  "network_policy": "blocked_in_routine_tests",
+  "fixtures": "authored_public_examples"
+}

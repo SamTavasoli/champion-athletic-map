@@ -1,0 +1,13 @@
+﻿planner,measure,observed_objects,expected_outcomes,missing,value_sum,scope,unit
+1,prompt_eval_count,200,200,0,336928,Designated terminal-role usage only; excludes earlier specialist/evaluator/revision calls.,tokens
+1,eval_count,200,200,0,174707,Designated terminal-role usage only; excludes earlier specialist/evaluator/revision calls.,tokens
+1,prompt_eval_cached_count,200,200,0,229528,Designated terminal-role usage only; excludes earlier specialist/evaluator/revision calls.,tokens
+2,prompt_eval_count,200,200,0,747651,Designated terminal-role usage only; excludes earlier specialist/evaluator/revision calls.,tokens
+2,eval_count,200,200,0,191322,Designated terminal-role usage only; excludes earlier specialist/evaluator/revision calls.,tokens
+2,prompt_eval_cached_count,200,200,0,225769,Designated terminal-role usage only; excludes earlier specialist/evaluator/revision calls.,tokens
+3,prompt_eval_count,199,200,1,872738,Designated terminal-role usage only; excludes earlier specialist/evaluator/revision calls.,tokens
+3,eval_count,199,200,1,166671,Designated terminal-role usage only; excludes earlier specialist/evaluator/revision calls.,tokens
+3,prompt_eval_cached_count,199,200,1,504712,Designated terminal-role usage only; excludes earlier specialist/evaluator/revision calls.,tokens
+4,prompt_eval_count,198,200,2,952345,Designated terminal-role usage only; excludes earlier specialist/evaluator/revision calls.,tokens
+4,eval_count,198,200,2,194241,Designated terminal-role usage only; excludes earlier specialist/evaluator/revision calls.,tokens
+4,prompt_eval_cached_count,198,200,2,990,Designated terminal-role usage only; excludes earlier specialist/evaluator/revision calls.,tokens

@@ -1,0 +1,35 @@
+{
+  "cdc_reference_expansion_id": "cdc-reference-expansion:1db9ffd175965a27b27d504d04bb121fb48cd5f200fbb95a9855d2c65be88400",
+  "new_passages_or_indexes_created": false,
+  "payload_hashes": {
+    "results/retrieval/cdc_reference_expansion/expansion_1db9ffd175965a27/assistant_scope_reviews.jsonl": "5c92c9a67a3aed25b39f2623e6a972d1f8eb0cd3c2387d5e4bbc461615ffda90",
+    "results/retrieval/cdc_reference_expansion/expansion_1db9ffd175965a27/capture_manifest.json": "9f3a4cfe3bba96c2504f168b4d6071bc9b9a028abdd29ea0b274f8bc75dfe2be",
+    "results/retrieval/cdc_reference_expansion/expansion_1db9ffd175965a27/cdc_active_child_life.html": "6f83139d9cee908ad3bc2d34a417258a005a23756e9cc0aa782e306b34283b20",
+    "results/retrieval/cdc_reference_expansion/expansion_1db9ffd175965a27/cdc_active_child_life_scoped.json": "622213fd3f4065c05f3f45cff86107ba035afc3a962f46032938f5c0c71dbc56",
+    "results/retrieval/cdc_reference_expansion/expansion_1db9ffd175965a27/cdc_agency_materials.html": "421e5a7aba5b8dbe41aa1d89c5499e24484adf0239a1879d3e0fccc1751fd838",
+    "results/retrieval/cdc_reference_expansion/expansion_1db9ffd175965a27/cdc_agency_materials_scoped.json": "3ef71308a4f311f9290c5f1c6111dfa298629b1d386d4b0df1f7f0a795f1c3ef",
+    "results/retrieval/cdc_reference_expansion/expansion_1db9ffd175965a27/cdc_ai_process.html": "8f240e28ff7b33a041b2073baf876a4820f28779c928e448f786bee0ec7f5b4e",
+    "results/retrieval/cdc_reference_expansion/expansion_1db9ffd175965a27/cdc_ai_process_scoped.json": "7c5656f1733236e3468696f84a14bc94d2e51a4325e6fbedb6d63dc3c2f2a671",
+    "results/retrieval/cdc_reference_expansion/expansion_1db9ffd175965a27/cdc_child_overview.html": "244bb171e650d7ad3d9c577ead73dd797567ee80e7b8c4a33e44ea416bcd5b2b",
+    "results/retrieval/cdc_reference_expansion/expansion_1db9ffd175965a27/cdc_child_overview_scoped.json": "e22690a2e1e540a0a6f0a688a482afa304c55712bbcea830c29ea22bcef99cd8",
+    "results/retrieval/cdc_reference_expansion/expansion_1db9ffd175965a27/cdc_youth_what_counts.html": "7d78920c8422c341d2488730a8ef616b2f98ad570672f6ba78cafcb8c07dba56",
+    "results/retrieval/cdc_reference_expansion/expansion_1db9ffd175965a27/cdc_youth_what_counts_scoped.json": "a12732f0dd9178c27bab4e229de4ea11e3ce00e053c5e71a84da7d1e4126ef9d",
+    "results/retrieval/cdc_reference_expansion/expansion_1db9ffd175965a27/coverage_state.json": "b9b0319549f9f948093e195d0d478fa6cfd93a6e605ceb562152f50d36aa415b",
+    "results/retrieval/cdc_reference_expansion/expansion_1db9ffd175965a27/inclusion_decisions.jsonl": "5727e3c0797e4373fe87fe9d0392ef848b6a632d39a2b2d8376cb2d5d45e773a",
+    "results/retrieval/cdc_reference_expansion/expansion_1db9ffd175965a27/permitted_use_assessment.json": "55bfba4efb3a3c8af08ea25cab6c6ca086daec931731532dcada1920a6c1c1fe",
+    "results/retrieval/cdc_reference_expansion/expansion_1db9ffd175965a27/reference_units.jsonl": "3228e66a938fb04e309353c50352273674dabc095ddebb0f5401e10305111f48",
+    "results/retrieval/cdc_reference_expansion/expansion_1db9ffd175965a27/required_delivery_bundles.jsonl": "7bfc75f1dabc760361f4259eec9780248753d6185025cf6d2f5ddfa49af91746",
+    "results/retrieval/cdc_reference_expansion/expansion_1db9ffd175965a27/source_versions.jsonl": "7d1c39afaf897e8f84a27dc9b01b782e27955ee182174de88767e649859c9a44",
+    "results/retrieval/cdc_reference_expansion/expansion_1db9ffd175965a27/verification_checks.csv": "0a6d475a9b55b0bc199a3a81d3e7981a9ab6ac5bd92dd56806e1d3f1255eb37c"
+  },
+  "reference_core_token_counts": null,
+  "reference_unit_ids": [
+    "cdc-scoped-reference-unit:9ae26e325e4559ccf326a009199fd14308bd73a6b3a3b9e13c887a4ed52a73f7",
+    "cdc-scoped-reference-unit:71f1674d3449800f478836ec8c7fb6b5e73f8ddc94654d6822d9275f4c15f3b8",
+    "cdc-scoped-reference-unit:48fa1ffdb991327354244a4aa2582a51f2c8761f121dab257fc7e57edc7fe49c",
+    "cdc-scoped-reference-unit:ec134de6746684be0dc34604edb4f8681cba3735eb923069b42f69181372f2a2"
+  ],
+  "required_delivery_companions_indivisible": true,
+  "schema_version": "step23-cdc-reference-expansion-manifest-1",
+  "unchanged_pilot_corpus_id": "pilot-corpus:917f12a3f56929da76a59808167bcca057fc9017047b57b5fb46fe2d1409884d"
+}

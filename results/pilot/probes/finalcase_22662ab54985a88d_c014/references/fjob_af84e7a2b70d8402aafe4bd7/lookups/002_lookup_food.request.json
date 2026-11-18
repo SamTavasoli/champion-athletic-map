@@ -1,0 +1,8 @@
+{
+  "args": [],
+  "kwargs": {
+    "grams": "220",
+    "search_text": "Rice, white, long-grain, regular, enriched, cooked"
+  },
+  "method": "lookup_food"
+}

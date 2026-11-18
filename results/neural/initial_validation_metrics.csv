@@ -1,0 +1,2 @@
+model_id,candidate_id,configuration_id,run_id,split,status,records,groups,correct_records,accuracy,macro_f1,validation_loss,class_denominator,best_epoch,epochs_completed
+neural_classifier_n0,N0,neural-config:8653449b610872f95d1369706435020aab6c68e6a6d056b9e8c01632a3814682,neural-run:975662ef5f5f646119015a946dd06ba2aafa1cdc81a3629adbb80b8a0c95d4eb,validation,available,435,384,315,0.7241379310344828,0.540130110761601,1.2239498956818564,16,25,30

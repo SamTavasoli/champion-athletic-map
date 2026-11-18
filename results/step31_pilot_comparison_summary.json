@@ -1,0 +1,4296 @@
+{
+  "schema_version": "development-pilot-comparison-1",
+  "pilot_id": "development_88d6bfee05772bb8ee08",
+  "source_summary": "results/step31_development_pilot_summary.json",
+  "source_summary_sha256": "498e31c961be00e29b5f1c624a316422f1fa539dc61723c54173c66bfbbc4af8",
+  "basis": "saved_independent_assessments_only",
+  "cases": 20,
+  "outcomes": 80,
+  "pilot_model_submissions": 247,
+  "new_model_calls": 0,
+  "planners": [
+    {
+      "planner_version": 1,
+      "name": "Language model alone",
+      "outcomes": 20,
+      "completed_responses": 20,
+      "valid_formats": 10,
+      "returned_plan_labels": 16,
+      "fully_supported_plans": 0,
+      "supported_nonplan_responses": 2,
+      "independent_overall": {
+        "requirements_violated": 17,
+        "requirements_unverified": 1,
+        "declared_checks_supported": 2
+      },
+      "response_types": {
+        "plan": 16,
+        "constraint_conflict": 1,
+        "outside_scope": 2,
+        "clarification": 1
+      },
+      "execution_errors": {},
+      "check_counts": {
+        "activity_accounting": {
+          "met": 6,
+          "violated": 0,
+          "unknown": 12,
+          "not_applicable": 2
+        },
+        "additional_training_limits": {
+          "met": 4,
+          "violated": 2,
+          "unknown": 12,
+          "not_applicable": 2
+        },
+        "availability_and_collisions": {
+          "met": 4,
+          "violated": 1,
+          "unknown": 13,
+          "not_applicable": 2
+        },
+        "calendar_window": {
+          "met": 6,
+          "violated": 0,
+          "unknown": 12,
+          "not_applicable": 2
+        },
+        "declared_resource_consistency": {
+          "met": 3,
+          "violated": 1,
+          "unknown": 14,
+          "not_applicable": 2
+        },
+        "execution_completion": {
+          "met": 20,
+          "violated": 0,
+          "unknown": 0,
+          "not_applicable": 0
+        },
+        "existing_commitments": {
+          "met": 1,
+          "violated": 5,
+          "unknown": 12,
+          "not_applicable": 2
+        },
+        "food_answer_completeness": {
+          "met": 0,
+          "violated": 3,
+          "unknown": 3,
+          "not_applicable": 14
+        },
+        "food_numeric_correctness": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 6,
+          "not_applicable": 14
+        },
+        "food_source_grounding": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 3,
+          "not_applicable": 17
+        },
+        "output_structure": {
+          "met": 10,
+          "violated": 10,
+          "unknown": 0,
+          "not_applicable": 0
+        },
+        "reference_identity": {
+          "met": 6,
+          "violated": 4,
+          "unknown": 10,
+          "not_applicable": 0
+        },
+        "requested_session_count": {
+          "met": 3,
+          "violated": 3,
+          "unknown": 7,
+          "not_applicable": 7
+        },
+        "resource_requirements_evidence": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 18,
+          "not_applicable": 2
+        },
+        "response_type_basis": {
+          "met": 7,
+          "violated": 2,
+          "unknown": 11,
+          "not_applicable": 0
+        },
+        "rule:AAP_WEEKLY_SPORT_REST": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 18,
+          "not_applicable": 2
+        },
+        "rule:CDC_TEENS_SLEEP": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 18,
+          "not_applicable": 2
+        },
+        "rule:NBA_A12_14_GAMES_WEEK": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 7,
+          "not_applicable": 13
+        },
+        "rule:NBA_A12_14_MAX_HOURS": {
+          "met": 1,
+          "violated": 0,
+          "unknown": 6,
+          "not_applicable": 13
+        },
+        "rule:NBA_A12_14_MIN_REST": {
+          "met": 1,
+          "violated": 0,
+          "unknown": 6,
+          "not_applicable": 13
+        },
+        "rule:NBA_A12_14_PRACTICES": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 7,
+          "not_applicable": 13
+        },
+        "rule:NBA_A12_14_PRACTICE_LENGTH": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 7,
+          "not_applicable": 13
+        },
+        "rule:NBA_A13_14_SLEEP": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 7,
+          "not_applicable": 13
+        },
+        "rule:NBA_G9_12_GAMES_WEEK": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 13,
+          "not_applicable": 7
+        },
+        "rule:NBA_G9_12_MAX_HOURS": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 13,
+          "not_applicable": 7
+        },
+        "rule:NBA_G9_12_MIN_REST": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 13,
+          "not_applicable": 7
+        },
+        "rule:NBA_G9_12_PRACTICES": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 13,
+          "not_applicable": 7
+        },
+        "rule:NBA_G9_12_PRACTICE_LENGTH": {
+          "met": 0,
+          "violated": 5,
+          "unknown": 8,
+          "not_applicable": 7
+        },
+        "rule:NBA_G9_12_SLEEP": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 13,
+          "not_applicable": 7
+        },
+        "rule:POLICY_CATALOG_ELIGIBILITY": {
+          "met": 6,
+          "violated": 4,
+          "unknown": 10,
+          "not_applicable": 0
+        },
+        "rule:POLICY_INDEPENDENT_EVALUATION": {
+          "met": 20,
+          "violated": 0,
+          "unknown": 0,
+          "not_applicable": 0
+        },
+        "rule:POLICY_REQUIRED_INFORMATION": {
+          "met": 7,
+          "violated": 2,
+          "unknown": 11,
+          "not_applicable": 0
+        },
+        "rule:POLICY_RESULT_SEMANTICS": {
+          "met": 20,
+          "violated": 0,
+          "unknown": 0,
+          "not_applicable": 0
+        },
+        "rule:POLICY_REVIEW_ACTIVATION": {
+          "met": 20,
+          "violated": 0,
+          "unknown": 0,
+          "not_applicable": 0
+        },
+        "rule:POLICY_SCOPE": {
+          "met": 9,
+          "violated": 1,
+          "unknown": 10,
+          "not_applicable": 0
+        },
+        "rule:POLICY_SESSION_ACCOUNTING": {
+          "met": 6,
+          "violated": 0,
+          "unknown": 12,
+          "not_applicable": 2
+        },
+        "rule:POLICY_TIMING_INTEGRITY": {
+          "met": 3,
+          "violated": 2,
+          "unknown": 13,
+          "not_applicable": 2
+        },
+        "rule:RECOVERY-GUIDANCE-48fe143c5cd140813352": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 18,
+          "not_applicable": 2
+        },
+        "rule:RECOVERY-GUIDANCE-6e306f115a65dbdd9e95": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 18,
+          "not_applicable": 2
+        },
+        "rule:RECOVERY-GUIDANCE-9918e3d81af2dba2604b": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 18,
+          "not_applicable": 2
+        },
+        "rule:USER_AVAILABLE_TIME": {
+          "met": 3,
+          "violated": 2,
+          "unknown": 13,
+          "not_applicable": 2
+        },
+        "rule:USER_EXISTING_COMMITMENTS": {
+          "met": 1,
+          "violated": 5,
+          "unknown": 12,
+          "not_applicable": 2
+        },
+        "timing_durations": {
+          "met": 4,
+          "violated": 1,
+          "unknown": 13,
+          "not_applicable": 2
+        }
+      }
+    },
+    {
+      "planner_version": 2,
+      "name": "With references",
+      "outcomes": 20,
+      "completed_responses": 20,
+      "valid_formats": 11,
+      "returned_plan_labels": 16,
+      "fully_supported_plans": 0,
+      "supported_nonplan_responses": 1,
+      "independent_overall": {
+        "requirements_violated": 17,
+        "requirements_unverified": 2,
+        "declared_checks_supported": 1
+      },
+      "response_types": {
+        "plan": 16,
+        "constraint_conflict": 3,
+        "outside_scope": 1
+      },
+      "execution_errors": {},
+      "check_counts": {
+        "activity_accounting": {
+          "met": 5,
+          "violated": 2,
+          "unknown": 12,
+          "not_applicable": 1
+        },
+        "additional_training_limits": {
+          "met": 4,
+          "violated": 3,
+          "unknown": 12,
+          "not_applicable": 1
+        },
+        "availability_and_collisions": {
+          "met": 3,
+          "violated": 1,
+          "unknown": 15,
+          "not_applicable": 1
+        },
+        "calendar_window": {
+          "met": 7,
+          "violated": 0,
+          "unknown": 12,
+          "not_applicable": 1
+        },
+        "declared_resource_consistency": {
+          "met": 3,
+          "violated": 2,
+          "unknown": 14,
+          "not_applicable": 1
+        },
+        "execution_completion": {
+          "met": 20,
+          "violated": 0,
+          "unknown": 0,
+          "not_applicable": 0
+        },
+        "existing_commitments": {
+          "met": 1,
+          "violated": 6,
+          "unknown": 12,
+          "not_applicable": 1
+        },
+        "food_answer_completeness": {
+          "met": 0,
+          "violated": 4,
+          "unknown": 2,
+          "not_applicable": 14
+        },
+        "food_numeric_correctness": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 6,
+          "not_applicable": 14
+        },
+        "food_source_grounding": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 2,
+          "not_applicable": 18
+        },
+        "output_structure": {
+          "met": 11,
+          "violated": 9,
+          "unknown": 0,
+          "not_applicable": 0
+        },
+        "reference_identity": {
+          "met": 11,
+          "violated": 0,
+          "unknown": 9,
+          "not_applicable": 0
+        },
+        "requested_session_count": {
+          "met": 5,
+          "violated": 2,
+          "unknown": 6,
+          "not_applicable": 7
+        },
+        "resource_requirements_evidence": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 19,
+          "not_applicable": 1
+        },
+        "response_type_basis": {
+          "met": 7,
+          "violated": 3,
+          "unknown": 10,
+          "not_applicable": 0
+        },
+        "rule:AAP_WEEKLY_SPORT_REST": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 19,
+          "not_applicable": 1
+        },
+        "rule:CDC_TEENS_SLEEP": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 19,
+          "not_applicable": 1
+        },
+        "rule:NBA_A12_14_GAMES_WEEK": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 8,
+          "not_applicable": 12
+        },
+        "rule:NBA_A12_14_MAX_HOURS": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 8,
+          "not_applicable": 12
+        },
+        "rule:NBA_A12_14_MIN_REST": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 8,
+          "not_applicable": 12
+        },
+        "rule:NBA_A12_14_PRACTICES": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 8,
+          "not_applicable": 12
+        },
+        "rule:NBA_A12_14_PRACTICE_LENGTH": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 8,
+          "not_applicable": 12
+        },
+        "rule:NBA_A13_14_SLEEP": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 8,
+          "not_applicable": 12
+        },
+        "rule:NBA_G9_12_GAMES_WEEK": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 13,
+          "not_applicable": 7
+        },
+        "rule:NBA_G9_12_MAX_HOURS": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 13,
+          "not_applicable": 7
+        },
+        "rule:NBA_G9_12_MIN_REST": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 13,
+          "not_applicable": 7
+        },
+        "rule:NBA_G9_12_PRACTICES": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 13,
+          "not_applicable": 7
+        },
+        "rule:NBA_G9_12_PRACTICE_LENGTH": {
+          "met": 0,
+          "violated": 5,
+          "unknown": 8,
+          "not_applicable": 7
+        },
+        "rule:NBA_G9_12_SLEEP": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 13,
+          "not_applicable": 7
+        },
+        "rule:POLICY_CATALOG_ELIGIBILITY": {
+          "met": 11,
+          "violated": 0,
+          "unknown": 9,
+          "not_applicable": 0
+        },
+        "rule:POLICY_INDEPENDENT_EVALUATION": {
+          "met": 20,
+          "violated": 0,
+          "unknown": 0,
+          "not_applicable": 0
+        },
+        "rule:POLICY_REQUIRED_INFORMATION": {
+          "met": 7,
+          "violated": 3,
+          "unknown": 10,
+          "not_applicable": 0
+        },
+        "rule:POLICY_RESULT_SEMANTICS": {
+          "met": 20,
+          "violated": 0,
+          "unknown": 0,
+          "not_applicable": 0
+        },
+        "rule:POLICY_REVIEW_ACTIVATION": {
+          "met": 20,
+          "violated": 0,
+          "unknown": 0,
+          "not_applicable": 0
+        },
+        "rule:POLICY_SCOPE": {
+          "met": 9,
+          "violated": 2,
+          "unknown": 9,
+          "not_applicable": 0
+        },
+        "rule:POLICY_SESSION_ACCOUNTING": {
+          "met": 5,
+          "violated": 2,
+          "unknown": 12,
+          "not_applicable": 1
+        },
+        "rule:POLICY_TIMING_INTEGRITY": {
+          "met": 1,
+          "violated": 3,
+          "unknown": 15,
+          "not_applicable": 1
+        },
+        "rule:RECOVERY-GUIDANCE-48fe143c5cd140813352": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 19,
+          "not_applicable": 1
+        },
+        "rule:RECOVERY-GUIDANCE-6e306f115a65dbdd9e95": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 19,
+          "not_applicable": 1
+        },
+        "rule:RECOVERY-GUIDANCE-9918e3d81af2dba2604b": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 19,
+          "not_applicable": 1
+        },
+        "rule:USER_AVAILABLE_TIME": {
+          "met": 1,
+          "violated": 3,
+          "unknown": 15,
+          "not_applicable": 1
+        },
+        "rule:USER_EXISTING_COMMITMENTS": {
+          "met": 1,
+          "violated": 6,
+          "unknown": 12,
+          "not_applicable": 1
+        },
+        "timing_durations": {
+          "met": 1,
+          "violated": 3,
+          "unknown": 15,
+          "not_applicable": 1
+        }
+      }
+    },
+    {
+      "planner_version": 3,
+      "name": "With specialist roles",
+      "outcomes": 20,
+      "completed_responses": 20,
+      "valid_formats": 13,
+      "returned_plan_labels": 15,
+      "fully_supported_plans": 0,
+      "supported_nonplan_responses": 4,
+      "independent_overall": {
+        "requirements_violated": 16,
+        "declared_checks_supported": 4
+      },
+      "response_types": {
+        "plan": 15,
+        "clarification": 1,
+        "constraint_conflict": 2,
+        "outside_scope": 2
+      },
+      "execution_errors": {},
+      "check_counts": {
+        "activity_accounting": {
+          "met": 7,
+          "violated": 1,
+          "unknown": 8,
+          "not_applicable": 4
+        },
+        "additional_training_limits": {
+          "met": 5,
+          "violated": 3,
+          "unknown": 8,
+          "not_applicable": 4
+        },
+        "availability_and_collisions": {
+          "met": 2,
+          "violated": 0,
+          "unknown": 14,
+          "not_applicable": 4
+        },
+        "calendar_window": {
+          "met": 8,
+          "violated": 0,
+          "unknown": 8,
+          "not_applicable": 4
+        },
+        "declared_resource_consistency": {
+          "met": 3,
+          "violated": 4,
+          "unknown": 9,
+          "not_applicable": 4
+        },
+        "execution_completion": {
+          "met": 20,
+          "violated": 0,
+          "unknown": 0,
+          "not_applicable": 0
+        },
+        "existing_commitments": {
+          "met": 1,
+          "violated": 6,
+          "unknown": 9,
+          "not_applicable": 4
+        },
+        "food_answer_completeness": {
+          "met": 0,
+          "violated": 2,
+          "unknown": 4,
+          "not_applicable": 14
+        },
+        "food_numeric_correctness": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 6,
+          "not_applicable": 14
+        },
+        "food_source_grounding": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 4,
+          "not_applicable": 16
+        },
+        "output_structure": {
+          "met": 13,
+          "violated": 7,
+          "unknown": 0,
+          "not_applicable": 0
+        },
+        "reference_identity": {
+          "met": 13,
+          "violated": 0,
+          "unknown": 7,
+          "not_applicable": 0
+        },
+        "requested_session_count": {
+          "met": 5,
+          "violated": 3,
+          "unknown": 5,
+          "not_applicable": 7
+        },
+        "resource_requirements_evidence": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 16,
+          "not_applicable": 4
+        },
+        "response_type_basis": {
+          "met": 11,
+          "violated": 2,
+          "unknown": 7,
+          "not_applicable": 0
+        },
+        "rule:AAP_WEEKLY_SPORT_REST": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 16,
+          "not_applicable": 4
+        },
+        "rule:CDC_TEENS_SLEEP": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 16,
+          "not_applicable": 4
+        },
+        "rule:NBA_A12_14_GAMES_WEEK": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 5,
+          "not_applicable": 15
+        },
+        "rule:NBA_A12_14_MAX_HOURS": {
+          "met": 1,
+          "violated": 0,
+          "unknown": 4,
+          "not_applicable": 15
+        },
+        "rule:NBA_A12_14_MIN_REST": {
+          "met": 1,
+          "violated": 0,
+          "unknown": 4,
+          "not_applicable": 15
+        },
+        "rule:NBA_A12_14_PRACTICES": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 5,
+          "not_applicable": 15
+        },
+        "rule:NBA_A12_14_PRACTICE_LENGTH": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 5,
+          "not_applicable": 15
+        },
+        "rule:NBA_A13_14_SLEEP": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 5,
+          "not_applicable": 15
+        },
+        "rule:NBA_G9_12_GAMES_WEEK": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 13,
+          "not_applicable": 7
+        },
+        "rule:NBA_G9_12_MAX_HOURS": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 13,
+          "not_applicable": 7
+        },
+        "rule:NBA_G9_12_MIN_REST": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 13,
+          "not_applicable": 7
+        },
+        "rule:NBA_G9_12_PRACTICES": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 13,
+          "not_applicable": 7
+        },
+        "rule:NBA_G9_12_PRACTICE_LENGTH": {
+          "met": 0,
+          "violated": 5,
+          "unknown": 8,
+          "not_applicable": 7
+        },
+        "rule:NBA_G9_12_SLEEP": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 13,
+          "not_applicable": 7
+        },
+        "rule:POLICY_CATALOG_ELIGIBILITY": {
+          "met": 13,
+          "violated": 0,
+          "unknown": 7,
+          "not_applicable": 0
+        },
+        "rule:POLICY_INDEPENDENT_EVALUATION": {
+          "met": 20,
+          "violated": 0,
+          "unknown": 0,
+          "not_applicable": 0
+        },
+        "rule:POLICY_REQUIRED_INFORMATION": {
+          "met": 11,
+          "violated": 2,
+          "unknown": 7,
+          "not_applicable": 0
+        },
+        "rule:POLICY_RESULT_SEMANTICS": {
+          "met": 20,
+          "violated": 0,
+          "unknown": 0,
+          "not_applicable": 0
+        },
+        "rule:POLICY_REVIEW_ACTIVATION": {
+          "met": 20,
+          "violated": 0,
+          "unknown": 0,
+          "not_applicable": 0
+        },
+        "rule:POLICY_SCOPE": {
+          "met": 12,
+          "violated": 1,
+          "unknown": 7,
+          "not_applicable": 0
+        },
+        "rule:POLICY_SESSION_ACCOUNTING": {
+          "met": 7,
+          "violated": 1,
+          "unknown": 8,
+          "not_applicable": 4
+        },
+        "rule:POLICY_TIMING_INTEGRITY": {
+          "met": 1,
+          "violated": 1,
+          "unknown": 14,
+          "not_applicable": 4
+        },
+        "rule:RECOVERY-GUIDANCE-48fe143c5cd140813352": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 16,
+          "not_applicable": 4
+        },
+        "rule:RECOVERY-GUIDANCE-6e306f115a65dbdd9e95": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 16,
+          "not_applicable": 4
+        },
+        "rule:RECOVERY-GUIDANCE-9918e3d81af2dba2604b": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 16,
+          "not_applicable": 4
+        },
+        "rule:USER_AVAILABLE_TIME": {
+          "met": 1,
+          "violated": 3,
+          "unknown": 12,
+          "not_applicable": 4
+        },
+        "rule:USER_EXISTING_COMMITMENTS": {
+          "met": 1,
+          "violated": 6,
+          "unknown": 9,
+          "not_applicable": 4
+        },
+        "timing_durations": {
+          "met": 1,
+          "violated": 1,
+          "unknown": 14,
+          "not_applicable": 4
+        }
+      }
+    },
+    {
+      "planner_version": 4,
+      "name": "With checks and revisions",
+      "outcomes": 20,
+      "completed_responses": 15,
+      "valid_formats": 13,
+      "returned_plan_labels": 8,
+      "fully_supported_plans": 0,
+      "supported_nonplan_responses": 4,
+      "independent_overall": {
+        "requirements_violated": 15,
+        "requirements_unverified": 1,
+        "declared_checks_supported": 4
+      },
+      "response_types": {
+        "plan": 8,
+        "clarification": 2,
+        "constraint_conflict": 4,
+        "unavailable": 5,
+        "outside_scope": 1
+      },
+      "execution_errors": {
+        "ValueError: The complete role request exceeds its reserved context budget.": 3,
+        "The role reached its 2048-token reply limit before finishing.": 1,
+        "The role reached its 512-token reply limit before finishing.": 1
+      },
+      "check_counts": {
+        "activity_accounting": {
+          "met": 5,
+          "violated": 1,
+          "unknown": 10,
+          "not_applicable": 4
+        },
+        "additional_training_limits": {
+          "met": 5,
+          "violated": 1,
+          "unknown": 10,
+          "not_applicable": 4
+        },
+        "availability_and_collisions": {
+          "met": 2,
+          "violated": 0,
+          "unknown": 14,
+          "not_applicable": 4
+        },
+        "calendar_window": {
+          "met": 6,
+          "violated": 0,
+          "unknown": 10,
+          "not_applicable": 4
+        },
+        "declared_resource_consistency": {
+          "met": 2,
+          "violated": 2,
+          "unknown": 12,
+          "not_applicable": 4
+        },
+        "execution_completion": {
+          "met": 15,
+          "violated": 5,
+          "unknown": 0,
+          "not_applicable": 0
+        },
+        "existing_commitments": {
+          "met": 1,
+          "violated": 4,
+          "unknown": 11,
+          "not_applicable": 4
+        },
+        "food_answer_completeness": {
+          "met": 0,
+          "violated": 2,
+          "unknown": 4,
+          "not_applicable": 14
+        },
+        "food_numeric_correctness": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 6,
+          "not_applicable": 14
+        },
+        "food_source_grounding": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 4,
+          "not_applicable": 16
+        },
+        "output_structure": {
+          "met": 13,
+          "violated": 7,
+          "unknown": 0,
+          "not_applicable": 0
+        },
+        "reference_identity": {
+          "met": 13,
+          "violated": 0,
+          "unknown": 7,
+          "not_applicable": 0
+        },
+        "requested_session_count": {
+          "met": 4,
+          "violated": 1,
+          "unknown": 7,
+          "not_applicable": 8
+        },
+        "resource_requirements_evidence": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 16,
+          "not_applicable": 4
+        },
+        "response_type_basis": {
+          "met": 9,
+          "violated": 4,
+          "unknown": 7,
+          "not_applicable": 0
+        },
+        "rule:AAP_WEEKLY_SPORT_REST": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 16,
+          "not_applicable": 4
+        },
+        "rule:CDC_TEENS_SLEEP": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 16,
+          "not_applicable": 4
+        },
+        "rule:NBA_A12_14_GAMES_WEEK": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 5,
+          "not_applicable": 15
+        },
+        "rule:NBA_A12_14_MAX_HOURS": {
+          "met": 1,
+          "violated": 0,
+          "unknown": 4,
+          "not_applicable": 15
+        },
+        "rule:NBA_A12_14_MIN_REST": {
+          "met": 1,
+          "violated": 0,
+          "unknown": 4,
+          "not_applicable": 15
+        },
+        "rule:NBA_A12_14_PRACTICES": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 5,
+          "not_applicable": 15
+        },
+        "rule:NBA_A12_14_PRACTICE_LENGTH": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 5,
+          "not_applicable": 15
+        },
+        "rule:NBA_A13_14_SLEEP": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 5,
+          "not_applicable": 15
+        },
+        "rule:NBA_G9_12_GAMES_WEEK": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 13,
+          "not_applicable": 7
+        },
+        "rule:NBA_G9_12_MAX_HOURS": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 13,
+          "not_applicable": 7
+        },
+        "rule:NBA_G9_12_MIN_REST": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 13,
+          "not_applicable": 7
+        },
+        "rule:NBA_G9_12_PRACTICES": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 13,
+          "not_applicable": 7
+        },
+        "rule:NBA_G9_12_PRACTICE_LENGTH": {
+          "met": 0,
+          "violated": 4,
+          "unknown": 9,
+          "not_applicable": 7
+        },
+        "rule:NBA_G9_12_SLEEP": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 13,
+          "not_applicable": 7
+        },
+        "rule:POLICY_CATALOG_ELIGIBILITY": {
+          "met": 13,
+          "violated": 0,
+          "unknown": 7,
+          "not_applicable": 0
+        },
+        "rule:POLICY_INDEPENDENT_EVALUATION": {
+          "met": 20,
+          "violated": 0,
+          "unknown": 0,
+          "not_applicable": 0
+        },
+        "rule:POLICY_REQUIRED_INFORMATION": {
+          "met": 9,
+          "violated": 4,
+          "unknown": 7,
+          "not_applicable": 0
+        },
+        "rule:POLICY_RESULT_SEMANTICS": {
+          "met": 20,
+          "violated": 0,
+          "unknown": 0,
+          "not_applicable": 0
+        },
+        "rule:POLICY_REVIEW_ACTIVATION": {
+          "met": 20,
+          "violated": 0,
+          "unknown": 0,
+          "not_applicable": 0
+        },
+        "rule:POLICY_SCOPE": {
+          "met": 11,
+          "violated": 2,
+          "unknown": 7,
+          "not_applicable": 0
+        },
+        "rule:POLICY_SESSION_ACCOUNTING": {
+          "met": 5,
+          "violated": 1,
+          "unknown": 10,
+          "not_applicable": 4
+        },
+        "rule:POLICY_TIMING_INTEGRITY": {
+          "met": 1,
+          "violated": 1,
+          "unknown": 14,
+          "not_applicable": 4
+        },
+        "rule:RECOVERY-GUIDANCE-48fe143c5cd140813352": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 16,
+          "not_applicable": 4
+        },
+        "rule:RECOVERY-GUIDANCE-6e306f115a65dbdd9e95": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 16,
+          "not_applicable": 4
+        },
+        "rule:RECOVERY-GUIDANCE-9918e3d81af2dba2604b": {
+          "met": 0,
+          "violated": 0,
+          "unknown": 16,
+          "not_applicable": 4
+        },
+        "rule:USER_AVAILABLE_TIME": {
+          "met": 1,
+          "violated": 1,
+          "unknown": 14,
+          "not_applicable": 4
+        },
+        "rule:USER_EXISTING_COMMITMENTS": {
+          "met": 1,
+          "violated": 4,
+          "unknown": 11,
+          "not_applicable": 4
+        },
+        "timing_durations": {
+          "met": 1,
+          "violated": 1,
+          "unknown": 14,
+          "not_applicable": 4
+        }
+      }
+    }
+  ],
+  "limitations": [
+    "This is a comparison of provisional development cases, not the final study population.",
+    "Format and completion counts describe response structure and execution; they do not establish plan quality.",
+    "The last table column uses all replies labelled as plans, including those with invalid structure, as its denominator.",
+    "A plan is fully verified here only when none of the required independent checks is violated or unknown. This is not a safety certification.",
+    "Supported clarification, conflict and outside-scope replies are counted separately from training plans.",
+    "Unknown means unverified. Resource checks cover only the separately reviewed activity variants, and invalid activity structure can also prevent verification.",
+    "Food wording that the checker cannot interpret remains unknown. Missing or question-only replies remain violations of answer completeness.",
+    "Some rule checks repeat underlying schedule findings; their counts must not be added as separate errors.",
+    "This cell summarizes the assessments embedded in the Step 31-10 summary. It does not reopen raw model replies or rerun the checks.",
+    "Human review, final scoring and any choice of an overall winner remain pending."
+  ],
+  "final_scoring_status": "pending",
+  "human_review_status": "pending",
+  "overall_winner": null,
+  "outcome_findings": [
+    {
+      "case": 1,
+      "profile_id": "athlete:7908460d199794b98ef5a444",
+      "job_id": "p31d_88d6bfee05772bb8_c01_v1",
+      "planner_version": 1,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c01/jobs/p31d_88d6bfee05772bb8_c01_v1/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": false,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "plan",
+        "revisions_used": 0,
+        "status": "failed",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "output_structure",
+        "requested_session_count",
+        "food_answer_completeness"
+      ],
+      "required_unknowns": [
+        "calendar_window",
+        "existing_commitments",
+        "activity_accounting",
+        "timing_durations",
+        "availability_and_collisions",
+        "additional_training_limits",
+        "reference_identity",
+        "response_type_basis",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_REQUIRED_INFORMATION",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:POLICY_SESSION_ACCOUNTING",
+        "rule:POLICY_CATALOG_ELIGIBILITY",
+        "rule:POLICY_SCOPE",
+        "rule:NBA_A12_14_MAX_HOURS",
+        "rule:NBA_A12_14_MIN_REST",
+        "declared_resource_consistency",
+        "resource_requirements_evidence",
+        "food_numeric_correctness"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 1,
+      "profile_id": "athlete:7908460d199794b98ef5a444",
+      "job_id": "p31d_88d6bfee05772bb8_c01_v2",
+      "planner_version": 2,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c01/jobs/p31d_88d6bfee05772bb8_c01_v2/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": false,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "plan",
+        "revisions_used": 0,
+        "status": "failed",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "output_structure",
+        "requested_session_count",
+        "food_answer_completeness"
+      ],
+      "required_unknowns": [
+        "calendar_window",
+        "existing_commitments",
+        "activity_accounting",
+        "timing_durations",
+        "availability_and_collisions",
+        "additional_training_limits",
+        "reference_identity",
+        "response_type_basis",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_REQUIRED_INFORMATION",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:POLICY_SESSION_ACCOUNTING",
+        "rule:POLICY_CATALOG_ELIGIBILITY",
+        "rule:POLICY_SCOPE",
+        "rule:NBA_A12_14_MAX_HOURS",
+        "rule:NBA_A12_14_MIN_REST",
+        "declared_resource_consistency",
+        "resource_requirements_evidence",
+        "food_numeric_correctness"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 1,
+      "profile_id": "athlete:7908460d199794b98ef5a444",
+      "job_id": "p31d_88d6bfee05772bb8_c01_v3",
+      "planner_version": 3,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c01/jobs/p31d_88d6bfee05772bb8_c01_v3/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": true,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "plan",
+        "revisions_used": 0,
+        "status": "returned",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "existing_commitments",
+        "additional_training_limits",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "requested_session_count",
+        "food_answer_completeness"
+      ],
+      "required_unknowns": [
+        "timing_durations",
+        "availability_and_collisions",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:NBA_A12_14_MAX_HOURS",
+        "rule:NBA_A12_14_MIN_REST",
+        "declared_resource_consistency",
+        "resource_requirements_evidence",
+        "food_numeric_correctness"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 1,
+      "profile_id": "athlete:7908460d199794b98ef5a444",
+      "job_id": "p31d_88d6bfee05772bb8_c01_v4",
+      "planner_version": 4,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c01/jobs/p31d_88d6bfee05772bb8_c01_v4/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": false,
+        "independent_quality_assessment": "pending",
+        "internal_review": "needs review",
+        "response_type": "plan",
+        "revisions_used": 2,
+        "status": "failed",
+        "terminal_state": "revision_limit_reached"
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "output_structure",
+        "food_answer_completeness"
+      ],
+      "required_unknowns": [
+        "calendar_window",
+        "existing_commitments",
+        "activity_accounting",
+        "timing_durations",
+        "availability_and_collisions",
+        "additional_training_limits",
+        "reference_identity",
+        "response_type_basis",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_REQUIRED_INFORMATION",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:POLICY_SESSION_ACCOUNTING",
+        "rule:POLICY_CATALOG_ELIGIBILITY",
+        "rule:POLICY_SCOPE",
+        "rule:NBA_A12_14_MAX_HOURS",
+        "rule:NBA_A12_14_MIN_REST",
+        "requested_session_count",
+        "declared_resource_consistency",
+        "resource_requirements_evidence",
+        "food_numeric_correctness"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 2,
+      "profile_id": "athlete:3ceae454f8a62ee308cd87f4",
+      "job_id": "p31d_88d6bfee05772bb8_c02_v1",
+      "planner_version": 1,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c02/jobs/p31d_88d6bfee05772bb8_c02_v1/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": true,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "plan",
+        "revisions_used": 0,
+        "status": "returned",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "reference_identity",
+        "rule:POLICY_CATALOG_ELIGIBILITY",
+        "requested_session_count"
+      ],
+      "required_unknowns": [
+        "resource_requirements_evidence",
+        "food_answer_completeness",
+        "food_numeric_correctness"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 2,
+      "profile_id": "athlete:3ceae454f8a62ee308cd87f4",
+      "job_id": "p31d_88d6bfee05772bb8_c02_v2",
+      "planner_version": 2,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c02/jobs/p31d_88d6bfee05772bb8_c02_v2/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": true,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "plan",
+        "revisions_used": 0,
+        "status": "returned",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_unverified",
+      "required_violations": [],
+      "required_unknowns": [
+        "timing_durations",
+        "availability_and_collisions",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:NBA_A12_14_MAX_HOURS",
+        "rule:NBA_A12_14_MIN_REST",
+        "resource_requirements_evidence",
+        "food_answer_completeness",
+        "food_numeric_correctness"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 2,
+      "profile_id": "athlete:3ceae454f8a62ee308cd87f4",
+      "job_id": "p31d_88d6bfee05772bb8_c02_v3",
+      "planner_version": 3,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c02/jobs/p31d_88d6bfee05772bb8_c02_v3/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": true,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "plan",
+        "revisions_used": 0,
+        "status": "returned",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "requested_session_count"
+      ],
+      "required_unknowns": [
+        "resource_requirements_evidence",
+        "food_answer_completeness",
+        "food_numeric_correctness"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 2,
+      "profile_id": "athlete:3ceae454f8a62ee308cd87f4",
+      "job_id": "p31d_88d6bfee05772bb8_c02_v4",
+      "planner_version": 4,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c02/jobs/p31d_88d6bfee05772bb8_c02_v4/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": true,
+        "independent_quality_assessment": "pending",
+        "internal_review": "needs review",
+        "response_type": "plan",
+        "revisions_used": 2,
+        "status": "returned",
+        "terminal_state": "revision_limit_reached"
+      },
+      "independent_overall": "requirements_unverified",
+      "required_violations": [],
+      "required_unknowns": [
+        "resource_requirements_evidence",
+        "food_answer_completeness",
+        "food_numeric_correctness"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 3,
+      "profile_id": "athlete:5f8b4d8612de86a9d21be839",
+      "job_id": "p31d_88d6bfee05772bb8_c03_v1",
+      "planner_version": 1,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c03/jobs/p31d_88d6bfee05772bb8_c03_v1/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": true,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "plan",
+        "revisions_used": 0,
+        "status": "returned",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "existing_commitments",
+        "availability_and_collisions",
+        "additional_training_limits",
+        "response_type_basis",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_REQUIRED_INFORMATION",
+        "rule:POLICY_TIMING_INTEGRITY"
+      ],
+      "required_unknowns": [
+        "rule:NBA_A12_14_MAX_HOURS",
+        "rule:NBA_A12_14_MIN_REST",
+        "declared_resource_consistency",
+        "resource_requirements_evidence"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 3,
+      "profile_id": "athlete:5f8b4d8612de86a9d21be839",
+      "job_id": "p31d_88d6bfee05772bb8_c03_v2",
+      "planner_version": 2,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c03/jobs/p31d_88d6bfee05772bb8_c03_v2/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": false,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "plan",
+        "revisions_used": 0,
+        "status": "failed",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "output_structure"
+      ],
+      "required_unknowns": [
+        "calendar_window",
+        "existing_commitments",
+        "activity_accounting",
+        "timing_durations",
+        "availability_and_collisions",
+        "additional_training_limits",
+        "reference_identity",
+        "response_type_basis",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_REQUIRED_INFORMATION",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:POLICY_SESSION_ACCOUNTING",
+        "rule:POLICY_CATALOG_ELIGIBILITY",
+        "rule:POLICY_SCOPE",
+        "rule:NBA_A12_14_MAX_HOURS",
+        "rule:NBA_A12_14_MIN_REST",
+        "declared_resource_consistency",
+        "resource_requirements_evidence"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 3,
+      "profile_id": "athlete:5f8b4d8612de86a9d21be839",
+      "job_id": "p31d_88d6bfee05772bb8_c03_v3",
+      "planner_version": 3,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c03/jobs/p31d_88d6bfee05772bb8_c03_v3/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": true,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "clarification",
+        "revisions_used": 0,
+        "status": "returned",
+        "terminal_state": null
+      },
+      "independent_overall": "declared_checks_supported",
+      "required_violations": [],
+      "required_unknowns": [],
+      "human_rating": null
+    },
+    {
+      "case": 3,
+      "profile_id": "athlete:5f8b4d8612de86a9d21be839",
+      "job_id": "p31d_88d6bfee05772bb8_c03_v4",
+      "planner_version": 4,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c03/jobs/p31d_88d6bfee05772bb8_c03_v4/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": true,
+        "independent_quality_assessment": "pending",
+        "internal_review": "passed",
+        "response_type": "clarification",
+        "revisions_used": 0,
+        "status": "returned",
+        "terminal_state": "internally_accepted"
+      },
+      "independent_overall": "declared_checks_supported",
+      "required_violations": [],
+      "required_unknowns": [],
+      "human_rating": null
+    },
+    {
+      "case": 4,
+      "profile_id": "athlete:c66a7a43ac15e950b8fd0554",
+      "job_id": "p31d_88d6bfee05772bb8_c04_v1",
+      "planner_version": 1,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c04/jobs/p31d_88d6bfee05772bb8_c04_v1/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": true,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "constraint_conflict",
+        "revisions_used": 0,
+        "status": "returned",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_unverified",
+      "required_violations": [],
+      "required_unknowns": [
+        "calendar_window",
+        "existing_commitments",
+        "activity_accounting",
+        "timing_durations",
+        "availability_and_collisions",
+        "additional_training_limits",
+        "response_type_basis",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_REQUIRED_INFORMATION",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:POLICY_SESSION_ACCOUNTING",
+        "rule:NBA_A12_14_MAX_HOURS",
+        "rule:NBA_A12_14_MIN_REST",
+        "declared_resource_consistency",
+        "resource_requirements_evidence"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 4,
+      "profile_id": "athlete:c66a7a43ac15e950b8fd0554",
+      "job_id": "p31d_88d6bfee05772bb8_c04_v2",
+      "planner_version": 2,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c04/jobs/p31d_88d6bfee05772bb8_c04_v2/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": true,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "constraint_conflict",
+        "revisions_used": 0,
+        "status": "returned",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_unverified",
+      "required_violations": [],
+      "required_unknowns": [
+        "calendar_window",
+        "existing_commitments",
+        "activity_accounting",
+        "timing_durations",
+        "availability_and_collisions",
+        "additional_training_limits",
+        "response_type_basis",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_REQUIRED_INFORMATION",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:POLICY_SESSION_ACCOUNTING",
+        "rule:NBA_A12_14_MAX_HOURS",
+        "rule:NBA_A12_14_MIN_REST",
+        "declared_resource_consistency",
+        "resource_requirements_evidence"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 4,
+      "profile_id": "athlete:c66a7a43ac15e950b8fd0554",
+      "job_id": "p31d_88d6bfee05772bb8_c04_v3",
+      "planner_version": 3,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c04/jobs/p31d_88d6bfee05772bb8_c04_v3/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": true,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "constraint_conflict",
+        "revisions_used": 0,
+        "status": "returned",
+        "terminal_state": null
+      },
+      "independent_overall": "declared_checks_supported",
+      "required_violations": [],
+      "required_unknowns": [],
+      "human_rating": null
+    },
+    {
+      "case": 4,
+      "profile_id": "athlete:c66a7a43ac15e950b8fd0554",
+      "job_id": "p31d_88d6bfee05772bb8_c04_v4",
+      "planner_version": 4,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c04/jobs/p31d_88d6bfee05772bb8_c04_v4/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": true,
+        "independent_quality_assessment": "pending",
+        "internal_review": "needs review",
+        "response_type": "constraint_conflict",
+        "revisions_used": 2,
+        "status": "returned",
+        "terminal_state": "revision_limit_reached"
+      },
+      "independent_overall": "declared_checks_supported",
+      "required_violations": [],
+      "required_unknowns": [],
+      "human_rating": null
+    },
+    {
+      "case": 5,
+      "profile_id": "athlete:5dc2a65fa122b86f793a3ca3",
+      "job_id": "p31d_88d6bfee05772bb8_c05_v1",
+      "planner_version": 1,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c05/jobs/p31d_88d6bfee05772bb8_c05_v1/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": true,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "plan",
+        "revisions_used": 0,
+        "status": "returned",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "existing_commitments",
+        "reference_identity",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_CATALOG_ELIGIBILITY",
+        "food_answer_completeness"
+      ],
+      "required_unknowns": [
+        "timing_durations",
+        "availability_and_collisions",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:NBA_A12_14_MAX_HOURS",
+        "rule:NBA_A12_14_MIN_REST",
+        "resource_requirements_evidence",
+        "food_numeric_correctness"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 5,
+      "profile_id": "athlete:5dc2a65fa122b86f793a3ca3",
+      "job_id": "p31d_88d6bfee05772bb8_c05_v2",
+      "planner_version": 2,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c05/jobs/p31d_88d6bfee05772bb8_c05_v2/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": true,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "plan",
+        "revisions_used": 0,
+        "status": "returned",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "existing_commitments",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "food_answer_completeness"
+      ],
+      "required_unknowns": [
+        "timing_durations",
+        "availability_and_collisions",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:NBA_A12_14_MAX_HOURS",
+        "rule:NBA_A12_14_MIN_REST",
+        "resource_requirements_evidence",
+        "food_numeric_correctness"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 5,
+      "profile_id": "athlete:5dc2a65fa122b86f793a3ca3",
+      "job_id": "p31d_88d6bfee05772bb8_c05_v3",
+      "planner_version": 3,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c05/jobs/p31d_88d6bfee05772bb8_c05_v3/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": true,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "plan",
+        "revisions_used": 0,
+        "status": "returned",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "existing_commitments",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "food_answer_completeness"
+      ],
+      "required_unknowns": [
+        "timing_durations",
+        "availability_and_collisions",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:NBA_A12_14_MAX_HOURS",
+        "rule:NBA_A12_14_MIN_REST",
+        "resource_requirements_evidence",
+        "food_numeric_correctness"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 5,
+      "profile_id": "athlete:5dc2a65fa122b86f793a3ca3",
+      "job_id": "p31d_88d6bfee05772bb8_c05_v4",
+      "planner_version": 4,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c05/jobs/p31d_88d6bfee05772bb8_c05_v4/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": true,
+        "independent_quality_assessment": "pending",
+        "internal_review": "needs review",
+        "response_type": "plan",
+        "revisions_used": 2,
+        "status": "returned",
+        "terminal_state": "revision_limit_reached"
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "existing_commitments",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "food_answer_completeness"
+      ],
+      "required_unknowns": [
+        "timing_durations",
+        "availability_and_collisions",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:NBA_A12_14_MAX_HOURS",
+        "rule:NBA_A12_14_MIN_REST",
+        "resource_requirements_evidence",
+        "food_numeric_correctness"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 6,
+      "profile_id": "athlete:a2e5c1cf98a80daaea8da243",
+      "job_id": "p31d_88d6bfee05772bb8_c06_v1",
+      "planner_version": 1,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c06/jobs/p31d_88d6bfee05772bb8_c06_v1/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": true,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "plan",
+        "revisions_used": 0,
+        "status": "returned",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "existing_commitments",
+        "timing_durations",
+        "additional_training_limits",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_TIMING_INTEGRITY"
+      ],
+      "required_unknowns": [
+        "rule:NBA_A12_14_MAX_HOURS",
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_A12_14_MIN_REST",
+        "rule:NBA_G9_12_MIN_REST",
+        "declared_resource_consistency",
+        "resource_requirements_evidence"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 6,
+      "profile_id": "athlete:a2e5c1cf98a80daaea8da243",
+      "job_id": "p31d_88d6bfee05772bb8_c06_v2",
+      "planner_version": 2,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c06/jobs/p31d_88d6bfee05772bb8_c06_v2/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": true,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "plan",
+        "revisions_used": 0,
+        "status": "returned",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "existing_commitments",
+        "timing_durations",
+        "additional_training_limits",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_TIMING_INTEGRITY"
+      ],
+      "required_unknowns": [
+        "rule:NBA_A12_14_MAX_HOURS",
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_A12_14_MIN_REST",
+        "rule:NBA_G9_12_MIN_REST",
+        "declared_resource_consistency",
+        "resource_requirements_evidence"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 6,
+      "profile_id": "athlete:a2e5c1cf98a80daaea8da243",
+      "job_id": "p31d_88d6bfee05772bb8_c06_v3",
+      "planner_version": 3,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c06/jobs/p31d_88d6bfee05772bb8_c06_v3/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": true,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "plan",
+        "revisions_used": 0,
+        "status": "returned",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "existing_commitments",
+        "timing_durations",
+        "additional_training_limits",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_TIMING_INTEGRITY"
+      ],
+      "required_unknowns": [
+        "rule:NBA_A12_14_MAX_HOURS",
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_A12_14_MIN_REST",
+        "rule:NBA_G9_12_MIN_REST",
+        "declared_resource_consistency",
+        "resource_requirements_evidence"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 6,
+      "profile_id": "athlete:a2e5c1cf98a80daaea8da243",
+      "job_id": "p31d_88d6bfee05772bb8_c06_v4",
+      "planner_version": 4,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c06/jobs/p31d_88d6bfee05772bb8_c06_v4/outcome.json",
+      "outcome": {
+        "completion_valid": false,
+        "error": "ValueError: The complete role request exceeds its reserved context budget.",
+        "failed_stage": "revision",
+        "format_valid": false,
+        "independent_quality_assessment": "pending",
+        "internal_review": "not completed",
+        "response_type": null,
+        "revisions_used": 1,
+        "status": "failed",
+        "terminal_state": "execution_error"
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "execution_completion",
+        "output_structure"
+      ],
+      "required_unknowns": [
+        "calendar_window",
+        "existing_commitments",
+        "activity_accounting",
+        "timing_durations",
+        "availability_and_collisions",
+        "additional_training_limits",
+        "reference_identity",
+        "response_type_basis",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_REQUIRED_INFORMATION",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:POLICY_SESSION_ACCOUNTING",
+        "rule:POLICY_CATALOG_ELIGIBILITY",
+        "rule:POLICY_SCOPE",
+        "rule:NBA_A12_14_MAX_HOURS",
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_A12_14_MIN_REST",
+        "rule:NBA_G9_12_MIN_REST",
+        "requested_session_count",
+        "declared_resource_consistency",
+        "resource_requirements_evidence"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 7,
+      "profile_id": "athlete:46351686e652d64a51636670",
+      "job_id": "p31d_88d6bfee05772bb8_c07_v1",
+      "planner_version": 1,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c07/jobs/p31d_88d6bfee05772bb8_c07_v1/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": false,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "plan",
+        "revisions_used": 0,
+        "status": "failed",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "output_structure",
+        "declared_resource_consistency"
+      ],
+      "required_unknowns": [
+        "calendar_window",
+        "existing_commitments",
+        "activity_accounting",
+        "timing_durations",
+        "availability_and_collisions",
+        "additional_training_limits",
+        "reference_identity",
+        "response_type_basis",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_REQUIRED_INFORMATION",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:POLICY_SESSION_ACCOUNTING",
+        "rule:POLICY_CATALOG_ELIGIBILITY",
+        "rule:POLICY_SCOPE",
+        "rule:NBA_A12_14_MAX_HOURS",
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_A12_14_MIN_REST",
+        "rule:NBA_G9_12_MIN_REST",
+        "resource_requirements_evidence"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 7,
+      "profile_id": "athlete:46351686e652d64a51636670",
+      "job_id": "p31d_88d6bfee05772bb8_c07_v2",
+      "planner_version": 2,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c07/jobs/p31d_88d6bfee05772bb8_c07_v2/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": false,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "plan",
+        "revisions_used": 0,
+        "status": "failed",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "output_structure",
+        "declared_resource_consistency"
+      ],
+      "required_unknowns": [
+        "calendar_window",
+        "existing_commitments",
+        "activity_accounting",
+        "timing_durations",
+        "availability_and_collisions",
+        "additional_training_limits",
+        "reference_identity",
+        "response_type_basis",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_REQUIRED_INFORMATION",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:POLICY_SESSION_ACCOUNTING",
+        "rule:POLICY_CATALOG_ELIGIBILITY",
+        "rule:POLICY_SCOPE",
+        "rule:NBA_A12_14_MAX_HOURS",
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_A12_14_MIN_REST",
+        "rule:NBA_G9_12_MIN_REST",
+        "resource_requirements_evidence"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 7,
+      "profile_id": "athlete:46351686e652d64a51636670",
+      "job_id": "p31d_88d6bfee05772bb8_c07_v3",
+      "planner_version": 3,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c07/jobs/p31d_88d6bfee05772bb8_c07_v3/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": false,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "plan",
+        "revisions_used": 0,
+        "status": "failed",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "output_structure",
+        "declared_resource_consistency"
+      ],
+      "required_unknowns": [
+        "calendar_window",
+        "existing_commitments",
+        "activity_accounting",
+        "timing_durations",
+        "availability_and_collisions",
+        "additional_training_limits",
+        "reference_identity",
+        "response_type_basis",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_REQUIRED_INFORMATION",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:POLICY_SESSION_ACCOUNTING",
+        "rule:POLICY_CATALOG_ELIGIBILITY",
+        "rule:POLICY_SCOPE",
+        "rule:NBA_A12_14_MAX_HOURS",
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_A12_14_MIN_REST",
+        "rule:NBA_G9_12_MIN_REST",
+        "resource_requirements_evidence"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 7,
+      "profile_id": "athlete:46351686e652d64a51636670",
+      "job_id": "p31d_88d6bfee05772bb8_c07_v4",
+      "planner_version": 4,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c07/jobs/p31d_88d6bfee05772bb8_c07_v4/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": true,
+        "independent_quality_assessment": "pending",
+        "internal_review": "needs review",
+        "response_type": "constraint_conflict",
+        "revisions_used": 2,
+        "status": "returned",
+        "terminal_state": "revision_limit_reached"
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "response_type_basis",
+        "rule:POLICY_REQUIRED_INFORMATION"
+      ],
+      "required_unknowns": [
+        "calendar_window",
+        "existing_commitments",
+        "activity_accounting",
+        "timing_durations",
+        "availability_and_collisions",
+        "additional_training_limits",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:POLICY_SESSION_ACCOUNTING",
+        "rule:NBA_A12_14_MAX_HOURS",
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_A12_14_MIN_REST",
+        "rule:NBA_G9_12_MIN_REST",
+        "declared_resource_consistency",
+        "resource_requirements_evidence"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 8,
+      "profile_id": "athlete:9901be82a169cbd2edce8e5e",
+      "job_id": "p31d_88d6bfee05772bb8_c08_v1",
+      "planner_version": 1,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c08/jobs/p31d_88d6bfee05772bb8_c08_v1/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": true,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "outside_scope",
+        "revisions_used": 0,
+        "status": "returned",
+        "terminal_state": null
+      },
+      "independent_overall": "declared_checks_supported",
+      "required_violations": [],
+      "required_unknowns": [],
+      "human_rating": null
+    },
+    {
+      "case": 8,
+      "profile_id": "athlete:9901be82a169cbd2edce8e5e",
+      "job_id": "p31d_88d6bfee05772bb8_c08_v2",
+      "planner_version": 2,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c08/jobs/p31d_88d6bfee05772bb8_c08_v2/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": true,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "constraint_conflict",
+        "revisions_used": 0,
+        "status": "returned",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "response_type_basis",
+        "rule:POLICY_REQUIRED_INFORMATION",
+        "rule:POLICY_SCOPE"
+      ],
+      "required_unknowns": [
+        "calendar_window",
+        "existing_commitments",
+        "activity_accounting",
+        "timing_durations",
+        "availability_and_collisions",
+        "additional_training_limits",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:POLICY_SESSION_ACCOUNTING",
+        "rule:NBA_A12_14_MAX_HOURS",
+        "rule:NBA_A12_14_MIN_REST",
+        "declared_resource_consistency",
+        "resource_requirements_evidence"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 8,
+      "profile_id": "athlete:9901be82a169cbd2edce8e5e",
+      "job_id": "p31d_88d6bfee05772bb8_c08_v3",
+      "planner_version": 3,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c08/jobs/p31d_88d6bfee05772bb8_c08_v3/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": true,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "outside_scope",
+        "revisions_used": 0,
+        "status": "returned",
+        "terminal_state": null
+      },
+      "independent_overall": "declared_checks_supported",
+      "required_violations": [],
+      "required_unknowns": [],
+      "human_rating": null
+    },
+    {
+      "case": 8,
+      "profile_id": "athlete:9901be82a169cbd2edce8e5e",
+      "job_id": "p31d_88d6bfee05772bb8_c08_v4",
+      "planner_version": 4,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c08/jobs/p31d_88d6bfee05772bb8_c08_v4/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": true,
+        "independent_quality_assessment": "pending",
+        "internal_review": "needs review",
+        "response_type": "outside_scope",
+        "revisions_used": 2,
+        "status": "returned",
+        "terminal_state": "revision_limit_reached"
+      },
+      "independent_overall": "declared_checks_supported",
+      "required_violations": [],
+      "required_unknowns": [],
+      "human_rating": null
+    },
+    {
+      "case": 9,
+      "profile_id": "athlete:98b22068f2e17e075063759c",
+      "job_id": "p31d_88d6bfee05772bb8_c09_v1",
+      "planner_version": 1,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c09/jobs/p31d_88d6bfee05772bb8_c09_v1/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": false,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "plan",
+        "revisions_used": 0,
+        "status": "failed",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "output_structure"
+      ],
+      "required_unknowns": [
+        "calendar_window",
+        "existing_commitments",
+        "activity_accounting",
+        "timing_durations",
+        "availability_and_collisions",
+        "additional_training_limits",
+        "reference_identity",
+        "response_type_basis",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_REQUIRED_INFORMATION",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:POLICY_SESSION_ACCOUNTING",
+        "rule:POLICY_CATALOG_ELIGIBILITY",
+        "rule:POLICY_SCOPE",
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_G9_12_MIN_REST",
+        "requested_session_count",
+        "declared_resource_consistency",
+        "resource_requirements_evidence",
+        "food_answer_completeness",
+        "food_numeric_correctness"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 9,
+      "profile_id": "athlete:98b22068f2e17e075063759c",
+      "job_id": "p31d_88d6bfee05772bb8_c09_v2",
+      "planner_version": 2,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c09/jobs/p31d_88d6bfee05772bb8_c09_v2/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": true,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "plan",
+        "revisions_used": 0,
+        "status": "returned",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "activity_accounting",
+        "existing_commitments",
+        "timing_durations",
+        "additional_training_limits",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:POLICY_SESSION_ACCOUNTING",
+        "requested_session_count"
+      ],
+      "required_unknowns": [
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_G9_12_MIN_REST",
+        "declared_resource_consistency",
+        "resource_requirements_evidence",
+        "food_answer_completeness",
+        "food_numeric_correctness"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 9,
+      "profile_id": "athlete:98b22068f2e17e075063759c",
+      "job_id": "p31d_88d6bfee05772bb8_c09_v3",
+      "planner_version": 3,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c09/jobs/p31d_88d6bfee05772bb8_c09_v3/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": true,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "plan",
+        "revisions_used": 0,
+        "status": "returned",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "activity_accounting",
+        "existing_commitments",
+        "additional_training_limits",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_SESSION_ACCOUNTING",
+        "requested_session_count"
+      ],
+      "required_unknowns": [
+        "timing_durations",
+        "availability_and_collisions",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_G9_12_MIN_REST",
+        "declared_resource_consistency",
+        "resource_requirements_evidence",
+        "food_answer_completeness",
+        "food_numeric_correctness"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 9,
+      "profile_id": "athlete:98b22068f2e17e075063759c",
+      "job_id": "p31d_88d6bfee05772bb8_c09_v4",
+      "planner_version": 4,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c09/jobs/p31d_88d6bfee05772bb8_c09_v4/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": true,
+        "independent_quality_assessment": "pending",
+        "internal_review": "needs review",
+        "response_type": "plan",
+        "revisions_used": 2,
+        "status": "returned",
+        "terminal_state": "revision_limit_reached"
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "activity_accounting",
+        "existing_commitments",
+        "timing_durations",
+        "additional_training_limits",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:POLICY_SESSION_ACCOUNTING"
+      ],
+      "required_unknowns": [
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_G9_12_MIN_REST",
+        "requested_session_count",
+        "declared_resource_consistency",
+        "resource_requirements_evidence",
+        "food_answer_completeness",
+        "food_numeric_correctness"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 10,
+      "profile_id": "athlete:39baf7f3bdca5662874c308a",
+      "job_id": "p31d_88d6bfee05772bb8_c10_v1",
+      "planner_version": 1,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c10/jobs/p31d_88d6bfee05772bb8_c10_v1/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": false,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "plan",
+        "revisions_used": 0,
+        "status": "failed",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "output_structure"
+      ],
+      "required_unknowns": [
+        "calendar_window",
+        "existing_commitments",
+        "activity_accounting",
+        "timing_durations",
+        "availability_and_collisions",
+        "additional_training_limits",
+        "reference_identity",
+        "response_type_basis",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_REQUIRED_INFORMATION",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:POLICY_SESSION_ACCOUNTING",
+        "rule:POLICY_CATALOG_ELIGIBILITY",
+        "rule:POLICY_SCOPE",
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_G9_12_MIN_REST",
+        "requested_session_count",
+        "declared_resource_consistency",
+        "resource_requirements_evidence"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 10,
+      "profile_id": "athlete:39baf7f3bdca5662874c308a",
+      "job_id": "p31d_88d6bfee05772bb8_c10_v2",
+      "planner_version": 2,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c10/jobs/p31d_88d6bfee05772bb8_c10_v2/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": false,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "plan",
+        "revisions_used": 0,
+        "status": "failed",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "output_structure"
+      ],
+      "required_unknowns": [
+        "calendar_window",
+        "existing_commitments",
+        "activity_accounting",
+        "timing_durations",
+        "availability_and_collisions",
+        "additional_training_limits",
+        "reference_identity",
+        "response_type_basis",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_REQUIRED_INFORMATION",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:POLICY_SESSION_ACCOUNTING",
+        "rule:POLICY_CATALOG_ELIGIBILITY",
+        "rule:POLICY_SCOPE",
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_G9_12_MIN_REST",
+        "requested_session_count",
+        "declared_resource_consistency",
+        "resource_requirements_evidence"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 10,
+      "profile_id": "athlete:39baf7f3bdca5662874c308a",
+      "job_id": "p31d_88d6bfee05772bb8_c10_v3",
+      "planner_version": 3,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c10/jobs/p31d_88d6bfee05772bb8_c10_v3/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": false,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "plan",
+        "revisions_used": 0,
+        "status": "failed",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "output_structure"
+      ],
+      "required_unknowns": [
+        "calendar_window",
+        "existing_commitments",
+        "activity_accounting",
+        "timing_durations",
+        "availability_and_collisions",
+        "additional_training_limits",
+        "reference_identity",
+        "response_type_basis",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_REQUIRED_INFORMATION",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:POLICY_SESSION_ACCOUNTING",
+        "rule:POLICY_CATALOG_ELIGIBILITY",
+        "rule:POLICY_SCOPE",
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_G9_12_MIN_REST",
+        "requested_session_count",
+        "declared_resource_consistency",
+        "resource_requirements_evidence"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 10,
+      "profile_id": "athlete:39baf7f3bdca5662874c308a",
+      "job_id": "p31d_88d6bfee05772bb8_c10_v4",
+      "planner_version": 4,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c10/jobs/p31d_88d6bfee05772bb8_c10_v4/outcome.json",
+      "outcome": {
+        "completion_valid": false,
+        "error": "ValueError: The complete role request exceeds its reserved context budget.",
+        "failed_stage": "revision",
+        "format_valid": false,
+        "independent_quality_assessment": "pending",
+        "internal_review": "not completed",
+        "response_type": null,
+        "revisions_used": 1,
+        "status": "failed",
+        "terminal_state": "execution_error"
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "execution_completion",
+        "output_structure"
+      ],
+      "required_unknowns": [
+        "calendar_window",
+        "existing_commitments",
+        "activity_accounting",
+        "timing_durations",
+        "availability_and_collisions",
+        "additional_training_limits",
+        "reference_identity",
+        "response_type_basis",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_REQUIRED_INFORMATION",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:POLICY_SESSION_ACCOUNTING",
+        "rule:POLICY_CATALOG_ELIGIBILITY",
+        "rule:POLICY_SCOPE",
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_G9_12_MIN_REST",
+        "requested_session_count",
+        "declared_resource_consistency",
+        "resource_requirements_evidence"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 11,
+      "profile_id": "athlete:e3667bab842230357f331ee4",
+      "job_id": "p31d_88d6bfee05772bb8_c11_v1",
+      "planner_version": 1,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c11/jobs/p31d_88d6bfee05772bb8_c11_v1/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": false,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "plan",
+        "revisions_used": 0,
+        "status": "failed",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "output_structure"
+      ],
+      "required_unknowns": [
+        "calendar_window",
+        "existing_commitments",
+        "activity_accounting",
+        "timing_durations",
+        "availability_and_collisions",
+        "additional_training_limits",
+        "reference_identity",
+        "response_type_basis",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_REQUIRED_INFORMATION",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:POLICY_SESSION_ACCOUNTING",
+        "rule:POLICY_CATALOG_ELIGIBILITY",
+        "rule:POLICY_SCOPE",
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_G9_12_MIN_REST",
+        "requested_session_count",
+        "declared_resource_consistency",
+        "resource_requirements_evidence"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 11,
+      "profile_id": "athlete:e3667bab842230357f331ee4",
+      "job_id": "p31d_88d6bfee05772bb8_c11_v2",
+      "planner_version": 2,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c11/jobs/p31d_88d6bfee05772bb8_c11_v2/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": false,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "plan",
+        "revisions_used": 0,
+        "status": "failed",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "output_structure"
+      ],
+      "required_unknowns": [
+        "calendar_window",
+        "existing_commitments",
+        "activity_accounting",
+        "timing_durations",
+        "availability_and_collisions",
+        "additional_training_limits",
+        "reference_identity",
+        "response_type_basis",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_REQUIRED_INFORMATION",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:POLICY_SESSION_ACCOUNTING",
+        "rule:POLICY_CATALOG_ELIGIBILITY",
+        "rule:POLICY_SCOPE",
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_G9_12_MIN_REST",
+        "requested_session_count",
+        "declared_resource_consistency",
+        "resource_requirements_evidence"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 11,
+      "profile_id": "athlete:e3667bab842230357f331ee4",
+      "job_id": "p31d_88d6bfee05772bb8_c11_v3",
+      "planner_version": 3,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c11/jobs/p31d_88d6bfee05772bb8_c11_v3/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": false,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "plan",
+        "revisions_used": 0,
+        "status": "failed",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "output_structure"
+      ],
+      "required_unknowns": [
+        "calendar_window",
+        "existing_commitments",
+        "activity_accounting",
+        "timing_durations",
+        "availability_and_collisions",
+        "additional_training_limits",
+        "reference_identity",
+        "response_type_basis",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_REQUIRED_INFORMATION",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:POLICY_SESSION_ACCOUNTING",
+        "rule:POLICY_CATALOG_ELIGIBILITY",
+        "rule:POLICY_SCOPE",
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_G9_12_MIN_REST",
+        "requested_session_count",
+        "declared_resource_consistency",
+        "resource_requirements_evidence"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 11,
+      "profile_id": "athlete:e3667bab842230357f331ee4",
+      "job_id": "p31d_88d6bfee05772bb8_c11_v4",
+      "planner_version": 4,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c11/jobs/p31d_88d6bfee05772bb8_c11_v4/outcome.json",
+      "outcome": {
+        "completion_valid": false,
+        "error": "The role reached its 2048-token reply limit before finishing.",
+        "failed_stage": "revision",
+        "format_valid": false,
+        "independent_quality_assessment": "pending",
+        "internal_review": "not completed",
+        "response_type": null,
+        "revisions_used": 1,
+        "status": "failed",
+        "terminal_state": "execution_error"
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "execution_completion",
+        "output_structure"
+      ],
+      "required_unknowns": [
+        "calendar_window",
+        "existing_commitments",
+        "activity_accounting",
+        "timing_durations",
+        "availability_and_collisions",
+        "additional_training_limits",
+        "reference_identity",
+        "response_type_basis",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_REQUIRED_INFORMATION",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:POLICY_SESSION_ACCOUNTING",
+        "rule:POLICY_CATALOG_ELIGIBILITY",
+        "rule:POLICY_SCOPE",
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_G9_12_MIN_REST",
+        "requested_session_count",
+        "declared_resource_consistency",
+        "resource_requirements_evidence"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 12,
+      "profile_id": "athlete:5a5895142587db795298a394",
+      "job_id": "p31d_88d6bfee05772bb8_c12_v1",
+      "planner_version": 1,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c12/jobs/p31d_88d6bfee05772bb8_c12_v1/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": true,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "clarification",
+        "revisions_used": 0,
+        "status": "returned",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "response_type_basis",
+        "rule:POLICY_REQUIRED_INFORMATION",
+        "rule:POLICY_SCOPE"
+      ],
+      "required_unknowns": [
+        "calendar_window",
+        "existing_commitments",
+        "activity_accounting",
+        "timing_durations",
+        "availability_and_collisions",
+        "additional_training_limits",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:POLICY_SESSION_ACCOUNTING",
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_G9_12_MIN_REST",
+        "declared_resource_consistency",
+        "resource_requirements_evidence"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 12,
+      "profile_id": "athlete:5a5895142587db795298a394",
+      "job_id": "p31d_88d6bfee05772bb8_c12_v2",
+      "planner_version": 2,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c12/jobs/p31d_88d6bfee05772bb8_c12_v2/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": true,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "constraint_conflict",
+        "revisions_used": 0,
+        "status": "returned",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "response_type_basis",
+        "rule:POLICY_REQUIRED_INFORMATION",
+        "rule:POLICY_SCOPE"
+      ],
+      "required_unknowns": [
+        "calendar_window",
+        "existing_commitments",
+        "activity_accounting",
+        "timing_durations",
+        "availability_and_collisions",
+        "additional_training_limits",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:POLICY_SESSION_ACCOUNTING",
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_G9_12_MIN_REST",
+        "declared_resource_consistency",
+        "resource_requirements_evidence"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 12,
+      "profile_id": "athlete:5a5895142587db795298a394",
+      "job_id": "p31d_88d6bfee05772bb8_c12_v3",
+      "planner_version": 3,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c12/jobs/p31d_88d6bfee05772bb8_c12_v3/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": true,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "constraint_conflict",
+        "revisions_used": 0,
+        "status": "returned",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "response_type_basis",
+        "rule:POLICY_REQUIRED_INFORMATION",
+        "rule:POLICY_SCOPE"
+      ],
+      "required_unknowns": [
+        "calendar_window",
+        "existing_commitments",
+        "activity_accounting",
+        "timing_durations",
+        "availability_and_collisions",
+        "additional_training_limits",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:POLICY_SESSION_ACCOUNTING",
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_G9_12_MIN_REST",
+        "declared_resource_consistency",
+        "resource_requirements_evidence"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 12,
+      "profile_id": "athlete:5a5895142587db795298a394",
+      "job_id": "p31d_88d6bfee05772bb8_c12_v4",
+      "planner_version": 4,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c12/jobs/p31d_88d6bfee05772bb8_c12_v4/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": true,
+        "independent_quality_assessment": "pending",
+        "internal_review": "needs review",
+        "response_type": "constraint_conflict",
+        "revisions_used": 2,
+        "status": "returned",
+        "terminal_state": "revision_limit_reached"
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "response_type_basis",
+        "rule:POLICY_REQUIRED_INFORMATION",
+        "rule:POLICY_SCOPE"
+      ],
+      "required_unknowns": [
+        "calendar_window",
+        "existing_commitments",
+        "activity_accounting",
+        "timing_durations",
+        "availability_and_collisions",
+        "additional_training_limits",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:POLICY_SESSION_ACCOUNTING",
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_G9_12_MIN_REST",
+        "declared_resource_consistency",
+        "resource_requirements_evidence"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 13,
+      "profile_id": "athlete:46a43835d1a3112756ee7181",
+      "job_id": "p31d_88d6bfee05772bb8_c13_v1",
+      "planner_version": 1,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c13/jobs/p31d_88d6bfee05772bb8_c13_v1/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": true,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "plan",
+        "revisions_used": 0,
+        "status": "returned",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "existing_commitments",
+        "reference_identity",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_CATALOG_ELIGIBILITY",
+        "requested_session_count"
+      ],
+      "required_unknowns": [
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_G9_12_MIN_REST",
+        "resource_requirements_evidence",
+        "food_answer_completeness",
+        "food_numeric_correctness"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 13,
+      "profile_id": "athlete:46a43835d1a3112756ee7181",
+      "job_id": "p31d_88d6bfee05772bb8_c13_v2",
+      "planner_version": 2,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c13/jobs/p31d_88d6bfee05772bb8_c13_v2/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": true,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "plan",
+        "revisions_used": 0,
+        "status": "returned",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "existing_commitments",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "food_answer_completeness"
+      ],
+      "required_unknowns": [
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_G9_12_MIN_REST",
+        "resource_requirements_evidence",
+        "food_numeric_correctness"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 13,
+      "profile_id": "athlete:46a43835d1a3112756ee7181",
+      "job_id": "p31d_88d6bfee05772bb8_c13_v3",
+      "planner_version": 3,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c13/jobs/p31d_88d6bfee05772bb8_c13_v3/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": true,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "plan",
+        "revisions_used": 0,
+        "status": "returned",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "existing_commitments",
+        "rule:USER_EXISTING_COMMITMENTS"
+      ],
+      "required_unknowns": [
+        "timing_durations",
+        "availability_and_collisions",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_G9_12_MIN_REST",
+        "resource_requirements_evidence",
+        "food_answer_completeness",
+        "food_numeric_correctness"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 13,
+      "profile_id": "athlete:46a43835d1a3112756ee7181",
+      "job_id": "p31d_88d6bfee05772bb8_c13_v4",
+      "planner_version": 4,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c13/jobs/p31d_88d6bfee05772bb8_c13_v4/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": true,
+        "independent_quality_assessment": "pending",
+        "internal_review": "needs review",
+        "response_type": "plan",
+        "revisions_used": 2,
+        "status": "returned",
+        "terminal_state": "revision_limit_reached"
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "existing_commitments",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "requested_session_count"
+      ],
+      "required_unknowns": [
+        "timing_durations",
+        "availability_and_collisions",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_G9_12_MIN_REST",
+        "declared_resource_consistency",
+        "resource_requirements_evidence",
+        "food_answer_completeness",
+        "food_numeric_correctness"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 14,
+      "profile_id": "athlete:1dbd51c54e923c1f7e46650b",
+      "job_id": "p31d_88d6bfee05772bb8_c14_v1",
+      "planner_version": 1,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c14/jobs/p31d_88d6bfee05772bb8_c14_v1/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": false,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "plan",
+        "revisions_used": 0,
+        "status": "failed",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "output_structure"
+      ],
+      "required_unknowns": [
+        "calendar_window",
+        "existing_commitments",
+        "activity_accounting",
+        "timing_durations",
+        "availability_and_collisions",
+        "additional_training_limits",
+        "reference_identity",
+        "response_type_basis",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_REQUIRED_INFORMATION",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:POLICY_SESSION_ACCOUNTING",
+        "rule:POLICY_CATALOG_ELIGIBILITY",
+        "rule:POLICY_SCOPE",
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_G9_12_MIN_REST",
+        "requested_session_count",
+        "declared_resource_consistency",
+        "resource_requirements_evidence"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 14,
+      "profile_id": "athlete:1dbd51c54e923c1f7e46650b",
+      "job_id": "p31d_88d6bfee05772bb8_c14_v2",
+      "planner_version": 2,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c14/jobs/p31d_88d6bfee05772bb8_c14_v2/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": false,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "plan",
+        "revisions_used": 0,
+        "status": "failed",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "output_structure"
+      ],
+      "required_unknowns": [
+        "calendar_window",
+        "existing_commitments",
+        "activity_accounting",
+        "timing_durations",
+        "availability_and_collisions",
+        "additional_training_limits",
+        "reference_identity",
+        "response_type_basis",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_REQUIRED_INFORMATION",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:POLICY_SESSION_ACCOUNTING",
+        "rule:POLICY_CATALOG_ELIGIBILITY",
+        "rule:POLICY_SCOPE",
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_G9_12_MIN_REST",
+        "requested_session_count",
+        "declared_resource_consistency",
+        "resource_requirements_evidence"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 14,
+      "profile_id": "athlete:1dbd51c54e923c1f7e46650b",
+      "job_id": "p31d_88d6bfee05772bb8_c14_v3",
+      "planner_version": 3,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c14/jobs/p31d_88d6bfee05772bb8_c14_v3/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": false,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "plan",
+        "revisions_used": 0,
+        "status": "failed",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "output_structure"
+      ],
+      "required_unknowns": [
+        "calendar_window",
+        "existing_commitments",
+        "activity_accounting",
+        "timing_durations",
+        "availability_and_collisions",
+        "additional_training_limits",
+        "reference_identity",
+        "response_type_basis",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_REQUIRED_INFORMATION",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:POLICY_SESSION_ACCOUNTING",
+        "rule:POLICY_CATALOG_ELIGIBILITY",
+        "rule:POLICY_SCOPE",
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_G9_12_MIN_REST",
+        "requested_session_count",
+        "declared_resource_consistency",
+        "resource_requirements_evidence"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 14,
+      "profile_id": "athlete:1dbd51c54e923c1f7e46650b",
+      "job_id": "p31d_88d6bfee05772bb8_c14_v4",
+      "planner_version": 4,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c14/jobs/p31d_88d6bfee05772bb8_c14_v4/outcome.json",
+      "outcome": {
+        "completion_valid": false,
+        "error": "The role reached its 512-token reply limit before finishing.",
+        "failed_stage": "recovery",
+        "format_valid": false,
+        "independent_quality_assessment": "pending",
+        "internal_review": "not completed",
+        "response_type": null,
+        "revisions_used": 0,
+        "status": "failed",
+        "terminal_state": "execution_error"
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "execution_completion",
+        "output_structure"
+      ],
+      "required_unknowns": [
+        "calendar_window",
+        "existing_commitments",
+        "activity_accounting",
+        "timing_durations",
+        "availability_and_collisions",
+        "additional_training_limits",
+        "reference_identity",
+        "response_type_basis",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_REQUIRED_INFORMATION",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:POLICY_SESSION_ACCOUNTING",
+        "rule:POLICY_CATALOG_ELIGIBILITY",
+        "rule:POLICY_SCOPE",
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_G9_12_MIN_REST",
+        "requested_session_count",
+        "declared_resource_consistency",
+        "resource_requirements_evidence"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 15,
+      "profile_id": "athlete:47b01a8b4b719f44fd8ad604",
+      "job_id": "p31d_88d6bfee05772bb8_c15_v1",
+      "planner_version": 1,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c15/jobs/p31d_88d6bfee05772bb8_c15_v1/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": false,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "plan",
+        "revisions_used": 0,
+        "status": "failed",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "output_structure"
+      ],
+      "required_unknowns": [
+        "calendar_window",
+        "existing_commitments",
+        "activity_accounting",
+        "timing_durations",
+        "availability_and_collisions",
+        "additional_training_limits",
+        "reference_identity",
+        "response_type_basis",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_REQUIRED_INFORMATION",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:POLICY_SESSION_ACCOUNTING",
+        "rule:POLICY_CATALOG_ELIGIBILITY",
+        "rule:POLICY_SCOPE",
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_G9_12_MIN_REST",
+        "requested_session_count",
+        "declared_resource_consistency",
+        "resource_requirements_evidence"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 15,
+      "profile_id": "athlete:47b01a8b4b719f44fd8ad604",
+      "job_id": "p31d_88d6bfee05772bb8_c15_v2",
+      "planner_version": 2,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c15/jobs/p31d_88d6bfee05772bb8_c15_v2/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": false,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "plan",
+        "revisions_used": 0,
+        "status": "failed",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "output_structure"
+      ],
+      "required_unknowns": [
+        "calendar_window",
+        "existing_commitments",
+        "activity_accounting",
+        "timing_durations",
+        "availability_and_collisions",
+        "additional_training_limits",
+        "reference_identity",
+        "response_type_basis",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_REQUIRED_INFORMATION",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:POLICY_SESSION_ACCOUNTING",
+        "rule:POLICY_CATALOG_ELIGIBILITY",
+        "rule:POLICY_SCOPE",
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_G9_12_MIN_REST",
+        "requested_session_count",
+        "declared_resource_consistency",
+        "resource_requirements_evidence"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 15,
+      "profile_id": "athlete:47b01a8b4b719f44fd8ad604",
+      "job_id": "p31d_88d6bfee05772bb8_c15_v3",
+      "planner_version": 3,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c15/jobs/p31d_88d6bfee05772bb8_c15_v3/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": true,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "plan",
+        "revisions_used": 0,
+        "status": "returned",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "response_type_basis",
+        "rule:POLICY_REQUIRED_INFORMATION"
+      ],
+      "required_unknowns": [
+        "existing_commitments",
+        "timing_durations",
+        "availability_and_collisions",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_G9_12_MIN_REST",
+        "declared_resource_consistency",
+        "resource_requirements_evidence"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 15,
+      "profile_id": "athlete:47b01a8b4b719f44fd8ad604",
+      "job_id": "p31d_88d6bfee05772bb8_c15_v4",
+      "planner_version": 4,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c15/jobs/p31d_88d6bfee05772bb8_c15_v4/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": true,
+        "independent_quality_assessment": "pending",
+        "internal_review": "needs review",
+        "response_type": "plan",
+        "revisions_used": 2,
+        "status": "returned",
+        "terminal_state": "revision_limit_reached"
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "response_type_basis",
+        "rule:POLICY_REQUIRED_INFORMATION"
+      ],
+      "required_unknowns": [
+        "existing_commitments",
+        "timing_durations",
+        "availability_and_collisions",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_G9_12_MIN_REST",
+        "declared_resource_consistency",
+        "resource_requirements_evidence"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 16,
+      "profile_id": "athlete:b9e07de3a7e4d73fb3603a03",
+      "job_id": "p31d_88d6bfee05772bb8_c16_v1",
+      "planner_version": 1,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c16/jobs/p31d_88d6bfee05772bb8_c16_v1/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": false,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "plan",
+        "revisions_used": 0,
+        "status": "failed",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "output_structure"
+      ],
+      "required_unknowns": [
+        "calendar_window",
+        "existing_commitments",
+        "activity_accounting",
+        "timing_durations",
+        "availability_and_collisions",
+        "additional_training_limits",
+        "reference_identity",
+        "response_type_basis",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_REQUIRED_INFORMATION",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:POLICY_SESSION_ACCOUNTING",
+        "rule:POLICY_CATALOG_ELIGIBILITY",
+        "rule:POLICY_SCOPE",
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_G9_12_MIN_REST",
+        "requested_session_count",
+        "declared_resource_consistency",
+        "resource_requirements_evidence"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 16,
+      "profile_id": "athlete:b9e07de3a7e4d73fb3603a03",
+      "job_id": "p31d_88d6bfee05772bb8_c16_v2",
+      "planner_version": 2,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c16/jobs/p31d_88d6bfee05772bb8_c16_v2/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": true,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "plan",
+        "revisions_used": 0,
+        "status": "returned",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "activity_accounting",
+        "existing_commitments",
+        "timing_durations",
+        "availability_and_collisions",
+        "additional_training_limits",
+        "response_type_basis",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_REQUIRED_INFORMATION",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:POLICY_SESSION_ACCOUNTING"
+      ],
+      "required_unknowns": [
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_G9_12_MIN_REST",
+        "requested_session_count",
+        "declared_resource_consistency",
+        "resource_requirements_evidence"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 16,
+      "profile_id": "athlete:b9e07de3a7e4d73fb3603a03",
+      "job_id": "p31d_88d6bfee05772bb8_c16_v3",
+      "planner_version": 3,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c16/jobs/p31d_88d6bfee05772bb8_c16_v3/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": false,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "plan",
+        "revisions_used": 0,
+        "status": "failed",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "output_structure"
+      ],
+      "required_unknowns": [
+        "calendar_window",
+        "existing_commitments",
+        "activity_accounting",
+        "timing_durations",
+        "availability_and_collisions",
+        "additional_training_limits",
+        "reference_identity",
+        "response_type_basis",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_REQUIRED_INFORMATION",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:POLICY_SESSION_ACCOUNTING",
+        "rule:POLICY_CATALOG_ELIGIBILITY",
+        "rule:POLICY_SCOPE",
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_G9_12_MIN_REST",
+        "requested_session_count",
+        "declared_resource_consistency",
+        "resource_requirements_evidence"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 16,
+      "profile_id": "athlete:b9e07de3a7e4d73fb3603a03",
+      "job_id": "p31d_88d6bfee05772bb8_c16_v4",
+      "planner_version": 4,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c16/jobs/p31d_88d6bfee05772bb8_c16_v4/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": true,
+        "independent_quality_assessment": "pending",
+        "internal_review": "needs review",
+        "response_type": "constraint_conflict",
+        "revisions_used": 2,
+        "status": "returned",
+        "terminal_state": "revision_limit_reached"
+      },
+      "independent_overall": "declared_checks_supported",
+      "required_violations": [],
+      "required_unknowns": [],
+      "human_rating": null
+    },
+    {
+      "case": 17,
+      "profile_id": "athlete:787c15fd9dee34ad1e30f670",
+      "job_id": "p31d_88d6bfee05772bb8_c17_v1",
+      "planner_version": 1,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c17/jobs/p31d_88d6bfee05772bb8_c17_v1/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": false,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "plan",
+        "revisions_used": 0,
+        "status": "failed",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "output_structure"
+      ],
+      "required_unknowns": [
+        "calendar_window",
+        "existing_commitments",
+        "activity_accounting",
+        "timing_durations",
+        "availability_and_collisions",
+        "additional_training_limits",
+        "reference_identity",
+        "response_type_basis",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_REQUIRED_INFORMATION",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:POLICY_SESSION_ACCOUNTING",
+        "rule:POLICY_CATALOG_ELIGIBILITY",
+        "rule:POLICY_SCOPE",
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_G9_12_MIN_REST",
+        "requested_session_count",
+        "declared_resource_consistency",
+        "resource_requirements_evidence"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 17,
+      "profile_id": "athlete:787c15fd9dee34ad1e30f670",
+      "job_id": "p31d_88d6bfee05772bb8_c17_v2",
+      "planner_version": 2,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c17/jobs/p31d_88d6bfee05772bb8_c17_v2/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": false,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "plan",
+        "revisions_used": 0,
+        "status": "failed",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "output_structure"
+      ],
+      "required_unknowns": [
+        "calendar_window",
+        "existing_commitments",
+        "activity_accounting",
+        "timing_durations",
+        "availability_and_collisions",
+        "additional_training_limits",
+        "reference_identity",
+        "response_type_basis",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_REQUIRED_INFORMATION",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:POLICY_SESSION_ACCOUNTING",
+        "rule:POLICY_CATALOG_ELIGIBILITY",
+        "rule:POLICY_SCOPE",
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_G9_12_MIN_REST",
+        "requested_session_count",
+        "declared_resource_consistency",
+        "resource_requirements_evidence"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 17,
+      "profile_id": "athlete:787c15fd9dee34ad1e30f670",
+      "job_id": "p31d_88d6bfee05772bb8_c17_v3",
+      "planner_version": 3,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c17/jobs/p31d_88d6bfee05772bb8_c17_v3/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": false,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "plan",
+        "revisions_used": 0,
+        "status": "failed",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "output_structure",
+        "declared_resource_consistency"
+      ],
+      "required_unknowns": [
+        "calendar_window",
+        "existing_commitments",
+        "activity_accounting",
+        "timing_durations",
+        "availability_and_collisions",
+        "additional_training_limits",
+        "reference_identity",
+        "response_type_basis",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_REQUIRED_INFORMATION",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:POLICY_SESSION_ACCOUNTING",
+        "rule:POLICY_CATALOG_ELIGIBILITY",
+        "rule:POLICY_SCOPE",
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_G9_12_MIN_REST",
+        "requested_session_count",
+        "resource_requirements_evidence"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 17,
+      "profile_id": "athlete:787c15fd9dee34ad1e30f670",
+      "job_id": "p31d_88d6bfee05772bb8_c17_v4",
+      "planner_version": 4,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c17/jobs/p31d_88d6bfee05772bb8_c17_v4/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": false,
+        "independent_quality_assessment": "pending",
+        "internal_review": "needs review",
+        "response_type": "plan",
+        "revisions_used": 2,
+        "status": "failed",
+        "terminal_state": "revision_limit_reached"
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "output_structure",
+        "declared_resource_consistency"
+      ],
+      "required_unknowns": [
+        "calendar_window",
+        "existing_commitments",
+        "activity_accounting",
+        "timing_durations",
+        "availability_and_collisions",
+        "additional_training_limits",
+        "reference_identity",
+        "response_type_basis",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_REQUIRED_INFORMATION",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:POLICY_SESSION_ACCOUNTING",
+        "rule:POLICY_CATALOG_ELIGIBILITY",
+        "rule:POLICY_SCOPE",
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_G9_12_MIN_REST",
+        "requested_session_count",
+        "resource_requirements_evidence"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 18,
+      "profile_id": "athlete:06265b25ff63c151f6243a9c",
+      "job_id": "p31d_88d6bfee05772bb8_c18_v1",
+      "planner_version": 1,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c18/jobs/p31d_88d6bfee05772bb8_c18_v1/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": true,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "plan",
+        "revisions_used": 0,
+        "status": "returned",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "existing_commitments",
+        "reference_identity",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_CATALOG_ELIGIBILITY",
+        "food_answer_completeness"
+      ],
+      "required_unknowns": [
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_G9_12_MIN_REST",
+        "declared_resource_consistency",
+        "resource_requirements_evidence",
+        "food_numeric_correctness"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 18,
+      "profile_id": "athlete:06265b25ff63c151f6243a9c",
+      "job_id": "p31d_88d6bfee05772bb8_c18_v2",
+      "planner_version": 2,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c18/jobs/p31d_88d6bfee05772bb8_c18_v2/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": true,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "plan",
+        "revisions_used": 0,
+        "status": "returned",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "existing_commitments",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "food_answer_completeness"
+      ],
+      "required_unknowns": [
+        "timing_durations",
+        "availability_and_collisions",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_G9_12_MIN_REST",
+        "declared_resource_consistency",
+        "resource_requirements_evidence",
+        "food_numeric_correctness"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 18,
+      "profile_id": "athlete:06265b25ff63c151f6243a9c",
+      "job_id": "p31d_88d6bfee05772bb8_c18_v3",
+      "planner_version": 3,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c18/jobs/p31d_88d6bfee05772bb8_c18_v3/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": true,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "plan",
+        "revisions_used": 0,
+        "status": "returned",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "existing_commitments",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "declared_resource_consistency"
+      ],
+      "required_unknowns": [
+        "timing_durations",
+        "availability_and_collisions",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_G9_12_MIN_REST",
+        "resource_requirements_evidence",
+        "food_answer_completeness",
+        "food_numeric_correctness"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 18,
+      "profile_id": "athlete:06265b25ff63c151f6243a9c",
+      "job_id": "p31d_88d6bfee05772bb8_c18_v4",
+      "planner_version": 4,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c18/jobs/p31d_88d6bfee05772bb8_c18_v4/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": true,
+        "independent_quality_assessment": "pending",
+        "internal_review": "needs review",
+        "response_type": "plan",
+        "revisions_used": 2,
+        "status": "returned",
+        "terminal_state": "revision_limit_reached"
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "existing_commitments",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "declared_resource_consistency"
+      ],
+      "required_unknowns": [
+        "timing_durations",
+        "availability_and_collisions",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_G9_12_MIN_REST",
+        "resource_requirements_evidence",
+        "food_answer_completeness",
+        "food_numeric_correctness"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 19,
+      "profile_id": "athlete:b271115a1b824f9c3323fc58",
+      "job_id": "p31d_88d6bfee05772bb8_c19_v1",
+      "planner_version": 1,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c19/jobs/p31d_88d6bfee05772bb8_c19_v1/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": false,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "plan",
+        "revisions_used": 0,
+        "status": "failed",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "output_structure"
+      ],
+      "required_unknowns": [
+        "calendar_window",
+        "existing_commitments",
+        "activity_accounting",
+        "timing_durations",
+        "availability_and_collisions",
+        "additional_training_limits",
+        "reference_identity",
+        "response_type_basis",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_REQUIRED_INFORMATION",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:POLICY_SESSION_ACCOUNTING",
+        "rule:POLICY_CATALOG_ELIGIBILITY",
+        "rule:POLICY_SCOPE",
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_G9_12_MIN_REST",
+        "declared_resource_consistency",
+        "resource_requirements_evidence"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 19,
+      "profile_id": "athlete:b271115a1b824f9c3323fc58",
+      "job_id": "p31d_88d6bfee05772bb8_c19_v2",
+      "planner_version": 2,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c19/jobs/p31d_88d6bfee05772bb8_c19_v2/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": false,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "plan",
+        "revisions_used": 0,
+        "status": "failed",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "output_structure",
+        "declared_resource_consistency"
+      ],
+      "required_unknowns": [
+        "calendar_window",
+        "existing_commitments",
+        "activity_accounting",
+        "timing_durations",
+        "availability_and_collisions",
+        "additional_training_limits",
+        "reference_identity",
+        "response_type_basis",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_REQUIRED_INFORMATION",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:POLICY_SESSION_ACCOUNTING",
+        "rule:POLICY_CATALOG_ELIGIBILITY",
+        "rule:POLICY_SCOPE",
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_G9_12_MIN_REST",
+        "resource_requirements_evidence"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 19,
+      "profile_id": "athlete:b271115a1b824f9c3323fc58",
+      "job_id": "p31d_88d6bfee05772bb8_c19_v3",
+      "planner_version": 3,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c19/jobs/p31d_88d6bfee05772bb8_c19_v3/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": false,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "plan",
+        "revisions_used": 0,
+        "status": "failed",
+        "terminal_state": null
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "output_structure",
+        "declared_resource_consistency"
+      ],
+      "required_unknowns": [
+        "calendar_window",
+        "existing_commitments",
+        "activity_accounting",
+        "timing_durations",
+        "availability_and_collisions",
+        "additional_training_limits",
+        "reference_identity",
+        "response_type_basis",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_REQUIRED_INFORMATION",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:POLICY_SESSION_ACCOUNTING",
+        "rule:POLICY_CATALOG_ELIGIBILITY",
+        "rule:POLICY_SCOPE",
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_G9_12_MIN_REST",
+        "resource_requirements_evidence"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 19,
+      "profile_id": "athlete:b271115a1b824f9c3323fc58",
+      "job_id": "p31d_88d6bfee05772bb8_c19_v4",
+      "planner_version": 4,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c19/jobs/p31d_88d6bfee05772bb8_c19_v4/outcome.json",
+      "outcome": {
+        "completion_valid": false,
+        "error": "ValueError: The complete role request exceeds its reserved context budget.",
+        "failed_stage": "revision",
+        "format_valid": false,
+        "independent_quality_assessment": "pending",
+        "internal_review": "not completed",
+        "response_type": null,
+        "revisions_used": 1,
+        "status": "failed",
+        "terminal_state": "execution_error"
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "execution_completion",
+        "output_structure"
+      ],
+      "required_unknowns": [
+        "calendar_window",
+        "existing_commitments",
+        "activity_accounting",
+        "timing_durations",
+        "availability_and_collisions",
+        "additional_training_limits",
+        "reference_identity",
+        "response_type_basis",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_REQUIRED_INFORMATION",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:POLICY_SESSION_ACCOUNTING",
+        "rule:POLICY_CATALOG_ELIGIBILITY",
+        "rule:POLICY_SCOPE",
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_G9_12_MIN_REST",
+        "declared_resource_consistency",
+        "resource_requirements_evidence"
+      ],
+      "human_rating": null
+    },
+    {
+      "case": 20,
+      "profile_id": "athlete:657c0c4802ac8178063b5fcc",
+      "job_id": "p31d_88d6bfee05772bb8_c20_v1",
+      "planner_version": 1,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c20/jobs/p31d_88d6bfee05772bb8_c20_v1/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": true,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "outside_scope",
+        "revisions_used": 0,
+        "status": "returned",
+        "terminal_state": null
+      },
+      "independent_overall": "declared_checks_supported",
+      "required_violations": [],
+      "required_unknowns": [],
+      "human_rating": null
+    },
+    {
+      "case": 20,
+      "profile_id": "athlete:657c0c4802ac8178063b5fcc",
+      "job_id": "p31d_88d6bfee05772bb8_c20_v2",
+      "planner_version": 2,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c20/jobs/p31d_88d6bfee05772bb8_c20_v2/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": true,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "outside_scope",
+        "revisions_used": 0,
+        "status": "returned",
+        "terminal_state": null
+      },
+      "independent_overall": "declared_checks_supported",
+      "required_violations": [],
+      "required_unknowns": [],
+      "human_rating": null
+    },
+    {
+      "case": 20,
+      "profile_id": "athlete:657c0c4802ac8178063b5fcc",
+      "job_id": "p31d_88d6bfee05772bb8_c20_v3",
+      "planner_version": 3,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c20/jobs/p31d_88d6bfee05772bb8_c20_v3/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": true,
+        "independent_quality_assessment": "pending",
+        "internal_review": null,
+        "response_type": "outside_scope",
+        "revisions_used": 0,
+        "status": "returned",
+        "terminal_state": null
+      },
+      "independent_overall": "declared_checks_supported",
+      "required_violations": [],
+      "required_unknowns": [],
+      "human_rating": null
+    },
+    {
+      "case": 20,
+      "profile_id": "athlete:657c0c4802ac8178063b5fcc",
+      "job_id": "p31d_88d6bfee05772bb8_c20_v4",
+      "planner_version": 4,
+      "outcome_path": "results/pilot/probes/pilotcase_88d6bfee05772bb8_c20/jobs/p31d_88d6bfee05772bb8_c20_v4/outcome.json",
+      "outcome": {
+        "completion_valid": true,
+        "error": null,
+        "failed_stage": null,
+        "format_valid": true,
+        "independent_quality_assessment": "pending",
+        "internal_review": "needs review",
+        "response_type": "clarification",
+        "revisions_used": 2,
+        "status": "returned",
+        "terminal_state": "revision_limit_reached"
+      },
+      "independent_overall": "requirements_violated",
+      "required_violations": [
+        "response_type_basis",
+        "rule:POLICY_REQUIRED_INFORMATION",
+        "rule:POLICY_SCOPE"
+      ],
+      "required_unknowns": [
+        "calendar_window",
+        "existing_commitments",
+        "activity_accounting",
+        "timing_durations",
+        "availability_and_collisions",
+        "additional_training_limits",
+        "rule:USER_AVAILABLE_TIME",
+        "rule:USER_EXISTING_COMMITMENTS",
+        "rule:POLICY_TIMING_INTEGRITY",
+        "rule:POLICY_SESSION_ACCOUNTING",
+        "rule:NBA_G9_12_MAX_HOURS",
+        "rule:NBA_G9_12_MIN_REST",
+        "declared_resource_consistency",
+        "resource_requirements_evidence"
+      ],
+      "human_rating": null
+    }
+  ]
+}

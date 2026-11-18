@@ -1,0 +1,18 @@
+{
+  "queries": [
+    "Basketball practice; I want two extra basketball sess; goals [\"Improve finishing foot; experience {\"experience; equipment [\"Basketball\",\"Cones\",\"H; space half_court; people 4",
+    "Youth basketball participation, rest and recovery; age 17; grade 11; commitments [\"practice\"]; request I want two extra basketball sessions for this"
+  ],
+  "query_records": [
+    {
+      "query_id": "retrieval-query:0d77415e549c620c3e8d08ad3114a5a76c2c72e28d48e02d157cf856aa7e022a",
+      "text": "Basketball practice; I want two extra basketball sess; goals [\"Improve finishing foot; experience {\"experience; equipment [\"Basketball\",\"Cones\",\"H; space half_court; people 4",
+      "text_sha256": "286b3622e21a3669d9ba63e13e96e42d057d1f8e05a64f4c324ec8437af5a43c"
+    },
+    {
+      "query_id": "retrieval-query:7d5fd215ff3a6c5aa8b2ba1439dddbc80ea5473c598e4681642fa0e1ab1c7148",
+      "text": "Youth basketball participation, rest and recovery; age 17; grade 11; commitments [\"practice\"]; request I want two extra basketball sessions for this",
+      "text_sha256": "9366b5648016338caf7b4698f93d521e83d7509621bf4d72d4f41fd91705412c"
+    }
+  ]
+}

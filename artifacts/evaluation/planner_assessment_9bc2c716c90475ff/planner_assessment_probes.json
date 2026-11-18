@@ -1,0 +1,1229 @@
+{
+  "probes": [
+    {
+      "arguments": [
+        "toy:parent",
+        "required",
+        [
+          "i1",
+          "i2"
+        ],
+        [
+          {
+            "checker_error": null,
+            "instance_id": "i1",
+            "result": "met"
+          },
+          {
+            "checker_error": null,
+            "instance_id": "i2",
+            "result": "met"
+          }
+        ]
+      ],
+      "expected": {
+        "assessment_complete": true,
+        "result": "met"
+      },
+      "function": "aggregate_parent_check",
+      "group": "parent_aggregation",
+      "name": "all_needed_instances_met"
+    },
+    {
+      "arguments": [
+        "toy:parent",
+        "required",
+        [
+          "i1",
+          "i2"
+        ],
+        [
+          {
+            "checker_error": null,
+            "instance_id": "i1",
+            "result": "violated"
+          },
+          {
+            "checker_error": null,
+            "instance_id": "i2",
+            "result": "unknown"
+          }
+        ]
+      ],
+      "expected": {
+        "assessment_complete": true,
+        "result": "violated"
+      },
+      "function": "aggregate_parent_check",
+      "group": "parent_aggregation",
+      "name": "violation_dominates_unknown"
+    },
+    {
+      "arguments": [
+        "toy:parent",
+        "required",
+        [
+          "i1",
+          "i2"
+        ],
+        [
+          {
+            "checker_error": null,
+            "instance_id": "i1",
+            "result": "met"
+          },
+          {
+            "checker_error": null,
+            "instance_id": "i2",
+            "result": "unknown"
+          }
+        ]
+      ],
+      "expected": {
+        "assessment_complete": true,
+        "result": "unknown"
+      },
+      "function": "aggregate_parent_check",
+      "group": "parent_aggregation",
+      "name": "necessary_unknown_prevents_met"
+    },
+    {
+      "arguments": [
+        "toy:parent",
+        "required",
+        [
+          "i1",
+          "i2"
+        ],
+        [
+          {
+            "checker_error": null,
+            "instance_id": "i1",
+            "not_applicable_basis": {
+              "evidence_ref": "fixture:applicability",
+              "reason": "This artificial prerequisite is absent in the fixture."
+            },
+            "result": "not_applicable"
+          },
+          {
+            "checker_error": null,
+            "instance_id": "i2",
+            "not_applicable_basis": {
+              "evidence_ref": "fixture:applicability",
+              "reason": "This artificial prerequisite is absent in the fixture."
+            },
+            "result": "not_applicable"
+          }
+        ]
+      ],
+      "expected": {
+        "assessment_complete": true,
+        "result": "not_applicable"
+      },
+      "function": "aggregate_parent_check",
+      "group": "parent_aggregation",
+      "name": "all_justified_non_applicable"
+    },
+    {
+      "arguments": [
+        "toy:parent",
+        "required",
+        [
+          "i1",
+          "i2"
+        ],
+        [
+          {
+            "checker_error": null,
+            "instance_id": "i1",
+            "result": "met"
+          },
+          {
+            "checker_error": null,
+            "instance_id": "i2",
+            "not_applicable_basis": {
+              "evidence_ref": "fixture:applicability",
+              "reason": "This artificial prerequisite is absent in the fixture."
+            },
+            "result": "not_applicable"
+          }
+        ]
+      ],
+      "expected": {
+        "assessment_complete": true,
+        "result": "met"
+      },
+      "function": "aggregate_parent_check",
+      "group": "parent_aggregation",
+      "name": "met_and_non_applicable"
+    },
+    {
+      "arguments": [
+        "toy:parent",
+        "required",
+        [
+          "i1",
+          "i2"
+        ],
+        [
+          {
+            "checker_error": null,
+            "instance_id": "i1",
+            "result": "violated"
+          },
+          {
+            "checker_error": "fixture checker exception",
+            "instance_id": "i2",
+            "result": null
+          }
+        ]
+      ],
+      "expected": {
+        "assessment_complete": false,
+        "issues": [
+          "checker_error"
+        ],
+        "result": "violated"
+      },
+      "function": "aggregate_parent_check",
+      "group": "parent_aggregation",
+      "name": "known_violation_retained_during_checker_error"
+    },
+    {
+      "arguments": [
+        "toy:parent",
+        "required",
+        [
+          "i1",
+          "i2"
+        ],
+        [
+          {
+            "checker_error": null,
+            "instance_id": "i1",
+            "result": "met"
+          }
+        ]
+      ],
+      "expected": {
+        "assessment_complete": false,
+        "issues": [
+          "missing_expected_observations"
+        ],
+        "result": null
+      },
+      "function": "aggregate_parent_check",
+      "group": "parent_aggregation",
+      "name": "missing_observation_is_not_semantic_unknown"
+    },
+    {
+      "arguments": [
+        "toy:parent",
+        "required",
+        [],
+        []
+      ],
+      "expected": {
+        "assessment_complete": false,
+        "result": null
+      },
+      "function": "aggregate_parent_check",
+      "group": "parent_aggregation",
+      "name": "empty_instances_are_not_automatically_met"
+    },
+    {
+      "arguments": [
+        "toy:parent",
+        "required",
+        [],
+        [],
+        {
+          "evidence_ref": "fixture:applicability",
+          "reason": "This artificial prerequisite is absent in the fixture."
+        }
+      ],
+      "expected": {
+        "assessment_complete": true,
+        "result": "not_applicable"
+      },
+      "function": "aggregate_parent_check",
+      "group": "parent_aggregation",
+      "name": "explicit_empty_instance_non_applicability_basis"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "parent_id": "r1",
+            "requirement": "required"
+          },
+          {
+            "parent_id": "r2",
+            "requirement": "required"
+          },
+          {
+            "parent_id": "r3",
+            "requirement": "required"
+          },
+          {
+            "parent_id": "r4",
+            "requirement": "required"
+          },
+          {
+            "parent_id": "r5",
+            "requirement": "required"
+          },
+          {
+            "parent_id": "a1",
+            "requirement": "advisory"
+          },
+          {
+            "parent_id": "a2",
+            "requirement": "advisory"
+          }
+        ],
+        [
+          {
+            "assessment_complete": true,
+            "parent_id": "r1",
+            "requirement": "required",
+            "result": "met"
+          },
+          {
+            "assessment_complete": true,
+            "parent_id": "r2",
+            "requirement": "required",
+            "result": "met"
+          },
+          {
+            "assessment_complete": true,
+            "parent_id": "r3",
+            "requirement": "required",
+            "result": "violated"
+          },
+          {
+            "assessment_complete": true,
+            "parent_id": "r4",
+            "requirement": "required",
+            "result": "unknown"
+          },
+          {
+            "assessment_complete": true,
+            "not_applicable_basis": {
+              "evidence_ref": "fixture:applicability",
+              "reason": "This artificial prerequisite is absent in the fixture."
+            },
+            "parent_id": "r5",
+            "requirement": "required",
+            "result": "not_applicable"
+          },
+          {
+            "assessment_complete": true,
+            "parent_id": "a1",
+            "requirement": "advisory",
+            "result": "unknown"
+          },
+          {
+            "assessment_complete": true,
+            "not_applicable_basis": {
+              "evidence_ref": "fixture:applicability",
+              "reason": "This artificial prerequisite is absent in the fixture."
+            },
+            "parent_id": "a2",
+            "requirement": "advisory",
+            "result": "not_applicable"
+          }
+        ]
+      ],
+      "expected": {
+        "advisory.counts.not_applicable": 1,
+        "advisory.denominator": 1,
+        "advisory.ratio": 0,
+        "required.counts": {
+          "met": 2,
+          "not_applicable": 1,
+          "unknown": 1,
+          "violated": 1
+        },
+        "required.denominator": 4,
+        "required.expected_parent_checks": 5,
+        "required.numerator": 3,
+        "required.ratio": 0.75
+      },
+      "function": "summarize_check_coverage",
+      "group": "coverage",
+      "name": "required_and_advisory_coverage_are_separate"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "parent_id": "r1",
+            "requirement": "required"
+          }
+        ],
+        [
+          {
+            "assessment_complete": true,
+            "not_applicable_basis": {
+              "evidence_ref": "fixture:applicability",
+              "reason": "This artificial prerequisite is absent in the fixture."
+            },
+            "parent_id": "r1",
+            "requirement": "required",
+            "result": "not_applicable"
+          }
+        ]
+      ],
+      "expected": {
+        "required.counts.not_applicable": 1,
+        "required.denominator": 0,
+        "required.ratio": null
+      },
+      "function": "summarize_check_coverage",
+      "group": "coverage",
+      "name": "all_non_applicable_coverage_is_unavailable"
+    },
+    {
+      "arguments": [
+        [],
+        []
+      ],
+      "expected": {
+        "advisory.ratio": null,
+        "required.expected_parent_checks": 0,
+        "required.ratio": null
+      },
+      "function": "summarize_check_coverage",
+      "group": "coverage",
+      "name": "no_expected_checks_gives_no_coverage_ratio"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "parent_id": "r1",
+            "requirement": "required"
+          },
+          {
+            "parent_id": "r2",
+            "requirement": "required"
+          }
+        ],
+        [
+          {
+            "assessment_complete": true,
+            "parent_id": "r1",
+            "requirement": "required",
+            "result": "met"
+          }
+        ]
+      ],
+      "expected": {
+        "required.assessment_incomplete": 1,
+        "required.counts.met": 1,
+        "required.counts.unknown": 0,
+        "required.expected_parent_checks": 2,
+        "required.ratio": null
+      },
+      "function": "summarize_check_coverage",
+      "group": "coverage",
+      "name": "missing_parent_does_not_disappear_from_coverage"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "parent_id": "r1",
+            "requirement": "required"
+          }
+        ],
+        [
+          {
+            "assessment_complete": false,
+            "parent_id": "r1",
+            "requirement": "required",
+            "result": "violated"
+          }
+        ]
+      ],
+      "expected": {
+        "required.assessment_incomplete": 1,
+        "required.counts.violated": 0,
+        "required.ratio": null
+      },
+      "function": "summarize_check_coverage",
+      "group": "coverage",
+      "name": "partial_violation_is_not_completed_coverage"
+    },
+    {
+      "arguments": [
+        "returned",
+        {
+          "designated_response_present": true,
+          "parse_valid": true,
+          "plan_complete": true,
+          "required_activity_content_present": true,
+          "required_plan_present": true
+        },
+        [
+          {
+            "parent_id": "r1",
+            "requirement": "required"
+          }
+        ],
+        [
+          {
+            "assessment_complete": true,
+            "parent_id": "r1",
+            "requirement": "required",
+            "result": "met"
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "disposition": "success",
+        "scoring_complete": true,
+        "success": true
+      },
+      "function": "feasible_case_disposition",
+      "group": "feasible_case_policy",
+      "name": "complete_plan_with_required_met"
+    },
+    {
+      "arguments": [
+        "returned",
+        {
+          "designated_response_present": true,
+          "parse_valid": true,
+          "plan_complete": false,
+          "required_activity_content_present": true,
+          "required_plan_present": true
+        },
+        [
+          {
+            "parent_id": "r1",
+            "requirement": "required"
+          }
+        ],
+        [
+          {
+            "assessment_complete": true,
+            "parent_id": "r1",
+            "requirement": "required",
+            "result": "met"
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "disposition": "non_success",
+        "scoring_complete": true,
+        "success": false
+      },
+      "function": "feasible_case_disposition",
+      "group": "feasible_case_policy",
+      "name": "incomplete_plan_fails_despite_met_activity_checks"
+    },
+    {
+      "arguments": [
+        "returned",
+        {
+          "designated_response_present": true,
+          "parse_valid": true,
+          "plan_complete": true,
+          "required_activity_content_present": false,
+          "required_plan_present": true
+        },
+        [
+          {
+            "parent_id": "r1",
+            "requirement": "required"
+          }
+        ],
+        [],
+        true
+      ],
+      "expected": {
+        "disposition": "non_success",
+        "scoring_complete": true,
+        "success": false
+      },
+      "function": "feasible_case_disposition",
+      "group": "feasible_case_policy",
+      "name": "omitted_activity_content_cannot_pass_vacuously"
+    },
+    {
+      "arguments": [
+        "returned",
+        {
+          "designated_response_present": false
+        },
+        [
+          {
+            "parent_id": "r1",
+            "requirement": "required"
+          }
+        ],
+        [],
+        true
+      ],
+      "expected": {
+        "disposition": "non_success",
+        "scoring_complete": true,
+        "success": false
+      },
+      "function": "feasible_case_disposition",
+      "group": "feasible_case_policy",
+      "name": "missing_designated_response_needs_no_activity_checks"
+    },
+    {
+      "arguments": [
+        "returned",
+        {
+          "designated_response_present": true,
+          "parse_valid": false,
+          "plan_complete": true,
+          "required_activity_content_present": true,
+          "required_plan_present": true
+        },
+        [
+          {
+            "parent_id": "r1",
+            "requirement": "required"
+          }
+        ],
+        [],
+        true
+      ],
+      "expected": {
+        "disposition": "non_success",
+        "scoring_complete": true,
+        "success": false
+      },
+      "function": "feasible_case_disposition",
+      "group": "feasible_case_policy",
+      "name": "malformed_output_is_observed_non_success"
+    },
+    {
+      "arguments": [
+        "returned",
+        {
+          "designated_response_present": true,
+          "parse_valid": true,
+          "plan_complete": true,
+          "required_activity_content_present": true,
+          "required_plan_present": false
+        },
+        [
+          {
+            "parent_id": "r1",
+            "requirement": "required"
+          }
+        ],
+        [],
+        true
+      ],
+      "expected": {
+        "disposition": "non_success",
+        "scoring_complete": true,
+        "success": false
+      },
+      "function": "feasible_case_disposition",
+      "group": "feasible_case_policy",
+      "name": "inappropriate_refusal_has_no_required_plan"
+    },
+    {
+      "arguments": [
+        "returned",
+        {
+          "designated_response_present": true,
+          "parse_valid": true,
+          "plan_complete": true,
+          "required_activity_content_present": true,
+          "required_plan_present": true
+        },
+        [
+          {
+            "parent_id": "r1",
+            "requirement": "required"
+          }
+        ],
+        [
+          {
+            "assessment_complete": true,
+            "parent_id": "r1",
+            "requirement": "required",
+            "result": "unknown"
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "disposition": "non_success",
+        "scoring_complete": true,
+        "success": false
+      },
+      "function": "feasible_case_disposition",
+      "group": "feasible_case_policy",
+      "name": "required_unknown_prevents_success"
+    },
+    {
+      "arguments": [
+        "returned",
+        {
+          "designated_response_present": true,
+          "parse_valid": true,
+          "plan_complete": true,
+          "required_activity_content_present": true,
+          "required_plan_present": true
+        },
+        [
+          {
+            "parent_id": "r1",
+            "requirement": "required"
+          },
+          {
+            "parent_id": "a1",
+            "requirement": "advisory"
+          }
+        ],
+        [
+          {
+            "assessment_complete": true,
+            "parent_id": "r1",
+            "requirement": "required",
+            "result": "met"
+          },
+          {
+            "assessment_complete": true,
+            "parent_id": "a1",
+            "requirement": "advisory",
+            "result": "unknown"
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "coverage.advisory.ratio": 0,
+        "disposition": "success",
+        "scoring_complete": true,
+        "success": true
+      },
+      "function": "feasible_case_disposition",
+      "group": "feasible_case_policy",
+      "name": "advisory_unknown_does_not_fail_required_success"
+    },
+    {
+      "arguments": [
+        "returned",
+        {
+          "designated_response_present": true,
+          "parse_valid": true,
+          "plan_complete": true,
+          "required_activity_content_present": true,
+          "required_plan_present": true
+        },
+        [
+          {
+            "parent_id": "r1",
+            "requirement": "required"
+          }
+        ],
+        [
+          {
+            "assessment_complete": true,
+            "not_applicable_basis": {
+              "evidence_ref": "fixture:applicability",
+              "reason": "This artificial prerequisite is absent in the fixture."
+            },
+            "parent_id": "r1",
+            "requirement": "required",
+            "result": "not_applicable"
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "coverage.required.ratio": null,
+        "disposition": "success",
+        "scoring_complete": true,
+        "success": true
+      },
+      "function": "feasible_case_disposition",
+      "group": "feasible_case_policy",
+      "name": "justified_non_applicability_with_complete_plan"
+    },
+    {
+      "arguments": [
+        "not_started",
+        {},
+        [
+          {
+            "parent_id": "r1",
+            "requirement": "required"
+          }
+        ],
+        [],
+        true
+      ],
+      "expected": {
+        "disposition": "execution_incomplete",
+        "scoring_complete": false,
+        "success": null
+      },
+      "function": "feasible_case_disposition",
+      "group": "feasible_case_policy",
+      "name": "execution_not_started_is_incomplete"
+    },
+    {
+      "arguments": [
+        "pending",
+        {},
+        [
+          {
+            "parent_id": "r1",
+            "requirement": "required"
+          }
+        ],
+        [],
+        true
+      ],
+      "expected": {
+        "disposition": "execution_incomplete",
+        "scoring_complete": false,
+        "success": null
+      },
+      "function": "feasible_case_disposition",
+      "group": "feasible_case_policy",
+      "name": "execution_pending_is_incomplete"
+    },
+    {
+      "arguments": [
+        "timeout",
+        {
+          "designated_response_present": true,
+          "parse_valid": true,
+          "plan_complete": true,
+          "required_activity_content_present": true,
+          "required_plan_present": true
+        },
+        [
+          {
+            "parent_id": "r1",
+            "requirement": "required"
+          }
+        ],
+        [],
+        true
+      ],
+      "expected": {
+        "disposition": "non_success",
+        "scoring_complete": true,
+        "success": false
+      },
+      "function": "feasible_case_disposition",
+      "group": "feasible_case_policy",
+      "name": "terminal_timeout_cannot_use_diagnostic_draft"
+    },
+    {
+      "arguments": [
+        "failed",
+        {
+          "designated_response_present": true,
+          "parse_valid": true,
+          "plan_complete": true,
+          "required_activity_content_present": true,
+          "required_plan_present": true
+        },
+        [
+          {
+            "parent_id": "r1",
+            "requirement": "required"
+          }
+        ],
+        [],
+        true
+      ],
+      "expected": {
+        "disposition": "non_success",
+        "scoring_complete": true,
+        "success": false
+      },
+      "function": "feasible_case_disposition",
+      "group": "feasible_case_policy",
+      "name": "terminal_failed_cannot_use_diagnostic_draft"
+    },
+    {
+      "arguments": [
+        "missing_response",
+        {
+          "designated_response_present": true,
+          "parse_valid": true,
+          "plan_complete": true,
+          "required_activity_content_present": true,
+          "required_plan_present": true
+        },
+        [
+          {
+            "parent_id": "r1",
+            "requirement": "required"
+          }
+        ],
+        [],
+        true
+      ],
+      "expected": {
+        "disposition": "non_success",
+        "scoring_complete": true,
+        "success": false
+      },
+      "function": "feasible_case_disposition",
+      "group": "feasible_case_policy",
+      "name": "terminal_missing_response_cannot_use_diagnostic_draft"
+    },
+    {
+      "arguments": [
+        "returned",
+        {
+          "designated_response_present": true,
+          "parse_valid": true,
+          "plan_complete": true,
+          "required_activity_content_present": true,
+          "required_plan_present": true
+        },
+        [
+          {
+            "parent_id": "r1",
+            "requirement": "required"
+          }
+        ],
+        [
+          {
+            "assessment_complete": false,
+            "parent_id": "r1",
+            "requirement": "required",
+            "result": null
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "disposition": "assessment_incomplete",
+        "scoring_complete": false,
+        "success": null
+      },
+      "function": "feasible_case_disposition",
+      "group": "feasible_case_policy",
+      "name": "checker_error_keeps_external_assessment_incomplete"
+    },
+    {
+      "arguments": [
+        "returned",
+        {
+          "designated_response_present": true,
+          "parse_valid": true,
+          "plan_complete": true,
+          "required_activity_content_present": true,
+          "required_plan_present": true
+        },
+        [
+          {
+            "parent_id": "r1",
+            "requirement": "required"
+          }
+        ],
+        [],
+        true
+      ],
+      "expected": {
+        "disposition": "assessment_incomplete",
+        "scoring_complete": false,
+        "success": null
+      },
+      "function": "feasible_case_disposition",
+      "group": "feasible_case_policy",
+      "name": "missing_parent_assessment_is_incomplete"
+    },
+    {
+      "arguments": [
+        "returned",
+        {
+          "designated_response_present": true,
+          "parse_valid": null,
+          "plan_complete": true,
+          "required_activity_content_present": true,
+          "required_plan_present": true
+        },
+        [
+          {
+            "parent_id": "r1",
+            "requirement": "required"
+          }
+        ],
+        [],
+        true
+      ],
+      "expected": {
+        "disposition": "assessment_incomplete",
+        "scoring_complete": false,
+        "success": null
+      },
+      "function": "feasible_case_disposition",
+      "group": "feasible_case_policy",
+      "name": "parser_not_assessed_is_not_a_planner_violation"
+    },
+    {
+      "arguments": [
+        "returned",
+        {
+          "designated_response_present": true,
+          "parse_valid": true,
+          "plan_complete": true,
+          "required_activity_content_present": true,
+          "required_plan_present": true
+        },
+        [
+          {
+            "parent_id": "r1",
+            "requirement": "required"
+          }
+        ],
+        [
+          {
+            "assessment_complete": true,
+            "parent_id": "r1",
+            "requirement": "required",
+            "result": "met"
+          }
+        ],
+        false
+      ],
+      "expected": {
+        "disposition": "not_ready",
+        "scoring_complete": false,
+        "success": null
+      },
+      "function": "feasible_case_disposition",
+      "group": "feasible_case_policy",
+      "name": "unprepared_case_cannot_be_scored"
+    },
+    {
+      "arguments": [
+        "returned",
+        {
+          "designated_response_present": true,
+          "parse_valid": true,
+          "plan_complete": true,
+          "required_activity_content_present": true,
+          "required_plan_present": true
+        },
+        [],
+        [],
+        true
+      ],
+      "expected": {
+        "disposition": "not_ready",
+        "scoring_complete": false,
+        "success": null
+      },
+      "function": "feasible_case_disposition",
+      "group": "feasible_case_policy",
+      "name": "bare_empty_mask_is_not_a_readiness_proof"
+    },
+    {
+      "arguments": [
+        "returned",
+        {
+          "designated_response_present": true,
+          "parse_valid": true,
+          "plan_complete": true,
+          "required_activity_content_present": true,
+          "required_plan_present": true
+        },
+        [
+          {
+            "parent_id": "a1",
+            "requirement": "advisory"
+          }
+        ],
+        [
+          {
+            "assessment_complete": true,
+            "parent_id": "a1",
+            "requirement": "advisory",
+            "result": "met"
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "disposition": "not_ready",
+        "scoring_complete": false,
+        "success": null
+      },
+      "function": "feasible_case_disposition",
+      "group": "feasible_case_policy",
+      "name": "advisory_only_mask_does_not_prove_required_readiness"
+    },
+    {
+      "arguments": [
+        "returned",
+        {
+          "designated_response_present": true,
+          "parse_valid": true,
+          "plan_complete": true,
+          "required_activity_content_present": true,
+          "required_plan_present": true
+        },
+        null,
+        [],
+        true
+      ],
+      "expected": {
+        "disposition": "not_ready",
+        "scoring_complete": false,
+        "success": null
+      },
+      "function": "feasible_case_disposition",
+      "group": "feasible_case_policy",
+      "name": "null_mask_remains_unprepared"
+    },
+    {
+      "arguments": [
+        0,
+        0
+      ],
+      "expected": {
+        "value": null
+      },
+      "function": "guarded_ratio",
+      "group": "count_ratio",
+      "name": "zero_denominator"
+    },
+    {
+      "arguments": [
+        0,
+        3
+      ],
+      "expected": {
+        "value": 0
+      },
+      "function": "guarded_ratio",
+      "group": "count_ratio",
+      "name": "known_zero_ratio"
+    },
+    {
+      "arguments": [
+        2,
+        3
+      ],
+      "expected": {
+        "value": 0.6666666666666666
+      },
+      "function": "guarded_ratio",
+      "group": "count_ratio",
+      "name": "fractional_ratio"
+    },
+    {
+      "arguments": [
+        3,
+        2
+      ],
+      "expected_exception": "ValueError",
+      "function": "guarded_ratio",
+      "group": "input_rejection",
+      "name": "ratio_above_one"
+    },
+    {
+      "arguments": [
+        -1,
+        2
+      ],
+      "expected_exception": "ValueError",
+      "function": "guarded_ratio",
+      "group": "input_rejection",
+      "name": "negative_ratio_count"
+    },
+    {
+      "arguments": [
+        false,
+        1
+      ],
+      "expected_exception": "ValueError",
+      "function": "guarded_ratio",
+      "group": "input_rejection",
+      "name": "boolean_is_not_a_count"
+    },
+    {
+      "arguments": [
+        "toy:parent",
+        "required",
+        [
+          "i1"
+        ],
+        [
+          {
+            "checker_error": null,
+            "instance_id": "i1",
+            "result": "not_applicable"
+          }
+        ]
+      ],
+      "expected_exception": "ValueError",
+      "function": "aggregate_parent_check",
+      "group": "input_rejection",
+      "name": "non_applicable_without_basis_rejected"
+    },
+    {
+      "arguments": [
+        "toy:parent",
+        "required",
+        [
+          "i1"
+        ],
+        [
+          {
+            "checker_error": "fixture checker exception",
+            "instance_id": "i1",
+            "result": "met"
+          }
+        ]
+      ],
+      "expected_exception": "ValueError",
+      "function": "aggregate_parent_check",
+      "group": "input_rejection",
+      "name": "checker_error_cannot_also_claim_met"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "parent_id": "r1",
+            "requirement": "required"
+          }
+        ],
+        [
+          {
+            "assessment_complete": true,
+            "parent_id": "r1",
+            "requirement": "required",
+            "result": "met"
+          },
+          {
+            "assessment_complete": true,
+            "parent_id": "r1",
+            "requirement": "required",
+            "result": "met"
+          }
+        ]
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_check_coverage",
+      "group": "input_rejection",
+      "name": "duplicate_parent_cannot_inflate_coverage"
+    }
+  ],
+  "scope": "artificial assessment facts; not study profiles or accepted expectations"
+}

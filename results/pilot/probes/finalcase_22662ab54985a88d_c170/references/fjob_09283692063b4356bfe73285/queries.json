@@ -1,0 +1,18 @@
+{
+  "queries": [
+    "Basketball practice; I want basket-shooting practice ; goals [\"Improve accuracy with ; experience {\"experience; equipment [\"Basketball\",\"Cones\"]; space unknown; people 2",
+    "Youth basketball participation, rest and recovery; age 16; grade 10; commitments [\"practice\"]; request I want basket-shooting practice with specific"
+  ],
+  "query_records": [
+    {
+      "query_id": "retrieval-query:5c296af4379df824951620ea631b48036fc84b62fb568594a9e93890036fe837",
+      "text": "Basketball practice; I want basket-shooting practice ; goals [\"Improve accuracy with ; experience {\"experience; equipment [\"Basketball\",\"Cones\"]; space unknown; people 2",
+      "text_sha256": "c1c5a311bef4d62ff36c480b915871912a654cb4b5b9ab40058f67027118a01f"
+    },
+    {
+      "query_id": "retrieval-query:0d1fc75bca3ae506781dfdfea2658a278cea0a1b82ba8dd14ab76ad606a89ebb",
+      "text": "Youth basketball participation, rest and recovery; age 16; grade 10; commitments [\"practice\"]; request I want basket-shooting practice with specific",
+      "text_sha256": "281883ee654713c2c27e533a9cd61017420afe2ee0d734015041645265ad840f"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "addendum": {
+    "role": "agency_content_creation_and_review_context_only_not_an_independent_reuse_license",
+    "source_url": "https://www.cdc.gov/other/generative-ai.html",
+    "source_version_sha256": "d11ea29d721d7a1e43ac68179633aa2216a769b011195383eb3f0c1dc176d5b6"
+  },
+  "project_scope_limits": {
+    "assistant_review_is_not_cdc_or_government_review": true,
+    "direct_links_open_new_window_without_framing": true,
+    "international_rights_clearance_claimed": false,
+    "link_rel": "noopener noreferrer",
+    "link_target": "_blank",
+    "no_cdc_endorsement_or_validation_of_project_claimed": true,
+    "no_images_logos_third_party_article_bodies": true,
+    "periodic_source_revision_check_required": true,
+    "permission_is_not_blanket_legal_clearance": true,
+    "use_scope": "U.S. internal educational and academic research only"
+  },
+  "publisher_conditions": [
+    {
+      "condition_id": "credit_CDC",
+      "delivery_requirement": "retain_with_every_display_or_export_of_the_scoped_reference",
+      "notice": "Source: Centers for Disease Control and Prevention (CDC), About Sleep."
+    },
+    {
+      "condition_id": "prominent_unambiguous_nonendorsement_disclaimer",
+      "delivery_requirement": "retain_with_every_display_or_export_of_the_scoped_reference",
+      "notice": "Use of CDC information and links does not imply endorsement by the United States Government, HHS, CDC, or ATSDR."
+    },
+    {
+      "condition_id": "do_not_change_substantive_content",
+      "delivery_requirement": "retain_with_every_display_or_export_of_the_scoped_reference",
+      "notice": "Preserve the source's substantive meaning, including its age range, daily reporting basis and sleep-quality and provider-context qualifications."
+    },
+    {
+      "condition_id": "state_free_availability_on_CDC_website",
+      "delivery_requirement": "retain_with_every_display_or_export_of_the_scoped_reference",
+      "notice": "The underlying CDC material is freely available on the agency website: https://www.cdc.gov/sleep/about/."
+    }
+  ],
+  "publisher_policy_source_version_sha256": "10d70e4d00d83c8d0d9494bc204494a09b72f6a0ec6605a9cfa8fcf6ce35f6b9",
+  "publisher_policy_url": "https://www.cdc.gov/other/agencymaterials.html",
+  "publisher_required_condition_ids": [
+    "credit_CDC",
+    "prominent_unambiguous_nonendorsement_disclaimer",
+    "do_not_change_substantive_content",
+    "state_free_availability_on_CDC_website"
+  ],
+  "schema_version": "step23-cdc-mandatory-usage-notices-1"
+}

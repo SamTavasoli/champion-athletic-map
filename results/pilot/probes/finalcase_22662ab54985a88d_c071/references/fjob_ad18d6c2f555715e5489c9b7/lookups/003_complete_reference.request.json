@@ -1,0 +1,61 @@
+{
+  "args": [
+    {
+      "answerability_established_by_score": false,
+      "complete_required_delivery_text": "Off-ball spacing and team context\n\nThe UGA chapter describes offensive spacing as distributing teammates so defenders are spread across the court. Positioning depends on the ball carrier and the opposing defense. When a teammate drives toward the basket, an off-ball player may have different options according to how the defense responds; helping create a score does not necessarily mean taking the shot personally. The chapter also connects effective positioning with learning teammates’ tendencies over time.\n\nGeneral introductory basketball reference, selected and paraphrased from the cited chapter. No youth-specific suitability, training dose, medical clearance or planner approval is established.\n\nSource: 5. Fundamentals – Spacing & Rebounding, Ch.1 - Basketball, UGA PEDB Program. https://open.online.uga.edu/basketball/chapter/4-fundamentals-spacing-rebounding/\nCh.1 - Basketball Copyright © by UGA PEDB Program is licensed under a Creative Commons Attribution 4.0 International License, except where otherwise noted. https://creativecommons.org/licenses/by/4.0/\nSelected explanatory text was paraphrased and shortened; listed omissions are outside this reference unit.\nThe selected paraphrase is shared under CC BY 4.0. UGA endorsement is not implied. License rights and disclaimers remain available at https://creativecommons.org/licenses/by/4.0/ and https://creativecommons.org/licenses/by/4.0/legalcode.en.",
+      "generation_context_budget_verified": false,
+      "passage_id": "uga-retrieval-passage:388fa8f67c1e0907ff591e5bd5a47da4e81b69e835b189dd85e6e92f36720661",
+      "rank": 1,
+      "reference_unit_id": "uga-reference-unit:4a6bb370f8d4ab32bd5d06fc1187ff3a9918eb09bceb9e67730372983afb0e60",
+      "required_delivery_must_be_attached": true,
+      "required_delivery_record": {
+        "200_token_encoder_core_cap_applies_to_this_delivery": false,
+        "delivery_bundle_id": "uga-passage-delivery:d200308df930f3c872bc8900258365b9e2f5c974fdd8c1a577516b1e2a692233",
+        "delivery_is_not_used_as_embedding_passage": true,
+        "display_text": "Off-ball spacing and team context\n\nThe UGA chapter describes offensive spacing as distributing teammates so defenders are spread across the court. Positioning depends on the ball carrier and the opposing defense. When a teammate drives toward the basket, an off-ball player may have different options according to how the defense responds; helping create a score does not necessarily mean taking the shot personally. The chapter also connects effective positioning with learning teammates’ tendencies over time.\n\nGeneral introductory basketball reference, selected and paraphrased from the cited chapter. No youth-specific suitability, training dose, medical clearance or planner approval is established.\n\nSource: 5. Fundamentals – Spacing & Rebounding, Ch.1 - Basketball, UGA PEDB Program. https://open.online.uga.edu/basketball/chapter/4-fundamentals-spacing-rebounding/\nCh.1 - Basketball Copyright © by UGA PEDB Program is licensed under a Creative Commons Attribution 4.0 International License, except where otherwise noted. https://creativecommons.org/licenses/by/4.0/\nSelected explanatory text was paraphrased and shortened; listed omissions are outside this reference unit.\nThe selected paraphrase is shared under CC BY 4.0. UGA endorsement is not implied. License rights and disclaimers remain available at https://creativecommons.org/licenses/by/4.0/ and https://creativecommons.org/licenses/by/4.0/legalcode.en.",
+        "display_text_sha256": "5306c68a7311003188e14e03f25fda2a43b7e959dda5298cdc6f358590e37ac7",
+        "full_text_measured_without_truncation": true,
+        "generation_model_tokenizer_or_prompt_budget_verified": false,
+        "minilm_encoded_token_ids_sha256": "f4fc672d0e404e2b5463fad2d3b536d2250bab08ba7613f8f4455efca1ec8c2b",
+        "minilm_encoded_tokens_including_specials": 326,
+        "passage_id": "uga-retrieval-passage:388fa8f67c1e0907ff591e5bd5a47da4e81b69e835b189dd85e6e92f36720661",
+        "reference_unit_id": "uga-reference-unit:4a6bb370f8d4ab32bd5d06fc1187ff3a9918eb09bceb9e67730372983afb0e60",
+        "required_context_and_usage_credit_are_indivisible": true,
+        "schema_version": "step23-uga-token-budgeted-delivery-1",
+        "source_delivery_bundle": {
+          "chapter_url": "https://open.online.uga.edu/basketball/chapter/4-fundamentals-spacing-rebounding/",
+          "copyright_and_creator_notice": "Ch.1 - Basketball. Copyright © UGA PEDB Program.",
+          "delivery_bundle_id": "uga-required-delivery:810650ebd31986b18f8936e6389ba342de221634b53732b34e401aee6e433ed5",
+          "display_text": "Off-ball spacing and team context\n\nThe UGA chapter describes offensive spacing as distributing teammates so defenders are spread across the court. Positioning depends on the ball carrier and the opposing defense. When a teammate drives toward the basket, an off-ball player may have different options according to how the defense responds; helping create a score does not necessarily mean taking the shot personally. The chapter also connects effective positioning with learning teammates’ tendencies over time.\n\nGeneral introductory basketball reference, selected and paraphrased from the cited chapter. No youth-specific suitability, training dose, medical clearance or planner approval is established.\n\nSource: 5. Fundamentals – Spacing & Rebounding, Ch.1 - Basketball, UGA PEDB Program. https://open.online.uga.edu/basketball/chapter/4-fundamentals-spacing-rebounding/\nCh.1 - Basketball Copyright © by UGA PEDB Program is licensed under a Creative Commons Attribution 4.0 International License, except where otherwise noted. https://creativecommons.org/licenses/by/4.0/\nSelected explanatory text was paraphrased and shortened; listed omissions are outside this reference unit.\nThe selected paraphrase is shared under CC BY 4.0. UGA endorsement is not implied. License rights and disclaimers remain available at https://creativecommons.org/licenses/by/4.0/ and https://creativecommons.org/licenses/by/4.0/legalcode.en.",
+          "embedding_input_is_reference_core_only": true,
+          "encoded_token_count": null,
+          "generation_model_context_budget_verified": false,
+          "legalcode_url": "https://creativecommons.org/licenses/by/4.0/legalcode.en",
+          "license_compatible_downstream_rights_preserved": true,
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "license_warranty_disclaimer_is_linked_and_preserved": true,
+          "modification_notice": "Selected explanatory text was paraphrased and shortened; listed omissions are outside this reference unit.",
+          "no_uga_endorsement_implied": true,
+          "original_license_notice": "Ch.1 - Basketball Copyright © by UGA PEDB Program is licensed under a Creative Commons Attribution 4.0 International License, except where otherwise noted.",
+          "reference_text": "The UGA chapter describes offensive spacing as distributing teammates so defenders are spread across the court. Positioning depends on the ball carrier and the opposing defense. When a teammate drives toward the basket, an off-ball player may have different options according to how the defense responds; helping create a score does not necessarily mean taking the shot personally. The chapter also connects effective positioning with learning teammates’ tendencies over time.",
+          "reference_text_sha256": "e02897de40acb86e0bd464de42672432c4f8a6dde099e2e8ff027d3a0581ef1d",
+          "reference_unit_id": "uga-reference-unit:4a6bb370f8d4ab32bd5d06fc1187ff3a9918eb09bceb9e67730372983afb0e60",
+          "reference_unit_record_sha256": "c054f70be81ce58feea4c7fc59caf6ef5e5a59312395dbdad5e7dfed273c8137",
+          "required_context": "General introductory basketball reference, selected and paraphrased from the cited chapter. No youth-specific suitability, training dose, medical clearance or planner approval is established.",
+          "schema_version": "step23-uga-required-delivery-1",
+          "source_version_record_sha256": "328a62dd8802cd0edc93285d159c35b1480ab2f432680c05698abee8d282a04e",
+          "standalone_reference_without_required_context_and_credit_allowed": false,
+          "supplied_additional_warranty_or_modification_notices_observed": []
+        },
+        "source_delivery_bundle_id": "uga-required-delivery:810650ebd31986b18f8936e6389ba342de221634b53732b34e401aee6e433ed5",
+        "source_delivery_record_sha256": "a7f097bd2b8f17e69c15ea25b8def5e932d2aa3e32cc6ee45eea0b4feb1e166b",
+        "source_unit_record_sha256": "c054f70be81ce58feea4c7fc59caf6ef5e5a59312395dbdad5e7dfed273c8137"
+      },
+      "score": 0.44818182024787345,
+      "score_kind": "embedding_cosine",
+      "standalone_core_delivery_allowed": false
+    }
+  ],
+  "kwargs": {},
+  "method": "complete_reference"
+}

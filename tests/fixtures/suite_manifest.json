@@ -1,0 +1,218 @@
+{
+  "schema_version": "step30-suite-manifest-1",
+  "fixture_version": "step30-authored-fixtures-1",
+  "source_sha256": {
+    "app/streamlit_app.py": "3df1654ca317e282c68dad1bd362bf3d42415b725afc152435f44aa1b9927092",
+    "artifacts/application/development_examples.json": "7e47c836267b895a40b8c2afe500f9b0377f200bac18813adedabf75605ac93e",
+    "artifacts/application/interactive_profile_schema.json": "e9d16507816425deba56a43bfecc9d4129eafb7335999b7f261d5dede138ee3d",
+    "artifacts/application/prototype_config.json": "8fd8797851a4f970ab07bdb332bae2fe268da5965a2bf8e99e7767b87e7d39fa",
+    "artifacts/application/snapshot_schema.json": "30e0018b7ebc31c8e7df785fb7c6f98c4583e34decf5fd1e1d625f8656a8eabc",
+    "artifacts/classifiers/exercise-classifier-4f6b6f435ef52fef8f4cca6d/manifest.json": "582e8c5650601a6cd0973389cafa0b1ffba900173d0e30cdb409e2b97b09a2fd",
+    "artifacts/classifiers/exercise-classifier-4f6b6f435ef52fef8f4cca6d/src/champion_athletic_map/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "artifacts/classifiers/exercise-classifier-4f6b6f435ef52fef8f4cca6d/src/champion_athletic_map/classifier_inference.py": "4d5b788ad562cea82bd4102d170f4b50a5115ec291a800dc5feba6d40c5a7902",
+    "artifacts/classifiers/exercise-classifier-4f6b6f435ef52fef8f4cca6d/src/champion_athletic_map/neural_classifier.py": "4caaf5c1554da121ec47cf9d1cc84bd106eefece631776850c5c2008ec2eee51",
+    "artifacts/classifiers/exercise-classifier-4f6b6f435ef52fef8f4cca6d/src/champion_athletic_map/text_preprocessing.py": "47bbaa42eea1ed56634969c65546ab371b7303d8e728dcbf5e8cb151c7986db2",
+    "artifacts/evaluation/classifier_metrics_db3e5f3df78a126c/classifier_metrics.py": "10b026d0deed9eb674a1a2b194f9523b9445f54e6a139aaca64aae578aa165d6",
+    "artifacts/evaluation/evidence_accounting_c546a28e0ec3a34b/evidence_accounting.py": "2c0e96b652697cb098db69a72e9dd3daa0e546e0d236967680017a166130ded5",
+    "artifacts/evaluation/human_review_9e637c0f3932c371/human_review_metrics.py": "dbe3d87cb7766bcee6d211db0ee2de16efb1030fd1133e7a65d2d4424973eaed",
+    "artifacts/evaluation/paired_comparison_acf00a1a848823fb/paired_comparison.py": "389357159c6fd0f8a35f2ac94fba5f2483932f8a7d56a078a0e4271405d55b68",
+    "artifacts/evaluation/planner_assessment_9bc2c716c90475ff/planner_assessment_policy.py": "4b3be4a66b2439734d2483e1b88794b0222297bc29ced649ce810215bd7419f9",
+    "artifacts/evaluation/runtime_accounting_12404b69651ab1bc/runtime_accounting.py": "b66e081c1867eb08c58177b2d3561967faa89ddd7191938ad444f9b89d808678",
+    "artifacts/evaluation/scoring_config.json": "3034c30e3c7c802e0d73d9dfcd544f4a628520ffe8c7bf2c5a6823745ddbe97a",
+    "artifacts/language_model/active_resource_release.json": "b05bfd994b9d722e6179ee2a3e2136975118a51468eb490bec166c231f15303b",
+    "artifacts/language_model/adapter_versions/llm_prompt_v1.py": "edaff707b58347493b4eefd27d6c8e4a6df36f679f33674ddcac1e6d7f26c3f2",
+    "artifacts/language_model/adapter_versions/llm_prompt_v2.py": "350d6a2e6b600bb488916a08feeac27bcf74dcd9f7d2680b1f715fd3faf0bd4e",
+    "artifacts/language_model/approved_resources/team-approved-f0dcb9e9943e381b/adopted_drills.json": "32ee86843189f03aa6d02270313c2b4b84ebb0f221f4561b938b62c50d90368f",
+    "artifacts/language_model/approved_resources/team-approved-f0dcb9e9943e381b/adopted_rules.json": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b",
+    "artifacts/language_model/approved_resources/team-approved-f0dcb9e9943e381b/decisions.json": "1b30e7607f26c9c451bce921ce623b622a8342a1978a624b2f9a0daba8fce4a2",
+    "artifacts/language_model/approved_resources/team-approved-f0dcb9e9943e381b/manifest.json": "d048af8432bfc339a2504460cbbdbca7011745774d92f0024aa15148dc55db6b",
+    "artifacts/language_model/approved_resources/team-approved-f0dcb9e9943e381b/previous_modules/reference_packets.py": "ab3ab6e9674d810dcca1ffd8ea98a71dec5a19513b1ded225fac307528378dac",
+    "artifacts/language_model/approved_resources/team-approved-f0dcb9e9943e381b/previous_modules/reference_tools.py": "e763d1d45c09e0a73bd8c9a36e07ae8be4ca664247f032ff17f6edf81f4f02ee",
+    "artifacts/language_model/integration_config.json": "5cd4b3e8f31180ccb717f9d5713be95faa337f9ca2add247f09a815494bf6bc4",
+    "artifacts/language_model/prompt_preflight/preflight_eb1720a4533bf163/prompt_preflight.py": "8738e1c0d1c7c55d5e1b69ea218e34a34be657a32cd71ed833c40b104e5c6a0c",
+    "artifacts/language_model/shared_contracts/contracts_3293242853ce2cf7/planner_response_schema.json": "5e812df290ffe5bfbdf17c847abbe7136fa5eae5c084d815caab5a5e5bd1f6f8",
+    "artifacts/language_model/shared_contracts/contracts_3293242853ce2cf7/public_input.py": "56d406a462a35687aaa69fd1820140aca80e6386b22452e9032b5f8d7a12835c",
+    "artifacts/language_model/shared_contracts/contracts_3293242853ce2cf7/public_profile_record_schema.json": "c608b6a369395ef578cd4aa77b709a5e50889ef7e9a2e715b0904fb55c3da2c8",
+    "artifacts/language_model/shared_contracts/contracts_3293242853ce2cf7/response_contract.py": "572bf36fc98056eff77a6d63b428703f1315e5056d935ed6b6815171b7e57ac5",
+    "artifacts/language_model/shared_contracts/contracts_3293242853ce2cf7/shared_io_policy.json": "9b831576aa84ca4daae3ed4f411da53bfed955e60764bbb558914baa187ef4d7",
+    "artifacts/language_model/shared_contracts/contracts_3293242853ce2cf7/software_probe_fixtures.json": "dc4af8e677e3a03d93a3d7a19e789b4ab1921bff96336ebeac17e4ca2f2d35d7",
+    "artifacts/language_model/shared_contracts/contracts_3293242853ce2cf7/software_probe_results.json": "821025154cc42abeff0dc31022e7a5dc1a47b631142a603984caedad28ee2cb3",
+    "artifacts/language_model/shared_contracts/contracts_3293242853ce2cf7/step24_7_shared_contract_summary.json": "519362b211147f88651839f4001ea63bd4e01e77698c93538f985e6dbaca8da9",
+    "artifacts/language_model/shared_contracts/contracts_3293242853ce2cf7/verified_inputs.json": "a32910d258af3c4b829594c568a84a4b5a353c6a5a985f3658dacff58639ad0d",
+    "artifacts/language_model/tokenizers/tokenizer_bdb1409b4c107f2a/native_tokenizer.py": "e81e857b252f36d4c49395ccc62a5c745cd4b0506db3ee73ecf438d1619829f8",
+    "artifacts/planners/active_version4_development.json": "aab659039581d6874e81cb738019fc8c7ac1f73f6998819709b50b8d83aa8632",
+    "artifacts/planners/shared_reference_source_config.json": "f50e956ba9b63911b45e4f94926819339edfe1a4afda38d23ae036e3606fecfd",
+    "artifacts/planners/version1_config.json": "f7e50a23fdad445695386a0ae6ec5a8949d23961396dcf7db6b2e85f02478ffe",
+    "artifacts/planners/version2_config.json": "d688a4624b3ca9aba6dbe690dcf60bfd2558cf3972a69c97eeb918eb96e97153",
+    "artifacts/planners/version3_config.json": "5d833ff622e41fa12f51a2cea25f2eed1d7f2147db228f9b48b25c881a520440",
+    "artifacts/planners/version3_note_schema.json": "b2dd1515e9324a6db2c92c74519ade39d6633858bec0846663b1d8758f2b0589",
+    "artifacts/planners/version4_acceptance_policy.json": "e8d87dc54931a57ce5e17ca8a3eff3192f95eb2e211016cf76f157251e371006",
+    "artifacts/planners/version4_candidate_focused_config.json": "b1ffd025ba11e4de3b8b33a5db757e8f8158e820d4d2171020e8a6212b38f6b9",
+    "artifacts/planners/version4_config.json": "042e66d552d922689a6f28ee12880bb8e84d6d9a45c8aa172f2b1101a29a7035",
+    "artifacts/planners/version4_evaluator_fix_config.json": "4de9e13bb185bdeefc2533fcb53bb59c3d19e555d43c935c6d05a6c27fa4d9ad",
+    "artifacts/planners/version4_evaluator_schema.json": "f8485f589cfaadff419e43ab0c1c5c30275e012dc0dad87895eff4337703621f",
+    "artifacts/retrieval/benchmark/benchmark_9b572b07c872d1a7/benchmark_validator.py": "b3c432281ea77ec7802fed072774b3a3c2b924068b849aa493f7a5a59d7a4feb",
+    "artifacts/retrieval/development/comparison_8a912950decb6f7c/development_replay_worker.py": "4d1574648f0ead0f84f391415659a53715848116072bccaf05fbdf2a8a12a239",
+    "artifacts/retrieval/evaluation/evaluation_62d4b123570c2ca8/heldout_replay_worker.py": "cd4401f56c9fdc5d654b3a41dbe39b07f8e153404b3685a1adbec9cce2433b85",
+    "artifacts/retrieval/expanded/expanded_ee12915cfac22530/lexical_worker.py": "fad6e2a25dc65b3574e7d32991b6648c65c30c4eef6aca441e55497e2d115d4f",
+    "artifacts/retrieval/expanded/expanded_ee12915cfac22530/retrieval.py": "f95a2df8c4f77af47cf3509900b16ae1a8b16e6f355f09979eec1c32a5135636",
+    "artifacts/retrieval/expanded/expanded_ee12915cfac22530/semantic_worker.py": "4cabe7bd2e0166f6a4d498ff149c827bd4fe9e44635fbbbb65cac0846e324be5",
+    "artifacts/retrieval/passages/additional_cdc_passages_68f863e552d95bf1/tokenizer_worker.py": "bb1e908034b31cd3d54e03b4e4f1de39c22556457da1dc0532f8773e8ea6a0d1",
+    "artifacts/retrieval/passages/passages_e9eef7cbe17fd772/tokenizer_worker.py": "f076bc3a6ef742564d4016869fe26ab8e852735ce188143a8999b373f3d62f89",
+    "artifacts/retrieval/passages/uga_passages_0b2445a3e681553a/tokenizer_worker.py": "2998ba72914d780a81824f9b496e9209a395a066481f726d078fdc38cc7f864d",
+    "artifacts/retrieval/pilot/pilot_d62cdbc989ab524d/lexical_worker.py": "6c3398e72bcdeb5b73867f30927018fd26e81fc23afefe13e25943af2d70e5da",
+    "artifacts/retrieval/pilot/pilot_d62cdbc989ab524d/retrieval.py": "48cda29c19150e88595bc57e9dca092291ac206d35944aeeea9b16c69578b059",
+    "artifacts/retrieval/pilot/pilot_d62cdbc989ab524d/semantic_worker.py": "ed710113596a245ce32ad563fccb39245e9eb734ab939a2d0884367c1d3fd454",
+    "artifacts/retrieval/query_runtime/query_f6db9aad37d7a9b9/query_runtime.py": "64e410c50b9224c15d357877b4dd257ad820b9e07a4a9aa0c0d173613e079a9c",
+    "artifacts/retrieval/query_runtime/query_f6db9aad37d7a9b9/query_worker.py": "ac750f90be4bfa2e09ce316c08b63b0f899ba4c0e1ccca2dae9dccb6ea35f8de",
+    "artifacts/retrieval/query_runtime/query_f6db9aad37d7a9b9/retrieval_metrics.py": "ac8ea2a576b830607c3acb52b0ca8e5f5657d28104e679b837b3dc2313b5cb34",
+    "artifacts/retrieval/semantic/runtime_1e7ec007d3464722/runtime_worker.py": "fffb04ced503e5191db4dde182693bb9689995292f1f7d290d103bd27aa29687",
+    "artifacts/splits/exercise_split_config.json": "1694be410134288b9df58f651f20c9dc19f1a811f338b99e2dffb61ef4829f1a",
+    "data/processed/usda_sr_legacy_2018_04/reference_ee67cf780262d24b/usda_food_reference.py": "b665381f328e9ebfefbe8c42ef01e6905a7085dc4789290939194b4488b69136",
+    "results/step29_prototype_summary.json": "95bb63b4662a9a9065402f9e67a81d630ef3864cd3c04079cd322c148caca9dc",
+    "src/champion_athletic_map/application_state.py": "c7f01dfafdceee2b34782fb4a3ddfbcbf432bbc0cf64c4573b17f5fc10a53c4d",
+    "src/champion_athletic_map/classifier_inference.py": "4d5b788ad562cea82bd4102d170f4b50a5115ec291a800dc5feba6d40c5a7902",
+    "src/champion_athletic_map/context_encoding.py": "2626f39229a163b024c0ce3aa7310b54e2cc2911c94f64e739f8a4d8557935be",
+    "src/champion_athletic_map/evaluated_role_adapter.py": "832ba424ffde9d0159ee75704963793dc68c54712ea04a57c5588cac9fa9c16e",
+    "src/champion_athletic_map/interactive_review.py": "a82bd92145e146f81b4d66811c55e414a2e5665ed3a96ff501d37405406d4b8c",
+    "src/champion_athletic_map/llm.py": "838ae0b8ca97a2dbf1154813f3c517b796ddaf95cb32f96a30cf7c59ab353145",
+    "src/champion_athletic_map/neural_classifier.py": "4caaf5c1554da121ec47cf9d1cc84bd106eefece631776850c5c2008ec2eee51",
+    "src/champion_athletic_map/plan_exports.py": "7de623fe582206d25f64b6c49dab9dd05d6391432dd5ba7abe5c327ef14f3a63",
+    "src/champion_athletic_map/planners/candidate_focused.py": "7bce1c36a43627decf2d3412e6d796c6c9f5b40a7e577e41d03c14b9725e9bfc",
+    "src/champion_athletic_map/planners/evaluated_specialists.py": "22e310a1f2ad4c9a2681a3b735cb84f429c9439eb628bc7ba1bf16c7c32ce5b8",
+    "src/champion_athletic_map/planners/evaluator_prompt_fix.py": "0262fec7bc2eb00c45c09293b7c53883d5dbb71ee9db513ab65bc8f258add35b",
+    "src/champion_athletic_map/planners/llm_only.py": "029184ef049a87f23cd10b6cd5462ae69e03939495e9eb092495ce36198accb8",
+    "src/champion_athletic_map/planners/rag.py": "70952494958c3f0f2b6b05526aa681e64dad576422de31fd0944cc5c2233ce99",
+    "src/champion_athletic_map/planners/specialists.py": "505b02f36ce2c602503fed4796be63b126e981cf1988cd86d3f1aa02734291ef",
+    "src/champion_athletic_map/planning_checks.py": "935fef910fca8650d8912df490ec44c22b3adb66afc086edcc89f201d6151dcb",
+    "src/champion_athletic_map/reference_context.py": "e9e7ee5bdd1f2ef28aa3edb03713a1439bc18614a92b88d85c2035552432542c",
+    "src/champion_athletic_map/reference_packets.py": "bd89d9fb6f667260b59dd75eb0af551a3433509091771eb202272611c41fb633",
+    "src/champion_athletic_map/reference_preparation.py": "50e27d8d5cd84313b1935ae3d6212e90bcb2a83177eab5b4cd1b4e8db788392c",
+    "src/champion_athletic_map/reference_tools.py": "6e2125f4a4b21ffc44ee8d6180f81dc10bfccd223fff398913b205cc9b4bc132",
+    "src/champion_athletic_map/role_adapter.py": "728cda501a3f8aa497095af337929b87f74a127093c7beb413f5e1c7fe82b594",
+    "src/champion_athletic_map/rule_checks.py": "38b555a0682bca84c39da8013bb8d05f748ce1ab64b183a9c16132a07bb298b0",
+    "src/champion_athletic_map/runtime_controller.py": "7ec873e2f5c84dc94a6bc4db43fe06267845023fbb71bbf787167668cb87691b",
+    "src/champion_athletic_map/text_preprocessing.py": "47bbaa42eea1ed56634969c65546ab371b7303d8e728dcbf5e8cb151c7986db2",
+    "src/champion_athletic_map/unified_data.py": "492b2e943a5e404dc5752f8987a6b836c2c65a32c276d7c46d6d88f2137c5abf",
+    "src/champion_athletic_map/unified_references.py": "ffae57a6981a9e1d42e3d673c085d22656666326e77eb23f82d6fddd6d7ebd9f"
+  },
+  "test_sha256": {
+    "tests/app/test_application_flow.py": "d541a40cade8e140d8a229a19baae4fab81edcf0c83ddb6421335a19ee5fdbc2",
+    "tests/app_fixtures.py": "96f7014e63dee4d6b2f8c2d3d2e8879e98cb0644de2a8bf2161a9de9e5e25ccb",
+    "tests/conftest.py": "23384a8c053eed32ce719f8584100619cff99ab4fa3503ab4255451e5c638f1d",
+    "tests/integration/test_adapter_context.py": "92cee3b5398bdfdf30e4681b01f13213c888f8c021e2f18b59792df7fef797ff",
+    "tests/integration/test_execution_failures.py": "559ef30fc0d96fef5e29a2f4609d9b409f2cb82c49d1446087d6245d17f2958d",
+    "tests/integration/test_planner_workflows.py": "60fb2f80ae6e673e315e1173149aea4b842458b899828563945991b7338d683a",
+    "tests/integration/test_reference_tools.py": "347f487133b886cfbee7c4b6b708ff9a994bd742bb5560824d20c97b742fa574",
+    "tests/integration/test_runtime_ownership.py": "93d3dee52110cbf7c92b0c61fb4c1bd73d2e2b3e8b83b00f8ed4ab1fcf15ea58",
+    "tests/real_backend/test_local_backend.py": "ec3d295be8d6765a98f5d5242b464860c00d702e7fcbd663ec37dd9a43006b0f",
+    "tests/run_step30.py": "1ba29069264aa3f5251619ec730cc8049df9308b8e74bb5a8b6acec6e6a57cbf",
+    "tests/unit/test_application_state.py": "769116b557b639011a830790d7011780f4631f8eee204f98f0e325c1b971d31f",
+    "tests/unit/test_classifier_boundaries.py": "56837883223ec4b2498a8436dd2fe8843c73abe66420ec837b4b8a83055b8ce2",
+    "tests/unit/test_contracts.py": "4a98b43f1fb6ca5466f467b2b37ea76103bf6842fc6c695a2b27a8c7a10c6a91",
+    "tests/unit/test_offline_guard.py": "43ec2265c9511c8da0535fba1ab32ca2263a656dce81b020d7a5da64c9490bd8",
+    "tests/unit/test_result_accounting.py": "829e9c88aaf18009d0dd79688d00dfccddf5fc4a0bfd919da4184aabc8cbfa68",
+    "tests/unit/test_rule_checks.py": "92170bde1f7aa58883dae34c050f0f535db730d4db5952ae2f1553bbc57011a6",
+    "tests/fixtures/README.md": "d9c468bad720dd60634e53c5fce8feb1c6db93102bdf418db1f3282f90de497e"
+  },
+  "manual_checks": [
+    {
+      "check": "saved_example_load",
+      "result": "passed",
+      "evidence_type": "user_report_in_chat",
+      "evidence": "Step 29 discussion, 2026-11-14",
+      "notes": "Local app opened and showed a fictional profile and saved response."
+    },
+    {
+      "check": "saved_time_and_duration_edit",
+      "result": "passed",
+      "evidence_type": "user_report_in_chat",
+      "evidence": "Step 29 discussion, 2026-11-14",
+      "notes": "Edited values appeared in Saved response."
+    },
+    {
+      "check": "progress_update",
+      "result": "passed",
+      "evidence_type": "user_report_and_screenshot",
+      "evidence": "Step 29 screenshot image(20261115-010334).png",
+      "notes": "One completed, two pending, zero skipped."
+    },
+    {
+      "check": "unchanged_completed_session_retained",
+      "result": "passed",
+      "evidence_type": "user_report_in_chat",
+      "evidence": "Step 29 discussion, 2026-11-14",
+      "notes": "Editing a different session retained the completed status."
+    },
+    {
+      "check": "json_download_restore",
+      "result": "passed",
+      "evidence_type": "user_report_in_chat",
+      "evidence": "Step 29 discussion, 2026-11-14",
+      "notes": "Restored edited time and completed status remained visible."
+    },
+    {
+      "check": "csv_content_inspection",
+      "result": "pending",
+      "evidence_type": "not_reported",
+      "evidence": "",
+      "notes": "Download was requested; opening and checking CSV cells was not confirmed."
+    },
+    {
+      "check": "browser_connection_reset_restore",
+      "result": "pending",
+      "evidence_type": "not_executed",
+      "evidence": "",
+      "notes": "Real browser reconnection behavior has not been checked."
+    },
+    {
+      "check": "separate_real_browser_sessions",
+      "result": "pending",
+      "evidence_type": "not_executed",
+      "evidence": "",
+      "notes": "Automated AppTest isolation is separate from two actual browser sessions."
+    }
+  ],
+  "readiness_checks": [
+    {
+      "area": "source_adoption",
+      "status": "adopted",
+      "reason": "Active team-approved release; 127 basketball records, nine warm-ups and 29 rule definitions."
+    },
+    {
+      "area": "manual_saved_example_flow",
+      "status": "user_reported_pass",
+      "reason": "Loading, editing, progress and JSON restoration confirmed in Step 29."
+    },
+    {
+      "area": "remaining_manual_browser_checks",
+      "status": "pending",
+      "reason": "CSV cell inspection, connection reset and separate real browser sessions remain unverified."
+    },
+    {
+      "area": "fresh_real_backend",
+      "status": "not_run",
+      "reason": "Routine suite uses scripted responses; optional local metadata test is separate."
+    },
+    {
+      "area": "complete_rule_execution",
+      "status": "pending",
+      "reason": "Complete classified-schedule coverage and some free-form resource facts cannot yet be established."
+    },
+    {
+      "area": "independent_scoring",
+      "status": "pending",
+      "reason": "Synthetic arithmetic passes do not complete accepted case populations, case masks or independent semantic scoring."
+    },
+    {
+      "area": "representative_pilot",
+      "status": "pending_step31",
+      "reason": "Actual workflow capacity, timing, native backend and operating limits have not been verified by this suite."
+    },
+    {
+      "area": "protocol_freeze",
+      "status": "not_frozen",
+      "reason": "Required checking, scoring and pilot prerequisites remain open."
+    }
+  ]
+}

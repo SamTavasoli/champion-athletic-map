@@ -1,0 +1,203 @@
+{
+  "balance_arithmetic": "Exact fractions for ranking and true ties; decimal measures also recorded.",
+  "candidate_count": 1000,
+  "candidate_numbers": [
+    0,
+    999
+  ],
+  "class_order": [
+    "abdominals",
+    "abductors",
+    "adductors",
+    "biceps",
+    "calves",
+    "chest",
+    "forearms",
+    "glutes",
+    "hamstrings",
+    "lats",
+    "lower back",
+    "middle back",
+    "quadriceps",
+    "shoulders",
+    "traps",
+    "triceps"
+  ],
+  "class_to_index": {
+    "abdominals": 0,
+    "abductors": 1,
+    "adductors": 2,
+    "biceps": 3,
+    "calves": 4,
+    "chest": 5,
+    "forearms": 6,
+    "glutes": 7,
+    "hamstrings": 8,
+    "lats": 9,
+    "lower back": 10,
+    "middle back": 11,
+    "quadriceps": 12,
+    "shoulders": 13,
+    "traps": 14,
+    "triceps": 15
+  },
+  "count_matrix_layout": "Rows follow class_order; columns follow split_order.",
+  "feature_contract": {
+    "excluded_from_features": [
+      "body_part",
+      "body_part_prepared",
+      "goal_tag",
+      "agent_text",
+      "catalog_id",
+      "equipment",
+      "difficulty_level",
+      "review_flags",
+      "label_review_status",
+      "split_group_label_count",
+      "source_metadata",
+      "target_label",
+      "class_index",
+      "split",
+      "review_decision_ref"
+    ],
+    "final_splits_created": true,
+    "input_fields": [
+      "exercise_name_prepared",
+      "description_prepared"
+    ],
+    "model_text_field": "classifier_text",
+    "source_target_field": "body_part_prepared",
+    "split_group_field": "split_group_id",
+    "target_field": "target_label"
+  },
+  "first_stage": {
+    "seed_base": 42,
+    "seed_rule": "42 + candidate_number",
+    "train_size": 0.7
+  },
+  "freeze_record": "results/step15_exercise_split_summary.json",
+  "input_hashes": {
+    "Champions_Athletic_Agent_Ready_Dataset _Package/exercise_clean.csv": "6a7d71d6ed6a34c5a95b294adb9374ead80e9308caab448478e6dbcaf4b7f81c",
+    "data/processed/exercise_catalog.csv": "ecf9e7ebe88f71e4350c747291b269976c0d2b01ba295dcdd63459065a3246fe",
+    "results/eda/exercise_body_part_distribution.csv": "91ff3934bb22a65069190cb5a1b47665d4cc5a8a4c28602a0c23f8c543e433ca",
+    "results/eda/exercise_categorical_associations.csv": "74c66c302c61d48d18df6703dc6d2c80bc5f0e5a0f1e5804c5e467d243557b61",
+    "results/eda/exercise_comparison_summary.csv": "b84f078517011fd565a19683ef2262483653125a77b3477d880b76f664199732",
+    "results/eda/exercise_description_coverage.csv": "9785156c11ca9c6d4557c97c8d313e3623cfac4a6e159c11e209db1684dbb215",
+    "results/eda/exercise_difficulty_distribution.csv": "248d797d08f7b9d967e2bccab796d6491ec05bd25572768bd50d22c6c1764332",
+    "results/eda/exercise_eda_findings.csv": "36b74916a622411817a9218f93e7fd50e84e3124ae5f85ec34b747e9ee2beb31",
+    "results/eda/exercise_equipment_distribution.csv": "4b4615c27e3a368140eb335605daa42eebb7d64be7d49dc7b4ab5a62bade5bbc",
+    "results/eda/exercise_field_completeness.csv": "f52f7218a12d5dc5720ec26f5706fa227f20966a331fb6599cdf38eaac406c4b",
+    "results/eda/exercise_label_metadata_crosstabs.csv": "774ef2dbe0acc39b739d8b58e3ac6b69995a8a04a93c24ad662af717ff32bcb3",
+    "results/eda/exercise_label_readiness.csv": "0693aedd8333430be42bb1f7ff1cf84d0cd50f86c957977e5a9b669787100612",
+    "results/eda/exercise_label_text_statistics.csv": "cf5f76e674af6eb39d00113eb3d0b4909e709948322dfa61c53304361c5a14e7",
+    "results/eda/exercise_preparation_summary.csv": "2fdc1c0a63977c54f1045381747a16a5dcd5ca45acbec6f44274ec3754c06aae",
+    "results/eda/exercise_review_issues.csv": "30ba31dcd778d03e2049063f63789eaf25b44262add89763c31502b586c85181",
+    "results/eda/exercise_review_status.csv": "4274319143bdc55ce16eac389f5fa460b8b41bc9e39f13ba590d6a8b32a4dd09",
+    "results/eda/exercise_split_group_size_distribution.csv": "c0f5f41e1de24ec4597759068261fc63f3bba45c16cea5ace7677d7aaa71da67",
+    "results/eda/exercise_split_group_summary.csv": "1c860bdb6d55541e6ab887ca6594c2c0697c798490f7056aa8fbaebf7c606e4b",
+    "results/eda/exercise_text_length_statistics.csv": "323561b10634dd9994e858ab4765e3ee3508148e884098d19ea5c2534d978d32",
+    "results/eda/exercise_text_lengths.csv": "b6823b833ab1e5423b8a80603aa8001865dde4d72fcf66ece4be590445de5d05",
+    "results/eda/exercise_type_distribution.csv": "8712297873ef4e01e2a02ba8adb28cd980d917fc7f8a2e43eaec0dbf2b56c004",
+    "results/exercise_cleaning_log.csv": "287f89e2a4ac280176719754c37bb1b81e383db3779af44972657e7293dd7a1b",
+    "results/exercise_group_membership.csv": "f708420a3334d7f17f7ef73b3fe51123e1f9baff9cd6bc64a6a0e6d4dc7264a3",
+    "results/exercise_review_carryover.csv": "c3a72f9b877e357518078cd6180e8684f5464202ee1e0c270dabf190c14db573",
+    "results/exercise_review_queue.csv": "e46a4ab4a61f1ad299d40f3a42f672531ee9948c718bda9e9214507fce363acd",
+    "results/figures/exercise_body_part_distribution.png": "edb68de1a34f8403dc28698bfb556b6bf019f00f15b48fe1cc5d657bb2ffdf5e",
+    "results/figures/exercise_description_word_length.png": "9de36adb496d945c4f8a6258b3f741b8ee2e1d3c6ee89520e102451f92d16b48",
+    "results/figures/exercise_missing_description_by_class.png": "de1881d4d56ec8fad01c350e73e1aabc806ec1374f2f11c492115cf3500420d5",
+    "results/figures/exercise_name_word_length.png": "023a95d8de5e49d2b5ad63ae79ed8079e144ffa057bad723e89f2c155635bee4",
+    "results/figures/exercise_split_group_support_by_class.png": "085f7dc33591d790ee2732c38c4df47c46402afad641483e6fae60f06e0fabfc",
+    "results/step10_exercise_preparation.json": "e5a86eb8224e579bac479c88844dddbb491c40bde11c61ba6ee00a804c689fa2",
+    "results/step11_eda_summary.json": "3c69a8ca870ecd3355055c6a76db894f260f63d9b05fcaf7ea1b5c5713fe5584"
+  },
+  "input_sort": [
+    "catalog_id"
+  ],
+  "n_splits_per_stage": 1,
+  "overall_record_share_tolerance": {
+    "absolute": 0.03,
+    "inclusive": true
+  },
+  "population_policy": {
+    "class_order": "alphabetical eligible source labels",
+    "decision_origin": "project_benchmark_policy; not independent source adjudication",
+    "group_policy": "Preserve all Step 10 group assignments, including after exclusions.",
+    "label_corrections": 0,
+    "minimum_groups": {
+      "before_allocation": 10,
+      "test": 2,
+      "train": 6,
+      "validation": 2
+    },
+    "name_conflict_policy": "Withhold both records in each of the 11 reviewed broader-name conflicts: seven matching-description pairs and four distinct-text pairs. This policy extends beyond strictly identical input conflicts, which numbered zero.",
+    "retention_policy": "Retain other usable source-label records with original review status. Missing descriptions or equipment, compound-muscle wording, and mixed groups are not automatic exclusion reasons. Label-word absence is not an exclusion rule.",
+    "review_scope": "The 46 mixed-label split groups (131 records); this bounded review does not establish the correctness of retained labels or examine every singleton.",
+    "source_consistency_policy": "Withhold seven enumerated records with explicit focal, isolation, or identity inconsistencies in supplied fields; do not infer corrected labels.",
+    "version": "exercise-benchmark-review-0.1.0",
+    "wording_glossary": {
+      "deltoids": "shoulders",
+      "pectoral muscles": "chest",
+      "quads": "quadriceps",
+      "trapezius": "traps"
+    }
+  },
+  "population_policy_sha256": "30ba457da390c07222d10fc3fa912028d0d10f31853b3c68630adc25ae5a875a",
+  "ranking": [
+    "mean_absolute_class_record_share_difference",
+    "mean_absolute_overall_record_share_difference",
+    "candidate_number"
+  ],
+  "recipe_version": "exercise-group-split-0.1.0",
+  "review_table_hashes": {
+    "class_eligibility": "605809f724a3b2ac9459df844868c22f623d76f5e81510e8c91b7188a96bf212",
+    "decisions": "cfdf0e29094e76fc6400fc12580dfedb7748f1dd85b67968705cd3af85ff32b1",
+    "manifest_draft": "a319677564f075298661200fdc3034148f0df26f4c17dab286e849c4e2b87ca4",
+    "verified_groups": "30190adb8245a348a3243fcdff4bc40515cca773e2f874ebab83739f02d9c764"
+  },
+  "schema_version": "exercise-split-config-1",
+  "second_stage": {
+    "seed_base": 10042,
+    "seed_rule": "10042 + candidate_number",
+    "test_size": 0.5
+  },
+  "selected_allocation": {
+    "candidate_number": 831,
+    "class_balance_mae": 0.023428584736025708,
+    "class_balance_mae_exact": "55644679760282063956749259/2375076445600158258809336640",
+    "overall_balance_mae": 0.0026462395543175488,
+    "overall_balance_mae_exact": "19/7180",
+    "passing_candidates": 265,
+    "train_seed": 873,
+    "validation_test_seed": 10873
+  },
+  "selection_uses_model_scores": false,
+  "software": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.1",
+    "python": "3.12.6",
+    "scikit_learn": "1.9.1"
+  },
+  "split_order": [
+    "train",
+    "validation",
+    "test"
+  ],
+  "splitter": "sklearn.model_selection.GroupShuffleSplit",
+  "summary_rules": {
+    "description_statistics": "All assigned records; missing descriptions have zero words.",
+    "purpose": "Descriptive allocation checks only; no learned text settings or selection changes.",
+    "word_counts": "Reuse verified Step 11 counts; regex r\"\\b[\\w'-]+\\b\". These are not model-token counts."
+  },
+  "support_minimum_groups": {
+    "before_allocation": 10,
+    "test": 2,
+    "train": 6,
+    "validation": 2
+  },
+  "target_record_shares": {
+    "test": 0.15,
+    "train": 0.7,
+    "validation": 0.15
+  },
+  "test_access_policy": "Fit learned preparation on train only; select models with validation. Final test transformation and scoring wait until Step 32."
+}

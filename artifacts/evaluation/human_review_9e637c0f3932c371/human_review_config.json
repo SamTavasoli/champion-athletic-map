@@ -1,0 +1,169 @@
+{
+  "agreement": {
+    "exact_agreement": "matching numeric pairs / jointly numeric pairs",
+    "fixed_score_order": [
+      0,
+      1,
+      2
+    ],
+    "kappa": "1 - observed_disagreement / expected_disagreement",
+    "linear_disagreement_weight": "abs(i-j)/2",
+    "numeric_pairs_only": true,
+    "status_accounting": "Report both-NA, one-reviewer NA, missing entries and per-reviewer score distributions. One-NA counts can overlap missing-pair counts; expose the status cross-tab. Overall reviewer distributions and joint-only kappa marginals have different denominators.",
+    "undefined": "Unavailable with a reason when no jointly numeric pairs or zero expected disagreement; never replace undefined kappa with zero or one.",
+    "unit": "one rubric dimension and matched anonymous response IDs"
+  },
+  "combined_quality_score": null,
+  "comments": "Explain important problems and identify supporting sources when factual claims are disputed.",
+  "dimensions": [
+    {
+      "anchors": [
+        "Misses the central issue or gives an inappropriate response",
+        "Addresses the issue but leaves an important part unresolved",
+        "Gives the appropriate plan, clarification, conflict explanation, or scope response"
+      ],
+      "id": "response_suitability",
+      "name": "Response suitability"
+    },
+    {
+      "anchors": [
+        "Ignores or contradicts relevant profile information",
+        "Uses some relevant details but misses important constraints or goals",
+        "Reflects the information needed for this request"
+      ],
+      "id": "profile_fit",
+      "name": "Profile fit"
+    },
+    {
+      "anchors": [
+        "Is unusable or substantially incomplete for its purpose",
+        "Provides some useful guidance but leaves important gaps",
+        "Gives sufficiently complete and practical guidance for the request"
+      ],
+      "id": "practicality_completeness",
+      "name": "Practicality and completeness"
+    },
+    {
+      "anchors": [
+        "Contains materially unsupported or misleading claims",
+        "Has partial support or omits important qualifications",
+        "Agrees with the reviewed evidence and communicates relevant uncertainty"
+      ],
+      "id": "evidence_accuracy",
+      "name": "Evidence accuracy"
+    },
+    {
+      "anchors": [
+        "Is confusing or internally inconsistent",
+        "Is understandable but noticeably ambiguous",
+        "Is clear, consistent, and easy to follow"
+      ],
+      "id": "clarity",
+      "name": "Clarity"
+    }
+  ],
+  "empty_outputs": "When an executed job returns no response or no readably assessable content, such as empty text or uninterpretable gibberish, the four non-evidence dimensions receive zero under the rubric. Readable wrong or off-topic content is judged by each dimension. Unstarted or unresolved jobs remain pending. This component does not populate actual ratings.",
+  "evidence": "Substantive claims in plans, refusals and scope responses require evidence review even without citations. Unverifiable is not automatically false. Distinguish contradiction, insufficient support and omitted qualifications. An omitted requested food fact remains a completeness issue.",
+  "helper_sha256": "dbe3d87cb7766bcee6d211db0ee2de16efb1030fd1133e7a65d2d4424973eaed",
+  "helper_version": "human-review-metrics-1",
+  "input_hashes": {
+    "artifacts/evaluation/classifier_metrics_db3e5f3df78a126c/classifier_metric_config.json": "9c0ff72c83509deac20945d122babde529a17a1e23dcc069804da6e7edbf1116",
+    "artifacts/evaluation/classifier_metrics_db3e5f3df78a126c/classifier_metric_probe_checks.csv": "40d742299ca57f20bf527ba3896eb03e7fa6cdbd3a32b28f087d63a26e27af49",
+    "artifacts/evaluation/classifier_metrics_db3e5f3df78a126c/classifier_metric_probes.json": "6a962b5c9721b16e87f1b551b351144bc5584f3fcd488c1cb6ac6a1ff7fa6604",
+    "artifacts/evaluation/classifier_metrics_db3e5f3df78a126c/classifier_metrics.py": "10b026d0deed9eb674a1a2b194f9523b9445f54e6a139aaca64aae578aa165d6",
+    "artifacts/evaluation/classifier_metrics_db3e5f3df78a126c/step17_classifier_metric_summary.json": "fcc69484579048b344648287334f29d8c364d239f9f422969a453d96bd9292b1",
+    "artifacts/evaluation/planner_assessment_9bc2c716c90475ff/planner_assessment_config.json": "e0bbbe4ad5611c3f13e8fd7cebf5ba179c5a0ae2e95ca4d1feee13617444709a",
+    "artifacts/evaluation/planner_assessment_9bc2c716c90475ff/planner_assessment_policy.py": "4b3be4a66b2439734d2483e1b88794b0222297bc29ced649ce810215bd7419f9",
+    "artifacts/evaluation/planner_assessment_9bc2c716c90475ff/planner_assessment_probe_checks.csv": "288bc84d25a466565d355e8ce9f9ccfbe005a255671fbb184fc730fb491d3422",
+    "artifacts/evaluation/planner_assessment_9bc2c716c90475ff/planner_assessment_probes.json": "d738473dfb922f9273fe437c374819b6d8a9debd37d098a66e2d0fbb0fb02aa2",
+    "artifacts/evaluation/planner_assessment_9bc2c716c90475ff/step17_planner_assessment_summary.json": "6ca747afbbeb1ffc162730961f145aee9c77edc61adc3eb73e41a7075c006ee7",
+    "artifacts/splits/exercise_split_config.json": "1694be410134288b9df58f651f20c9dc19f1a811f338b99e2dffb61ef4829f1a",
+    "data/processed/exercise_groups.csv": "30190adb8245a348a3243fcdff4bc40515cca773e2f874ebab83739f02d9c764",
+    "data/processed/exercise_split_manifest.csv": "c0723b13ce259f964c2c7952b4203edba75a7553146c5bdb4a637ed134a4f5ac",
+    "results/exercise_benchmark_review_decisions.csv": "cfdf0e29094e76fc6400fc12580dfedb7748f1dd85b67968705cd3af85ff32b1",
+    "results/exercise_class_eligibility.csv": "560d130d9aa2c136b552d1dd61735eb448105691c58b7f9729e3cdd6dd8ebeb0",
+    "results/exercise_split_candidates.csv": "d659186e893a9ae7c1f652bbe00f7ce5e30c9afafcd5dd9c091d16972dcd6f02",
+    "results/exercise_split_checks.csv": "eca5e80d470ddf3f8b41b174cb39e5d2f5582e478b672412a5eed29109c83212",
+    "results/exercise_split_summary.csv": "42ed48528dc4be8c7693bd75b9a921ce2fc93c7675db6dd42fdd4fc52bbdbaf2",
+    "results/step15_exercise_split_summary.json": "e3d4f7cf0de057d2d28f74716e03e41a0a4f4f46d75d49f8f3f6b05d0bbe554d"
+  },
+  "missing": "Missing or absent ratings remain unfinished, without a score. Never substitute zero, non-applicability, another reviewer's rating, or an adjudicated value.",
+  "new_passing_threshold": null,
+  "non_applicability": "Only evidence accuracy may be not applicable, when there are no substantive factual or instructional claims to assess, with a recorded reason. The other four dimensions apply to every case.",
+  "packet_hidden": [
+    "version labels",
+    "workflow traces",
+    "internal evaluator findings",
+    "automated scores",
+    "timing",
+    "private scenario labels",
+    "feasibility examples"
+  ],
+  "packet_visible": [
+    "original public profile and request",
+    "actual returned response including citations",
+    "rubric",
+    "neutral access to adopted references"
+  ],
+  "parent_preparation_component": "9bc2c716c90475ff0252e9d2fdfb58f0357a2506e9ccaee44badc173c28c2566",
+  "planned_review_sample": {
+    "ages": [
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "category_totals": {
+      "conflicting_constraints": 5,
+      "feasible": 25,
+      "missing_information": 5,
+      "outside_scope": 5
+    },
+    "dimension_entries": 1600,
+    "independent_reviewers_per_response": 2,
+    "initial_sampling_seed": 42,
+    "per_age_categories": {
+      "conflicting_constraints": 1,
+      "feasible": 5,
+      "missing_information": 1,
+      "outside_scope": 1
+    },
+    "planner_versions": 4,
+    "profiles": 40,
+    "profiles_per_age": 8,
+    "response_records": 160,
+    "response_reviews": 320
+  },
+  "rating_statuses": [
+    "rated",
+    "not_applicable",
+    "missing"
+  ],
+  "readable_outputs": "Review malformed but readable text as received without repair. Wrong or off-topic content can still be clear. A clear inappropriate refusal need not receive zero for clarity.",
+  "recipe_version": "human-review-contract-0.1.0",
+  "review_workflow": "Use two actual teammates working independently. Practice with development examples; retain and lock initial ratings before discussion. Store adjudication separately. Randomize presentation reproducibly and preserve returned text. This is team rating, not external coaching or clinical validation; complete blinding cannot be guaranteed.",
+  "sample_interpretation": "The human sample intentionally contains more challenge cases than the full benchmark. Report its composition instead of treating pooled ratings as representative of all 800 planned jobs.",
+  "sample_selection_status": "pending accepted profiles; no actual IDs or response assignments created",
+  "sampling": "Select within age-scenario strata using stable ordering and recorded seed before generated outputs are examined. Retain adopted family information. Include all four version outcomes for each selected profile.",
+  "schema_version": "human-review-contract-1",
+  "scope_relative_scoring": "Judge completeness and profile fit relative to the actual request; a good clarification need not invent a weekly plan, and irrelevant profile details need not be repeated.",
+  "score_values": [
+    0,
+    1,
+    2
+  ],
+  "software": {
+    "jsonschema": "4.26.0",
+    "pandas": "3.1.1",
+    "python": "3.12.6"
+  },
+  "source_sections": [
+    "17.8",
+    "17.9",
+    "17.10",
+    "17.11"
+  ],
+  "status": "rubric_and_generic_calculations_prepared; actual_reviews_and_full_protocol_pending",
+  "validation_scope": "Entry validation checks structure and status/score consistency, not factual quality or whether non-applicability is substantively justified. No defaults are inserted. Locked review exports, response hashes, reviewer mappings and the actual packet workflow require later implementation."
+}

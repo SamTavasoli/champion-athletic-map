@@ -1,0 +1,34 @@
+[
+  {
+    "endpoint": "/api/version",
+    "evidence_kind": "local_http_observation",
+    "method": "GET",
+    "raw_response_path": "results/pilot/preparation_checks/20261115T032033Z_4151dae46603/001_version.bin",
+    "raw_response_sha256": "d08fbf1a7a1f1d21f83de452346b795b32ecd448b8ad5479144768bcedd23665",
+    "status": "returned"
+  },
+  {
+    "endpoint": "/api/tags",
+    "evidence_kind": "local_http_observation",
+    "method": "GET",
+    "raw_response_path": "results/pilot/preparation_checks/20261115T032033Z_4151dae46603/002_tags.bin",
+    "raw_response_sha256": "e17033770bf7ff7ff06a4f696eff9f2dd9713305370b94d9acbafe83a051849b",
+    "status": "returned"
+  },
+  {
+    "endpoint": "/api/show",
+    "evidence_kind": "local_http_observation",
+    "method": "POST",
+    "raw_response_path": "results/pilot/preparation_checks/20261115T032033Z_4151dae46603/003_show.bin",
+    "raw_response_sha256": "6bde2988b026d3bbf7d597b61109147573de5f3aab846bc105408224240f51bf",
+    "status": "returned"
+  },
+  {
+    "endpoint": "/api/ps",
+    "evidence_kind": "local_http_observation",
+    "method": "GET",
+    "raw_response_path": "results/pilot/preparation_checks/20261115T032033Z_4151dae46603/004_ps.bin",
+    "raw_response_sha256": "a6fe9ec6e26a38d99fca418b69826e0238b7a2bb319ff05eb153a6fcfd1fa28d",
+    "status": "returned"
+  }
+]

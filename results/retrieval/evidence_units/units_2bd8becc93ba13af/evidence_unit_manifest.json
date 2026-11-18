@@ -1,0 +1,88 @@
+{
+  "admitted_reference_unit_count": 1,
+  "assistant_inclusion_decisions": 1,
+  "delivery_bundle_must_be_attached": true,
+  "encoded_passage_token_count": null,
+  "evidence_unit_preparation_id": "evidence-unit-preparation:2bd8becc93ba13af7088087763c4859410eecc52a184387754fefed984ac864d",
+  "human_inclusion_decisions": 0,
+  "mandatory_notices_source": {
+    "relative_path": "results/retrieval/source_evidence/evidence_d77dd07041ecfe6d/mandatory_usage_notices.json",
+    "sha256": "efe4275ae011404f2038331aa0950cfd1ff8e71eba50701375d723dac6310994"
+  },
+  "model_token_budget_validation": "pending_semantic_runtime_adoption",
+  "operational_passages_created": 0,
+  "payload_hashes": {
+    "results/retrieval/evidence_units/units_2bd8becc93ba13af/admission_decisions.jsonl": "5bb5dc08bfba9908dbbea306adcb71e4a27002b505ad779a1e6fb4e94bb7d4db",
+    "results/retrieval/evidence_units/units_2bd8becc93ba13af/admitted_reference_units.jsonl": "a4f30e01b12902f302d5f6f3001686cc1d5544a6e9b4844ae2ff8293c6de1a5b",
+    "results/retrieval/evidence_units/units_2bd8becc93ba13af/coverage_and_readiness.json": "57d2c6e886f79e397fc3dbfc5ff354351af7dcf122c6fdd58cefe19a35dad76c",
+    "results/retrieval/evidence_units/units_2bd8becc93ba13af/delivery_bundles.jsonl": "b8c9630eb8756c494058aecbaf7ef78b4b7116f27e32fa4973f8e9c00fd82cd5",
+    "results/retrieval/evidence_units/units_2bd8becc93ba13af/evidence_unit_checks.csv": "41161e82d7d6005c2ef74d1e681184bd7a3752e96cddf010dd2e800978b5b678",
+    "results/retrieval/evidence_units/units_2bd8becc93ba13af/source_aliases.csv": "fbfcbcd0dbba030340f986f83328c0882534be4eaa0660b3f217214d9cab2e2b"
+  },
+  "planner_rule_adoption_or_eligibility_granted": false,
+  "reference_unit_ids": [
+    "reference-unit:826434d4d2d9eca996497c4fa1e36fdb85d4a62df0d6c7ce121f6e4e3b782512"
+  ],
+  "retrieval_index_created": false,
+  "schema_version": "step23-scoped-reference-unit-manifest-1",
+  "source_alias_rows": 2,
+  "source_capture_origin": {
+    "capture_origin": "assistant_environment_official_https_capture",
+    "current_live_publisher_state_assessed": false,
+    "http_status_describes_original_capture_not_local_response": true,
+    "local_https_capture_performed": false,
+    "local_publisher_network_requests": 0,
+    "original_http_metadata_preserved": true,
+    "original_http_receipts": [
+      {
+        "content_type": "text/html",
+        "document_key": "cdc_sleep_about",
+        "http_status": 200,
+        "observed_at": "2026-11-12T17:23:58.588017+00:00",
+        "raw_html_bytes": 54141,
+        "raw_html_sha256": "5e0c08bcddc6cbd8154ec9b06668dce3701bd1dde482f761ab61e01e6a1cc5a6",
+        "requested_url": "https://www.cdc.gov/sleep/about/",
+        "resolved_url": "https://www.cdc.gov/sleep/about/",
+        "response_headers": {
+          "Content-Type": "text/html"
+        }
+      },
+      {
+        "content_type": "text/html",
+        "document_key": "cdc_agency_materials",
+        "http_status": 200,
+        "observed_at": "2026-11-12T17:24:02.948857+00:00",
+        "raw_html_bytes": 84012,
+        "raw_html_sha256": "421e5a7aba5b8dbe41aa1d89c5499e24484adf0239a1879d3e0fccc1751fd838",
+        "requested_url": "https://www.cdc.gov/other/agencymaterials.html",
+        "resolved_url": "https://www.cdc.gov/other/agencymaterials.html",
+        "response_headers": {
+          "Content-Type": "text/html"
+        }
+      },
+      {
+        "content_type": "text/html",
+        "document_key": "cdc_generative_ai",
+        "http_status": 200,
+        "observed_at": "2026-11-12T17:24:06.657103+00:00",
+        "raw_html_bytes": 77720,
+        "raw_html_sha256": "8f240e28ff7b33a041b2073baf876a4820f28779c928e448f786bee0ec7f5b4e",
+        "requested_url": "https://www.cdc.gov/other/generative-ai.html",
+        "resolved_url": "https://www.cdc.gov/other/generative-ai.html",
+        "response_headers": {
+          "Content-Type": "text/html"
+        }
+      }
+    ],
+    "portable_payload_sha256": "356924bca7c184cd4ecf7b17628a1860c0bd1951499d48814d8691e30172a87c",
+    "raw_html_is_internal_audit_evidence_not_reference_passage_text": true,
+    "schema_version": "step23-portable-official-cdc-provenance-1",
+    "snapshot_delivery": "embedded_verified_prior_capture",
+    "snapshot_import_is_not_corpus_admission": true,
+    "source_capture_id": "cdc-source-capture:64a34cc87574fb4d1b9e9e30fb9d6529e80c5d2febbea7825eb80aee9b10a84e",
+    "source_freshness_recheck_required_before_final_freeze": true
+  },
+  "source_evidence_preparation_id": "retrieval-source-evidence:d77dd07041ecfe6d8b23bceb9e9c850af79bdee6e43a6aaf7910527cd4828bb7",
+  "source_version_is_scoped_text_hash_not_raw_html_hash": true,
+  "tokenizer_revision": null
+}

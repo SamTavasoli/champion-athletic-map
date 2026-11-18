@@ -1,0 +1,2 @@
+candidate_id,seed,attempt,run_id,configuration_id,status,started_at_utc,finished_at_utc,epochs_completed,active_epoch,active_epoch_optimizer_steps,optimizer_steps,selected_epoch,stop_reason,failure_stage,failure_type,failure_kind,warning_count,warnings_json,eligible_for_selection
+N3,42,1,neural-tuning-run:62cc2a0384284f62b024d6a7be048dd0,neural-tuning-config:21a897ae11f50d7808e8a4bf629aff15f60e2d196be3cdcda49e1608a711b1c8,completed,2026-11-12T04:37:43.720783+00:00,2026-11-12T04:37:51.742683+00:00,24,24,63,1512,19,patience_exhausted,,,,0,[],True

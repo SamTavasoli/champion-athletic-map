@@ -1,0 +1,416 @@
+{
+  "batch_contract": {
+    "class_zero_valid": true,
+    "empty_or_all_padding_rows": "error",
+    "mask_tensor_dtype": "bool",
+    "maximum_sequence_length": 81,
+    "overlong_unpadded_sequences": "error; no silent second truncation",
+    "pad_id": 0,
+    "padding": "right to longest retained sequence in current batch",
+    "reference_pooling_scope": "Artificial NumPy arithmetic, not a neural model or PyTorch gradient/embedding integration check",
+    "representation": "Python integer lists and Boolean masks; tensor conversion in Step 20",
+    "row_order_and_repeated_identifiers": "preserved",
+    "schema_version": "neural-batch-1",
+    "step20_checks_pending": [
+      "tensor/device conversion",
+      "actual masked-pooling model",
+      "padding_idx and zero PAD embedding",
+      "UNK embedding training",
+      "loss target handling"
+    ],
+    "target_range": [
+      0,
+      15
+    ],
+    "target_tensor_dtype": "int64",
+    "token_id_tensor_dtype": "int64",
+    "unk_id": 1,
+    "unk_in_mask_and_pooling_denominator": true,
+    "verification_chunk_size": 64,
+    "verification_chunk_size_is_training_hyperparameter": false
+  },
+  "benchmark_id": "exercise-benchmark:fb56823695069d9dd15a5280812e8b8faff81550732489cd3b1cc075b532b7df",
+  "class_order": [
+    "abdominals",
+    "abductors",
+    "adductors",
+    "biceps",
+    "calves",
+    "chest",
+    "forearms",
+    "glutes",
+    "hamstrings",
+    "lats",
+    "lower back",
+    "middle back",
+    "quadriceps",
+    "shoulders",
+    "traps",
+    "triceps"
+  ],
+  "class_to_index": {
+    "abdominals": 0,
+    "abductors": 1,
+    "adductors": 2,
+    "biceps": 3,
+    "calves": 4,
+    "chest": 5,
+    "forearms": 6,
+    "glutes": 7,
+    "hamstrings": 8,
+    "lats": 9,
+    "lower back": 10,
+    "middle back": 11,
+    "quadriceps": 12,
+    "shoulders": 13,
+    "traps": 14,
+    "triceps": 15
+  },
+  "diagnostic_definitions": {
+    "raw_token_vocabulary_coverage": "raw ordinary tokens mapping to retained vocabulary / raw token positions; empty fallback excluded",
+    "removed_position_rate": "removed positions / all effective positions before truncation",
+    "truncated_record_rate": "rows losing effective positions / all rows in the declared split or class",
+    "unknown_rate_effective_before": "UNK positions / effective positions before truncation, including fallback",
+    "unknown_rate_retained": "retained UNK positions / retained positions, including fallback"
+  },
+  "fit_provenance": {
+    "benchmark_id": "exercise-benchmark:fb56823695069d9dd15a5280812e8b8faff81550732489cd3b1cc075b532b7df",
+    "fit_split": "train",
+    "full_untruncated_training_tokens": true,
+    "ordered_training_ids_sha256": "13687916fd0815bf4680d421150ddd9be7e70f98cc509d054cf97d739f99a0c4",
+    "test_used_for_fit": false,
+    "text_policy_digest": "66985187734156c980104ed3f7c39ec58aeeb0ba61c82c19db3de0afb813e174",
+    "training_input_table_sha256": "c075673cece8619e4d248aeac4b0a237c55f869a09b27e7ad4432a7b51873faf",
+    "training_records": 1999,
+    "validation_used_for_fit": false
+  },
+  "held_out_boundary": {
+    "source_csv_rows_streamed_for_integrity": true,
+    "test_text_displayed": false,
+    "test_text_retained": false,
+    "test_text_transformed": false,
+    "test_text_used_for_fit": false
+  },
+  "input_hashes": {
+    "Champions_Athletic_Agent_Ready_Dataset _Package/exercise_clean.csv": "6a7d71d6ed6a34c5a95b294adb9374ead80e9308caab448478e6dbcaf4b7f81c",
+    "artifacts/evaluation/scoring_config.json": "3034c30e3c7c802e0d73d9dfcd544f4a628520ffe8c7bf2c5a6823745ddbe97a",
+    "artifacts/splits/exercise_split_config.json": "1694be410134288b9df58f651f20c9dc19f1a811f338b99e2dffb61ef4829f1a",
+    "data/processed/exercise_catalog.csv": "ecf9e7ebe88f71e4350c747291b269976c0d2b01ba295dcdd63459065a3246fe",
+    "data/processed/exercise_groups.csv": "30190adb8245a348a3243fcdff4bc40515cca773e2f874ebab83739f02d9c764",
+    "data/processed/exercise_split_manifest.csv": "c0723b13ce259f964c2c7952b4203edba75a7553146c5bdb4a637ed134a4f5ac",
+    "results/eda/exercise_body_part_distribution.csv": "91ff3934bb22a65069190cb5a1b47665d4cc5a8a4c28602a0c23f8c543e433ca",
+    "results/eda/exercise_categorical_associations.csv": "74c66c302c61d48d18df6703dc6d2c80bc5f0e5a0f1e5804c5e467d243557b61",
+    "results/eda/exercise_comparison_summary.csv": "b84f078517011fd565a19683ef2262483653125a77b3477d880b76f664199732",
+    "results/eda/exercise_description_coverage.csv": "9785156c11ca9c6d4557c97c8d313e3623cfac4a6e159c11e209db1684dbb215",
+    "results/eda/exercise_difficulty_distribution.csv": "248d797d08f7b9d967e2bccab796d6491ec05bd25572768bd50d22c6c1764332",
+    "results/eda/exercise_eda_findings.csv": "36b74916a622411817a9218f93e7fd50e84e3124ae5f85ec34b747e9ee2beb31",
+    "results/eda/exercise_equipment_distribution.csv": "4b4615c27e3a368140eb335605daa42eebb7d64be7d49dc7b4ab5a62bade5bbc",
+    "results/eda/exercise_field_completeness.csv": "f52f7218a12d5dc5720ec26f5706fa227f20966a331fb6599cdf38eaac406c4b",
+    "results/eda/exercise_label_metadata_crosstabs.csv": "774ef2dbe0acc39b739d8b58e3ac6b69995a8a04a93c24ad662af717ff32bcb3",
+    "results/eda/exercise_label_readiness.csv": "0693aedd8333430be42bb1f7ff1cf84d0cd50f86c957977e5a9b669787100612",
+    "results/eda/exercise_label_text_statistics.csv": "cf5f76e674af6eb39d00113eb3d0b4909e709948322dfa61c53304361c5a14e7",
+    "results/eda/exercise_preparation_summary.csv": "2fdc1c0a63977c54f1045381747a16a5dcd5ca45acbec6f44274ec3754c06aae",
+    "results/eda/exercise_review_issues.csv": "30ba31dcd778d03e2049063f63789eaf25b44262add89763c31502b586c85181",
+    "results/eda/exercise_review_status.csv": "4274319143bdc55ce16eac389f5fa460b8b41bc9e39f13ba590d6a8b32a4dd09",
+    "results/eda/exercise_split_group_size_distribution.csv": "c0f5f41e1de24ec4597759068261fc63f3bba45c16cea5ace7677d7aaa71da67",
+    "results/eda/exercise_split_group_summary.csv": "1c860bdb6d55541e6ab887ca6594c2c0697c798490f7056aa8fbaebf7c606e4b",
+    "results/eda/exercise_text_length_statistics.csv": "323561b10634dd9994e858ab4765e3ee3508148e884098d19ea5c2534d978d32",
+    "results/eda/exercise_text_lengths.csv": "b6823b833ab1e5423b8a80603aa8001865dde4d72fcf66ece4be590445de5d05",
+    "results/eda/exercise_type_distribution.csv": "8712297873ef4e01e2a02ba8adb28cd980d917fc7f8a2e43eaec0dbf2b56c004",
+    "results/exercise_benchmark_review_decisions.csv": "cfdf0e29094e76fc6400fc12580dfedb7748f1dd85b67968705cd3af85ff32b1",
+    "results/exercise_class_eligibility.csv": "560d130d9aa2c136b552d1dd61735eb448105691c58b7f9729e3cdd6dd8ebeb0",
+    "results/exercise_cleaning_log.csv": "287f89e2a4ac280176719754c37bb1b81e383db3779af44972657e7293dd7a1b",
+    "results/exercise_group_membership.csv": "f708420a3334d7f17f7ef73b3fe51123e1f9baff9cd6bc64a6a0e6d4dc7264a3",
+    "results/exercise_review_carryover.csv": "c3a72f9b877e357518078cd6180e8684f5464202ee1e0c270dabf190c14db573",
+    "results/exercise_review_queue.csv": "e46a4ab4a61f1ad299d40f3a42f672531ee9948c718bda9e9214507fce363acd",
+    "results/exercise_split_candidates.csv": "d659186e893a9ae7c1f652bbe00f7ce5e30c9afafcd5dd9c091d16972dcd6f02",
+    "results/exercise_split_checks.csv": "eca5e80d470ddf3f8b41b174cb39e5d2f5582e478b672412a5eed29109c83212",
+    "results/exercise_split_summary.csv": "42ed48528dc4be8c7693bd75b9a921ce2fc93c7675db6dd42fdd4fc52bbdbaf2",
+    "results/figures/exercise_body_part_distribution.png": "edb68de1a34f8403dc28698bfb556b6bf019f00f15b48fe1cc5d657bb2ffdf5e",
+    "results/figures/exercise_description_word_length.png": "9de36adb496d945c4f8a6258b3f741b8ee2e1d3c6ee89520e102451f92d16b48",
+    "results/figures/exercise_missing_description_by_class.png": "de1881d4d56ec8fad01c350e73e1aabc806ec1374f2f11c492115cf3500420d5",
+    "results/figures/exercise_name_word_length.png": "023a95d8de5e49d2b5ad63ae79ed8079e144ffa057bad723e89f2c155635bee4",
+    "results/figures/exercise_split_group_support_by_class.png": "085f7dc33591d790ee2732c38c4df47c46402afad641483e6fae60f06e0fabfc",
+    "results/step10_exercise_preparation.json": "e5a86eb8224e579bac479c88844dddbb491c40bde11c61ba6ee00a804c689fa2",
+    "results/step11_eda_summary.json": "3c69a8ca870ecd3355055c6a76db894f260f63d9b05fcaf7ea1b5c5713fe5584",
+    "results/step15_exercise_split_summary.json": "e3d4f7cf0de057d2d28f74716e03e41a0a4f4f46d75d49f8f3f6b05d0bbe554d",
+    "results/step17_evaluation_design_summary.json": "4f2f330d9b8acd578dcc46737c34ffa1c7ce58254ba0687b2f65e45db0576254"
+  },
+  "model_input_table": {
+    "boolean_columns": [
+      "empty_token_fallback",
+      "all_unknown_after_truncation"
+    ],
+    "columns": [
+      "catalog_id",
+      "split_group_id",
+      "split",
+      "target_label",
+      "class_index",
+      "text_availability",
+      "exercise_name_prepared",
+      "description_prepared",
+      "classifier_text",
+      "model_text",
+      "raw_token_count",
+      "effective_token_count",
+      "retained_length",
+      "truncated_tokens",
+      "unknown_tokens_before_truncation",
+      "unknown_tokens_after_truncation",
+      "empty_token_fallback",
+      "all_unknown_after_truncation"
+    ],
+    "csv_reader": {
+      "dtype": "str",
+      "keep_default_na": false
+    },
+    "integer_columns": [
+      "class_index",
+      "raw_token_count",
+      "effective_token_count",
+      "retained_length",
+      "truncated_tokens",
+      "unknown_tokens_before_truncation",
+      "unknown_tokens_after_truncation"
+    ],
+    "padded_matrices_persisted": false,
+    "prepared_text": "model_text",
+    "preserved_canonical_input": "classifier_text",
+    "relative_path": "data/processed/exercise_model_inputs.csv",
+    "rows": 2434,
+    "splits": [
+      "train",
+      "validation"
+    ],
+    "token_ids_persisted": false
+  },
+  "module": {
+    "functions": [
+      "normalize_model_text",
+      "tokenize_model_text",
+      "prepare_canonical_text",
+      "tokenize_canonical_text",
+      "fit_training_vocabulary",
+      "choose_training_sequence_limit",
+      "validate_neural_vocabulary",
+      "encode_neural_tokens",
+      "pad_neural_batch"
+    ],
+    "import_name": "champion_athletic_map.text_preprocessing",
+    "normalization_exactly_once": true,
+    "relative_path": "src/champion_athletic_map/text_preprocessing.py",
+    "sha256": "47bbaa42eea1ed56634969c65546ab371b7303d8e728dcbf5e8cb151c7986db2"
+  },
+  "parent_preparation": {
+    "batch_digest": "b9fe1aae6f442467c5856d4d82b400ab72ff41b84c59e5a5fc4dd0d1a4d77ebc",
+    "development_digest": "a78f12909c929426fddc51262f35c05757de702dfc5f3a8c15dc8999c7d446dc",
+    "text_rules_digest": "66985187734156c980104ed3f7c39ec58aeeb0ba61c82c19db3de0afb813e174"
+  },
+  "policy": {
+    "data_access": {
+      "normalization_applied_to_dataset": true,
+      "test_text_accessed": false,
+      "tfidf_fitted": false,
+      "tokenization_applied_to_dataset": true,
+      "vocabulary_fitted": true
+    },
+    "input": {
+      "canonical_column": "classifier_text",
+      "canonical_fields": [
+        "exercise_name_prepared",
+        "description_prepared"
+      ],
+      "canonical_validity": "Actual canonical exercise input must be nonblank. Generic normalization/tokenization can represent empty strings, but prepare_canonical_text and the raw vectorizer tokenizer reject empty/whitespace canonical input.",
+      "missing_descriptions": "Preserve absence and name-only inputs; never coerce missing values to strings or generate descriptions.",
+      "target_column": "target_label",
+      "target_or_metadata_concatenation": false
+    },
+    "module_status": "Complete importable preprocessing module saved and read back in Step 18.",
+    "neural_sequence_policy": {
+      "all_padding": "error",
+      "fit_split": "train",
+      "length_basis": "full token lengths after nonempty-token fallback, before truncation",
+      "mask": "Boolean non-PAD positions; UNK counts as an input position",
+      "maximum": 256,
+      "method": "nearest rank",
+      "minimum": 16,
+      "padding": "right-pad each batch to its longest retained sequence within the saved limit",
+      "percentile": 0.95,
+      "target_class_zero": "valid label index; separate from token PAD ID zero",
+      "truncation": "retain prefix; truncate right"
+    },
+    "neural_vocabulary_policy": {
+      "first_ordinary_id": 2,
+      "fit_split": "train",
+      "frequency_basis": "total token occurrences over full untruncated training text",
+      "max_ordinary_tokens": 10000,
+      "maximum_entries_including_reserved": 10002,
+      "min_token_frequency": 2,
+      "ordering": [
+        "descending training frequency",
+        "lexical token order for ties"
+      ],
+      "reserved_ids": {
+        "PAD": 0,
+        "UNK": 1
+      },
+      "validation_or_test_expansion": false
+    },
+    "normalization": {
+      "accent_stripping": false,
+      "exactly_once": true,
+      "idempotence_assumed": false,
+      "lemmatization": false,
+      "ordered_operations": [
+        "Unicode NFKC",
+        "collapse Unicode whitespace to one ASCII space",
+        "strip",
+        "Unicode casefold"
+      ],
+      "paths": {
+        "already_prepared_text": "model_text -> tokenize_model_text only; do not normalize it again",
+        "neural": "classifier_text -> prepare_canonical_text -> model_text and tokens",
+        "tfidf": "classifier_text -> tokenize_canonical_text -> normalize once -> tokenize_model_text"
+      },
+      "source_text_modified": false,
+      "stemming": false,
+      "stopword_removal": false
+    },
+    "recipe_version": "shared-text-rules-preparation-0.1.0",
+    "schema_version": "shared-exercise-text-policy-1",
+    "software": {
+      "numpy": "2.5.4",
+      "pandas": "3.1.1",
+      "python": "3.12.6",
+      "scikit_learn": "1.9.1",
+      "unicode_database": "15.0.0"
+    },
+    "text_rules_source_sha256": "ad1dba97ede7d15df11101bbb22bd9f7e433b7a4ae02ac14bec0814a628ada7e",
+    "text_rules_version": "exercise-text-rules-0.1.0",
+    "tfidf": {
+      "analyzer": "word",
+      "binary": false,
+      "dtype": "float64",
+      "fit_owner_step": 19,
+      "input_column": "classifier_text",
+      "lowercase": false,
+      "max_df": 1.0,
+      "max_features": 10000,
+      "min_df": 1,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "norm": "l2",
+      "normalization_location": "inside the canonical tokenizer wrapper exactly once",
+      "prepared_model_text_is_not_this_input": true,
+      "preprocessor": null,
+      "smooth_idf": true,
+      "stop_words": null,
+      "strip_accents": null,
+      "sublinear_tf": false,
+      "token_pattern": null,
+      "tokenizer_function": "tokenize_canonical_text",
+      "use_idf": true
+    },
+    "tokenization": {
+      "canonical_wrapper": "tokenize_canonical_text",
+      "core_function": "tokenize_model_text",
+      "empty_tokens": "Valid nonblank punctuation-only text may produce no tokens. Later neural preparation uses one UNK position with a flag; the shared tokenizer inserts no token. Genuinely empty canonical text remains an input-contract error.",
+      "fallback_inserted": false,
+      "pattern": "(?u)\\b\\w+(?:[.'’/-]\\w+)*\\b",
+      "scope": "Regex word-like tokens, not linguistic or numeric validation. Internal ASCII apostrophe, right-curly apostrophe, period, slash and hyphen can join word runs. Other punctuation and combining marks may delimit tokens; retain the exact rule."
+    }
+  },
+  "preparation": {
+    "classifier_performance_measured": false,
+    "final_classifier_scoring_ready": false,
+    "models_trained": 0,
+    "neural_settings_fit_split": "train",
+    "test_records_metadata_only": 438,
+    "test_text_processed": false,
+    "tfidf_fitted": false,
+    "torch_model_integration_checked": false,
+    "training_records": 1999,
+    "validation_records": 435
+  },
+  "recipe_version": "exercise-development-preprocessing-save-0.1.0",
+  "reconstruction": {
+    "batching": "Build record_id/token_ids/target examples; pad_neural_batch right-pads to each batch maximum",
+    "do_not_recanonicalize_model_text": true,
+    "neural_from_saved_text": "model_text -> tokenize_model_text -> encode_neural_tokens with saved vocabulary and limit",
+    "raw_canonical_audit": "classifier_text -> prepare_canonical_text exactly once; compare saved model_text",
+    "tfidf": "classifier_text -> tokenize_canonical_text; fit on train only in Step 19"
+  },
+  "schema_version": "exercise-preprocessing-config-1",
+  "sequence_settings": {
+    "fit_provenance": {
+      "benchmark_id": "exercise-benchmark:fb56823695069d9dd15a5280812e8b8faff81550732489cd3b1cc075b532b7df",
+      "fit_split": "train",
+      "full_untruncated_training_tokens": true,
+      "ordered_training_ids_sha256": "13687916fd0815bf4680d421150ddd9be7e70f98cc509d054cf97d739f99a0c4",
+      "test_used_for_fit": false,
+      "text_policy_digest": "66985187734156c980104ed3f7c39ec58aeeb0ba61c82c19db3de0afb813e174",
+      "training_input_table_sha256": "c075673cece8619e4d248aeac4b0a237c55f869a09b27e7ad4432a7b51873faf",
+      "training_records": 1999,
+      "validation_used_for_fit": false
+    },
+    "fit_split": "train",
+    "length_basis": "max(1, full raw-token length), before truncation",
+    "max_sequence_length": 81,
+    "maximum": 256,
+    "maximum_effective_length": 112,
+    "method": "nearest_rank",
+    "minimum": 16,
+    "minimum_effective_length": 1,
+    "n_empty_token_sequences": 0,
+    "n_sequences": 1999,
+    "nearest_rank_length": 81,
+    "percentile": 0.95,
+    "percentile_rank": 1900,
+    "schema_version": "neural-sequence-limit-1",
+    "split_verification": "caller_responsibility"
+  },
+  "software": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.1",
+    "python": "3.12.6",
+    "scikit_learn": "1.9.1",
+    "unicode_database": "15.0.0"
+  },
+  "status": "development_inputs_prepared",
+  "tfidf": {
+    "analyzer": "word",
+    "binary": false,
+    "dtype": "float64",
+    "fit_owner_step": 19,
+    "input_column": "classifier_text",
+    "lowercase": false,
+    "max_df": 1.0,
+    "max_features": 10000,
+    "min_df": 1,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "norm": "l2",
+    "normalization_location": "inside the canonical tokenizer wrapper exactly once",
+    "prepared_model_text_is_not_this_input": true,
+    "preprocessor": null,
+    "smooth_idf": true,
+    "stop_words": null,
+    "strip_accents": null,
+    "sublinear_tf": false,
+    "token_pattern": null,
+    "tokenizer_function": "tokenize_canonical_text",
+    "use_idf": true
+  },
+  "vocabulary": {
+    "entries": 1748,
+    "fit_split": "train",
+    "relative_path": "artifacts/preprocessing/neural_vocabulary.json",
+    "sha256": "654d3be2bd15b82112ce542c8727080810b0d8a7677b1e3533bf56ce6ec1d059",
+    "validation_or_test_expansion": false
+  }
+}

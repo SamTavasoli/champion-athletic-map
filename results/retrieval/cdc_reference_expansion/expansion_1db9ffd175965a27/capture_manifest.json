@@ -1,0 +1,100 @@
+{
+  "captures": [
+    {
+      "capture_id": "cdc_child_overview",
+      "capture_origin": "assistant_environment_official_https_capture",
+      "final_url": "https://www.cdc.gov/physical-activity-basics/guidelines/children.html",
+      "http_status": 200,
+      "observed_at_utc": "2026-11-13T00:08:20.598077+00:00",
+      "raw_filename": "cdc_child_overview.html",
+      "raw_html_sha256": "244bb171e650d7ad3d9c577ead73dd797567ee80e7b8c4a33e44ea416bcd5b2b",
+      "requested_url": "https://www.cdc.gov/physical-activity-basics/guidelines/children.html",
+      "response_bytes": 55832,
+      "response_headers": {
+        "Content-Type": "text/html",
+        "Date": "Fri, 13 Nov 2026 00:08:20 GMT",
+        "ETag": null,
+        "Last-Modified": null
+      },
+      "retrieval_method": "Python urllib HTTPS GET; default TLS certificate verification; official-host redirects only"
+    },
+    {
+      "capture_id": "cdc_youth_what_counts",
+      "capture_origin": "assistant_environment_official_https_capture",
+      "final_url": "https://www.cdc.gov/physical-activity-basics/adding-children-adolescents/what-counts.html",
+      "http_status": 200,
+      "observed_at_utc": "2026-11-13T00:08:20.579574+00:00",
+      "raw_filename": "cdc_youth_what_counts.html",
+      "raw_html_sha256": "7d78920c8422c341d2488730a8ef616b2f98ad570672f6ba78cafcb8c07dba56",
+      "requested_url": "https://www.cdc.gov/physical-activity-basics/adding-children-adolescents/what-counts.html",
+      "response_bytes": 56253,
+      "response_headers": {
+        "Content-Type": "text/html",
+        "Date": "Fri, 13 Nov 2026 00:08:20 GMT",
+        "ETag": null,
+        "Last-Modified": null
+      },
+      "retrieval_method": "Python urllib HTTPS GET; default TLS certificate verification; official-host redirects only"
+    },
+    {
+      "capture_id": "cdc_active_child_life",
+      "capture_origin": "assistant_environment_official_https_capture",
+      "final_url": "https://www.cdc.gov/physical-activity-basics/adding-children-adolescents/",
+      "http_status": 200,
+      "observed_at_utc": "2026-11-13T00:08:21.258500+00:00",
+      "raw_filename": "cdc_active_child_life.html",
+      "raw_html_sha256": "6f83139d9cee908ad3bc2d34a417258a005a23756e9cc0aa782e306b34283b20",
+      "requested_url": "https://www.cdc.gov/physical-activity-basics/adding-children-adolescents/",
+      "response_bytes": 54745,
+      "response_headers": {
+        "Content-Type": "text/html",
+        "Date": "Fri, 13 Nov 2026 00:08:21 GMT",
+        "ETag": null,
+        "Last-Modified": null
+      },
+      "retrieval_method": "Python urllib HTTPS GET; default TLS certificate verification; official-host redirects only"
+    },
+    {
+      "capture_id": "cdc_agency_materials",
+      "capture_origin": "assistant_environment_official_https_capture",
+      "final_url": "https://www.cdc.gov/other/agencymaterials.html",
+      "http_status": 200,
+      "observed_at_utc": "2026-11-13T00:08:20.550429+00:00",
+      "raw_filename": "cdc_agency_materials.html",
+      "raw_html_sha256": "421e5a7aba5b8dbe41aa1d89c5499e24484adf0239a1879d3e0fccc1751fd838",
+      "requested_url": "https://www.cdc.gov/other/agencymaterials.html",
+      "response_bytes": 84012,
+      "response_headers": {
+        "Content-Type": "text/html",
+        "Date": "Fri, 13 Nov 2026 00:08:20 GMT",
+        "ETag": null,
+        "Last-Modified": null
+      },
+      "retrieval_method": "Python urllib HTTPS GET; default TLS certificate verification; official-host redirects only"
+    },
+    {
+      "capture_id": "cdc_ai_process",
+      "capture_origin": "assistant_environment_official_https_capture",
+      "final_url": "https://www.cdc.gov/other/generative-ai.html",
+      "http_status": 200,
+      "observed_at_utc": "2026-11-13T00:08:20.642524+00:00",
+      "raw_filename": "cdc_ai_process.html",
+      "raw_html_sha256": "8f240e28ff7b33a041b2073baf876a4820f28779c928e448f786bee0ec7f5b4e",
+      "requested_url": "https://www.cdc.gov/other/generative-ai.html",
+      "response_bytes": 77720,
+      "response_headers": {
+        "Content-Type": "text/html",
+        "Date": "Fri, 13 Nov 2026 00:08:20 GMT",
+        "ETag": null,
+        "Last-Modified": null
+      },
+      "retrieval_method": "Python urllib HTTPS GET; default TLS certificate verification; official-host redirects only"
+    }
+  ],
+  "captures_are_imported_in_user_cell": true,
+  "earlier_public_connectivity_probe_requests": 1,
+  "logical_publisher_capture_requests_in_this_batch": 5,
+  "publisher_requests_during_user_cell": 0,
+  "schema_version": "step23-additional-cdc-capture-manifest-1",
+  "scoped_text_is_distinct_from_raw_html": true
+}

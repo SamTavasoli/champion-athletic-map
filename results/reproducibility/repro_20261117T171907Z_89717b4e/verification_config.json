@@ -1,0 +1,157 @@
+{
+  "cell_execution_timeout_seconds": 1200,
+  "comparison_policy": {
+    "atol": 1e-12,
+    "csv_measurement_columns": {
+      "bootstrap_estimates.csv": [
+        "estimate"
+      ],
+      "bootstrap_intervals.csv": [
+        "estimate",
+        "lower_95",
+        "upper_95"
+      ],
+      "classifier_confusion_matrices.csv": [
+        "row_normalized"
+      ],
+      "classifier_per_class_metrics.csv": [
+        "precision",
+        "recall",
+        "f1"
+      ],
+      "matched_runtime_comparisons.csv": [
+        "mean_paired_difference_seconds",
+        "median_paired_difference_seconds"
+      ],
+      "native_runtime_by_planner.csv": [
+        "observed_first_role_wall_seconds_observed_sum",
+        "observed_first_role_wall_seconds_sum",
+        "reference_preparation_seconds_observed_sum",
+        "reference_preparation_seconds_sum"
+      ],
+      "native_runtime_by_stage.csv": [
+        "observed_first_role_wall_seconds_observed_sum",
+        "observed_first_role_wall_seconds_sum",
+        "reference_preparation_seconds_observed_sum",
+        "reference_preparation_seconds_sum"
+      ],
+      "paired_comparisons.csv": [
+        "difference_percentage_points"
+      ],
+      "parent_check_summary.csv": [
+        "coverage"
+      ],
+      "planner_summary.csv": [
+        "percent"
+      ],
+      "retrieval_question_analysis.csv": [
+        "recall_at_5",
+        "reciprocal_rank_at_5"
+      ],
+      "retrieval_summary.csv": [
+        "value"
+      ],
+      "runtime_resource_summary.csv": [
+        "mean_seconds",
+        "median_seconds",
+        "p95_seconds",
+        "minimum_seconds",
+        "maximum_seconds"
+      ]
+    },
+    "discrete_policy": "Exact paths, CSV schema and row order, labels, statuses, IDs, counts, denominators, memberships and draws; no imputation.",
+    "json_environment_fields": {
+      "analysis_input_manifest.json": [
+        "/bootstrap_settings/numpy_version"
+      ],
+      "bootstrap_settings.json": [
+        "/numpy_version"
+      ]
+    },
+    "json_measurement_fields": {
+      "analysis_input_manifest.json": [
+        "/classifier_status/observed/*/accuracy",
+        "/classifier_status/observed/*/macro_precision",
+        "/classifier_status/observed/*/macro_recall",
+        "/classifier_status/observed/*/macro_f1"
+      ],
+      "analysis_summary.json": [
+        "/headline_planner_rows/*/percent",
+        "/timing_all_terminal/*/mean_seconds",
+        "/timing_all_terminal/*/median_seconds",
+        "/timing_all_terminal/*/p95_seconds",
+        "/timing_all_terminal/*/minimum_seconds",
+        "/timing_all_terminal/*/maximum_seconds",
+        "/retrieval/reported_route_metrics/*/mean_recall_at_5",
+        "/retrieval/reported_route_metrics/*/mrr_at_5",
+        "/retrieval/reported_route_metrics/*/complete_evidence_set_coverage_rate_at_5",
+        "/classifier/observed/*/accuracy",
+        "/classifier/observed/*/macro_precision",
+        "/classifier/observed/*/macro_recall",
+        "/classifier/observed/*/macro_f1"
+      ],
+      "classifier_analysis_status.json": [
+        "/observed/*/accuracy",
+        "/observed/*/macro_precision",
+        "/observed/*/macro_recall",
+        "/observed/*/macro_f1"
+      ],
+      "classifier_summary.json": [
+        "/*/accuracy",
+        "/*/macro_precision",
+        "/*/macro_recall",
+        "/*/macro_f1"
+      ],
+      "retrieval_analysis_status.json": [
+        "/summary/reported_route_metrics/*/mean_recall_at_5",
+        "/summary/reported_route_metrics/*/mrr_at_5",
+        "/summary/reported_route_metrics/*/complete_evidence_set_coverage_rate_at_5"
+      ]
+    },
+    "manifest_policy": "Each output manifest hash is validated against its own file; ID binds to input-manifest bytes, and summary locations bind to ID.",
+    "npz_policy": "Exact member names, dtype, shape and array values; ZIP headers/timestamps excluded.",
+    "review_provenance": "One assisted team review; original independent raters and agreement unavailable. Preserve the recorded status without inventing ratings.",
+    "rtol": 1e-10,
+    "schema_version": "step36-comparison-policy-1",
+    "svg_policy": "Parse SVG, verify actual glyph/text labels and source table populations, verify bar geometry (1e-4 units) and classifier CI/point geometry (1e-7 units) against source measurements; permit metadata/layout differences only after all those checks pass."
+  },
+  "data_rebuild": false,
+  "environment_mode": "fresh_install",
+  "full_main_notebook_execution_claimed": false,
+  "kernel_startup_timeout_seconds": 60,
+  "kernel_transport": "tcp",
+  "live_generation": false,
+  "mode": "results_reproduction",
+  "new_model_calls": 0,
+  "new_predictions": 0,
+  "notebook_scope": "dedicated_saved_results_notebook",
+  "numeric_comparison": {
+    "atol": 1e-12,
+    "rtol": 1e-10
+  },
+  "project_root": "C:\\Users\\samta\\Documents\\champion-athletic-map",
+  "requirements": {
+    "ipykernel": "7.4.0",
+    "matplotlib": "3.11.2",
+    "nbclient": "0.10.4",
+    "nbformat": "5.10.4",
+    "numpy": "2.5.4"
+  },
+  "run_folder": "C:\\Users\\samta\\Documents\\champion-athletic-map\\results\\reproducibility\\repro_20261117T171907Z_89717b4e",
+  "run_id": "repro_20261117T171907Z_89717b4e",
+  "schema_version": "step36-verification-config-1",
+  "software_sha256": {
+    "comparison_driver": "32b59b9f99bbdfc0856a0b21ba916b076fd07d34bf0eb898705c1df3ffcde566",
+    "notebook_driver": "fc72a4d36338c3af12f3b3141fb05a9dedc26f7fbbe1f0a01b339b203f607606",
+    "reproduction_compare": "bf171331cc69256b8ca0ce9c04587569eb4048bff1d68761db1752bb6dc3023a",
+    "reproduction_coordinator": "cb7552e74379133b2bbaf7a210f243fcb8019f4031098c9da7067a2a1734beda",
+    "reproduction_environment": "5e3a4cd4a382016b964b601d8fd8dcddcc4092a9ca8b7a68355364693e953837",
+    "reproduction_inputs": "f6e25a64b0570f7d2e9389f383d722d6ef92ccb33a169d2728a7ea8309e72b5c"
+  },
+  "source_analysis_id": "d5e368e9f92725a9d3892b1d32878294d5bac243215dfb7f313ce69347daeba5",
+  "source_revision": {
+    "commit": "d34072a0dffcb44cb28afa3e2fde14911720b91b",
+    "tracked_changes_present": true
+  },
+  "training_repetition": false
+}

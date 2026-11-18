@@ -1,0 +1,7 @@
+candidate_id,C,class_weight,status,split,evaluated_records,groups,correct_records,accuracy,macro_f1,class_denominator
+L0,0.1,,completed,validation,435,384,204,0.4689655172413793,0.14645257214015803,16
+L1,0.1,balanced,completed,validation,435,384,273,0.6275862068965518,0.527871778783537,16
+L2,1.0,,reused_verified,validation,435,384,308,0.7080459770114943,0.4709667437747761,16
+L3,1.0,balanced,completed,validation,435,384,306,0.7034482758620689,0.5737194667311036,16
+L4,10.0,,completed,validation,435,384,317,0.728735632183908,0.5576284462325194,16
+L5,10.0,balanced,completed,validation,435,384,315,0.7241379310344828,0.5980086742810444,16

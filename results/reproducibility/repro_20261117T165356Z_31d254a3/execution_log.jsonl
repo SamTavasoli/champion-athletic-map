@@ -1,0 +1,5 @@
+{"phase": "configuration", "status": "recorded", "time_utc": "2026-11-17T16:53:57.011589+00:00"}
+{"files": 2298, "phase": "inputs", "status": "verified", "time_utc": "2026-11-17T16:54:16.453850+00:00"}
+{"phase": "environment", "status": "installed", "time_utc": "2026-11-17T16:55:07.153212+00:00"}
+{"error_type": "ValueError", "message": "The separate notebook execution needs attention; the partial notebook and logs were retained.", "phase": "verification", "status": "failed", "time_utc": "2026-11-17T16:55:43.461580+00:00"}
+{"phase": "verification", "protected_unchanged": true, "status": "needs_attention", "time_utc": "2026-11-17T16:55:46.563623+00:00"}

@@ -1,0 +1,1440 @@
+{
+  "schema_version": "step30-pytest-execution-1",
+  "pytest_exit_code": 0,
+  "collected": [
+    {
+      "test_id": "tests/pilot_continuation/test_continuation_runtime.py::test_request_encoding_preserves_every_original_field_limits_and_arguments",
+      "requirement": "31:continuation-runtime-encoding",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_continuation/test_continuation_runtime.py:54",
+      "description": "test_request_encoding_preserves_every_original_field_limits_and_arguments"
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_continuation_runtime.py::test_corrupted_decoder_blocks_preparation_before_any_transport",
+      "requirement": "31:continuation-runtime-encoding",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_continuation/test_continuation_runtime.py:74",
+      "description": "test_corrupted_decoder_blocks_preparation_before_any_transport"
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_only_final_revision_and_evaluator_run_with_unchanged_saved_supports",
+      "requirement": "31:bounded-final-revision-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_continuation/test_pilot_continuation.py:170",
+      "description": "test_only_final_revision_and_evaluator_run_with_unchanged_saved_supports"
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_completed_continuation_and_outcome_recovery_make_no_new_calls",
+      "requirement": "31:bounded-final-revision-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_continuation/test_pilot_continuation.py:186",
+      "description": "test_completed_continuation_and_outcome_recovery_make_no_new_calls"
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_completed_weak_revision_is_retained_without_evaluator_or_retry",
+      "requirement": "31:bounded-final-revision-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_continuation/test_pilot_continuation.py:197",
+      "description": "test_completed_weak_revision_is_retained_without_evaluator_or_retry"
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_uncertain_revision_stops_and_preserves_shared_markers",
+      "requirement": "31:bounded-final-revision-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_continuation/test_pilot_continuation.py:207",
+      "description": "test_uncertain_revision_stops_and_preserves_shared_markers"
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_changed_bound_source_component_or_completed_outcome_is_preserved[source]",
+      "requirement": "31:bounded-final-revision-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_continuation/test_pilot_continuation.py:219",
+      "description": "test_changed_bound_source_component_or_completed_outcome_is_preserved[source]"
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_changed_bound_source_component_or_completed_outcome_is_preserved[component]",
+      "requirement": "31:bounded-final-revision-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_continuation/test_pilot_continuation.py:219",
+      "description": "test_changed_bound_source_component_or_completed_outcome_is_preserved[component]"
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_changed_bound_source_component_or_completed_outcome_is_preserved[outcome]",
+      "requirement": "31:bounded-final-revision-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_continuation/test_pilot_continuation.py:219",
+      "description": "test_changed_bound_source_component_or_completed_outcome_is_preserved[outcome]"
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_envelope_change_is_rejected_before_any_role_or_runtime",
+      "requirement": "31:bounded-final-revision-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_continuation/test_pilot_continuation.py:235",
+      "description": "test_envelope_change_is_rejected_before_any_role_or_runtime"
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_preparation_reuses_same_identity_and_refuses_silent_component_amendment",
+      "requirement": "31:bounded-final-revision-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_continuation/test_pilot_continuation.py:242",
+      "description": "test_preparation_reuses_same_identity_and_refuses_silent_component_amendment"
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_source_loader_accepts_exact_conclusive_supports_and_windows_paths",
+      "requirement": "31:bounded-final-revision-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_continuation/test_pilot_continuation.py:319",
+      "description": "test_source_loader_accepts_exact_conclusive_supports_and_windows_paths"
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_source_loader_rejects_changed_or_uncertain_prior_attempts[generation_already_submitted]",
+      "requirement": "31:bounded-final-revision-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_continuation/test_pilot_continuation.py:328",
+      "description": "test_source_loader_rejects_changed_or_uncertain_prior_attempts[generation_already_submitted]"
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_source_loader_rejects_changed_or_uncertain_prior_attempts[native]",
+      "requirement": "31:bounded-final-revision-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_continuation/test_pilot_continuation.py:328",
+      "description": "test_source_loader_rejects_changed_or_uncertain_prior_attempts[native]"
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_source_loader_rejects_changed_or_uncertain_prior_attempts[snapshot]",
+      "requirement": "31:bounded-final-revision-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_continuation/test_pilot_continuation.py:328",
+      "description": "test_source_loader_rejects_changed_or_uncertain_prior_attempts[snapshot]"
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_source_loader_rejects_changed_or_uncertain_prior_attempts[unresolved]",
+      "requirement": "31:bounded-final-revision-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_continuation/test_pilot_continuation.py:328",
+      "description": "test_source_loader_rejects_changed_or_uncertain_prior_attempts[unresolved]"
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_source_loader_rejects_changed_or_uncertain_prior_attempts[request]",
+      "requirement": "31:bounded-final-revision-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_continuation/test_pilot_continuation.py:328",
+      "description": "test_source_loader_rejects_changed_or_uncertain_prior_attempts[request]"
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_source_loader_rejects_changed_or_uncertain_prior_attempts[raw_response]",
+      "requirement": "31:bounded-final-revision-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_continuation/test_pilot_continuation.py:328",
+      "description": "test_source_loader_rejects_changed_or_uncertain_prior_attempts[raw_response]"
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_source_loader_rejects_changed_or_uncertain_prior_attempts[missing_http_terminal]",
+      "requirement": "31:bounded-final-revision-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_continuation/test_pilot_continuation.py:328",
+      "description": "test_source_loader_rejects_changed_or_uncertain_prior_attempts[missing_http_terminal]"
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_exact_saved_checks_round_trip_and_reduce_bytes",
+      "requirement": "31:lossless-final-revision-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_continuation/test_review_encoding.py:29",
+      "description": "test_exact_saved_checks_round_trip_and_reduce_bytes"
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_only_check_results_change_in_complete_user_view",
+      "requirement": "31:lossless-final-revision-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_continuation/test_review_encoding.py:42",
+      "description": "test_only_check_results_change_in_complete_user_view"
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_pool_and_defaults_preserve_json_types_null_missing_and_control_looking_fields",
+      "requirement": "31:lossless-final-revision-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_continuation/test_review_encoding.py:58",
+      "description": "test_pool_and_defaults_preserve_json_types_null_missing_and_control_looking_fields"
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_common_object_fields_restore_every_value_and_preserve_absence",
+      "requirement": "31:lossless-final-revision-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_continuation/test_review_encoding.py:72",
+      "description": "test_common_object_fields_restore_every_value_and_preserve_absence"
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_unrecognized_or_unhelpful_shapes_remain_unchanged[None]",
+      "requirement": "31:lossless-final-revision-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_continuation/test_review_encoding.py:85",
+      "description": "test_unrecognized_or_unhelpful_shapes_remain_unchanged[None]"
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_unrecognized_or_unhelpful_shapes_remain_unchanged[value1]",
+      "requirement": "31:lossless-final-revision-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_continuation/test_review_encoding.py:85",
+      "description": "test_unrecognized_or_unhelpful_shapes_remain_unchanged[value1]"
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_unrecognized_or_unhelpful_shapes_remain_unchanged[value2]",
+      "requirement": "31:lossless-final-revision-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_continuation/test_review_encoding.py:85",
+      "description": "test_unrecognized_or_unhelpful_shapes_remain_unchanged[value2]"
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_unrecognized_or_unhelpful_shapes_remain_unchanged[value3]",
+      "requirement": "31:lossless-final-revision-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_continuation/test_review_encoding.py:85",
+      "description": "test_unrecognized_or_unhelpful_shapes_remain_unchanged[value3]"
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_unrecognized_or_unhelpful_shapes_remain_unchanged[value4]",
+      "requirement": "31:lossless-final-revision-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_continuation/test_review_encoding.py:85",
+      "description": "test_unrecognized_or_unhelpful_shapes_remain_unchanged[value4]"
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_unrecognized_or_unhelpful_shapes_remain_unchanged[value5]",
+      "requirement": "31:lossless-final-revision-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_continuation/test_review_encoding.py:85",
+      "description": "test_unrecognized_or_unhelpful_shapes_remain_unchanged[value5]"
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_unrecognized_or_unhelpful_shapes_remain_unchanged[value6]",
+      "requirement": "31:lossless-final-revision-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_continuation/test_review_encoding.py:85",
+      "description": "test_unrecognized_or_unhelpful_shapes_remain_unchanged[value6]"
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_encoded_columns_fail_closed[column0]",
+      "requirement": "31:lossless-final-revision-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_continuation/test_review_encoding.py:94",
+      "description": "test_invalid_encoded_columns_fail_closed[column0]"
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_encoded_columns_fail_closed[column1]",
+      "requirement": "31:lossless-final-revision-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_continuation/test_review_encoding.py:94",
+      "description": "test_invalid_encoded_columns_fail_closed[column1]"
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_encoded_columns_fail_closed[column2]",
+      "requirement": "31:lossless-final-revision-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_continuation/test_review_encoding.py:94",
+      "description": "test_invalid_encoded_columns_fail_closed[column2]"
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_encoded_columns_fail_closed[column3]",
+      "requirement": "31:lossless-final-revision-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_continuation/test_review_encoding.py:94",
+      "description": "test_invalid_encoded_columns_fail_closed[column3]"
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_encoded_columns_fail_closed[column4]",
+      "requirement": "31:lossless-final-revision-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_continuation/test_review_encoding.py:94",
+      "description": "test_invalid_encoded_columns_fail_closed[column4]"
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_encoded_columns_fail_closed[column5]",
+      "requirement": "31:lossless-final-revision-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_continuation/test_review_encoding.py:94",
+      "description": "test_invalid_encoded_columns_fail_closed[column5]"
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_encoded_columns_fail_closed[column6]",
+      "requirement": "31:lossless-final-revision-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_continuation/test_review_encoding.py:94",
+      "description": "test_invalid_encoded_columns_fail_closed[column6]"
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_encoded_columns_fail_closed[column7]",
+      "requirement": "31:lossless-final-revision-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_continuation/test_review_encoding.py:94",
+      "description": "test_invalid_encoded_columns_fail_closed[column7]"
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_encoded_columns_fail_closed[column8]",
+      "requirement": "31:lossless-final-revision-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_continuation/test_review_encoding.py:94",
+      "description": "test_invalid_encoded_columns_fail_closed[column8]"
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_decoder_returns_independent_mutable_values",
+      "requirement": "31:lossless-final-revision-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_continuation/test_review_encoding.py:112",
+      "description": "test_decoder_returns_independent_mutable_values"
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_callback_uses_canonical_text_and_keeps_cost_local",
+      "requirement": "31:lossless-final-revision-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_continuation/test_review_encoding.py:121",
+      "description": "test_callback_uses_canonical_text_and_keeps_cost_local"
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_saved_native_column_costs_can_choose_a_different_layout_than_bytes",
+      "requirement": "31:lossless-final-revision-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_continuation/test_review_encoding.py:138",
+      "description": "test_saved_native_column_costs_can_choose_a_different_layout_than_bytes"
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_token_cost_is_rejected[-1]",
+      "requirement": "31:lossless-final-revision-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_continuation/test_review_encoding.py:153",
+      "description": "test_invalid_token_cost_is_rejected[-1]"
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_token_cost_is_rejected[True]",
+      "requirement": "31:lossless-final-revision-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_continuation/test_review_encoding.py:153",
+      "description": "test_invalid_token_cost_is_rejected[True]"
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_token_cost_is_rejected[1.5]",
+      "requirement": "31:lossless-final-revision-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_continuation/test_review_encoding.py:153",
+      "description": "test_invalid_token_cost_is_rejected[1.5]"
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_token_cost_is_rejected[None]",
+      "requirement": "31:lossless-final-revision-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/pilot_continuation/test_review_encoding.py:153",
+      "description": "test_invalid_token_cost_is_rejected[None]"
+    }
+  ],
+  "phases": [
+    {
+      "test_id": "tests/pilot_continuation/test_continuation_runtime.py::test_request_encoding_preserves_every_original_field_limits_and_arguments",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00028330000350251794,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_continuation_runtime.py::test_request_encoding_preserves_every_original_field_limits_and_arguments",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0021244999952614307,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_continuation_runtime.py::test_request_encoding_preserves_every_original_field_limits_and_arguments",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00012889999197795987,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_continuation_runtime.py::test_corrupted_decoder_blocks_preparation_before_any_transport",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00020459998631849885,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_continuation_runtime.py::test_corrupted_decoder_blocks_preparation_before_any_transport",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0015184000076260418,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_continuation_runtime.py::test_corrupted_decoder_blocks_preparation_before_any_transport",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.899999713525176e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_only_final_revision_and_evaluator_run_with_unchanged_saved_supports",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.06160069999168627,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_only_final_revision_and_evaluator_run_with_unchanged_saved_supports",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.12734160001855344,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_only_final_revision_and_evaluator_run_with_unchanged_saved_supports",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001435000158380717,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_completed_continuation_and_outcome_recovery_make_no_new_calls",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.03676459999405779,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_completed_continuation_and_outcome_recovery_make_no_new_calls",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.12702819998958148,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_completed_continuation_and_outcome_recovery_make_no_new_calls",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014180000289343297,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_completed_weak_revision_is_retained_without_evaluator_or_retry",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.03541909999330528,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_completed_weak_revision_is_retained_without_evaluator_or_retry",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.07970189998741262,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_completed_weak_revision_is_retained_without_evaluator_or_retry",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013230001786723733,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_uncertain_revision_stops_and_preserves_shared_markers",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.03469349999795668,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_uncertain_revision_stops_and_preserves_shared_markers",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.07014570001047105,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_uncertain_revision_stops_and_preserves_shared_markers",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00012780001270584762,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_changed_bound_source_component_or_completed_outcome_is_preserved[source]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.040235399996163324,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_changed_bound_source_component_or_completed_outcome_is_preserved[source]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.006849700002931058,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_changed_bound_source_component_or_completed_outcome_is_preserved[source]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00015499998698942363,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_changed_bound_source_component_or_completed_outcome_is_preserved[component]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.042567199998302385,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_changed_bound_source_component_or_completed_outcome_is_preserved[component]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.011113899992778897,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_changed_bound_source_component_or_completed_outcome_is_preserved[component]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014990000636316836,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_changed_bound_source_component_or_completed_outcome_is_preserved[outcome]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.04451000000699423,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_changed_bound_source_component_or_completed_outcome_is_preserved[outcome]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.1675241999910213,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_changed_bound_source_component_or_completed_outcome_is_preserved[outcome]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013879998004995286,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_envelope_change_is_rejected_before_any_role_or_runtime",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.04944100001011975,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_envelope_change_is_rejected_before_any_role_or_runtime",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.010386500012828037,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_envelope_change_is_rejected_before_any_role_or_runtime",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001385000068694353,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_preparation_reuses_same_identity_and_refuses_silent_component_amendment",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.04857610000181012,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_preparation_reuses_same_identity_and_refuses_silent_component_amendment",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.03458800000953488,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_preparation_reuses_same_identity_and_refuses_silent_component_amendment",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014699998428113759,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_source_loader_accepts_exact_conclusive_supports_and_windows_paths",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.15710529999341816,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_source_loader_accepts_exact_conclusive_supports_and_windows_paths",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.05513039999641478,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_source_loader_accepts_exact_conclusive_supports_and_windows_paths",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014829999417997897,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_source_loader_rejects_changed_or_uncertain_prior_attempts[generation_already_submitted]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.1081183000060264,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_source_loader_rejects_changed_or_uncertain_prior_attempts[generation_already_submitted]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.02140339999459684,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_source_loader_rejects_changed_or_uncertain_prior_attempts[generation_already_submitted]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001776000135578215,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_source_loader_rejects_changed_or_uncertain_prior_attempts[native]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.1086207999906037,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_source_loader_rejects_changed_or_uncertain_prior_attempts[native]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.03243660001317039,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_source_loader_rejects_changed_or_uncertain_prior_attempts[native]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001472999865654856,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_source_loader_rejects_changed_or_uncertain_prior_attempts[snapshot]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.10359869999228977,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_source_loader_rejects_changed_or_uncertain_prior_attempts[snapshot]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.022130099998321384,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_source_loader_rejects_changed_or_uncertain_prior_attempts[snapshot]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013940001372247934,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_source_loader_rejects_changed_or_uncertain_prior_attempts[unresolved]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.11052919999929145,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_source_loader_rejects_changed_or_uncertain_prior_attempts[unresolved]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.020995500002754852,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_source_loader_rejects_changed_or_uncertain_prior_attempts[unresolved]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00018339999951422215,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_source_loader_rejects_changed_or_uncertain_prior_attempts[request]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.11399169999640435,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_source_loader_rejects_changed_or_uncertain_prior_attempts[request]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.01761779998196289,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_source_loader_rejects_changed_or_uncertain_prior_attempts[request]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001610000035725534,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_source_loader_rejects_changed_or_uncertain_prior_attempts[raw_response]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.12304669999866746,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_source_loader_rejects_changed_or_uncertain_prior_attempts[raw_response]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.02248949999921024,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_source_loader_rejects_changed_or_uncertain_prior_attempts[raw_response]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00017300000763498247,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_source_loader_rejects_changed_or_uncertain_prior_attempts[missing_http_terminal]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.10178100000484847,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_source_loader_rejects_changed_or_uncertain_prior_attempts[missing_http_terminal]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.020424299989826977,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_pilot_continuation.py::test_source_loader_rejects_changed_or_uncertain_prior_attempts[missing_http_terminal]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00015200002235360444,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_exact_saved_checks_round_trip_and_reduce_bytes",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00020799998310394585,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_exact_saved_checks_round_trip_and_reduce_bytes",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.002076999982818961,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_exact_saved_checks_round_trip_and_reduce_bytes",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.439999121241271e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_only_check_results_change_in_complete_user_view",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0001742000167723745,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_only_check_results_change_in_complete_user_view",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0021982000034768134,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_only_check_results_change_in_complete_user_view",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.600001456215978e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_pool_and_defaults_preserve_json_types_null_missing_and_control_looking_fields",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.000159099989105016,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_pool_and_defaults_preserve_json_types_null_missing_and_control_looking_fields",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0023631000076420605,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_pool_and_defaults_preserve_json_types_null_missing_and_control_looking_fields",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.749999688006938e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_common_object_fields_restore_every_value_and_preserve_absence",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00016419999883510172,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_common_object_fields_restore_every_value_and_preserve_absence",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00043069999082945287,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_common_object_fields_restore_every_value_and_preserve_absence",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.800001185387373e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_unrecognized_or_unhelpful_shapes_remain_unchanged[None]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0001739000144880265,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_unrecognized_or_unhelpful_shapes_remain_unchanged[None]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 7.339997682720423e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_unrecognized_or_unhelpful_shapes_remain_unchanged[None]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.719997665844858e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_unrecognized_or_unhelpful_shapes_remain_unchanged[value1]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.000169299979461357,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_unrecognized_or_unhelpful_shapes_remain_unchanged[value1]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00012129999231547117,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_unrecognized_or_unhelpful_shapes_remain_unchanged[value1]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.9599983766675e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_unrecognized_or_unhelpful_shapes_remain_unchanged[value2]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00021860000560991466,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_unrecognized_or_unhelpful_shapes_remain_unchanged[value2]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 9.100002353079617e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_unrecognized_or_unhelpful_shapes_remain_unchanged[value2]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.640000644139946e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_unrecognized_or_unhelpful_shapes_remain_unchanged[value3]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00020119998953305185,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_unrecognized_or_unhelpful_shapes_remain_unchanged[value3]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 9.74999857135117e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_unrecognized_or_unhelpful_shapes_remain_unchanged[value3]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.81000014487654e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_unrecognized_or_unhelpful_shapes_remain_unchanged[value4]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00021660001948475838,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_unrecognized_or_unhelpful_shapes_remain_unchanged[value4]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00010699999984353781,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_unrecognized_or_unhelpful_shapes_remain_unchanged[value4]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.659999002702534e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_unrecognized_or_unhelpful_shapes_remain_unchanged[value5]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0001723000023048371,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_unrecognized_or_unhelpful_shapes_remain_unchanged[value5]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0001700000138953328,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_unrecognized_or_unhelpful_shapes_remain_unchanged[value5]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.6399977337569e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_unrecognized_or_unhelpful_shapes_remain_unchanged[value6]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002012000186368823,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_unrecognized_or_unhelpful_shapes_remain_unchanged[value6]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 9.929999941959977e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_unrecognized_or_unhelpful_shapes_remain_unchanged[value6]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.809998351149261e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_encoded_columns_fail_closed[column0]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00017270000535063446,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_encoded_columns_fail_closed[column0]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 8.910000906325877e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_encoded_columns_fail_closed[column0]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.409998215734959e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_encoded_columns_fail_closed[column1]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00016149997827596962,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_encoded_columns_fail_closed[column1]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 8.609998621977866e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_encoded_columns_fail_closed[column1]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.899999036453664e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_encoded_columns_fail_closed[column2]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00019929997506551445,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_encoded_columns_fail_closed[column2]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 7.6299998909235e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_encoded_columns_fail_closed[column2]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.270000060088933e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_encoded_columns_fail_closed[column3]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00016309999045915902,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_encoded_columns_fail_closed[column3]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 6.900000153109431e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_encoded_columns_fail_closed[column3]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.159999222494662e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_encoded_columns_fail_closed[column4]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00017630000365898013,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_encoded_columns_fail_closed[column4]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 7.589999586343765e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_encoded_columns_fail_closed[column4]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.479998748749495e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_encoded_columns_fail_closed[column5]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0001587000151630491,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_encoded_columns_fail_closed[column5]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 7.049998384900391e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_encoded_columns_fail_closed[column5]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.429998368024826e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_encoded_columns_fail_closed[column6]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00015579999308101833,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_encoded_columns_fail_closed[column6]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00015390000771731138,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_encoded_columns_fail_closed[column6]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00010210002074018121,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_encoded_columns_fail_closed[column7]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0001776000135578215,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_encoded_columns_fail_closed[column7]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 8.140000863932073e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_encoded_columns_fail_closed[column7]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.270000060088933e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_encoded_columns_fail_closed[column8]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00017099999240599573,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_encoded_columns_fail_closed[column8]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 8.149998029693961e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_encoded_columns_fail_closed[column8]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.720000576227903e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_decoder_returns_independent_mutable_values",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00013639999087899923,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_decoder_returns_independent_mutable_values",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 7.880001794546843e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_decoder_returns_independent_mutable_values",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 6.970000686123967e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_callback_uses_canonical_text_and_keeps_cost_local",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00013880000915378332,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_callback_uses_canonical_text_and_keeps_cost_local",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.005353799992008135,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_callback_uses_canonical_text_and_keeps_cost_local",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014380001812241971,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_saved_native_column_costs_can_choose_a_different_layout_than_bytes",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00018799997633323073,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_saved_native_column_costs_can_choose_a_different_layout_than_bytes",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0002032000047620386,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_saved_native_column_costs_can_choose_a_different_layout_than_bytes",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.559999357908964e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_token_cost_is_rejected[-1]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00018730000010691583,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_token_cost_is_rejected[-1]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0003116000152658671,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_token_cost_is_rejected[-1]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.19999841041863e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_token_cost_is_rejected[True]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00017109999316744506,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_token_cost_is_rejected[True]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00031450000824406743,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_token_cost_is_rejected[True]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.819999104365706e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_token_cost_is_rejected[1.5]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00019500000053085387,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_token_cost_is_rejected[1.5]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00027859999681822956,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_token_cost_is_rejected[1.5]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.419998968951404e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_token_cost_is_rejected[None]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0001739000144880265,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_token_cost_is_rejected[None]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0002479999966453761,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/pilot_continuation/test_review_encoding.py::test_invalid_token_cost_is_rejected[None]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00015060001169331372,
+      "expected_failure": false,
+      "detail": null
+    }
+  ],
+  "collection_errors": [],
+  "deselected": [],
+  "new_model_calls": 0,
+  "query_encoder_processes": 0,
+  "network_policy": "blocked_in_routine_tests",
+  "fixtures": "authored_public_examples"
+}

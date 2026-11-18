@@ -1,0 +1,217 @@
+{
+  "automatic_scores_changed": false,
+  "best_planner_selected": false,
+  "combined_quality_score": null,
+  "dimension_entries": 800,
+  "independent_teammate_ratings_collected": 0,
+  "missing_entries": 0,
+  "new_local_model_submissions": 0,
+  "new_planner_runs": 0,
+  "not_applicable_entries": 1,
+  "numeric_entries": 799,
+  "original_outcomes_changed": false,
+  "original_two_reviewer_component_completed": false,
+  "passing_threshold": null,
+  "rating_distributions": [
+    {
+      "dimension": "response_suitability",
+      "not_applicable": 0,
+      "planner": 1,
+      "responses": 40,
+      "score_0": 12,
+      "score_1": 24,
+      "score_2": 4
+    },
+    {
+      "dimension": "profile_fit",
+      "not_applicable": 0,
+      "planner": 1,
+      "responses": 40,
+      "score_0": 19,
+      "score_1": 14,
+      "score_2": 7
+    },
+    {
+      "dimension": "practicality_completeness",
+      "not_applicable": 0,
+      "planner": 1,
+      "responses": 40,
+      "score_0": 24,
+      "score_1": 14,
+      "score_2": 2
+    },
+    {
+      "dimension": "evidence_accuracy",
+      "not_applicable": 0,
+      "planner": 1,
+      "responses": 40,
+      "score_0": 26,
+      "score_1": 6,
+      "score_2": 8
+    },
+    {
+      "dimension": "clarity",
+      "not_applicable": 0,
+      "planner": 1,
+      "responses": 40,
+      "score_0": 6,
+      "score_1": 20,
+      "score_2": 14
+    },
+    {
+      "dimension": "response_suitability",
+      "not_applicable": 0,
+      "planner": 2,
+      "responses": 40,
+      "score_0": 15,
+      "score_1": 22,
+      "score_2": 3
+    },
+    {
+      "dimension": "profile_fit",
+      "not_applicable": 0,
+      "planner": 2,
+      "responses": 40,
+      "score_0": 21,
+      "score_1": 16,
+      "score_2": 3
+    },
+    {
+      "dimension": "practicality_completeness",
+      "not_applicable": 0,
+      "planner": 2,
+      "responses": 40,
+      "score_0": 26,
+      "score_1": 12,
+      "score_2": 2
+    },
+    {
+      "dimension": "evidence_accuracy",
+      "not_applicable": 0,
+      "planner": 2,
+      "responses": 40,
+      "score_0": 32,
+      "score_1": 4,
+      "score_2": 4
+    },
+    {
+      "dimension": "clarity",
+      "not_applicable": 0,
+      "planner": 2,
+      "responses": 40,
+      "score_0": 13,
+      "score_1": 17,
+      "score_2": 10
+    },
+    {
+      "dimension": "response_suitability",
+      "not_applicable": 0,
+      "planner": 3,
+      "responses": 40,
+      "score_0": 11,
+      "score_1": 25,
+      "score_2": 4
+    },
+    {
+      "dimension": "profile_fit",
+      "not_applicable": 0,
+      "planner": 3,
+      "responses": 40,
+      "score_0": 19,
+      "score_1": 15,
+      "score_2": 6
+    },
+    {
+      "dimension": "practicality_completeness",
+      "not_applicable": 0,
+      "planner": 3,
+      "responses": 40,
+      "score_0": 27,
+      "score_1": 12,
+      "score_2": 1
+    },
+    {
+      "dimension": "evidence_accuracy",
+      "not_applicable": 0,
+      "planner": 3,
+      "responses": 40,
+      "score_0": 31,
+      "score_1": 3,
+      "score_2": 6
+    },
+    {
+      "dimension": "clarity",
+      "not_applicable": 0,
+      "planner": 3,
+      "responses": 40,
+      "score_0": 6,
+      "score_1": 30,
+      "score_2": 4
+    },
+    {
+      "dimension": "response_suitability",
+      "not_applicable": 0,
+      "planner": 4,
+      "responses": 40,
+      "score_0": 12,
+      "score_1": 26,
+      "score_2": 2
+    },
+    {
+      "dimension": "profile_fit",
+      "not_applicable": 0,
+      "planner": 4,
+      "responses": 40,
+      "score_0": 24,
+      "score_1": 13,
+      "score_2": 3
+    },
+    {
+      "dimension": "practicality_completeness",
+      "not_applicable": 0,
+      "planner": 4,
+      "responses": 40,
+      "score_0": 27,
+      "score_1": 13,
+      "score_2": 0
+    },
+    {
+      "dimension": "evidence_accuracy",
+      "not_applicable": 1,
+      "planner": 4,
+      "responses": 40,
+      "score_0": 33,
+      "score_1": 5,
+      "score_2": 1
+    },
+    {
+      "dimension": "clarity",
+      "not_applicable": 0,
+      "planner": 4,
+      "responses": 40,
+      "score_0": 22,
+      "score_1": 16,
+      "score_2": 2
+    }
+  ],
+  "report_path": "results/team_review/review_1c8c6d51f99740e019ac/team_review.html",
+  "responses_reviewed": 160,
+  "review_folder": "results/team_review/review_1c8c6d51f99740e019ac",
+  "review_id": "1c8c6d51f99740e019ac0877c934c4802f3eecfd22f73ce5fc8e2a2d53e117d1",
+  "review_method": "single_team_authorized_assisted_review",
+  "reviewer_agreement": {
+    "computed": false,
+    "reason": "No two actual independent teammate rating sets were collected."
+  },
+  "sample_composition": {
+    "conflicting_constraints": 5,
+    "feasible": 25,
+    "missing_information": 5,
+    "outside_scope": 5
+  },
+  "schema_version": "step34-team-review-1",
+  "scope": "Fictional benchmark response review; not coaching, clinical validation or proof of training outcomes.",
+  "selected_profiles": 40,
+  "source_manifest_id": "22662ab54985a88db179496fb22ec4e4265d0fc1b58c9fd4c0b1a8e8bfd2d8e4",
+  "status": "supplementary_team_review_complete"
+}

@@ -1,0 +1,4 @@
+route,category,split,population_queries,ranking_selection_denominator,ranking_scored_denominator,empty_relevant_set_queries,pending_judgment_queries,completed_outcomes,failed_outcomes,not_run_outcomes,mean_recall_at_5,mrr_at_5,complete_evidence_scored_denominator,complete_evidence_set_coverage_rate_at_5,all_queries_completed_and_judged,question_families,missing_outcomes,scores_are_heldout_ranking_evidence,used_for_method_selection,ranking_establishes_answerability_or_abstention_accuracy
+semantic,drill_and_resource,held_out,10,10,10,0,0,10,0,0,1.0,0.95,10,1.0,True,5,0,True,False,False
+semantic,guideline_and_qualification,held_out,10,10,10,0,0,10,0,0,1.0,1.0,10,1.0,True,5,0,True,False,False
+semantic,unsupported_by_identified_corpus,held_out,10,4,4,6,0,10,0,0,1.0,1.0,0,,True,5,0,True,False,False

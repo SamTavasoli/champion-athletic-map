@@ -1,0 +1,18 @@
+{
+  "queries": [
+    "Basketball practice; Plan a passing rotation for ever; goals [\"Improve decision-makin; experience {\"experience; equipment [\"Basketball\"]; space none; people unkn",
+    "Youth basketball participation, rest and recovery; age 13; grade 8; commitments [\"practice\"]; request Plan a passing rotation for everyone who will"
+  ],
+  "query_records": [
+    {
+      "query_id": "retrieval-query:6b2feff7ad0378661c095278328bf26d2f0445592df4f25100a6eb6206e17090",
+      "text": "Basketball practice; Plan a passing rotation for ever; goals [\"Improve decision-makin; experience {\"experience; equipment [\"Basketball\"]; space none; people unkn",
+      "text_sha256": "c0233c4093baaadef10d120441fbe9c6e79eee88f3f16ffd5e141b95304b5002"
+    },
+    {
+      "query_id": "retrieval-query:caa6d5aa3e249c0151ab05058076e89a4e9bd4ce369ebed186f5869d73264b34",
+      "text": "Youth basketball participation, rest and recovery; age 13; grade 8; commitments [\"practice\"]; request Plan a passing rotation for everyone who will",
+      "text_sha256": "93155581d3a7bb4365d503b9b12a6bd3d00262cb7c5ff92c0b7ce0438a2e7b2b"
+    }
+  ]
+}

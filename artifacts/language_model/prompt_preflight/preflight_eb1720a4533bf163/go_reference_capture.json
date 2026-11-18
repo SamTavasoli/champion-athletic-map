@@ -1,0 +1,92 @@
+{
+  "cases": [
+    {
+      "case_id": "basic",
+      "rendered": "<|start_header_id|>system<|end_header_id|>\n\nFixture system.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nReturn a JSON object.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+      "rendered_sha256": "359fe9e66abc959b49ae6abffaba9f38a9da278ec240cd8bda6b39bb9a7c2625",
+      "system": "Fixture system.",
+      "user": "Return a JSON object."
+    },
+    {
+      "case_id": "empty_system",
+      "rendered": "<|start_header_id|>user<|end_header_id|>\n\nuser<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+      "rendered_sha256": "536f22125923c709a2c10249158299d069bff7ff24776917150c4595e43c6eed",
+      "system": "",
+      "user": "user"
+    },
+    {
+      "case_id": "both_empty",
+      "rendered": "<|start_header_id|>user<|end_header_id|>\n\n<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+      "rendered_sha256": "1feb15c566386606339dce9a0707f56075e4eebc822373f9597458f781b4696d",
+      "system": "",
+      "user": ""
+    },
+    {
+      "case_id": "whitespace_system",
+      "rendered": "<|start_header_id|>system<|end_header_id|>\n\n \t\n<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nuser<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+      "rendered_sha256": "6cf27c687293ddaef80531950fb52798fa1a85633b6f12502470d07bef3cfa24",
+      "system": " \t\n",
+      "user": "user"
+    },
+    {
+      "case_id": "leading_user_space",
+      "rendered": "<|start_header_id|>system<|end_header_id|>\n\nsystem<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n  user<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+      "rendered_sha256": "716a837bdab880f3ab06bff7445b31b2d722bd6ed2411db3886f776f4367cad4",
+      "system": "system",
+      "user": "  user"
+    },
+    {
+      "case_id": "trailing_system_newline",
+      "rendered": "<|start_header_id|>system<|end_header_id|>\n\nsystem\n<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nuser<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+      "rendered_sha256": "96f63591170cc65c7422202c80d2c653ca72f3cbf7e71530b21d1ee12fa5247c",
+      "system": "system\n",
+      "user": "user"
+    },
+    {
+      "case_id": "trailing_user_newline",
+      "rendered": "<|start_header_id|>system<|end_header_id|>\n\nsystem<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nuser\n\n<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+      "rendered_sha256": "d6ad87a7ff62c4f07a8b16ae08184c4d539d09b0c87eec519b00e74b32280bdf",
+      "system": "system",
+      "user": "user\n\n"
+    },
+    {
+      "case_id": "line_endings",
+      "rendered": "<|start_header_id|>system<|end_header_id|>\n\na\r\nb\r<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nc\r\nd\n<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+      "rendered_sha256": "1b1fb4e836634c6c4d0adde63d782acc65b0b42b02167ee6b92b6a11ca42c4b3",
+      "system": "a\r\nb\r",
+      "user": "c\r\nd\n"
+    },
+    {
+      "case_id": "unicode",
+      "rendered": "<|start_header_id|>system<|end_header_id|>\n\nCafé Ω<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n中文 فارسی 🏀<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+      "rendered_sha256": "c8ee6192e95bca2fc590bc998853bfa7e17f964b2be531f70d64653547c89e76",
+      "system": "Café Ω",
+      "user": "中文 فارسی 🏀"
+    },
+    {
+      "case_id": "literal_go_syntax",
+      "rendered": "<|start_header_id|>system<|end_header_id|>\n\n{{ .System }}<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n{{ $last }} {{ .Content }}<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+      "rendered_sha256": "098235c75d85d05840746005c0b0b0e8dced60f620b244784c928ce0dee3924d",
+      "system": "{{ .System }}",
+      "user": "{{ $last }} {{ .Content }}"
+    },
+    {
+      "case_id": "json_quotes",
+      "rendered": "<|start_header_id|>system<|end_header_id|>\n\n{\"scope\":\"fixture\"}<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n[\"a\",\"b\"]<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+      "rendered_sha256": "f0faf7d14ff9ea6a0958b40c675026eb3514d678399a8f4d82d3da8bc2906705",
+      "system": "{\"scope\":\"fixture\"}",
+      "user": "[\"a\",\"b\"]"
+    },
+    {
+      "case_id": "spacing_preserved",
+      "rendered": "<|start_header_id|>system<|end_header_id|>\n\n  system  <|eot_id|><|start_header_id|>user<|end_header_id|>\n\n\tuser \t<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+      "rendered_sha256": "ba706a095239d7bb623c22134d9a6b1dc8b589bf8d15e3b5743927ea95247766",
+      "system": "  system  ",
+      "user": "\tuser \t"
+    }
+  ],
+  "execution_scope": "Go_standard_library_text_template_only_no_Ollama_requests",
+  "go_version": "go1.25.1",
+  "schema_version": "step24-go-template-reference-capture-1",
+  "template_sha256": "948af2743fc78a328dcb3b0f5a31b3d75f415840fdb699e8b1235978392ecf85"
+}

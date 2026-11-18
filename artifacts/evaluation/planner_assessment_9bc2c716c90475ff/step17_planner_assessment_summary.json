@@ -1,0 +1,39 @@
+{
+  "artifacts": {
+    "planner_assessment_config.json": "e0bbbe4ad5611c3f13e8fd7cebf5ba179c5a0ae2e95ca4d1feee13617444709a",
+    "planner_assessment_policy.py": "4b3be4a66b2439734d2483e1b88794b0222297bc29ced649ce810215bd7419f9",
+    "planner_assessment_probe_checks.csv": "288bc84d25a466565d355e8ce9f9ccfbe005a255671fbb184fc730fb491d3422",
+    "planner_assessment_probes.json": "d738473dfb922f9273fe437c374819b6d8a9debd37d098a66e2d0fbb0fb02aa2"
+  },
+  "artificial_scenarios": 44,
+  "checks_passed": 116,
+  "component_digest": "9bc2c716c90475ff0252e9d2fdfb58f0357a2506e9ccaee44badc173c28c2566",
+  "human_ratings": 0,
+  "input_hashes": {
+    "artifacts/evaluation/classifier_metrics_db3e5f3df78a126c/classifier_metric_config.json": "9c0ff72c83509deac20945d122babde529a17a1e23dcc069804da6e7edbf1116",
+    "artifacts/evaluation/classifier_metrics_db3e5f3df78a126c/classifier_metric_probe_checks.csv": "40d742299ca57f20bf527ba3896eb03e7fa6cdbd3a32b28f087d63a26e27af49",
+    "artifacts/evaluation/classifier_metrics_db3e5f3df78a126c/classifier_metric_probes.json": "6a962b5c9721b16e87f1b551b351144bc5584f3fcd488c1cb6ac6a1ff7fa6604",
+    "artifacts/evaluation/classifier_metrics_db3e5f3df78a126c/classifier_metrics.py": "10b026d0deed9eb674a1a2b194f9523b9445f54e6a139aaca64aae578aa165d6",
+    "artifacts/evaluation/classifier_metrics_db3e5f3df78a126c/step17_classifier_metric_summary.json": "fcc69484579048b344648287334f29d8c364d239f9f422969a453d96bd9292b1",
+    "artifacts/splits/exercise_split_config.json": "1694be410134288b9df58f651f20c9dc19f1a811f338b99e2dffb61ef4829f1a",
+    "data/processed/exercise_groups.csv": "30190adb8245a348a3243fcdff4bc40515cca773e2f874ebab83739f02d9c764",
+    "data/processed/exercise_split_manifest.csv": "c0723b13ce259f964c2c7952b4203edba75a7553146c5bdb4a637ed134a4f5ac",
+    "results/exercise_benchmark_review_decisions.csv": "cfdf0e29094e76fc6400fc12580dfedb7748f1dd85b67968705cd3af85ff32b1",
+    "results/exercise_class_eligibility.csv": "560d130d9aa2c136b552d1dd61735eb448105691c58b7f9729e3cdd6dd8ebeb0",
+    "results/exercise_split_candidates.csv": "d659186e893a9ae7c1f652bbe00f7ce5e30c9afafcd5dd9c091d16972dcd6f02",
+    "results/exercise_split_checks.csv": "eca5e80d470ddf3f8b41b174cb39e5d2f5582e478b672412a5eed29109c83212",
+    "results/exercise_split_summary.csv": "42ed48528dc4be8c7693bd75b9a921ce2fc93c7675db6dd42fdd4fc52bbdbaf2",
+    "results/step15_exercise_split_summary.json": "e3d4f7cf0de057d2d28f74716e03e41a0a4f4f46d75d49f8f3f6b05d0bbe554d"
+  },
+  "planner_jobs": 0,
+  "profiles_accepted": 0,
+  "protocol_ready": false,
+  "recipe_version": "planner-assessment-contract-0.1.0",
+  "response_parser_ready": false,
+  "rules_adopted": 0,
+  "runtime_validator_ready": false,
+  "schema_version": "step17-planner-assessment-producer-1",
+  "status": "planner_policy_calculators_and_artificial_checks_prepared",
+  "study_cases_scored": 0,
+  "study_profiles_read": 0
+}

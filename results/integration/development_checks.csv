@@ -1,0 +1,19 @@
+check,status,detail,evidence
+current_backend_response,pass,returned,results/integration/model_calls/step24_12_calendar_example_07
+current_response_format,pass,plan,results/integration/model_calls/step24_12_calendar_example_07
+current_complete_prompt_budget,pass,Includes reserved output capacity,results/integration/model_calls/step24_12_calendar_example_07
+calendar_request_answered,pass,Seven dates; both supplied practices preserved; no additional activities,results/integration/model_calls/step24_12_calendar_example_07
+version_1_reference_boundary,pass,Reference packet rejected,results/integration/reference_packets/step24_10_example_01.json
+versions_2_4_matched_packet,pass,Identical model-visible reference data,results/integration/reference_packets/step24_10_example_01.json
+saved_references_lookup,pass,found,results/integration/reference_tools/example_722784ccdcf8.json
+saved_food_lookup,pass,found,results/integration/reference_tools/example_722784ccdcf8.json
+saved_drill_availability,pass,not_eligible,results/integration/reference_tools/example_722784ccdcf8.json
+saved_exercise_availability,pass,not_eligible,results/integration/reference_tools/example_722784ccdcf8.json
+saved_rules_availability,pass,unavailable,results/integration/reference_tools/example_722784ccdcf8.json
+earlier_exact_echo_fixture,fail,Original emoji mismatch retained,results/integration/chat_compatibility/checks_38c2bd48e7fdead4/step24_5_chat_measurement_summary.json
+source_approvals_and_rule_adoption,pass,Active approved resource release verified; automatic rule checking remains pending,results/resource_approval_activation_summary.json
+reference_generation_current_configuration,pending,Not established by these development examples,Steps 25–31 and source review
+representative_workflow_capacity,pending,Not established by these development examples,Steps 25–31 and source review
+automatic_rule_checking,pending,Not established by these development examples,Steps 25–31 and source review
+accepted_study_profiles,pending,Not established by these development examples,Steps 25–31 and source review
+operational_generation_readiness,pending,Not established by these development examples,Steps 25–31 and source review

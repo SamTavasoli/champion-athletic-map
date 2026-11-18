@@ -1,0 +1,8 @@
+{
+  "args": [],
+  "kwargs": {
+    "grams": "220",
+    "search_text": "Chicken, broiler or fryers, breast, skinless, boneless, meat only, raw"
+  },
+  "method": "lookup_food"
+}

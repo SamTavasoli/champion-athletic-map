@@ -1,0 +1,82 @@
+{
+  "files": [
+    {
+      "bytes": 10502,
+      "hash_basis": "actual_official_immutable_revision_file_bytes",
+      "relative_path": "README.md",
+      "sha256": "dcd602d2fd35c203a247304a06fec6654a12f7941b739f9221a064fe8dc3b7f0"
+    },
+    {
+      "bytes": 612,
+      "hash_basis": "actual_official_immutable_revision_file_bytes",
+      "relative_path": "config.json",
+      "sha256": "953f9c0d463486b10a6871cc2fd59f223b2c70184f49815e7efbcab5d8908b41"
+    },
+    {
+      "bytes": 116,
+      "hash_basis": "actual_official_immutable_revision_file_bytes",
+      "relative_path": "config_sentence_transformers.json",
+      "sha256": "061ca9d39661d6c6d6de5ba27f79a1cd5770ea247f8d46412a68a498dc5ac9f3"
+    },
+    {
+      "bytes": 53,
+      "hash_basis": "actual_official_immutable_revision_file_bytes",
+      "relative_path": "sentence_bert_config.json",
+      "sha256": "fc1993fde0a95c24ec6c022539d41cf6e2f7c9721e5415d6fb6897472a9cd4b7"
+    },
+    {
+      "bytes": 112,
+      "hash_basis": "actual_official_immutable_revision_file_bytes",
+      "relative_path": "special_tokens_map.json",
+      "sha256": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3"
+    },
+    {
+      "bytes": 350,
+      "hash_basis": "actual_official_immutable_revision_file_bytes",
+      "relative_path": "tokenizer_config.json",
+      "sha256": "acb92769e8195aabd29b7b2137a9e6d6e25c476a4f15aa4355c233426c61576b"
+    },
+    {
+      "bytes": 466247,
+      "hash_basis": "actual_official_immutable_revision_file_bytes",
+      "relative_path": "tokenizer.json",
+      "sha256": "be50c3628f2bf5bb5e3a7f17b1f74611b2561a3a27eeab05e5aa30f411572037"
+    },
+    {
+      "bytes": 231508,
+      "hash_basis": "actual_official_immutable_revision_file_bytes",
+      "relative_path": "vocab.txt",
+      "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3"
+    },
+    {
+      "bytes": 349,
+      "hash_basis": "actual_official_immutable_revision_file_bytes",
+      "relative_path": "modules.json",
+      "sha256": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf"
+    },
+    {
+      "bytes": 190,
+      "hash_basis": "actual_official_immutable_revision_file_bytes",
+      "relative_path": "1_Pooling/config.json",
+      "sha256": "4be450dde3b0273bb9787637cfbd28fe04a7ba6ab9d36ac48e92b11e350ffc23"
+    },
+    {
+      "bytes": 90868376,
+      "hash_basis": "publisher_HF_LFS_sha256_to_verify_after_download",
+      "relative_path": "model.safetensors",
+      "sha256": "53aa51172d142c89d9012cce15ae4d6cc0ca6895895114379cacb4fab128d9db"
+    }
+  ],
+  "license_basis": "README.md front matter at pinned revision; no LICENSE file in repository tree",
+  "license_declared": "apache-2.0",
+  "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+  "max_seq_length": 256,
+  "model_card_url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/blob/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md",
+  "model_max_positions": 512,
+  "output_dimension": 384,
+  "pooling": "attention_masked_mean_then_l2_normalization",
+  "repo_id": "sentence-transformers/all-MiniLM-L6-v2",
+  "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "tokenizer_model_max_length": 512,
+  "tokenizer_normalization": "BertTokenizer config do_lower_case=True; sentence-transformers wrapper do_lower_case=False"
+}

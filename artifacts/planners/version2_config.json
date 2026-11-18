@@ -1,0 +1,66 @@
+{
+  "accepted_study_profiles": 0,
+  "automatic_repairs": 0,
+  "automatic_retries": 0,
+  "baseline_config_sha256": "f7e50a23fdad445695386a0ae6ec5a8949d23961396dcf7db6b2e85f02478ffe",
+  "baseline_workflow_sha256": "029184ef049a87f23cd10b6cd5462ae69e03939495e9eb092495ce36198accb8",
+  "classifier_access": false,
+  "dataset": {
+    "dataset_id": "champions-unified-132a2202b69046ae",
+    "file_sha256": {
+      "READ_ME_FIRST.txt": "780d9adde210fadc443bb70e9fde9b0b278233bee937926d52d6bbd521bd1504",
+      "champions_unified_dataset.csv": "ee8903644570bc158440821e7b307aa6a4c5277b9070c724faf59119848ba625",
+      "dataset_manifest.json": "21e56bbef6151a2aa4cdef4af6aba7a2a156aaf811714198d9afdb5615a06de2",
+      "load_unified_dataset.py": "69af88c450180cc70af260798cb5cb081aee086e2bf79bca06998b13db2b1668"
+    },
+    "relative_directory": "data/unified/v1"
+  },
+  "development_selection": [
+    {
+      "coverage": "ordinary_planning_request",
+      "profile_id": "athlete:3ceae454f8a62ee308cd87f4"
+    },
+    {
+      "coverage": "limited_space_and_resources",
+      "profile_id": "athlete:06265b25ff63c151f6243a9c"
+    },
+    {
+      "coverage": "existing_commitments",
+      "profile_id": "athlete:5dc2a65fa122b86f793a3ca3"
+    },
+    {
+      "coverage": "missing_participant_information",
+      "profile_id": "athlete:5f8b4d8612de86a9d21be839"
+    },
+    {
+      "coverage": "incompatible_time_window",
+      "profile_id": "athlete:636aff70dbda760a15f85e63"
+    },
+    {
+      "coverage": "request_outside_supported_scope",
+      "profile_id": "athlete:b24f2e2a28da05d8a965be44"
+    }
+  ],
+  "generation_budget_per_job": 1,
+  "independent_scoring_available": false,
+  "module_sha256": {
+    "src/champion_athletic_map/planners/rag.py": "70952494958c3f0f2b6b05526aa681e64dad576422de31fd0944cc5c2233ce99",
+    "src/champion_athletic_map/reference_context.py": "e9e7ee5bdd1f2ef28aa3edb03713a1439bc18614a92b88d85c2035552432542c",
+    "src/champion_athletic_map/reference_preparation.py": "50e27d8d5cd84313b1935ae3d6212e90bcb2a83177eab5b4cd1b4e8db788392c",
+    "src/champion_athletic_map/unified_references.py": "ffae57a6981a9e1d42e3d673c085d22656666326e77eb23f82d6fddd6d7ebd9f"
+  },
+  "operational_generation_ready": false,
+  "planner_version": 2,
+  "reference_policy": {
+    "max_packet_tokens": 2200,
+    "max_rule_bundles": 2,
+    "policy_version": "shared-planning-references-1",
+    "source_configuration_sha256": "f50e956ba9b63911b45e4f94926819339edfe1a4afda38d23ae036e3606fecfd"
+  },
+  "reviewer": false,
+  "run_id": "v2-development-8fcd08e449c085b3",
+  "schema_version": "planner-v2-config-1",
+  "shared_instruction_version": "shared-planner-task-1",
+  "shared_instructions_sha256": "0037cf55abb43ec844379773e029e1689bdec47f60100779c1eb3613281fbb22",
+  "specialists": false
+}

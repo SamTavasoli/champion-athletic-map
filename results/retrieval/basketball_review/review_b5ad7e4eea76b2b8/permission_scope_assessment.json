@@ -1,0 +1,112 @@
+{
+  "ai_specific_prohibition_asserted": false,
+  "assessment_id": "basketball-permission-assessment:ad5000e52a82a4bb3be17c2f1b5c5acc83b8cd0bbd1a72ff83143686c0a15679",
+  "categorical_rights_denial": false,
+  "fresh_publisher_verification_on_this_machine": false,
+  "human_review": false,
+  "official_source_observation_record_sha256": "f2a915ab109d8e2370f2e7ea640af1b6fa82eb30c5b07152b1ae5e9e263a1adf",
+  "permission_accepted": false,
+  "permission_may_be_reassessed_with_new_documented_scope_evidence": true,
+  "policy_finding_is_project_scope_documentation_not_legal_advice": true,
+  "policy_section_locators": [
+    "1",
+    "6",
+    "7"
+  ],
+  "policy_url": "https://www.nba.com/termsofuse",
+  "prior_approvals_or_worklists_overwritten": false,
+  "publisher_response_bytes_available_for_local_replay": false,
+  "reason_dictionary": {
+    "R1": "Project corpus permission remains unestablished."
+  },
+  "review_event_basis": "authored_review_of_bound_assistant_url_observations",
+  "review_event_date_utc": "2026-11-12",
+  "reviewed_source_material_copied_into_corpus": false,
+  "reviewer_role": "assistant_documentary_reviewer",
+  "schema_version": "step23-basketball-permission-scope-assessment-1",
+  "scope": "shared_retrieval_corpus_and_delivered_instructional_text",
+  "separate_unadopted_alternative": {
+    "artifact_type": "unadopted_source_research_lead",
+    "book_title": "Ch.1 - Basketball",
+    "book_url": "https://open.online.uga.edu/basketball/",
+    "chapters": [
+      {
+        "api_url": "https://open.online.uga.edu/basketball/wp-json/pressbooks/v2/chapters/63",
+        "chapter_id": 63,
+        "chapter_url": "https://open.online.uga.edu/basketball/chapter/2-fundamentals-passing/",
+        "publisher_modified_gmt": "2020-06-16T18:28:54",
+        "topic": "Passing"
+      },
+      {
+        "api_url": "https://open.online.uga.edu/basketball/wp-json/pressbooks/v2/chapters/65",
+        "chapter_id": 65,
+        "chapter_url": "https://open.online.uga.edu/basketball/chapter/fundamentals-dribbling/",
+        "publisher_modified_gmt": "2020-06-30T14:16:54",
+        "topic": "Dribbling"
+      },
+      {
+        "api_url": "https://open.online.uga.edu/basketball/wp-json/pressbooks/v2/chapters/111",
+        "chapter_id": 111,
+        "chapter_url": "https://open.online.uga.edu/basketball/chapter/fundamentals-shooting/",
+        "publisher_modified_gmt": "2020-06-30T14:15:45",
+        "topic": "Shooting"
+      },
+      {
+        "api_url": "https://open.online.uga.edu/basketball/wp-json/pressbooks/v2/chapters/67",
+        "chapter_id": 67,
+        "chapter_url": "https://open.online.uga.edu/basketball/chapter/4-fundamentals-spacing-rebounding/",
+        "publisher_modified_gmt": "2020-06-30T14:11:53",
+        "topic": "Spacing and Rebounding"
+      },
+      {
+        "api_url": "https://open.online.uga.edu/basketball/wp-json/pressbooks/v2/chapters/29",
+        "chapter_id": 29,
+        "chapter_url": "https://open.online.uga.edu/basketball/chapter/2-basketball-fundamentals-skills-and-techniques/",
+        "publisher_modified_gmt": "2020-06-30T14:12:04",
+        "topic": "Defending"
+      },
+      {
+        "api_url": "https://open.online.uga.edu/basketball/wp-json/pressbooks/v2/chapters/42",
+        "chapter_id": 42,
+        "chapter_url": "https://open.online.uga.edu/basketball/chapter/3-basketball-strategies/",
+        "publisher_modified_gmt": "2020-06-30T14:12:15",
+        "topic": "Strategies"
+      }
+    ],
+    "content_type": "Introductory basketball fundamentals and strategies textbook chapters; not an adopted drill catalog or individual training prescription.",
+    "credited_author": "UGA PEDB Program",
+    "instructional_text_included": false,
+    "license": {
+      "attribution_observation": "Retain supplied creator/copyright/license notices and source link; indicate modifications; do not imply endorsement. Review exact license and chapter exceptions before adoption.",
+      "legal_code_url": "https://creativecommons.org/licenses/by/4.0/legalcode.en",
+      "name": "Creative Commons Attribution 4.0 International",
+      "proposed_scope_for_future_review": "Publisher-authored text only. Embedded Kaltura videos, third-party media, images, logos and linked external articles are not cleared by this research lead.",
+      "publisher_notice_evidence_urls": [
+        "https://open.online.uga.edu/basketball/chapter/2-fundamentals-passing/",
+        "https://open.online.uga.edu/basketball/chapter/fundamentals-dribbling/"
+      ],
+      "publisher_notice_observation": "Passing and Dribbling chapter footers identify Ch.1 - Basketball, copyright by UGA PEDB Program, licensed CC BY 4.0 except where otherwise noted.",
+      "short_name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "observed_date_utc": "2026-11-12",
+    "official_collection_api_url": "https://open.online.uga.edu/basketball/wp-json/pressbooks/v2/chapters?per_page=100",
+    "protected_classifier_text_processed": false,
+    "publisher": "Open UGA, University of Georgia",
+    "review_status": "unadopted_requires_separate_source_version_license_and_context_review",
+    "scope_limitations": [
+      "No UGA source records have been adopted or admitted by this research.",
+      "No human review, planner approval, drill dosage adoption, age-specific applicability finding or benchmark readiness claim is created.",
+      "The general rules/scoring and student-assignment chapters are outside this six-chapter lead."
+    ],
+    "version_limitations": [
+      "API modified_gmt values are publisher metadata observed from an official public endpoint, not independent accuracy or freshness findings.",
+      "No immutable publicly accessible chapter revision URL was verified. Capture exact observed response bytes and hashes if a later stage reviews a version.",
+      "Only Passing and Dribbling current HTML pages were successfully read through the web retrieval tool. Other exact chapter URLs and metadata were verified through the official public chapter collection API; chapter-specific exceptions remain to be reviewed."
+    ]
+  },
+  "source_body_accuracy_assessment_completed": false,
+  "status": "pending_no_express_grant_for_project_corpus_scope",
+  "statutory_exception_assessed": false,
+  "unsigned_imported_observations_are_not_independent_source_authentication": true
+}

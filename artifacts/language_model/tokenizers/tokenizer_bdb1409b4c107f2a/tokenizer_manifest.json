@@ -1,0 +1,26 @@
+{
+  "backend_token_count_agreement_verified": false,
+  "generation_context_budget_verified": false,
+  "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+  "payload_hashes": {
+    "native_tokenizer.py": "e81e857b252f36d4c49395ccc62a5c745cd4b0506db3ee73ecf438d1619829f8",
+    "normal_bpe_tokenizer.json": "7a37cbd1fd0fba86a8f259aa757d400b9cb53947c2cf7311eb705d0b8552eede",
+    "template_inspection.json": "17dd3951ffb0bbb939f0fdffd725508136b825c021eece6712d6720f0d38b193",
+    "tokenizer_checks.csv": "4761c7a28a4ba75803e43b3e31f9d7ac47f4b7e421071948f2bfd7f1ba402764",
+    "tokenizer_contract.json": "94b14c0556287b5e61785fccfeb2aa227dc03abff84b16b33cb502f9276edee2",
+    "verification_cases.jsonl": "2ec6d5d29db6113334e9a03694335f0501ffcd6c014451f599a26cdcffa780a7",
+    "verified_inputs.json": "1170459a1aecd414334ccf833ec70005f90d659bec2fe7e4ab94a648ffa329fb"
+  },
+  "runtime_asset_allowlist": [
+    "native_tokenizer.py",
+    "normal_bpe_tokenizer.json",
+    "tokenizer_contract.json"
+  ],
+  "saved_model_reload_cases_verified": 82,
+  "schema_version": "step24-native-tokenizer-manifest-1",
+  "source_native_metadata": {
+    "relative_path": "results/integration/runtime_candidates/runtime_35c8ad9c5fb6d42d/native_model_metadata.json",
+    "sha256": "01652c777d511b061a59529f2541220da07d4fbe47a53f6d5ec9628460d9d57f"
+  },
+  "tokenizer_candidate_id": "native-generation-tokenizer:bdb1409b4c107f2a68f8573af5ddaa343b903647443f7218765bca2a16e8b46e"
+}

@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Specialist contribution",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "contribution_status": {
+      "type": "string",
+      "enum": [
+        "provided",
+        "limited_information",
+        "outside_scope"
+      ]
+    },
+    "recommendations": {
+      "type": "array",
+      "maxItems": 3,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 260,
+        "pattern": "\\S"
+      }
+    },
+    "evidence_refs": {
+      "type": "array",
+      "maxItems": 6,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 260,
+        "pattern": "\\S"
+      }
+    },
+    "qualifications": {
+      "type": "array",
+      "maxItems": 3,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 260,
+        "pattern": "\\S"
+      }
+    },
+    "unresolved_issues": {
+      "type": "array",
+      "maxItems": 3,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 260,
+        "pattern": "\\S"
+      }
+    },
+    "questions": {
+      "type": "array",
+      "maxItems": 3,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 260,
+        "pattern": "\\S"
+      }
+    },
+    "rationale": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 260,
+      "pattern": "\\S"
+    }
+  },
+  "required": [
+    "contribution_status",
+    "recommendations",
+    "evidence_refs",
+    "qualifications",
+    "unresolved_issues",
+    "questions",
+    "rationale"
+  ]
+}

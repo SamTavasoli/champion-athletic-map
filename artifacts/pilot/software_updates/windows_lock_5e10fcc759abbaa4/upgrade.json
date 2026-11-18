@@ -1,0 +1,17 @@
+{
+  "archived_material": "known_previous_delivered_source",
+  "model_calls_during_upgrade": 0,
+  "reason": "Check lock-file size without reading a Windows-locked byte.",
+  "versions": {
+    "previous": {
+      "docs/development_pilot_batches.md": "b0c38457abb62dc43592c84a426e87608e4cf1b37d0218e828b91d6a6c4e9087",
+      "src/champion_athletic_map/development_pilot.py": "b25f6fad2dc8658b25f4d6d36abfdb876905b33cf0532222920ae0fe93ec90b6",
+      "tests/development_pilot/test_development_pilot.py": "f40b432cb45a2ae2e6d6f038f45985757ad71cdfa89e71281a761a4795616589"
+    },
+    "replacement": {
+      "docs/development_pilot_batches.md": "b0c38457abb62dc43592c84a426e87608e4cf1b37d0218e828b91d6a6c4e9087",
+      "src/champion_athletic_map/development_pilot.py": "955cb180d877f0d8fdbaa8fe55f8662152d6f3e11766b42623bad62317d14229",
+      "tests/development_pilot/test_development_pilot.py": "f1e96fc25d9b96191d9fdbec0932fbb56e23346c9e37526035aa2acb7d46f41c"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "diagnostic_files_are_not_retrieval_or_generation_context": true,
+  "json_escape_spelling_and_key_order_are_compared_after_parsing": true,
+  "max_field_differences_per_case": 32,
+  "model_outputs_repaired": false,
+  "normalization_performed": false,
+  "operational_generation_ready": false,
+  "original_exact_fixture_gate_preserved": true,
+  "raw_responses_and_original_checks_unchanged": true,
+  "schema_version": "step24-response-diagnosis-policy-1",
+  "scope": "offline_saved_software_responses_only",
+  "unicode_names_and_nfc_comparisons_are_diagnostics_only": true
+}

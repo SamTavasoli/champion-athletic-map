@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "passed": 81,
+  "failed": 0,
+  "not_completed": 0,
+  "files": {
+    "src/champion_athletic_map/classifier_test_evaluation.py": "6171284b81f0e19f1fbe0d34c0ffd4b3e101d693debcca24e4be65a77d5c2f6e",
+    "src/champion_athletic_map/classifier_test_reports.py": "a2dba701a2dbf8af933656107533a772413d56e45a2c4875bdf951cbc4af3b9c",
+    "tests/step32/run_evaluation.py": "bbf264b231036060696af61a1c745905c667b9a390b794d95f56738131d6d5cf",
+    "tests/step32/test_classifier_test_evaluation.py": "e6d53c3a2475d4502c189a46fa71e5fdacd6017c300fdf0359af5e8fd555013f",
+    "tests/step32/test_classifier_test_reports.py": "4dddafdeeb35c575e71a15c2e32a75fa2d9534f74bf9f2d95430dede85db6ca5",
+    "tests/conftest.py": "23384a8c053eed32ce719f8584100619cff99ab4fa3503ab4255451e5c638f1d"
+  },
+  "execution_report": "results/classifier_software_checks/591d7004fed6/execution_details.json",
+  "execution_report_sha256": "438367f230e02deba849aa9039be3f6f303266ad6c0ecc8723a207071ebf8ab3"
+}

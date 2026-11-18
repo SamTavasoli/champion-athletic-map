@@ -1,0 +1,37 @@
+{
+  "actual_named_teammate_raters": [],
+  "agreement": {
+    "computed": false,
+    "exact_agreement": null,
+    "reason": "No two actual independent teammate rating sets exist; partitioned work and central quality checks are not independent-rater agreement.",
+    "weighted_kappa": null
+  },
+  "authorization": "Sam explicitly delegated completion of Step 34 and use of tools and online resources.",
+  "calibration_scope": "Frozen authored rubric illustrations were read as guidance. No completed practice session by actual teammate raters is claimed.",
+  "combined_score": null,
+  "confirmatory_independent_review_claimed": false,
+  "executed_method": "One supplementary ChatGPT-assisted review under Sam’s direction, partitioned into six computational work assignments and checked centrally before locking.",
+  "independent_teammate_rating_sets_collected": 0,
+  "masking": "Work assignments received opaque response IDs, public inputs and unchanged replies without planner labels, automated scores, traces or hidden authoring schedules. Central review had earlier unblinded project exposure, so complete blinding is not claimed.",
+  "new_passing_threshold": null,
+  "new_planner_generation_requests": 0,
+  "numeric_scale": [
+    0,
+    1,
+    2
+  ],
+  "original_automatic_metrics_and_outcomes_changed": false,
+  "original_independent_component_completed": false,
+  "original_method": "Two actual teammates independently rate all 160 responses on five dimensions, with reviewer agreement.",
+  "original_pending_rating_forms_changed": false,
+  "original_planned_dimension_entries": 1600,
+  "recorded_on": "2026-11-17",
+  "reference_access": "All 136 adopted activity records, all 29 rule definitions and 20 frozen verified food records. Frozen food arithmetic was crosschecked; underlying full food tables were not reread on this host.",
+  "registered_after_final_results_were_known": true,
+  "rubric_anchors_changed": false,
+  "schema_version": "step34-review-method-amendment-1",
+  "supplementary_dimension_entries": 800,
+  "supplementary_response_reviews": 160,
+  "team_review_label": "Team review",
+  "use": "Descriptive supplementary evidence for later analysis; does not replace the original two-rater evidence or validate real-athlete outcomes."
+}

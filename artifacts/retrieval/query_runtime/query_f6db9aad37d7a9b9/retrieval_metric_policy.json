@@ -1,0 +1,66 @@
+{
+  "actual_benchmark_questions_or_judgments_created_by_policy": 0,
+  "complete_evidence_set_covered_at_5": "Separate from ranking relevance: available only for supported questions with reviewed sufficient sets and a completed ranking; true if any full set is contained in top5.",
+  "cutoff": 5,
+  "empty_completed_ranking": "A completed retrieval returning zero units: Recall and reciprocal rank are zero when R is nonempty.",
+  "empty_relevant_set": {
+    "automatic_zero_or_perfect_score": false,
+    "included_in_ranking_selection_denominator": false,
+    "recall_at_5": null,
+    "reciprocal_rank_at_5": null,
+    "reported_as": "unavailable_empty_relevant_set"
+  },
+  "final_category_consistency": {
+    "positive_categories": "supported with one or more nonempty sufficient evidence sets",
+    "unsupported_by_identified_corpus": "partially_supported or unsupported, with no sufficient full-answer evidence set"
+  },
+  "final_judgment_requirement": "Complete review of the identified corpus, relevance labels, required claims and sufficient evidence sets; IDs alone do not prove semantic review.",
+  "held_out_may_select_method": false,
+  "means_use_unrounded_values": true,
+  "method_selection_rule": [
+    "higher_development_mean_recall_at_5",
+    "higher_development_mrr_at_5_on_exact_tie",
+    "lexical_on_exact_double_tie"
+  ],
+  "no_answer_or_abstention_prediction_scored_here": true,
+  "partial_or_unsupported_full_evidence_coverage": "Unavailable because no reviewed sufficient full-answer set exists; not automatically zero or perfect.",
+  "pending_failed_missing_outcomes": "Unscored and unavailable; never silently dropped to select a method. Selection requires all30 development judgments and both routes'30 completed outcomes.",
+  "planned_category_counts_per_partition": {
+    "drill_and_resource": 10,
+    "guideline_and_qualification": 10,
+    "unsupported_by_identified_corpus": 10
+  },
+  "planned_development_questions": 30,
+  "planned_held_out_questions": 30,
+  "population_counts_and_outcome_counts_may_overlap": true,
+  "query_fields": [
+    "query_id",
+    "split",
+    "category",
+    "judgment_status",
+    "support_status",
+    "relevant_unit_ids",
+    "complete_evidence_sets"
+  ],
+  "question_families_cannot_cross_partitions": true,
+  "ranked_evidence_set_coverage_is_not_verified_generation_context_delivery": true,
+  "ranking_relevance_and_complete_evidence_judgments_separate": true,
+  "recall_at_5": "For a final nonempty relevant-unit set R: |retrieved_top5 intersect R| / |R|.",
+  "reciprocal_rank_at_5": "For a final nonempty R: reciprocal of the first relevant rank within top5; zero if there is no hit.",
+  "result_counts_establish_answerability_or_abstention_accuracy": false,
+  "schema_version": "step23-retrieval-metric-policy-1",
+  "selection_denominator": "All final development questions with nonempty relevant-unit sets, including unsupported-category questions with partial/topic relevance; identical query IDs for both routes.",
+  "semantic_abstention_threshold_adopted": false,
+  "source_disjointness_required": false,
+  "support_statuses": {
+    "partially_supported": "Some required claims have support, but no reviewed set supports the full request.",
+    "pending": "Support review is unfinished; no metric is assigned.",
+    "supported": "At least one reviewed evidence set covers all required claims with the required context.",
+    "unsupported": "No required claim is supported by the identified corpus; topically relevant units may still exist."
+  },
+  "unit_relevance_labels": [
+    "relevant",
+    "not_relevant",
+    "pending"
+  ]
+}

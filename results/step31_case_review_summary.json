@@ -1,0 +1,57 @@
+{
+  "accepted_study_profiles": 0,
+  "adopted_families": 0,
+  "case_review_id": "pilot-case-review:794f10d9d10a5fded6b0ef73930f717c056b212fb6d9cf54f7aaa88841bbe3db",
+  "case_review_type": "assistant_under_Sam_delegated_authority",
+  "complete_resource_checks": "pending",
+  "complete_schedule_fictional_cases": 19,
+  "earlier_results_regraded": false,
+  "http_requests": 0,
+  "human_reviews_claimed": 0,
+  "independent_scoring_ready": false,
+  "model_generation_calls": 0,
+  "next_action": "Run a separately recorded bounded operational probe; resolve retained semantic/resource and human-review requirements before freezing.",
+  "original_inputs_preserved": true,
+  "pilot_jobs_run": 0,
+  "protocol_frozen": false,
+  "public_profiles_versioned": 20,
+  "query_encoder_processes": 0,
+  "review_files": {
+    "artifacts/pilot/case_review_794f10d9d10a5fde/case_review_config.json": "40d84daf4c18ae101d31fbf1cae07a65947ce043876d78f7c7365daaa8e6a99a",
+    "artifacts/pilot/case_review_794f10d9d10a5fde/common_task_addendum.txt": "78c473ace12792d2267a786b7619a9412f8f3b3b81638f18d2801695eea05b09",
+    "artifacts/pilot/case_review_794f10d9d10a5fde/private_case_review.json": "08426cee0967c6b4940afb622de41a7e702c29ca15bb9db42f02029427e8139f",
+    "artifacts/pilot/case_review_794f10d9d10a5fde/public_amendments.json": "5a632a430c86f3ff4aabc6a133046df430815e874f2f1590fedc57f7582f8699",
+    "artifacts/pilot/case_review_794f10d9d10a5fde/public_profile_schema.json": "5b15c04fca2b82ec6473ed62cc1f8bdfef8c7a7ecdd94e19817546b7e1bbe364",
+    "artifacts/pilot/case_review_794f10d9d10a5fde/public_profiles.jsonl": "cd4e04daeabee80f17cd1625c28b413ee110510c44211dc0680058ab3193b92c"
+  },
+  "reviewed_cases": 20,
+  "schedule_check_software_version": "pilot-schedule-checks-2",
+  "schema_version": "pilot-case-review-1",
+  "software_evidence": {
+    "files": {
+      "results/pilot/case_review_tests/2b89b2ce3ef9/execution_details.json": "f9ccd31ece1b55aaf1459b7ae952a2537ae01bfe4d866f44208bb0bccfde1d82",
+      "results/pilot/case_review_tests/2b89b2ce3ef9/pytest_output.log": "86130f276955056c1817fd1ea1f9b1598f52f237c829e89ec9e084a46d3c49a3",
+      "results/pilot/case_review_tests/2b89b2ce3ef9/test_report.xml": "a233668d05d66f15acfbc5e965918149357e179844aa59dd069dded4420def1d",
+      "tests/pilot_case_review/test_pilot_case_review.py": "92938fab828e3255b4f5e45cf8e23bc2b1009bf9ca89de780f5313b78ea7ef86",
+      "tests/pilot_case_review/test_pilot_schedule.py": "5f03c3c2275c283c39560f11e2720098bb5348ffc1bf8d70817f7f46b805dfb2"
+    },
+    "passed": 38,
+    "status": "passed"
+  },
+  "source_preparation_id": "pilot-preparation:801c320ae09420e97281e2dbabeb7c8e8ddf919230624b5cc41a86c6e583b3f6",
+  "source_preparation_summary_sha256": "27e77797e491b9e2c084b5105dbab4c17fe399c08cdf05293612451324fa624f",
+  "status": "development_cases_reviewed_with_retained_limitations",
+  "unknown_existing_schedule_cases": 1,
+  "unresolved_feasibility_witness_ids": [
+    "athlete:7908460d199794b98ef5a444",
+    "athlete:3ceae454f8a62ee308cd87f4",
+    "athlete:5dc2a65fa122b86f793a3ca3",
+    "athlete:a2e5c1cf98a80daaea8da243",
+    "athlete:98b22068f2e17e075063759c",
+    "athlete:39baf7f3bdca5662874c308a",
+    "athlete:46a43835d1a3112756ee7181",
+    "athlete:1dbd51c54e923c1f7e46650b",
+    "athlete:787c15fd9dee34ad1e30f670",
+    "athlete:06265b25ff63c151f6243a9c"
+  ]
+}

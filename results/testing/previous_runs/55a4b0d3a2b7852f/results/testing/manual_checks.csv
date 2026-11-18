@@ -1,0 +1,9 @@
+check,result,evidence_type,evidence,notes
+saved_example_load,passed,user_report_in_chat,"Step 29 discussion, 2026-11-14",Local app opened and showed a fictional profile and saved response.
+saved_time_and_duration_edit,passed,user_report_in_chat,"Step 29 discussion, 2026-11-14",Edited values appeared in Saved response.
+progress_update,passed,user_report_and_screenshot,Step 29 screenshot image(20261115-010334).png,"One completed, two pending, zero skipped."
+unchanged_completed_session_retained,passed,user_report_in_chat,"Step 29 discussion, 2026-11-14",Editing a different session retained the completed status.
+json_download_restore,passed,user_report_in_chat,"Step 29 discussion, 2026-11-14",Restored edited time and completed status remained visible.
+csv_content_inspection,pending,not_reported,,Download was requested; opening and checking CSV cells was not confirmed.
+browser_connection_reset_restore,pending,not_executed,,Real browser reconnection behavior has not been checked.
+separate_real_browser_sessions,pending,not_executed,,Automated AppTest isolation is separate from two actual browser sessions.

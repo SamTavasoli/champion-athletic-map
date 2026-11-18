@@ -1,0 +1,81 @@
+{
+  "args": [
+    {
+      "answerability_established_by_score": false,
+      "complete_required_delivery_text": "Youth activity intensity and the talk test\n\nFor children and adolescents aged 6–17, CDC describes the talk test as a general way to interpret activity intensity: moderate effort permits talking but not singing, while vigorous effort permits only a few words before a pause for breath. It notes that bicycling or basketball may occur at either intensity, so a sport's name alone does not determine the effort. Activities should be enjoyable, safe and appropriate for age and skill.\n\nA general intensity description within youth physical-activity guidance, not a clinical test, a numeric heart-rate cutoff or a universal classification of every basketball session. It does not establish individual readiness or planner eligibility.\n\nSelected CDC factual text was paraphrased and shortened; substantive meaning and the listed scope qualifications are retained.\n\nSource: Centers for Disease Control and Prevention (CDC), What Counts for Children and Teens.\n\nUse of CDC information and links does not imply endorsement by the United States Government, HHS, CDC, or ATSDR.\n\nPreserve the source's substantive meaning and all stated scope qualifications. A general intensity description within youth physical-activity guidance, not a clinical test, a numeric heart-rate cutoff or a universal classification of every basketball session. It does not establish individual readiness or planner eligibility.\n\nThe underlying CDC material is freely available on the agency website: https://www.cdc.gov/physical-activity-basics/adding-children-adolescents/what-counts.html.\n\nCDC permitted-use policy: https://www.cdc.gov/other/agencymaterials.html",
+      "generation_context_budget_verified": false,
+      "passage_id": "additional-cdc-retrieval-passage:629f87cc13372bf8d4177f8095eb7e57ed8fba4611c254b0f133665c79a88e40",
+      "rank": 2,
+      "reference_unit_id": "cdc-scoped-reference-unit:71f1674d3449800f478836ec8c7fb6b5e73f8ddc94654d6822d9275f4c15f3b8",
+      "required_delivery_must_be_attached": true,
+      "required_delivery_record": {
+        "200_token_encoder_core_cap_applies_to_this_delivery": false,
+        "delivery_bundle_id": "additional-cdc-passage-delivery:5e4e3c8fff8ea3cbed10fd4d465970c6009d2d0e0a124ddf1d1c90fb6ee94f12",
+        "delivery_is_not_used_as_embedding_passage": true,
+        "display_text": "Youth activity intensity and the talk test\n\nFor children and adolescents aged 6–17, CDC describes the talk test as a general way to interpret activity intensity: moderate effort permits talking but not singing, while vigorous effort permits only a few words before a pause for breath. It notes that bicycling or basketball may occur at either intensity, so a sport's name alone does not determine the effort. Activities should be enjoyable, safe and appropriate for age and skill.\n\nA general intensity description within youth physical-activity guidance, not a clinical test, a numeric heart-rate cutoff or a universal classification of every basketball session. It does not establish individual readiness or planner eligibility.\n\nSelected CDC factual text was paraphrased and shortened; substantive meaning and the listed scope qualifications are retained.\n\nSource: Centers for Disease Control and Prevention (CDC), What Counts for Children and Teens.\n\nUse of CDC information and links does not imply endorsement by the United States Government, HHS, CDC, or ATSDR.\n\nPreserve the source's substantive meaning and all stated scope qualifications. A general intensity description within youth physical-activity guidance, not a clinical test, a numeric heart-rate cutoff or a universal classification of every basketball session. It does not establish individual readiness or planner eligibility.\n\nThe underlying CDC material is freely available on the agency website: https://www.cdc.gov/physical-activity-basics/adding-children-adolescents/what-counts.html.\n\nCDC permitted-use policy: https://www.cdc.gov/other/agencymaterials.html",
+        "display_text_sha256": "b833b8ad00cea39f15de8d4aaf2f5e2be344e9218de40e9fcc1cf2257bc33b11",
+        "full_text_measured_without_truncation": true,
+        "generation_model_tokenizer_or_prompt_budget_verified": false,
+        "minilm_encoded_token_ids_sha256": "bd9ca8e0bfada9e3416b85b2a09b86e1c91c35eb039fc816be66db41c272af0c",
+        "minilm_encoded_tokens_including_specials": 325,
+        "passage_id": "additional-cdc-retrieval-passage:629f87cc13372bf8d4177f8095eb7e57ed8fba4611c254b0f133665c79a88e40",
+        "reference_unit_id": "cdc-scoped-reference-unit:71f1674d3449800f478836ec8c7fb6b5e73f8ddc94654d6822d9275f4c15f3b8",
+        "required_context_and_usage_credit_are_indivisible": true,
+        "schema_version": "step23-additional-cdc-token-budgeted-delivery-1",
+        "source_delivery_bundle": {
+          "delivery_bundle_id": "cdc-required-delivery:2aedbe70337199dd41e4ba3e7995ee323009c93d181041b1e7b950da3e3e9759",
+          "delivery_must_remain_indivisible": true,
+          "display_text": "Youth activity intensity and the talk test\n\nFor children and adolescents aged 6–17, CDC describes the talk test as a general way to interpret activity intensity: moderate effort permits talking but not singing, while vigorous effort permits only a few words before a pause for breath. It notes that bicycling or basketball may occur at either intensity, so a sport's name alone does not determine the effort. Activities should be enjoyable, safe and appropriate for age and skill.\n\nA general intensity description within youth physical-activity guidance, not a clinical test, a numeric heart-rate cutoff or a universal classification of every basketball session. It does not establish individual readiness or planner eligibility.\n\nSelected CDC factual text was paraphrased and shortened; substantive meaning and the listed scope qualifications are retained.\n\nSource: Centers for Disease Control and Prevention (CDC), What Counts for Children and Teens.\n\nUse of CDC information and links does not imply endorsement by the United States Government, HHS, CDC, or ATSDR.\n\nPreserve the source's substantive meaning and all stated scope qualifications. A general intensity description within youth physical-activity guidance, not a clinical test, a numeric heart-rate cutoff or a universal classification of every basketball session. It does not establish individual readiness or planner eligibility.\n\nThe underlying CDC material is freely available on the agency website: https://www.cdc.gov/physical-activity-basics/adding-children-adolescents/what-counts.html.\n\nCDC permitted-use policy: https://www.cdc.gov/other/agencymaterials.html",
+          "display_text_sha256": "b833b8ad00cea39f15de8d4aaf2f5e2be344e9218de40e9fcc1cf2257bc33b11",
+          "does_not_grant_planner_eligibility": true,
+          "generation_model_token_budget_verified": false,
+          "modification_notice": "Selected CDC factual text was paraphrased and shortened; substantive meaning and the listed scope qualifications are retained.",
+          "not_embedding_passage_text": true,
+          "permission_assessment_id": "cdc-scoped-permission:4f507234d44ad06f5bad1c3eba3a57c7562e0da38540a8c271618ed47d64e4ec",
+          "permission_record_sha256": "55bfba4efb3a3c8af08ea25cab6c6ca086daec931731532dcada1920a6c1c1fe",
+          "prominent_nonendorsement_required": true,
+          "publisher_policy_url": "https://www.cdc.gov/other/agencymaterials.html",
+          "reference_core_may_be_delivered_without_companion": false,
+          "reference_text": "For children and adolescents aged 6–17, CDC describes the talk test as a general way to interpret activity intensity: moderate effort permits talking but not singing, while vigorous effort permits only a few words before a pause for breath. It notes that bicycling or basketball may occur at either intensity, so a sport's name alone does not determine the effort. Activities should be enjoyable, safe and appropriate for age and skill.",
+          "reference_unit_id": "cdc-scoped-reference-unit:71f1674d3449800f478836ec8c7fb6b5e73f8ddc94654d6822d9275f4c15f3b8",
+          "reference_unit_record_sha256": "555a2c0e87f8298d60668341ef27e08a131eeefe026d7b76dbf4d9d4aef7a60e",
+          "required_context": "A general intensity description within youth physical-activity guidance, not a clinical test, a numeric heart-rate cutoff or a universal classification of every basketball session. It does not establish individual readiness or planner eligibility.",
+          "required_notices": [
+            {
+              "notice_kind": "publisher_credit",
+              "text": "Source: Centers for Disease Control and Prevention (CDC), What Counts for Children and Teens."
+            },
+            {
+              "notice_kind": "prominent_nonendorsement",
+              "text": "Use of CDC information and links does not imply endorsement by the United States Government, HHS, CDC, or ATSDR."
+            },
+            {
+              "notice_kind": "unchanged_substantive_meaning",
+              "text": "Preserve the source's substantive meaning and all stated scope qualifications. A general intensity description within youth physical-activity guidance, not a clinical test, a numeric heart-rate cutoff or a universal classification of every basketball session. It does not establish individual readiness or planner eligibility."
+            },
+            {
+              "notice_kind": "free_availability",
+              "text": "The underlying CDC material is freely available on the agency website: https://www.cdc.gov/physical-activity-basics/adding-children-adolescents/what-counts.html."
+            }
+          ],
+          "schema_version": "step23-cdc-required-delivery-bundle-1",
+          "scope": "US_internal_educational_and_academic_research_text_only",
+          "source_context_required": true,
+          "source_url": "https://www.cdc.gov/physical-activity-basics/adding-children-adolescents/what-counts.html",
+          "source_version_id": "cdc-content-source-version:1f821a153e6ff49918afd87c57ec0d0b77b93fc4354bf46b94280e57f9025064",
+          "source_version_record_sha256": "152a88b9979022ad2671c14b5a68180f70a239d9ff91ccf12b7c25553f83b332",
+          "title": "Youth activity intensity and the talk test",
+          "token_count": null
+        },
+        "source_delivery_bundle_id": "cdc-required-delivery:2aedbe70337199dd41e4ba3e7995ee323009c93d181041b1e7b950da3e3e9759",
+        "source_delivery_record_sha256": "6c2b62a7874e5f5240cb4e433bdcbd9e909c5f93005a156e9dcc0c063bbe4082",
+        "source_unit_record_sha256": "555a2c0e87f8298d60668341ef27e08a131eeefe026d7b76dbf4d9d4aef7a60e"
+      },
+      "score": 0.4989420712550753,
+      "score_kind": "embedding_cosine",
+      "standalone_core_delivery_allowed": false
+    }
+  ],
+  "kwargs": {},
+  "method": "complete_reference"
+}

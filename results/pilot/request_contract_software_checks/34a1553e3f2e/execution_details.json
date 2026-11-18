@@ -1,0 +1,1068 @@
+{
+  "schema_version": "step30-pytest-execution-1",
+  "pytest_exit_code": 0,
+  "collected": [
+    {
+      "test_id": "tests/request_contracts/test_contract_preparation.py::test_verified_reply_loader_binds_all_nine_sources_without_changing_them",
+      "requirement": "31:saved-response-contract-preparation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/request_contracts/test_contract_preparation.py:71",
+      "description": "test_verified_reply_loader_binds_all_nine_sources_without_changing_them"
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_preparation.py::test_changed_designated_outcome_file_or_job_seal_is_rejected_and_preserved[designated_object]",
+      "requirement": "31:saved-response-contract-preparation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/request_contracts/test_contract_preparation.py:83",
+      "description": "test_changed_designated_outcome_file_or_job_seal_is_rejected_and_preserved[designated_object]"
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_preparation.py::test_changed_designated_outcome_file_or_job_seal_is_rejected_and_preserved[raw_file_hash]",
+      "requirement": "31:saved-response-contract-preparation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/request_contracts/test_contract_preparation.py:83",
+      "description": "test_changed_designated_outcome_file_or_job_seal_is_rejected_and_preserved[raw_file_hash]"
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_preparation.py::test_changed_designated_outcome_file_or_job_seal_is_rejected_and_preserved[job_seal]",
+      "requirement": "31:saved-response-contract-preparation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/request_contracts/test_contract_preparation.py:83",
+      "description": "test_changed_designated_outcome_file_or_job_seal_is_rejected_and_preserved[job_seal]"
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_preparation.py::test_a_resealed_changed_public_input_is_still_rejected_against_other_jobs",
+      "requirement": "31:saved-response-contract-preparation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/request_contracts/test_contract_preparation.py:103",
+      "description": "test_a_resealed_changed_public_input_is_still_rejected_against_other_jobs"
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_preparation.py::test_a_resealed_changed_reference_packet_is_rejected_against_matched_jobs",
+      "requirement": "31:saved-response-contract-preparation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/request_contracts/test_contract_preparation.py:123",
+      "description": "test_a_resealed_changed_reference_packet_is_rejected_against_matched_jobs"
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_preparation.py::test_missing_or_duplicated_planner_report_cannot_supply_complete_review[missing]",
+      "requirement": "31:saved-response-contract-preparation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/request_contracts/test_contract_preparation.py:134",
+      "description": "test_missing_or_duplicated_planner_report_cannot_supply_complete_review[missing]"
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_preparation.py::test_missing_or_duplicated_planner_report_cannot_supply_complete_review[duplicate]",
+      "requirement": "31:saved-response-contract-preparation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/request_contracts/test_contract_preparation.py:134",
+      "description": "test_missing_or_duplicated_planner_report_cannot_supply_complete_review[duplicate]"
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_runtime.py::test_four_contracts_six_instructions_and_late_format_guidance_are_consistent",
+      "requirement": "31:request-contract-runtime",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/request_contracts/test_contract_runtime.py:153",
+      "description": "test_four_contracts_six_instructions_and_late_format_guidance_are_consistent"
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_runtime.py::test_food_generate_and_preview_use_same_stricter_local_schema",
+      "requirement": "31:request-contract-runtime",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/request_contracts/test_contract_runtime.py:171",
+      "description": "test_food_generate_and_preview_use_same_stricter_local_schema"
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_runtime.py::test_role_inventory_evaluator_encoding_training_and_limits_are_preserved",
+      "requirement": "31:request-contract-runtime",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/request_contracts/test_contract_runtime.py:191",
+      "description": "test_role_inventory_evaluator_encoding_training_and_limits_are_preserved"
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_runtime.py::test_new_policy_is_stable_across_nested_construction_observations",
+      "requirement": "31:request-contract-runtime",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/request_contracts/test_contract_runtime.py:210",
+      "description": "test_new_policy_is_stable_across_nested_construction_observations"
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_runtime.py::test_bound_public_guard_rejects_new_case_for_all_clients_and_roles",
+      "requirement": "31:request-contract-runtime",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/request_contracts/test_contract_runtime.py:223",
+      "description": "test_bound_public_guard_rejects_new_case_for_all_clients_and_roles"
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_runtime.py::test_source_files_and_original_contract_objects_are_unchanged",
+      "requirement": "31:request-contract-runtime",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/request_contracts/test_contract_runtime.py:240",
+      "description": "test_source_files_and_original_contract_objects_are_unchanged"
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_runtime.py::test_changed_graph_or_late_guidance_rejected_before_mutation[late_format]",
+      "requirement": "31:request-contract-runtime",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/request_contracts/test_contract_runtime.py:252",
+      "description": "test_changed_graph_or_late_guidance_rejected_before_mutation[late_format]"
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_runtime.py::test_changed_graph_or_late_guidance_rejected_before_mutation[role_adapter]",
+      "requirement": "31:request-contract-runtime",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/request_contracts/test_contract_runtime.py:252",
+      "description": "test_changed_graph_or_late_guidance_rejected_before_mutation[role_adapter]"
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_runtime.py::test_changed_graph_or_late_guidance_rejected_before_mutation[inventory]",
+      "requirement": "31:request-contract-runtime",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/request_contracts/test_contract_runtime.py:252",
+      "description": "test_changed_graph_or_late_guidance_rejected_before_mutation[inventory]"
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_runtime.py::test_changed_graph_or_late_guidance_rejected_before_mutation[note_schema]",
+      "requirement": "31:request-contract-runtime",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/request_contracts/test_contract_runtime.py:252",
+      "description": "test_changed_graph_or_late_guidance_rejected_before_mutation[note_schema]"
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_original_inputs_remain_unchanged_and_outputs_have_independent_copies",
+      "requirement": "31:request-specific-structural-contracts",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/request_contracts/test_request_contracts.py:60",
+      "description": "test_original_inputs_remain_unchanged_and_outputs_have_independent_copies"
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_all_response_variants_require_early_food_content_but_allow_honest_unknown[plan]",
+      "requirement": "31:request-specific-structural-contracts",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/request_contracts/test_request_contracts.py:68",
+      "description": "test_all_response_variants_require_early_food_content_but_allow_honest_unknown[plan]"
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_all_response_variants_require_early_food_content_but_allow_honest_unknown[clarification]",
+      "requirement": "31:request-specific-structural-contracts",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/request_contracts/test_request_contracts.py:68",
+      "description": "test_all_response_variants_require_early_food_content_but_allow_honest_unknown[clarification]"
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_all_response_variants_require_early_food_content_but_allow_honest_unknown[constraint_conflict]",
+      "requirement": "31:request-specific-structural-contracts",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/request_contracts/test_request_contracts.py:68",
+      "description": "test_all_response_variants_require_early_food_content_but_allow_honest_unknown[constraint_conflict]"
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_all_response_variants_require_early_food_content_but_allow_honest_unknown[outside_scope]",
+      "requirement": "31:request-specific-structural-contracts",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/request_contracts/test_request_contracts.py:68",
+      "description": "test_all_response_variants_require_early_food_content_but_allow_honest_unknown[outside_scope]"
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_no_food_question_keeps_food_optional_without_inventing_content",
+      "requirement": "31:request-specific-structural-contracts",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/request_contracts/test_request_contracts.py:87",
+      "description": "test_no_food_question_keeps_food_optional_without_inventing_content"
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_a_provided_food_note_needs_substantive_content_and_not_just_rationale",
+      "requirement": "31:request-specific-structural-contracts",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/request_contracts/test_request_contracts.py:97",
+      "description": "test_a_provided_food_note_needs_substantive_content_and_not_just_rationale"
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_unavailable_food_contribution_needs_a_specific_issue[limited_information]",
+      "requirement": "31:request-specific-structural-contracts",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/request_contracts/test_request_contracts.py:110",
+      "description": "test_unavailable_food_contribution_needs_a_specific_issue[limited_information]"
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_unavailable_food_contribution_needs_a_specific_issue[outside_scope]",
+      "requirement": "31:request-specific-structural-contracts",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/request_contracts/test_request_contracts.py:110",
+      "description": "test_unavailable_food_contribution_needs_a_specific_issue[outside_scope]"
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_native_window_is_fixed_and_each_day_uses_the_supplied_date_set",
+      "requirement": "31:request-specific-structural-contracts",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/request_contracts/test_request_contracts.py:120",
+      "description": "test_native_window_is_fixed_and_each_day_uses_the_supplied_date_set"
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_local_exact_calendar_retains_original_day_constraints",
+      "requirement": "31:request-specific-structural-contracts",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/request_contracts/test_request_contracts.py:142",
+      "description": "test_local_exact_calendar_retains_original_day_constraints"
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_different_public_week_changes_contract_values_and_identity_without_food_truth",
+      "requirement": "31:request-specific-structural-contracts",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/request_contracts/test_request_contracts.py:152",
+      "description": "test_different_public_week_changes_contract_values_and_identity_without_food_truth"
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_native_contract_adds_only_supported_scalar_array_constraints",
+      "requirement": "31:request-specific-structural-contracts",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/request_contracts/test_request_contracts.py:166",
+      "description": "test_native_contract_adds_only_supported_scalar_array_constraints"
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_changed_schema_or_window_shape_is_rejected[bad_week]",
+      "requirement": "31:request-specific-structural-contracts",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/request_contracts/test_request_contracts.py:184",
+      "description": "test_changed_schema_or_window_shape_is_rejected[bad_week]"
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_changed_schema_or_window_shape_is_rejected[bad_native]",
+      "requirement": "31:request-specific-structural-contracts",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/request_contracts/test_request_contracts.py:184",
+      "description": "test_changed_schema_or_window_shape_is_rejected[bad_native]"
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_changed_schema_or_window_shape_is_rejected[bad_note]",
+      "requirement": "31:request-specific-structural-contracts",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/request_contracts/test_request_contracts.py:184",
+      "description": "test_changed_schema_or_window_shape_is_rejected[bad_note]"
+    }
+  ],
+  "phases": [
+    {
+      "test_id": "tests/request_contracts/test_contract_preparation.py::test_verified_reply_loader_binds_all_nine_sources_without_changing_them",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.02888560004066676,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_preparation.py::test_verified_reply_loader_binds_all_nine_sources_without_changing_them",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.03275549999671057,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_preparation.py::test_verified_reply_loader_binds_all_nine_sources_without_changing_them",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00016820000018924475,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_preparation.py::test_changed_designated_outcome_file_or_job_seal_is_rejected_and_preserved[designated_object]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00974449998466298,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_preparation.py::test_changed_designated_outcome_file_or_job_seal_is_rejected_and_preserved[designated_object]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.014486400003079325,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_preparation.py::test_changed_designated_outcome_file_or_job_seal_is_rejected_and_preserved[designated_object]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0002033999771811068,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_preparation.py::test_changed_designated_outcome_file_or_job_seal_is_rejected_and_preserved[raw_file_hash]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.008604799979366362,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_preparation.py::test_changed_designated_outcome_file_or_job_seal_is_rejected_and_preserved[raw_file_hash]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.016012499982025474,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_preparation.py::test_changed_designated_outcome_file_or_job_seal_is_rejected_and_preserved[raw_file_hash]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.000139000010676682,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_preparation.py::test_changed_designated_outcome_file_or_job_seal_is_rejected_and_preserved[job_seal]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.008923000015784055,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_preparation.py::test_changed_designated_outcome_file_or_job_seal_is_rejected_and_preserved[job_seal]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.012236999988090247,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_preparation.py::test_changed_designated_outcome_file_or_job_seal_is_rejected_and_preserved[job_seal]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001306000049225986,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_preparation.py::test_a_resealed_changed_public_input_is_still_rejected_against_other_jobs",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0090718999854289,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_preparation.py::test_a_resealed_changed_public_input_is_still_rejected_against_other_jobs",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.023222000047098845,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_preparation.py::test_a_resealed_changed_public_input_is_still_rejected_against_other_jobs",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014519999967887998,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_preparation.py::test_a_resealed_changed_reference_packet_is_rejected_against_matched_jobs",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.008849999983794987,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_preparation.py::test_a_resealed_changed_reference_packet_is_rejected_against_matched_jobs",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.013206199975684285,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_preparation.py::test_a_resealed_changed_reference_packet_is_rejected_against_matched_jobs",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001294999965466559,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_preparation.py::test_missing_or_duplicated_planner_report_cannot_supply_complete_review[missing]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.008168700034730136,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_preparation.py::test_missing_or_duplicated_planner_report_cannot_supply_complete_review[missing]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.01112099998863414,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_preparation.py::test_missing_or_duplicated_planner_report_cannot_supply_complete_review[missing]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00012689997674897313,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_preparation.py::test_missing_or_duplicated_planner_report_cannot_supply_complete_review[duplicate]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.007936000009067357,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_preparation.py::test_missing_or_duplicated_planner_report_cannot_supply_complete_review[duplicate]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.011184300004970282,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_preparation.py::test_missing_or_duplicated_planner_report_cannot_supply_complete_review[duplicate]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013070000568404794,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_runtime.py::test_four_contracts_six_instructions_and_late_format_guidance_are_consistent",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0026898999931290746,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_runtime.py::test_four_contracts_six_instructions_and_late_format_guidance_are_consistent",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.03779169998597354,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_runtime.py::test_four_contracts_six_instructions_and_late_format_guidance_are_consistent",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00011480000102892518,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_runtime.py::test_food_generate_and_preview_use_same_stricter_local_schema",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00330689997645095,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_runtime.py::test_food_generate_and_preview_use_same_stricter_local_schema",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.03192400000989437,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_runtime.py::test_food_generate_and_preview_use_same_stricter_local_schema",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001748999929986894,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_runtime.py::test_role_inventory_evaluator_encoding_training_and_limits_are_preserved",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0022689999896101654,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_runtime.py::test_role_inventory_evaluator_encoding_training_and_limits_are_preserved",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.02689720003399998,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_runtime.py::test_role_inventory_evaluator_encoding_training_and_limits_are_preserved",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00012509996304288507,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_runtime.py::test_new_policy_is_stable_across_nested_construction_observations",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00257939996663481,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_runtime.py::test_new_policy_is_stable_across_nested_construction_observations",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.04363790003117174,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_runtime.py::test_new_policy_is_stable_across_nested_construction_observations",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001370999962091446,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_runtime.py::test_bound_public_guard_rejects_new_case_for_all_clients_and_roles",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.002274800033774227,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_runtime.py::test_bound_public_guard_rejects_new_case_for_all_clients_and_roles",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.028056400013156235,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_runtime.py::test_bound_public_guard_rejects_new_case_for_all_clients_and_roles",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001357999863103032,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_runtime.py::test_source_files_and_original_contract_objects_are_unchanged",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0022736999671906233,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_runtime.py::test_source_files_and_original_contract_objects_are_unchanged",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.02926929999375716,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_runtime.py::test_source_files_and_original_contract_objects_are_unchanged",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001241000136360526,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_runtime.py::test_changed_graph_or_late_guidance_rejected_before_mutation[late_format]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.002200899994932115,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_runtime.py::test_changed_graph_or_late_guidance_rejected_before_mutation[late_format]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.024373099964577705,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_runtime.py::test_changed_graph_or_late_guidance_rejected_before_mutation[late_format]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013749999925494194,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_runtime.py::test_changed_graph_or_late_guidance_rejected_before_mutation[role_adapter]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.002562599955126643,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_runtime.py::test_changed_graph_or_late_guidance_rejected_before_mutation[role_adapter]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.024885799968615174,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_runtime.py::test_changed_graph_or_late_guidance_rejected_before_mutation[role_adapter]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001295000547543168,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_runtime.py::test_changed_graph_or_late_guidance_rejected_before_mutation[inventory]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.002410900022368878,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_runtime.py::test_changed_graph_or_late_guidance_rejected_before_mutation[inventory]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.019871700031217188,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_runtime.py::test_changed_graph_or_late_guidance_rejected_before_mutation[inventory]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001333000254817307,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_runtime.py::test_changed_graph_or_late_guidance_rejected_before_mutation[note_schema]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.002167399972677231,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_runtime.py::test_changed_graph_or_late_guidance_rejected_before_mutation[note_schema]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.02095720003126189,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_contract_runtime.py::test_changed_graph_or_late_guidance_rejected_before_mutation[note_schema]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013479997869580984,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_original_inputs_remain_unchanged_and_outputs_have_independent_copies",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00019810005323961377,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_original_inputs_remain_unchanged_and_outputs_have_independent_copies",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0024911999935284257,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_original_inputs_remain_unchanged_and_outputs_have_independent_copies",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.059999138116837e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_all_response_variants_require_early_food_content_but_allow_honest_unknown[plan]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00020100001711398363,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_all_response_variants_require_early_food_content_but_allow_honest_unknown[plan]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.5449434000183828,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_all_response_variants_require_early_food_content_but_allow_honest_unknown[plan]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013449997641146183,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_all_response_variants_require_early_food_content_but_allow_honest_unknown[clarification]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00023910001618787646,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_all_response_variants_require_early_food_content_but_allow_honest_unknown[clarification]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.5342032000189647,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_all_response_variants_require_early_food_content_but_allow_honest_unknown[clarification]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0002628000220283866,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_all_response_variants_require_early_food_content_but_allow_honest_unknown[constraint_conflict]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00026809994596987963,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_all_response_variants_require_early_food_content_but_allow_honest_unknown[constraint_conflict]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.49269049998838454,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_all_response_variants_require_early_food_content_but_allow_honest_unknown[constraint_conflict]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014839996583759785,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_all_response_variants_require_early_food_content_but_allow_honest_unknown[outside_scope]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00023969996254891157,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_all_response_variants_require_early_food_content_but_allow_honest_unknown[outside_scope]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.49000320001505315,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_all_response_variants_require_early_food_content_but_allow_honest_unknown[outside_scope]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.000125400023534894,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_no_food_question_keeps_food_optional_without_inventing_content",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0001947000273503363,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_no_food_question_keeps_food_optional_without_inventing_content",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.12378720002016053,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_no_food_question_keeps_food_optional_without_inventing_content",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.000132500019390136,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_a_provided_food_note_needs_substantive_content_and_not_just_rationale",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00026970001636072993,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_a_provided_food_note_needs_substantive_content_and_not_just_rationale",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.031542800017632544,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_a_provided_food_note_needs_substantive_content_and_not_just_rationale",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0002561000292189419,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_unavailable_food_contribution_needs_a_specific_issue[limited_information]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00027439999394118786,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_unavailable_food_contribution_needs_a_specific_issue[limited_information]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.02470740000717342,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_unavailable_food_contribution_needs_a_specific_issue[limited_information]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001243999577127397,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_unavailable_food_contribution_needs_a_specific_issue[outside_scope]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00022929999977350235,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_unavailable_food_contribution_needs_a_specific_issue[outside_scope]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.024594100017566234,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_unavailable_food_contribution_needs_a_specific_issue[outside_scope]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001316999550908804,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_native_window_is_fixed_and_each_day_uses_the_supplied_date_set",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00020410004071891308,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_native_window_is_fixed_and_each_day_uses_the_supplied_date_set",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.3337712000356987,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_native_window_is_fixed_and_each_day_uses_the_supplied_date_set",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001333000254817307,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_local_exact_calendar_retains_original_day_constraints",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00021819997346028686,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_local_exact_calendar_retains_original_day_constraints",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.18240490002790466,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_local_exact_calendar_retains_original_day_constraints",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013350002700462937,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_different_public_week_changes_contract_values_and_identity_without_food_truth",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00021109997760504484,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_different_public_week_changes_contract_values_and_identity_without_food_truth",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0041111999889835715,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_different_public_week_changes_contract_values_and_identity_without_food_truth",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.460002183914185e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_native_contract_adds_only_supported_scalar_array_constraints",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0001756999990902841,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_native_contract_adds_only_supported_scalar_array_constraints",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0023363999789580703,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_native_contract_adds_only_supported_scalar_array_constraints",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.420000085607171e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_changed_schema_or_window_shape_is_rejected[bad_week]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00019890000112354755,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_changed_schema_or_window_shape_is_rejected[bad_week]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00036429997999221087,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_changed_schema_or_window_shape_is_rejected[bad_week]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.670000195503235e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_changed_schema_or_window_shape_is_rejected[bad_native]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00016490003326907754,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_changed_schema_or_window_shape_is_rejected[bad_native]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.000700299977324903,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_changed_schema_or_window_shape_is_rejected[bad_native]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.539996972307563e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_changed_schema_or_window_shape_is_rejected[bad_note]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0001770000089891255,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_changed_schema_or_window_shape_is_rejected[bad_note]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.001596399990376085,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/request_contracts/test_request_contracts.py::test_changed_schema_or_window_shape_is_rejected[bad_note]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00011520000407472253,
+      "expected_failure": false,
+      "detail": null
+    }
+  ],
+  "collection_errors": [],
+  "deselected": [],
+  "new_model_calls": 0,
+  "query_encoder_processes": 0,
+  "network_policy": "blocked_in_routine_tests",
+  "fixtures": "authored_public_examples"
+}

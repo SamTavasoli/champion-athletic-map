@@ -1,0 +1,18 @@
+{
+  "queries": [
+    "Basketball practice; Create a study plan for my upcom; goals [\"Improve agility during; experience {\"experience; equipment [\"Basketball\",\"Cones\"]; space none; people 5",
+    "Youth basketball participation, rest and recovery; age 15; grade 10; commitments [\"game\",\"practice\"]; request Create a study plan for my upcoming history e"
+  ],
+  "query_records": [
+    {
+      "query_id": "retrieval-query:563305f4fbe936917a27b291e6a9b389b08bcd6305e9b37c05fd40037208861e",
+      "text": "Basketball practice; Create a study plan for my upcom; goals [\"Improve agility during; experience {\"experience; equipment [\"Basketball\",\"Cones\"]; space none; people 5",
+      "text_sha256": "11448313a00e9327ca92cd059279de86115505a6a55753a667a55441d481a33f"
+    },
+    {
+      "query_id": "retrieval-query:de0b62bacba184b63951984689696df59b1f157dd80a56533cc1df5e5ede06a3",
+      "text": "Youth basketball participation, rest and recovery; age 15; grade 10; commitments [\"game\",\"practice\"]; request Create a study plan for my upcoming history e",
+      "text_sha256": "7dc744ee89d4ec558e070ef60772b947f81821d376cef36291c86daf855241da"
+    }
+  ]
+}

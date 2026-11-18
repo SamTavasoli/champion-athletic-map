@@ -1,0 +1,24 @@
+{
+  "calendar_fulfilled": true,
+  "call_id": "step24_12_calendar_example_07",
+  "checker_sha256": "d27a5c96d3a5dc1acbf63e3a6111eea7193fda399782ef7d79f1f5638e2f355b",
+  "checks": {
+    "commitments_preserved": true,
+    "completed_response": true,
+    "no_extra_activities": true,
+    "no_invented_source_ids": true,
+    "no_unrequested_food_facts": true,
+    "planning_window_matches": true,
+    "resources_within_available": true,
+    "response_is_plan": true,
+    "rest_days_recorded": true,
+    "seven_days_match": true,
+    "standalone_sessions": true
+  },
+  "issues": [],
+  "operational_generation_ready": false,
+  "purpose": "fictional_software_example_only",
+  "request_sha256": "19057418168859461b592cdde054f877ae824cc4561ddfa45a2c9032c32714c7",
+  "saved_result_sha256": "039af27ebb379de3522c2cb200e11140cb4bb14148835bbfec2ef9f9f7d9278d",
+  "schema_version": "existing-commitments-calendar-check-1"
+}

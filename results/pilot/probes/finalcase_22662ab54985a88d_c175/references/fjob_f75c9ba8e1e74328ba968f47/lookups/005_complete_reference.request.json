@@ -1,0 +1,61 @@
+{
+  "args": [
+    {
+      "answerability_established_by_score": false,
+      "complete_required_delivery_text": "Balance and shooting-hand roles\n\nThe UGA chapter presents balance as a foundation for shooting, particularly for beginners, and describes an approximately shoulder-width base. It assigns different roles to the hands: the dominant hand propels the ball while the other hand supports and guides it. The chapter connects aiming the shooting elbow toward the target with coordinated knee movement and bringing the ball into shooting position. Its follow-through explanation describes the ball leaving the fingertips and developing backspin.\n\nGeneral introductory basketball reference, selected and paraphrased from the cited chapter. No youth-specific suitability, training dose, medical clearance or planner approval is established.\n\nSource: 4. Fundamentals – Shooting, Ch.1 - Basketball, UGA PEDB Program. https://open.online.uga.edu/basketball/chapter/fundamentals-shooting/\nCh.1 - Basketball Copyright © by UGA PEDB Program is licensed under a Creative Commons Attribution 4.0 International License, except where otherwise noted. https://creativecommons.org/licenses/by/4.0/\nSelected explanatory text was paraphrased and shortened; listed omissions are outside this reference unit.\nThe selected paraphrase is shared under CC BY 4.0. UGA endorsement is not implied. License rights and disclaimers remain available at https://creativecommons.org/licenses/by/4.0/ and https://creativecommons.org/licenses/by/4.0/legalcode.en.",
+      "generation_context_budget_verified": false,
+      "passage_id": "uga-retrieval-passage:212b45bec1e1ead9d9f66c6c6eb5a44e4a4a46b9788bc3071cb04533cfc2a71e",
+      "rank": 2,
+      "reference_unit_id": "uga-reference-unit:d692cca968ad1d51a27721d4960026a7884affe069063b990b366f66c4f4484e",
+      "required_delivery_must_be_attached": true,
+      "required_delivery_record": {
+        "200_token_encoder_core_cap_applies_to_this_delivery": false,
+        "delivery_bundle_id": "uga-passage-delivery:08ed129b0608b545b2ebd99c2f571e01650c5d220faa09c1f6b7b42ab64ddf86",
+        "delivery_is_not_used_as_embedding_passage": true,
+        "display_text": "Balance and shooting-hand roles\n\nThe UGA chapter presents balance as a foundation for shooting, particularly for beginners, and describes an approximately shoulder-width base. It assigns different roles to the hands: the dominant hand propels the ball while the other hand supports and guides it. The chapter connects aiming the shooting elbow toward the target with coordinated knee movement and bringing the ball into shooting position. Its follow-through explanation describes the ball leaving the fingertips and developing backspin.\n\nGeneral introductory basketball reference, selected and paraphrased from the cited chapter. No youth-specific suitability, training dose, medical clearance or planner approval is established.\n\nSource: 4. Fundamentals – Shooting, Ch.1 - Basketball, UGA PEDB Program. https://open.online.uga.edu/basketball/chapter/fundamentals-shooting/\nCh.1 - Basketball Copyright © by UGA PEDB Program is licensed under a Creative Commons Attribution 4.0 International License, except where otherwise noted. https://creativecommons.org/licenses/by/4.0/\nSelected explanatory text was paraphrased and shortened; listed omissions are outside this reference unit.\nThe selected paraphrase is shared under CC BY 4.0. UGA endorsement is not implied. License rights and disclaimers remain available at https://creativecommons.org/licenses/by/4.0/ and https://creativecommons.org/licenses/by/4.0/legalcode.en.",
+        "display_text_sha256": "3948797e44870afcf3cdc25a080daa57b467c9070bd84973c5ea4039dde84ac1",
+        "full_text_measured_without_truncation": true,
+        "generation_model_tokenizer_or_prompt_budget_verified": false,
+        "minilm_encoded_token_ids_sha256": "5fd8ad996a8eae1fb78a64bc499818d728e1aecc4757f546bd5aca6908244408",
+        "minilm_encoded_tokens_including_specials": 321,
+        "passage_id": "uga-retrieval-passage:212b45bec1e1ead9d9f66c6c6eb5a44e4a4a46b9788bc3071cb04533cfc2a71e",
+        "reference_unit_id": "uga-reference-unit:d692cca968ad1d51a27721d4960026a7884affe069063b990b366f66c4f4484e",
+        "required_context_and_usage_credit_are_indivisible": true,
+        "schema_version": "step23-uga-token-budgeted-delivery-1",
+        "source_delivery_bundle": {
+          "chapter_url": "https://open.online.uga.edu/basketball/chapter/fundamentals-shooting/",
+          "copyright_and_creator_notice": "Ch.1 - Basketball. Copyright © UGA PEDB Program.",
+          "delivery_bundle_id": "uga-required-delivery:5ae10a70782aa5943e8e1007d2e69a3b70f880950c4431d491710b9b1573d69d",
+          "display_text": "Balance and shooting-hand roles\n\nThe UGA chapter presents balance as a foundation for shooting, particularly for beginners, and describes an approximately shoulder-width base. It assigns different roles to the hands: the dominant hand propels the ball while the other hand supports and guides it. The chapter connects aiming the shooting elbow toward the target with coordinated knee movement and bringing the ball into shooting position. Its follow-through explanation describes the ball leaving the fingertips and developing backspin.\n\nGeneral introductory basketball reference, selected and paraphrased from the cited chapter. No youth-specific suitability, training dose, medical clearance or planner approval is established.\n\nSource: 4. Fundamentals – Shooting, Ch.1 - Basketball, UGA PEDB Program. https://open.online.uga.edu/basketball/chapter/fundamentals-shooting/\nCh.1 - Basketball Copyright © by UGA PEDB Program is licensed under a Creative Commons Attribution 4.0 International License, except where otherwise noted. https://creativecommons.org/licenses/by/4.0/\nSelected explanatory text was paraphrased and shortened; listed omissions are outside this reference unit.\nThe selected paraphrase is shared under CC BY 4.0. UGA endorsement is not implied. License rights and disclaimers remain available at https://creativecommons.org/licenses/by/4.0/ and https://creativecommons.org/licenses/by/4.0/legalcode.en.",
+          "embedding_input_is_reference_core_only": true,
+          "encoded_token_count": null,
+          "generation_model_context_budget_verified": false,
+          "legalcode_url": "https://creativecommons.org/licenses/by/4.0/legalcode.en",
+          "license_compatible_downstream_rights_preserved": true,
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "license_warranty_disclaimer_is_linked_and_preserved": true,
+          "modification_notice": "Selected explanatory text was paraphrased and shortened; listed omissions are outside this reference unit.",
+          "no_uga_endorsement_implied": true,
+          "original_license_notice": "Ch.1 - Basketball Copyright © by UGA PEDB Program is licensed under a Creative Commons Attribution 4.0 International License, except where otherwise noted.",
+          "reference_text": "The UGA chapter presents balance as a foundation for shooting, particularly for beginners, and describes an approximately shoulder-width base. It assigns different roles to the hands: the dominant hand propels the ball while the other hand supports and guides it. The chapter connects aiming the shooting elbow toward the target with coordinated knee movement and bringing the ball into shooting position. Its follow-through explanation describes the ball leaving the fingertips and developing backspin.",
+          "reference_text_sha256": "2d77c6619775aea0573733e22a630eab2b3823002f89341ae188a5642ef500dc",
+          "reference_unit_id": "uga-reference-unit:d692cca968ad1d51a27721d4960026a7884affe069063b990b366f66c4f4484e",
+          "reference_unit_record_sha256": "ce8f5002d919caa448b71be675be3346c8d415d72294f4c610abcd7b72c74c15",
+          "required_context": "General introductory basketball reference, selected and paraphrased from the cited chapter. No youth-specific suitability, training dose, medical clearance or planner approval is established.",
+          "schema_version": "step23-uga-required-delivery-1",
+          "source_version_record_sha256": "29f114d3c5ec46748f9d3a1ec9ff0a64be3b4c9378f7d555ffdad679a17e6031",
+          "standalone_reference_without_required_context_and_credit_allowed": false,
+          "supplied_additional_warranty_or_modification_notices_observed": []
+        },
+        "source_delivery_bundle_id": "uga-required-delivery:5ae10a70782aa5943e8e1007d2e69a3b70f880950c4431d491710b9b1573d69d",
+        "source_delivery_record_sha256": "680d522fd43c78855c2a31125c5d573adf3b06b6bde4d1316391c777a51c3a1f",
+        "source_unit_record_sha256": "ce8f5002d919caa448b71be675be3346c8d415d72294f4c610abcd7b72c74c15"
+      },
+      "score": 0.4474421751373004,
+      "score_kind": "embedding_cosine",
+      "standalone_core_delivery_allowed": false
+    }
+  ],
+  "kwargs": {},
+  "method": "complete_reference"
+}

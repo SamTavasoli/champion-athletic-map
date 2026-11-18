@@ -1,0 +1,43 @@
+{
+  "accepted_final_profiles": 0,
+  "case_cards_path": "results/final_case_review/review_cb1efb8523e7c29384d3/case_cards.html",
+  "category_targets": {
+    "conflicting_constraints": 15,
+    "feasible": 150,
+    "missing_information": 20,
+    "outside_scope": 15
+  },
+  "classifier_predictions_parsed": false,
+  "final_planner_execution_authorized": false,
+  "human_ratings_created": 0,
+  "human_reviews_created_by_this_cell": 0,
+  "human_reviews_entered": 0,
+  "injected_test_dependencies": false,
+  "manifest_path": "results/final_case_review/review_cb1efb8523e7c29384d3/manifest.json",
+  "manifest_sha256": "e1eff9244ca89d164dca1439ca0e10c5a9ff2d906ac9104d427bb9776dd85324",
+  "new_model_calls": 0,
+  "new_query_encodings": 0,
+  "original_candidate_inputs_changed": false,
+  "package_directory": "results/final_case_review/review_cb1efb8523e7c29384d3",
+  "package_id": "cb1efb8523e7c29384d37fe6a9797b652b2205309ed836a44c96578d636914ac",
+  "retrieval_results_reused": true,
+  "retrieval_scope": {
+    "complete_evidence": 20,
+    "empty_relevant": 6,
+    "heldout_questions": 30,
+    "ranking_eligible": 24,
+    "reference_units": 11,
+    "selected_route": "semantic"
+  },
+  "review_cases": 200,
+  "schema_version": "final-case-review-preparation-1",
+  "status": "review_package_prepared_not_accepted",
+  "summary_path": "results/step33_preparation_summary.json",
+  "template_counts": {
+    "case_rows": 200,
+    "family_proposals": 200,
+    "overlap_rows": 618
+  },
+  "working_decisions_imported": false,
+  "working_directory": "results/final_case_review/review_cb1efb8523e7c29384d3/working"
+}

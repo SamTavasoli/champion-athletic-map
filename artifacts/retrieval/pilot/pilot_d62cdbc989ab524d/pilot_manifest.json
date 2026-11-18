@@ -1,0 +1,122 @@
+{
+  "actual_corpus_queries_or_quality_evaluation_executed": false,
+  "corpus_id": "pilot-corpus:917f12a3f56929da76a59808167bcca057fc9017047b57b5fb46fe2d1409884d",
+  "generation_model_context_budget_verified": false,
+  "lexical_feature_count": 819,
+  "only_explicitly_admitted_passage_cores_indexed": true,
+  "ordered_passage_ids": [
+    "retrieval-passage:c82841f0f05c9cafae4e2c2fd41d801658f4226998b0381e5134ba248360f1b2",
+    "uga-retrieval-passage:1512c600fb3972bafa1311c7becdab9005b28c94d1f412a695ef3069d26e8adb",
+    "uga-retrieval-passage:212b45bec1e1ead9d9f66c6c6eb5a44e4a4a46b9788bc3071cb04533cfc2a71e",
+    "uga-retrieval-passage:388fa8f67c1e0907ff591e5bd5a47da4e81b69e835b189dd85e6e92f36720661",
+    "uga-retrieval-passage:a673113ba3a4b509771c7e66112539c6179214a0a6c32d59fa4363b444b6f56f",
+    "uga-retrieval-passage:b1ba958820765abe3a4e9228536ad993439a3455dc3f6ce37116964b62263f16",
+    "uga-retrieval-passage:b302a7ba74cdca47d521a43ac10adb1e67ae161a7cbe54f60b3f9d2f84979daf"
+  ],
+  "ordered_reference_unit_ids": [
+    "reference-unit:826434d4d2d9eca996497c4fa1e36fdb85d4a62df0d6c7ce121f6e4e3b782512",
+    "uga-reference-unit:6efdd1157d496a3b809ac5a5ca14a154819c239216512a03c3021512e4d9f58c",
+    "uga-reference-unit:d692cca968ad1d51a27721d4960026a7884affe069063b990b366f66c4f4484e",
+    "uga-reference-unit:4a6bb370f8d4ab32bd5d06fc1187ff3a9918eb09bceb9e67730372983afb0e60",
+    "uga-reference-unit:9f7c112043b55ea9e77238ccbb4184b2ec00f34849e5606aaaf95b2804d98edc",
+    "uga-reference-unit:248e752b5b0675f01a58a588fe379ac008a2469c5e1474a3ddd3159996496dd0",
+    "uga-reference-unit:118cf8fb6c0ae92cb6494815d431bfd70f3ea364ddda29ff64a3750fcd7b2c58"
+  ],
+  "payload_hashes": {
+    "index_checks.csv": "85d7c013febd589cffd18002df45b91e42143d9ff2ea6b0adf468de3d271f6c0",
+    "index_diagnostics.json": "1dfdb8d40e0b71f1497a442f7c41f1e786afe99bb05f9c83d72db35f84075ac6",
+    "lexical_matrix.npz": "90e5126288871a2144da612f0c83738cd10b1ff01f632dad5d2c33a34c5b9a64",
+    "lexical_vectorizer.joblib": "d0577738db3a96ab1f73a2ca7b3fb495441970f538c664745384b802e40fe27d",
+    "lexical_worker.py": "6c3398e72bcdeb5b73867f30927018fd26e81fc23afefe13e25943af2d70e5da",
+    "pilot_metadata.jsonl": "558df91551f31796b8aba724c380a52e695c3c8f96f94aeb73af7c906e10ff91",
+    "pilot_passages.jsonl": "31bac49604fd63d612f534658faae8b9e0be17496df7fe0a077caa96a4ee8736",
+    "reload_verification.json": "d7009baf071f2ecbecde5398b9f13c38a6a7d72693fd939f4f2176e1054e1a40",
+    "required_delivery_bundles.jsonl": "5fad8947b1fe712ccc8aa951fd4aa2912fed614440fa54b4976da08b20fb1e3f",
+    "retrieval.py": "48cda29c19150e88595bc57e9dca092291ac206d35944aeeea9b16c69578b059",
+    "semantic_embeddings.npy": "c5f9dc382ee1d6a7b953e10765e19b24c126d0a8dd274e7f1dd67f3ada97bb07",
+    "semantic_worker.py": "ed710113596a245ce32ad563fccb39245e9eb734ab939a2d0884367c1d3fd454"
+  },
+  "pilot_retrieval_id": "pilot-retrieval-index:d62cdbc989ab524d98286569a289b9c2f8b0876ca08c80fcb2d21ddab36bb448",
+  "query_embedding_contract": "same_pinned_encoder_no_task_prompt_l2_float32_384_dimensions; query_encoder_integration_is_later_work",
+  "required_delivery_companions_must_be_attached": true,
+  "required_delivery_record_hashes": [
+    "52ed1aefdfde5929c4536a03639a8e2084fddd47dce58efc90b31a066dda51c1",
+    "20c7a0d2a0a04d148019a79b84635ed73bfde7d057c9d66c0a97cebdfe9e3c36",
+    "ff35fcfea1e392d4c56db02e9593ece8eb79e4a571e3f6885409da3b7cffcd17",
+    "c9e6e51c41f53dbf51e0487d3efd114983bab65d1ddf9231ca4bfacda50329a9",
+    "68d60d3c9af0526b7114dc89e19b0c19f307a4e5e5e9071f7e8aaa36bbe03c6c",
+    "924de1fa900de85f917858c199ba6a68dac4b4e25f947909f2668fb185cdc3ea",
+    "c04a6a60c16d2720cb45dd3e20c3267ee8bf43568875f3281200d3badf236441"
+  ],
+  "schema_version": "step23-pilot-retrieval-manifest-1",
+  "selected_retrieval_route": null,
+  "semantic_dimension": 384,
+  "semantic_runtime_adoption_id": "semantic-runtime-adoption:1e7ec007d3464722a59d16ef72a82588526f7071588771fa37a84c39f7213654",
+  "settings": {
+    "lexical": {
+      "analyzer": "word",
+      "binary": false,
+      "classifier_vectorizer_or_preprocessor_reused": false,
+      "decode_error": "strict",
+      "dtype": "float64",
+      "encoding": "utf-8",
+      "lowercase": true,
+      "max_df": 1.0,
+      "max_features": null,
+      "min_df": 1,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "norm": "l2",
+      "preprocessor": null,
+      "query_vocabulary_or_idf_fitting": false,
+      "smooth_idf": true,
+      "stop_words": null,
+      "strip_accents": null,
+      "sublinear_tf": false,
+      "token_pattern": "(?u)\\b\\w\\w+\\b",
+      "tokenizer": null,
+      "use_idf": true
+    },
+    "ranking": {
+      "lexical_zero_score_fill": false,
+      "max_distinct_units": 5,
+      "passage_tie": "stable_passage_id",
+      "semantic_answerability_threshold": null,
+      "unit_score": "maximum_passage_score",
+      "unit_tie": "stable_reference_unit_id"
+    },
+    "semantic": {
+      "cpu_threads": 1,
+      "deterministic_algorithms": true,
+      "device": "cpu",
+      "dimension": 384,
+      "dtype": "float32",
+      "encoded_core_limit_including_specials": 200,
+      "l2_normalized": true,
+      "model_repo_id": "sentence-transformers/all-MiniLM-L6-v2",
+      "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41"
+    }
+  },
+  "source_passage_record_hashes": [
+    "60951b61b5905a7c089d095e9a7284ed3326034d3ffcb0a9e8004549633577b4",
+    "9f52c4deed726350e47f6d5d45f8df9f33aff5670dbec5d0428949da6d79db4b",
+    "c392dbccbef9460dd5752ca6c75e2a48c9579b3e379935eb2c63e60bb91704a1",
+    "cc1365b4bb90d7fd77e496988a6d027115ba1a396e1a2f9d8145fa68296877e2",
+    "09c1d2564decebac79636bc3e48e3a4c5138dc7a9665db1d196d6860200947a8",
+    "fe9ccdb47a35d18bdf755470cf3d72aa82be1ca4046682af6ceb7120923cd550",
+    "0ab32e920ed2f094093f5512ef1485cd34f05a4bda7c1ca9f0bc0e3806a76a45"
+  ],
+  "source_record_hashes_and_source_version_hash_bases_remain_distinct": true,
+  "step23_complete": false,
+  "versions": {
+    "python_version": "3.12.6",
+    "versions": {
+      "joblib": "1.6.0",
+      "numpy": "2.5.4",
+      "scikit-learn": "1.9.1",
+      "scipy": "1.18.1"
+    }
+  }
+}

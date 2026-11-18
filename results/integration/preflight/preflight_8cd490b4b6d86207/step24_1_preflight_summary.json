@@ -1,0 +1,62 @@
+{
+  "actual_local_metadata_requests": 5,
+  "approvals_created": 0,
+  "audit_only_never_generation_context": true,
+  "benchmark_reruns": 0,
+  "chat_compatibility_verified": false,
+  "checks": {
+    "blocked": 1,
+    "pass": 7,
+    "pending": 4
+  },
+  "classifier_test_text_processed": false,
+  "created_at_utc": "2026-11-13T15:34:49.971776+00:00",
+  "development_starting_settings_not_yet_adopted": {
+    "concurrent_requests": 1,
+    "format": "json",
+    "model": "llama3.1:8b",
+    "num_ctx": 8192,
+    "num_predict": 2048,
+    "seed": 42,
+    "stream": false,
+    "temperature": 0
+  },
+  "embedding_requests": 0,
+  "existing_bound_inputs_changed": false,
+  "generation_context_budget_verified": false,
+  "generation_requests": 0,
+  "metadata_prerequisites_ready_for_chat_check": false,
+  "model_artifact_adopted_or_changed": false,
+  "model_or_vectorizer_fits": 0,
+  "next_action": "Review this output before preparing Step 24-2; resolve runtime differences before chat execution.",
+  "output_hashes": {
+    "results/integration/preflight/preflight_8cd490b4b6d86207/ollama_observation.json": "69fe7a8c5cf17520afd4c2b405975397c6ca8331b31a7746ed8b747039ed364b",
+    "results/integration/preflight/preflight_8cd490b4b6d86207/preflight_checks.csv": "0056c7dde1e81e390d43a9e2e354ad09fe4c144cec0fce30e4a6f806e200a06c",
+    "results/integration/preflight/preflight_8cd490b4b6d86207/verified_inputs.json": "99283e13ea0ae68e394437e467aa79b0fb4f42950bdeb4670c5d0aa5ac46587b"
+  },
+  "packages_installed": 0,
+  "preflight_id": "language-model-preflight:8cd490b4b6d862070272a6ed28637840a657f69521dd6888cbf6afc924364acf",
+  "prior_step23_input_bindings_verified": 538,
+  "project_bindings_verified": 691,
+  "publisher_requests": 0,
+  "readiness_gates": {
+    "accepted_profiles_at_selected_checkpoint": 0,
+    "adopted_rules_at_selected_checkpoint": 0,
+    "approved_drills_at_selected_checkpoint": 0,
+    "classifier_tagging_model": "L5",
+    "classifier_test_evaluation_step": 32,
+    "enabled_rules_at_selected_checkpoint": 0,
+    "final_profiles_frozen": false,
+    "food_application_lookup_enabled": false,
+    "food_reference_prepared": true,
+    "human_benchmark_reviews": 0,
+    "planner_eligible_drills_at_selected_checkpoint": 0,
+    "scope": "selected saved checkpoints; not a new approval assessment"
+  },
+  "recipe_version": "step24-preflight-0.1.0",
+  "retrieval_encoder_cache_verified": true,
+  "retrieval_handoff_sha256": "3f8f563b52c3faad541e3e11a9011523f1fe9720a73dfefdc781b0ef70163330",
+  "schema_version": "step24-preflight-producer-1",
+  "status": "preflight_saved_with_runtime_blockers",
+  "step24_complete": false
+}

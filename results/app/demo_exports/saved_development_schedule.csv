@@ -1,0 +1,8 @@
+﻿response_type,date,activity_id,activity,start_time,end_time,duration_minutes,equipment,space,participants,relationship,existing_commitment_refs,rest_arrangements,source_refs,progress,message
+plan,2026-11-16,session1,Basketball session to work on changes of direction,17:30,17:50,20,"[{""name"":""Basketball"",""quantity"":1},{""name"":""Cones"",""quantity"":4}]",full_court,2,separate_session,,Rest for 30 minutes after the session,,pending,
+plan,2026-11-17,,,,,,,,,,,Rest and recovery day,,,
+plan,2026-11-18,session2,Basketball session to work on changes of direction,17:30,17:50,20,"[{""name"":""Basketball"",""quantity"":1},{""name"":""Cones"",""quantity"":4}]",full_court,2,separate_session,,Rest for 30 minutes after the session,,pending,
+plan,2026-11-19,,,,,,,,,,,Rest and recovery day,,,
+plan,2026-11-20,,,,,,,,,,,Rest and recovery day,,,
+plan,2026-11-21,session3,Basketball session to work on changes of direction,17:30,17:50,20,"[{""name"":""Basketball"",""quantity"":1},{""name"":""Cones"",""quantity"":4}]",full_court,2,separate_session,,Rest for 30 minutes after the session,,pending,
+plan,2026-11-22,,,,,,,,,,,Rest and recovery day,,,

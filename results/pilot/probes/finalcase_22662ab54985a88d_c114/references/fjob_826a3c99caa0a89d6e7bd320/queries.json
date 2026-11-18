@@ -1,0 +1,18 @@
+{
+  "queries": [
+    "Basketball practice; Lay out my whole basketball week; goals [\"Improve the timing of ; experience {\"experience; equipment [\"Basketball\",\"Cones\"]; space none; people 2",
+    "Youth basketball participation, rest and recovery; age 17; grade 12; commitments unknown; request Lay out my whole basketball week, including e"
+  ],
+  "query_records": [
+    {
+      "query_id": "retrieval-query:6fcfe278926b2beb3812f6d13c0cd77a8f6690aa3c961baa0883bcaec2d3a7bf",
+      "text": "Basketball practice; Lay out my whole basketball week; goals [\"Improve the timing of ; experience {\"experience; equipment [\"Basketball\",\"Cones\"]; space none; people 2",
+      "text_sha256": "fc67847962a32c78a00f4f7ec32b830fa26916f701cf9ccde6cb1cb1ab3bfc07"
+    },
+    {
+      "query_id": "retrieval-query:4a32bdc6f48101d6a4f73eb3d8082ef06317bc510cdbc36ee85de3d61019caac",
+      "text": "Youth basketball participation, rest and recovery; age 17; grade 12; commitments unknown; request Lay out my whole basketball week, including e",
+      "text_sha256": "9fcb1af17876ac1219e57a934480e5c1f4a30fb2d64fc72473979424ed604901"
+    }
+  ]
+}

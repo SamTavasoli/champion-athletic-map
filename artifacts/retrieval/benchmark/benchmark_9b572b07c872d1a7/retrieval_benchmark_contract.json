@@ -1,0 +1,126 @@
+{
+  "benchmark_preparation_id": "retrieval-benchmark-preparation:9b572b07c872d1a7178b19039dda68dd51d01213792f6424e417cab479272e97",
+  "benchmark_queries_executed": 0,
+  "corpus_id": "expanded-corpus:aa58799145ccff5c8ea285b3b1eb0bc4fdc41ef85ad90ffb03db3ce3c4687c58",
+  "exact_query_token_counts": "pending; verify with the adopted encoder before each first benchmark forward, rejecting over200 rather than truncating",
+  "expanded_retrieval_id": "expanded-retrieval-index:ee12915cfac22530096a9b573f046c886696c5b769aca11f6f20967f0068f5b9",
+  "generation_context_budget_verified": false,
+  "held_out_retrieval_before_development_method_freeze_allowed": false,
+  "held_out_scope": "question-information-need families held out from development retrieval comparison; source units and publishers may be shared",
+  "independent_human_reviews": 0,
+  "limitations": [
+    "Assistant-authored and assistant-reviewed scoped pilot; no human or independent scientific validation.",
+    "Sixty dependent question rows represent thirty information-need families and eleven source units.",
+    "Three related source families: two CDC guidance groups and one UGA textbook; not representative of all basketball resources or approved drills.",
+    "Every supported question has a single relevant unit and single-unit sufficient set; multi-unit synthesis is not tested.",
+    "Ranking scores and evidence-set coverage do not evaluate generated answers or abstention accuracy."
+  ],
+  "metric_policy": {
+    "actual_benchmark_questions_or_judgments_created_by_policy": 0,
+    "complete_evidence_set_covered_at_5": "Separate from ranking relevance: available only for supported questions with reviewed sufficient sets and a completed ranking; true if any full set is contained in top5.",
+    "cutoff": 5,
+    "empty_completed_ranking": "A completed retrieval returning zero units: Recall and reciprocal rank are zero when R is nonempty.",
+    "empty_relevant_set": {
+      "automatic_zero_or_perfect_score": false,
+      "included_in_ranking_selection_denominator": false,
+      "recall_at_5": null,
+      "reciprocal_rank_at_5": null,
+      "reported_as": "unavailable_empty_relevant_set"
+    },
+    "final_category_consistency": {
+      "positive_categories": "supported with one or more nonempty sufficient evidence sets",
+      "unsupported_by_identified_corpus": "partially_supported or unsupported, with no sufficient full-answer evidence set"
+    },
+    "final_judgment_requirement": "Complete review of the identified corpus, relevance labels, required claims and sufficient evidence sets; IDs alone do not prove semantic review.",
+    "held_out_may_select_method": false,
+    "means_use_unrounded_values": true,
+    "method_selection_rule": [
+      "higher_development_mean_recall_at_5",
+      "higher_development_mrr_at_5_on_exact_tie",
+      "lexical_on_exact_double_tie"
+    ],
+    "no_answer_or_abstention_prediction_scored_here": true,
+    "partial_or_unsupported_full_evidence_coverage": "Unavailable because no reviewed sufficient full-answer set exists; not automatically zero or perfect.",
+    "pending_failed_missing_outcomes": "Unscored and unavailable; never silently dropped to select a method. Selection requires all30 development judgments and both routes'30 completed outcomes.",
+    "planned_category_counts_per_partition": {
+      "drill_and_resource": 10,
+      "guideline_and_qualification": 10,
+      "unsupported_by_identified_corpus": 10
+    },
+    "planned_development_questions": 30,
+    "planned_held_out_questions": 30,
+    "population_counts_and_outcome_counts_may_overlap": true,
+    "query_fields": [
+      "query_id",
+      "split",
+      "category",
+      "judgment_status",
+      "support_status",
+      "relevant_unit_ids",
+      "complete_evidence_sets"
+    ],
+    "question_families_cannot_cross_partitions": true,
+    "ranked_evidence_set_coverage_is_not_verified_generation_context_delivery": true,
+    "ranking_relevance_and_complete_evidence_judgments_separate": true,
+    "recall_at_5": "For a final nonempty relevant-unit set R: |retrieved_top5 intersect R| / |R|.",
+    "reciprocal_rank_at_5": "For a final nonempty R: reciprocal of the first relevant rank within top5; zero if there is no hit.",
+    "result_counts_establish_answerability_or_abstention_accuracy": false,
+    "schema_version": "step23-retrieval-metric-policy-1",
+    "selection_denominator": "All final development questions with nonempty relevant-unit sets, including unsupported-category questions with partial/topic relevance; identical query IDs for both routes.",
+    "semantic_abstention_threshold_adopted": false,
+    "source_disjointness_required": false,
+    "support_statuses": {
+      "partially_supported": "Some required claims have support, but no reviewed set supports the full request.",
+      "pending": "Support review is unfinished; no metric is assigned.",
+      "supported": "At least one reviewed evidence set covers all required claims with the required context.",
+      "unsupported": "No required claim is supported by the identified corpus; topically relevant units may still exist."
+    },
+    "unit_relevance_labels": [
+      "relevant",
+      "not_relevant",
+      "pending"
+    ]
+  },
+  "metric_policy_sha256": "a38059311686fd525ced4e2f2ab0bfd75db47aac45d0d593de81ff77bcd55710",
+  "only_raw_question_text_enters_queries": true,
+  "original_benchmark_plan": {
+    "actual_questions": 0,
+    "actual_reviewed_judgments": 0,
+    "planned_development_questions": 30,
+    "planned_held_out_questions": 30,
+    "planned_per_partition_categories": {
+      "drill_and_resource": 10,
+      "guideline_and_qualification": 10,
+      "unsupported_by_identified_corpus": 10
+    },
+    "question_families_cannot_cross_partitions": true,
+    "question_text_or_answers_in_corpus": false,
+    "ranking_relevance_and_complete_evidence_judgments_separate": true,
+    "selection_rule": [
+      "higher_development_mean_recall_at_5",
+      "higher_development_mrr_at_5_on_exact_tie",
+      "lexical_on_exact_double_tie"
+    ],
+    "status": "planned_no_questions_or_judgments_created"
+  },
+  "paraphrases_per_family": 2,
+  "query_order": "Filter saved question rows by split, retaining order and partition_ordinal1..30; the verified query-runtime IDs must match before encoding.",
+  "query_preparation_id": "retrieval-query-preparation:f6db9aad37d7a9b920acb188429f9858ba7669273396843bd629ee3726dc2474",
+  "query_token_budget_verified": false,
+  "question_families": 30,
+  "question_rows": 60,
+  "questions_and_gold_must_not_enter_corpus_or_features": true,
+  "relevance_definition": "Direct answer evidence, necessary qualification, or explicitly documented question-specific topical context. Broad basketball overlap is insufficient; relevance does not establish complete answer support.",
+  "reserved_diagnostic_text_hashes": [
+    "2cbcb0ae97956a9ae37ade9f393aeffb3ead194520ad1abdbd9eaf7deefdecdc",
+    "ad5838651c4d45f6d657dc97a006109c648a0b8bf8ad141aaa66ec5457247556",
+    "d50c2574d1bc5fbe8185e9cc880407efb28ce54981bbbadc06f9e0bd8e6fad74",
+    "d86b0d0474d58a386a3316bfeeb5f6c8ac9a4fee98524128ff28645de0559651",
+    "dc8dd6ee7ed3ee8e9800c701172d42c97e53e84a6cea940ab77e1d234e73123a"
+  ],
+  "retrieval_method_selected": null,
+  "review_population": "eleven_exact_frozen_core_texts_and_required_context",
+  "schema_version": "step23-reviewed-retrieval-benchmark-contract-1",
+  "source_disjointness_required": false,
+  "unit_of_ranking": "distinct_reference_unit"
+}

@@ -1,0 +1,18 @@
+{
+  "queries": [
+    "Basketball practice; Place an additional 20-minute ba; goals [\"Improve controlled foo; experience {\"experience; equipment [\"Basketball\",\"Cones\",\"H; space single_hoop_; people 1",
+    "Youth basketball participation, rest and recovery; age 17; grade 12; commitments []; request Place an additional 20-minute basketball bloc"
+  ],
+  "query_records": [
+    {
+      "query_id": "retrieval-query:a873783fe0d4da15d2ec84c897e5dd92da1a2031a5a52f708903704211fdfe31",
+      "text": "Basketball practice; Place an additional 20-minute ba; goals [\"Improve controlled foo; experience {\"experience; equipment [\"Basketball\",\"Cones\",\"H; space single_hoop_; people 1",
+      "text_sha256": "9429c3b888a39dff1d683cc174d77d296316bcb706f792d141e30868c1ccf306"
+    },
+    {
+      "query_id": "retrieval-query:52883ab68c23b25f73b86ebad909ef63a89a503c36a1ee607a641163453b81cb",
+      "text": "Youth basketball participation, rest and recovery; age 17; grade 12; commitments []; request Place an additional 20-minute basketball bloc",
+      "text_sha256": "44b30bd2b4d1e97953cacfb31c0829f564a8cbcae8cab1c58eaeaf9bf9316ded"
+    }
+  ]
+}

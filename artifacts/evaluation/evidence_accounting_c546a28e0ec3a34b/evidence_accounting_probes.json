@@ -1,0 +1,1611 @@
+{
+  "probes": [
+    {
+      "arguments": [
+        [
+          "toy:a",
+          "toy:a",
+          "toy:b",
+          "toy:c"
+        ],
+        [
+          {
+            "assessment_status": "completed",
+            "basis_refs": [
+              "toy:evidence-version-1"
+            ],
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "reference_id": "toy:a",
+            "result": "resolved"
+          },
+          {
+            "assessment_status": "completed",
+            "basis_refs": [
+              "toy:evidence-version-1"
+            ],
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "reference_id": "toy:b",
+            "result": "unresolved"
+          },
+          {
+            "assessment_status": "completed",
+            "basis_refs": [
+              "toy:evidence-version-1"
+            ],
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "reference_id": "toy:c",
+            "result": "unknown"
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "denominator": 3,
+        "distinct_supplied_ids": 3,
+        "duplicate_occurrences": 1,
+        "measure_complete": true,
+        "numerator": 1,
+        "ratio": 0.3333333333333333,
+        "result_counts": {
+          "resolved": 1,
+          "unknown": 1,
+          "unresolved": 1
+        },
+        "supplied_occurrences": 4
+      },
+      "function": "summarize_reference_ids",
+      "group": "reference_ids",
+      "name": "distinct_references_not_occurrences"
+    },
+    {
+      "arguments": [
+        [],
+        [],
+        true
+      ],
+      "expected": {
+        "denominator": 0,
+        "measure_complete": true,
+        "ratio": null,
+        "unavailable_reason": "zero_denominator"
+      },
+      "function": "summarize_reference_ids",
+      "group": "reference_ids",
+      "name": "no_supplied_references_is_unavailable"
+    },
+    {
+      "arguments": [
+        [
+          "toy:turns"
+        ],
+        [
+          {
+            "assessment_status": "completed",
+            "basis_refs": [
+              "toy:evidence-version-1"
+            ],
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "reference_id": "toy:turns",
+            "result": "resolved"
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "denominator": 1,
+        "numerator": 1,
+        "ratio": 1
+      },
+      "function": "summarize_reference_ids",
+      "group": "reference_ids",
+      "illustration": {
+        "claim_text": "Two toy markers may occupy the square at the same time [toy:turns].",
+        "scope": "The ID exists. The separate authored support finding is contradicted; no text checker runs here.",
+        "source_id": "toy:turns",
+        "source_text": "Only one toy marker may occupy the square at a time."
+      },
+      "name": "all_resolvable_does_not_establish_support"
+    },
+    {
+      "arguments": [
+        [
+          "toy:a"
+        ],
+        [
+          {
+            "assessment_status": "completed",
+            "basis_refs": [
+              "toy:evidence-version-1"
+            ],
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "reference_id": "toy:a",
+            "result": "unresolved"
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "assessment_complete": true,
+        "ratio": 0,
+        "result_counts.unresolved": 1
+      },
+      "function": "summarize_reference_ids",
+      "group": "reference_ids",
+      "name": "unresolved_reference_is_a_completed_negative"
+    },
+    {
+      "arguments": [
+        [
+          "toy:a"
+        ],
+        [
+          {
+            "assessment_status": "completed",
+            "basis_refs": [
+              "toy:evidence-version-1"
+            ],
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "reference_id": "toy:a",
+            "result": "unknown"
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "ratio": 0,
+        "result_counts.unknown": 1,
+        "result_counts.unresolved": 0
+      },
+      "function": "summarize_reference_ids",
+      "group": "reference_ids",
+      "name": "unknown_resolution_remains_distinct"
+    },
+    {
+      "arguments": [
+        [
+          "toy:a",
+          "toy:b"
+        ],
+        [
+          {
+            "assessment_status": "completed",
+            "basis_refs": [
+              "toy:evidence-version-1"
+            ],
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "reference_id": "toy:a",
+            "result": "resolved"
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "assessment_complete": false,
+        "completed_items": 1,
+        "denominator": 2,
+        "numerator": 1,
+        "ratio": null,
+        "unavailable_reason": "assessment_incomplete"
+      },
+      "function": "summarize_reference_ids",
+      "group": "reference_ids",
+      "name": "reference_missing_keeps_assessment_incomplete"
+    },
+    {
+      "arguments": [
+        [
+          "toy:a",
+          "toy:b"
+        ],
+        [
+          {
+            "assessment_status": "completed",
+            "basis_refs": [
+              "toy:evidence-version-1"
+            ],
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "reference_id": "toy:a",
+            "result": "resolved"
+          },
+          {
+            "assessment_status": "unrun",
+            "basis_refs": [],
+            "error_code": null,
+            "note": null,
+            "reference_id": "toy:b",
+            "result": null
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "assessment_complete": false,
+        "completed_items": 1,
+        "denominator": 2,
+        "numerator": 1,
+        "ratio": null,
+        "unavailable_reason": "assessment_incomplete"
+      },
+      "function": "summarize_reference_ids",
+      "group": "reference_ids",
+      "name": "reference_unrun_keeps_assessment_incomplete"
+    },
+    {
+      "arguments": [
+        [
+          "toy:a",
+          "toy:b"
+        ],
+        [
+          {
+            "assessment_status": "completed",
+            "basis_refs": [
+              "toy:evidence-version-1"
+            ],
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "reference_id": "toy:a",
+            "result": "resolved"
+          },
+          {
+            "assessment_status": "error",
+            "basis_refs": [],
+            "error_code": "toy_checker_error",
+            "note": null,
+            "reference_id": "toy:b",
+            "result": null
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "assessment_complete": false,
+        "completed_items": 1,
+        "denominator": 2,
+        "numerator": 1,
+        "ratio": null,
+        "unavailable_reason": "assessment_incomplete"
+      },
+      "function": "summarize_reference_ids",
+      "group": "reference_ids",
+      "name": "reference_error_keeps_assessment_incomplete"
+    },
+    {
+      "arguments": [
+        [
+          "toy:a"
+        ],
+        [
+          {
+            "assessment_status": "completed",
+            "basis_refs": [
+              "toy:evidence-version-1"
+            ],
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "reference_id": "toy:a",
+            "result": "resolved"
+          }
+        ],
+        false
+      ],
+      "expected": {
+        "assessment_complete": true,
+        "measure_complete": false,
+        "ratio": null,
+        "unavailable_reason": "reference_inventory_incomplete"
+      },
+      "function": "summarize_reference_ids",
+      "group": "reference_ids",
+      "name": "reference_inventory_incomplete_is_not_perfect"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "claim_id": "toy:s",
+            "has_citation": true,
+            "source_dependent": true
+          },
+          {
+            "claim_id": "toy:c",
+            "has_citation": true,
+            "source_dependent": true
+          },
+          {
+            "claim_id": "toy:i",
+            "has_citation": true,
+            "source_dependent": true
+          },
+          {
+            "claim_id": "toy:q",
+            "has_citation": true,
+            "source_dependent": true
+          },
+          {
+            "claim_id": "toy:u",
+            "has_citation": true,
+            "source_dependent": true
+          },
+          {
+            "claim_id": "toy:uncited",
+            "has_citation": false,
+            "source_dependent": true
+          }
+        ],
+        [
+          {
+            "assessment_status": "completed",
+            "basis_refs": [
+              "toy:evidence-version-1"
+            ],
+            "claim_id": "toy:s",
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "result": "supported"
+          },
+          {
+            "assessment_status": "completed",
+            "basis_refs": [
+              "toy:evidence-version-1"
+            ],
+            "claim_id": "toy:c",
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "result": "contradicted"
+          },
+          {
+            "assessment_status": "completed",
+            "basis_refs": [
+              "toy:evidence-version-1"
+            ],
+            "claim_id": "toy:i",
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "result": "insufficient_support"
+          },
+          {
+            "assessment_status": "completed",
+            "basis_refs": [
+              "toy:evidence-version-1"
+            ],
+            "claim_id": "toy:q",
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "result": "missing_qualification"
+          },
+          {
+            "assessment_status": "completed",
+            "basis_refs": [
+              "toy:evidence-version-1"
+            ],
+            "claim_id": "toy:u",
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "result": "unknown"
+          },
+          {
+            "assessment_status": "completed",
+            "basis_refs": [
+              "toy:evidence-version-1"
+            ],
+            "claim_id": "toy:uncited",
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "result": "supported"
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "all_claims.denominator": 6,
+        "all_claims.ratio": 0.3333333333333333,
+        "cited.denominator": 5,
+        "cited.ratio": 0.2,
+        "cited.result_counts.contradicted": 1,
+        "cited.result_counts.insufficient_support": 1,
+        "cited.result_counts.missing_qualification": 1,
+        "cited.result_counts.unknown": 1,
+        "uncited.denominator": 1,
+        "uncited.ratio": 1
+      },
+      "function": "summarize_claim_support",
+      "group": "claim_support",
+      "name": "cited_and_uncited_support_have_separate_denominators"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "claim_id": "toy:turns-claim",
+            "has_citation": true,
+            "source_dependent": true
+          }
+        ],
+        [
+          {
+            "assessment_status": "completed",
+            "basis_refs": [
+              "toy:turns"
+            ],
+            "claim_id": "toy:turns-claim",
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "result": "contradicted"
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "cited.assessment_complete": true,
+        "cited.ratio": 0,
+        "cited.result_counts.contradicted": 1
+      },
+      "function": "summarize_claim_support",
+      "group": "claim_support",
+      "name": "valid_reference_can_contradict_claim"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "claim_id": "toy:uncited",
+            "has_citation": false,
+            "source_dependent": true
+          }
+        ],
+        [
+          {
+            "assessment_status": "completed",
+            "basis_refs": [
+              "toy:evidence-version-1"
+            ],
+            "claim_id": "toy:uncited",
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "result": "supported"
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "all_claims.ratio": 1,
+        "cited.denominator": 0,
+        "cited.ratio": null,
+        "uncited.ratio": 1
+      },
+      "function": "summarize_claim_support",
+      "group": "claim_support",
+      "name": "uncited_fact_can_be_supported"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "claim_id": "toy:uncited",
+            "has_citation": false,
+            "source_dependent": true
+          }
+        ],
+        [
+          {
+            "assessment_status": "completed",
+            "basis_refs": [],
+            "claim_id": "toy:uncited",
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "result": "absent"
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "denominator": 1,
+        "measure_complete": true,
+        "ratio": 0,
+        "result_counts.absent": 1
+      },
+      "function": "summarize_attribution",
+      "group": "attribution",
+      "name": "absent_attribution_does_not_rewrite_supported_fact"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "claim_id": "toy:c",
+            "has_citation": true,
+            "source_dependent": true
+          }
+        ],
+        [
+          {
+            "assessment_status": "completed",
+            "basis_refs": [],
+            "claim_id": "toy:c",
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "result": "insufficient_support"
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "cited.ratio": 0,
+        "cited.result_counts.contradicted": 0,
+        "cited.result_counts.insufficient_support": 1
+      },
+      "function": "summarize_claim_support",
+      "group": "claim_support",
+      "name": "insufficient_support_is_not_contradiction"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "claim_id": "toy:c",
+            "has_citation": true,
+            "source_dependent": true
+          }
+        ],
+        [
+          {
+            "assessment_status": "completed",
+            "basis_refs": [
+              "toy:evidence-version-1"
+            ],
+            "claim_id": "toy:c",
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "result": "missing_qualification"
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "cited.ratio": 0,
+        "cited.result_counts.missing_qualification": 1
+      },
+      "function": "summarize_claim_support",
+      "group": "claim_support",
+      "name": "missing_qualification_is_separate"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "claim_id": "toy:c",
+            "has_citation": true,
+            "source_dependent": true
+          }
+        ],
+        [
+          {
+            "assessment_status": "completed",
+            "basis_refs": [],
+            "claim_id": "toy:c",
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "result": "unknown"
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "cited.assessment_counts.error": 0,
+        "cited.measure_complete": true,
+        "cited.ratio": 0,
+        "cited.result_counts.unknown": 1
+      },
+      "function": "summarize_claim_support",
+      "group": "claim_support",
+      "name": "unknown_is_not_a_checker_error"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "claim_id": "toy:a",
+            "has_citation": true,
+            "source_dependent": true
+          },
+          {
+            "claim_id": "toy:b",
+            "has_citation": true,
+            "source_dependent": true
+          }
+        ],
+        [
+          {
+            "assessment_status": "completed",
+            "basis_refs": [
+              "toy:evidence-version-1"
+            ],
+            "claim_id": "toy:a",
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "result": "supported"
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "cited.completed_items": 1,
+        "cited.denominator": 1,
+        "cited.expected_items": 2,
+        "cited.numerator": 1,
+        "cited.ratio": null,
+        "cited.unavailable_reason": "assessment_incomplete"
+      },
+      "function": "summarize_claim_support",
+      "group": "claim_support",
+      "name": "claim_missing_does_not_disappear"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "claim_id": "toy:a",
+            "has_citation": true,
+            "source_dependent": true
+          },
+          {
+            "claim_id": "toy:b",
+            "has_citation": true,
+            "source_dependent": true
+          }
+        ],
+        [
+          {
+            "assessment_status": "completed",
+            "basis_refs": [
+              "toy:evidence-version-1"
+            ],
+            "claim_id": "toy:a",
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "result": "supported"
+          },
+          {
+            "assessment_status": "unrun",
+            "basis_refs": [],
+            "claim_id": "toy:b",
+            "error_code": null,
+            "note": null,
+            "result": null
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "cited.completed_items": 1,
+        "cited.denominator": 1,
+        "cited.expected_items": 2,
+        "cited.numerator": 1,
+        "cited.ratio": null,
+        "cited.unavailable_reason": "assessment_incomplete"
+      },
+      "function": "summarize_claim_support",
+      "group": "claim_support",
+      "name": "claim_unrun_does_not_disappear"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "claim_id": "toy:a",
+            "has_citation": true,
+            "source_dependent": true
+          },
+          {
+            "claim_id": "toy:b",
+            "has_citation": true,
+            "source_dependent": true
+          }
+        ],
+        [
+          {
+            "assessment_status": "completed",
+            "basis_refs": [
+              "toy:evidence-version-1"
+            ],
+            "claim_id": "toy:a",
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "result": "supported"
+          },
+          {
+            "assessment_status": "error",
+            "basis_refs": [],
+            "claim_id": "toy:b",
+            "error_code": "toy_checker_error",
+            "note": null,
+            "result": null
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "cited.completed_items": 1,
+        "cited.denominator": 1,
+        "cited.expected_items": 2,
+        "cited.numerator": 1,
+        "cited.ratio": null,
+        "cited.unavailable_reason": "assessment_incomplete"
+      },
+      "function": "summarize_claim_support",
+      "group": "claim_support",
+      "name": "claim_error_does_not_disappear"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "claim_id": "toy:a",
+            "has_citation": true,
+            "source_dependent": true
+          }
+        ],
+        [
+          {
+            "assessment_status": "completed",
+            "basis_refs": [
+              "toy:evidence-version-1"
+            ],
+            "claim_id": "toy:a",
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "result": "supported"
+          }
+        ],
+        false
+      ],
+      "expected": {
+        "all_claims.ratio": null,
+        "cited.assessment_complete": true,
+        "cited.measure_complete": false,
+        "cited.ratio": null,
+        "cited.unavailable_reason": "claim_inventory_incomplete"
+      },
+      "function": "summarize_claim_support",
+      "group": "claim_support",
+      "name": "incomplete_claim_inventory_blocks_rates"
+    },
+    {
+      "arguments": [
+        [],
+        [],
+        true
+      ],
+      "expected": {
+        "all_claims.denominator": 0,
+        "all_claims.ratio": null,
+        "all_claims.unavailable_reason": "zero_denominator",
+        "cited.ratio": null,
+        "uncited.ratio": null
+      },
+      "function": "summarize_claim_support",
+      "group": "claim_support",
+      "name": "empty_complete_claim_inventory_has_no_rate"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "claim_id": "toy:cited",
+            "has_citation": true,
+            "source_dependent": true
+          },
+          {
+            "claim_id": "toy:uncited",
+            "has_citation": false,
+            "source_dependent": true
+          }
+        ],
+        [
+          {
+            "assessment_status": "completed",
+            "basis_refs": [
+              "toy:evidence-version-1"
+            ],
+            "claim_id": "toy:cited",
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "result": "supported"
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "all_claims.ratio": null,
+        "cited.ratio": 1,
+        "uncited.assessment_counts.not_recorded": 1,
+        "uncited.ratio": null
+      },
+      "function": "summarize_claim_support",
+      "group": "claim_support",
+      "name": "pending_uncited_claim_does_not_hide_complete_cited_subset"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "claim_id": "toy:usable",
+            "has_citation": true,
+            "source_dependent": true
+          },
+          {
+            "claim_id": "toy:absent",
+            "has_citation": false,
+            "source_dependent": true
+          },
+          {
+            "claim_id": "toy:unusable",
+            "has_citation": true,
+            "source_dependent": true
+          },
+          {
+            "claim_id": "toy:unknown",
+            "has_citation": true,
+            "source_dependent": true
+          },
+          {
+            "claim_id": "toy:choice",
+            "has_citation": false,
+            "source_dependent": false
+          }
+        ],
+        [
+          {
+            "assessment_status": "completed",
+            "basis_refs": [
+              "toy:evidence-version-1"
+            ],
+            "claim_id": "toy:usable",
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "result": "usable"
+          },
+          {
+            "assessment_status": "completed",
+            "basis_refs": [
+              "toy:evidence-version-1"
+            ],
+            "claim_id": "toy:absent",
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "result": "absent"
+          },
+          {
+            "assessment_status": "completed",
+            "basis_refs": [
+              "toy:evidence-version-1"
+            ],
+            "claim_id": "toy:unusable",
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "result": "unusable"
+          },
+          {
+            "assessment_status": "completed",
+            "basis_refs": [
+              "toy:evidence-version-1"
+            ],
+            "claim_id": "toy:unknown",
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "result": "unknown"
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "completed_items": 4,
+        "denominator": 4,
+        "expected_items": 4,
+        "numerator": 1,
+        "ratio": 0.25,
+        "result_counts": {
+          "absent": 1,
+          "unknown": 1,
+          "unusable": 1,
+          "usable": 1
+        },
+        "source_independent_claims_excluded": 1
+      },
+      "function": "summarize_attribution",
+      "group": "attribution",
+      "name": "source_dependent_attribution_uses_reviewed_claims"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "claim_id": "toy:c",
+            "has_citation": true,
+            "source_dependent": true
+          }
+        ],
+        [
+          {
+            "assessment_status": "completed",
+            "basis_refs": [
+              "toy:evidence-version-1"
+            ],
+            "claim_id": "toy:c",
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "result": "unusable"
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "ratio": 0,
+        "result_counts.unusable": 1
+      },
+      "function": "summarize_attribution",
+      "group": "attribution",
+      "name": "supplied_citation_can_be_unusable"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "claim_id": "toy:c",
+            "has_citation": false,
+            "source_dependent": true
+          }
+        ],
+        [],
+        true
+      ],
+      "expected": {
+        "assessment_counts.not_recorded": 1,
+        "ratio": null,
+        "result_counts.absent": 0,
+        "unavailable_reason": "assessment_incomplete"
+      },
+      "function": "summarize_attribution",
+      "group": "attribution",
+      "name": "attribution_missing_is_not_absent"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "claim_id": "toy:c",
+            "has_citation": true,
+            "source_dependent": true
+          }
+        ],
+        [
+          {
+            "assessment_status": "error",
+            "basis_refs": [],
+            "claim_id": "toy:c",
+            "error_code": "toy_checker_error",
+            "note": null,
+            "result": null
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "assessment_counts.error": 1,
+        "ratio": null,
+        "result_counts.unknown": 0
+      },
+      "function": "summarize_attribution",
+      "group": "attribution",
+      "name": "attribution_checker_error_remains_incomplete"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "claim_id": "toy:choice",
+            "has_citation": false,
+            "source_dependent": false
+          }
+        ],
+        [],
+        true
+      ],
+      "expected": {
+        "denominator": 0,
+        "measure_complete": true,
+        "ratio": null,
+        "source_independent_claims_excluded": 1
+      },
+      "function": "summarize_attribution",
+      "group": "attribution",
+      "name": "no_source_dependent_claims_has_no_attribution_rate"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "claim_id": "toy:c",
+            "has_citation": true,
+            "source_dependent": true
+          }
+        ],
+        [
+          {
+            "assessment_status": "completed",
+            "basis_refs": [
+              "toy:evidence-version-1"
+            ],
+            "claim_id": "toy:c",
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "result": "usable"
+          }
+        ],
+        false
+      ],
+      "expected": {
+        "assessment_complete": true,
+        "measure_complete": false,
+        "ratio": null,
+        "unavailable_reason": "claim_inventory_incomplete"
+      },
+      "function": "summarize_attribution",
+      "group": "attribution",
+      "name": "incomplete_claim_inventory_blocks_attribution_rate"
+    },
+    {
+      "arguments": [
+        [
+          "toy:a"
+        ],
+        [
+          {
+            "assessment_status": "completed",
+            "basis_refs": [
+              "toy:evidence-version-1"
+            ],
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "reference_id": "toy:a",
+            "result": "resolved"
+          },
+          {
+            "assessment_status": "completed",
+            "basis_refs": [
+              "toy:evidence-version-1"
+            ],
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "reference_id": "toy:a",
+            "result": "resolved"
+          }
+        ],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_reference_ids",
+      "group": "input_rejection",
+      "name": "duplicate_resolution"
+    },
+    {
+      "arguments": [
+        [
+          "toy:a"
+        ],
+        [
+          {
+            "assessment_status": "completed",
+            "basis_refs": [
+              "toy:evidence-version-1"
+            ],
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "reference_id": "toy:b",
+            "result": "resolved"
+          }
+        ],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_reference_ids",
+      "group": "input_rejection",
+      "name": "out_of_roster_reference"
+    },
+    {
+      "arguments": [
+        [
+          " "
+        ],
+        [],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_reference_ids",
+      "group": "input_rejection",
+      "name": "blank_reference"
+    },
+    {
+      "arguments": [
+        "toy:a",
+        [],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_reference_ids",
+      "group": "input_rejection",
+      "name": "non_list_references"
+    },
+    {
+      "arguments": [
+        [],
+        [],
+        1
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_reference_ids",
+      "group": "input_rejection",
+      "name": "nonboolean_reference_inventory"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "claim_id": "toy:c",
+            "has_citation": true,
+            "source_dependent": true
+          }
+        ],
+        [
+          {
+            "assessment_status": "completed",
+            "basis_refs": [
+              "toy:evidence-version-1"
+            ],
+            "claim_id": "toy:c",
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "result": "false"
+          }
+        ],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_claim_support",
+      "group": "input_rejection",
+      "name": "unsupported_result_code"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "claim_id": "toy:c",
+            "has_citation": true,
+            "source_dependent": true
+          }
+        ],
+        [
+          {
+            "assessment_status": "completed",
+            "basis_refs": [
+              "toy:evidence-version-1"
+            ],
+            "claim_id": "toy:c",
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "result": true
+          }
+        ],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_claim_support",
+      "group": "input_rejection",
+      "name": "boolean_result"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "claim_id": "toy:c",
+            "has_citation": true,
+            "source_dependent": true
+          }
+        ],
+        [
+          {
+            "assessment_status": "completed",
+            "basis_refs": [],
+            "claim_id": "toy:c",
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "result": "supported"
+          }
+        ],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_claim_support",
+      "group": "input_rejection",
+      "name": "missing_support_basis"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "claim_id": "toy:c",
+            "has_citation": true,
+            "source_dependent": true
+          }
+        ],
+        [
+          {
+            "assessment_status": "completed",
+            "basis_refs": [
+              "toy:evidence-version-1"
+            ],
+            "claim_id": "toy:c",
+            "error_code": null,
+            "note": " ",
+            "result": "supported"
+          }
+        ],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_claim_support",
+      "group": "input_rejection",
+      "name": "blank_assessment_note"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "claim_id": "toy:c",
+            "has_citation": true,
+            "source_dependent": true
+          }
+        ],
+        [
+          {
+            "assessment_status": "completed",
+            "basis_refs": [
+              "toy:evidence-version-1"
+            ],
+            "claim_id": "toy:c",
+            "error_code": "toy:error",
+            "note": "Authored assessment for an artificial fixture.",
+            "result": "supported"
+          }
+        ],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_claim_support",
+      "group": "input_rejection",
+      "name": "completed_with_error"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "claim_id": "toy:c",
+            "has_citation": true,
+            "source_dependent": true
+          }
+        ],
+        [
+          {
+            "assessment_status": "unrun",
+            "basis_refs": [
+              "toy:evidence-version-1"
+            ],
+            "claim_id": "toy:c",
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "result": "supported"
+          }
+        ],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_claim_support",
+      "group": "input_rejection",
+      "name": "unrun_with_result"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "claim_id": "toy:c",
+            "has_citation": true,
+            "source_dependent": true
+          }
+        ],
+        [
+          {
+            "assessment_status": "error",
+            "basis_refs": [],
+            "claim_id": "toy:c",
+            "error_code": null,
+            "note": null,
+            "result": null
+          }
+        ],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_claim_support",
+      "group": "input_rejection",
+      "name": "error_without_error_code"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "claim_id": "toy:c",
+            "has_citation": true,
+            "source_dependent": true
+          }
+        ],
+        [
+          {
+            "assessment_status": "completed",
+            "automatic_pass": true,
+            "basis_refs": [
+              "toy:evidence-version-1"
+            ],
+            "claim_id": "toy:c",
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "result": "supported"
+          }
+        ],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_claim_support",
+      "group": "input_rejection",
+      "name": "extra_assessment_field"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "claim_id": "toy:c",
+            "has_citation": true,
+            "source_dependent": true
+          }
+        ],
+        [
+          {
+            "assessment_status": "completed",
+            "basis_refs": [
+              "toy:a",
+              "toy:a"
+            ],
+            "claim_id": "toy:c",
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "result": "supported"
+          }
+        ],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_claim_support",
+      "group": "input_rejection",
+      "name": "duplicate_basis_refs"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "claim_id": "toy:c",
+            "has_citation": true,
+            "source_dependent": true
+          },
+          {
+            "claim_id": "toy:c",
+            "has_citation": true,
+            "source_dependent": true
+          }
+        ],
+        [],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_claim_support",
+      "group": "input_rejection",
+      "name": "duplicate_claim_identifiers"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "claim_id": "toy:c",
+            "has_citation": true,
+            "source_dependent": true
+          }
+        ],
+        [
+          {
+            "assessment_status": "completed",
+            "basis_refs": [
+              "toy:evidence-version-1"
+            ],
+            "claim_id": "toy:c",
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "result": "supported"
+          },
+          {
+            "assessment_status": "completed",
+            "basis_refs": [
+              "toy:evidence-version-1"
+            ],
+            "claim_id": "toy:c",
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "result": "supported"
+          }
+        ],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_claim_support",
+      "group": "input_rejection",
+      "name": "duplicate_support_assessments"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "claim_id": "toy:a",
+            "has_citation": true,
+            "source_dependent": true
+          }
+        ],
+        [
+          {
+            "assessment_status": "completed",
+            "basis_refs": [
+              "toy:evidence-version-1"
+            ],
+            "claim_id": "toy:c",
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "result": "supported"
+          }
+        ],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_claim_support",
+      "group": "input_rejection",
+      "name": "out_of_roster_claim"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "claim_id": "toy:c",
+            "has_citation": 1,
+            "source_dependent": true
+          }
+        ],
+        [],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_claim_support",
+      "group": "input_rejection",
+      "name": "nonboolean_citation_presence"
+    },
+    {
+      "arguments": [
+        [],
+        [],
+        null
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_claim_support",
+      "group": "input_rejection",
+      "name": "nonboolean_claim_inventory"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "claim_id": "toy:c",
+            "has_citation": false,
+            "source_dependent": true
+          }
+        ],
+        [
+          {
+            "assessment_status": "completed",
+            "basis_refs": [
+              "toy:evidence-version-1"
+            ],
+            "claim_id": "toy:c",
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "result": "usable"
+          }
+        ],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_attribution",
+      "group": "input_rejection",
+      "name": "uncited_claim_cannot_have_usable_attribution"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "claim_id": "toy:c",
+            "has_citation": true,
+            "source_dependent": true
+          }
+        ],
+        [
+          {
+            "assessment_status": "completed",
+            "basis_refs": [
+              "toy:evidence-version-1"
+            ],
+            "claim_id": "toy:c",
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "result": "absent"
+          }
+        ],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_attribution",
+      "group": "input_rejection",
+      "name": "cited_claim_cannot_be_marked_absent"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "claim_id": "toy:c",
+            "has_citation": false,
+            "source_dependent": false
+          }
+        ],
+        [
+          {
+            "assessment_status": "completed",
+            "basis_refs": [
+              "toy:evidence-version-1"
+            ],
+            "claim_id": "toy:c",
+            "error_code": null,
+            "note": "Authored assessment for an artificial fixture.",
+            "result": "absent"
+          }
+        ],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_attribution",
+      "group": "input_rejection",
+      "name": "source_independent_assessment_cannot_be_hidden"
+    }
+  ],
+  "scope": "authored artificial inventories, supplied assessments, and independent arithmetic expectations only"
+}
