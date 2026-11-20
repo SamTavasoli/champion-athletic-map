@@ -93,7 +93,7 @@ You only need to download the data if you want to execute the notebook or run th
 
 ```powershell
 git lfs install
-git clone -c core.autocrlf=false --branch sam-developmnet-2 https://github.com/SamTavasoli/champion-athletic-map.git champion-athletic-map-review
+git clone -c core.autocrlf=false --branch main https://github.com/SamTavasoli/champion-athletic-map.git champion-athletic-map-review
 cd champion-athletic-map-review
 git lfs pull --include="data/unified/v1/champions_unified_dataset.csv"
 ```
@@ -170,4 +170,4 @@ We tested fictional profiles and one local planning model. We did not measure ch
 
 Our first change to the planning code would be to place the athlete’s existing practices on the calendar before adding any sessions. We would then check time windows, session counts, rest days, and drill requirements in code, and ask the model to explain how the drills fill each block. Food facts can keep coming directly from the recorded lookup. We would test those changes on fresh cases so the 800 outcomes reported here remain the record of the original comparison.
 
-[Project repository on GitHub](https://github.com/SamTavasoli/champion-athletic-map/tree/sam-developmnet-2)
+[Project repository on GitHub](https://github.com/SamTavasoli/champion-athletic-map)
