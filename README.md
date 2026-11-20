@@ -1,223 +1,173 @@
 # Champions Athletic Map
 
-Champions Athletic Map is our AAI 590 capstone project at the University of San Diego. We built a local basketball-planning prototype for athletes ages 13–17, parents and coaches. The project combines exercise-text classification, basketball references, recorded food facts and four language-model planning workflows.
+**University of San Diego · AAI 590 Capstone · Team 6**
 
-Our question was whether adding references, specialist roles and review steps would improve weekly planning compared with a language model alone. We completed the comparison and kept the unsuccessful responses as part of the results.
+Aditi Jha, Beakal Zekaryas, and Saman Tavasoli
 
-**Current status — November 17, 2026:** the classifier evaluation, final planner comparison, results analysis and saved-analysis reproduction are complete. The interface supports saved examples, edits, progress tracking and file restoration. Reliable end-to-end planning remains unfinished, and live generation in the interface remains gated.
+We built Champions Athletic Map for basketball players ages 13–17 and the parents and coaches who help them plan their week. An athlete might have a ball, two free evenings, and a goal of improving their dribbling. Could a planner suggest drills they can actually do, fit them into those evenings, and leave their team practices alone?
+
+We compared four ways to generate a weekly plan. Giving the model references, specialist roles, and a chance to revise its work did not consistently improve the results. Our exercise classifier matched 321 of 438 held-out body-part labels. In a separate application, two runs of one dribbling request produced the same two-session calendar. The notebook shows where each part worked and where it fell short.
 
 ## Start here
 
-- [Main project notebook](notebooks/champion_athletic_map.ipynb): our preparation, experiments, observations and project workflow.
-- [Prototype user guide](docs/prototype_user_guide.md): opening saved examples, editing plans and restoring files.
-- [Technical guide](docs/technical_guide.md): components, data flow, execution boundaries and saved results.
-- [Results and limitations](docs/results_limitations_and_future_improvements.md): our discussion from Step 37.
-- [Statistical analysis](docs/statistical_analysis_findings.md): the comparison tables and interpretation from Step 35.
-- [Reproducibility guide](docs/reproducibility.md): the tested saved-results route from Step 36.
-- [Figures and code exports](docs/report_figures_and_code_exports.md): source files, captions and export instructions.
+1. [Ten-step master notebook](notebooks/Champion_athletic_map_master_notebook.ipynb). Start here for the full project. The tables, charts, calendars, recovery guidance, food facts, and conclusions are saved in the notebook. You can read them without installing anything or running a cell.
+2. [Development notebook](notebooks/champion_athletic_map.ipynb). This is our original 39-step workflow, including the training runs, failed planner responses, changes we tested, and the reasons for our decisions.
+3. [Basketball catalog build history](notebooks/step12_basketball_catalog_build_history.ipynb). This shows how we traced a drill back to its practice plan, handled repeated appearances, and recorded what still needed team review.
 
-## What we built
+Steps 1–3 of the master notebook cover loading, cleaning, and exploring the Unified dataset. Steps 4–6 explain the frozen splits, trainable models, and held-out classifier results. Steps 7–9 move from reference search to plan generation and the four-planner comparison. Step 10 walks through the fictional athlete’s week and shows exactly what the separate live application returned.
 
-| Component           | Purpose                                                      | What the results establish                                   |
-| ------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Exercise classifier | Predict a supported body-part category from an exercise name and description. | Performance on a held-out exercise-text test set.            |
-| Reference search    | Find relevant basketball and supporting guidance from our frozen sources. | Ranking performance on the saved retrieval questions.        |
-| Food lookup         | Return recorded nutrient values for a stated amount of a selected food. | Source-linked food facts; it does not prescribe a diet.      |
-| Four planners       | Compare progressively more involved weekly-planning workflows. | Recorded format, execution, timing and request-check results on fictional profiles. |
-| Local interface     | View and edit saved plans, track completion and restore snapshots. | Tested interface behavior; it does not establish reliable live planning. |
+## Exercise classification
 
-The exercise classifier and basketball planners solve different tasks. A body-part prediction does not approve an exercise for a young athlete or make it a suitable basketball drill. Gym exercise records remain unavailable to the planner under our current resource decisions.
+We wanted to suggest a body-part label for each exercise using its name and description. The Unified dataset contains 2,909 exercise records. We used the 2,872 eligible records and kept related exercises together in the original splits. That gave us 1,999 training exercises, 435 for validation, and 438 for the final test. The test covered 385 exercise groups and 16 body-part labels.
 
-## Models and planning workflows
+**L5** and **N3** are the names we used for two training configurations. L5 is logistic regression using TF-IDF weights for individual words and adjacent word pairs. N3 is a neural network that learns a vector for each token and averages those vectors to predict a label. The majority baseline always guesses *abdominals*, the most common training label.
 
-We trained and compared a majority baseline, TF-IDF with logistic regression, and a neural exercise classifier. **L5 logistic regression** was selected using validation results and remained the selected classifier for the final test.
-
-For reference search, we used the pretrained `all-MiniLM-L6-v2` sentence encoder. For planning, all four versions used the same local **`llama3.1:8b` model through Ollama**. We did not train or fine-tune that language model. Specialist roles are separate prompted calls to the same model.
-
-| Planner                       | Workflow                                                     |
-| ----------------------------- | ------------------------------------------------------------ |
-| 1 — Language model alone      | Use the supplied athlete information without retrieved references. |
-| 2 — With references           | Add a reference packet and recorded lookup information.      |
-| 3 — With specialist roles     | Add specialist contributions and combine them into a response. |
-| 4 — With checks and revisions | Add coded checks, an evaluator and a bounded revision process. |
-
-The final cases were matched across the four versions. Planners 2–4 shared the reference packet for a given case. Reference access was managed by Python; native language-model tool calling was not enabled. Private benchmark expectations stayed outside the model inputs.
-
-## Final results
-
-### Exercise classification
-
-The final test contained **438 records in 385 exercise groups across 16 categories**. Macro-F1 was our primary classifier measure; accuracy provides additional context.
-
-| Classifier             |   Macro-F1 |   Accuracy |
-| ---------------------- | ---------: | ---------: |
-| Majority baseline      |     0.0234 |     23.06% |
+| Classifier | Test macro-F1 | Test accuracy |
+|---|---:|---:|
+| Majority baseline | 0.0234 | 23.06% |
 | L5 logistic regression | **0.6143** | **73.29%** |
-| N3 neural classifier   |     0.5288 |     67.81% |
+| N3 neural classifier | 0.5288 | 67.81% |
 
-L5 performed best among these tested classifiers. The result concerns exercise-text categories, not basketball-plan quality or athlete outcomes.
+We chose L5 on the validation set before opening the test results. It matched 321 of the 438 held-out labels. Macro-F1 was our main measure because it gives each category equal weight. For example, L5 missed all four test exercises labeled *abductors* and both labeled *adductors*. We used L5 to suggest labels for team review of the training and validation catalog records. Approval of basketball drills was a separate decision. [Classifier model card](docs/classifier_model_card.md)
 
-### Reference search
+## Reference search and food facts
 
-We retained **30 held-out questions in 15 families**: 20 supported, two partly supported and eight unsupported. The original ranking population contained 24 questions with nonempty relevant-reference sets.
+We used the pretrained `all-MiniLM-L6-v2` sentence encoder to rank 11 short reference passages for a question. We tested it with 30 held-out questions from 15 families. The collection supported 20 questions fully and two partly. Eight asked for information the collection did not contain.
 
-| Saved ranking measure                   | Result |       Scored questions |
-| --------------------------------------- | -----: | ---------------------: |
-| Mean Recall@5                           | 1.0000 |                     24 |
-| MRR@5                                   | 0.9792 |                     24 |
-| Complete ranked evidence-set coverage@5 | 1.0000 | 20 supported questions |
+| Retrieval measure | Result | Questions scored |
+|---|---:|---|
+| Mean recall in the first five results (Recall@5) | 1.0000 | 24 with at least one passage marked relevant |
+| Mean reciprocal rank in the first five (MRR@5) | 0.9792 | The same 24 questions |
+| All required passages appeared in the first five | 1.0000 | 20 fully supported questions |
 
-All 30 queries returned candidates, including unsupported requests. Strong ranking does not establish that a request is answerable, that all required facts reached the planner or that its answer used them correctly. We preserved the source labels and denominators when they differed from the earlier planned answerability counts.
+The original ranking labels and the answerability labels were scored separately. The search returned candidates for all 30 questions, even the eight it could not answer. We also found that the planner’s prompt limit affected which passages it actually saw.
 
-### Four-planner comparison
+For food questions, we used a separate lookup that reads recorded nutrient values for a selected food and amount. Step 10 shows the result for 150 g of raw bananas. The food values came from the lookup and stayed outside the live scheduling request.
 
-We evaluated **200 fictional profiles with all four workflows: 800 saved outcomes**. Of the 200 profiles, 150 were feasible planning requests, 20 lacked information, 15 contained conflicting constraints and 15 were outside scope. The full comparison used **2,636 cumulative local model submissions**, including specialist, evaluator and revision calls.
+## Four-planner comparison
 
-| Planner                       | Valid format | Workflow completed | Valid completed plans | Coded checks passed | Full verification | Median time |
-| ----------------------------- | -----------: | -----------------: | --------------------: | ------------------: | ----------------: | ----------: |
-| 1 — Language model alone      |       75/200 |            199/200 |                45/150 |               0/150 |             0/150 |     10.57 s |
-| 2 — With references           |       62/200 |            186/200 |                40/150 |               0/150 |             0/150 |     18.41 s |
-| 3 — With specialist roles     |       67/200 |            199/200 |                39/150 |               0/150 |             0/150 |     26.98 s |
-| 4 — With checks and revisions |       69/200 |            198/200 |                47/150 |               0/150 |             0/150 |     62.10 s |
+All four workflows used the same local `llama3.1:8b` model through Ollama, without fine-tuning. We changed what information and checks surrounded each call. The specialist and evaluator roles used the same model with different prompts.
 
-Format and workflow completion use all 200 profiles per planner. Plan and verification counts use the 150 feasible requests. Timing includes all terminal outcomes, including failures. A valid completed plan has the required structure and declares a plan; it may still violate the request. A completed Planner 4 workflow may reach its revision limit without internal acceptance.
+| Planner | How we generated a reply |
+|---|---|
+| 1 · Model alone | Supply the athlete’s request without retrieved references. |
+| 2 · With references | Add a reference packet and recorded lookup results. |
+| 3 · With specialist roles | Ask specialists for input, then combine their contributions into a reply. |
+| 4 · With checks and revisions | Run coded checks, ask an evaluator to review the reply, and allow a limited number of revisions. |
 
-The baseline returned the most correctly formatted replies overall and took the least time. Planner 4 returned slightly more valid completed plans for feasible requests but took much longer. None of its final outcomes was internally accepted. More involved workflows did not consistently improve the recorded measures, so we did not select a generally superior planner.
+We gave each planner the same 200 fictional profiles. Of those, 150 had feasible planning requests, 20 lacked information, 15 had conflicting constraints, and 15 were outside the project’s scope. Planners 2–4 shared the same reference packet for a given case. Python handled retrieval and lookups. We kept the expected answers out of the prompts. The study recorded **800 outcomes** and **2,636 local model submissions**, including specialist, evaluator, and revision calls.
 
-No generated plan achieved full verification. The automatic goal check was unfinished and resource checking had limited coverage. Saved assessments also found actual errors, including missing or changed existing commitments, incorrect session counts and exceeded training limits. Unresolved checks remain separate from observed violations.
+| Planner | Valid format | Workflow completed | Valid completed plans | Passed coded checks | Fully verified plans | Median time |
+|---|---:|---:|---:|---:|---:|---:|
+| 1 · Model alone | 75/200 | 199/200 | 45/150 | 0/150 | 0/150 | 10.57 s |
+| 2 · With references | 62/200 | 186/200 | 40/150 | 0/150 | 0/150 | 18.41 s |
+| 3 · With specialist roles | 67/200 | 199/200 | 39/150 | 0/150 | 0/150 | 26.98 s |
+| 4 · With checks and revisions | 69/200 | 198/200 | 47/150 | 0/150 | 0/150 | 62.10 s |
+
+Format, workflow completion, and median time cover all 200 cases per planner, including failed runs. The three plan columns cover the 150 feasible requests. A valid completed plan had the required structure and returned a plan. We then checked whether it actually followed the athlete’s request.
+
+Planner 1 was fastest and returned the most correctly formatted replies. Planner 4 produced two more valid completed plans than Planner 1, took about six times as long at the median, and reached no final outcome that its evaluator accepted. **None of the four planners produced a fully verified plan.** Some calendars dropped existing practices, added the wrong number of sessions, or exceeded training limits. Our automatic goal check was also unfinished, and some resource checks were inconclusive. We kept those gaps separate from the errors we could confirm. [Statistical analysis](docs/statistical_analysis_findings.md) · [Results and limitations](docs/results_limitations_and_future_improvements.md)
 
 ### Team review and uncertainty
 
-Our supplementary team review covered **160 replies from 40 selected profiles**, with 800 entries across five separate dimensions. It used one assisted review. Two independent teammate rating sets were not collected, so reviewer agreement was not estimated. The sample contained 25 feasible and 15 challenge profiles; its pooled ratings do not represent all 800 outcomes.
+After the results were known, we used one assisted team review to examine 160 replies from 40 selected profiles. The sample included 25 feasible profiles and 15 challenge profiles. Across five dimensions, the review recorded 799 numeric scores and one entry marked not applicable. We collected no independent teammate rating sets, so we could not calculate agreement between reviewers. The ratings describe this sample. [Recorded review method](results/team_review/review_1c8c6d51f99740e019ac/review_method_amendment.json)
 
-Step 35 retained four matched planner contrasts and 2,000 paired group resamples with seed 42. Zero-success verification flags produced constant intervals; these do not establish equal planner quality or zero uncertainty beyond this benchmark. Some planner numerical conventions were clarified during analysis after the results were available and are recorded in the method note.
+For four matched planner comparisons, we resampled the groups 2,000 times with seed 42. Every planner had zero fully verified plans, so resampling this benchmark also produced zero differences on that measure. That leaves the planners’ relative quality on new requests open. We documented the numerical conventions we clarified after seeing the results. [Analysis method note](results/statistical_analysis/analysis_d5e368e9f92725a9d389/analysis_method_note.json)
 
-## Open the local prototype
+## Fictional-athlete demonstration
 
-Use the prepared project environment and the saved data and artifacts described below. From the project root in PowerShell:
+The separate **CODE-4 live application** received one request from a fictional 16-year-old beginner who wanted two 15-minute dribbling sessions. It filtered drills by the athlete’s resources, supplied a weekly-rest rule, and checked the returned schedule. Two saved runs of that same request passed the app’s format and completion checks and produced the same calendar.
+
+| Day | Local time | Drill |
+|---|---|---|
+| Monday, November 16, 2026 | 5:30–5:45 p.m. | 5-5-5 Creative Dribble |
+| Wednesday, November 18, 2026 | 5:30–5:45 p.m. | Rhythm Dribbling |
+
+The source descriptions give one minute for the first drill and three minutes for the second. The app fit the sessions into the available time, but the draft still left most of each 15-minute block unexplained. These two runs belong to the application demonstration. The four-planner comparison uses only the 800 study outcomes above. Step 10 displays the saved calendar by default. Generating a new plan is optional and creates a separate job. [Saved demonstration runs](results/app_live/jobs/)
+
+## Running the project locally
+
+### Get the data for a new Windows checkout
+
+You only need to download the data if you want to execute the notebook or run the applications. For a new Windows checkout, install Git LFS and run the following in PowerShell. The clone setting preserves line endings in files whose checksums the notebook verifies.
 
 ```powershell
-.\.venv\Scripts\Activate.ps1
+git lfs install
+git clone -c core.autocrlf=false --branch sam-developmnet-2 https://github.com/SamTavasoli/champion-athletic-map.git champion-athletic-map-review
+cd champion-athletic-map-review
+git lfs pull --include="data/unified/v1/champions_unified_dataset.csv"
+```
+
+The master notebook uses [`data/unified/v1/`](data/unified/v1/) as its working dataset. Keep `champions_unified_dataset.csv`, `dataset_manifest.json`, `load_unified_dataset.py`, and `READ_ME_FIRST.txt` together. The Unified CSV is 525,355,627 bytes. On Windows you can check that the full file downloaded with `(Get-Item .\data\unified\v1\champions_unified_dataset.csv).Length`. Step 1 also checks it against the release manifest.
+
+We developed on Windows with Python 3.12.6. Use the prepared project environment and the saved model, schema, prompt, reference, and result files for the part you want to run. `requirements/prototype.txt` pins Streamlit. The classifier has its own recorded package versions. The master notebook leaves new predictions and plan generation switched off by default. [Recorded development environment](docs/current_environment_recorded.md) · [Technical guide](docs/technical_guide.md)
+
+### Open a Streamlit application
+
+From the project root, activate the prepared environment with `.\.venv\Scripts\Activate.ps1`, then choose one of the two commands below. Open the local address printed by Streamlit, usually `http://127.0.0.1:8501`. Press `Ctrl+C` to stop the server.
+
+**Saved-example viewer.** Use this to open a fictional example, edit its calendar, mark a session completed or skipped, and download a CSV or JSON snapshot. Restore the JSON to keep your edits and progress across browser sessions. Some saved examples contain known planning errors. If you change a session, its earlier review refers to the old version and you may need to record progress again. Progress is self-reported. In this viewer, live generation and model review require a matching readiness record. [Prototype user guide](docs/prototype_user_guide.md)
+
+```powershell
 python -m streamlit run app/streamlit_app.py --server.address 127.0.0.1
 ```
 
-Open [http://127.0.0.1:8501](http://127.0.0.1:8501). If Streamlit asks for an email address on the first run, leave it blank and press Enter to continue. Stop the server with `Ctrl+C`.
+**Live planner.** Use this when you want to generate a *new* draft. It requires the local Ollama service and the installed `llama3.1:8b` model matching the project’s recorded digest. A run writes a new job under `results/app_live/jobs/`. You can inspect the two saved demonstration runs without starting Ollama.
 
-The tested interface supports:
+```powershell
+python -m streamlit run app/live_planner.py --server.address 127.0.0.1
+```
 
-1. Loading a saved fictional example and viewing its response status.
-2. Editing athlete information or a proposed session and saving a new version.
-3. Marking sessions pending, completed or skipped, then choosing **Update progress**.
-4. Downloading CSV or a JSON snapshot.
-5. Restoring a JSON snapshot explicitly, including compatible saved edits and progress.
+## Reproducing the analysis and checking the software
 
-Changes to session definitions can reset the affected progress entry. Progress is self-reported completion, not a measure of athletic improvement. Download a JSON snapshot to retain work across browser sessions.
-
-Live generation and model review require a separate matching application readiness record. Completing the research comparison does not enable them automatically. Saved development plans can contain known errors, and editing a plan makes an earlier model review historical.
-
-### Environment and required inputs
-
-Our development work used Windows and Python 3.12.6. Use the recorded release environments for classifier loading. `requirements/prototype.txt` pins the Streamlit interface dependency; it is **not a complete dependency lock for the research project**. The November 9 environment record is historical. Step 36 records the separately installed analysis environment used for the successful reproduction.
-
-The prepared unified dataset belongs in `data/unified/v1/`, with these four files unchanged:
-
-- `READ_ME_FIRST.txt`
-- `champions_unified_dataset.csv`
-- `dataset_manifest.json`
-- `load_unified_dataset.py`
-
-The project also needs its saved schemas, prompts, reference index, approved resource release, classifier artifacts, planner configurations and result files. A source-only checkout is not sufficient to reproduce every experiment. The source register and saved manifests identify the required versions.
-
-We used the master dataset package as part of our source inventory and preparation. We used the exercise data for classification and source-linked basketball and food records for their respective tools. The unified dataset supplies a shared input format; it does not mean that the entire master CSV was sent to the language model or used to train it.
-
-## Reproduce the saved results analysis
-
-Step 36 passed **37 output comparisons** in a separate environment and fresh kernel. The protected originals stayed unchanged, with no new model calls.
-
-From the root of the complete prepared project, the successful run provides this command:
+In Step 36 of the development notebook, we recalculated the saved analysis in a separate environment and fresh kernel. **All 37 output comparisons passed.** To repeat that check from the prepared project root, run the command below. It creates a new verification folder. Installing the dependencies may need internet access. The analysis itself runs offline and uses the original saved outcomes. A complete rebuild of every experiment from a fresh clone remains unverified. [Reproducibility guide](docs/reproducibility.md)
 
 ```powershell
 python results/reproducibility/repro_20261117T174153Z_3e7049a7/reproduce.py --project-root .
 ```
 
-It creates another verification folder, installs dependencies into a separate environment, recalculates the saved analysis and compares the outputs. Package installation may require internet access; the analysis runs with network access disabled. It does not repeat classifier training or generate another set of planner replies.
-
-The tested route covers saved-results analysis. A complete fresh-clone rebuild of data preparation, training and live generation remains a separate task. See [the reproduction guide](docs/reproducibility.md) for the recorded requirements and comparison rules.
-
-## Software checks
-
-Step 30 recorded **248 passing checks and no failures** after its corrections. That is a historical result for the prepared suite, not a claim that the entire later project was freshly retested together. Later steps recorded their own targeted checks.
-
-The recorded controlled runner is:
+The Step 30 software suite recorded **248 passing checks and no failures** after its corrections. Later changes had their own targeted checks. The original runner verifies the source version before it proceeds, so a later checkout can stop at that check. To run it in the matching environment:
 
 ```powershell
 python tests/run_step30.py
 ```
 
-It verifies its recorded source bindings before running. Later source changes can cause it to stop rather than silently test a different version. Software checks, planner output checks and team ratings measure different things.
+### Figures and code exports
 
-## Report figures and code exports
-
-Our final analysis figures are in:
-
-```text
-results/statistical_analysis/analysis_d5e368e9f92725a9d389/figures/
-```
-
-| Figure                                | Content                                                      |
-| ------------------------------------- | ------------------------------------------------------------ |
-| `planner_execution.svg`               | Format validity and workflow completion across all 200 profiles per planner. |
-| `planner_runtime.svg`                 | Median all-terminal workflow time, including failures.       |
-| `classifier_macro_f1_differences.svg` | Matched classifier Macro-F1 differences and individual 95% exercise-group bootstrap intervals. |
-
-To copy the existing SVGs for the report, without recalculating them:
+The three [analysis figures](results/statistical_analysis/analysis_d5e368e9f92725a9d389/figures/) show planner completion and format validity (`planner_execution.svg`), median workflow time including failures (`planner_runtime.svg`), and differences in classifier macro-F1 with 95% exercise-group bootstrap intervals (`classifier_macro_f1_differences.svg`). To copy the existing figures for a report:
 
 ```powershell
 New-Item -ItemType Directory -Force reports/figures | Out-Null
 Copy-Item results/statistical_analysis/analysis_d5e368e9f92725a9d389/figures/*.svg reports/figures/
 ```
 
-Readable helper-source exports for Steps 35–37 accompany this documentation in `reports/code_exports/`. Their manifest records source hashes. The project's `src/` modules and versioned notebook remain the primary implementation.
-
-To export the current main notebook as Python without executing it, use an environment with `nbconvert` installed:
+The [code exports](reports/code_exports/) include the helpers from Steps 35–37 and a record of their source hashes. To make a fresh Python export of the development notebook without running it, use a separate output folder so the archived export stays intact. The exported code still depends on notebook cell order and its project environment, and some cells start expensive experiments. [Figures and exports guide](docs/report_figures_and_code_exports.md)
 
 ```powershell
-python -m nbconvert --to python notebooks/champion_athletic_map.ipynb --output-dir reports/code_exports
+python -m nbconvert --to python notebooks/champion_athletic_map.ipynb --output-dir reports/local_exports
 ```
 
-This command is an optional export instruction; it does not create the README. The exported notebook can retain cell-order dependencies, IPython commands and expensive experiment calls. Exporting it does not make it a standalone reproduction program. Use the tested Step 36 route for saved-analysis reproduction.
+## Repository layout
 
-## Project layout
+| Folder | What it contains |
+|---|---|
+| `notebooks/` | Ten-step master notebook, development notebook, catalog build history, and preparation notebooks. Earlier supporting work is in `supporting/` and the dated backup is in `archive/`. |
+| `data/` | Unified working dataset, source register, and reference files. |
+| `src/champion_athletic_map/` | Classification, reference search, planning, and validation code. |
+| `app/` | Both Streamlit entry points and the live planner’s supporting code. |
+| `artifacts/` | Versioned models, prompts, schemas, reference resources, and configurations. |
+| `results/` | Saved replies, calendars, checks, team review, analysis, and reproduction records. |
+| `docs/` | User guide, technical notes, methods, and findings. |
+| `reports/` | Report draft, figures, and archived exports. |
+| `requirements/` | Dependency lists for individual components. |
+| `tests/` | Software checks and their fixtures. |
 
-| Location                     | Contents                                                     |
-| ---------------------------- | ------------------------------------------------------------ |
-| `notebooks/`                 | Main project notebook and preparation history.               |
-| `src/champion_athletic_map/` | Classifier, reference, planner, checking and application modules. |
-| `app/`                       | Streamlit entry point.                                       |
-| `data/`                      | Registered inputs and unified dataset files.                 |
-| `artifacts/`                 | Versioned models, schemas, prompts, reference resources and configurations. |
-| `results/`                   | Saved replies, assessments, reviews, analysis and reproduction evidence. |
-| `reports/`                   | Report assets and readable code exports.                     |
-| `docs/`                      | User instructions, technical notes, methods and findings.    |
-| `requirements/`              | Dependency files for specific project components.            |
-| `tests/`                     | Software checks and controlled test fixtures.                |
+## Sources, scope, and next steps
 
-## Limitations and next improvements
+The source register identifies where each dataset came from. At the planning stage we made 127 basketball records, nine general warm-ups, and 29 rule definitions available. We held back seven drill records. Gym exercises stayed outside the planner. A resource being available for the project does not establish its suitability for a particular athlete. When sharing source material, we follow the original terms for the datasets, guidance, and model weights and keep the attribution notices. Separate permission may be needed to redistribute source materials. CDC guidance is included for educational use. CDC does not endorse this project. [Source register](data/source_manifest.csv)
 
-We evaluated fictional profiles with one local planning model and fixed saved outcomes. We did not measure changes in real athletes' performance. The system has incomplete goal checking, limited resource verification and a single assisted review stream.
+We tested fictional profiles and one local planning model. We did not measure changes in real athletes’ performance. The prototype covers general planning and recorded food facts. Medical diagnosis, injury rehabilitation, and dietary prescriptions are outside its scope.
 
-Our next priorities are to construct calendars with explicit scheduling logic, preserve existing commitments, validate approved drill requirements, display food facts directly from verified lookups and complete the missing checks. We would simplify the prompts and response structure before comparing further workflow or model changes. Changes based on these final results need a new experiment version and fresh evaluation cases.
+Our first change to the planning code would be to place the athlete’s existing practices on the calendar before adding any sessions. We would then check time windows, session counts, rest days, and drill requirements in code, and ask the model to explain how the drills fill each block. Food facts can keep coming directly from the recorded lookup. We would test those changes on fresh cases so the 800 outcomes reported here remain the record of the original comparison.
 
-The prototype provides general planning support and recorded food facts. Medical diagnosis, injury rehabilitation and dietary prescriptions are outside its scope.
-
-## Sources and resource decisions
-
-The source register is [data/source_manifest.csv](data/source_manifest.csv). Dataset packages and frozen manifests retain source identities, versions and file hashes. Our resource activation recorded 127 available basketball records, nine general warm-ups and 29 rule definitions; seven drill records were held. Resource availability does not establish individual suitability or prove that a plan follows every rule.
-
-Upstream datasets, guidance and model weights retain their source-specific terms. Team approval for use in this project does not grant blanket redistribution rights. Preserve the recorded attribution and usage notices when sharing source-derived material. CDC references are used for this educational project with their source notices; CDC does not endorse this project. No new blanket license for third-party material is introduced by this README.
-
-## Team
-
-AAI 590, Team 6 — Aditi Jha, Beakal Zekaryas and Saman (Sam) Tavasoli.
-
-Repository: [SamTavasoli/champion-athletic-map](https://github.com/SamTavasoli/champion-athletic-map). This README describes the completed local work through Step 37; a remote checkout contains these outputs only after the corresponding project files are published.
+[Project repository on GitHub](https://github.com/SamTavasoli/champion-athletic-map/tree/sam-developmnet-2)
