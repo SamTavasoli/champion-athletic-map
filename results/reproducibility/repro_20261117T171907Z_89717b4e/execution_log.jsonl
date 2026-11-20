@@ -1,0 +1,6 @@
+{"phase": "configuration", "status": "recorded", "time_utc": "2026-11-17T17:19:07.956679+00:00"}
+{"files": 2298, "phase": "inputs", "status": "verified", "time_utc": "2026-11-17T17:19:29.589185+00:00"}
+{"phase": "environment", "status": "installed", "time_utc": "2026-11-17T17:20:21.590276+00:00"}
+{"cells": 4, "phase": "kernel", "status": "completed", "time_utc": "2026-11-17T17:21:29.761116+00:00"}
+{"error_type": "ValueError", "message": "Some reproduced results differ. Both versions and the comparison report were retained.", "phase": "verification", "status": "failed", "time_utc": "2026-11-17T17:21:30.594066+00:00"}
+{"phase": "verification", "protected_unchanged": true, "status": "needs_attention", "time_utc": "2026-11-17T17:21:33.584619+00:00"}

@@ -1,0 +1,18 @@
+{
+  "queries": [
+    "Basketball practice; Find the medical cause of my kne; goals [\"Change direction with ; experience {\"experience; equipment [\"Basketball\",\"Cones\",\"H; space half_court; people 2",
+    "Youth basketball participation, rest and recovery; age 16; grade 10; commitments [\"practice\"]; request Find the medical cause of my knee discomfort "
+  ],
+  "query_records": [
+    {
+      "query_id": "retrieval-query:1c83691d0d361dfdc5e40d75e4bc67a80390e757b4217ce2cb6c438329b8b4ac",
+      "text": "Basketball practice; Find the medical cause of my kne; goals [\"Change direction with ; experience {\"experience; equipment [\"Basketball\",\"Cones\",\"H; space half_court; people 2",
+      "text_sha256": "ddd20d7553bf68278685f4021ce029dfe89ab890169c3a32cd6c02393b2409cc"
+    },
+    {
+      "query_id": "retrieval-query:52a29ba657f69496cbde931fa5215f560e726baba0bfd67c2d437f20056f0051",
+      "text": "Youth basketball participation, rest and recovery; age 16; grade 10; commitments [\"practice\"]; request Find the medical cause of my knee discomfort ",
+      "text_sha256": "9c4672cdfc67298ecbef716ac755a88c8767dd34b4ff39f3b2143c4245a8aa12"
+    }
+  ]
+}

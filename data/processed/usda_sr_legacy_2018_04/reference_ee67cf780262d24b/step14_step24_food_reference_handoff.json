@@ -1,0 +1,46 @@
+{
+  "application_lookup_enabled": false,
+  "data_preparation_complete": true,
+  "earlier_source_findings": {
+    "full_source_portion_numeric_flags": 18,
+    "handling": "Full-source findings remain in the earlier audit; zero flagged selected portions does not resolve unselected source anomalies.",
+    "validation_producer": "results/usda_preparation/source_validation_6d29b976bee45ca1/step14_source_validation_summary.json"
+  },
+  "integration_actions": [
+    "Load and verify the selected producer and CSV payload hashes.",
+    "Resolve ambiguous descriptions and quantities to exact selected food/portion IDs before arithmetic.",
+    "Return food identity, units, reference quantity, missing-field status, and source provenance.",
+    "Apply the same frozen food snapshot to all planner configurations receiving the tool."
+  ],
+  "metrics": {
+    "available_nutrient_fields": 498,
+    "calculation_tests_executed": 123,
+    "calculation_tests_failed": 0,
+    "eligible_household_portions": 341,
+    "flagged_household_portions": 0,
+    "full_source_flagged_portions_preserved": 18,
+    "nutrient_slots": 500,
+    "populated_food_categories": 15,
+    "recorded_nutrient_values": 498,
+    "selected_foods": 100,
+    "selected_portion_records": 341,
+    "selection_families": 11,
+    "source_comparisons_executed": 76,
+    "source_comparisons_failed": 0,
+    "source_foods": 7793,
+    "source_values_changed_or_imputed": 0,
+    "unavailable_nutrient_fields": 2,
+    "valid_zero_nutrient_values": 82
+  },
+  "reference_payload_paths": {
+    "calculation_module": "usda_food_reference.py",
+    "definitions": "usda_nutrient_definitions.json",
+    "foods": "usda_foods.csv",
+    "nutrients": "usda_food_nutrients.csv",
+    "portions": "usda_food_portions.csv"
+  },
+  "retrieval_scope": "Only the named food/definition/portion files are lookup content. Development cases are software checks, not retrieval documents or planner research answer keys.",
+  "schema_version": "step14-step24-food-reference-handoff-1",
+  "scope": "Factual food lookup only; no athlete calorie targets, diet prescriptions, supplement advice, or allergy-safety decisions.",
+  "validation_producer": "results/usda_preparation/source_validation_6d29b976bee45ca1/step14_source_validation_summary.json"
+}

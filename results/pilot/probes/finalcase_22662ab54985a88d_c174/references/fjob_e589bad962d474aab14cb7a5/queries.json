@@ -1,0 +1,18 @@
+{
+  "queries": [
+    "Basketball practice; Keep one uninterrupted 40-minute; goals [\"Improve accuracy from ; experience {\"experience; equipment [\"Basketball\",\"Cones\",\"H; space half_court; people 1",
+    "Youth basketball participation, rest and recovery; age 14; grade 8; commitments [\"game\",\"practice\"]; request Keep one uninterrupted 40-minute basketball b"
+  ],
+  "query_records": [
+    {
+      "query_id": "retrieval-query:d00b1b5f3f9ee1e0872635898e805c4503b1d502b3082f1405eb23c78e639349",
+      "text": "Basketball practice; Keep one uninterrupted 40-minute; goals [\"Improve accuracy from ; experience {\"experience; equipment [\"Basketball\",\"Cones\",\"H; space half_court; people 1",
+      "text_sha256": "5a0bcecb73085f69aec4e8b3cfc33ccc7a04ee2853dc478f472b75ab92475bdb"
+    },
+    {
+      "query_id": "retrieval-query:77b9299b5c3932654ae7641f0a09fdab3ed49663cc1568a71114c4bddaa31a88",
+      "text": "Youth basketball participation, rest and recovery; age 14; grade 8; commitments [\"game\",\"practice\"]; request Keep one uninterrupted 40-minute basketball b",
+      "text_sha256": "eebf58b0fbdd1f3de96f6af29727230b32ab28b72090cf2ef1494d7b9510467d"
+    }
+  ]
+}

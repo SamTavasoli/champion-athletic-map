@@ -1,0 +1,19 @@
+table,record_id,fdc_id,nutrient_id,field,raw_value,finding,handling
+food_portion.csv,83785,168789,,amount,0,zero,retain; block_automatic_household_conversion; preserve_valid_food_facts_and_explicit_gram_scaling
+food_portion.csv,83786,168790,,amount,0,zero,retain; block_automatic_household_conversion; preserve_valid_food_facts_and_explicit_gram_scaling
+food_portion.csv,83793,168796,,amount,0,zero,retain; block_automatic_household_conversion; preserve_valid_food_facts_and_explicit_gram_scaling
+food_portion.csv,84494,169239,,amount,0,zero,retain; block_automatic_household_conversion; preserve_valid_food_facts_and_explicit_gram_scaling
+food_portion.csv,85231,169617,,amount,0,zero,retain; block_automatic_household_conversion; preserve_valid_food_facts_and_explicit_gram_scaling
+food_portion.csv,85240,169621,,amount,0,zero,retain; block_automatic_household_conversion; preserve_valid_food_facts_and_explicit_gram_scaling
+food_portion.csv,87870,171056,,amount,0,zero,retain; block_automatic_household_conversion; preserve_valid_food_facts_and_explicit_gram_scaling
+food_portion.csv,87883,171062,,amount,0,zero,retain; block_automatic_household_conversion; preserve_valid_food_facts_and_explicit_gram_scaling
+food_portion.csv,87910,171073,,amount,0,zero,retain; block_automatic_household_conversion; preserve_valid_food_facts_and_explicit_gram_scaling
+food_portion.csv,88407,171300,,amount,0,zero,retain; block_automatic_household_conversion; preserve_valid_food_facts_and_explicit_gram_scaling
+food_portion.csv,88756,171450,,amount,0,zero,retain; block_automatic_household_conversion; preserve_valid_food_facts_and_explicit_gram_scaling
+food_portion.csv,88762,171452,,amount,0,zero,retain; block_automatic_household_conversion; preserve_valid_food_facts_and_explicit_gram_scaling
+food_portion.csv,88765,171453,,amount,0,zero,retain; block_automatic_household_conversion; preserve_valid_food_facts_and_explicit_gram_scaling
+food_portion.csv,88807,171472,,amount,0,zero,retain; block_automatic_household_conversion; preserve_valid_food_facts_and_explicit_gram_scaling
+food_portion.csv,88814,171475,,amount,0,zero,retain; block_automatic_household_conversion; preserve_valid_food_facts_and_explicit_gram_scaling
+food_portion.csv,88848,171492,,amount,0,zero,retain; block_automatic_household_conversion; preserve_valid_food_facts_and_explicit_gram_scaling
+food_portion.csv,90178,172252,,amount,0,zero,retain; block_automatic_household_conversion; preserve_valid_food_facts_and_explicit_gram_scaling
+food_portion.csv,92745,173509,,amount,0,zero,retain; block_automatic_household_conversion; preserve_valid_food_facts_and_explicit_gram_scaling

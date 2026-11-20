@@ -1,0 +1,5 @@
+finding_id,metric,value,evidence,follow_up
+EX01,missing_descriptions,1550,exercise_description_coverage.csv,Assess name-only and described records separately during modeling.
+EX02,largest_to_smallest_class_ratio,82.5,exercise_body_part_distribution.csv,Review class and linked-group support before partitioning.
+EX03,records_with_active_findings,2072,exercise_review_issues.csv,Retain observed findings separately from unresolved handling decisions.
+EX04,mixed_label_split_groups,46,exercise_split_group_summary.csv,Keep linked records together and review label disagreements.

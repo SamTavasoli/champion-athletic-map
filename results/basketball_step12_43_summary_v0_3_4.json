@@ -1,0 +1,14 @@
+{
+  "step": "12-43",
+  "catalog_version_read": "0.3.4",
+  "catalog_candidates": 144,
+  "source_occurrences": 156,
+  "wave2_candidates": 14,
+  "reviewer_field_decisions": 56,
+  "targeted_exceptions": 3,
+  "targeted_exception_cues_supported": 3,
+  "review_decisions_signed": 0,
+  "catalog_approvals": 0,
+  "planner_eligible": 0,
+  "upstream_catalog_modified": false
+}

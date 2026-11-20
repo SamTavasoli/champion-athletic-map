@@ -1,0 +1,8 @@
+{
+  "args": [],
+  "kwargs": {
+    "grams": "80",
+    "search_text": "Sweet potato, cooked, baked in skin, flesh, without salt"
+  },
+  "method": "lookup_food"
+}

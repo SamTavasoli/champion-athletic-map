@@ -1,0 +1,75 @@
+{
+  "corpus_id": "pilot-corpus:917f12a3f56929da76a59808167bcca057fc9017047b57b5fb46fe2d1409884d",
+  "inherited_benchmark_plan": {
+    "actual_questions": 0,
+    "actual_reviewed_judgments": 0,
+    "planned_development_questions": 30,
+    "planned_held_out_questions": 30,
+    "planned_per_partition_categories": {
+      "drill_and_resource": 10,
+      "guideline_and_qualification": 10,
+      "unsupported_by_identified_corpus": 10
+    },
+    "question_families_cannot_cross_partitions": true,
+    "question_text_or_answers_in_corpus": false,
+    "ranking_relevance_and_complete_evidence_judgments_separate": true,
+    "selection_rule": [
+      "higher_development_mean_recall_at_5",
+      "higher_development_mrr_at_5_on_exact_tie",
+      "lexical_on_exact_double_tie"
+    ],
+    "status": "planned_no_questions_or_judgments_created"
+  },
+  "judgment_policy_status": {
+    "complete_bound_corpus_support_review_required": true,
+    "complete_evidence_judgments_created": 0,
+    "cosine_score_establishes_answerability": false,
+    "empty_relevant_set_recall_mrr_denominator_policy": "pending_explicit_definition_before_scoring",
+    "held_out_question_content_must_remain_outside_development_method_selection": true,
+    "no_automatic_zero_or_perfect_score_for_unsupported_queries": true,
+    "no_relevance_and_partial_but_insufficient_evidence_are_distinct": true,
+    "question_and_answer_material_must_remain_outside_indexed_passages": true,
+    "ranking_relevance_and_complete_evidence_judgments_separate": true,
+    "relevance_judgments_created": 0,
+    "unsupported_automatically_implies_an_empty_relevant_set": false,
+    "unsupported_classification_criteria": "pending_explicit_question_specific_support_review"
+  },
+  "pilot_limitations": [
+    "Six basketball units share one textbook family; no independent-study count is implied.",
+    "Seven indexed units and top-five ranking give limited pilot discrimination; no quality score is available.",
+    "UGA scope disclaimers are not adopted youth participation rules.",
+    "Structured food facts and executable planning rules remain separate routes."
+  ],
+  "plan_modified": false,
+  "population_accounting": {
+    "actual_partition_assignments": 0,
+    "actual_question_families": 0,
+    "actual_questions": 0,
+    "actual_reviewed_judgments": 0,
+    "passages": 7,
+    "publisher_source_families": 2,
+    "reference_units": 7,
+    "sixty_question_capacity_inferred_from_seven_units": false,
+    "sixty_question_incapacity_inferred_from_seven_units": false,
+    "source_record_aliases": 8
+  },
+  "query_and_delivery_integration": {
+    "actual_benchmark_query_execution": "pending",
+    "all_required_delivery_companions_must_remain_attached": true,
+    "generation_tokenizer_and_full_prompt_budget": "pending_step24",
+    "semantic_query_encoder_integration": "pending"
+  },
+  "question_family_policy": {
+    "different_question_families_may_share_sources_or_reference_units": true,
+    "mechanical_id_checks_do_not_establish_semantic_independence": true,
+    "minimum_number_of_source_families_adopted": null,
+    "one_question_per_passage_or_unit_required": false,
+    "paraphrase_counts_do_not_establish_distinct_family_capacity": true,
+    "paraphrases_aliases_and_equivalent_information_needs_share_a_family": true,
+    "question_families_cannot_cross_partitions": true,
+    "semantic_family_review_required_before_partition_freeze": true,
+    "source_disjoint_partition_required": false,
+    "source_family_ids_are_provenance_not_question_family_assignments": true
+  },
+  "schema_version": "step23-benchmark-design-audit-contract-1"
+}

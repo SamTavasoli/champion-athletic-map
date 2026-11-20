@@ -1,0 +1,18 @@
+{
+  "queries": [
+    "Basketball practice; Show my complete weekly basketba; goals [\"Improve court awarenes; experience {\"experience; equipment [\"Basketball\",\"Hoop\"]; space single_hoop_; people 2",
+    "Youth basketball participation, rest and recovery; age 16; grade 11; commitments unknown; request Show my complete weekly basketball schedule, "
+  ],
+  "query_records": [
+    {
+      "query_id": "retrieval-query:e29839a6704b25e55f1cc3109c215d901e55729f1675f9de04fe2113893757ba",
+      "text": "Basketball practice; Show my complete weekly basketba; goals [\"Improve court awarenes; experience {\"experience; equipment [\"Basketball\",\"Hoop\"]; space single_hoop_; people 2",
+      "text_sha256": "3e26aade5b3b5622b5e0771db7fbd153f17c91d0fb10c7e3695ef3381eb2be0f"
+    },
+    {
+      "query_id": "retrieval-query:d5563e3d7bdb795bacb74167cd60156e38a79a8ad852bdf167bfc3bf121b20ef",
+      "text": "Youth basketball participation, rest and recovery; age 16; grade 11; commitments unknown; request Show my complete weekly basketball schedule, ",
+      "text_sha256": "7ca6e2f8291e9226a8b7cbe4ca9a8b32bc7f8da0e15a261a961cb21735ea0482"
+    }
+  ]
+}

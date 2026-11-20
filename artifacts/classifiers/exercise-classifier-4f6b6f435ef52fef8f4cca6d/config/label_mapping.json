@@ -1,0 +1,42 @@
+{
+  "benchmark_id": "exercise-benchmark:fb56823695069d9dd15a5280812e8b8faff81550732489cd3b1cc075b532b7df",
+  "class_order": [
+    "abdominals",
+    "abductors",
+    "adductors",
+    "biceps",
+    "calves",
+    "chest",
+    "forearms",
+    "glutes",
+    "hamstrings",
+    "lats",
+    "lower back",
+    "middle back",
+    "quadriceps",
+    "shoulders",
+    "traps",
+    "triceps"
+  ],
+  "class_to_index": {
+    "abdominals": 0,
+    "abductors": 1,
+    "adductors": 2,
+    "biceps": 3,
+    "calves": 4,
+    "chest": 5,
+    "forearms": 6,
+    "glutes": 7,
+    "hamstrings": 8,
+    "lats": 9,
+    "lower back": 10,
+    "middle back": 11,
+    "quadriceps": 12,
+    "shoulders": 13,
+    "traps": 14,
+    "triceps": 15
+  },
+  "class_zero_valid": true,
+  "schema_version": "exercise-label-mapping-1",
+  "separate_from_token_ids": true
+}

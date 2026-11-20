@@ -1,0 +1,6 @@
+source_id,field,value,records,denominator_records,percent,record_unit
+aditi_recovery_guidance,topic,Fatigue,1,5,20.0,guidance_records
+aditi_recovery_guidance,topic,Injury,1,5,20.0,guidance_records
+aditi_recovery_guidance,topic,Rest,1,5,20.0,guidance_records
+aditi_recovery_guidance,topic,Sleep,1,5,20.0,guidance_records
+aditi_recovery_guidance,topic,Training load,1,5,20.0,guidance_records

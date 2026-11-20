@@ -1,0 +1,918 @@
+{
+  "benchmark_preparation_id": "retrieval-benchmark-preparation:9b572b07c872d1a7178b19039dda68dd51d01213792f6424e417cab479272e97",
+  "corpus_id": "expanded-corpus:aa58799145ccff5c8ea285b3b1eb0bc4fdc41ef85ad90ffb03db3ce3c4687c58",
+  "corpus_unit_ids": [
+    "cdc-scoped-reference-unit:48fa1ffdb991327354244a4aa2582a51f2c8761f121dab257fc7e57edc7fe49c",
+    "cdc-scoped-reference-unit:9ae26e325e4559ccf326a009199fd14308bd73a6b3a3b9e13c887a4ed52a73f7",
+    "cdc-scoped-reference-unit:71f1674d3449800f478836ec8c7fb6b5e73f8ddc94654d6822d9275f4c15f3b8",
+    "cdc-scoped-reference-unit:ec134de6746684be0dc34604edb4f8681cba3735eb923069b42f69181372f2a2",
+    "reference-unit:826434d4d2d9eca996497c4fa1e36fdb85d4a62df0d6c7ce121f6e4e3b782512",
+    "uga-reference-unit:6efdd1157d496a3b809ac5a5ca14a154819c239216512a03c3021512e4d9f58c",
+    "uga-reference-unit:d692cca968ad1d51a27721d4960026a7884affe069063b990b366f66c4f4484e",
+    "uga-reference-unit:4a6bb370f8d4ab32bd5d06fc1187ff3a9918eb09bceb9e67730372983afb0e60",
+    "uga-reference-unit:9f7c112043b55ea9e77238ccbb4184b2ec00f34849e5606aaaf95b2804d98edc",
+    "uga-reference-unit:248e752b5b0675f01a58a588fe379ac008a2469c5e1474a3ddd3159996496dd0",
+    "uga-reference-unit:118cf8fb6c0ae92cb6494815d431bfd70f3ea364ddda29ff64a3750fcd7b2c58"
+  ],
+  "development_comparison_id": "retrieval-development-comparison:8a912950decb6f7cde229661dd95442772da63053b279b92d8925c3b38cd4102",
+  "development_metric_judgments": [
+    {
+      "category": "drill_and_resource",
+      "complete_evidence_sets": [
+        [
+          "uga-reference-unit:6efdd1157d496a3b809ac5a5ca14a154819c239216512a03c3021512e4d9f58c"
+        ]
+      ],
+      "judgment_status": "final",
+      "query_id": "retrieval-query:bab09dcdb25f419173c441a6f73a48d3e5a504617a8c14427083ea82239a6fcf",
+      "relevant_unit_ids": [
+        "uga-reference-unit:6efdd1157d496a3b809ac5a5ca14a154819c239216512a03c3021512e4d9f58c"
+      ],
+      "split": "development",
+      "support_status": "supported"
+    },
+    {
+      "category": "drill_and_resource",
+      "complete_evidence_sets": [
+        [
+          "uga-reference-unit:6efdd1157d496a3b809ac5a5ca14a154819c239216512a03c3021512e4d9f58c"
+        ]
+      ],
+      "judgment_status": "final",
+      "query_id": "retrieval-query:fd37c79cb4eb06f3dd52e33cfc65819eefebcdc7e3394db1b35fd44c694f90ed",
+      "relevant_unit_ids": [
+        "uga-reference-unit:6efdd1157d496a3b809ac5a5ca14a154819c239216512a03c3021512e4d9f58c"
+      ],
+      "split": "development",
+      "support_status": "supported"
+    },
+    {
+      "category": "drill_and_resource",
+      "complete_evidence_sets": [
+        [
+          "uga-reference-unit:6efdd1157d496a3b809ac5a5ca14a154819c239216512a03c3021512e4d9f58c"
+        ]
+      ],
+      "judgment_status": "final",
+      "query_id": "retrieval-query:28cbd26d742f86b362e0dabbb9c87c276c0ec257cf7308b65cb2c3f5d9e8e73b",
+      "relevant_unit_ids": [
+        "uga-reference-unit:6efdd1157d496a3b809ac5a5ca14a154819c239216512a03c3021512e4d9f58c"
+      ],
+      "split": "development",
+      "support_status": "supported"
+    },
+    {
+      "category": "drill_and_resource",
+      "complete_evidence_sets": [
+        [
+          "uga-reference-unit:6efdd1157d496a3b809ac5a5ca14a154819c239216512a03c3021512e4d9f58c"
+        ]
+      ],
+      "judgment_status": "final",
+      "query_id": "retrieval-query:d4170de7081f7189d870731f026b73e155eaf8b0af49bd046d1c5b1742dd15b0",
+      "relevant_unit_ids": [
+        "uga-reference-unit:6efdd1157d496a3b809ac5a5ca14a154819c239216512a03c3021512e4d9f58c"
+      ],
+      "split": "development",
+      "support_status": "supported"
+    },
+    {
+      "category": "drill_and_resource",
+      "complete_evidence_sets": [
+        [
+          "uga-reference-unit:118cf8fb6c0ae92cb6494815d431bfd70f3ea364ddda29ff64a3750fcd7b2c58"
+        ]
+      ],
+      "judgment_status": "final",
+      "query_id": "retrieval-query:a6a5592dd6998a961cc2b0601906fe3d75242f6f4d71d6e3e602b952369b173b",
+      "relevant_unit_ids": [
+        "uga-reference-unit:118cf8fb6c0ae92cb6494815d431bfd70f3ea364ddda29ff64a3750fcd7b2c58"
+      ],
+      "split": "development",
+      "support_status": "supported"
+    },
+    {
+      "category": "drill_and_resource",
+      "complete_evidence_sets": [
+        [
+          "uga-reference-unit:118cf8fb6c0ae92cb6494815d431bfd70f3ea364ddda29ff64a3750fcd7b2c58"
+        ]
+      ],
+      "judgment_status": "final",
+      "query_id": "retrieval-query:7c810227389f96805526b28d54a4123563d334e8830f2d666ef219d5ee1b5e14",
+      "relevant_unit_ids": [
+        "uga-reference-unit:118cf8fb6c0ae92cb6494815d431bfd70f3ea364ddda29ff64a3750fcd7b2c58"
+      ],
+      "split": "development",
+      "support_status": "supported"
+    },
+    {
+      "category": "drill_and_resource",
+      "complete_evidence_sets": [
+        [
+          "uga-reference-unit:d692cca968ad1d51a27721d4960026a7884affe069063b990b366f66c4f4484e"
+        ]
+      ],
+      "judgment_status": "final",
+      "query_id": "retrieval-query:43d6d4eb5eca44b5af06510127265d9ba77544a9d4a13f1fddaccb171b9a309e",
+      "relevant_unit_ids": [
+        "uga-reference-unit:d692cca968ad1d51a27721d4960026a7884affe069063b990b366f66c4f4484e"
+      ],
+      "split": "development",
+      "support_status": "supported"
+    },
+    {
+      "category": "drill_and_resource",
+      "complete_evidence_sets": [
+        [
+          "uga-reference-unit:d692cca968ad1d51a27721d4960026a7884affe069063b990b366f66c4f4484e"
+        ]
+      ],
+      "judgment_status": "final",
+      "query_id": "retrieval-query:bfb98b9555ed07fcce40a0237d5ef359e60d01e614871336d77395345b1972a2",
+      "relevant_unit_ids": [
+        "uga-reference-unit:d692cca968ad1d51a27721d4960026a7884affe069063b990b366f66c4f4484e"
+      ],
+      "split": "development",
+      "support_status": "supported"
+    },
+    {
+      "category": "drill_and_resource",
+      "complete_evidence_sets": [
+        [
+          "uga-reference-unit:4a6bb370f8d4ab32bd5d06fc1187ff3a9918eb09bceb9e67730372983afb0e60"
+        ]
+      ],
+      "judgment_status": "final",
+      "query_id": "retrieval-query:5a6a0e3b4ea165aad99bf964bb97cdafcfecf84f5d2c8700fda7e3c15240c474",
+      "relevant_unit_ids": [
+        "uga-reference-unit:4a6bb370f8d4ab32bd5d06fc1187ff3a9918eb09bceb9e67730372983afb0e60"
+      ],
+      "split": "development",
+      "support_status": "supported"
+    },
+    {
+      "category": "drill_and_resource",
+      "complete_evidence_sets": [
+        [
+          "uga-reference-unit:4a6bb370f8d4ab32bd5d06fc1187ff3a9918eb09bceb9e67730372983afb0e60"
+        ]
+      ],
+      "judgment_status": "final",
+      "query_id": "retrieval-query:dae0fc660099cd14a009847bdab1a100525b1646baeee92862ef4bb591a717bb",
+      "relevant_unit_ids": [
+        "uga-reference-unit:4a6bb370f8d4ab32bd5d06fc1187ff3a9918eb09bceb9e67730372983afb0e60"
+      ],
+      "split": "development",
+      "support_status": "supported"
+    },
+    {
+      "category": "guideline_and_qualification",
+      "complete_evidence_sets": [
+        [
+          "reference-unit:826434d4d2d9eca996497c4fa1e36fdb85d4a62df0d6c7ce121f6e4e3b782512"
+        ]
+      ],
+      "judgment_status": "final",
+      "query_id": "retrieval-query:98586a230df0299c2125a1860951d50e5e49ffa3214e7adbacaea19f2452e4ac",
+      "relevant_unit_ids": [
+        "reference-unit:826434d4d2d9eca996497c4fa1e36fdb85d4a62df0d6c7ce121f6e4e3b782512"
+      ],
+      "split": "development",
+      "support_status": "supported"
+    },
+    {
+      "category": "guideline_and_qualification",
+      "complete_evidence_sets": [
+        [
+          "reference-unit:826434d4d2d9eca996497c4fa1e36fdb85d4a62df0d6c7ce121f6e4e3b782512"
+        ]
+      ],
+      "judgment_status": "final",
+      "query_id": "retrieval-query:228ae042d2a149233747b4edc763adb8f3fa60e4938aa10cb9a7dc410112e72f",
+      "relevant_unit_ids": [
+        "reference-unit:826434d4d2d9eca996497c4fa1e36fdb85d4a62df0d6c7ce121f6e4e3b782512"
+      ],
+      "split": "development",
+      "support_status": "supported"
+    },
+    {
+      "category": "guideline_and_qualification",
+      "complete_evidence_sets": [
+        [
+          "reference-unit:826434d4d2d9eca996497c4fa1e36fdb85d4a62df0d6c7ce121f6e4e3b782512"
+        ]
+      ],
+      "judgment_status": "final",
+      "query_id": "retrieval-query:e0ebbe35608c1c71521a679d1758a4606d02ad21c875b7172be5fd7b41debefc",
+      "relevant_unit_ids": [
+        "reference-unit:826434d4d2d9eca996497c4fa1e36fdb85d4a62df0d6c7ce121f6e4e3b782512"
+      ],
+      "split": "development",
+      "support_status": "supported"
+    },
+    {
+      "category": "guideline_and_qualification",
+      "complete_evidence_sets": [
+        [
+          "reference-unit:826434d4d2d9eca996497c4fa1e36fdb85d4a62df0d6c7ce121f6e4e3b782512"
+        ]
+      ],
+      "judgment_status": "final",
+      "query_id": "retrieval-query:89ae33990ab5317e76043fa776d8ad6e6b48c0000b96895665024ee95fe79e47",
+      "relevant_unit_ids": [
+        "reference-unit:826434d4d2d9eca996497c4fa1e36fdb85d4a62df0d6c7ce121f6e4e3b782512"
+      ],
+      "split": "development",
+      "support_status": "supported"
+    },
+    {
+      "category": "guideline_and_qualification",
+      "complete_evidence_sets": [
+        [
+          "cdc-scoped-reference-unit:9ae26e325e4559ccf326a009199fd14308bd73a6b3a3b9e13c887a4ed52a73f7"
+        ]
+      ],
+      "judgment_status": "final",
+      "query_id": "retrieval-query:478a11c13570bc1602f40dcd924627ac9ec9435bbfb209319d7b6199f4ec1b52",
+      "relevant_unit_ids": [
+        "cdc-scoped-reference-unit:9ae26e325e4559ccf326a009199fd14308bd73a6b3a3b9e13c887a4ed52a73f7"
+      ],
+      "split": "development",
+      "support_status": "supported"
+    },
+    {
+      "category": "guideline_and_qualification",
+      "complete_evidence_sets": [
+        [
+          "cdc-scoped-reference-unit:9ae26e325e4559ccf326a009199fd14308bd73a6b3a3b9e13c887a4ed52a73f7"
+        ]
+      ],
+      "judgment_status": "final",
+      "query_id": "retrieval-query:6645ec52dd7c537d21f73b9fb7082f8c146e56fd4166c0c2e58b0f3cfe36e3bb",
+      "relevant_unit_ids": [
+        "cdc-scoped-reference-unit:9ae26e325e4559ccf326a009199fd14308bd73a6b3a3b9e13c887a4ed52a73f7"
+      ],
+      "split": "development",
+      "support_status": "supported"
+    },
+    {
+      "category": "guideline_and_qualification",
+      "complete_evidence_sets": [
+        [
+          "cdc-scoped-reference-unit:9ae26e325e4559ccf326a009199fd14308bd73a6b3a3b9e13c887a4ed52a73f7"
+        ]
+      ],
+      "judgment_status": "final",
+      "query_id": "retrieval-query:7cebcc1a4b2274ba0d4d4431d6949ded2cf68daf72de26165bf3b9449584620d",
+      "relevant_unit_ids": [
+        "cdc-scoped-reference-unit:9ae26e325e4559ccf326a009199fd14308bd73a6b3a3b9e13c887a4ed52a73f7"
+      ],
+      "split": "development",
+      "support_status": "supported"
+    },
+    {
+      "category": "guideline_and_qualification",
+      "complete_evidence_sets": [
+        [
+          "cdc-scoped-reference-unit:9ae26e325e4559ccf326a009199fd14308bd73a6b3a3b9e13c887a4ed52a73f7"
+        ]
+      ],
+      "judgment_status": "final",
+      "query_id": "retrieval-query:5e8a24c2870d5d3b68a952257fef7aff4f9f4fbdd2c64dd686c2abb14f07c348",
+      "relevant_unit_ids": [
+        "cdc-scoped-reference-unit:9ae26e325e4559ccf326a009199fd14308bd73a6b3a3b9e13c887a4ed52a73f7"
+      ],
+      "split": "development",
+      "support_status": "supported"
+    },
+    {
+      "category": "guideline_and_qualification",
+      "complete_evidence_sets": [
+        [
+          "cdc-scoped-reference-unit:71f1674d3449800f478836ec8c7fb6b5e73f8ddc94654d6822d9275f4c15f3b8"
+        ]
+      ],
+      "judgment_status": "final",
+      "query_id": "retrieval-query:f76249641d52bef4cd8933e7a05f78c42f242c724ff69ccc6085462ceb886f8d",
+      "relevant_unit_ids": [
+        "cdc-scoped-reference-unit:71f1674d3449800f478836ec8c7fb6b5e73f8ddc94654d6822d9275f4c15f3b8"
+      ],
+      "split": "development",
+      "support_status": "supported"
+    },
+    {
+      "category": "guideline_and_qualification",
+      "complete_evidence_sets": [
+        [
+          "cdc-scoped-reference-unit:71f1674d3449800f478836ec8c7fb6b5e73f8ddc94654d6822d9275f4c15f3b8"
+        ]
+      ],
+      "judgment_status": "final",
+      "query_id": "retrieval-query:6d75fbc696045342817fdb89713ecbbe72d4feb02526d7657b8e2455336eb3cc",
+      "relevant_unit_ids": [
+        "cdc-scoped-reference-unit:71f1674d3449800f478836ec8c7fb6b5e73f8ddc94654d6822d9275f4c15f3b8"
+      ],
+      "split": "development",
+      "support_status": "supported"
+    },
+    {
+      "category": "unsupported_by_identified_corpus",
+      "complete_evidence_sets": [],
+      "judgment_status": "final",
+      "query_id": "retrieval-query:ff58c2c18e002b1c0d200196d31346565de6d2b98aaeea86c6594e7506b66c4d",
+      "relevant_unit_ids": [],
+      "split": "development",
+      "support_status": "unsupported"
+    },
+    {
+      "category": "unsupported_by_identified_corpus",
+      "complete_evidence_sets": [],
+      "judgment_status": "final",
+      "query_id": "retrieval-query:252c5712bc82fb2b95009db74e1f1c4ddb61a7821af44c3d45a2a89136ffa4c2",
+      "relevant_unit_ids": [],
+      "split": "development",
+      "support_status": "unsupported"
+    },
+    {
+      "category": "unsupported_by_identified_corpus",
+      "complete_evidence_sets": [],
+      "judgment_status": "final",
+      "query_id": "retrieval-query:d326e5537bd7db1e513126f3d4ba5fd76be7f46136b15dbe20cb245061cef5dc",
+      "relevant_unit_ids": [],
+      "split": "development",
+      "support_status": "unsupported"
+    },
+    {
+      "category": "unsupported_by_identified_corpus",
+      "complete_evidence_sets": [],
+      "judgment_status": "final",
+      "query_id": "retrieval-query:48528b15905eaa9bdbee8da689aa2243baec665b0e94deb3461a3a89d74def2e",
+      "relevant_unit_ids": [],
+      "split": "development",
+      "support_status": "unsupported"
+    },
+    {
+      "category": "unsupported_by_identified_corpus",
+      "complete_evidence_sets": [],
+      "judgment_status": "final",
+      "query_id": "retrieval-query:7b52cf04253aed52ede87f6fd622516e89cc745b2b3120aa0f36af37cba09a09",
+      "relevant_unit_ids": [],
+      "split": "development",
+      "support_status": "unsupported"
+    },
+    {
+      "category": "unsupported_by_identified_corpus",
+      "complete_evidence_sets": [],
+      "judgment_status": "final",
+      "query_id": "retrieval-query:e16fe42fb5f23f85bb797982cdd5467295ecca462f5c0edbe604d07325013c45",
+      "relevant_unit_ids": [],
+      "split": "development",
+      "support_status": "unsupported"
+    },
+    {
+      "category": "unsupported_by_identified_corpus",
+      "complete_evidence_sets": [],
+      "judgment_status": "final",
+      "query_id": "retrieval-query:dae4f978b01922692bc6f36d797b8930c2bb6c11e926a22551d7de5f548d6ac9",
+      "relevant_unit_ids": [
+        "cdc-scoped-reference-unit:9ae26e325e4559ccf326a009199fd14308bd73a6b3a3b9e13c887a4ed52a73f7"
+      ],
+      "split": "development",
+      "support_status": "partially_supported"
+    },
+    {
+      "category": "unsupported_by_identified_corpus",
+      "complete_evidence_sets": [],
+      "judgment_status": "final",
+      "query_id": "retrieval-query:0d1e9d91956e1993e15db113849bcdcdca8e0417e2a0d222735641d2b3c2b08f",
+      "relevant_unit_ids": [
+        "cdc-scoped-reference-unit:9ae26e325e4559ccf326a009199fd14308bd73a6b3a3b9e13c887a4ed52a73f7"
+      ],
+      "split": "development",
+      "support_status": "partially_supported"
+    },
+    {
+      "category": "unsupported_by_identified_corpus",
+      "complete_evidence_sets": [],
+      "judgment_status": "final",
+      "query_id": "retrieval-query:d6d798b52ec847acaecd30d7041476a840af0299f6ae96c9c8f45b514590864c",
+      "relevant_unit_ids": [
+        "uga-reference-unit:d692cca968ad1d51a27721d4960026a7884affe069063b990b366f66c4f4484e"
+      ],
+      "split": "development",
+      "support_status": "partially_supported"
+    },
+    {
+      "category": "unsupported_by_identified_corpus",
+      "complete_evidence_sets": [],
+      "judgment_status": "final",
+      "query_id": "retrieval-query:969246571092aefe1f229f2f664b63eafa1bf25f89beb1966ff17c4d865b131a",
+      "relevant_unit_ids": [
+        "uga-reference-unit:d692cca968ad1d51a27721d4960026a7884affe069063b990b366f66c4f4484e"
+      ],
+      "split": "development",
+      "support_status": "partially_supported"
+    }
+  ],
+  "development_questions": [
+    {
+      "author_kind": "assistant",
+      "authoring_ordinal": 1,
+      "benchmark_population": "scoped_eleven_core_retrieval_pilot",
+      "category": "drill_and_resource",
+      "only_text_enters_retrieval_query_features": true,
+      "partition_ordinal": 1,
+      "query_id": "retrieval-query:bab09dcdb25f419173c441a6f73a48d3e5a504617a8c14427083ea82239a6fcf",
+      "question_family_id": "retrieval-question-family:fd5f1e2443914a6440653497e036f91201c2e57a5de0783e4a901db6d7927822",
+      "question_id": "retrieval-benchmark-question:4e4e23d799ce8d6a78dd087c77599c32d8a3a53ffa99e09dcff608726d9fdb45",
+      "question_record_sha256": "3b8674eecbca8e9aa2e63cb15bdfea4e5fbb775c705750cd4d2bf49b98af5bf8",
+      "schema_version": "step23-benchmark-question-1",
+      "split": "development",
+      "text": "Which pass reaches a teammate after touching the floor, and when does the reference say it can be useful against defenders?",
+      "text_sha256": "3dc7c389524fbf061f60de46f15eeb84a2baaf82f7afb06137c6f4f545942b09"
+    },
+    {
+      "author_kind": "assistant",
+      "authoring_ordinal": 2,
+      "benchmark_population": "scoped_eleven_core_retrieval_pilot",
+      "category": "drill_and_resource",
+      "only_text_enters_retrieval_query_features": true,
+      "partition_ordinal": 2,
+      "query_id": "retrieval-query:fd37c79cb4eb06f3dd52e33cfc65819eefebcdc7e3394db1b35fd44c694f90ed",
+      "question_family_id": "retrieval-question-family:fd5f1e2443914a6440653497e036f91201c2e57a5de0783e4a901db6d7927822",
+      "question_id": "retrieval-benchmark-question:1f5775ca1360b85fc9476ae2806948190e34aee2736e4db72e802ef932d7e7e8",
+      "question_record_sha256": "9854f611e96c2bd7947c8b46bed0afebcae09ba8a8006f563dea4c0ea28d1a57",
+      "schema_version": "step23-benchmark-question-1",
+      "split": "development",
+      "text": "If defenders hold their hands high, what passing option does the introductory reference describe, and what path does the ball take?",
+      "text_sha256": "e7ec41d21e2e503be9692e3f818eb149980b25baf3efd11d6acb7d4ae740b9df"
+    },
+    {
+      "author_kind": "assistant",
+      "authoring_ordinal": 3,
+      "benchmark_population": "scoped_eleven_core_retrieval_pilot",
+      "category": "drill_and_resource",
+      "only_text_enters_retrieval_query_features": true,
+      "partition_ordinal": 3,
+      "query_id": "retrieval-query:28cbd26d742f86b362e0dabbb9c87c276c0ec257cf7308b65cb2c3f5d9e8e73b",
+      "question_family_id": "retrieval-question-family:748d3e95a510c06a79a97932f1abbda6bc0e939ea6ab3cdbe079e07e5f8d14a2",
+      "question_id": "retrieval-benchmark-question:2dc334ae7860eaca61447464ca2e2f953a85b6b2bf5508144da70667a5fe9d63",
+      "question_record_sha256": "3b788750a772b3eb37d89c4d9940323f0f719b5e4c01ac75991f14a4b1e8faa3",
+      "schema_version": "step23-benchmark-question-1",
+      "split": "development",
+      "text": "How does the reference describe starting and releasing a chest pass, and what advantage does it associate with that pass?",
+      "text_sha256": "efece3114befbaa42680b1323a0e7816ded196ebe8973dddd2a78c17398dea92"
+    },
+    {
+      "author_kind": "assistant",
+      "authoring_ordinal": 4,
+      "benchmark_population": "scoped_eleven_core_retrieval_pilot",
+      "category": "drill_and_resource",
+      "only_text_enters_retrieval_query_features": true,
+      "partition_ordinal": 4,
+      "query_id": "retrieval-query:d4170de7081f7189d870731f026b73e155eaf8b0af49bd046d1c5b1742dd15b0",
+      "question_family_id": "retrieval-question-family:748d3e95a510c06a79a97932f1abbda6bc0e939ea6ab3cdbe079e07e5f8d14a2",
+      "question_id": "retrieval-benchmark-question:04d132370517167f8adfc95d96bf8dc9f0b28ce8de80538c0cb56e8bd145d171",
+      "question_record_sha256": "c2cb32bdfff54dd7f1e85c00c23891cbd10cfc1e69045e3d4292724de2096d37",
+      "schema_version": "step23-benchmark-question-1",
+      "split": "development",
+      "text": "For the pass made forward from the chest, what hand placement and motion are described, and is it linked to distance or speed?",
+      "text_sha256": "a7419255e6e1b00ee220b261fb6668722ea30178fe37abd882039f34acf8d2da"
+    },
+    {
+      "author_kind": "assistant",
+      "authoring_ordinal": 5,
+      "benchmark_population": "scoped_eleven_core_retrieval_pilot",
+      "category": "drill_and_resource",
+      "only_text_enters_retrieval_query_features": true,
+      "partition_ordinal": 5,
+      "query_id": "retrieval-query:a6a5592dd6998a961cc2b0601906fe3d75242f6f4d71d6e3e602b952369b173b",
+      "question_family_id": "retrieval-question-family:342c432e7b42a99e9ccedfea3dd3e5fd69513b8fdd63f632cfcc21830bbd212e",
+      "question_id": "retrieval-benchmark-question:abbfd4dc6594bdf030301f56582b4f97f8f867b28e003264a87bd19a3d54d40c",
+      "question_record_sha256": "b08232010e248529f968cd396a67bad65212d9c995b862cd4ba168ea486d239d",
+      "schema_version": "step23-benchmark-question-1",
+      "split": "development",
+      "text": "What contact and hand-use principles does the reference give for controlling a dribble and moving the ball between hands?",
+      "text_sha256": "8f5294ef8bc6432de96385b1c9c20c219977f3c88ff61861bf47eaaac23a91f4"
+    },
+    {
+      "author_kind": "assistant",
+      "authoring_ordinal": 6,
+      "benchmark_population": "scoped_eleven_core_retrieval_pilot",
+      "category": "drill_and_resource",
+      "only_text_enters_retrieval_query_features": true,
+      "partition_ordinal": 6,
+      "query_id": "retrieval-query:7c810227389f96805526b28d54a4123563d334e8830f2d666ef219d5ee1b5e14",
+      "question_family_id": "retrieval-question-family:342c432e7b42a99e9ccedfea3dd3e5fd69513b8fdd63f632cfcc21830bbd212e",
+      "question_id": "retrieval-benchmark-question:2edeca41afc8d38298c89192d7468afcd4bfb74b066f1f2d7fa5bc154a99088d",
+      "question_record_sha256": "705d105f5101a4d0207b6ccdf179d5f91e1201cae9b6c2d3e034cd881f844f27",
+      "schema_version": "step23-benchmark-question-1",
+      "split": "development",
+      "text": "When describing basic ball control, does the reference emphasize the palm or fingertips, and how does it describe using and switching hands?",
+      "text_sha256": "0b3308d62739e8c837457e20590f213f05079277a4e8a320ab80c85dcaaabedd"
+    },
+    {
+      "author_kind": "assistant",
+      "authoring_ordinal": 7,
+      "benchmark_population": "scoped_eleven_core_retrieval_pilot",
+      "category": "drill_and_resource",
+      "only_text_enters_retrieval_query_features": true,
+      "partition_ordinal": 7,
+      "query_id": "retrieval-query:43d6d4eb5eca44b5af06510127265d9ba77544a9d4a13f1fddaccb171b9a309e",
+      "question_family_id": "retrieval-question-family:748d53ae57942a0100a86e1a63d22a6e7253c65817162e7468ca8b7b4ced0032",
+      "question_id": "retrieval-benchmark-question:456f3ee31c410dee0efe036634186432d9021bceb48d46611f480e1cc2b91f81",
+      "question_record_sha256": "acc08873d53c8a8354b6267f6f118b0e63ed7de8ea0ef53a2c4895585b77450b",
+      "schema_version": "step23-benchmark-question-1",
+      "split": "development",
+      "text": "What foundation and approximate stance width does the shooting reference emphasize, especially for beginners?",
+      "text_sha256": "3b7e7beed82eb69a53180bfaff57086d526391d034a2bbf975a4efe7a995f9eb"
+    },
+    {
+      "author_kind": "assistant",
+      "authoring_ordinal": 8,
+      "benchmark_population": "scoped_eleven_core_retrieval_pilot",
+      "category": "drill_and_resource",
+      "only_text_enters_retrieval_query_features": true,
+      "partition_ordinal": 8,
+      "query_id": "retrieval-query:bfb98b9555ed07fcce40a0237d5ef359e60d01e614871336d77395345b1972a2",
+      "question_family_id": "retrieval-question-family:748d53ae57942a0100a86e1a63d22a6e7253c65817162e7468ca8b7b4ced0032",
+      "question_id": "retrieval-benchmark-question:bb8b3232334fac071adeba65bf77d919543958359c31fa90c3b8b540c6ed65a3",
+      "question_record_sha256": "0050505e0fe2441c6a97ac848bed7f83cfa9c02a2279f477e4fefa71d7ae771d",
+      "schema_version": "step23-benchmark-question-1",
+      "split": "development",
+      "text": "Before focusing on the shooting hands, what does the reference say about balance and the width of a beginner’s base?",
+      "text_sha256": "f2268a440bb19942621bf5c0f904f08158fce31b0bfbdd69860206bb0f29ba6c"
+    },
+    {
+      "author_kind": "assistant",
+      "authoring_ordinal": 9,
+      "benchmark_population": "scoped_eleven_core_retrieval_pilot",
+      "category": "drill_and_resource",
+      "only_text_enters_retrieval_query_features": true,
+      "partition_ordinal": 9,
+      "query_id": "retrieval-query:5a6a0e3b4ea165aad99bf964bb97cdafcfecf84f5d2c8700fda7e3c15240c474",
+      "question_family_id": "retrieval-question-family:16e458149801b68390ba7f262f2b26b1412d10f3b0f858943b9a4d8896f59ae2",
+      "question_id": "retrieval-benchmark-question:1dd92288d36511a36a05a769dd3f761246033eb46279334795b984e39d591ecf",
+      "question_record_sha256": "d2ff1c626cfb8767c1e136ea0c400ea8eebbf8e83166ab81ff1e7303f491bedb",
+      "schema_version": "step23-benchmark-question-1",
+      "split": "development",
+      "text": "Why does the reference spread offensive teammates across the court, and what does it say their positioning depends on?",
+      "text_sha256": "91ea21899dc11026cbf9b54ffb7a2180815a50679944f0fc347e04f5e227e7f9"
+    },
+    {
+      "author_kind": "assistant",
+      "authoring_ordinal": 10,
+      "benchmark_population": "scoped_eleven_core_retrieval_pilot",
+      "category": "drill_and_resource",
+      "only_text_enters_retrieval_query_features": true,
+      "partition_ordinal": 10,
+      "query_id": "retrieval-query:dae0fc660099cd14a009847bdab1a100525b1646baeee92862ef4bb591a717bb",
+      "question_family_id": "retrieval-question-family:16e458149801b68390ba7f262f2b26b1412d10f3b0f858943b9a4d8896f59ae2",
+      "question_id": "retrieval-benchmark-question:73934ccfe76e2a2ab650d5e8038ea288d433680566afea37c0f5ffeb45aa3b69",
+      "question_record_sha256": "498fa094017a90fcbb1e62fb74e9ea24e05e51fe4aa0a40ee909bc3bcbf48f85",
+      "schema_version": "step23-benchmark-question-1",
+      "split": "development",
+      "text": "What is offensive spacing meant to do to defenders, and which two game-context factors guide where teammates position themselves?",
+      "text_sha256": "42f2ee0959efd1a001f6a7fbf5f2922416ed44bcb2ba39a78213b961f745dc06"
+    },
+    {
+      "author_kind": "assistant",
+      "authoring_ordinal": 21,
+      "benchmark_population": "scoped_eleven_core_retrieval_pilot",
+      "category": "guideline_and_qualification",
+      "only_text_enters_retrieval_query_features": true,
+      "partition_ordinal": 11,
+      "query_id": "retrieval-query:98586a230df0299c2125a1860951d50e5e49ffa3214e7adbacaea19f2452e4ac",
+      "question_family_id": "retrieval-question-family:9cedbb54dfb2fb7570c3ad8a55a34ff29340e62ea64a38c48878aad0b1e1cc83",
+      "question_id": "retrieval-benchmark-question:2e5421944f8b9a3ec5981ea3784f569e909032ebad73b764f8ef249ca5db4e04",
+      "question_record_sha256": "bcec7742bf2ef10c5de76f0c3adbaddb76f64f0f55ed132ea6cc35b287a3607e",
+      "schema_version": "step23-benchmark-question-1",
+      "split": "development",
+      "text": "For which teenage ages does the sleep reference list a daily sleep range, and what is that general range?",
+      "text_sha256": "753ebb5d90e176622d2f27c20e8547eca8e6619f48f36145115195f0c3cbb356"
+    },
+    {
+      "author_kind": "assistant",
+      "authoring_ordinal": 22,
+      "benchmark_population": "scoped_eleven_core_retrieval_pilot",
+      "category": "guideline_and_qualification",
+      "only_text_enters_retrieval_query_features": true,
+      "partition_ordinal": 12,
+      "query_id": "retrieval-query:228ae042d2a149233747b4edc763adb8f3fa60e4938aa10cb9a7dc410112e72f",
+      "question_family_id": "retrieval-question-family:9cedbb54dfb2fb7570c3ad8a55a34ff29340e62ea64a38c48878aad0b1e1cc83",
+      "question_id": "retrieval-benchmark-question:888490653995b752a296a6ee2e466d70a49d214ac8e11703b11b53a268b9ab26",
+      "question_record_sha256": "ca3a282fceeb92fa4a154139e8c616604fe67de18529f8a9ada9339bd21b3c5b",
+      "schema_version": "step23-benchmark-question-1",
+      "split": "development",
+      "text": "What general number of sleep hours per day does the reference give for teenagers aged 13–17?",
+      "text_sha256": "94f33008b60b5a50a4c20ec028a85e1a69c02d469a218846eda462bb635ef506"
+    },
+    {
+      "author_kind": "assistant",
+      "authoring_ordinal": 23,
+      "benchmark_population": "scoped_eleven_core_retrieval_pilot",
+      "category": "guideline_and_qualification",
+      "only_text_enters_retrieval_query_features": true,
+      "partition_ordinal": 13,
+      "query_id": "retrieval-query:e0ebbe35608c1c71521a679d1758a4606d02ad21c875b7172be5fd7b41debefc",
+      "question_family_id": "retrieval-question-family:43ab4a3bab6c1995b477f7dc1876100819a339a5c6349981a62d8afb0bf6de88",
+      "question_id": "retrieval-benchmark-question:13d592cd69edb8bc41e697afc195c44648c0d2cf6a7d9a5644d935fbedecd71d",
+      "question_record_sha256": "4df9f9b6a5c24cf581b439793ae9de86c45c767325119aa49354624bf952e50c",
+      "schema_version": "step23-benchmark-question-1",
+      "split": "development",
+      "text": "Why is a teenager’s number of sleep hours not the whole picture, and what does the reference advise when sleep difficulties or disorder symptoms occur?",
+      "text_sha256": "38103ac7d1246478ba37a546bc928a73cc50d6cf63a5a46a69b6d21905a7c70c"
+    },
+    {
+      "author_kind": "assistant",
+      "authoring_ordinal": 24,
+      "benchmark_population": "scoped_eleven_core_retrieval_pilot",
+      "category": "guideline_and_qualification",
+      "only_text_enters_retrieval_query_features": true,
+      "partition_ordinal": 14,
+      "query_id": "retrieval-query:89ae33990ab5317e76043fa776d8ad6e6b48c0000b96895665024ee95fe79e47",
+      "question_family_id": "retrieval-question-family:43ab4a3bab6c1995b477f7dc1876100819a339a5c6349981a62d8afb0bf6de88",
+      "question_id": "retrieval-benchmark-question:4b4d244e66c9da2022e4f65ddab7cbd381b05f63038f4a773e8a7916d9f2259d",
+      "question_record_sha256": "396add7ad8684485d54b62b2a2550668fa97e2170b998c2fdb3d52c01473b956",
+      "schema_version": "step23-benchmark-question-1",
+      "split": "development",
+      "text": "If reported sleep duration looks adequate but sleep quality is poor, what qualification and healthcare-provider context does the reference preserve?",
+      "text_sha256": "d8e3f498c6e01d00097b55d3f93b19196fd71ab6405b68116a5eb2e1a37ebef6"
+    },
+    {
+      "author_kind": "assistant",
+      "authoring_ordinal": 25,
+      "benchmark_population": "scoped_eleven_core_retrieval_pilot",
+      "category": "guideline_and_qualification",
+      "only_text_enters_retrieval_query_features": true,
+      "partition_ordinal": 15,
+      "query_id": "retrieval-query:478a11c13570bc1602f40dcd924627ac9ec9435bbfb209319d7b6199f4ec1b52",
+      "question_family_id": "retrieval-question-family:7ddaee3bff65a9849734453f0ba82fe611803f75bfdcc1d2e07d70cbea22580e",
+      "question_id": "retrieval-benchmark-question:e0df4f5eb6c2088bb15ac61ca1c3355b16a61610dd48a45f9bb396d6c2cf29bb",
+      "question_record_sha256": "35371626aedca163b740dc3bd8cb3723f5b026607668250cf0a535b509a2e744",
+      "schema_version": "step23-benchmark-question-1",
+      "split": "development",
+      "text": "What age range, daily minimum and intensity range are stated in the general youth physical-activity recommendation?",
+      "text_sha256": "be9e49eab37dd4c33a2f7ff981d0fb0813efcd4ef7a6c2ae5f1df14c029ef00d"
+    },
+    {
+      "author_kind": "assistant",
+      "authoring_ordinal": 26,
+      "benchmark_population": "scoped_eleven_core_retrieval_pilot",
+      "category": "guideline_and_qualification",
+      "only_text_enters_retrieval_query_features": true,
+      "partition_ordinal": 16,
+      "query_id": "retrieval-query:6645ec52dd7c537d21f73b9fb7082f8c146e56fd4166c0c2e58b0f3cfe36e3bb",
+      "question_family_id": "retrieval-question-family:7ddaee3bff65a9849734453f0ba82fe611803f75bfdcc1d2e07d70cbea22580e",
+      "question_id": "retrieval-benchmark-question:a5be0b4f5bcfcfc1bbc74953f72fedc14f684dfa7b1d885d404f41a51cedf60e",
+      "question_record_sha256": "f708a5901101609ed72663e28479c274f5dc45f5f3c8339ec2656a5e28e053e8",
+      "schema_version": "step23-benchmark-question-1",
+      "split": "development",
+      "text": "For children and adolescents aged 6–17, what daily amount of moderate-to-vigorous activity does the reference describe?",
+      "text_sha256": "6988cc22af1518e8f4b226f54f0aabcf8097fea36d7acf36a69ec6f70866c1f3"
+    },
+    {
+      "author_kind": "assistant",
+      "authoring_ordinal": 27,
+      "benchmark_population": "scoped_eleven_core_retrieval_pilot",
+      "category": "guideline_and_qualification",
+      "only_text_enters_retrieval_query_features": true,
+      "partition_ordinal": 17,
+      "query_id": "retrieval-query:7cebcc1a4b2274ba0d4d4431d6949ded2cf68daf72de26165bf3b9449584620d",
+      "question_family_id": "retrieval-question-family:84a3d91539244105a83c31c62b383c8c39bf2e189453cb390049e3101eb3c7c1",
+      "question_id": "retrieval-benchmark-question:69e32e44f79ff0ba64955d71f54f842f0fdcf22dd366085890d0163e71f8eaf9",
+      "question_record_sha256": "96f5228a957e4eaa6d96e9dce0ecd2b0d3b46d1fd51080a9de0243e02612bbf5",
+      "schema_version": "step23-benchmark-question-1",
+      "split": "development",
+      "text": "How do aerobic activity and the weekly vigorous, muscle-strengthening and bone-strengthening components fit within the daily youth activity amount?",
+      "text_sha256": "e4c51984acfbc327e0d0ffc4e8db6c7df324936724c15751a61a1ecea63a3d8f"
+    },
+    {
+      "author_kind": "assistant",
+      "authoring_ordinal": 28,
+      "benchmark_population": "scoped_eleven_core_retrieval_pilot",
+      "category": "guideline_and_qualification",
+      "only_text_enters_retrieval_query_features": true,
+      "partition_ordinal": 18,
+      "query_id": "retrieval-query:5e8a24c2870d5d3b68a952257fef7aff4f9f4fbdd2c64dd686c2abb14f07c348",
+      "question_family_id": "retrieval-question-family:84a3d91539244105a83c31c62b383c8c39bf2e189453cb390049e3101eb3c7c1",
+      "question_id": "retrieval-benchmark-question:aafa94366b921add12e3f2411796a7917424a04c24fefdd1fd6f1c9cefa1cea3",
+      "question_record_sha256": "5a60f61a78c8733d0023623883d5c0e2df35e195ba439daf5ea2bb715812cdc0",
+      "schema_version": "step23-benchmark-question-1",
+      "split": "development",
+      "text": "Does the weekly strengthening guidance require extra separate sixty-minute sessions, and what weekly activity components does the reference include?",
+      "text_sha256": "e0f688c061eb44c8c1a5ee8fc152bf984c4b5cf6017ecfe9e4fbbf1bb0e94c03"
+    },
+    {
+      "author_kind": "assistant",
+      "authoring_ordinal": 29,
+      "benchmark_population": "scoped_eleven_core_retrieval_pilot",
+      "category": "guideline_and_qualification",
+      "only_text_enters_retrieval_query_features": true,
+      "partition_ordinal": 19,
+      "query_id": "retrieval-query:f76249641d52bef4cd8933e7a05f78c42f242c724ff69ccc6085462ceb886f8d",
+      "question_family_id": "retrieval-question-family:0959835c794e07567bd1f3e242a7002cfe1e360451a15ec2d4f8f0d3a3ba1bde",
+      "question_id": "retrieval-benchmark-question:07ea64a1f0714dd79b51f29ac4aedc3c40c4289f89c4a771323ca9c2493cbc64",
+      "question_record_sha256": "857b0945cb3f2e9aedfc7aebe9af9517ef23b30718b21f06fa6256f784186b62",
+      "schema_version": "step23-benchmark-question-1",
+      "split": "development",
+      "text": "How does the general youth talk test distinguish moderate from vigorous effort, and what kind of test is it not?",
+      "text_sha256": "ff1ae797b545783f4a859a04bf9c86d754bb7c00fb80ef2c00a90122a368453a"
+    },
+    {
+      "author_kind": "assistant",
+      "authoring_ordinal": 30,
+      "benchmark_population": "scoped_eleven_core_retrieval_pilot",
+      "category": "guideline_and_qualification",
+      "only_text_enters_retrieval_query_features": true,
+      "partition_ordinal": 20,
+      "query_id": "retrieval-query:6d75fbc696045342817fdb89713ecbbe72d4feb02526d7657b8e2455336eb3cc",
+      "question_family_id": "retrieval-question-family:0959835c794e07567bd1f3e242a7002cfe1e360451a15ec2d4f8f0d3a3ba1bde",
+      "question_id": "retrieval-benchmark-question:d7f00439db26222f01a3e3b38fb4f501a0cdd02746ded4de1b67386332ab62b2",
+      "question_record_sha256": "e057d34544c4a738dd67426e0e6b37cf1b92f59a6ec48bb343e63575bbb5a6eb",
+      "schema_version": "step23-benchmark-question-1",
+      "split": "development",
+      "text": "If someone can talk but not sing, versus only say a few words before pausing for breath, how does the reference describe those efforts and qualify the test?",
+      "text_sha256": "e7cf8e30b372e6957e8e790db3604f5933ac86b0b11e0d4f7d85a06c8823de98"
+    },
+    {
+      "author_kind": "assistant",
+      "authoring_ordinal": 41,
+      "benchmark_population": "scoped_eleven_core_retrieval_pilot",
+      "category": "unsupported_by_identified_corpus",
+      "only_text_enters_retrieval_query_features": true,
+      "partition_ordinal": 21,
+      "query_id": "retrieval-query:ff58c2c18e002b1c0d200196d31346565de6d2b98aaeea86c6594e7506b66c4d",
+      "question_family_id": "retrieval-question-family:355e34a70b65217cbf7020b86e590adbbcd929d87692e1f2fb6483752174d4f0",
+      "question_id": "retrieval-benchmark-question:be04e08eab8ba9b06efbe9f4f03f7b56d5c1b664f0bfee99d1b915f41e8742f9",
+      "question_record_sha256": "7dcef49eb7d8d361aa987b97046e2f0d594d6474e70586213c7456e0a2d9815c",
+      "schema_version": "step23-benchmark-question-1",
+      "split": "development",
+      "text": "What regulation basketball court length and width does this collection specify?",
+      "text_sha256": "3ca4589ad7185e62325fbd6f7bb8cdeb000a65b611b56d21ab2e4b8112a895e9"
+    },
+    {
+      "author_kind": "assistant",
+      "authoring_ordinal": 42,
+      "benchmark_population": "scoped_eleven_core_retrieval_pilot",
+      "category": "unsupported_by_identified_corpus",
+      "only_text_enters_retrieval_query_features": true,
+      "partition_ordinal": 22,
+      "query_id": "retrieval-query:252c5712bc82fb2b95009db74e1f1c4ddb61a7821af44c3d45a2a89136ffa4c2",
+      "question_family_id": "retrieval-question-family:355e34a70b65217cbf7020b86e590adbbcd929d87692e1f2fb6483752174d4f0",
+      "question_id": "retrieval-benchmark-question:40274d20b7eb90cdedeac0816753ed55282399fb583efa579f0f9643cac57693",
+      "question_record_sha256": "2dfe7eb2daf71cad9651ca5c0ae62f75a94818edc26881b522c5004856156d25",
+      "schema_version": "step23-benchmark-question-1",
+      "split": "development",
+      "text": "Using only this collection, give the official court dimensions for a regulation basketball game.",
+      "text_sha256": "d586e39709c718ddc7228211e8ebbfdafea712e3a9fb2e55d99e00121bab252c"
+    },
+    {
+      "author_kind": "assistant",
+      "authoring_ordinal": 43,
+      "benchmark_population": "scoped_eleven_core_retrieval_pilot",
+      "category": "unsupported_by_identified_corpus",
+      "only_text_enters_retrieval_query_features": true,
+      "partition_ordinal": 23,
+      "query_id": "retrieval-query:d326e5537bd7db1e513126f3d4ba5fd76be7f46136b15dbe20cb245061cef5dc",
+      "question_family_id": "retrieval-question-family:a969c8999c935363cd8ce86d284cbe8d881b3748983f5a88da1d42ec5c1072bc",
+      "question_id": "retrieval-benchmark-question:892a29713943b878eefce368fbbf504b437871f092bf98be9e6aa9e40527de60",
+      "question_record_sha256": "3f3b4768d8224b4a7da97142eb0a5f13a46365a93bbda4dd603e25afd856a780",
+      "schema_version": "step23-benchmark-question-1",
+      "split": "development",
+      "text": "Which basketball brand and model does this collection recommend buying, and what is its current retail price?",
+      "text_sha256": "042602f32a67e955b7f8893939fc98e9a699f52768c3c69c47ee5e92e5e55a32"
+    },
+    {
+      "author_kind": "assistant",
+      "authoring_ordinal": 44,
+      "benchmark_population": "scoped_eleven_core_retrieval_pilot",
+      "category": "unsupported_by_identified_corpus",
+      "only_text_enters_retrieval_query_features": true,
+      "partition_ordinal": 24,
+      "query_id": "retrieval-query:48528b15905eaa9bdbee8da689aa2243baec665b0e94deb3461a3a89d74def2e",
+      "question_family_id": "retrieval-question-family:a969c8999c935363cd8ce86d284cbe8d881b3748983f5a88da1d42ec5c1072bc",
+      "question_id": "retrieval-benchmark-question:d943feceb94b0744e16a4185a566ee4771f94d67c82e7489e9b9eb106368b144",
+      "question_record_sha256": "521c517be9ace9ace7e9ad5f961ed671495b2e52fe08217a5f6859c1f3ac4b64",
+      "schema_version": "step23-benchmark-question-1",
+      "split": "development",
+      "text": "What specific basketball should I purchase and how much does the collection say it costs today?",
+      "text_sha256": "0f40bcf7fd87bd9a696dd022711a2a35e8499ab539003a48dca17fb705e78ca5"
+    },
+    {
+      "author_kind": "assistant",
+      "authoring_ordinal": 45,
+      "benchmark_population": "scoped_eleven_core_retrieval_pilot",
+      "category": "unsupported_by_identified_corpus",
+      "only_text_enters_retrieval_query_features": true,
+      "partition_ordinal": 25,
+      "query_id": "retrieval-query:7b52cf04253aed52ede87f6fd622516e89cc745b2b3120aa0f36af37cba09a09",
+      "question_family_id": "retrieval-question-family:716f6d85cae75c4e3759e3aee7baaac98c6c0db7f26857056f47d157c2f9f946",
+      "question_id": "retrieval-benchmark-question:382f302d48581efa1046bb73275244fbaca9e8d249842f3a5ca510755267594a",
+      "question_record_sha256": "f0541af6650fcb9eb0ba0bb341a136019c2f8a8f36425f61e831b51484f413d3",
+      "schema_version": "step23-benchmark-question-1",
+      "split": "development",
+      "text": "What time does the fictional Harborview Basketball Center open and close on Saturday according to this collection?",
+      "text_sha256": "9be023f8eb0d71713e8c05565952b83b12ae0dbcbcaf227603330e0ca1fd2f74"
+    },
+    {
+      "author_kind": "assistant",
+      "authoring_ordinal": 46,
+      "benchmark_population": "scoped_eleven_core_retrieval_pilot",
+      "category": "unsupported_by_identified_corpus",
+      "only_text_enters_retrieval_query_features": true,
+      "partition_ordinal": 26,
+      "query_id": "retrieval-query:e16fe42fb5f23f85bb797982cdd5467295ecca462f5c0edbe604d07325013c45",
+      "question_family_id": "retrieval-question-family:716f6d85cae75c4e3759e3aee7baaac98c6c0db7f26857056f47d157c2f9f946",
+      "question_id": "retrieval-benchmark-question:9f2583067ac5b0ed7d2bcfc7928c7c0ce09704f6ca9cc9e4fa8e680a60de0185",
+      "question_record_sha256": "11a20b27765ef589f242e42681520538b96404f19626981914e5dcdde6a7af8e",
+      "schema_version": "step23-benchmark-question-1",
+      "split": "development",
+      "text": "Does this collection give Saturday opening hours for Harborview Basketball Center, and what are they?",
+      "text_sha256": "7a81c6262881e9fc63bea68cda620168b12f1d34759c844f967945d4a9b1d977"
+    },
+    {
+      "author_kind": "assistant",
+      "authoring_ordinal": 47,
+      "benchmark_population": "scoped_eleven_core_retrieval_pilot",
+      "category": "unsupported_by_identified_corpus",
+      "only_text_enters_retrieval_query_features": true,
+      "partition_ordinal": 27,
+      "query_id": "retrieval-query:dae4f978b01922692bc6f36d797b8930c2bb6c11e926a22551d7de5f548d6ac9",
+      "question_family_id": "retrieval-question-family:485c974324cda608d437008b2a857a521eabd4c268138e3094116802d1b9e00b",
+      "question_id": "retrieval-benchmark-question:b9bee1aef16146a5e3501c0ec4abd7f90e60914f1ea57fe9dc7f009ddce89f04",
+      "question_record_sha256": "40443ab30b9fb8e27901de549e119c6e33839aab7e5384b3788da27630f8696a",
+      "schema_version": "step23-benchmark-question-1",
+      "split": "development",
+      "text": "What is the general daily activity minimum for ages 6–17, and exactly how many of those minutes should one particular player spend in a basketball session?",
+      "text_sha256": "f290c39d925263cc4e3bdcd221b8a280b9ed8a5857ec8a5d886d097693d1b0aa"
+    },
+    {
+      "author_kind": "assistant",
+      "authoring_ordinal": 48,
+      "benchmark_population": "scoped_eleven_core_retrieval_pilot",
+      "category": "unsupported_by_identified_corpus",
+      "only_text_enters_retrieval_query_features": true,
+      "partition_ordinal": 28,
+      "query_id": "retrieval-query:0d1e9d91956e1993e15db113849bcdcdca8e0417e2a0d222735641d2b3c2b08f",
+      "question_family_id": "retrieval-question-family:485c974324cda608d437008b2a857a521eabd4c268138e3094116802d1b9e00b",
+      "question_id": "retrieval-benchmark-question:bd1f051a2c4de083903595bb1a3de46230ef1cd6f3d965dba389911d45addf2c",
+      "question_record_sha256": "5ff4644ebf1b5c42ab4cd2101d2cd2a10dc41b8a5f4a48d22902b7d520dd760b",
+      "schema_version": "step23-benchmark-question-1",
+      "split": "development",
+      "text": "State the youth daily activity recommendation, then give the exact basketball-session duration that this collection prescribes for an individual player.",
+      "text_sha256": "f58b21cef1fdcf40a4ddf99132d1d11b04b9ac76599a78cfa6b596f8792e390c"
+    },
+    {
+      "author_kind": "assistant",
+      "authoring_ordinal": 49,
+      "benchmark_population": "scoped_eleven_core_retrieval_pilot",
+      "category": "unsupported_by_identified_corpus",
+      "only_text_enters_retrieval_query_features": true,
+      "partition_ordinal": 29,
+      "query_id": "retrieval-query:d6d798b52ec847acaecd30d7041476a840af0299f6ae96c9c8f45b514590864c",
+      "question_family_id": "retrieval-question-family:89e01b2a652540a6c2068512ff4df757fcfe9a7c4bef5d499b3db26c8a0e70a2",
+      "question_id": "retrieval-benchmark-question:59c0ac951efe8a89b006e701b6fb219b377d6c86b3d6ae14cffdc94c7f944d7c",
+      "question_record_sha256": "4a825adda8527d414140303f82607be786619992f881176b8dbf73c0480498a5",
+      "schema_version": "step23-benchmark-question-1",
+      "split": "development",
+      "text": "What approximate shooting base does the reference describe, and exactly how many shots per day does it prescribe for an individual beginner?",
+      "text_sha256": "11332e938a2e0b829da73da4419a277c02392e2df9d47553d269d454bd4f7b5b"
+    },
+    {
+      "author_kind": "assistant",
+      "authoring_ordinal": 50,
+      "benchmark_population": "scoped_eleven_core_retrieval_pilot",
+      "category": "unsupported_by_identified_corpus",
+      "only_text_enters_retrieval_query_features": true,
+      "partition_ordinal": 30,
+      "query_id": "retrieval-query:969246571092aefe1f229f2f664b63eafa1bf25f89beb1966ff17c4d865b131a",
+      "question_family_id": "retrieval-question-family:89e01b2a652540a6c2068512ff4df757fcfe9a7c4bef5d499b3db26c8a0e70a2",
+      "question_id": "retrieval-benchmark-question:45d544c485f8a5c7dcbca2951d35e52a1ea739a0fde99d029842bc0b2f454106",
+      "question_record_sha256": "1366fb381f6d48b2a61e1a9ced213a4da0cfc48885001a20227e16e59e691bbe",
+      "schema_version": "step23-benchmark-question-1",
+      "split": "development",
+      "text": "Give the source-described stance width for a beginner’s shot and its required daily repetition count for that person.",
+      "text_sha256": "0223f435413ce6a4138993c5b359555322c4e8bd89f974ef9beb084948ec0144"
+    }
+  ],
+  "expanded_retrieval_id": "expanded-retrieval-index:ee12915cfac22530096a9b573f046c886696c5b769aca11f6f20967f0068f5b9",
+  "expected_ranking_replay_atol": 1e-06,
+  "expected_ranking_replay_rtol": 1e-05,
+  "held_out_queries_included": 0,
+  "metric_source_relative_path": "artifacts/retrieval/query_runtime/query_f6db9aad37d7a9b9/retrieval_metrics.py",
+  "metric_source_sha256": "ac8ea2a576b830607c3acb52b0ca8e5f5657d28104e679b837b3dc2313b5cb34",
+  "no_fit_or_relevance_driven_feature_change": true,
+  "only_raw_question_text_is_transformed": true,
+  "query_manifest_relative_path": "artifacts/retrieval/query_runtime/query_f6db9aad37d7a9b9/query_runtime_manifest.json",
+  "query_manifest_sha256": "8daf73c245153a4fdfbf6282b4d6ff56d3dd42cf0013ffc9c7579c80bce10166",
+  "query_preparation_id": "retrieval-query-preparation:f6db9aad37d7a9b920acb188429f9858ba7669273396843bd629ee3726dc2474",
+  "query_runtime_source_sha256": "64e410c50b9224c15d357877b4dd257ad820b9e07a4a9aa0c0d173613e079a9c",
+  "ranking_k": 5,
+  "routes": [
+    "lexical",
+    "semantic"
+  ],
+  "schema_version": "step23-development-comparison-config-1"
+}

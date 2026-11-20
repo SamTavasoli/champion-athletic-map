@@ -1,0 +1,40 @@
+{
+  "comparison_path": "results/reproducibility/repro_20261117T165356Z_31d254a3/result_comparison.csv",
+  "data_rebuild": "not_tested",
+  "documentation_path": "docs/reproducibility.md",
+  "elapsed_seconds": 109.609,
+  "error": {
+    "error_type": "ValueError",
+    "message": "The separate notebook execution needs attention; the partial notebook and logs were retained."
+  },
+  "executed_notebook": "results/reproducibility/repro_20261117T165356Z_31d254a3/executed_notebook.ipynb",
+  "files_compared": 0,
+  "fresh_dependency_installation": "passed",
+  "fresh_kernel_execution": "failed",
+  "full_main_notebook_execution": "not_tested",
+  "live_generation": "not_tested",
+  "new_model_calls": 0,
+  "new_predictions": 0,
+  "new_reference_queries": 0,
+  "original_independent_teammate_agreement": "not_collected",
+  "protected_files": 2337,
+  "protected_inputs_unchanged": true,
+  "report_path": "results/reproducibility/repro_20261117T165356Z_31d254a3/verification_report.md",
+  "result_comparison": "not_run",
+  "review_ratings_changed": false,
+  "run_id": "repro_20261117T165356Z_31d254a3",
+  "schema_version": "step36-reproducibility-1",
+  "scope": "dedicated_saved_results_notebook",
+  "source_analysis_id": "d5e368e9f92725a9d3892b1d32878294d5bac243215dfb7f313ce69347daeba5",
+  "source_analysis_status": "saved_evidence_analysis_complete_with_recorded_limits",
+  "source_classifier_status": "complete",
+  "source_saved_component_statuses": {
+    "classifier": "complete",
+    "native_runtime": "complete",
+    "retrieval": "verified"
+  },
+  "source_unavailable_components_preserved": "not_verified",
+  "status": "needs_attention",
+  "training_repetition": "not_tested",
+  "verification_folder": "results/reproducibility/repro_20261117T165356Z_31d254a3"
+}

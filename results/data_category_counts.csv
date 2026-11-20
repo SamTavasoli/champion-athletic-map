@@ -1,0 +1,214 @@
+source_id,column,value,count
+derived_exercise,repeated_normalized_name_key,alternating sit through with crunch,2
+derived_exercise,repeated_normalized_name_key,barbell curl,2
+derived_exercise,repeated_normalized_name_key,barbell deadlift,2
+derived_exercise,repeated_normalized_name_key,barbell hip thrust,2
+derived_exercise,repeated_normalized_name_key,decline crunch,2
+derived_exercise,repeated_normalized_name_key,double kettlebell push press,2
+derived_exercise,repeated_normalized_name_key,dumbbell bench press,2
+derived_exercise,repeated_normalized_name_key,dumbbell goblet squat,2
+derived_exercise,repeated_normalized_name_key,dumbbell v sit cross jab,2
+derived_exercise,repeated_normalized_name_key,dumbbell walking lunge,2
+derived_exercise,repeated_normalized_name_key,ez bar skullcrusher,2
+derived_exercise,repeated_normalized_name_key,full moon,2
+derived_exercise,repeated_normalized_name_key,glute ham raise,2
+derived_exercise,repeated_normalized_name_key,goblet squat,2
+derived_exercise,repeated_normalized_name_key,hack squat,2
+derived_exercise,repeated_normalized_name_key,jump squat,2
+derived_exercise,repeated_normalized_name_key,jumping jack,2
+derived_exercise,repeated_normalized_name_key,leg press,2
+derived_exercise,repeated_normalized_name_key,machine low row,2
+derived_exercise,repeated_normalized_name_key,machine triceps extension,2
+derived_exercise,repeated_normalized_name_key,otis up,2
+derived_exercise,repeated_normalized_name_key,pjr pull over,2
+derived_exercise,repeated_normalized_name_key,power snatch,2
+derived_exercise,repeated_normalized_name_key,push up to side plank,2
+derived_exercise,repeated_normalized_name_key,seated leg press,2
+derived_exercise,repeated_normalized_name_key,single arm dumbbell snatch,2
+derived_exercise,repeated_normalized_name_key,single arm incline cable cross over,2
+derived_exercise,repeated_normalized_name_key,single arm kettlebell row,2
+derived_exercise,repeated_normalized_name_key,sled push,2
+derived_exercise,repeated_normalized_name_key,smith machine close grip bench press,2
+derived_exercise,repeated_normalized_name_key,smith machine incline bench press,2
+derived_exercise,repeated_normalized_name_key,standing calf raise,2
+derived_exercise,repeated_normalized_name_key,standing dumbbell knee crunch,2
+derived_exercise,repeated_normalized_name_key,superman,2
+derived_exercise,repeated_normalized_name_key,suspended crunch,2
+derived_exercise,body_part,abdominals,660
+derived_exercise,body_part,abductors,21
+derived_exercise,body_part,adductors,17
+derived_exercise,body_part,biceps,168
+derived_exercise,body_part,calves,47
+derived_exercise,body_part,chest,260
+derived_exercise,body_part,forearms,31
+derived_exercise,body_part,glutes,81
+derived_exercise,body_part,hamstrings,121
+derived_exercise,body_part,lats,124
+derived_exercise,body_part,lower back,97
+derived_exercise,body_part,middle back,116
+derived_exercise,body_part,neck,8
+derived_exercise,body_part,quadriceps,645
+derived_exercise,body_part,shoulders,338
+derived_exercise,body_part,traps,24
+derived_exercise,body_part,triceps,151
+derived_exercise,exercise_type,cardio,35
+derived_exercise,exercise_type,olympic weightlifting,35
+derived_exercise,exercise_type,plyometrics,97
+derived_exercise,exercise_type,powerlifting,37
+derived_exercise,exercise_type,strength,2536
+derived_exercise,exercise_type,stretching,147
+derived_exercise,exercise_type,strongman,22
+derived_exercise,difficulty_level,beginner,459
+derived_exercise,difficulty_level,expert,13
+derived_exercise,difficulty_level,intermediate,2437
+derived_exercise,equipment,[blank],32
+derived_exercise,equipment,bands,98
+derived_exercise,equipment,barbell,281
+derived_exercise,equipment,body only,1078
+derived_exercise,equipment,cable,223
+derived_exercise,equipment,dumbbell,513
+derived_exercise,equipment,e-z curl bar,22
+derived_exercise,equipment,exercise ball,35
+derived_exercise,equipment,foam roll,11
+derived_exercise,equipment,kettlebells,149
+derived_exercise,equipment,machine,175
+derived_exercise,equipment,medicine ball,38
+derived_exercise,equipment,other,254
+derived_athlete_profile,age,13,11
+derived_athlete_profile,age,14,6
+derived_athlete_profile,age,15,4
+derived_athlete_profile,age,16,4
+derived_athlete_profile,age,17,5
+derived_athlete_profile,experience_level,Advanced,8
+derived_athlete_profile,experience_level,Beginner,14
+derived_athlete_profile,experience_level,Intermediate,8
+derived_athlete_profile,position,Center,6
+derived_athlete_profile,position,Point Guard,6
+derived_athlete_profile,position,Power Forward,6
+derived_athlete_profile,position,Shooting Guard,7
+derived_athlete_profile,position,Small Forward,5
+derived_athlete_profile,available_days,2,5
+derived_athlete_profile,available_days,3,5
+derived_athlete_profile,available_days,4,6
+derived_athlete_profile,available_days,5,9
+derived_athlete_profile,available_days,6,5
+derived_athlete_profile,injury_status,Ankle Recovery,8
+derived_athlete_profile,injury_status,Knee Recovery,4
+derived_athlete_profile,injury_status,Minor Shoulder Pain,8
+derived_athlete_profile,injury_status,unknown,10
+aditi_synthetic_athletes,age,13,12
+aditi_synthetic_athletes,age,14,12
+aditi_synthetic_athletes,age,15,12
+aditi_synthetic_athletes,age,16,12
+aditi_synthetic_athletes,age,17,12
+aditi_synthetic_athletes,experience_level,Advanced,20
+aditi_synthetic_athletes,experience_level,Beginner,20
+aditi_synthetic_athletes,experience_level,Intermediate,20
+aditi_synthetic_athletes,position,Center,12
+aditi_synthetic_athletes,position,Point Guard,12
+aditi_synthetic_athletes,position,Power Forward,12
+aditi_synthetic_athletes,position,Shooting Guard,12
+aditi_synthetic_athletes,position,Small Forward,12
+aditi_synthetic_athletes,available_days_per_week,2,23
+aditi_synthetic_athletes,available_days_per_week,3,18
+aditi_synthetic_athletes,available_days_per_week,4,8
+aditi_synthetic_athletes,available_days_per_week,5,11
+aditi_synthetic_athletes,injury_status,none_reported,35
+aditi_synthetic_athletes,injury_status,reported_ankle_pain,1
+aditi_synthetic_athletes,injury_status,reported_knee_pain,1
+aditi_synthetic_athletes,injury_status,unknown,23
+aditi_synthetic_athletes,scenario_type,advanced_drill_request,1
+aditi_synthetic_athletes,scenario_type,conflicting_constraints,1
+aditi_synthetic_athletes,scenario_type,excessive_training_request,1
+aditi_synthetic_athletes,scenario_type,injury_concern,2
+aditi_synthetic_athletes,scenario_type,limited_equipment,1
+aditi_synthetic_athletes,scenario_type,limited_schedule,1
+aditi_synthetic_athletes,scenario_type,standard,52
+aditi_synthetic_athletes,scenario_type,unknown_injury_status,1
+aditi_usda_foundation_nutrition,energy_method,Atwater General (2047),10
+aditi_usda_foundation_nutrition,energy_method,Atwater Specific (2048),312
+aditi_usda_foundation_nutrition,energy_method,Missing,89
+aditi_usda_foundation_nutrition,source,USDA FoodData Central,411
+aditi_usda_foundation_nutrition,data_type,Foundation Foods,411
+aditi_jr_nba_drills,skill_category,Ball Handling,6
+aditi_jr_nba_drills,skill_category,Defense,1
+aditi_jr_nba_drills,skill_category,Footwork & Conditioning,2
+aditi_jr_nba_drills,skill_category,Offense,2
+aditi_jr_nba_drills,skill_category,Passing,2
+aditi_jr_nba_drills,skill_category,Shooting,6
+aditi_jr_nba_drills,skill_category,Team Concepts,3
+aditi_jr_nba_drills,skill_category,Warm-Up,1
+aditi_jr_nba_drills,curriculum_level,Starter,23
+aditi_jr_nba_drills,group_requirement,Group,16
+aditi_jr_nba_drills,group_requirement,Individual,2
+aditi_jr_nba_drills,group_requirement,Partner,5
+aditi_jr_nba_drills,solo_adaptation_possible,False,10
+aditi_jr_nba_drills,solo_adaptation_possible,True,13
+catalog_basketball_v01,scope_candidate,basketball_drill_candidate,61
+catalog_basketball_v01,scope_candidate,general_warmup_candidate,6
+catalog_basketball_v01,skill_area,ball_handling,17
+catalog_basketball_v01,skill_area,ball_handling_warmup,1
+catalog_basketball_v01,skill_area,basketball_skill,3
+catalog_basketball_v01,skill_area,defense,5
+catalog_basketball_v01,skill_area,finishing,3
+catalog_basketball_v01,skill_area,footwork,8
+catalog_basketball_v01,skill_area,general_warmup,1
+catalog_basketball_v01,skill_area,off_ball_movement,1
+catalog_basketball_v01,skill_area,offense,6
+catalog_basketball_v01,skill_area,passing,10
+catalog_basketball_v01,skill_area,rebounding,2
+catalog_basketball_v01,skill_area,shooting,6
+catalog_basketball_v01,skill_area,team_defense,1
+catalog_basketball_v01,skill_area,team_offense,2
+catalog_basketball_v01,skill_area,transition_offense,1
+catalog_basketball_v01,catalog_approval_status,pending,67
+catalog_basketball_v02,scope_candidate,basketball_drill_candidate,117
+catalog_basketball_v02,scope_candidate,general_warmup_candidate,12
+catalog_basketball_v02,skill_area,ball_handling,26
+catalog_basketball_v02,skill_area,ball_handling_warmup,1
+catalog_basketball_v02,skill_area,basketball_skill,3
+catalog_basketball_v02,skill_area,defense,10
+catalog_basketball_v02,skill_area,finishing,9
+catalog_basketball_v02,skill_area,footwork,10
+catalog_basketball_v02,skill_area,general_warmup,1
+catalog_basketball_v02,skill_area,off_ball_movement,3
+catalog_basketball_v02,skill_area,offense,8
+catalog_basketball_v02,skill_area,passing,17
+catalog_basketball_v02,skill_area,rebounding,5
+catalog_basketball_v02,skill_area,shooting,19
+catalog_basketball_v02,skill_area,team_defense,2
+catalog_basketball_v02,skill_area,team_offense,7
+catalog_basketball_v02,skill_area,transition_offense,2
+catalog_basketball_v02,skill_area,warmup,6
+catalog_basketball_v02,catalog_approval_status,pending,129
+local_basketball_drills,record_kind,skills_checklist_topic,32
+recovery_rules_v01,rule_type,maximum,3
+recovery_rules_v01,rule_type,minimum,2
+recovery_rules_v01,rule_type,published_range_9_to_10,1
+recovery_rules_v01,rule_type,recommended_exact,1
+recovery_rules_v01,rule_type,recommended_range,10
+recovery_rules_v01,metric,days_off_competition_and_sport_specific_training_per_week,1
+recovery_rules_v01,metric,games_per_week,2
+recovery_rules_v01,metric,organized_basketball_hours_per_week,2
+recovery_rules_v01,metric,organized_basketball_months_per_year,2
+recovery_rules_v01,metric,practice_duration_minutes,2
+recovery_rules_v01,metric,practices_per_week,2
+recovery_rules_v01,metric,rest_days_per_week,2
+recovery_rules_v01,metric,sleep_hours_per_24h,1
+recovery_rules_v01,metric,sleep_hours_per_night,3
+recovery_rules_v01,segment,age_12,1
+recovery_rules_v01,segment,ages_12_to_14,6
+recovery_rules_v01,segment,ages_13_to_14,1
+recovery_rules_v01,segment,ages_13_to_17,1
+recovery_rules_v01,segment,grades_9_to_12,7
+recovery_rules_v01,segment,youth_athletes,1
+recovery_rules_v01,verification_status,source_verified_policy_reference_not_individual_prescription,17
+derived_master,entity_type,athlete_profile,30
+derived_master,entity_type,basketball_season,24625
+derived_master,entity_type,exercise,2909
+derived_master,entity_type,food_category,28
+derived_master,entity_type,food_portion,10951
+derived_master,entity_type,food_sample_link,75055
+derived_master,entity_type,nutrient_result,134267
+derived_master,entity_type,player_bio,3922
+derived_master,entity_type,player_career,4550

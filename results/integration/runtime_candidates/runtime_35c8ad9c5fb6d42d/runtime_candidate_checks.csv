@@ -1,0 +1,11 @@
+check,status,observed
+prior_receipt_and_project_integrity,pass,695
+python_packages_and_pinned_encoder_cache,pass,unchanged; no model weights loaded
+updated_runtime_and_unchanged_model_identity,pass,0.40.15 -> 0.40.16; same digest and quantization
+template_defaults_and_metadata_stable,pass,matched Step 24-1; version and tag checked before and after
+complete_native_tokenizer_metadata,pass,table structure and model binding only; tokenizer behavior is not yet verified
+native_tokenizer_implementation_and_template_accounting,pending,next integration work
+chat_json_and_backend_count_compatibility,pending,not executed
+full_prompt_and_reserved_output_budget,pending,not verified
+source_and_rule_approval_gates,pending,unchanged; no operational activation
+inputs_unchanged_after_metadata_requests,pass,695

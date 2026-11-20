@@ -1,0 +1,17 @@
+evidence_id,activity_name,curriculum_level,practice_plan,source_url,recorded_timing,automated_timing_status,review_issues,verified_source_timing,source_evidence_notes,distinctness_decision,reviewer,review_status,planner_approved
+JR-EVID-0008,Around The World Wraps,Rookie,1,https://jr.nba.com/basketball-practice-plans/rookie/,1 x 10 repetitions each way,numeric_overlap_only,verify_timing_numbers,,,pending,,pending,no
+JR-EVID-0012,Gauntlet Dribbling,All-Star,1,https://jr.nba.com/basketball-practice-plans/all-star/,Not specified,source_timing_unspecified,confirm_timing_absence,,,pending,,pending,no
+JR-EVID-0013,Partner Decision Dribbling Game,All-Star,1,https://jr.nba.com/basketball-practice-plans/all-star/,Not specified,source_timing_unspecified,confirm_timing_absence,,,pending,,pending,no
+JR-EVID-0019,Forward/Backward/Lateral March,Rookie,2,https://jr.nba.com/basketball-practice-plans/rookie/page/2/,Not stated,source_timing_unspecified,confirm_timing_absence,,,pending,,pending,no
+JR-EVID-0020,High Knees,Rookie,2,https://jr.nba.com/basketball-practice-plans/rookie/page/2/,Not stated,source_timing_unspecified,confirm_timing_absence,,,pending,,pending,no
+JR-EVID-0021,Quick Feet,Rookie,2,https://jr.nba.com/basketball-practice-plans/rookie/page/2/,Not stated,source_timing_unspecified,confirm_timing_absence;compare_identical_source_descriptions,,,pending,,pending,no
+JR-EVID-0022,Side Push,Rookie,2,https://jr.nba.com/basketball-practice-plans/rookie/page/2/,Not stated,source_timing_unspecified,confirm_timing_absence;compare_identical_source_descriptions,,,pending,,pending,no
+JR-EVID-0023,Toss & Catch,Rookie,2,https://jr.nba.com/basketball-practice-plans/rookie/page/2/,1 x 45 seconds,numeric_overlap_only,verify_timing_numbers,,,pending,,pending,no
+JR-EVID-0024,Stationary Dribble Low/Middle,Rookie,2,https://jr.nba.com/basketball-practice-plans/rookie/page/2/,2 x 30 seconds each hand,numeric_overlap_only,verify_timing_numbers,,,pending,,pending,no
+JR-EVID-0034,Progression Shooting Competition,All-Star,2,https://jr.nba.com/basketball-practice-plans/all-star/page/2/,8 makes per progression,numeric_overlap_only,verify_timing_numbers,,,pending,,pending,no
+JR-EVID-0036,Jump to the Ball Drill,All-Star,2,https://jr.nba.com/basketball-practice-plans/all-star/page/2/,4 repetitions per side,numeric_overlap_only,verify_timing_numbers,,,pending,,pending,no
+JR-EVID-0041,Hook Pass Drill,MVP,2,https://jr.nba.com/basketball-practice-plans/mvp/page/2/,5 repetitions per hand,numeric_overlap_only,verify_timing_numbers,,,pending,,pending,no
+JR-EVID-0044,Rebound & Score,MVP,2,https://jr.nba.com/basketball-practice-plans/mvp/page/2/,1 x each; scoring rule in source,numeric_overlap_only,verify_timing_numbers,,,pending,,pending,no
+JR-EVID-0045,1 on 1 – Stunt & Recover,MVP,2,https://jr.nba.com/basketball-practice-plans/mvp/page/2/,5 defensive stops,numeric_overlap_only,verify_timing_numbers,,,pending,,pending,no
+JR-EVID-0055,1 on 1 Dribble Battle,All-Star,3,https://jr.nba.com/basketball-practice-plans/all-star/page/3/,Not specified,source_timing_unspecified,confirm_timing_absence,,,pending,,pending,no
+JR-EVID-0069,5 on 0 Fast Break,MVP,3,https://jr.nba.com/basketball-practice-plans/mvp/page/3/,5 repetitions,numeric_overlap_only,verify_timing_numbers,,,pending,,pending,no

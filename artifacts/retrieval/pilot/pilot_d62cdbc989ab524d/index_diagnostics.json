@@ -1,0 +1,84 @@
+{
+  "actual_corpus_queries_run": 0,
+  "approved_basketball_catalog_drills": 0,
+  "core_encoded_token_counts": [
+    87,
+    161,
+    130,
+    125,
+    150,
+    132,
+    151
+  ],
+  "corpus_id": "pilot-corpus:917f12a3f56929da76a59808167bcca057fc9017047b57b5fb46fe2d1409884d",
+  "coverage_scope": "general_introductory_basketball_and_teen_sleep_reference_pilot",
+  "distinct_reference_units": 7,
+  "fitted_classifier_or_planner_approval_created": false,
+  "generation_context_budget_verified": false,
+  "lexical": {
+    "csr_data_sha256": "6a5d49a940cc9a889a478633e7a88357345dbb3adb4807cc6deb761b458b061f",
+    "csr_indices_sha256": "685c949a9f9d4c048924542637e85488c3348ce98c2436b76119e7950df4f342",
+    "csr_indptr_sha256": "3b0e995e9b718ca452cf947e4285b4af5316cccd8a6e194cbb44e93de23ee3e7",
+    "density": 0.2119309262166405,
+    "dtype": "float64",
+    "feature_order_sha256": "61032f7fd2eb546291a7454cdddbf37ace03b374212652da6e48c07f5fa642cb",
+    "features": 819,
+    "fitted_policy": {
+      "analyzer": "word",
+      "binary": false,
+      "classifier_vectorizer_or_preprocessor_reused": false,
+      "decode_error": "strict",
+      "dtype": "float64",
+      "encoding": "utf-8",
+      "lowercase": true,
+      "max_df": 1.0,
+      "max_features": null,
+      "min_df": 1,
+      "ngram_range": [
+        1,
+        2
+      ],
+      "norm": "l2",
+      "preprocessor": null,
+      "query_vocabulary_or_idf_fitting": false,
+      "smooth_idf": true,
+      "stop_words": null,
+      "strip_accents": null,
+      "sublinear_tf": false,
+      "token_pattern": "(?u)\\b\\w\\w+\\b",
+      "tokenizer": null,
+      "use_idf": true
+    },
+    "idf_array_sha256": "0fe48fdf88ae8527b04ffec6f59d43fa0573a31e7e7a694b5f82513cc8216657",
+    "matrix_format": "csr",
+    "nonzero_values": 1215,
+    "rows": 7,
+    "vocabulary_sha256": "593e3c03be4ea5174fc064d27416523001e25d5074ddef369e3449646ed0c384",
+    "zero_vector_rows": 0
+  },
+  "nba_review_targets_still_pending": 20,
+  "passages": 7,
+  "planned_benchmark_ready": false,
+  "quality_scores_available": false,
+  "questions_or_judgments_used": 0,
+  "schema_version": "step23-pilot-index-diagnostics-1",
+  "selected_retrieval_route": null,
+  "semantic": {
+    "device": "cpu",
+    "dtype": "float32",
+    "matrix_sha256": "c5f9dc382ee1d6a7b953e10765e19b24c126d0a8dd274e7f1dd67f3ada97bb07",
+    "model_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "norm_max": 1.000000076139042,
+    "norm_min": 1.0000000119226649,
+    "shape": [
+      7,
+      384
+    ]
+  },
+  "source_alias_rows_represented": 8,
+  "source_family_counts": {
+    "CDC-SLEEP-ABOUT": 1,
+    "UGA-PEDB-BASKETBALL-TEXTBOOK": 6
+  },
+  "unproven_warmups_still_deferred": 12
+}

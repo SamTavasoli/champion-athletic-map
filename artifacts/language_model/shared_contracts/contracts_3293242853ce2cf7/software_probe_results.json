@@ -1,0 +1,239 @@
+{
+  "checks": [
+    {
+      "check": "input_only_projection_and_audit_separation",
+      "group": "input",
+      "observed": "wrapper metadata stays outside model-visible JSON",
+      "status": "pass"
+    },
+    {
+      "check": "exact_unicode_and_whitespace_preserved",
+      "group": "input",
+      "observed": "text values retained exactly",
+      "status": "pass"
+    },
+    {
+      "check": "source_record_unchanged_by_projection",
+      "group": "input",
+      "observed": "original wrapper and input unchanged",
+      "status": "pass"
+    },
+    {
+      "check": "audit_id_changes_do_not_change_public_facts",
+      "group": "input",
+      "observed": "public hash independent of wrapper ID",
+      "status": "pass"
+    },
+    {
+      "check": "absent_null_and_empty_remain_distinct",
+      "group": "input",
+      "observed": "no missing-value substitution",
+      "status": "pass"
+    },
+    {
+      "check": "zero_false_and_unknown_grade_preserved",
+      "group": "input",
+      "observed": "no inferred equipment, grade or time",
+      "status": "pass"
+    },
+    {
+      "check": "overlapping_commitments_are_preserved",
+      "group": "input",
+      "observed": "no feasibility decision or conflict repair",
+      "status": "pass"
+    },
+    {
+      "check": "reject_private_wrapper",
+      "group": "input_rejection",
+      "observed": "schema rejected; no field scrubbing",
+      "status": "pass"
+    },
+    {
+      "check": "reject_private_expectation",
+      "group": "input_rejection",
+      "observed": "schema rejected; no field scrubbing",
+      "status": "pass"
+    },
+    {
+      "check": "reject_private_nested",
+      "group": "input_rejection",
+      "observed": "schema rejected; no field scrubbing",
+      "status": "pass"
+    },
+    {
+      "check": "reject_private_deep_nested",
+      "group": "input_rejection",
+      "observed": "schema rejected; no field scrubbing",
+      "status": "pass"
+    },
+    {
+      "check": "reject_changed_study_week",
+      "group": "input_rejection",
+      "observed": "schema rejected; no field scrubbing",
+      "status": "pass"
+    },
+    {
+      "check": "reject_invalid_participant_count",
+      "group": "input_rejection",
+      "observed": "schema rejected; no field scrubbing",
+      "status": "pass"
+    },
+    {
+      "check": "reject_outside_study_age",
+      "group": "input_rejection",
+      "observed": "schema rejected; no field scrubbing",
+      "status": "pass"
+    },
+    {
+      "check": "prepared_fact_mutation_detected",
+      "group": "input_rejection",
+      "observed": "public hash and snapshot must agree",
+      "status": "pass"
+    },
+    {
+      "check": "response_plan",
+      "group": "response",
+      "observed": "structural fixture accepted without corrections",
+      "status": "pass"
+    },
+    {
+      "check": "response_plan_with_activity",
+      "group": "response",
+      "observed": "structural fixture accepted without corrections",
+      "status": "pass"
+    },
+    {
+      "check": "response_clarification",
+      "group": "response",
+      "observed": "structural fixture accepted without corrections",
+      "status": "pass"
+    },
+    {
+      "check": "response_constraint_conflict",
+      "group": "response",
+      "observed": "structural fixture accepted without corrections",
+      "status": "pass"
+    },
+    {
+      "check": "response_outside_scope",
+      "group": "response",
+      "observed": "structural fixture accepted without corrections",
+      "status": "pass"
+    },
+    {
+      "check": "source_ids_optional_for_reference_free_response",
+      "group": "response",
+      "observed": "no required invented citation or catalog ID",
+      "status": "pass"
+    },
+    {
+      "check": "reject_response_missing_clarification_question",
+      "group": "response_rejection",
+      "observed": "raw outcome retained without repair",
+      "status": "pass"
+    },
+    {
+      "check": "retain_invalid_missing_clarification_question",
+      "group": "authority",
+      "observed": "invalid output preserved beside original facts",
+      "status": "pass"
+    },
+    {
+      "check": "reject_response_incomplete_week_structure",
+      "group": "response_rejection",
+      "observed": "raw outcome retained without repair",
+      "status": "pass"
+    },
+    {
+      "check": "retain_invalid_incomplete_week_structure",
+      "group": "authority",
+      "observed": "invalid output preserved beside original facts",
+      "status": "pass"
+    },
+    {
+      "check": "reject_response_duplicate_schedule_day",
+      "group": "response_rejection",
+      "observed": "raw outcome retained without repair",
+      "status": "pass"
+    },
+    {
+      "check": "retain_invalid_duplicate_schedule_day",
+      "group": "authority",
+      "observed": "invalid output preserved beside original facts",
+      "status": "pass"
+    },
+    {
+      "check": "reject_response_source_fact_override_field",
+      "group": "response_rejection",
+      "observed": "raw outcome retained without repair",
+      "status": "pass"
+    },
+    {
+      "check": "retain_invalid_source_fact_override_field",
+      "group": "authority",
+      "observed": "invalid output preserved beside original facts",
+      "status": "pass"
+    },
+    {
+      "check": "reject_response_duplicate_json_keys",
+      "group": "response_rejection",
+      "observed": "raw outcome retained without repair",
+      "status": "pass"
+    },
+    {
+      "check": "retain_invalid_duplicate_json_keys",
+      "group": "authority",
+      "observed": "invalid output preserved beside original facts",
+      "status": "pass"
+    },
+    {
+      "check": "reject_response_nonfinite_number",
+      "group": "response_rejection",
+      "observed": "raw outcome retained without repair",
+      "status": "pass"
+    },
+    {
+      "check": "retain_invalid_nonfinite_number",
+      "group": "authority",
+      "observed": "invalid output preserved beside original facts",
+      "status": "pass"
+    },
+    {
+      "check": "reject_response_malformed_json",
+      "group": "response_rejection",
+      "observed": "raw outcome retained without repair",
+      "status": "pass"
+    },
+    {
+      "check": "retain_invalid_malformed_json",
+      "group": "authority",
+      "observed": "invalid output preserved beside original facts",
+      "status": "pass"
+    },
+    {
+      "check": "reject_response_nonobject_json",
+      "group": "response_rejection",
+      "observed": "raw outcome retained without repair",
+      "status": "pass"
+    },
+    {
+      "check": "retain_invalid_nonobject_json",
+      "group": "authority",
+      "observed": "invalid output preserved beside original facts",
+      "status": "pass"
+    },
+    {
+      "check": "changed_generated_text_never_overwrites_original_facts",
+      "group": "authority",
+      "observed": "original and erroneous generated text remain separate",
+      "status": "pass"
+    },
+    {
+      "check": "repaired_parsed_object_rejected",
+      "group": "authority",
+      "observed": "parsed values must match raw model text",
+      "status": "pass"
+    }
+  ],
+  "scope": "artificial_software_fixtures_only"
+}

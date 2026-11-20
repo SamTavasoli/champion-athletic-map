@@ -1,0 +1,7 @@
+relation_type,repeated_groups,records_in_repeated_groups,additional_records,different_label_groups,largest_group,link_role
+broad_name,35,70,35,11,2,split_link
+shared_description,179,488,309,42,10,split_link
+strict_classifier_input,0,0,0,0,0,split_link
+broad_classifier_input,16,32,16,7,2,review_only
+strict_content_without_label,0,0,0,0,0,review_only
+broad_content_without_label,8,16,8,3,2,review_only

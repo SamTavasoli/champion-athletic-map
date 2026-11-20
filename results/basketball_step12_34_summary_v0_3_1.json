@@ -1,0 +1,45 @@
+{
+  "step": "12-34",
+  "source_catalog": "basketball_drill_catalog_v0_3_1_REVIEW_ONLY.csv",
+  "catalog_candidate_groups": 144,
+  "basketball_specific_candidate_groups": 132,
+  "general_warmup_candidate_groups": 12,
+  "source_occurrences": 156,
+  "open_canonical_review_cases": 8,
+  "case_linked_candidate_groups": 9,
+  "source_field_gaps_or_qualifiers_by_type": {
+    "equipment_needs_detail_review": 6,
+    "equipment_unspecified": 63,
+    "participants_needs_detail_review": 16,
+    "participants_unspecified": 63,
+    "source_locator_needs_independent_review": 86,
+    "source_metadata_correction_proposed": 1,
+    "source_prescription_unspecified": 14,
+    "space_unspecified": 110
+  },
+  "review_wave_groups": {
+    "1": 8,
+    "2": 14,
+    "3": 42,
+    "4": 14,
+    "5": 54,
+    "6": 12
+  },
+  "skill_coverage_counts": {
+    "ball_handling": 29,
+    "shooting": 25,
+    "passing": 18,
+    "finishing": 9,
+    "footwork": 5,
+    "defense": 11,
+    "other_basketball_skill": 35,
+    "general_warmup": 12
+  },
+  "metadata_correction_proposals_pending_signoff": 1,
+  "approved_drills": 0,
+  "planner_eligible_drills": 0,
+  "source_documents_changed": false,
+  "catalogs_changed": false,
+  "human_approval_decisions_changed": false,
+  "git_operations_performed": false
+}

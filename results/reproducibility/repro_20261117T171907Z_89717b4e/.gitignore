@@ -1,0 +1,7 @@
+environment/venv/
+project/
+jupyter_data/
+jupyter_runtime/
+ipython/
+matplotlib_config/
+jupyter_config/

@@ -1,0 +1,30 @@
+{
+  "files": {
+    "dimension_ratings.csv": "f50b2d5b3fe19fb669dc1ca90a3bbe6bfd92775fc842811594db1cdf47019055",
+    "private_response_binding.json": "11fab0da0285b5be6781293f194370ea935b525eb0b50d3281f9a48ba9bb3537",
+    "private_review_provenance.json": "e427565633dda16493a90b910b3d070123311d65a0c892a577d258a6f7f70b53",
+    "quality_checks.json": "4040d365a36ce971e9b37db8c8447742f0ea88f5a4ae20a82e15ff3b6151f5b6",
+    "rating_distributions.csv": "b8354eddc2392c3a40db6a6bac2c51b008f2d3227ae27836318dab26732c01f3",
+    "rating_lock.json": "94fb0eed874f92942e80657bf8e799d74feffa335dd2d4cc88f04f0807e643a2",
+    "ratings.jsonl": "3a859c0e4f54b3ba0992b6aeb43c246351bd0d750c8b69978420ecad5df24e69",
+    "review_method_amendment.json": "cec2ab8a93441bf010c3ed2b38795f08ce444f5877e5dd285bffd599ba63750c",
+    "review_summary.json": "9e8c732530351d42a290cb5834e05c3ccbe8502a1365392a6586981369e5df44",
+    "source_registry.json": "764c9beb3ad37ecc0c9fbaaf8bdf7e6cef8716a1e59e582952a6d370d61cadda",
+    "team_review.html": "223223148f8c713399600267c50db64edeeba31df358e0b106f0a1fd691b7671",
+    "team_review_findings.md": "d16f55e8f2a1667977a34fe3e47259bc21d1d71d0fb0825767ac0daa59d2d9c4"
+  },
+  "local_reference_sha256": {
+    "artifacts/evaluation/human_review_9e637c0f3932c371/human_review_config.json": "ee688f57b443701b4ba7d95ae8c843703ba864ed244e57503f992d1c183b22ff",
+    "artifacts/language_model/approved_resources/team-approved-f0dcb9e9943e381b/adopted_drills.json": "32ee86843189f03aa6d02270313c2b4b84ebb0f221f4561b938b62c50d90368f",
+    "artifacts/language_model/approved_resources/team-approved-f0dcb9e9943e381b/adopted_rules.json": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+  },
+  "review_id": "1c8c6d51f99740e019ac0877c934c4802f3eecfd22f73ce5fc8e2a2d53e117d1",
+  "schema_version": "team-review-artifact-manifest-1",
+  "source_member_sha256": {
+    "comparison_summary.json": "6b6019b09565c6ca14946e55b7da9d8302ebcaab532b03d0ab44581d47b77c27",
+    "frozen_comparison_protocol.json": "b84a49c2d69f498f53714f2edbc98ebc4ffa02929484c2c08852d9f262cbb606",
+    "private_review_binding/private_bound_response_key.jsonl": "a1f0cc6445a05be7730e4a58d4aac0b3d64b7b38e76245aaf9397eff777bf70c",
+    "private_review_binding/private_packet_provenance.json": "79f2e2868776c922ff22131f333f6f93863e52bc62d99433893dd1636b34658c",
+    "saved_outcomes.jsonl": "2728455ba907cb2f8b1b88b1be71046e6f1e80f34adf9dcb127062150e2b692b"
+  }
+}

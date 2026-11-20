@@ -1,0 +1,42 @@
+{
+  "benchmark_reruns": 0,
+  "checks": {
+    "blocked": 1,
+    "pass": 6,
+    "pending": 3
+  },
+  "classifier_test_text_processed": false,
+  "created_at_utc": "2026-11-13T18:16:05.641040+00:00",
+  "embedding_requests": 0,
+  "exact_fixture_match_count": 3,
+  "generation_requests": 0,
+  "http_requests": 0,
+  "input_bindings_verified": 764,
+  "mismatched_cases": [
+    "unicode_and_internal_newlines"
+  ],
+  "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+  "normalization_performed": false,
+  "operational_generation_ready": false,
+  "original_fixture_backend_count_agreement_verified": true,
+  "original_fixture_json_compatibility_verified": false,
+  "original_gate_changed": false,
+  "output_hashes": {
+    "results/integration/chat_diagnostics/diagnostic_1a28dcb3b1151c49/diagnostic_checks.csv": "20c345977bd20a6cf442966ee225466cb7d21c09f31ffae4fa27cc9000dabfd3",
+    "results/integration/chat_diagnostics/diagnostic_1a28dcb3b1151c49/diagnostic_policy.json": "c25999fb9c9e1cc351b53640e9ae00de96f6a0621a377f0adbc24ae0a02dc62c",
+    "results/integration/chat_diagnostics/diagnostic_1a28dcb3b1151c49/json_differences.py": "314fc4b463f1ae9e8c636ae480907d19be62ade09d7eaa5c8cbd008f2e3869b1",
+    "results/integration/chat_diagnostics/diagnostic_1a28dcb3b1151c49/response_differences.json": "8ed862d2bf66ed4e9aa9b1549ef265bac39a5aa3e5782164e199b743d79a1076",
+    "results/integration/chat_diagnostics/diagnostic_1a28dcb3b1151c49/verified_inputs.json": "d1ff889c89aa53d0b9abd6af09af72b4210dd0e2cbfb0218bd76662a63d73bda"
+  },
+  "python_version": "3.12.6",
+  "recipe_version": "step24-saved-chat-diagnosis-0.1.0",
+  "runtime_adoption_complete": false,
+  "saved_fixture_count": 4,
+  "schema_version": "step24-response-diagnosis-producer-1",
+  "source_suite_id": "38c2bd48e7fdead4af12b8a029076251710a6e7c492d9b0d53ef502230426010",
+  "source_summary_sha256": "40d3af96d6c7311522e031134fac88acd6afc35bb43c7ad0e81afb1641ee4f41",
+  "status": "saved_response_differences_recorded_original_gate_preserved",
+  "step24_complete": false,
+  "strict_json_object_count": 4,
+  "unicode_database_version": "15.0.0"
+}

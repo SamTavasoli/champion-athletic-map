@@ -1,0 +1,81 @@
+{
+  "contracts": [
+    {
+      "contract_id": "resource-stationary-base-1",
+      "description_patterns": [
+        "(?:(?:stationary (?:dribble(?: low/middle)?|low/middle dribble)(?: drill)?)[:.-] )?(?:one player|the athlete|one participant) (?:stays in place|stands still) (?:on|in) (?:a |the )?(?:basketball )?court[.;,] (?:and )?dribbles low (?:with|using) one hand while (?:looking up|keeping eyes up)[.;,] (?:then )?(?:changes|switches) hands[.;,] (?:and )?repeats at middle height(?P<sharing>[.;] players take turns sharing one basketball[;,] one player is active at a time and the others wait outside the practice area)?"
+      ],
+      "minimum_equipment": {
+        "basketball": 1
+      },
+      "minimum_participants": 1,
+      "minimum_participants_basis": "New project interpretation of the explicit individual or paired roles; the original numeric source field remains null.",
+      "optional_variants_covered": false,
+      "positive_space_context": "court",
+      "proof_scope": "Resource fit of the complete described base action and roles only; no duration, supervision, safety, age suitability or goal-fulfillment certification.",
+      "source_approved_variant": "source_base_variant_only",
+      "source_catalog_id": "JR-REVIEW-0062",
+      "source_prescription_retained_for_other_assessment": "2 x 30 seconds each hand",
+      "source_record_sha256": "5df0fc7fbfe9abd307620fbf302183515e31aff1e85ff3827d7a05b13162ea55",
+      "source_structured_minimum_participants": null,
+      "source_url": "https://jr.nba.com/basketball-practice-plans/rookie/page/2/"
+    },
+    {
+      "contract_id": "resource-form-base-1",
+      "description_patterns": [
+        "(?:(?:form shooting ?-? ?(?:one|1) hand|one-hand form shooting)[:.-] )?partners take turns shooting and rebounding within a few feet of (?:the |a )?(?:hoop|basket)[.;] the shooter uses one hand and follows through[.;] one pair is active at a time and shares one basketball(?:; other players wait outside the practice area)?"
+      ],
+      "minimum_equipment": {
+        "basketball": 1
+      },
+      "minimum_participants": 2,
+      "minimum_participants_basis": "New project interpretation of the explicit individual or paired roles; the original numeric source field remains null.",
+      "optional_variants_covered": false,
+      "positive_space_context": "hoop_area",
+      "proof_scope": "Resource fit of the complete described base action and roles only; no duration, supervision, safety, age suitability or goal-fulfillment certification.",
+      "source_approved_variant": "specified_source_base_variant_only",
+      "source_catalog_id": "JR-ADITI-0011",
+      "source_prescription_retained_for_other_assessment": "2 × 10",
+      "source_record_sha256": "ecf89dcacf74ab411e201fd32f94ce0d197e1fca0f4e6e6960e0e9c011f3fa48",
+      "source_structured_minimum_participants": null,
+      "source_url": "https://jr.nba.com/basketball-practice-plans/starter/"
+    },
+    {
+      "contract_id": "resource-windows-base-1",
+      "description_patterns": [
+        "(?:windows defensive slide drill[:.-] )?place two (?:markers|cones) (?:6-8|6 to 8) feet apart in clear court space[.;] one defender slides laterally between the markers to stop a ball rolled by a stationary partner[.;] they stop before switching roles[;,] one pair is active at a time and shares one basketball(?:; other players wait outside the practice area)?"
+      ],
+      "minimum_equipment": {
+        "basketball": 1,
+        "marker": 2
+      },
+      "minimum_participants": 2,
+      "minimum_participants_basis": "New project interpretation of the explicit individual or paired roles; the original numeric source field remains null.",
+      "optional_variants_covered": false,
+      "positive_space_context": "marker_gap",
+      "proof_scope": "Resource fit of the complete described base action and roles only; no duration, supervision, safety, age suitability or goal-fulfillment certification.",
+      "source_approved_variant": "specified_source_base_variant_only",
+      "source_catalog_id": "JR-NEW-0009",
+      "source_prescription_retained_for_other_assessment": "4 minutes",
+      "source_record_sha256": "c98a843c9abdf53a218d708345b9ebe533cf6662d836be7310e07f0126c33847",
+      "source_structured_minimum_participants": null,
+      "source_url": "https://jr.nba.com/basketball-practice-plans/rookie/page/4/"
+    }
+  ],
+  "declared_contract_count": 3,
+  "primary_review_notes": {
+    "form": "Official Starter Form Shooting - 1 Hand section reviewed; pair, one ball, basket, close range and one-hand follow-through.",
+    "stationary": "Saved primary HTML snapshot confirms individual low/middle dribbling and sharing.",
+    "windows": "Official Rookie Practice Plan 4 Windows section reviewed; pair, one ball, two markers 6-8 feet apart, rolled-ball base; live dribbling excluded."
+  },
+  "resource_release_id": "team-approved-f0dcb9e9943e381b",
+  "reviewer_type": "assistant_under_Sam_delegated_authority",
+  "schema_version": "reviewed-resource-contracts-1",
+  "scope": "Partial, source-neutral, controlled-description resource assessment; not universal free-text proof.",
+  "source_file_sha256": {
+    "artifacts/language_model/active_resource_release.json": "b05bfd994b9d722e6179ee2a3e2136975118a51468eb490bec166c231f15303b",
+    "artifacts/language_model/approved_resources/team-approved-f0dcb9e9943e381b/adopted_drills.json": "32ee86843189f03aa6d02270313c2b4b84ebb0f221f4561b938b62c50d90368f",
+    "artifacts/language_model/approved_resources/team-approved-f0dcb9e9943e381b/decisions.json": "1b30e7607f26c9c451bce921ce623b622a8342a1978a624b2f9a0daba8fce4a2",
+    "artifacts/language_model/approved_resources/team-approved-f0dcb9e9943e381b/manifest.json": "d048af8432bfc339a2504460cbbdbca7011745774d92f0024aa15148dc55db6b"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "acquisition_producer": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/step14_source_acquisition_summary.json",
+  "acquisition_sha256": "8fbe825dc443d08d9bda262c82c19d79536d23ef0f3d2380ad317c113d68d7a9",
+  "documentation": [
+    {
+      "bytes": 177990,
+      "downloaded_at_utc": "2026-11-09T05:08:54.795610+00:00",
+      "filename": "references/usda_sr_legacy_documentation.pdf",
+      "fingerprint_role": "match_the_document_snapshot_reviewed; not_a_publisher_checksum",
+      "interpretation_review_date": "2026-11-08",
+      "interpretation_review_time_zone": "America/Los_Angeles",
+      "reference_id": "SR_LEGACY_DOC",
+      "response_url": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/SR-Legacy/SR-Legacy_Doc.pdf",
+      "review_type": "assistant_primary_source_review",
+      "sha256": "fdc33442adb5707d448676e92b54f9adeaad63b6df267b683b5fe728307391cf",
+      "url": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/SR-Legacy/SR-Legacy_Doc.pdf"
+    },
+    {
+      "bytes": 148996,
+      "downloaded_at_utc": "2026-11-09T05:08:55.375205+00:00",
+      "filename": "references/fdc_download_field_descriptions_oct2020.pdf",
+      "fingerprint_role": "match_the_document_snapshot_reviewed; not_a_publisher_checksum",
+      "interpretation_review_date": "2026-11-08",
+      "interpretation_review_time_zone": "America/Los_Angeles",
+      "reference_id": "FDC_FIELDS_DOC",
+      "response_url": "https://fdc.nal.usda.gov/docs/Download_Field_Descriptions_Oct2020.pdf",
+      "review_type": "assistant_primary_source_review",
+      "sha256": "e21d658d4d3fa583aceaa78e23efd4e64dbf9010fd0210a87b94edbcfb56928a",
+      "url": "https://fdc.nal.usda.gov/docs/Download_Field_Descriptions_Oct2020.pdf"
+    }
+  ],
+  "lineage_note": "New SR inputs do not establish the provenance of older Foundation or cleaned supporting files.",
+  "manifest_modified": false,
+  "schema_version": "step14-source-register-supplement-1",
+  "sources": [
+    {
+      "archive_filename": "FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+      "publisher_catalog_release": "2018-04",
+      "publisher_data_type": "SR Legacy",
+      "relative_path": "archives/sr_legacy/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+      "response": {
+        "bytes": 6074592,
+        "completed_at_utc": "2026-11-09T04:55:45.393400+00:00",
+        "content_type": "application/zip",
+        "etag": "\"65398c05-5cb0e0\"",
+        "last_modified": "Wed, 25 Oct 2023 21:43:33 GMT",
+        "requested_url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+        "response_url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip",
+        "sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0",
+        "started_at_utc": "2026-11-09T04:55:42.031733+00:00"
+      },
+      "source_key": "sr_legacy",
+      "url": "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip"
+    }
+  ]
+}

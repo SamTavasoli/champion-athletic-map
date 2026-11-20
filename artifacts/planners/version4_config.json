@@ -1,0 +1,80 @@
+{
+  "acceptance_policy_path": "artifacts/planners/version4_acceptance_policy.json",
+  "acceptance_policy_sha256": "e8d87dc54931a57ce5e17ca8a3eff3192f95eb2e211016cf76f157251e371006",
+  "accepted_study_profiles": 0,
+  "automatic_repairs": 0,
+  "automatic_retries": 0,
+  "baseline_v3_config_sha256": "5d833ff622e41fa12f51a2cea25f2eed1d7f2147db228f9b48b25c881a520440",
+  "classifier_access": false,
+  "coordinator_output_tokens": 2048,
+  "dataset": {
+    "dataset_id": "champions-unified-132a2202b69046ae",
+    "file_sha256": {
+      "READ_ME_FIRST.txt": "780d9adde210fadc443bb70e9fde9b0b278233bee937926d52d6bbd521bd1504",
+      "champions_unified_dataset.csv": "ee8903644570bc158440821e7b307aa6a4c5277b9070c724faf59119848ba625",
+      "dataset_manifest.json": "21e56bbef6151a2aa4cdef4af6aba7a2a156aaf811714198d9afdb5615a06de2",
+      "load_unified_dataset.py": "69af88c450180cc70af260798cb5cb081aee086e2bf79bca06998b13db2b1668"
+    },
+    "relative_directory": "data/unified/v1"
+  },
+  "development_selection": [
+    {
+      "coverage": "ordinary_planning_request",
+      "profile_id": "athlete:3ceae454f8a62ee308cd87f4"
+    },
+    {
+      "coverage": "limited_space_and_resources",
+      "profile_id": "athlete:06265b25ff63c151f6243a9c"
+    },
+    {
+      "coverage": "existing_commitments",
+      "profile_id": "athlete:5dc2a65fa122b86f793a3ca3"
+    },
+    {
+      "coverage": "missing_participant_information",
+      "profile_id": "athlete:5f8b4d8612de86a9d21be839"
+    },
+    {
+      "coverage": "incompatible_time_window",
+      "profile_id": "athlete:636aff70dbda760a15f85e63"
+    },
+    {
+      "coverage": "request_outside_supported_scope",
+      "profile_id": "athlete:b24f2e2a28da05d8a965be44"
+    }
+  ],
+  "evaluator_output_tokens": 768,
+  "evaluator_schema_path": "artifacts/planners/version4_evaluator_schema.json",
+  "evaluator_schema_sha256": "f8485f589cfaadff419e43ab0c1c5c30275e012dc0dad87895eff4337703621f",
+  "independent_scoring_available": false,
+  "maximum_calls_with_food": 9,
+  "maximum_calls_without_food": 8,
+  "maximum_revisions": 2,
+  "module_sha256": {
+    "src/champion_athletic_map/evaluated_role_adapter.py": "832ba424ffde9d0159ee75704963793dc68c54712ea04a57c5588cac9fa9c16e",
+    "src/champion_athletic_map/planners/evaluated_specialists.py": "22e310a1f2ad4c9a2681a3b735cb84f429c9439eb628bc7ba1bf16c7c32ce5b8",
+    "src/champion_athletic_map/planning_checks.py": "935fef910fca8650d8912df490ec44c22b3adb66afc086edcc89f201d6151dcb",
+    "src/champion_athletic_map/rule_checks.py": "38b555a0682bca84c39da8013bb8d05f748ce1ab64b183a9c16132a07bb298b0"
+  },
+  "operational_generation_ready": false,
+  "planner_version": 4,
+  "prompts": {
+    "evaluator": {
+      "path": "docs/prompts/planner_v4/evaluator.md",
+      "sha256": "b2b52a1a8e1ddec642a736ab9a0588602095039e225d752f0cc647b78f4db845"
+    },
+    "revision": {
+      "path": "docs/prompts/planner_v4/revision.md",
+      "sha256": "e87e245738b90c98e704a8dea8e3cdfeabb401b33d2a2416ad5be867b00c87b4"
+    }
+  },
+  "reference_policy": {
+    "max_packet_tokens": 2200,
+    "max_rule_bundles": 2,
+    "policy_version": "shared-planning-references-1",
+    "source_configuration_sha256": "f50e956ba9b63911b45e4f94926819339edfe1a4afda38d23ae036e3606fecfd"
+  },
+  "reference_preparation_calls": 0,
+  "run_id": "v4-development-219024aa0b492cb3",
+  "schema_version": "planner-v4-config-1"
+}

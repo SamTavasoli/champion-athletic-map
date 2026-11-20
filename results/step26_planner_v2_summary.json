@@ -1,0 +1,123 @@
+{
+  "accepted_study_profiles": 0,
+  "automatic_repairs": 0,
+  "automatic_retries": 0,
+  "baseline_files_changed": false,
+  "baseline_files_sha256": {
+    "artifacts/language_model/integration_config.json": "5cd4b3e8f31180ccb717f9d5713be95faa337f9ca2add247f09a815494bf6bc4",
+    "artifacts/planners/version1_config.json": "f7e50a23fdad445695386a0ae6ec5a8949d23961396dcf7db6b2e85f02478ffe",
+    "docs/prompts/shared_planner_task_v1.md": "0037cf55abb43ec844379773e029e1689bdec47f60100779c1eb3613281fbb22",
+    "results/planner_v1/development_manifest.csv": "747faa568683a12d6619010de7e2dbde974f01f1c8940a50c959bcd07b7e7b6c",
+    "results/planner_v1/development_runs.jsonl": "e5db49888ae9f77baea6074e8d1638e01bf6a84f23ccf469bcfe3bbf7ce78411",
+    "results/step25_planner_v1_summary.json": "fc7ce489432ecb6caaa6c76a80013c43673b12fadef97085bd473d88d61b75f0",
+    "src/champion_athletic_map/llm.py": "838ae0b8ca97a2dbf1154813f3c517b796ddaf95cb32f96a30cf7c59ab353145",
+    "src/champion_athletic_map/planners/llm_only.py": "029184ef049a87f23cd10b6cd5462ae69e03939495e9eb092495ce36198accb8",
+    "src/champion_athletic_map/reference_packets.py": "bd89d9fb6f667260b59dd75eb0af551a3433509091771eb202272611c41fb633",
+    "src/champion_athletic_map/unified_data.py": "492b2e943a5e404dc5752f8987a6b836c2c65a32c276d7c46d6d88f2137c5abf"
+  },
+  "baseline_format_valid_responses": 4,
+  "classifier_calls": 0,
+  "completed_responses": 6,
+  "config_sha256": "d688a4624b3ca9aba6dbe690dcf60bfd2558cf3972a69c97eeb918eb96e97153",
+  "dataset_id": "champions-unified-132a2202b69046ae",
+  "development_log_sha256": "494444c3dc6264d11a8a4bf711fb23c110f3caee53299a67c0205ed9101089cf",
+  "examples_processed": 6,
+  "format_valid_responses": 4,
+  "independent_scoring_available": false,
+  "operational_generation_ready": false,
+  "reference_packets": [
+    {
+      "complete_references_delivered": 1,
+      "omissions_recorded": 16,
+      "packet_id": "reference-packet:da1d85707d45b4af525961fdcbaab1be781bfc9b12f3c9d24bd994fa21eac50c",
+      "path": "artifacts/planners/reference_packets/f50e956ba9b63911/28a0477f394f06448c10563ec88d5c23248ba9439aff88ec973f9b9035cc2e06.json",
+      "profile_id": "athlete:3ceae454f8a62ee308cd87f4",
+      "rule_ids_delivered": [
+        "CDC_TEENS_SLEEP"
+      ]
+    },
+    {
+      "complete_references_delivered": 1,
+      "omissions_recorded": 16,
+      "packet_id": "reference-packet:64453cdbac87b4f772d7535a26605a6f408de5487fd397e0c18110e53eadea11",
+      "path": "artifacts/planners/reference_packets/f50e956ba9b63911/c2185a124fa0f23e4287f028a30434f4ba2154596b3d88e8ae6855d524f98815.json",
+      "profile_id": "athlete:06265b25ff63c151f6243a9c",
+      "rule_ids_delivered": [
+        "CDC_TEENS_SLEEP"
+      ]
+    },
+    {
+      "complete_references_delivered": 1,
+      "omissions_recorded": 16,
+      "packet_id": "reference-packet:8e1d526b2451450527d8d948f9be1468a77b047eebd754587a32daf2523b4255",
+      "path": "artifacts/planners/reference_packets/f50e956ba9b63911/52060c597a58b9126d0fe18213e27a16cddf7b7f21dfda4c72b5fe7eb95b35bf.json",
+      "profile_id": "athlete:5dc2a65fa122b86f793a3ca3",
+      "rule_ids_delivered": [
+        "CDC_TEENS_SLEEP"
+      ]
+    },
+    {
+      "complete_references_delivered": 2,
+      "omissions_recorded": 13,
+      "packet_id": "reference-packet:5545875b3466fdce16d7fc0c0dccf2289958d85b29ebb6aec29a6aad87ce9715",
+      "path": "artifacts/planners/reference_packets/f50e956ba9b63911/b1bab1a43c198bd65d4b71629371529e19d306f5438e7845acb159ab53728c08.json",
+      "profile_id": "athlete:5f8b4d8612de86a9d21be839",
+      "rule_ids_delivered": [
+        "NBA_A12_14_MAX_HOURS",
+        "NBA_A12_14_MIN_REST"
+      ]
+    },
+    {
+      "complete_references_delivered": 2,
+      "omissions_recorded": 13,
+      "packet_id": "reference-packet:05c185e0996d4f15b735b6cbee36cd88dcddc80e32e3c039de49112d3910409e",
+      "path": "artifacts/planners/reference_packets/f50e956ba9b63911/3af3170947c84759cb57d4361e130b82c5697962cc8386b8c2bfa3c72e75ba3f.json",
+      "profile_id": "athlete:636aff70dbda760a15f85e63",
+      "rule_ids_delivered": [
+        "NBA_G9_12_MAX_HOURS",
+        "NBA_G9_12_MIN_REST"
+      ]
+    },
+    {
+      "complete_references_delivered": 2,
+      "omissions_recorded": 14,
+      "packet_id": "reference-packet:48b27aea5691a52f9f0955e2816e1f3582e8446b1d5a0c03c60e03029218a2d6",
+      "path": "artifacts/planners/reference_packets/f50e956ba9b63911/cceeb2535d4cc6625ae94c290cc27596bfb54284f3b1b49407d880fe8c0f9d4a.json",
+      "profile_id": "athlete:b24f2e2a28da05d8a965be44",
+      "rule_ids_delivered": [
+        "NBA_G9_12_MAX_HOURS",
+        "NBA_G9_12_MIN_REST"
+      ]
+    }
+  ],
+  "reference_preparation_error": null,
+  "reference_preparation_this_execution": {
+    "cached_packets": 0,
+    "catalog_lookups": 0,
+    "food_lookups": 3,
+    "preparation_seconds": 30.90251869999338,
+    "query_encoder_processes": 1,
+    "query_rows_encoded": 12,
+    "ranking_calls": 12,
+    "rule_lookups": 6
+  },
+  "response_types": {
+    "clarification": 0,
+    "constraint_conflict": 1,
+    "outside_scope": 0,
+    "plan": 5
+  },
+  "reviewer_calls": 0,
+  "run_id": "v2-development-8fcd08e449c085b3",
+  "saved_responses_reused": 0,
+  "schema_version": "step26-planner-v2-summary-1",
+  "selected_development_examples": 6,
+  "source_configuration_sha256": "f50e956ba9b63911b45e4f94926819339edfe1a4afda38d23ae036e3606fecfd",
+  "specialist_calls": 0,
+  "status": "development_run_recorded",
+  "transport_attempts_this_execution": {
+    "generation": 6,
+    "metadata": 42,
+    "render": 6
+  }
+}

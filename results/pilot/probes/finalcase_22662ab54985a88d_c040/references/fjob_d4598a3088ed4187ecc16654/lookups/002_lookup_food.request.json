@@ -1,0 +1,8 @@
+{
+  "args": [],
+  "kwargs": {
+    "grams": "120",
+    "search_text": "Fish, salmon, Atlantic, farmed, cooked, dry heat"
+  },
+  "method": "lookup_food"
+}

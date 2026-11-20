@@ -1,0 +1,1657 @@
+{
+  "schema_version": "step30-pytest-execution-1",
+  "pytest_exit_code": 0,
+  "collected": [
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_expectation_uses_exact_record_and_recorded_decimal_arithmetic",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:75",
+      "description": "test_food_expectation_uses_exact_record_and_recorded_decimal_arithmetic"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_zero_recorded_food_value_is_available_not_missing",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:93",
+      "description": "test_zero_recorded_food_value_is_available_not_missing"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_question_parser_does_not_guess_unrecorded_or_invalid_requests[None]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:100",
+      "description": "test_food_question_parser_does_not_guess_unrecorded_or_invalid_requests[None]"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_question_parser_does_not_guess_unrecorded_or_invalid_requests[How much protein is in a snack?]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:100",
+      "description": "test_food_question_parser_does_not_guess_unrecorded_or_invalid_requests[How much protein is in a snack?]"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_question_parser_does_not_guess_unrecorded_or_invalid_requests[question2]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:100",
+      "description": "test_food_question_parser_does_not_guess_unrecorded_or_invalid_requests[question2]"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_question_parser_does_not_guess_unrecorded_or_invalid_requests[question3]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:100",
+      "description": "test_food_question_parser_does_not_guess_unrecorded_or_invalid_requests[question3]"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_question_parser_does_not_guess_unrecorded_or_invalid_requests[question4]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:100",
+      "description": "test_food_question_parser_does_not_guess_unrecorded_or_invalid_requests[question4]"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_uncertainty_is_preserved_without_fabricating_answer[partial_food_name-not_found]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:108",
+      "description": "test_food_uncertainty_is_preserved_without_fabricating_answer[partial_food_name-not_found]"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_uncertainty_is_preserved_without_fabricating_answer[duplicate_food-ambiguous_food]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:108",
+      "description": "test_food_uncertainty_is_preserved_without_fabricating_answer[duplicate_food-ambiguous_food]"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_uncertainty_is_preserved_without_fabricating_answer[missing_nutrient-nutrient_not_found]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:108",
+      "description": "test_food_uncertainty_is_preserved_without_fabricating_answer[missing_nutrient-nutrient_not_found]"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_uncertainty_is_preserved_without_fabricating_answer[duplicate_nutrient-ambiguous_nutrient]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:108",
+      "description": "test_food_uncertainty_is_preserved_without_fabricating_answer[duplicate_nutrient-ambiguous_nutrient]"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_uncertainty_is_preserved_without_fabricating_answer[wrong_unit-nutrient_definition_mismatch]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:108",
+      "description": "test_food_uncertainty_is_preserved_without_fabricating_answer[wrong_unit-nutrient_definition_mismatch]"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_uncertainty_is_preserved_without_fabricating_answer[wrong_name-nutrient_definition_mismatch]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:108",
+      "description": "test_food_uncertainty_is_preserved_without_fabricating_answer[wrong_name-nutrient_definition_mismatch]"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_uncertainty_is_preserved_without_fabricating_answer[unavailable_value-source_value_unavailable]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:108",
+      "description": "test_food_uncertainty_is_preserved_without_fabricating_answer[unavailable_value-source_value_unavailable]"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_uncertainty_is_preserved_without_fabricating_answer[missing_source-source_attribution_missing]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:108",
+      "description": "test_food_uncertainty_is_preserved_without_fabricating_answer[missing_source-source_attribution_missing]"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_helper_disagreement_stays_unverified",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:136",
+      "description": "test_food_helper_disagreement_stays_unverified"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_missing_native_food_table_records_unavailable_instead_of_twenty_verified",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:146",
+      "description": "test_missing_native_food_table_records_unavailable_instead_of_twenty_verified"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_changed_native_food_reference_is_rejected_before_calculation",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:156",
+      "description": "test_changed_native_food_reference_is_rejected_before_calculation"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_wording_amendment_preserves_identity_quantity_and_supported_runtime_grammar[80-grams of protein]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:164",
+      "description": "test_food_wording_amendment_preserves_identity_quantity_and_supported_runtime_grammar[80-grams of protein]"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_wording_amendment_preserves_identity_quantity_and_supported_runtime_grammar[12.5-kilocalories of energy]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:164",
+      "description": "test_food_wording_amendment_preserves_identity_quantity_and_supported_runtime_grammar[12.5-kilocalories of energy]"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_exact_food_value_does_not_clear_an_ambiguous_existing_runtime_lookup",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:176",
+      "description": "test_exact_food_value_does_not_clear_an_ambiguous_existing_runtime_lookup"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_complete_schedule_is_an_explicit_new_fictional_proposal_with_original_hashes",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:220",
+      "description": "test_complete_schedule_is_an_explicit_new_fictional_proposal_with_original_hashes"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_challenge_facts_stay_unchanged_and_coverage_stays_unknown[missing_information-clarification]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:243",
+      "description": "test_challenge_facts_stay_unchanged_and_coverage_stays_unknown[missing_information-clarification]"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_challenge_facts_stay_unchanged_and_coverage_stays_unknown[conflicting_constraints-constraint_conflict]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:243",
+      "description": "test_challenge_facts_stay_unchanged_and_coverage_stays_unknown[conflicting_constraints-constraint_conflict]"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_challenge_facts_stay_unchanged_and_coverage_stays_unknown[outside_scope-outside_scope]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:243",
+      "description": "test_challenge_facts_stay_unchanged_and_coverage_stays_unknown[outside_scope-outside_scope]"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_planning_case_with_unknown_existing_events_is_not_silently_completed",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:258",
+      "description": "test_planning_case_with_unknown_existing_events_is_not_silently_completed"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_existing_or_unrecognized_public_facts_require_separate_amendment[existing_coverage]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:267",
+      "description": "test_existing_or_unrecognized_public_facts_require_separate_amendment[existing_coverage]"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_existing_or_unrecognized_public_facts_require_separate_amendment[unsupported_schema]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:267",
+      "description": "test_existing_or_unrecognized_public_facts_require_separate_amendment[unsupported_schema]"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_existing_or_unrecognized_public_facts_require_separate_amendment[unknown_category]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:267",
+      "description": "test_existing_or_unrecognized_public_facts_require_separate_amendment[unknown_category]"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_full_artificial_population_has_only_150_new_completeness_proposals",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:283",
+      "description": "test_full_artificial_population_has_only_150_new_completeness_proposals"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_wording_is_an_explicit_versioned_public_amendment_without_private_answer",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:305",
+      "description": "test_food_wording_is_an_explicit_versioned_public_amendment_without_private_answer"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_wording_amendment_cannot_change_the_requested_fact[quantity]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:322",
+      "description": "test_food_wording_amendment_cannot_change_the_requested_fact[quantity]"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_wording_amendment_cannot_change_the_requested_fact[identity]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:322",
+      "description": "test_food_wording_amendment_cannot_change_the_requested_fact[identity]"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_wording_amendment_cannot_change_the_requested_fact[nutrient]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:322",
+      "description": "test_food_wording_amendment_cannot_change_the_requested_fact[nutrient]"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_wording_amendment_cannot_change_the_requested_fact[no_source_question]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:322",
+      "description": "test_food_wording_amendment_cannot_change_the_requested_fact[no_source_question]"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_saved_correction_files_are_immutable",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:341",
+      "description": "test_saved_correction_files_are_immutable"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_fresh_relationship_screen_separates_exact_copy_and_similarity",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:351",
+      "description": "test_fresh_relationship_screen_separates_exact_copy_and_similarity"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_schedule_coverage_alignment_is_diagnostic_not_identical_fact_claim",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:374",
+      "description": "test_schedule_coverage_alignment_is_diagnostic_not_identical_fact_claim"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_relationship_population_identity_errors_are_not_silently_deduplicated[candidate_ids]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:389",
+      "description": "test_relationship_population_identity_errors_are_not_silently_deduplicated[candidate_ids]"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_relationship_population_identity_errors_are_not_silently_deduplicated[development_ids]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:389",
+      "description": "test_relationship_population_identity_errors_are_not_silently_deduplicated[development_ids]"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_relationship_population_identity_errors_are_not_silently_deduplicated[version_labels]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:389",
+      "description": "test_relationship_population_identity_errors_are_not_silently_deduplicated[version_labels]"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_full_correction_export_keeps_private_answers_out_of_public_inputs",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:476",
+      "description": "test_full_correction_export_keeps_private_answers_out_of_public_inputs"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_repeat_export_preserves_team_edits_and_original_case_files",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:504",
+      "description": "test_repeat_export_preserves_team_edits_and_original_case_files"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_stale_family_screen_cannot_substitute_original_v1_hashes_for_corrected_inputs",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:516",
+      "description": "test_stale_family_screen_cannot_substitute_original_v1_hashes_for_corrected_inputs"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_activity_evidence_errors_stop_before_private_food_or_family_work[missing_case]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:535",
+      "description": "test_activity_evidence_errors_stop_before_private_food_or_family_work[missing_case]"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_activity_evidence_errors_stop_before_private_food_or_family_work[duplicate_case]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:535",
+      "description": "test_activity_evidence_errors_stop_before_private_food_or_family_work[duplicate_case]"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_activity_evidence_errors_stop_before_private_food_or_family_work[case_approval]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:535",
+      "description": "test_activity_evidence_errors_stop_before_private_food_or_family_work[case_approval]"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_activity_evidence_errors_stop_before_private_food_or_family_work[unknown_base]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:535",
+      "description": "test_activity_evidence_errors_stop_before_private_food_or_family_work[unknown_base]"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_activity_evidence_errors_stop_before_private_food_or_family_work[wrong_source_value]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:535",
+      "description": "test_activity_evidence_errors_stop_before_private_food_or_family_work[wrong_source_value]"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_activity_evidence_errors_stop_before_private_food_or_family_work[resource_unknown]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:535",
+      "description": "test_activity_evidence_errors_stop_before_private_food_or_family_work[resource_unknown]"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_activity_evidence_errors_stop_before_private_food_or_family_work[outside_window]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:535",
+      "description": "test_activity_evidence_errors_stop_before_private_food_or_family_work[outside_window]"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_activity_evidence_errors_stop_before_private_food_or_family_work[bad_elapsed]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:535",
+      "description": "test_activity_evidence_errors_stop_before_private_food_or_family_work[bad_elapsed]"
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_activity_evidence_errors_stop_before_private_food_or_family_work[repetition_converted_to_minutes]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/case_corrections/test_case_corrections.py:535",
+      "description": "test_activity_evidence_errors_stop_before_private_food_or_family_work[repetition_converted_to_minutes]"
+    }
+  ],
+  "phases": [
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_expectation_uses_exact_record_and_recorded_decimal_arithmetic",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.015300800034310669,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_expectation_uses_exact_record_and_recorded_decimal_arithmetic",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.000319099985063076,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_expectation_uses_exact_record_and_recorded_decimal_arithmetic",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014319998444989324,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_zero_recorded_food_value_is_available_not_missing",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00022740004351362586,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_zero_recorded_food_value_is_available_not_missing",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0001466000103391707,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_zero_recorded_food_value_is_available_not_missing",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.319999324157834e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_question_parser_does_not_guess_unrecorded_or_invalid_requests[None]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0001821999903768301,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_question_parser_does_not_guess_unrecorded_or_invalid_requests[None]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 5.5800017435103655e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_question_parser_does_not_guess_unrecorded_or_invalid_requests[None]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.129996083676815e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_question_parser_does_not_guess_unrecorded_or_invalid_requests[How much protein is in a snack?]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00018580001778900623,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_question_parser_does_not_guess_unrecorded_or_invalid_requests[How much protein is in a snack?]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 5.779997445642948e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_question_parser_does_not_guess_unrecorded_or_invalid_requests[How much protein is in a snack?]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.6299998909235e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_question_parser_does_not_guess_unrecorded_or_invalid_requests[question2]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0001680999994277954,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_question_parser_does_not_guess_unrecorded_or_invalid_requests[question2]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 5.709996912628412e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_question_parser_does_not_guess_unrecorded_or_invalid_requests[question2]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 6.729998858645558e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_question_parser_does_not_guess_unrecorded_or_invalid_requests[question3]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.000159099989105016,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_question_parser_does_not_guess_unrecorded_or_invalid_requests[question3]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 5.229999078437686e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_question_parser_does_not_guess_unrecorded_or_invalid_requests[question3]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 6.649998249486089e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_question_parser_does_not_guess_unrecorded_or_invalid_requests[question4]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002445999998599291,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_question_parser_does_not_guess_unrecorded_or_invalid_requests[question4]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 5.789997521787882e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_question_parser_does_not_guess_unrecorded_or_invalid_requests[question4]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 6.75999908708036e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_uncertainty_is_preserved_without_fabricating_answer[partial_food_name-not_found]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002093000221066177,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_uncertainty_is_preserved_without_fabricating_answer[partial_food_name-not_found]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 8.610001532360911e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_uncertainty_is_preserved_without_fabricating_answer[partial_food_name-not_found]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.529999129474163e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_uncertainty_is_preserved_without_fabricating_answer[duplicate_food-ambiguous_food]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00021629995899274945,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_uncertainty_is_preserved_without_fabricating_answer[duplicate_food-ambiguous_food]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 7.780001033097506e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_uncertainty_is_preserved_without_fabricating_answer[duplicate_food-ambiguous_food]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.569999434053898e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_uncertainty_is_preserved_without_fabricating_answer[missing_nutrient-nutrient_not_found]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00020370003767311573,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_uncertainty_is_preserved_without_fabricating_answer[missing_nutrient-nutrient_not_found]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 7.239996921271086e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_uncertainty_is_preserved_without_fabricating_answer[missing_nutrient-nutrient_not_found]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.459998596459627e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_uncertainty_is_preserved_without_fabricating_answer[duplicate_nutrient-ambiguous_nutrient]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002853000187315047,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_uncertainty_is_preserved_without_fabricating_answer[duplicate_nutrient-ambiguous_nutrient]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 8.899997919797897e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_uncertainty_is_preserved_without_fabricating_answer[duplicate_nutrient-ambiguous_nutrient]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.379997987300158e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_uncertainty_is_preserved_without_fabricating_answer[wrong_unit-nutrient_definition_mismatch]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00021010002819821239,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_uncertainty_is_preserved_without_fabricating_answer[wrong_unit-nutrient_definition_mismatch]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 7.670000195503235e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_uncertainty_is_preserved_without_fabricating_answer[wrong_unit-nutrient_definition_mismatch]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.740000728517771e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_uncertainty_is_preserved_without_fabricating_answer[wrong_name-nutrient_definition_mismatch]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00020919996313750744,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_uncertainty_is_preserved_without_fabricating_answer[wrong_name-nutrient_definition_mismatch]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 7.349997758865356e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_uncertainty_is_preserved_without_fabricating_answer[wrong_name-nutrient_definition_mismatch]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.210002513602376e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_uncertainty_is_preserved_without_fabricating_answer[unavailable_value-source_value_unavailable]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00020139996195212007,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_uncertainty_is_preserved_without_fabricating_answer[unavailable_value-source_value_unavailable]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 9.90999978967011e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_uncertainty_is_preserved_without_fabricating_answer[unavailable_value-source_value_unavailable]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.010002784430981e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_uncertainty_is_preserved_without_fabricating_answer[missing_source-source_attribution_missing]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00021599995670840144,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_uncertainty_is_preserved_without_fabricating_answer[missing_source-source_attribution_missing]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00010800000745803118,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_uncertainty_is_preserved_without_fabricating_answer[missing_source-source_attribution_missing]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.310003275051713e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_helper_disagreement_stays_unverified",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0001634999644011259,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_helper_disagreement_stays_unverified",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00011510000331327319,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_helper_disagreement_stays_unverified",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.050001295283437e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_missing_native_food_table_records_unavailable_instead_of_twenty_verified",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.003825099964160472,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_missing_native_food_table_records_unavailable_instead_of_twenty_verified",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0017172999796457589,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_missing_native_food_table_records_unavailable_instead_of_twenty_verified",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00011199997970834374,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_changed_native_food_reference_is_rejected_before_calculation",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.000990699976682663,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_changed_native_food_reference_is_rejected_before_calculation",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.005656399996951222,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_changed_native_food_reference_is_rejected_before_calculation",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013150001177564263,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_wording_amendment_preserves_identity_quantity_and_supported_runtime_grammar[80-grams of protein]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00028219999512657523,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_wording_amendment_preserves_identity_quantity_and_supported_runtime_grammar[80-grams of protein]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0009377000387758017,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_wording_amendment_preserves_identity_quantity_and_supported_runtime_grammar[80-grams of protein]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.699998190626502e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_wording_amendment_preserves_identity_quantity_and_supported_runtime_grammar[12.5-kilocalories of energy]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.000248399970587343,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_wording_amendment_preserves_identity_quantity_and_supported_runtime_grammar[12.5-kilocalories of energy]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0006678999634459615,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_wording_amendment_preserves_identity_quantity_and_supported_runtime_grammar[12.5-kilocalories of energy]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.549997048452497e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_exact_food_value_does_not_clear_an_ambiguous_existing_runtime_lookup",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0001981999957934022,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_exact_food_value_does_not_clear_an_ambiguous_existing_runtime_lookup",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0001403999631293118,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_exact_food_value_does_not_clear_an_ambiguous_existing_runtime_lookup",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.949996506795287e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_complete_schedule_is_an_explicit_new_fictional_proposal_with_original_hashes",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.012378700019326061,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_complete_schedule_is_an_explicit_new_fictional_proposal_with_original_hashes",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0003951000398956239,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_complete_schedule_is_an_explicit_new_fictional_proposal_with_original_hashes",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.300000965595245e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_challenge_facts_stay_unchanged_and_coverage_stays_unknown[missing_information-clarification]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002495000371709466,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_challenge_facts_stay_unchanged_and_coverage_stays_unknown[missing_information-clarification]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00021399999968707561,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_challenge_facts_stay_unchanged_and_coverage_stays_unknown[missing_information-clarification]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.25000461190939e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_challenge_facts_stay_unchanged_and_coverage_stays_unknown[conflicting_constraints-constraint_conflict]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00021709996508434415,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_challenge_facts_stay_unchanged_and_coverage_stays_unknown[conflicting_constraints-constraint_conflict]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0001944000250659883,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_challenge_facts_stay_unchanged_and_coverage_stays_unknown[conflicting_constraints-constraint_conflict]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.599999662488699e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_challenge_facts_stay_unchanged_and_coverage_stays_unknown[outside_scope-outside_scope]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002107000327669084,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_challenge_facts_stay_unchanged_and_coverage_stays_unknown[outside_scope-outside_scope]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00020070001482963562,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_challenge_facts_stay_unchanged_and_coverage_stays_unknown[outside_scope-outside_scope]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.82000133767724e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_planning_case_with_unknown_existing_events_is_not_silently_completed",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0001498999772593379,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_planning_case_with_unknown_existing_events_is_not_silently_completed",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0001618000096641481,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_planning_case_with_unknown_existing_events_is_not_silently_completed",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.559999357908964e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_existing_or_unrecognized_public_facts_require_separate_amendment[existing_coverage]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00018769997404888272,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_existing_or_unrecognized_public_facts_require_separate_amendment[existing_coverage]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 9.640003554522991e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_existing_or_unrecognized_public_facts_require_separate_amendment[existing_coverage]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.269997149705887e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_existing_or_unrecognized_public_facts_require_separate_amendment[unsupported_schema]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00016900000628083944,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_existing_or_unrecognized_public_facts_require_separate_amendment[unsupported_schema]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 8.869997691363096e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_existing_or_unrecognized_public_facts_require_separate_amendment[unsupported_schema]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.350003579631448e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_existing_or_unrecognized_public_facts_require_separate_amendment[unknown_category]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00017879996448755264,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_existing_or_unrecognized_public_facts_require_separate_amendment[unknown_category]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 8.979998528957367e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_existing_or_unrecognized_public_facts_require_separate_amendment[unknown_category]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.06000137142837e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_full_artificial_population_has_only_150_new_completeness_proposals",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0001420000335201621,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_full_artificial_population_has_only_150_new_completeness_proposals",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.029902399983257055,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_full_artificial_population_has_only_150_new_completeness_proposals",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00012479996075853705,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_wording_is_an_explicit_versioned_public_amendment_without_private_answer",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00021979998564347625,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_wording_is_an_explicit_versioned_public_amendment_without_private_answer",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00044599996181204915,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_wording_is_an_explicit_versioned_public_amendment_without_private_answer",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.190000128000975e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_wording_amendment_cannot_change_the_requested_fact[quantity]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00021519995061680675,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_wording_amendment_cannot_change_the_requested_fact[quantity]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00013289996422827244,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_wording_amendment_cannot_change_the_requested_fact[quantity]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.810001261532307e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_wording_amendment_cannot_change_the_requested_fact[identity]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00020110001787543297,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_wording_amendment_cannot_change_the_requested_fact[identity]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00015109998639672995,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_wording_amendment_cannot_change_the_requested_fact[identity]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.479998748749495e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_wording_amendment_cannot_change_the_requested_fact[nutrient]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00017559999832883477,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_wording_amendment_cannot_change_the_requested_fact[nutrient]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00012340000830590725,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_wording_amendment_cannot_change_the_requested_fact[nutrient]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.579999510198832e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_wording_amendment_cannot_change_the_requested_fact[no_source_question]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0001867999671958387,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_wording_amendment_cannot_change_the_requested_fact[no_source_question]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00011690001701936126,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_food_wording_amendment_cannot_change_the_requested_fact[no_source_question]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.090001599863172e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_saved_correction_files_are_immutable",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0010009999969042838,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_saved_correction_files_are_immutable",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.005466900009196252,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_saved_correction_files_are_immutable",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001145999995060265,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_fresh_relationship_screen_separates_exact_copy_and_similarity",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.01594059995841235,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_fresh_relationship_screen_separates_exact_copy_and_similarity",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0014711000258103013,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_fresh_relationship_screen_separates_exact_copy_and_similarity",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00010810000821948051,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_schedule_coverage_alignment_is_diagnostic_not_identical_fact_claim",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00020510004833340645,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_schedule_coverage_alignment_is_diagnostic_not_identical_fact_claim",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0007136000203900039,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_schedule_coverage_alignment_is_diagnostic_not_identical_fact_claim",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.620001608505845e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_relationship_population_identity_errors_are_not_silently_deduplicated[candidate_ids]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002264000358991325,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_relationship_population_identity_errors_are_not_silently_deduplicated[candidate_ids]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00010579999070614576,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_relationship_population_identity_errors_are_not_silently_deduplicated[candidate_ids]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.839995669201016e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_relationship_population_identity_errors_are_not_silently_deduplicated[development_ids]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0001857000170275569,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_relationship_population_identity_errors_are_not_silently_deduplicated[development_ids]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00011610001092776656,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_relationship_population_identity_errors_are_not_silently_deduplicated[development_ids]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.50000069476664e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_relationship_population_identity_errors_are_not_silently_deduplicated[version_labels]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.000201700022444129,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_relationship_population_identity_errors_are_not_silently_deduplicated[version_labels]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 9.980000322684646e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_relationship_population_identity_errors_are_not_silently_deduplicated[version_labels]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.660000119358301e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_full_correction_export_keeps_private_answers_out_of_public_inputs",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.03603810002095997,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_full_correction_export_keeps_private_answers_out_of_public_inputs",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.2705255000037141,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_full_correction_export_keeps_private_answers_out_of_public_inputs",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00016190001042559743,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_repeat_export_preserves_team_edits_and_original_case_files",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.02057220001006499,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_repeat_export_preserves_team_edits_and_original_case_files",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.5468591999961063,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_repeat_export_preserves_team_edits_and_original_case_files",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001583000412210822,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_stale_family_screen_cannot_substitute_original_v1_hashes_for_corrected_inputs",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.029664999980013818,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_stale_family_screen_cannot_substitute_original_v1_hashes_for_corrected_inputs",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.14602370001375675,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_stale_family_screen_cannot_substitute_original_v1_hashes_for_corrected_inputs",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014899997040629387,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_activity_evidence_errors_stop_before_private_food_or_family_work[missing_case]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.034459699993021786,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_activity_evidence_errors_stop_before_private_food_or_family_work[missing_case]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.02737150003667921,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_activity_evidence_errors_stop_before_private_food_or_family_work[missing_case]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014790002023801208,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_activity_evidence_errors_stop_before_private_food_or_family_work[duplicate_case]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.020301699987612665,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_activity_evidence_errors_stop_before_private_food_or_family_work[duplicate_case]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.023073899967130274,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_activity_evidence_errors_stop_before_private_food_or_family_work[duplicate_case]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014070002362132072,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_activity_evidence_errors_stop_before_private_food_or_family_work[case_approval]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.020698999986052513,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_activity_evidence_errors_stop_before_private_food_or_family_work[case_approval]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.016499899968039244,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_activity_evidence_errors_stop_before_private_food_or_family_work[case_approval]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00015550001990050077,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_activity_evidence_errors_stop_before_private_food_or_family_work[unknown_base]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0195098000112921,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_activity_evidence_errors_stop_before_private_food_or_family_work[unknown_base]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.02033639996079728,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_activity_evidence_errors_stop_before_private_food_or_family_work[unknown_base]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013830000534653664,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_activity_evidence_errors_stop_before_private_food_or_family_work[wrong_source_value]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.01887709996663034,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_activity_evidence_errors_stop_before_private_food_or_family_work[wrong_source_value]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.015094799979124218,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_activity_evidence_errors_stop_before_private_food_or_family_work[wrong_source_value]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014809996355324984,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_activity_evidence_errors_stop_before_private_food_or_family_work[resource_unknown]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0237489000428468,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_activity_evidence_errors_stop_before_private_food_or_family_work[resource_unknown]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.019384099985472858,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_activity_evidence_errors_stop_before_private_food_or_family_work[resource_unknown]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00015119998715817928,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_activity_evidence_errors_stop_before_private_food_or_family_work[outside_window]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.02121639996767044,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_activity_evidence_errors_stop_before_private_food_or_family_work[outside_window]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.022425100032705814,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_activity_evidence_errors_stop_before_private_food_or_family_work[outside_window]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014020001981407404,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_activity_evidence_errors_stop_before_private_food_or_family_work[bad_elapsed]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.02623469999525696,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_activity_evidence_errors_stop_before_private_food_or_family_work[bad_elapsed]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.029092200042214245,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_activity_evidence_errors_stop_before_private_food_or_family_work[bad_elapsed]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00015140004688873887,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_activity_evidence_errors_stop_before_private_food_or_family_work[repetition_converted_to_minutes]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.02093479997711256,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_activity_evidence_errors_stop_before_private_food_or_family_work[repetition_converted_to_minutes]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.01733470003819093,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/case_corrections/test_case_corrections.py::test_activity_evidence_errors_stop_before_private_food_or_family_work[repetition_converted_to_minutes]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00021789997117593884,
+      "expected_failure": false,
+      "detail": null
+    }
+  ],
+  "collection_errors": [],
+  "deselected": [],
+  "new_model_calls": 0,
+  "query_encoder_processes": 0,
+  "network_policy": "blocked_in_routine_tests",
+  "fixtures": "authored_public_examples"
+}

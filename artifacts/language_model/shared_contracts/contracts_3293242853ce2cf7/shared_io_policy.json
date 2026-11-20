@@ -1,0 +1,47 @@
+{
+  "accepted_study_profiles": 0,
+  "activity_commitment_reference_format": "/existing_commitments/{zero_based_index}",
+  "common_validation_scope": "JSON syntax, schema and structural date/identifier consistency only",
+  "documented_input_units": {
+    "age": "years",
+    "availability_and_commitments": "local date and HH:MM under planning_window.timezone",
+    "equipment.quantity": "item count",
+    "history.annual_participation": "reported months over the supplied reporting period",
+    "history.sleep.average_hours_per_night": "hours per night",
+    "participants_available": "people including athlete",
+    "time_limits": "minutes per session/week and additional sessions per week as named"
+  },
+  "input_and_raw_model_response_are_preserved_separately": true,
+  "model_output_never_overwrites_authoritative_public_facts": true,
+  "model_visible_projection": "input only",
+  "operational_generation_ready": false,
+  "original_exact_echo_gate_passed": false,
+  "output_corrections_or_hidden_repair_calls": false,
+  "private_field_handling": "reject_unknown_fields_at_every_schema_level; no automatic private-row scrubbing",
+  "private_information_inside_allowed_free_text_requires_author_review": true,
+  "profile_id_and_schema_version_are_audit_only": true,
+  "public_record_schema_binding": {
+    "relative_path": "artifacts/evaluation/profile_contract_d3addc8aa60b70ab/profile_input_schema.json",
+    "sha256": "c608b6a369395ef578cd4aa77b709a5e50889ef7e9a2e715b0904fb55c3da2c8"
+  },
+  "runtime_adoption_complete": false,
+  "runtime_asset_allowlist": [
+    "public_input.py",
+    "response_contract.py",
+    "public_profile_record_schema.json",
+    "planner_response_schema.json",
+    "shared_io_policy.json"
+  ],
+  "schema_version": "step24-shared-io-policy-candidate-1",
+  "software_fixtures_and_audit_files_excluded_from_generation_context": true,
+  "source_or_catalog_ids_optional_for_all_versions": true,
+  "source_value_policy": "preserve absent, null, empty lists, zero, false, conflicts, Unicode and supplied whitespace",
+  "status": "software_checked_candidate_not_operationally_adopted",
+  "study_week_preserved": {
+    "end_date": "2026-11-22",
+    "start_date": "2026-11-16",
+    "timezone": "America/Los_Angeles"
+  },
+  "substantive_plan_checking_or_revision_feedback_enabled": false,
+  "unit_conversion_or_imputation_performed": false
+}

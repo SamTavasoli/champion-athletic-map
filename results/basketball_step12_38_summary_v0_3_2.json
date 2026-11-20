@@ -1,0 +1,29 @@
+{
+  "catalog_approval_changes": 0,
+  "catalog_candidates_preserved": 144,
+  "catalog_version": "0.3.2",
+  "comparison_fields": 56,
+  "exact_heading_matches": 14,
+  "exact_prescription_phrase_matches": 14,
+  "input_sha256": {
+    "catalog": "f1d6baa27525da44ecad021698f670fa3eef3350b5fd069e650b6a754135b291",
+    "readiness": "5178de11f0ee96a4bd950be295f06f231cf34ee1729d72a107eeab90dc328f2f",
+    "registry": "6f919f8be250a1e211aab44cc34d1e6e568581b7bc7835a8bd419ba87ab64f2f"
+  },
+  "limitations": "HTML heading matches, numbers and keyword cues are preliminary evidence; each instruction and requirement needs source-level reviewer signoff. Publisher permissions and youth planning checks remain pending.",
+  "planner_eligibility_changes": 0,
+  "registry_source_occurrences_preserved": 156,
+  "registry_space_unspecified": 6,
+  "report_sha256": {
+    "coverage": "edb66967187890bf025ff092e50bb263cc09c65889c6ebb0397b14f6808bd9db",
+    "field_comparisons": "655a31a15eb97e3b44055879590f9e7414790621d5cd38f58356e07cb9510dae",
+    "review_queue": "7d708b4e34ff66f57e470339935654a75fade89269abd672b5cdcf2881a2c4d0",
+    "source_checks": "d4bf715e95b53c569dde66a4abe3b7c6fe5c7f3ed7218485ab3aeddf2dcf6fb8"
+  },
+  "screen_execution_date": "2026-11-07",
+  "selected_candidate_groups": 14,
+  "source_pages_attempted": 3,
+  "source_pages_fetched": 3,
+  "source_sections_available": 14,
+  "step": "12-38"
+}

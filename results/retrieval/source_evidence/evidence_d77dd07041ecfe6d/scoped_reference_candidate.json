@@ -1,0 +1,122 @@
+{
+  "admitted_to_corpus": false,
+  "evidence_unit_created": false,
+  "fresh_publisher_verification_on_this_machine": false,
+  "human_peer_review_performed": false,
+  "linked_review_targets": [
+    {
+      "candidate_id": "CDC_TEENS_SLEEP",
+      "record_version_sha256": "e93f0f35823f532948a095f7d5890a3cb31f8895f0d2f56bf929c46bf5556a28",
+      "review_target_id": "retrieval-review-target:da24032b8b8ec987310ed1db65ea5a8f6de0a32a71290784b4871c15732878a7"
+    },
+    {
+      "candidate_id": "RECOVERY-GUIDANCE-ed612a4be4514a8669e0",
+      "record_version_sha256": "46e4eb993803316bec0e69a0256ba1936d0d811a415b297539185d110aef6db6",
+      "review_target_id": "retrieval-review-target:3ed6b7148b18faeff5b1a85d1bc2a578353fd9669832dff3f473513d47d8dcd1"
+    }
+  ],
+  "mandatory_usage_notices": {
+    "relative_path": "results/retrieval/source_evidence/evidence_d77dd07041ecfe6d/mandatory_usage_notices.json",
+    "sha256": "efe4275ae011404f2038331aa0950cfd1ff8e71eba50701375d723dac6310994"
+  },
+  "passage_created": false,
+  "planner_rule_adopted": false,
+  "published_recommendation": {
+    "age_max_years": 17,
+    "age_min_years": 13,
+    "mandatory_individual_prescription": false,
+    "sleep_hours_max": 10,
+    "sleep_hours_min": 8,
+    "source_unit": "hours/day",
+    "time_basis": "daily"
+  },
+  "publisher_required_condition_ids": [
+    "credit_CDC",
+    "prominent_unambiguous_nonendorsement_disclaimer",
+    "do_not_change_substantive_content",
+    "state_free_availability_on_CDC_website"
+  ],
+  "raw_capture": {
+    "relative_path": "results/retrieval/source_evidence/evidence_d77dd07041ecfe6d/captures/cdc_sleep.html",
+    "sha256": "5e0c08bcddc6cbd8154ec9b06668dce3701bd1dde482f761ab61e01e6a1cc5a6"
+  },
+  "reference_candidate_id": "scoped-cdc-reference-candidate:23acab10a2f9d1311bbdc83ebec649e3453c4130ac6dffdc1a434eeb6f5353d1",
+  "reference_text": "For teenagers aged 13–17, CDC lists 8–10 hours of sleep daily as a general recommendation. Sleep quality also matters. Sleep difficulties or symptoms of a sleep disorder should be discussed with a healthcare provider. This reference is not an individualized basketball prescription or an adopted planning threshold.",
+  "related_records_are_independent_evidence_units": false,
+  "required_context": {
+    "provider_context": "Sleep problems and symptoms of a sleep disorder warrant healthcare-provider discussion.",
+    "sleep_quality": "Duration alone does not describe sleep quality.",
+    "third_party_article_body_captured_or_reproduced": false,
+    "underlying_source_citation": "Paruthi S, Brooks LJ, D'Ambrosio C, et al. Recommended amount of sleep for pediatric populations: a consensus statement of the American Academy of Sleep Medicine. J Clin Sleep Med. 2016;12(6):785–786."
+  },
+  "resolved_source_url": "https://www.cdc.gov/sleep/about/",
+  "schema_version": "step23-scoped-cdc-reference-candidate-1",
+  "snapshot_provenance": {
+    "capture_origin": "assistant_environment_official_https_capture",
+    "current_live_publisher_state_assessed": false,
+    "http_status_describes_original_capture_not_local_response": true,
+    "local_https_capture_performed": false,
+    "local_publisher_network_requests": 0,
+    "original_http_metadata_preserved": true,
+    "original_http_receipts": [
+      {
+        "content_type": "text/html",
+        "document_key": "cdc_sleep_about",
+        "http_status": 200,
+        "observed_at": "2026-11-12T17:23:58.588017+00:00",
+        "raw_html_bytes": 54141,
+        "raw_html_sha256": "5e0c08bcddc6cbd8154ec9b06668dce3701bd1dde482f761ab61e01e6a1cc5a6",
+        "requested_url": "https://www.cdc.gov/sleep/about/",
+        "resolved_url": "https://www.cdc.gov/sleep/about/",
+        "response_headers": {
+          "Content-Type": "text/html"
+        }
+      },
+      {
+        "content_type": "text/html",
+        "document_key": "cdc_agency_materials",
+        "http_status": 200,
+        "observed_at": "2026-11-12T17:24:02.948857+00:00",
+        "raw_html_bytes": 84012,
+        "raw_html_sha256": "421e5a7aba5b8dbe41aa1d89c5499e24484adf0239a1879d3e0fccc1751fd838",
+        "requested_url": "https://www.cdc.gov/other/agencymaterials.html",
+        "resolved_url": "https://www.cdc.gov/other/agencymaterials.html",
+        "response_headers": {
+          "Content-Type": "text/html"
+        }
+      },
+      {
+        "content_type": "text/html",
+        "document_key": "cdc_generative_ai",
+        "http_status": 200,
+        "observed_at": "2026-11-12T17:24:06.657103+00:00",
+        "raw_html_bytes": 77720,
+        "raw_html_sha256": "8f240e28ff7b33a041b2073baf876a4820f28779c928e448f786bee0ec7f5b4e",
+        "requested_url": "https://www.cdc.gov/other/generative-ai.html",
+        "resolved_url": "https://www.cdc.gov/other/generative-ai.html",
+        "response_headers": {
+          "Content-Type": "text/html"
+        }
+      }
+    ],
+    "portable_payload_sha256": "356924bca7c184cd4ecf7b17628a1860c0bd1951499d48814d8691e30172a87c",
+    "raw_html_is_internal_audit_evidence_not_reference_passage_text": true,
+    "schema_version": "step23-portable-official-cdc-provenance-1",
+    "snapshot_delivery": "embedded_verified_prior_capture",
+    "snapshot_import_is_not_corpus_admission": true,
+    "source_capture_id": "cdc-source-capture:64a34cc87574fb4d1b9e9e30fb9d6529e80c5d2febbea7825eb80aee9b10a84e",
+    "source_freshness_recheck_required_before_final_freeze": true
+  },
+  "source_locator": "Getting enough sleep > Sleep Recommended Daily > Teen",
+  "source_representation": {
+    "relative_path": "results/retrieval/source_evidence/evidence_d77dd07041ecfe6d/representations/cdc_sleep_scoped.txt",
+    "sha256": "b928bc97f2ab5430e56b1a5af83b51695aaa23cc523b12de800721bc7f916adb"
+  },
+  "source_review_role": "assistant",
+  "source_url": "https://www.cdc.gov/sleep/about/",
+  "source_version_is_raw_html_hash": false,
+  "source_version_kind": "scoped_captured_text_representation",
+  "source_version_sha256": "b928bc97f2ab5430e56b1a5af83b51695aaa23cc523b12de800721bc7f916adb",
+  "status": "assistant_verified_scoped_reference_candidate_not_corpus_admission",
+  "underlying_reference_concepts": 1
+}

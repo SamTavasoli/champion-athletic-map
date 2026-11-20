@@ -1,0 +1,22 @@
+{
+  "step": "12-29",
+  "catalog_candidates": 144,
+  "review_cases": 8,
+  "comparison_pairs": 11,
+  "same_source_page_pairs": 5,
+  "different_source_page_pairs": 6,
+  "pairs_with_two_exact_headings": 10,
+  "cases_by_priority": {
+    "high": 1,
+    "medium": 5,
+    "standard": 2
+  },
+  "metadata_fields_screened": 7,
+  "metadata_fields_flagged": 0,
+  "source_location_equivalence_is_not_instructional_equivalence": true,
+  "canonical_merges": 0,
+  "automatic_approvals": 0,
+  "planner_eligible": 0,
+  "source_data_overwritten": false,
+  "git_operations": false
+}

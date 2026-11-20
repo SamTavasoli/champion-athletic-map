@@ -1,0 +1,3 @@
+candidate_group_id,evidence_id,drill_name,fields_with_proposals,retain_recommendations,revision_recommendations,source_evidence_gaps,source_url,reviewer_decision,team_signoff,permission_review,youth_planning_review,catalog_approval_status,planner_eligible
+JR-REVIEW-0046,JR-EVID-0034,Progression Shooting Competition,2,0,2,0,https://jr.nba.com/basketball-practice-plans/all-star/page/2/,pending,pending,pending,pending,pending,no
+JR-REVIEW-0038,JR-EVID-0036,Jump to the Ball Drill,2,1,1,0,https://jr.nba.com/basketball-practice-plans/all-star/page/2/,pending,pending,pending,pending,pending,no

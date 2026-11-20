@@ -1,0 +1,39 @@
+candidate_group_id,evidence_id,drill_name,source_url,pending_fields,proposed_retain,proposed_revise,source_exceptions,reviewer_decision,catalog_approval_status,planner_eligible
+JR-REVIEW-0036,JR-EVID-0007,Hot Ball (Taps),https://jr.nba.com/basketball-practice-plans/rookie/,1,0,1,0,pending,pending,no
+JR-REVIEW-0022,JR-EVID-0008,Around The World Wraps,https://jr.nba.com/basketball-practice-plans/rookie/,1,0,1,0,pending,pending,no
+JR-REVIEW-0045,JR-EVID-0016,Pound Pass Drill,https://jr.nba.com/basketball-practice-plans/mvp/,2,2,0,0,pending,pending,no
+JR-REVIEW-0058,JR-EVID-0017,Slip Pass Drill,https://jr.nba.com/basketball-practice-plans/mvp/,2,1,1,0,pending,pending,no
+JR-REVIEW-0065,JR-EVID-0023,Toss & Catch,https://jr.nba.com/basketball-practice-plans/rookie/page/2/,1,0,1,0,pending,pending,no
+JR-REVIEW-0062,JR-EVID-0024,Stationary Dribble Low/Middle,https://jr.nba.com/basketball-practice-plans/rookie/page/2/,1,0,1,0,pending,pending,no
+JR-REVIEW-0067,JR-EVID-0025,Up or Down Game,https://jr.nba.com/basketball-practice-plans/rookie/page/2/,2,1,1,0,pending,pending,no
+JR-REVIEW-0031,JR-EVID-0027,Gates Passing Game,https://jr.nba.com/basketball-practice-plans/rookie/page/2/,2,1,1,0,pending,pending,no
+JR-REVIEW-0049,JR-EVID-0028,Red Light,https://jr.nba.com/basketball-practice-plans/rookie/page/2/,2,1,1,0,pending,pending,no
+JR-REVIEW-0055,JR-EVID-0029,Shooting Line Game,https://jr.nba.com/basketball-practice-plans/rookie/page/2/,1,0,1,0,pending,pending,no
+JR-REVIEW-0020,JR-EVID-0030,Advantage Numbers Game,https://jr.nba.com/basketball-practice-plans/rookie/page/2/,2,2,0,0,pending,pending,no
+JR-REVIEW-0046,JR-EVID-0034,Progression Shooting Competition,https://jr.nba.com/basketball-practice-plans/all-star/page/2/,2,0,2,0,pending,pending,no
+JR-REVIEW-0038,JR-EVID-0036,Jump to the Ball Drill,https://jr.nba.com/basketball-practice-plans/all-star/page/2/,2,1,1,0,pending,pending,no
+JR-REVIEW-0024,JR-EVID-0039,Catch a Second Ball Series,https://jr.nba.com/basketball-practice-plans/mvp/page/2/,2,2,0,0,pending,pending,no
+JR-REVIEW-0051,JR-EVID-0040,Rhythm Dribbling,https://jr.nba.com/basketball-practice-plans/mvp/page/2/,1,0,1,0,pending,pending,no
+JR-REVIEW-0035,JR-EVID-0041,Hook Pass Drill,https://jr.nba.com/basketball-practice-plans/mvp/page/2/,2,1,1,0,pending,pending,no
+JR-REVIEW-0028,JR-EVID-0042,Floater Series,https://jr.nba.com/basketball-practice-plans/mvp/page/2/,2,1,1,0,pending,pending,no
+JR-REVIEW-0041,JR-EVID-0043,Pick & Pop Shooting,https://jr.nba.com/basketball-practice-plans/mvp/page/2/,2,1,1,0,pending,pending,no
+JR-REVIEW-0048,JR-EVID-0044,Rebound & Score,https://jr.nba.com/basketball-practice-plans/mvp/page/2/,2,1,1,0,pending,pending,no
+JR-REVIEW-0005,JR-EVID-0045,1 on 1 – Stunt & Recover,https://jr.nba.com/basketball-practice-plans/mvp/page/2/,2,2,0,0,pending,pending,no
+JR-REVIEW-0017,JR-EVID-0046,4 on 4 Shell to Rebound,https://jr.nba.com/basketball-practice-plans/mvp/page/2/,2,2,0,0,pending,pending,no
+JR-REVIEW-0037,JR-EVID-0047,Jail Break,https://jr.nba.com/basketball-practice-plans/starter/page/3/,2,0,2,0,pending,pending,no
+JR-REVIEW-0066,JR-EVID-0048,Tuck Back Drill,https://jr.nba.com/basketball-practice-plans/starter/page/3/,2,2,0,0,pending,pending,no
+JR-REVIEW-0052,JR-EVID-0049,Rooted 1 on 1,https://jr.nba.com/basketball-practice-plans/starter/page/3/,2,0,2,0,pending,pending,no
+JR-REVIEW-0064,JR-EVID-0050,The Kick Pass Drill,https://jr.nba.com/basketball-practice-plans/starter/page/3/,2,1,1,0,pending,pending,no
+JR-REVIEW-0030,JR-EVID-0051,Free Throw Golf,https://jr.nba.com/basketball-practice-plans/starter/page/3/,2,1,1,0,pending,pending,no
+JR-REVIEW-0008,JR-EVID-0052,2 on 2 Box Out Game,https://jr.nba.com/basketball-practice-plans/starter/page/3/,2,1,1,0,pending,pending,no
+JR-REVIEW-0009,JR-EVID-0053,2-Person Closeout Drill,https://jr.nba.com/basketball-practice-plans/starter/page/3/,2,1,1,0,pending,pending,no
+JR-REVIEW-0016,JR-EVID-0054,4 on 4 Continuous with Constraints,https://jr.nba.com/basketball-practice-plans/starter/page/3/,1,1,0,0,pending,pending,no
+JR-REVIEW-0003,JR-EVID-0055,1 on 1 Dribble Battle,https://jr.nba.com/basketball-practice-plans/all-star/page/3/,2,2,0,0,pending,pending,no
+JR-REVIEW-0044,JR-EVID-0057,Pound Pass 1 on 1,https://jr.nba.com/basketball-practice-plans/all-star/page/3/,2,1,1,0,pending,pending,no
+JR-REVIEW-0007,JR-EVID-0063,2-Ball Jab Drill,https://jr.nba.com/basketball-practice-plans/mvp/page/3/,2,2,0,0,pending,pending,no
+JR-REVIEW-0006,JR-EVID-0064,2 Ball Alternate & React,https://jr.nba.com/basketball-practice-plans/mvp/page/3/,2,2,0,0,pending,pending,no
+JR-REVIEW-0039,JR-EVID-0065,Loop Shooting Drill,https://jr.nba.com/basketball-practice-plans/mvp/page/3/,2,0,2,0,pending,pending,no
+JR-REVIEW-0027,JR-EVID-0066,Filling the Corner Drill,https://jr.nba.com/basketball-practice-plans/mvp/page/3/,2,2,0,0,pending,pending,no
+JR-REVIEW-0060,JR-EVID-0067,Spin 5 Series,https://jr.nba.com/basketball-practice-plans/mvp/page/3/,2,1,1,0,pending,pending,no
+JR-REVIEW-0043,JR-EVID-0068,Pocket Pass & Shoot,https://jr.nba.com/basketball-practice-plans/mvp/page/3/,2,1,1,0,pending,pending,no
+JR-REVIEW-0023,JR-EVID-0070,Balance the Floor Drill,https://jr.nba.com/basketball-practice-plans/mvp/page/3/,1,1,0,0,pending,pending,no

@@ -1,0 +1,70 @@
+{
+  "coverage": {
+    "basketball_drill_catalog_approvals": 0,
+    "corpus_embeddings_or_indexes_created": 0,
+    "generation_model_context_budget_verified": false,
+    "nba_targets_still_pending": 20,
+    "new_human_reviews_or_reference_admissions": 0,
+    "new_rebounding_instruction_coverage_admitted": false,
+    "new_required_delivery_bundles": 6,
+    "new_uga_passages": 6,
+    "new_uga_reference_units": 6,
+    "operational_retrieval_ready": false,
+    "passages_per_uga_reference_unit": 1,
+    "planned_retrieval_benchmark_coverage_confirmed": false,
+    "prior_cdc_reference_units": 1,
+    "prior_cdc_tokenizer_verified_passages": 1,
+    "question_families_cannot_cross_partitions": true,
+    "questions_or_judgments_created": 0,
+    "scoped_pilot_reference_units_now_recorded": 7,
+    "scoped_pilot_tokenizer_verified_passages_now_recorded": 7,
+    "short_intact_unit_exceptions": 3,
+    "source_disjoint_question_partitions_added_as_requirement": false,
+    "source_family_ids": [
+      "UGA-PEDB-BASKETBALL-TEXTBOOK"
+    ],
+    "step23_complete": false,
+    "ugabook_independent_research_studies": 0,
+    "warmup_targets_still_deferred": 12
+  },
+  "delivery_record_hashes": {
+    "uga-passage-delivery:08ed129b0608b545b2ebd99c2f571e01650c5d220faa09c1f6b7b42ab64ddf86": "ff35fcfea1e392d4c56db02e9593ece8eb79e4a571e3f6885409da3b7cffcd17",
+    "uga-passage-delivery:10f511d9f4be119ec1a988a46024cffda64147313947c1a41dd80edc935e5d9b": "924de1fa900de85f917858c199ba6a68dac4b4e25f947909f2668fb185cdc3ea",
+    "uga-passage-delivery:6d096bd77e57db8dc299b568829972dce117cc974e3c9344e6396eda6b24efd3": "68d60d3c9af0526b7114dc89e19b0c19f307a4e5e5e9071f7e8aaa36bbe03c6c",
+    "uga-passage-delivery:9aa3831c6e4098842b9d32780fa5ee77d206cb4108eec872c1fab23aad1c218c": "c04a6a60c16d2720cb45dd3e20c3267ee8bf43568875f3281200d3badf236441",
+    "uga-passage-delivery:bd6bb66b3da9834bdad395a0a2888731405a3bbbc35b968b97e70dc02687980b": "20c7a0d2a0a04d148019a79b84635ed73bfde7d057c9d66c0a97cebdfe9e3c36",
+    "uga-passage-delivery:d200308df930f3c872bc8900258365b9e2f5c974fdd8c1a577516b1e2a692233": "c9e6e51c41f53dbf51e0487d3efd114983bab65d1ddf9231ca4bfacda50329a9"
+  },
+  "passage_record_hashes": {
+    "uga-retrieval-passage:1512c600fb3972bafa1311c7becdab9005b28c94d1f412a695ef3069d26e8adb": "9f52c4deed726350e47f6d5d45f8df9f33aff5670dbec5d0428949da6d79db4b",
+    "uga-retrieval-passage:212b45bec1e1ead9d9f66c6c6eb5a44e4a4a46b9788bc3071cb04533cfc2a71e": "c392dbccbef9460dd5752ca6c75e2a48c9579b3e379935eb2c63e60bb91704a1",
+    "uga-retrieval-passage:388fa8f67c1e0907ff591e5bd5a47da4e81b69e835b189dd85e6e92f36720661": "cc1365b4bb90d7fd77e496988a6d027115ba1a396e1a2f9d8145fa68296877e2",
+    "uga-retrieval-passage:a673113ba3a4b509771c7e66112539c6179214a0a6c32d59fa4363b444b6f56f": "09c1d2564decebac79636bc3e48e3a4c5138dc7a9665db1d196d6860200947a8",
+    "uga-retrieval-passage:b1ba958820765abe3a4e9228536ad993439a3455dc3f6ce37116964b62263f16": "fe9ccdb47a35d18bdf755470cf3d72aa82be1ca4046682af6ceb7120923cd550",
+    "uga-retrieval-passage:b302a7ba74cdca47d521a43ac10adb1e67ae161a7cbe54f60b3f9d2f84979daf": "0ab32e920ed2f094093f5512ef1485cd34f05a4bda7c1ca9f0bc0e3806a76a45"
+  },
+  "payload_hashes": {
+    "artifacts/retrieval/passages/uga_passages_0b2445a3e681553a/passage_checks.csv": "1025b4c38f2b6386931837f669b57ae50708b6912df19cf75f6b324400031448",
+    "artifacts/retrieval/passages/uga_passages_0b2445a3e681553a/required_delivery_bundles.jsonl": "8094f06a56e0adf5db211a9feff579d121dc56055ed5abeede1f166ee9384ed5",
+    "artifacts/retrieval/passages/uga_passages_0b2445a3e681553a/retrieval_passages.jsonl": "9d9ebeaf851b575818acea93bec5261f1b67ca579023ed63af4ab4f5ab750335",
+    "artifacts/retrieval/passages/uga_passages_0b2445a3e681553a/source_unit_links.csv": "06e1b19eb623f2daa2e26ae007e60b296964167d5263e02c7241f4b20cc8dcdf",
+    "artifacts/retrieval/passages/uga_passages_0b2445a3e681553a/tokenizer_measurements.json": "2d7131ec4280006e66c276d40f6e0af7d1ed60bbb393eb81cd09b205959ed1b5",
+    "artifacts/retrieval/passages/uga_passages_0b2445a3e681553a/tokenizer_worker.py": "2998ba72914d780a81824f9b496e9209a395a066481f726d078fdc38cc7f864d"
+  },
+  "schema_version": "step23-uga-token-budgeted-passage-manifest-1",
+  "semantic_runtime_adoption_id": "semantic-runtime-adoption:1e7ec007d3464722a59d16ef72a82588526f7071588771fa37a84c39f7213654",
+  "sizing_policy": {
+    "encoded_core_cap": 200,
+    "full_delivery_companion_embedded_or_silently_truncated": false,
+    "generation_tokenizer_prompt_budget_is_separate_step24_work": true,
+    "heading_and_special_tokens_included": true,
+    "intact_short_unit_exception_allowed": true,
+    "nominal_target": [
+      150,
+      200
+    ],
+    "source_text_changed_to_meet_target": false
+  },
+  "uga_passage_preparation_id": "uga-passage-preparation:0b2445a3e681553a03920cc572ea4de9658a556ea08cd0b4cb50a289aabf5ad8",
+  "uga_reference_review_id": "uga-reference-review:240666e6ba1f3518e6c0b4d9ba60f24812a78f13b27158c126d2707909108faa"
+}

@@ -1,0 +1,38 @@
+{
+  "step": "12-63",
+  "catalog_version": "0.3.8",
+  "catalog_candidate_groups": 144,
+  "registered_source_occurrences": 156,
+  "reviewed_source_pages": 8,
+  "selected_candidate_groups": 38,
+  "pending_fields_covered": 68,
+  "carried_forward_step12_62_fields": 4,
+  "additional_fields_covered": 64,
+  "proposed_retain": 38,
+  "proposed_revise": 30,
+  "source_exceptions": 0,
+  "fields_without_review_packet_entry": 0,
+  "fields_still_pending_confirmation": 68,
+  "reviewer_signoffs": 0,
+  "catalog_approvals": 0,
+  "planner_eligible": 0,
+  "original_inputs_modified": false,
+  "git_operations_performed": false,
+  "input_sha256": {
+    "data/processed/basketball_drill_catalog_v0_3_8_REVIEW_ONLY.csv": "cb9b5fba8a638ecfa6a45cb6b6b7c3b1df92bc8e1302f375b4f789bb27e528cc",
+    "results/basketball_drill_source_registry_v0_3_8.csv": "0b9cb50d421d443824b68f778f6b0d89c950178599f0818788ca8844150e07ac",
+    "results/basketball_wave3_remaining_requirement_reviews_v0_3_8.csv": "5bb1e5e13f6f23803d5c71817a17873d5b60538f13864a746f942b152d9e0fd8",
+    "results/basketball_step12_61_summary_v0_3_8.json": "dda61206a8e8fe17e94961b201c370780cb96982cce9fcd39031e7065de7fedf",
+    "results/basketball_step12_62_summary_v0_3_8.json": "55b4a7af484225505630a8760b14d1dabc4ace1ffc5af9bf7e5972700796ec51",
+    "results/basketball_wave3_plan2_field_decisions_v0_3_8.csv": "1abeff0829f9c9dc1172cbb690f9883825f2825da50995bc916566eb3660524b",
+    "results/basketball_wave3_plan2_candidate_summary_v0_3_8.csv": "00ee28e6db8640c2bf4295072fcc658e11d6ccb6e68178acd4e390bcc40f6d2c",
+    "results/basketball_wave3_other_fields_after_plan2_proposals_v0_3_8.csv": "76ba9217a7b744b0aa78808f8429252f60b3238ada84d9bfa3e03fd0ec46af2d",
+    "results/basketball_wave3_plan2_source_snapshot_v0_3_8.json": "40e9154422752882e4473e1c8016dda3d91d59834a8d385644009fcd2799d0c1"
+  },
+  "output_sha256": {
+    "results/basketball_wave3_consolidated_field_review_v0_3_8.csv": "ff8409eec4b2b324750205952d3644ca43a340d7a438f2764359a0c8edb8ffc0",
+    "results/basketball_wave3_consolidated_candidate_review_v0_3_8.csv": "68b025ce2ebc9cf3cffaac0d3b0b9ad01c40e157e69b1fdd81cb0162a704c4ea",
+    "results/basketball_wave3_consolidated_source_exceptions_v0_3_8.csv": "37d2355e281faf52b2ca792ad5fd3814949d17f3cf88d827205b4e29d12f48a6",
+    "results/basketball_wave3_consolidated_source_snapshot_v0_3_8.json": "ab56ad730e5e94313140dcbdaa23cde7a59c655f5991a9114fda0ac60fdccb56"
+  }
+}

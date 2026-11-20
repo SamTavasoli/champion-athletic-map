@@ -1,0 +1,634 @@
+{
+  "schema_version": "step30-pytest-execution-1",
+  "pytest_exit_code": 0,
+  "collected": [
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_probe.py::test_prepare_uses_fresh_fixed_case_preserves_balanced_order_and_originals",
+      "requirement": "31:prospective-shared-guidance-probe",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/shared_guidance/test_shared_guidance_probe.py:142",
+      "description": "test_prepare_uses_fresh_fixed_case_preserves_balanced_order_and_originals"
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_probe.py::test_execute_redirects_old_summary_and_reuses_whole_jobs_without_transport",
+      "requirement": "31:prospective-shared-guidance-probe",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/shared_guidance/test_shared_guidance_probe.py:155",
+      "description": "test_execute_redirects_old_summary_and_reuses_whole_jobs_without_transport"
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_probe.py::test_truth_is_post_generation_only_and_required_unknowns_remain_unknown",
+      "requirement": "31:prospective-shared-guidance-probe",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/shared_guidance/test_shared_guidance_probe.py:171",
+      "description": "test_truth_is_post_generation_only_and_required_unknowns_remain_unknown"
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_probe.py::test_fatal_v4_designated_outcome_does_not_fall_back_to_saved_draft",
+      "requirement": "31:prospective-shared-guidance-probe",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/shared_guidance/test_shared_guidance_probe.py:185",
+      "description": "test_fatal_v4_designated_outcome_does_not_fall_back_to_saved_draft"
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_probe.py::test_reference_failure_stops_probe_and_cannot_be_scored_as_completed",
+      "requirement": "31:prospective-shared-guidance-probe",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/shared_guidance/test_shared_guidance_probe.py:196",
+      "description": "test_reference_failure_stops_probe_and_cannot_be_scored_as_completed"
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_probe.py::test_bound_case_mutation_rejected_before_generation",
+      "requirement": "31:prospective-shared-guidance-probe",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/shared_guidance/test_shared_guidance_probe.py:205",
+      "description": "test_bound_case_mutation_rejected_before_generation"
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_probe.py::test_in_memory_public_input_mutation_rejected_before_generation",
+      "requirement": "31:prospective-shared-guidance-probe",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/shared_guidance/test_shared_guidance_probe.py:213",
+      "description": "test_in_memory_public_input_mutation_rejected_before_generation"
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_probe.py::test_unexecuted_or_corrupt_software_evidence_stops_before_calls[unexecuted]",
+      "requirement": "31:prospective-shared-guidance-probe",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/shared_guidance/test_shared_guidance_probe.py:220",
+      "description": "test_unexecuted_or_corrupt_software_evidence_stops_before_calls[unexecuted]"
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_probe.py::test_unexecuted_or_corrupt_software_evidence_stops_before_calls[changed_report]",
+      "requirement": "31:prospective-shared-guidance-probe",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/shared_guidance/test_shared_guidance_probe.py:220",
+      "description": "test_unexecuted_or_corrupt_software_evidence_stops_before_calls[changed_report]"
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_runtime.py::test_shared_guidance_reaches_all_six_nodes_without_reference_access_for_v1",
+      "requirement": "31:shared-guidance-runtime",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/shared_guidance/test_shared_guidance_runtime.py:102",
+      "description": "test_shared_guidance_reaches_all_six_nodes_without_reference_access_for_v1"
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_runtime.py::test_reference_policy_is_rebound_everywhere_and_budget_guard_remains",
+      "requirement": "31:shared-guidance-runtime",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/shared_guidance/test_shared_guidance_runtime.py:123",
+      "description": "test_reference_policy_is_rebound_everywhere_and_budget_guard_remains"
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_runtime.py::test_v4_replacement_retains_candidate_encoding_and_complete_check_rows",
+      "requirement": "31:shared-guidance-runtime",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/shared_guidance/test_shared_guidance_runtime.py:141",
+      "description": "test_v4_replacement_retains_candidate_encoding_and_complete_check_rows"
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_runtime.py::test_configuration_identity_excludes_measured_construction_time",
+      "requirement": "31:shared-guidance-runtime",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/shared_guidance/test_shared_guidance_runtime.py:163",
+      "description": "test_configuration_identity_excludes_measured_construction_time"
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_runtime.py::test_default_constructor_path_is_not_labelled_as_test_double",
+      "requirement": "31:shared-guidance-runtime",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/shared_guidance/test_shared_guidance_runtime.py:174",
+      "description": "test_default_constructor_path_is_not_labelled_as_test_double"
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_runtime.py::test_changed_shared_graph_blocks_the_prospective_runtime[instructions]",
+      "requirement": "31:shared-guidance-runtime",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/shared_guidance/test_shared_guidance_runtime.py:184",
+      "description": "test_changed_shared_graph_blocks_the_prospective_runtime[instructions]"
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_runtime.py::test_changed_shared_graph_blocks_the_prospective_runtime[role_policy]",
+      "requirement": "31:shared-guidance-runtime",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/shared_guidance/test_shared_guidance_runtime.py:184",
+      "description": "test_changed_shared_graph_blocks_the_prospective_runtime[role_policy]"
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_runtime.py::test_changed_shared_graph_blocks_the_prospective_runtime[public_schema]",
+      "requirement": "31:shared-guidance-runtime",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/shared_guidance/test_shared_guidance_runtime.py:184",
+      "description": "test_changed_shared_graph_blocks_the_prospective_runtime[public_schema]"
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_runtime.py::test_changed_shared_graph_blocks_the_prospective_runtime[inventory]",
+      "requirement": "31:shared-guidance-runtime",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/shared_guidance/test_shared_guidance_runtime.py:184",
+      "description": "test_changed_shared_graph_blocks_the_prospective_runtime[inventory]"
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_runtime.py::test_changed_shared_graph_blocks_the_prospective_runtime[base_manifest]",
+      "requirement": "31:shared-guidance-runtime",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/shared_guidance/test_shared_guidance_runtime.py:184",
+      "description": "test_changed_shared_graph_blocks_the_prospective_runtime[base_manifest]"
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_runtime.py::test_empty_guidance_blocks_before_runtime_construction",
+      "requirement": "31:shared-guidance-runtime",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/shared_guidance/test_shared_guidance_runtime.py:201",
+      "description": "test_empty_guidance_blocks_before_runtime_construction"
+    }
+  ],
+  "phases": [
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_probe.py::test_prepare_uses_fresh_fixed_case_preserves_balanced_order_and_originals",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.08622759999707341,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_probe.py::test_prepare_uses_fresh_fixed_case_preserves_balanced_order_and_originals",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0300277000060305,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_probe.py::test_prepare_uses_fresh_fixed_case_preserves_balanced_order_and_originals",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00016140000661835074,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_probe.py::test_execute_redirects_old_summary_and_reuses_whole_jobs_without_transport",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.04347770003369078,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_probe.py::test_execute_redirects_old_summary_and_reuses_whole_jobs_without_transport",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.46527329995296896,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_probe.py::test_execute_redirects_old_summary_and_reuses_whole_jobs_without_transport",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0004140999517403543,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_probe.py::test_truth_is_post_generation_only_and_required_unknowns_remain_unknown",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.04782080004224554,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_probe.py::test_truth_is_post_generation_only_and_required_unknowns_remain_unknown",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.4280552999698557,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_probe.py::test_truth_is_post_generation_only_and_required_unknowns_remain_unknown",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014130002819001675,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_probe.py::test_fatal_v4_designated_outcome_does_not_fall_back_to_saved_draft",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.049495399987790734,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_probe.py::test_fatal_v4_designated_outcome_does_not_fall_back_to_saved_draft",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.3365353999543004,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_probe.py::test_fatal_v4_designated_outcome_does_not_fall_back_to_saved_draft",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013679999392479658,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_probe.py::test_reference_failure_stops_probe_and_cannot_be_scored_as_completed",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.047164499992504716,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_probe.py::test_reference_failure_stops_probe_and_cannot_be_scored_as_completed",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.05227720004040748,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_probe.py::test_reference_failure_stops_probe_and_cannot_be_scored_as_completed",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001373999984934926,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_probe.py::test_bound_case_mutation_rejected_before_generation",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.045629700005520135,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_probe.py::test_bound_case_mutation_rejected_before_generation",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.013004700012970716,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_probe.py::test_bound_case_mutation_rejected_before_generation",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001354999840259552,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_probe.py::test_in_memory_public_input_mutation_rejected_before_generation",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.04686030000448227,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_probe.py::test_in_memory_public_input_mutation_rejected_before_generation",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0011723999632522464,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_probe.py::test_in_memory_public_input_mutation_rejected_before_generation",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013780000153928995,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_probe.py::test_unexecuted_or_corrupt_software_evidence_stops_before_calls[unexecuted]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.04555759998038411,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_probe.py::test_unexecuted_or_corrupt_software_evidence_stops_before_calls[unexecuted]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0005757000180892646,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_probe.py::test_unexecuted_or_corrupt_software_evidence_stops_before_calls[unexecuted]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001343999756500125,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_probe.py::test_unexecuted_or_corrupt_software_evidence_stops_before_calls[changed_report]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.04667990002781153,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_probe.py::test_unexecuted_or_corrupt_software_evidence_stops_before_calls[changed_report]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.005607200029771775,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_probe.py::test_unexecuted_or_corrupt_software_evidence_stops_before_calls[changed_report]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00015650002751499414,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_runtime.py::test_shared_guidance_reaches_all_six_nodes_without_reference_access_for_v1",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.003706199990119785,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_runtime.py::test_shared_guidance_reaches_all_six_nodes_without_reference_access_for_v1",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.015894300013314933,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_runtime.py::test_shared_guidance_reaches_all_six_nodes_without_reference_access_for_v1",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001379000023007393,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_runtime.py::test_reference_policy_is_rebound_everywhere_and_budget_guard_remains",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0035056000342592597,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_runtime.py::test_reference_policy_is_rebound_everywhere_and_budget_guard_remains",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.006776699970941991,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_runtime.py::test_reference_policy_is_rebound_everywhere_and_budget_guard_remains",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00012859998969361186,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_runtime.py::test_v4_replacement_retains_candidate_encoding_and_complete_check_rows",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.003327000013086945,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_runtime.py::test_v4_replacement_retains_candidate_encoding_and_complete_check_rows",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.009341900004073977,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_runtime.py::test_v4_replacement_retains_candidate_encoding_and_complete_check_rows",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00012500002048909664,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_runtime.py::test_configuration_identity_excludes_measured_construction_time",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.003031000029295683,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_runtime.py::test_configuration_identity_excludes_measured_construction_time",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.019242500013206154,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_runtime.py::test_configuration_identity_excludes_measured_construction_time",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00012609997065737844,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_runtime.py::test_default_constructor_path_is_not_labelled_as_test_double",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0031850000377744436,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_runtime.py::test_default_constructor_path_is_not_labelled_as_test_double",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0068434999557211995,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_runtime.py::test_default_constructor_path_is_not_labelled_as_test_double",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00012699997751042247,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_runtime.py::test_changed_shared_graph_blocks_the_prospective_runtime[instructions]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0033977999701164663,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_runtime.py::test_changed_shared_graph_blocks_the_prospective_runtime[instructions]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.003747900016605854,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_runtime.py::test_changed_shared_graph_blocks_the_prospective_runtime[instructions]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013560004299506545,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_runtime.py::test_changed_shared_graph_blocks_the_prospective_runtime[role_policy]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0033452999778091908,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_runtime.py::test_changed_shared_graph_blocks_the_prospective_runtime[role_policy]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0030651999986730516,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_runtime.py::test_changed_shared_graph_blocks_the_prospective_runtime[role_policy]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001241000136360526,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_runtime.py::test_changed_shared_graph_blocks_the_prospective_runtime[public_schema]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.003112400008831173,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_runtime.py::test_changed_shared_graph_blocks_the_prospective_runtime[public_schema]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0035524999839253724,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_runtime.py::test_changed_shared_graph_blocks_the_prospective_runtime[public_schema]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00012809998588636518,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_runtime.py::test_changed_shared_graph_blocks_the_prospective_runtime[inventory]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0033566999481990933,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_runtime.py::test_changed_shared_graph_blocks_the_prospective_runtime[inventory]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0030586000066250563,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_runtime.py::test_changed_shared_graph_blocks_the_prospective_runtime[inventory]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00012690003495663404,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_runtime.py::test_changed_shared_graph_blocks_the_prospective_runtime[base_manifest]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00298250000923872,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_runtime.py::test_changed_shared_graph_blocks_the_prospective_runtime[base_manifest]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0031033999985083938,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_runtime.py::test_changed_shared_graph_blocks_the_prospective_runtime[base_manifest]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001183999702334404,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_runtime.py::test_empty_guidance_blocks_before_runtime_construction",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.003424399998039007,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_runtime.py::test_empty_guidance_blocks_before_runtime_construction",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.002864500042051077,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/shared_guidance/test_shared_guidance_runtime.py::test_empty_guidance_blocks_before_runtime_construction",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001555999624542892,
+      "expected_failure": false,
+      "detail": null
+    }
+  ],
+  "collection_errors": [],
+  "deselected": [],
+  "new_model_calls": 0,
+  "query_encoder_processes": 0,
+  "network_policy": "blocked_in_routine_tests",
+  "fixtures": "authored_public_examples"
+}

@@ -1,0 +1,30 @@
+{
+  "additional_notation_only_records": 3,
+  "approvals": 0,
+  "catalog_candidates": 144,
+  "catalog_version": "0.3.5",
+  "input_sha256": {
+    "catalog": "492a7410446f0c7e261a42b35382ac858b3811cbdf936d4d17e262983cb5cb99",
+    "correction_proposals": "1aecae122d490248bfb00a6f157c070bc6d990cd7e1f7053f45bb6b07d316493",
+    "prescription_review": "2c193298692b5a461dc41934a912250bbd78cff60f7ec527052d2c61b944921e",
+    "prior_summary": "480481d91d74503c2a5728d9f638a5cd4e900b72d3b51f84539e74fe856ffe90",
+    "registry": "f27de2f4b6c9d62d33aa1f27bc97c650355076886535ba63e9a6d78d9931478a",
+    "space_review": "feca56513edec0884dd6b02a6f9e12c14e9ce5ce886ff570b26d362cb8837b04"
+  },
+  "limitations": "Semantic assessments are proposed for review. No source data, catalog metadata, reviewer decisions, or planning approvals were changed.",
+  "metadata_changes": 0,
+  "planner_eligible": 0,
+  "report_sha256": {
+    "equivalence_review": "7bf51ce8963b0ea582206bca49fc435696d6ceba37613536678daf98a2dc2ef0",
+    "prescription_tracker": "a9b64504a3be861ea8f61545add8264193a0f817f0ca30a30dfa1f3aa1f7dddf",
+    "space_tracker": "59844033440e50b49361af0dcd0601aa42144320572fad58d6ec54450f549e1b"
+  },
+  "reviewer_signoffs": 0,
+  "run_date": "2026-11-07",
+  "semantic_equivalence_proposals": 6,
+  "six_discrepancies_reviewed": 6,
+  "source_records": 156,
+  "space_review_records": 18,
+  "standalone_prescriptions_unspecified": 3,
+  "step": "12-49"
+}

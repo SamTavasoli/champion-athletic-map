@@ -1,0 +1,94 @@
+[
+  {
+    "drill_id": "JRNBA001",
+    "text": "Drill: Diamond Passing\nSkill Category: Passing\nLevel: Starter\nPrimary Goal: Improve passing\nDuration: 4 x 1 minute\nEquipment: Basketball, cones\nGroup Requirement: Group\nInstructions: Players dribble to a center cone, perform a jump stop and pivot, then make an overhead pass to the next player.\nDifficulty Modification: Call receiver's name or add movement after passing\nSolo Adaptation Possible: True\nSolo Adaptation: Practice passing against a wall\nSource: Jr. NBA Starter Practice Plan 1, page 4"
+  },
+  {
+    "drill_id": "JRNBA002",
+    "text": "Drill: Stationary Crossover Low, Mid, High\nSkill Category: Ball Handling\nLevel: Starter\nPrimary Goal: Improve dribbling\nDuration: 3 x 20 seconds\nEquipment: Basketball\nGroup Requirement: Individual\nInstructions: Players practice stationary crossover dribbles at low, middle, and high levels to develop ball control.\nDifficulty Modification: Add partner mirroring or extra crossovers\nSolo Adaptation Possible: True\nSolo Adaptation: Practice stationary crossovers independently\nSource: Jr. NBA Starter Practice Plan 1, page 5"
+  },
+  {
+    "drill_id": "JRNBA003",
+    "text": "Drill: Cone Dribbling\nSkill Category: Ball Handling\nLevel: Starter\nPrimary Goal: Improve dribbling\nDuration: 3 x down and back\nEquipment: Basketball, cones\nGroup Requirement: Group\nInstructions: Players dribble through cones in a zigzag pattern, changing hands as they change direction.\nDifficulty Modification: Replace cones with defenders\nSolo Adaptation Possible: True\nSolo Adaptation: Dribble through cones independently\nSource: Jr. NBA Starter Practice Plan 1, page 6"
+  },
+  {
+    "drill_id": "JRNBA004",
+    "text": "Drill: Form Shooting - 1 Hand\nSkill Category: Shooting\nLevel: Starter\nPrimary Goal: Improve shooting\nDuration: 2 x 10 shots\nEquipment: Basketball, hoop\nGroup Requirement: Partner\nInstructions: Players practice one-handed shooting close to the basket, focusing on shooting form and follow-through.\nDifficulty Modification: Not specified\nSolo Adaptation Possible: True\nSolo Adaptation: Practice one-handed form shooting independently\nSource: Jr. NBA Starter Practice Plan 1, page 8"
+  },
+  {
+    "drill_id": "JRNBA005",
+    "text": "Drill: Run To That Line\nSkill Category: Warm-Up\nLevel: Starter\nPrimary Goal: Improve conditioning\nDuration: 1 x 5 lines\nEquipment: Basketball court\nGroup Requirement: Group\nInstructions: Players follow movement instructions to reach different court lines, practicing movements such as skipping and high knees.\nDifficulty Modification: Add basketballs or dribbling to the movements\nSolo Adaptation Possible: True\nSolo Adaptation: Perform court-line movements independently\nSource: Jr. NBA Starter Practice Plan 1, page 2"
+  },
+  {
+    "drill_id": "JRNBA006",
+    "text": "Drill: The Chase Game\nSkill Category: Ball Handling\nLevel: Starter\nPrimary Goal: Improve agility\nDuration: 2-3 games\nEquipment: Basketballs, court\nGroup Requirement: Group\nInstructions: Four players take turns chasing and escaping while dribbling between court baselines.\nDifficulty Modification: Require players to dribble using only their non-dominant hand\nSolo Adaptation Possible: False\nSolo Adaptation: Chase game requires other players\nSource: Jr. NBA Starter Practice Plan 1, page 7"
+  },
+  {
+    "drill_id": "JRNBA007",
+    "text": "Drill: Decision 1 on 1\nSkill Category: Shooting\nLevel: Starter\nPrimary Goal: Improve decision-making\nDuration: Games to 3\nEquipment: Basketball, hoop\nGroup Requirement: Partner\nInstructions: An offensive player reads the coach's position to choose between driving for a layup and taking a jump shot while facing a defender.\nDifficulty Modification: Not specified\nSolo Adaptation Possible: False\nSolo Adaptation: Original decision drill requires a defender and coach\nSource: Jr. NBA Starter Practice Plan 1, page 9"
+  },
+  {
+    "drill_id": "JRNBA008",
+    "text": "Drill: Shoot and Follow\nSkill Category: Shooting\nLevel: Starter\nPrimary Goal: Improve shooting\nDuration: 3 x 2 minutes\nEquipment: Basketballs, hoop\nGroup Requirement: Group\nInstructions: Groups of three rotate through shooting, rebounding, passing, and relocating to new shooting positions.\nDifficulty Modification: Change the shooting location or shot type between rounds\nSolo Adaptation Possible: True\nSolo Adaptation: Shoot, rebound, and relocate independently\nSource: Jr. NBA Starter Practice Plan 1, page 10"
+  },
+  {
+    "drill_id": "JRNBA009",
+    "text": "Drill: Jump Stop Game\nSkill Category: Footwork & Conditioning\nLevel: Starter\nPrimary Goal: Improve agility\nDuration: 2 x down and back\nEquipment: Basketball court\nGroup Requirement: Group\nInstructions: Players move across the court and perform balanced jump stops in response to the coach's signals.\nDifficulty Modification: Add dribbling before each jump stop\nSolo Adaptation Possible: True\nSolo Adaptation: Practice jump stops using predetermined court markers\nSource: Jr. NBA Starter Practice Plan 1, page 11"
+  },
+  {
+    "drill_id": "JRNBA010",
+    "text": "Drill: Defense, I Love It Drill\nSkill Category: Defense\nLevel: Starter\nPrimary Goal: Improve defense\nDuration: 2 x 5 repetitions\nEquipment: Basketball court\nGroup Requirement: Group\nInstructions: Players practice defensive stance, lateral slides, and shot contests while following a leader's cues.\nDifficulty Modification: Assign players to lead small groups and give defensive movement cues\nSolo Adaptation Possible: True\nSolo Adaptation: Practice defensive slides using fixed court markers\nSource: Jr. NBA Starter Practice Plan 1, page 13"
+  },
+  {
+    "drill_id": "JRNBA011",
+    "text": "Drill: 3-on-2 Advantage\nSkill Category: Team Concepts\nLevel: Starter\nPrimary Goal: Improve decision-making\nDuration: 6 minutes\nEquipment: Basketball, hoop\nGroup Requirement: Group\nInstructions: Three offensive players compete against two defenders, using passing and quick decisions to create scoring opportunities.\nDifficulty Modification: Limit offensive players to one second of ball possession\nSolo Adaptation Possible: False\nSolo Adaptation: 3-on-2 game requires multiple players\nSource: Jr. NBA Starter Practice Plan 1, page 14"
+  },
+  {
+    "drill_id": "JRNBA012",
+    "text": "Drill: Dribble Relays\nSkill Category: Ball Handling\nLevel: Starter\nPrimary Goal: Improve dribbling\nDuration: 2 rounds\nEquipment: Basketballs, court\nGroup Requirement: Group\nInstructions: Teams compete in dribbling relays, performing jump stops and returning to their teammates before switching hands.\nDifficulty Modification: Replace backpedaling with defensive slides or sprinting\nSolo Adaptation Possible: True\nSolo Adaptation: Perform timed dribbling runs independently\nSource: Jr. NBA Starter Practice Plan 1, page 15"
+  },
+  {
+    "drill_id": "JRNBA013",
+    "text": "Drill: 3 on 3 Numbers Game\nSkill Category: Team Concepts\nLevel: Starter\nPrimary Goal: Improve court awareness\nDuration: Games to 5 points\nEquipment: Basketball, hoop\nGroup Requirement: Group\nInstructions: Numbered teams compete in short three-on-three possessions, practicing offensive teamwork and active defense.\nDifficulty Modification: Not specified\nSolo Adaptation Possible: False\nSolo Adaptation: 3-on-3 game requires multiple players\nSource: Jr. NBA Starter Practice Plan 1, page 16"
+  },
+  {
+    "drill_id": "JRNBA014",
+    "text": "Drill: 1-2-3 Triple Threat\nSkill Category: Footwork & Conditioning\nLevel: Starter\nPrimary Goal: Improve decision-making\nDuration: 1 x 90 seconds\nEquipment: Basketball\nGroup Requirement: Group\nInstructions: Players dribble around a half court. On the coach's signal, they stop in a triple threat stance, then resume dribbling.\nDifficulty Modification: Use the off-hand or add crossover dribbles.\nSolo Adaptation Possible: True\nSolo Adaptation: Practice dribbling and triple threat transitions using predetermined cues.\nSource: Jr. NBA Starter Practice Plan 2, page 219"
+  },
+  {
+    "drill_id": "JRNBA015",
+    "text": "Drill: Retreat Dribble Drill\nSkill Category: Ball Handling\nLevel: Starter\nPrimary Goal: Improve dribbling\nDuration: 3 x 15 seconds\nEquipment: Basketball, court\nGroup Requirement: Individual\nInstructions: Players dribble forward to court markers, take two retreat dribbles, square up, and repeat using both hands.\nDifficulty Modification: Add a crossover or between-the-legs move after the retreat.\nSolo Adaptation Possible: True\nSolo Adaptation: Perform the retreat dribble sequence independently.\nSource: Jr. NBA Starter Practice Plan 2, page 221"
+  },
+  {
+    "drill_id": "JRNBA016",
+    "text": "Drill: Shield Steal\nSkill Category: Ball Handling\nLevel: Starter\nPrimary Goal: Improve dribbling\nDuration: 4 minutes\nEquipment: Basketball, cones\nGroup Requirement: Partner\nInstructions: Players work in pairs inside a marked square. One player protects the ball while the defender attempts to steal it. Players then switch roles.\nDifficulty Modification: Not specified\nSolo Adaptation Possible: False\nSolo Adaptation: The original activity requires a defender.\nSource: Jr. NBA Starter Practice Plan 2, page 222"
+  },
+  {
+    "drill_id": "JRNBA017",
+    "text": "Drill: 2 on 2 Full Court Transition Game\nSkill Category: Passing\nLevel: Starter\nPrimary Goal: Improve passing\nDuration: 8 minutes\nEquipment: Basketball, full court, hoop\nGroup Requirement: Group\nInstructions: Two offensive players rebound and make an outlet pass, then advance upcourt against defenders in transition.\nDifficulty Modification: Not specified\nSolo Adaptation Possible: False\nSolo Adaptation: Original transition game requires multiple players.\nSource: Jr. NBA Starter Practice Plan 2, page 223"
+  },
+  {
+    "drill_id": "JRNBA018",
+    "text": "Drill: Drop Step Lay-Up Breakdown Drill\nSkill Category: Shooting\nLevel: Starter\nPrimary Goal: Improve shooting\nDuration: 1 x 2 minutes each way\nEquipment: Basketball\nGroup Requirement: Partner\nInstructions: Partners roll the ball to each other and practice catching, drop-step footwork, and simulated lay-ups.\nDifficulty Modification: Practice the drop step with both feet.\nSolo Adaptation Possible: True\nSolo Adaptation: Practice the drop-step footwork independently without the partner pass.\nSource: Jr. NBA Starter Practice Plan 2, page 224"
+  },
+  {
+    "drill_id": "JRNBA019",
+    "text": "Drill: 3-Line Layups Add Variations\nSkill Category: Shooting\nLevel: Starter\nPrimary Goal: Improve shooting\nDuration: 3-5 minutes\nEquipment: Basketball, hoop\nGroup Requirement: Group\nInstructions: Players rotate through three lines and practice different lay-up finishes, including euro steps.\nDifficulty Modification: Add euro-step finishes.\nSolo Adaptation Possible: True\nSolo Adaptation: Practice lay-ups from different positions around the basket independently.\nSource: Jr. NBA Starter Practice Plan 2, page 225"
+  },
+  {
+    "drill_id": "JRNBA020",
+    "text": "Drill: 2 on 1 Shooting Game\nSkill Category: Shooting\nLevel: Starter\nPrimary Goal: Improve shot selection\nDuration: 6-7 minutes\nEquipment: Basketball, hoop\nGroup Requirement: Group\nInstructions: Two offensive players pass and shoot against one defender, using at most three passes.\nDifficulty Modification: Allow two dribbles or add a third offensive player.\nSolo Adaptation Possible: False\nSolo Adaptation: Original game requires offensive players and a defender.\nSource: Jr. NBA Starter Practice Plan 2, page 227"
+  },
+  {
+    "drill_id": "JRNBA021",
+    "text": "Drill: Pass & Cut Drill\nSkill Category: Offense\nLevel: Starter\nPrimary Goal: Improve decision-making\nDuration: 3 minutes each way\nEquipment: Basketball, hoop\nGroup Requirement: Group\nInstructions: Players pass to a teammate, cut toward the basket, and react to whether the cutter is defended.\nDifficulty Modification: Not specified\nSolo Adaptation Possible: False\nSolo Adaptation: Original drill requires passing partners and a defender.\nSource: Jr. NBA Starter Practice Plan 2, page 228"
+  },
+  {
+    "drill_id": "JRNBA022",
+    "text": "Drill: Circle Reads\nSkill Category: Offense\nLevel: Starter\nPrimary Goal: Improve decision-making\nDuration: 3-5 minutes\nEquipment: Basketball, cones, hoop\nGroup Requirement: Partner\nInstructions: A ball-handler chooses a baseline or middle drive; a teammate reacts by relocating for a shot or cutting for a lay-up.\nDifficulty Modification: Not specified\nSolo Adaptation Possible: False\nSolo Adaptation: Original read-and-react drill requires a teammate.\nSource: Jr. NBA Starter Practice Plan 2, page 229"
+  },
+  {
+    "drill_id": "JRNBA023",
+    "text": "Drill: 3 on 3 Numbers Game\nSkill Category: Team Concepts\nLevel: Starter\nPrimary Goal: Improve court awareness\nDuration: Games to 3\nEquipment: Basketball, court, hoop\nGroup Requirement: Group\nInstructions: The coach calls two team numbers and players compete in a live 3-on-3 possession.\nDifficulty Modification: Not specified\nSolo Adaptation Possible: False\nSolo Adaptation: Original game requires two teams of three.\nSource: Jr. NBA Starter Practice Plan 2, page 230"
+  }
+]

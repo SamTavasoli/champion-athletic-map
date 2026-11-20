@@ -1,0 +1,64 @@
+{
+  "accepted_study_profiles": 0,
+  "benchmark_reruns": 0,
+  "checks": {
+    "blocked": 1,
+    "pass": 42,
+    "pending": 4
+  },
+  "classifier_test_text_processed": false,
+  "contract_candidate_id": "shared-io-contracts:3293242853ce2cf7feba9621c8ac19535c505e6a89de1081d9491720ab7b5ca9",
+  "created_at_utc": "2026-11-13T18:49:50.503345+00:00",
+  "embedding_requests": 0,
+  "generation_requests": 0,
+  "http_requests": 0,
+  "input_bindings_verified": 771,
+  "input_projection_software_checked": true,
+  "jsonschema_version": "4.26.0",
+  "model_execution_with_new_contract_tested": false,
+  "newly_bound_reviewed_contract_inputs": [
+    "artifacts/evaluation/profile_contract_d3addc8aa60b70ab/profile_dataset_config.json"
+  ],
+  "operational_generation_ready": false,
+  "original_exact_echo_gate_passed": false,
+  "original_saved_exact_matches": 3,
+  "original_saved_json_objects_valid": 4,
+  "output_hashes": {
+    "artifacts/language_model/shared_contracts/contracts_3293242853ce2cf7/contract_checks.csv": "7dd7d406a32c57fb56fae6649479fcec867e662ab24745c1b018cba245d8c2ae",
+    "artifacts/language_model/shared_contracts/contracts_3293242853ce2cf7/planner_response_schema.json": "5e812df290ffe5bfbdf17c847abbe7136fa5eae5c084d815caab5a5e5bd1f6f8",
+    "artifacts/language_model/shared_contracts/contracts_3293242853ce2cf7/public_input.py": "56d406a462a35687aaa69fd1820140aca80e6386b22452e9032b5f8d7a12835c",
+    "artifacts/language_model/shared_contracts/contracts_3293242853ce2cf7/public_profile_record_schema.json": "c608b6a369395ef578cd4aa77b709a5e50889ef7e9a2e715b0904fb55c3da2c8",
+    "artifacts/language_model/shared_contracts/contracts_3293242853ce2cf7/response_contract.py": "572bf36fc98056eff77a6d63b428703f1315e5056d935ed6b6815171b7e57ac5",
+    "artifacts/language_model/shared_contracts/contracts_3293242853ce2cf7/shared_io_contracts.md": "3ea2153cb3bb7e7cee57d02688ada8ba04c6fb3a55fd6feefd4c2134be5de1df",
+    "artifacts/language_model/shared_contracts/contracts_3293242853ce2cf7/shared_io_policy.json": "9b831576aa84ca4daae3ed4f411da53bfed955e60764bbb558914baa187ef4d7",
+    "artifacts/language_model/shared_contracts/contracts_3293242853ce2cf7/software_probe_fixtures.json": "dc4af8e677e3a03d93a3d7a19e789b4ab1921bff96336ebeac17e4ca2f2d35d7",
+    "artifacts/language_model/shared_contracts/contracts_3293242853ce2cf7/software_probe_results.json": "821025154cc42abeff0dc31022e7a5dc1a47b631142a603984caedad28ee2cb3",
+    "artifacts/language_model/shared_contracts/contracts_3293242853ce2cf7/verified_inputs.json": "a32910d258af3c4b829594c568a84a4b5a353c6a5a985f3658dacff58639ad0d"
+  },
+  "packages_installed": 0,
+  "prior_bound_inputs_changed": false,
+  "public_input_property_count": 15,
+  "recipe_version": "step24-shared-io-contract-candidate-0.1.0",
+  "response_structure_software_checked": true,
+  "response_types": [
+    "plan",
+    "clarification",
+    "constraint_conflict",
+    "outside_scope"
+  ],
+  "runtime_adoption_complete": false,
+  "saved_module_reload_check_count": 39,
+  "schema_version": "step24-shared-io-contract-producer-1",
+  "semantic_plan_validation_performed": false,
+  "software_check_count": 39,
+  "software_check_groups": {
+    "authority": 10,
+    "input": 7,
+    "input_rejection": 8,
+    "response": 6,
+    "response_rejection": 8
+  },
+  "source_diagnosis_summary_sha256": "af51af8c51f6878cb14d2ee66a3f133e54d15b13f9fa15f0c858f000c25e42e2",
+  "status": "shared_io_contract_candidates_software_checked",
+  "step24_complete": false
+}

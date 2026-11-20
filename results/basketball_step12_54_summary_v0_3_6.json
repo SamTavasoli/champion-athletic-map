@@ -1,0 +1,27 @@
+{
+  "step": "12-54",
+  "catalog_version": "0.3.6",
+  "catalog_candidates": 144,
+  "registered_source_occurrences": 156,
+  "wave3_candidate_groups": 42,
+  "field_reviews": 84,
+  "official_pages_accessed": 9,
+  "source_section_status_counts": {
+    "drill_section_available": 42
+  },
+  "focus_source_checks": {
+    "shooting_line_equipment": true,
+    "fast_break_five_players": true
+  },
+  "human_decisions_completed": 0,
+  "catalog_approvals": 0,
+  "planner_eligible": 0,
+  "input_sha256": {
+    "data/processed/basketball_drill_catalog_v0_3_6_REVIEW_ONLY.csv": "a9e9831ebf497e150b4bbf0ec7fc48a12c2e285350b0671cd74f423dac1000d5",
+    "results/basketball_drill_source_registry_v0_3_6.csv": "191242faae20c8655162cf044a98fa50758cc07789238f0d7a0a54997902f4cc",
+    "results/basketball_wave3_requirement_evidence_reliability_v0_3_6.csv": "da3eafeabc4ad1fdb1591fd36dc779ba4194bfd03317cf0de6b4d65680dd222b",
+    "results/basketball_wave3_requirement_adjudication_v0_3_6.csv": "530f7543270b073793daeaecf9ef65b3a83fb7edc9033f574c8971e45b813cb2",
+    "results/basketball_wave3_requirement_review_queue_v0_3_6.csv": "078b36a92cd3bc0771d43199f7898e6cf3e8d7d10335fafdb3d4aaffcf64fdec"
+  },
+  "note": "Source-section evidence is preliminary; no automatic requirements, merging, permissions or youth-planning approvals."
+}

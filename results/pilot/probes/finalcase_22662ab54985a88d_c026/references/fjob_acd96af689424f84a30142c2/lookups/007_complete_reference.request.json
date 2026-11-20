@@ -1,0 +1,81 @@
+{
+  "args": [
+    {
+      "answerability_established_by_score": false,
+      "complete_required_delivery_text": "Enjoyable activity routines and activity-specific safety\n\nCDC encourages enjoyable physical activity, including structured and unstructured forms, family routines, access to equipment and places to be active, and positive encouragement. Activities should fit the child's age. Its safety discussion gives helmets or pads for activities such as cycling, scooter riding, skating and rock-wall climbing as examples of protective equipment. Those examples are activity-specific, not a statement that every sport uses the same equipment.\n\nGeneral encouragement and activity-specific safety context. This does not approve a catalog exercise, establish an individual training dose or replace sport-specific supervision and equipment review.\n\nSelected CDC factual text was paraphrased and shortened; substantive meaning and the listed scope qualifications are retained.\n\nSource: Centers for Disease Control and Prevention (CDC), Making Physical Activity Part of a Child's Life.\n\nUse of CDC information and links does not imply endorsement by the United States Government, HHS, CDC, or ATSDR.\n\nPreserve the source's substantive meaning and all stated scope qualifications. General encouragement and activity-specific safety context. This does not approve a catalog exercise, establish an individual training dose or replace sport-specific supervision and equipment review.\n\nThe underlying CDC material is freely available on the agency website: https://www.cdc.gov/physical-activity-basics/adding-children-adolescents/.\n\nCDC permitted-use policy: https://www.cdc.gov/other/agencymaterials.html",
+      "generation_context_budget_verified": false,
+      "passage_id": "additional-cdc-retrieval-passage:1720a0d47e15da4799f50d22daa7d54bfa54bb216dabc5c47460eb0a453da42b",
+      "rank": 4,
+      "reference_unit_id": "cdc-scoped-reference-unit:48fa1ffdb991327354244a4aa2582a51f2c8761f121dab257fc7e57edc7fe49c",
+      "required_delivery_must_be_attached": true,
+      "required_delivery_record": {
+        "200_token_encoder_core_cap_applies_to_this_delivery": false,
+        "delivery_bundle_id": "additional-cdc-passage-delivery:3ffa77c5d6fc5e76ce922c2b40eba3191df5717a90c512f87756870c1e55eaaf",
+        "delivery_is_not_used_as_embedding_passage": true,
+        "display_text": "Enjoyable activity routines and activity-specific safety\n\nCDC encourages enjoyable physical activity, including structured and unstructured forms, family routines, access to equipment and places to be active, and positive encouragement. Activities should fit the child's age. Its safety discussion gives helmets or pads for activities such as cycling, scooter riding, skating and rock-wall climbing as examples of protective equipment. Those examples are activity-specific, not a statement that every sport uses the same equipment.\n\nGeneral encouragement and activity-specific safety context. This does not approve a catalog exercise, establish an individual training dose or replace sport-specific supervision and equipment review.\n\nSelected CDC factual text was paraphrased and shortened; substantive meaning and the listed scope qualifications are retained.\n\nSource: Centers for Disease Control and Prevention (CDC), Making Physical Activity Part of a Child's Life.\n\nUse of CDC information and links does not imply endorsement by the United States Government, HHS, CDC, or ATSDR.\n\nPreserve the source's substantive meaning and all stated scope qualifications. General encouragement and activity-specific safety context. This does not approve a catalog exercise, establish an individual training dose or replace sport-specific supervision and equipment review.\n\nThe underlying CDC material is freely available on the agency website: https://www.cdc.gov/physical-activity-basics/adding-children-adolescents/.\n\nCDC permitted-use policy: https://www.cdc.gov/other/agencymaterials.html",
+        "display_text_sha256": "4df975718abf9ceb0ff41b50da077755ac4a78c36b1374544503be9ea8b4cfde",
+        "full_text_measured_without_truncation": true,
+        "generation_model_tokenizer_or_prompt_budget_verified": false,
+        "minilm_encoded_token_ids_sha256": "e64afc767407db115e53c1d37f5b6cc32817dee3c7a8ab2f34ae61f02634b208",
+        "minilm_encoded_tokens_including_specials": 304,
+        "passage_id": "additional-cdc-retrieval-passage:1720a0d47e15da4799f50d22daa7d54bfa54bb216dabc5c47460eb0a453da42b",
+        "reference_unit_id": "cdc-scoped-reference-unit:48fa1ffdb991327354244a4aa2582a51f2c8761f121dab257fc7e57edc7fe49c",
+        "required_context_and_usage_credit_are_indivisible": true,
+        "schema_version": "step23-additional-cdc-token-budgeted-delivery-1",
+        "source_delivery_bundle": {
+          "delivery_bundle_id": "cdc-required-delivery:e8137279407ddd7d5360e2700c1ea219c71d243c9c80d2ea9953b47516141cb4",
+          "delivery_must_remain_indivisible": true,
+          "display_text": "Enjoyable activity routines and activity-specific safety\n\nCDC encourages enjoyable physical activity, including structured and unstructured forms, family routines, access to equipment and places to be active, and positive encouragement. Activities should fit the child's age. Its safety discussion gives helmets or pads for activities such as cycling, scooter riding, skating and rock-wall climbing as examples of protective equipment. Those examples are activity-specific, not a statement that every sport uses the same equipment.\n\nGeneral encouragement and activity-specific safety context. This does not approve a catalog exercise, establish an individual training dose or replace sport-specific supervision and equipment review.\n\nSelected CDC factual text was paraphrased and shortened; substantive meaning and the listed scope qualifications are retained.\n\nSource: Centers for Disease Control and Prevention (CDC), Making Physical Activity Part of a Child's Life.\n\nUse of CDC information and links does not imply endorsement by the United States Government, HHS, CDC, or ATSDR.\n\nPreserve the source's substantive meaning and all stated scope qualifications. General encouragement and activity-specific safety context. This does not approve a catalog exercise, establish an individual training dose or replace sport-specific supervision and equipment review.\n\nThe underlying CDC material is freely available on the agency website: https://www.cdc.gov/physical-activity-basics/adding-children-adolescents/.\n\nCDC permitted-use policy: https://www.cdc.gov/other/agencymaterials.html",
+          "display_text_sha256": "4df975718abf9ceb0ff41b50da077755ac4a78c36b1374544503be9ea8b4cfde",
+          "does_not_grant_planner_eligibility": true,
+          "generation_model_token_budget_verified": false,
+          "modification_notice": "Selected CDC factual text was paraphrased and shortened; substantive meaning and the listed scope qualifications are retained.",
+          "not_embedding_passage_text": true,
+          "permission_assessment_id": "cdc-scoped-permission:4f507234d44ad06f5bad1c3eba3a57c7562e0da38540a8c271618ed47d64e4ec",
+          "permission_record_sha256": "55bfba4efb3a3c8af08ea25cab6c6ca086daec931731532dcada1920a6c1c1fe",
+          "prominent_nonendorsement_required": true,
+          "publisher_policy_url": "https://www.cdc.gov/other/agencymaterials.html",
+          "reference_core_may_be_delivered_without_companion": false,
+          "reference_text": "CDC encourages enjoyable physical activity, including structured and unstructured forms, family routines, access to equipment and places to be active, and positive encouragement. Activities should fit the child's age. Its safety discussion gives helmets or pads for activities such as cycling, scooter riding, skating and rock-wall climbing as examples of protective equipment. Those examples are activity-specific, not a statement that every sport uses the same equipment.",
+          "reference_unit_id": "cdc-scoped-reference-unit:48fa1ffdb991327354244a4aa2582a51f2c8761f121dab257fc7e57edc7fe49c",
+          "reference_unit_record_sha256": "9477271da69f86960296509c2102b716d3b674649c8c46e97e7a2bee1ffe0fac",
+          "required_context": "General encouragement and activity-specific safety context. This does not approve a catalog exercise, establish an individual training dose or replace sport-specific supervision and equipment review.",
+          "required_notices": [
+            {
+              "notice_kind": "publisher_credit",
+              "text": "Source: Centers for Disease Control and Prevention (CDC), Making Physical Activity Part of a Child's Life."
+            },
+            {
+              "notice_kind": "prominent_nonendorsement",
+              "text": "Use of CDC information and links does not imply endorsement by the United States Government, HHS, CDC, or ATSDR."
+            },
+            {
+              "notice_kind": "unchanged_substantive_meaning",
+              "text": "Preserve the source's substantive meaning and all stated scope qualifications. General encouragement and activity-specific safety context. This does not approve a catalog exercise, establish an individual training dose or replace sport-specific supervision and equipment review."
+            },
+            {
+              "notice_kind": "free_availability",
+              "text": "The underlying CDC material is freely available on the agency website: https://www.cdc.gov/physical-activity-basics/adding-children-adolescents/."
+            }
+          ],
+          "schema_version": "step23-cdc-required-delivery-bundle-1",
+          "scope": "US_internal_educational_and_academic_research_text_only",
+          "source_context_required": true,
+          "source_url": "https://www.cdc.gov/physical-activity-basics/adding-children-adolescents/",
+          "source_version_id": "cdc-content-source-version:24d8b714585c1f6198f9cd38ef3e595608d64e969531564559e8b756ad6402a1",
+          "source_version_record_sha256": "e92d45b0b058676fe068a5bfc8179e325674555b390f45a4f46aff5df17ebd3a",
+          "title": "Enjoyable activity routines and activity-specific safety",
+          "token_count": null
+        },
+        "source_delivery_bundle_id": "cdc-required-delivery:e8137279407ddd7d5360e2700c1ea219c71d243c9c80d2ea9953b47516141cb4",
+        "source_delivery_record_sha256": "583a4d06170cdaeaf324e58ad625b4a7429980603dedb690ae3d0f20a235bd62",
+        "source_unit_record_sha256": "9477271da69f86960296509c2102b716d3b674649c8c46e97e7a2bee1ffe0fac"
+      },
+      "score": 0.382212806788084,
+      "score_kind": "embedding_cosine",
+      "standalone_core_delivery_allowed": false
+    }
+  ],
+  "kwargs": {},
+  "method": "complete_reference"
+}

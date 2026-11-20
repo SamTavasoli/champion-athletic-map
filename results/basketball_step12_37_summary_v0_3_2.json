@@ -1,0 +1,38 @@
+{
+  "step": "12-37",
+  "run_date": "2026-11-07",
+  "catalog_version": "0.3.2",
+  "catalog_candidates": 144,
+  "registry_source_occurrences": 156,
+  "source_record_corrected": "ADI-JRNBA016",
+  "candidate_group_corrected": "JR-ADITI-0013",
+  "publisher_heading": "Shield Steal Game",
+  "metadata_fields_reconciled": [
+    "drill_name",
+    "equipment",
+    "participants",
+    "source_prescription",
+    "space"
+  ],
+  "source_fact_checks_passed": 7,
+  "source_fact_checks_total": 7,
+  "original_imported_dataset_modified": false,
+  "prior_catalog_modified": false,
+  "human_signoff_completed": false,
+  "drills_approved": 0,
+  "planner_eligible": 0,
+  "git_operations_performed": false,
+  "input_sha256": {
+    "catalog": "75d2a0a14147ef9994e6cd0f63d15d9fabb25791908aff8d20ab0f5e44d6180d",
+    "registry": "7d9915db969081f074c20e7277529e5ddbdacdd7755f88a5596ca546c02083c4",
+    "section_screen": "6220a3bc4e020f93ab10c1fea6531aa45c57f07db5576b1f78952562c5b59f3f",
+    "locator_checks": "c00e449b06b53124b98c0b0afb48ab655b37c4019daa0b675a00f7ce817e7aa4",
+    "imported_drills": "bf9c63fb486a2df39206e133c458d73ab3c63a120667f15fa11018a395f8d538"
+  },
+  "report_sha256": {
+    "verification": "afc0e01dd7e047dd94c255ea8e650c4899e730fd42e635f42a3ccc9265ca4044",
+    "changes": "78633b3c96189c04f470115ae23ba674e805a6e9e30264bd58a3a8b14bb1b729",
+    "catalog": "f1d6baa27525da44ecad021698f670fa3eef3350b5fd069e650b6a754135b291",
+    "registry": "6f919f8be250a1e211aab44cc34d1e6e568581b7bc7835a8bd419ba87ab64f2f"
+  }
+}

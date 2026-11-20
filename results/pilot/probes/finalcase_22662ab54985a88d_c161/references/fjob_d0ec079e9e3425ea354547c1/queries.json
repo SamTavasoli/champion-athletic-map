@@ -1,0 +1,18 @@
+{
+  "queries": [
+    "Basketball practice; Lay out my whole basketball week; goals [\"Improve controlled foo; experience {\"experience; equipment [\"Basketball\",\"Cones\",\"H; space single_hoop_; people 5",
+    "Youth basketball participation, rest and recovery; age 15; grade 10; commitments unknown; request Lay out my whole basketball week, including e"
+  ],
+  "query_records": [
+    {
+      "query_id": "retrieval-query:08af8bac885412fd4d10f409473b0ba36d96dc164e4be9bfdcd603f17f25e79d",
+      "text": "Basketball practice; Lay out my whole basketball week; goals [\"Improve controlled foo; experience {\"experience; equipment [\"Basketball\",\"Cones\",\"H; space single_hoop_; people 5",
+      "text_sha256": "4e00f5af84c2cd5d4a1818bea9c99e7289e3e1481004475673a978523a9eaaee"
+    },
+    {
+      "query_id": "retrieval-query:66bf023d5845860816155320813ea5e0a900801ce18b3c6d2e4c20783d50a53b",
+      "text": "Youth basketball participation, rest and recovery; age 15; grade 10; commitments unknown; request Lay out my whole basketball week, including e",
+      "text_sha256": "df43ea733110f647b9ffef1193742d8502697497076affdeb3b807e89ce83669"
+    }
+  ]
+}

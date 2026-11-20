@@ -1,0 +1,18 @@
+{
+  "queries": [
+    "Basketball practice; I need a dated basketball practi; goals [\"Develop more consisten; experience {\"experience; equipment [\"Basketball\",\"Cones\",\"H; space single_hoop_; people 3",
+    "Youth basketball participation, rest and recovery; age 14; grade 8; commitments [\"game\",\"practice\"]; request I need a dated basketball practice schedule f"
+  ],
+  "query_records": [
+    {
+      "query_id": "retrieval-query:8c1265f87b61c2f1db308f0341530186788fc910c22ccb5adb9c0d3d127a59a0",
+      "text": "Basketball practice; I need a dated basketball practi; goals [\"Develop more consisten; experience {\"experience; equipment [\"Basketball\",\"Cones\",\"H; space single_hoop_; people 3",
+      "text_sha256": "e49506d8f966ec78ac5a98a6cbf454c8c96d90dbfde8d6f6181025f47d9cd497"
+    },
+    {
+      "query_id": "retrieval-query:72709d645235a8b6b165225e3099b9f26f7185295e369dae1401c7d49a83f935",
+      "text": "Youth basketball participation, rest and recovery; age 14; grade 8; commitments [\"game\",\"practice\"]; request I need a dated basketball practice schedule f",
+      "text_sha256": "0bc84651435ce295ee0d7cad2ac2466110ee9540137fba8c728b1823c447ac53"
+    }
+  ]
+}

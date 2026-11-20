@@ -1,0 +1,293 @@
+{
+  "schema_version": "step30-pytest-execution-1",
+  "pytest_exit_code": 0,
+  "collected": [
+    {
+      "test_id": "tests/contract_probe/test_contract_probe.py::test_prepare_preserves_original_inputs_and_fixed_fresh_balanced_case",
+      "requirement": "31:request-contract-development-probe",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/contract_probe/test_contract_probe.py:135",
+      "description": "test_prepare_preserves_original_inputs_and_fixed_fresh_balanced_case"
+    },
+    {
+      "test_id": "tests/contract_probe/test_contract_probe.py::test_real_runner_redirects_old_summaries_and_whole_job_reuse_makes_zero_calls",
+      "requirement": "31:request-contract-development-probe",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/contract_probe/test_contract_probe.py:146",
+      "description": "test_real_runner_redirects_old_summaries_and_whole_job_reuse_makes_zero_calls"
+    },
+    {
+      "test_id": "tests/contract_probe/test_contract_probe.py::test_designated_fatal_v4_is_assessed_without_earlier_draft_fallback",
+      "requirement": "31:request-contract-development-probe",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/contract_probe/test_contract_probe.py:164",
+      "description": "test_designated_fatal_v4_is_assessed_without_earlier_draft_fallback"
+    },
+    {
+      "test_id": "tests/contract_probe/test_contract_probe.py::test_changed_inputs_contracts_and_software_block_before_calls[public_input]",
+      "requirement": "31:request-contract-development-probe",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/contract_probe/test_contract_probe.py:174",
+      "description": "test_changed_inputs_contracts_and_software_block_before_calls[public_input]"
+    },
+    {
+      "test_id": "tests/contract_probe/test_contract_probe.py::test_changed_inputs_contracts_and_software_block_before_calls[parent_contract]",
+      "requirement": "31:request-contract-development-probe",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/contract_probe/test_contract_probe.py:174",
+      "description": "test_changed_inputs_contracts_and_software_block_before_calls[parent_contract]"
+    },
+    {
+      "test_id": "tests/contract_probe/test_contract_probe.py::test_changed_inputs_contracts_and_software_block_before_calls[software]",
+      "requirement": "31:request-contract-development-probe",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/contract_probe/test_contract_probe.py:174",
+      "description": "test_changed_inputs_contracts_and_software_block_before_calls[software]"
+    },
+    {
+      "test_id": "tests/contract_probe/test_contract_probe.py::test_partial_reference_failure_is_not_reported_as_completed",
+      "requirement": "31:request-contract-development-probe",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/contract_probe/test_contract_probe.py:188",
+      "description": "test_partial_reference_failure_is_not_reported_as_completed"
+    },
+    {
+      "test_id": "tests/contract_probe/test_contract_probe.py::test_native_observation_requires_preserved_wire_request_and_matching_reply",
+      "requirement": "31:request-contract-development-probe",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/contract_probe/test_contract_probe.py:196",
+      "description": "test_native_observation_requires_preserved_wire_request_and_matching_reply"
+    },
+    {
+      "test_id": "tests/contract_probe/test_contract_probe.py::test_default_runtime_router_uses_contract_factory_without_caller_injection",
+      "requirement": "31:request-contract-development-probe",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/contract_probe/test_contract_probe.py:224",
+      "description": "test_default_runtime_router_uses_contract_factory_without_caller_injection"
+    }
+  ],
+  "phases": [
+    {
+      "test_id": "tests/contract_probe/test_contract_probe.py::test_prepare_preserves_original_inputs_and_fixed_fresh_balanced_case",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0959094000281766,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/contract_probe/test_contract_probe.py::test_prepare_preserves_original_inputs_and_fixed_fresh_balanced_case",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.032679199997801334,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/contract_probe/test_contract_probe.py::test_prepare_preserves_original_inputs_and_fixed_fresh_balanced_case",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00018639996415004134,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/contract_probe/test_contract_probe.py::test_real_runner_redirects_old_summaries_and_whole_job_reuse_makes_zero_calls",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.07563649996882305,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/contract_probe/test_contract_probe.py::test_real_runner_redirects_old_summaries_and_whole_job_reuse_makes_zero_calls",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.5242550999973901,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/contract_probe/test_contract_probe.py::test_real_runner_redirects_old_summaries_and_whole_job_reuse_makes_zero_calls",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001577999792061746,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/contract_probe/test_contract_probe.py::test_designated_fatal_v4_is_assessed_without_earlier_draft_fallback",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.07188449997920543,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/contract_probe/test_contract_probe.py::test_designated_fatal_v4_is_assessed_without_earlier_draft_fallback",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.4445562999462709,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/contract_probe/test_contract_probe.py::test_designated_fatal_v4_is_assessed_without_earlier_draft_fallback",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001365999924018979,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/contract_probe/test_contract_probe.py::test_changed_inputs_contracts_and_software_block_before_calls[public_input]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.06704639998497441,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/contract_probe/test_contract_probe.py::test_changed_inputs_contracts_and_software_block_before_calls[public_input]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.006462100020144135,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/contract_probe/test_contract_probe.py::test_changed_inputs_contracts_and_software_block_before_calls[public_input]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00012959999730810523,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/contract_probe/test_contract_probe.py::test_changed_inputs_contracts_and_software_block_before_calls[parent_contract]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.06247619999339804,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/contract_probe/test_contract_probe.py::test_changed_inputs_contracts_and_software_block_before_calls[parent_contract]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00656499998876825,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/contract_probe/test_contract_probe.py::test_changed_inputs_contracts_and_software_block_before_calls[parent_contract]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001582999830134213,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/contract_probe/test_contract_probe.py::test_changed_inputs_contracts_and_software_block_before_calls[software]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.05932050000410527,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/contract_probe/test_contract_probe.py::test_changed_inputs_contracts_and_software_block_before_calls[software]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.006799700029660016,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/contract_probe/test_contract_probe.py::test_changed_inputs_contracts_and_software_block_before_calls[software]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00020640000002458692,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/contract_probe/test_contract_probe.py::test_partial_reference_failure_is_not_reported_as_completed",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.05532600003061816,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/contract_probe/test_contract_probe.py::test_partial_reference_failure_is_not_reported_as_completed",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.060504900000523776,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/contract_probe/test_contract_probe.py::test_partial_reference_failure_is_not_reported_as_completed",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013569998554885387,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/contract_probe/test_contract_probe.py::test_native_observation_requires_preserved_wire_request_and_matching_reply",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.05587760003982112,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/contract_probe/test_contract_probe.py::test_native_observation_requires_preserved_wire_request_and_matching_reply",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0297609000117518,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/contract_probe/test_contract_probe.py::test_native_observation_requires_preserved_wire_request_and_matching_reply",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00016340002184733748,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/contract_probe/test_contract_probe.py::test_default_runtime_router_uses_contract_factory_without_caller_injection",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.07273289997829124,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/contract_probe/test_contract_probe.py::test_default_runtime_router_uses_contract_factory_without_caller_injection",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.36065759998746216,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/contract_probe/test_contract_probe.py::test_default_runtime_router_uses_contract_factory_without_caller_injection",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00016300001880154014,
+      "expected_failure": false,
+      "detail": null
+    }
+  ],
+  "collection_errors": [],
+  "deselected": [],
+  "new_model_calls": 0,
+  "query_encoder_processes": 0,
+  "network_policy": "blocked_in_routine_tests",
+  "fixtures": "authored_public_examples"
+}

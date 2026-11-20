@@ -1,0 +1,18 @@
+{
+  "queries": [
+    "Basketball practice; Create a study plan for my upcom; goals [\"Coordinate foot placem; experience {\"experience; equipment [\"Basketball\",\"Cones\",\"H; space single_hoop_; people 1",
+    "Youth basketball participation, rest and recovery; age 17; grade 11; commitments [\"practice\"]; request Create a study plan for my upcoming history e"
+  ],
+  "query_records": [
+    {
+      "query_id": "retrieval-query:922a4d53d314b8bae366f355d5f746055119267562737727bafa6ca9d10948a8",
+      "text": "Basketball practice; Create a study plan for my upcom; goals [\"Coordinate foot placem; experience {\"experience; equipment [\"Basketball\",\"Cones\",\"H; space single_hoop_; people 1",
+      "text_sha256": "ac7d2a67ee8fb383ea7952fc8190af9d71589cdf02825b69228d7b717b377bf6"
+    },
+    {
+      "query_id": "retrieval-query:fc6c5c52d35410b7d9addfd24bfc8919b9acf0f37f8ec0939bf9141fefb923cd",
+      "text": "Youth basketball participation, rest and recovery; age 17; grade 11; commitments [\"practice\"]; request Create a study plan for my upcoming history e",
+      "text_sha256": "5c3cb38ddf7dce49f3350b85f36b3c616fb79a9524b936533939930a075f6429"
+    }
+  ]
+}

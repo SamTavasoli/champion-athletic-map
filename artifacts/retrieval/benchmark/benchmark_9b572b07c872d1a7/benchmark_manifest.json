@@ -1,0 +1,21 @@
+{
+  "benchmark_preparation_id": "retrieval-benchmark-preparation:9b572b07c872d1a7178b19039dda68dd51d01213792f6424e417cab479272e97",
+  "benchmark_queries_executed": 0,
+  "corpus_id": "expanded-corpus:aa58799145ccff5c8ea285b3b1eb0bc4fdc41ef85ad90ffb03db3ce3c4687c58",
+  "expanded_retrieval_id": "expanded-retrieval-index:ee12915cfac22530096a9b573f046c886696c5b769aca11f6f20967f0068f5b9",
+  "payload_hashes": {
+    "assistant_review_events.jsonl": "4aab7f3cf703f8da8c2538deed67af1d3ed59fa2f6ed061dd9e0b8d33ed8b3f0",
+    "benchmark_checks.csv": "63829c7484971ad09b95bb1d393390f90346297051827341cb4d7e336eb719dd",
+    "benchmark_judgments.jsonl": "af35d6754802db3c3cda39f71343812d79d8acb48e5d5dfa5b3716494b992aac",
+    "benchmark_questions.jsonl": "ff178ec1ae31bb05ad7d549f3eb390a4328f8b0c0d55976853d42c80113d59cd",
+    "benchmark_readiness.json": "4cd3e55bc58c82866ead4cc1a143d2e49eed6539bc9bff920bfb8d043433b7a5",
+    "benchmark_validator.py": "b3c432281ea77ec7802fed072774b3a3c2b924068b849aa493f7a5a59d7a4feb",
+    "corpus_bindings.json": "98530f529c31469bdb0f0744a6e10abc79ad8c9dd9683d5cfa8fe6cd5def97dd",
+    "question_families.jsonl": "d5f901589e9e26ca07df66ca0d4527bfce463c058c6780821103b47d02940df8",
+    "retrieval_benchmark_contract.json": "e3c18ba8c1e1f43a10560062fd0f9f63848685c9bd713dd39434357bbdc79b94"
+  },
+  "query_preparation_id": "retrieval-query-preparation:f6db9aad37d7a9b920acb188429f9858ba7669273396843bd629ee3726dc2474",
+  "retrieval_method_selected": null,
+  "schema_version": "step23-benchmark-manifest-1",
+  "step23_complete": false
+}

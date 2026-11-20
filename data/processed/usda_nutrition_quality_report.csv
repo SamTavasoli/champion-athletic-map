@@ -1,0 +1,14 @@
+column,non_missing,missing,missing_pct
+fdc_id,411,0,0.0
+description,411,0,0.0
+publication_date,411,0,0.0
+protein_g,399,12,2.9
+fat_g,388,23,5.6
+carbohydrate_g,352,59,14.4
+fiber_g,207,204,49.6
+energy_general_kcal,322,89,21.7
+energy_specific_kcal,312,99,24.1
+calories_kcal,322,89,21.7
+energy_method,411,0,0.0
+source,411,0,0.0
+data_type,411,0,0.0

@@ -1,0 +1,136 @@
+{
+  "changed_model_text_fixture": "{\"response_type\":\"outside_scope\",\"explanation\":\"Software returned text 🏚\"}",
+  "clarification_fixture": {
+    "explanation": "Artificial clarification fixture",
+    "questions": [
+      "Which time was supplied?"
+    ],
+    "response_type": "clarification"
+  },
+  "conflicting_public_record": {
+    "input": {
+      "athlete_request": "  Software fixture: preserve Café Ω 中文 🏀\nSecond line.  ",
+      "availability": [
+        {
+          "date": "2026-11-16",
+          "end_time": "10:00",
+          "start_time": "09:00"
+        }
+      ],
+      "existing_commitments": [
+        {
+          "date": "2026-11-16",
+          "description": "Software fixture A",
+          "end_time": "11:00",
+          "start_time": "09:00"
+        },
+        {
+          "date": "2026-11-16",
+          "description": "Software fixture B",
+          "end_time": "10:30",
+          "start_time": "09:30"
+        }
+      ],
+      "planning_window": {
+        "end_date": "2026-11-22",
+        "start_date": "2026-11-16",
+        "timezone": "America/Los_Angeles"
+      }
+    },
+    "profile_id": "software-only-opaque-001",
+    "schema_version": "athlete-profile-input-1"
+  },
+  "constraint_conflict_fixture": {
+    "explanation": "Artificial conflict fixture",
+    "response_type": "constraint_conflict",
+    "unresolved_issues": [
+      "Conflicting supplied times"
+    ]
+  },
+  "notice": "Artificial software fixtures; not accepted development or test cases and not training recommendations.",
+  "outside_scope_fixture": {
+    "explanation": "Artificial outside-scope fixture",
+    "response_type": "outside_scope"
+  },
+  "public_record": {
+    "input": {
+      "athlete_request": "  Software fixture: preserve Café Ω 中文 🏀\nSecond line.  ",
+      "planning_window": {
+        "end_date": "2026-11-22",
+        "start_date": "2026-11-16",
+        "timezone": "America/Los_Angeles"
+      }
+    },
+    "profile_id": "software-only-opaque-001",
+    "schema_version": "athlete-profile-input-1"
+  },
+  "structural_plan_fixture": {
+    "explanation": "Artificial schema fixture only; no request fulfillment or training quality is asserted.",
+    "planning_window": {
+      "end_date": "2026-11-22",
+      "start_date": "2026-11-16",
+      "timezone": "America/Los_Angeles"
+    },
+    "response_type": "plan",
+    "weekly_schedule": [
+      {
+        "activities": [
+          {
+            "activity_id": "software-activity-1",
+            "description": "Artificial activity description",
+            "duration_minutes": null,
+            "existing_commitment_refs": [
+              "/existing_commitments/0"
+            ],
+            "relationship": {
+              "kind": "separate_session",
+              "parent_activity_id": null
+            },
+            "resources": {
+              "equipment": [
+                {
+                  "name": "basketball",
+                  "quantity": null
+                }
+              ],
+              "participants": null,
+              "space": null
+            }
+          }
+        ],
+        "date": "2026-11-16",
+        "rest_arrangements": "Software rest-field fixture"
+      },
+      {
+        "activities": [],
+        "date": "2026-11-17",
+        "rest_arrangements": "Software rest-field fixture"
+      },
+      {
+        "activities": [],
+        "date": "2026-11-18",
+        "rest_arrangements": "Software rest-field fixture"
+      },
+      {
+        "activities": [],
+        "date": "2026-11-19",
+        "rest_arrangements": "Software rest-field fixture"
+      },
+      {
+        "activities": [],
+        "date": "2026-11-20",
+        "rest_arrangements": "Software rest-field fixture"
+      },
+      {
+        "activities": [],
+        "date": "2026-11-21",
+        "rest_arrangements": "Software rest-field fixture"
+      },
+      {
+        "activities": [],
+        "date": "2026-11-22",
+        "rest_arrangements": "Software rest-field fixture"
+      }
+    ]
+  }
+}

@@ -1,0 +1,902 @@
+{
+  "dimension_entries": 800,
+  "immutable_supplementary_export": true,
+  "locked_on": "2026-11-17",
+  "method_amendment_sha256": "cec2ab8a93441bf010c3ed2b38795f08ce444f5877e5dd285bffd599ba63750c",
+  "quality_checks": {
+    "activity_source_records_available": 136,
+    "all_assigned_replies_read": true,
+    "central_full_content_spot_check_response_ids": [
+      "response-066deb881cff49b363b2",
+      "response-7f148d339988548ff869",
+      "response-6bfe7fcc9a594c4ab602",
+      "response-561be20ae47e5da64d66",
+      "response-837309dd26f3b3c0e407",
+      "response-255fba5ce9e32e49aaa7",
+      "response-74688edbd28ecc1b6cdc",
+      "response-4c6adb2d3c2cdb572c15"
+    ],
+    "central_prelock_corrections": [
+      {
+        "after": {
+          "evidence_refs": [
+            "public_input./athlete_request",
+            "reply./weekly_schedule/2/activities/0",
+            "reply./weekly_schedule/4/activities/0"
+          ],
+          "rationale": "Appropriately arranges the requested two blocks on the available dates and times with the stated basketball priority. Missing exercise setup is retained in the separate practicality/completeness rating.",
+          "score": 2,
+          "status": "rated"
+        },
+        "before": {
+          "evidence_refs": [
+            "public_input./athlete_request",
+            "reply./weekly_schedule/2/activities/0",
+            "reply./weekly_schedule/4/activities/0"
+          ],
+          "rationale": "Correctly arranges two feasible blocks around the requested priority, but Controlled footwork near the basket only repeats the goal instead of identifying any actual practice activity.",
+          "score": 1,
+          "status": "rated"
+        },
+        "dimension": "response_suitability",
+        "reason": "Scope-relative anchor consistency: the request is to arrange blocks; correct dates/count/goal receive suitability credit while missing implementation remains a completeness gap.",
+        "response_id": "response-255fba5ce9e32e49aaa7"
+      },
+      {
+        "after": {
+          "evidence_refs": [
+            "public_input./athlete_request",
+            "reply./weekly_schedule/2/activities/0/description",
+            "reply./weekly_schedule/4/activities/0/description"
+          ],
+          "rationale": "Appropriately arranges the requested two blocks on the available dates and times with the stated basketball priority. Missing exercise setup is retained in the separate practicality/completeness rating.",
+          "score": 2,
+          "status": "rated"
+        },
+        "before": {
+          "evidence_refs": [
+            "public_input./athlete_request",
+            "reply./weekly_schedule/2/activities/0/description",
+            "reply./weekly_schedule/4/activities/0/description"
+          ],
+          "rationale": "Places two blocks on the correct dates but only restates the set-shot goal, leaving the actual practice activity unresolved.",
+          "score": 1,
+          "status": "rated"
+        },
+        "dimension": "response_suitability",
+        "reason": "Scope-relative anchor consistency: the request is to arrange blocks; correct dates/count/goal receive suitability credit while missing implementation remains a completeness gap.",
+        "response_id": "response-74688edbd28ecc1b6cdc"
+      }
+    ],
+    "coverage": {
+      "dimensions": 800,
+      "missing": 0,
+      "profiles": 40,
+      "responses": 160
+    },
+    "exact_designated_raw_replies_bound": true,
+    "food_arithmetic_records_verified": 20,
+    "group_prelock_corrections": {
+      "1": {
+        "changes": [
+          {
+            "after": "The basic shooting activity agrees with adopted form-shooting basics, and no nutrient amount is asserted. The instruction to do two separate 15-minute sessions conflicts with the explicit one-session/15-minute weekly allowance; this concrete budget contradiction, rather than sparse drill detail or the food omission, limits evidence accuracy.",
+            "before": "Basic shooting practice is consistent with the adopted form-shooting example; no nutrient number is asserted. The reply does not acknowledge the obvious two-session budget conflict or qualify its bare practice guidance, so support is partial rather than evidence of a false food fact.",
+            "path": "ratings.evidence_accuracy.rationale",
+            "reason": "Keep factual/instructional contradictions separate from lack of practical detail.",
+            "response_id": "response-4b96631416f2d10a7593"
+          },
+          {
+            "after": "omission",
+            "before": "unsupported",
+            "path": "findings.3.kind",
+            "reason": "No unsupported technique or efficacy claim follows from a sparse activity label.",
+            "response_id": "response-4b96631416f2d10a7593"
+          },
+          {
+            "after": "General shooting basics have catalog support, but the single-line activity omits technique, progression and partner-role details needed for a useful practice block.",
+            "before": "General shooting basics have catalog support, but the single-line activity gives no actual technique, progression or partner role.",
+            "path": "findings.3.detail",
+            "reason": "Treat insufficient block structure as a practical omission.",
+            "response_id": "response-4b96631416f2d10a7593"
+          },
+          {
+            "after": "The dates, equipment and nontraining travel date agree with the public input; generic dribble practice is plausible. However, the actual instructions prescribe four 30-minute blocks despite a two-session/30-minute cap and 15-minute windows. These concrete contradictions with known limits, rather than omitted drill detail, limit evidence accuracy.",
+            "before": "The dates, equipment and nontraining travel date agree with the public input; generic dribble work is plausible. The response fails to communicate the explicit budget/time conflicts and supplies no concrete supported drill detail, so evidence support is partial.",
+            "path": "ratings.evidence_accuracy.rationale",
+            "reason": "Do not penalize evidence accuracy merely for sparse drill instructions.",
+            "response_id": "response-3c61c03f2edf89be0a0e"
+          },
+          {
+            "after": "The explanation says the plan is designed to meet availability, yet each prescribed 20-minute drill exceeds all supplied 15-minute windows and the additions total 50 minutes against a 30-minute weekly maximum. The named 5-5-5 activity is supported by the adopted catalog; allocating a longer practice block is not itself a false claim about the publisher’s prescription.",
+            "before": "The explanation’s fit-to-availability claim is contradicted by 20-minute drills in 15-minute windows. The named 5-5-5 drill has a one-minute source prescription with five-second stages; an unexplained 20-minute dose is not supported by that source.",
+            "path": "ratings.evidence_accuracy.rationale",
+            "reason": "A planning duration differing from source duration is not itself unsupported or false.",
+            "response_id": "response-e5d46ea1ae01bec12ead"
+          },
+          {
+            "after": "omission",
+            "before": "unsupported",
+            "path": "findings.1.kind",
+            "reason": "Missing internal block structure affects practicality, not factual support for allocation.",
+            "response_id": "response-e5d46ea1ae01bec12ead"
+          },
+          {
+            "after": "The named 5-5-5 drill has a documented sequence of five-second right-hand, left-hand and creative stages, but the reply only gives a 20-minute label without describing that sequence, intervals or how to practice it. The difference from the source’s one-minute prescription alone is not treated as false.",
+            "before": "5-5-5 Creative Dribble cycles five-second right/left/creative stages and has a one-minute source prescription; the reply supplies 20-minute drill labels with no interval or adaptation rationale.",
+            "path": "findings.1.detail",
+            "reason": "Distinguish omission of actionable technique from an invented publisher dose.",
+            "response_id": "response-e5d46ea1ae01bec12ead"
+          },
+          {
+            "after": "Relevant named drill but an over-budget allocation and no feasible two-block schedule.",
+            "before": "Relevant named drill but unsupported dosing and no feasible two-block schedule.",
+            "path": "short_summary",
+            "reason": "Remove unsupported-dosing implication from summary.",
+            "response_id": "response-e5d46ea1ae01bec12ead"
+          }
+        ],
+        "scope": "Group 1 review QA only; no inputs or automated results changed."
+      },
+      "2": {
+        "changes": [
+          {
+            "after": "Uses the exam request, but imports physical fitness into an academic clarification, an irrelevant athletic assumption for the actual excluded service.",
+            "before": "Uses the exam goal, but imports physical fitness into academic planning and does not make useful use of the grade-8 context.",
+            "field": "ratings.profile_fit.rationale",
+            "response_id": "response-7f148d339988548ff869",
+            "score_changed": false
+          },
+          {
+            "after": "Recognizes the academic mismatch but does not clearly decline that service or redirect to supported basketball planning; the fitness question further distracts from the needed boundary.",
+            "before": "Asks about exam goals, but the fitness question is irrelevant and the exam date, covered material, and study resources remain unresolved.",
+            "field": "ratings.practicality_completeness.rationale",
+            "response_id": "response-7f148d339988548ff869",
+            "score_changed": false
+          },
+          {
+            "after": "The explicit outside-scope observation is useful, but offering to gather study-plan information leaves the boundary unresolved and provides no supported-service redirection.",
+            "before": "Provides useful academic intake questions, but neither completes a scope response nor obtains the exam date needed to anchor a study plan.",
+            "field": "ratings.practicality_completeness.rationale",
+            "response_id": "response-8030992b6b8abc4684b9",
+            "score_changed": false
+          },
+          {
+            "after": "Acknowledges the basketball-oriented profile but pursues study-specific availability and requirements instead of using the actual request to resolve the service mismatch.",
+            "before": "Acknowledges the basketball context but asks for availability without distinguishing the two supplied 20-minute availability slots from study-specific availability.",
+            "field": "ratings.profile_fit.rationale",
+            "response_id": "response-887e81c5dbdebedc2c73",
+            "score_changed": false
+          },
+          {
+            "after": "The mismatch explanation offers some orientation, but academic intake questions do not supply the needed scope boundary or a supported basketball-planning next step.",
+            "before": "Two broad intake questions offer a next step, but omit exam date, subject coverage, and current understanding; there is no complete scope redirection.",
+            "field": "ratings.practicality_completeness.rationale",
+            "response_id": "response-887e81c5dbdebedc2c73",
+            "score_changed": false
+          },
+          {
+            "after": {
+              "detail": "Academic intake questions continue the excluded service without a clear boundary or supported-service redirection.",
+              "evidence_refs": [
+                "reply./questions",
+                "public_input./athlete_request"
+              ],
+              "kind": "omission"
+            },
+            "before": {
+              "detail": "Academic planning questions omit the exam date and material and do not resolve the basketball scope mismatch.",
+              "evidence_refs": [
+                "reply./questions",
+                "public_input./athlete_request"
+              ],
+              "kind": "omission"
+            },
+            "field": "findings.0",
+            "response_id": "response-887e81c5dbdebedc2c73",
+            "score_changed": false
+          },
+          {
+            "after": "The academic request is recognized, but the reply continues study-plan intake instead of declining the excluded service and redirecting to a supported request.",
+            "before": "Goals, current understanding, and weak areas are relevant intake topics, but exam date, covered material, and service-scope resolution are missing.",
+            "field": "ratings.practicality_completeness.rationale",
+            "response_id": "response-d945b7ba9e05d9032353",
+            "score_changed": false
+          },
+          {
+            "after": {
+              "detail": "Does not set the basketball-service boundary or redirect to supported basketball planning or factual food references.",
+              "evidence_refs": [
+                "reply./explanation",
+                "reply./questions"
+              ],
+              "kind": "omission"
+            },
+            "before": {
+              "detail": "Does not set the basketball-service boundary or establish the exam date.",
+              "evidence_refs": [
+                "reply./explanation",
+                "reply./questions"
+              ],
+              "kind": "omission"
+            },
+            "field": "findings.1",
+            "response_id": "response-d945b7ba9e05d9032353",
+            "score_changed": false
+          },
+          {
+            "after": {
+              "detail": "Windows is a catalog-supported partner rolled-ball slide activity, but the reply provides only its name. Instructions, partner roles, repetitions and recovery are missing; its 15-minute allocation is a scheduling choice, not a claim that the publisher prescribed that duration.",
+              "evidence_refs": [
+                "reply./weekly_schedule/1/activities/0",
+                "catalog:JR-NEW-0009 (https://jr.nba.com/basketball-practice-plans/rookie/page/4/)"
+              ],
+              "kind": "omission"
+            },
+            "before": {
+              "detail": "The adopted Windows drill is a partner rolled-ball slide across markers 6–8 feet apart with a four-minute source prescription; the reply supplies only its name and an unexplained 15-minute allocation. This limits support for the prescribed execution rather than proving the movement false.",
+              "evidence_refs": [
+                "reply./weekly_schedule/1/activities/0",
+                "catalog:JR-NEW-0009 (https://jr.nba.com/basketball-practice-plans/rookie/page/4/)"
+              ],
+              "kind": "unsupported"
+            },
+            "field": "findings.3",
+            "response_id": "response-a1375db4699d307dbc17",
+            "score_changed": false
+          },
+          {
+            "after": "The explicit two-block claim contradicts three 30-minute additions (90 minutes) against the two-session/60-minute limits, including unavailable November 17/19. The catalog supports Windows as a partner lateral-slide activity; block-structure omissions are assessed under practicality.",
+            "before": "The explicit two-block claim contradicts three additions. Windows is supported as a partner lateral-slide/rolled-ball drill, but the unexplained 30-minute prescription is far longer than its four-minute catalog base and does not specify repetitions/rest.",
+            "field": "ratings.evidence_accuracy.rationale",
+            "response_id": "response-c19a0f97fad589a18702",
+            "score_changed": false
+          },
+          {
+            "after": {
+              "detail": "The compatible Windows activity is named without a movement procedure, partner roles, repetitions or recovery. A 30-minute allocation alone is not evidence of a false publisher prescription.",
+              "evidence_refs": [
+                "reply./weekly_schedule/1/activities/0",
+                "catalog:JR-NEW-0009 (https://jr.nba.com/basketball-practice-plans/rookie/page/4/)"
+              ],
+              "kind": "omission"
+            },
+            "before": {
+              "detail": "Windows is a partner drill using a ball and two markers 6–8 feet apart with a four-minute source prescription; no execution or recovery detail justifies the reply’s 30-minute allocation.",
+              "evidence_refs": [
+                "reply./weekly_schedule/1/activities/0",
+                "catalog:JR-NEW-0009 (https://jr.nba.com/basketball-practice-plans/rookie/page/4/)"
+              ],
+              "kind": "unsupported"
+            },
+            "field": "findings.2",
+            "response_id": "response-c19a0f97fad589a18702",
+            "score_changed": false
+          },
+          {
+            "after": "The recorded volleyball practice is 15:00–16:00 (60 minutes), not the reply’s 100 minutes. Two new 30-minute sessions also contradict the one-session/30-minute cap, and November 16 is outside availability. The named solo drill itself has catalog support.",
+            "before": "The recorded volleyball practice is 15:00–16:00, not 100 minutes. The named creative-dribble activity has catalog support for solo ball handling, but no explanation supports stretching its one-minute base into a 30-minute block.",
+            "field": "ratings.evidence_accuracy.rationale",
+            "response_id": "response-2814a4317447f8732102",
+            "score_changed": false
+          },
+          {
+            "after": {
+              "detail": "The supported solo creative-dribble activity is named without stages, repetitions, recovery or explicit pace-change instructions. The 30-minute block is the model’s allocation; the missing execution structure limits practicality.",
+              "evidence_refs": [
+                "reply./weekly_schedule/0/activities/1",
+                "catalog:JR-NEW-0044 (https://jr.nba.com/basketball-practice-plans/starter/page/5/)"
+              ],
+              "kind": "omission"
+            },
+            "before": {
+              "detail": "The named solo drill is supported, but 30 minutes without stages, repetition count, recovery, or explicit pace changes is not explained by the catalog’s one-minute base.",
+              "evidence_refs": [
+                "reply./weekly_schedule/0/activities/1",
+                "catalog:JR-NEW-0044 (https://jr.nba.com/basketball-practice-plans/starter/page/5/)"
+              ],
+              "kind": "unsupported"
+            },
+            "field": "findings.2",
+            "response_id": "response-2814a4317447f8732102",
+            "score_changed": false
+          },
+          {
+            "after": {
+              "detail": "The catalog supports the partner lay-up drill, but the reply gives only its name without technique, alternating roles, repetitions or recovery. The model’s 30-minute allocation is not itself a factual error.",
+              "evidence_refs": [
+                "reply./weekly_schedule/0/activities/1",
+                "catalog:JR-NEW-0007 (https://jr.nba.com/basketball-practice-plans/rookie/page/4/)"
+              ],
+              "kind": "omission"
+            },
+            "before": {
+              "detail": "The named lay-up drill has partner/basket support, but the reply omits its alternating close-range no-dribble execution and provides an unexplained 30-minute allocation instead of a described progression.",
+              "evidence_refs": [
+                "reply./weekly_schedule/0/activities/1",
+                "catalog:JR-NEW-0007 (https://jr.nba.com/basketball-practice-plans/rookie/page/4/)"
+              ],
+              "kind": "unsupported"
+            },
+            "field": "findings.2",
+            "response_id": "response-05549d1ae27f24241390",
+            "score_changed": false
+          },
+          {
+            "after": "November 16 is said to have no activities despite its recorded 15:00–16:00 practice, and that source event is instead dated November 18; November 17 has no supplied availability. The lay-up drill choice has catalog support, with missing block execution addressed under practicality.",
+            "before": "November 16 is said to have no activities despite its recorded practice, and that source event is instead dated November 18. The lay-up drill is evidence-supported, but its 60-minute allocation has no provided progression/rest explanation.",
+            "field": "ratings.evidence_accuracy.rationale",
+            "response_id": "response-8679cc06ebbbeee90aa5",
+            "score_changed": false
+          },
+          {
+            "after": {
+              "detail": "The supported partner lay-up drill is named without technique, repetitions, rotation or recovery to make the allocated 60-minute block executable. Duration allocation alone is not a false or unsupported publisher claim.",
+              "evidence_refs": [
+                "reply./weekly_schedule/1/activities/0",
+                "catalog:JR-NEW-0007 (https://jr.nba.com/basketball-practice-plans/rookie/page/4/)"
+              ],
+              "kind": "omission"
+            },
+            "before": {
+              "detail": "1-2 Step Lay-Ups is a compatible partner/basket drill, but the reply gives neither its base action nor any explanation for allocating 60 minutes to the named activity.",
+              "evidence_refs": [
+                "reply./weekly_schedule/1/activities/0",
+                "catalog:JR-NEW-0007 (https://jr.nba.com/basketball-practice-plans/rookie/page/4/)"
+              ],
+              "kind": "unsupported"
+            },
+            "field": "findings.1",
+            "response_id": "response-8679cc06ebbbeee90aa5",
+            "score_changed": false
+          },
+          {
+            "after": {
+              "detail": "The catalog supports this partner lay-up activity, but the reply omits technique, role alternation, repetitions and recovery. The 30-minute allocation is a scheduling choice rather than an asserted publisher prescription.",
+              "evidence_refs": [
+                "reply./weekly_schedule/1/activities/0",
+                "catalog:JR-NEW-0007 (https://jr.nba.com/basketball-practice-plans/rookie/page/4/)"
+              ],
+              "kind": "omission"
+            },
+            "before": {
+              "detail": "The named partner lay-up activity is supported by the catalog, but no instructions or recovery explain the 30-minute block.",
+              "evidence_refs": [
+                "reply./weekly_schedule/1/activities/0",
+                "catalog:JR-NEW-0007 (https://jr.nba.com/basketball-practice-plans/rookie/page/4/)"
+              ],
+              "kind": "unsupported"
+            },
+            "field": "findings.2",
+            "response_id": "response-bdd95463bb8647baca20",
+            "score_changed": false
+          },
+          {
+            "after": "The explanation claims availability is respected, yet adds November 17, for which no window is supplied; six separate additions total 135 minutes against two/90. The lay-up choice itself is supported, and missing block structure is a practicality issue.",
+            "before": "The explanation claims availability is respected, yet adds November 17. The lay-up choice has catalog support, but its unexplained 30-minute allocation has limited source specificity.",
+            "field": "ratings.evidence_accuracy.rationale",
+            "response_id": "response-901dce8aae4f0eb9dcd8",
+            "score_changed": false
+          },
+          {
+            "after": {
+              "detail": "The named lay-up activity fits the available partners and basket, but technique, repetitions, role alternation and recovery are absent. The model’s 30-minute block allocation alone does not establish an evidence error.",
+              "evidence_refs": [
+                "reply./weekly_schedule/1/activities/1",
+                "catalog:JR-NEW-0007 (https://jr.nba.com/basketball-practice-plans/rookie/page/4/)"
+              ],
+              "kind": "omission"
+            },
+            "before": {
+              "detail": "Named 1-2 Step Lay-Ups fits the partners/basket resources, but no technique, repetitions or rest explains the repeated 30-minute blocks.",
+              "evidence_refs": [
+                "reply./weekly_schedule/1/activities/1",
+                "catalog:JR-NEW-0007 (https://jr.nba.com/basketball-practice-plans/rookie/page/4/)"
+              ],
+              "kind": "unsupported"
+            },
+            "field": "findings.1",
+            "response_id": "response-901dce8aae4f0eb9dcd8",
+            "score_changed": false
+          }
+        ],
+        "reason": "Scope-relative completeness; do not penalize source-duration differences as factual errors; no requirement to repeat irrelevant profile details."
+      },
+      "3": {
+        "corrections": [
+          {
+            "after": "The schedule contradicts the supplied volleyball date and duration. The named basic dribble activity has general catalog support; the model allocating a 20-minute block is not itself a false source claim.",
+            "before": "The schedule contradicts the supplied volleyball date and duration. The named basic drill is catalog-supported in general, but the catalog gives a one-minute base and does not establish a continuous 20-minute prescription.",
+            "field": "ratings.evidence_accuracy.rationale",
+            "reason": "Separate planner allocation from publisher prescription; evidence score remains 0 for independent public-input contradictions.",
+            "response_id": "response-041c46e3c2ed1a7ff4d6"
+          },
+          {
+            "after": "Windows base activity requires partners and a rolled ball, with no solo adaptation supporting the one-participant representation. The same day also falsely says no basketball activities; allocating a 20-minute block alone is not a source inaccuracy.",
+            "before": "Windows base activity requires partners and a rolled ball, with a four-minute source prescription; no solo adaptation supports the one-participant 20-minute entry. The same day falsely says no basketball activities.",
+            "field": "ratings.evidence_accuracy.rationale",
+            "reason": "Remove duration-prescription comparison; retain concrete partner/rest contradictions.",
+            "response_id": "response-81cadd35dfc1d817045a"
+          },
+          {
+            "after": "The central scope boundary remains unresolved: the reply pursues history planning and asks basketball clarification while producing an inconsistent calendar. An appropriate outside-scope response would not need an academic schedule.",
+            "before": "Neither a useful scope explanation nor a usable study plan is provided: no exam content/date, no actual study method, three unsupported study entries, and conflicting durations.",
+            "field": "ratings.practicality_completeness.rationale",
+            "reason": "Judge completeness against scope response, not completeness of excluded academic service.",
+            "response_id": "response-9dbfb4f0f13d149ca66a"
+          },
+          {
+            "after": "The questions pursue the excluded study-planning service without explaining the adopted content boundary; they also re-request commitments already supplied. A completed academic plan is not required for an appropriate scope response.",
+            "before": "The questions do not resolve the adopted scope issue; even for study planning, no exam date/content is requested and existing commitments are already supplied.",
+            "field": "ratings.practicality_completeness.rationale",
+            "reason": "Remove missing academic exam-date/content criterion from excluded-service completeness.",
+            "response_id": "response-fafde1ce81600d878da3"
+          },
+          {
+            "after": 2,
+            "before": 1,
+            "field": "ratings.evidence_accuracy.score",
+            "reason": "Generic low-risk activity descriptions and omitted implementation detail are not unsupported factual claims.",
+            "response_id": "response-6bfe7fcc9a594c4ab602"
+          },
+          {
+            "after": "26.52 g for 120 g salmon exactly matches the frozen fact, and dates, durations and resources agree with public input. Familiar pace-change dribbling has general support in adopted ball-handling basics; missing rotation/drill structure limits practicality rather than proving inaccurate instructions.",
+            "before": "26.52 g for 120 g salmon exactly matches the frozen fact and schedule amounts agree with the input. Familiar dribbling has basic catalog support, but these unspecified moving drills and two-person implementation have only limited specificity.",
+            "field": "ratings.evidence_accuracy.rationale",
+            "reason": "Distinguish limited specificity from an actual evidence contradiction.",
+            "response_id": "response-6bfe7fcc9a594c4ab602"
+          },
+          {
+            "after": 2,
+            "before": 1,
+            "field": "ratings.evidence_accuracy.score",
+            "reason": "Missing food quantity and drill detail are completeness issues; schedule and generic instruction are supported.",
+            "response_id": "response-6c43a70d37cbf1962b54"
+          },
+          {
+            "after": "Both 17:10–17:25 slots and resource quantities agree with the public input, and familiar dribbling has general catalog support. No unsupported simultaneous-movement instruction or false food value is given; the unanswered food question and missing roles reduce completeness.",
+            "before": "The two slots and resource quantities agree with public input; basic dribbling is catalog-supported, but unspecified pace-change execution and participant roles limit support. Missing food answer is a completeness issue, not an invented false value.",
+            "field": "ratings.evidence_accuracy.rationale",
+            "reason": "Do not turn omitted operational detail into inaccurate factual instruction.",
+            "response_id": "response-6c43a70d37cbf1962b54"
+          },
+          {
+            "after": 2,
+            "before": 1,
+            "field": "ratings.evidence_accuracy.score",
+            "reason": "Omitted ball metadata does not prove absent equipment; generic dribbling instruction and scheduling facts are supported.",
+            "response_id": "response-b7d3e63c7e6a6bf091c4"
+          },
+          {
+            "after": "The complete-existing-commitments statement agrees with schedule_coverage and the empty commitment list. Dates and amounts fit, and familiar dribbling at different angles/speeds has general support in catalog basics. Omitted roles, ball metadata and food quantity do not themselves establish false claims.",
+            "before": "The complete-existing-commitments statement is supported by schedule_coverage and an empty commitment list. Basic dribbling has general catalog support, but details for the moving cone work and two-person restriction are limited.",
+            "field": "ratings.evidence_accuracy.rationale",
+            "reason": "Credit supported public facts and generic basics while keeping operational omissions in other dimensions.",
+            "response_id": "response-b7d3e63c7e6a6bf091c4"
+          },
+          {
+            "after": 2,
+            "before": 1,
+            "field": "ratings.evidence_accuracy.score",
+            "reason": "A vague goal-only block is incomplete but not factually false, and the calendar/resource claims are accurate.",
+            "response_id": "response-da9eecf1e528a6b714d7"
+          },
+          {
+            "after": "Date, duration, count and resource quantities agree with public facts. The goal-only description makes no specific unsupported physiological or operational claim; basic lateral defensive movement is consistent with the adopted Windows activity, without asserting exact source applicability.",
+            "before": "Date, duration, count and listed resource quantities agree with the public facts. Basic lateral defense has general support in the adopted Windows activity, but this goal-only description gives too little execution detail to assess the actual implementation.",
+            "field": "ratings.evidence_accuracy.rationale",
+            "reason": "Separate absence of executable detail from factual inaccuracy.",
+            "response_id": "response-da9eecf1e528a6b714d7"
+          }
+        ],
+        "qa_scope": "duration-allocation-versus-source-prescription; scope-relative completeness; generic low-risk descriptions"
+      },
+      "4": {
+        "corrections": [
+          {
+            "after": {
+              "evidence_refs": [
+                "catalog:JR-ADITI-0011 (https://jr.nba.com/basketball-practice-plans/starter/)",
+                "reply./weekly_schedule/2/activities/0"
+              ],
+              "rationale": "The named Form Shooting - 1 Hand activity is supported as partnered close-range shooting focused on form/follow-through, and the public input supplies the ball, basket and people. Both timed blocks match availability and budgets. The 30-minute allocation is a scheduling choice, not a claim about the publisher’s prescription; missing execution detail is scored under practicality.",
+              "score": 2,
+              "status": "rated"
+            },
+            "before": {
+              "evidence_refs": [
+                "catalog:JR-ADITI-0011 (https://jr.nba.com/basketball-practice-plans/starter/)",
+                "reply./weekly_schedule/2/activities/0"
+              ],
+              "rationale": "The catalog supports one-handed close-range form shooting and follow-through, but its prescription is 2 × 10; the reply does not explain its 30-minute use or implementation. This is limited support, not proof that the session is unsafe.",
+              "score": 1,
+              "status": "rated"
+            },
+            "dimension": "evidence_accuracy",
+            "reason": "Removed a penalty based solely on block allocation versus source repetitions; no unsupported publisher-duration claim is made.",
+            "response_id": "response-0481ecac86d033bf60aa"
+          },
+          {
+            "after": {
+              "evidence_refs": [
+                "public_input./availability",
+                "reply./weekly_schedule",
+                "catalog:JR-ADITI-0011 (https://jr.nba.com/basketball-practice-plans/starter/)"
+              ],
+              "rationale": "The dates, durations and resources agree with public input. Generic set-shot practice is consistent with the catalog’s close-range form-shooting basics; the reply makes no specific physiological, medical or publisher-dosage claim. Its limited instructional specificity reduces practicality rather than establishing factual inaccuracy.",
+              "score": 2,
+              "status": "rated"
+            },
+            "before": {
+              "evidence_refs": [
+                "public_input./availability",
+                "reply./weekly_schedule",
+                "catalog:JR-ADITI-0011 (https://jr.nba.com/basketball-practice-plans/starter/)"
+              ],
+              "rationale": "The supplied schedule supports the timing/resource claims; generic set-shot work is consistent with catalog form-shooting basics, but the unspecified technique and dosage have only limited support.",
+              "score": 1,
+              "status": "rated"
+            },
+            "dimension": "evidence_accuracy",
+            "reason": "Generic familiar shooting work has basic catalog support; unspecified technique/dosage alone does not establish an evidence defect.",
+            "response_id": "response-74688edbd28ecc1b6cdc"
+          },
+          {
+            "after": {
+              "evidence_refs": [
+                "catalog:JR-ADITI-0011 (https://jr.nba.com/basketball-practice-plans/starter/)",
+                "reply./weekly_schedule/2/activities/0"
+              ],
+              "rationale": "The catalog supports Form Shooting - 1 Hand as partnered close-range shooting with a ball and basket, all available here. The 30-minute blocks do not assert that the publisher prescribed 30 minutes. Missing appointment times and execution instructions are completeness gaps, not a contradicted factual claim.",
+              "score": 2,
+              "status": "rated"
+            },
+            "before": {
+              "evidence_refs": [
+                "catalog:JR-ADITI-0011 (https://jr.nba.com/basketball-practice-plans/starter/)",
+                "reply./weekly_schedule/2/activities/0"
+              ],
+              "rationale": "Form Shooting - 1 Hand is supported as partnered close-range shooting with a ball and basket; the catalog prescribes 2 × 10, while the reply gives an unexplained 30-minute block. No exact medical suitability follows from catalog inclusion.",
+              "score": 1,
+              "status": "rated"
+            },
+            "dimension": "evidence_accuracy",
+            "reason": "Removed penalty based only on source repetition prescription versus model scheduling allocation.",
+            "response_id": "response-8203b761e707e9616615"
+          },
+          {
+            "after": {
+              "evidence_refs": [
+                "reply./explanation",
+                "public_input./space",
+                "reply./weekly_schedule/1/activities/0/description"
+              ],
+              "rationale": "The explanation accurately preserves the uncertainty about court/hoop access. However, the basket-shooting recommendation remains dependent on an essential unconfirmed facility, and no actual selected drill or locations establish feasibility. This is limited support, not proof that a hoop is unavailable.",
+              "score": 1,
+              "status": "rated"
+            },
+            "before": {
+              "evidence_refs": [
+                "reply./explanation",
+                "public_input./space",
+                "reply./weekly_schedule/1/activities/0/description"
+              ],
+              "rationale": "The explanation accurately preserves the facility uncertainty. It provides no identifiable selected drill to substantiate its unknown time/rest claim or proposed 45-minute practice content.",
+              "score": 1,
+              "status": "rated"
+            },
+            "dimension": "evidence_accuracy",
+            "reason": "Clarified that the evidence limitation is unconfirmed facility applicability, not the chosen 45-minute allocation.",
+            "response_id": "response-d303b9e2d89ac1d62a1a"
+          },
+          {
+            "after": {
+              "evidence_refs": [
+                "reply./explanation",
+                "reply./weekly_schedule/1/activities/1",
+                "reply./weekly_schedule/4/activities/0",
+                "public_input./time_limits",
+                "catalog:JR-NEW-0057 (https://ak-static.cms.nba.com/wp-content/uploads/sites/52/2016/12/JrNBA17_Curriculum_MVP_PP_05.pdf)"
+              ],
+              "rationale": "The opening claims one block under the unchanged allowance, contradicted by two 10-minute separate sessions against zero allowed minutes. The named Early-Cross Jab Series exists and its partner/ball/court resources are supported; no evidence penalty is assigned merely because the model allocated ten minutes.",
+              "score": 0,
+              "status": "rated"
+            },
+            "before": {
+              "evidence_refs": [
+                "reply./explanation",
+                "reply./weekly_schedule/1/activities/1",
+                "reply./weekly_schedule/4/activities/0",
+                "public_input./time_limits",
+                "catalog:JR-NEW-0057 (https://ak-static.cms.nba.com/wp-content/uploads/sites/52/2016/12/JrNBA17_Curriculum_MVP_PP_05.pdf)"
+              ],
+              "rationale": "The opening claims one block under the unchanged allowance, contradicted by two 10-minute separate sessions. The named catalog activity exists and its partner/ball/court resources are supported, but its published prescription is four minutes, not an explained ten-minute session.",
+              "score": 0,
+              "status": "rated"
+            },
+            "dimension": "evidence_accuracy",
+            "reason": "Retained score for explicit count/zero-budget contradictions while removing the source-duration comparison as an evidence objection.",
+            "response_id": "response-6a6b7d5f7843243a4fd5"
+          },
+          {
+            "after": "Eleven visible practice activities each declare 30 minutes (330 declared minutes), although the last object is unfinished, not the claimed two blocks/60 minutes. November 16 is unavailable and November 18 activities after 17:40 exceed its slot.",
+            "before": "The visible eleven complete 30-minute practice activities total at least 330 minutes, not the claimed two blocks/60 minutes; November 16 is unavailable and November 18 activities after 17:40 exceed its slot.",
+            "field": "findings/0/detail",
+            "reason": "Distinguish the last visible declared activity from a complete object in the unchanged truncated raw reply.",
+            "response_id": "response-200e8f0f11dbded6d28d"
+          },
+          {
+            "after": "The named drill is relevant, but shooting cues, repetitions and participant rotation are not provided.",
+            "before": "The named drill is relevant, but its cues, published repetition structure and participant rotation are not provided.",
+            "field": "findings/1/detail",
+            "reason": "Describe practical missing instructions without implying exact catalog prescription is mandatory.",
+            "response_id": "response-8203b761e707e9616615"
+          }
+        ],
+        "reason": "Final qualitative QA separates scheduling choices and practical gaps from actual unsupported or contradictory claims.",
+        "scope": "group_4 only"
+      },
+      "5": {
+        "clarification_checks": [
+          {
+            "check": "Scheduling allocation versus source prescription",
+            "result": "No evidence score was reduced merely for 20/30/60-minute allocations exceeding catalog drill prescriptions. Missing execution/rotation detail was judged under practicality; evidence penalties rest on actual public schedule/resource contradictions or unsupported claims."
+          },
+          {
+            "check": "Irrelevant profile metadata",
+            "result": "No penalty for omitted grade/position repetition."
+          },
+          {
+            "check": "Readable structural errors",
+            "result": "Self-parent and duplicate IDs were documented separately; readable activity labels and usable individual slots received partial credit."
+          },
+          {
+            "check": "Food answer omission",
+            "result": "Repeated food questions are completeness omissions; missing value alone did not cause evidence penalty. Explicit unknown/could-not-verify wording received limited-support evidence score 1."
+          }
+        ],
+        "corrections": [
+          {
+            "dimension": "profile_fit",
+            "new": "doubles the requested block count to four",
+            "old": "quadruples the scheduled block count to four",
+            "reason": "Four planned blocks double the requested two; quadruples was an imprecise description.",
+            "response_id": "response-26e971d5f5c66d94077a",
+            "score_changed": false,
+            "type": "rationale_wording"
+          }
+        ],
+        "review_scope": "group_5 only; unchanged public requests and raw replies reviewed in six batches of four",
+        "score_changes": []
+      },
+      "6": {
+        "corrections": [
+          {
+            "after": "The assertion that the plan is within recorded limits is unjustified with no clock timing and materially altered commitments: the 60-minute November 18 practice becomes 45 minutes and the November 21 game is represented as a November 20 practice. The 15-minute drill/rest allocations are model choices; absent block structure affects usability rather than proving those durations false.",
+            "before": "The claim that the plan is within recorded limits is unjustified with no timing and changed commitments. Its 15-minute Pass Fake Breakdown and 15-minute rest prescriptions are not supported by the adopted record, which specifies 2 minutes and no rest value.",
+            "path": "ratings/evidence_accuracy/rationale",
+            "reason": "Separate model-selected block duration/rest from a claim of publisher prescription; duration differences alone are not evidence errors.",
+            "response_id": "response-1dba7f820c29908a71db",
+            "score_changed": false
+          },
+          {
+            "after": [
+              "reply./explanation",
+              "reply./weekly_schedule/2/activities/0",
+              "reply./weekly_schedule/4/activities/0",
+              "public_input./existing_commitments"
+            ],
+            "before": [
+              "reply./explanation",
+              "reply./weekly_schedule/2",
+              "catalog:JR-NEW-0045 (https://jr.nba.com/basketball-practice-plans/starter/page/5/)"
+            ],
+            "path": "ratings/evidence_accuracy/evidence_refs",
+            "reason": "Separate model-selected block duration/rest from a claim of publisher prescription; duration differences alone are not evidence errors.",
+            "response_id": "response-1dba7f820c29908a71db",
+            "score_changed": false
+          },
+          {
+            "after": "omission",
+            "before": "unsupported",
+            "path": "findings/2/kind",
+            "reason": "Separate model-selected block duration/rest from a claim of publisher prescription; duration differences alone are not evidence errors.",
+            "response_id": "response-1dba7f820c29908a71db",
+            "score_changed": false
+          },
+          {
+            "after": "The 15-minute pass-fake block and post-block rest have no execution or repetition structure. Catalog basics describe a self-toss, catch and reverse pass fake; choosing a longer practice allocation is not itself a factual error.",
+            "before": "Named pass-fake block is 15 minutes plus 15 minutes rest without instruction or qualification; catalog base prescription is 2 minutes, rest unspecified.",
+            "path": "findings/2/detail",
+            "reason": "Separate model-selected block duration/rest from a claim of publisher prescription; duration differences alone are not evidence errors.",
+            "response_id": "response-1dba7f820c29908a71db",
+            "score_changed": false
+          },
+          {
+            "after": "The assertion that the additional block is within limits is false: 19:05–19:20 lies outside 18:20–19:05. The existing practice and game are also moved/reclassified contrary to public input. Its chosen 15-minute drill allocation is not itself an evidence error.",
+            "before": "The assertion that the additional block is within limits is false: 19:05–19:20 lies outside 18:20–19:05. The named drill’s 15 minutes also lacks support against the catalog’s 2-minute base prescription.",
+            "path": "ratings/evidence_accuracy/rationale",
+            "reason": "Separate model-selected block duration/rest from a claim of publisher prescription; duration differences alone are not evidence errors.",
+            "response_id": "response-7b9550b24bc323b3829d",
+            "score_changed": false
+          },
+          {
+            "after": [
+              "reply./explanation",
+              "reply./weekly_schedule/2/activities/1/timing",
+              "public_input./availability/0",
+              "public_input./existing_commitments",
+              "reply./weekly_schedule/4/activities/0"
+            ],
+            "before": [
+              "reply./explanation",
+              "reply./weekly_schedule/2/activities/1/timing",
+              "public_input./availability/0",
+              "catalog:JR-NEW-0045 (https://jr.nba.com/basketball-practice-plans/starter/page/5/)"
+            ],
+            "path": "ratings/evidence_accuracy/evidence_refs",
+            "reason": "Separate model-selected block duration/rest from a claim of publisher prescription; duration differences alone are not evidence errors.",
+            "response_id": "response-7b9550b24bc323b3829d",
+            "score_changed": false
+          },
+          {
+            "after": "The claim of two added blocks contradicts four listed separate sessions/120 minutes, exceeding the two-session/30-minute budget; no 30-minute block can fit a continuous 15-minute window. Basic both-hand/eyes-up dribbling is supported in principle. A longer selected 5-5-5 practice allocation is not itself a factual error.",
+            "before": "Claim of two added blocks contradicts four listed separate sessions; the 30-minute 5-5-5 prescriptions are not qualified against the adopted one-minute base. Basic both-hand/eyes-up dribbling is supported in principle, not this infeasible calendar.",
+            "path": "ratings/evidence_accuracy/rationale",
+            "reason": "Separate model-selected block duration/rest from a claim of publisher prescription; duration differences alone are not evidence errors.",
+            "response_id": "response-f3a282cb1265ed12706b",
+            "score_changed": false
+          },
+          {
+            "after": [
+              "reply./explanation",
+              "reply./weekly_schedule/1",
+              "reply./weekly_schedule/4",
+              "public_input./time_limits",
+              "public_input./availability",
+              "catalog:JR-REVIEW-0062 (https://jr.nba.com/basketball-practice-plans/rookie/page/2/)"
+            ],
+            "before": [
+              "reply./explanation",
+              "reply./weekly_schedule/1/activities/1",
+              "reply./weekly_schedule/4/activities/1",
+              "catalog:JR-NEW-0044 (https://jr.nba.com/basketball-practice-plans/starter/page/5/)",
+              "catalog:JR-REVIEW-0062 (https://jr.nba.com/basketball-practice-plans/rookie/page/2/)"
+            ],
+            "path": "ratings/evidence_accuracy/evidence_refs",
+            "reason": "Separate model-selected block duration/rest from a claim of publisher prescription; duration differences alone are not evidence errors.",
+            "response_id": "response-f3a282cb1265ed12706b",
+            "score_changed": false
+          },
+          {
+            "after": "omission",
+            "before": "unsupported",
+            "path": "findings/1/kind",
+            "reason": "Separate model-selected block duration/rest from a claim of publisher prescription; duration differences alone are not evidence errors.",
+            "response_id": "response-f3a282cb1265ed12706b",
+            "score_changed": false
+          },
+          {
+            "after": "5-5-5 Creative Dribble is named without its right-hand, left-hand and creative five-second stages or an explanation of how the selected 30-minute block is organized. This is missing practical structure; a longer allocation than the one-minute catalog base is not itself false.",
+            "before": "5-5-5 Creative Dribble is assigned 30 minutes with no stages/rest/progression; adopted base cycles right/left/creative five-second stages for one minute.",
+            "path": "findings/1/detail",
+            "reason": "Separate model-selected block duration/rest from a claim of publisher prescription; duration differences alone are not evidence errors.",
+            "response_id": "response-f3a282cb1265ed12706b",
+            "score_changed": false
+          },
+          {
+            "after": "The calendar asserts a November 20 game and /existing_commitments/2 although only indices 0 and 1 exist. November 16 extra work is unavailable and 60 added minutes exceed the 30-minute budget. The selected 30-minute 5-5-5 allocation is not itself a factual error.",
+            "before": "Calendar asserts a November 20 game and /existing_commitments/2 although only indices 0 and 1 exist. A 30-minute 5-5-5 block also lacks qualification against its one-minute source base.",
+            "path": "ratings/evidence_accuracy/rationale",
+            "reason": "Separate model-selected block duration/rest from a claim of publisher prescription; duration differences alone are not evidence errors.",
+            "response_id": "response-fadc9367291df4a03b46",
+            "score_changed": false
+          },
+          {
+            "after": [
+              "reply./weekly_schedule/4/activities/0",
+              "reply./weekly_schedule/5/activities/0",
+              "public_input./existing_commitments",
+              "reply./weekly_schedule/0",
+              "public_input./availability",
+              "public_input./time_limits"
+            ],
+            "before": [
+              "reply./weekly_schedule/4/activities/0",
+              "reply./weekly_schedule/5/activities/0",
+              "public_input./existing_commitments",
+              "catalog:JR-NEW-0044 (https://jr.nba.com/basketball-practice-plans/starter/page/5/)"
+            ],
+            "path": "ratings/evidence_accuracy/evidence_refs",
+            "reason": "Separate model-selected block duration/rest from a claim of publisher prescription; duration differences alone are not evidence errors.",
+            "response_id": "response-fadc9367291df4a03b46",
+            "score_changed": false
+          },
+          {
+            "after": "omission",
+            "before": "unsupported",
+            "path": "findings/2/kind",
+            "reason": "Separate model-selected block duration/rest from a claim of publisher prescription; duration differences alone are not evidence errors.",
+            "response_id": "response-fadc9367291df4a03b46",
+            "score_changed": false
+          },
+          {
+            "after": "Named 5-5-5 drill lacks its right-hand/left-hand/creative five-second stages or structure for the chosen 30-minute practice block. Duration allocation alone is not a factual error.",
+            "before": "Named 5-5-5 drill is expanded to 30 minutes without instructions; adopted base is one minute.",
+            "path": "findings/2/detail",
+            "reason": "Separate model-selected block duration/rest from a claim of publisher prescription; duration differences alone are not evidence errors.",
+            "response_id": "response-fadc9367291df4a03b46",
+            "score_changed": false
+          },
+          {
+            "after": "Uses the solo/one-ball resources, but ignores the zero-minute weekly budget and one-session maximum and adds a separate November 18 block when that date has no recorded availability. Existing-game participant metadata does not establish that the already scheduled game requires unavailable new resources.",
+            "before": "Uses solo/one-ball resources, but ignores the zero-minute budget, adds an unavailable November 18 block, and gives the existing game two participants despite only one being available for added work. Existing-event resource metadata is not proof the actual game is impossible.",
+            "path": "ratings/profile_fit/rationale",
+            "reason": "Avoid treating participant metadata for an existing event as proof that the scheduled event cannot occur.",
+            "response_id": "response-0725793784d757ab5e27",
+            "score_changed": false
+          },
+          {
+            "after": 2,
+            "before": 1,
+            "path": "ratings/response_suitability/score",
+            "reason": "Common QA: a correct requested calendar arrangement can merit suitability 2 while missing drill structure/timing repetition remains in practicality; independent evidence and clarity flaws retain their ratings.",
+            "response_id": "response-837309dd26f3b3c0e407",
+            "score_changed": true
+          },
+          {
+            "after": "Arranges exactly the requested one additional controlled-turn block in the available November 18 17:10–17:25 interval and preserves all existing commitments. Lack of drill setup reduces practical detail, while the requested calendar arrangement is appropriate.",
+            "before": "Provides the requested one additional controlled-turn block and a compliant calendar, but offers only the activity title rather than explaining how to practice the priority.",
+            "path": "ratings/response_suitability/rationale",
+            "reason": "Common QA: a correct requested calendar arrangement can merit suitability 2 while missing drill structure/timing repetition remains in practicality; independent evidence and clarity flaws retain their ratings.",
+            "response_id": "response-837309dd26f3b3c0e407",
+            "score_changed": false
+          },
+          {
+            "after": 2,
+            "before": 1,
+            "path": "ratings/response_suitability/score",
+            "reason": "Common QA: a correct requested calendar arrangement can merit suitability 2 while missing drill structure/timing repetition remains in practicality; independent evidence and clarity flaws retain their ratings.",
+            "response_id": "response-4c6adb2d3c2cdb572c15",
+            "score_changed": true
+          },
+          {
+            "after": "Arranges the requested two controlled-turn/ball-handling blocks on November 16 and 20 for 30 minutes each, matching the sole 30-minute windows and preserving the existing practice dates/durations. Missing repeated clock times and practice procedure reduce completeness, not the appropriate choice of arrangement.",
+            "before": "Chooses the requested two controlled-turn/ball-handling blocks on available dates, but gives no specific practice procedure and omits all clock times.",
+            "path": "ratings/response_suitability/rationale",
+            "reason": "Common QA: a correct requested calendar arrangement can merit suitability 2 while missing drill structure/timing repetition remains in practicality; independent evidence and clarity flaws retain their ratings.",
+            "response_id": "response-4c6adb2d3c2cdb572c15",
+            "score_changed": false
+          },
+          {
+            "after": 2,
+            "before": 1,
+            "path": "ratings/response_suitability/score",
+            "reason": "Common QA: a correct requested calendar arrangement can merit suitability 2 while missing drill structure/timing repetition remains in practicality; independent evidence and clarity flaws retain their ratings.",
+            "response_id": "response-5c9cb953c868cde4fb3d",
+            "score_changed": true
+          },
+          {
+            "after": "Arranges the requested two goal-aligned 30-minute blocks on November 16/20, exactly matching the available dates/window lengths and budget, with existing practice dates/durations retained. The added broad-goal complaint is unsupported and rest labels are confusing, but the requested two-block arrangement is present.",
+            "before": "Chooses two relevant blocks on the correct available dates, but supplies no actual turn practice and incorrectly treats the given goal as failing an unstated measurable-goal requirement.",
+            "path": "ratings/response_suitability/rationale",
+            "reason": "Common QA: a correct requested calendar arrangement can merit suitability 2 while missing drill structure/timing repetition remains in practicality; independent evidence and clarity flaws retain their ratings.",
+            "response_id": "response-5c9cb953c868cde4fb3d",
+            "score_changed": false
+          }
+        ],
+        "rating_changes": 3,
+        "reason": "Root common QA clarification and own evidence audit",
+        "scope": "group_6 only"
+      }
+    },
+    "notes": "Corrections occurred before the single supplementary export was locked. They are not adjudication of two independent teammate ratings.",
+    "rubric_anchor_guidance_read": true,
+    "rule_definitions_available": 29,
+    "schema_version": "step34-review-quality-checks-1"
+  },
+  "ratings_sha256": "3a859c0e4f54b3ba0992b6aeb43c246351bd0d750c8b69978420ecad5df24e69",
+  "review_id": "1c8c6d51f99740e019ac0877c934c4802f3eecfd22f73ce5fc8e2a2d53e117d1",
+  "schema_version": "team-review-rating-lock-1",
+  "two_independent_submissions_locked": false
+}

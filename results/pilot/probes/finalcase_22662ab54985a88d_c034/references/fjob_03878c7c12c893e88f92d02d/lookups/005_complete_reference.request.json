@@ -1,0 +1,61 @@
+{
+  "args": [
+    {
+      "answerability_established_by_score": false,
+      "complete_required_delivery_text": "Passing options and outlet context\n\nThe UGA chapter distinguishes bounce, chest and overhead passes. It describes a bounce pass as reaching a teammate after contacting the floor, with a typical use when defenders have raised hands. A chest pass begins from the chest with both hands on the ball and a forward push from the chest; the chapter associates it with distance or speed. An overhead pass starts above the head and includes a forward follow-through. The chapter presents it as a common outlet option after a rebound, when the rebounder sends the ball to a teammate farther along the court. These are source-described technique and tactical examples.\n\nGeneral introductory basketball reference, selected and paraphrased from the cited chapter. No youth-specific suitability, training dose, medical clearance or planner approval is established.\n\nSource: 2. Fundamentals – Passing, Ch.1 - Basketball, UGA PEDB Program. https://open.online.uga.edu/basketball/chapter/2-fundamentals-passing/\nCh.1 - Basketball Copyright © by UGA PEDB Program is licensed under a Creative Commons Attribution 4.0 International License, except where otherwise noted. https://creativecommons.org/licenses/by/4.0/\nSelected explanatory text was paraphrased and shortened; listed omissions are outside this reference unit.\nThe selected paraphrase is shared under CC BY 4.0. UGA endorsement is not implied. License rights and disclaimers remain available at https://creativecommons.org/licenses/by/4.0/ and https://creativecommons.org/licenses/by/4.0/legalcode.en.",
+      "generation_context_budget_verified": false,
+      "passage_id": "uga-retrieval-passage:1512c600fb3972bafa1311c7becdab9005b28c94d1f412a695ef3069d26e8adb",
+      "rank": 2,
+      "reference_unit_id": "uga-reference-unit:6efdd1157d496a3b809ac5a5ca14a154819c239216512a03c3021512e4d9f58c",
+      "required_delivery_must_be_attached": true,
+      "required_delivery_record": {
+        "200_token_encoder_core_cap_applies_to_this_delivery": false,
+        "delivery_bundle_id": "uga-passage-delivery:bd6bb66b3da9834bdad395a0a2888731405a3bbbc35b968b97e70dc02687980b",
+        "delivery_is_not_used_as_embedding_passage": true,
+        "display_text": "Passing options and outlet context\n\nThe UGA chapter distinguishes bounce, chest and overhead passes. It describes a bounce pass as reaching a teammate after contacting the floor, with a typical use when defenders have raised hands. A chest pass begins from the chest with both hands on the ball and a forward push from the chest; the chapter associates it with distance or speed. An overhead pass starts above the head and includes a forward follow-through. The chapter presents it as a common outlet option after a rebound, when the rebounder sends the ball to a teammate farther along the court. These are source-described technique and tactical examples.\n\nGeneral introductory basketball reference, selected and paraphrased from the cited chapter. No youth-specific suitability, training dose, medical clearance or planner approval is established.\n\nSource: 2. Fundamentals – Passing, Ch.1 - Basketball, UGA PEDB Program. https://open.online.uga.edu/basketball/chapter/2-fundamentals-passing/\nCh.1 - Basketball Copyright © by UGA PEDB Program is licensed under a Creative Commons Attribution 4.0 International License, except where otherwise noted. https://creativecommons.org/licenses/by/4.0/\nSelected explanatory text was paraphrased and shortened; listed omissions are outside this reference unit.\nThe selected paraphrase is shared under CC BY 4.0. UGA endorsement is not implied. License rights and disclaimers remain available at https://creativecommons.org/licenses/by/4.0/ and https://creativecommons.org/licenses/by/4.0/legalcode.en.",
+        "display_text_sha256": "82841087a9454258d2b4d6ed0190d1e837ce2792a748d6ebeda58ab334d1eb7f",
+        "full_text_measured_without_truncation": true,
+        "generation_model_tokenizer_or_prompt_budget_verified": false,
+        "minilm_encoded_token_ids_sha256": "1b34a7935c25926acf062299a6a9bbea16d84719767cf047002b64ff9e69162a",
+        "minilm_encoded_tokens_including_specials": 354,
+        "passage_id": "uga-retrieval-passage:1512c600fb3972bafa1311c7becdab9005b28c94d1f412a695ef3069d26e8adb",
+        "reference_unit_id": "uga-reference-unit:6efdd1157d496a3b809ac5a5ca14a154819c239216512a03c3021512e4d9f58c",
+        "required_context_and_usage_credit_are_indivisible": true,
+        "schema_version": "step23-uga-token-budgeted-delivery-1",
+        "source_delivery_bundle": {
+          "chapter_url": "https://open.online.uga.edu/basketball/chapter/2-fundamentals-passing/",
+          "copyright_and_creator_notice": "Ch.1 - Basketball. Copyright © UGA PEDB Program.",
+          "delivery_bundle_id": "uga-required-delivery:44b94b786076338f21af4625b29f7d430282aad77893e68b53393c01a3ddba4e",
+          "display_text": "Passing options and outlet context\n\nThe UGA chapter distinguishes bounce, chest and overhead passes. It describes a bounce pass as reaching a teammate after contacting the floor, with a typical use when defenders have raised hands. A chest pass begins from the chest with both hands on the ball and a forward push from the chest; the chapter associates it with distance or speed. An overhead pass starts above the head and includes a forward follow-through. The chapter presents it as a common outlet option after a rebound, when the rebounder sends the ball to a teammate farther along the court. These are source-described technique and tactical examples.\n\nGeneral introductory basketball reference, selected and paraphrased from the cited chapter. No youth-specific suitability, training dose, medical clearance or planner approval is established.\n\nSource: 2. Fundamentals – Passing, Ch.1 - Basketball, UGA PEDB Program. https://open.online.uga.edu/basketball/chapter/2-fundamentals-passing/\nCh.1 - Basketball Copyright © by UGA PEDB Program is licensed under a Creative Commons Attribution 4.0 International License, except where otherwise noted. https://creativecommons.org/licenses/by/4.0/\nSelected explanatory text was paraphrased and shortened; listed omissions are outside this reference unit.\nThe selected paraphrase is shared under CC BY 4.0. UGA endorsement is not implied. License rights and disclaimers remain available at https://creativecommons.org/licenses/by/4.0/ and https://creativecommons.org/licenses/by/4.0/legalcode.en.",
+          "embedding_input_is_reference_core_only": true,
+          "encoded_token_count": null,
+          "generation_model_context_budget_verified": false,
+          "legalcode_url": "https://creativecommons.org/licenses/by/4.0/legalcode.en",
+          "license_compatible_downstream_rights_preserved": true,
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "license_warranty_disclaimer_is_linked_and_preserved": true,
+          "modification_notice": "Selected explanatory text was paraphrased and shortened; listed omissions are outside this reference unit.",
+          "no_uga_endorsement_implied": true,
+          "original_license_notice": "Ch.1 - Basketball Copyright © by UGA PEDB Program is licensed under a Creative Commons Attribution 4.0 International License, except where otherwise noted.",
+          "reference_text": "The UGA chapter distinguishes bounce, chest and overhead passes. It describes a bounce pass as reaching a teammate after contacting the floor, with a typical use when defenders have raised hands. A chest pass begins from the chest with both hands on the ball and a forward push from the chest; the chapter associates it with distance or speed. An overhead pass starts above the head and includes a forward follow-through. The chapter presents it as a common outlet option after a rebound, when the rebounder sends the ball to a teammate farther along the court. These are source-described technique and tactical examples.",
+          "reference_text_sha256": "cad2cceed8dd03a9fb44392879678020418d069af8edbfdcebcc619cac5922ed",
+          "reference_unit_id": "uga-reference-unit:6efdd1157d496a3b809ac5a5ca14a154819c239216512a03c3021512e4d9f58c",
+          "reference_unit_record_sha256": "2d22c6180d05a399363320d97ccec6ef34b0ff0097190355682ec684568931c7",
+          "required_context": "General introductory basketball reference, selected and paraphrased from the cited chapter. No youth-specific suitability, training dose, medical clearance or planner approval is established.",
+          "schema_version": "step23-uga-required-delivery-1",
+          "source_version_record_sha256": "ff1300ed8e0b3d0f33f9836c17f71cbf790346cd514264066d71b60ba12c161f",
+          "standalone_reference_without_required_context_and_credit_allowed": false,
+          "supplied_additional_warranty_or_modification_notices_observed": []
+        },
+        "source_delivery_bundle_id": "uga-required-delivery:44b94b786076338f21af4625b29f7d430282aad77893e68b53393c01a3ddba4e",
+        "source_delivery_record_sha256": "dc406f89f9b678c9b511970cc93f7b7637290ac6e397b71c5c85bd3a1f40b7c9",
+        "source_unit_record_sha256": "2d22c6180d05a399363320d97ccec6ef34b0ff0097190355682ec684568931c7"
+      },
+      "score": 0.40174789798823707,
+      "score_kind": "embedding_cosine",
+      "standalone_core_delivery_allowed": false
+    }
+  ],
+  "kwargs": {},
+  "method": "complete_reference"
+}

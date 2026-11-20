@@ -1,0 +1,379 @@
+{
+  "schema_version": "prototype-snapshot-1",
+  "application_version": "prototype-29-1",
+  "exported_at": "2026-11-14T16:37:15.710494+00:00",
+  "profile": {
+    "profile_version": "profile-7001519c8778492297faf40c5a39b022",
+    "planning_hash": "d4768408d357325969b8f0b7c5169444477cd7628ee0b187a27440c1b162562e",
+    "public_record": {
+      "input": {
+        "age": 13,
+        "athlete_request": "Please plan two extra basketball sessions this week to work on changes of direction. Use only the availability and resources I have listed.",
+        "availability": [
+          {
+            "date": "2026-11-16",
+            "end_time": "17:50",
+            "start_time": "17:30"
+          },
+          {
+            "date": "2026-11-18",
+            "end_time": "17:50",
+            "start_time": "17:30"
+          },
+          {
+            "date": "2026-11-21",
+            "end_time": "17:50",
+            "start_time": "17:30"
+          }
+        ],
+        "basketball_background": {
+          "experience_level": "advanced"
+        },
+        "equipment": [
+          {
+            "name": "Basketball",
+            "quantity": 1
+          },
+          {
+            "name": "Cones",
+            "quantity": 4
+          },
+          {
+            "name": "Hoop",
+            "quantity": 1
+          }
+        ],
+        "existing_commitments": [],
+        "food_question": "For the food \"Strawberries, raw\", how many grams of protein are recorded for 100 g?",
+        "goals": [
+          "Improve changes of direction"
+        ],
+        "participants_available": 2,
+        "planning_window": {
+          "end_date": "2026-11-22",
+          "start_date": "2026-11-16",
+          "timezone": "America/Los_Angeles"
+        },
+        "reported_limitations": [],
+        "school_grade": 8,
+        "space": {
+          "court_access": "full_court",
+          "hoop_access": true,
+          "restrictions": [],
+          "usable_area_description": "Full basketball court available during the listed windows."
+        },
+        "time_limits": {
+          "max_additional_minutes_per_week": 60,
+          "max_additional_sessions_per_week": 3,
+          "max_session_minutes": 20
+        }
+      },
+      "profile_id": "athlete:3ceae454f8a62ee308cd87f4",
+      "schema_version": "interactive-profile-input-1"
+    },
+    "saved_at": "2026-11-14T16:37:15.673389+00:00"
+  },
+  "plan": {
+    "plan_version": "plan-0c653b56315d4deca50773e0d3eb262b",
+    "parent_plan_version": null,
+    "content_hash": "e66f58b8a9a1390f1f915e27ceaa5853e8fc273a4bac5588ec2ab79cabf363a4",
+    "profile_version": "profile-7001519c8778492297faf40c5a39b022",
+    "profile_planning_hash": "d4768408d357325969b8f0b7c5169444477cd7628ee0b187a27440c1b162562e",
+    "response": {
+      "explanation": "Two additional basketball sessions have been scheduled to work on changes of direction, while respecting the athlete's existing commitments and available resources.",
+      "planning_window": {
+        "end_date": "2026-11-22",
+        "start_date": "2026-11-16",
+        "timezone": "America/Los_Angeles"
+      },
+      "response_type": "plan",
+      "weekly_schedule": [
+        {
+          "activities": [
+            {
+              "activity_id": "session1",
+              "description": "Basketball session to work on changes of direction",
+              "duration_minutes": 20,
+              "existing_commitment_refs": [],
+              "relationship": {
+                "kind": "separate_session",
+                "parent_activity_id": null
+              },
+              "resources": {
+                "equipment": [
+                  {
+                    "name": "Basketball",
+                    "quantity": 1
+                  },
+                  {
+                    "name": "Cones",
+                    "quantity": 4
+                  }
+                ],
+                "participants": 2,
+                "space": "full_court"
+              },
+              "timing": {
+                "end_time": "17:50",
+                "start_time": "17:30"
+              }
+            }
+          ],
+          "date": "2026-11-16",
+          "rest_arrangements": "Rest for 30 minutes after the session"
+        },
+        {
+          "activities": [],
+          "date": "2026-11-17",
+          "rest_arrangements": "Rest and recovery day"
+        },
+        {
+          "activities": [
+            {
+              "activity_id": "session2",
+              "description": "Basketball session to work on changes of direction",
+              "duration_minutes": 20,
+              "existing_commitment_refs": [],
+              "relationship": {
+                "kind": "separate_session",
+                "parent_activity_id": null
+              },
+              "resources": {
+                "equipment": [
+                  {
+                    "name": "Basketball",
+                    "quantity": 1
+                  },
+                  {
+                    "name": "Cones",
+                    "quantity": 4
+                  }
+                ],
+                "participants": 2,
+                "space": "full_court"
+              },
+              "timing": {
+                "end_time": "17:50",
+                "start_time": "17:30"
+              }
+            }
+          ],
+          "date": "2026-11-18",
+          "rest_arrangements": "Rest for 30 minutes after the session"
+        },
+        {
+          "activities": [],
+          "date": "2026-11-19",
+          "rest_arrangements": "Rest and recovery day"
+        },
+        {
+          "activities": [],
+          "date": "2026-11-20",
+          "rest_arrangements": "Rest and recovery day"
+        },
+        {
+          "activities": [
+            {
+              "activity_id": "session3",
+              "description": "Basketball session to work on changes of direction",
+              "duration_minutes": 20,
+              "existing_commitment_refs": [],
+              "relationship": {
+                "kind": "separate_session",
+                "parent_activity_id": null
+              },
+              "resources": {
+                "equipment": [
+                  {
+                    "name": "Basketball",
+                    "quantity": 1
+                  },
+                  {
+                    "name": "Cones",
+                    "quantity": 4
+                  }
+                ],
+                "participants": 2,
+                "space": "full_court"
+              },
+              "timing": {
+                "end_time": "17:50",
+                "start_time": "17:30"
+              }
+            }
+          ],
+          "date": "2026-11-21",
+          "rest_arrangements": "Rest for 30 minutes after the session"
+        },
+        {
+          "activities": [],
+          "date": "2026-11-22",
+          "rest_arrangements": "Rest and recovery day"
+        }
+      ]
+    },
+    "reference_packet_id": "reference-packet:da1d85707d45b4af525961fdcbaab1be781bfc9b12f3c9d24bd994fa21eac50c",
+    "source_versions": {
+      "application_config_sha256": "8fd8797851a4f970ab07bdb332bae2fe268da5965a2bf8e99e7767b87e7d39fa",
+      "interactive_profile_schema_sha256": "4a306f2e37a36920cdab83cfe3447671163b53a4797f2ab4e1bfa27bd8fedf2a",
+      "workflow_config_sha256": "b1ffd025ba11e4de3b8b33a5db757e8f8158e820d4d2171020e8a6212b38f6b9",
+      "reference_source_configuration_sha256": "f50e956ba9b63911b45e4f94926819339edfe1a4afda38d23ae036e3606fecfd",
+      "interactive_reference_policy_sha256": "235925ef7e409dfba57d8d02a95fda66fbb91299804c862d49e59c3aa59b0e7b",
+      "resource_release_id": "team-approved-f0dcb9e9943e381b",
+      "resource_manifest_sha256": "d048af8432bfc339a2504460cbbdbca7011745774d92f0024aa15148dc55db6b",
+      "checker_sha256": "935fef910fca8650d8912df490ec44c22b3adb66afc086edcc89f201d6151dcb",
+      "rule_checker_sha256": "38b555a0682bca84c39da8013bb8d05f748ce1ab64b183a9c16132a07bb298b0",
+      "evaluator_prompt_sha256": "fb14bc9fbe663886df2c3c9728aa663927eb4ec989d7388468421fa49cdfcfb9",
+      "evaluator_schema_sha256": "f8485f589cfaadff419e43ab0c1c5c30275e012dc0dad87895eff4337703621f",
+      "acceptance_policy_sha256": "e8d87dc54931a57ce5e17ca8a3eff3192f95eb2e211016cf76f157251e371006",
+      "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e"
+    },
+    "activity_versions": {
+      "session1": {
+        "occurrence_id": "occ-ebbd69b9b8b64977c7862ef1",
+        "activity_revision": "activity-be8bbca233bfe50f0f17ec65",
+        "content_hash": "be8bbca233bfe50f0f17ec653e3954f81188118c457cbcb49a65c0ac71d3675c",
+        "date": "2026-11-16",
+        "activity": {
+          "activity_id": "session1",
+          "description": "Basketball session to work on changes of direction",
+          "duration_minutes": 20,
+          "existing_commitment_refs": [],
+          "relationship": {
+            "kind": "separate_session",
+            "parent_activity_id": null
+          },
+          "resources": {
+            "equipment": [
+              {
+                "name": "Basketball",
+                "quantity": 1
+              },
+              {
+                "name": "Cones",
+                "quantity": 4
+              }
+            ],
+            "participants": 2,
+            "space": "full_court"
+          },
+          "timing": {
+            "end_time": "17:50",
+            "start_time": "17:30"
+          }
+        }
+      },
+      "session2": {
+        "occurrence_id": "occ-136709ff5b9b2be7151faa9d",
+        "activity_revision": "activity-415e4e50d5afc5677fa7f237",
+        "content_hash": "415e4e50d5afc5677fa7f237346746d7e9ab656ba8479b61c9e53f72e439a5ac",
+        "date": "2026-11-18",
+        "activity": {
+          "activity_id": "session2",
+          "description": "Basketball session to work on changes of direction",
+          "duration_minutes": 20,
+          "existing_commitment_refs": [],
+          "relationship": {
+            "kind": "separate_session",
+            "parent_activity_id": null
+          },
+          "resources": {
+            "equipment": [
+              {
+                "name": "Basketball",
+                "quantity": 1
+              },
+              {
+                "name": "Cones",
+                "quantity": 4
+              }
+            ],
+            "participants": 2,
+            "space": "full_court"
+          },
+          "timing": {
+            "end_time": "17:50",
+            "start_time": "17:30"
+          }
+        }
+      },
+      "session3": {
+        "occurrence_id": "occ-ba917d208fd664cea8b85c23",
+        "activity_revision": "activity-516fa72c71c02aa43f196241",
+        "content_hash": "516fa72c71c02aa43f196241d5182393fd356b997c578ae764b69dfbb0cf6b3e",
+        "date": "2026-11-21",
+        "activity": {
+          "activity_id": "session3",
+          "description": "Basketball session to work on changes of direction",
+          "duration_minutes": 20,
+          "existing_commitment_refs": [],
+          "relationship": {
+            "kind": "separate_session",
+            "parent_activity_id": null
+          },
+          "resources": {
+            "equipment": [
+              {
+                "name": "Basketball",
+                "quantity": 1
+              },
+              {
+                "name": "Cones",
+                "quantity": 4
+              }
+            ],
+            "participants": 2,
+            "space": "full_court"
+          },
+          "timing": {
+            "end_time": "17:50",
+            "start_time": "17:30"
+          }
+        }
+      }
+    },
+    "activity_sources": {},
+    "edits": [],
+    "saved_at": "2026-11-14T16:37:15.687666+00:00"
+  },
+  "progress": [
+    {
+      "occurrence_id": "occ-ebbd69b9b8b64977c7862ef1",
+      "activity_revision": "activity-be8bbca233bfe50f0f17ec65",
+      "plan_version": "plan-0c653b56315d4deca50773e0d3eb262b",
+      "status": "pending",
+      "updated_at": "2026-11-14T16:37:15.688949+00:00"
+    },
+    {
+      "occurrence_id": "occ-136709ff5b9b2be7151faa9d",
+      "activity_revision": "activity-415e4e50d5afc5677fa7f237",
+      "plan_version": "plan-0c653b56315d4deca50773e0d3eb262b",
+      "status": "pending",
+      "updated_at": "2026-11-14T16:37:15.688949+00:00"
+    },
+    {
+      "occurrence_id": "occ-ba917d208fd664cea8b85c23",
+      "activity_revision": "activity-516fa72c71c02aa43f196241",
+      "plan_version": "plan-0c653b56315d4deca50773e0d3eb262b",
+      "status": "pending",
+      "updated_at": "2026-11-14T16:37:15.688949+00:00"
+    }
+  ],
+  "progress_history": [],
+  "assessments": [],
+  "application_versions": {
+    "application_config_sha256": "8fd8797851a4f970ab07bdb332bae2fe268da5965a2bf8e99e7767b87e7d39fa",
+    "interactive_profile_schema_sha256": "4a306f2e37a36920cdab83cfe3447671163b53a4797f2ab4e1bfa27bd8fedf2a",
+    "workflow_config_sha256": "b1ffd025ba11e4de3b8b33a5db757e8f8158e820d4d2171020e8a6212b38f6b9",
+    "reference_source_configuration_sha256": "f50e956ba9b63911b45e4f94926819339edfe1a4afda38d23ae036e3606fecfd",
+    "interactive_reference_policy_sha256": "235925ef7e409dfba57d8d02a95fda66fbb91299804c862d49e59c3aa59b0e7b",
+    "resource_release_id": "team-approved-f0dcb9e9943e381b",
+    "resource_manifest_sha256": "d048af8432bfc339a2504460cbbdbca7011745774d92f0024aa15148dc55db6b",
+    "checker_sha256": "935fef910fca8650d8912df490ec44c22b3adb66afc086edcc89f201d6151dcb",
+    "rule_checker_sha256": "38b555a0682bca84c39da8013bb8d05f748ce1ab64b183a9c16132a07bb298b0",
+    "evaluator_prompt_sha256": "fb14bc9fbe663886df2c3c9728aa663927eb4ec989d7388468421fa49cdfcfb9",
+    "evaluator_schema_sha256": "f8485f589cfaadff419e43ab0c1c5c30275e012dc0dad87895eff4337703621f",
+    "acceptance_policy_sha256": "e8d87dc54931a57ce5e17ca8a3eff3192f95eb2e211016cf76f157251e371006",
+    "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e"
+  }
+}

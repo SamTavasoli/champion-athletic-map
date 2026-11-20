@@ -1,0 +1,230 @@
+{
+  "comparison_rows": [
+    {
+      "details": "{\"error_count\": 0, \"errors\": [], \"notes\": [\"Exact CSV schema and row order; 8 original rows; 0 differing measurement cells within rtol=1e-10, atol=1e-12\"]}",
+      "filepath": "analysis_checks.csv",
+      "method": "exact_csv_schema_discrete_and_tolerant_named_measurements",
+      "status": "passed"
+    },
+    {
+      "details": "{\"error_count\": 0, \"errors\": [], \"notes\": []}",
+      "filepath": "analysis_input_manifest.json",
+      "method": "json_exact_except_declared_numeric_and_metadata_fields",
+      "status": "passed"
+    },
+    {
+      "details": "{\"error_count\": 0, \"errors\": [], \"notes\": []}",
+      "filepath": "analysis_method_note.json",
+      "method": "json_exact_except_declared_numeric_and_metadata_fields",
+      "status": "passed"
+    },
+    {
+      "details": "{\"error_count\": 0, \"errors\": [], \"notes\": [\"Exact CSV schema and row order; 1058 original rows; 0 differing measurement cells within rtol=1e-10, atol=1e-12\"]}",
+      "filepath": "analysis_populations.csv",
+      "method": "exact_csv_schema_discrete_and_tolerant_named_measurements",
+      "status": "passed"
+    },
+    {
+      "details": "{\"error_count\": 0, \"errors\": [], \"notes\": []}",
+      "filepath": "analysis_report.html",
+      "method": "exact_bytes",
+      "status": "passed"
+    },
+    {
+      "details": "{\"error_count\": 0, \"errors\": [], \"notes\": []}",
+      "filepath": "analysis_summary.json",
+      "method": "json_exact_except_declared_numeric_and_metadata_fields",
+      "status": "passed"
+    },
+    {
+      "details": "{\"error_count\": 0, \"errors\": [], \"notes\": [\"Exact array classifier_group_draws: dtype=int64, shape=[2000, 385], elements=770000\", \"Exact array classifier_resampled_record_counts: dtype=int64, shape=[2000], elements=2000\", \"Exact array feasible_family_denominators: dtype=int64, shape=[2000], elements=2000\", \"Exact array feasible_family_draws: dtype=int64, shape=[2000, 150], elements=300000\", \"Exact array wording_pattern_denominators: dtype=int64, shape=[2000], elements=2000\", \"Exact array wording_pattern_draws: dtype=int64, shape=[2000, 3], elements=6000\"]}",
+      "filepath": "bootstrap_draws.npz",
+      "method": "exact_decoded_npz_arrays_dtype_shape_values",
+      "status": "passed"
+    },
+    {
+      "details": "{\"error_count\": 0, \"errors\": [], \"notes\": [\"Exact CSV schema and row order; 56000 original rows; 0 differing measurement cells within rtol=1e-10, atol=1e-12\"]}",
+      "filepath": "bootstrap_estimates.csv",
+      "method": "exact_csv_schema_discrete_and_tolerant_named_measurements",
+      "status": "passed"
+    },
+    {
+      "details": "{\"error_count\": 0, \"errors\": [], \"notes\": [\"Exact CSV schema and row order; 28 original rows; 0 differing measurement cells within rtol=1e-10, atol=1e-12\"]}",
+      "filepath": "bootstrap_intervals.csv",
+      "method": "exact_csv_schema_discrete_and_tolerant_named_measurements",
+      "status": "passed"
+    },
+    {
+      "details": "{\"error_count\": 0, \"errors\": [], \"notes\": []}",
+      "filepath": "bootstrap_settings.json",
+      "method": "json_exact_except_declared_numeric_and_metadata_fields",
+      "status": "passed"
+    },
+    {
+      "details": "{\"error_count\": 0, \"errors\": [], \"notes\": []}",
+      "filepath": "classifier_analysis_status.json",
+      "method": "json_exact_except_declared_numeric_and_metadata_fields",
+      "status": "passed"
+    },
+    {
+      "details": "{\"error_count\": 0, \"errors\": [], \"notes\": [\"Exact CSV schema and row order; 768 original rows; 0 differing measurement cells within rtol=1e-10, atol=1e-12\"]}",
+      "filepath": "classifier_confusion_matrices.csv",
+      "method": "exact_csv_schema_discrete_and_tolerant_named_measurements",
+      "status": "passed"
+    },
+    {
+      "details": "{\"error_count\": 0, \"errors\": [], \"notes\": [\"Exact CSV schema and row order; 48 original rows; 0 differing measurement cells within rtol=1e-10, atol=1e-12\"]}",
+      "filepath": "classifier_per_class_metrics.csv",
+      "method": "exact_csv_schema_discrete_and_tolerant_named_measurements",
+      "status": "passed"
+    },
+    {
+      "details": "{\"error_count\": 0, \"errors\": [], \"notes\": [\"Exact CSV schema and row order; 1314 original rows; 0 differing measurement cells within rtol=1e-10, atol=1e-12\"]}",
+      "filepath": "classifier_prediction_analysis.csv",
+      "method": "exact_csv_schema_discrete_and_tolerant_named_measurements",
+      "status": "passed"
+    },
+    {
+      "details": "{\"error_count\": 0, \"errors\": [], \"notes\": []}",
+      "filepath": "classifier_summary.json",
+      "method": "json_exact_except_declared_numeric_and_metadata_fields",
+      "status": "passed"
+    },
+    {
+      "details": "{\"error_count\": 0, \"errors\": [], \"notes\": [\"Exact CSV schema and row order; 12 original rows; 0 differing measurement cells within rtol=1e-10, atol=1e-12\"]}",
+      "filepath": "designated_role_usage.csv",
+      "method": "exact_csv_schema_discrete_and_tolerant_named_measurements",
+      "status": "passed"
+    },
+    {
+      "details": "{\"error_count\": 0, \"errors\": [], \"notes\": [\"Exact CSV schema and row order; 800 original rows; 0 differing measurement cells within rtol=1e-10, atol=1e-12\"]}",
+      "filepath": "failure_analysis.csv",
+      "method": "exact_csv_schema_discrete_and_tolerant_named_measurements",
+      "status": "passed"
+    },
+    {
+      "details": "{\"error_count\": 0, \"errors\": [], \"notes\": [\"Exact CSV schema and row order; 8 original rows; 0 differing measurement cells within rtol=1e-10, atol=1e-12\"]}",
+      "filepath": "matched_runtime_comparisons.csv",
+      "method": "exact_csv_schema_discrete_and_tolerant_named_measurements",
+      "status": "passed"
+    },
+    {
+      "details": "{\"error_count\": 0, \"errors\": [], \"notes\": [\"Exact CSV schema and row order; 4 original rows; 0 differing measurement cells within rtol=1e-10, atol=1e-12\"]}",
+      "filepath": "native_runtime_by_planner.csv",
+      "method": "exact_csv_schema_discrete_and_tolerant_named_measurements",
+      "status": "passed"
+    },
+    {
+      "details": "{\"error_count\": 0, \"errors\": [], \"notes\": [\"Exact CSV schema and row order; 12 original rows; 0 differing measurement cells within rtol=1e-10, atol=1e-12\"]}",
+      "filepath": "native_runtime_by_stage.csv",
+      "method": "exact_csv_schema_discrete_and_tolerant_named_measurements",
+      "status": "passed"
+    },
+    {
+      "details": "{\"error_count\": 0, \"errors\": [], \"notes\": []}",
+      "filepath": "native_runtime_summary.json",
+      "method": "json_exact_except_declared_numeric_and_metadata_fields",
+      "status": "passed"
+    },
+    {
+      "details": "{\"error_count\": 0, \"errors\": [], \"notes\": [\"Per-file hashes checked independently; cross-run hashes are not substituted for semantic comparisons\"]}",
+      "filepath": "output_manifest.json",
+      "method": "manifest_inventory_and_local_hash_integrity",
+      "status": "passed"
+    },
+    {
+      "details": "{\"error_count\": 0, \"errors\": [], \"notes\": [\"Exact CSV schema and row order; 48 original rows; 0 differing measurement cells within rtol=1e-10, atol=1e-12\"]}",
+      "filepath": "paired_comparisons.csv",
+      "method": "exact_csv_schema_discrete_and_tolerant_named_measurements",
+      "status": "passed"
+    },
+    {
+      "details": "{\"error_count\": 0, \"errors\": [], \"notes\": [\"Exact CSV schema and row order; 760 original rows; 0 differing measurement cells within rtol=1e-10, atol=1e-12\"]}",
+      "filepath": "parent_check_summary.csv",
+      "method": "exact_csv_schema_discrete_and_tolerant_named_measurements",
+      "status": "passed"
+    },
+    {
+      "details": "{\"error_count\": 0, \"errors\": [], \"notes\": [\"Exact CSV schema and row order; 48 original rows; 0 differing measurement cells within rtol=1e-10, atol=1e-12\"]}",
+      "filepath": "planner_summary.csv",
+      "method": "exact_csv_schema_discrete_and_tolerant_named_measurements",
+      "status": "passed"
+    },
+    {
+      "details": "{\"error_count\": 0, \"errors\": [], \"notes\": []}",
+      "filepath": "retrieval_analysis_status.json",
+      "method": "json_exact_except_declared_numeric_and_metadata_fields",
+      "status": "passed"
+    },
+    {
+      "details": "{\"error_count\": 0, \"errors\": [], \"notes\": [\"Exact CSV schema and row order; 30 original rows; 0 differing measurement cells within rtol=1e-10, atol=1e-12\"]}",
+      "filepath": "retrieval_question_analysis.csv",
+      "method": "exact_csv_schema_discrete_and_tolerant_named_measurements",
+      "status": "passed"
+    },
+    {
+      "details": "{\"error_count\": 0, \"errors\": [], \"notes\": [\"Exact CSV schema and row order; 56 original rows; 0 differing measurement cells within rtol=1e-10, atol=1e-12\"]}",
+      "filepath": "retrieval_summary.csv",
+      "method": "exact_csv_schema_discrete_and_tolerant_named_measurements",
+      "status": "passed"
+    },
+    {
+      "details": "{\"error_count\": 0, \"errors\": [], \"notes\": [\"Exact CSV schema and row order; 20 original rows; 0 differing measurement cells within rtol=1e-10, atol=1e-12\"]}",
+      "filepath": "runtime_resource_summary.csv",
+      "method": "exact_csv_schema_discrete_and_tolerant_named_measurements",
+      "status": "passed"
+    },
+    {
+      "details": "{\"error_count\": 0, \"errors\": [], \"notes\": []}",
+      "filepath": "statistical_analysis_findings.md",
+      "method": "exact_bytes",
+      "status": "passed"
+    },
+    {
+      "details": "{\"error_count\": 0, \"errors\": [], \"notes\": [\"Exact CSV schema and row order; 36 original rows; 0 differing measurement cells within rtol=1e-10, atol=1e-12\"]}",
+      "filepath": "subgroup_summary.csv",
+      "method": "exact_csv_schema_discrete_and_tolerant_named_measurements",
+      "status": "passed"
+    },
+    {
+      "details": "{\"error_count\": 0, \"errors\": [], \"notes\": [\"Exact CSV schema and row order; 20 original rows; 0 differing measurement cells within rtol=1e-10, atol=1e-12\"]}",
+      "filepath": "team_rating_comparisons.csv",
+      "method": "exact_csv_schema_discrete_and_tolerant_named_measurements",
+      "status": "passed"
+    },
+    {
+      "details": "{\"error_count\": 0, \"errors\": [], \"notes\": [\"Exact CSV schema and row order; 20 original rows; 0 differing measurement cells within rtol=1e-10, atol=1e-12\"]}",
+      "filepath": "team_rating_distributions.csv",
+      "method": "exact_csv_schema_discrete_and_tolerant_named_measurements",
+      "status": "passed"
+    },
+    {
+      "details": "{\"error_count\": 0, \"errors\": [], \"notes\": [\"Exact CSV schema and row order; 180 original rows; 0 differing measurement cells within rtol=1e-10, atol=1e-12\"]}",
+      "filepath": "team_review_subgroups.csv",
+      "method": "exact_csv_schema_discrete_and_tolerant_named_measurements",
+      "status": "passed"
+    },
+    {
+      "details": "{\"error_count\": 1, \"errors\": [\"ValueError: SVG text comment disagrees with rendered glyphs: ['\u22120.1'] vs '\u0c9c\\\\x13\\\\x11\\\\x14'\"], \"notes\": []}",
+      "filepath": "figures/classifier_macro_f1_differences.svg",
+      "method": "svg_vector_labels_populations_source_values_and_presentation",
+      "status": "failed"
+    },
+    {
+      "details": "{\"error_count\": 1, \"errors\": [\"ValueError: SVG text comment disagrees with rendered glyphs: ['Planner 1'] vs '3ODQQHU\\\\x03\\\\x14'\"], \"notes\": []}",
+      "filepath": "figures/planner_execution.svg",
+      "method": "svg_vector_labels_populations_source_values_and_presentation",
+      "status": "failed"
+    },
+    {
+      "details": "{\"error_count\": 1, \"errors\": [\"ValueError: SVG text comment disagrees with rendered glyphs: ['Planner 1'] vs '3ODQQHU\\\\x03\\\\x14'\"], \"notes\": []}",
+      "filepath": "figures/planner_runtime.svg",
+      "method": "svg_vector_labels_populations_source_values_and_presentation",
+      "status": "failed"
+    }
+  ],
+  "files_compared": 37,
+  "python": "C:\\Users\\samta\\Documents\\champion-athletic-map\\results\\reproducibility\\repro_20261117T171907Z_89717b4e\\environment\\venv\\Scripts\\python.exe",
+  "schema_version": "step36-result-comparison-1",
+  "status": "failed"
+}

@@ -1,0 +1,21 @@
+check,status,observed
+inherited_sources_and_runtime_receipt,pass,701
+tokenizer_package_versions,pass,"{""regex"": ""2026.11.9"", ""tokenizers"": ""0.22.1""}"
+native_vocabulary_byte_alphabet_and_merges,pass,128000 normal / 256 control tokens
+rust_and_separate_python_bpe_agreement,pass,82
+utf8_roundtrips_and_ordinary_control_literals,pass,82
+all_native_control_token_ids,pass,256
+explicit_boundary_flags_without_implicit_chat_overhead,pass,4
+reject_nontext_none,pass,rejected without repair or truncation
+reject_nontext_integer,pass,rejected without repair or truncation
+reject_nonboolean_flag,pass,rejected without repair or truncation
+reject_unpaired_surrogate,pass,rejected without repair or truncation
+reject_technical_length_limit,pass,rejected without repair or truncation
+reject_negative_id,pass,rejected without repair or truncation
+reject_boolean_id,pass,rejected without repair or truncation
+reject_out_of_range_id,pass,rejected without repair or truncation
+fixed_encoder_state_after_checks,pass,99cfbfdad89e8cbb0aa24a1bc1959d812593d78c2940c01570bf9279a15b7355
+ollama_chat_template_accounting,pending,not implemented
+backend_token_count_agreement,pending,not measured
+full_prompt_and_reserved_output_budget,pending,not verified
+existing_bound_sources_unchanged,pass,701

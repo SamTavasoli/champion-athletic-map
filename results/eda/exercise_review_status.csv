@@ -1,0 +1,3 @@
+entity,finding_state,review_status,entries,distinct_records,active,unresolved
+catalog,,original_source_verification_pending,2909,2909,,
+queue,observed,pending,2333,2072,True,True

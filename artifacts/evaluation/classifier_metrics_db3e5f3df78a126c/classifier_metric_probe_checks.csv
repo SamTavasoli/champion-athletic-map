@@ -1,0 +1,83 @@
+probe,kind,check,expected,observed,status
+perfect_with_reordered_classes,calculation,status,"""available""","""available""",pass
+perfect_with_reordered_classes,calculation,accuracy,1,1.0,pass
+perfect_with_reordered_classes,calculation,macro_f1,1,1.0,pass
+perfect_with_reordered_classes,calculation,n_records,4,4,pass
+perfect_with_reordered_classes,calculation,n_groups,3,3,pass
+perfect_with_reordered_classes,calculation,class_order,"[""toy_C"", ""toy_A"", ""toy_B""]","[""toy_C"", ""toy_A"", ""toy_B""]",pass
+perfect_with_reordered_classes,calculation,per_class.0.label,"""toy_C""","""toy_C""",pass
+perfect_with_reordered_classes,calculation,per_class.1.support_records,2,2,pass
+perfect_with_reordered_classes,calculation,confusion_counts,"[[1, 0, 0], [0, 2, 0], [0, 0, 1]]","[[1, 0, 0], [0, 2, 0], [0, 0, 1]]",pass
+perfect_with_reordered_classes,calculation,confusion_row_proportions,"[[1, 0, 0], [0, 1, 0], [0, 0, 1]]","[[1.0, 0.0, 0.0], [0.0, 1.0, 0.0], [0.0, 0.0, 1.0]]",pass
+asymmetric_counts_and_overlapping_groups,calculation,accuracy,0.6666666666666666,0.6666666666666666,pass
+asymmetric_counts_and_overlapping_groups,calculation,macro_f1,0.6555555555555556,0.6555555555555556,pass
+asymmetric_counts_and_overlapping_groups,calculation,n_records,6,6,pass
+asymmetric_counts_and_overlapping_groups,calculation,n_groups,4,4,pass
+asymmetric_counts_and_overlapping_groups,calculation,per_class.0.precision,1,1.0,pass
+asymmetric_counts_and_overlapping_groups,calculation,per_class.0.recall,0.6666666666666666,0.6666666666666666,pass
+asymmetric_counts_and_overlapping_groups,calculation,per_class.0.f1,0.8,0.8,pass
+asymmetric_counts_and_overlapping_groups,calculation,per_class.1.precision,0.5,0.5,pass
+asymmetric_counts_and_overlapping_groups,calculation,per_class.1.recall,0.5,0.5,pass
+asymmetric_counts_and_overlapping_groups,calculation,per_class.1.f1,0.5,0.5,pass
+asymmetric_counts_and_overlapping_groups,calculation,per_class.2.precision,0.5,0.5,pass
+asymmetric_counts_and_overlapping_groups,calculation,per_class.2.recall,1,1.0,pass
+asymmetric_counts_and_overlapping_groups,calculation,per_class.2.f1,0.6666666666666666,0.6666666666666666,pass
+asymmetric_counts_and_overlapping_groups,calculation,per_class.0.support_groups,2,2,pass
+asymmetric_counts_and_overlapping_groups,calculation,per_class.1.support_groups,2,2,pass
+asymmetric_counts_and_overlapping_groups,calculation,per_class.2.support_groups,1,1,pass
+asymmetric_counts_and_overlapping_groups,calculation,confusion_counts,"[[2, 1, 0], [0, 1, 1], [0, 0, 1]]","[[2, 1, 0], [0, 1, 1], [0, 0, 1]]",pass
+asymmetric_counts_and_overlapping_groups,calculation,confusion_row_proportions,"[[0.6666666666666666, 0.3333333333333333, 0], [0, 0.5, 0.5], [0, 0, 1]]","[[0.6666666666666666, 0.3333333333333333, 0.0], [0.0, 0.5, 0.5], [0.0, 0.0, 1.0]]",pass
+asymmetric_counts_and_overlapping_groups,calculation,confusion_axes,"{""rows"": ""actual"", ""columns"": ""predicted""}","{""rows"": ""actual"", ""columns"": ""predicted""}",pass
+class_predicted_without_actual_support,calculation,accuracy,0.5,0.5,pass
+class_predicted_without_actual_support,calculation,macro_f1,0.2222222222222222,0.2222222222222222,pass
+class_predicted_without_actual_support,calculation,per_class.0.f1,0.6666666666666666,0.6666666666666666,pass
+class_predicted_without_actual_support,calculation,per_class.1.support_records,0,0,pass
+class_predicted_without_actual_support,calculation,per_class.1.predicted_records,1,1,pass
+class_predicted_without_actual_support,calculation,per_class.1.recall,0,0.0,pass
+class_predicted_without_actual_support,calculation,per_class.1.precision_defined,true,true,pass
+class_predicted_without_actual_support,calculation,per_class.1.recall_defined,false,false,pass
+class_predicted_without_actual_support,calculation,per_class.1.f1_defined,true,true,pass
+class_predicted_without_actual_support,calculation,per_class.2.f1,0,0.0,pass
+class_predicted_without_actual_support,calculation,per_class.2.f1_defined,false,false,pass
+class_predicted_without_actual_support,calculation,confusion_row_proportions,"[[0.5, 0.5, 0], [null, null, null], [null, null, null]]","[[0.5, 0.5, 0.0], [null, null, null], [null, null, null]]",pass
+actual_class_never_predicted,calculation,accuracy,0.5,0.5,pass
+actual_class_never_predicted,calculation,macro_f1,0.2222222222222222,0.2222222222222222,pass
+actual_class_never_predicted,calculation,per_class.0.f1,0.6666666666666666,0.6666666666666666,pass
+actual_class_never_predicted,calculation,per_class.1.support_records,1,1,pass
+actual_class_never_predicted,calculation,per_class.1.predicted_records,0,0,pass
+actual_class_never_predicted,calculation,per_class.1.precision,0,0.0,pass
+actual_class_never_predicted,calculation,per_class.1.recall,0,0.0,pass
+actual_class_never_predicted,calculation,per_class.1.f1,0,0.0,pass
+actual_class_never_predicted,calculation,per_class.1.precision_defined,false,false,pass
+actual_class_never_predicted,calculation,per_class.1.recall_defined,true,true,pass
+actual_class_never_predicted,calculation,confusion_counts,"[[1, 0, 0], [1, 0, 0], [0, 0, 0]]","[[1, 0, 0], [1, 0, 0], [0, 0, 0]]",pass
+all_incorrect_observations,calculation,status,"""available""","""available""",pass
+all_incorrect_observations,calculation,accuracy,0,0.0,pass
+all_incorrect_observations,calculation,macro_f1,0,0.0,pass
+all_incorrect_observations,calculation,per_class.0.recall_defined,true,true,pass
+all_incorrect_observations,calculation,confusion_counts,"[[0, 1, 0], [0, 0, 1], [1, 0, 0]]","[[0, 1, 0], [0, 0, 1], [1, 0, 0]]",pass
+empty_evaluation_is_unavailable,unavailable,status,"""unavailable_no_evaluated_records""","""unavailable_no_evaluated_records""",pass
+empty_evaluation_is_unavailable,unavailable,accuracy,null,null,pass
+empty_evaluation_is_unavailable,unavailable,macro_f1,null,null,pass
+empty_evaluation_is_unavailable,unavailable,n_records,0,0,pass
+empty_evaluation_is_unavailable,unavailable,n_groups,0,0,pass
+empty_evaluation_is_unavailable,unavailable,per_class.0.precision,null,null,pass
+empty_evaluation_is_unavailable,unavailable,per_class.0.recall,null,null,pass
+empty_evaluation_is_unavailable,unavailable,per_class.0.f1,null,null,pass
+empty_evaluation_is_unavailable,unavailable,confusion_row_proportions,"[[null, null, null], [null, null, null], [null, null, null]]","[[null, null, null], [null, null, null], [null, null, null]]",pass
+fixed_benchmark_order_with_two_artificial_classes_present,calculation,status,"""available""","""available""",pass
+fixed_benchmark_order_with_two_artificial_classes_present,calculation,accuracy,1,1.0,pass
+fixed_benchmark_order_with_two_artificial_classes_present,calculation,macro_f1,0.125,0.125,pass
+fixed_benchmark_order_with_two_artificial_classes_present,calculation,class_order,"[""abdominals"", ""abductors"", ""adductors"", ""biceps"", ""calves"", ""chest"", ""forearms"", ""glutes"", ""hamstrings"", ""lats"", ""lower back"", ""middle back"", ""quadriceps"", ""shoulders"", ""traps"", ""triceps""]","[""abdominals"", ""abductors"", ""adductors"", ""biceps"", ""calves"", ""chest"", ""forearms"", ""glutes"", ""hamstrings"", ""lats"", ""lower back"", ""middle back"", ""quadriceps"", ""shoulders"", ""traps"", ""triceps""]",pass
+fixed_benchmark_order_with_two_artificial_classes_present,calculation,per_class.2.f1,0,0.0,pass
+fixed_benchmark_order_with_two_artificial_classes_present,calculation,per_class.2.support_records,0,0,pass
+fixed_benchmark_order_with_two_artificial_classes_present,calculation,per_class.2.f1_defined,false,false,pass
+unknown_prediction,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+unknown_actual_label,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+incomplete_predictions,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+missing_predictions,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+group_count_mismatch,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+blank_group,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+duplicate_class_order,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+numeric_prediction_is_not_a_label,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+empty_class_order,input_rejection,invalid_input_rejected,ValueError,ValueError,pass

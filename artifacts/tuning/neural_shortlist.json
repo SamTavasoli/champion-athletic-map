@@ -1,0 +1,72 @@
+{
+  "additional_seeds": [
+    17,
+    73
+  ],
+  "candidate_order": [
+    "N0",
+    "N1",
+    "N2",
+    "N3"
+  ],
+  "configuration_selection": "highest complete three-seed mean; exact ties retain original N0-N3 order",
+  "failed_seed_substitution": false,
+  "initial_seed": 42,
+  "model_selection_finalized": false,
+  "plan_id": "classifier-search:9f5fd448b6d590611f0007cd552017c72e2cf5e282bc603ba83513facb9bd5b4",
+  "primary_artifact_seed": 42,
+  "ranking": {
+    "missing_candidates": [],
+    "ranking": [
+      {
+        "candidate_id": "N3",
+        "macro_f1": 0.5711446509354461,
+        "status": "completed"
+      },
+      {
+        "candidate_id": "N0",
+        "macro_f1": 0.540130110761601,
+        "status": "reused_verified"
+      },
+      {
+        "candidate_id": "N2",
+        "macro_f1": 0.5279380887290376,
+        "status": "completed"
+      },
+      {
+        "candidate_id": "N1",
+        "macro_f1": 0.3597413841706803,
+        "status": "completed"
+      }
+    ],
+    "status": "ranked",
+    "unfinished_candidates": []
+  },
+  "scheduled_repetitions": [
+    {
+      "candidate_id": "N3",
+      "seed": 17
+    },
+    {
+      "candidate_id": "N3",
+      "seed": 73
+    },
+    {
+      "candidate_id": "N0",
+      "seed": 17
+    },
+    {
+      "candidate_id": "N0",
+      "seed": 73
+    }
+  ],
+  "schema_version": "classifier-neural-shortlist-1",
+  "shortlisted_candidates": [
+    "N3",
+    "N0"
+  ],
+  "silent_shortlist_promotion": false,
+  "stage_id": "classifier-neural-initial-search:08c4f2be4c6f13e29c1b97eb2148d018c01d32a708b826b273bf44e076fac701",
+  "status": "frozen_for_scheduled_repetitions",
+  "tagging_model_status": "pending"
+}

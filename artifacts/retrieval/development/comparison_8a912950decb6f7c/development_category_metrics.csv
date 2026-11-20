@@ -1,0 +1,7 @@
+route,category,split,population_queries,ranking_selection_denominator,ranking_scored_denominator,empty_relevant_set_queries,pending_judgment_queries,completed_outcomes,failed_outcomes,not_run_outcomes,mean_recall_at_5,mrr_at_5,complete_evidence_scored_denominator,complete_evidence_set_coverage_rate_at_5,all_queries_completed_and_judged,selection_eligible,question_families,missing_outcomes,scores_are_development_ranking_evidence,ranking_establishes_answerability_or_abstention_accuracy
+lexical,drill_and_resource,development,10,10,10,0,0,10,0,0,1.0,0.95,10,1.0,True,True,5,0,True,False
+lexical,guideline_and_qualification,development,10,10,10,0,0,10,0,0,1.0,0.95,10,1.0,True,True,5,0,True,False
+lexical,unsupported_by_identified_corpus,development,10,4,4,6,0,10,0,0,1.0,0.875,0,,True,True,5,0,True,False
+semantic,drill_and_resource,development,10,10,10,0,0,10,0,0,1.0,1.0,10,1.0,True,True,5,0,True,False
+semantic,guideline_and_qualification,development,10,10,10,0,0,10,0,0,1.0,1.0,10,1.0,True,True,5,0,True,False
+semantic,unsupported_by_identified_corpus,development,10,4,4,6,0,10,0,0,1.0,1.0,0,,True,True,5,0,True,False

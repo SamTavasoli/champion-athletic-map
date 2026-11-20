@@ -1,0 +1,246 @@
+source_step,scope,scope_check_number,probe,group,check,expected,observed,status
+19-1,input_integrity,1,,,project_and_branch,,verified,pass
+19-1,input_integrity,2,,,preprocessing_producer_schema,,verified,pass
+19-1,input_integrity,3,,,preprocessing_scope,,verified,pass
+19-1,input_integrity,4,,,preprocessing_producer_identity,,verified,pass
+19-1,input_integrity,5,,,saved_preprocessing_dependency_count,,51,pass
+19-1,input_integrity,6,,,frozen_benchmark_status,,verified,pass
+19-1,input_integrity,7,,,exact_frozen_upstream_scope,,verified,pass
+19-1,input_integrity,8,,,frozen_benchmark_identity,,verified,pass
+19-1,input_integrity,9,,,frozen_class_mapping,,verified,pass
+19-1,input_integrity,10,,,preprocessing_configuration_binding,,verified,pass
+19-1,input_integrity,11,,,saved_protocol_binding,,verified,pass
+19-1,input_integrity,12,,,classifier_component_identity,,verified,pass
+19-1,input_integrity,13,,,classifier_metric_contract,,verified,pass
+19-1,input_integrity,14,,,classifier_dependency_count,,56,pass
+19-1,input_integrity,15,,,text_only_feature_contract,,verified,pass
+19-1,input_integrity,16,,,eligible_manifest_population,,verified,pass
+19-1,input_integrity,17,,,manifest_target_mapping,,verified,pass
+19-1,input_integrity,18,,,groups_do_not_cross_partitions,,verified,pass
+19-1,input_integrity,19,,,frozen_split_support:train,,1999,pass
+19-1,input_integrity,20,,,frozen_split_support:validation,,435,pass
+19-1,input_integrity,21,,,frozen_split_support:test,,438,pass
+19-1,input_integrity,22,,,development_table_schema,,verified,pass
+19-1,input_integrity,23,,,saved_typed_column_contract,,verified,pass
+19-1,input_integrity,24,,,canonical_input_preserved,,verified,pass
+19-1,input_integrity,25,,,saved_neural_dimensions,,verified,pass
+19-1,input_integrity,26,,,saved_sequence_diagnostics,,verified,pass
+19-1,input_integrity,27,,,development_manifest_alignment:train,,1999,pass
+19-1,input_integrity,28,,,development_manifest_alignment:validation,,435,pass
+19-1,input_integrity,29,,,training_order_provenance,,verified,pass
+19-1,input_integrity,30,,,saved_preparation_ledger,,verified,pass
+19-1,input_integrity,31,,,saved_diagnostic_coverage,,verified,pass
+19-1,input_integrity,32,,,saved_diagnostic_support:train,,verified,pass
+19-1,input_integrity,33,,,saved_diagnostic_support:validation,,verified,pass
+19-1,input_integrity,34,,,saved_module_binding,,verified,pass
+19-1,input_integrity,35,,,real_dotted_module_import,,verified,pass
+19-1,input_integrity,36,,,all_inputs_unchanged_after_loading,,56,pass
+19-1,initial_settings,1,,,verified_inputs_required,,True,pass
+19-1,initial_settings,2,,,raw_canonical_tfidf_boundary,,True,pass
+19-1,initial_settings,3,,,vectorizer_constructor_matches_saved_policy,,True,pass
+19-1,initial_settings,4,,,real_importable_tokenizer,,True,pass
+19-1,initial_settings,5,,,dummy_constructor_matches_plan,,True,pass
+19-1,initial_settings,6,,,supported_l2_constructor_api,,True,pass
+19-1,initial_settings,7,,,all_logistic_arguments_supported,,True,pass
+19-1,initial_settings,8,,,logistic_constructor_matches_initial_plan,,True,pass
+19-1,initial_settings,9,,,constructors_remain_unfitted,,True,pass
+19-1,initial_settings,10,,,fixed_multiclass_support,,True,pass
+19-1,initial_settings,11,,,preprocessing_runtime_versions_match,,True,pass
+19-2,artificial_majority,1,strict_training_majority,training_selection,predictions_follow_training_majority_and_index_policy,"[2, 2, 2, 2]","[2, 2, 2, 2]",pass
+19-2,artificial_majority,2,strict_training_majority,training_selection,probabilities_follow_sorted_numeric_class_columns,"{""classes"": [0, 1, 2], ""probabilities"": [[0.0, 0.0, 1.0], [0.0, 0.0, 1.0], [0.0, 0.0, 1.0], [0.0, 0.0, 1.0]]}","{""classes"": [0, 1, 2], ""probabilities"": [[0.0, 0.0, 1.0], [0.0, 0.0, 1.0], [0.0, 0.0, 1.0], [0.0, 0.0, 1.0]]}",pass
+19-2,artificial_majority,3,tie_uses_lowest_frozen_index,training_selection,predictions_follow_training_majority_and_index_policy,"[1, 1, 1]","[1, 1, 1]",pass
+19-2,artificial_majority,4,tie_uses_lowest_frozen_index,training_selection,probabilities_follow_sorted_numeric_class_columns,"{""classes"": [1, 2], ""probabilities"": [[1.0, 0.0], [1.0, 0.0], [1.0, 0.0]]}","{""classes"": [1, 2], ""probabilities"": [[1.0, 0.0], [1.0, 0.0], [1.0, 0.0]]}",pass
+19-2,artificial_majority,5,target_class_zero_is_valid,target_mapping,predictions_follow_training_majority_and_index_policy,"[0, 0, 0]","[0, 0, 0]",pass
+19-2,artificial_majority,6,target_class_zero_is_valid,target_mapping,probabilities_follow_sorted_numeric_class_columns,"{""classes"": [0, 1, 2], ""probabilities"": [[1.0, 0.0, 0.0], [1.0, 0.0, 0.0], [1.0, 0.0, 0.0]]}","{""classes"": [0, 1, 2], ""probabilities"": [[1.0, 0.0, 0.0], [1.0, 0.0, 0.0], [1.0, 0.0, 0.0]]}",pass
+19-2,artificial_majority,7,validation_targets_do_not_select_majority,training_boundary,held_out_label_changes_leave_predictions_and_fitted_priors_unchanged,"{""predictions"": [0, 0, 0, 0], ""same_priors"": true}","{""predictions"": [0, 0, 0, 0], ""same_priors"": true}",pass
+19-2,artificial_majority,8,validation_targets_do_not_select_majority,training_boundary,changed_validation_labels_change_only_reported_accuracy,"[0.0, 1.0]","[0.0, 1.0]",pass
+19-2,artificial_majority,9,placeholder_values_do_not_change_majority,feature_boundary,different_placeholders_same_predictions,"[[2, 2, 2, 2], [2, 2, 2, 2]]","[[2, 2, 2, 2], [2, 2, 2, 2]]",pass
+19-2,artificial_majority,10,placeholder_values_do_not_change_majority,feature_boundary,different_placeholders_same_class_priors_and_probabilities,"{""same_priors"": true, ""same_probabilities"": true}","{""same_priors"": true, ""same_probabilities"": true}",pass
+19-2,artificial_majority,11,probability_columns_follow_estimator_classes,target_mapping,predictions_follow_training_majority_and_index_policy,"[5, 5, 5]","[5, 5, 5]",pass
+19-2,artificial_majority,12,probability_columns_follow_estimator_classes,target_mapping,probabilities_follow_sorted_numeric_class_columns,"{""classes"": [2, 5], ""probabilities"": [[0.0, 1.0], [0.0, 1.0], [0.0, 1.0]]}","{""classes"": [2, 5], ""probabilities"": [[0.0, 1.0], [0.0, 1.0], [0.0, 1.0]]}",pass
+19-2,artificial_majority,13,single_training_class_zero,target_mapping,predictions_follow_training_majority_and_index_policy,"[0, 0]","[0, 0]",pass
+19-2,artificial_majority,14,single_training_class_zero,target_mapping,probabilities_follow_sorted_numeric_class_columns,"{""classes"": [0], ""probabilities"": [[1.0], [1.0]]}","{""classes"": [0], ""probabilities"": [[1.0], [1.0]]}",pass
+19-2,artificial_majority,15,macro_f1_keeps_absent_frozen_class,fixed_class_metrics,accuracy_matches_hand_fraction,0.6666666666666666,0.6666666666666666,pass
+19-2,artificial_majority,16,macro_f1_keeps_absent_frozen_class,fixed_class_metrics,macro_f1_matches_hand_fraction_with_absent_class,true,true,pass
+19-2,artificial_majority,17,macro_f1_keeps_absent_frozen_class,fixed_class_metrics,confusion_counts_and_support_follow_frozen_order,"{""counts"": [[2, 0, 0], [1, 0, 0], [0, 0, 0]], ""support"": [2, 1, 0]}","{""counts"": [[2, 0, 0], [1, 0, 0], [0, 0, 0]], ""support"": [2, 1, 0]}",pass
+19-2,artificial_majority,18,macro_f1_keeps_absent_frozen_class,fixed_class_metrics,absent_true_class_has_unavailable_normalized_row,"[[1.0, 0.0, 0.0], [1.0, 0.0, 0.0], [null, null, null]]","[[1.0, 0.0, 0.0], [1.0, 0.0, 0.0], [null, null, null]]",pass
+19-2,majority_validation,1,,,verified_preparation_receipts,,True,pass
+19-2,majority_validation,2,,,project_and_dependency_identity,,True,pass
+19-2,majority_validation,3,,,project_and_branch,,True,pass
+19-2,majority_validation,4,,,saved_input_bytes,,56,pass
+19-2,majority_validation,5,,,baseline_policy_identity,,True,pass
+19-2,majority_validation,6,,,preparation_identity,,True,pass
+19-2,majority_validation,7,,,development_tables_unchanged,,True,pass
+19-2,majority_validation,8,,,unchanged_experiment_software,,True,pass
+19-2,majority_validation,9,,,frozen_class_mapping,,True,pass
+19-2,majority_validation,10,,,full_frozen_development_population,,True,pass
+19-2,majority_validation,11,,,targets_use_frozen_indices,,True,pass
+19-2,majority_validation,12,,,training_only_dummy_contract,,True,pass
+19-2,majority_validation,13,,,bound_classifier_scorer,,True,pass
+19-2,majority_validation,14,,,scorer_version,,True,pass
+19-2,majority_validation,15,,,artificial_majority_contract_passed,,18,pass
+19-2,majority_validation,16,,,majority_selected_from_training_only,,1,pass
+19-2,majority_validation,17,,,dummy_constructor_exact,,True,pass
+19-2,majority_validation,18,,,fitted_classes_and_training_priors,,True,pass
+19-2,majority_validation,19,,,complete_validation_numeric_predictions,,435,pass
+19-2,majority_validation,20,,,frozen_probability_columns_and_strategy,,True,pass
+19-2,majority_validation,21,,,prediction_did_not_change_fitted_state,,True,pass
+19-2,majority_validation,22,,,one_prediction_per_frozen_validation_id,,True,pass
+19-2,majority_validation,23,,,prediction_target_and_group_alignment,,True,pass
+19-2,majority_validation,24,,,full_validation_score_contract,,True,pass
+19-2,majority_validation,25,,,accuracy_and_macro_f1_match_independent_arithmetic,,True,pass
+19-2,majority_validation,26,,,confusion_counts_follow_actual_rows,,True,pass
+19-2,majority_validation,27,,,normalized_confusion_rows_follow_frozen_policy,,True,pass
+19-2,majority_validation,28,,,full_per_class_record_and_group_support,,True,pass
+19-2,majority_validation,29,,,full_validation_denominator_and_name_only_records,,True,pass
+19-2,majority_validation,30,,,inputs_and_prepared_tables_unchanged,,56,pass
+19-3,input_and_majority_handoff,1,,,verified_baseline_receipts,,True,pass
+19-3,input_and_majority_handoff,2,,,project_and_parent_identity,,True,pass
+19-3,input_and_majority_handoff,3,,,bound_files_and_branch,,56,pass
+19-3,input_and_majority_handoff,4,,,baseline_policy_digest,,True,pass
+19-3,input_and_majority_handoff,5,,,preparation_digest,,True,pass
+19-3,input_and_majority_handoff,6,,,development_table_digests,,True,pass
+19-3,input_and_majority_handoff,7,,,unchanged_software,,True,pass
+19-3,input_and_majority_handoff,8,,,frozen_class_mapping,,True,pass
+19-3,input_and_majority_handoff,9,,,full_development_partitions,,True,pass
+19-3,input_and_majority_handoff,10,,,targets_and_canonical_text,,True,pass
+19-3,input_and_majority_handoff,11,,,canonical_tfidf_policy,,True,pass
+19-3,input_and_majority_handoff,12,,,initial_logistic_and_retry_policy,,True,pass
+19-3,input_and_majority_handoff,13,,,real_saved_preprocessing_module,,True,pass
+19-3,input_and_majority_handoff,14,,,bound_classifier_scorer,,True,pass
+19-3,input_and_majority_handoff,15,,,frozen_scorer_version,,True,pass
+19-3,input_and_majority_handoff,16,,,majority_result_digest,,True,pass
+19-3,input_and_majority_handoff,17,,,majority_model_state_unchanged,,True,pass
+19-3,input_and_majority_handoff,18,,,majority_validation_coverage,,True,pass
+19-3,input_and_majority_handoff,19,,,majority_scores_and_reports_bound,,True,pass
+19-3,input_and_majority_handoff,20,,,majority_summary_dataframe_bound,,True,pass
+19-3,input_and_majority_handoff,21,,,selected_files_remain_unchanged,,56,pass
+19-3,artificial_tfidf,1,canonical_normalization_runs_once,text_boundary,canonical_tokenizer_retains_first_pass_unicode_boundary,"[""ss""]","[""ss""]",pass
+19-3,artificial_tfidf,2,canonical_normalization_runs_once,text_boundary,analyzer_does_not_normalize_before_canonical_wrapper,"[""ss""]","[""ss""]",pass
+19-3,artificial_tfidf,3,canonical_normalization_runs_once,text_boundary,recanonicalization_would_change_this_authored_example,"[""sś""]","[""sś""]",pass
+19-3,artificial_tfidf,4,word_analyzer_preserves_bigrams,text_boundary,custom_tokenizer_keeps_word_analyzer_bigram_construction,"[""arm"", ""push"", ""muscle"", ""arm push"", ""push muscle""]","[""arm"", ""push"", ""muscle"", ""arm push"", ""push muscle""]",pass
+19-3,artificial_tfidf,5,training_only_sparse_tfidf_pipeline,feature_fit,small_pipeline_converges_with_one_training_only_fit,"{""status"": ""converged"", ""selected_attempt"": 1, ""attempts"": 1}","{""status"": ""converged"", ""selected_attempt"": 1, ""attempts"": 1}",pass
+19-3,artificial_tfidf,6,training_only_sparse_tfidf_pipeline,feature_fit,initial_logistic_configuration_stays_fixed,"{""C"": 1.0, ""solver"": ""lbfgs"", ""class_weight"": null, ""tol"": 0.0001, ""max_iter"": 1000, ""fit_intercept"": true, ""warm_start"": false, ""l2"": true}","{""C"": 1.0, ""solver"": ""lbfgs"", ""class_weight"": null, ""tol"": 0.0001, ""max_iter"": 1000, ""fit_intercept"": true, ""warm_start"": false, ""l2"": true}",pass
+19-3,artificial_tfidf,7,training_only_sparse_tfidf_pipeline,feature_fit,tfidf_keeps_rare_training_tokens_without_neural_frequency_filter,"{""rare_token_present"": true, ""minimum_document_frequency"": 1, ""reserved_neural_tokens_present"": false}","{""rare_token_present"": true, ""minimum_document_frequency"": 1, ""reserved_neural_tokens_present"": false}",pass
+19-3,artificial_tfidf,8,training_only_sparse_tfidf_pipeline,feature_fit,synthetic_training_arguments_remain_unchanged,true,true,pass
+19-3,artificial_tfidf,9,training_only_sparse_tfidf_pipeline,feature_fit,training_matrix_remains_sparse_finite_float64,true,true,pass
+19-3,artificial_tfidf,10,validation_only_words_do_not_change_features,held_out_boundary,validation_transform_does_not_expand_vocabulary_or_change_idf,"{""same_vocabulary_object"": true, ""same_vocabulary_values"": true, ""same_idf"": true, ""new_validation_word_retained"": false}","{""same_vocabulary_object"": true, ""same_vocabulary_values"": true, ""same_idf"": true, ""new_validation_word_retained"": false}",pass
+19-3,artificial_tfidf,11,validation_only_words_do_not_change_features,held_out_boundary,unseen_nonempty_text_is_retained_as_sparse_zero_vector,"{""sparse"": true, ""records"": 2, ""zero_vector_rows"": [true, false], ""same_feature_columns"": true}","{""sparse"": true, ""records"": 2, ""zero_vector_rows"": [true, false], ""same_feature_columns"": true}",pass
+19-3,artificial_tfidf,12,validation_only_words_do_not_change_features,held_out_boundary,zero_vector_uses_the_fitted_classifier_normal_prediction,"{""records"": 2, ""same_predictions"": true}","{""records"": 2, ""same_predictions"": true}",pass
+19-3,artificial_tfidf,13,validation_only_words_do_not_change_features,held_out_boundary,probability_columns_follow_fitted_numeric_class_order,"{""classes"": [0, 1], ""shape"": [2, 2], ""finite"": true, ""row_sums_one"": true, ""prediction_matches_column_argmax"": true}","{""classes"": [0, 1], ""shape"": [2, 2], ""finite"": true, ""row_sums_one"": true, ""prediction_matches_column_argmax"": true}",pass
+19-3,artificial_tfidf,14,validation_only_words_do_not_change_features,held_out_boundary,fit_runner_has_no_validation_or_score_selection_argument,true,true,pass
+19-3,artificial_tfidf,15,convergence_warning_retries_one_fresh_pipeline,retry_policy,retry_attempt_selection_matches_authored_policy,"{""status"": ""converged"", ""limits"": [1000, 5000], ""selected_attempt"": 2, ""fit_calls"": 2}","{""status"": ""converged"", ""limits"": [1000, 5000], ""selected_attempt"": 2, ""fit_calls"": 2}",pass
+19-3,artificial_tfidf,16,convergence_warning_retries_one_fresh_pipeline,retry_policy,only_a_converged_attempt_can_supply_the_pipeline,true,true,pass
+19-3,artificial_tfidf,17,convergence_warning_retries_one_fresh_pipeline,retry_policy,retry_uses_unchanged_training_data_and_other_settings,true,true,pass
+19-3,artificial_tfidf,18,convergence_warning_retries_one_fresh_pipeline,retry_policy,retry_pipeline_and_estimator_are_fresh,true,true,pass
+19-3,artificial_tfidf,19,second_convergence_warning_is_unresolved,retry_policy,retry_attempt_selection_matches_authored_policy,"{""status"": ""unresolved"", ""limits"": [1000, 5000], ""selected_attempt"": null, ""fit_calls"": 2}","{""status"": ""unresolved"", ""limits"": [1000, 5000], ""selected_attempt"": null, ""fit_calls"": 2}",pass
+19-3,artificial_tfidf,20,second_convergence_warning_is_unresolved,retry_policy,only_a_converged_attempt_can_supply_the_pipeline,true,true,pass
+19-3,artificial_tfidf,21,second_convergence_warning_is_unresolved,retry_policy,retry_uses_unchanged_training_data_and_other_settings,true,true,pass
+19-3,artificial_tfidf,22,other_warning_does_not_trigger_retry,retry_policy,retry_attempt_selection_matches_authored_policy,"{""status"": ""converged"", ""limits"": [1000], ""selected_attempt"": 1, ""fit_calls"": 1}","{""status"": ""converged"", ""limits"": [1000], ""selected_attempt"": 1, ""fit_calls"": 1}",pass
+19-3,artificial_tfidf,23,other_warning_does_not_trigger_retry,retry_policy,only_a_converged_attempt_can_supply_the_pipeline,true,true,pass
+19-3,artificial_tfidf,24,other_warning_does_not_trigger_retry,retry_policy,retry_uses_unchanged_training_data_and_other_settings,true,true,pass
+19-3,artificial_tfidf,25,fit_exception_keeps_model_unavailable,failure_accounting,retry_attempt_selection_matches_authored_policy,"{""status"": ""failed"", ""limits"": [1000], ""selected_attempt"": null, ""fit_calls"": 1}","{""status"": ""failed"", ""limits"": [1000], ""selected_attempt"": null, ""fit_calls"": 1}",pass
+19-3,artificial_tfidf,26,fit_exception_keeps_model_unavailable,failure_accounting,only_a_converged_attempt_can_supply_the_pipeline,true,true,pass
+19-3,artificial_tfidf,27,fit_exception_keeps_model_unavailable,failure_accounting,retry_uses_unchanged_training_data_and_other_settings,true,true,pass
+19-3,artificial_tfidf,28,fit_exception_keeps_model_unavailable,failure_accounting,fit_failure_message_does_not_expose_authored_exception,true,true,pass
+19-3,artificial_tfidf,29,retry_cannot_reuse_first_pipeline,retry_policy,retry_attempt_selection_matches_authored_policy,"{""status"": ""failed"", ""limits"": [1000, 5000], ""selected_attempt"": null, ""fit_calls"": 1}","{""status"": ""failed"", ""limits"": [1000, 5000], ""selected_attempt"": null, ""fit_calls"": 1}",pass
+19-3,artificial_tfidf,30,retry_cannot_reuse_first_pipeline,retry_policy,only_a_converged_attempt_can_supply_the_pipeline,true,true,pass
+19-3,artificial_tfidf,31,retry_cannot_reuse_first_pipeline,retry_policy,retry_uses_unchanged_training_data_and_other_settings,true,true,pass
+19-3,artificial_tfidf,32,empty_training_vocabulary_is_failed_preparation,feature_fit,shared_tokenizer_does_not_insert_neural_unk_into_tfidf,[],[],pass
+19-3,artificial_tfidf,33,empty_training_vocabulary_is_failed_preparation,feature_fit,empty_training_vocabulary_has_failed_status_without_retry,"{""status"": ""failed"", ""selected_attempt"": null, ""attempts"": 1}","{""status"": ""failed"", ""selected_attempt"": null, ""attempts"": 1}",pass
+19-3,artificial_tfidf,34,empty_training_vocabulary_is_failed_preparation,feature_fit,empty_training_vocabulary_cannot_supply_a_model,true,true,pass
+19-3,tfidf_validation,1,,,artificial_tfidf_contract_passed,,34,pass
+19-3,tfidf_validation,2,,,canonical_normalization_matches_saved_model_text,,True,pass
+19-3,tfidf_validation,3,,,optimization_evidence_available,,True,pass
+19-3,tfidf_validation,4,,,training_vocabulary_and_idf_valid,,True,pass
+19-3,tfidf_validation,5,,,fitted_classifier_matches_frozen_classes,,True,pass
+19-3,tfidf_validation,6,,,pipeline_preserves_importable_tokenizer,,True,pass
+19-3,tfidf_validation,7,,,sparse_float64_feature_matrix:train,,True,pass
+19-3,tfidf_validation,8,,,l2_normalization_and_zero_rows:train,,True,pass
+19-3,tfidf_validation,9,,,sparse_float64_feature_matrix:validation,,True,pass
+19-3,tfidf_validation,10,,,l2_normalization_and_zero_rows:validation,,True,pass
+19-3,tfidf_validation,11,,,validation_transform_did_not_change_fitted_state,,True,pass
+19-3,tfidf_validation,12,,,complete_validated_prediction_indices,,True,pass
+19-3,tfidf_validation,13,,,probability_columns_match_frozen_classes,,True,pass
+19-3,tfidf_validation,14,,,raw_pipeline_and_saved_feature_predictions_match,,True,pass
+19-3,tfidf_validation,15,,,prediction_did_not_change_fitted_state,,True,pass
+19-3,tfidf_validation,16,,,one_prediction_per_frozen_validation_id,,True,pass
+19-3,tfidf_validation,17,,,validation_target_and_group_alignment,,True,pass
+19-3,tfidf_validation,18,,,full_frozen_validation_score_contract,,True,pass
+19-3,tfidf_validation,19,,,scores_match_independent_confusion_arithmetic,,True,pass
+19-3,tfidf_validation,20,,,all_class_support_and_prediction_counts_preserved,,True,pass
+19-3,tfidf_validation,21,,,name_only_and_zero_vectors_retained,,True,pass
+19-3,tfidf_validation,22,,,bound_inputs_and_majority_result_unchanged,,True,pass
+19-3,tfidf_validation,23,,,fitted_state_unchanged_after_scoring,,True,pass
+19-4,fitted_result_preflight,1,,,verified_baseline_receipts,,True,pass
+19-4,fitted_result_preflight,2,,,project_and_parent_identity,,True,pass
+19-4,fitted_result_preflight,3,,,bound_files_and_branch,,56,pass
+19-4,fitted_result_preflight,4,,,baseline_policy_digest,,True,pass
+19-4,fitted_result_preflight,5,,,preparation_digest,,True,pass
+19-4,fitted_result_preflight,6,,,development_table_digests,,True,pass
+19-4,fitted_result_preflight,7,,,unchanged_software,,True,pass
+19-4,fitted_result_preflight,8,,,frozen_class_mapping,,True,pass
+19-4,fitted_result_preflight,9,,,full_development_partitions,,True,pass
+19-4,fitted_result_preflight,10,,,targets_and_canonical_text,,True,pass
+19-4,fitted_result_preflight,11,,,canonical_tfidf_policy,,True,pass
+19-4,fitted_result_preflight,12,,,initial_logistic_and_retry_policy,,True,pass
+19-4,fitted_result_preflight,13,,,real_saved_preprocessing_module,,True,pass
+19-4,fitted_result_preflight,14,,,bound_classifier_scorer,,True,pass
+19-4,fitted_result_preflight,15,,,frozen_scorer_version,,True,pass
+19-4,fitted_result_preflight,16,,,majority_result_digest,,True,pass
+19-4,fitted_result_preflight,17,,,majority_model_state_unchanged,,True,pass
+19-4,fitted_result_preflight,18,,,majority_validation_coverage,,True,pass
+19-4,fitted_result_preflight,19,,,majority_scores_and_reports_bound,,True,pass
+19-4,fitted_result_preflight,20,,,majority_summary_dataframe_bound,,True,pass
+19-4,fitted_result_preflight,21,,,selected_files_remain_unchanged,,56,pass
+19-4,fitted_result_preflight,22,,,completed_tfidf_result,,True,pass
+19-4,fitted_result_preflight,23,,,tfidf_parent_and_software_binding,,True,pass
+19-4,fitted_result_preflight,24,,,tfidf_result_digest,,True,pass
+19-4,fitted_result_preflight,25,,,tfidf_configuration_identity,,True,pass
+19-4,fitted_result_preflight,26,,,result_table_aliases_bound,,True,pass
+19-4,fitted_result_preflight,27,,,tfidf_artificial_check_receipt,,True,pass
+19-4,fitted_result_preflight,28,,,selected_attempt_and_convergence_policy,,True,pass
+19-4,fitted_result_preflight,29,,,fit_attempt_metadata_and_parameters,,True,pass
+19-4,fitted_result_preflight,30,,,run_log_attempt_binding:1,,True,pass
+19-4,fitted_result_preflight,31,,,actual_fitted_dimensions_and_parameters,,True,pass
+19-4,fitted_result_preflight,32,,,actual_pipeline_state_bound,,True,pass
+19-4,fitted_result_preflight,33,,,actual_vectorizer_policy_and_tokenizer,,True,pass
+19-4,fitted_result_preflight,34,,,complete_prediction_identity:majority_class,,True,pass
+19-4,fitted_result_preflight,35,,,predicted_indices_and_labels:majority_class,,True,pass
+19-4,fitted_result_preflight,36,,,frozen_probability_columns:majority_class,,True,pass
+19-4,fitted_result_preflight,37,,,recorded_metrics_recomputed_from_predictions:majority_class,,True,pass
+19-4,fitted_result_preflight,38,,,metric_and_class_report_aliases:majority_class,,True,pass
+19-4,fitted_result_preflight,39,,,complete_prediction_identity:tfidf_logistic_regression,,True,pass
+19-4,fitted_result_preflight,40,,,predicted_indices_and_labels:tfidf_logistic_regression,,True,pass
+19-4,fitted_result_preflight,41,,,frozen_probability_columns:tfidf_logistic_regression,,True,pass
+19-4,fitted_result_preflight,42,,,recorded_metrics_recomputed_from_predictions:tfidf_logistic_regression,,True,pass
+19-4,fitted_result_preflight,43,,,metric_and_class_report_aliases:tfidf_logistic_regression,,True,pass
+19-4,fitted_result_preflight,44,,,full_precision_comparison_bound,,True,pass
+19-4,fitted_result_preflight,45,,,feature_diagnostic_population,,True,pass
+19-4,fitted_result_preflight,46,,,selected_input_bytes_unchanged,,56,pass
+19-4,validation_diagnostics,1,,,verified_completed_baselines,,True,pass
+19-4,validation_diagnostics,2,,,fixed_validation_population,,True,pass
+19-4,validation_diagnostics,3,,,validation_zero_vector_flag_source,,True,pass
+19-4,validation_diagnostics,4,,,zero_vector_count_matches_saved_diagnostics,,2,pass
+19-4,validation_diagnostics,5,,,complete_prediction_coverage:majority_class,,True,pass
+19-4,validation_diagnostics,6,,,prediction_target_group_alignment:majority_class,,True,pass
+19-4,validation_diagnostics,7,,,complete_prediction_coverage:tfidf_logistic_regression,,True,pass
+19-4,validation_diagnostics,8,,,prediction_target_group_alignment:tfidf_logistic_regression,,True,pass
+19-4,validation_diagnostics,9,,,combined_prediction_and_report_coverage,,True,pass
+19-4,validation_diagnostics,10,,,zero_vector_flag_is_nullable_and_model_specific,,True,pass
+19-4,validation_diagnostics,11,,,all_errors_retained_with_saved_text_and_pending_review,,479,pass
+19-4,validation_diagnostics,12,,,subset_metric_denominator:majority_class:population:all,,435,pass
+19-4,validation_diagnostics,13,,,subset_metric_denominator:majority_class:text_availability:name_only,,234,pass
+19-4,validation_diagnostics,14,,,subset_metric_denominator:majority_class:text_availability:name_and_description,,201,pass
+19-4,validation_diagnostics,15,,,subset_metric_denominator:tfidf_logistic_regression:population:all,,435,pass
+19-4,validation_diagnostics,16,,,subset_metric_denominator:tfidf_logistic_regression:text_availability:name_only,,234,pass
+19-4,validation_diagnostics,17,,,subset_metric_denominator:tfidf_logistic_regression:text_availability:name_and_description,,201,pass
+19-4,validation_diagnostics,18,,,subset_metric_denominator:tfidf_logistic_regression:tfidf_vector:zero,,2,pass
+19-4,validation_diagnostics,19,,,subset_metric_denominator:tfidf_logistic_regression:tfidf_vector:nonzero,,433,pass
+19-4,validation_diagnostics,20,,,diagnostic_subsets_partition_each_relevant_population,,True,pass
+19-4,validation_diagnostics,21,,,headline_scores_unchanged:majority_class,,True,pass
+19-4,validation_diagnostics,22,,,headline_scores_unchanged:tfidf_logistic_regression,,True,pass
+19-4,validation_diagnostics,23,,,confusion_pair_summary_covers_all_errors,,True,pass
+19-4,validation_diagnostics,24,,,four_labeled_confusion_pngs_prepared,,4,pass
+19-4,validation_diagnostics,25,,,fitted_models_unchanged,,True,pass
+19-4,validation_diagnostics,26,,,source_tables_and_receipts_unchanged,,True,pass

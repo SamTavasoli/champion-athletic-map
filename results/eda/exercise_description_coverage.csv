@@ -1,0 +1,18 @@
+body_part,records,missing_descriptions,available_descriptions,missing_percent
+neck,8,8,0,100.0
+glutes,81,52,29,64.1975
+quadriceps,645,401,244,62.1705
+abductors,21,13,8,61.9048
+middle back,116,69,47,59.4828
+adductors,17,10,7,58.8235
+hamstrings,121,71,50,58.6777
+lower back,97,55,42,56.701
+abdominals,660,364,296,55.1515
+shoulders,338,166,172,49.1124
+forearms,31,15,16,48.3871
+calves,47,21,26,44.6809
+lats,124,55,69,44.3548
+chest,260,113,147,43.4615
+triceps,151,63,88,41.7219
+biceps,168,67,101,39.881
+traps,24,7,17,29.1667

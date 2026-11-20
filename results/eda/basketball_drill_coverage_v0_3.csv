@@ -1,0 +1,24 @@
+coverage_dimension,category,candidate_groups,approved_drills,planner_eligible,interpretation
+scope,basketball_drill_candidate,132,0,0,Provisional groups; distinctness and eligibility pending
+scope,general_warmup_candidate,12,0,0,Provisional groups; distinctness and eligibility pending
+skill_metadata,ball_handling,29,0,0,Raw or proposed skill label; review before treating as canonical
+skill_metadata,ball_handling_warmup,1,0,0,Raw or proposed skill label; review before treating as canonical
+skill_metadata,basketball_skill,3,0,0,Raw or proposed skill label; review before treating as canonical
+skill_metadata,defense,11,0,0,Raw or proposed skill label; review before treating as canonical
+skill_metadata,finishing,9,0,0,Raw or proposed skill label; review before treating as canonical
+skill_metadata,footwork,11,0,0,Raw or proposed skill label; review before treating as canonical
+skill_metadata,general_warmup,1,0,0,Raw or proposed skill label; review before treating as canonical
+skill_metadata,off_ball_movement,3,0,0,Raw or proposed skill label; review before treating as canonical
+skill_metadata,offense,9,0,0,Raw or proposed skill label; review before treating as canonical
+skill_metadata,passing,18,0,0,Raw or proposed skill label; review before treating as canonical
+skill_metadata,rebounding,5,0,0,Raw or proposed skill label; review before treating as canonical
+skill_metadata,shooting,25,0,0,Raw or proposed skill label; review before treating as canonical
+skill_metadata,team_concepts,2,0,0,Raw or proposed skill label; review before treating as canonical
+skill_metadata,team_defense,2,0,0,Raw or proposed skill label; review before treating as canonical
+skill_metadata,team_offense,7,0,0,Raw or proposed skill label; review before treating as canonical
+skill_metadata,transition_offense,2,0,0,Raw or proposed skill label; review before treating as canonical
+skill_metadata,warmup,6,0,0,Raw or proposed skill label; review before treating as canonical
+curriculum_level,Rookie,29,0,0,Multi-level groups may appear in several categories
+curriculum_level,Starter,46,0,0,Multi-level groups may appear in several categories
+curriculum_level,All-Star,34,0,0,Multi-level groups may appear in several categories
+curriculum_level,MVP,39,0,0,Multi-level groups may appear in several categories

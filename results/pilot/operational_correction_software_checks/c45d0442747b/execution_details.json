@@ -1,0 +1,1595 @@
+{
+  "schema_version": "step30-pytest-execution-1",
+  "pytest_exit_code": 0,
+  "collected": [
+    {
+      "test_id": "tests/operational_corrections/test_food_answer_audit.py::test_exact_question_echo_is_missing_answer_not_an_asserted_wrong_numeric_fact",
+      "requirement": "31:exact-question-echo-food-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_food_answer_audit.py:44",
+      "description": "test_exact_question_echo_is_missing_answer_not_an_asserted_wrong_numeric_fact"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_answer_audit.py::test_whitespace_and_case_normalization_remove_only_the_same_complete_wording",
+      "requirement": "31:exact-question-echo-food-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_food_answer_audit.py:52",
+      "description": "test_whitespace_and_case_normalization_remove_only_the_same_complete_wording"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_answer_audit.py::test_separate_correct_answer_still_passes_when_an_exact_echo_is_also_present",
+      "requirement": "31:exact-question-echo-food-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_food_answer_audit.py:60",
+      "description": "test_separate_correct_answer_still_passes_when_an_exact_echo_is_also_present"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_answer_audit.py::test_echo_plus_explicit_unavailability_remains_unverified_not_correct",
+      "requirement": "31:exact-question-echo-food-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_food_answer_audit.py:67",
+      "description": "test_echo_plus_explicit_unavailability_remains_unverified_not_correct"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_answer_audit.py::test_other_unrecognized_food_prose_retains_the_frozen_assessment_statuses",
+      "requirement": "31:exact-question-echo-food-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_food_answer_audit.py:73",
+      "description": "test_other_unrecognized_food_prose_retains_the_frozen_assessment_statuses"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_answer_audit.py::test_no_public_food_question_leaves_all_findings_and_observations_unchanged",
+      "requirement": "31:exact-question-echo-food-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_food_answer_audit.py:82",
+      "description": "test_no_public_food_question_leaves_all_findings_and_observations_unchanged"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_answer_audit.py::test_reply_metadata_and_supplied_source_fields_are_never_changed_or_removed",
+      "requirement": "31:exact-question-echo-food-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_food_answer_audit.py:91",
+      "description": "test_reply_metadata_and_supplied_source_fields_are_never_changed_or_removed"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_answer_audit.py::test_echo_audit_does_not_hide_an_actual_incorrect_food_claim",
+      "requirement": "31:exact-question-echo-food-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_food_answer_audit.py:108",
+      "description": "test_echo_audit_does_not_hide_an_actual_incorrect_food_claim"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_answer_audit.py::test_real_independent_assessor_retains_all_checks_and_original_raw_reply",
+      "requirement": "31:exact-question-echo-food-assessment",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_food_answer_audit.py:114",
+      "description": "test_real_independent_assessor_retains_all_checks_and_original_raw_reply"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_complete_view_roundtrip_preserves_all_source_qualifications_and_other_fields",
+      "requirement": "31:lossless-food-reference-metadata",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_food_reference_encoding.py:40",
+      "description": "test_complete_view_roundtrip_preserves_all_source_qualifications_and_other_fields"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_decoded_and_encoded_results_do_not_alias_original_mutable_values",
+      "requirement": "31:lossless-food-reference-metadata",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_food_reference_encoding.py:56",
+      "description": "test_decoded_and_encoded_results_do_not_alias_original_mutable_values"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_json_type_distinctions_and_missing_fields_are_not_factored_as_equal",
+      "requirement": "31:lossless-food-reference-metadata",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_food_reference_encoding.py:66",
+      "description": "test_json_type_distinctions_and_missing_fields_are_not_factored_as_equal"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_arbitrary_nested_values_and_control_looking_text_remain_data",
+      "requirement": "31:lossless-food-reference-metadata",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_food_reference_encoding.py:81",
+      "description": "test_arbitrary_nested_values_and_control_looking_text_remain_data"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_unrecognized_or_unhelpful_arrays_remain_unchanged[rows0]",
+      "requirement": "31:lossless-food-reference-metadata",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_food_reference_encoding.py:89",
+      "description": "test_unrecognized_or_unhelpful_arrays_remain_unchanged[rows0]"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_unrecognized_or_unhelpful_arrays_remain_unchanged[rows1]",
+      "requirement": "31:lossless-food-reference-metadata",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_food_reference_encoding.py:89",
+      "description": "test_unrecognized_or_unhelpful_arrays_remain_unchanged[rows1]"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_unrecognized_or_unhelpful_arrays_remain_unchanged[rows2]",
+      "requirement": "31:lossless-food-reference-metadata",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_food_reference_encoding.py:89",
+      "description": "test_unrecognized_or_unhelpful_arrays_remain_unchanged[rows2]"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_unrecognized_or_unhelpful_arrays_remain_unchanged[rows3]",
+      "requirement": "31:lossless-food-reference-metadata",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_food_reference_encoding.py:89",
+      "description": "test_unrecognized_or_unhelpful_arrays_remain_unchanged[rows3]"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_unrecognized_or_unhelpful_arrays_remain_unchanged[rows4]",
+      "requirement": "31:lossless-food-reference-metadata",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_food_reference_encoding.py:89",
+      "description": "test_unrecognized_or_unhelpful_arrays_remain_unchanged[rows4]"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_recognized_malformed_encoding_is_rejected_by_decoder_and_encoder[<lambda>0]",
+      "requirement": "31:lossless-food-reference-metadata",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_food_reference_encoding.py:94",
+      "description": "test_recognized_malformed_encoding_is_rejected_by_decoder_and_encoder[<lambda>0]"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_recognized_malformed_encoding_is_rejected_by_decoder_and_encoder[<lambda>1]",
+      "requirement": "31:lossless-food-reference-metadata",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_food_reference_encoding.py:94",
+      "description": "test_recognized_malformed_encoding_is_rejected_by_decoder_and_encoder[<lambda>1]"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_recognized_malformed_encoding_is_rejected_by_decoder_and_encoder[<lambda>2]",
+      "requirement": "31:lossless-food-reference-metadata",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_food_reference_encoding.py:94",
+      "description": "test_recognized_malformed_encoding_is_rejected_by_decoder_and_encoder[<lambda>2]"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_recognized_malformed_encoding_is_rejected_by_decoder_and_encoder[<lambda>3]",
+      "requirement": "31:lossless-food-reference-metadata",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_food_reference_encoding.py:94",
+      "description": "test_recognized_malformed_encoding_is_rejected_by_decoder_and_encoder[<lambda>3]"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_recognized_malformed_encoding_is_rejected_by_decoder_and_encoder[<lambda>4]",
+      "requirement": "31:lossless-food-reference-metadata",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_food_reference_encoding.py:94",
+      "description": "test_recognized_malformed_encoding_is_rejected_by_decoder_and_encoder[<lambda>4]"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_recognized_malformed_encoding_is_rejected_by_decoder_and_encoder[<lambda>5]",
+      "requirement": "31:lossless-food-reference-metadata",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_food_reference_encoding.py:94",
+      "description": "test_recognized_malformed_encoding_is_rejected_by_decoder_and_encoder[<lambda>5]"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_model_view_rejects_malformed_tag_without_mutating_the_input",
+      "requirement": "31:lossless-food-reference-metadata",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_food_reference_encoding.py:110",
+      "description": "test_model_view_rejects_malformed_tag_without_mutating_the_input"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_public_replies_and_unrelated_roots_are_not_interpreted_as_encoded_views[value0]",
+      "requirement": "31:lossless-food-reference-metadata",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_food_reference_encoding.py:120",
+      "description": "test_public_replies_and_unrelated_roots_are_not_interpreted_as_encoded_views[value0]"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_public_replies_and_unrelated_roots_are_not_interpreted_as_encoded_views[value1]",
+      "requirement": "31:lossless-food-reference-metadata",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_food_reference_encoding.py:120",
+      "description": "test_public_replies_and_unrelated_roots_are_not_interpreted_as_encoded_views[value1]"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_public_replies_and_unrelated_roots_are_not_interpreted_as_encoded_views[value2]",
+      "requirement": "31:lossless-food-reference-metadata",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_food_reference_encoding.py:120",
+      "description": "test_public_replies_and_unrelated_roots_are_not_interpreted_as_encoded_views[value2]"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_public_replies_and_unrelated_roots_are_not_interpreted_as_encoded_views[value3]",
+      "requirement": "31:lossless-food-reference-metadata",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_food_reference_encoding.py:120",
+      "description": "test_public_replies_and_unrelated_roots_are_not_interpreted_as_encoded_views[value3]"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_already_encoded_views_are_idempotent_and_support_multiple_lookups",
+      "requirement": "31:lossless-food-reference-metadata",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_food_reference_encoding.py:131",
+      "description": "test_already_encoded_views_are_idempotent_and_support_multiple_lookups"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_unknown_codec_tags_remain_unchanged",
+      "requirement": "31:lossless-food-reference-metadata",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_food_reference_encoding.py:139",
+      "description": "test_unknown_codec_tags_remain_unchanged"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_public_reply_guard_does_not_decode_even_a_malformed_recognized_nested_tag",
+      "requirement": "31:lossless-food-reference-metadata",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_food_reference_encoding.py:145",
+      "description": "test_public_reply_guard_does_not_decode_even_a_malformed_recognized_nested_tag"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_preparation.py::test_complete_receipts_and_matched_reference_values_are_loaded_without_changes",
+      "requirement": "31:bounded-lossless-operational-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_operational_preparation.py:79",
+      "description": "test_complete_receipts_and_matched_reference_values_are_loaded_without_changes"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_preparation.py::test_changed_saved_receipts_are_rejected_without_repair[outcome]",
+      "requirement": "31:bounded-lossless-operational-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_operational_preparation.py:87",
+      "description": "test_changed_saved_receipts_are_rejected_without_repair[outcome]"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_preparation.py::test_changed_saved_receipts_are_rejected_without_repair[seal]",
+      "requirement": "31:bounded-lossless-operational-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_operational_preparation.py:87",
+      "description": "test_changed_saved_receipts_are_rejected_without_repair[seal]"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_preparation.py::test_changed_saved_receipts_are_rejected_without_repair[packet]",
+      "requirement": "31:bounded-lossless-operational-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_operational_preparation.py:87",
+      "description": "test_changed_saved_receipts_are_rejected_without_repair[packet]"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_preparation.py::test_changed_native_request_is_not_treated_as_verified_source[request]",
+      "requirement": "31:bounded-lossless-operational-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_operational_preparation.py:110",
+      "description": "test_changed_native_request_is_not_treated_as_verified_source[request]"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_preparation.py::test_changed_native_request_is_not_treated_as_verified_source[result_context]",
+      "requirement": "31:bounded-lossless-operational-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_operational_preparation.py:110",
+      "description": "test_changed_native_request_is_not_treated_as_verified_source[result_context]"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_preparation.py::test_source_table_counter_handles_complete_controls_and_byte_pieces",
+      "requirement": "31:bounded-lossless-operational-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_operational_preparation.py:144",
+      "description": "test_source_table_counter_handles_complete_controls_and_byte_pieces"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_preparation.py::test_candidate_preparation_is_repeatable_and_preserves_original_saved_work",
+      "requirement": "31:bounded-lossless-operational-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_operational_preparation.py:155",
+      "description": "test_candidate_preparation_is_repeatable_and_preserves_original_saved_work"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_preparation.py::test_unexecuted_software_evidence_does_not_start_preparation",
+      "requirement": "31:bounded-lossless-operational-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_operational_preparation.py:219",
+      "description": "test_unexecuted_software_evidence_does_not_start_preparation"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_runtime.py::test_equal_identifier_limits_allow_null_optional_fields_and_honest_unknown",
+      "requirement": "31:bounded-lossless-reference-runtime",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_operational_runtime.py:144",
+      "description": "test_equal_identifier_limits_allow_null_optional_fields_and_honest_unknown"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_runtime.py::test_v1_view_decoder_and_reference_access_are_unchanged",
+      "requirement": "31:bounded-lossless-reference-runtime",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_operational_runtime.py:162",
+      "description": "test_v1_view_decoder_and_reference_access_are_unchanged"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_runtime.py::test_reference_wire_is_encoded_and_private_rag_guard_restores_complete_values",
+      "requirement": "31:bounded-lossless-reference-runtime",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_operational_runtime.py:175",
+      "description": "test_reference_wire_is_encoded_and_private_rag_guard_restores_complete_values"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_runtime.py::test_all_role_handoffs_keep_full_values_and_existing_encoding_layers",
+      "requirement": "31:bounded-lossless-reference-runtime",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_operational_runtime.py:199",
+      "description": "test_all_role_handoffs_keep_full_values_and_existing_encoding_layers"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_runtime.py::test_food_role_still_parses_effective_food_schema_and_rejects_empty_provided",
+      "requirement": "31:bounded-lossless-reference-runtime",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_operational_runtime.py:223",
+      "description": "test_food_role_still_parses_effective_food_schema_and_rejects_empty_provided"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_runtime.py::test_configuration_is_stable_and_rebinds_every_shared_reference_policy",
+      "requirement": "31:bounded-lossless-reference-runtime",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_operational_runtime.py:233",
+      "description": "test_configuration_is_stable_and_rebinds_every_shared_reference_policy"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_runtime.py::test_original_files_packets_settings_and_acceptance_rules_remain_unchanged",
+      "requirement": "31:bounded-lossless-reference-runtime",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_operational_runtime.py:250",
+      "description": "test_original_files_packets_settings_and_acceptance_rules_remain_unchanged"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_runtime.py::test_changed_contract_graph_is_rejected_before_mutating_clients[inventory]",
+      "requirement": "31:bounded-lossless-reference-runtime",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_operational_runtime.py:264",
+      "description": "test_changed_contract_graph_is_rejected_before_mutating_clients[inventory]"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_runtime.py::test_changed_contract_graph_is_rejected_before_mutating_clients[contract]",
+      "requirement": "31:bounded-lossless-reference-runtime",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_operational_runtime.py:264",
+      "description": "test_changed_contract_graph_is_rejected_before_mutating_clients[contract]"
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_runtime.py::test_changed_contract_graph_is_rejected_before_mutating_clients[adapter]",
+      "requirement": "31:bounded-lossless-reference-runtime",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/operational_corrections/test_operational_runtime.py:264",
+      "description": "test_changed_contract_graph_is_rejected_before_mutating_clients[adapter]"
+    }
+  ],
+  "phases": [
+    {
+      "test_id": "tests/operational_corrections/test_food_answer_audit.py::test_exact_question_echo_is_missing_answer_not_an_asserted_wrong_numeric_fact",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00033900002017617226,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_answer_audit.py::test_exact_question_echo_is_missing_answer_not_an_asserted_wrong_numeric_fact",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0029210999491624534,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_answer_audit.py::test_exact_question_echo_is_missing_answer_not_an_asserted_wrong_numeric_fact",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001640000264160335,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_answer_audit.py::test_whitespace_and_case_normalization_remove_only_the_same_complete_wording",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00021510000806301832,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_answer_audit.py::test_whitespace_and_case_normalization_remove_only_the_same_complete_wording",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00022629997693002224,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_answer_audit.py::test_whitespace_and_case_normalization_remove_only_the_same_complete_wording",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.530000923201442e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_answer_audit.py::test_separate_correct_answer_still_passes_when_an_exact_echo_is_also_present",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00016850000247359276,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_answer_audit.py::test_separate_correct_answer_still_passes_when_an_exact_echo_is_also_present",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00028060004115104675,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_answer_audit.py::test_separate_correct_answer_still_passes_when_an_exact_echo_is_also_present",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.239998714998364e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_answer_audit.py::test_echo_plus_explicit_unavailability_remains_unverified_not_correct",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.000152900000102818,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_answer_audit.py::test_echo_plus_explicit_unavailability_remains_unverified_not_correct",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00021680002100765705,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_answer_audit.py::test_echo_plus_explicit_unavailability_remains_unverified_not_correct",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.559999357908964e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_answer_audit.py::test_other_unrecognized_food_prose_retains_the_frozen_assessment_statuses",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00015429995255544782,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_answer_audit.py::test_other_unrecognized_food_prose_retains_the_frozen_assessment_statuses",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00025640003150328994,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_answer_audit.py::test_other_unrecognized_food_prose_retains_the_frozen_assessment_statuses",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.599999662488699e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_answer_audit.py::test_no_public_food_question_leaves_all_findings_and_observations_unchanged",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0001512000453658402,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_answer_audit.py::test_no_public_food_question_leaves_all_findings_and_observations_unchanged",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0002272999845445156,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_answer_audit.py::test_no_public_food_question_leaves_all_findings_and_observations_unchanged",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.259997073560953e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_answer_audit.py::test_reply_metadata_and_supplied_source_fields_are_never_changed_or_removed",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0001542000100016594,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_answer_audit.py::test_reply_metadata_and_supplied_source_fields_are_never_changed_or_removed",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00022599997464567423,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_answer_audit.py::test_reply_metadata_and_supplied_source_fields_are_never_changed_or_removed",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.390003884211183e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_answer_audit.py::test_echo_audit_does_not_hide_an_actual_incorrect_food_claim",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00014860002556815743,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_answer_audit.py::test_echo_audit_does_not_hide_an_actual_incorrect_food_claim",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0003149000112898648,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_answer_audit.py::test_echo_audit_does_not_hide_an_actual_incorrect_food_claim",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.059997344389558e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_answer_audit.py::test_real_independent_assessor_retains_all_checks_and_original_raw_reply",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00015189999248832464,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_answer_audit.py::test_real_independent_assessor_retains_all_checks_and_original_raw_reply",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.1314303000108339,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_answer_audit.py::test_real_independent_assessor_retains_all_checks_and_original_raw_reply",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013399997260421515,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_complete_view_roundtrip_preserves_all_source_qualifications_and_other_fields",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00023060000967234373,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_complete_view_roundtrip_preserves_all_source_qualifications_and_other_fields",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0009485000045970082,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_complete_view_roundtrip_preserves_all_source_qualifications_and_other_fields",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.809999028220773e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_decoded_and_encoded_results_do_not_alias_original_mutable_values",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.000185999961104244,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_decoded_and_encoded_results_do_not_alias_original_mutable_values",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00058970000827685,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_decoded_and_encoded_results_do_not_alias_original_mutable_values",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.03999719209969e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_json_type_distinctions_and_missing_fields_are_not_factored_as_equal",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00016280001727864146,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_json_type_distinctions_and_missing_fields_are_not_factored_as_equal",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0005197999998927116,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_json_type_distinctions_and_missing_fields_are_not_factored_as_equal",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.990002632141113e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_arbitrary_nested_values_and_control_looking_text_remain_data",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00017610000213608146,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_arbitrary_nested_values_and_control_looking_text_remain_data",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0008847999852150679,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_arbitrary_nested_values_and_control_looking_text_remain_data",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013139995280653238,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_unrecognized_or_unhelpful_arrays_remain_unchanged[rows0]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00023860001238062978,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_unrecognized_or_unhelpful_arrays_remain_unchanged[rows0]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 7.830001413822174e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_unrecognized_or_unhelpful_arrays_remain_unchanged[rows0]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00011940003605559468,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_unrecognized_or_unhelpful_arrays_remain_unchanged[rows1]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00021410000044852495,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_unrecognized_or_unhelpful_arrays_remain_unchanged[rows1]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 7.319997530430555e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_unrecognized_or_unhelpful_arrays_remain_unchanged[rows1]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.169998181983829e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_unrecognized_or_unhelpful_arrays_remain_unchanged[rows2]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00020970002515241504,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_unrecognized_or_unhelpful_arrays_remain_unchanged[rows2]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 9.270000737160444e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_unrecognized_or_unhelpful_arrays_remain_unchanged[rows2]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.87999776750803e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_unrecognized_or_unhelpful_arrays_remain_unchanged[rows3]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.000188400037586689,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_unrecognized_or_unhelpful_arrays_remain_unchanged[rows3]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00012149999383836985,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_unrecognized_or_unhelpful_arrays_remain_unchanged[rows3]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.9899986051023e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_unrecognized_or_unhelpful_arrays_remain_unchanged[rows4]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002028000308200717,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_unrecognized_or_unhelpful_arrays_remain_unchanged[rows4]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 7.090001599863172e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_unrecognized_or_unhelpful_arrays_remain_unchanged[rows4]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.410000009462237e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_recognized_malformed_encoding_is_rejected_by_decoder_and_encoder[<lambda>0]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00018720002844929695,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_recognized_malformed_encoding_is_rejected_by_decoder_and_encoder[<lambda>0]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00047720002476125956,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_recognized_malformed_encoding_is_rejected_by_decoder_and_encoder[<lambda>0]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.829997386783361e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_recognized_malformed_encoding_is_rejected_by_decoder_and_encoder[<lambda>1]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00020650000078603625,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_recognized_malformed_encoding_is_rejected_by_decoder_and_encoder[<lambda>1]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00040870002703741193,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_recognized_malformed_encoding_is_rejected_by_decoder_and_encoder[<lambda>1]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.410000009462237e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_recognized_malformed_encoding_is_rejected_by_decoder_and_encoder[<lambda>2]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0001762000028975308,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_recognized_malformed_encoding_is_rejected_by_decoder_and_encoder[<lambda>2]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0003801000420935452,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_recognized_malformed_encoding_is_rejected_by_decoder_and_encoder[<lambda>2]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.029997115954757e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_recognized_malformed_encoding_is_rejected_by_decoder_and_encoder[<lambda>3]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00018140004249289632,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_recognized_malformed_encoding_is_rejected_by_decoder_and_encoder[<lambda>3]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00040879996959120035,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_recognized_malformed_encoding_is_rejected_by_decoder_and_encoder[<lambda>3]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.080003317445517e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_recognized_malformed_encoding_is_rejected_by_decoder_and_encoder[<lambda>4]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00018719997024163604,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_recognized_malformed_encoding_is_rejected_by_decoder_and_encoder[<lambda>4]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0003926000208593905,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_recognized_malformed_encoding_is_rejected_by_decoder_and_encoder[<lambda>4]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.339999476447701e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_recognized_malformed_encoding_is_rejected_by_decoder_and_encoder[<lambda>5]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00018179998733103275,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_recognized_malformed_encoding_is_rejected_by_decoder_and_encoder[<lambda>5]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00040419999277219176,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_recognized_malformed_encoding_is_rejected_by_decoder_and_encoder[<lambda>5]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.859997615218163e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_model_view_rejects_malformed_tag_without_mutating_the_input",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00030989997321739793,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_model_view_rejects_malformed_tag_without_mutating_the_input",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0002880999818444252,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_model_view_rejects_malformed_tag_without_mutating_the_input",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00012469995999708772,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_public_replies_and_unrelated_roots_are_not_interpreted_as_encoded_views[value0]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002931999624706805,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_public_replies_and_unrelated_roots_are_not_interpreted_as_encoded_views[value0]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00011619995348155499,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_public_replies_and_unrelated_roots_are_not_interpreted_as_encoded_views[value0]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013240001862868667,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_public_replies_and_unrelated_roots_are_not_interpreted_as_encoded_views[value1]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00027279998175799847,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_public_replies_and_unrelated_roots_are_not_interpreted_as_encoded_views[value1]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00010869995458051562,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_public_replies_and_unrelated_roots_are_not_interpreted_as_encoded_views[value1]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00011860002996399999,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_public_replies_and_unrelated_roots_are_not_interpreted_as_encoded_views[value2]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002044000430032611,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_public_replies_and_unrelated_roots_are_not_interpreted_as_encoded_views[value2]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 8.099997648969293e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_public_replies_and_unrelated_roots_are_not_interpreted_as_encoded_views[value2]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00011750002158805728,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_public_replies_and_unrelated_roots_are_not_interpreted_as_encoded_views[value3]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002636000281199813,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_public_replies_and_unrelated_roots_are_not_interpreted_as_encoded_views[value3]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0001020999625325203,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_public_replies_and_unrelated_roots_are_not_interpreted_as_encoded_views[value3]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00011359999189153314,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_already_encoded_views_are_idempotent_and_support_multiple_lookups",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00020730000687763095,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_already_encoded_views_are_idempotent_and_support_multiple_lookups",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.002217700006440282,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_already_encoded_views_are_idempotent_and_support_multiple_lookups",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001572000328451395,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_unknown_codec_tags_remain_unchanged",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00027080002473667264,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_unknown_codec_tags_remain_unchanged",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00011399999493733048,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_unknown_codec_tags_remain_unchanged",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00012649997370317578,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_public_reply_guard_does_not_decode_even_a_malformed_recognized_nested_tag",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00026790000265464187,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_public_reply_guard_does_not_decode_even_a_malformed_recognized_nested_tag",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00025590002769604325,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_food_reference_encoding.py::test_public_reply_guard_does_not_decode_even_a_malformed_recognized_nested_tag",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00011930003529414535,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_preparation.py::test_complete_receipts_and_matched_reference_values_are_loaded_without_changes",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.05205880000721663,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_preparation.py::test_complete_receipts_and_matched_reference_values_are_loaded_without_changes",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.049182600050698966,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_preparation.py::test_complete_receipts_and_matched_reference_values_are_loaded_without_changes",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014299998292699456,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_preparation.py::test_changed_saved_receipts_are_rejected_without_repair[outcome]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.018496800039429218,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_preparation.py::test_changed_saved_receipts_are_rejected_without_repair[outcome]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.015468300029169768,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_preparation.py::test_changed_saved_receipts_are_rejected_without_repair[outcome]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014070002362132072,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_preparation.py::test_changed_saved_receipts_are_rejected_without_repair[seal]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.01015050004934892,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_preparation.py::test_changed_saved_receipts_are_rejected_without_repair[seal]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.015443100011907518,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_preparation.py::test_changed_saved_receipts_are_rejected_without_repair[seal]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014140002895146608,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_preparation.py::test_changed_saved_receipts_are_rejected_without_repair[packet]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.009956899972166866,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_preparation.py::test_changed_saved_receipts_are_rejected_without_repair[packet]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.016628900018986315,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_preparation.py::test_changed_saved_receipts_are_rejected_without_repair[packet]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013569998554885387,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_preparation.py::test_changed_native_request_is_not_treated_as_verified_source[request]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.010260700015351176,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_preparation.py::test_changed_native_request_is_not_treated_as_verified_source[request]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.043736099964007735,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_preparation.py::test_changed_native_request_is_not_treated_as_verified_source[request]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013380002928897738,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_preparation.py::test_changed_native_request_is_not_treated_as_verified_source[result_context]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.010417799989227206,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_preparation.py::test_changed_native_request_is_not_treated_as_verified_source[result_context]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.025427700020372868,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_preparation.py::test_changed_native_request_is_not_treated_as_verified_source[result_context]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00012849998893216252,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_preparation.py::test_source_table_counter_handles_complete_controls_and_byte_pieces",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00020740000763908029,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_preparation.py::test_source_table_counter_handles_complete_controls_and_byte_pieces",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0006969000096432865,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_preparation.py::test_source_table_counter_handles_complete_controls_and_byte_pieces",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.50000248849392e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_preparation.py::test_candidate_preparation_is_repeatable_and_preserves_original_saved_work",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.010234099987428635,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_preparation.py::test_candidate_preparation_is_repeatable_and_preserves_original_saved_work",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.3129067000118084,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_preparation.py::test_candidate_preparation_is_repeatable_and_preserves_original_saved_work",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013289996422827244,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_preparation.py::test_unexecuted_software_evidence_does_not_start_preparation",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.024912599998060614,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_preparation.py::test_unexecuted_software_evidence_does_not_start_preparation",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.010091800009831786,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_preparation.py::test_unexecuted_software_evidence_does_not_start_preparation",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013860000763088465,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_runtime.py::test_equal_identifier_limits_allow_null_optional_fields_and_honest_unknown",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0038397000171244144,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_runtime.py::test_equal_identifier_limits_allow_null_optional_fields_and_honest_unknown",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.09252509998623282,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_runtime.py::test_equal_identifier_limits_allow_null_optional_fields_and_honest_unknown",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00015219999477267265,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_runtime.py::test_v1_view_decoder_and_reference_access_are_unchanged",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.016935900028329343,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_runtime.py::test_v1_view_decoder_and_reference_access_are_unchanged",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.06486340000992641,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_runtime.py::test_v1_view_decoder_and_reference_access_are_unchanged",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013860000763088465,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_runtime.py::test_reference_wire_is_encoded_and_private_rag_guard_restores_complete_values",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0034465999924577773,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_runtime.py::test_reference_wire_is_encoded_and_private_rag_guard_restores_complete_values",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.07274790003430098,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_runtime.py::test_reference_wire_is_encoded_and_private_rag_guard_restores_complete_values",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00016270001651719213,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_runtime.py::test_all_role_handoffs_keep_full_values_and_existing_encoding_layers",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.015169199963565916,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_runtime.py::test_all_role_handoffs_keep_full_values_and_existing_encoding_layers",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.07129599998006597,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_runtime.py::test_all_role_handoffs_keep_full_values_and_existing_encoding_layers",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014489999739453197,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_runtime.py::test_food_role_still_parses_effective_food_schema_and_rejects_empty_provided",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0035924999974668026,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_runtime.py::test_food_role_still_parses_effective_food_schema_and_rejects_empty_provided",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.057324099994730204,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_runtime.py::test_food_role_still_parses_effective_food_schema_and_rejects_empty_provided",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014070002362132072,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_runtime.py::test_configuration_is_stable_and_rebinds_every_shared_reference_policy",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.003767100046388805,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_runtime.py::test_configuration_is_stable_and_rebinds_every_shared_reference_policy",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.09532319998834282,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_runtime.py::test_configuration_is_stable_and_rebinds_every_shared_reference_policy",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001398000167682767,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_runtime.py::test_original_files_packets_settings_and_acceptance_rules_remain_unchanged",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.016827100014779717,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_runtime.py::test_original_files_packets_settings_and_acceptance_rules_remain_unchanged",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0678990000160411,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_runtime.py::test_original_files_packets_settings_and_acceptance_rules_remain_unchanged",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013380002928897738,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_runtime.py::test_changed_contract_graph_is_rejected_before_mutating_clients[inventory]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0158485000138171,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_runtime.py::test_changed_contract_graph_is_rejected_before_mutating_clients[inventory]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.05766460002632812,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_runtime.py::test_changed_contract_graph_is_rejected_before_mutating_clients[inventory]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00020269997185096145,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_runtime.py::test_changed_contract_graph_is_rejected_before_mutating_clients[contract]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.005083999945782125,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_runtime.py::test_changed_contract_graph_is_rejected_before_mutating_clients[contract]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.05517350003356114,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_runtime.py::test_changed_contract_graph_is_rejected_before_mutating_clients[contract]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014509999891743064,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_runtime.py::test_changed_contract_graph_is_rejected_before_mutating_clients[adapter]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.004079799982719123,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_runtime.py::test_changed_contract_graph_is_rejected_before_mutating_clients[adapter]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0626481999643147,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/operational_corrections/test_operational_runtime.py::test_changed_contract_graph_is_rejected_before_mutating_clients[adapter]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00018269999418407679,
+      "expected_failure": false,
+      "detail": null
+    }
+  ],
+  "collection_errors": [],
+  "deselected": [],
+  "new_model_calls": 0,
+  "query_encoder_processes": 0,
+  "network_policy": "blocked_in_routine_tests",
+  "fixtures": "authored_public_examples"
+}

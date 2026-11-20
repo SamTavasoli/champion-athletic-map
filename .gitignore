@@ -218,3 +218,27 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local configuration variants; keep a credential-free example shareable.
+.env.*
+!.env.example
+
+# Local duplicate backups; keep the named Step 12 build-history notebook.
+/notebooks/*_BACKUP*.ipynb
+/results/backups/
+
+# BEGIN Step 16 private evaluation material v0.1.0
+/data/evaluation/*
+!/data/evaluation/athlete_profiles_development.jsonl
+/results/profile_preparation/
+/results/backups/step16/
+/artifacts/evaluation/profile_dataset_config.json
+/results/eda/profile_coverage.csv
+/results/profile_quality_checks.csv
+/results/profile_review_decisions.csv
+/results/profile_source_lineage.csv
+/results/step16_profile_preparation_summary.json
+# END Step 16 private evaluation material v0.1.0
+
+# Private final-case review materials.
+/results/final_case_review/

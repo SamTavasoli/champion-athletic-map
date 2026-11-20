@@ -1,0 +1,48 @@
+{
+  "actor_role": "assistant_documentary_reviewer",
+  "ai_process_establishes_cdc_review_of_this_project": false,
+  "ai_process_is_separate_reuse_license": false,
+  "ai_process_main_text_sha256": "01cc8036118fefa53f6fbcb57d9bd208e69d5cf907fcabcd2e8284ab88bed19b",
+  "ai_process_raw_html_sha256": "8f240e28ff7b33a041b2073baf876a4820f28779c928e448f786bee0ec7f5b4e",
+  "ai_process_supporting_spans": [
+    "In every case, our experts review our communication materials in an effort to ensure accuracy and quality before use.",
+    "CDC public health research, data, and recommendations are based on the best science currently available and go through a separate agency review process prior to release."
+  ],
+  "ai_process_url": "https://www.cdc.gov/other/generative-ai.html",
+  "ai_specific_prohibition_claimed": false,
+  "assistant_review_authored_at_utc": "2026-11-13T00:15:19.211760+00:00",
+  "blanket_legal_or_international_rights_clearance": false,
+  "excluded_material": [
+    "images",
+    "logos_and_marks",
+    "third_party_or_contractor_grantee_copyrighted_material",
+    "external_linked_bodies"
+  ],
+  "finding": "accepted_with_mandatory_conditions_for_scoped_text_use",
+  "freshness_before_step31_freeze": "pending",
+  "human_review": false,
+  "included_material": "selected_CDC_authored_factual_text_and_meaning_preserving_paraphrases_only",
+  "policy_assessment_id": "cdc-scoped-permission:4f507234d44ad06f5bad1c3eba3a57c7562e0da38540a8c271618ed47d64e4ec",
+  "policy_main_text_sha256": "865517844e469d768bd46405ab90c1f8e8210d5264e70f1936cb5453c9a83ce2",
+  "policy_raw_html_sha256": "421e5a7aba5b8dbe41aa1d89c5499e24484adf0239a1879d3e0fccc1751fd838",
+  "policy_supporting_spans": [
+    "Most of the information on the CDC and ATSDR websites is not subject to copyright, is in the public domain, and may be freely used or reproduced without obtaining copyright permission.",
+    "A federal government website may have a mix of public domain and copyright-protected materials.",
+    "1) Attribution to the agency that developed the material must be provided in your use of the materials.",
+    "All such disclaimers must be prominently and unambiguously displayed",
+    "3) You may not change the substantive content of the materials; and 4) You must state that the material is otherwise available on the agency website for no charge.",
+    "Third, copyright laws also differ internationally.",
+    "They should never be used to promote or suggest endorsement of non-CDC, ATSDR or HHS companies, activities, products, events, facilities or services."
+  ],
+  "policy_url": "https://www.cdc.gov/other/agencymaterials.html",
+  "presentation_guidance": "Prefer direct official links; use a new window and no framing; recheck revisions before final freezing.",
+  "required_notice_kinds": [
+    "publisher_credit",
+    "prominent_nonendorsement",
+    "unchanged_substantive_meaning",
+    "free_availability"
+  ],
+  "schema_version": "step23-cdc-scoped-permitted-use-1",
+  "scope": "US_internal_educational_and_academic_research_text_only",
+  "user_machine_publisher_requests": 0
+}

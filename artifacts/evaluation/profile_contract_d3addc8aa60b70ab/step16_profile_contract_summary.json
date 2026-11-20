@@ -1,0 +1,40 @@
+{
+  "accepted_profiles": 0,
+  "artifacts": {
+    "profile_coverage_targets.csv": {
+      "bytes": 628,
+      "sha256": "26a3d0b6a884a37a24e4f0ec3b2db7423b265ee1a0634728b96dc8a4ab2d537c"
+    },
+    "profile_dataset_config.json": {
+      "bytes": 7660,
+      "sha256": "35477d7d63be854a92dded8926aa615e8c2e39a1c87f0419e8ffe18d3a0b92c0"
+    },
+    "profile_input_schema.json": {
+      "bytes": 18189,
+      "sha256": "c608b6a369395ef578cd4aa77b709a5e50889ef7e9a2e715b0904fb55c3da2c8"
+    }
+  },
+  "contract_digest": "d3addc8aa60b70ab30f0394cf19016e50e58ff47c381afcd768275af2ef48a03",
+  "final_profiles_frozen": false,
+  "input_hashes": {
+    "Champions_Athletic_Agent_Ready_Dataset _Package/athlete_profile_clean.csv": "24a78537469f9265322d5fb9348dffbd733b84631c5847220a4d0cc0b5f9bb7f",
+    "data/processed/usda_sr_legacy_2018_04/reference_ee67cf780262d24b/step14_food_reference_summary.json": "ee67cf780262d24bf02bcc7230104e65bcbfe6508b44f3c36eb03100d85295af",
+    "data/processed/usda_sr_legacy_2018_04/reference_ee67cf780262d24b/usda_food_portions.csv": "e8d4fe83ac1f1fc35db06b066ce8a61751dd4756668ff2adcaaaf8a5f3c7d6a2",
+    "data/processed/usda_sr_legacy_2018_04/reference_ee67cf780262d24b/usda_foods.csv": "a4334b0ca87fd8881da84ab34fc50976e4d44cd1b1888adfbb210365d2976352",
+    "data/source_manifest.csv": "a4321c8065b1a6e01cdd48aec72e15ba87fd5333002aaff996ad792f64875ad2",
+    "data/synthetic/synthetic_athlete_profiles.csv": "713ba430049c2f8e6460f349c53d06f2bc8e8a369d3dc218d9a733684c68f6cc",
+    "notebooks/03_Generate_Athlete_Profiles.ipynb": "9978c2d7a455e8f4d094fd031470b45e3ad3449749d06338ad7ac04c986af50a",
+    "results/basketball_catalog_review/source_linked_schema_f42c98af0179a37d/basketball_candidate_schema_REVIEW_ONLY.csv": "746eddf317da14071688dab6b9d67ab8afd167b235315a8156fdf63566189785",
+    "results/basketball_catalog_review/source_linked_schema_f42c98af0179a37d/step12_source_linked_schema_summary.json": "f42c98af0179a37d4302aaa01388da280720bf73b3aae1fa17b24004a87fce36",
+    "results/data_inventory.csv": "22debd13f1ba496737f9c9c96485b5054e7af4a897f51d3f13564484ad205fdf",
+    "results/eda/profile_planning_input_coverage.csv": "d758f4a9d8d02b8753d1da33edcc32547bfa0bd05dd24e039dbf119e71edd2d9",
+    "results/planning_rule_review/decision_tests_cd2f27a8c1f8876c/planning_rule_decisions_PENDING.csv": "688f0c2c1f0f75743c0dccc39dc410ee8e283559031ea5347008e93876f3812c",
+    "results/planning_rule_review/decision_tests_cd2f27a8c1f8876c/step13_decision_test_summary.json": "cd2f27a8c1f8876c1ae57c0bd79257ada2f2ad80cbe3ccb3ed1d6c3a09a6dc2f",
+    "results/step11_eda_summary.json": "3c69a8ca870ecd3355055c6a76db894f260f63d9b05fcaf7ea1b5c5713fe5584"
+  },
+  "recipe_version": "profile-contract-preparation-0.1.0",
+  "schema_probes_passed": 11,
+  "schema_version": "step16-profile-contract-producer-1",
+  "status": "contract_prepared_for_drafting",
+  "study_profiles_created": 0
+}

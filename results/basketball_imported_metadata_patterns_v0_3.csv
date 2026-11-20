@@ -1,0 +1,8 @@
+field_name,total_imported_records,records_with_informative_values,distinct_informative_values,most_common_value_count,most_common_value_fraction,most_common_value_short,most_common_value_sha256,review_flags,quality_decision
+duration,23,23,21,2,0.0870,games to 3,25408c9c271bda1db1234e52d6a4ef591d5a3bba346e1485e2d9668a33e13d3c,,descriptive_only
+equipment,23,23,9,7,0.3043,basketball hoop,5e47e9c7d933867216736fb5627526920905128a379dc49e4b968065977b7272,,descriptive_only
+group_requirement,23,23,3,16,0.6957,group,ad936fcbed631fa67e05c3ea03953905221c9d46af0616b70badf105a966fb11,,descriptive_only
+primary_goal,23,23,9,5,0.2174,,7dace1b7ca0b1abb958fee4c9459a0dacf793a24b44062f1ef9efe8e70930440,,descriptive_only
+skill_category,23,23,8,6,0.2609,,782c9f864258a48477a7e97bc32638fbfa93850d17155f2d0ebdde2a2297a4e3,,descriptive_only
+instructions_summary,23,23,23,1,0.0435,,e3051296cc98966fe5656e91fe56f003cb57581b21dede57ad3727eece28d1d2,,descriptive_only
+solo_adaptation_note,23,23,23,1,0.0435,,d13e64530bf99f8c1964f6ec2e58e4392797a5cda9cb57e0d18f8f21796924db,,descriptive_only

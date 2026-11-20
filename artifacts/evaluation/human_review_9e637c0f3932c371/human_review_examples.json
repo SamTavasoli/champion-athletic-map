@@ -1,0 +1,95 @@
+{
+  "examples": [
+    {
+      "dimension": "response_suitability",
+      "illustration": "A request asks for two sessions; the reply gives only an unrelated shopping list.",
+      "illustrative_score": 0,
+      "scope": "Authored rubric illustration only; no reviewer decision or claim of activity suitability."
+    },
+    {
+      "dimension": "response_suitability",
+      "illustration": "The reply addresses one requested session but leaves the second unresolved.",
+      "illustrative_score": 1,
+      "scope": "Authored rubric illustration only; no reviewer decision or claim of activity suitability."
+    },
+    {
+      "dimension": "response_suitability",
+      "illustration": "The reply addresses both requested sessions under the supplied facts.",
+      "illustrative_score": 2,
+      "scope": "Authored rubric illustration only; no reviewer decision or claim of activity suitability."
+    },
+    {
+      "dimension": "profile_fit",
+      "illustration": "The fixture states one participant and one ball; the reply requires three partners and four balls.",
+      "illustrative_score": 0,
+      "scope": "Authored rubric illustration only; no reviewer decision or claim of activity suitability."
+    },
+    {
+      "dimension": "profile_fit",
+      "illustration": "The reply uses one ball but still assumes an unavailable partner.",
+      "illustrative_score": 1,
+      "scope": "Authored rubric illustration only; no reviewer decision or claim of activity suitability."
+    },
+    {
+      "dimension": "profile_fit",
+      "illustration": "The reply respects the explicitly stated participant count and ball supply.",
+      "illustrative_score": 2,
+      "scope": "Authored rubric illustration only; no reviewer decision or claim of activity suitability."
+    },
+    {
+      "dimension": "practicality_completeness",
+      "illustration": "The fixture needs two essential facts clarified; the reply asks only an irrelevant question.",
+      "illustrative_score": 0,
+      "scope": "Authored rubric illustration only; no reviewer decision or claim of activity suitability."
+    },
+    {
+      "dimension": "practicality_completeness",
+      "illustration": "The clarification asks for one essential fact and leaves the other unresolved.",
+      "illustrative_score": 1,
+      "scope": "Authored rubric illustration only; no reviewer decision or claim of activity suitability."
+    },
+    {
+      "dimension": "practicality_completeness",
+      "illustration": "The clarification asks for both essential facts without inventing a weekly plan.",
+      "illustrative_score": 2,
+      "scope": "Authored rubric illustration only; no reviewer decision or claim of activity suitability."
+    },
+    {
+      "dimension": "evidence_accuracy",
+      "illustration": "A fictional reference permits room use Tuesday and Thursday by reservation; the reply claims unrestricted daily access.",
+      "illustrative_score": 0,
+      "scope": "Authored rubric illustration only; no reviewer decision or claim of activity suitability."
+    },
+    {
+      "dimension": "evidence_accuracy",
+      "illustration": "The reply gives the two correct days but omits the reservation qualification.",
+      "illustrative_score": 1,
+      "scope": "Authored rubric illustration only; no reviewer decision or claim of activity suitability."
+    },
+    {
+      "dimension": "evidence_accuracy",
+      "illustration": "The reply states the two days and reservation condition, and identifies the fictional reference.",
+      "illustrative_score": 2,
+      "scope": "Authored rubric illustration only; no reviewer decision or claim of activity suitability."
+    },
+    {
+      "dimension": "clarity",
+      "illustration": "The reply gives mutually contradictory start and end instructions.",
+      "illustrative_score": 0,
+      "scope": "Authored rubric illustration only; no reviewer decision or claim of activity suitability."
+    },
+    {
+      "dimension": "clarity",
+      "illustration": "The reply is understandable but leaves the intended time ambiguous.",
+      "illustrative_score": 1,
+      "scope": "Authored rubric illustration only; no reviewer decision or claim of activity suitability."
+    },
+    {
+      "dimension": "clarity",
+      "illustration": "The reply states the intended time clearly and consistently.",
+      "illustrative_score": 2,
+      "scope": "Authored rubric illustration only; no reviewer decision or claim of activity suitability."
+    }
+  ],
+  "scope": "rubric illustrations only; no actual ratings or calibration"
+}

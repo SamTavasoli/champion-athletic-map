@@ -1,0 +1,5 @@
+{
+  "error_type": "ValueError",
+  "message": "The separate notebook execution needs attention; the partial notebook and logs were retained.",
+  "traceback": "Traceback (most recent call last):\n  File \"reproduction_coordinator.py\", line 195, in run_verification\n  File \"reproduction_coordinator.py\", line 38, in require\nValueError: The separate notebook execution needs attention; the partial notebook and logs were retained.\n"
+}

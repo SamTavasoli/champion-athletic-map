@@ -1,0 +1,22 @@
+{
+  "best_planner_selected": false,
+  "discussion_id": "a91e18b52d0a352408d059bcd78944588f0afdb277e2a32960ee0523e9a82d69",
+  "documentation_path": "docs/results_limitations_and_future_improvements.md",
+  "independent_reviewer_agreement_estimated": false,
+  "markdown_path": "results/discussion/discussion_a91e18b52d0a352408d0/results_limitations_and_future_improvements.md",
+  "new_model_calls": 0,
+  "new_predictions": 0,
+  "new_reference_queries": 0,
+  "original_outcomes_changed": false,
+  "original_scores_changed": false,
+  "output_folder": "results/discussion/discussion_a91e18b52d0a352408d0",
+  "planner_outcomes": 800,
+  "report_path": "results/discussion/discussion_a91e18b52d0a352408d0/results_discussion.html",
+  "reproduced_files": 37,
+  "review_method": "single_assisted_supplementary_review",
+  "reviewed_replies": 160,
+  "schema_version": "step37-discussion-1",
+  "source_analysis_id": "d5e368e9f92725a9d3892b1d32878294d5bac243215dfb7f313ce69347daeba5",
+  "source_verification_run_id": "repro_20261117T174153Z_3e7049a7",
+  "status": "saved"
+}

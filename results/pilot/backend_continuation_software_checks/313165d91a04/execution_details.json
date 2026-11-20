@@ -1,0 +1,696 @@
+{
+  "schema_version": "step30-pytest-execution-1",
+  "pytest_exit_code": 0,
+  "collected": [
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_five_real_preflight_confirmations_have_exact_trace_caps_and_zero_generation",
+      "requirement": "31:backend-render-confirmation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/backend_continuation/test_backend_confirmation.py:136",
+      "description": "test_five_real_preflight_confirmations_have_exact_trace_caps_and_zero_generation"
+    },
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_cold_runner_is_allowed_before_render_but_required_after_all_five",
+      "requirement": "31:backend-render-confirmation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/backend_continuation/test_backend_confirmation.py:156",
+      "description": "test_cold_runner_is_allowed_before_render_but_required_after_all_five"
+    },
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_completed_mismatches_block_without_retry_or_stale_global_gate[rewrite-1]",
+      "requirement": "31:backend-render-confirmation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/backend_continuation/test_backend_confirmation.py:166",
+      "description": "test_completed_mismatches_block_without_retry_or_stale_global_gate[rewrite-1]"
+    },
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_completed_mismatches_block_without_retry_or_stale_global_gate[count_drift-1]",
+      "requirement": "31:backend-render-confirmation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/backend_continuation/test_backend_confirmation.py:166",
+      "description": "test_completed_mismatches_block_without_retry_or_stale_global_gate[count_drift-1]"
+    },
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_completed_mismatches_block_without_retry_or_stale_global_gate[generated_reply-1]",
+      "requirement": "31:backend-render-confirmation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/backend_continuation/test_backend_confirmation.py:166",
+      "description": "test_completed_mismatches_block_without_retry_or_stale_global_gate[generated_reply-1]"
+    },
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_completed_mismatches_block_without_retry_or_stale_global_gate[version-0]",
+      "requirement": "31:backend-render-confirmation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/backend_continuation/test_backend_confirmation.py:166",
+      "description": "test_completed_mismatches_block_without_retry_or_stale_global_gate[version-0]"
+    },
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_completed_mismatches_block_without_retry_or_stale_global_gate[context-0]",
+      "requirement": "31:backend-render-confirmation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/backend_continuation/test_backend_confirmation.py:166",
+      "description": "test_completed_mismatches_block_without_retry_or_stale_global_gate[context-0]"
+    },
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_completed_mismatches_block_without_retry_or_stale_global_gate[never_load-5]",
+      "requirement": "31:backend-render-confirmation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/backend_continuation/test_backend_confirmation.py:166",
+      "description": "test_completed_mismatches_block_without_retry_or_stale_global_gate[never_load-5]"
+    },
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_uncertain_transport_preserves_global_gate_and_does_not_resubmit",
+      "requirement": "31:backend-render-confirmation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/backend_continuation/test_backend_confirmation.py:181",
+      "description": "test_uncertain_transport_preserves_global_gate_and_does_not_resubmit"
+    },
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_tampered_completed_evidence_is_not_reused",
+      "requirement": "31:backend-render-confirmation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/backend_continuation/test_backend_confirmation.py:194",
+      "description": "test_tampered_completed_evidence_is_not_reused"
+    },
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_changed_source_or_roster_is_rejected_before_any_http",
+      "requirement": "31:backend-render-confirmation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/backend_continuation/test_backend_confirmation.py:203",
+      "description": "test_changed_source_or_roster_is_rejected_before_any_http"
+    },
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_actual_guard_forbids_generation_even_if_identity_code_attempts_it",
+      "requirement": "31:backend-render-confirmation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/backend_continuation/test_backend_confirmation.py:214",
+      "description": "test_actual_guard_forbids_generation_even_if_identity_code_attempts_it"
+    },
+    {
+      "test_id": "tests/backend_continuation/test_saved_continuation.py::test_source_handoff_and_frozen_manifest_retain_original_facts_and_all_five_requests",
+      "requirement": "31:bounded-saved-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/backend_continuation/test_saved_continuation.py:92",
+      "description": "test_source_handoff_and_frozen_manifest_retain_original_facts_and_all_five_requests"
+    },
+    {
+      "test_id": "tests/backend_continuation/test_saved_continuation.py::test_changed_parent_observation_does_not_create_a_new_intent",
+      "requirement": "31:bounded-saved-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/backend_continuation/test_saved_continuation.py:110",
+      "description": "test_changed_parent_observation_does_not_create_a_new_intent"
+    },
+    {
+      "test_id": "tests/backend_continuation/test_saved_continuation.py::test_changed_bound_original_is_rejected_before_backend_work",
+      "requirement": "31:bounded-saved-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/backend_continuation/test_saved_continuation.py:122",
+      "description": "test_changed_bound_original_is_rejected_before_backend_work"
+    },
+    {
+      "test_id": "tests/backend_continuation/test_saved_continuation.py::test_production_and_injected_preparations_have_distinct_frozen_identities",
+      "requirement": "31:bounded-saved-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/backend_continuation/test_saved_continuation.py:131",
+      "description": "test_production_and_injected_preparations_have_distinct_frozen_identities"
+    },
+    {
+      "test_id": "tests/backend_continuation/test_saved_continuation.py::test_real_trace_runs_only_two_bounded_revisions_and_keeps_food_field_unfilled",
+      "requirement": "31:bounded-saved-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/backend_continuation/test_saved_continuation.py:264",
+      "description": "test_real_trace_runs_only_two_bounded_revisions_and_keeps_food_field_unfilled"
+    },
+    {
+      "test_id": "tests/backend_continuation/test_saved_continuation.py::test_accepted_revision_stops_after_one_revision_and_one_evaluation",
+      "requirement": "31:bounded-saved-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/backend_continuation/test_saved_continuation.py:293",
+      "description": "test_accepted_revision_stops_after_one_revision_and_one_evaluation"
+    },
+    {
+      "test_id": "tests/backend_continuation/test_saved_continuation.py::test_first_payload_mismatch_prevents_confirmation_and_generation",
+      "requirement": "31:bounded-saved-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/backend_continuation/test_saved_continuation.py:304",
+      "description": "test_first_payload_mismatch_prevents_confirmation_and_generation"
+    },
+    {
+      "test_id": "tests/backend_continuation/test_saved_continuation.py::test_ambiguous_generation_is_saved_and_never_automatically_repeated",
+      "requirement": "31:bounded-saved-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/backend_continuation/test_saved_continuation.py:314",
+      "description": "test_ambiguous_generation_is_saved_and_never_automatically_repeated"
+    },
+    {
+      "test_id": "tests/backend_continuation/test_saved_continuation.py::test_completed_leaf_roles_resume_without_resubmission_after_interruption",
+      "requirement": "31:bounded-saved-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/backend_continuation/test_saved_continuation.py:326",
+      "description": "test_completed_leaf_roles_resume_without_resubmission_after_interruption"
+    },
+    {
+      "test_id": "tests/backend_continuation/test_saved_continuation.py::test_completed_receipt_rejects_a_changed_terminal_result",
+      "requirement": "31:bounded-saved-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/backend_continuation/test_saved_continuation.py:337",
+      "description": "test_completed_receipt_rejects_a_changed_terminal_result"
+    }
+  ],
+  "phases": [
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_five_real_preflight_confirmations_have_exact_trace_caps_and_zero_generation",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.4336716000107117,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_five_real_preflight_confirmations_have_exact_trace_caps_and_zero_generation",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.667075399949681,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_five_real_preflight_confirmations_have_exact_trace_caps_and_zero_generation",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00017850002041086555,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_cold_runner_is_allowed_before_render_but_required_after_all_five",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.04483789997175336,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_cold_runner_is_allowed_before_render_but_required_after_all_five",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.5126321999705397,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_cold_runner_is_allowed_before_render_but_required_after_all_five",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014929997269064188,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_completed_mismatches_block_without_retry_or_stale_global_gate[rewrite-1]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.04264480003621429,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_completed_mismatches_block_without_retry_or_stale_global_gate[rewrite-1]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.26264309999533,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_completed_mismatches_block_without_retry_or_stale_global_gate[rewrite-1]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00015139998868107796,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_completed_mismatches_block_without_retry_or_stale_global_gate[count_drift-1]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.05292990000452846,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_completed_mismatches_block_without_retry_or_stale_global_gate[count_drift-1]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.28504799999063835,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_completed_mismatches_block_without_retry_or_stale_global_gate[count_drift-1]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00023010000586509705,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_completed_mismatches_block_without_retry_or_stale_global_gate[generated_reply-1]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.04429220000747591,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_completed_mismatches_block_without_retry_or_stale_global_gate[generated_reply-1]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.24739799997769296,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_completed_mismatches_block_without_retry_or_stale_global_gate[generated_reply-1]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00015579996397718787,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_completed_mismatches_block_without_retry_or_stale_global_gate[version-0]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.05476950004231185,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_completed_mismatches_block_without_retry_or_stale_global_gate[version-0]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.2315968000330031,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_completed_mismatches_block_without_retry_or_stale_global_gate[version-0]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014929997269064188,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_completed_mismatches_block_without_retry_or_stale_global_gate[context-0]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.04389439994702116,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_completed_mismatches_block_without_retry_or_stale_global_gate[context-0]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.269922100007534,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_completed_mismatches_block_without_retry_or_stale_global_gate[context-0]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014459999511018395,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_completed_mismatches_block_without_retry_or_stale_global_gate[never_load-5]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.046620900044217706,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_completed_mismatches_block_without_retry_or_stale_global_gate[never_load-5]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.40400969999609515,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_completed_mismatches_block_without_retry_or_stale_global_gate[never_load-5]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001501999795436859,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_uncertain_transport_preserves_global_gate_and_does_not_resubmit",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.043671300052665174,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_uncertain_transport_preserves_global_gate_and_does_not_resubmit",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.22808560001431033,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_uncertain_transport_preserves_global_gate_and_does_not_resubmit",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00015739997616037726,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_tampered_completed_evidence_is_not_reused",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.04461099999025464,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_tampered_completed_evidence_is_not_reused",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.47971549996873364,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_tampered_completed_evidence_is_not_reused",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001569000305607915,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_changed_source_or_roster_is_rejected_before_any_http",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.03983030002564192,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_changed_source_or_roster_is_rejected_before_any_http",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.014839400013443083,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_changed_source_or_roster_is_rejected_before_any_http",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014099996769800782,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_actual_guard_forbids_generation_even_if_identity_code_attempts_it",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0436982000246644,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_actual_guard_forbids_generation_even_if_identity_code_attempts_it",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.19729899999219924,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_backend_confirmation.py::test_actual_guard_forbids_generation_even_if_identity_code_attempts_it",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00016360002337023616,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_saved_continuation.py::test_source_handoff_and_frozen_manifest_retain_original_facts_and_all_five_requests",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.35633010003948584,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_saved_continuation.py::test_source_handoff_and_frozen_manifest_retain_original_facts_and_all_five_requests",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 3.6317844999721274,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_saved_continuation.py::test_source_handoff_and_frozen_manifest_retain_original_facts_and_all_five_requests",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00020599999697878957,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_saved_continuation.py::test_changed_parent_observation_does_not_create_a_new_intent",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.26431009999942034,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_saved_continuation.py::test_changed_parent_observation_does_not_create_a_new_intent",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 2.7264216000330634,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_saved_continuation.py::test_changed_parent_observation_does_not_create_a_new_intent",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00015159999020397663,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_saved_continuation.py::test_changed_bound_original_is_rejected_before_backend_work",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.272107099997811,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_saved_continuation.py::test_changed_bound_original_is_rejected_before_backend_work",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 3.7502677000011317,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_saved_continuation.py::test_changed_bound_original_is_rejected_before_backend_work",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001669999910518527,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_saved_continuation.py::test_production_and_injected_preparations_have_distinct_frozen_identities",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.3219571000081487,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_saved_continuation.py::test_production_and_injected_preparations_have_distinct_frozen_identities",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 3.5484637999907136,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_saved_continuation.py::test_production_and_injected_preparations_have_distinct_frozen_identities",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00016529997810721397,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_saved_continuation.py::test_real_trace_runs_only_two_bounded_revisions_and_keeps_food_field_unfilled",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.2716068000299856,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_saved_continuation.py::test_real_trace_runs_only_two_bounded_revisions_and_keeps_food_field_unfilled",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 5.07530600001337,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_saved_continuation.py::test_real_trace_runs_only_two_bounded_revisions_and_keeps_food_field_unfilled",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00015169999096542597,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_saved_continuation.py::test_accepted_revision_stops_after_one_revision_and_one_evaluation",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.29652420000638813,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_saved_continuation.py::test_accepted_revision_stops_after_one_revision_and_one_evaluation",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 4.6493668999755755,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_saved_continuation.py::test_accepted_revision_stops_after_one_revision_and_one_evaluation",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00015129998791962862,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_saved_continuation.py::test_first_payload_mismatch_prevents_confirmation_and_generation",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.2634972999803722,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_saved_continuation.py::test_first_payload_mismatch_prevents_confirmation_and_generation",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 4.775964299973566,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_saved_continuation.py::test_first_payload_mismatch_prevents_confirmation_and_generation",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00022610003361478448,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_saved_continuation.py::test_ambiguous_generation_is_saved_and_never_automatically_repeated",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.27634859998943284,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_saved_continuation.py::test_ambiguous_generation_is_saved_and_never_automatically_repeated",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 4.804365399992093,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_saved_continuation.py::test_ambiguous_generation_is_saved_and_never_automatically_repeated",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00015100004384294152,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_saved_continuation.py::test_completed_leaf_roles_resume_without_resubmission_after_interruption",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.2782516999868676,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_saved_continuation.py::test_completed_leaf_roles_resume_without_resubmission_after_interruption",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 5.652439899975434,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_saved_continuation.py::test_completed_leaf_roles_resume_without_resubmission_after_interruption",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00015410000924021006,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_saved_continuation.py::test_completed_receipt_rejects_a_changed_terminal_result",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.2651126999990083,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_saved_continuation.py::test_completed_receipt_rejects_a_changed_terminal_result",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 4.774765300040599,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation/test_saved_continuation.py::test_completed_receipt_rejects_a_changed_terminal_result",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00020369997946545482,
+      "expected_failure": false,
+      "detail": null
+    }
+  ],
+  "collection_errors": [],
+  "deselected": [],
+  "new_model_calls": 0,
+  "query_encoder_processes": 0,
+  "network_policy": "blocked_in_routine_tests",
+  "fixtures": "authored_public_examples"
+}

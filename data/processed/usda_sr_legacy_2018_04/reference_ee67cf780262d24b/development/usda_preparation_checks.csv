@@ -1,0 +1,9 @@
+check_name,status,details
+frozen_archive,pass,The explicit selection and independent expected values target the verified SR package.
+fixed_selection_identity,pass,"Exactly 100 explicit, distinct source IDs; no data-dependent top-up or nutrient ranking."
+definition_ids_and_units,pass,Five exact nutrient IDs retain their source units; kcal and kJ are not interchangeable.
+selected_nutrient_cardinality,pass,One slot per selected food and display nutrient; absent source records remain explicit blanks.
+selected_value_preservation,pass,Every retained amount preserves its original source text.
+selected_portion_identity,pass,Selected portions retain unique source IDs.
+executed_calculation_cases,pass,Executed deterministic source and boundary cases; development tests are not planner evaluation scores.
+independent_source_comparisons,pass,Selected records agree with independently prepared literal source comparisons.

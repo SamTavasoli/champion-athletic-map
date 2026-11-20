@@ -1,0 +1,21 @@
+{
+  "schema_version": "step14-reference-source-supplement-1",
+  "selected_fields_preserved": true,
+  "source_acquisition_producer": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/step14_source_acquisition_summary.json",
+  "source_archive_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0",
+  "source_manifest_modified": false,
+  "source_review": "Source identities, definitions, basis, and literal comparison cases reviewed against official records; no independent human review is claimed.",
+  "source_table_paths": {
+    "all_downloaded_table_record_counts.csv": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/all_downloaded_table_record_counts.csv",
+    "food.csv": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/food.csv",
+    "food_category.csv": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/food_category.csv",
+    "food_nutrient.csv": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/food_nutrient.csv",
+    "food_nutrient_derivation.csv": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/food_nutrient_derivation.csv",
+    "food_nutrient_source.csv": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/food_nutrient_source.csv",
+    "food_portion.csv": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/food_portion.csv",
+    "measure_unit.csv": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/measure_unit.csv",
+    "nutrient.csv": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/nutrient.csv",
+    "sr_legacy_food.csv": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/sr_legacy_food.csv"
+  },
+  "source_validation_producer": "results/usda_preparation/source_validation_6d29b976bee45ca1/step14_source_validation_summary.json"
+}

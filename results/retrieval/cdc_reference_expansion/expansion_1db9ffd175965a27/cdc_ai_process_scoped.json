@@ -1,0 +1,12 @@
+{
+  "capture_id": "cdc_ai_process",
+  "extraction": "one HTML main element; omit script/style/svg; decode entities; compact whitespace only",
+  "fresh_publisher_verification_on_user_machine": false,
+  "main_text_sha256": "01cc8036118fefa53f6fbcb57d9bd208e69d5cf907fcabcd2e8284ab88bed19b",
+  "official_url": "https://www.cdc.gov/other/generative-ai.html",
+  "raw_filename": "cdc_ai_process.html",
+  "raw_html_sha256": "8f240e28ff7b33a041b2073baf876a4820f28779c928e448f786bee0ec7f5b4e",
+  "role": "internal_source_audit_evidence_not_corpus_text",
+  "schema_version": "step23-cdc-internal-main-text-1",
+  "text": "CDC.gov & Generative Super Intelligence Print Related Pages CDC sometimes uses GenSI (generative Super Intelligence, formerly known as Gen AI or artificial intelligence) to help create content for the public. This may include content for the web, social media, fact sheets, and graphics. In every case, our experts review our communication materials in an effort to ensure accuracy and quality before use. CDC public health research, data, and recommendations are based on the best science currently available and go through a separate agency review process prior to release. Last Reviewed: October 19, 2026 Source: Centers for Disease Control and Prevention Facebook Twitter LinkedIn Syndicate"
+}

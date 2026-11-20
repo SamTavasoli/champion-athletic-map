@@ -1,0 +1,9 @@
+issue_type,queue_entries,observed_entries,retained_custom_entries,historical_entries,active_entries,unresolved_entries,distinct_active_records,distinct_unresolved_records
+conflicting_labels_for_name,22,22,0,0,22,22,22,22
+low_support_label,8,8,0,0,8,8,8,8
+missing_description,1550,1550,0,0,1550,1550,1550,1550
+missing_equipment,32,32,0,0,32,32,32,32
+mixed_label_split_group,131,131,0,0,131,131,131,131
+normalized_classifier_input,32,32,0,0,32,32,32,32
+repeated_normalized_name,70,70,0,0,70,70,70,70
+shared_description,488,488,0,0,488,488,488,488

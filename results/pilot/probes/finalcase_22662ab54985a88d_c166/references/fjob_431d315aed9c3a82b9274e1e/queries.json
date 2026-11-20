@@ -1,0 +1,18 @@
+{
+  "queries": [
+    "Basketball practice; For the week shown, help me work; goals [\"Improve accuracy from ; experience {\"experience; equipment [\"Basketball\",\"Cones\",\"H; space single_hoop_; people 2",
+    "Youth basketball participation, rest and recovery; age 16; grade 11; commitments [\"travel\"]; request For the week shown, help me work toward this "
+  ],
+  "query_records": [
+    {
+      "query_id": "retrieval-query:e2c02c9c3bfbec337c57430c788810ea7e8d72e99ee880c3372c1cfb46f051ee",
+      "text": "Basketball practice; For the week shown, help me work; goals [\"Improve accuracy from ; experience {\"experience; equipment [\"Basketball\",\"Cones\",\"H; space single_hoop_; people 2",
+      "text_sha256": "76ab6b5411fa2bbf2f4c8d4b3dd324f1999ef3cd310f3e321ad5ed85ee5253cb"
+    },
+    {
+      "query_id": "retrieval-query:e8b1502695c2262775fce1965c93ce1c2791efbe886d3ca70d2e55ce99f4bc71",
+      "text": "Youth basketball participation, rest and recovery; age 16; grade 11; commitments [\"travel\"]; request For the week shown, help me work toward this ",
+      "text_sha256": "b437dc66e92adb88f8bdca9d7b08534a92599256f589b27d193fcb8660863965"
+    }
+  ]
+}

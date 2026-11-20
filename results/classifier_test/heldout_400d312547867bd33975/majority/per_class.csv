@@ -1,0 +1,17 @@
+class_index,label,precision,recall,f1,support_records,support_groups,predicted_records,precision_defined,recall_defined,f1_defined
+0,abdominals,0.23059360730593606,1.0,0.3747680890538033,101,86,438,True,True,True
+1,abductors,0.0,0.0,0.0,4,4,0,False,True,True
+2,adductors,0.0,0.0,0.0,2,2,0,False,True,True
+3,biceps,0.0,0.0,0.0,28,21,0,False,True,True
+4,calves,0.0,0.0,0.0,7,7,0,False,True,True
+5,chest,0.0,0.0,0.0,43,36,0,False,True,True
+6,forearms,0.0,0.0,0.0,6,6,0,False,True,True
+7,glutes,0.0,0.0,0.0,14,14,0,False,True,True
+8,hamstrings,0.0,0.0,0.0,16,16,0,False,True,True
+9,lats,0.0,0.0,0.0,22,16,0,False,True,True
+10,lower back,0.0,0.0,0.0,8,8,0,False,True,True
+11,middle back,0.0,0.0,0.0,15,15,0,False,True,True
+12,quadriceps,0.0,0.0,0.0,97,91,0,False,True,True
+13,shoulders,0.0,0.0,0.0,43,41,0,False,True,True
+14,traps,0.0,0.0,0.0,4,4,0,False,True,True
+15,triceps,0.0,0.0,0.0,28,21,0,False,True,True

@@ -1,0 +1,25 @@
+{
+  "source_url": "https://jr.nba.com/basketball-practice-plans/all-star/page/2/",
+  "resolved_url": "https://jr.nba.com/basketball-practice-plans/all-star/page/2/",
+  "practice_plan": "All-Star Practice Plan 2",
+  "retrieved_at_utc": "2026-11-08T06:48:13.133478+00:00",
+  "page_sha256": "b8732c877ccdaa177ce4469002162e7648e9f8cfa76b11d82bfbcfae5332bc33",
+  "section_boundary_rule": "Text after a drill heading up to the next HTML heading.",
+  "fingerprint_method": "NFKC, casefold, replace non-ASCII-alphanumeric runs with spaces, UTF-8 SHA-256.",
+  "sections": [
+    {
+      "heading": "Jump to the Ball Drill",
+      "publisher_heading": "Jump to the Ball Drill",
+      "next_heading": "Fundamentals of Defending the Ball Screen",
+      "text": "(4 x each side) ► + − Have the players start in one line on the baseline. There will be 1 player on each wing and the coach at the top with the ball. The first player in line on the baseline will sprint to close out on coach. Coach will pass the ball to either wing. On the pass, the defensive player will “jump to the ball” in a good defensive stance. The player who receives the pass will take 1-2 dribbles to the middle of the floor and upon seeing the player who jumped to the ball, they will retreat dribble and then drive to the baseline side for a lay-up. The defensive player who jumped to the ball will now fill the open space on the wing. The wing player will go to the back of the line on the baseline after their lay-up and a new player from under the basket will pass the ball to coach and close out to repeat the process.",
+      "normalized_section_sha256": "cb5768ea3182c37e6736d9f5c04737ea9ae8da8e06a0ec2c0a37a6ae63fae1ea"
+    },
+    {
+      "heading": "Progression Shooting Competition",
+      "publisher_heading": "Progression Shooting Competition",
+      "next_heading": "Team Concepts",
+      "text": "(1 x 8 makes each) ► + − Divide the players into teams and spread them out at a basket. Each team should have 1 ball. The first player in line will take the designated shot, get the rebound, pass it to the next person in line and go to the back of the line. Every made shot will go towards the team’s total makes at a spot. The first team to make all the shots from all spots will win. For the first 8 makes, have the players make lay-ups. For the next 8 makes, have the players make floaters. For the next 8 makes, have the players catch and shoot at midrange. For the next 8 makes, have the players start at the 3 point line and take 1 dribble pull-ups. For the last 8 makes, have the players catch and shoot and make 3’s.",
+      "normalized_section_sha256": "8e359003e8dc3972f54f290c8e598bff6e26eb8c9a96e698b4b0a164bdb4eb42"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "step": "12-32",
+  "catalog_candidate_groups_unchanged": 144,
+  "review_cases": 8,
+  "source_comparison_pairs": 11,
+  "same_published_section_pairs": 5,
+  "identical_text_across_source_pages": 1,
+  "similar_source_section_pairs": 4,
+  "insufficient_source_section_pairs": 1,
+  "mid_middle_heading_alias_supported": true,
+  "proposed_prescription_corrections": 1,
+  "canonical_decisions_pending": 8,
+  "catalog_approved": 0,
+  "planner_eligible": 0,
+  "source_datasets_modified": false,
+  "git_operations": false
+}

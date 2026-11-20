@@ -1,0 +1,14 @@
+equipment,records,percent,value_state
+body only,1078,37.0574,present
+dumbbell,513,17.6349,present
+barbell,281,9.6597,present
+other,254,8.7315,present
+cable,223,7.6659,present
+machine,175,6.0158,present
+kettlebells,149,5.122,present
+bands,98,3.3689,present
+medicine ball,38,1.3063,present
+exercise ball,35,1.2032,present
+[missing],32,1.1,missing
+e-z curl bar,22,0.7563,present
+foam roll,11,0.3781,present

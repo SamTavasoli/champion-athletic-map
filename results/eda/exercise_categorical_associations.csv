@@ -1,0 +1,7 @@
+left_field,right_field,paired_records,left_categories,right_categories,observed_nonzero_cells,possible_cells,chi_square_descriptive,bias_corrected_cramers_v,minimum_expected_cell,expected_cells_below_5,percent_expected_cells_below_5,missing_category_included,interpretation
+body_part,description_availability,2909,17,2,33,34,80.72306179323684,0.14918112955878443,3.7373667927122725,2,5.8824,True,Descriptive catalog association; related records and sparse cells limit inference.
+body_part,equipment,2909,17,13,154,221,1557.9409495509515,0.19821700270833553,0.030250945342041938,128,57.9186,True,Descriptive catalog association; related records and sparse cells limit inference.
+body_part,difficulty,2909,17,3,37,51,306.3182634915061,0.21721068649880976,0.0357511172224132,22,43.1373,True,Descriptive catalog association; related records and sparse cells limit inference.
+body_part,exercise_type,2909,17,7,65,119,754.7031836010749,0.1944621169996457,0.060501890684083875,81,68.0672,True,Descriptive catalog association; related records and sparse cells limit inference.
+equipment,difficulty,2909,13,3,32,39,315.3549651196087,0.2238554118935704,0.04915778618081815,15,38.4615,True,Descriptive catalog association; related records and sparse cells limit inference.
+exercise_type,equipment,2909,7,13,37,91,1529.507293852541,0.2892695305751663,0.08319009969061533,58,63.7363,True,Descriptive catalog association; related records and sparse cells limit inference.

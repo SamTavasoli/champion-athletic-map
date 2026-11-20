@@ -1,0 +1,44 @@
+{
+  "bos_token_id": 128000,
+  "control_token_count": 256,
+  "encoder_agreement_scope": "two_BPE_implementations_on_saved_artificial_cases_using_one_shared_native_asset_set_and_regex",
+  "eos_token_id": 128009,
+  "explicit_control_parsing_supported": true,
+  "fits_performed": 0,
+  "generation_context_budget_verified": false,
+  "generation_use": "candidate_encoding_component_only; chat requests remain gated by later integration checks",
+  "implementation_references": [
+    "https://github.com/ggml-org/llama.cpp/blob/master/src/llama-vocab.cpp",
+    "https://github.com/meta-llama/llama3/blob/main/llama/tokenizer.py",
+    "https://huggingface.co/docs/tokenizers/v0.20.3/api/models"
+  ],
+  "implicit_bos_eos_or_chat_overhead": false,
+  "independent_backend_validation": false,
+  "merge_pair_count": 280147,
+  "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+  "normal_token_count": 128000,
+  "ordinary_content_parses_controls": false,
+  "overlength_policy": "raise_without_truncation",
+  "package_versions": {
+    "regex": "2026.11.9",
+    "tokenizers": "0.22.1"
+  },
+  "preserve_raw_utf8_and_whitespace": true,
+  "pretokenizer": "llama-bpe",
+  "pretokenizer_pattern": "(?:'[sS]|'[tT]|'[rR][eE]|'[vV][eE]|'[mM]|'[lL][lL]|'[dD])|[^\\r\\n\\p{L}\\p{N}]?\\p{L}+|\\p{N}{1,3}| ?[^\\s\\p{L}\\p{N}]+[\\r\\n]*|\\s*[\\r\\n]+|\\s+(?!\\S)|\\s+",
+  "runtime_adoption_complete": false,
+  "runtime_asset_allowlist": [
+    "native_tokenizer.py",
+    "normal_bpe_tokenizer.json",
+    "tokenizer_contract.json"
+  ],
+  "runtime_candidate_id": "language-model-runtime-candidate:35c8ad9c5fb6d42d4c7e89bd0d9f9f7bc8ccbc32dc6621a8e79b65a5a5135f3c",
+  "runtime_version_candidate": "0.40.16",
+  "schema_version": "step24-native-tokenizer-contract-1",
+  "software_check_and_audit_files_are_not_retrieval_or_prompt_content": true,
+  "source_native_metadata_relative_path": "results/integration/runtime_candidates/runtime_35c8ad9c5fb6d42d/native_model_metadata.json",
+  "source_native_metadata_sha256": "01652c777d511b061a59529f2541220da07d4fbe47a53f6d5ec9628460d9d57f",
+  "technical_input_character_limit": 100000,
+  "tokenizer_model": "gpt2",
+  "unicode_normalization": null
+}

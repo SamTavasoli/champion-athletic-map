@@ -1,0 +1,476 @@
+check,kind,status,finding,evidence
+tests/app/test_application_flow.py::test_form_drafts_and_profile_save_do_not_generate,setup,open,"tmp_path = WindowsPath('C:/Users/samta/AppData/Local/Temp/pytest-of-samta/pytest-0/test_form_drafts_and_profile_s0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x000001F6FFF4A240>
+
+    [0m[37m@pytest[39;49;00m.fixture[90m[39;49;00m
+    [94mdef[39;49;00m[90m [39;49;00m[92mapp_factory[39;49;00m(tmp_path, monkeypatch):[90m[39;49;00m
+        [90m# AppTest runs the real interface. Only the service boundary is scripted.[39;49;00m[90m[39;49;00m
+>       pytest.importorskip([33m""[39;49;00m[33mstreamlit[39;49;00m[33m""[39;49;00m, reason=[33m""[39;49;00m[33mStreamlit is required for the interface checks.[39;49;00m[33m""[39;49;00m)[90m[39;49;00m
+
+[1m[31mtests\app\test_application_flow.py[0m:18: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+[1m[31mC:\Program Files\Python312\Lib\importlib\__init__.py[0m:90: in import_module
+    [0m[94mreturn[39;49;00m _bootstrap._gcd_import(name[level:], package, level)[90m[39;49;00m
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m<frozen importlib._bootstrap>[0m:1387: in _gcd_import
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m<frozen importlib._bootstrap>[0m:1360: in _find_and_load
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m<frozen importlib._bootstrap>[0m:1331: in _find_and_load_unlocked
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m<frozen importlib._bootstrap>[0m:935: in _load_unlocked
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m<frozen importlib._bootstrap_external>[0m:995: in exec_module
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m<frozen importlib._bootstrap>[0m:488: in _call_with_frames_removed
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m.venv\Lib\site-packages\streamlit\__init__.py[0m:78: in <module>
+    [0m[94mfrom[39;49;00m[90m [39;49;00m[04m[96mstreamlit[39;49;00m[04m[96m.[39;49;00m[04m[96mdelta_generator[39;49;00m[90m [39;49;00m[94mimport[39;49;00m DeltaGenerator [94mas[39;49;00m _DeltaGenerator[90m[39;49;00m
+[1m[31m.venv\Lib\site-packages\streamlit\delta_generator.py[0m:34: in <module>
+    [0m[94mfrom[39;49;00m[90m [39;49;00m[04m[96mstreamlit[39;49;00m[90m [39;49;00m[94mimport[39;49;00m ([90m[39;49;00m
+[1m[31m.venv\Lib\site-packages\streamlit\cursor.py[0m:21: in <module>
+    [0m[94mfrom[39;49;00m[90m [39;49;00m[04m[96mstreamlit[39;49;00m[04m[96m.[39;49;00m[04m[96mruntime[39;49;00m[04m[96m.[39;49;00m[04m[96mscriptrunner_utils[39;49;00m[04m[96m.[39;49;00m[04m[96mscript_run_context[39;49;00m[90m [39;49;00m[94mimport[39;49;00m get_script_run_ctx[90m[39;49;00m
+[1m[31m.venv\Lib\site-packages\streamlit\runtime\__init__.py[0m:17: in <module>
+    [0m[94mfrom[39;49;00m[90m [39;49;00m[04m[96mstreamlit[39;49;00m[04m[96m.[39;49;00m[04m[96mruntime[39;49;00m[04m[96m.[39;49;00m[04m[96mruntime[39;49;00m[90m [39;49;00m[94mimport[39;49;00m Runtime, RuntimeConfig, RuntimeState[90m[39;49;00m
+[1m[31m.venv\Lib\site-packages\streamlit\runtime\runtime.py[0m:17: in <module>
+    [0m[94mimport[39;49;00m[90m [39;49;00m[04m[96masyncio[39;49;00m[90m[39;49;00m
+[1m[31mC:\Program Files\Python312\Lib\asyncio\__init__.py[0m:43: in <module>
+    [0m[94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mwindows_events[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+[1m[31mC:\Program Files\Python312\Lib\asyncio\windows_events.py[0m:26: in <module>
+    [0m[94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[90m [39;49;00m[94mimport[39;49;00m windows_utils[90m[39;49;00m
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+    [0m[33m""""""Various Windows specific bits and pieces.""""""[39;49;00m[90m[39;49;00m
+    [90m[39;49;00m
+    [94mimport[39;49;00m[90m [39;49;00m[04m[96msys[39;49;00m[90m[39;49;00m
+    [90m[39;49;00m
+    [94mif[39;49;00m sys.platform != [33m'[39;49;00m[33mwin32[39;49;00m[33m'[39;49;00m:  [90m# pragma: no cover[39;49;00m[90m[39;49;00m
+        [94mraise[39;49;00m [96mImportError[39;49;00m([33m'[39;49;00m[33mwin32 only[39;49;00m[33m'[39;49;00m)[90m[39;49;00m
+    [90m[39;49;00m
+    [94mimport[39;49;00m[90m [39;49;00m[04m[96m_winapi[39;49;00m[90m[39;49;00m
+    [94mimport[39;49;00m[90m [39;49;00m[04m[96mitertools[39;49;00m[90m[39;49;00m
+    [94mimport[39;49;00m[90m [39;49;00m[04m[96mmsvcrt[39;49;00m[90m[39;49;00m
+    [94mimport[39;49;00m[90m [39;49;00m[04m[96mos[39;49;00m[90m[39;49;00m
+    [94mimport[39;49;00m[90m [39;49;00m[04m[96msubprocess[39;49;00m[90m[39;49;00m
+    [94mimport[39;49;00m[90m [39;49;00m[04m[96mtempfile[39;49;00m[90m[39;49;00m
+    [94mimport[39;49;00m[90m [39;49;00m[04m[96mwarnings[39;49;00m[90m[39;49;00m
+    [90m[39;49;00m
+    [90m[39;49;00m
+    __all__ = [33m'[39;49;00m[33mpipe[39;49;00m[33m'[39;49;00m, [33m'[39;49;00m[33mPopen[39;49;00m[33m'[39;49;00m, [33m'[39;49;00m[33mPIPE[39;49;00m[33m'[39;49;00m, [33m'[39;49;00m[33mPipeHandle[39;49;00m[33m'[39;49;00m[90m[39;49;00m
+    [90m[39;49;00m
+    [90m[39;49;00m
+    [90m# Constants/globals[39;49;00m[90m[39;49;00m
+    [90m[39;49;00m
+    [90m[39;49;00m
+    BUFSIZE = [94m8192[39;49;00m[90m[39;49;00m
+    PIPE = subprocess.PIPE[90m[39;49;00m
+    STDOUT = subprocess.STDOUT[90m[39;49;00m
+    _mmap_counter = itertools.count()[90m[39;49;00m
+    [90m[39;49;00m
+    [90m[39;49;00m
+    [90m# Replacement for os.pipe() using handles instead of fds[39;49;00m[90m[39;49;00m
+    [90m[39;49;00m
+    [90m[39;49;00m
+    [94mdef[39;49;00m[90m [39;49;00m[92mpipe[39;49;00m(*, duplex=[94mFalse[39;49;00m, overlapped=([94mTrue[39;49;00m, [94mTrue[39;49;00m), bufsize=BUFSIZE):[90m[39;49;00m
+    [90m    [39;49;00m[33m""""""Like os.pipe() but with overlapped support and using handles not fds.""""""[39;49;00m[90m[39;49;00m
+        address = tempfile.mktemp([90m[39;49;00m
+            prefix=[33mr[39;49;00m[33m'[39;49;00m[33m\\[39;49;00m[33m.[39;49;00m[33m\[39;49;00m[33mpipe[39;49;00m[33m\[39;49;00m[33mpython-pipe-[39;49;00m[33m{:d}[39;49;00m[33m-[39;49;00m[33m{:d}[39;49;00m[33m-[39;49;00m[33m'[39;49;00m.format([90m[39;49;00m
+                os.getpid(), [96mnext[39;49;00m(_mmap_counter)))[90m[39;49;00m
+    [90m[39;49;00m
+        [94mif[39;49;00m duplex:[90m[39;49;00m
+            openmode = _winapi.PIPE_ACCESS_DUPLEX[90m[39;49;00m
+            access = _winapi.GENERIC_READ | _winapi.GENERIC_WRITE[90m[39;49;00m
+            obsize, ibsize = bufsize, bufsize[90m[39;49;00m
+        [94melse[39;49;00m:[90m[39;49;00m
+            openmode = _winapi.PIPE_ACCESS_INBOUND[90m[39;49;00m
+            access = _winapi.GENERIC_WRITE[90m[39;49;00m
+            obsize, ibsize = [94m0[39;49;00m, bufsize[90m[39;49;00m
+    [90m[39;49;00m
+        openmode |= _winapi.FILE_FLAG_FIRST_PIPE_INSTANCE[90m[39;49;00m
+    [90m[39;49;00m
+        [94mif[39;49;00m overlapped[[94m0[39;49;00m]:[90m[39;49;00m
+            openmode |= _winapi.FILE_FLAG_OVERLAPPED[90m[39;49;00m
+    [90m[39;49;00m
+        [94mif[39;49;00m overlapped[[94m1[39;49;00m]:[90m[39;49;00m
+            flags_and_attribs = _winapi.FILE_FLAG_OVERLAPPED[90m[39;49;00m
+        [94melse[39;49;00m:[90m[39;49;00m
+            flags_and_attribs = [94m0[39;49;00m[90m[39;49;00m
+    [90m[39;49;00m
+        h1 = h2 = [94mNone[39;49;00m[90m[39;49;00m
+        [94mtry[39;49;00m:[90m[39;49;00m
+            h1 = _winapi.CreateNamedPipe([90m[39;49;00m
+                address, openmode, _winapi.PIPE_WAIT,[90m[39;49;00m
+                [94m1[39;49;00m, obsize, ibsize, _winapi.NMPWAIT_WAIT_FOREVER, _winapi.NULL)[90m[39;49;00m
+    [90m[39;49;00m
+            h2 = _winapi.CreateFile([90m[39;49;00m
+                address, access, [94m0[39;49;00m, _winapi.NULL, _winapi.OPEN_EXISTING,[90m[39;49;00m
+                flags_and_attribs, _winapi.NULL)[90m[39;49;00m
+    [90m[39;49;00m
+            ov = _winapi.ConnectNamedPipe(h1, overlapped=[94mTrue[39;49;00m)[90m[39;49;00m
+            ov.GetOverlappedResult([94mTrue[39;49;00m)[90m[39;49;00m
+            [94mreturn[39;49;00m h1, h2[90m[39;49;00m
+        [94mexcept[39;49;00m:[90m[39;49;00m
+            [94mif[39;49;00m h1 [95mis[39;49;00m [95mnot[39;49;00m [94mNone[39;49;00m:[90m[39;49;00m
+                _winapi.CloseHandle(h1)[90m[39;49;00m
+            [94mif[39;49;00m h2 [95mis[39;49;00m [95mnot[39;49;00m [94mNone[39;49;00m:[90m[39;49;00m
+                _winapi.CloseHandle(h2)[90m[39;49;00m
+            [94mraise[39;49;00m[90m[39;49;00m
+    [90m[39;49;00m
+    [90m[39;49;00m
+    [90m# Wrapper for a pipe handle[39;49;00m[90m[39;49;00m
+    [90m[39;49;00m
+    [90m[39;49;00m
+    [94mclass[39;49;00m[90m [39;49;00m[04m[92mPipeHandle[39;49;00m:[90m[39;49;00m
+    [90m    [39;49;00m[33m""""""Wrapper for an overlapped pipe handle which is vaguely file-object like.[39;49;00m
+    [33m[39;49;00m
+    [33m    The IOCP event loop can use these instead of socket objects.[39;49;00m
+    [33m    """"""[39;49;00m[90m[39;49;00m
+        [94mdef[39;49;00m[90m [39;49;00m[92m__init__[39;49;00m([96mself[39;49;00m, handle):[90m[39;49;00m
+            [96mself[39;49;00m._handle = handle[90m[39;49;00m
+    [90m[39;49;00m
+        [94mdef[39;49;00m[90m [39;49;00m[92m__repr__[39;49;00m([96mself[39;49;00m):[90m[39;49;00m
+            [94mif[39;49;00m [96mself[39;49;00m._handle [95mis[39;49;00m [95mnot[39;49;00m [94mNone[39;49;00m:[90m[39;49;00m
+                handle = [33mf[39;49;00m[33m'[39;49;00m[33mhandle=[39;49;00m[33m{[39;49;00m[96mself[39;49;00m._handle[33m!r}[39;49;00m[33m'[39;49;00m[90m[39;49;00m
+            [94melse[39;49;00m:[90m[39;49;00m
+                handle = [33m'[39;49;00m[33mclosed[39;49;00m[33m'[39;49;00m[90m[39;49;00m
+            [94mreturn[39;49;00m [33mf[39;49;00m[33m'[39;49;00m[33m<[39;49;00m[33m{[39;49;00m[96mself[39;49;00m.[91m__class__[39;49;00m.[91m__name__[39;49;00m[33m}[39;49;00m[33m [39;49;00m[33m{[39;49;00mhandle[33m}[39;49;00m[33m>[39;49;00m[33m'[39;49;00m[90m[39;49;00m
+    [90m[39;49;00m
+        [37m@property[39;49;00m[90m[39;49;00m
+        [94mdef[39;49;00m[90m [39;49;00m[92mhandle[39;49;00m([96mself[39;49;00m):[90m[39;49;00m
+            [94mreturn[39;49;00m [96mself[39;49;00m._handle[90m[39;49;00m
+    [90m[39;49;00m
+        [94mdef[39;49;00m[90m [39;49;00m[92mfileno[39;49;00m([96mself[39;49;00m):[90m[39;49;00m
+            [94mif[39;49;00m [96mself[39;49;00m._handle [95mis[39;49;00m [94mNone[39;49;00m:[90m[39;49;00m
+                [94mraise[39;49;00m [96mValueError[39;49;00m([33m""[39;49;00m[33mI/O operation on closed pipe[39;49;00m[33m""[39;49;00m)[90m[39;49;00m
+            [94mreturn[39;49;00m [96mself[39;49;00m._handle[90m[39;49;00m
+    [90m[39;49;00m
+        [94mdef[39;49;00m[90m [39;49;00m[92mclose[39;49;00m([96mself[39;49;00m, *, CloseHandle=_winapi.CloseHandle):[90m[39;49;00m
+            [94mif[39;49;00m [96mself[39;49;00m._handle [95mis[39;49;00m [95mnot[39;49;00m [94mNone[39;49;00m:[90m[39;49;00m
+                CloseHandle([96mself[39;49;00m._handle)[90m[39;49;00m
+                [96mself[39;49;00m._handle = [94mNone[39;49;00m[90m[39;49;00m
+    [90m[39;49;00m
+        [94mdef[39;49;00m[90m [39;49;00m[92m__del__[39;49;00m([96mself[39;49;00m, _warn=warnings.warn):[90",results/testing/pytest_output.log
+tests/app/test_application_flow.py::test_pending_edit_keeps_other_completed_session_and_updates_saved_calendar,setup,open,"tmp_path = WindowsPath('C:/Users/samta/AppData/Local/Temp/pytest-of-samta/pytest-0/test_pending_edit_keeps_other_0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x000001F6F9B465A0>
+
+    [0m[37m@pytest[39;49;00m.fixture[90m[39;49;00m
+    [94mdef[39;49;00m[90m [39;49;00m[92mapp_factory[39;49;00m(tmp_path, monkeypatch):[90m[39;49;00m
+        [90m# AppTest runs the real interface. Only the service boundary is scripted.[39;49;00m[90m[39;49;00m
+>       pytest.importorskip([33m""[39;49;00m[33mstreamlit[39;49;00m[33m""[39;49;00m, reason=[33m""[39;49;00m[33mStreamlit is required for the interface checks.[39;49;00m[33m""[39;49;00m)[90m[39;49;00m
+
+[1m[31mtests\app\test_application_flow.py[0m:18: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+[1m[31mC:\Program Files\Python312\Lib\importlib\__init__.py[0m:90: in import_module
+    [0m[94mreturn[39;49;00m _bootstrap._gcd_import(name[level:], package, level)[90m[39;49;00m
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m<frozen importlib._bootstrap>[0m:1387: in _gcd_import
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m<frozen importlib._bootstrap>[0m:1360: in _find_and_load
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m<frozen importlib._bootstrap>[0m:1331: in _find_and_load_unlocked
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m<frozen importlib._bootstrap>[0m:935: in _load_unlocked
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m<frozen importlib._bootstrap_external>[0m:995: in exec_module
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m<frozen importlib._bootstrap>[0m:488: in _call_with_frames_removed
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m.venv\Lib\site-packages\streamlit\__init__.py[0m:78: in <module>
+    [0m[94mfrom[39;49;00m[90m [39;49;00m[04m[96mstreamlit[39;49;00m[04m[96m.[39;49;00m[04m[96mdelta_generator[39;49;00m[90m [39;49;00m[94mimport[39;49;00m DeltaGenerator [94mas[39;49;00m _DeltaGenerator[90m[39;49;00m
+[1m[31m.venv\Lib\site-packages\streamlit\delta_generator.py[0m:34: in <module>
+    [0m[94mfrom[39;49;00m[90m [39;49;00m[04m[96mstreamlit[39;49;00m[90m [39;49;00m[94mimport[39;49;00m ([90m[39;49;00m
+[1m[31m.venv\Lib\site-packages\streamlit\cursor.py[0m:21: in <module>
+    [0m[94mfrom[39;49;00m[90m [39;49;00m[04m[96mstreamlit[39;49;00m[04m[96m.[39;49;00m[04m[96mruntime[39;49;00m[04m[96m.[39;49;00m[04m[96mscriptrunner_utils[39;49;00m[04m[96m.[39;49;00m[04m[96mscript_run_context[39;49;00m[90m [39;49;00m[94mimport[39;49;00m get_script_run_ctx[90m[39;49;00m
+[1m[31m.venv\Lib\site-packages\streamlit\runtime\__init__.py[0m:17: in <module>
+    [0m[94mfrom[39;49;00m[90m [39;49;00m[04m[96mstreamlit[39;49;00m[04m[96m.[39;49;00m[04m[96mruntime[39;49;00m[04m[96m.[39;49;00m[04m[96mruntime[39;49;00m[90m [39;49;00m[94mimport[39;49;00m Runtime, RuntimeConfig, RuntimeState[90m[39;49;00m
+[1m[31m.venv\Lib\site-packages\streamlit\runtime\runtime.py[0m:17: in <module>
+    [0m[94mimport[39;49;00m[90m [39;49;00m[04m[96masyncio[39;49;00m[90m[39;49;00m
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+    [0m[33m""""""The asyncio package, tracking PEP 3156.""""""[39;49;00m[90m[39;49;00m
+    [90m[39;49;00m
+    [90m# flake8: noqa[39;49;00m[90m[39;49;00m
+    [90m[39;49;00m
+    [94mimport[39;49;00m[90m [39;49;00m[04m[96msys[39;49;00m[90m[39;49;00m
+    [90m[39;49;00m
+    [90m# This relies on each of the submodules having an __all__ variable.[39;49;00m[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mbase_events[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mcoroutines[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mevents[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mexceptions[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mfutures[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mlocks[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mprotocols[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mrunners[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mqueues[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mstreams[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96msubprocess[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mtasks[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mtaskgroups[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mtimeouts[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mthreads[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mtransports[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [90m[39;49;00m
+>   __all__ = (base_events.__all__ +[90m[39;49;00m
+               ^^^^^^^^^^^[90m[39;49;00m
+               coroutines.__all__ +[90m[39;49;00m
+               events.__all__ +[90m[39;49;00m
+               exceptions.__all__ +[90m[39;49;00m
+               futures.__all__ +[90m[39;49;00m
+               locks.__all__ +[90m[39;49;00m
+               protocols.__all__ +[90m[39;49;00m
+               runners.__all__ +[90m[39;49;00m
+               queues.__all__ +[90m[39;49;00m
+               streams.__all__ +[90m[39;49;00m
+               subprocess.__all__ +[90m[39;49;00m
+               tasks.__all__ +[90m[39;49;00m
+               taskgroups.__all__ +[90m[39;49;00m
+               threads.__all__ +[90m[39;49;00m
+               timeouts.__all__ +[90m[39;49;00m
+               transports.__all__)[90m[39;49;00m
+[1m[31mE   NameError: name 'base_events' is not defined[0m
+
+[1m[31mC:\Program Files\Python312\Lib\asyncio\__init__.py[0m:25: NameError",results/testing/pytest_output.log
+tests/app/test_application_flow.py::test_editing_completed_session_resets_only_that_session,setup,open,"tmp_path = WindowsPath('C:/Users/samta/AppData/Local/Temp/pytest-of-samta/pytest-0/test_editing_completed_session0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x000001F6A16F7D10>
+
+    [0m[37m@pytest[39;49;00m.fixture[90m[39;49;00m
+    [94mdef[39;49;00m[90m [39;49;00m[92mapp_factory[39;49;00m(tmp_path, monkeypatch):[90m[39;49;00m
+        [90m# AppTest runs the real interface. Only the service boundary is scripted.[39;49;00m[90m[39;49;00m
+>       pytest.importorskip([33m""[39;49;00m[33mstreamlit[39;49;00m[33m""[39;49;00m, reason=[33m""[39;49;00m[33mStreamlit is required for the interface checks.[39;49;00m[33m""[39;49;00m)[90m[39;49;00m
+
+[1m[31mtests\app\test_application_flow.py[0m:18: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+[1m[31mC:\Program Files\Python312\Lib\importlib\__init__.py[0m:90: in import_module
+    [0m[94mreturn[39;49;00m _bootstrap._gcd_import(name[level:], package, level)[90m[39;49;00m
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m<frozen importlib._bootstrap>[0m:1387: in _gcd_import
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m<frozen importlib._bootstrap>[0m:1360: in _find_and_load
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m<frozen importlib._bootstrap>[0m:1331: in _find_and_load_unlocked
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m<frozen importlib._bootstrap>[0m:935: in _load_unlocked
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m<frozen importlib._bootstrap_external>[0m:995: in exec_module
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m<frozen importlib._bootstrap>[0m:488: in _call_with_frames_removed
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m.venv\Lib\site-packages\streamlit\__init__.py[0m:78: in <module>
+    [0m[94mfrom[39;49;00m[90m [39;49;00m[04m[96mstreamlit[39;49;00m[04m[96m.[39;49;00m[04m[96mdelta_generator[39;49;00m[90m [39;49;00m[94mimport[39;49;00m DeltaGenerator [94mas[39;49;00m _DeltaGenerator[90m[39;49;00m
+[1m[31m.venv\Lib\site-packages\streamlit\delta_generator.py[0m:34: in <module>
+    [0m[94mfrom[39;49;00m[90m [39;49;00m[04m[96mstreamlit[39;49;00m[90m [39;49;00m[94mimport[39;49;00m ([90m[39;49;00m
+[1m[31m.venv\Lib\site-packages\streamlit\cursor.py[0m:21: in <module>
+    [0m[94mfrom[39;49;00m[90m [39;49;00m[04m[96mstreamlit[39;49;00m[04m[96m.[39;49;00m[04m[96mruntime[39;49;00m[04m[96m.[39;49;00m[04m[96mscriptrunner_utils[39;49;00m[04m[96m.[39;49;00m[04m[96mscript_run_context[39;49;00m[90m [39;49;00m[94mimport[39;49;00m get_script_run_ctx[90m[39;49;00m
+[1m[31m.venv\Lib\site-packages\streamlit\runtime\__init__.py[0m:17: in <module>
+    [0m[94mfrom[39;49;00m[90m [39;49;00m[04m[96mstreamlit[39;49;00m[04m[96m.[39;49;00m[04m[96mruntime[39;49;00m[04m[96m.[39;49;00m[04m[96mruntime[39;49;00m[90m [39;49;00m[94mimport[39;49;00m Runtime, RuntimeConfig, RuntimeState[90m[39;49;00m
+[1m[31m.venv\Lib\site-packages\streamlit\runtime\runtime.py[0m:17: in <module>
+    [0m[94mimport[39;49;00m[90m [39;49;00m[04m[96masyncio[39;49;00m[90m[39;49;00m
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+    [0m[33m""""""The asyncio package, tracking PEP 3156.""""""[39;49;00m[90m[39;49;00m
+    [90m[39;49;00m
+    [90m# flake8: noqa[39;49;00m[90m[39;49;00m
+    [90m[39;49;00m
+    [94mimport[39;49;00m[90m [39;49;00m[04m[96msys[39;49;00m[90m[39;49;00m
+    [90m[39;49;00m
+    [90m# This relies on each of the submodules having an __all__ variable.[39;49;00m[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mbase_events[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mcoroutines[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mevents[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mexceptions[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mfutures[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mlocks[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mprotocols[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mrunners[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mqueues[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mstreams[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96msubprocess[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mtasks[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mtaskgroups[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mtimeouts[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mthreads[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mtransports[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [90m[39;49;00m
+>   __all__ = (base_events.__all__ +[90m[39;49;00m
+               ^^^^^^^^^^^[90m[39;49;00m
+               coroutines.__all__ +[90m[39;49;00m
+               events.__all__ +[90m[39;49;00m
+               exceptions.__all__ +[90m[39;49;00m
+               futures.__all__ +[90m[39;49;00m
+               locks.__all__ +[90m[39;49;00m
+               protocols.__all__ +[90m[39;49;00m
+               runners.__all__ +[90m[39;49;00m
+               queues.__all__ +[90m[39;49;00m
+               streams.__all__ +[90m[39;49;00m
+               subprocess.__all__ +[90m[39;49;00m
+               tasks.__all__ +[90m[39;49;00m
+               taskgroups.__all__ +[90m[39;49;00m
+               threads.__all__ +[90m[39;49;00m
+               timeouts.__all__ +[90m[39;49;00m
+               transports.__all__)[90m[39;49;00m
+[1m[31mE   NameError: name 'base_events' is not defined[0m
+
+[1m[31mC:\Program Files\Python312\Lib\asyncio\__init__.py[0m:25: NameError",results/testing/pytest_output.log
+tests/app/test_application_flow.py::test_browser_sessions_keep_independent_profiles_and_progress,setup,open,"tmp_path = WindowsPath('C:/Users/samta/AppData/Local/Temp/pytest-of-samta/pytest-0/test_browser_sessions_keep_ind0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x000001F6A1772FC0>
+
+    [0m[37m@pytest[39;49;00m.fixture[90m[39;49;00m
+    [94mdef[39;49;00m[90m [39;49;00m[92mapp_factory[39;49;00m(tmp_path, monkeypatch):[90m[39;49;00m
+        [90m# AppTest runs the real interface. Only the service boundary is scripted.[39;49;00m[90m[39;49;00m
+>       pytest.importorskip([33m""[39;49;00m[33mstreamlit[39;49;00m[33m""[39;49;00m, reason=[33m""[39;49;00m[33mStreamlit is required for the interface checks.[39;49;00m[33m""[39;49;00m)[90m[39;49;00m
+
+[1m[31mtests\app\test_application_flow.py[0m:18: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+[1m[31mC:\Program Files\Python312\Lib\importlib\__init__.py[0m:90: in import_module
+    [0m[94mreturn[39;49;00m _bootstrap._gcd_import(name[level:], package, level)[90m[39;49;00m
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m<frozen importlib._bootstrap>[0m:1387: in _gcd_import
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m<frozen importlib._bootstrap>[0m:1360: in _find_and_load
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m<frozen importlib._bootstrap>[0m:1331: in _find_and_load_unlocked
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m<frozen importlib._bootstrap>[0m:935: in _load_unlocked
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m<frozen importlib._bootstrap_external>[0m:995: in exec_module
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m<frozen importlib._bootstrap>[0m:488: in _call_with_frames_removed
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m.venv\Lib\site-packages\streamlit\__init__.py[0m:78: in <module>
+    [0m[94mfrom[39;49;00m[90m [39;49;00m[04m[96mstreamlit[39;49;00m[04m[96m.[39;49;00m[04m[96mdelta_generator[39;49;00m[90m [39;49;00m[94mimport[39;49;00m DeltaGenerator [94mas[39;49;00m _DeltaGenerator[90m[39;49;00m
+[1m[31m.venv\Lib\site-packages\streamlit\delta_generator.py[0m:34: in <module>
+    [0m[94mfrom[39;49;00m[90m [39;49;00m[04m[96mstreamlit[39;49;00m[90m [39;49;00m[94mimport[39;49;00m ([90m[39;49;00m
+[1m[31m.venv\Lib\site-packages\streamlit\cursor.py[0m:21: in <module>
+    [0m[94mfrom[39;49;00m[90m [39;49;00m[04m[96mstreamlit[39;49;00m[04m[96m.[39;49;00m[04m[96mruntime[39;49;00m[04m[96m.[39;49;00m[04m[96mscriptrunner_utils[39;49;00m[04m[96m.[39;49;00m[04m[96mscript_run_context[39;49;00m[90m [39;49;00m[94mimport[39;49;00m get_script_run_ctx[90m[39;49;00m
+[1m[31m.venv\Lib\site-packages\streamlit\runtime\__init__.py[0m:17: in <module>
+    [0m[94mfrom[39;49;00m[90m [39;49;00m[04m[96mstreamlit[39;49;00m[04m[96m.[39;49;00m[04m[96mruntime[39;49;00m[04m[96m.[39;49;00m[04m[96mruntime[39;49;00m[90m [39;49;00m[94mimport[39;49;00m Runtime, RuntimeConfig, RuntimeState[90m[39;49;00m
+[1m[31m.venv\Lib\site-packages\streamlit\runtime\runtime.py[0m:17: in <module>
+    [0m[94mimport[39;49;00m[90m [39;49;00m[04m[96masyncio[39;49;00m[90m[39;49;00m
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+    [0m[33m""""""The asyncio package, tracking PEP 3156.""""""[39;49;00m[90m[39;49;00m
+    [90m[39;49;00m
+    [90m# flake8: noqa[39;49;00m[90m[39;49;00m
+    [90m[39;49;00m
+    [94mimport[39;49;00m[90m [39;49;00m[04m[96msys[39;49;00m[90m[39;49;00m
+    [90m[39;49;00m
+    [90m# This relies on each of the submodules having an __all__ variable.[39;49;00m[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mbase_events[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mcoroutines[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mevents[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mexceptions[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mfutures[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mlocks[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mprotocols[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mrunners[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mqueues[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mstreams[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96msubprocess[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mtasks[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mtaskgroups[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mtimeouts[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mthreads[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mtransports[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [90m[39;49;00m
+>   __all__ = (base_events.__all__ +[90m[39;49;00m
+               ^^^^^^^^^^^[90m[39;49;00m
+               coroutines.__all__ +[90m[39;49;00m
+               events.__all__ +[90m[39;49;00m
+               exceptions.__all__ +[90m[39;49;00m
+               futures.__all__ +[90m[39;49;00m
+               locks.__all__ +[90m[39;49;00m
+               protocols.__all__ +[90m[39;49;00m
+               runners.__all__ +[90m[39;49;00m
+               queues.__all__ +[90m[39;49;00m
+               streams.__all__ +[90m[39;49;00m
+               subprocess.__all__ +[90m[39;49;00m
+               tasks.__all__ +[90m[39;49;00m
+               taskgroups.__all__ +[90m[39;49;00m
+               threads.__all__ +[90m[39;49;00m
+               timeouts.__all__ +[90m[39;49;00m
+               transports.__all__)[90m[39;49;00m
+[1m[31mE   NameError: name 'base_events' is not defined[0m
+
+[1m[31mC:\Program Files\Python312\Lib\asyncio\__init__.py[0m:25: NameError",results/testing/pytest_output.log
+tests/app/test_application_flow.py::test_form_keeps_unknown_commitments_distinct_from_confirmed_empty,setup,open,"tmp_path = WindowsPath('C:/Users/samta/AppData/Local/Temp/pytest-of-samta/pytest-0/test_form_keeps_unknown_commit0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x000001F6A1716690>
+
+    [0m[37m@pytest[39;49;00m.fixture[90m[39;49;00m
+    [94mdef[39;49;00m[90m [39;49;00m[92mapp_factory[39;49;00m(tmp_path, monkeypatch):[90m[39;49;00m
+        [90m# AppTest runs the real interface. Only the service boundary is scripted.[39;49;00m[90m[39;49;00m
+>       pytest.importorskip([33m""[39;49;00m[33mstreamlit[39;49;00m[33m""[39;49;00m, reason=[33m""[39;49;00m[33mStreamlit is required for the interface checks.[39;49;00m[33m""[39;49;00m)[90m[39;49;00m
+
+[1m[31mtests\app\test_application_flow.py[0m:18: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+[1m[31mC:\Program Files\Python312\Lib\importlib\__init__.py[0m:90: in import_module
+    [0m[94mreturn[39;49;00m _bootstrap._gcd_import(name[level:], package, level)[90m[39;49;00m
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31m<frozen importlib._bootstrap>[0m:1387: in _gcd_import
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m<frozen importlib._bootstrap>[0m:1360: in _find_and_load
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m<frozen importlib._bootstrap>[0m:1331: in _find_and_load_unlocked
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m<frozen importlib._bootstrap>[0m:935: in _load_unlocked
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m<frozen importlib._bootstrap_external>[0m:995: in exec_module
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m<frozen importlib._bootstrap>[0m:488: in _call_with_frames_removed
+    [0m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[04m[91m?[39;49;00m[90m[39;49;00m
+[1m[31m.venv\Lib\site-packages\streamlit\__init__.py[0m:78: in <module>
+    [0m[94mfrom[39;49;00m[90m [39;49;00m[04m[96mstreamlit[39;49;00m[04m[96m.[39;49;00m[04m[96mdelta_generator[39;49;00m[90m [39;49;00m[94mimport[39;49;00m DeltaGenerator [94mas[39;49;00m _DeltaGenerator[90m[39;49;00m
+[1m[31m.venv\Lib\site-packages\streamlit\delta_generator.py[0m:34: in <module>
+    [0m[94mfrom[39;49;00m[90m [39;49;00m[04m[96mstreamlit[39;49;00m[90m [39;49;00m[94mimport[39;49;00m ([90m[39;49;00m
+[1m[31m.venv\Lib\site-packages\streamlit\cursor.py[0m:21: in <module>
+    [0m[94mfrom[39;49;00m[90m [39;49;00m[04m[96mstreamlit[39;49;00m[04m[96m.[39;49;00m[04m[96mruntime[39;49;00m[04m[96m.[39;49;00m[04m[96mscriptrunner_utils[39;49;00m[04m[96m.[39;49;00m[04m[96mscript_run_context[39;49;00m[90m [39;49;00m[94mimport[39;49;00m get_script_run_ctx[90m[39;49;00m
+[1m[31m.venv\Lib\site-packages\streamlit\runtime\__init__.py[0m:17: in <module>
+    [0m[94mfrom[39;49;00m[90m [39;49;00m[04m[96mstreamlit[39;49;00m[04m[96m.[39;49;00m[04m[96mruntime[39;49;00m[04m[96m.[39;49;00m[04m[96mruntime[39;49;00m[90m [39;49;00m[94mimport[39;49;00m Runtime, RuntimeConfig, RuntimeState[90m[39;49;00m
+[1m[31m.venv\Lib\site-packages\streamlit\runtime\runtime.py[0m:17: in <module>
+    [0m[94mimport[39;49;00m[90m [39;49;00m[04m[96masyncio[39;49;00m[90m[39;49;00m
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+    [0m[33m""""""The asyncio package, tracking PEP 3156.""""""[39;49;00m[90m[39;49;00m
+    [90m[39;49;00m
+    [90m# flake8: noqa[39;49;00m[90m[39;49;00m
+    [90m[39;49;00m
+    [94mimport[39;49;00m[90m [39;49;00m[04m[96msys[39;49;00m[90m[39;49;00m
+    [90m[39;49;00m
+    [90m# This relies on each of the submodules having an __all__ variable.[39;49;00m[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mbase_events[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mcoroutines[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mevents[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mexceptions[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mfutures[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mlocks[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mprotocols[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mrunners[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mqueues[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mstreams[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96msubprocess[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mtasks[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mtaskgroups[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mtimeouts[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mthreads[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [94mfrom[39;49;00m[90m [39;49;00m[04m[96m.[39;49;00m[04m[96mtransports[39;49;00m[90m [39;49;00m[94mimport[39;49;00m *[90m[39;49;00m
+    [90m[39;49;00m
+>   __all__ = (base_events.__all__ +[90m[39;49;00m
+               ^^^^^^^^^^^[90m[39;49;00m
+               coroutines.__all__ +[90m[39;49;00m
+               events.__all__ +[90m[39;49;00m
+               exceptions.__all__ +[90m[39;49;00m
+               futures.__all__ +[90m[39;49;00m
+               locks.__all__ +[90m[39;49;00m
+               protocols.__all__ +[90m[39;49;00m
+               runners.__all__ +[90m[39;49;00m
+               queues.__all__ +[90m[39;49;00m
+               streams.__all__ +[90m[39;49;00m
+               subprocess.__all__ +[90m[39;49;00m
+               tasks.__all__ +[90m[39;49;00m
+               taskgroups.__all__ +[90m[39;49;00m
+               threads.__all__ +[90m[39;49;00m
+               timeouts.__all__ +[90m[39;49;00m
+               transports.__all__)[90m[39;49;00m
+[1m[31mE   NameError: name 'base_events' is not defined[0m
+
+[1m[31mC:\Program Files\Python312\Lib\asyncio\__init__.py[0m:25: NameError",results/testing/pytest_output.log

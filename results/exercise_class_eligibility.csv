@@ -1,0 +1,18 @@
+target_label,source_records,source_groups,records_after_record_review,groups_after_record_review,minimum_groups_before_allocation,class_included,class_exclusion_reason,class_index,minimum_train_groups,minimum_validation_groups,minimum_test_groups,train_records,train_groups,validation_records,validation_groups,test_records,test_groups
+abdominals,660,604,657,601,10,yes,,0,6,2,2,473,442,83,73,101,86
+abductors,21,21,21,21,10,yes,,1,6,2,2,14,14,3,3,4,4
+adductors,17,17,17,17,10,yes,,2,6,2,2,12,12,3,3,2,2
+biceps,168,144,167,143,10,yes,,3,6,2,2,112,100,27,22,28,21
+calves,47,38,47,38,10,yes,,4,6,2,2,32,24,8,7,7,7
+chest,260,225,253,218,10,yes,,5,6,2,2,170,147,40,35,43,36
+forearms,31,31,31,31,10,yes,,6,6,2,2,20,20,5,5,6,6
+glutes,81,79,81,79,10,yes,,7,6,2,2,56,54,11,11,14,14
+hamstrings,121,107,116,103,10,yes,,8,6,2,2,83,70,17,17,16,16
+lats,124,112,122,110,10,yes,,9,6,2,2,86,80,14,14,22,16
+lower back,97,88,96,88,10,yes,,10,6,2,2,74,66,14,14,8,8
+middle back,116,109,112,105,10,yes,,11,6,2,2,81,77,16,13,15,15
+neck,8,8,8,8,10,no,fewer_than_10_distinct_groups_after_record_review,,6,2,2,0,0,0,0,0,0
+quadriceps,645,586,643,584,10,yes,,12,6,2,2,427,388,119,105,97,91
+shoulders,338,308,337,307,10,yes,,13,6,2,2,247,221,47,45,43,41
+traps,24,24,23,23,10,yes,,14,6,2,2,15,15,4,4,4,4
+triceps,151,131,149,129,10,yes,,15,6,2,2,97,91,24,17,28,21

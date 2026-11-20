@@ -1,0 +1,33 @@
+{
+  "approvals": 0,
+  "catalog_candidates": 144,
+  "catalog_version": "0.3.5",
+  "input_sha256": {
+    "catalog": "492a7410446f0c7e261a42b35382ac858b3811cbdf936d4d17e262983cb5cb99",
+    "prescriptions": "7bf51ce8963b0ea582206bca49fc435696d6ceba37613536678daf98a2dc2ef0",
+    "prior_summary": "2850951b1f2528ede3eaffd5beddbfe886afd5a67c30b51adae23911e3f8ce31",
+    "registry": "f27de2f4b6c9d62d33aa1f27bc97c650355076886535ba63e9a6d78d9931478a",
+    "spaces": "59844033440e50b49361af0dcd0601aa42144320572fad58d6ec54450f549e1b"
+  },
+  "limitations": "Source-location cues are screening evidence only. Minimum dimensions, human reviewer decisions, permissions, and youth-planning approval remain pending.",
+  "metadata_changes": 0,
+  "output_sha256_at_creation": {
+    "prescription_decisions": "a10ae152fa2c4efda11c77ca74a1db6303ebf12a97b08e2557ca527f2c893c7b",
+    "source_evidence": "2ee9f474561331e1fb999d7ebe01f15daa9df5b2316f29751f2a9d5085a5785c",
+    "space_decisions": "a30dfc7eb4526f6a05aaf4caa21d429778bf38dd186cdc12d2137eb185ef724c"
+  },
+  "planner_eligible": 0,
+  "prescription_recommendations": 6,
+  "prescription_review_signoffs": 0,
+  "publisher_pages_fetched": 3,
+  "publisher_pages_requested": 3,
+  "run_date": "2026-11-07",
+  "source_records": 156,
+  "space_records": 18,
+  "space_review_signoffs": 0,
+  "space_status_counts": {
+    "inference_requires_confirmation": 1,
+    "source_locations_supported_pending_signoff": 17
+  },
+  "step": "12-50"
+}

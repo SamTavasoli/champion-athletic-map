@@ -1,0 +1,42 @@
+{
+  "data": {
+    "age_eligibility_inferred": false,
+    "alias_resolved": false,
+    "approved_variant": "specified_source_base_variant_only",
+    "canonical_drill_id": "JR-NEW-0044",
+    "catalog_candidate_id": "JR-NEW-0044",
+    "content_provenance": "Original brief factual description authored after primary HTML/PDF review.",
+    "content_use_scope": "Source-linked metadata and original summary only; no approval to redistribute publisher text, diagrams, images or video.",
+    "drill_name": "5-5-5 Creative Dribble",
+    "duration_minutes": null,
+    "equipment": "Basketball.",
+    "instructions": "Cycle right-hand, left-hand and creative dribbles in five-second stages.",
+    "medical_suitability_certified": false,
+    "minimum_participants": null,
+    "participants": "Individual ball-handlers.",
+    "primary_goal": "Creative ball handling",
+    "primary_goal_provenance": "project editorial classification, not publisher-certified assessment",
+    "publisher_attribution": "Jr. NBA/Jr. WNBA instructional curriculum",
+    "requested_drill_id": "JR-NEW-0044",
+    "rest_seconds": null,
+    "scope": "basketball_drill_candidate",
+    "secondary_skills": [],
+    "solo_adaptation": null,
+    "source_curriculum_level": "Starter",
+    "source_prescription": "1 minute",
+    "source_representation": "primary source reviewed 2026-11-13",
+    "source_url": "https://jr.nba.com/basketball-practice-plans/starter/page/5/",
+    "space": "Open court space.",
+    "use_conditions": "Use only when the actual equipment, player roles, space, skill prerequisites and supervision are satisfied. Ask for missing facts; do not invent durations, rest, coach availability or solo adaptations. Apply adopted participation rules separately."
+  },
+  "data_version": "team-approved-f0dcb9e9943e381b",
+  "issues": [
+    "Use only the reviewed variant and its stated resource/supervision conditions; unknown time and rest remain unknown."
+  ],
+  "request_id": "8c8369729c594205ab3619ef9906c56a",
+  "source_refs": [
+    "JR-NEW-0044",
+    "https://jr.nba.com/basketball-practice-plans/starter/page/5/"
+  ],
+  "status": "found"
+}

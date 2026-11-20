@@ -1,0 +1,33 @@
+{
+  "benchmark_preparation_id": "retrieval-benchmark-preparation:9b572b07c872d1a7178b19039dda68dd51d01213792f6424e417cab479272e97",
+  "completion_scope": "eleven_reference_scoped_pilot_and_benchmark",
+  "corpus_id": "expanded-corpus:aa58799145ccff5c8ea285b3b1eb0bc4fdc41ef85ad90ffb03db3ce3c4687c58",
+  "development_comparison_id": "retrieval-development-comparison:8a912950decb6f7cde229661dd95442772da63053b279b92d8925c3b38cd4102",
+  "expanded_retrieval_id": "expanded-retrieval-index:ee12915cfac22530096a9b573f046c886696c5b769aca11f6f20967f0068f5b9",
+  "generation_context_budget_verified": false,
+  "handoff_id": "scoped-retrieval-handoff:0bb09cf3eaf9146f3ab1f26ac67cd00af8aa3727eecb72a2b1502278bc6088ce",
+  "heldout_evaluation_id": "retrieval-heldout-evaluation:62d4b123570c2ca80af25ece9e418112f9eda622496d703296026e844175c01a",
+  "method_selection_performed": false,
+  "payload_hashes": {
+    "frozen_method_evaluation.json": "b5f06ffde95d1b9915cbb433a62951b98da4269d93189cb4ec0c67a82a0a6405",
+    "heldout_category_metrics.csv": "0c624eeac7816f160dc3e9bc726c7c193ebdd5085dd467a4017f13236217c13e",
+    "heldout_checks.csv": "b46a8731af66c0c23060e628c44ed2509566e4f76851a462b7b9d4ddd764bdfb",
+    "heldout_diagnostics.json": "ba16405fe5df4df35c5b0b9b1780d7d35186a5d1a9dcc4dd285bbc45da8fbda9",
+    "heldout_error_audit.jsonl": "8d8a5ef5aded942770ff5da3d7e1bd14b35b0d0a6d5ce4486bda9f48c71028f7",
+    "heldout_evaluation_config.json": "28fcbc4a24ebd6f56da66e51437c86856e2faf1ecb29e10d1cef63fa0cda41f1",
+    "heldout_per_query_metrics.jsonl": "5a0454e082690e9a2ee1d237bc719ac94389e3ccec94161981c2de2d874ffcf9",
+    "heldout_queries.jsonl": "b6c509a8ab4e051f4b7cc734a22d82775aa03fc251074e8e1a3fd14ea8a0f742",
+    "heldout_query_embeddings.npy": "1c21bebe4e24471a55e91eca1016b72ec9d4b5647aa127159f5c484f5a97091d",
+    "heldout_query_verification.json": "1d5f1e834ff247d19036a874a3df6ccad15940c53d85c5ad3a97c699a814ed41",
+    "heldout_rankings.jsonl": "54da5afb4a24fdf24a360aa4b4b87af26beb22901904b88f3076245e15034f20",
+    "heldout_replay_worker.py": "cd4401f56c9fdc5d654b3a41dbe39b07f8e153404b3685a1adbec9cce2433b85",
+    "heldout_route_metrics.csv": "d450f8ac332d4eb231b1c26047b3e2846663947092b61db1edcf6977c3ef4d63",
+    "retrieval_findings.md": "a91686124a851e38d1603007e0eae30f6b6da2197045509c621aaea228b1c852",
+    "retrieval_handoff.json": "3f8f563b52c3faad541e3e11a9011523f1fe9720a73dfefdc781b0ef70163330"
+  },
+  "query_preparation_id": "retrieval-query-preparation:f6db9aad37d7a9b920acb188429f9858ba7669273396843bd629ee3726dc2474",
+  "schema_version": "step23-heldout-evaluation-manifest-1",
+  "selected_route": "semantic",
+  "selection_freeze_id": "retrieval-method-selection:724eb24082e2fa21c47fe778566d5d97e04bc33e4479a54533af107545bf2ff5",
+  "step23_complete": true
+}

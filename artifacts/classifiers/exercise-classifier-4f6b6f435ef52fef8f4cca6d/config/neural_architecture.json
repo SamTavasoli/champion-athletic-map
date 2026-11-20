@@ -1,0 +1,10 @@
+{
+  "dropout": 0.2,
+  "embedding_dim": 64,
+  "hidden_dim": 64,
+  "max_sequence_length": 81,
+  "num_classes": 16,
+  "padding_idx": 0,
+  "unknown_idx": 1,
+  "vocab_size": 1748
+}

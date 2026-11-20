@@ -1,0 +1,19 @@
+{
+  "all_future_complete_requests_require_a_budget_check": true,
+  "backend_prompt_count_includes_reported_cache_do_not_add_cache_again": true,
+  "count_agreement_verified_on_saved_fixtures": true,
+  "final_output_schema_verified": false,
+  "json_compatibility_verified_on_saved_fixtures": false,
+  "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+  "observed_fixed_input_offset": 1,
+  "observed_offset_does_not_identify_boundary_token_ids": true,
+  "operational_generation_ready": false,
+  "representative_plan_capacity_verified": false,
+  "runtime_adoption_complete": false,
+  "runtime_version": "0.40.16",
+  "schema_version": "step24-observed-token-count-rule-candidate-1",
+  "scope": "same_fresh_system_user_text_only_request_contract_as_saved_fixtures",
+  "step24_complete": false,
+  "template_sha256": "948af2743fc78a328dcb3b0f5a31b3d75f415840fdb699e8b1235978392ecf85",
+  "tokenizer_manifest_sha256": "b289efbbd60fceb3e6bc38c19fcec0cb4229e5a7445df52fe82d2eb7fd277678"
+}

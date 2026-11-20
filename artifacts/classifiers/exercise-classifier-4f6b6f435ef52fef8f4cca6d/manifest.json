@@ -1,0 +1,411 @@
+{
+  "identity": {
+    "artifacts": {
+      "logistic_regression": {
+        "candidate_id": "L5",
+        "candidate_settings": {
+          "C": 10.0,
+          "candidate_id": "L5",
+          "class_weight": "balanced",
+          "fit_scope": "training partition only",
+          "order": 5,
+          "reuse_reference_candidate": false,
+          "seed": 42
+        },
+        "configuration_id": "logistic-tuning-config:d3c831cfda4fc18f6cf8c445f47555f11841fbcaf3dbacc8185a8101caf7933c",
+        "fit_partition": "train",
+        "fitted_state_sha256": "31bf8452bfbec047fcdbd0177932f8ffaef2f26a35ca28061d2eff7238d210f1",
+        "format": "joblib",
+        "model_id": "tfidf_logistic_regression",
+        "origin_step": 21,
+        "relative_path": "models/logistic_regression.joblib",
+        "retrained_after_selection": false,
+        "run_id": "logistic-tuning-run:7da15dbd8450461b8cf3a663e8bd7887",
+        "seed": 42,
+        "source": {
+          "relative_path": "artifacts/tuning/runs/L5_seed42/model.joblib",
+          "sha256": "216bbf1df985f6953319d4aceb09be31ac8523f34b06eb6b48b926785e887792"
+        },
+        "validation_accuracy": 0.7241379310344828,
+        "validation_macro_f1": 0.5980086742810444
+      },
+      "majority": {
+        "candidate_id": null,
+        "configuration_id": "majority_class:cfb30d05710cdc4cd520bc1f0d20d4448a280fc330193842cbb5a0aa4c7e9530",
+        "fit_partition": "train",
+        "fitted_state_sha256": "c42e8be81aa05e99dceb44e5567b352d39f77fe1c6522475b4c50248740a6770",
+        "format": "joblib",
+        "model_id": "majority_class",
+        "origin_step": 19,
+        "relative_path": "models/majority.joblib",
+        "retrained_after_selection": false,
+        "run_id": "majority_class:ea5589af06c64cdd9a273c0a83605692",
+        "seed": 42,
+        "source": {
+          "relative_path": "artifacts/baselines/majority_classifier.joblib",
+          "sha256": "5c30d2b1c7048754f125f3466ca6c2adda5157f84b831327614287b3b5fdbd51"
+        },
+        "validation_accuracy": 0.19080459770114944,
+        "validation_macro_f1": 0.02002895752895753
+      },
+      "neural": {
+        "best_epoch": 19,
+        "candidate_id": "N3",
+        "candidate_settings": {
+          "candidate_id": "N3",
+          "change_relative_to_N0": "cross_entropy_class_weights",
+          "class_weighting": "training_frequency",
+          "dropout": 0.2,
+          "initial_seed": 42,
+          "learning_rate": 0.001,
+          "order": 3,
+          "reuse_reference_candidate": false
+        },
+        "configuration_id": "neural-tuning-config:21a897ae11f50d7808e8a4bf629aff15f60e2d196be3cdcda49e1608a711b1c8",
+        "configuration_mean_macro_f1": 0.5624562667405762,
+        "configuration_sample_standard_deviation": 0.008760174959603555,
+        "ensemble_used": false,
+        "fit_partition": "train",
+        "fitted_state_sha256": "19cb44aba801428a7d2d965b007f0330137dc02003331d26bd519d9d77ddcf8e",
+        "format": "state_dict",
+        "highest_scoring_seed_selected": false,
+        "model_config": "config/neural_architecture.json",
+        "model_id": "neural_classifier",
+        "origin_step": 21,
+        "relative_path": "models/neural_state.pt",
+        "retrained_after_selection": false,
+        "run_id": "neural-tuning-run:62cc2a0384284f62b024d6a7be048dd0",
+        "seed": 42,
+        "selected_validation_loss": 1.6816732587341088,
+        "source": {
+          "relative_path": "artifacts/tuning/runs/N3_seed42/model_state.pt",
+          "sha256": "10696c1b9c34c4bb7771e67d70859233cd52c232ea3196c605b13c4c353557b9"
+        },
+        "standard_deviation_ddof": 1,
+        "validation_accuracy": 0.6827586206896552,
+        "validation_macro_f1": 0.5711446509354461
+      }
+    },
+    "benchmark_id": "exercise-benchmark:fb56823695069d9dd15a5280812e8b8faff81550732489cd3b1cc075b532b7df",
+    "class_order": [
+      "abdominals",
+      "abductors",
+      "adductors",
+      "biceps",
+      "calves",
+      "chest",
+      "forearms",
+      "glutes",
+      "hamstrings",
+      "lats",
+      "lower back",
+      "middle back",
+      "quadriceps",
+      "shoulders",
+      "traps",
+      "triceps"
+    ],
+    "class_to_index": {
+      "abdominals": 0,
+      "abductors": 1,
+      "adductors": 2,
+      "biceps": 3,
+      "calves": 4,
+      "chest": 5,
+      "forearms": 6,
+      "glutes": 7,
+      "hamstrings": 8,
+      "lats": 9,
+      "lower back": 10,
+      "middle back": 11,
+      "quadriceps": 12,
+      "shoulders": 13,
+      "traps": 14,
+      "triceps": 15
+    },
+    "configuration_files": {
+      "inference_contract": "config/inference_contract.json",
+      "label_mapping": "config/label_mapping.json",
+      "model_selection": "config/model_selection.json",
+      "neural_architecture": "config/neural_architecture.json",
+      "preprocessing": "config/preprocessing.json",
+      "sequence_settings": "config/sequence_settings.json",
+      "vocabulary": "config/vocabulary.json"
+    },
+    "dependencies": {
+      "packages": {
+        "joblib": "1.6.0",
+        "numpy": "2.5.4",
+        "pandas": "3.1.1",
+        "scikit-learn": "1.9.1",
+        "scipy": "1.18.1",
+        "torch": "2.14.1+cu126"
+      },
+      "python": "3.12.6"
+    },
+    "intended_application_device": "cpu",
+    "interface_id": "classifier-interface-preparation:87575e9800e7e772e056ce88c429c6abf35982a9055d10bb0c455d04dd50b63f",
+    "interface_source_sha256": "4d5b788ad562cea82bd4102d170f4b50a5115ec291a800dc5feba6d40c5a7902",
+    "limitations": {
+      "held_out_classifier_evaluation_owner_step": 32,
+      "new_record_screening_complete": false,
+      "optimizer_or_exact_training_resume_state_included": false,
+      "planner_eligibility_granted": false,
+      "probabilities_calibrated": false,
+      "source_label_reviews_completed_by_packaging": false,
+      "test_examples_included": false,
+      "training_partition_fits_retained": true,
+      "training_plus_validation_refit": false,
+      "unproven_new_records_action": "defer_without_prediction",
+      "validation_scores_are_development_evidence": true
+    },
+    "numerical_verification": {
+      "atol": 1e-06,
+      "decoded_labels_must_match_exactly": true,
+      "label_differences_require_investigation": true,
+      "rtol": 1e-05
+    },
+    "payloads": {
+      "config/inference_contract.json": {
+        "bytes": 2510,
+        "sha256": "56f56c8be6fb8f9caefcfb454b47957f16c61b0c9f9bf6d67c52f6cc48a3f94c"
+      },
+      "config/label_mapping.json": {
+        "bytes": 828,
+        "sha256": "b7d17468a94811c58e9e337a5417a0a2ecb438b28a3fddb6e235672251ca5f6a"
+      },
+      "config/model_selection.json": {
+        "bytes": 43088,
+        "sha256": "5437bf9d63bad661b5ae9b62aa5b3bf052c4855ba05844922aa02ca975b019ae"
+      },
+      "config/neural_architecture.json": {
+        "bytes": 176,
+        "sha256": "dfe7b71262281af4b50e17c7abdbb4ee9129a2a8965633d6e66899199a970cb5"
+      },
+      "config/preprocessing.json": {
+        "bytes": 18593,
+        "sha256": "23e4b7568fc52b30674122a4a6e5372e3d66b6eab7bc3e5471b2077c353f6ce7"
+      },
+      "config/sequence_settings.json": {
+        "bytes": 1091,
+        "sha256": "7342ed52ec3df1cc6c1780e2c5e816fa1838762b52b62ad8bf667426c67b3c50"
+      },
+      "config/vocabulary.json": {
+        "bytes": 95229,
+        "sha256": "654d3be2bd15b82112ce542c8727080810b0d8a7677b1e3533bf56ce6ec1d059"
+      },
+      "environment.json": {
+        "bytes": 2969,
+        "sha256": "d510b534f4fa5d209ba033a62be2f4cc8ab949d62d05f960728f7a9accb2a089"
+      },
+      "models/logistic_regression.joblib": {
+        "bytes": 1161529,
+        "sha256": "216bbf1df985f6953319d4aceb09be31ac8523f34b06eb6b48b926785e887792"
+      },
+      "models/majority.joblib": {
+        "bytes": 581,
+        "sha256": "5c30d2b1c7048754f125f3466ca6c2adda5157f84b831327614287b3b5fdbd51"
+      },
+      "models/neural_state.pt": {
+        "bytes": 470681,
+        "sha256": "10696c1b9c34c4bb7771e67d70859233cd52c232ea3196c605b13c4c353557b9"
+      },
+      "requirements.txt": {
+        "bytes": 254,
+        "sha256": "5472f36545a550999ae0efd5cf5bcd8ab76dc889d3f68f507047a207952db09e"
+      },
+      "src/champion_athletic_map/__init__.py": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "src/champion_athletic_map/classifier_inference.py": {
+        "bytes": 38563,
+        "sha256": "4d5b788ad562cea82bd4102d170f4b50a5115ec291a800dc5feba6d40c5a7902"
+      },
+      "src/champion_athletic_map/neural_classifier.py": {
+        "bytes": 4222,
+        "sha256": "4caaf5c1554da121ec47cf9d1cc84bd106eefece631776850c5c2008ec2eee51"
+      },
+      "src/champion_athletic_map/text_preprocessing.py": {
+        "bytes": 13577,
+        "sha256": "47bbaa42eea1ed56634969c65546ab371b7303d8e728dcbf5e8cb151c7986db2"
+      }
+    },
+    "population_boundary_digest": "4ff6589b450d75af178014a241b2efa1db7903cf7dbbdce0ce800547a897ec36",
+    "preprocessing_id": "exercise-preprocessing:ba1da8bac2a580a528f841dbb40d1a5cb847323616059a7799df317bbcee55aa",
+    "recipe_version": "portable-exercise-classifier-release-0.1.0",
+    "reference_inference_device": "cuda:0",
+    "reference_runtime": {
+      "cpu_interop_threads": 12,
+      "cpu_intraop_threads": 12,
+      "cublas_workspace_config": ":4096:8",
+      "cuda_available": true,
+      "cuda_build": "12.6",
+      "cuda_compute_capability": [
+        8,
+        6
+      ],
+      "cudnn_benchmark": false,
+      "cudnn_deterministic": true,
+      "cudnn_version": 91002,
+      "deterministic_algorithms": true,
+      "deterministic_warn_only": false,
+      "device_name": "NVIDIA GeForce RTX 3080",
+      "device_total_memory_bytes": 10736893952,
+      "float32_precision": {
+        "api": "fp32_precision",
+        "cuda_matmul": "ieee",
+        "cudnn": "ieee",
+        "global": "ieee"
+      },
+      "neural_model_integration_checked": false,
+      "runtime_arithmetic_verified": true,
+      "scope": "Constant 2x2 tensor arithmetic and runtime configuration; no neural model or gradients.",
+      "selected_device": "cuda:0",
+      "torch": "2.14.1+cu126"
+    },
+    "selection_digest": "f7c959560435263cd7a9f66e2c934f0d93e9d8cd3541183f017ca1c84864b32a",
+    "selection_id": "classifier-model-selection:f7c959560435263cd7a9f66e2c934f0d93e9d8cd3541183f017ca1c84864b32a",
+    "source_git": {
+      "all_existing_source_files_tracked": false,
+      "available": true,
+      "revision": "d34072a0dffcb44cb28afa3e2fde14911720b91b",
+      "source_paths_checked": [
+        "src/champion_athletic_map/text_preprocessing.py",
+        "src/champion_athletic_map/neural_classifier.py"
+      ],
+      "tracked_source_changes_present": false
+    },
+    "source_modules": {
+      "champion_athletic_map": "src/champion_athletic_map/__init__.py",
+      "champion_athletic_map.classifier_inference": "src/champion_athletic_map/classifier_inference.py",
+      "champion_athletic_map.neural_classifier": "src/champion_athletic_map/neural_classifier.py",
+      "champion_athletic_map.text_preprocessing": "src/champion_athletic_map/text_preprocessing.py"
+    },
+    "source_provenance": {
+      "config/inference_contract.json": {
+        "bytes": 2510,
+        "kind": "derived_from_verified_configuration",
+        "relative_path": null,
+        "sha256": "56f56c8be6fb8f9caefcfb454b47957f16c61b0c9f9bf6d67c52f6cc48a3f94c"
+      },
+      "config/label_mapping.json": {
+        "bytes": 828,
+        "kind": "copied_verified_source",
+        "relative_path": "artifacts/preprocessing/label_mapping.json",
+        "sha256": "b7d17468a94811c58e9e337a5417a0a2ecb438b28a3fddb6e235672251ca5f6a"
+      },
+      "config/model_selection.json": {
+        "bytes": 43088,
+        "kind": "copied_verified_source",
+        "relative_path": "artifacts/model_selection.json",
+        "sha256": "5437bf9d63bad661b5ae9b62aa5b3bf052c4855ba05844922aa02ca975b019ae"
+      },
+      "config/neural_architecture.json": {
+        "bytes": 176,
+        "kind": "derived_from_verified_configuration",
+        "relative_path": null,
+        "sha256": "dfe7b71262281af4b50e17c7abdbb4ee9129a2a8965633d6e66899199a970cb5"
+      },
+      "config/preprocessing.json": {
+        "bytes": 18593,
+        "kind": "copied_verified_source",
+        "relative_path": "artifacts/preprocessing/preprocessing_config.json",
+        "sha256": "23e4b7568fc52b30674122a4a6e5372e3d66b6eab7bc3e5471b2077c353f6ce7"
+      },
+      "config/sequence_settings.json": {
+        "bytes": 1091,
+        "kind": "derived_from_verified_configuration",
+        "relative_path": null,
+        "sha256": "7342ed52ec3df1cc6c1780e2c5e816fa1838762b52b62ad8bf667426c67b3c50"
+      },
+      "config/vocabulary.json": {
+        "bytes": 95229,
+        "kind": "copied_verified_source",
+        "relative_path": "artifacts/preprocessing/neural_vocabulary.json",
+        "sha256": "654d3be2bd15b82112ce542c8727080810b0d8a7677b1e3533bf56ce6ec1d059"
+      },
+      "environment.json": {
+        "bytes": 2969,
+        "kind": "recorded_current_matching_environment",
+        "relative_path": null,
+        "sha256": "d510b534f4fa5d209ba033a62be2f4cc8ab949d62d05f960728f7a9accb2a089"
+      },
+      "models/logistic_regression.joblib": {
+        "bytes": 1161529,
+        "kind": "copied_verified_source",
+        "relative_path": "artifacts/tuning/runs/L5_seed42/model.joblib",
+        "sha256": "216bbf1df985f6953319d4aceb09be31ac8523f34b06eb6b48b926785e887792"
+      },
+      "models/majority.joblib": {
+        "bytes": 581,
+        "kind": "copied_verified_source",
+        "relative_path": "artifacts/baselines/majority_classifier.joblib",
+        "sha256": "5c30d2b1c7048754f125f3466ca6c2adda5157f84b831327614287b3b5fdbd51"
+      },
+      "models/neural_state.pt": {
+        "bytes": 470681,
+        "kind": "copied_verified_source",
+        "relative_path": "artifacts/tuning/runs/N3_seed42/model_state.pt",
+        "sha256": "10696c1b9c34c4bb7771e67d70859233cd52c232ea3196c605b13c4c353557b9"
+      },
+      "requirements.txt": {
+        "bytes": 254,
+        "kind": "recorded_current_matching_environment",
+        "relative_path": null,
+        "sha256": "5472f36545a550999ae0efd5cf5bcd8ab76dc889d3f68f507047a207952db09e"
+      },
+      "src/champion_athletic_map/__init__.py": {
+        "bytes": 0,
+        "kind": "generated_empty_package_initializer",
+        "relative_path": null,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "src/champion_athletic_map/classifier_inference.py": {
+        "bytes": 38563,
+        "kind": "prepared_verified_interface_source",
+        "relative_path": "src/champion_athletic_map/classifier_inference.py",
+        "sha256": "4d5b788ad562cea82bd4102d170f4b50a5115ec291a800dc5feba6d40c5a7902"
+      },
+      "src/champion_athletic_map/neural_classifier.py": {
+        "bytes": 4222,
+        "kind": "copied_verified_source",
+        "relative_path": "src/champion_athletic_map/neural_classifier.py",
+        "sha256": "4caaf5c1554da121ec47cf9d1cc84bd106eefece631776850c5c2008ec2eee51"
+      },
+      "src/champion_athletic_map/text_preprocessing.py": {
+        "bytes": 13577,
+        "kind": "copied_verified_source",
+        "relative_path": "src/champion_athletic_map/text_preprocessing.py",
+        "sha256": "47bbaa42eea1ed56634969c65546ab371b7303d8e728dcbf5e8cb151c7986db2"
+      }
+    },
+    "tagging_model": {
+      "bundle_model_relative_path": "models/logistic_regression.joblib",
+      "candidate_id": "L5",
+      "catalog_predictions_are_suggestions": true,
+      "configuration_id": "logistic-tuning-config:d3c831cfda4fc18f6cf8c445f47555f11841fbcaf3dbacc8185a8101caf7933c",
+      "exact_artifact_tie_rule": "favor logistic regression",
+      "exercise_or_drill_approval_granted": false,
+      "macro_f1": 0.5980086742810444,
+      "majority_gate": "strictly greater than the majority baseline macro-F1",
+      "majority_macro_f1": 0.02002895752895753,
+      "model": {
+        "relative_path": "artifacts/tuning/runs/L5_seed42/model.joblib",
+        "sha256": "216bbf1df985f6953319d4aceb09be31ac8523f34b06eb6b48b926785e887792"
+      },
+      "model_family": "logistic_regression",
+      "model_id": "tfidf_logistic_regression",
+      "neural_three_seed_mean_used_for_tagging": false,
+      "reason": "winning actual artifact strictly exceeds majority baseline; exact cross-model ties favor logistic regression",
+      "run_id": "logistic-tuning-run:7da15dbd8450461b8cf3a663e8bd7887",
+      "selection_measure": "validation macro-F1 of the actual selected artifacts",
+      "status": "selected"
+    },
+    "training_device": "cuda:0",
+    "unicode_database": "15.0.0"
+  },
+  "identity_sha256": "4f6b6f435ef52fef8f4cca6d6b0b054704ce07a655a9c37c0ec3853fe0e4ba3f",
+  "release_id": "exercise-classifier-4f6b6f435ef52fef8f4cca6d",
+  "schema_version": "exercise-classifier-release-1"
+}

@@ -1,0 +1,324 @@
+{
+  "schema_version": "step30-pytest-execution-1",
+  "pytest_exit_code": 0,
+  "collected": [
+    {
+      "test_id": "tests/backend_continuation_fix/test_handoff_request.py::test_real_chain_reproduces_frozen_first_guard_failure_from_saved_column_order",
+      "requirement": "31:exact-saved-handoff-prepare",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/backend_continuation_fix/test_handoff_request.py:121",
+      "description": "test_real_chain_reproduces_frozen_first_guard_failure_from_saved_column_order"
+    },
+    {
+      "test_id": "tests/backend_continuation_fix/test_handoff_request.py::test_real_chain_matches_every_expected_payload_field_with_validated_original_layout",
+      "requirement": "31:exact-saved-handoff-prepare",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/backend_continuation_fix/test_handoff_request.py:135",
+      "description": "test_real_chain_matches_every_expected_payload_field_with_validated_original_layout"
+    },
+    {
+      "test_id": "tests/backend_continuation_fix/test_handoff_request.py::test_source_finding_change_is_rejected_before_it_can_be_reencoded",
+      "requirement": "31:exact-saved-handoff-prepare",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/backend_continuation_fix/test_handoff_request.py:150",
+      "description": "test_source_finding_change_is_rejected_before_it_can_be_reencoded"
+    },
+    {
+      "test_id": "tests/backend_continuation_fix/test_resumed_continuation.py::test_new_handoff_preserves_verified_layout_and_does_not_change_failed_attempt",
+      "requirement": "31:verified-saved-handoff-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/backend_continuation_fix/test_resumed_continuation.py:45",
+      "description": "test_new_handoff_preserves_verified_layout_and_does_not_change_failed_attempt"
+    },
+    {
+      "test_id": "tests/backend_continuation_fix/test_resumed_continuation.py::test_repaired_lifecycle_spends_only_four_calls_and_verified_reuse_spends_none",
+      "requirement": "31:verified-saved-handoff-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/backend_continuation_fix/test_resumed_continuation.py:60",
+      "description": "test_repaired_lifecycle_spends_only_four_calls_and_verified_reuse_spends_none"
+    },
+    {
+      "test_id": "tests/backend_continuation_fix/test_resumed_continuation.py::test_complete_named_findings_cannot_change_during_layout_restoration",
+      "requirement": "31:verified-saved-handoff-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/backend_continuation_fix/test_resumed_continuation.py:79",
+      "description": "test_complete_named_findings_cannot_change_during_layout_restoration"
+    },
+    {
+      "test_id": "tests/backend_continuation_fix/test_resumed_continuation.py::test_sealed_attempt_with_nonzero_transport_cannot_receive_a_new_allowance",
+      "requirement": "31:verified-saved-handoff-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/backend_continuation_fix/test_resumed_continuation.py:87",
+      "description": "test_sealed_attempt_with_nonzero_transport_cannot_receive_a_new_allowance"
+    },
+    {
+      "test_id": "tests/backend_continuation_fix/test_resumed_continuation.py::test_previous_native_call_directory_blocks_handoff_retry",
+      "requirement": "31:verified-saved-handoff-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/backend_continuation_fix/test_resumed_continuation.py:100",
+      "description": "test_previous_native_call_directory_blocks_handoff_retry"
+    },
+    {
+      "test_id": "tests/backend_continuation_fix/test_resumed_continuation.py::test_missing_previous_receipt_blocks_handoff_retry",
+      "requirement": "31:verified-saved-handoff-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/backend_continuation_fix/test_resumed_continuation.py:108",
+      "description": "test_missing_previous_receipt_blocks_handoff_retry"
+    },
+    {
+      "test_id": "tests/backend_continuation_fix/test_resumed_continuation.py::test_receipt_must_bind_its_exact_terminal_outcome",
+      "requirement": "31:verified-saved-handoff-continuation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/backend_continuation_fix/test_resumed_continuation.py:115",
+      "description": "test_receipt_must_bind_its_exact_terminal_outcome"
+    }
+  ],
+  "phases": [
+    {
+      "test_id": "tests/backend_continuation_fix/test_handoff_request.py::test_real_chain_reproduces_frozen_first_guard_failure_from_saved_column_order",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.3237199000432156,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation_fix/test_handoff_request.py::test_real_chain_reproduces_frozen_first_guard_failure_from_saved_column_order",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.18299260002095252,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation_fix/test_handoff_request.py::test_real_chain_reproduces_frozen_first_guard_failure_from_saved_column_order",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001664000446908176,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation_fix/test_handoff_request.py::test_real_chain_matches_every_expected_payload_field_with_validated_original_layout",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002491999766789377,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation_fix/test_handoff_request.py::test_real_chain_matches_every_expected_payload_field_with_validated_original_layout",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.18427250004606321,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation_fix/test_handoff_request.py::test_real_chain_matches_every_expected_payload_field_with_validated_original_layout",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00017150002531707287,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation_fix/test_handoff_request.py::test_source_finding_change_is_rejected_before_it_can_be_reencoded",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00023990002227947116,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation_fix/test_handoff_request.py::test_source_finding_change_is_rejected_before_it_can_be_reencoded",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.008183100027963519,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation_fix/test_handoff_request.py::test_source_finding_change_is_rejected_before_it_can_be_reencoded",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013100000796839595,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation_fix/test_resumed_continuation.py::test_new_handoff_preserves_verified_layout_and_does_not_change_failed_attempt",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 4.86381829995662,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation_fix/test_resumed_continuation.py::test_new_handoff_preserves_verified_layout_and_does_not_change_failed_attempt",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 1.8697453000349924,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation_fix/test_resumed_continuation.py::test_new_handoff_preserves_verified_layout_and_does_not_change_failed_attempt",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.000146100006531924,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation_fix/test_resumed_continuation.py::test_repaired_lifecycle_spends_only_four_calls_and_verified_reuse_spends_none",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 4.660233899950981,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation_fix/test_resumed_continuation.py::test_repaired_lifecycle_spends_only_four_calls_and_verified_reuse_spends_none",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 3.3940238999784924,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation_fix/test_resumed_continuation.py::test_repaired_lifecycle_spends_only_four_calls_and_verified_reuse_spends_none",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001373999984934926,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation_fix/test_resumed_continuation.py::test_complete_named_findings_cannot_change_during_layout_restoration",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 4.624776099983137,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation_fix/test_resumed_continuation.py::test_complete_named_findings_cannot_change_during_layout_restoration",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.8317159000434913,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation_fix/test_resumed_continuation.py::test_complete_named_findings_cannot_change_during_layout_restoration",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00019300001440569758,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation_fix/test_resumed_continuation.py::test_sealed_attempt_with_nonzero_transport_cannot_receive_a_new_allowance",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 4.645080800051801,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation_fix/test_resumed_continuation.py::test_sealed_attempt_with_nonzero_transport_cannot_receive_a_new_allowance",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 1.06566759996349,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation_fix/test_resumed_continuation.py::test_sealed_attempt_with_nonzero_transport_cannot_receive_a_new_allowance",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00015239999629557133,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation_fix/test_resumed_continuation.py::test_previous_native_call_directory_blocks_handoff_retry",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 4.449573400022928,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation_fix/test_resumed_continuation.py::test_previous_native_call_directory_blocks_handoff_retry",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.9538476999732666,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation_fix/test_resumed_continuation.py::test_previous_native_call_directory_blocks_handoff_retry",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013860000763088465,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation_fix/test_resumed_continuation.py::test_missing_previous_receipt_blocks_handoff_retry",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 4.7784695999580435,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation_fix/test_resumed_continuation.py::test_missing_previous_receipt_blocks_handoff_retry",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.9271326999878511,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation_fix/test_resumed_continuation.py::test_missing_previous_receipt_blocks_handoff_retry",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013679999392479658,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation_fix/test_resumed_continuation.py::test_receipt_must_bind_its_exact_terminal_outcome",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 4.35982429998694,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation_fix/test_resumed_continuation.py::test_receipt_must_bind_its_exact_terminal_outcome",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.9386620000004768,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/backend_continuation_fix/test_resumed_continuation.py::test_receipt_must_bind_its_exact_terminal_outcome",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00016529997810721397,
+      "expected_failure": false,
+      "detail": null
+    }
+  ],
+  "collection_errors": [],
+  "deselected": [],
+  "new_model_calls": 0,
+  "query_encoder_processes": 0,
+  "network_policy": "blocked_in_routine_tests",
+  "fixtures": "authored_public_examples"
+}

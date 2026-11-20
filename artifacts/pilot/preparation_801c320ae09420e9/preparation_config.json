@@ -1,0 +1,71 @@
+{
+  "accepted_study_profiles": 0,
+  "adopted_families": 0,
+  "case_status": "provisional_development_drafts",
+  "human_reviews_claimed": 0,
+  "model_generation_calls": 0,
+  "module_sha256": {
+    "src/champion_athletic_map/pilot_preparation.py": "4b4dedbd732810945a0f80cd929627a148dba6ec2eebdc5423bd9b949f9ab113",
+    "src/champion_athletic_map/pilot_readiness.py": "3151a14644368f54113ca08adbec94f07c5f6fe9f3552fb36196a9e4f4236b05",
+    "src/champion_athletic_map/pilot_selection.py": "f978c839af17cc74813b42fb60ee16f21890312ee184358370da6c16ced2ef38"
+  },
+  "planned_jobs": 80,
+  "protocol_frozen": false,
+  "query_encoder_processes": 0,
+  "sample_size": 20,
+  "schema_version": "pilot-preparation-config-1",
+  "seed": 42,
+  "selection_policy": {
+    "accepted_study_profiles": 0,
+    "distinct_proposed_families": 20,
+    "minimum_food_questions": 2,
+    "model_outputs_used_for_selection": false,
+    "public_inputs_changed": false,
+    "review_status": "pending_case_family_and_feasibility_review",
+    "seed": 42,
+    "selection_basis": "public_input_specificity_and_private_draft_intents_only",
+    "selection_version": "step31-development-selection-1",
+    "target_quotas": {
+      "13": {
+        "conflicting_constraints": 1,
+        "feasible": 2,
+        "missing_information": 1
+      },
+      "14": {
+        "feasible": 2,
+        "missing_information": 1,
+        "outside_scope": 1
+      },
+      "15": {
+        "conflicting_constraints": 1,
+        "feasible": 2,
+        "outside_scope": 1
+      },
+      "16": {
+        "conflicting_constraints": 1,
+        "feasible": 2,
+        "missing_information": 1
+      },
+      "17": {
+        "feasible": 2,
+        "missing_information": 1,
+        "outside_scope": 1
+      }
+    },
+    "tie_break": "sha256_of_seed_and_profile_id"
+  },
+  "source_provenance": {
+    "pool_directory": "results/profile_preparation/development_drafts_7b7f2fc781077cdc",
+    "pool_records": 100,
+    "pool_summary_sha256": "dff337571b6d88850b1a7eb915c3767bca186ae1103ae337ca1f75e3f9662190",
+    "private_metadata_sha256": "50f9a9338e686cfa958da1cfcbd693ec42acc9e129203b84dd11ca8e0a678d4f",
+    "public_pool_sha256": "2836811d83fa6029a0a8470b44c169ab72201dad665ee4505aaedee529ec019d",
+    "public_schema_sha256": "c608b6a369395ef578cd4aa77b709a5e50889ef7e9a2e715b0904fb55c3da2c8",
+    "retained_revision_directory": "results/profile_preparation/development_revision_67aa5ba7a8169ba3",
+    "retained_revision_public_sha256": "8d47d8deaef67e0ceb6e181cbd84c9b28c2231a654b844d9255ad95bac0dfe42",
+    "retained_revision_records_verified": 7,
+    "retained_revision_summary_sha256": "e3ca79d9231a0c314eba797fb56bd17e2163baceb9983c80a1c01cad2d14c27c",
+    "selection_version": "step31-development-selection-1",
+    "source_status": "development_drafts_prepared_review_pending"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "artifact_type": "inference_and_evaluation_weights_not_exact_training_resume_checkpoint",
+  "dependencies": {
+    "packages": {
+      "joblib": "1.6.0",
+      "numpy": "2.5.4",
+      "pandas": "3.1.1",
+      "scikit-learn": "1.9.1",
+      "scipy": "1.18.1",
+      "torch": "2.14.1+cu126"
+    },
+    "python": "3.12.6"
+  },
+  "git": {
+    "all_existing_source_files_tracked": false,
+    "available": true,
+    "revision": "d34072a0dffcb44cb28afa3e2fde14911720b91b",
+    "source_paths_checked": [
+      "src/champion_athletic_map/text_preprocessing.py",
+      "src/champion_athletic_map/neural_classifier.py"
+    ],
+    "tracked_source_changes_present": false
+  },
+  "intended_application_device": "cpu",
+  "interface_source_sha256": "4d5b788ad562cea82bd4102d170f4b50a5115ec291a800dc5feba6d40c5a7902",
+  "reference_inference_device": "cuda:0",
+  "reference_runtime": {
+    "cpu_interop_threads": 12,
+    "cpu_intraop_threads": 12,
+    "cublas_workspace_config": ":4096:8",
+    "cuda_available": true,
+    "cuda_build": "12.6",
+    "cuda_compute_capability": [
+      8,
+      6
+    ],
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": true,
+    "cudnn_version": 91002,
+    "deterministic_algorithms": true,
+    "deterministic_warn_only": false,
+    "device_name": "NVIDIA GeForce RTX 3080",
+    "device_total_memory_bytes": 10736893952,
+    "float32_precision": {
+      "api": "fp32_precision",
+      "cuda_matmul": "ieee",
+      "cudnn": "ieee",
+      "global": "ieee"
+    },
+    "neural_model_integration_checked": false,
+    "runtime_arithmetic_verified": true,
+    "scope": "Constant 2x2 tensor arithmetic and runtime configuration; no neural model or gradients.",
+    "selected_device": "cuda:0",
+    "torch": "2.14.1+cu126"
+  },
+  "schema_version": "exercise-classifier-environment-1",
+  "source_hashes": {
+    "artifacts/baselines/majority_classifier.joblib": "5c30d2b1c7048754f125f3466ca6c2adda5157f84b831327614287b3b5fdbd51",
+    "artifacts/model_selection.json": "5437bf9d63bad661b5ae9b62aa5b3bf052c4855ba05844922aa02ca975b019ae",
+    "artifacts/preprocessing/label_mapping.json": "b7d17468a94811c58e9e337a5417a0a2ecb438b28a3fddb6e235672251ca5f6a",
+    "artifacts/preprocessing/neural_vocabulary.json": "654d3be2bd15b82112ce542c8727080810b0d8a7677b1e3533bf56ce6ec1d059",
+    "artifacts/preprocessing/preprocessing_config.json": "23e4b7568fc52b30674122a4a6e5372e3d66b6eab7bc3e5471b2077c353f6ce7",
+    "artifacts/tuning/runs/L5_seed42/model.joblib": "216bbf1df985f6953319d4aceb09be31ac8523f34b06eb6b48b926785e887792",
+    "artifacts/tuning/runs/N3_seed42/model_state.pt": "10696c1b9c34c4bb7771e67d70859233cd52c232ea3196c605b13c4c353557b9",
+    "src/champion_athletic_map/neural_classifier.py": "4caaf5c1554da121ec47cf9d1cc84bd106eefece631776850c5c2008ec2eee51",
+    "src/champion_athletic_map/text_preprocessing.py": "47bbaa42eea1ed56634969c65546ab371b7303d8e728dcbf5e8cb151c7986db2"
+  },
+  "training_device": "cuda:0",
+  "unicode_database": "15.0.0"
+}

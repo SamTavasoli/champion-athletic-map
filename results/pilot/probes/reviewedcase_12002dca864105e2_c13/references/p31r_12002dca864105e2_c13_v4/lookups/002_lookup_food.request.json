@@ -1,0 +1,8 @@
+{
+  "args": [],
+  "kwargs": {
+    "grams": "250",
+    "search_text": "Blueberries, raw"
+  },
+  "method": "lookup_food"
+}

@@ -1,0 +1,54 @@
+model_id,target_label,predicted_label,records,groups,true_class_index,predicted_class_index
+neural_classifier_n0,quadriceps,abdominals,12,12,12,0
+neural_classifier_n0,hamstrings,quadriceps,7,7,8,12
+neural_classifier_n0,abdominals,quadriceps,6,6,0,12
+neural_classifier_n0,lats,middle back,6,6,9,11
+neural_classifier_n0,quadriceps,hamstrings,5,5,12,8
+neural_classifier_n0,quadriceps,lower back,5,5,12,10
+neural_classifier_n0,quadriceps,shoulders,5,4,12,13
+neural_classifier_n0,chest,abdominals,4,4,5,0
+neural_classifier_n0,forearms,shoulders,4,4,6,13
+neural_classifier_n0,lower back,abdominals,4,4,10,0
+neural_classifier_n0,glutes,abdominals,3,3,7,0
+neural_classifier_n0,glutes,shoulders,3,3,7,13
+neural_classifier_n0,quadriceps,biceps,3,3,12,3
+neural_classifier_n0,abdominals,lower back,2,2,0,10
+neural_classifier_n0,abdominals,shoulders,2,2,0,13
+neural_classifier_n0,abductors,quadriceps,2,2,1,12
+neural_classifier_n0,chest,shoulders,2,2,5,13
+neural_classifier_n0,glutes,quadriceps,2,2,7,12
+neural_classifier_n0,hamstrings,abdominals,2,2,8,0
+neural_classifier_n0,hamstrings,lower back,2,2,8,10
+neural_classifier_n0,lower back,hamstrings,2,2,10,8
+neural_classifier_n0,middle back,abdominals,2,2,11,0
+neural_classifier_n0,middle back,lats,2,2,11,9
+neural_classifier_n0,shoulders,abdominals,2,2,13,0
+neural_classifier_n0,shoulders,chest,2,2,13,5
+neural_classifier_n0,triceps,chest,2,2,15,5
+neural_classifier_n0,abdominals,biceps,1,1,0,3
+neural_classifier_n0,abdominals,middle back,1,1,0,11
+neural_classifier_n0,abductors,lower back,1,1,1,10
+neural_classifier_n0,adductors,abdominals,1,1,2,0
+neural_classifier_n0,adductors,hamstrings,1,1,2,8
+neural_classifier_n0,adductors,middle back,1,1,2,11
+neural_classifier_n0,biceps,lats,1,1,3,9
+neural_classifier_n0,biceps,middle back,1,1,3,11
+neural_classifier_n0,biceps,quadriceps,1,1,3,12
+neural_classifier_n0,biceps,shoulders,1,1,3,13
+neural_classifier_n0,chest,calves,1,1,5,4
+neural_classifier_n0,chest,quadriceps,1,1,5,12
+neural_classifier_n0,hamstrings,calves,1,1,8,4
+neural_classifier_n0,hamstrings,chest,1,1,8,5
+neural_classifier_n0,lats,lower back,1,1,9,10
+neural_classifier_n0,lats,quadriceps,1,1,9,12
+neural_classifier_n0,lower back,chest,1,1,10,5
+neural_classifier_n0,lower back,quadriceps,1,1,10,12
+neural_classifier_n0,middle back,chest,1,1,11,5
+neural_classifier_n0,shoulders,lats,1,1,13,9
+neural_classifier_n0,shoulders,lower back,1,1,13,10
+neural_classifier_n0,shoulders,middle back,1,1,13,11
+neural_classifier_n0,shoulders,triceps,1,1,13,15
+neural_classifier_n0,traps,hamstrings,1,1,14,8
+neural_classifier_n0,traps,middle back,1,1,14,11
+neural_classifier_n0,traps,quadriceps,1,1,14,12
+neural_classifier_n0,triceps,shoulders,1,1,15,13

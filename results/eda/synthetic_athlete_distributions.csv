@@ -1,0 +1,86 @@
+source_id,field,value,records,denominator_records,percent,record_unit
+derived_athlete_profile,age,13,11,30,36.6667,fictional_development_profiles
+derived_athlete_profile,age,14,6,30,20.0,fictional_development_profiles
+derived_athlete_profile,age,17,5,30,16.6667,fictional_development_profiles
+derived_athlete_profile,age,15,4,30,13.3333,fictional_development_profiles
+derived_athlete_profile,age,16,4,30,13.3333,fictional_development_profiles
+derived_athlete_profile,sport,Basketball,30,30,100.0,fictional_development_profiles
+derived_athlete_profile,position,Shooting Guard,7,30,23.3333,fictional_development_profiles
+derived_athlete_profile,position,Center,6,30,20.0,fictional_development_profiles
+derived_athlete_profile,position,Point Guard,6,30,20.0,fictional_development_profiles
+derived_athlete_profile,position,Power Forward,6,30,20.0,fictional_development_profiles
+derived_athlete_profile,position,Small Forward,5,30,16.6667,fictional_development_profiles
+derived_athlete_profile,experience_level,Beginner,14,30,46.6667,fictional_development_profiles
+derived_athlete_profile,experience_level,Advanced,8,30,26.6667,fictional_development_profiles
+derived_athlete_profile,experience_level,Intermediate,8,30,26.6667,fictional_development_profiles
+derived_athlete_profile,goal,Increase speed,5,30,16.6667,fictional_development_profiles
+derived_athlete_profile,goal,Improve conditioning,4,30,13.3333,fictional_development_profiles
+derived_athlete_profile,goal,Improve defense,4,30,13.3333,fictional_development_profiles
+derived_athlete_profile,goal,Improve shooting,4,30,13.3333,fictional_development_profiles
+derived_athlete_profile,goal,Increase vertical jump,4,30,13.3333,fictional_development_profiles
+derived_athlete_profile,goal,Build strength,3,30,10.0,fictional_development_profiles
+derived_athlete_profile,goal,Improve agility,3,30,10.0,fictional_development_profiles
+derived_athlete_profile,goal,Improve ball handling,3,30,10.0,fictional_development_profiles
+derived_athlete_profile,available_days,5,9,30,30.0,fictional_development_profiles
+derived_athlete_profile,available_days,4,6,30,20.0,fictional_development_profiles
+derived_athlete_profile,available_days,2,5,30,16.6667,fictional_development_profiles
+derived_athlete_profile,available_days,3,5,30,16.6667,fictional_development_profiles
+derived_athlete_profile,available_days,6,5,30,16.6667,fictional_development_profiles
+derived_athlete_profile,equipment,"Basketball, Gym Access",11,30,36.6667,fictional_development_profiles
+derived_athlete_profile,equipment,"Basketball, Resistance Bands",5,30,16.6667,fictional_development_profiles
+derived_athlete_profile,equipment,"Basketball, Cones, Gym Access",4,30,13.3333,fictional_development_profiles
+derived_athlete_profile,equipment,"Basketball, Cones, Resistance Bands, Gym Access",4,30,13.3333,fictional_development_profiles
+derived_athlete_profile,equipment,Basketball,3,30,10.0,fictional_development_profiles
+derived_athlete_profile,equipment,"Basketball, Cones",3,30,10.0,fictional_development_profiles
+derived_athlete_profile,injury_status,[unknown],10,30,33.3333,fictional_development_profiles
+derived_athlete_profile,injury_status,Ankle Recovery,8,30,26.6667,fictional_development_profiles
+derived_athlete_profile,injury_status,Minor Shoulder Pain,8,30,26.6667,fictional_development_profiles
+derived_athlete_profile,injury_status,Knee Recovery,4,30,13.3333,fictional_development_profiles
+aditi_synthetic_athletes,age,13,12,60,20.0,fictional_development_profiles
+aditi_synthetic_athletes,age,14,12,60,20.0,fictional_development_profiles
+aditi_synthetic_athletes,age,15,12,60,20.0,fictional_development_profiles
+aditi_synthetic_athletes,age,16,12,60,20.0,fictional_development_profiles
+aditi_synthetic_athletes,age,17,12,60,20.0,fictional_development_profiles
+aditi_synthetic_athletes,sport,Basketball,60,60,100.0,fictional_development_profiles
+aditi_synthetic_athletes,position,Center,12,60,20.0,fictional_development_profiles
+aditi_synthetic_athletes,position,Point Guard,12,60,20.0,fictional_development_profiles
+aditi_synthetic_athletes,position,Power Forward,12,60,20.0,fictional_development_profiles
+aditi_synthetic_athletes,position,Shooting Guard,12,60,20.0,fictional_development_profiles
+aditi_synthetic_athletes,position,Small Forward,12,60,20.0,fictional_development_profiles
+aditi_synthetic_athletes,experience_level,Advanced,20,60,33.3333,fictional_development_profiles
+aditi_synthetic_athletes,experience_level,Beginner,20,60,33.3333,fictional_development_profiles
+aditi_synthetic_athletes,experience_level,Intermediate,20,60,33.3333,fictional_development_profiles
+aditi_synthetic_athletes,primary_goal,Build mental resilience,10,60,16.6667,fictional_development_profiles
+aditi_synthetic_athletes,primary_goal,Improve passing,7,60,11.6667,fictional_development_profiles
+aditi_synthetic_athletes,primary_goal,Improve decision-making,6,60,10.0,fictional_development_profiles
+aditi_synthetic_athletes,primary_goal,Improve shooting,6,60,10.0,fictional_development_profiles
+aditi_synthetic_athletes,primary_goal,Improve court awareness,5,60,8.3333,fictional_development_profiles
+aditi_synthetic_athletes,primary_goal,Improve dribbling,5,60,8.3333,fictional_development_profiles
+aditi_synthetic_athletes,primary_goal,Improve defense,4,60,6.6667,fictional_development_profiles
+aditi_synthetic_athletes,primary_goal,Improve focus under fatigue,4,60,6.6667,fictional_development_profiles
+aditi_synthetic_athletes,primary_goal,Improve on-court communication,4,60,6.6667,fictional_development_profiles
+aditi_synthetic_athletes,primary_goal,Improve shot selection,4,60,6.6667,fictional_development_profiles
+aditi_synthetic_athletes,primary_goal,Improve agility,3,60,5.0,fictional_development_profiles
+aditi_synthetic_athletes,primary_goal,Improve conditioning,2,60,3.3333,fictional_development_profiles
+aditi_synthetic_athletes,available_days_per_week,2,23,60,38.3333,fictional_development_profiles
+aditi_synthetic_athletes,available_days_per_week,3,18,60,30.0,fictional_development_profiles
+aditi_synthetic_athletes,available_days_per_week,5,11,60,18.3333,fictional_development_profiles
+aditi_synthetic_athletes,available_days_per_week,4,8,60,13.3333,fictional_development_profiles
+aditi_synthetic_athletes,equipment,Basketball,16,60,26.6667,fictional_development_profiles
+aditi_synthetic_athletes,equipment,Basketball; Hoop; Gym Access,14,60,23.3333,fictional_development_profiles
+aditi_synthetic_athletes,equipment,Basketball; Hoop; Cones,12,60,20.0,fictional_development_profiles
+aditi_synthetic_athletes,equipment,Basketball; Hoop,10,60,16.6667,fictional_development_profiles
+aditi_synthetic_athletes,equipment,Basketball; Hoop; Resistance Bands,8,60,13.3333,fictional_development_profiles
+aditi_synthetic_athletes,injury_status,[reported none],35,60,58.3333,fictional_development_profiles
+aditi_synthetic_athletes,injury_status,[unknown],23,60,38.3333,fictional_development_profiles
+aditi_synthetic_athletes,injury_status,reported_ankle_pain,1,60,1.6667,fictional_development_profiles
+aditi_synthetic_athletes,injury_status,reported_knee_pain,1,60,1.6667,fictional_development_profiles
+aditi_synthetic_athletes,scenario_type,standard,52,60,86.6667,fictional_development_profiles
+aditi_synthetic_athletes,scenario_type,injury_concern,2,60,3.3333,fictional_development_profiles
+aditi_synthetic_athletes,scenario_type,advanced_drill_request,1,60,1.6667,fictional_development_profiles
+aditi_synthetic_athletes,scenario_type,conflicting_constraints,1,60,1.6667,fictional_development_profiles
+aditi_synthetic_athletes,scenario_type,excessive_training_request,1,60,1.6667,fictional_development_profiles
+aditi_synthetic_athletes,scenario_type,limited_equipment,1,60,1.6667,fictional_development_profiles
+aditi_synthetic_athletes,scenario_type,limited_schedule,1,60,1.6667,fictional_development_profiles
+aditi_synthetic_athletes,scenario_type,unknown_injury_status,1,60,1.6667,fictional_development_profiles
+aditi_synthetic_athletes,is_synthetic,True,60,60,100.0,fictional_development_profiles

@@ -1,0 +1,153 @@
+{
+  "benchmark_id": "exercise-benchmark:fb56823695069d9dd15a5280812e8b8faff81550732489cd3b1cc075b532b7df",
+  "class_order": [
+    "abdominals",
+    "abductors",
+    "adductors",
+    "biceps",
+    "calves",
+    "chest",
+    "forearms",
+    "glutes",
+    "hamstrings",
+    "lats",
+    "lower back",
+    "middle back",
+    "quadriceps",
+    "shoulders",
+    "traps",
+    "triceps"
+  ],
+  "class_to_index": {
+    "abdominals": 0,
+    "abductors": 1,
+    "adductors": 2,
+    "biceps": 3,
+    "calves": 4,
+    "chest": 5,
+    "forearms": 6,
+    "glutes": 7,
+    "hamstrings": 8,
+    "lats": 9,
+    "lower back": 10,
+    "middle back": 11,
+    "quadriceps": 12,
+    "shoulders": 13,
+    "traps": 14,
+    "triceps": 15
+  },
+  "confusion_matrix": {
+    "columns": "predicted",
+    "normalization": "divide each row by its actual support; null row when support is zero",
+    "rows": "actual"
+  },
+  "execution_scope": "Artificial arithmetic and input-boundary fixtures only; no source predictions, model fitting, profile access, or planner scoring.",
+  "feature_contract": {
+    "excluded_from_features": [
+      "body_part",
+      "body_part_prepared",
+      "goal_tag",
+      "agent_text",
+      "catalog_id",
+      "equipment",
+      "difficulty_level",
+      "review_flags",
+      "label_review_status",
+      "split_group_label_count",
+      "source_metadata",
+      "target_label",
+      "class_index",
+      "split",
+      "review_decision_ref"
+    ],
+    "final_splits_created": true,
+    "input_fields": [
+      "exercise_name_prepared",
+      "description_prepared"
+    ],
+    "model_text_field": "classifier_text",
+    "source_target_field": "body_part_prepared",
+    "split_group_field": "split_group_id",
+    "target_field": "target_label"
+  },
+  "held_out_test": "No test transformation, prediction or scoring in this step. Final evaluation waits for selected configurations/checkpoints and Step32.",
+  "input_hashes": {
+    "artifacts/splits/exercise_split_config.json": "1694be410134288b9df58f651f20c9dc19f1a811f338b99e2dffb61ef4829f1a",
+    "data/processed/exercise_groups.csv": "30190adb8245a348a3243fcdff4bc40515cca773e2f874ebab83739f02d9c764",
+    "data/processed/exercise_split_manifest.csv": "c0723b13ce259f964c2c7952b4203edba75a7553146c5bdb4a637ed134a4f5ac",
+    "results/exercise_benchmark_review_decisions.csv": "cfdf0e29094e76fc6400fc12580dfedb7748f1dd85b67968705cd3af85ff32b1",
+    "results/exercise_class_eligibility.csv": "560d130d9aa2c136b552d1dd61735eb448105691c58b7f9729e3cdd6dd8ebeb0",
+    "results/exercise_split_candidates.csv": "d659186e893a9ae7c1f652bbe00f7ce5e30c9afafcd5dd9c091d16972dcd6f02",
+    "results/exercise_split_checks.csv": "eca5e80d470ddf3f8b41b174cb39e5d2f5582e478b672412a5eed29109c83212",
+    "results/exercise_split_summary.csv": "42ed48528dc4be8c7693bd75b9a921ce2fc93c7675db6dd42fdd4fc52bbdbaf2",
+    "results/step15_exercise_split_summary.json": "e3d4f7cf0de057d2d28f74716e03e41a0a4f4f46d75d49f8f3f6b05d0bbe554d"
+  },
+  "label_limitations": "Agreement with unverified source body-part categories does not establish anatomical correctness or athlete suitability.",
+  "model_selection": "Use validation macro-F1; majority baseline learns only training labels.",
+  "other_metrics": [
+    "accuracy",
+    "per_class_precision",
+    "per_class_recall",
+    "per_class_f1"
+  ],
+  "paired_uncertainty": {
+    "confidence_level": 0.95,
+    "interpretation": "Benchmark-case sensitivity, not real-athlete outcomes or training-seed variability.",
+    "method": "paired group bootstrap with percentile intervals",
+    "resamples": 2000,
+    "seed": 42,
+    "status": "planned; implementation and operational details wait for Step31",
+    "unit": "split_group_id"
+  },
+  "population": {
+    "eligible_classes": 16,
+    "eligible_groups": 2563,
+    "eligible_records": 2872,
+    "excluded_records": 37,
+    "exclusion_reasons": {
+      "class_below_minimum_group_support": 8,
+      "unresolved_same_name_target_conflict": 22,
+      "unresolved_source_field_inconsistency": 7
+    },
+    "source_records": 2909
+  },
+  "prediction_coverage": "One exact string label per intended record, joined by catalog_id with full coverage. Do not silently drop missing predictions or normalize unknown labels. Incomplete predictions are not scored.",
+  "primary_metric": {
+    "average": "macro",
+    "labels": "all_frozen_classes_in_saved_order",
+    "name": "macro_f1",
+    "zero_division": 0
+  },
+  "recipe_version": "classifier-metric-contract-0.1.0",
+  "schema_version": "classifier-metric-contract-1",
+  "scorer_sha256": "10b026d0deed9eb674a1a2b194f9523b9445f54e6a139aaca64aae578aa165d6",
+  "scorer_version": "classifier-metrics-1",
+  "shared_population": "Training-majority baseline, TF-IDF logistic regression and neural classifier use the same frozen records, groups and eligible class order.",
+  "software": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.1",
+    "python": "3.12.6",
+    "scikit_learn": "1.9.1"
+  },
+  "split_support": [
+    {
+      "groups": 1794,
+      "records": 1999,
+      "split": "train"
+    },
+    {
+      "groups": 384,
+      "records": 435,
+      "split": "validation"
+    },
+    {
+      "groups": 385,
+      "records": 438,
+      "split": "test"
+    }
+  ],
+  "status": "classifier_component_prepared; full_Step17_protocol_not_ready",
+  "support": "Report actual record counts, distinct actual-label split-group counts, and predicted counts. Per-class group counts can overlap.",
+  "undefined_ratios": "For nonempty evaluations, zero_division=0 with precision/recall/F1 definition flags and support. For empty evaluations, metrics are null and unavailable.",
+  "weighting": "Unweighted record-level metrics; macro-F1 gives each frozen class equal weight."
+}

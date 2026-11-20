@@ -1,0 +1,13 @@
+check,status,observed
+saved_project_file_bindings,pass,691
+frozen_semantic_route_and_complete_delivery_policy,pass,verified without querying the index
+classifier_test_boundary,pass,"opaque hashing only; no text parsing, transformation, prediction or scoring"
+generation_context_exclusions,pass,no project content is submitted to a model by this cell
+recorded_python_and_retrieval_packages,pass,matched
+pinned_encoder_cache,pass,all eleven files match
+local_ollama_metadata_identity,blocked,"backend unavailable, metadata incomplete or recorded identity differs; inspect the saved observation"
+model_loading_and_offloading_for_our_requests,pending,not tested; running-model metadata is only an observation
+chat_and_json_compatibility,pending,no generation attempted
+generation_tokenizer_and_full_prompt_budget,pending,not verified by model metadata or MiniLM counts
+planner_and_rule_approvals,pending,unchanged; no approval or runtime activation performed
+bound_inputs_unchanged_after_metadata_inspection,pass,691

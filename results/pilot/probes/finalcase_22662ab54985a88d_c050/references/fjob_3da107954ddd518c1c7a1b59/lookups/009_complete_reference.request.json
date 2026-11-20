@@ -1,0 +1,61 @@
+{
+  "args": [
+    {
+      "answerability_established_by_score": false,
+      "complete_required_delivery_text": "Man-to-man, help-side and zone responsibilities\n\nThe UGA chapter distinguishes defensive responsibility for an assigned opponent from responsibility for an area. In man-to-man defense, a player guards a particular opponent while also helping teammates. Its help-side example describes a ball handler getting past a defender and driving toward an unguarded basket: the next closest defender moves to assist. For a zone defense, the selected definition assigns players to areas rather than to particular opponents.\n\nGeneral introductory basketball reference, selected and paraphrased from the cited chapter. No youth-specific suitability, training dose, medical clearance or planner approval is established.\n\nSource: 7. Strategies, Ch.1 - Basketball, UGA PEDB Program. https://open.online.uga.edu/basketball/chapter/3-basketball-strategies/\nCh.1 - Basketball Copyright © by UGA PEDB Program is licensed under a Creative Commons Attribution 4.0 International License, except where otherwise noted. https://creativecommons.org/licenses/by/4.0/\nSelected explanatory text was paraphrased and shortened; listed omissions are outside this reference unit.\nThe selected paraphrase is shared under CC BY 4.0. UGA endorsement is not implied. License rights and disclaimers remain available at https://creativecommons.org/licenses/by/4.0/ and https://creativecommons.org/licenses/by/4.0/legalcode.en.",
+      "generation_context_budget_verified": false,
+      "passage_id": "uga-retrieval-passage:b1ba958820765abe3a4e9228536ad993439a3455dc3f6ce37116964b62263f16",
+      "rank": 5,
+      "reference_unit_id": "uga-reference-unit:248e752b5b0675f01a58a588fe379ac008a2469c5e1474a3ddd3159996496dd0",
+      "required_delivery_must_be_attached": true,
+      "required_delivery_record": {
+        "200_token_encoder_core_cap_applies_to_this_delivery": false,
+        "delivery_bundle_id": "uga-passage-delivery:10f511d9f4be119ec1a988a46024cffda64147313947c1a41dd80edc935e5d9b",
+        "delivery_is_not_used_as_embedding_passage": true,
+        "display_text": "Man-to-man, help-side and zone responsibilities\n\nThe UGA chapter distinguishes defensive responsibility for an assigned opponent from responsibility for an area. In man-to-man defense, a player guards a particular opponent while also helping teammates. Its help-side example describes a ball handler getting past a defender and driving toward an unguarded basket: the next closest defender moves to assist. For a zone defense, the selected definition assigns players to areas rather than to particular opponents.\n\nGeneral introductory basketball reference, selected and paraphrased from the cited chapter. No youth-specific suitability, training dose, medical clearance or planner approval is established.\n\nSource: 7. Strategies, Ch.1 - Basketball, UGA PEDB Program. https://open.online.uga.edu/basketball/chapter/3-basketball-strategies/\nCh.1 - Basketball Copyright © by UGA PEDB Program is licensed under a Creative Commons Attribution 4.0 International License, except where otherwise noted. https://creativecommons.org/licenses/by/4.0/\nSelected explanatory text was paraphrased and shortened; listed omissions are outside this reference unit.\nThe selected paraphrase is shared under CC BY 4.0. UGA endorsement is not implied. License rights and disclaimers remain available at https://creativecommons.org/licenses/by/4.0/ and https://creativecommons.org/licenses/by/4.0/legalcode.en.",
+        "display_text_sha256": "7dfa6bd311f1317b6fe68961a25dcc32c44ff3ffc64c7d2646f1156e4a872d58",
+        "full_text_measured_without_truncation": true,
+        "generation_model_tokenizer_or_prompt_budget_verified": false,
+        "minilm_encoded_token_ids_sha256": "356795c9b891e2883d37990210cc018177bb482032ee65ec8043aed4f0aea31a",
+        "minilm_encoded_tokens_including_specials": 321,
+        "passage_id": "uga-retrieval-passage:b1ba958820765abe3a4e9228536ad993439a3455dc3f6ce37116964b62263f16",
+        "reference_unit_id": "uga-reference-unit:248e752b5b0675f01a58a588fe379ac008a2469c5e1474a3ddd3159996496dd0",
+        "required_context_and_usage_credit_are_indivisible": true,
+        "schema_version": "step23-uga-token-budgeted-delivery-1",
+        "source_delivery_bundle": {
+          "chapter_url": "https://open.online.uga.edu/basketball/chapter/3-basketball-strategies/",
+          "copyright_and_creator_notice": "Ch.1 - Basketball. Copyright © UGA PEDB Program.",
+          "delivery_bundle_id": "uga-required-delivery:b6f1e77293f6f384cfc5557ca8c81490abd8a926dac433ef8ef3f96add4f7a8d",
+          "display_text": "Man-to-man, help-side and zone responsibilities\n\nThe UGA chapter distinguishes defensive responsibility for an assigned opponent from responsibility for an area. In man-to-man defense, a player guards a particular opponent while also helping teammates. Its help-side example describes a ball handler getting past a defender and driving toward an unguarded basket: the next closest defender moves to assist. For a zone defense, the selected definition assigns players to areas rather than to particular opponents.\n\nGeneral introductory basketball reference, selected and paraphrased from the cited chapter. No youth-specific suitability, training dose, medical clearance or planner approval is established.\n\nSource: 7. Strategies, Ch.1 - Basketball, UGA PEDB Program. https://open.online.uga.edu/basketball/chapter/3-basketball-strategies/\nCh.1 - Basketball Copyright © by UGA PEDB Program is licensed under a Creative Commons Attribution 4.0 International License, except where otherwise noted. https://creativecommons.org/licenses/by/4.0/\nSelected explanatory text was paraphrased and shortened; listed omissions are outside this reference unit.\nThe selected paraphrase is shared under CC BY 4.0. UGA endorsement is not implied. License rights and disclaimers remain available at https://creativecommons.org/licenses/by/4.0/ and https://creativecommons.org/licenses/by/4.0/legalcode.en.",
+          "embedding_input_is_reference_core_only": true,
+          "encoded_token_count": null,
+          "generation_model_context_budget_verified": false,
+          "legalcode_url": "https://creativecommons.org/licenses/by/4.0/legalcode.en",
+          "license_compatible_downstream_rights_preserved": true,
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "license_warranty_disclaimer_is_linked_and_preserved": true,
+          "modification_notice": "Selected explanatory text was paraphrased and shortened; listed omissions are outside this reference unit.",
+          "no_uga_endorsement_implied": true,
+          "original_license_notice": "Ch.1 - Basketball Copyright © by UGA PEDB Program is licensed under a Creative Commons Attribution 4.0 International License, except where otherwise noted.",
+          "reference_text": "The UGA chapter distinguishes defensive responsibility for an assigned opponent from responsibility for an area. In man-to-man defense, a player guards a particular opponent while also helping teammates. Its help-side example describes a ball handler getting past a defender and driving toward an unguarded basket: the next closest defender moves to assist. For a zone defense, the selected definition assigns players to areas rather than to particular opponents.",
+          "reference_text_sha256": "236ea29f70122ed22595f177085cd26462fbbed10f05e9edd79d727b0adab5d0",
+          "reference_unit_id": "uga-reference-unit:248e752b5b0675f01a58a588fe379ac008a2469c5e1474a3ddd3159996496dd0",
+          "reference_unit_record_sha256": "76dac6f940740ce032c77758656cde5aadd0b88eedd4b5dda5bb76561ef57a7e",
+          "required_context": "General introductory basketball reference, selected and paraphrased from the cited chapter. No youth-specific suitability, training dose, medical clearance or planner approval is established.",
+          "schema_version": "step23-uga-required-delivery-1",
+          "source_version_record_sha256": "c1b90654db590e59527ccb34c276fea0a34fce81e1e8326954d06fd72c569f8a",
+          "standalone_reference_without_required_context_and_credit_allowed": false,
+          "supplied_additional_warranty_or_modification_notices_observed": []
+        },
+        "source_delivery_bundle_id": "uga-required-delivery:b6f1e77293f6f384cfc5557ca8c81490abd8a926dac433ef8ef3f96add4f7a8d",
+        "source_delivery_record_sha256": "547d0a146b1d577048df8f128af009a3ada1ac5c73ea676f7d89b37c4178b685",
+        "source_unit_record_sha256": "76dac6f940740ce032c77758656cde5aadd0b88eedd4b5dda5bb76561ef57a7e"
+      },
+      "score": 0.41636248747772114,
+      "score_kind": "embedding_cosine",
+      "standalone_core_delivery_allowed": false
+    }
+  ],
+  "kwargs": {},
+  "method": "complete_reference"
+}

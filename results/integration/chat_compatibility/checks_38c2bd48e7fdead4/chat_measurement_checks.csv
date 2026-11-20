@@ -1,0 +1,10 @@
+check,status,observed
+inherited_preflight_and_encoder_integrity,pass,718
+live_runtime_identity_before_generation,pass,"pinned runtime, digest, quantization, template and defaults"
+live_runtime_and_runner_identity_after_generation,pass,8192
+prior_bound_inputs_and_encoder_unchanged,pass,718
+backend_count_agreement_on_four_saved_fixtures,pass,verified for saved software fixtures
+json_and_fixture_compatibility_on_four_saved_fixtures,blocked,not established; saved responses retained
+representative_plan_and_workflow_capacity,pending,outside this software-fixture check
+shared_tool_and_schema_integration,pending,outside this software-fixture check
+operational_generation_readiness,pending,outside this software-fixture check

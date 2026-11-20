@@ -1,0 +1,30 @@
+{
+  "approvals": 0,
+  "catalog_groups": 144,
+  "catalog_updates": 0,
+  "catalog_version": "0.3.5",
+  "input_sha256": {
+    "catalog": "492a7410446f0c7e261a42b35382ac858b3811cbdf936d4d17e262983cb5cb99",
+    "prescription_decisions": "3150ef2e64fc01786636d16fd4ac6be85db76c94c3920b5eb99f07eb34de6640",
+    "publisher_evidence": "81b8b497e229eebf4ec62859162e209da6986ab0f86d2159bfeebe03549523c6",
+    "registry": "f27de2f4b6c9d62d33aa1f27bc97c650355076886535ba63e9a6d78d9931478a",
+    "space_followups": "9fcb5125bb8eb339557c092c86bb65f7e198558748efa195709e71129928eb70",
+    "step47_summary": "882cdb14c58ee4a738169ec1be469a23a92b45bee2c70be6279ac95af7b535c5"
+  },
+  "limitations": "Publisher prescription extracted from a short heading-adjacent segment; every proposed correction requires reviewer confirmation. Space keyword cues do not establish exact requirements. No metadata applied or source content copied.",
+  "notation_equivalence_count": 3,
+  "planner_eligible": 0,
+  "prescription_review_count": 12,
+  "publisher_difference_count": 6,
+  "report_sha256": {
+    "correction_proposals": "1aecae122d490248bfb00a6f157c070bc6d990cd7e1f7053f45bb6b07d316493",
+    "prescription_review": "2c193298692b5a461dc41934a912250bbd78cff60f7ec527052d2c61b944921e",
+    "space_review": "feca56513edec0884dd6b02a6f9e12c14e9ce5ce886ff570b26d362cb8837b04"
+  },
+  "reviewer_signoffs_performed": 0,
+  "run_date": "2026-11-07",
+  "source_records": 156,
+  "space_followups": 18,
+  "step": "12-48",
+  "unspecified_prescription_count": 3
+}

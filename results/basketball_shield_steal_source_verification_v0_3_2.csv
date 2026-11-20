@@ -1,0 +1,2 @@
+evidence_id,catalog_candidate_id,source_title_recorded,publisher_heading,recorded_prescription,publisher_prescription,publisher_section_sha256,official_source_url,source_heading_verified,source_fact_checks_passed,source_fact_checks_total,source_pdf_page_verified,source_instruction_signoff,permission_review,planner_eligible
+ADI-JRNBA016,JR-ADITI-0013,Shield Steal,Shield Steal Game,4 minutes,4 minutes,a9f330865f353c8bad738046cc2cdcad5c85c6c862279a728b5abe3d5f65abc9,https://jr.nba.com/basketball-practice-plans/starter/page/2/,yes,7,7,no,pending,pending,no

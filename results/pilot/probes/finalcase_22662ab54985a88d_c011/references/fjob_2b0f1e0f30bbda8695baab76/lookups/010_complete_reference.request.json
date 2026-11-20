@@ -1,0 +1,61 @@
+{
+  "args": [
+    {
+      "answerability_established_by_score": false,
+      "complete_required_delivery_text": "Man-to-man defensive positioning\n\nThe UGA chapter introduces a positioning example for a defender facing an opponent with the ball in a man-to-man scheme. In that setting, it suggests noticing which hand the opponent prefers for dribbling and using positioning to discourage movement toward that preferred side. Its example concerns a right-handed ball handler and a defender trying to encourage movement to the other side. The example depends on the defensive strategy and the opponent’s tendencies. It is a source-described tactical concept, not a mandatory defense for every player or game.\n\nGeneral introductory basketball reference, selected and paraphrased from the cited chapter. No youth-specific suitability, training dose, medical clearance or planner approval is established.\n\nSource: 6. Fundamentals – Defending, Ch.1 - Basketball, UGA PEDB Program. https://open.online.uga.edu/basketball/chapter/2-basketball-fundamentals-skills-and-techniques/\nCh.1 - Basketball Copyright © by UGA PEDB Program is licensed under a Creative Commons Attribution 4.0 International License, except where otherwise noted. https://creativecommons.org/licenses/by/4.0/\nSelected explanatory text was paraphrased and shortened; listed omissions are outside this reference unit.\nThe selected paraphrase is shared under CC BY 4.0. UGA endorsement is not implied. License rights and disclaimers remain available at https://creativecommons.org/licenses/by/4.0/ and https://creativecommons.org/licenses/by/4.0/legalcode.en.",
+      "generation_context_budget_verified": false,
+      "passage_id": "uga-retrieval-passage:a673113ba3a4b509771c7e66112539c6179214a0a6c32d59fa4363b444b6f56f",
+      "rank": 5,
+      "reference_unit_id": "uga-reference-unit:9f7c112043b55ea9e77238ccbb4184b2ec00f34849e5606aaaf95b2804d98edc",
+      "required_delivery_must_be_attached": true,
+      "required_delivery_record": {
+        "200_token_encoder_core_cap_applies_to_this_delivery": false,
+        "delivery_bundle_id": "uga-passage-delivery:6d096bd77e57db8dc299b568829972dce117cc974e3c9344e6396eda6b24efd3",
+        "delivery_is_not_used_as_embedding_passage": true,
+        "display_text": "Man-to-man defensive positioning\n\nThe UGA chapter introduces a positioning example for a defender facing an opponent with the ball in a man-to-man scheme. In that setting, it suggests noticing which hand the opponent prefers for dribbling and using positioning to discourage movement toward that preferred side. Its example concerns a right-handed ball handler and a defender trying to encourage movement to the other side. The example depends on the defensive strategy and the opponent’s tendencies. It is a source-described tactical concept, not a mandatory defense for every player or game.\n\nGeneral introductory basketball reference, selected and paraphrased from the cited chapter. No youth-specific suitability, training dose, medical clearance or planner approval is established.\n\nSource: 6. Fundamentals – Defending, Ch.1 - Basketball, UGA PEDB Program. https://open.online.uga.edu/basketball/chapter/2-basketball-fundamentals-skills-and-techniques/\nCh.1 - Basketball Copyright © by UGA PEDB Program is licensed under a Creative Commons Attribution 4.0 International License, except where otherwise noted. https://creativecommons.org/licenses/by/4.0/\nSelected explanatory text was paraphrased and shortened; listed omissions are outside this reference unit.\nThe selected paraphrase is shared under CC BY 4.0. UGA endorsement is not implied. License rights and disclaimers remain available at https://creativecommons.org/licenses/by/4.0/ and https://creativecommons.org/licenses/by/4.0/legalcode.en.",
+        "display_text_sha256": "502eac54478255402696ab22faf64d6e8e3ac8795892bc735bc2d5d807d9263e",
+        "full_text_measured_without_truncation": true,
+        "generation_model_tokenizer_or_prompt_budget_verified": false,
+        "minilm_encoded_token_ids_sha256": "d5b8a61d105e7acb8342952fb0c4e56c903047543620271aa8a467b350fdd522",
+        "minilm_encoded_tokens_including_specials": 349,
+        "passage_id": "uga-retrieval-passage:a673113ba3a4b509771c7e66112539c6179214a0a6c32d59fa4363b444b6f56f",
+        "reference_unit_id": "uga-reference-unit:9f7c112043b55ea9e77238ccbb4184b2ec00f34849e5606aaaf95b2804d98edc",
+        "required_context_and_usage_credit_are_indivisible": true,
+        "schema_version": "step23-uga-token-budgeted-delivery-1",
+        "source_delivery_bundle": {
+          "chapter_url": "https://open.online.uga.edu/basketball/chapter/2-basketball-fundamentals-skills-and-techniques/",
+          "copyright_and_creator_notice": "Ch.1 - Basketball. Copyright © UGA PEDB Program.",
+          "delivery_bundle_id": "uga-required-delivery:7b9ff38e3f1b7344a405d10e3436f24a63048a5a5807a21bf63dd331e2919969",
+          "display_text": "Man-to-man defensive positioning\n\nThe UGA chapter introduces a positioning example for a defender facing an opponent with the ball in a man-to-man scheme. In that setting, it suggests noticing which hand the opponent prefers for dribbling and using positioning to discourage movement toward that preferred side. Its example concerns a right-handed ball handler and a defender trying to encourage movement to the other side. The example depends on the defensive strategy and the opponent’s tendencies. It is a source-described tactical concept, not a mandatory defense for every player or game.\n\nGeneral introductory basketball reference, selected and paraphrased from the cited chapter. No youth-specific suitability, training dose, medical clearance or planner approval is established.\n\nSource: 6. Fundamentals – Defending, Ch.1 - Basketball, UGA PEDB Program. https://open.online.uga.edu/basketball/chapter/2-basketball-fundamentals-skills-and-techniques/\nCh.1 - Basketball Copyright © by UGA PEDB Program is licensed under a Creative Commons Attribution 4.0 International License, except where otherwise noted. https://creativecommons.org/licenses/by/4.0/\nSelected explanatory text was paraphrased and shortened; listed omissions are outside this reference unit.\nThe selected paraphrase is shared under CC BY 4.0. UGA endorsement is not implied. License rights and disclaimers remain available at https://creativecommons.org/licenses/by/4.0/ and https://creativecommons.org/licenses/by/4.0/legalcode.en.",
+          "embedding_input_is_reference_core_only": true,
+          "encoded_token_count": null,
+          "generation_model_context_budget_verified": false,
+          "legalcode_url": "https://creativecommons.org/licenses/by/4.0/legalcode.en",
+          "license_compatible_downstream_rights_preserved": true,
+          "license_url": "https://creativecommons.org/licenses/by/4.0/",
+          "license_warranty_disclaimer_is_linked_and_preserved": true,
+          "modification_notice": "Selected explanatory text was paraphrased and shortened; listed omissions are outside this reference unit.",
+          "no_uga_endorsement_implied": true,
+          "original_license_notice": "Ch.1 - Basketball Copyright © by UGA PEDB Program is licensed under a Creative Commons Attribution 4.0 International License, except where otherwise noted.",
+          "reference_text": "The UGA chapter introduces a positioning example for a defender facing an opponent with the ball in a man-to-man scheme. In that setting, it suggests noticing which hand the opponent prefers for dribbling and using positioning to discourage movement toward that preferred side. Its example concerns a right-handed ball handler and a defender trying to encourage movement to the other side. The example depends on the defensive strategy and the opponent’s tendencies. It is a source-described tactical concept, not a mandatory defense for every player or game.",
+          "reference_text_sha256": "f6691ecf13c53f1242e01188df8b978f4f11da5312179a649a5b43f915a6bd63",
+          "reference_unit_id": "uga-reference-unit:9f7c112043b55ea9e77238ccbb4184b2ec00f34849e5606aaaf95b2804d98edc",
+          "reference_unit_record_sha256": "5206df7b3a8fbdfe8275324590fac97e9c630a66dbfc6efb96fc9a90ce5722d9",
+          "required_context": "General introductory basketball reference, selected and paraphrased from the cited chapter. No youth-specific suitability, training dose, medical clearance or planner approval is established.",
+          "schema_version": "step23-uga-required-delivery-1",
+          "source_version_record_sha256": "903f92de0be6c259bb4a7352cc0738b69a0a583f88869d14ab48c11cae2e059d",
+          "standalone_reference_without_required_context_and_credit_allowed": false,
+          "supplied_additional_warranty_or_modification_notices_observed": []
+        },
+        "source_delivery_bundle_id": "uga-required-delivery:7b9ff38e3f1b7344a405d10e3436f24a63048a5a5807a21bf63dd331e2919969",
+        "source_delivery_record_sha256": "7a2548ae3f3dbd955de9e1b02c6ab4f78fafc11c4426fe8c460b7ef831b4a985",
+        "source_unit_record_sha256": "5206df7b3a8fbdfe8275324590fac97e9c630a66dbfc6efb96fc9a90ce5722d9"
+      },
+      "score": 0.3575120298008832,
+      "score_kind": "embedding_cosine",
+      "standalone_core_delivery_allowed": false
+    }
+  ],
+  "kwargs": {},
+  "method": "complete_reference"
+}

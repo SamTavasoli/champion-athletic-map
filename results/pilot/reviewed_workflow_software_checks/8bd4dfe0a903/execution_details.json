@@ -1,0 +1,4075 @@
+{
+  "schema_version": "step30-pytest-execution-1",
+  "pytest_exit_code": 0,
+  "collected": [
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_focus_preserves_source_and_complete_view",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:48",
+      "description": "test_focus_preserves_source_and_complete_view"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_baseline_view_is_unchanged_without_reference_access",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:62",
+      "description": "test_baseline_view_is_unchanged_without_reference_access"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_no_question_has_no_fact[None]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:68",
+      "description": "test_no_question_has_no_fact[None]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_no_question_has_no_fact[]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:68",
+      "description": "test_no_question_has_no_fact[]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_no_question_has_no_fact[  ]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:68",
+      "description": "test_no_question_has_no_fact[  ]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_unsupported_question_has_no_inferred_answer[True]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:73",
+      "description": "test_unsupported_question_has_no_inferred_answer[True]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_unsupported_question_has_no_inferred_answer[How much protein is in strawberries?]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:73",
+      "description": "test_unsupported_question_has_no_inferred_answer[How much protein is in strawberries?]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_unsupported_question_has_no_inferred_answer[For the food \"Strawberries, raw\", how many grams of protein are recorded for 0 g?]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:73",
+      "description": "test_unsupported_question_has_no_inferred_answer[For the food \"Strawberries, raw\", how many grams of protein are recorded for 0 g?]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_unsupported_question_has_no_inferred_answer[For the food \"Strawberries, raw\", how many grams of protein are recorded for 100 mg?]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:73",
+      "description": "test_unsupported_question_has_no_inferred_answer[For the food \"Strawberries, raw\", how many grams of protein are recorded for 100 mg?]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_unsupported_question_has_no_inferred_answer[For the food \"Raw strawberries\", how many grams of protein are recorded for 100 g?]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:73",
+      "description": "test_unsupported_question_has_no_inferred_answer[For the food \"Raw strawberries\", how many grams of protein are recorded for 100 g?]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[amount-0.68]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:81",
+      "description": "test_bad_or_qualified_source_values_remain_unresolved[amount-0.68]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[amount-NaN]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:81",
+      "description": "test_bad_or_qualified_source_values_remain_unresolved[amount-NaN]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[amount-Infinity]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:81",
+      "description": "test_bad_or_qualified_source_values_remain_unresolved[amount-Infinity]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[amount-True]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:81",
+      "description": "test_bad_or_qualified_source_values_remain_unresolved[amount-True]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[amount--1]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:81",
+      "description": "test_bad_or_qualified_source_values_remain_unresolved[amount--1]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[amount-<0.67]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:81",
+      "description": "test_bad_or_qualified_source_values_remain_unresolved[amount-<0.67]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[amount_per_100g_raw-0.68]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:81",
+      "description": "test_bad_or_qualified_source_values_remain_unresolved[amount_per_100g_raw-0.68]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[unit-MG]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:81",
+      "description": "test_bad_or_qualified_source_values_remain_unresolved[unit-MG]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[grams-150]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:81",
+      "description": "test_bad_or_qualified_source_values_remain_unresolved[grams-150]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[fdc_id-another-food]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:81",
+      "description": "test_bad_or_qualified_source_values_remain_unresolved[fdc_id-another-food]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[description-Strawberries, cooked]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:81",
+      "description": "test_bad_or_qualified_source_values_remain_unresolved[description-Strawberries, cooked]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[nutrient_name-Energy]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:81",
+      "description": "test_bad_or_qualified_source_values_remain_unresolved[nutrient_name-Energy]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[nutrient_id-1008]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:81",
+      "description": "test_bad_or_qualified_source_values_remain_unresolved[nutrient_id-1008]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[status-unavailable]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:81",
+      "description": "test_bad_or_qualified_source_values_remain_unresolved[status-unavailable]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[reference_mass_g-0]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:81",
+      "description": "test_bad_or_qualified_source_values_remain_unresolved[reference_mass_g-0]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[reference_mass_g-200]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:81",
+      "description": "test_bad_or_qualified_source_values_remain_unresolved[reference_mass_g-200]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[reference_basis-None]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:81",
+      "description": "test_bad_or_qualified_source_values_remain_unresolved[reference_basis-None]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[source_footnote-value17]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:81",
+      "description": "test_bad_or_qualified_source_values_remain_unresolved[source_footnote-value17]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[reason-value18]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:81",
+      "description": "test_bad_or_qualified_source_values_remain_unresolved[reason-value18]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[qualifier-<]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:81",
+      "description": "test_bad_or_qualified_source_values_remain_unresolved[qualifier-<]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[value_qualifier-approximately]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:81",
+      "description": "test_bad_or_qualified_source_values_remain_unresolved[value_qualifier-approximately]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[source_record_url-https://different.example/record]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:81",
+      "description": "test_bad_or_qualified_source_values_remain_unresolved[source_record_url-https://different.example/record]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_source_footnote_and_derivation_remain_visible",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:97",
+      "description": "test_source_footnote_and_derivation_remain_visible"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_missing_or_ambiguous_sources_are_unresolved[lookup]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:105",
+      "description": "test_missing_or_ambiguous_sources_are_unresolved[lookup]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_missing_or_ambiguous_sources_are_unresolved[nutrient]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:105",
+      "description": "test_missing_or_ambiguous_sources_are_unresolved[nutrient]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_missing_or_ambiguous_sources_are_unresolved[mass]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:105",
+      "description": "test_missing_or_ambiguous_sources_are_unresolved[mass]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_missing_or_ambiguous_sources_are_unresolved[name]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:105",
+      "description": "test_missing_or_ambiguous_sources_are_unresolved[name]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_missing_or_ambiguous_sources_are_unresolved[status]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:105",
+      "description": "test_missing_or_ambiguous_sources_are_unresolved[status]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_missing_or_ambiguous_sources_are_unresolved[source]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:105",
+      "description": "test_missing_or_ambiguous_sources_are_unresolved[source]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_missing_or_ambiguous_sources_are_unresolved[empty]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:105",
+      "description": "test_missing_or_ambiguous_sources_are_unresolved[empty]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_equivalent_question_quotes_are_echoes[\"-\"]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:126",
+      "description": "test_equivalent_question_quotes_are_echoes[\"-\"]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_equivalent_question_quotes_are_echoes['-']",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:126",
+      "description": "test_equivalent_question_quotes_are_echoes['-']"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_equivalent_question_quotes_are_echoes[\\u2018-\\u2019]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:126",
+      "description": "test_equivalent_question_quotes_are_echoes[\\u2018-\\u2019]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_equivalent_question_quotes_are_echoes[\\u201c-\\u201d]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:126",
+      "description": "test_equivalent_question_quotes_are_echoes[\\u201c-\\u201d]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_echo_audit_preserves_numbers_units_and_other_wording[For the food \"Strawberries, raw\", how many grams of protein are recorded for 150 g?]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:133",
+      "description": "test_echo_audit_preserves_numbers_units_and_other_wording[For the food \"Strawberries, raw\", how many grams of protein are recorded for 150 g?]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_echo_audit_preserves_numbers_units_and_other_wording[For the food \"Strawberries, raw\", how many grams of protein are recorded for 100 mg?]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:133",
+      "description": "test_echo_audit_preserves_numbers_units_and_other_wording[For the food \"Strawberries, raw\", how many grams of protein are recorded for 100 mg?]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_echo_audit_preserves_numbers_units_and_other_wording[For the food \"Strawberries, cooked\", how many grams of protein are recorded for 100 g?]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:133",
+      "description": "test_echo_audit_preserves_numbers_units_and_other_wording[For the food \"Strawberries, cooked\", how many grams of protein are recorded for 100 g?]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_echo_audit_preserves_numbers_units_and_other_wording[For the food \"Strawberries, raw\", how many grams of energy are recorded for 100 g?]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:133",
+      "description": "test_echo_audit_preserves_numbers_units_and_other_wording[For the food \"Strawberries, raw\", how many grams of energy are recorded for 100 g?]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_echo_audit_preserves_numbers_units_and_other_wording[For the food \"Strawberries, raw\", how many grams of protein are recorded for 100 g? 0.67 g protein.]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:133",
+      "description": "test_echo_audit_preserves_numbers_units_and_other_wording[For the food \"Strawberries, raw\", how many grams of protein are recorded for 100 g? 0.67 g protein.]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_echo_audit_preserves_numbers_units_and_other_wording[100 g Strawberries, raw contains 0.67 g Protein.]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:133",
+      "description": "test_echo_audit_preserves_numbers_units_and_other_wording[100 g Strawberries, raw contains 0.67 g Protein.]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_echo_audit_preserves_numbers_units_and_other_wording[Unknown]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:133",
+      "description": "test_echo_audit_preserves_numbers_units_and_other_wording[Unknown]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_echo_audit_preserves_numbers_units_and_other_wording[How much protein is in the strawberries?]",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:133",
+      "description": "test_echo_audit_preserves_numbers_units_and_other_wording[How much protein is in the strawberries?]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_audit_keeps_wrong_numerical_answers_violated",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:151",
+      "description": "test_audit_keeps_wrong_numerical_answers_violated"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_audit_does_not_turn_unknown_into_a_pass",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:159",
+      "description": "test_audit_does_not_turn_unknown_into_a_pass"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_all_six_saved_requested_facts_are_lossless",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:174",
+      "description": "test_all_six_saved_requested_facts_are_lossless"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_audit_all_twenty_four_designated_food_replies",
+      "requirement": "31:reviewed-workflow-corrections",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_food_fact_focus.py:198",
+      "description": "test_audit_all_twenty_four_designated_food_replies"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_saved_rest_explanation_has_a_known_applicable_source_and_complete_coverage",
+      "requirement": "31:reviewed-development-checks",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_reviewed_planning_checks.py:64",
+      "description": "test_saved_rest_explanation_has_a_known_applicable_source_and_complete_coverage"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_saved_soccer_or_600_minute_claim_does_not_prove_the_daily_rest_conflict[1]",
+      "requirement": "31:reviewed-development-checks",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_reviewed_planning_checks.py:75",
+      "description": "test_saved_soccer_or_600_minute_claim_does_not_prove_the_daily_rest_conflict[1]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_saved_soccer_or_600_minute_claim_does_not_prove_the_daily_rest_conflict[3]",
+      "requirement": "31:reviewed-development-checks",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_reviewed_planning_checks.py:75",
+      "description": "test_saved_soccer_or_600_minute_claim_does_not_prove_the_daily_rest_conflict[3]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_saved_soccer_or_600_minute_claim_does_not_prove_the_daily_rest_conflict[4]",
+      "requirement": "31:reviewed-development-checks",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_reviewed_planning_checks.py:75",
+      "description": "test_saved_soccer_or_600_minute_claim_does_not_prove_the_daily_rest_conflict[4]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_rest_support_is_not_inferred_without_complete_coverage",
+      "requirement": "31:reviewed-development-checks",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_reviewed_planning_checks.py:84",
+      "description": "test_rest_support_is_not_inferred_without_complete_coverage"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_saved_bad_graph_does_not_itself_prove_a_numeric_limit_overrun[2]",
+      "requirement": "31:reviewed-development-checks",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_reviewed_planning_checks.py:91",
+      "description": "test_saved_bad_graph_does_not_itself_prove_a_numeric_limit_overrun[2]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_saved_bad_graph_does_not_itself_prove_a_numeric_limit_overrun[3]",
+      "requirement": "31:reviewed-development-checks",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_reviewed_planning_checks.py:91",
+      "description": "test_saved_bad_graph_does_not_itself_prove_a_numeric_limit_overrun[3]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_saved_bad_graph_does_not_itself_prove_a_numeric_limit_overrun[4]",
+      "requirement": "31:reviewed-development-checks",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_reviewed_planning_checks.py:91",
+      "description": "test_saved_bad_graph_does_not_itself_prove_a_numeric_limit_overrun[4]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_a_real_numeric_lower_bound_still_blocks_a_bad_graph",
+      "requirement": "31:reviewed-development-checks",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_reviewed_planning_checks.py:101",
+      "description": "test_a_real_numeric_lower_bound_still_blocks_a_bad_graph"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_saved_zero_minute_conflict_needs_the_actual_limit_in_its_explanation",
+      "requirement": "31:reviewed-development-checks",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_reviewed_planning_checks.py:110",
+      "description": "test_saved_zero_minute_conflict_needs_the_actual_limit_in_its_explanation"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_explanation_matching_the_public_zero_minute_limit_is_supported",
+      "requirement": "31:reviewed-development-checks",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_reviewed_planning_checks.py:116",
+      "description": "test_explanation_matching_the_public_zero_minute_limit_is_supported"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_numbers_in_unrelated_sentences_do_not_support_a_generic_limit_claim",
+      "requirement": "31:reviewed-development-checks",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_reviewed_planning_checks.py:124",
+      "description": "test_numbers_in_unrelated_sentences_do_not_support_a_generic_limit_claim"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_negated_limit_claim_is_not_a_supported_conflict",
+      "requirement": "31:reviewed-development-checks",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_reviewed_planning_checks.py:132",
+      "description": "test_negated_limit_claim_is_not_a_supported_conflict"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_existing_component_resources_do_not_become_a_new_training_shortage",
+      "requirement": "31:reviewed-development-checks",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_reviewed_planning_checks.py:140",
+      "description": "test_existing_component_resources_do_not_become_a_new_training_shortage"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_genuine_new_training_shortage_remains_a_violation",
+      "requirement": "31:reviewed-development-checks",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_reviewed_planning_checks.py:152",
+      "description": "test_genuine_new_training_shortage_remains_a_violation"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_saved_ladder_declaration_shortage_is_not_waived[3]",
+      "requirement": "31:reviewed-development-checks",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_reviewed_planning_checks.py:162",
+      "description": "test_saved_ladder_declaration_shortage_is_not_waived[3]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_saved_ladder_declaration_shortage_is_not_waived[4]",
+      "requirement": "31:reviewed-development-checks",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_reviewed_planning_checks.py:162",
+      "description": "test_saved_ladder_declaration_shortage_is_not_waived[4]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_equivalent_quote_question_echo_is_still_a_missing_food_answer[2]",
+      "requirement": "31:reviewed-development-checks",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_reviewed_planning_checks.py:169",
+      "description": "test_equivalent_quote_question_echo_is_still_a_missing_food_answer[2]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_equivalent_quote_question_echo_is_still_a_missing_food_answer[3]",
+      "requirement": "31:reviewed-development-checks",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_reviewed_planning_checks.py:169",
+      "description": "test_equivalent_quote_question_echo_is_still_a_missing_food_answer[3]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_equivalent_quote_question_echo_is_still_a_missing_food_answer[4]",
+      "requirement": "31:reviewed-development-checks",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_reviewed_planning_checks.py:169",
+      "description": "test_equivalent_quote_question_echo_is_still_a_missing_food_answer[4]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_no_food_question_remains_not_applicable",
+      "requirement": "31:reviewed-development-checks",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_reviewed_planning_checks.py:176",
+      "description": "test_no_food_question_remains_not_applicable"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_correct_and_wrong_food_numbers_remain_distinct",
+      "requirement": "31:reviewed-development-checks",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_reviewed_planning_checks.py:186",
+      "description": "test_correct_and_wrong_food_numbers_remain_distinct"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_internal_checker_uses_the_same_prospective_scope_and_alias_corrections",
+      "requirement": "31:reviewed-development-checks",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_reviewed_planning_checks.py:200",
+      "description": "test_internal_checker_uses_the_same_prospective_scope_and_alias_corrections"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_new_component_under_a_new_root_keeps_its_real_resource_shortage",
+      "requirement": "31:reviewed-development-checks",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_reviewed_planning_checks.py:213",
+      "description": "test_new_component_under_a_new_root_keeps_its_real_resource_shortage"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_equivalent_half_court_literals_fit_known_half_court_supply[half-court]",
+      "requirement": "31:reviewed-development-checks",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_reviewed_planning_checks.py:233",
+      "description": "test_equivalent_half_court_literals_fit_known_half_court_supply[half-court]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_equivalent_half_court_literals_fit_known_half_court_supply[half_court]",
+      "requirement": "31:reviewed-development-checks",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_reviewed_planning_checks.py:233",
+      "description": "test_equivalent_half_court_literals_fit_known_half_court_supply[half_court]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_equivalent_half_court_literals_fit_known_half_court_supply[half court]",
+      "requirement": "31:reviewed-development-checks",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_reviewed_planning_checks.py:233",
+      "description": "test_equivalent_half_court_literals_fit_known_half_court_supply[half court]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_full_court_alias_still_exceeds_half_court_supply_in_both_checkers",
+      "requirement": "31:reviewed-development-checks",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_reviewed_planning_checks.py:250",
+      "description": "test_full_court_alias_still_exceeds_half_court_supply_in_both_checkers"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_restricted_rectangle_prose_does_not_acquire_an_alias_proof",
+      "requirement": "31:reviewed-development-checks",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_reviewed_planning_checks.py:268",
+      "description": "test_restricted_rectangle_prose_does_not_acquire_an_alias_proof"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_reversed_timing_is_not_used_as_a_positive_duration_lower_bound",
+      "requirement": "31:reviewed-development-checks",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_reviewed_planning_checks.py:284",
+      "description": "test_reversed_timing_is_not_used_as_a_positive_duration_lower_bound"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_preparation.py::test_twenty_offline_cases_keep_injected_evidence_and_repeat_safely",
+      "requirement": "31:reviewed-workflow-preparation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_reviewed_preparation.py:109",
+      "description": "test_twenty_offline_cases_keep_injected_evidence_and_repeat_safely"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_preparation.py::test_changed_original_source_is_rejected_before_tools",
+      "requirement": "31:reviewed-workflow-preparation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_reviewed_preparation.py:135",
+      "description": "test_changed_original_source_is_rejected_before_tools"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_preparation.py::test_missing_software_pass_is_not_accepted",
+      "requirement": "31:reviewed-workflow-preparation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_reviewed_preparation.py:148",
+      "description": "test_missing_software_pass_is_not_accepted"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_preparation.py::test_default_tool_route_requires_the_actual_unified_release",
+      "requirement": "31:reviewed-workflow-preparation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_reviewed_preparation.py:153",
+      "description": "test_default_tool_route_requires_the_actual_unified_release"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_preparation.py::test_save_once_preserves_conflicting_record",
+      "requirement": "31:reviewed-workflow-preparation",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_reviewed_preparation.py:160",
+      "description": "test_save_once_preserves_conflicting_record"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_runtime.py::test_six_equal_instructions_four_clients_and_three_trace_targets",
+      "requirement": "31:reviewed-development-runtime",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_reviewed_runtime.py:97",
+      "description": "test_six_equal_instructions_four_clients_and_three_trace_targets"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_runtime.py::test_baseline_remains_reference_free_and_bound_to_original_public_input",
+      "requirement": "31:reviewed-development-runtime",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_reviewed_runtime.py:114",
+      "description": "test_baseline_remains_reference_free_and_bound_to_original_public_input"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_runtime.py::test_v2_food_fact_is_source_derived_and_strict_rag_guard_still_checks_original_view",
+      "requirement": "31:reviewed-development-runtime",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_reviewed_runtime.py:129",
+      "description": "test_v2_food_fact_is_source_derived_and_strict_rag_guard_still_checks_original_view"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_runtime.py::test_tampered_or_missing_focus_and_duplicate_json_keys_are_rejected",
+      "requirement": "31:reviewed-development-runtime",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_reviewed_runtime.py:147",
+      "description": "test_tampered_or_missing_focus_and_duplicate_json_keys_are_rejected"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_runtime.py::test_all_roles_keep_food_focus_complete_sources_and_candidate_check_codecs",
+      "requirement": "31:reviewed-development-runtime",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_reviewed_runtime.py:162",
+      "description": "test_all_roles_keep_food_focus_complete_sources_and_candidate_check_codecs"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_runtime.py::test_internal_checker_and_packet_validators_are_updated_without_mutating_original_objects",
+      "requirement": "31:reviewed-development-runtime",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_reviewed_runtime.py:185",
+      "description": "test_internal_checker_and_packet_validators_are_updated_without_mutating_original_objects"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_runtime.py::test_stable_identity_settings_and_no_writes_or_transport_during_construction",
+      "requirement": "31:reviewed-development-runtime",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_reviewed_runtime.py:202",
+      "description": "test_stable_identity_settings_and_no_writes_or_transport_during_construction"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_runtime.py::test_changed_release_or_graph_fails_before_rebinding_clients",
+      "requirement": "31:reviewed-development-runtime",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_reviewed_runtime.py:217",
+      "description": "test_changed_release_or_graph_fails_before_rebinding_clients"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_runtime.py::test_concise_instructions_replace_exact_addenda_and_retain_original_task",
+      "requirement": "31:reviewed-development-runtime",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_reviewed_runtime.py:229",
+      "description": "test_concise_instructions_replace_exact_addenda_and_retain_original_task"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_runtime.py::test_fresh_reference_factory_keeps_original_guards_and_labels_test_injection",
+      "requirement": "31:reviewed-development-runtime",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_reviewed_runtime.py:242",
+      "description": "test_fresh_reference_factory_keeps_original_guards_and_labels_test_injection"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[1]",
+      "requirement": "31:reviewed-drill-context",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_selected_drill_context.py:94",
+      "description": "test_actual_twenty_inputs_complete_budgeted_packets[1]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[2]",
+      "requirement": "31:reviewed-drill-context",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_selected_drill_context.py:94",
+      "description": "test_actual_twenty_inputs_complete_budgeted_packets[2]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[3]",
+      "requirement": "31:reviewed-drill-context",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_selected_drill_context.py:94",
+      "description": "test_actual_twenty_inputs_complete_budgeted_packets[3]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[4]",
+      "requirement": "31:reviewed-drill-context",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_selected_drill_context.py:94",
+      "description": "test_actual_twenty_inputs_complete_budgeted_packets[4]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[5]",
+      "requirement": "31:reviewed-drill-context",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_selected_drill_context.py:94",
+      "description": "test_actual_twenty_inputs_complete_budgeted_packets[5]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[6]",
+      "requirement": "31:reviewed-drill-context",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_selected_drill_context.py:94",
+      "description": "test_actual_twenty_inputs_complete_budgeted_packets[6]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[7]",
+      "requirement": "31:reviewed-drill-context",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_selected_drill_context.py:94",
+      "description": "test_actual_twenty_inputs_complete_budgeted_packets[7]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[8]",
+      "requirement": "31:reviewed-drill-context",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_selected_drill_context.py:94",
+      "description": "test_actual_twenty_inputs_complete_budgeted_packets[8]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[9]",
+      "requirement": "31:reviewed-drill-context",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_selected_drill_context.py:94",
+      "description": "test_actual_twenty_inputs_complete_budgeted_packets[9]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[10]",
+      "requirement": "31:reviewed-drill-context",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_selected_drill_context.py:94",
+      "description": "test_actual_twenty_inputs_complete_budgeted_packets[10]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[11]",
+      "requirement": "31:reviewed-drill-context",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_selected_drill_context.py:94",
+      "description": "test_actual_twenty_inputs_complete_budgeted_packets[11]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[12]",
+      "requirement": "31:reviewed-drill-context",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_selected_drill_context.py:94",
+      "description": "test_actual_twenty_inputs_complete_budgeted_packets[12]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[13]",
+      "requirement": "31:reviewed-drill-context",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_selected_drill_context.py:94",
+      "description": "test_actual_twenty_inputs_complete_budgeted_packets[13]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[14]",
+      "requirement": "31:reviewed-drill-context",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_selected_drill_context.py:94",
+      "description": "test_actual_twenty_inputs_complete_budgeted_packets[14]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[15]",
+      "requirement": "31:reviewed-drill-context",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_selected_drill_context.py:94",
+      "description": "test_actual_twenty_inputs_complete_budgeted_packets[15]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[16]",
+      "requirement": "31:reviewed-drill-context",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_selected_drill_context.py:94",
+      "description": "test_actual_twenty_inputs_complete_budgeted_packets[16]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[17]",
+      "requirement": "31:reviewed-drill-context",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_selected_drill_context.py:94",
+      "description": "test_actual_twenty_inputs_complete_budgeted_packets[17]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[18]",
+      "requirement": "31:reviewed-drill-context",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_selected_drill_context.py:94",
+      "description": "test_actual_twenty_inputs_complete_budgeted_packets[18]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[19]",
+      "requirement": "31:reviewed-drill-context",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_selected_drill_context.py:94",
+      "description": "test_actual_twenty_inputs_complete_budgeted_packets[19]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[20]",
+      "requirement": "31:reviewed-drill-context",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_selected_drill_context.py:94",
+      "description": "test_actual_twenty_inputs_complete_budgeted_packets[20]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_known_conflicts_missing_values_and_held_records",
+      "requirement": "31:reviewed-drill-context",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_selected_drill_context.py:122",
+      "description": "test_known_conflicts_missing_values_and_held_records"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_empty_goal_relevant_catalog_is_explicit",
+      "requirement": "31:reviewed-drill-context",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_selected_drill_context.py:136",
+      "description": "test_empty_goal_relevant_catalog_is_explicit"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_tampered_packet_and_changed_release_rejected",
+      "requirement": "31:reviewed-drill-context",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_selected_drill_context.py:149",
+      "description": "test_tampered_packet_and_changed_release_rejected"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_no_packet_can_silently_raise_the_budget",
+      "requirement": "31:reviewed-drill-context",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_selected_drill_context.py:166",
+      "description": "test_no_packet_can_silently_raise_the_budget"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_invalid_json_food_arguments_are_not_interpreted[{\"grams\":100,\"grams\":200}]",
+      "requirement": "31:reviewed-drill-context",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_selected_drill_context.py:173",
+      "description": "test_invalid_json_food_arguments_are_not_interpreted[{\"grams\":100,\"grams\":200}]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_invalid_json_food_arguments_are_not_interpreted[{\"grams\":NaN}]",
+      "requirement": "31:reviewed-drill-context",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_selected_drill_context.py:173",
+      "description": "test_invalid_json_food_arguments_are_not_interpreted[{\"grams\":NaN}]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_invalid_json_food_arguments_are_not_interpreted[{\"grams\":Infinity}]",
+      "requirement": "31:reviewed-drill-context",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_selected_drill_context.py:173",
+      "description": "test_invalid_json_food_arguments_are_not_interpreted[{\"grams\":Infinity}]"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_explicit_prescription_does_not_trigger_drill_selection",
+      "requirement": "31:reviewed-drill-context",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_selected_drill_context.py:180",
+      "description": "test_explicit_prescription_does_not_trigger_drill_selection"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_one_person_cannot_be_matched_to_five_player_drill",
+      "requirement": "31:reviewed-drill-context",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_selected_drill_context.py:191",
+      "description": "test_one_person_cannot_be_matched_to_five_player_drill"
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_public_drill_lookup_may_not_drop_qualification",
+      "requirement": "31:reviewed-drill-context",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/reviewed_workflow/test_selected_drill_context.py:197",
+      "description": "test_public_drill_lookup_may_not_drop_qualification"
+    }
+  ],
+  "phases": [
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_focus_preserves_source_and_complete_view",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0004265999887138605,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_focus_preserves_source_and_complete_view",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0002625000197440386,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_focus_preserves_source_and_complete_view",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00011600001016631722,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_baseline_view_is_unchanged_without_reference_access",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00021700002253055573,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_baseline_view_is_unchanged_without_reference_access",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 7.35999783501029e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_baseline_view_is_unchanged_without_reference_access",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.320005144923925e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_no_question_has_no_fact[None]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00020980002591386437,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_no_question_has_no_fact[None]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 6.280001252889633e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_no_question_has_no_fact[None]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.680000271648169e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_no_question_has_no_fact[]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002698999596759677,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_no_question_has_no_fact[]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 7.940002251416445e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_no_question_has_no_fact[]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.439996210858226e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_no_question_has_no_fact[  ]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002194000408053398,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_no_question_has_no_fact[  ]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 6.459996802732348e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_no_question_has_no_fact[  ]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.650001836940646e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_unsupported_question_has_no_inferred_answer[True]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00021819997346028686,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_unsupported_question_has_no_inferred_answer[True]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 6.180000491440296e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_unsupported_question_has_no_inferred_answer[True]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.51999905332923e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_unsupported_question_has_no_inferred_answer[How much protein is in strawberries?]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002324000233784318,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_unsupported_question_has_no_inferred_answer[How much protein is in strawberries?]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 8.169998181983829e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_unsupported_question_has_no_inferred_answer[How much protein is in strawberries?]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00010140001541003585,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_unsupported_question_has_no_inferred_answer[For the food \"Strawberries, raw\", how many grams of protein are recorded for 0 g?]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00024079997092485428,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_unsupported_question_has_no_inferred_answer[For the food \"Strawberries, raw\", how many grams of protein are recorded for 0 g?]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 7.750000804662704e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_unsupported_question_has_no_inferred_answer[For the food \"Strawberries, raw\", how many grams of protein are recorded for 0 g?]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.099997648969293e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_unsupported_question_has_no_inferred_answer[For the food \"Strawberries, raw\", how many grams of protein are recorded for 100 mg?]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002033999771811068,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_unsupported_question_has_no_inferred_answer[For the food \"Strawberries, raw\", how many grams of protein are recorded for 100 mg?]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 6.910000229254365e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_unsupported_question_has_no_inferred_answer[For the food \"Strawberries, raw\", how many grams of protein are recorded for 100 mg?]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.460000390186906e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_unsupported_question_has_no_inferred_answer[For the food \"Raw strawberries\", how many grams of protein are recorded for 100 g?]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00021160003961995244,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_unsupported_question_has_no_inferred_answer[For the food \"Raw strawberries\", how many grams of protein are recorded for 100 g?]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 7.619999814778566e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_unsupported_question_has_no_inferred_answer[For the food \"Raw strawberries\", how many grams of protein are recorded for 100 g?]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.740000728517771e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[amount-0.68]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002592999953776598,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[amount-0.68]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00010489998385310173,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[amount-0.68]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.240000508725643e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[amount-NaN]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002487000310793519,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[amount-NaN]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 8.420000085607171e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[amount-NaN]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00010720000136643648,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[amount-Infinity]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002606999478302896,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[amount-Infinity]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 7.779995212331414e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[amount-Infinity]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.349999552592635e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[amount-True]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00026539998361840844,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[amount-True]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 8.00999696366489e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[amount-True]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.58000130392611e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[amount--1]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00023220002185553312,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[amount--1]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 6.97999494150281e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[amount--1]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.750000804662704e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[amount-<0.67]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.000228899996727705,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[amount-<0.67]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0003774999640882015,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[amount-<0.67]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00010229996405541897,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[amount_per_100g_raw-0.68]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002736999886110425,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[amount_per_100g_raw-0.68]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 9.109999518841505e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[amount_per_100g_raw-0.68]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.410000009462237e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[unit-MG]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00023560004774481058,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[unit-MG]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 6.980000762268901e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[unit-MG]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.03999719209969e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[grams-150]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00023940001847222447,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[grams-150]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 7.370003731921315e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[grams-150]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.840001489967108e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[fdc_id-another-food]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00022270000772550702,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[fdc_id-another-food]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 7.280003046616912e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[fdc_id-another-food]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.950002327561378e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[description-Strawberries, cooked]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00023940001847222447,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[description-Strawberries, cooked]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 6.739998934790492e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[description-Strawberries, cooked]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.740000728517771e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[nutrient_name-Energy]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00022420001914724708,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[nutrient_name-Energy]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 7.06000137142837e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[nutrient_name-Energy]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.930002175271511e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[nutrient_id-1008]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00022719998378306627,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[nutrient_id-1008]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 6.560003384947777e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[nutrient_id-1008]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.73999490775168e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[status-unavailable]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.000235699990298599,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[status-unavailable]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 6.740004755556583e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[status-unavailable]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.850001566112041e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[reference_mass_g-0]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002294000005349517,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[reference_mass_g-0]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 7.449998520314693e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[reference_mass_g-0]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00011590000940486789,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[reference_mass_g-200]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002318999613635242,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[reference_mass_g-200]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 7.080001523718238e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[reference_mass_g-200]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.169998181983829e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[reference_basis-None]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00023030000738799572,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[reference_basis-None]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 8.469994645565748e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[reference_basis-None]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.230004459619522e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[source_footnote-value17]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002239999594166875,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[source_footnote-value17]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 7.730000652372837e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[source_footnote-value17]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.410000009462237e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[reason-value18]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00023780000628903508,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[reason-value18]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 8.150003850460052e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[reason-value18]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.189998334273696e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[qualifier-<]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.000235399988014251,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[qualifier-<]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 8.760002674534917e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[qualifier-<]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.09000339359045e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[value_qualifier-approximately]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00022420001914724708,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[value_qualifier-approximately]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 8.25000461190939e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[value_qualifier-approximately]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.469994645565748e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[source_record_url-https://different.example/record]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00024100003065541387,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[source_record_url-https://different.example/record]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 8.3099992480129e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_bad_or_qualified_source_values_remain_unresolved[source_record_url-https://different.example/record]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.949996506795287e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_source_footnote_and_derivation_remain_visible",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00016380002489313483,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_source_footnote_and_derivation_remain_visible",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00011289998656138778,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_source_footnote_and_derivation_remain_visible",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.810001261532307e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_missing_or_ambiguous_sources_are_unresolved[lookup]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002817999920807779,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_missing_or_ambiguous_sources_are_unresolved[lookup]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 9.14999982342124e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_missing_or_ambiguous_sources_are_unresolved[lookup]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.070003241300583e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_missing_or_ambiguous_sources_are_unresolved[nutrient]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00021470000501722097,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_missing_or_ambiguous_sources_are_unresolved[nutrient]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 8.259998867288232e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_missing_or_ambiguous_sources_are_unresolved[nutrient]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.90000194683671e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_missing_or_ambiguous_sources_are_unresolved[mass]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00020020001102238894,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_missing_or_ambiguous_sources_are_unresolved[mass]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 6.609997944906354e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_missing_or_ambiguous_sources_are_unresolved[mass]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.680000271648169e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_missing_or_ambiguous_sources_are_unresolved[name]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00023110001347959042,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_missing_or_ambiguous_sources_are_unresolved[name]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 7.880001794546843e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_missing_or_ambiguous_sources_are_unresolved[name]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.840005077421665e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_missing_or_ambiguous_sources_are_unresolved[status]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00022380001610144973,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_missing_or_ambiguous_sources_are_unresolved[status]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 7.460004417225718e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_missing_or_ambiguous_sources_are_unresolved[status]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.019997039809823e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_missing_or_ambiguous_sources_are_unresolved[source]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00020820001373067498,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_missing_or_ambiguous_sources_are_unresolved[source]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 9.029998909682035e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_missing_or_ambiguous_sources_are_unresolved[source]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.099997648969293e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_missing_or_ambiguous_sources_are_unresolved[empty]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00019670004257932305,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_missing_or_ambiguous_sources_are_unresolved[empty]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 6.350001785904169e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_missing_or_ambiguous_sources_are_unresolved[empty]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.479998748749495e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_equivalent_question_quotes_are_echoes[\"-\"]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002117999829351902,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_equivalent_question_quotes_are_echoes[\"-\"]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 8.790002902969718e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_equivalent_question_quotes_are_echoes[\"-\"]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.959996582940221e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_equivalent_question_quotes_are_echoes['-']",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00019370001973584294,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_equivalent_question_quotes_are_echoes['-']",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 7.010000990703702e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_equivalent_question_quotes_are_echoes['-']",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.290003122761846e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_equivalent_question_quotes_are_echoes[\\u2018-\\u2019]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0001908999984152615,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_equivalent_question_quotes_are_echoes[\\u2018-\\u2019]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 8.999998681247234e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_equivalent_question_quotes_are_echoes[\\u2018-\\u2019]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.589999586343765e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_equivalent_question_quotes_are_echoes[\\u201c-\\u201d]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00018719997024163604,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_equivalent_question_quotes_are_echoes[\\u201c-\\u201d]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 7.639999967068434e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_equivalent_question_quotes_are_echoes[\\u201c-\\u201d]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.160002132877707e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_echo_audit_preserves_numbers_units_and_other_wording[For the food \"Strawberries, raw\", how many grams of protein are recorded for 150 g?]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00016289995983242989,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_echo_audit_preserves_numbers_units_and_other_wording[For the food \"Strawberries, raw\", how many grams of protein are recorded for 150 g?]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 6.509997183457017e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_echo_audit_preserves_numbers_units_and_other_wording[For the food \"Strawberries, raw\", how many grams of protein are recorded for 150 g?]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.489998824894428e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_echo_audit_preserves_numbers_units_and_other_wording[For the food \"Strawberries, raw\", how many grams of protein are recorded for 100 mg?]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00017579999985173345,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_echo_audit_preserves_numbers_units_and_other_wording[For the food \"Strawberries, raw\", how many grams of protein are recorded for 100 mg?]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 6.410002242773771e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_echo_audit_preserves_numbers_units_and_other_wording[For the food \"Strawberries, raw\", how many grams of protein are recorded for 100 mg?]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 6.9500005338341e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_echo_audit_preserves_numbers_units_and_other_wording[For the food \"Strawberries, cooked\", how many grams of protein are recorded for 100 g?]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00016470003174617887,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_echo_audit_preserves_numbers_units_and_other_wording[For the food \"Strawberries, cooked\", how many grams of protein are recorded for 100 g?]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 6.210000719875097e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_echo_audit_preserves_numbers_units_and_other_wording[For the food \"Strawberries, cooked\", how many grams of protein are recorded for 100 g?]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 6.839999696239829e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_echo_audit_preserves_numbers_units_and_other_wording[For the food \"Strawberries, raw\", how many grams of energy are recorded for 100 g?]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00016470003174617887,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_echo_audit_preserves_numbers_units_and_other_wording[For the food \"Strawberries, raw\", how many grams of energy are recorded for 100 g?]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 6.549997488036752e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_echo_audit_preserves_numbers_units_and_other_wording[For the food \"Strawberries, raw\", how many grams of energy are recorded for 100 g?]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.050001295283437e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_echo_audit_preserves_numbers_units_and_other_wording[For the food \"Strawberries, raw\", how many grams of protein are recorded for 100 g? 0.67 g protein.]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00016230001347139478,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_echo_audit_preserves_numbers_units_and_other_wording[For the food \"Strawberries, raw\", how many grams of protein are recorded for 100 g? 0.67 g protein.]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 6.280001252889633e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_echo_audit_preserves_numbers_units_and_other_wording[For the food \"Strawberries, raw\", how many grams of protein are recorded for 100 g? 0.67 g protein.]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 6.930000381544232e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_echo_audit_preserves_numbers_units_and_other_wording[100 g Strawberries, raw contains 0.67 g Protein.]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00016820000018924475,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_echo_audit_preserves_numbers_units_and_other_wording[100 g Strawberries, raw contains 0.67 g Protein.]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 6.180000491440296e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_echo_audit_preserves_numbers_units_and_other_wording[100 g Strawberries, raw contains 0.67 g Protein.]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.120001828297973e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_echo_audit_preserves_numbers_units_and_other_wording[Unknown]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0001750999945215881,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_echo_audit_preserves_numbers_units_and_other_wording[Unknown]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 6.420002318918705e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_echo_audit_preserves_numbers_units_and_other_wording[Unknown]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 6.949994713068008e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_echo_audit_preserves_numbers_units_and_other_wording[How much protein is in the strawberries?]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0001677999971434474,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_echo_audit_preserves_numbers_units_and_other_wording[How much protein is in the strawberries?]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 6.3000014051795e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_echo_audit_preserves_numbers_units_and_other_wording[How much protein is in the strawberries?]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 6.719998782500625e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_audit_keeps_wrong_numerical_answers_violated",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0001800000318326056,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_audit_keeps_wrong_numerical_answers_violated",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.003017399983946234,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_audit_keeps_wrong_numerical_answers_violated",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00010410003596916795,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_audit_does_not_turn_unknown_into_a_pass",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00020640000002458692,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_audit_does_not_turn_unknown_into_a_pass",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0010112000163644552,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_audit_does_not_turn_unknown_into_a_pass",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.400001727044582e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_all_six_saved_requested_facts_are_lossless",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00016850000247359276,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_all_six_saved_requested_facts_are_lossless",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.015271599986590445,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_all_six_saved_requested_facts_are_lossless",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014459999511018395,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_audit_all_twenty_four_designated_food_replies",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002389000146649778,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_audit_all_twenty_four_designated_food_replies",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.05807780002942309,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_food_fact_focus.py::test_audit_all_twenty_four_designated_food_replies",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00012530002277344465,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_saved_rest_explanation_has_a_known_applicable_source_and_complete_coverage",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.07158129999879748,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_saved_rest_explanation_has_a_known_applicable_source_and_complete_coverage",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.09609350003302097,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_saved_rest_explanation_has_a_known_applicable_source_and_complete_coverage",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013230001786723733,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_saved_soccer_or_600_minute_claim_does_not_prove_the_daily_rest_conflict[1]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.025146399973891675,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_saved_soccer_or_600_minute_claim_does_not_prove_the_daily_rest_conflict[1]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.1051490000099875,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_saved_soccer_or_600_minute_claim_does_not_prove_the_daily_rest_conflict[1]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00015089998487383127,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_saved_soccer_or_600_minute_claim_does_not_prove_the_daily_rest_conflict[3]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.026428500015754253,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_saved_soccer_or_600_minute_claim_does_not_prove_the_daily_rest_conflict[3]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.09679229999892414,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_saved_soccer_or_600_minute_claim_does_not_prove_the_daily_rest_conflict[3]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014789996203035116,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_saved_soccer_or_600_minute_claim_does_not_prove_the_daily_rest_conflict[4]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.02606609999202192,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_saved_soccer_or_600_minute_claim_does_not_prove_the_daily_rest_conflict[4]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.09408849995816126,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_saved_soccer_or_600_minute_claim_does_not_prove_the_daily_rest_conflict[4]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001330999657511711,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_rest_support_is_not_inferred_without_complete_coverage",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.027343900001142174,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_rest_support_is_not_inferred_without_complete_coverage",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.09406630002195016,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_rest_support_is_not_inferred_without_complete_coverage",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001297999988310039,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_saved_bad_graph_does_not_itself_prove_a_numeric_limit_overrun[2]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.02931780001381412,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_saved_bad_graph_does_not_itself_prove_a_numeric_limit_overrun[2]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.10388539999257773,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_saved_bad_graph_does_not_itself_prove_a_numeric_limit_overrun[2]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014939997345209122,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_saved_bad_graph_does_not_itself_prove_a_numeric_limit_overrun[3]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.026389400009065866,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_saved_bad_graph_does_not_itself_prove_a_numeric_limit_overrun[3]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0971500999876298,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_saved_bad_graph_does_not_itself_prove_a_numeric_limit_overrun[3]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001373999984934926,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_saved_bad_graph_does_not_itself_prove_a_numeric_limit_overrun[4]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.02754159999312833,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_saved_bad_graph_does_not_itself_prove_a_numeric_limit_overrun[4]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.10464040003716946,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_saved_bad_graph_does_not_itself_prove_a_numeric_limit_overrun[4]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014020001981407404,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_a_real_numeric_lower_bound_still_blocks_a_bad_graph",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.028382099990267307,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_a_real_numeric_lower_bound_still_blocks_a_bad_graph",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.11142070003552362,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_a_real_numeric_lower_bound_still_blocks_a_bad_graph",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00019679998513311148,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_saved_zero_minute_conflict_needs_the_actual_limit_in_its_explanation",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.030017899989616126,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_saved_zero_minute_conflict_needs_the_actual_limit_in_its_explanation",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.09502780000912026,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_saved_zero_minute_conflict_needs_the_actual_limit_in_its_explanation",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014819996431469917,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_explanation_matching_the_public_zero_minute_limit_is_supported",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.030426900018937886,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_explanation_matching_the_public_zero_minute_limit_is_supported",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.09294459997909144,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_explanation_matching_the_public_zero_minute_limit_is_supported",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013840000610798597,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_numbers_in_unrelated_sentences_do_not_support_a_generic_limit_claim",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.030462200054898858,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_numbers_in_unrelated_sentences_do_not_support_a_generic_limit_claim",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.09668949997285381,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_numbers_in_unrelated_sentences_do_not_support_a_generic_limit_claim",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013559998478740454,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_negated_limit_claim_is_not_a_supported_conflict",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.027176700008567423,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_negated_limit_claim_is_not_a_supported_conflict",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.09305260004475713,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_negated_limit_claim_is_not_a_supported_conflict",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013990001752972603,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_existing_component_resources_do_not_become_a_new_training_shortage",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.027841399947647005,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_existing_component_resources_do_not_become_a_new_training_shortage",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.09754760004580021,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_existing_component_resources_do_not_become_a_new_training_shortage",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013599998783320189,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_genuine_new_training_shortage_remains_a_violation",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.02615170000353828,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_genuine_new_training_shortage_remains_a_violation",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0986267999978736,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_genuine_new_training_shortage_remains_a_violation",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013920001219958067,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_saved_ladder_declaration_shortage_is_not_waived[3]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.026982499985024333,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_saved_ladder_declaration_shortage_is_not_waived[3]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.09762610000325367,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_saved_ladder_declaration_shortage_is_not_waived[3]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001362999901175499,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_saved_ladder_declaration_shortage_is_not_waived[4]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.026551099959760904,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_saved_ladder_declaration_shortage_is_not_waived[4]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.09700030001113191,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_saved_ladder_declaration_shortage_is_not_waived[4]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00015159999020397663,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_equivalent_quote_question_echo_is_still_a_missing_food_answer[2]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.029300499998498708,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_equivalent_quote_question_echo_is_still_a_missing_food_answer[2]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.10656449996167794,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_equivalent_quote_question_echo_is_still_a_missing_food_answer[2]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013940001372247934,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_equivalent_quote_question_echo_is_still_a_missing_food_answer[3]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.02813250001054257,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_equivalent_quote_question_echo_is_still_a_missing_food_answer[3]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.098089000035543,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_equivalent_quote_question_echo_is_still_a_missing_food_answer[3]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014399999054148793,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_equivalent_quote_question_echo_is_still_a_missing_food_answer[4]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.04155259998515248,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_equivalent_quote_question_echo_is_still_a_missing_food_answer[4]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.10160040005575866,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_equivalent_quote_question_echo_is_still_a_missing_food_answer[4]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013479997869580984,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_no_food_question_remains_not_applicable",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.026777499995660037,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_no_food_question_remains_not_applicable",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.09785349998855963,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_no_food_question_remains_not_applicable",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001373999984934926,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_correct_and_wrong_food_numbers_remain_distinct",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.027597099950071424,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_correct_and_wrong_food_numbers_remain_distinct",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.19780580000951886,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_correct_and_wrong_food_numbers_remain_distinct",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00015139998868107796,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_internal_checker_uses_the_same_prospective_scope_and_alias_corrections",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.02827660000184551,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_internal_checker_uses_the_same_prospective_scope_and_alias_corrections",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.06561320001492277,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_internal_checker_uses_the_same_prospective_scope_and_alias_corrections",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001343999756500125,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_new_component_under_a_new_root_keeps_its_real_resource_shortage",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.028248799964785576,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_new_component_under_a_new_root_keeps_its_real_resource_shortage",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.16514429997187108,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_new_component_under_a_new_root_keeps_its_real_resource_shortage",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013289996422827244,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_equivalent_half_court_literals_fit_known_half_court_supply[half-court]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.030793299956712872,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_equivalent_half_court_literals_fit_known_half_court_supply[half-court]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.11132040002848953,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_equivalent_half_court_literals_fit_known_half_court_supply[half-court]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00036529998760670424,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_equivalent_half_court_literals_fit_known_half_court_supply[half_court]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.030731900013051927,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_equivalent_half_court_literals_fit_known_half_court_supply[half_court]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.09388529998250306,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_equivalent_half_court_literals_fit_known_half_court_supply[half_court]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001401000190526247,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_equivalent_half_court_literals_fit_known_half_court_supply[half court]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.027214400004595518,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_equivalent_half_court_literals_fit_known_half_court_supply[half court]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.09515629999805242,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_equivalent_half_court_literals_fit_known_half_court_supply[half court]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013760000001639128,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_full_court_alias_still_exceeds_half_court_supply_in_both_checkers",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.02662419999251142,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_full_court_alias_still_exceeds_half_court_supply_in_both_checkers",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.16233339998871088,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_full_court_alias_still_exceeds_half_court_supply_in_both_checkers",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001382000045850873,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_restricted_rectangle_prose_does_not_acquire_an_alias_proof",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.028105200035497546,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_restricted_rectangle_prose_does_not_acquire_an_alias_proof",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0961212000111118,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_restricted_rectangle_prose_does_not_acquire_an_alias_proof",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013530004071071744,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_reversed_timing_is_not_used_as_a_positive_duration_lower_bound",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002038999809883535,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_reversed_timing_is_not_used_as_a_positive_duration_lower_bound",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00042150000808760524,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_planning_checks.py::test_reversed_timing_is_not_used_as_a_positive_duration_lower_bound",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.180000051856041e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_preparation.py::test_twenty_offline_cases_keep_injected_evidence_and_repeat_safely",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.6710305999731645,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_preparation.py::test_twenty_offline_cases_keep_injected_evidence_and_repeat_safely",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 12.567690700001549,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_preparation.py::test_twenty_offline_cases_keep_injected_evidence_and_repeat_safely",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00023040000814944506,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_preparation.py::test_changed_original_source_is_rejected_before_tools",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002601000014692545,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_preparation.py::test_changed_original_source_is_rejected_before_tools",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.04937770002288744,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_preparation.py::test_changed_original_source_is_rejected_before_tools",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013679999392479658,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_preparation.py::test_missing_software_pass_is_not_accepted",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002452000044286251,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_preparation.py::test_missing_software_pass_is_not_accepted",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.37225140002556145,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_preparation.py::test_missing_software_pass_is_not_accepted",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001267999759875238,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_preparation.py::test_default_tool_route_requires_the_actual_unified_release",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002568000345490873,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_preparation.py::test_default_tool_route_requires_the_actual_unified_release",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.38704250002047047,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_preparation.py::test_default_tool_route_requires_the_actual_unified_release",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00012449995847418904,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_preparation.py::test_save_once_preserves_conflicting_record",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0009654000168666244,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_preparation.py::test_save_once_preserves_conflicting_record",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00550559995463118,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_preparation.py::test_save_once_preserves_conflicting_record",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.013194700004532933,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_runtime.py::test_six_equal_instructions_four_clients_and_three_trace_targets",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.015307699970435351,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_runtime.py::test_six_equal_instructions_four_clients_and_three_trace_targets",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.12880790000781417,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_runtime.py::test_six_equal_instructions_four_clients_and_three_trace_targets",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013260002015158534,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_runtime.py::test_baseline_remains_reference_free_and_bound_to_original_public_input",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.014887400029692799,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_runtime.py::test_baseline_remains_reference_free_and_bound_to_original_public_input",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.10004629998002201,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_runtime.py::test_baseline_remains_reference_free_and_bound_to_original_public_input",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013350002700462937,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_runtime.py::test_v2_food_fact_is_source_derived_and_strict_rag_guard_still_checks_original_view",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.014574999979231507,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_runtime.py::test_v2_food_fact_is_source_derived_and_strict_rag_guard_still_checks_original_view",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.11262400000123307,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_runtime.py::test_v2_food_fact_is_source_derived_and_strict_rag_guard_still_checks_original_view",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014969997573643923,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_runtime.py::test_tampered_or_missing_focus_and_duplicate_json_keys_are_rejected",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.01627379999263212,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_runtime.py::test_tampered_or_missing_focus_and_duplicate_json_keys_are_rejected",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.09877839998807758,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_runtime.py::test_tampered_or_missing_focus_and_duplicate_json_keys_are_rejected",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014089996693655849,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_runtime.py::test_all_roles_keep_food_focus_complete_sources_and_candidate_check_codecs",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.015562899992801249,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_runtime.py::test_all_roles_keep_food_focus_complete_sources_and_candidate_check_codecs",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.10628940002061427,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_runtime.py::test_all_roles_keep_food_focus_complete_sources_and_candidate_check_codecs",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001362999901175499,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_runtime.py::test_internal_checker_and_packet_validators_are_updated_without_mutating_original_objects",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.016357799991965294,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_runtime.py::test_internal_checker_and_packet_validators_are_updated_without_mutating_original_objects",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.10613079997710884,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_runtime.py::test_internal_checker_and_packet_validators_are_updated_without_mutating_original_objects",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013430003309622407,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_runtime.py::test_stable_identity_settings_and_no_writes_or_transport_during_construction",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.007307399995625019,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_runtime.py::test_stable_identity_settings_and_no_writes_or_transport_during_construction",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.16063180001219735,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_runtime.py::test_stable_identity_settings_and_no_writes_or_transport_during_construction",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.000132200017105788,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_runtime.py::test_changed_release_or_graph_fails_before_rebinding_clients",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.016562299977522343,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_runtime.py::test_changed_release_or_graph_fails_before_rebinding_clients",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.10851019999245182,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_runtime.py::test_changed_release_or_graph_fails_before_rebinding_clients",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013669999316334724,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_runtime.py::test_concise_instructions_replace_exact_addenda_and_retain_original_task",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.017213899991475046,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_runtime.py::test_concise_instructions_replace_exact_addenda_and_retain_original_task",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.010579900001175702,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_runtime.py::test_concise_instructions_replace_exact_addenda_and_retain_original_task",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00016840000171214342,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_runtime.py::test_fresh_reference_factory_keeps_original_guards_and_labels_test_injection",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.006392000010237098,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_runtime.py::test_fresh_reference_factory_keeps_original_guards_and_labels_test_injection",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.1412772999610752,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_reviewed_runtime.py::test_fresh_reference_factory_keeps_original_guards_and_labels_test_injection",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00016469997353851795,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[1]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.2896688999608159,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[1]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.12209389999043196,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[1]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013539998326450586,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[2]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002568999771028757,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[2]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.1540911999763921,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[2]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00015410000924021006,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[3]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00029499997617676854,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[3]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.12358249997487292,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[3]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00015580002218484879,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[4]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002838000073097646,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[4]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.12424560001818463,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[4]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00017070001922547817,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[5]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002927000168710947,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[5]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.18564270000206307,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[5]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014860002556815743,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[6]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00026130001060664654,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[6]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.11782119999406859,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[6]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00015249999705702066,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[7]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002663999912329018,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[7]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.11609199998201802,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[7]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014050002209842205,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[8]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002694000140763819,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[8]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.09231809998163953,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[8]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001336000277660787,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[9]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00025949999690055847,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[9]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.15381310001248494,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[9]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014239997835829854,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[10]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00026210001669824123,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[10]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.11261690000537783,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[10]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001412000274285674,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[11]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0003079000161960721,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[11]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.09831239999039099,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[11]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013939995551481843,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[12]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002645000349730253,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[12]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.09647669998230413,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[12]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014329998521134257,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[13]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002636000281199813,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[13]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.14353180001489818,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[13]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.000139000010676682,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[14]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00028440001187846065,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[14]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.10782189999008551,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[14]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014349998673424125,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[15]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002652999828569591,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[15]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.1049877000041306,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[15]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013760000001639128,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[16]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.000270900025498122,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[16]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.10454980004578829,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[16]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.000139000010676682,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[17]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00027269998099654913,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[17]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.10251419997075573,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[17]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013639999087899923,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[18]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00026980001712217927,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[18]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.13056219997815788,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[18]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014249997911974788,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[19]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002698999596759677,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[19]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.09685160004300997,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[19]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013870000839233398,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[20]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00025780004216358066,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[20]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.09632230002898723,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_actual_twenty_inputs_complete_budgeted_packets[20]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001482999650761485,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_known_conflicts_missing_values_and_held_records",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00022260000696405768,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_known_conflicts_missing_values_and_held_records",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.012377100007142872,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_known_conflicts_missing_values_and_held_records",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00017289997776970267,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_empty_goal_relevant_catalog_is_explicit",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0003350999904796481,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_empty_goal_relevant_catalog_is_explicit",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.054720700019970536,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_empty_goal_relevant_catalog_is_explicit",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00012700003571808338,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_tampered_packet_and_changed_release_rejected",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0011254000128246844,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_tampered_packet_and_changed_release_rejected",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.11498680000659078,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_tampered_packet_and_changed_release_rejected",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013099994976073503,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_no_packet_can_silently_raise_the_budget",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00022980000358074903,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_no_packet_can_silently_raise_the_budget",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.01504560001194477,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_no_packet_can_silently_raise_the_budget",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00011909997556358576,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_invalid_json_food_arguments_are_not_interpreted[{\"grams\":100,\"grams\":200}]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0002894999925047159,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_invalid_json_food_arguments_are_not_interpreted[{\"grams\":100,\"grams\":200}]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00010220002150163054,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_invalid_json_food_arguments_are_not_interpreted[{\"grams\":100,\"grams\":200}]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.700002217665315e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_invalid_json_food_arguments_are_not_interpreted[{\"grams\":NaN}]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0001963000395335257,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_invalid_json_food_arguments_are_not_interpreted[{\"grams\":NaN}]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 7.24999699741602e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_invalid_json_food_arguments_are_not_interpreted[{\"grams\":NaN}]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 8.209998486563563e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_invalid_json_food_arguments_are_not_interpreted[{\"grams\":Infinity}]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00017229997320100665,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_invalid_json_food_arguments_are_not_interpreted[{\"grams\":Infinity}]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 7.049995474517345e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_invalid_json_food_arguments_are_not_interpreted[{\"grams\":Infinity}]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 7.450004341080785e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_explicit_prescription_does_not_trigger_drill_selection",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00016200001118704677,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_explicit_prescription_does_not_trigger_drill_selection",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.04285929998150095,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_explicit_prescription_does_not_trigger_drill_selection",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001385000068694353,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_one_person_cannot_be_matched_to_five_player_drill",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0003239999641664326,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_one_person_cannot_be_matched_to_five_player_drill",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0036414999631233513,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_one_person_cannot_be_matched_to_five_player_drill",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00012509996304288507,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_public_drill_lookup_may_not_drop_qualification",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.00020539999241009355,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_public_drill_lookup_may_not_drop_qualification",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.026620799966622144,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/reviewed_workflow/test_selected_drill_context.py::test_public_drill_lookup_may_not_drop_qualification",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0002300000051036477,
+      "expected_failure": false,
+      "detail": null
+    }
+  ],
+  "collection_errors": [],
+  "deselected": [],
+  "new_model_calls": 0,
+  "query_encoder_processes": 0,
+  "network_policy": "blocked_in_routine_tests",
+  "fixtures": "authored_public_examples"
+}

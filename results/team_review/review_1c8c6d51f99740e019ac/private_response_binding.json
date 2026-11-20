@@ -1,0 +1,1442 @@
+[
+  {
+    "designated_outcome_sha256": "8bbab06f1b0a34607ec37a3b85221cc8b1b19dcbc513e16aa8491b6baac137ce",
+    "job_id": "final-planned-job:1e2a04f142f43eac9a3badf8",
+    "planner_version": 2,
+    "profile_id": "athlete:bbe16228348c15853d941b0c",
+    "public_record_sha256": "826a6fbfc6005554db517a7e38db552e10e7fec3bfe8fd1c30677ae970c0d953",
+    "response_id": "response-887e81c5dbdebedc2c73",
+    "response_text_sha256": "3a897e6b73a02c197c46b2c78668877af5b7e787c65e5aade697ef8ab8d1059c"
+  },
+  {
+    "designated_outcome_sha256": "60f493f1a5ada1254ca61923ac32acae4756f729a2aab79921950274d533936e",
+    "job_id": "final-planned-job:2698d322a5036f91aa21a026",
+    "planner_version": 2,
+    "profile_id": "athlete:f9362e0b8213e950b078eddd",
+    "public_record_sha256": "413204fec6761e838170cdf8cc6ac82087e8a2246fa0df74a57a8ff386e7b3b0",
+    "response_id": "response-591e8fc242aceb89a695",
+    "response_text_sha256": "059a72323475f9028025b4ec115259c49eecb47a195c69ca33d54053101cec78"
+  },
+  {
+    "designated_outcome_sha256": "31858cc46fdf6eb3ba40fcbf4cea05dcba2e7e9c2dd4e0299871135fd3c0ec89",
+    "job_id": "final-planned-job:85ea83d4cdaf44b27c2cb056",
+    "planner_version": 1,
+    "profile_id": "athlete:8cf1150082214b6f75e5a62c",
+    "public_record_sha256": "fa3685ca34199930c9d2bfa6763cb91e2817d51278de3110f8eca4c9a511b9b2",
+    "response_id": "response-255fba5ce9e32e49aaa7",
+    "response_text_sha256": "609b6e0b5242b95c49b2ec5c25070992c46141c0de9f137b456508bd66bcd67a"
+  },
+  {
+    "designated_outcome_sha256": "cf57a90409fd29ddafc06bf70dd026368dda4cae1691bdd5d17e50f852386961",
+    "job_id": "final-planned-job:829485c42b30b6a9dd1ed5ab",
+    "planner_version": 3,
+    "profile_id": "athlete:ae7667869cee91eba24b09b2",
+    "public_record_sha256": "94e26787571756cb5df5f0602d96179cecd45983f7fd76e74894b77de6fde555",
+    "response_id": "response-1dba7f820c29908a71db",
+    "response_text_sha256": "0a31f3298e304b33c30ff3ae0e75e785d2d30df62486c3e4f97daff81c839c27"
+  },
+  {
+    "designated_outcome_sha256": "b4435ed085b778908b77f0792eac4dc80e08f445af0e0ff4ad3ae898aa176eff",
+    "job_id": "final-planned-job:2206579ae7f985795a5c13b9",
+    "planner_version": 4,
+    "profile_id": "athlete:dbe1c1206448e28e9db236c6",
+    "public_record_sha256": "1f6d136f46047cd6bccbf13d0f64db6fb5d408f2fc3a988d59d4bcf8c130f7e4",
+    "response_id": "response-790a85c0697c7cf31865",
+    "response_text_sha256": "3132149084a82152f85905517b2d73c75ae93a4b9e67a97a786c21446f35d5e7"
+  },
+  {
+    "designated_outcome_sha256": "1db143a2bf2101ed456c64a31761dea4f2c4b6a32f78cd1f9c2b98f70565a9da",
+    "job_id": "final-planned-job:471588b509467189c7d4c741",
+    "planner_version": 2,
+    "profile_id": "athlete:54fb79636447289c18bd155b",
+    "public_record_sha256": "dd955bed8fd0fa8786b2e28206a07c797d3551892e059bf81b9a4b2e3d274a6d",
+    "response_id": "response-6006e44a8eda5a288531",
+    "response_text_sha256": "143ae9bda3df344d8d2cf3d3b8fa0762efd86b52695efa485c3f867c7cad33f2"
+  },
+  {
+    "designated_outcome_sha256": "c6cd79852fe46a77b71f2521a402d3ecbbcf8fc0ec488ee7747100556f768ace",
+    "job_id": "final-planned-job:39df18d31887d6dbc3966f85",
+    "planner_version": 2,
+    "profile_id": "athlete:ecd9fd6743e4c0251e222140",
+    "public_record_sha256": "5bf5cd4324fb0081a92a6b1c538dbecef1c8b0f3eb82647b88702bb4cb6cb353",
+    "response_id": "response-03c6081acef918d8c63c",
+    "response_text_sha256": "887489b6d9c1dfc7153f7405b4880accee6a664076c15ab9336d573bec43c8ed"
+  },
+  {
+    "designated_outcome_sha256": "d1084e2e04193d849eb50c1fcb5557ff8da5e303e65c90059c19a65eb81ea0e3",
+    "job_id": "final-planned-job:de82d2d2f87589d2c6734a37",
+    "planner_version": 4,
+    "profile_id": "athlete:05ef4dc8fd1a1ba8d2e3dd6b",
+    "public_record_sha256": "ae38b0c369bfd272a1f95d8c306f0287d4d6f3cdbcced7184ccf072e68e5f834",
+    "response_id": "response-05549d1ae27f24241390",
+    "response_text_sha256": "9311e4d2a7493a03b70f6feb3d026df0c12e16a4f0becdbee21f0938b430b795"
+  },
+  {
+    "designated_outcome_sha256": "69e0cbb9110acc40c075de8267867240ab67b19778e0135d820d704238f5cb27",
+    "job_id": "final-planned-job:194c1519bee0c7cc1da0da96",
+    "planner_version": 1,
+    "profile_id": "athlete:0264fb89b723b546c1f312ee",
+    "public_record_sha256": "37a053a175f46faf07d5a3b7d00ae6974113ae2d7977e374b4106b724af39f4a",
+    "response_id": "response-690f4ba44eb39a0f4f3a",
+    "response_text_sha256": "b32344da18ffafb2bad954edf6c4eeb958fbac151784ea27abe2692f17c363f8"
+  },
+  {
+    "designated_outcome_sha256": "2ad1e184dbf2687963a1e2257e82ab40a514371d9f4be5d23f81682595b4d083",
+    "job_id": "final-planned-job:4de71a4e563772f114c353f9",
+    "planner_version": 3,
+    "profile_id": "athlete:15b4fb8c70e3d9a1edfa6aa3",
+    "public_record_sha256": "cc96997a90335549a65a072203456cd103f741381abb6b356a4091f8cd10e5d9",
+    "response_id": "response-62e5fd9bb9e3be185b18",
+    "response_text_sha256": "fc1d4315ee27a35e03730d8bb9b555b33c945928da9029d7ddc887e673a05294"
+  },
+  {
+    "designated_outcome_sha256": "30f4bfd4cd9c917f9845d7c87ff9e55b8d42c00353c34b7880aa2c6bdda013cb",
+    "job_id": "final-planned-job:73f6c15044fd4cd526b58e29",
+    "planner_version": 3,
+    "profile_id": "athlete:52ce54f1434a88cdf0eea3bf",
+    "public_record_sha256": "ec185da708da82f489c94aa5281dab395fe6c33b65519bae4644a3dd46d17e81",
+    "response_id": "response-88747600462d4af9cc58",
+    "response_text_sha256": "02215229f9323f898d9cd998eb04c8974614cb969219e940e2982a9c95ecdef1"
+  },
+  {
+    "designated_outcome_sha256": "59a4e44fdc6077bcfb33988d0e7494241ae5fecfb7031efc51bcbefd477c5162",
+    "job_id": "final-planned-job:991498116a1e224ba3541a03",
+    "planner_version": 1,
+    "profile_id": "athlete:dbe1c1206448e28e9db236c6",
+    "public_record_sha256": "1f6d136f46047cd6bccbf13d0f64db6fb5d408f2fc3a988d59d4bcf8c130f7e4",
+    "response_id": "response-6a9435ccd6bc5b6f44b7",
+    "response_text_sha256": "3ef091700f90719b86fbb22c64963c130182d809dd1ade4af0fa0660c4b7da9b"
+  },
+  {
+    "designated_outcome_sha256": "777acf3f7d21e25f1a6e90d54fbbc6ab22ecb6d689d55a780112a5175056d3fd",
+    "job_id": "final-planned-job:4874d99fbafa1c827f039b4f",
+    "planner_version": 4,
+    "profile_id": "athlete:4382d275e1271cf7f5e3c654",
+    "public_record_sha256": "1123f81364615cc574113ef972b7f372ae4247d701c3bdc56a6af1b295d6756c",
+    "response_id": "response-c20d9a2fbdf72796ad64",
+    "response_text_sha256": "32513eaab82bd138edd98b816e225aa535032a0e474d2b5b17c6e6e9e627ebd0"
+  },
+  {
+    "designated_outcome_sha256": "9ca1f64d57bae408cbecb166986226554e295cff4fafa03caf62056b27de9ac6",
+    "job_id": "final-planned-job:58a1b393cfbea309b7538cc4",
+    "planner_version": 3,
+    "profile_id": "athlete:57e6df7bded5278c761c810c",
+    "public_record_sha256": "835d539d93c902bee4f568e6cb5405665b5d501db4b365c3b8137ad5f86a3637",
+    "response_id": "response-f161b177ae48d5eb80a0",
+    "response_text_sha256": "38f470445146bc431c3838d9e645a7a9f9be1be40ff5a786d90c2d175c2e9fa2"
+  },
+  {
+    "designated_outcome_sha256": "26c6a29f7d46cd3d691b721b710eaba4b653ed6ce46e5134ee5fb467bfab9e5a",
+    "job_id": "final-planned-job:68924dad1a57c9847e119911",
+    "planner_version": 1,
+    "profile_id": "athlete:af2fdc0223aee35333950b92",
+    "public_record_sha256": "192ced55442a194d6d4f91c28d18b7384d1df4902886dec3ce162424432a5756",
+    "response_id": "response-e56257c12915ab38e12b",
+    "response_text_sha256": "78dfd7336a039e1f8ec4ae376c728b0e752b04aa8578d7597080cfc5188714e6"
+  },
+  {
+    "designated_outcome_sha256": "b05502cd2128069f26dae67ee9ea4535adb3182eeae33deecb3dc5e06fdaff8e",
+    "job_id": "final-planned-job:1832b6833047a1633836d206",
+    "planner_version": 1,
+    "profile_id": "athlete:8515f5a19ae4b52de553deea",
+    "public_record_sha256": "fd0723d876748a8be26a8a08275c93c96f8df09029fc81ed2dae9aa04e0a95d4",
+    "response_id": "response-1412474cce8d8a6d98aa",
+    "response_text_sha256": "672800dd31e9d0b84600a96f3cd11f528ff9cb0c5dff0d7bb577d3fa9ef6c86c"
+  },
+  {
+    "designated_outcome_sha256": "0a6c82a3cb6d05d33577603fb799e82bad0ee726edc94dff98d59ed7809db54b",
+    "job_id": "final-planned-job:6ed73d225518825c186ad1e0",
+    "planner_version": 1,
+    "profile_id": "athlete:bb05b21bb2761aa138b1fea5",
+    "public_record_sha256": "24cb61486cced735fcfb31603fbbe5047039ddcd34d56c3017f1bc1f26ad691c",
+    "response_id": "response-51ebadc61de415905a89",
+    "response_text_sha256": "e29afd6569faad9bc2631add9fd32fb52e5712889070cfc5548c59ea1b54099c"
+  },
+  {
+    "designated_outcome_sha256": "e966dfb5801d531e85802de990d0e7238a1772714b9de38f16d609847e154640",
+    "job_id": "final-planned-job:0014334371258cd29d1d578f",
+    "planner_version": 2,
+    "profile_id": "athlete:57e6df7bded5278c761c810c",
+    "public_record_sha256": "835d539d93c902bee4f568e6cb5405665b5d501db4b365c3b8137ad5f86a3637",
+    "response_id": "response-fdf26b74851ae36d223c",
+    "response_text_sha256": "2ed4ec7d7a8bf0ee5f5809be8fe7137806b8746a912ae6f472a8f6c3afc12503"
+  },
+  {
+    "designated_outcome_sha256": "23199718dc49a9e853acc356c29108a8e709d82b2dd7c604d2ae17927bec42a3",
+    "job_id": "final-planned-job:685452730e68f7a34ab53574",
+    "planner_version": 1,
+    "profile_id": "athlete:6978e01847087d8400983e0e",
+    "public_record_sha256": "bf92b1d8c26709d9e2a300413e5a8e064b8e8359a8c33b5cab09a4a668e9ce4c",
+    "response_id": "response-75abb7d6239cef9a1b53",
+    "response_text_sha256": "7ab27ae3c9386447013565a9b592c3b6979a34d81ad5e6f96bdb346c4e183daa"
+  },
+  {
+    "designated_outcome_sha256": "d17dfb3356747cde7085467d869687e25ca0b7a68f2b0f5c4954d2eddccca8af",
+    "job_id": "final-planned-job:ed0104ad47a4c065772d5402",
+    "planner_version": 3,
+    "profile_id": "athlete:8515f5a19ae4b52de553deea",
+    "public_record_sha256": "fd0723d876748a8be26a8a08275c93c96f8df09029fc81ed2dae9aa04e0a95d4",
+    "response_id": "response-6a6b7d5f7843243a4fd5",
+    "response_text_sha256": "5ebaf0d9aa919d5f8120cb3efd42ce700feee42404b932baab108ae76c3f71ec"
+  },
+  {
+    "designated_outcome_sha256": "a39b2d990ea68da09f7b765f4d7ea2683251fc9bd5328286ac28c9aefcd1d2c3",
+    "job_id": "final-planned-job:4333c8e3089f9b3b67831f23",
+    "planner_version": 3,
+    "profile_id": "athlete:15590ca139dda47097d39e9c",
+    "public_record_sha256": "f258e7ce28afd0c8550bd00e3c9a42549f43368ddbe24bc31923d041dbdd8e93",
+    "response_id": "response-15d56beb420f0535ddee",
+    "response_text_sha256": "4c926289fb344daba364205bf3c9900fbfa39e12fb3bf531a132c1b0718d7b8d"
+  },
+  {
+    "designated_outcome_sha256": "cb244e4b15a61632dc58b90b4100d714fa32b5358cbcb4e395ea396f1b03ee4d",
+    "job_id": "final-planned-job:cfa83415774cca6a3fcdacf2",
+    "planner_version": 1,
+    "profile_id": "athlete:16684e2f98f2641e594a0502",
+    "public_record_sha256": "bb8332f3453b0d7aa1c657fee68edb27000fd0c60a8cfbeced62876340089e82",
+    "response_id": "response-3d161bee4d83b7c0ff83",
+    "response_text_sha256": "207681a7e5113e2d1164c1ed76b4d66c76d08487cb2bcfd90a505e178587b2bd"
+  },
+  {
+    "designated_outcome_sha256": "514700c02fbd4d8f53de056915b8c0c8182b85f971fd9ab7e3626bf488ab4b39",
+    "job_id": "final-planned-job:38a7c21a36e16e842713041c",
+    "planner_version": 4,
+    "profile_id": "athlete:dca429060e66c73171cbf428",
+    "public_record_sha256": "a41ddd1c4c0f4dee72752c7998d7eb8251208a6a1a5cd52fcfd0bfb15fd8b4b5",
+    "response_id": "response-8dcebf40ed2964ebb491",
+    "response_text_sha256": "f342a36ea08e4a6c2749d3f3510e102bb61535e6b340f75f7f120a5e414fc02a"
+  },
+  {
+    "designated_outcome_sha256": "31d92da6cf0b12dfaf2225b559cf063d9ca9f71b72da0ffc1e4e341f71c93ac7",
+    "job_id": "final-planned-job:58c17b0e751e79ecc02a71b5",
+    "planner_version": 3,
+    "profile_id": "athlete:23cc530c51abcdf592bc1168",
+    "public_record_sha256": "7561bdc8769dcb88ed42c450281fd2ea9dfa0669f866840fb1258d5d832514d0",
+    "response_id": "response-09577605ce5e87a558ad",
+    "response_text_sha256": "8edd5f0d46edad82348896d1c9fc4e5ffc9c3882d780188f3832c95e6be4721c"
+  },
+  {
+    "designated_outcome_sha256": "bcc81670b5e001d94bbb6417ff4f2d17237b2a3bbc61fa0b915c61d7eb17876d",
+    "job_id": "final-planned-job:325dbc30fad82389132d85d7",
+    "planner_version": 3,
+    "profile_id": "athlete:bb05b21bb2761aa138b1fea5",
+    "public_record_sha256": "24cb61486cced735fcfb31603fbbe5047039ddcd34d56c3017f1bc1f26ad691c",
+    "response_id": "response-ec7a609967c66e7235dc",
+    "response_text_sha256": "b163180aa18f38b29599ebca2fcf025de6202e4d4395299d131a52e4d16d9e5e"
+  },
+  {
+    "designated_outcome_sha256": "29de87dc54439ea02f31ac4212bf8cb88eb7596a7099d89f750baa8eb04f53c4",
+    "job_id": "final-planned-job:551f5f9aed171bd224308928",
+    "planner_version": 4,
+    "profile_id": "athlete:57e6df7bded5278c761c810c",
+    "public_record_sha256": "835d539d93c902bee4f568e6cb5405665b5d501db4b365c3b8137ad5f86a3637",
+    "response_id": "response-dd40683f32a425b10738",
+    "response_text_sha256": "2817603aa6d923fcda6ce0e795dcfcb879f5fb172bf6fc7fa84553b91d50e0ee"
+  },
+  {
+    "designated_outcome_sha256": "fe75c3e47d028b08818335b0d93490c5e4fc9bbfe8a850705071644ef153926f",
+    "job_id": "final-planned-job:61b7b5713967956294de7500",
+    "planner_version": 1,
+    "profile_id": "athlete:335e6c49f6e0040da9cac1d7",
+    "public_record_sha256": "21782819e4618617301b66198b3ba401cfb79424f8c4ceec3865eeac097ae228",
+    "response_id": "response-561be20ae47e5da64d66",
+    "response_text_sha256": "fb3370d71f70deb51a9444601c6b6b68514725b465d12d24eed9935cf2b31fec"
+  },
+  {
+    "designated_outcome_sha256": "d482533016ab8926c52f09d6a128bfd59e96e178d087942af6e3a95d5355a379",
+    "job_id": "final-planned-job:2e7fd5af7eef2609500e93f8",
+    "planner_version": 4,
+    "profile_id": "athlete:8515f5a19ae4b52de553deea",
+    "public_record_sha256": "fd0723d876748a8be26a8a08275c93c96f8df09029fc81ed2dae9aa04e0a95d4",
+    "response_id": "response-e803d848340485fd5122",
+    "response_text_sha256": "54012792a0e42fc18010bd01fa63750a0457463ac463f73ba0adfdfa41a4a0f0"
+  },
+  {
+    "designated_outcome_sha256": "dcc45bef21972bd4fce06b52b1b60fee79567b980726eab0c3476aa0769e7e84",
+    "job_id": "final-planned-job:80b08776f00a3290c74c5131",
+    "planner_version": 4,
+    "profile_id": "athlete:15b4fb8c70e3d9a1edfa6aa3",
+    "public_record_sha256": "cc96997a90335549a65a072203456cd103f741381abb6b356a4091f8cd10e5d9",
+    "response_id": "response-a14b53f275010957ed90",
+    "response_text_sha256": "313c1609ff87b2d4ea3e11ef6878c97d040e9d98a6246a3965748100c8a474b3"
+  },
+  {
+    "designated_outcome_sha256": "b88d599cf75e54e4c5da217f72cd491f1e523d279880329ffe4b95261dcdecb8",
+    "job_id": "final-planned-job:acca02584f83e22d9a6d0c0c",
+    "planner_version": 1,
+    "profile_id": "athlete:b28be1f8026751b409a0581d",
+    "public_record_sha256": "0e93b1fd72db12e15d084aed0a15696dc8c0864a60b3137e0f370e2da69a1748",
+    "response_id": "response-c1ea2368c63045eb20e2",
+    "response_text_sha256": "3487e5ad48ecb6cf9ea44a9c8912e91075f90cc87be6f1e9cefb6799123c81ee"
+  },
+  {
+    "designated_outcome_sha256": "700962e74fd7b7aecc49bcb633e3d42ddaae19c12eb1736eb42a24a8001b21c0",
+    "job_id": "final-planned-job:15a1dbcbeb11e332f3e1e832",
+    "planner_version": 4,
+    "profile_id": "athlete:6e82f687b1695034119a55b4",
+    "public_record_sha256": "e041cba626b15dca07f7956b470cb05d5d3698c93f1079e45e240bba6b6ade1f",
+    "response_id": "response-a7b6315b61ec64756b37",
+    "response_text_sha256": "ce7cd5b0f7754fd7813244fe6c4a8270ed58ff99d91479c90c754a785525e27f"
+  },
+  {
+    "designated_outcome_sha256": "19797c9ab7eb027e25674f1b8381648ebe586dd5378163033b8150f78bde1cea",
+    "job_id": "final-planned-job:f00cf351cb72e4b0ad893642",
+    "planner_version": 3,
+    "profile_id": "athlete:dbe1c1206448e28e9db236c6",
+    "public_record_sha256": "1f6d136f46047cd6bccbf13d0f64db6fb5d408f2fc3a988d59d4bcf8c130f7e4",
+    "response_id": "response-837309dd26f3b3c0e407",
+    "response_text_sha256": "2d99dab08a996b7d0a6599bccb77cc10dc4d4954f429d3f7cba9f6f63813334a"
+  },
+  {
+    "designated_outcome_sha256": "c13f888051191fcfe867461c3291ba56ee9ae6a332ba47625a4541f0acee6e48",
+    "job_id": "final-planned-job:28a229df5689e4d6e1e1674d",
+    "planner_version": 4,
+    "profile_id": "athlete:7d0d0b430d3e9cc5b2648ffb",
+    "public_record_sha256": "7427cdcb20b5a0a12d56f75e8e055ab7f873f4acc0b473092c5bb7c0825556ad",
+    "response_id": "response-5365c0267f1b8e6af0fa",
+    "response_text_sha256": "58cf5baefab5c2085346930a4c52c4f4aff43cb9ee19ad2593125070c696f23a"
+  },
+  {
+    "designated_outcome_sha256": "b596987069ce558611a915b84cb29a3d480dda89064cc0c182c2f99932b6983f",
+    "job_id": "final-planned-job:ca7d8d1c66ce9203600d5e97",
+    "planner_version": 4,
+    "profile_id": "athlete:bb05b21bb2761aa138b1fea5",
+    "public_record_sha256": "24cb61486cced735fcfb31603fbbe5047039ddcd34d56c3017f1bc1f26ad691c",
+    "response_id": "response-40946ebc2d4c7c2deb1c",
+    "response_text_sha256": "bc210d66e899bc0ec262e4a8013fda50935bf47ba43fba19e05784a26b0eb67c"
+  },
+  {
+    "designated_outcome_sha256": "a5837734d878255c26693e9e72a3cb83a3610fd869ccc0c41c260248fb5350b0",
+    "job_id": "final-planned-job:56a4a0b8e8dc7d80f8cf9a26",
+    "planner_version": 2,
+    "profile_id": "athlete:ad2a314e436e15b1ca9105b9",
+    "public_record_sha256": "7ef085a8ecf77ea380c4a0a86cadd3f00fa1ae5f670b517609660638d4bff61f",
+    "response_id": "response-ca6b5447b9ed20ff8134",
+    "response_text_sha256": "466f0e9e62599b4722aa7ec1fe58084d7d7fd9792149486f5abd425a3e84283f"
+  },
+  {
+    "designated_outcome_sha256": "187e7082c8faae531c86a2106afc06bbfce93aecb761544fc31697aff97dc8e1",
+    "job_id": "final-planned-job:341618f4f95eec71fe4e6fff",
+    "planner_version": 3,
+    "profile_id": "athlete:6978e01847087d8400983e0e",
+    "public_record_sha256": "bf92b1d8c26709d9e2a300413e5a8e064b8e8359a8c33b5cab09a4a668e9ce4c",
+    "response_id": "response-dad6ab8443a4e219bee3",
+    "response_text_sha256": "3478d0a478a012c2d95016cf09b47a6d55752161ad0897b4fada6d1e45bc0dfe"
+  },
+  {
+    "designated_outcome_sha256": "942c51d616af79f4e44b762e46464dc8207584b7c6294486a7fc04c04a873e84",
+    "job_id": "final-planned-job:97554e92fab23fecf6765f10",
+    "planner_version": 1,
+    "profile_id": "athlete:bf57f18103c3dfcccdc5d1e5",
+    "public_record_sha256": "284eeac8364811bf72860b0f97cf200b069ebf3962871544725ea4115e5ebf98",
+    "response_id": "response-4b96631416f2d10a7593",
+    "response_text_sha256": "85921cb7d9fa614f87eb2c9bded18dcfd8964cbfd17bde463173c63aa3d06f3f"
+  },
+  {
+    "designated_outcome_sha256": "2880f4e7731f230250fb4c79d14be98c2b5b4e98b2ec1dda4c454cdce4a9b85f",
+    "job_id": "final-planned-job:da6056b3e3986d5406aadc8d",
+    "planner_version": 4,
+    "profile_id": "athlete:16684e2f98f2641e594a0502",
+    "public_record_sha256": "bb8332f3453b0d7aa1c657fee68edb27000fd0c60a8cfbeced62876340089e82",
+    "response_id": "response-063c711c3af8b7cc6739",
+    "response_text_sha256": "733fb6b8654976d53e3314d42d7b748807f7223ce40e1d6d7db918033c58e969"
+  },
+  {
+    "designated_outcome_sha256": "bc4bee96c614728bfd9294d7be2201700ab13b35841485f28420e6b113f41e6c",
+    "job_id": "final-planned-job:877efd923c8de16cc0fd7398",
+    "planner_version": 3,
+    "profile_id": "athlete:c31b0cce768e2854a32cea50",
+    "public_record_sha256": "8dcb92f64f3af1723c7f8c3ad58a6a8a4896515b2d09718f81cc9fed84a74f86",
+    "response_id": "response-4c6adb2d3c2cdb572c15",
+    "response_text_sha256": "40d8beed2eaa7bbd83ef612b19b233f9831c09f238dedf4ab67063afe028037a"
+  },
+  {
+    "designated_outcome_sha256": "3b99ff25c5013d3da43bf1c65e53788efee02eac9e114733f91df94396163833",
+    "job_id": "final-planned-job:9f1838d0df629cbc3f50c469",
+    "planner_version": 4,
+    "profile_id": "athlete:8fa63342e92ef682c276283a",
+    "public_record_sha256": "048fe3929ee10bceefef976fdcce8a1ec0c53361e66d039c76065baf7b2848bc",
+    "response_id": "response-0c6a4bf0ce96b6cd7b3c",
+    "response_text_sha256": "7bd61a5398571caca24c8185b071fc19af64dbede80081de42ce7cd867d70d0e"
+  },
+  {
+    "designated_outcome_sha256": "17aefc4fd4f88710307975e37cf41bbf6623d124500726e76e54cad660d375c8",
+    "job_id": "final-planned-job:fcb0c6feb6195a86b38ef8a5",
+    "planner_version": 2,
+    "profile_id": "athlete:6978e01847087d8400983e0e",
+    "public_record_sha256": "bf92b1d8c26709d9e2a300413e5a8e064b8e8359a8c33b5cab09a4a668e9ce4c",
+    "response_id": "response-ed77ce813f9d11e80e79",
+    "response_text_sha256": "9ba3918f3620f3dec2ee72ceb8765b535f6cde53e41bf0f8ed9566c9b25493dd"
+  },
+  {
+    "designated_outcome_sha256": "de640a22248d2ccb4949cd555edb90871236a75ada9ebce3e9080297811f6da2",
+    "job_id": "final-planned-job:83357b964f9fa5a9fd08bc7c",
+    "planner_version": 4,
+    "profile_id": "athlete:ae7667869cee91eba24b09b2",
+    "public_record_sha256": "94e26787571756cb5df5f0602d96179cecd45983f7fd76e74894b77de6fde555",
+    "response_id": "response-7b9550b24bc323b3829d",
+    "response_text_sha256": "f480e629b05a1207ec66a3d59700bf848376d12801de5b76e675645950b1b3ed"
+  },
+  {
+    "designated_outcome_sha256": "b42a7e076fb614eaee5200022ee9165d87cb808c1aee37b0b36e761fe8ae8cc6",
+    "job_id": "final-planned-job:9a1bd8a133e3f62d5808190f",
+    "planner_version": 4,
+    "profile_id": "athlete:bbe16228348c15853d941b0c",
+    "public_record_sha256": "826a6fbfc6005554db517a7e38db552e10e7fec3bfe8fd1c30677ae970c0d953",
+    "response_id": "response-7f148d339988548ff869",
+    "response_text_sha256": "ebb80c2bc37365893ea903e2ef9a20589140f284f307b9849af79e458c8a2caf"
+  },
+  {
+    "designated_outcome_sha256": "e0b60cdf48537bce69b4bb3c5ba644a33b6d0aabfd38fcecc328039be7588101",
+    "job_id": "final-planned-job:f15a5729b9f30732e5377de3",
+    "planner_version": 2,
+    "profile_id": "athlete:af2fdc0223aee35333950b92",
+    "public_record_sha256": "192ced55442a194d6d4f91c28d18b7384d1df4902886dec3ce162424432a5756",
+    "response_id": "response-b73ea27f0e9b29718c06",
+    "response_text_sha256": "fc78b97539057c8ec75c6a1321d8e676d2a0ada858bef30503b9eb998a19d627"
+  },
+  {
+    "designated_outcome_sha256": "b8ab075937fde189f71487c57b4a5fb8c14d596c8d6287120a0d7fe33b31974f",
+    "job_id": "final-planned-job:813aa39a4218bea5a52d4820",
+    "planner_version": 2,
+    "profile_id": "athlete:944317f52242940c09a9f16c",
+    "public_record_sha256": "b86d07cd3c3f9f3c4c14b3891f6c276da9a3d96e1fd239b467f783c30ee4b7f1",
+    "response_id": "response-804a1da5f70263ff56f4",
+    "response_text_sha256": "5b9f408e5353524d3c767cd6a1428eadc4feaee715efc890d6c7f29bf6023cc3"
+  },
+  {
+    "designated_outcome_sha256": "6fd0d2fa443abd14dc9045395d5c5832498b2645b46b2ef23f8c9e762279394e",
+    "job_id": "final-planned-job:db62938d8072407a5bb344af",
+    "planner_version": 2,
+    "profile_id": "athlete:15b4fb8c70e3d9a1edfa6aa3",
+    "public_record_sha256": "cc96997a90335549a65a072203456cd103f741381abb6b356a4091f8cd10e5d9",
+    "response_id": "response-2d8dce292e97426bf527",
+    "response_text_sha256": "59d34c496ca4342111fa115fcbc46eb5a40e8657e7b4ca211f5b74ee613368a9"
+  },
+  {
+    "designated_outcome_sha256": "3d7347898ebbb528873127efbef0ce688e87f60d4f5fc60aa564326bc5824852",
+    "job_id": "final-planned-job:d47037a28a57570a4f8f3035",
+    "planner_version": 1,
+    "profile_id": "athlete:23cc530c51abcdf592bc1168",
+    "public_record_sha256": "7561bdc8769dcb88ed42c450281fd2ea9dfa0669f866840fb1258d5d832514d0",
+    "response_id": "response-e7e4e9bff2c1c13a0732",
+    "response_text_sha256": "ccab6e7a4589317f26c84c24e432ff2608e9ab44851526d612ba8afba845b83f"
+  },
+  {
+    "designated_outcome_sha256": "2002c55bc7c90de8587e415b75cf2b07a2b1fe9800e8d95d02d526266e9234d5",
+    "job_id": "final-planned-job:9269af208d2866e94736457b",
+    "planner_version": 3,
+    "profile_id": "athlete:0264fb89b723b546c1f312ee",
+    "public_record_sha256": "37a053a175f46faf07d5a3b7d00ae6974113ae2d7977e374b4106b724af39f4a",
+    "response_id": "response-a1375db4699d307dbc17",
+    "response_text_sha256": "be7b59fc06f322fe9f9a5d83d13f07a0c686397573325608c2b6c6da96d327cd"
+  },
+  {
+    "designated_outcome_sha256": "5fb127aa1a850c7d10d80c1b3bcb51658fc97982a557d1389d3fef169f254c1b",
+    "job_id": "final-planned-job:b6c6546592e19ae4ef90eaee",
+    "planner_version": 1,
+    "profile_id": "athlete:15b4fb8c70e3d9a1edfa6aa3",
+    "public_record_sha256": "cc96997a90335549a65a072203456cd103f741381abb6b356a4091f8cd10e5d9",
+    "response_id": "response-52165ac9076046d9e9b5",
+    "response_text_sha256": "11668307db8e8e9b3cfb6fcca0805dd3d00a0d6030d8eb87ee3a9c87b22dcff7"
+  },
+  {
+    "designated_outcome_sha256": "02c723fa08e0681d973e617ca7d2007f5cf74d83869f8e9ec27c4dd56e8aa47a",
+    "job_id": "final-planned-job:ea785160f01efdc8d6ef9df5",
+    "planner_version": 1,
+    "profile_id": "athlete:57e6df7bded5278c761c810c",
+    "public_record_sha256": "835d539d93c902bee4f568e6cb5405665b5d501db4b365c3b8137ad5f86a3637",
+    "response_id": "response-6e4b5b9a91a5745a343b",
+    "response_text_sha256": "8cfca113f9adc7d8307c80e8865489245b115e26d79d66d287f4b0382e603892"
+  },
+  {
+    "designated_outcome_sha256": "62190bbf871028f4fde1e0bc23ab9195bdd84cabeee4133f38bcf08a84c520cc",
+    "job_id": "final-planned-job:13b89e7f22fbcb8e33309071",
+    "planner_version": 4,
+    "profile_id": "athlete:3579c359865a3b0633420bc5",
+    "public_record_sha256": "c069aacb8c96b6354896cb275c31031b76142f6e9e4cac8896f5eb1e36dedbf9",
+    "response_id": "response-2814a4317447f8732102",
+    "response_text_sha256": "544d6eaf1fc0f47934d049ca771c7f19eb8695b2fc13e134f5edc590eabc57e6"
+  },
+  {
+    "designated_outcome_sha256": "efa7e0d92dfdaecbbc5bb1c9ccc22fdb80e7cb9ca779b0c0a1aa96287573ac7c",
+    "job_id": "final-planned-job:c75a68cdd2d0f093c19bfb0b",
+    "planner_version": 2,
+    "profile_id": "athlete:0bd98fbb1359aef1d93d3ae3",
+    "public_record_sha256": "fe2595029d28cf4e9ddd786462b6e42b0a1e31a10c62c25773699a54bf0dbd30",
+    "response_id": "response-200e8f0f11dbded6d28d",
+    "response_text_sha256": "36af82ee23f64e979ab5048c23571cc76eb2011738b4e00c8990a69fb685d3d3"
+  },
+  {
+    "designated_outcome_sha256": "fc619d213c0a0ac70156fcbab555d62bf7f7027560fd8303916f8fc36c394315",
+    "job_id": "final-planned-job:102e2268a4156f13f075d318",
+    "planner_version": 3,
+    "profile_id": "athlete:dca429060e66c73171cbf428",
+    "public_record_sha256": "a41ddd1c4c0f4dee72752c7998d7eb8251208a6a1a5cd52fcfd0bfb15fd8b4b5",
+    "response_id": "response-491bdab28ab140fee7d5",
+    "response_text_sha256": "1ecb392b3624ef3ec254139aeb482e7c54e39c5f50f6de28e3ad1c65c2ba81c2"
+  },
+  {
+    "designated_outcome_sha256": "f3da805322e3817daf2d183d32d1fed6c26aae6e1d0cb77a4c140e8fdc21863d",
+    "job_id": "final-planned-job:bc6ed9e1a2333afeab403701",
+    "planner_version": 2,
+    "profile_id": "athlete:76b0a01554bed9f1af595554",
+    "public_record_sha256": "609ebe25b2c6674bd8e96966bbfd38762128cde640eebcf8653dcec272d474d2",
+    "response_id": "response-ea161661cefa8a5115f5",
+    "response_text_sha256": "aefa32f702422075dba0ca6f517dc7201cbc84a22f4febf062565c419be79760"
+  },
+  {
+    "designated_outcome_sha256": "1734f8e8499a1782869b1a5d147be183b8937eecea19fb255e8f713a39d54c41",
+    "job_id": "final-planned-job:cece079840c9101cc48034f0",
+    "planner_version": 3,
+    "profile_id": "athlete:335e6c49f6e0040da9cac1d7",
+    "public_record_sha256": "21782819e4618617301b66198b3ba401cfb79424f8c4ceec3865eeac097ae228",
+    "response_id": "response-0530ddf5bf18c94b3087",
+    "response_text_sha256": "36a78b5920426726633955101ec142e8ab52a0fdf338d3a9ca146f6a515decad"
+  },
+  {
+    "designated_outcome_sha256": "8ae7343d450f55f5a06fce5c81d6736502214b0bf649d9f6aaa32c42617ffb17",
+    "job_id": "final-planned-job:9fa1261932aa88d3b23e436f",
+    "planner_version": 2,
+    "profile_id": "athlete:8cf1150082214b6f75e5a62c",
+    "public_record_sha256": "fa3685ca34199930c9d2bfa6763cb91e2817d51278de3110f8eca4c9a511b9b2",
+    "response_id": "response-f1bedb0f9d0d773076a2",
+    "response_text_sha256": "35a89ab37888d55c33e8c72275f58ca954dafd215975ffe45acc354180c1b76f"
+  },
+  {
+    "designated_outcome_sha256": "13b58edda8032fde7dda4d393c63b23822f445ed146b5cbf9ce78f747e67af66",
+    "job_id": "final-planned-job:ef834fe1499fa9618d300950",
+    "planner_version": 2,
+    "profile_id": "athlete:c31b0cce768e2854a32cea50",
+    "public_record_sha256": "8dcb92f64f3af1723c7f8c3ad58a6a8a4896515b2d09718f81cc9fed84a74f86",
+    "response_id": "response-233b7846c2d130153766",
+    "response_text_sha256": "ed136731ad08aa83e0261dd3f012e474a9632c43a3585ab221ca98e5b0510474"
+  },
+  {
+    "designated_outcome_sha256": "1e92578f78a1c6fa727fa145ac3a6cf9cec4cf0b05551b3b938ef4d30e46abe3",
+    "job_id": "final-planned-job:4030a830f29fc04942067cac",
+    "planner_version": 4,
+    "profile_id": "athlete:ca7860ef2d2e6094deb08803",
+    "public_record_sha256": "7589b28544a33ebc89baa6f904aae503c0dbcef98b16402a4e357b8115bee0ea",
+    "response_id": "response-68bc9a28d63393795b5f",
+    "response_text_sha256": "be42b9ed5d9e727a38cb3b8aa50bd859da11825f6279181872e429b12af5e965"
+  },
+  {
+    "designated_outcome_sha256": "7754bec0fc98e4563f49e39d9d74708149c4153efe749077a9601160f659fd94",
+    "job_id": "final-planned-job:82ee1af4d136357c0534f8a2",
+    "planner_version": 1,
+    "profile_id": "athlete:3793ee6a869913f0409d9a74",
+    "public_record_sha256": "dc8a5e8a903c3faf190550fcfcd37d9638e00588f02942b00ba3f22415c2bd39",
+    "response_id": "response-61743a280227933cf44a",
+    "response_text_sha256": "4ee0b17761e8201c2c010fe2816b70476d1a232b6f8c9119ad31072bc17d02fb"
+  },
+  {
+    "designated_outcome_sha256": "e381c50d28a173c93ccf22a1c86480c201927e5a66631312636481df018890ed",
+    "job_id": "final-planned-job:880bd33443fdb8ad84877bc4",
+    "planner_version": 2,
+    "profile_id": "athlete:dbe1c1206448e28e9db236c6",
+    "public_record_sha256": "1f6d136f46047cd6bccbf13d0f64db6fb5d408f2fc3a988d59d4bcf8c130f7e4",
+    "response_id": "response-37d7ecb16af9f8175a8a",
+    "response_text_sha256": "bfcc4d2a78d981df351088ddc20eb4689f4903eb7f258e9d558ff37c71ceb4b2"
+  },
+  {
+    "designated_outcome_sha256": "b3900b376e290b95e3b510a4273798566d1932441bc8e950149cb456e0d59641",
+    "job_id": "final-planned-job:28f9e52a5d788b45e38ade10",
+    "planner_version": 1,
+    "profile_id": "athlete:15590ca139dda47097d39e9c",
+    "public_record_sha256": "f258e7ce28afd0c8550bd00e3c9a42549f43368ddbe24bc31923d041dbdd8e93",
+    "response_id": "response-df6b0b120e05f9fb40a9",
+    "response_text_sha256": "84be06b11fc33faf302ec028168884f2e83cca5f9ca8e3a2eb55f9061ea93e2d"
+  },
+  {
+    "designated_outcome_sha256": "14dfaf5d23f2c1b541272b9b07ceb099894bb530ce329a1e6efbb67f067379db",
+    "job_id": "final-planned-job:e272ae52bea3dab72a0fbd14",
+    "planner_version": 1,
+    "profile_id": "athlete:bbe16228348c15853d941b0c",
+    "public_record_sha256": "826a6fbfc6005554db517a7e38db552e10e7fec3bfe8fd1c30677ae970c0d953",
+    "response_id": "response-8030992b6b8abc4684b9",
+    "response_text_sha256": "07507e696064f2860e397a99837d01907c5ce0096e79eaedce694e339648931b"
+  },
+  {
+    "designated_outcome_sha256": "cbdff04fd8894a267334905d234fa43a989c2d81e95b85eabfe74d24746d3036",
+    "job_id": "final-planned-job:cda9725bc89d7d476e00a6f7",
+    "planner_version": 4,
+    "profile_id": "athlete:f9362e0b8213e950b078eddd",
+    "public_record_sha256": "413204fec6761e838170cdf8cc6ac82087e8a2246fa0df74a57a8ff386e7b3b0",
+    "response_id": "response-0725793784d757ab5e27",
+    "response_text_sha256": "d7e8a7e03d6d0331b2386894e4b70dbf042146ccdfaa94fc361ef4ee1b6a4185"
+  },
+  {
+    "designated_outcome_sha256": "cb27a07824994d18906e07d12ee834689271b57e0dc269052bf56fadeca296f7",
+    "job_id": "final-planned-job:c22410d3513715cd7949e193",
+    "planner_version": 4,
+    "profile_id": "athlete:76b0a01554bed9f1af595554",
+    "public_record_sha256": "609ebe25b2c6674bd8e96966bbfd38762128cde640eebcf8653dcec272d474d2",
+    "response_id": "response-78bb0d3d09603c7cbd7a",
+    "response_text_sha256": "484e97adc83f1405a4c430cca24702971a84c943b92c5cf1c9ce43da432a64e1"
+  },
+  {
+    "designated_outcome_sha256": "474b8572fa75686bb0637d10df67ca84ee700a5b81e57699997fdb053a3d8ca0",
+    "job_id": "final-planned-job:bbfed758e1d822f45a5137af",
+    "planner_version": 3,
+    "profile_id": "athlete:ad2a314e436e15b1ca9105b9",
+    "public_record_sha256": "7ef085a8ecf77ea380c4a0a86cadd3f00fa1ae5f670b517609660638d4bff61f",
+    "response_id": "response-f6ac41e72b199c0bbd33",
+    "response_text_sha256": "e9339e204a1025239329c8f830f1dda7611f0fcb5e539a07f8a58f4bc11f7555"
+  },
+  {
+    "designated_outcome_sha256": "03886cdfc8b981a45d5394fd05969a075ef667c82be3fb025b89d65354b7ec42",
+    "job_id": "final-planned-job:8bff02b0020577a66902d50d",
+    "planner_version": 3,
+    "profile_id": "athlete:16684e2f98f2641e594a0502",
+    "public_record_sha256": "bb8332f3453b0d7aa1c657fee68edb27000fd0c60a8cfbeced62876340089e82",
+    "response_id": "response-041c46e3c2ed1a7ff4d6",
+    "response_text_sha256": "a8f2c08b69b57c8d6b248d7f6394895b31b6b16f9e466b5d4bee378ddcbbe3a2"
+  },
+  {
+    "designated_outcome_sha256": "2bc0f1c7a230de318a029e941d8510b811e5dbc52e6a1d8cb2081095e13782cc",
+    "job_id": "final-planned-job:1d0b75e836f1948ac8b48cdd",
+    "planner_version": 4,
+    "profile_id": "athlete:944317f52242940c09a9f16c",
+    "public_record_sha256": "b86d07cd3c3f9f3c4c14b3891f6c276da9a3d96e1fd239b467f783c30ee4b7f1",
+    "response_id": "response-066e048d715ccacc4fa6",
+    "response_text_sha256": "e326edfd7a4d1acd10328aa930bbc1c53198be54cb6565fa7091c428b24306a8"
+  },
+  {
+    "designated_outcome_sha256": "dbc20080a26364b7354474a45d1975d42f124f4788f458c27ff503341dcfa196",
+    "job_id": "final-planned-job:95e83daafbd61217b472fde3",
+    "planner_version": 4,
+    "profile_id": "athlete:ecd9fd6743e4c0251e222140",
+    "public_record_sha256": "5bf5cd4324fb0081a92a6b1c538dbecef1c8b0f3eb82647b88702bb4cb6cb353",
+    "response_id": "response-b62b83eac0d1873449e0",
+    "response_text_sha256": "d99b7c52040d30b98f55cd559c053e0eee25b2c0b0d87c41b2cedef315dc4a99"
+  },
+  {
+    "designated_outcome_sha256": "b29c63440c2b16b57eedf817d2af6666936530b14bbde4fd093a8ab0942d62fe",
+    "job_id": "final-planned-job:14bbd698c12661df63c00ed2",
+    "planner_version": 1,
+    "profile_id": "athlete:27eda8314b257f32fe90d8a5",
+    "public_record_sha256": "21e2b7e482a81f727dd35d1403b10ff373664f429064984832267b39acaa2607",
+    "response_id": "response-da9eecf1e528a6b714d7",
+    "response_text_sha256": "99c517ba4ee5a68c35434701fac9231ab398316994eb529433cb85fbe319d541"
+  },
+  {
+    "designated_outcome_sha256": "3579579975a2d19181854fd245ced399a2f2fcd98a9ac92ae82526df10c9e94a",
+    "job_id": "final-planned-job:4a280870a86e96e268c94105",
+    "planner_version": 4,
+    "profile_id": "athlete:23cc530c51abcdf592bc1168",
+    "public_record_sha256": "7561bdc8769dcb88ed42c450281fd2ea9dfa0669f866840fb1258d5d832514d0",
+    "response_id": "response-909edd793468c81ef6e9",
+    "response_text_sha256": null
+  },
+  {
+    "designated_outcome_sha256": "26a269dec69355b53bf43223b350953911a47bc6b006ac3c709c81b005b1ee24",
+    "job_id": "final-planned-job:032e22c3ace6bcac909abb2c",
+    "planner_version": 1,
+    "profile_id": "athlete:4382d275e1271cf7f5e3c654",
+    "public_record_sha256": "1123f81364615cc574113ef972b7f372ae4247d701c3bdc56a6af1b295d6756c",
+    "response_id": "response-c0c99346708e4aaa3821",
+    "response_text_sha256": "ed3e107601545595a84e91986ba157f32dd0c951b74864cfcb5202056dc0f809"
+  },
+  {
+    "designated_outcome_sha256": "927f39db78678f719edaaa13ed038cd9606b1a7fcbe2fbb825bafb31f20a0277",
+    "job_id": "final-planned-job:bb22e8e64a162f257ea8529d",
+    "planner_version": 2,
+    "profile_id": "athlete:ae7667869cee91eba24b09b2",
+    "public_record_sha256": "94e26787571756cb5df5f0602d96179cecd45983f7fd76e74894b77de6fde555",
+    "response_id": "response-2bea9aef3fcdfc9ed496",
+    "response_text_sha256": "a060e890d819658733aecf2175a18555e125cc659cfd2cc42b711a7c4178421b"
+  },
+  {
+    "designated_outcome_sha256": "7813a4a9e2605d60751327fa00a406fcd7771e87327153468fddfce98f7b4610",
+    "job_id": "final-planned-job:222ba9e4856de604cd013753",
+    "planner_version": 4,
+    "profile_id": "athlete:b28be1f8026751b409a0581d",
+    "public_record_sha256": "0e93b1fd72db12e15d084aed0a15696dc8c0864a60b3137e0f370e2da69a1748",
+    "response_id": "response-9dbfb4f0f13d149ca66a",
+    "response_text_sha256": "3a9145a9b14e36f51bcfd06dd5b820ba80c952be2f1910c3621a7de7e2f2d7f0"
+  },
+  {
+    "designated_outcome_sha256": "bb8bd1f37cc3d91776db62877b3811fb59e02a3caedc2968a898ed2e49bb099a",
+    "job_id": "final-planned-job:2f1ead475c98469bb53804fd",
+    "planner_version": 1,
+    "profile_id": "athlete:ecd9fd6743e4c0251e222140",
+    "public_record_sha256": "5bf5cd4324fb0081a92a6b1c538dbecef1c8b0f3eb82647b88702bb4cb6cb353",
+    "response_id": "response-9f79cb8621f3bb88557e",
+    "response_text_sha256": "b377ed6087dcae5bc1694b9725d3e8cfa8471fd71a5005d0dbdb7332440098d4"
+  },
+  {
+    "designated_outcome_sha256": "bd40314ca51fbb0d30a8b4e998655f6efdfbd99b21b9dc604cd8de7426d949f8",
+    "job_id": "final-planned-job:319e73b2d7d668830c74a450",
+    "planner_version": 1,
+    "profile_id": "athlete:ad2a314e436e15b1ca9105b9",
+    "public_record_sha256": "7ef085a8ecf77ea380c4a0a86cadd3f00fa1ae5f670b517609660638d4bff61f",
+    "response_id": "response-28fbb72976385ceed343",
+    "response_text_sha256": "f8b8409ea0d883ab6c61d970fefc00c147879b44012b6374d58c4e2e8d36cf7b"
+  },
+  {
+    "designated_outcome_sha256": "9e6a6b2607130a41a5ada9a1ece0e60c7d11933662cfd7c416d80e98f702b315",
+    "job_id": "final-planned-job:89a909be21da9333cb689e91",
+    "planner_version": 2,
+    "profile_id": "athlete:ca7860ef2d2e6094deb08803",
+    "public_record_sha256": "7589b28544a33ebc89baa6f904aae503c0dbcef98b16402a4e357b8115bee0ea",
+    "response_id": "response-b10f4f3d4306ac3f7e8e",
+    "response_text_sha256": "5a1a31cd2ec270b8109178dbd5cb9409af955f529bb73ed38ad3736fc2a0e941"
+  },
+  {
+    "designated_outcome_sha256": "66356a929693b9b2652670acf83454182d783ac69486dc1fcf7091eacdc6cb70",
+    "job_id": "final-planned-job:06036c0f33a756baff58ccd4",
+    "planner_version": 2,
+    "profile_id": "athlete:3793ee6a869913f0409d9a74",
+    "public_record_sha256": "dc8a5e8a903c3faf190550fcfcd37d9638e00588f02942b00ba3f22415c2bd39",
+    "response_id": "response-d382aecf0245fc3a6e04",
+    "response_text_sha256": "5b1272522e7dcc83d57d11bd5e2b784c42fe87d098876da468b022ed3b7b18e1"
+  },
+  {
+    "designated_outcome_sha256": "f779a86d6865a72706e18ad5dc11cf6823c6f61581d3676ec6c3bb35704f2e3a",
+    "job_id": "final-planned-job:95ed9201421957c5f94d738a",
+    "planner_version": 1,
+    "profile_id": "athlete:f9362e0b8213e950b078eddd",
+    "public_record_sha256": "413204fec6761e838170cdf8cc6ac82087e8a2246fa0df74a57a8ff386e7b3b0",
+    "response_id": "response-a63b5a93ebae82921dce",
+    "response_text_sha256": "65fa5795e82e7d55a972d1493bcd33527c37f35bc9fb2d1f143a5de788e0e98c"
+  },
+  {
+    "designated_outcome_sha256": "61603b21c33bd2a870286cb1170f91f2fb7f021960fb9ef498977b64fd99110b",
+    "job_id": "final-planned-job:beb207373ea4561d48b85a3e",
+    "planner_version": 4,
+    "profile_id": "athlete:52ce54f1434a88cdf0eea3bf",
+    "public_record_sha256": "ec185da708da82f489c94aa5281dab395fe6c33b65519bae4644a3dd46d17e81",
+    "response_id": "response-0a4ddb6d47d17b6619c3",
+    "response_text_sha256": "02215229f9323f898d9cd998eb04c8974614cb969219e940e2982a9c95ecdef1"
+  },
+  {
+    "designated_outcome_sha256": "e16c57968496a7645582d909e1f3a92091ed186fdf5dd82f8143b273e7d65da0",
+    "job_id": "final-planned-job:db7c22e63984b74227ddd941",
+    "planner_version": 4,
+    "profile_id": "athlete:4159004d86b223012fd3da0b",
+    "public_record_sha256": "b828637d40d739dc6b585459768ed6552752ddaacfa2574015f4db49576a2564",
+    "response_id": "response-cd97e059188ab7cb068b",
+    "response_text_sha256": "97eca208bf0359c56de5907b1d3ba2a9336a5195a0baacdc405c99b110a7b25a"
+  },
+  {
+    "designated_outcome_sha256": "48d58660af76987fd2483fbda1b2850c946230b49fde3cb7a4b8c43b71f95263",
+    "job_id": "final-planned-job:0f10598479799bdee7a99db5",
+    "planner_version": 2,
+    "profile_id": "athlete:5ce8fddff68dc79c93f7c108",
+    "public_record_sha256": "f2d9271e97000772d477bfacbe7e1a3eb2c4df9a95da7f07d71d822cf34822eb",
+    "response_id": "response-4960be6ced230b5e825f",
+    "response_text_sha256": "f88e1753bced9f4a002306ffc2eade27e01095daa00de9a18c4897d4e4822d49"
+  },
+  {
+    "designated_outcome_sha256": "ad39611f937b012b3495452c86d2da4548afff44f5b446e86f5846f8fcb01544",
+    "job_id": "final-planned-job:f8679ca06a06a17c032d2833",
+    "planner_version": 2,
+    "profile_id": "athlete:8515f5a19ae4b52de553deea",
+    "public_record_sha256": "fd0723d876748a8be26a8a08275c93c96f8df09029fc81ed2dae9aa04e0a95d4",
+    "response_id": "response-65e3bdb38d485f76f362",
+    "response_text_sha256": "d3797cc050681621608652e0cbf9f56bb547c23f7a7bc595b5541a0090c082e5"
+  },
+  {
+    "designated_outcome_sha256": "3dcc1c3deae2ea818ec862907e046b880939e2005743b2c0f19ff79367f0be18",
+    "job_id": "final-planned-job:76960000e2a99e318cf03eb2",
+    "planner_version": 2,
+    "profile_id": "athlete:05ef4dc8fd1a1ba8d2e3dd6b",
+    "public_record_sha256": "ae38b0c369bfd272a1f95d8c306f0287d4d6f3cdbcced7184ccf072e68e5f834",
+    "response_id": "response-bdd95463bb8647baca20",
+    "response_text_sha256": "946759443028cd4d95960b6d4cab6ce2bd90449825a5b1be5633504d9d4aa0cd"
+  },
+  {
+    "designated_outcome_sha256": "48038d63110db6a2f6be883278f1fff2f6a8ff7c05d0317eab5a93a5caf22ef3",
+    "job_id": "final-planned-job:f7f9b25292582e7ff4af92a5",
+    "planner_version": 3,
+    "profile_id": "athlete:3579c359865a3b0633420bc5",
+    "public_record_sha256": "c069aacb8c96b6354896cb275c31031b76142f6e9e4cac8896f5eb1e36dedbf9",
+    "response_id": "response-a945ff0f67628d30e39c",
+    "response_text_sha256": "055b32e49647bee50f45d7393212f722d535768396151ded18f3d358f4a5a504"
+  },
+  {
+    "designated_outcome_sha256": "9d6a7c6980f4f3d468a7bb8afa9c8d9bb6b6cf8c24c96efc7346f0c50e8e9268",
+    "job_id": "final-planned-job:50388be1d554a5eea7c21599",
+    "planner_version": 3,
+    "profile_id": "athlete:bf57f18103c3dfcccdc5d1e5",
+    "public_record_sha256": "284eeac8364811bf72860b0f97cf200b069ebf3962871544725ea4115e5ebf98",
+    "response_id": "response-5c815f810ea876d70a29",
+    "response_text_sha256": "019dbd38e102b5b9f19bacce860c774b74f23ce3daa0ff5d2cfeb25de6b0d683"
+  },
+  {
+    "designated_outcome_sha256": "6e713d2b54acd80acbc896e0bc4794d84f53ee076a83b3ca895963f6bc554d03",
+    "job_id": "final-planned-job:99649b0fcba9342dc8a79be6",
+    "planner_version": 1,
+    "profile_id": "athlete:dca429060e66c73171cbf428",
+    "public_record_sha256": "a41ddd1c4c0f4dee72752c7998d7eb8251208a6a1a5cd52fcfd0bfb15fd8b4b5",
+    "response_id": "response-78dc443d4b1c0ac0e614",
+    "response_text_sha256": "df58ff31c3805d0be28248aca759f686a2246c035e3ec6b8433acc579a3eafcd"
+  },
+  {
+    "designated_outcome_sha256": "301a9d75adab1131fda35ce703fbccca3e569826593b710350a100ffe3b7dc65",
+    "job_id": "final-planned-job:97b614c2ad43f632ec0ae963",
+    "planner_version": 1,
+    "profile_id": "athlete:8fa63342e92ef682c276283a",
+    "public_record_sha256": "048fe3929ee10bceefef976fdcce8a1ec0c53361e66d039c76065baf7b2848bc",
+    "response_id": "response-5f50b9ad36b6bee9343f",
+    "response_text_sha256": "33da6f760270bf223d7457ec98cd6346f901375d9c252df9957e5a10f84c0b46"
+  },
+  {
+    "designated_outcome_sha256": "a14fb8a16749a81abb4cd3246eaf5762827d34cfedd047d2508fd01916ea74bf",
+    "job_id": "final-planned-job:9a6f94c3f34397fd2ad6ad9c",
+    "planner_version": 4,
+    "profile_id": "athlete:d6883ef3f1edc2b0a7507a6f",
+    "public_record_sha256": "d3efb4582f3025d249672e9c4d18d95b70e4d963adfe9690e788e7e688986a9a",
+    "response_id": "response-1be85b2fef010f497bfa",
+    "response_text_sha256": "490b3e5492c44643306151e58d054d8122841ec42190a3e8ded8e6d8ad0d3ae3"
+  },
+  {
+    "designated_outcome_sha256": "94d601ef98d04d0fafdcb0fe0ca1eb0308d536f2cb06c9ab0b869f96fda08c13",
+    "job_id": "final-planned-job:31c31e606a21bf9beb10ca2d",
+    "planner_version": 1,
+    "profile_id": "athlete:5ce8fddff68dc79c93f7c108",
+    "public_record_sha256": "f2d9271e97000772d477bfacbe7e1a3eb2c4df9a95da7f07d71d822cf34822eb",
+    "response_id": "response-f089bfca138081ec276a",
+    "response_text_sha256": "7dfecfd510d9b8c5f35069117aac3c322e489cb4bec7376c1e143bb34d1f1220"
+  },
+  {
+    "designated_outcome_sha256": "7396fec91042139c013a58e4a01b340dd9e9e361994bd27b1765cc35889126eb",
+    "job_id": "final-planned-job:bce59867eca7ed3834bac0e8",
+    "planner_version": 2,
+    "profile_id": "athlete:7d0d0b430d3e9cc5b2648ffb",
+    "public_record_sha256": "7427cdcb20b5a0a12d56f75e8e055ab7f873f4acc0b473092c5bb7c0825556ad",
+    "response_id": "response-26e971d5f5c66d94077a",
+    "response_text_sha256": "e8cf6750f18ca1b204f20b027a8b28847d3b3c893d9cbff223cef506d6736494"
+  },
+  {
+    "designated_outcome_sha256": "ee23fd6a04b653e936dfe97ae1a9d819203e46a0601bbfaa0979742575b9161b",
+    "job_id": "final-planned-job:2d101b3e41bfd8a1ea80e7d9",
+    "planner_version": 2,
+    "profile_id": "athlete:3579c359865a3b0633420bc5",
+    "public_record_sha256": "c069aacb8c96b6354896cb275c31031b76142f6e9e4cac8896f5eb1e36dedbf9",
+    "response_id": "response-e53f0a24b8533be55bbe",
+    "response_text_sha256": "b9c4928ac60e925590c99c06a44edafdec51a5f9ab78ffef5976cda45d8f3265"
+  },
+  {
+    "designated_outcome_sha256": "5ef9b3c0fd89c4ecdcb2c4ae4eeef93f7f3183729d914007f78f49a635f0c4a2",
+    "job_id": "final-planned-job:6180e9fcc4cebc0e11220a1c",
+    "planner_version": 1,
+    "profile_id": "athlete:ca7860ef2d2e6094deb08803",
+    "public_record_sha256": "7589b28544a33ebc89baa6f904aae503c0dbcef98b16402a4e357b8115bee0ea",
+    "response_id": "response-b7c4040a5f120ab9aecb",
+    "response_text_sha256": "e09c5ecdebc02c8b2d9adb4feb6d5b58326f58f76be7fa8fee80ec7097f51241"
+  },
+  {
+    "designated_outcome_sha256": "0f7942bfb75f78f60e3d7bfa18e21842ee71917ef899b0dcc8cc3b3b35c5f0ce",
+    "job_id": "final-planned-job:90de004629b98e08b3359039",
+    "planner_version": 3,
+    "profile_id": "athlete:6e82f687b1695034119a55b4",
+    "public_record_sha256": "e041cba626b15dca07f7956b470cb05d5d3698c93f1079e45e240bba6b6ade1f",
+    "response_id": "response-13670ad6336a05d96a56",
+    "response_text_sha256": "36a25bd763667071544f4fe8d05e032a1e2402dfbfd7ca82f5261f66ee65b6a4"
+  },
+  {
+    "designated_outcome_sha256": "4a203557a6caf7bc30b08b79b72ec7c57f220ace0bd5af43a9abfb881f046801",
+    "job_id": "final-planned-job:d6b7e13bd493154231faac73",
+    "planner_version": 2,
+    "profile_id": "athlete:4159004d86b223012fd3da0b",
+    "public_record_sha256": "b828637d40d739dc6b585459768ed6552752ddaacfa2574015f4db49576a2564",
+    "response_id": "response-dad42b78b692f8631967",
+    "response_text_sha256": "25fb9e6946f44ab383c714f6fba99190daa4ee8faf5b00b695157522501c7002"
+  },
+  {
+    "designated_outcome_sha256": "f7f3492b63d43f6e56aa3e40a8a6b1afb7e26065abb3ad275b698d9f1f0133ce",
+    "job_id": "final-planned-job:2893d0c1d0e5fff3e0b44c74",
+    "planner_version": 2,
+    "profile_id": "athlete:8fa63342e92ef682c276283a",
+    "public_record_sha256": "048fe3929ee10bceefef976fdcce8a1ec0c53361e66d039c76065baf7b2848bc",
+    "response_id": "response-cdd5755c5cfa282417ac",
+    "response_text_sha256": "2bc65a5bafc7778e794eff3f8ab531d9b5a7cdcd4b4d7aba714d5f3f071745fc"
+  },
+  {
+    "designated_outcome_sha256": "2f4a87805f4aa3c446f3771a4ad1a1611c68ab3ed234a7c0746cfa03b8b1778c",
+    "job_id": "final-planned-job:26753b63a229c1ca0912bb27",
+    "planner_version": 4,
+    "profile_id": "athlete:af2fdc0223aee35333950b92",
+    "public_record_sha256": "192ced55442a194d6d4f91c28d18b7384d1df4902886dec3ce162424432a5756",
+    "response_id": "response-fadc9367291df4a03b46",
+    "response_text_sha256": "d49eaddf38abb412738774668de95f6368ecd8c9955a24b6fbd0645065edf20c"
+  },
+  {
+    "designated_outcome_sha256": "80b723ad9470dd781f8c87f25e44d865ae2f0596aad0da4ae26edbc4968002be",
+    "job_id": "final-planned-job:25920451311c3ddabb64ab77",
+    "planner_version": 1,
+    "profile_id": "athlete:4159004d86b223012fd3da0b",
+    "public_record_sha256": "b828637d40d739dc6b585459768ed6552752ddaacfa2574015f4db49576a2564",
+    "response_id": "response-b1430bd7641c5eb16835",
+    "response_text_sha256": "a1b8950175494e9541b9be119e8c2b22631271ce0a897046bd39995b17d4fe99"
+  },
+  {
+    "designated_outcome_sha256": "85d26547990763bd6f86214745a7b30ac4151de987a3a31e88c320287f2390b6",
+    "job_id": "final-planned-job:b6b37a3d378f249b542f87df",
+    "planner_version": 3,
+    "profile_id": "athlete:7d0d0b430d3e9cc5b2648ffb",
+    "public_record_sha256": "7427cdcb20b5a0a12d56f75e8e055ab7f873f4acc0b473092c5bb7c0825556ad",
+    "response_id": "response-84e57bad9dd4cf23f1ec",
+    "response_text_sha256": "650cca09a74a8a3588f347cdd8780ce7272c0cf59511870d4d09cbfeba6a6386"
+  },
+  {
+    "designated_outcome_sha256": "27e4653822051ac9e4e2732579efdcf3524645aa52844c1ff0eaeeccbc627fb7",
+    "job_id": "final-planned-job:8f5a501325da8698760d3bed",
+    "planner_version": 3,
+    "profile_id": "athlete:af2fdc0223aee35333950b92",
+    "public_record_sha256": "192ced55442a194d6d4f91c28d18b7384d1df4902886dec3ce162424432a5756",
+    "response_id": "response-f3a282cb1265ed12706b",
+    "response_text_sha256": "2d72df1fcf558321beedccc28aabaf91d48388e61003c688e2d0f97367687627"
+  },
+  {
+    "designated_outcome_sha256": "af148b3b97a3612b79220538373110bd7b8d3a25f8bd19549832154f67b8260d",
+    "job_id": "final-planned-job:e909416bd6a78ad8d1d7746d",
+    "planner_version": 2,
+    "profile_id": "athlete:52ce54f1434a88cdf0eea3bf",
+    "public_record_sha256": "ec185da708da82f489c94aa5281dab395fe6c33b65519bae4644a3dd46d17e81",
+    "response_id": "response-16450f327048e2727967",
+    "response_text_sha256": "4cbfa79cd00adc86a4316e8b9777dbcbc075be9de844fb221f0c8032371de7e7"
+  },
+  {
+    "designated_outcome_sha256": "911646d1e3bfaa618be3c4f0228c4ca5d7349ac2a9a39b59034235359e8b0d5d",
+    "job_id": "final-planned-job:57759eab795b186b11793b8b",
+    "planner_version": 1,
+    "profile_id": "athlete:54fb79636447289c18bd155b",
+    "public_record_sha256": "dd955bed8fd0fa8786b2e28206a07c797d3551892e059bf81b9a4b2e3d274a6d",
+    "response_id": "response-e241e82e2eb18dce43a8",
+    "response_text_sha256": "f8e76b3d94d0292ab1c9690db15aa3fbab565f238214f00d8e01edcf04e252d9"
+  },
+  {
+    "designated_outcome_sha256": "796d9282763201b5d6e89169183503a4127c2bda92256afdc44011a500edb3a8",
+    "job_id": "final-planned-job:815c71651a07bb66f8777cf8",
+    "planner_version": 3,
+    "profile_id": "athlete:ca7860ef2d2e6094deb08803",
+    "public_record_sha256": "7589b28544a33ebc89baa6f904aae503c0dbcef98b16402a4e357b8115bee0ea",
+    "response_id": "response-736daa881dc670869c68",
+    "response_text_sha256": "030c850f074f58edbd002a443bc967ea4ea2a65919288d04ec90e7806f23e0c5"
+  },
+  {
+    "designated_outcome_sha256": "352a8eb1cf928de705548ad701ed2b219504b600a7aa7aa77a947ef0aacc45cc",
+    "job_id": "final-planned-job:222725f104b485e68d3f110e",
+    "planner_version": 2,
+    "profile_id": "athlete:4382d275e1271cf7f5e3c654",
+    "public_record_sha256": "1123f81364615cc574113ef972b7f372ae4247d701c3bdc56a6af1b295d6756c",
+    "response_id": "response-7f66b800b857551fa609",
+    "response_text_sha256": "6b190926c3b99ca1df3ce9ba3eb04abdb5984c3842e09ad0b177e395a87b7aee"
+  },
+  {
+    "designated_outcome_sha256": "b2983fe6f09ea043a7e1b6f3cb915222d97d3d5c9712f4ddae44a7973445223a",
+    "job_id": "final-planned-job:740b64a7c2398b9842030e73",
+    "planner_version": 3,
+    "profile_id": "athlete:f9362e0b8213e950b078eddd",
+    "public_record_sha256": "413204fec6761e838170cdf8cc6ac82087e8a2246fa0df74a57a8ff386e7b3b0",
+    "response_id": "response-21ffb01a1a30857c9f38",
+    "response_text_sha256": "7a213957d3900f701ea90625ee73662b13b6bda9201bb5879cc19b9d3f116124"
+  },
+  {
+    "designated_outcome_sha256": "52b2cc91bd21f4928ef9e6941555d406aa47a0dc7e1da1dd9cd0d26765f5d60c",
+    "job_id": "final-planned-job:b86cf6336ebde5ff48242a48",
+    "planner_version": 1,
+    "profile_id": "athlete:76b0a01554bed9f1af595554",
+    "public_record_sha256": "609ebe25b2c6674bd8e96966bbfd38762128cde640eebcf8653dcec272d474d2",
+    "response_id": "response-c18763cbf1e3cf0e2c04",
+    "response_text_sha256": "b4271b49c21623ab820e5581f93e7a7b3f0b03819faffefbf4f1564b764cb932"
+  },
+  {
+    "designated_outcome_sha256": "565257bdf5229cacd106def72c651bca042b76e11b55e2a63e67650fe156c632",
+    "job_id": "final-planned-job:96d7b3a6a7fb85f52ed32204",
+    "planner_version": 2,
+    "profile_id": "athlete:16684e2f98f2641e594a0502",
+    "public_record_sha256": "bb8332f3453b0d7aa1c657fee68edb27000fd0c60a8cfbeced62876340089e82",
+    "response_id": "response-cfbf4de2a265189c4005",
+    "response_text_sha256": "2be69fa2eacaeecff929f46b77fee0757c8cbb2a455b065cc64a2c99273c030f"
+  },
+  {
+    "designated_outcome_sha256": "18b3527fe3d6bc8d698d6e1ea6265ac03f2ddbb08b3558eaaea4a938701220e6",
+    "job_id": "final-planned-job:c12c67eaae2691903c65885b",
+    "planner_version": 3,
+    "profile_id": "athlete:d6883ef3f1edc2b0a7507a6f",
+    "public_record_sha256": "d3efb4582f3025d249672e9c4d18d95b70e4d963adfe9690e788e7e688986a9a",
+    "response_id": "response-b7d3e63c7e6a6bf091c4",
+    "response_text_sha256": "977903489cbc1225405b03394a38800ccbf6c42ba3b0dce29084d27a3eba0c5c"
+  },
+  {
+    "designated_outcome_sha256": "4e33fbccd86f49ff03b86955e068773baa59b8cc7fb0b9a81a312373b5f0460a",
+    "job_id": "final-planned-job:d237eb4292e612c0870d1790",
+    "planner_version": 4,
+    "profile_id": "athlete:335e6c49f6e0040da9cac1d7",
+    "public_record_sha256": "21782819e4618617301b66198b3ba401cfb79424f8c4ceec3865eeac097ae228",
+    "response_id": "response-eb045deeb08c8568f690",
+    "response_text_sha256": "260814da5571870879aaf0540c3f171733d53d12f401dec369f96e52f84c1f75"
+  },
+  {
+    "designated_outcome_sha256": "cf2333802a08254349f387f39811f37d443619745ce2e2d1dc7600e0c3835b16",
+    "job_id": "final-planned-job:18687fb71aa6628a2eb20f06",
+    "planner_version": 1,
+    "profile_id": "athlete:3579c359865a3b0633420bc5",
+    "public_record_sha256": "c069aacb8c96b6354896cb275c31031b76142f6e9e4cac8896f5eb1e36dedbf9",
+    "response_id": "response-32746a2f65dfff016bd6",
+    "response_text_sha256": "b8a410c28e0e6122163fbe24093ea76597743f15a7ee96fa16ed4033f58908e4"
+  },
+  {
+    "designated_outcome_sha256": "f838462af1130721638a49ad502a9e0407acbc89ec2357aac12fc9be4ec3a5d8",
+    "job_id": "final-planned-job:54fc64d1788b0f72788dc0d0",
+    "planner_version": 3,
+    "profile_id": "athlete:8cf1150082214b6f75e5a62c",
+    "public_record_sha256": "fa3685ca34199930c9d2bfa6763cb91e2817d51278de3110f8eca4c9a511b9b2",
+    "response_id": "response-901dce8aae4f0eb9dcd8",
+    "response_text_sha256": "bff58db54b6838444be3424a2a10dfdbcc3bf90b54c2ea43e30416ec2c4420f1"
+  },
+  {
+    "designated_outcome_sha256": "ab58c005f7a8a73aaa900abd85096958467cfd58ed9a8e24b120c96cc3dacd5a",
+    "job_id": "final-planned-job:ae63a6ce58da713ba22e2f67",
+    "planner_version": 2,
+    "profile_id": "athlete:15590ca139dda47097d39e9c",
+    "public_record_sha256": "f258e7ce28afd0c8550bd00e3c9a42549f43368ddbe24bc31923d041dbdd8e93",
+    "response_id": "response-2dde44499701340d438b",
+    "response_text_sha256": "a44288e2bf3c7339329b13fa232485d8357ea5ad9b2f89ecd93b4040c341d4ca"
+  },
+  {
+    "designated_outcome_sha256": "30f021260a733fb6a2b08d9e14a6fc6d7b39208616b9722efb474b482c88eb61",
+    "job_id": "final-planned-job:af16f4618592075f12a6901f",
+    "planner_version": 2,
+    "profile_id": "athlete:b28be1f8026751b409a0581d",
+    "public_record_sha256": "0e93b1fd72db12e15d084aed0a15696dc8c0864a60b3137e0f370e2da69a1748",
+    "response_id": "response-fafde1ce81600d878da3",
+    "response_text_sha256": "9fa97de69a62a6f4a243c5c6a519146b692705ecce7e1cc5fcf1b5c987510e8b"
+  },
+  {
+    "designated_outcome_sha256": "ef5adfdeb043b07952faa606df9c53ee5bff5ccf64b35ee90f72661bda5e16ce",
+    "job_id": "final-planned-job:3c4914ad69e0250213293a9e",
+    "planner_version": 3,
+    "profile_id": "athlete:05ef4dc8fd1a1ba8d2e3dd6b",
+    "public_record_sha256": "ae38b0c369bfd272a1f95d8c306f0287d4d6f3cdbcced7184ccf072e68e5f834",
+    "response_id": "response-8679cc06ebbbeee90aa5",
+    "response_text_sha256": "e26d4b735cfc5a5bd546700611b8f7cf279ea64d1592c1dfc96a59cecbb19398"
+  },
+  {
+    "designated_outcome_sha256": "1becb9fc58326de4c917ac8946dc817324c72e85273cfc2d7c0cbcd6e520de43",
+    "job_id": "final-planned-job:437ea5318284fc6b978d2d72",
+    "planner_version": 3,
+    "profile_id": "athlete:8fa63342e92ef682c276283a",
+    "public_record_sha256": "048fe3929ee10bceefef976fdcce8a1ec0c53361e66d039c76065baf7b2848bc",
+    "response_id": "response-11f0fccd432e396c2edc",
+    "response_text_sha256": "9320ef126bbaf3714a929770a670395b8702e38a063d17b7e053906086ad5ee5"
+  },
+  {
+    "designated_outcome_sha256": "356221082cd807fc4a6a440c51babea818a8b7fe6a81ff18f310023b6631ae09",
+    "job_id": "final-planned-job:cd0dfa0328bbeda1adbfdc13",
+    "planner_version": 4,
+    "profile_id": "athlete:c31b0cce768e2854a32cea50",
+    "public_record_sha256": "8dcb92f64f3af1723c7f8c3ad58a6a8a4896515b2d09718f81cc9fed84a74f86",
+    "response_id": "response-5c9cb953c868cde4fb3d",
+    "response_text_sha256": "3af2b8d390fc82c3f1d4dea17f94e90df2c4a1be8685247fda2ad4928f072892"
+  },
+  {
+    "designated_outcome_sha256": "0e53de1d4612e9b976f9a0db4670dd2b8d19dffa621e1cebcaeddae618ab8d40",
+    "job_id": "final-planned-job:ea2920695597ac37b592f45d",
+    "planner_version": 1,
+    "profile_id": "athlete:0bd98fbb1359aef1d93d3ae3",
+    "public_record_sha256": "fe2595029d28cf4e9ddd786462b6e42b0a1e31a10c62c25773699a54bf0dbd30",
+    "response_id": "response-74688edbd28ecc1b6cdc",
+    "response_text_sha256": "9a72b3e3350ea1d6ab78e4ce661aeb66c75a1f01fcccd660da507dd78089bf69"
+  },
+  {
+    "designated_outcome_sha256": "f93c9ca7e75ac2532cb9d866132f57a5f778627780bfb54d6cbfa31dc17a678a",
+    "job_id": "final-planned-job:21f3f5c8f175061b436a1211",
+    "planner_version": 3,
+    "profile_id": "athlete:f44d0ec5bcaa2230624b217f",
+    "public_record_sha256": "73f1e32c16727ef960d752f5a16484a02b134f6a9b6b75a2baf7f5bf8b3ed402",
+    "response_id": "response-3f481ce3d7566dda990f",
+    "response_text_sha256": "aba0947448e23101c1b9c732acf35ca90cb19578a7ca285e6437409912bf9ba9"
+  },
+  {
+    "designated_outcome_sha256": "1dfc4d723a91edf0bbe32f9f91ed44ef0dc3754034921e32452b1b5349a19a29",
+    "job_id": "final-planned-job:07badfa6de436100778a9fb2",
+    "planner_version": 2,
+    "profile_id": "athlete:23cc530c51abcdf592bc1168",
+    "public_record_sha256": "7561bdc8769dcb88ed42c450281fd2ea9dfa0669f866840fb1258d5d832514d0",
+    "response_id": "response-066deb881cff49b363b2",
+    "response_text_sha256": "16176e7952a1cb4d5675d507069869ae838c990f4a002b08fd4949183b6ab355"
+  },
+  {
+    "designated_outcome_sha256": "77a11b81cb819cc46d3d71892247b99afc5af6672446d8a7d36f3fd0314514fe",
+    "job_id": "final-planned-job:d6ab70a4d507f8bd92058642",
+    "planner_version": 2,
+    "profile_id": "athlete:27eda8314b257f32fe90d8a5",
+    "public_record_sha256": "21e2b7e482a81f727dd35d1403b10ff373664f429064984832267b39acaa2607",
+    "response_id": "response-d53ba455ea7daabb9ab7",
+    "response_text_sha256": "741f58bd851a3180bfced862537aaf28c1ed6359654af8ae412009654e6aa46b"
+  },
+  {
+    "designated_outcome_sha256": "e3fdec5912495b64f6c520a38a472fa3c44c7b323239b5337f027ed592a87912",
+    "job_id": "final-planned-job:99a2893927e7e3ef1b8411e5",
+    "planner_version": 4,
+    "profile_id": "athlete:ad2a314e436e15b1ca9105b9",
+    "public_record_sha256": "7ef085a8ecf77ea380c4a0a86cadd3f00fa1ae5f670b517609660638d4bff61f",
+    "response_id": "response-2fbd5a1d80309656ccc2",
+    "response_text_sha256": "0ee21af95fc910e260f6362c48ccb52e2be4505cc8d326954bd6a7064136cf7e"
+  },
+  {
+    "designated_outcome_sha256": "99ccbd18841d9a8a74d168187f2e6c8005d6f37bb55f5afb4632bc88045b28b9",
+    "job_id": "final-planned-job:288177d2da0e36509fbbd760",
+    "planner_version": 2,
+    "profile_id": "athlete:bf57f18103c3dfcccdc5d1e5",
+    "public_record_sha256": "284eeac8364811bf72860b0f97cf200b069ebf3962871544725ea4115e5ebf98",
+    "response_id": "response-0d17467ec1ae9ef2a4ff",
+    "response_text_sha256": "1fdd593d9152e06468475ed4388a48e4990a46f7ee7e4ce2b7434a4c685b83a7"
+  },
+  {
+    "designated_outcome_sha256": "399151dc8b117226fb0498d2c75765ce1cd9926603ff07fec11d684c9836f4b5",
+    "job_id": "final-planned-job:fde7e0dba1ab1f66e399821a",
+    "planner_version": 2,
+    "profile_id": "athlete:335e6c49f6e0040da9cac1d7",
+    "public_record_sha256": "21782819e4618617301b66198b3ba401cfb79424f8c4ceec3865eeac097ae228",
+    "response_id": "response-c872e827dfa8aa3cc326",
+    "response_text_sha256": "12065e4c6c3350c4c0e7db8a37fd67f5aa444737ea7cd6cbf497e03c1459cf6c"
+  },
+  {
+    "designated_outcome_sha256": "73715ee4baf129cf93df714f0258a7f3faf8a3199ab9c4d2ae05d114f80363d9",
+    "job_id": "final-planned-job:d4dc96f861ba44869a31ec20",
+    "planner_version": 1,
+    "profile_id": "athlete:d6883ef3f1edc2b0a7507a6f",
+    "public_record_sha256": "d3efb4582f3025d249672e9c4d18d95b70e4d963adfe9690e788e7e688986a9a",
+    "response_id": "response-6c43a70d37cbf1962b54",
+    "response_text_sha256": "fbf8fbe39fae9e80bc1738cab830fe2873611e09ceebd8b612e7b2a7cb798a1d"
+  },
+  {
+    "designated_outcome_sha256": "3f667668c46d60267abf28134cf02b0a2542b3c135fe50f27b8d572211c12290",
+    "job_id": "final-planned-job:dc534e035a807e34e09e0765",
+    "planner_version": 3,
+    "profile_id": "athlete:ecd9fd6743e4c0251e222140",
+    "public_record_sha256": "5bf5cd4324fb0081a92a6b1c538dbecef1c8b0f3eb82647b88702bb4cb6cb353",
+    "response_id": "response-740491e16f908ddd5201",
+    "response_text_sha256": "8aeaee990be7e5c96694579996324b4b8daae641bad148a8e2fcdf0922d0f029"
+  },
+  {
+    "designated_outcome_sha256": "c6229a9837fddd5d3b972e57711f9a3fbf75d799dbffc88a86bcba418d18653b",
+    "job_id": "final-planned-job:7e43b47d99153c17287f400f",
+    "planner_version": 2,
+    "profile_id": "athlete:d6883ef3f1edc2b0a7507a6f",
+    "public_record_sha256": "d3efb4582f3025d249672e9c4d18d95b70e4d963adfe9690e788e7e688986a9a",
+    "response_id": "response-6bfe7fcc9a594c4ab602",
+    "response_text_sha256": "7ab29faed379e6f4cd94747474786a67eb0181b43c3853fa185b061f469b5df2"
+  },
+  {
+    "designated_outcome_sha256": "0d8209428569bf0028f3fceb5a98ea745e832b0958944393cbca6c6c985f99c1",
+    "job_id": "final-planned-job:dc93d83d2e11f3ca3297c42e",
+    "planner_version": 1,
+    "profile_id": "athlete:c31b0cce768e2854a32cea50",
+    "public_record_sha256": "8dcb92f64f3af1723c7f8c3ad58a6a8a4896515b2d09718f81cc9fed84a74f86",
+    "response_id": "response-6e81afb73a8a18bccd80",
+    "response_text_sha256": "7863b1efcac445aa85ae7ebb3c94de5d63d6c1691e99a305c5080c24ec4ffd33"
+  },
+  {
+    "designated_outcome_sha256": "0bd4a066bf3fe03f7ae5ea0e899328c49072cabdd50ad535e0ff491db4b6db8d",
+    "job_id": "final-planned-job:d8a7e4f505f033e26d8056d2",
+    "planner_version": 1,
+    "profile_id": "athlete:944317f52242940c09a9f16c",
+    "public_record_sha256": "b86d07cd3c3f9f3c4c14b3891f6c276da9a3d96e1fd239b467f783c30ee4b7f1",
+    "response_id": "response-3c61c03f2edf89be0a0e",
+    "response_text_sha256": "952ded406fbbd7be96627eabb55ffe0e7c2a5d7d19a4489c2d69fa0d55021428"
+  },
+  {
+    "designated_outcome_sha256": "9ff4f2decbb0817cd98b2af9aa9dd4e4ea7e37f0a0d362b005d529c883d0d21b",
+    "job_id": "final-planned-job:3d45c06d8fabbb8b2d1238cb",
+    "planner_version": 4,
+    "profile_id": "athlete:3793ee6a869913f0409d9a74",
+    "public_record_sha256": "dc8a5e8a903c3faf190550fcfcd37d9638e00588f02942b00ba3f22415c2bd39",
+    "response_id": "response-c4c0501b4a258fab7b53",
+    "response_text_sha256": "c4f0b803ca5287a7f32e1a6cfcb757fc6a1bfecf5b2dec698551e2e551862876"
+  },
+  {
+    "designated_outcome_sha256": "3a799b36625cefb18c113d95c42255bbeca0be76dcdd644a1fac814836190d22",
+    "job_id": "final-planned-job:869f0b4f807417d405e04af0",
+    "planner_version": 2,
+    "profile_id": "athlete:6e82f687b1695034119a55b4",
+    "public_record_sha256": "e041cba626b15dca07f7956b470cb05d5d3698c93f1079e45e240bba6b6ade1f",
+    "response_id": "response-9b742037ba765bb23447",
+    "response_text_sha256": "a3d03b4acf127f3d6d0eaf6d87e2784bf80e645983a392d3ef9d6563f5c5c553"
+  },
+  {
+    "designated_outcome_sha256": "0e5bb5ec1c9e887073fc79b9ca918c24fd8dccb8c976b6ca79497570aeb96732",
+    "job_id": "final-planned-job:9cf7bef5d6bed8e856d17632",
+    "planner_version": 3,
+    "profile_id": "athlete:54fb79636447289c18bd155b",
+    "public_record_sha256": "dd955bed8fd0fa8786b2e28206a07c797d3551892e059bf81b9a4b2e3d274a6d",
+    "response_id": "response-81ddc48f57d97e0c2038",
+    "response_text_sha256": "00cb3b73295337a7953a6ded12672d22ca32b0ef499630a45afca924b350f12d"
+  },
+  {
+    "designated_outcome_sha256": "899b7385f8978dec39930eae57196491caa6e872de97825ff842a5bc02782452",
+    "job_id": "final-planned-job:cbee74ed02a29dc11ee9db8f",
+    "planner_version": 3,
+    "profile_id": "athlete:3793ee6a869913f0409d9a74",
+    "public_record_sha256": "dc8a5e8a903c3faf190550fcfcd37d9638e00588f02942b00ba3f22415c2bd39",
+    "response_id": "response-11092dc1e6e68bf00ffb",
+    "response_text_sha256": "277cbe3829b38e356aceb7993be8ca1bd65e0d2978fb754cd73a30ac0e5cd45b"
+  },
+  {
+    "designated_outcome_sha256": "6503dd15278bb91650a4c10223b7126774ba33fae069ae8c5fa7456093d31ec6",
+    "job_id": "final-planned-job:aaa6cd988bf8351563cf5289",
+    "planner_version": 4,
+    "profile_id": "athlete:15590ca139dda47097d39e9c",
+    "public_record_sha256": "f258e7ce28afd0c8550bd00e3c9a42549f43368ddbe24bc31923d041dbdd8e93",
+    "response_id": "response-52cb88172b8f3380eca8",
+    "response_text_sha256": "95a603717c5a4bdfd5f51b33b8b6fe56234ac04a4cd55c609af34df74e814c8b"
+  },
+  {
+    "designated_outcome_sha256": "1d0ad17ef50a5359d7987ef6eb6dc77a4db5d5d87ff817ac9f5daa864bf594ed",
+    "job_id": "final-planned-job:9e8d0b9d92006e7c94976a92",
+    "planner_version": 2,
+    "profile_id": "athlete:0264fb89b723b546c1f312ee",
+    "public_record_sha256": "37a053a175f46faf07d5a3b7d00ae6974113ae2d7977e374b4106b724af39f4a",
+    "response_id": "response-c19a0f97fad589a18702",
+    "response_text_sha256": "100a7b359bc3391250e127d89e9e29f7e1967f1b1068eb9a8f39adcab401ca84"
+  },
+  {
+    "designated_outcome_sha256": "a59b6f53c5dd31c9423a8abcfb7222c736511ce5c0f40dad46d02cb9b758f8a3",
+    "job_id": "final-planned-job:82dec0035e95e281cfe082c3",
+    "planner_version": 4,
+    "profile_id": "athlete:54fb79636447289c18bd155b",
+    "public_record_sha256": "dd955bed8fd0fa8786b2e28206a07c797d3551892e059bf81b9a4b2e3d274a6d",
+    "response_id": "response-3f340917184aa4a14825",
+    "response_text_sha256": "aece61175a1ea1f8aaec5ee0588055a8d0145e51376a50aa4fd529c9ee9a8615"
+  },
+  {
+    "designated_outcome_sha256": "96f6efbaded2c7fe075e9f73d99152ea97ad1ccd58325bab2cca6f4a4f718767",
+    "job_id": "final-planned-job:a3d2056b0cdfd91a18d36862",
+    "planner_version": 3,
+    "profile_id": "athlete:4382d275e1271cf7f5e3c654",
+    "public_record_sha256": "1123f81364615cc574113ef972b7f372ae4247d701c3bdc56a6af1b295d6756c",
+    "response_id": "response-a4a0da15f09c8035238f",
+    "response_text_sha256": "16381f05fbf372b91f53c3945641f2fc92d8329a95508ff5e56433e7a5833ef8"
+  },
+  {
+    "designated_outcome_sha256": "1c7d647b14cbb484088e3038699520a03616a8288b09141f952c58278ac28722",
+    "job_id": "final-planned-job:72ba649f769d5190f2235fdb",
+    "planner_version": 1,
+    "profile_id": "athlete:ae7667869cee91eba24b09b2",
+    "public_record_sha256": "94e26787571756cb5df5f0602d96179cecd45983f7fd76e74894b77de6fde555",
+    "response_id": "response-a178141b8fc279c97c29",
+    "response_text_sha256": "6bad92fe78aae6e6fe2696361af46f52cfee15b3b7261670c93626b1382ebb5e"
+  },
+  {
+    "designated_outcome_sha256": "f5198aef4de4de64302955605fd1c60144cffc51cbaa5eaa9f09d1bbd9cdc218",
+    "job_id": "final-planned-job:f1296bd0c669015d9119d72f",
+    "planner_version": 2,
+    "profile_id": "athlete:bb05b21bb2761aa138b1fea5",
+    "public_record_sha256": "24cb61486cced735fcfb31603fbbe5047039ddcd34d56c3017f1bc1f26ad691c",
+    "response_id": "response-ddde8142c7caeca654f6",
+    "response_text_sha256": "c44e6a67683c7efb74124c64e31aa9ae22208d6e331faebf801261395acac840"
+  },
+  {
+    "designated_outcome_sha256": "67a635f228bf8bf07dde10f0474546a74d847d638c041e67fa69e63c034ba730",
+    "job_id": "final-planned-job:0c8e7fc823b995b889ddf18d",
+    "planner_version": 4,
+    "profile_id": "athlete:0bd98fbb1359aef1d93d3ae3",
+    "public_record_sha256": "fe2595029d28cf4e9ddd786462b6e42b0a1e31a10c62c25773699a54bf0dbd30",
+    "response_id": "response-0481ecac86d033bf60aa",
+    "response_text_sha256": "3348a1812f1bd285746331ed11609c1488c82937495b588381a70593d493b663"
+  },
+  {
+    "designated_outcome_sha256": "4836fbc32fa45332abb8b7216a76fe2bbb9cc536329242cf45b8ad9c59e9b170",
+    "job_id": "final-planned-job:e2ee31f30fbd2eeda99a55cd",
+    "planner_version": 3,
+    "profile_id": "athlete:4159004d86b223012fd3da0b",
+    "public_record_sha256": "b828637d40d739dc6b585459768ed6552752ddaacfa2574015f4db49576a2564",
+    "response_id": "response-81262a10b0e9b9e7260c",
+    "response_text_sha256": "fd1d37070bf32ebd618980d13ddb388cb671826276dc00aaf226cced584df723"
+  },
+  {
+    "designated_outcome_sha256": "474ec008d76ee6ce412ae81870bd2355c1bf807c98ab2d90690d9ff853b6bb11",
+    "job_id": "final-planned-job:5ad2e269bb808712f0e79d67",
+    "planner_version": 1,
+    "profile_id": "athlete:f44d0ec5bcaa2230624b217f",
+    "public_record_sha256": "73f1e32c16727ef960d752f5a16484a02b134f6a9b6b75a2baf7f5bf8b3ed402",
+    "response_id": "response-c5fdd3a6279bafc57dc7",
+    "response_text_sha256": "89d246ee7ecb55f69cf6886027d126a942a25654878bea2624b94f15c1c49579"
+  },
+  {
+    "designated_outcome_sha256": "d8a910c4d78c6f59ccde7ba181abd7d6b177ecdbc6f6d5e0a03c1b4568486532",
+    "job_id": "final-planned-job:eeca7612efdad6654e02d471",
+    "planner_version": 4,
+    "profile_id": "athlete:8cf1150082214b6f75e5a62c",
+    "public_record_sha256": "fa3685ca34199930c9d2bfa6763cb91e2817d51278de3110f8eca4c9a511b9b2",
+    "response_id": "response-ca6675f4f8bd6de96c6d",
+    "response_text_sha256": "bef54c7b8e94e0e786a337bfb88db9b31abca7cd853a2cb73aeaace908761e38"
+  },
+  {
+    "designated_outcome_sha256": "951db2727b0ff364b7c1f234c48ed617e1d63555ba58c1dfdfa48dc132544f5e",
+    "job_id": "final-planned-job:99049a1c99c87bee3783f3ef",
+    "planner_version": 1,
+    "profile_id": "athlete:6e82f687b1695034119a55b4",
+    "public_record_sha256": "e041cba626b15dca07f7956b470cb05d5d3698c93f1079e45e240bba6b6ade1f",
+    "response_id": "response-82b04d8e458db8678a69",
+    "response_text_sha256": "d784655739c0e90d813bc1d6cc1254399c588593b074330bd38886a3eb27ff8a"
+  },
+  {
+    "designated_outcome_sha256": "6c77a850f17d007bcc59f32a8a416846174b68a17dbdce740bbd12e6e8137535",
+    "job_id": "final-planned-job:7ede5964938f72cab62c456e",
+    "planner_version": 3,
+    "profile_id": "athlete:944317f52242940c09a9f16c",
+    "public_record_sha256": "b86d07cd3c3f9f3c4c14b3891f6c276da9a3d96e1fd239b467f783c30ee4b7f1",
+    "response_id": "response-e5d46ea1ae01bec12ead",
+    "response_text_sha256": "4bce610796276331b302aacf0994b255119fea2c1650ec9206b1a9dedc156327"
+  },
+  {
+    "designated_outcome_sha256": "9e9e9b2d50be36def22592586767f4a16edb83c29bcf6a0f51584fa4ab0b45f4",
+    "job_id": "final-planned-job:3224e60390c0c0c582896c9a",
+    "planner_version": 3,
+    "profile_id": "athlete:b28be1f8026751b409a0581d",
+    "public_record_sha256": "0e93b1fd72db12e15d084aed0a15696dc8c0864a60b3137e0f370e2da69a1748",
+    "response_id": "response-eb3a9eaa5b66f52c9c2a",
+    "response_text_sha256": "9c4d362e643295278567478597aaf49c38a2058ebec1da1394fca8ffaebe11b5"
+  },
+  {
+    "designated_outcome_sha256": "15ecebc345289bf032615a80bd868a9c7ebfc07b34e4095803ede9a065c93cd3",
+    "job_id": "final-planned-job:fe944a70a2b4fddf3bc38236",
+    "planner_version": 2,
+    "profile_id": "athlete:dca429060e66c73171cbf428",
+    "public_record_sha256": "a41ddd1c4c0f4dee72752c7998d7eb8251208a6a1a5cd52fcfd0bfb15fd8b4b5",
+    "response_id": "response-98244db2696a3dff4643",
+    "response_text_sha256": "073401bf313461beefdbcd5f93b3709900ce9920a543eda688ddac6c264cf92d"
+  },
+  {
+    "designated_outcome_sha256": "c102ffe9100828bdefd10b90250ce5a2aea8fbe8c1a2dfbcd3e0a2ac3ffd9d6c",
+    "job_id": "final-planned-job:370c5989c04c5796233acb68",
+    "planner_version": 4,
+    "profile_id": "athlete:f44d0ec5bcaa2230624b217f",
+    "public_record_sha256": "73f1e32c16727ef960d752f5a16484a02b134f6a9b6b75a2baf7f5bf8b3ed402",
+    "response_id": "response-22a551060f7143093eb8",
+    "response_text_sha256": "36945a436548fe85cb8b4a8b425cbd0367e2b24816a26905c62f0232a025e8bb"
+  },
+  {
+    "designated_outcome_sha256": "70d3280531b97c0d88efafcba0d3077f2cebf0ff450c377ab70e142de70a99d4",
+    "job_id": "final-planned-job:602f48386a7f99dab1a39332",
+    "planner_version": 4,
+    "profile_id": "athlete:6978e01847087d8400983e0e",
+    "public_record_sha256": "bf92b1d8c26709d9e2a300413e5a8e064b8e8359a8c33b5cab09a4a668e9ce4c",
+    "response_id": "response-d303b9e2d89ac1d62a1a",
+    "response_text_sha256": "85bf99fb1bc1bc20ab4ae7b41569c41cb5541b5336a99e81b8505fd50788239f"
+  },
+  {
+    "designated_outcome_sha256": "ffe6404843ae78cea3d6c053ff89f6aeb095aa29c51bf3e09b8feecac97e230e",
+    "job_id": "final-planned-job:b7fe9bb9bfdf91aa81d37890",
+    "planner_version": 4,
+    "profile_id": "athlete:5ce8fddff68dc79c93f7c108",
+    "public_record_sha256": "f2d9271e97000772d477bfacbe7e1a3eb2c4df9a95da7f07d71d822cf34822eb",
+    "response_id": "response-2c89e90eeabd6dd62f59",
+    "response_text_sha256": "380f8843689ffa0276befe493785b2eb9fe44085cf122a8b1e091fe7c9519529"
+  },
+  {
+    "designated_outcome_sha256": "2aa9cb2cca9dd90d532513676636390698fc9ef581b7c426c7e1c81efc3aa3c0",
+    "job_id": "final-planned-job:6011e8440fc0689fd7dc4989",
+    "planner_version": 4,
+    "profile_id": "athlete:27eda8314b257f32fe90d8a5",
+    "public_record_sha256": "21e2b7e482a81f727dd35d1403b10ff373664f429064984832267b39acaa2607",
+    "response_id": "response-81cadd35dfc1d817045a",
+    "response_text_sha256": "42228a4e00a90e60675d9ba9d7c4f392adecd5f5e7c4bb2ed28b247a1ca2e52a"
+  },
+  {
+    "designated_outcome_sha256": "7c5a8f9b9fa985977c6bbc43836618cc74ebdf06d69f4931840e7d5bd94a2958",
+    "job_id": "final-planned-job:d6101a201b152c961fbb43f2",
+    "planner_version": 1,
+    "profile_id": "athlete:05ef4dc8fd1a1ba8d2e3dd6b",
+    "public_record_sha256": "ae38b0c369bfd272a1f95d8c306f0287d4d6f3cdbcced7184ccf072e68e5f834",
+    "response_id": "response-6aa2a63ff4ba6cc258af",
+    "response_text_sha256": "8accb593ccdce2cf1389a7ec38e899fb91cf2edc4108d9bd73301520b4fcd9a3"
+  },
+  {
+    "designated_outcome_sha256": "f876b2040f88e4259379d9081456108d21b21935d2c29fc1763765bf886a7386",
+    "job_id": "final-planned-job:176f2dfa0cb540118bd75445",
+    "planner_version": 1,
+    "profile_id": "athlete:7d0d0b430d3e9cc5b2648ffb",
+    "public_record_sha256": "7427cdcb20b5a0a12d56f75e8e055ab7f873f4acc0b473092c5bb7c0825556ad",
+    "response_id": "response-639e61fc03530bbb6cdb",
+    "response_text_sha256": "7ec71bf246ca165f8d5834b3e5b7041f522a148e35837f2103010573b55ab661"
+  },
+  {
+    "designated_outcome_sha256": "ab4ed26e66371547d5b907988ae352b85e008eb5cc947b0cc0c77f57f4cf4040",
+    "job_id": "final-planned-job:23de6b9887d94f0adf3c48f1",
+    "planner_version": 3,
+    "profile_id": "athlete:5ce8fddff68dc79c93f7c108",
+    "public_record_sha256": "f2d9271e97000772d477bfacbe7e1a3eb2c4df9a95da7f07d71d822cf34822eb",
+    "response_id": "response-2833e71a7e8be2951056",
+    "response_text_sha256": "38073978a583d648874599f20d67de641171b492ca9a5723c86c9c0ffd229950"
+  },
+  {
+    "designated_outcome_sha256": "ecdea7bf5fdd600cba23abf6a3d7b4dd2755c7db4a895c41f2dd22f13bf095e5",
+    "job_id": "final-planned-job:a7f2314e09d176d178398a27",
+    "planner_version": 4,
+    "profile_id": "athlete:0264fb89b723b546c1f312ee",
+    "public_record_sha256": "37a053a175f46faf07d5a3b7d00ae6974113ae2d7977e374b4106b724af39f4a",
+    "response_id": "response-b084cde8d0012e933c8f",
+    "response_text_sha256": "8230685ad534c1bfb5597b9a4c1de7ee72ad1fc00a606f2cc6da00f9099d9c05"
+  },
+  {
+    "designated_outcome_sha256": "6375a75c2881e0f64def487d495701138e12f2e01eda48ddedc4b761660946aa",
+    "job_id": "final-planned-job:11e3d78d06b68a9889d0e1db",
+    "planner_version": 3,
+    "profile_id": "athlete:76b0a01554bed9f1af595554",
+    "public_record_sha256": "609ebe25b2c6674bd8e96966bbfd38762128cde640eebcf8653dcec272d474d2",
+    "response_id": "response-c43408f9701cb64e6a64",
+    "response_text_sha256": "e26053910de2711d84b2442dbef040b781a32a89ccf6e5bd264a5d4c9710f909"
+  },
+  {
+    "designated_outcome_sha256": "16070355519282497d0a8922d9fd175b0f045eea3c0d5944fa820dd06363f2e2",
+    "job_id": "final-planned-job:96bd95b28d65a8cc73222e22",
+    "planner_version": 4,
+    "profile_id": "athlete:bf57f18103c3dfcccdc5d1e5",
+    "public_record_sha256": "284eeac8364811bf72860b0f97cf200b069ebf3962871544725ea4115e5ebf98",
+    "response_id": "response-afa4a5926ca4513e43eb",
+    "response_text_sha256": "70875a74069e88062dd0024449e7421fcc984d03dbada96edeb1a60bedf48b72"
+  },
+  {
+    "designated_outcome_sha256": "28b0775ed52d28220670fc2e93dba3fdab89c274661330383a6ab61e6e2506ef",
+    "job_id": "final-planned-job:a070276c826fd27760dd6a74",
+    "planner_version": 2,
+    "profile_id": "athlete:f44d0ec5bcaa2230624b217f",
+    "public_record_sha256": "73f1e32c16727ef960d752f5a16484a02b134f6a9b6b75a2baf7f5bf8b3ed402",
+    "response_id": "response-1ac29fca6d851cd06780",
+    "response_text_sha256": "f2c7e6c4560c6d355e82b35403ca063044d5b84df1736a98e55f52b237cbc600"
+  },
+  {
+    "designated_outcome_sha256": "f7df36e5a25ba5da0a376e350d80daec504dab328a0c0d21b3b0c77e710d6170",
+    "job_id": "final-planned-job:207e8abd1a65bf15664f05cf",
+    "planner_version": 3,
+    "profile_id": "athlete:bbe16228348c15853d941b0c",
+    "public_record_sha256": "826a6fbfc6005554db517a7e38db552e10e7fec3bfe8fd1c30677ae970c0d953",
+    "response_id": "response-d945b7ba9e05d9032353",
+    "response_text_sha256": "8589e445b79531b427c49761e3d31eef0bd41dee78c1740355ae3e360864c895"
+  },
+  {
+    "designated_outcome_sha256": "df0826b94cd43911a1ddc8dc1df6aa96955bb1314d652e4fbe7b6b59ae8e6d6c",
+    "job_id": "final-planned-job:414eda3ba48c683350b959ef",
+    "planner_version": 3,
+    "profile_id": "athlete:0bd98fbb1359aef1d93d3ae3",
+    "public_record_sha256": "fe2595029d28cf4e9ddd786462b6e42b0a1e31a10c62c25773699a54bf0dbd30",
+    "response_id": "response-8203b761e707e9616615",
+    "response_text_sha256": "fcf2f6858d82e406104065158458d34e469eddade501c6f73d63536bb415df27"
+  },
+  {
+    "designated_outcome_sha256": "ddd6318faa5faea2a88327588c226ee62fc3dc4e797b5852f632fd9f491af731",
+    "job_id": "final-planned-job:fdc2e2afad2ee83905e46c65",
+    "planner_version": 3,
+    "profile_id": "athlete:27eda8314b257f32fe90d8a5",
+    "public_record_sha256": "21e2b7e482a81f727dd35d1403b10ff373664f429064984832267b39acaa2607",
+    "response_id": "response-de52a3c1442419cb0c38",
+    "response_text_sha256": "c79c6a040589d73ddc528b13adff51695a80c61c25dd93caa768f87324d13ecb"
+  },
+  {
+    "designated_outcome_sha256": "96d094462a2090d7336fbaca7894157db70a30f60ff915b7a3a050a3b46cd1f9",
+    "job_id": "final-planned-job:f8e593506df7f345d5c782da",
+    "planner_version": 1,
+    "profile_id": "athlete:52ce54f1434a88cdf0eea3bf",
+    "public_record_sha256": "ec185da708da82f489c94aa5281dab395fe6c33b65519bae4644a3dd46d17e81",
+    "response_id": "response-77346f0d46f004c1ea5d",
+    "response_text_sha256": "610c3706dba006b39511adb455368106d33c24fe493f3abe8aa84c5e31174ecd"
+  }
+]

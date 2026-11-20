@@ -1,0 +1,285 @@
+component,scope,component_check_number,scenario,group,check,expected,observed,status
+frozen_inputs,input_integrity,1,,,git_available,,verified,pass
+frozen_inputs,input_integrity,2,,,project_and_branch,,verified,pass
+frozen_inputs,input_integrity,3,,,protocol_preparation_receipt,,verified,pass
+frozen_inputs,input_integrity,4,,,saved_protocol_identity,,verified,pass
+frozen_inputs,input_integrity,5,,,classifier_preparation_handoff,,verified,pass
+frozen_inputs,input_integrity,6,,,frozen_benchmark_record,,verified,pass
+frozen_inputs,input_integrity,7,,,frozen_benchmark_identity,,verified,pass
+frozen_inputs,input_integrity,8,,,class_mapping_and_feature_contract,,verified,pass
+frozen_inputs,input_integrity,9,,,saved_schema:exercise_split_manifest,,verified,pass
+frozen_inputs,input_integrity,10,,,required_metadata:exercise_split_manifest,,verified,pass
+frozen_inputs,input_integrity,11,,,saved_rows:exercise_split_manifest,,2909,pass
+frozen_inputs,input_integrity,12,,,manifest_identifiers,,verified,pass
+frozen_inputs,input_integrity,13,,,eligibility_and_split_assignments,,verified,pass
+frozen_inputs,input_integrity,14,,,group_separation_and_class_indices,,verified,pass
+frozen_inputs,input_integrity,15,,,frozen_population_counts,,verified,pass
+frozen_inputs,input_integrity,16,,,catalog_producer_binding,,verified,pass
+frozen_inputs,input_integrity,17,,,catalog_header,,verified,pass
+frozen_inputs,input_integrity,18,,,catalog_logical_row_widths,,verified,pass
+frozen_inputs,input_integrity,19,,,catalog_coverage_and_identity,,verified,pass
+frozen_inputs,input_integrity,20,,,metadata_alignment_by_identifier,,verified,pass
+frozen_inputs,input_integrity,21,,,source_positions,,verified,pass
+frozen_inputs,input_integrity,22,,,saved_schema:exercise_groups,,verified,pass
+frozen_inputs,input_integrity,23,,,required_metadata:exercise_groups,,verified,pass
+frozen_inputs,input_integrity,24,,,saved_rows:exercise_groups,,2909,pass
+frozen_inputs,input_integrity,25,,,authoritative_groups,,verified,pass
+frozen_inputs,input_integrity,26,,,saved_schema:exercise_benchmark_review_decisions,,verified,pass
+frozen_inputs,input_integrity,27,,,required_metadata:exercise_benchmark_review_decisions,,verified,pass
+frozen_inputs,input_integrity,28,,,saved_rows:exercise_benchmark_review_decisions,,2910,pass
+frozen_inputs,input_integrity,29,,,reviewed_target_links,,verified,pass
+frozen_inputs,input_integrity,30,,,development_text_coverage,,verified,pass
+frozen_inputs,input_integrity,31,,,saved_canonical_text_preserved,,verified,pass
+frozen_inputs,input_integrity,32,,,description_missingness_preserved,,verified,pass
+frozen_inputs,input_integrity,33,,,label_roundtrip,,verified,pass
+frozen_inputs,input_integrity,34,,,saved_schema:exercise_split_summary,,verified,pass
+frozen_inputs,input_integrity,35,,,required_metadata:exercise_split_summary,,verified,pass
+frozen_inputs,input_integrity,36,,,saved_rows:exercise_split_summary,,51,pass
+frozen_inputs,input_integrity,37,,,saved_split_support_keys,,verified,pass
+frozen_inputs,input_integrity,38,,,saved_schema:exercise_class_eligibility,,verified,pass
+frozen_inputs,input_integrity,39,,,required_metadata:exercise_class_eligibility,,verified,pass
+frozen_inputs,input_integrity,40,,,saved_rows:exercise_class_eligibility,,17,pass
+frozen_inputs,input_integrity,41,,,class_support_keys,,verified,pass
+frozen_inputs,input_integrity,42,,,saved_split_support:train,,1999,pass
+frozen_inputs,input_integrity,43,,,saved_class_support:train,,verified,pass
+frozen_inputs,input_integrity,44,,,saved_split_support:validation,,435,pass
+frozen_inputs,input_integrity,45,,,saved_class_support:validation,,verified,pass
+frozen_inputs,input_integrity,46,,,saved_split_support:test,,438,pass
+frozen_inputs,input_integrity,47,,,saved_class_support:test,,verified,pass
+frozen_inputs,input_integrity,48,,,development_partition_sizes,,verified,pass
+frozen_inputs,input_integrity,49,,,saved_schema:exercise_split_checks,,verified,pass
+frozen_inputs,input_integrity,50,,,required_metadata:exercise_split_checks,,verified,pass
+frozen_inputs,input_integrity,51,,,saved_rows:exercise_split_checks,,42,pass
+frozen_inputs,input_integrity,52,,,frozen_preparation_checks,,verified,pass
+frozen_inputs,input_integrity,53,,,inputs_unchanged_after_loading,,43,pass
+shared_text,artificial,1,ascii_case_and_space,normalization,value,"""push-up hold""","""push-up hold""",pass
+shared_text,artificial,2,unicode_whitespace,normalization,value,"""keep the knee steady""","""keep the knee steady""",pass
+shared_text,artificial,3,quoted_multiline_canonical_text,normalization,value,"""one-arm row do not rotate.""","""one-arm row do not rotate.""",pass
+shared_text,artificial,4,fullwidth_compatibility,normalization,value,"""push-up 2.5""","""push-up 2.5""",pass
+shared_text,artificial,5,compatibility_ligature,normalization,value,"""fly and kettlebell""","""fly and kettlebell""",pass
+shared_text,artificial,6,casefold_and_accents,normalization,value,"""strasse épaule""","""strasse épaule""",pass
+shared_text,artificial,7,empty_generic_text,normalization,value,"""""","""""",pass
+shared_text,artificial,8,whitespace_generic_text,normalization,value,"""""","""""",pass
+shared_text,artificial,9,literal_missing_words_are_strings,normalization,value,"""nan none""","""nan none""",pass
+shared_text,artificial,10,casefold_combining_dot,normalization,value,"""i̇stanbul""","""i̇stanbul""",pass
+shared_text,artificial,11,exactly_once_sharp_s_combining_acute,normalization,value,"""sś""","""sś""",pass
+shared_text,artificial,12,second_normalization_is_a_different_input,normalization,value,"""sś""","""sś""",pass
+shared_text,artificial,13,ascii_internal_connectors,tokenization,value,"[""one-arm"", ""don't"", ""1/2"", ""2.5""]","[""one-arm"", ""don't"", ""1/2"", ""2.5""]",pass
+shared_text,artificial,14,curly_apostrophe,tokenization,value,"[""don’t"", ""force"", ""it""]","[""don’t"", ""force"", ""it""]",pass
+shared_text,artificial,15,punctuation_delimiters,tokenization,value,"[""row"", ""press"", ""hold"", ""stop""]","[""row"", ""press"", ""hold"", ""stop""]",pass
+shared_text,artificial,16,unicode_dash_delimiters,tokenization,value,"[""one"", ""arm"", ""one"", ""arm""]","[""one"", ""arm"", ""one"", ""arm""]",pass
+shared_text,artificial,17,repeated_connectors_split,tokenization,value,"[""a"", ""b"", ""c"", ""d"", ""e"", ""f""]","[""a"", ""b"", ""c"", ""d"", ""e"", ""f""]",pass
+shared_text,artificial,18,underscores_are_word_characters,tokenization,value,"[""a__b"", ""c_d""]","[""a__b"", ""c_d""]",pass
+shared_text,artificial,19,accented_letters_retained,tokenization,value,"[""épaule"", ""café""]","[""épaule"", ""café""]",pass
+shared_text,artificial,20,combining_dot_is_a_delimiter,tokenization,value,"[""i"", ""stanbul""]","[""i"", ""stanbul""]",pass
+shared_text,artificial,21,tokenizer_does_not_normalize_again,tokenization,value,"[""ss""]","[""ss""]",pass
+shared_text,artificial,22,connector_tokens_are_not_numeric_validation,tokenization,value,"[""2.5.3"", ""a/b-c""]","[""2.5.3"", ""a/b-c""]",pass
+shared_text,artificial,23,leading_signs_and_edges_are_delimiters,tokenization,value,"[""2.5"", ""3"", ""hold""]","[""2.5"", ""3"", ""hold""]",pass
+shared_text,artificial,24,unicode_fraction_slash_is_a_delimiter,tokenization,value,"[""1"", ""2""]","[""1"", ""2""]",pass
+shared_text,artificial,25,punctuation_only_has_no_tokens,tokenization,value,[],[],pass
+shared_text,artificial,26,generic_empty_tokens,tokenization,value,[],[],pass
+shared_text,artificial,27,generic_blank_tokens,tokenization,value,[],[],pass
+shared_text,artificial,28,canonical_text_has_one_shared_preparation,canonical_boundary,model_text,"""one-arm row do not rotate.""","""one-arm row do not rotate.""",pass
+shared_text,artificial,29,canonical_text_has_one_shared_preparation,canonical_boundary,tokens,"[""one-arm"", ""row"", ""do"", ""not"", ""rotate""]","[""one-arm"", ""row"", ""do"", ""not"", ""rotate""]",pass
+shared_text,artificial,30,name_only_input_is_retained,canonical_boundary,model_text,"""goblet squat""","""goblet squat""",pass
+shared_text,artificial,31,name_only_input_is_retained,canonical_boundary,tokens,"[""goblet"", ""squat""]","[""goblet"", ""squat""]",pass
+shared_text,artificial,32,valid_punctuation_does_not_insert_neural_fallback,canonical_boundary,model_text,"""!!!""","""!!!""",pass
+shared_text,artificial,33,valid_punctuation_does_not_insert_neural_fallback,canonical_boundary,tokens,[],[],pass
+shared_text,artificial,34,raw_wrapper_uses_the_same_exact_once_path,canonical_boundary,value,"[""ss""]","[""ss""]",pass
+shared_text,artificial,35,canonical_wrapper_keeps_negation_and_numbers,canonical_boundary,value,"[""do"", ""not"", ""hold"", ""2.5"", ""seconds""]","[""do"", ""not"", ""hold"", ""2.5"", ""seconds""]",pass
+shared_text,artificial,36,empty_canonical_rejected,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+shared_text,artificial,37,empty_canonical_rejected_vectorizer_path,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+shared_text,artificial,38,blank_canonical_rejected,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+shared_text,artificial,39,blank_canonical_rejected_vectorizer_path,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+shared_text,artificial,40,normalize_model_text_rejects_none,input_rejection,invalid_input_rejected,TypeError,TypeError,pass
+shared_text,artificial,41,normalize_model_text_rejects_numeric,input_rejection,invalid_input_rejected,TypeError,TypeError,pass
+shared_text,artificial,42,normalize_model_text_rejects_boolean,input_rejection,invalid_input_rejected,TypeError,TypeError,pass
+shared_text,artificial,43,normalize_model_text_rejects_list,input_rejection,invalid_input_rejected,TypeError,TypeError,pass
+shared_text,artificial,44,normalize_model_text_rejects_mapping,input_rejection,invalid_input_rejected,TypeError,TypeError,pass
+shared_text,artificial,45,tokenize_model_text_rejects_none,input_rejection,invalid_input_rejected,TypeError,TypeError,pass
+shared_text,artificial,46,tokenize_model_text_rejects_numeric,input_rejection,invalid_input_rejected,TypeError,TypeError,pass
+shared_text,artificial,47,tokenize_model_text_rejects_boolean,input_rejection,invalid_input_rejected,TypeError,TypeError,pass
+shared_text,artificial,48,tokenize_model_text_rejects_list,input_rejection,invalid_input_rejected,TypeError,TypeError,pass
+shared_text,artificial,49,tokenize_model_text_rejects_mapping,input_rejection,invalid_input_rejected,TypeError,TypeError,pass
+shared_text,artificial,50,prepare_canonical_text_rejects_none,input_rejection,invalid_input_rejected,TypeError,TypeError,pass
+shared_text,artificial,51,prepare_canonical_text_rejects_numeric,input_rejection,invalid_input_rejected,TypeError,TypeError,pass
+shared_text,artificial,52,prepare_canonical_text_rejects_boolean,input_rejection,invalid_input_rejected,TypeError,TypeError,pass
+shared_text,artificial,53,prepare_canonical_text_rejects_list,input_rejection,invalid_input_rejected,TypeError,TypeError,pass
+shared_text,artificial,54,prepare_canonical_text_rejects_mapping,input_rejection,invalid_input_rejected,TypeError,TypeError,pass
+shared_text,artificial,55,tokenize_canonical_text_rejects_none,input_rejection,invalid_input_rejected,TypeError,TypeError,pass
+shared_text,artificial,56,tokenize_canonical_text_rejects_numeric,input_rejection,invalid_input_rejected,TypeError,TypeError,pass
+shared_text,artificial,57,tokenize_canonical_text_rejects_boolean,input_rejection,invalid_input_rejected,TypeError,TypeError,pass
+shared_text,artificial,58,tokenize_canonical_text_rejects_list,input_rejection,invalid_input_rejected,TypeError,TypeError,pass
+shared_text,artificial,59,tokenize_canonical_text_rejects_mapping,input_rejection,invalid_input_rejected,TypeError,TypeError,pass
+shared_text,artificial,60,word_analyzer_keeps_unigrams_and_bigrams,tfidf_analyzer,value,"[""one-arm"", ""don't"", ""stop"", ""2.5"", ""1/2"", ""one-arm don't"", ""don't stop"", ""stop 2.5"", ""2.5 1/2""]","[""one-arm"", ""don't"", ""stop"", ""2.5"", ""1/2"", ""one-arm don't"", ""don't stop"", ""stop 2.5"", ""2.5 1/2""]",pass
+shared_text,artificial,61,word_analyzer_uses_exactly_once_normalization,tfidf_analyzer,value,"[""ss""]","[""ss""]",pass
+shared_text,artificial,62,word_analyzer_punctuation_has_no_invented_token,tfidf_analyzer,value,[],[],pass
+neural,artificial,1,frequency_ties_use_lexical_order,training_vocabulary,token_to_id,"{""<PAD>"": 0, ""<UNK>"": 1, ""a"": 2, ""b"": 3}","{""<PAD>"": 0, ""<UNK>"": 1, ""a"": 2, ""b"": 3}",pass
+neural,artificial,2,frequency_ties_use_lexical_order,training_vocabulary,retained_frequencies,"{""a"": 2, ""b"": 2}","{""a"": 2, ""b"": 2}",pass
+neural,artificial,3,frequency_ties_use_lexical_order,training_vocabulary,raw_token_occurrences,5,5,pass
+neural,artificial,4,frequency_ties_use_lexical_order,training_vocabulary,retained_token_occurrences,4,4,pass
+neural,artificial,5,frequency_ties_use_lexical_order,training_vocabulary,excluded_token_occurrences,1,1,pass
+neural,artificial,6,frequency_is_occurrences_not_document_count,training_vocabulary,token_to_id.repeated,2,2,pass
+neural,artificial,7,frequency_is_occurrences_not_document_count,training_vocabulary,retained_ordinary_tokens,1,1,pass
+neural,artificial,8,frequency_is_occurrences_not_document_count,training_vocabulary,retained_frequencies.repeated,2,2,pass
+neural,artificial,9,capacity_uses_frequency_then_lexical_order,training_vocabulary,id_to_token,"[""<PAD>"", ""<UNK>"", ""z"", ""a""]","[""<PAD>"", ""<UNK>"", ""z"", ""a""]",pass
+neural,artificial,10,capacity_uses_frequency_then_lexical_order,training_vocabulary,excluded_by_capacity,2,2,pass
+neural,artificial,11,capacity_uses_frequency_then_lexical_order,training_vocabulary,retained_frequencies,"{""z"": 3, ""a"": 2}","{""z"": 3, ""a"": 2}",pass
+neural,artificial,12,full_training_tail_counts_before_truncation,training_vocabulary,token_to_id.known,2,2,pass
+neural,artificial,13,full_training_tail_counts_before_truncation,training_vocabulary,token_to_id.tail,3,3,pass
+neural,artificial,14,full_training_tail_counts_before_truncation,training_vocabulary,retained_frequencies.tail,2,2,pass
+neural,artificial,15,full_training_tail_counts_before_truncation,training_vocabulary,raw_token_occurrences,18,18,pass
+neural,artificial,16,empty_raw_rows_do_not_invent_vocabulary_tokens,training_vocabulary,token_to_id,"{""<PAD>"": 0, ""<UNK>"": 1}","{""<PAD>"": 0, ""<UNK>"": 1}",pass
+neural,artificial,17,empty_raw_rows_do_not_invent_vocabulary_tokens,training_vocabulary,vocabulary_size,2,2,pass
+neural,artificial,18,empty_raw_rows_do_not_invent_vocabulary_tokens,training_vocabulary,raw_token_occurrences,0,0,pass
+neural,artificial,19,empty_raw_rows_do_not_invent_vocabulary_tokens,training_vocabulary,n_empty_token_sequences,2,2,pass
+neural,artificial,20,below_threshold_tokens_leave_special_only_vocabulary,training_vocabulary,vocabulary_size,2,2,pass
+neural,artificial,21,below_threshold_tokens_leave_special_only_vocabulary,training_vocabulary,excluded_below_frequency,2,2,pass
+neural,artificial,22,row_order_cannot_break_lexical_ties,training_vocabulary,id_to_token,"[""<PAD>"", ""<UNK>"", ""a"", ""b""]","[""<PAD>"", ""<UNK>"", ""a"", ""b""]",pass
+neural,artificial,23,row_order_cannot_break_lexical_ties,training_vocabulary,retained_frequencies,"{""a"": 2, ""b"": 2}","{""a"": 2, ""b"": 2}",pass
+neural,artificial,24,nearest_rank_at_twenty_records,training_length,percentile_rank,19,19,pass
+neural,artificial,25,nearest_rank_at_twenty_records,training_length,nearest_rank_length,19,19,pass
+neural,artificial,26,nearest_rank_at_twenty_records,training_length,max_sequence_length,19,19,pass
+neural,artificial,27,nearest_rank_uses_ceiling,training_length,percentile_rank,20,20,pass
+neural,artificial,28,nearest_rank_uses_ceiling,training_length,nearest_rank_length,20,20,pass
+neural,artificial,29,nearest_rank_uses_ceiling,training_length,max_sequence_length,20,20,pass
+neural,artificial,30,decimal_percentile_does_not_round_up_an_exact_rank,training_length,percentile_rank,7,7,pass
+neural,artificial,31,decimal_percentile_does_not_round_up_an_exact_rank,training_length,nearest_rank_length,7,7,pass
+neural,artificial,32,decimal_percentile_does_not_round_up_an_exact_rank,training_length,max_sequence_length,7,7,pass
+neural,artificial,33,training_length_lower_bound,training_length,nearest_rank_length,5,5,pass
+neural,artificial,34,training_length_lower_bound,training_length,max_sequence_length,16,16,pass
+neural,artificial,35,training_length_upper_bound,training_length,nearest_rank_length,500,500,pass
+neural,artificial,36,training_length_upper_bound,training_length,max_sequence_length,256,256,pass
+neural,artificial,37,empty_row_length_includes_one_fallback_position,training_length,percentile_rank,1,1,pass
+neural,artificial,38,empty_row_length_includes_one_fallback_position,training_length,nearest_rank_length,1,1,pass
+neural,artificial,39,empty_row_length_includes_one_fallback_position,training_length,minimum_effective_length,1,1,pass
+neural,artificial,40,empty_row_length_includes_one_fallback_position,training_length,max_sequence_length,1,1,pass
+neural,artificial,41,reserved_and_ordinary_ids_validate,encoding,value,true,true,pass
+neural,artificial,42,unknown_mapping_and_prefix_truncation,encoding,token_ids,"[2, 1, 3]","[2, 1, 3]",pass
+neural,artificial,43,unknown_mapping_and_prefix_truncation,encoding,raw_token_count,4,4,pass
+neural,artificial,44,unknown_mapping_and_prefix_truncation,encoding,effective_token_count,4,4,pass
+neural,artificial,45,unknown_mapping_and_prefix_truncation,encoding,retained_length,3,3,pass
+neural,artificial,46,unknown_mapping_and_prefix_truncation,encoding,truncated_tokens,1,1,pass
+neural,artificial,47,unknown_mapping_and_prefix_truncation,encoding,unknown_tokens_before_truncation,2,2,pass
+neural,artificial,48,unknown_mapping_and_prefix_truncation,encoding,unknown_tokens_after_truncation,1,1,pass
+neural,artificial,49,unknown_mapping_and_prefix_truncation,encoding,empty_token_fallback,false,false,pass
+neural,artificial,50,unknown_mapping_and_prefix_truncation,encoding,all_unknown_after_truncation,false,false,pass
+neural,artificial,51,punctuation_only_fallback_is_one_unk,encoding,token_ids,[1],[1],pass
+neural,artificial,52,punctuation_only_fallback_is_one_unk,encoding,raw_token_count,0,0,pass
+neural,artificial,53,punctuation_only_fallback_is_one_unk,encoding,effective_token_count,1,1,pass
+neural,artificial,54,punctuation_only_fallback_is_one_unk,encoding,retained_length,1,1,pass
+neural,artificial,55,punctuation_only_fallback_is_one_unk,encoding,unknown_tokens_before_truncation,1,1,pass
+neural,artificial,56,punctuation_only_fallback_is_one_unk,encoding,unknown_tokens_after_truncation,1,1,pass
+neural,artificial,57,punctuation_only_fallback_is_one_unk,encoding,empty_token_fallback,true,true,pass
+neural,artificial,58,punctuation_only_fallback_is_one_unk,encoding,all_unknown_after_truncation,true,true,pass
+neural,artificial,59,all_unknown_valid_rows_are_retained,encoding,token_ids,"[1, 1]","[1, 1]",pass
+neural,artificial,60,all_unknown_valid_rows_are_retained,encoding,all_unknown_after_truncation,true,true,pass
+neural,artificial,61,all_unknown_valid_rows_are_retained,encoding,empty_token_fallback,false,false,pass
+neural,artificial,62,all_unknown_valid_rows_are_retained,encoding,truncated_tokens,0,0,pass
+neural,artificial,63,unknown_tail_does_not_establish_retained_unk,encoding,token_ids,"[2, 2, 2, 2]","[2, 2, 2, 2]",pass
+neural,artificial,64,unknown_tail_does_not_establish_retained_unk,encoding,unknown_tokens_before_truncation,1,1,pass
+neural,artificial,65,unknown_tail_does_not_establish_retained_unk,encoding,unknown_tokens_after_truncation,0,0,pass
+neural,artificial,66,unknown_tail_does_not_establish_retained_unk,encoding,truncated_tokens,1,1,pass
+neural,artificial,67,empty_training_fit,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+neural,artificial,68,training_sequence_is_not_a_list,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+neural,artificial,69,inner_sequence_is_not_a_list,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+neural,artificial,70,nonstring_raw_token,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+neural,artificial,71,blank_raw_token,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+neural,artificial,72,reserved_symbol_is_not_an_ordinary_token,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+neural,artificial,73,boolean_frequency,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+neural,artificial,74,zero_capacity,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+neural,artificial,75,empty_training_lengths,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+neural,artificial,76,boolean_percentile,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+neural,artificial,77,zero_percentile,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+neural,artificial,78,percentile_above_one,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+neural,artificial,79,reversed_length_bounds,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+neural,artificial,80,boolean_length_bound,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+neural,artificial,81,noncontiguous_vocabulary_ids,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+neural,artificial,82,boolean_reserved_id,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+neural,artificial,83,mismatched_declared_vocabulary_size,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+neural,artificial,84,pad_is_not_an_unpadded_input_token,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+neural,artificial,85,boolean_sequence_limit,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+neural,artificial,86,zero_sequence_limit,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+neural,artificial,87,encoder_cannot_use_bad_vocabulary,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+neural,development_preparation,1,,,prerequisite_status,,verified,pass
+neural,development_preparation,2,,,unchanged_input_scope,,verified,pass
+neural,development_preparation,3,,,text_policy_identity,,verified,pass
+neural,development_preparation,4,,,fixed_training_only_fit_policies,,verified,pass
+neural,development_preparation,5,,,original_fields_preserved:train,,verified,pass
+neural,development_preparation,6,,,prepared_text_coverage:train,,verified,pass
+neural,development_preparation,7,,,original_fields_preserved:validation,,verified,pass
+neural,development_preparation,8,,,prepared_text_coverage:validation,,verified,pass
+neural,development_preparation,9,,,development_id_separation,,verified,pass
+neural,development_preparation,10,,,training_vocabulary_frequency_order_and_capacity,,verified,pass
+neural,development_preparation,11,,,reserved_ids_and_vocabulary_integrity,,verified,pass
+neural,development_preparation,12,,,training_only_nearest_rank_and_bounds,,verified,pass
+neural,development_preparation,13,,,encoded_positions_and_prefix_policy:train,,verified,pass
+neural,development_preparation,14,,,source_and_target_alignment_after_encoding:train,,verified,pass
+neural,development_preparation,15,,,encoded_positions_and_prefix_policy:validation,,verified,pass
+neural,development_preparation,16,,,source_and_target_alignment_after_encoding:validation,,verified,pass
+neural,development_preparation,17,,,validation_did_not_modify_fitted_settings,,verified,pass
+neural,development_preparation,18,,,diagnostic_counts_reconcile:train,,verified,pass
+neural,development_preparation,19,,,diagnostic_counts_reconcile:validation,,verified,pass
+neural,development_preparation,20,,,all_development_records_retained,,verified,pass
+neural,development_preparation,21,,,original_files_and_tables_reverified,,43,pass
+batching,artificial,1,right_padding_keeps_order_repeats_zero_target_and_unk,padding,record_ids,"[""toy:b"", ""toy:a"", ""toy:b""]","[""toy:b"", ""toy:a"", ""toy:b""]",pass
+batching,artificial,2,right_padding_keeps_order_repeats_zero_target_and_unk,padding,token_ids,"[[2, 1, 4], [3, 0, 0], [1, 2, 0]]","[[2, 1, 4], [3, 0, 0], [1, 2, 0]]",pass
+batching,artificial,3,right_padding_keeps_order_repeats_zero_target_and_unk,padding,mask,"[[true, true, true], [true, false, false], [true, true, false]]","[[true, true, true], [true, false, false], [true, true, false]]",pass
+batching,artificial,4,right_padding_keeps_order_repeats_zero_target_and_unk,padding,lengths,"[3, 1, 2]","[3, 1, 2]",pass
+batching,artificial,5,right_padding_keeps_order_repeats_zero_target_and_unk,padding,targets,"[0, 2, 1]","[0, 2, 1]",pass
+batching,artificial,6,singleton_unk_has_no_padding_to_global_cap,padding,record_ids,"[""toy:only""]","[""toy:only""]",pass
+batching,artificial,7,singleton_unk_has_no_padding_to_global_cap,padding,token_ids,[[1]],[[1]],pass
+batching,artificial,8,singleton_unk_has_no_padding_to_global_cap,padding,mask,[[true]],[[true]],pass
+batching,artificial,9,singleton_unk_has_no_padding_to_global_cap,padding,lengths,[1],[1],pass
+batching,artificial,10,singleton_unk_has_no_padding_to_global_cap,padding,targets,[0],[0],pass
+batching,artificial,11,sequence_at_saved_limit_is_preserved,padding,token_ids,"[[4, 3, 2]]","[[4, 3, 2]]",pass
+batching,artificial,12,sequence_at_saved_limit_is_preserved,padding,mask,"[[true, true, true]]","[[true, true, true]]",pass
+batching,artificial,13,sequence_at_saved_limit_is_preserved,padding,lengths,[3],[3],pass
+batching,artificial,14,sequence_at_saved_limit_is_preserved,padding,targets,[1],[1],pass
+batching,artificial,15,empty_batch_rejected,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+batching,artificial,16,empty_unpadded_token_row_rejected,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+batching,artificial,17,pad_zero_cannot_enter_unpadded_input,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+batching,artificial,18,over_limit_input_is_not_silently_truncated,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+batching,artificial,19,negative_token_id_rejected,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+batching,artificial,20,token_id_at_vocabulary_size_rejected,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+batching,artificial,21,boolean_token_id_rejected,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+batching,artificial,22,boolean_target_rejected,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+batching,artificial,23,negative_target_rejected,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+batching,artificial,24,target_at_class_count_rejected,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+batching,artificial,25,boolean_batch_dimension_rejected,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+batching,artificial,26,vocabulary_requires_pad_and_unk,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+batching,artificial,27,classification_requires_two_classes,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+batching,artificial,28,missing_example_field_rejected,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+batching,artificial,29,extra_example_field_rejected,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+batching,artificial,30,blank_record_id_rejected,input_rejection,invalid_input_rejected,ValueError,ValueError,pass
+batching,artificial,31,padding_embedding_is_excluded_from_sum_and_denominator,masked_pooling,means,"[[4.0, 6.0], [2.0, 4.0]]","[[4.0, 6.0], [2.0, 4.0]]",pass
+batching,artificial,32,padding_embedding_is_excluded_from_sum_and_denominator,masked_pooling,lengths,"[2, 1]","[2, 1]",pass
+batching,artificial,33,zero_unk_vector_still_counts_in_denominator,masked_pooling,means,"[[1.0, 2.0]]","[[1.0, 2.0]]",pass
+batching,artificial,34,zero_unk_vector_still_counts_in_denominator,masked_pooling,lengths,[2],[2],pass
+batching,artificial,35,unk_only_row_has_one_valid_position,masked_pooling,means,"[[0.0, 0.0]]","[[0.0, 0.0]]",pass
+batching,artificial,36,unk_only_row_has_one_valid_position,masked_pooling,lengths,[1],[1],pass
+batching,artificial,37,changed_unk_vector_contributes_to_numerator,masked_pooling,means,"[[6.0, 12.0]]","[[6.0, 12.0]]",pass
+batching,artificial,38,changed_unk_vector_contributes_to_numerator,masked_pooling,lengths,[2],[2],pass
+batching,artificial,39,unpadded_known_token_reference_mean,masked_pooling,means,"[[2.0, 4.0]]","[[2.0, 4.0]]",pass
+batching,artificial,40,unpadded_known_token_reference_mean,masked_pooling,lengths,[1],[1],pass
+batching,artificial,41,right_padding_leaves_known_token_mean_unchanged,masked_pooling,means,"[[2.0, 4.0]]","[[2.0, 4.0]]",pass
+batching,artificial,42,right_padding_leaves_known_token_mean_unchanged,masked_pooling,lengths,[1],[1],pass
+batching,artificial,43,all_pad_row_cannot_be_pooled,masked_pooling_rejection,invalid_input_rejected,ValueError,ValueError,pass
+batching,artificial,44,empty_mask_is_invalid,masked_pooling_rejection,invalid_input_rejected,ValueError,ValueError,pass
+batching,artificial,45,integer_mask_is_not_boolean,masked_pooling_rejection,invalid_input_rejected,ValueError,ValueError,pass
+batching,artificial,46,mask_shape_must_match_token_ids,masked_pooling_rejection,invalid_input_rejected,ValueError,ValueError,pass
+batching,artificial,47,pooling_id_outside_embedding_table_rejected,masked_pooling_rejection,invalid_input_rejected,ValueError,ValueError,pass
+batching,development_preparation,1,,,prerequisite_scope,,verified,pass
+batching,development_preparation,2,,,dependency_and_class_mapping_identity,,verified,pass
+batching,development_preparation,3,,,text_policy_identity,,verified,pass
+batching,development_preparation,4,,,development_preparation_identity,,verified,pass
+batching,development_preparation,5,,,project_and_branch_reverified,,verified,pass
+batching,development_preparation,6,,,training_fit_provenance,,verified,pass
+batching,development_preparation,7,,,fitted_vocabulary_structure,,verified,pass
+batching,development_preparation,8,,,complete_batch_traversal:train,,1999,pass
+batching,development_preparation,9,,,class_zero_preserved:train,,473,pass
+batching,development_preparation,10,,,complete_batch_traversal:validation,,435,pass
+batching,development_preparation,11,,,class_zero_preserved:validation,,83,pass
+batching,development_preparation,12,,,all_development_examples_verified,,2434,pass
+batching,development_preparation,13,,,training_unk_count_preserved,,verified,pass
+batching,development_preparation,14,,,sources_and_fitted_payloads_unchanged,,43,pass

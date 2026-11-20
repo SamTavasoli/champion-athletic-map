@@ -1,0 +1,15 @@
+input_field,concept,proposed_destination,destination_table,destination_column_present,imported_nonblank_records,mapping_policy,application_status
+drill_id,source occurrence identity,evidence_id,registry,yes,23,Use the saved ADI- identifier correspondence; preserve imported drill_id.,not_applied
+drill_name,original activity name,drill_name,catalog,yes,23,Keep raw name separately; preserve reviewed catalog and registry names.,not_applied
+skill_category,imported skill label,skill_area,catalog,yes,23,Retain raw category; reconcile any classification difference before remapping.,not_applied
+curriculum_level,publisher curriculum label,curriculum_levels,catalog,yes,23,Preserve occurrence level; candidate memberships may overlap.,not_applied
+duration,mixed prescription text,source_prescription,catalog,yes,23,Keep source wording; do not derive a standalone duration automatically.,not_applied
+equipment,imported equipment annotation,equipment,catalog,yes,23,Compare with reviewed occurrence evidence; do not overwrite reconciled requirements.,not_applied
+instructions_summary,instructional summary,instructions,catalog,no,23,Retain per occurrence with source links; instructional accuracy and intended use need review.,not_applied
+source_page,recorded document page,source_page,registry,yes,23,Preserve document context; a PDF page and website location are different locators.,not_applied
+group_requirement,participant arrangement,participants,catalog,yes,23,Preserve qualitative roles; do not infer numeric minimum participants.,not_applied
+primary_goal,activity goal,primary_goal,catalog,no,23,Retain as imported annotation until its source basis is reviewed.,not_applied
+difficulty_modification,modification annotation,difficulty_modification,catalog,no,23,Preserve separately from base instructions and establish provenance.,not_applied
+source_document,recorded source document,source_document,registry,yes,23,Retain occurrence document identity alongside the registry URL.,not_applied
+solo_adaptation_possible,imported solo-adaptation flag,solo_adaptation_possible,catalog,no,23,Preserve the original flag; it does not establish approved solo feasibility.,not_applied
+solo_adaptation_note,solo-adaptation annotation,solo_adaptation,catalog,no,23,Preserve separately; publisher authorship and practical feasibility remain to be reviewed.,not_applied

@@ -1,0 +1,333 @@
+{
+  "schema_version": "step10-exercise-preparation-1",
+  "recipe_version": "exercise-preparation-0.2.0",
+  "prepared_at": "2026-11-08T20:23:21.807556+00:00",
+  "status": "prepared_with_reviews",
+  "parent_source": {
+    "source_id": "derived_exercise",
+    "relative_path": "Champions_Athletic_Agent_Ready_Dataset _Package/exercise_clean.csv",
+    "sha256": "6a7d71d6ed6a34c5a95b294adb9374ead80e9308caab448478e6dbcaf4b7f81c",
+    "rows": 2909,
+    "columns": [
+      "exercise_name",
+      "description",
+      "exercise_type",
+      "body_part",
+      "equipment",
+      "difficulty_level",
+      "rating",
+      "ratingdesc",
+      "goal_tag",
+      "agent_text"
+    ]
+  },
+  "upstream_document_hashes": {
+    "data/source_manifest.csv": "a4321c8065b1a6e01cdd48aec72e15ba87fd5333002aaff996ad792f64875ad2",
+    "results/data_inventory.csv": "22debd13f1ba496737f9c9c96485b5054e7af4a897f51d3f13564484ad205fdf",
+    "results/step09_quality_summary.json": "33c46bc3a5c0cc10596bf3753c0a6bbcc854626ec4aef970472b6d8a178b0bec",
+    "results/source_file_inventory.csv": "827304456bfb6dcebf4e786256c5c62b347d8bf040f907581c31bcf367f8d6bc",
+    "results/step08_source_audit_summary.json": "cfe9e77935d6d9e22923c25096fdaaf3f356417c05348d23c3e5c3b5b0548564"
+  },
+  "artifacts": {
+    "catalog": {
+      "relative_path": "data/processed/exercise_catalog.csv",
+      "sha256": "ecf9e7ebe88f71e4350c747291b269976c0d2b01ba295dcdd63459065a3246fe",
+      "rows": 2909,
+      "columns": [
+        "exercise_name",
+        "description",
+        "exercise_type",
+        "body_part",
+        "equipment",
+        "difficulty_level",
+        "rating",
+        "ratingdesc",
+        "goal_tag",
+        "agent_text",
+        "catalog_id",
+        "source_cleaned_record_position",
+        "source_file",
+        "source_sha256",
+        "exercise_name_prepared",
+        "description_prepared",
+        "body_part_prepared",
+        "exercise_type_prepared",
+        "equipment_prepared",
+        "difficulty_level_prepared",
+        "name_comparison_key",
+        "label_review_status",
+        "preliminary_classifier_candidate",
+        "review_flags",
+        "preparation_version",
+        "prior_label_review_status",
+        "source_record_evidence_sha256",
+        "label_review_evidence_sha256",
+        "name_group_key",
+        "classifier_text",
+        "text_availability",
+        "name_group_id",
+        "name_group_size",
+        "name_group_label_count",
+        "description_group_id",
+        "description_group_size",
+        "split_group_id",
+        "split_group_size",
+        "split_group_label_count",
+        "prior_label_review_evidence_sha256"
+      ]
+    },
+    "cleaning_log": {
+      "relative_path": "results/exercise_cleaning_log.csv",
+      "sha256": "287f89e2a4ac280176719754c37bb1b81e383db3779af44972657e7293dd7a1b",
+      "rows": 0,
+      "columns": [
+        "catalog_id",
+        "field",
+        "source_value",
+        "prepared_value",
+        "reason",
+        "decision",
+        "record_state"
+      ]
+    },
+    "review_queue": {
+      "relative_path": "results/exercise_review_queue.csv",
+      "sha256": "e46a4ab4a61f1ad299d40f3a42f672531ee9948c718bda9e9214507fce363acd",
+      "rows": 2333,
+      "columns": [
+        "catalog_id",
+        "issue_type",
+        "priority",
+        "evidence",
+        "suggested_action",
+        "review_status",
+        "evidence_sha256",
+        "finding_state",
+        "prior_review_status",
+        "prior_evidence_sha256",
+        "prior_evidence"
+      ]
+    },
+    "group_membership": {
+      "relative_path": "results/exercise_group_membership.csv",
+      "sha256": "f708420a3334d7f17f7ef73b3fe51123e1f9baff9cd6bc64a6a0e6d4dc7264a3",
+      "rows": 3515,
+      "columns": [
+        "relation_type",
+        "group_id",
+        "catalog_id",
+        "member_count",
+        "labels_json",
+        "comparison_digest",
+        "link_role"
+      ]
+    },
+    "review_carryover": {
+      "relative_path": "results/exercise_review_carryover.csv",
+      "sha256": "c3a72f9b877e357518078cd6180e8684f5464202ee1e0c270dabf190c14db573",
+      "rows": 5242,
+      "columns": [
+        "entity_type",
+        "key",
+        "change",
+        "previous_value",
+        "current_value",
+        "reason"
+      ]
+    }
+  },
+  "previous_artifacts": {
+    "data/processed/exercise_catalog.csv": {
+      "sha256": "0c95fb60184910c748541f18126b6fc82829e9d7251dfefae6b89953583ff0f9",
+      "backup_path": "results/backups/step10/20261108T202403_669559Z/data/processed/exercise_catalog.csv"
+    },
+    "results/exercise_cleaning_log.csv": {
+      "sha256": "823e1dc140781494bf8e60684cec8a9a1a86386a7141def4d9281f8d609c56a1",
+      "backup_path": "results/backups/step10/20261108T202403_669559Z/results/exercise_cleaning_log.csv"
+    },
+    "results/exercise_review_queue.csv": {
+      "sha256": "fd3b374c10b0239d554a0666c6cb1f335e590e85331a0d729b86832c8d3c479e",
+      "backup_path": "results/backups/step10/20261108T202403_669559Z/results/exercise_review_queue.csv"
+    }
+  },
+  "preparation_metrics": {
+    "source_records": 2909,
+    "catalog_records": 2909,
+    "label_counts": {
+      "abdominals": 660,
+      "adductors": 17,
+      "abductors": 21,
+      "biceps": 168,
+      "calves": 47,
+      "chest": 260,
+      "forearms": 31,
+      "glutes": 81,
+      "hamstrings": 121,
+      "lats": 124,
+      "lower back": 97,
+      "middle back": 116,
+      "traps": 24,
+      "neck": 8,
+      "quadriceps": 645,
+      "shoulders": 338,
+      "triceps": 151
+    },
+    "preliminary_classifier_candidates": 2909,
+    "text_availability": {
+      "name_and_description": 1359,
+      "name_only": 1550
+    },
+    "current_formatting_changes": 0,
+    "historical_formatting_entries": 0,
+    "records_with_observed_or_custom_flags": 2072,
+    "review_queue_entries": 2333,
+    "active_review_entries": 2333,
+    "unresolved_active_entries": 2333,
+    "observed_issue_counts": {
+      "missing_description": 1550,
+      "missing_equipment": 32,
+      "low_support_label": 8,
+      "normalized_classifier_input": 32,
+      "repeated_normalized_name": 70,
+      "conflicting_labels_for_name": 22,
+      "shared_description": 488,
+      "mixed_label_split_group": 131
+    }
+  },
+  "grouping_metrics": {
+    "source_sha256": "6a7d71d6ed6a34c5a95b294adb9374ead80e9308caab448478e6dbcaf4b7f81c",
+    "recipe_version": "exercise-preparation-0.2.0",
+    "relation_metrics": {
+      "broad_name": {
+        "repeated_groups": 35,
+        "records_in_repeated_groups": 70,
+        "additional_records": 35,
+        "different_label_groups": 11,
+        "largest_group": 2
+      },
+      "shared_description": {
+        "repeated_groups": 179,
+        "records_in_repeated_groups": 488,
+        "additional_records": 309,
+        "different_label_groups": 42,
+        "largest_group": 10
+      },
+      "strict_classifier_input": {
+        "repeated_groups": 0,
+        "records_in_repeated_groups": 0,
+        "additional_records": 0,
+        "different_label_groups": 0,
+        "largest_group": 0
+      },
+      "broad_classifier_input": {
+        "repeated_groups": 16,
+        "records_in_repeated_groups": 32,
+        "additional_records": 16,
+        "different_label_groups": 7,
+        "largest_group": 2
+      },
+      "strict_content_without_label": {
+        "repeated_groups": 0,
+        "records_in_repeated_groups": 0,
+        "additional_records": 0,
+        "different_label_groups": 0,
+        "largest_group": 0
+      },
+      "broad_content_without_label": {
+        "repeated_groups": 8,
+        "records_in_repeated_groups": 16,
+        "additional_records": 8,
+        "different_label_groups": 3,
+        "largest_group": 2
+      }
+    },
+    "split_metrics": {
+      "total_groups": 2581,
+      "singleton_groups": 2389,
+      "multi_record_groups": 192,
+      "records_in_multi_record_groups": 520,
+      "largest_group": 10,
+      "different_label_groups": 46,
+      "total_memberships": 2909
+    },
+    "distinct_split_groups_by_label": {
+      "abdominals": 604,
+      "abductors": 21,
+      "adductors": 17,
+      "biceps": 144,
+      "calves": 38,
+      "chest": 225,
+      "forearms": 31,
+      "glutes": 79,
+      "hamstrings": 107,
+      "lats": 112,
+      "lower back": 88,
+      "middle back": 109,
+      "neck": 8,
+      "quadriceps": 586,
+      "shoulders": 308,
+      "traps": 24,
+      "triceps": 131
+    },
+    "strict_name_repeated_groups": 0
+  },
+  "review_metrics": {
+    "existing_catalog_records": 2909,
+    "catalog_statuses_carried": 2909,
+    "catalog_unresolved_statuses_carried": 2909,
+    "queue_statuses_carried": 1590,
+    "legacy_equivalent_findings_carried": 1590,
+    "new_observed_findings": 743,
+    "new_catalog_records": 0,
+    "catalog_fingerprint_matches": 0,
+    "stale_catalog_decisions": 0,
+    "queue_fingerprint_matches": 0,
+    "queue_unresolved_statuses_carried": 0,
+    "stale_queue_decisions": 0,
+    "historical_automated_findings": 0,
+    "retained_custom_findings": 0,
+    "catalog_records": 2909,
+    "queue_records": 2333,
+    "catalog_status_counts": {
+      "original_source_verification_pending": 2909
+    },
+    "queue_status_counts": {
+      "pending": 2333
+    },
+    "finding_state_counts": {
+      "observed": 2333
+    }
+  },
+  "feature_contract": {
+    "input_fields": [
+      "exercise_name_prepared",
+      "description_prepared"
+    ],
+    "model_text_field": "classifier_text",
+    "target_field": "body_part_prepared",
+    "split_group_field": "split_group_id",
+    "final_splits_created": false,
+    "excluded_from_features": [
+      "body_part",
+      "body_part_prepared",
+      "goal_tag",
+      "agent_text",
+      "catalog_id",
+      "equipment",
+      "difficulty_level",
+      "review_flags",
+      "label_review_status",
+      "split_group_label_count",
+      "source_metadata"
+    ]
+  },
+  "verified_checks": {
+    "all_source_records_retained": true,
+    "source_fields_unchanged": true,
+    "original_body_part_labels_unchanged": true,
+    "unique_catalog_ids": true,
+    "classifier_text_allowlist": true,
+    "comparison_links_kept_within_groups": true,
+    "blank_descriptions_not_grouped_together": true
+  }
+}

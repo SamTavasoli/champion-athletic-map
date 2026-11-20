@@ -1,0 +1,8 @@
+{
+  "args": [
+    15,
+    9
+  ],
+  "kwargs": {},
+  "method": "get_planning_rules"
+}

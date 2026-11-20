@@ -1,0 +1,43 @@
+{
+  "step": "12-45",
+  "version": "0.3.5",
+  "catalog_candidates": 144,
+  "registry_source_records": 156,
+  "wave2_candidates": 14,
+  "field_decisions": 56,
+  "decision_counts": {
+    "retain_current": 26,
+    "accept_proposal": 27,
+    "defer": 1,
+    "revise_value": 2
+  },
+  "actual_field_changes": 29,
+  "catalog_fields_changed": 29,
+  "registry_fields_changed": 29,
+  "deferred_field": {
+    "evidence_id": "JR-EVID-0059",
+    "field": "space",
+    "status": "exact_minimum_space_pending_review"
+  },
+  "metadata_review_confirmation": "user_confirmed_step_12_44_recommendations",
+  "confirmation_date": "2026-11-07",
+  "team_signoff": "pending",
+  "canonical_signoff": "pending",
+  "permissions": "pending",
+  "youth_planning_review": "pending",
+  "approved_count": 0,
+  "planner_eligible_count": 0,
+  "input_sha256": {
+    "catalog": "ee7952561c1c07c69a1637ec4c5c9943895e897f72795337edbf117e9e292daf",
+    "registry": "90acfe374bf0dbd4ea8c8edc22e3d4846d4489d79695c80d1a8121a830650f25",
+    "recommendations": "ed568eb0336e90f3e3012cc0c47eeac2ecd4e506b34aad899aef525062ac6db1",
+    "candidate_summary": "6ec0546d6360ae84f6368c7d72bf1a4b0ac1d3f1c6de275ea0ce80246277cfdd"
+  },
+  "output_sha256": {
+    "catalog": "492a7410446f0c7e261a42b35382ac858b3811cbdf936d4d17e262983cb5cb99",
+    "registry": "f27de2f4b6c9d62d33aa1f27bc97c650355076886535ba63e9a6d78d9931478a",
+    "field_decisions": "357dbd4d0e706410fad0e9ba9da5c42a3256166e952a7f9c6f0fe3c6ae9b02bd",
+    "candidate_decisions": "8932c7eb79b2295d6129566b5f3fab72870e41f0249c0ff1476bc341ed5de024",
+    "change_log": "8db691fb9f7f1dcea7721f209d9541a90ea90915a161748654813ee06c7099b4"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "step": "12-52",
+  "catalog_version": "0.3.6",
+  "decision_date": "2026-11-07",
+  "catalog_groups": 144,
+  "source_occurrences": 156,
+  "affected_candidate_groups": 23,
+  "confirmed_decisions": {
+    "retain_current_and_record_publisher_notation": 6,
+    "accept_source_location_description_pending_signoff": 17,
+    "defer_unverified_space_requirement": 1
+  },
+  "confirmed_prescription_retentions": 6,
+  "confirmed_source_location_descriptions": 17,
+  "deferred_space_requirements": 1,
+  "changed_catalog_fields": 17,
+  "changed_registry_fields": 17,
+  "team_signoffs": 0,
+  "catalog_approved": 0,
+  "planner_eligible": 0,
+  "input_sha256": {
+    "data\\processed\\basketball_drill_catalog_v0_3_5_REVIEW_ONLY.csv": "492a7410446f0c7e261a42b35382ac858b3811cbdf936d4d17e262983cb5cb99",
+    "results\\basketball_drill_source_registry_v0_3_5.csv": "f27de2f4b6c9d62d33aa1f27bc97c650355076886535ba63e9a6d78d9931478a",
+    "results\\Step_12_51_Wave3_Metadata_Recommendations_REVIEW_ONLY.csv": "3bc3bca078d5faefa207f05ef407aa3dd70c4ecf45ce03eec8e4f9c263d760a0"
+  },
+  "review_snapshot_sha256": "0d08965200fa6742a777591debac3b1dc1f321d7b4acf177626febb3c1b8470d",
+  "output_sha256": {
+    "data\\processed\\basketball_drill_catalog_v0_3_6_REVIEW_ONLY.csv": "a9e9831ebf497e150b4bbf0ec7fc48a12c2e285350b0671cd74f423dac1000d5",
+    "results\\basketball_drill_source_registry_v0_3_6.csv": "191242faae20c8655162cf044a98fa50758cc07789238f0d7a0a54997902f4cc",
+    "results\\basketball_wave3_confirmed_metadata_decisions_v0_3_6.csv": "a675b1ce63d29f38619da437b25745dd059ba1312e3418de8aa0311a98b8a0ec",
+    "results\\basketball_wave3_metadata_change_log_v0_3_6.csv": "96cdb4b24287596ec8fcf0c26fd07c44c5d5c442473332bb353510ba0c54823f",
+    "results\\basketball_wave3_unresolved_metadata_v0_3_6.csv": "1baee47bba5c053816833a5f700d196ebd15f704a3bab7612ac0aae809d2d167"
+  },
+  "pending_gates": [
+    "team_signoff",
+    "permissions",
+    "youth_planning",
+    "canonical_review"
+  ]
+}

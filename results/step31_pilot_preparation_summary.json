@@ -1,0 +1,467 @@
+{
+  "accepted_study_profiles": 0,
+  "adopted_families": 0,
+  "case_review": "pending",
+  "categories_are_provisional": true,
+  "checks": [
+    {
+      "check_id": "step30_execution",
+      "details": {
+        "collected": 248,
+        "executed": 248,
+        "outcomes": {
+          "error": 0,
+          "expected_failure": 0,
+          "failed": 0,
+          "not_executed": 0,
+          "passed": 248,
+          "skipped": 0
+        }
+      },
+      "evidence": "results/step30_testing_summary.json",
+      "reason": "All recorded routine tests executed and passed.",
+      "required": true,
+      "status": "passed"
+    },
+    {
+      "check_id": "step30_source_bindings",
+      "details": {
+        "issues": [],
+        "verified_files": {
+          "app/streamlit_app.py": "3df1654ca317e282c68dad1bd362bf3d42415b725afc152435f44aa1b9927092",
+          "artifacts/application/development_examples.json": "7e47c836267b895a40b8c2afe500f9b0377f200bac18813adedabf75605ac93e",
+          "artifacts/application/interactive_profile_schema.json": "e9d16507816425deba56a43bfecc9d4129eafb7335999b7f261d5dede138ee3d",
+          "artifacts/application/prototype_config.json": "8fd8797851a4f970ab07bdb332bae2fe268da5965a2bf8e99e7767b87e7d39fa",
+          "artifacts/application/snapshot_schema.json": "30e0018b7ebc31c8e7df785fb7c6f98c4583e34decf5fd1e1d625f8656a8eabc",
+          "artifacts/classifiers/exercise-classifier-4f6b6f435ef52fef8f4cca6d/manifest.json": "582e8c5650601a6cd0973389cafa0b1ffba900173d0e30cdb409e2b97b09a2fd",
+          "artifacts/classifiers/exercise-classifier-4f6b6f435ef52fef8f4cca6d/src/champion_athletic_map/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "artifacts/classifiers/exercise-classifier-4f6b6f435ef52fef8f4cca6d/src/champion_athletic_map/classifier_inference.py": "4d5b788ad562cea82bd4102d170f4b50a5115ec291a800dc5feba6d40c5a7902",
+          "artifacts/classifiers/exercise-classifier-4f6b6f435ef52fef8f4cca6d/src/champion_athletic_map/neural_classifier.py": "4caaf5c1554da121ec47cf9d1cc84bd106eefece631776850c5c2008ec2eee51",
+          "artifacts/classifiers/exercise-classifier-4f6b6f435ef52fef8f4cca6d/src/champion_athletic_map/text_preprocessing.py": "47bbaa42eea1ed56634969c65546ab371b7303d8e728dcbf5e8cb151c7986db2",
+          "artifacts/evaluation/classifier_metrics_db3e5f3df78a126c/classifier_metrics.py": "10b026d0deed9eb674a1a2b194f9523b9445f54e6a139aaca64aae578aa165d6",
+          "artifacts/evaluation/evidence_accounting_c546a28e0ec3a34b/evidence_accounting.py": "2c0e96b652697cb098db69a72e9dd3daa0e546e0d236967680017a166130ded5",
+          "artifacts/evaluation/human_review_9e637c0f3932c371/human_review_metrics.py": "dbe3d87cb7766bcee6d211db0ee2de16efb1030fd1133e7a65d2d4424973eaed",
+          "artifacts/evaluation/paired_comparison_acf00a1a848823fb/paired_comparison.py": "389357159c6fd0f8a35f2ac94fba5f2483932f8a7d56a078a0e4271405d55b68",
+          "artifacts/evaluation/planner_assessment_9bc2c716c90475ff/planner_assessment_policy.py": "4b3be4a66b2439734d2483e1b88794b0222297bc29ced649ce810215bd7419f9",
+          "artifacts/evaluation/runtime_accounting_12404b69651ab1bc/runtime_accounting.py": "b66e081c1867eb08c58177b2d3561967faa89ddd7191938ad444f9b89d808678",
+          "artifacts/evaluation/scoring_config.json": "3034c30e3c7c802e0d73d9dfcd544f4a628520ffe8c7bf2c5a6823745ddbe97a",
+          "artifacts/language_model/active_resource_release.json": "b05bfd994b9d722e6179ee2a3e2136975118a51468eb490bec166c231f15303b",
+          "artifacts/language_model/adapter_versions/llm_prompt_v1.py": "edaff707b58347493b4eefd27d6c8e4a6df36f679f33674ddcac1e6d7f26c3f2",
+          "artifacts/language_model/adapter_versions/llm_prompt_v2.py": "350d6a2e6b600bb488916a08feeac27bcf74dcd9f7d2680b1f715fd3faf0bd4e",
+          "artifacts/language_model/approved_resources/team-approved-f0dcb9e9943e381b/adopted_drills.json": "32ee86843189f03aa6d02270313c2b4b84ebb0f221f4561b938b62c50d90368f",
+          "artifacts/language_model/approved_resources/team-approved-f0dcb9e9943e381b/adopted_rules.json": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b",
+          "artifacts/language_model/approved_resources/team-approved-f0dcb9e9943e381b/decisions.json": "1b30e7607f26c9c451bce921ce623b622a8342a1978a624b2f9a0daba8fce4a2",
+          "artifacts/language_model/approved_resources/team-approved-f0dcb9e9943e381b/manifest.json": "d048af8432bfc339a2504460cbbdbca7011745774d92f0024aa15148dc55db6b",
+          "artifacts/language_model/approved_resources/team-approved-f0dcb9e9943e381b/previous_modules/reference_packets.py": "ab3ab6e9674d810dcca1ffd8ea98a71dec5a19513b1ded225fac307528378dac",
+          "artifacts/language_model/approved_resources/team-approved-f0dcb9e9943e381b/previous_modules/reference_tools.py": "e763d1d45c09e0a73bd8c9a36e07ae8be4ca664247f032ff17f6edf81f4f02ee",
+          "artifacts/language_model/integration_config.json": "5cd4b3e8f31180ccb717f9d5713be95faa337f9ca2add247f09a815494bf6bc4",
+          "artifacts/language_model/prompt_preflight/preflight_eb1720a4533bf163/prompt_preflight.py": "8738e1c0d1c7c55d5e1b69ea218e34a34be657a32cd71ed833c40b104e5c6a0c",
+          "artifacts/language_model/shared_contracts/contracts_3293242853ce2cf7/planner_response_schema.json": "5e812df290ffe5bfbdf17c847abbe7136fa5eae5c084d815caab5a5e5bd1f6f8",
+          "artifacts/language_model/shared_contracts/contracts_3293242853ce2cf7/public_input.py": "56d406a462a35687aaa69fd1820140aca80e6386b22452e9032b5f8d7a12835c",
+          "artifacts/language_model/shared_contracts/contracts_3293242853ce2cf7/public_profile_record_schema.json": "c608b6a369395ef578cd4aa77b709a5e50889ef7e9a2e715b0904fb55c3da2c8",
+          "artifacts/language_model/shared_contracts/contracts_3293242853ce2cf7/response_contract.py": "572bf36fc98056eff77a6d63b428703f1315e5056d935ed6b6815171b7e57ac5",
+          "artifacts/language_model/shared_contracts/contracts_3293242853ce2cf7/shared_io_policy.json": "9b831576aa84ca4daae3ed4f411da53bfed955e60764bbb558914baa187ef4d7",
+          "artifacts/language_model/shared_contracts/contracts_3293242853ce2cf7/software_probe_fixtures.json": "dc4af8e677e3a03d93a3d7a19e789b4ab1921bff96336ebeac17e4ca2f2d35d7",
+          "artifacts/language_model/shared_contracts/contracts_3293242853ce2cf7/software_probe_results.json": "821025154cc42abeff0dc31022e7a5dc1a47b631142a603984caedad28ee2cb3",
+          "artifacts/language_model/shared_contracts/contracts_3293242853ce2cf7/step24_7_shared_contract_summary.json": "519362b211147f88651839f4001ea63bd4e01e77698c93538f985e6dbaca8da9",
+          "artifacts/language_model/shared_contracts/contracts_3293242853ce2cf7/verified_inputs.json": "a32910d258af3c4b829594c568a84a4b5a353c6a5a985f3658dacff58639ad0d",
+          "artifacts/language_model/tokenizers/tokenizer_bdb1409b4c107f2a/native_tokenizer.py": "e81e857b252f36d4c49395ccc62a5c745cd4b0506db3ee73ecf438d1619829f8",
+          "artifacts/planners/active_version4_development.json": "aab659039581d6874e81cb738019fc8c7ac1f73f6998819709b50b8d83aa8632",
+          "artifacts/planners/shared_reference_source_config.json": "f50e956ba9b63911b45e4f94926819339edfe1a4afda38d23ae036e3606fecfd",
+          "artifacts/planners/version1_config.json": "f7e50a23fdad445695386a0ae6ec5a8949d23961396dcf7db6b2e85f02478ffe",
+          "artifacts/planners/version2_config.json": "d688a4624b3ca9aba6dbe690dcf60bfd2558cf3972a69c97eeb918eb96e97153",
+          "artifacts/planners/version3_config.json": "5d833ff622e41fa12f51a2cea25f2eed1d7f2147db228f9b48b25c881a520440",
+          "artifacts/planners/version3_note_schema.json": "b2dd1515e9324a6db2c92c74519ade39d6633858bec0846663b1d8758f2b0589",
+          "artifacts/planners/version4_acceptance_policy.json": "e8d87dc54931a57ce5e17ca8a3eff3192f95eb2e211016cf76f157251e371006",
+          "artifacts/planners/version4_candidate_focused_config.json": "b1ffd025ba11e4de3b8b33a5db757e8f8158e820d4d2171020e8a6212b38f6b9",
+          "artifacts/planners/version4_config.json": "042e66d552d922689a6f28ee12880bb8e84d6d9a45c8aa172f2b1101a29a7035",
+          "artifacts/planners/version4_evaluator_fix_config.json": "4de9e13bb185bdeefc2533fcb53bb59c3d19e555d43c935c6d05a6c27fa4d9ad",
+          "artifacts/planners/version4_evaluator_schema.json": "f8485f589cfaadff419e43ab0c1c5c30275e012dc0dad87895eff4337703621f",
+          "artifacts/retrieval/benchmark/benchmark_9b572b07c872d1a7/benchmark_validator.py": "b3c432281ea77ec7802fed072774b3a3c2b924068b849aa493f7a5a59d7a4feb",
+          "artifacts/retrieval/development/comparison_8a912950decb6f7c/development_replay_worker.py": "4d1574648f0ead0f84f391415659a53715848116072bccaf05fbdf2a8a12a239",
+          "artifacts/retrieval/evaluation/evaluation_62d4b123570c2ca8/heldout_replay_worker.py": "cd4401f56c9fdc5d654b3a41dbe39b07f8e153404b3685a1adbec9cce2433b85",
+          "artifacts/retrieval/expanded/expanded_ee12915cfac22530/lexical_worker.py": "fad6e2a25dc65b3574e7d32991b6648c65c30c4eef6aca441e55497e2d115d4f",
+          "artifacts/retrieval/expanded/expanded_ee12915cfac22530/retrieval.py": "f95a2df8c4f77af47cf3509900b16ae1a8b16e6f355f09979eec1c32a5135636",
+          "artifacts/retrieval/expanded/expanded_ee12915cfac22530/semantic_worker.py": "4cabe7bd2e0166f6a4d498ff149c827bd4fe9e44635fbbbb65cac0846e324be5",
+          "artifacts/retrieval/passages/additional_cdc_passages_68f863e552d95bf1/tokenizer_worker.py": "bb1e908034b31cd3d54e03b4e4f1de39c22556457da1dc0532f8773e8ea6a0d1",
+          "artifacts/retrieval/passages/passages_e9eef7cbe17fd772/tokenizer_worker.py": "f076bc3a6ef742564d4016869fe26ab8e852735ce188143a8999b373f3d62f89",
+          "artifacts/retrieval/passages/uga_passages_0b2445a3e681553a/tokenizer_worker.py": "2998ba72914d780a81824f9b496e9209a395a066481f726d078fdc38cc7f864d",
+          "artifacts/retrieval/pilot/pilot_d62cdbc989ab524d/lexical_worker.py": "6c3398e72bcdeb5b73867f30927018fd26e81fc23afefe13e25943af2d70e5da",
+          "artifacts/retrieval/pilot/pilot_d62cdbc989ab524d/retrieval.py": "48cda29c19150e88595bc57e9dca092291ac206d35944aeeea9b16c69578b059",
+          "artifacts/retrieval/pilot/pilot_d62cdbc989ab524d/semantic_worker.py": "ed710113596a245ce32ad563fccb39245e9eb734ab939a2d0884367c1d3fd454",
+          "artifacts/retrieval/query_runtime/query_f6db9aad37d7a9b9/query_runtime.py": "64e410c50b9224c15d357877b4dd257ad820b9e07a4a9aa0c0d173613e079a9c",
+          "artifacts/retrieval/query_runtime/query_f6db9aad37d7a9b9/query_worker.py": "ac750f90be4bfa2e09ce316c08b63b0f899ba4c0e1ccca2dae9dccb6ea35f8de",
+          "artifacts/retrieval/query_runtime/query_f6db9aad37d7a9b9/retrieval_metrics.py": "ac8ea2a576b830607c3acb52b0ca8e5f5657d28104e679b837b3dc2313b5cb34",
+          "artifacts/retrieval/semantic/runtime_1e7ec007d3464722/runtime_worker.py": "fffb04ced503e5191db4dde182693bb9689995292f1f7d290d103bd27aa29687",
+          "artifacts/splits/exercise_split_config.json": "1694be410134288b9df58f651f20c9dc19f1a811f338b99e2dffb61ef4829f1a",
+          "data/processed/usda_sr_legacy_2018_04/reference_ee67cf780262d24b/usda_food_reference.py": "b665381f328e9ebfefbe8c42ef01e6905a7085dc4789290939194b4488b69136",
+          "results/step29_prototype_summary.json": "95bb63b4662a9a9065402f9e67a81d630ef3864cd3c04079cd322c148caca9dc",
+          "src/champion_athletic_map/application_state.py": "c7f01dfafdceee2b34782fb4a3ddfbcbf432bbc0cf64c4573b17f5fc10a53c4d",
+          "src/champion_athletic_map/classifier_inference.py": "4d5b788ad562cea82bd4102d170f4b50a5115ec291a800dc5feba6d40c5a7902",
+          "src/champion_athletic_map/context_encoding.py": "2626f39229a163b024c0ce3aa7310b54e2cc2911c94f64e739f8a4d8557935be",
+          "src/champion_athletic_map/evaluated_role_adapter.py": "832ba424ffde9d0159ee75704963793dc68c54712ea04a57c5588cac9fa9c16e",
+          "src/champion_athletic_map/interactive_review.py": "a82bd92145e146f81b4d66811c55e414a2e5665ed3a96ff501d37405406d4b8c",
+          "src/champion_athletic_map/llm.py": "838ae0b8ca97a2dbf1154813f3c517b796ddaf95cb32f96a30cf7c59ab353145",
+          "src/champion_athletic_map/neural_classifier.py": "4caaf5c1554da121ec47cf9d1cc84bd106eefece631776850c5c2008ec2eee51",
+          "src/champion_athletic_map/plan_exports.py": "7de623fe582206d25f64b6c49dab9dd05d6391432dd5ba7abe5c327ef14f3a63",
+          "src/champion_athletic_map/planners/candidate_focused.py": "7bce1c36a43627decf2d3412e6d796c6c9f5b40a7e577e41d03c14b9725e9bfc",
+          "src/champion_athletic_map/planners/evaluated_specialists.py": "22e310a1f2ad4c9a2681a3b735cb84f429c9439eb628bc7ba1bf16c7c32ce5b8",
+          "src/champion_athletic_map/planners/evaluator_prompt_fix.py": "0262fec7bc2eb00c45c09293b7c53883d5dbb71ee9db513ab65bc8f258add35b",
+          "src/champion_athletic_map/planners/llm_only.py": "029184ef049a87f23cd10b6cd5462ae69e03939495e9eb092495ce36198accb8",
+          "src/champion_athletic_map/planners/rag.py": "70952494958c3f0f2b6b05526aa681e64dad576422de31fd0944cc5c2233ce99",
+          "src/champion_athletic_map/planners/specialists.py": "505b02f36ce2c602503fed4796be63b126e981cf1988cd86d3f1aa02734291ef",
+          "src/champion_athletic_map/planning_checks.py": "935fef910fca8650d8912df490ec44c22b3adb66afc086edcc89f201d6151dcb",
+          "src/champion_athletic_map/reference_context.py": "e9e7ee5bdd1f2ef28aa3edb03713a1439bc18614a92b88d85c2035552432542c",
+          "src/champion_athletic_map/reference_packets.py": "bd89d9fb6f667260b59dd75eb0af551a3433509091771eb202272611c41fb633",
+          "src/champion_athletic_map/reference_preparation.py": "50e27d8d5cd84313b1935ae3d6212e90bcb2a83177eab5b4cd1b4e8db788392c",
+          "src/champion_athletic_map/reference_tools.py": "6e2125f4a4b21ffc44ee8d6180f81dc10bfccd223fff398913b205cc9b4bc132",
+          "src/champion_athletic_map/role_adapter.py": "728cda501a3f8aa497095af337929b87f74a127093c7beb413f5e1c7fe82b594",
+          "src/champion_athletic_map/rule_checks.py": "38b555a0682bca84c39da8013bb8d05f748ce1ab64b183a9c16132a07bb298b0",
+          "src/champion_athletic_map/runtime_controller.py": "7ec873e2f5c84dc94a6bc4db43fe06267845023fbb71bbf787167668cb87691b",
+          "src/champion_athletic_map/text_preprocessing.py": "47bbaa42eea1ed56634969c65546ab371b7303d8e728dcbf5e8cb151c7986db2",
+          "src/champion_athletic_map/unified_data.py": "492b2e943a5e404dc5752f8987a6b836c2c65a32c276d7c46d6d88f2137c5abf",
+          "src/champion_athletic_map/unified_references.py": "ffae57a6981a9e1d42e3d673c085d22656666326e77eb23f82d6fddd6d7ebd9f"
+        }
+      },
+      "evidence": "results/step30_testing_summary.json",
+      "reason": "The declared files match their saved hashes.",
+      "required": true,
+      "status": "passed"
+    },
+    {
+      "check_id": "step30_test_bindings",
+      "details": {
+        "issues": [],
+        "verified_files": {
+          "tests/app/test_application_flow.py": "d541a40cade8e140d8a229a19baae4fab81edcf0c83ddb6421335a19ee5fdbc2",
+          "tests/app_fixtures.py": "96f7014e63dee4d6b2f8c2d3d2e8879e98cb0644de2a8bf2161a9de9e5e25ccb",
+          "tests/conftest.py": "23384a8c053eed32ce719f8584100619cff99ab4fa3503ab4255451e5c638f1d",
+          "tests/fixtures/README.md": "d9c468bad720dd60634e53c5fce8feb1c6db93102bdf418db1f3282f90de497e",
+          "tests/integration/test_adapter_context.py": "92cee3b5398bdfdf30e4681b01f13213c888f8c021e2f18b59792df7fef797ff",
+          "tests/integration/test_execution_failures.py": "559ef30fc0d96fef5e29a2f4609d9b409f2cb82c49d1446087d6245d17f2958d",
+          "tests/integration/test_planner_workflows.py": "60fb2f80ae6e673e315e1173149aea4b842458b899828563945991b7338d683a",
+          "tests/integration/test_reference_tools.py": "347f487133b886cfbee7c4b6b708ff9a994bd742bb5560824d20c97b742fa574",
+          "tests/integration/test_runtime_ownership.py": "93d3dee52110cbf7c92b0c61fb4c1bd73d2e2b3e8b83b00f8ed4ab1fcf15ea58",
+          "tests/real_backend/test_local_backend.py": "ec3d295be8d6765a98f5d5242b464860c00d702e7fcbd663ec37dd9a43006b0f",
+          "tests/run_step30.py": "1ba29069264aa3f5251619ec730cc8049df9308b8e74bb5a8b6acec6e6a57cbf",
+          "tests/unit/test_application_state.py": "769116b557b639011a830790d7011780f4631f8eee204f98f0e325c1b971d31f",
+          "tests/unit/test_classifier_boundaries.py": "56837883223ec4b2498a8436dd2fe8843c73abe66420ec837b4b8a83055b8ce2",
+          "tests/unit/test_contracts.py": "4a98b43f1fb6ca5466f467b2b37ea76103bf6842fc6c695a2b27a8c7a10c6a91",
+          "tests/unit/test_offline_guard.py": "43ec2265c9511c8da0535fba1ab32ca2263a656dce81b020d7a5da64c9490bd8",
+          "tests/unit/test_result_accounting.py": "829e9c88aaf18009d0dd79688d00dfccddf5fc4a0bfd919da4184aabc8cbfa68",
+          "tests/unit/test_rule_checks.py": "92170bde1f7aa58883dae34c050f0f535db730d4db5952ae2f1553bbc57011a6"
+        }
+      },
+      "evidence": "results/step30_testing_summary.json",
+      "reason": "The declared files match their saved hashes.",
+      "required": true,
+      "status": "passed"
+    },
+    {
+      "check_id": "reference_source_files",
+      "details": {
+        "issues": [],
+        "verified_files": {
+          "artifacts/language_model/active_resource_release.json": "b05bfd994b9d722e6179ee2a3e2136975118a51468eb490bec166c231f15303b",
+          "artifacts/language_model/approved_resources/team-approved-f0dcb9e9943e381b/adopted_drills.json": "32ee86843189f03aa6d02270313c2b4b84ebb0f221f4561b938b62c50d90368f",
+          "artifacts/language_model/approved_resources/team-approved-f0dcb9e9943e381b/adopted_rules.json": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b",
+          "artifacts/language_model/approved_resources/team-approved-f0dcb9e9943e381b/decisions.json": "1b30e7607f26c9c451bce921ce623b622a8342a1978a624b2f9a0daba8fce4a2",
+          "artifacts/language_model/approved_resources/team-approved-f0dcb9e9943e381b/manifest.json": "d048af8432bfc339a2504460cbbdbca7011745774d92f0024aa15148dc55db6b",
+          "artifacts/language_model/shared_contracts/contracts_3293242853ce2cf7/step24_7_shared_contract_summary.json": "519362b211147f88651839f4001ea63bd4e01e77698c93538f985e6dbaca8da9",
+          "artifacts/language_model/shared_contracts/contracts_3293242853ce2cf7/verified_inputs.json": "a32910d258af3c4b829594c568a84a4b5a353c6a5a985f3658dacff58639ad0d",
+          "artifacts/retrieval/expanded/expanded_ee12915cfac22530/expanded_manifest.json": "11ff18ae4e3856f0d09e1f7b493892229231a2978755b4b7a2b04e3ead933c7f",
+          "artifacts/retrieval/expanded/expanded_ee12915cfac22530/expanded_metadata.jsonl": "ed3606bab05351d1f1154d45739e91b1b3be6993bc616388b5d106420f5f8a54",
+          "artifacts/retrieval/expanded/expanded_ee12915cfac22530/expanded_passages.jsonl": "47afcf530a07c23a21b0315a019e1b9c68a9805453fc601b7cc940d608abfd7f",
+          "artifacts/retrieval/expanded/expanded_ee12915cfac22530/index_checks.csv": "d7ec60f95a4dcc6ad1265fa27f07a568326a07dab21e203cf0d218c396972556",
+          "artifacts/retrieval/expanded/expanded_ee12915cfac22530/index_diagnostics.json": "1376f5f729a17d51f39bdd60f803209b66eddb059fb69eed827725ab0d7913d7",
+          "artifacts/retrieval/expanded/expanded_ee12915cfac22530/lexical_matrix.npz": "bd2ad440ec7b002fe9e9fdd0d95643f718c695a55515c26084b6a5c193626a73",
+          "artifacts/retrieval/expanded/expanded_ee12915cfac22530/lexical_vectorizer.joblib": "98dce1f9f4e18ffaa99d5ddabb88811924dd1272fcd42415e8d515e1e327f784",
+          "artifacts/retrieval/expanded/expanded_ee12915cfac22530/lexical_worker.py": "fad6e2a25dc65b3574e7d32991b6648c65c30c4eef6aca441e55497e2d115d4f",
+          "artifacts/retrieval/expanded/expanded_ee12915cfac22530/reload_verification.json": "7c2e40c51f528a6adc89277bad0cfdb8d5eb7f518861b62f491ee17660cd09ed",
+          "artifacts/retrieval/expanded/expanded_ee12915cfac22530/required_delivery_bundles.jsonl": "c5d8d5a5e6d3ed547762adb3713327434d1966dc42741e7bf9bd4434efd8fa1b",
+          "artifacts/retrieval/expanded/expanded_ee12915cfac22530/retrieval.py": "f95a2df8c4f77af47cf3509900b16ae1a8b16e6f355f09979eec1c32a5135636",
+          "artifacts/retrieval/expanded/expanded_ee12915cfac22530/semantic_embeddings.npy": "5d46ab006083974df1a25495183a6899f6dcdfd0f5406d9448d862f4281f2ffe",
+          "artifacts/retrieval/expanded/expanded_ee12915cfac22530/semantic_worker.py": "4cabe7bd2e0166f6a4d498ff149c827bd4fe9e44635fbbbb65cac0846e324be5",
+          "artifacts/retrieval/query_runtime/query_f6db9aad37d7a9b9/authored_query_diagnostics.jsonl": "79b55e9fdcb3e291731be05ec5f1a54fe3db5ddcf4a9b9c59c7676a022a7b606",
+          "artifacts/retrieval/query_runtime/query_f6db9aad37d7a9b9/authored_query_embeddings.npy": "aed5987f8a44fbc7141b711369b92f67f7f77e7c27cf879b61d24442e7e5115a",
+          "artifacts/retrieval/query_runtime/query_f6db9aad37d7a9b9/authored_query_route_results.jsonl": "d6092b1126008f0d7fa221681f71ffdd5d407c54046adf842e34f4477e7f916e",
+          "artifacts/retrieval/query_runtime/query_f6db9aad37d7a9b9/query_preparation_checks.csv": "c1fdd255525adcce015489c0b14c00a22a781cb9d03d22167a4d41b36b68be85",
+          "artifacts/retrieval/query_runtime/query_f6db9aad37d7a9b9/query_runtime.py": "64e410c50b9224c15d357877b4dd257ad820b9e07a4a9aa0c0d173613e079a9c",
+          "artifacts/retrieval/query_runtime/query_f6db9aad37d7a9b9/query_runtime_config.json": "6f97b3bf18bcc92218c1c6d7224ef52b9b312b2229dc42eaacdfefdcb081af08",
+          "artifacts/retrieval/query_runtime/query_f6db9aad37d7a9b9/query_runtime_manifest.json": "8daf73c245153a4fdfbf6282b4d6ff56d3dd42cf0013ffc9c7579c80bce10166",
+          "artifacts/retrieval/query_runtime/query_f6db9aad37d7a9b9/query_worker.py": "ac750f90be4bfa2e09ce316c08b63b0f899ba4c0e1ccca2dae9dccb6ea35f8de",
+          "artifacts/retrieval/query_runtime/query_f6db9aad37d7a9b9/query_worker_verification.json": "4a54b8a75f9c88775545847951ae27d2574b70bed22af486a02db487b79f620f",
+          "artifacts/retrieval/query_runtime/query_f6db9aad37d7a9b9/retrieval_metric_policy.json": "a38059311686fd525ced4e2f2ab0bfd75db47aac45d0d593de81ff77bcd55710",
+          "artifacts/retrieval/query_runtime/query_f6db9aad37d7a9b9/retrieval_metrics.py": "ac8ea2a576b830607c3acb52b0ca8e5f5657d28104e679b837b3dc2313b5cb34",
+          "artifacts/retrieval/query_runtime/query_f6db9aad37d7a9b9/runtime_diagnostic_summary.json": "e280ddcb853350607c5be7513732bc44063eb2c3b89a7dc76cb6113ef8508b32",
+          "data/processed/usda_sr_legacy_2018_04/reference_ee67cf780262d24b/step14_food_reference_summary.json": "ee67cf780262d24bf02bcc7230104e65bcbfe6508b44f3c36eb03100d85295af",
+          "data/processed/usda_sr_legacy_2018_04/reference_ee67cf780262d24b/usda_food_reference.py": "b665381f328e9ebfefbe8c42ef01e6905a7085dc4789290939194b4488b69136",
+          "data/unified/v1/READ_ME_FIRST.txt": "780d9adde210fadc443bb70e9fde9b0b278233bee937926d52d6bbd521bd1504",
+          "data/unified/v1/champions_unified_dataset.csv": "ee8903644570bc158440821e7b307aa6a4c5277b9070c724faf59119848ba625",
+          "data/unified/v1/dataset_manifest.json": "21e56bbef6151a2aa4cdef4af6aba7a2a156aaf811714198d9afdb5615a06de2",
+          "data/unified/v1/load_unified_dataset.py": "69af88c450180cc70af260798cb5cb081aee086e2bf79bca06998b13db2b1668",
+          "results/step24_language_model_integration_summary.json": "37961c8189167a2889ad9dfb4fc1801d3b1e6fd9c1cb28aeee82e56b0c89db06",
+          "src/champion_athletic_map/reference_context.py": "e9e7ee5bdd1f2ef28aa3edb03713a1439bc18614a92b88d85c2035552432542c",
+          "src/champion_athletic_map/reference_preparation.py": "50e27d8d5cd84313b1935ae3d6212e90bcb2a83177eab5b4cd1b4e8db788392c",
+          "src/champion_athletic_map/reference_tools.py": "6e2125f4a4b21ffc44ee8d6180f81dc10bfccd223fff398913b205cc9b4bc132",
+          "src/champion_athletic_map/unified_references.py": "ffae57a6981a9e1d42e3d673c085d22656666326e77eb23f82d6fddd6d7ebd9f"
+        }
+      },
+      "evidence": "artifacts/planners/shared_reference_source_config.json",
+      "reason": "The declared files match their saved hashes.",
+      "required": true,
+      "status": "passed"
+    },
+    {
+      "check_id": "food_snapshot_files",
+      "details": {
+        "issues": [],
+        "verified_files": {
+          "data/processed/usda_sr_legacy_2018_04/reference_ee67cf780262d24b/development/usda_calculation_test_results.csv": "bb04f37a2c151a223f665ec16b0b6fc93f25bceebc76f949d833ac490cd2f553",
+          "data/processed/usda_sr_legacy_2018_04/reference_ee67cf780262d24b/development/usda_independent_source_goldens.json": "1748c459336f959722e187990ad4327c21f3bfdde94e86c37bdeb339aad52516",
+          "data/processed/usda_sr_legacy_2018_04/reference_ee67cf780262d24b/development/usda_preparation_checks.csv": "97373f83a75b2f6b50df9b09278305c8b6e86e8ea7014abe33e77c496c5a9aff",
+          "data/processed/usda_sr_legacy_2018_04/reference_ee67cf780262d24b/development/usda_reference_calculation_tests.py": "509bd8a05241692a3325ff800f730b821b592abc5a2eb11c559b36d3a48501e2",
+          "data/processed/usda_sr_legacy_2018_04/reference_ee67cf780262d24b/development/usda_source_comparison_results.csv": "f05b2a1fedb79ddb6111c5d0ef2e10a9fe8c7eb3c940f007d9e22789b3ed35dd",
+          "data/processed/usda_sr_legacy_2018_04/reference_ee67cf780262d24b/step14_step24_food_reference_handoff.json": "5e31f7b52e72664121d04d0586b7d2715a4589f1f7f0c2fee0c0d47c0ec937a7",
+          "data/processed/usda_sr_legacy_2018_04/reference_ee67cf780262d24b/usda_coverage.csv": "642ed046c18a1189aaaaeaba56a78112078553a5fcaef79ed3ce9c94b33c264c",
+          "data/processed/usda_sr_legacy_2018_04/reference_ee67cf780262d24b/usda_food_nutrients.csv": "a4b4f7b9049e24ebd34551578e9e858e24739bacd6b9db2383e2ed9e5e4a27ff",
+          "data/processed/usda_sr_legacy_2018_04/reference_ee67cf780262d24b/usda_food_portions.csv": "e8d4fe83ac1f1fc35db06b066ce8a61751dd4756668ff2adcaaaf8a5f3c7d6a2",
+          "data/processed/usda_sr_legacy_2018_04/reference_ee67cf780262d24b/usda_food_reference.py": "b665381f328e9ebfefbe8c42ef01e6905a7085dc4789290939194b4488b69136",
+          "data/processed/usda_sr_legacy_2018_04/reference_ee67cf780262d24b/usda_food_selection.csv": "3386829ce600491a69425d591cef87ddab432b5d269992f57412c132a4663995",
+          "data/processed/usda_sr_legacy_2018_04/reference_ee67cf780262d24b/usda_foods.csv": "a4334b0ca87fd8881da84ab34fc50976e4d44cd1b1888adfbb210365d2976352",
+          "data/processed/usda_sr_legacy_2018_04/reference_ee67cf780262d24b/usda_nutrient_definitions.json": "ad24c61b8acba1a3305101be092d98128e43fc9bbdd2c82d882598251474c2a9",
+          "data/processed/usda_sr_legacy_2018_04/reference_ee67cf780262d24b/usda_quality_findings.csv": "7c75e1da8b2d5d6104fd283b9c12192421747c3edda0bd0821209ac8971f18c9",
+          "data/processed/usda_sr_legacy_2018_04/reference_ee67cf780262d24b/usda_reference_source_register_supplement.json": "367738cf480c5b3545b72d07025dae683f88c3f754452acff8d869e49b9a1882",
+          "data/processed/usda_sr_legacy_2018_04/reference_ee67cf780262d24b/usda_selection_policy.json": "ef02f3bb204e02c2180e3e6555f8d8ca79012377407ebcf155c950a7d13397fc"
+        }
+      },
+      "evidence": "data/processed/usda_sr_legacy_2018_04/reference_ee67cf780262d24b/step14_food_reference_summary.json",
+      "reason": "The declared files match their saved hashes.",
+      "required": true,
+      "status": "passed"
+    },
+    {
+      "check_id": "query_runtime_environment",
+      "details": {
+        "differences": []
+      },
+      "evidence": "artifacts/retrieval/query_runtime/query_f6db9aad37d7a9b9/query_runtime_config.json",
+      "reason": "The offline query environment matches its recorded version.",
+      "required": true,
+      "status": "passed"
+    },
+    {
+      "check_id": "query_model_cache",
+      "details": {
+        "issues": [],
+        "verified_files": {
+          "1_Pooling/config.json": "4be450dde3b0273bb9787637cfbd28fe04a7ba6ab9d36ac48e92b11e350ffc23",
+          "README.md": "dcd602d2fd35c203a247304a06fec6654a12f7941b739f9221a064fe8dc3b7f0",
+          "config.json": "953f9c0d463486b10a6871cc2fd59f223b2c70184f49815e7efbcab5d8908b41",
+          "config_sentence_transformers.json": "061ca9d39661d6c6d6de5ba27f79a1cd5770ea247f8d46412a68a498dc5ac9f3",
+          "model.safetensors": "53aa51172d142c89d9012cce15ae4d6cc0ca6895895114379cacb4fab128d9db",
+          "modules.json": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf",
+          "sentence_bert_config.json": "fc1993fde0a95c24ec6c022539d41cf6e2f7c9721e5415d6fb6897472a9cd4b7",
+          "special_tokens_map.json": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3",
+          "tokenizer.json": "be50c3628f2bf5bb5e3a7f17b1f74611b2561a3a27eeab05e5aa30f411572037",
+          "tokenizer_config.json": "acb92769e8195aabd29b7b2137a9e6d6e25c476a4f15aa4355c233426c61576b",
+          "vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3"
+        }
+      },
+      "evidence": "C:\\Users\\samta\\.cache\\champion_athletic_map\\retrieval_models\\1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+      "reason": "The declared files match their saved hashes.",
+      "required": true,
+      "status": "passed"
+    },
+    {
+      "check_id": "unresolved_request_markers",
+      "details": {
+        "active_markers": [],
+        "unfinished_generation_folders": [],
+        "unreadable_result_records": [],
+        "unresolved_result_folders": []
+      },
+      "evidence": "",
+      "reason": "No recorded active or unfinished request marker was found.",
+      "required": true,
+      "status": "passed"
+    },
+    {
+      "check_id": "native_tokenizer_files",
+      "details": {
+        "issues": [],
+        "verified_files": {
+          "artifacts/language_model/tokenizers/tokenizer_bdb1409b4c107f2a/native_tokenizer.py": "e81e857b252f36d4c49395ccc62a5c745cd4b0506db3ee73ecf438d1619829f8",
+          "artifacts/language_model/tokenizers/tokenizer_bdb1409b4c107f2a/normal_bpe_tokenizer.json": "7a37cbd1fd0fba86a8f259aa757d400b9cb53947c2cf7311eb705d0b8552eede",
+          "artifacts/language_model/tokenizers/tokenizer_bdb1409b4c107f2a/template_inspection.json": "17dd3951ffb0bbb939f0fdffd725508136b825c021eece6712d6720f0d38b193",
+          "artifacts/language_model/tokenizers/tokenizer_bdb1409b4c107f2a/tokenizer_checks.csv": "4761c7a28a4ba75803e43b3e31f9d7ac47f4b7e421071948f2bfd7f1ba402764",
+          "artifacts/language_model/tokenizers/tokenizer_bdb1409b4c107f2a/tokenizer_contract.json": "94b14c0556287b5e61785fccfeb2aa227dc03abff84b16b33cb502f9276edee2",
+          "artifacts/language_model/tokenizers/tokenizer_bdb1409b4c107f2a/verification_cases.jsonl": "2ec6d5d29db6113334e9a03694335f0501ffcd6c014451f599a26cdcffa780a7",
+          "artifacts/language_model/tokenizers/tokenizer_bdb1409b4c107f2a/verified_inputs.json": "1170459a1aecd414334ccf833ec70005f90d659bec2fe7e4ab94a648ffa329fb"
+        }
+      },
+      "evidence": "artifacts/language_model/tokenizers/tokenizer_bdb1409b4c107f2a/tokenizer_manifest.json",
+      "reason": "The declared files match their saved hashes.",
+      "required": true,
+      "status": "passed"
+    },
+    {
+      "check_id": "native_metadata_snapshot",
+      "evidence": "results/integration/runtime_candidates/runtime_35c8ad9c5fb6d42d/native_model_metadata.json",
+      "reason": "The recorded model metadata matches its saved hash.",
+      "required": true,
+      "status": "passed"
+    },
+    {
+      "check_id": "local_runtime_version",
+      "evidence": "results/pilot/preparation_checks/20261115T032033Z_4151dae46603/metadata_requests.json",
+      "reason": "The local Ollama version matches the recorded runtime.",
+      "required": true,
+      "status": "passed"
+    },
+    {
+      "check_id": "local_model_artifact",
+      "evidence": "results/pilot/preparation_checks/20261115T032033Z_4151dae46603/metadata_requests.json",
+      "reason": "The installed model digest and quantization match.",
+      "required": true,
+      "status": "passed"
+    },
+    {
+      "check_id": "local_model_template",
+      "evidence": "results/pilot/preparation_checks/20261115T032033Z_4151dae46603/metadata_requests.json",
+      "reason": "The local template and defaults match the recorded metadata.",
+      "required": true,
+      "status": "passed"
+    },
+    {
+      "check_id": "resident_context_observation",
+      "details": {
+        "selected_runners": []
+      },
+      "evidence": "results/pilot/preparation_checks/20261115T032033Z_4151dae46603/metadata_requests.json",
+      "reason": "The effective runner context remains for the pilot; no model was loaded by this check.",
+      "required": false,
+      "status": "pending"
+    },
+    {
+      "check_id": "pilot_case_review",
+      "evidence": "artifacts/pilot/preparation_801c320ae09420e9/case_review_queue.csv",
+      "reason": "Proposed categories, family relationships and feasibility records still need case review.",
+      "required": true,
+      "status": "pending"
+    },
+    {
+      "check_id": "complete_planning_checks",
+      "evidence": "results/step30_testing_summary.json",
+      "reason": "Complete classified schedule coverage and independent activity/resource evidence remain unresolved.",
+      "required": true,
+      "status": "pending"
+    },
+    {
+      "check_id": "independent_scoring",
+      "evidence": "artifacts/evaluation/scoring_config.json",
+      "reason": "Accepted case populations, case masks and independent semantic scoring are not established.",
+      "required": true,
+      "status": "pending"
+    }
+  ],
+  "complete_schedule_and_resource_checks": "pending",
+  "families_are_proposed": true,
+  "food_request_profiles": 6,
+  "future_work": [
+    "Review case categories, families and feasibility records.",
+    "Complete the remaining schedule/resource checking and independent scoring prerequisites.",
+    "Run the selected local workflows and record real context, calls, timing and failures.",
+    "Freeze the final protocol only after its required conditions are satisfied."
+  ],
+  "human_reviews_claimed": 0,
+  "independent_scoring_ready": false,
+  "local_model_status": "matched_metadata",
+  "logical_generation_budget": {
+    "excludes_warmup_and_transport_attempts": true,
+    "maximum_configured_completed_workflows": 272,
+    "minimum_completed_workflows": 192
+  },
+  "metadata_evidence_directory": "results/pilot/preparation_checks/20261115T032033Z_4151dae46603",
+  "metadata_requests": 4,
+  "model_generation_calls": 0,
+  "operational_generation_ready": false,
+  "pending_prerequisites": [
+    "resident_context_observation",
+    "pilot_case_review",
+    "complete_planning_checks",
+    "independent_scoring"
+  ],
+  "pilot_jobs_run": 0,
+  "planned_jobs": 80,
+  "preparation_files": {
+    "artifacts/pilot/preparation_801c320ae09420e9/case_review_queue.csv": "f49b1edcc874eba3d4a078edc5f219e61264e3a03fc85ee4ad878485464a2d5d",
+    "artifacts/pilot/preparation_801c320ae09420e9/planned_pilot_jobs.csv": "ede8f876d086209287ff96fbabec41e8575b2e0663106d1e1ee2a88a00afbdcb",
+    "artifacts/pilot/preparation_801c320ae09420e9/preparation_config.json": "44ddfa95f5bf11298d652c7f98517b3d8a20ce9698ae32ea921c82a26cfeff74",
+    "artifacts/pilot/preparation_801c320ae09420e9/provisional_selection.csv": "e8400329c8a9ed812a58a3685ced1130602662dacc80e78004eda1e066699169",
+    "artifacts/pilot/preparation_801c320ae09420e9/public_profiles.jsonl": "ce734a9903da1a097fbbdb5f8d043e5dc33841b91359fa0003d8c0ff5c8245ad"
+  },
+  "preparation_id": "pilot-preparation:801c320ae09420e97281e2dbabeb7c8e8ddf919230624b5cc41a86c6e583b3f6",
+  "protocol_frozen": false,
+  "query_encoder_processes": 0,
+  "recorded_at": "2026-11-15T03:20:35.290277+00:00",
+  "reference_files_status": "verified",
+  "representative_pilot_completed": false,
+  "schema_version": "step31-preparation-1",
+  "selected_drafts": 20,
+  "selection_policy": {
+    "accepted_study_profiles": 0,
+    "distinct_proposed_families": 20,
+    "minimum_food_questions": 2,
+    "model_outputs_used_for_selection": false,
+    "public_inputs_changed": false,
+    "review_status": "pending_case_family_and_feasibility_review",
+    "seed": 42,
+    "selection_basis": "public_input_specificity_and_private_draft_intents_only",
+    "selection_version": "step31-development-selection-1",
+    "target_quotas": {
+      "13": {
+        "conflicting_constraints": 1,
+        "feasible": 2,
+        "missing_information": 1
+      },
+      "14": {
+        "feasible": 2,
+        "missing_information": 1,
+        "outside_scope": 1
+      },
+      "15": {
+        "conflicting_constraints": 1,
+        "feasible": 2,
+        "outside_scope": 1
+      },
+      "16": {
+        "conflicting_constraints": 1,
+        "feasible": 2,
+        "missing_information": 1
+      },
+      "17": {
+        "feasible": 2,
+        "missing_information": 1,
+        "outside_scope": 1
+      }
+    },
+    "tie_break": "sha256_of_seed_and_profile_id"
+  },
+  "source_pool_size": 100,
+  "source_provenance": {
+    "pool_directory": "results/profile_preparation/development_drafts_7b7f2fc781077cdc",
+    "pool_records": 100,
+    "pool_summary_sha256": "dff337571b6d88850b1a7eb915c3767bca186ae1103ae337ca1f75e3f9662190",
+    "private_metadata_sha256": "50f9a9338e686cfa958da1cfcbd693ec42acc9e129203b84dd11ca8e0a678d4f",
+    "public_pool_sha256": "2836811d83fa6029a0a8470b44c169ab72201dad665ee4505aaedee529ec019d",
+    "public_schema_sha256": "c608b6a369395ef578cd4aa77b709a5e50889ef7e9a2e715b0904fb55c3da2c8",
+    "retained_revision_directory": "results/profile_preparation/development_revision_67aa5ba7a8169ba3",
+    "retained_revision_public_sha256": "8d47d8deaef67e0ceb6e181cbd84c9b28c2231a654b844d9255ad95bac0dfe42",
+    "retained_revision_records_verified": 7,
+    "retained_revision_summary_sha256": "e3ca79d9231a0c314eba797fb56bd17e2163baceb9983c80a1c01cad2d14c27c",
+    "selection_version": "step31-development-selection-1",
+    "source_status": "development_drafts_prepared_review_pending"
+  },
+  "status": "pilot_inputs_prepared_review_pending"
+}

@@ -1,0 +1,21 @@
+﻿review_stream,contrast,dimension,jointly_numeric_pairs,higher,equal,lower,both_not_applicable,one_not_applicable,missing_pairs,profiles,agreement_statistic,interpretation
+single_assisted_team_review,V2-V1,response_suitability,40,1,35,4,0,0,0,40,,Descriptive ordinal comparison from one assisted review; not two-rater agreement or a combined quality score.
+single_assisted_team_review,V2-V1,profile_fit,40,4,28,8,0,0,0,40,,Descriptive ordinal comparison from one assisted review; not two-rater agreement or a combined quality score.
+single_assisted_team_review,V2-V1,practicality_completeness,40,4,30,6,0,0,0,40,,Descriptive ordinal comparison from one assisted review; not two-rater agreement or a combined quality score.
+single_assisted_team_review,V2-V1,evidence_accuracy,40,2,29,9,0,0,0,40,,Descriptive ordinal comparison from one assisted review; not two-rater agreement or a combined quality score.
+single_assisted_team_review,V2-V1,clarity,40,4,25,11,0,0,0,40,,Descriptive ordinal comparison from one assisted review; not two-rater agreement or a combined quality score.
+single_assisted_team_review,V3-V2,response_suitability,40,6,32,2,0,0,0,40,,Descriptive ordinal comparison from one assisted review; not two-rater agreement or a combined quality score.
+single_assisted_team_review,V3-V2,profile_fit,40,9,26,5,0,0,0,40,,Descriptive ordinal comparison from one assisted review; not two-rater agreement or a combined quality score.
+single_assisted_team_review,V3-V2,practicality_completeness,40,2,34,4,0,0,0,40,,Descriptive ordinal comparison from one assisted review; not two-rater agreement or a combined quality score.
+single_assisted_team_review,V3-V2,evidence_accuracy,40,4,32,4,0,0,0,40,,Descriptive ordinal comparison from one assisted review; not two-rater agreement or a combined quality score.
+single_assisted_team_review,V3-V2,clarity,40,10,21,9,0,0,0,40,,Descriptive ordinal comparison from one assisted review; not two-rater agreement or a combined quality score.
+single_assisted_team_review,V4-V3,response_suitability,40,1,36,3,0,0,0,40,,Descriptive ordinal comparison from one assisted review; not two-rater agreement or a combined quality score.
+single_assisted_team_review,V4-V3,profile_fit,40,2,29,9,0,0,0,40,,Descriptive ordinal comparison from one assisted review; not two-rater agreement or a combined quality score.
+single_assisted_team_review,V4-V3,practicality_completeness,40,5,30,5,0,0,0,40,,Descriptive ordinal comparison from one assisted review; not two-rater agreement or a combined quality score.
+single_assisted_team_review,V4-V3,evidence_accuracy,39,1,33,5,0,1,0,40,,Descriptive ordinal comparison from one assisted review; not two-rater agreement or a combined quality score.
+single_assisted_team_review,V4-V3,clarity,40,2,20,18,0,0,0,40,,Descriptive ordinal comparison from one assisted review; not two-rater agreement or a combined quality score.
+single_assisted_team_review,V4-V1,response_suitability,40,3,33,4,0,0,0,40,,Descriptive ordinal comparison from one assisted review; not two-rater agreement or a combined quality score.
+single_assisted_team_review,V4-V1,profile_fit,40,2,28,10,0,0,0,40,,Descriptive ordinal comparison from one assisted review; not two-rater agreement or a combined quality score.
+single_assisted_team_review,V4-V1,practicality_completeness,40,3,30,7,0,0,0,40,,Descriptive ordinal comparison from one assisted review; not two-rater agreement or a combined quality score.
+single_assisted_team_review,V4-V1,evidence_accuracy,39,1,28,10,0,1,0,40,,Descriptive ordinal comparison from one assisted review; not two-rater agreement or a combined quality score.
+single_assisted_team_review,V4-V1,clarity,40,2,15,23,0,0,0,40,,Descriptive ordinal comparison from one assisted review; not two-rater agreement or a combined quality score.

@@ -1,0 +1,51 @@
+{
+  "clock_cache_policy": "Record timing method, device/software and warm/cold/cache behavior with each actual experiment; use a common setup policy across planner versions.",
+  "costs": "The helper reports model-transport estimates only, with an amount, currency and recorded pricing/estimation basis per attempt. It does not establish billed charges, cost-free local compute, or full-workflow cost. Non-model retrieval/lookup/provider charges need a separate inventory. Never combine currencies; do not impute unknown costs as zero.",
+  "execution_only": "Returned means the workflow returned, not that its plan passed independent scoring. Successful-response latency requires a later join to independent outcomes; preserve failed/timeout times separately.",
+  "helper_version": "runtime-accounting-1",
+  "model_usage_unit": "One workflow job per call/attempt inventory. A transport attempt has one declared logical-call parent. Additional attempts on that parent count as retries; substantive revision calls have their own logical IDs.",
+  "operational_implementations": {
+    "call_attempt_logging": "pending",
+    "full_workflow_cost_inventory": "pending",
+    "independent_success_outcome_join": "pending",
+    "resource_probes": "pending",
+    "resumption_clock_policy": "pending",
+    "usage_telemetry": "pending",
+    "workflow_timer_integration": "pending"
+  },
+  "protocol_ready": false,
+  "recipe_version": "runtime-accounting-contract-0.1.0",
+  "resource_measurements": "The later runner records available device/resource observations with metric, unit, device, measurement window and method. Missing GPU, RAM, energy, pricing or token telemetry remains unavailable. No resource probe or estimated utilization is run here.",
+  "resumption": "The later runner must log run segments, active workflow timing, and any paused/offline interval separately under a frozen policy. Do not mix incompatible clock origins or reconstruct resumed wall time from a last-call duration.",
+  "roles_and_phases": "Roles (generator/coordinator/specialist/evaluator) and phases (initial/revision) are separate overlapping breakdowns of the same logical calls. Do not add them together. Revision rounds count distinct declared model-call revision indices; non-model revision work needs its own stage observations.",
+  "schema_version": "runtime-accounting-config-1",
+  "software": {
+    "pandas": "3.1.1",
+    "python": "3.12.6"
+  },
+  "stages": "Stage durations can overlap or nest. Keep original IDs/observations; do not sum them into elapsed wall time. Common clock scope and instrumentation must be established by the runner.",
+  "startup": "Record common startup/model-loading separately. If lazy loading happens inside a request timer it remains part of that request time and must not be subtracted. Startup observations are not added to the recorded request total.",
+  "status": "supplied_observation_accounting_only",
+  "step31_settings": {
+    "retry_limit": null,
+    "revision_limit": null,
+    "status": "pending development pilot and freeze",
+    "timeout_seconds": null
+  },
+  "summary_policy": "Observed means/totals include available measurements only, with measured/missing counts. Complete totals/means stay null until the declared job inventory is terminal and all expected measurements are available. Pending/unrecorded jobs are unfinished work. Empty latency groups have no numerical latency.",
+  "summary_scopes": "Retrieval/lookup count aggregates refer to terminal jobs only; pending-job count observations remain in their original records. Stage and startup observation counts describe all recorded jobs. Output scope labels identify this distinction; complete totals remain unavailable while jobs are pending.",
+  "terminal_groups": [
+    "returned",
+    "failed",
+    "timeout"
+  ],
+  "tokens": "Account input/output token usage once at transport-attempt level, including failures where usage is known. No logical-call token fields or sum of both levels. Missing usage remains null; observed partial totals carry availability counts.",
+  "units": {
+    "calls": "counts",
+    "cost": "explicit currency units; estimates only",
+    "duration": "seconds",
+    "tokens": "reported token counts"
+  },
+  "usage_completion": "Call and attempt inventories must be complete, attempts terminal, and each declared call represented by an attempt before complete usage totals are exposed. Failed/timeout attempts retain measured usage. Explicit zero counts/tokens are valid for a complete empty inventory.",
+  "workflow_timer": "One observed whole-workflow request duration includes retrieval/lookup, orchestration, model calls, transport retries, revisions and in-request waiting. It is not reconstructed from the final call or a sum of stage durations."
+}

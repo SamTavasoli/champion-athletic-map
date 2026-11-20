@@ -1,0 +1,61 @@
+{
+  "base_url": "http://127.0.0.1:11434",
+  "chat_compatibility_verified": false,
+  "development_starting_settings_not_yet_adopted": {
+    "concurrent_requests": 1,
+    "format": "json",
+    "model": "llama3.1:8b",
+    "num_ctx": 8192,
+    "num_predict": 2048,
+    "seed": 42,
+    "stream": false,
+    "temperature": 0
+  },
+  "model": "llama3.1:8b",
+  "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+  "native_metadata_is_not_model_visible_reference_material": true,
+  "native_model_metadata_file": "native_model_metadata.json",
+  "native_model_metadata_sha256": "01652c777d511b061a59529f2541220da07d4fbe47a53f6d5ec9628460d9d57f",
+  "ollama_version": "0.40.16",
+  "operational_generation_ready": false,
+  "quantization": "Q4_K_M",
+  "required_before_generation": [
+    "native tokenizer construction and verification",
+    "effective template accounting",
+    "full request preflight with output reserve and margin"
+  ],
+  "runtime_adoption_complete": false,
+  "runtime_change": {
+    "from_recorded_version": "0.40.15",
+    "model_digest_changed": false,
+    "prior_preflight_preserved": true,
+    "reason": "Step 24-1 observed the newer installed server with the same model artifact",
+    "to_observed_version": "0.40.16"
+  },
+  "schema_version": "step24-runtime-candidate-1",
+  "source": "local /api/show verbose=true bracketed by model-tag and server-version checks",
+  "source_or_rule_approvals_created": 0,
+  "status": "provisional_pending_compatibility_and_context_checks",
+  "tokenizer_inventory": {
+    "backend_token_count_agreement_verified": false,
+    "chat_template_rendering_verified": false,
+    "declared_vocabulary_size": 128256,
+    "exact_encoding_implemented": false,
+    "generation_context_budget_verified": false,
+    "merge_rows": 280147,
+    "native_table_structure_verified": true,
+    "pretokenizer": "llama-bpe",
+    "reported_context_lengths": {
+      "llama.context_length": 131072
+    },
+    "special_token_ids": {
+      "tokenizer.ggml.bos_token_id": 128000,
+      "tokenizer.ggml.eos_token_id": 128009
+    },
+    "template_sha256": "948af2743fc78a328dcb3b0f5a31b3d75f415840fdb699e8b1235978392ecf85",
+    "token_type_rows": 128256,
+    "tokenizer_metadata_sha256": "34fc09b18a2f5ba4e50bf62b5ea85d0070427882f506eec6a1db752de5bd4b94",
+    "tokenizer_model": "gpt2",
+    "vocabulary_rows": 128256
+  }
+}

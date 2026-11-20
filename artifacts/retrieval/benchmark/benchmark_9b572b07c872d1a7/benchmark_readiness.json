@@ -1,0 +1,94 @@
+{
+  "assistant_family_audits": 1,
+  "assistant_question_reviews": 60,
+  "benchmark_preparation_id": "retrieval-benchmark-preparation:9b572b07c872d1a7178b19039dda68dd51d01213792f6424e417cab479272e97",
+  "benchmark_queries_executed": 0,
+  "development_comparison": "pending_step23_17",
+  "empty_relevant_set_questions": 12,
+  "held_out_benchmark": "pending_step23_18_after_development_method_freeze",
+  "human_reviews": 0,
+  "limitations": [
+    "Assistant-authored and assistant-reviewed scoped pilot; no human or independent scientific validation.",
+    "Sixty dependent question rows represent thirty information-need families and eleven source units.",
+    "Three related source families: two CDC guidance groups and one UGA textbook; not representative of all basketball resources or approved drills.",
+    "Every supported question has a single relevant unit and single-unit sufficient set; multi-unit synthesis is not tested.",
+    "Ranking scores and evidence-set coverage do not evaluate generated answers or abstention accuracy."
+  ],
+  "new_corpus_admissions": 0,
+  "partition_counts": [
+    {
+      "category": "drill_and_resource",
+      "empty_relevant_sets": 0,
+      "families": 5,
+      "questions": 10,
+      "ranking_eligible_questions": 10,
+      "split": "development"
+    },
+    {
+      "category": "guideline_and_qualification",
+      "empty_relevant_sets": 0,
+      "families": 5,
+      "questions": 10,
+      "ranking_eligible_questions": 10,
+      "split": "development"
+    },
+    {
+      "category": "unsupported_by_identified_corpus",
+      "empty_relevant_sets": 6,
+      "families": 5,
+      "questions": 10,
+      "ranking_eligible_questions": 4,
+      "split": "development"
+    },
+    {
+      "category": "drill_and_resource",
+      "empty_relevant_sets": 0,
+      "families": 5,
+      "questions": 10,
+      "ranking_eligible_questions": 10,
+      "split": "held_out"
+    },
+    {
+      "category": "guideline_and_qualification",
+      "empty_relevant_sets": 0,
+      "families": 5,
+      "questions": 10,
+      "ranking_eligible_questions": 10,
+      "split": "held_out"
+    },
+    {
+      "category": "unsupported_by_identified_corpus",
+      "empty_relevant_sets": 6,
+      "families": 5,
+      "questions": 10,
+      "ranking_eligible_questions": 4,
+      "split": "held_out"
+    }
+  ],
+  "per_unit_judgments": 660,
+  "published_copy_must_replay_validation_sha256": "4dd1fcb96d52f2ac2d34a399a23781bde300d1582f477c60b110d99231e5d6bf",
+  "publisher_freshness_or_planner_approval_established": false,
+  "query_token_budget_verified": false,
+  "question_families": 30,
+  "question_rows": 60,
+  "ranking_eligible_questions": 48,
+  "reference_units": 11,
+  "retrieval_method_selected": null,
+  "retrieval_quality_scores_available": false,
+  "reviewed_benchmark_ready_for_development": true,
+  "schema_version": "step23-benchmark-readiness-1",
+  "semantic_family_review_is_documentary_not_proved_by_hashes": true,
+  "source_family_counts": {
+    "CDC-SLEEP-ABOUT": 1,
+    "CDC-YOUTH-PHYSICAL-ACTIVITY": 4,
+    "UGA-PEDB-BASKETBALL-TEXTBOOK": 6
+  },
+  "step23_complete": false,
+  "support_status_counts": {
+    "partially_supported": 6,
+    "supported": 40,
+    "unsupported": 14
+  },
+  "supported_questions_require_multiple_units": 0,
+  "supported_questions_use_single_unit": 40
+}

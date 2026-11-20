@@ -1,0 +1,1268 @@
+{
+  "adopted_drills_path": "artifacts/language_model/approved_resources/team-approved-f0dcb9e9943e381b/adopted_drills.json",
+  "adopted_drills_sha256": "32ee86843189f03aa6d02270313c2b4b84ebb0f221f4561b938b62c50d90368f",
+  "adopted_rules_path": "artifacts/language_model/approved_resources/team-approved-f0dcb9e9943e381b/adopted_rules.json",
+  "adopted_rules_sha256": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b",
+  "authority_and_acceptance": "This review recommends use as provisional development diagnostics. It records no human or second-teammate approval and does not satisfy the original accepted-study-profile review contract.",
+  "counts": {
+    "accepted_study_profiles": 0,
+    "cases": 20,
+    "conflicting_constraints_intent": 3,
+    "feasible_intent": 10,
+    "food_questions": 6,
+    "fully_certified_feasibility_witnesses": 0,
+    "human_reviews_claimed": 0,
+    "missing_information_intent": 4,
+    "outside_scope_intent": 3
+  },
+  "global_findings": [
+    "All ten feasible-intent cases have two private 15-minute slot proposals inside stated availability and extra-time limits, with no overlap against listed commitments. This arithmetic does not prove complete-week or activity-content suitability.",
+    "Three rectangle/defensive or direction-change witnesses need stationary partner and ball-path layout review; three shooting/decision witnesses lack source completion-time evidence; four timed individual/paired witnesses have stronger listed-resource support.",
+    "The three participant-count cases and one missing existing-schedule case have explicit essential gaps; two zero-minute-budget conflicts and three scope exclusions are clear. The daily-training conflict has broad wording and should permit clarification.",
+    "The original records lack public schedule completeness. If a new fictional version adds schedule_coverage to all twenty cases, record authorship and both hashes; keep the unknown-existing-schedule case false/unknown. Do not treat non-null as evidence of completeness.",
+    "Witnesses, intended categories and expected behaviours remain private; the model receives only the common public version. Do not penalize model-alone activities for failing to cite a hidden catalogue ID.",
+    "Adopted practice-length guidance is advisory. Short extra sessions are not invalid solely because they fall below the advisory practice-length range.",
+    "Six explicit food questions are retained; actual local lookup output, food identity, nutrient identity, units and quantity must be saved before numeric correctness can be scored."
+  ],
+  "new_model_calls": 0,
+  "new_web_searches": 0,
+  "private_artifact_not_model_input": true,
+  "protected_or_final_data_read": false,
+  "public_authoring_decisions": {
+    "athlete:06265b25ff63c151f6243a9c": {
+      "author_type": "assistant_under_Sam_delegated_authority",
+      "basis": "Explicit new fictional fact for the pilot version; not inferred from list presence or emptiness.",
+      "existing_commitments_complete": true
+    },
+    "athlete:1dbd51c54e923c1f7e46650b": {
+      "author_type": "assistant_under_Sam_delegated_authority",
+      "basis": "Explicit new fictional fact for the pilot version; not inferred from list presence or emptiness.",
+      "existing_commitments_complete": true
+    },
+    "athlete:39baf7f3bdca5662874c308a": {
+      "author_type": "assistant_under_Sam_delegated_authority",
+      "basis": "Explicit new fictional fact for the pilot version; not inferred from list presence or emptiness.",
+      "existing_commitments_complete": true
+    },
+    "athlete:3ceae454f8a62ee308cd87f4": {
+      "author_type": "assistant_under_Sam_delegated_authority",
+      "basis": "Explicit new fictional fact for the pilot version; not inferred from list presence or emptiness.",
+      "existing_commitments_complete": true
+    },
+    "athlete:46351686e652d64a51636670": {
+      "author_type": "assistant_under_Sam_delegated_authority",
+      "basis": "Explicit new fictional fact for the pilot version; not inferred from list presence or emptiness.",
+      "existing_commitments_complete": true
+    },
+    "athlete:46a43835d1a3112756ee7181": {
+      "author_type": "assistant_under_Sam_delegated_authority",
+      "basis": "Explicit new fictional fact for the pilot version; not inferred from list presence or emptiness.",
+      "existing_commitments_complete": true
+    },
+    "athlete:47b01a8b4b719f44fd8ad604": {
+      "author_type": "assistant_under_Sam_delegated_authority",
+      "basis": "Explicit new fictional fact for the pilot version; not inferred from list presence or emptiness.",
+      "existing_commitments_complete": false
+    },
+    "athlete:5a5895142587db795298a394": {
+      "author_type": "assistant_under_Sam_delegated_authority",
+      "basis": "Explicit new fictional fact for the pilot version; not inferred from list presence or emptiness.",
+      "existing_commitments_complete": true
+    },
+    "athlete:5dc2a65fa122b86f793a3ca3": {
+      "author_type": "assistant_under_Sam_delegated_authority",
+      "basis": "Explicit new fictional fact for the pilot version; not inferred from list presence or emptiness.",
+      "existing_commitments_complete": true
+    },
+    "athlete:5f8b4d8612de86a9d21be839": {
+      "author_type": "assistant_under_Sam_delegated_authority",
+      "basis": "Explicit new fictional fact for the pilot version; not inferred from list presence or emptiness.",
+      "existing_commitments_complete": true
+    },
+    "athlete:657c0c4802ac8178063b5fcc": {
+      "author_type": "assistant_under_Sam_delegated_authority",
+      "basis": "Explicit new fictional fact for the pilot version; not inferred from list presence or emptiness.",
+      "existing_commitments_complete": true
+    },
+    "athlete:787c15fd9dee34ad1e30f670": {
+      "author_type": "assistant_under_Sam_delegated_authority",
+      "basis": "Explicit new fictional fact for the pilot version; not inferred from list presence or emptiness.",
+      "existing_commitments_complete": true
+    },
+    "athlete:7908460d199794b98ef5a444": {
+      "author_type": "assistant_under_Sam_delegated_authority",
+      "basis": "Explicit new fictional fact for the pilot version; not inferred from list presence or emptiness.",
+      "existing_commitments_complete": true
+    },
+    "athlete:98b22068f2e17e075063759c": {
+      "author_type": "assistant_under_Sam_delegated_authority",
+      "basis": "Explicit new fictional fact for the pilot version; not inferred from list presence or emptiness.",
+      "existing_commitments_complete": true
+    },
+    "athlete:9901be82a169cbd2edce8e5e": {
+      "author_type": "assistant_under_Sam_delegated_authority",
+      "basis": "Explicit new fictional fact for the pilot version; not inferred from list presence or emptiness.",
+      "existing_commitments_complete": true
+    },
+    "athlete:a2e5c1cf98a80daaea8da243": {
+      "author_type": "assistant_under_Sam_delegated_authority",
+      "basis": "Explicit new fictional fact for the pilot version; not inferred from list presence or emptiness.",
+      "existing_commitments_complete": true
+    },
+    "athlete:b271115a1b824f9c3323fc58": {
+      "author_type": "assistant_under_Sam_delegated_authority",
+      "basis": "Explicit new fictional fact for the pilot version; not inferred from list presence or emptiness.",
+      "existing_commitments_complete": true
+    },
+    "athlete:b9e07de3a7e4d73fb3603a03": {
+      "author_type": "assistant_under_Sam_delegated_authority",
+      "basis": "Explicit new fictional fact for the pilot version; not inferred from list presence or emptiness.",
+      "existing_commitments_complete": true
+    },
+    "athlete:c66a7a43ac15e950b8fd0554": {
+      "author_type": "assistant_under_Sam_delegated_authority",
+      "basis": "Explicit new fictional fact for the pilot version; not inferred from list presence or emptiness.",
+      "existing_commitments_complete": true
+    },
+    "athlete:e3667bab842230357f331ee4": {
+      "author_type": "assistant_under_Sam_delegated_authority",
+      "basis": "Explicit new fictional fact for the pilot version; not inferred from list presence or emptiness.",
+      "existing_commitments_complete": true
+    }
+  },
+  "public_profiles_changed": false,
+  "review_date": "2026-11-15",
+  "review_method": "Independent assistant reading of selected public inputs and recorded adopted source-base metadata; no model output was used to choose cases or expected behaviour. Witnesses are schedule/resource proposals, not publisher-certified training prescriptions.",
+  "reviewer_type": "assistant",
+  "rows": [
+    {
+      "accepted_study_profile": false,
+      "age": 13,
+      "assistant_content_review_completed": true,
+      "example": 1,
+      "expected_behavior": {
+        "alternatives": [],
+        "not_final_gold_label": true,
+        "provisional_response_type": "plan"
+      },
+      "food_numeric_answer_verified_in_this_review": false,
+      "food_question_present": true,
+      "human_preparer_review_completed": false,
+      "intent": "feasible",
+      "intent_basis": "Two additional defensive-footwork sessions; two 20-minute windows and a 40-minute weekly budget.",
+      "profile_id": "athlete:7908460d199794b98ef5a444",
+      "review_disposition": "include_as_provisional_diagnostic_case",
+      "schedule_coverage": {
+        "after_amendment_record_original_and_new_hashes": true,
+        "amendment_value_must_be_authored_not_inferred": true,
+        "fictional_public_amendment_proposed": true,
+        "original_public_record_contains_completeness_attestation": false
+      },
+      "second_teammate_review_completed": false,
+      "source_public_canonical_sha256": "6cd2224d1e3d1634286fca26b022531c6d410650335b66c89d293adfe5b45f73",
+      "source_public_jsonl_line_sha256": "6c40f6647f83fd1b99aea9520e974e8257b174d631523a8bcd1b13cd7e19c095",
+      "unresolved_issues": [
+        "The 6–8-foot marker gap fits the stated 6 m by 4 m rectangle. Partner position and rolled-ball path are not specified sufficiently to certify the one-moving-participant restriction.",
+        "The source says four minutes; any rotation across two pairs and rest/setup time is project scheduling, not a publisher prescription.",
+        "Original public record does not attest complete coverage of all organized sport and structured training; do not conclude weekly cap/rest Met from absence of a listed conflict."
+      ],
+      "witness": {
+        "full_week_feasibility_certified": false,
+        "medical_suitability_certified": false,
+        "resource_and_role_proposal": "One defender moves while a stationary partner rolls the ball; other two participants wait. This is a proposal requiring confirmation of stationary partner position and ball path.",
+        "slots": [
+          {
+            "date": "2026-11-17",
+            "duration_minutes": 15,
+            "end_time": "17:15",
+            "kind": "proposed_private_feasibility_slot",
+            "start_time": "17:00",
+            "within_supplied_availability": true
+          },
+          {
+            "date": "2026-11-21",
+            "duration_minutes": 15,
+            "end_time": "17:15",
+            "kind": "proposed_private_feasibility_slot",
+            "start_time": "17:00",
+            "within_supplied_availability": true
+          }
+        ],
+        "source_adaptation_approved_by_this_review": false,
+        "source_choices": [
+          {
+            "approval_decision": "approved_for_prototype",
+            "approved_variant": "specified_source_base_variant_only",
+            "catalog_candidate_id": "JR-NEW-0009",
+            "drill_name": "Windows Defensive Slide Drill",
+            "equipment": "Ball; two markers.",
+            "participants": "Partners.",
+            "published_numeric_minimum_participants": null,
+            "record_canonical_sha256": "c98a843c9abdf53a218d708345b9ebe533cf6662d836be7310e07f0126c33847",
+            "source_prescription": "4 minutes",
+            "source_url": "https://jr.nba.com/basketball-practice-plans/rookie/page/4/",
+            "space": "Markers 6–8 feet apart."
+          }
+        ],
+        "status": "conditional_spatial_roles_pending"
+      }
+    },
+    {
+      "accepted_study_profile": false,
+      "age": 13,
+      "assistant_content_review_completed": true,
+      "example": 2,
+      "expected_behavior": {
+        "alternatives": [],
+        "not_final_gold_label": true,
+        "provisional_response_type": "plan"
+      },
+      "food_numeric_answer_verified_in_this_review": false,
+      "food_question_present": true,
+      "human_preparer_review_completed": false,
+      "intent": "feasible",
+      "intent_basis": "Two additional sessions for changes of direction; court, hoop, one ball and two participants are explicit.",
+      "profile_id": "athlete:3ceae454f8a62ee308cd87f4",
+      "review_disposition": "include_as_provisional_diagnostic_case",
+      "schedule_coverage": {
+        "after_amendment_record_original_and_new_hashes": true,
+        "amendment_value_must_be_authored_not_inferred": true,
+        "fictional_public_amendment_proposed": true,
+        "original_public_record_contains_completeness_attestation": false
+      },
+      "second_teammate_review_completed": false,
+      "source_public_canonical_sha256": "08a53158c4e4088ffb1f39f53fe3804ce5b4e29ad6767c7be0a8e2edd0fa391b",
+      "source_public_jsonl_line_sha256": "2b4cd10276456454a8f55ed06c002679b3289b13034de382c4a0bf5c4fb916de",
+      "unresolved_issues": [
+        "The adopted source has no time prescription; a 15-minute allocation is an authored planning limit, not a proven completion time or recommended dose.",
+        "Original public record does not attest complete coverage of all organized sport and structured training; do not conclude weekly cap/rest Met from absence of a listed conflict."
+      ],
+      "witness": {
+        "full_week_feasibility_certified": false,
+        "medical_suitability_certified": false,
+        "resource_and_role_proposal": "Use the published two-player base; one ball is sufficient for one pair.",
+        "slots": [
+          {
+            "date": "2026-11-16",
+            "duration_minutes": 15,
+            "end_time": "17:45",
+            "kind": "proposed_private_feasibility_slot",
+            "start_time": "17:30",
+            "within_supplied_availability": true
+          },
+          {
+            "date": "2026-11-18",
+            "duration_minutes": 15,
+            "end_time": "17:45",
+            "kind": "proposed_private_feasibility_slot",
+            "start_time": "17:30",
+            "within_supplied_availability": true
+          }
+        ],
+        "source_adaptation_approved_by_this_review": false,
+        "source_choices": [
+          {
+            "approval_decision": "approved_for_prototype",
+            "approved_variant": "specified_source_base_variant_only",
+            "catalog_candidate_id": "JR-REVIEW-0040",
+            "drill_name": "Partner Decision Dribbling Game",
+            "equipment": "Basketball and hoop",
+            "participants": "Two players per pair",
+            "published_numeric_minimum_participants": null,
+            "record_canonical_sha256": "ece9d404da89cf820840163d325d55e8d26a34e15f4ab7078b2dccf324852ffe",
+            "source_prescription": "Not specified",
+            "source_url": "https://jr.nba.com/basketball-practice-plans/all-star/",
+            "space": "Court"
+          }
+        ],
+        "status": "conditional_source_timing_unspecified"
+      }
+    },
+    {
+      "accepted_study_profile": false,
+      "age": 13,
+      "assistant_content_review_completed": true,
+      "example": 3,
+      "expected_behavior": {
+        "alternatives": [],
+        "not_final_gold_label": true,
+        "provisional_response_type": "clarification"
+      },
+      "food_numeric_answer_verified_in_this_review": false,
+      "food_question_present": false,
+      "human_preparer_review_completed": false,
+      "intent": "missing_information",
+      "intent_basis": "The request asks for a passing rotation with equal turns and explicitly says the participant count is unconfirmed; /input/participants_available is null.",
+      "profile_id": "athlete:5f8b4d8612de86a9d21be839",
+      "review_disposition": "include_as_provisional_diagnostic_case",
+      "schedule_coverage": {
+        "after_amendment_record_original_and_new_hashes": true,
+        "amendment_value_must_be_authored_not_inferred": true,
+        "fictional_public_amendment_proposed": true,
+        "original_public_record_contains_completeness_attestation": false
+      },
+      "second_teammate_review_completed": false,
+      "source_public_canonical_sha256": "267a6e054be078d0181ed62867fc0687ccb3f4c58d737e39e808f256ac0e7e77",
+      "source_public_jsonl_line_sha256": "429cd2048ba306b93e740085efb14de7bf48d48180d0f119affae7b9926dd9b0",
+      "unresolved_issues": [
+        "Ask for participant count before specifying group sizes or an equal-turn rotation. Equipment quantities and one-mover layout may need a follow-up after the count is known."
+      ],
+      "witness": {
+        "full_week_feasibility_certified": false,
+        "medical_suitability_certified": false,
+        "resource_and_role_proposal": null,
+        "slots": [],
+        "source_adaptation_approved_by_this_review": false,
+        "source_choices": [],
+        "status": "not_applicable"
+      }
+    },
+    {
+      "accepted_study_profile": false,
+      "age": 13,
+      "assistant_content_review_completed": true,
+      "example": 4,
+      "expected_behavior": {
+        "alternatives": [
+          "clarification_if_daily_training_meaning_is_queried"
+        ],
+        "not_final_gold_label": true,
+        "provisional_response_type": "constraint_conflict"
+      },
+      "food_numeric_answer_verified_in_this_review": false,
+      "food_question_present": false,
+      "human_preparer_review_completed": false,
+      "intent": "conflicting_constraints",
+      "intent_basis": "The request asks for intense training every day without rest, but availability lists only five dates and the maximum extra-session count is five.",
+      "profile_id": "athlete:c66a7a43ac15e950b8fd0554",
+      "review_disposition": "include_as_provisional_diagnostic_case",
+      "schedule_coverage": {
+        "after_amendment_record_original_and_new_hashes": true,
+        "amendment_value_must_be_authored_not_inferred": true,
+        "fictional_public_amendment_proposed": true,
+        "original_public_record_contains_completeness_attestation": false
+      },
+      "second_teammate_review_completed": false,
+      "source_public_canonical_sha256": "135d8aab41d22ac98795c3bd1bac832b9523d5684598ba5896dacaea005b329f",
+      "source_public_jsonl_line_sha256": "f7e163ca735a283504b6219ec7cb4f87e1f1d565d24afed7441be89cbc1e0910",
+      "unresolved_issues": [
+        "The word training is broader than additional basketball. Record the direct availability/session-limit contradiction, but allow a clarification if the model asks what training means.",
+        "Do not turn the advisory broad-sports rest rule into a required prohibition. The basketball rest requirement applies to basketball-specific accounting.",
+        "A future versioned public amendment could explicitly ask for seven additional basketball sessions; do not silently alter this original request."
+      ],
+      "witness": {
+        "full_week_feasibility_certified": false,
+        "medical_suitability_certified": false,
+        "resource_and_role_proposal": null,
+        "slots": [],
+        "source_adaptation_approved_by_this_review": false,
+        "source_choices": [],
+        "status": "not_applicable"
+      }
+    },
+    {
+      "accepted_study_profile": false,
+      "age": 14,
+      "assistant_content_review_completed": true,
+      "example": 5,
+      "expected_behavior": {
+        "alternatives": [],
+        "not_final_gold_label": true,
+        "provisional_response_type": "plan"
+      },
+      "food_numeric_answer_verified_in_this_review": false,
+      "food_question_present": true,
+      "human_preparer_review_completed": false,
+      "intent": "feasible",
+      "intent_basis": "Two additional shooting-consistency sessions; two one-hour windows, one ball, one hoop and two participants.",
+      "profile_id": "athlete:5dc2a65fa122b86f793a3ca3",
+      "review_disposition": "include_as_provisional_diagnostic_case",
+      "schedule_coverage": {
+        "after_amendment_record_original_and_new_hashes": true,
+        "amendment_value_must_be_authored_not_inferred": true,
+        "fictional_public_amendment_proposed": true,
+        "original_public_record_contains_completeness_attestation": false
+      },
+      "second_teammate_review_completed": false,
+      "source_public_canonical_sha256": "2795d196a70064b1a28b71e2852230e186656508d21488b0b462c34c95d869d1",
+      "source_public_jsonl_line_sha256": "99e572ac3862b78287e42c07b0e8442fc743533135337b902abf2d5bb8b9621f",
+      "unresolved_issues": [
+        "The source prescribes 2 × 10 repetitions, not a completion time. A 15-minute slot is conditional until a reviewer confirms the paired repetition setup fits without changing the source prescription.",
+        "Original public record does not attest complete coverage of all organized sport and structured training; do not conclude weekly cap/rest Met from absence of a listed conflict."
+      ],
+      "witness": {
+        "full_week_feasibility_certified": false,
+        "medical_suitability_certified": false,
+        "resource_and_role_proposal": "Retain the partnered close-to-basket base, sharing the single ball.",
+        "slots": [
+          {
+            "date": "2026-11-17",
+            "duration_minutes": 15,
+            "end_time": "17:45",
+            "kind": "proposed_private_feasibility_slot",
+            "start_time": "17:30",
+            "within_supplied_availability": true
+          },
+          {
+            "date": "2026-11-19",
+            "duration_minutes": 15,
+            "end_time": "17:45",
+            "kind": "proposed_private_feasibility_slot",
+            "start_time": "17:30",
+            "within_supplied_availability": true
+          }
+        ],
+        "source_adaptation_approved_by_this_review": false,
+        "source_choices": [
+          {
+            "approval_decision": "approved_for_prototype",
+            "approved_variant": "specified_source_base_variant_only",
+            "catalog_candidate_id": "JR-ADITI-0011",
+            "drill_name": "Form Shooting - 1 Hand",
+            "equipment": "Basketball; basket",
+            "participants": "Partnered players in the published setup",
+            "published_numeric_minimum_participants": null,
+            "record_canonical_sha256": "ecf89dcacf74ab411e201fd32f94ce0d197e1fca0f4e6e6960e0e9c011f3fa48",
+            "source_prescription": "2 × 10",
+            "source_url": "https://jr.nba.com/basketball-practice-plans/starter/",
+            "space": "Within a few feet of basket"
+          }
+        ],
+        "status": "conditional_source_timing_unspecified"
+      }
+    },
+    {
+      "accepted_study_profile": false,
+      "age": 14,
+      "assistant_content_review_completed": true,
+      "example": 6,
+      "expected_behavior": {
+        "alternatives": [],
+        "not_final_gold_label": true,
+        "provisional_response_type": "plan"
+      },
+      "food_numeric_answer_verified_in_this_review": false,
+      "food_question_present": false,
+      "human_preparer_review_completed": false,
+      "intent": "feasible",
+      "intent_basis": "Two additional changes-of-direction sessions; two 20-minute windows, two participants, one ball and cones, but no court or hoop.",
+      "profile_id": "athlete:a2e5c1cf98a80daaea8da243",
+      "review_disposition": "include_as_provisional_diagnostic_case",
+      "schedule_coverage": {
+        "after_amendment_record_original_and_new_hashes": true,
+        "amendment_value_must_be_authored_not_inferred": true,
+        "fictional_public_amendment_proposed": true,
+        "original_public_record_contains_completeness_attestation": false
+      },
+      "second_teammate_review_completed": false,
+      "source_public_canonical_sha256": "741792278060473047ed86a579280a52b33523ce2df0c023660e048633edfac3",
+      "source_public_jsonl_line_sha256": "774002deb54fd0aa3458f01f2dac266c120aa4f7166199fe11b2934e4a10f600",
+      "unresolved_issues": [
+        "Partner position and ball path need confirmation against the one-mover rectangle restriction.",
+        "Defensive sliding is a plausible project goal match for changes of direction; the source does not certify that outcome.",
+        "Age 14 and grade 9 overlap: the adopted project policy uses the more restrictive 600-minute basketball cap, not 840.",
+        "Original public record does not attest complete coverage of all organized sport and structured training; do not conclude weekly cap/rest Met from absence of a listed conflict."
+      ],
+      "witness": {
+        "full_week_feasibility_certified": false,
+        "medical_suitability_certified": false,
+        "resource_and_role_proposal": "One moving defender and one stationary roller; this layout remains a proposal, not an adopted rectangle adaptation.",
+        "slots": [
+          {
+            "date": "2026-11-17",
+            "duration_minutes": 15,
+            "end_time": "17:15",
+            "kind": "proposed_private_feasibility_slot",
+            "start_time": "17:00",
+            "within_supplied_availability": true
+          },
+          {
+            "date": "2026-11-21",
+            "duration_minutes": 15,
+            "end_time": "17:15",
+            "kind": "proposed_private_feasibility_slot",
+            "start_time": "17:00",
+            "within_supplied_availability": true
+          }
+        ],
+        "source_adaptation_approved_by_this_review": false,
+        "source_choices": [
+          {
+            "approval_decision": "approved_for_prototype",
+            "approved_variant": "specified_source_base_variant_only",
+            "catalog_candidate_id": "JR-NEW-0009",
+            "drill_name": "Windows Defensive Slide Drill",
+            "equipment": "Ball; two markers.",
+            "participants": "Partners.",
+            "published_numeric_minimum_participants": null,
+            "record_canonical_sha256": "c98a843c9abdf53a218d708345b9ebe533cf6662d836be7310e07f0126c33847",
+            "source_prescription": "4 minutes",
+            "source_url": "https://jr.nba.com/basketball-practice-plans/rookie/page/4/",
+            "space": "Markers 6–8 feet apart."
+          }
+        ],
+        "status": "conditional_spatial_roles_pending"
+      }
+    },
+    {
+      "accepted_study_profile": false,
+      "age": 14,
+      "assistant_content_review_completed": true,
+      "example": 7,
+      "expected_behavior": {
+        "alternatives": [],
+        "not_final_gold_label": true,
+        "provisional_response_type": "clarification"
+      },
+      "food_numeric_answer_verified_in_this_review": false,
+      "food_question_present": false,
+      "human_preparer_review_completed": false,
+      "intent": "missing_information",
+      "intent_basis": "The passing-rotation request requires equal turns for an unconfirmed number of participants; participant count is null.",
+      "profile_id": "athlete:46351686e652d64a51636670",
+      "review_disposition": "include_as_provisional_diagnostic_case",
+      "schedule_coverage": {
+        "after_amendment_record_original_and_new_hashes": true,
+        "amendment_value_must_be_authored_not_inferred": true,
+        "fictional_public_amendment_proposed": true,
+        "original_public_record_contains_completeness_attestation": false
+      },
+      "second_teammate_review_completed": false,
+      "source_public_canonical_sha256": "0b69c9c9c1743d9543e3abc8c147d4dc88491c419fa4eb8f7b5cd6cb59726ea6",
+      "source_public_jsonl_line_sha256": "b9a2bacc3be995b07c00de50ba8155bac5d633df1f3f77bfd117d04a19355db6",
+      "unresolved_issues": [
+        "Ask the participant count; do not infer it from the court, experience or practice schedule. Equipment quantities can be clarified if needed for the proposed rotation."
+      ],
+      "witness": {
+        "full_week_feasibility_certified": false,
+        "medical_suitability_certified": false,
+        "resource_and_role_proposal": null,
+        "slots": [],
+        "source_adaptation_approved_by_this_review": false,
+        "source_choices": [],
+        "status": "not_applicable"
+      }
+    },
+    {
+      "accepted_study_profile": false,
+      "age": 14,
+      "assistant_content_review_completed": true,
+      "example": 8,
+      "expected_behavior": {
+        "alternatives": [],
+        "not_final_gold_label": true,
+        "provisional_response_type": "outside_scope"
+      },
+      "food_numeric_answer_verified_in_this_review": false,
+      "food_question_present": false,
+      "human_preparer_review_completed": false,
+      "intent": "outside_scope",
+      "intent_basis": "The request is a personalized daily calorie target and exact meal portions for body-weight change.",
+      "profile_id": "athlete:9901be82a169cbd2edce8e5e",
+      "review_disposition": "include_as_provisional_diagnostic_case",
+      "schedule_coverage": {
+        "after_amendment_record_original_and_new_hashes": true,
+        "amendment_value_must_be_authored_not_inferred": true,
+        "fictional_public_amendment_proposed": true,
+        "original_public_record_contains_completeness_attestation": false
+      },
+      "second_teammate_review_completed": false,
+      "source_public_canonical_sha256": "fd00e064650f458745369aa9818742f1282415ef650a60f5b78b907fb34a5c8d",
+      "source_public_jsonl_line_sha256": "4e6bcf3d1276cf9a0a5ea4f12c7b700894a6f224eb1a7b9726a2c2a446fe9869",
+      "unresolved_issues": [
+        "Decline the personalized dietary prescription; general guidance or an explicitly requested factual food lookup can be offered within scope."
+      ],
+      "witness": {
+        "full_week_feasibility_certified": false,
+        "medical_suitability_certified": false,
+        "resource_and_role_proposal": null,
+        "slots": [],
+        "source_adaptation_approved_by_this_review": false,
+        "source_choices": [],
+        "status": "not_applicable"
+      }
+    },
+    {
+      "accepted_study_profile": false,
+      "age": 15,
+      "assistant_content_review_completed": true,
+      "example": 9,
+      "expected_behavior": {
+        "alternatives": [],
+        "not_final_gold_label": true,
+        "provisional_response_type": "plan"
+      },
+      "food_numeric_answer_verified_in_this_review": false,
+      "food_question_present": true,
+      "human_preparer_review_completed": false,
+      "intent": "feasible",
+      "intent_basis": "Two additional shooting-consistency practices; three 30-minute windows, four participants, one ball and one hoop.",
+      "profile_id": "athlete:98b22068f2e17e075063759c",
+      "review_disposition": "include_as_provisional_diagnostic_case",
+      "schedule_coverage": {
+        "after_amendment_record_original_and_new_hashes": true,
+        "amendment_value_must_be_authored_not_inferred": true,
+        "fictional_public_amendment_proposed": true,
+        "original_public_record_contains_completeness_attestation": false
+      },
+      "second_teammate_review_completed": false,
+      "source_public_canonical_sha256": "457d52ba5f8f64b9ccffe32c4885b12eee26bd4817a8b7f6fa0a2862c636b0a4",
+      "source_public_jsonl_line_sha256": "63272774a12f132ba7ad09c15f6bcf28e81412cfa4caaa05ca9368ed6ecb717c",
+      "unresolved_issues": [
+        "Four participants require two pairs to take turns using the single ball and hoop; do not assume extra resources.",
+        "The 2 × 10 repetition prescription has no completion-time guarantee. Keep the slot conditional rather than claim a full timed source-dose proof.",
+        "Original public record does not attest complete coverage of all organized sport and structured training; do not conclude weekly cap/rest Met from absence of a listed conflict."
+      ],
+      "witness": {
+        "full_week_feasibility_certified": false,
+        "medical_suitability_certified": false,
+        "resource_and_role_proposal": "One shooting/rebounding pair works while the other pair waits; then pairs rotate. This queue is authored resource scheduling, not a new solo drill variant.",
+        "slots": [
+          {
+            "date": "2026-11-16",
+            "duration_minutes": 15,
+            "end_time": "17:45",
+            "kind": "proposed_private_feasibility_slot",
+            "start_time": "17:30",
+            "within_supplied_availability": true
+          },
+          {
+            "date": "2026-11-18",
+            "duration_minutes": 15,
+            "end_time": "17:45",
+            "kind": "proposed_private_feasibility_slot",
+            "start_time": "17:30",
+            "within_supplied_availability": true
+          }
+        ],
+        "source_adaptation_approved_by_this_review": false,
+        "source_choices": [
+          {
+            "approval_decision": "approved_for_prototype",
+            "approved_variant": "specified_source_base_variant_only",
+            "catalog_candidate_id": "JR-ADITI-0011",
+            "drill_name": "Form Shooting - 1 Hand",
+            "equipment": "Basketball; basket",
+            "participants": "Partnered players in the published setup",
+            "published_numeric_minimum_participants": null,
+            "record_canonical_sha256": "ecf89dcacf74ab411e201fd32f94ce0d197e1fca0f4e6e6960e0e9c011f3fa48",
+            "source_prescription": "2 × 10",
+            "source_url": "https://jr.nba.com/basketball-practice-plans/starter/",
+            "space": "Within a few feet of basket"
+          }
+        ],
+        "status": "conditional_source_timing_unspecified"
+      }
+    },
+    {
+      "accepted_study_profile": false,
+      "age": 15,
+      "assistant_content_review_completed": true,
+      "example": 10,
+      "expected_behavior": {
+        "alternatives": [],
+        "not_final_gold_label": true,
+        "provisional_response_type": "plan"
+      },
+      "food_numeric_answer_verified_in_this_review": false,
+      "food_question_present": false,
+      "human_preparer_review_completed": false,
+      "intent": "feasible",
+      "intent_basis": "Two additional ball-control sessions; two 15-minute windows, two participants, one ball and a one-mover rectangle.",
+      "profile_id": "athlete:39baf7f3bdca5662874c308a",
+      "review_disposition": "include_as_provisional_diagnostic_case",
+      "schedule_coverage": {
+        "after_amendment_record_original_and_new_hashes": true,
+        "amendment_value_must_be_authored_not_inferred": true,
+        "fictional_public_amendment_proposed": true,
+        "original_public_record_contains_completeness_attestation": false
+      },
+      "second_teammate_review_completed": false,
+      "source_public_canonical_sha256": "68ed771ed41ba476f7ecb38f15222c6df60930a2bd2b627e4b97b858dcac572e",
+      "source_public_jsonl_line_sha256": "c8bfca9c3bdeffb19b221edd1ec2fef8c0e1f674bf1f554e81e0678180f4c989",
+      "unresolved_issues": [
+        "The witness supports resource and timed-block feasibility, not a claim that these activities alone are an adequate individualized training programme.",
+        "Original public record does not attest complete coverage of all organized sport and structured training; do not conclude weekly cap/rest Met from absence of a listed conflict."
+      ],
+      "witness": {
+        "full_week_feasibility_certified": false,
+        "medical_suitability_certified": false,
+        "resource_and_role_proposal": "One participant performs the individual base while the other waits. Hot Ball is 2 × 30 seconds per participant (two minutes active time total); Smacks is 20 seconds per participant (40 seconds total). Sharing is explicit for Hot Ball. Allocate remaining time to turns/rest/setup without inventing a source dose.",
+        "slots": [
+          {
+            "date": "2026-11-21",
+            "duration_minutes": 15,
+            "end_time": "17:15",
+            "kind": "proposed_private_feasibility_slot",
+            "start_time": "17:00",
+            "within_supplied_availability": true
+          },
+          {
+            "date": "2026-11-22",
+            "duration_minutes": 15,
+            "end_time": "17:15",
+            "kind": "proposed_private_feasibility_slot",
+            "start_time": "17:00",
+            "within_supplied_availability": true
+          }
+        ],
+        "source_adaptation_approved_by_this_review": false,
+        "source_choices": [
+          {
+            "approval_decision": "approved_for_prototype",
+            "approved_variant": "source_base_variant_only",
+            "catalog_candidate_id": "JR-REVIEW-0036",
+            "drill_name": "Hot Ball (Taps)",
+            "equipment": "Basketball per active player; sharing permitted",
+            "participants": "Individual base activity",
+            "published_numeric_minimum_participants": null,
+            "record_canonical_sha256": "b34a73eadd8da33c6bbf1dbe80eaf9f1c3cc76d54242a0eae6de3d9163507a7c",
+            "source_prescription": "2 x 30 seconds",
+            "source_url": "https://jr.nba.com/basketball-practice-plans/rookie/",
+            "space": "Designated practice area"
+          },
+          {
+            "approval_decision": "approved_for_prototype",
+            "approved_variant": "specified_source_base_variant_only",
+            "catalog_candidate_id": "JR-REVIEW-0059",
+            "drill_name": "Smacks",
+            "equipment": "Basketball.",
+            "participants": "Individual ball-handlers.",
+            "published_numeric_minimum_participants": null,
+            "record_canonical_sha256": "1abc0e8e1f39f03505af9fbb460152b1bd75c00782a75c58e536879724404a26",
+            "source_prescription": "1 × 20 seconds",
+            "source_url": "https://jr.nba.com/basketball-practice-plans/rookie/page/3/",
+            "space": "Designated standing area."
+          }
+        ],
+        "status": "conditional_listed_facts_supported"
+      }
+    },
+    {
+      "accepted_study_profile": false,
+      "age": 15,
+      "assistant_content_review_completed": true,
+      "example": 11,
+      "expected_behavior": {
+        "alternatives": [],
+        "not_final_gold_label": true,
+        "provisional_response_type": "constraint_conflict"
+      },
+      "food_numeric_answer_verified_in_this_review": false,
+      "food_question_present": false,
+      "human_preparer_review_completed": false,
+      "intent": "conflicting_constraints",
+      "intent_basis": "The request explicitly asks to add a 20-minute basketball session without changing a weekly extra-training limit of zero minutes.",
+      "profile_id": "athlete:e3667bab842230357f331ee4",
+      "review_disposition": "include_as_provisional_diagnostic_case",
+      "schedule_coverage": {
+        "after_amendment_record_original_and_new_hashes": true,
+        "amendment_value_must_be_authored_not_inferred": true,
+        "fictional_public_amendment_proposed": true,
+        "original_public_record_contains_completeness_attestation": false
+      },
+      "second_teammate_review_completed": false,
+      "source_public_canonical_sha256": "8b035bbaec06c6f3491ba88de1bf3a25f1e355d4e6861281c8be2454f86992d8",
+      "source_public_jsonl_line_sha256": "464cd3d7c327941bea31b2b01c0cfe25e67604f2bc5a44fcd24d07155be28867",
+      "unresolved_issues": [
+        "Explain the direct 20 > 0 contradiction and ask whether the user wants to change the limit; do not silently raise it or claim the request is outside the project scope."
+      ],
+      "witness": {
+        "full_week_feasibility_certified": false,
+        "medical_suitability_certified": false,
+        "resource_and_role_proposal": null,
+        "slots": [],
+        "source_adaptation_approved_by_this_review": false,
+        "source_choices": [],
+        "status": "not_applicable"
+      }
+    },
+    {
+      "accepted_study_profile": false,
+      "age": 15,
+      "assistant_content_review_completed": true,
+      "example": 12,
+      "expected_behavior": {
+        "alternatives": [],
+        "not_final_gold_label": true,
+        "provisional_response_type": "outside_scope"
+      },
+      "food_numeric_answer_verified_in_this_review": false,
+      "food_question_present": false,
+      "human_preparer_review_completed": false,
+      "intent": "outside_scope",
+      "intent_basis": "The request is an injury-rehabilitation programme to follow independently for basketball.",
+      "profile_id": "athlete:5a5895142587db795298a394",
+      "review_disposition": "include_as_provisional_diagnostic_case",
+      "schedule_coverage": {
+        "after_amendment_record_original_and_new_hashes": true,
+        "amendment_value_must_be_authored_not_inferred": true,
+        "fictional_public_amendment_proposed": true,
+        "original_public_record_contains_completeness_attestation": false
+      },
+      "second_teammate_review_completed": false,
+      "source_public_canonical_sha256": "63f22704ed0e69ac3045f96afc93af2a6abde3cd8020871745bc992ca92380c1",
+      "source_public_jsonl_line_sha256": "24c2383f4515929f812fb918f51c03bd7df67ad8ede04585784907eb9b589dbd",
+      "unresolved_issues": [
+        "Do not provide rehabilitation prescription. Empty reported_limitations does not cancel the explicit rehabilitation request or constitute medical clearance."
+      ],
+      "witness": {
+        "full_week_feasibility_certified": false,
+        "medical_suitability_certified": false,
+        "resource_and_role_proposal": null,
+        "slots": [],
+        "source_adaptation_approved_by_this_review": false,
+        "source_choices": [],
+        "status": "not_applicable"
+      }
+    },
+    {
+      "accepted_study_profile": false,
+      "age": 16,
+      "assistant_content_review_completed": true,
+      "example": 13,
+      "expected_behavior": {
+        "alternatives": [],
+        "not_final_gold_label": true,
+        "provisional_response_type": "plan"
+      },
+      "food_numeric_answer_verified_in_this_review": false,
+      "food_question_present": true,
+      "human_preparer_review_completed": false,
+      "intent": "feasible",
+      "intent_basis": "Two additional finishing-footwork sessions; two 15-minute windows, four participants, one ball, hoop and half court.",
+      "profile_id": "athlete:46a43835d1a3112756ee7181",
+      "review_disposition": "include_as_provisional_diagnostic_case",
+      "schedule_coverage": {
+        "after_amendment_record_original_and_new_hashes": true,
+        "amendment_value_must_be_authored_not_inferred": true,
+        "fictional_public_amendment_proposed": true,
+        "original_public_record_contains_completeness_attestation": false
+      },
+      "second_teammate_review_completed": false,
+      "source_public_canonical_sha256": "3f17a8bd4e0addef9bfc795552dff0432735f565d1462f85301eab3ac99c7190",
+      "source_public_jsonl_line_sha256": "a33b31ceab5bf6b8b8dfe9973eee0f18336f2fc1863b8a543029cf22ca95bb0b",
+      "unresolved_issues": [
+        "The source lists roles rather than a numeric minimum_participants; two-person pairing is role-derived, not a populated catalogue minimum.",
+        "The 15-minute slot leaves three minutes after two sequential pair blocks of six minutes each; this is a schedule witness, not personalized exercise dosage.",
+        "Original public record does not attest complete coverage of all organized sport and structured training; do not conclude weekly cap/rest Met from absence of a listed conflict."
+      ],
+      "witness": {
+        "full_week_feasibility_certified": false,
+        "medical_suitability_certified": false,
+        "resource_and_role_proposal": "One shooting/rebounding pair uses the single ball for 3 × 1 minute each role (six minutes per pair); the second pair waits, then swaps. Two pairs total twelve active block minutes.",
+        "slots": [
+          {
+            "date": "2026-11-17",
+            "duration_minutes": 15,
+            "end_time": "18:15",
+            "kind": "proposed_private_feasibility_slot",
+            "start_time": "18:00",
+            "within_supplied_availability": true
+          },
+          {
+            "date": "2026-11-19",
+            "duration_minutes": 15,
+            "end_time": "18:15",
+            "kind": "proposed_private_feasibility_slot",
+            "start_time": "18:00",
+            "within_supplied_availability": true
+          }
+        ],
+        "source_adaptation_approved_by_this_review": false,
+        "source_choices": [
+          {
+            "approval_decision": "approved_for_prototype",
+            "approved_variant": "specified_source_base_variant_only",
+            "catalog_candidate_id": "JR-NEW-0007",
+            "drill_name": "1-2 Step Lay-Ups",
+            "equipment": "Ball per pair; basket.",
+            "participants": "Shooting/rebounding partners.",
+            "published_numeric_minimum_participants": null,
+            "record_canonical_sha256": "1afb72bdb264f62b483d4e970079dcb96e5a02357bcdeeeeb94deb7cd6be6761",
+            "source_prescription": "3 × 1 minute each",
+            "source_url": "https://jr.nba.com/basketball-practice-plans/rookie/page/4/",
+            "space": "Beside basket."
+          }
+        ],
+        "status": "conditional_listed_facts_supported"
+      }
+    },
+    {
+      "accepted_study_profile": false,
+      "age": 16,
+      "assistant_content_review_completed": true,
+      "example": 14,
+      "expected_behavior": {
+        "alternatives": [],
+        "not_final_gold_label": true,
+        "provisional_response_type": "plan"
+      },
+      "food_numeric_answer_verified_in_this_review": false,
+      "food_question_present": false,
+      "human_preparer_review_completed": false,
+      "intent": "feasible",
+      "intent_basis": "Two additional finishing-footwork sessions; two 45-minute windows, two participants, one ball and one hoop.",
+      "profile_id": "athlete:1dbd51c54e923c1f7e46650b",
+      "review_disposition": "include_as_provisional_diagnostic_case",
+      "schedule_coverage": {
+        "after_amendment_record_original_and_new_hashes": true,
+        "amendment_value_must_be_authored_not_inferred": true,
+        "fictional_public_amendment_proposed": true,
+        "original_public_record_contains_completeness_attestation": false
+      },
+      "second_teammate_review_completed": false,
+      "source_public_canonical_sha256": "c8528dca01b5ecf6b2e7247edf181c7bc282a3caf9b7322b986174ef77ddf2d1",
+      "source_public_jsonl_line_sha256": "1f37df029902ec574f2faa5fc429f96cd6c20f3009e79a783d32df0f8c34bfc4",
+      "unresolved_issues": [
+        "Keep both partners in the published shooting/rebounding base; no solo adaptation or medical suitability is asserted.",
+        "Original public record does not attest complete coverage of all organized sport and structured training; do not conclude weekly cap/rest Met from absence of a listed conflict."
+      ],
+      "witness": {
+        "full_week_feasibility_certified": false,
+        "medical_suitability_certified": false,
+        "resource_and_role_proposal": "One pair completes 3 × 1 minute each role (six active block minutes), within a 15-minute slot including turn/rest/setup allowance.",
+        "slots": [
+          {
+            "date": "2026-11-21",
+            "duration_minutes": 15,
+            "end_time": "17:45",
+            "kind": "proposed_private_feasibility_slot",
+            "start_time": "17:30",
+            "within_supplied_availability": true
+          },
+          {
+            "date": "2026-11-22",
+            "duration_minutes": 15,
+            "end_time": "17:45",
+            "kind": "proposed_private_feasibility_slot",
+            "start_time": "17:30",
+            "within_supplied_availability": true
+          }
+        ],
+        "source_adaptation_approved_by_this_review": false,
+        "source_choices": [
+          {
+            "approval_decision": "approved_for_prototype",
+            "approved_variant": "specified_source_base_variant_only",
+            "catalog_candidate_id": "JR-NEW-0007",
+            "drill_name": "1-2 Step Lay-Ups",
+            "equipment": "Ball per pair; basket.",
+            "participants": "Shooting/rebounding partners.",
+            "published_numeric_minimum_participants": null,
+            "record_canonical_sha256": "1afb72bdb264f62b483d4e970079dcb96e5a02357bcdeeeeb94deb7cd6be6761",
+            "source_prescription": "3 × 1 minute each",
+            "source_url": "https://jr.nba.com/basketball-practice-plans/rookie/page/4/",
+            "space": "Beside basket."
+          }
+        ],
+        "status": "conditional_listed_facts_supported"
+      }
+    },
+    {
+      "accepted_study_profile": false,
+      "age": 16,
+      "assistant_content_review_completed": true,
+      "example": 15,
+      "expected_behavior": {
+        "alternatives": [],
+        "not_final_gold_label": true,
+        "provisional_response_type": "clarification"
+      },
+      "food_numeric_answer_verified_in_this_review": false,
+      "food_question_present": false,
+      "human_preparer_review_completed": false,
+      "intent": "missing_information",
+      "intent_basis": "The request explicitly asks for a complete weekly schedule including existing practices and games, while saying that schedule was not supplied; existing_commitments is null.",
+      "profile_id": "athlete:47b01a8b4b719f44fd8ad604",
+      "review_disposition": "include_as_provisional_diagnostic_case",
+      "schedule_coverage": {
+        "after_amendment_record_original_and_new_hashes": true,
+        "amendment_value_must_be_authored_not_inferred": true,
+        "fictional_public_amendment_proposed": false,
+        "original_public_record_contains_completeness_attestation": false
+      },
+      "second_teammate_review_completed": false,
+      "source_public_canonical_sha256": "8161e9b16b0ca4c0d33c789a44124374267b79a6b7818ad9743a289b7cb29a6f",
+      "source_public_jsonl_line_sha256": "773bc792368d9c4f958c916e8427a2346a3b1491b668b7d6e32c5c240524bcc2",
+      "unresolved_issues": [
+        "Ask for existing dates, start/end times and activity types. Do not convert null to an empty confirmed list.",
+        "Any new schedule_coverage field must remain false/unknown for this case, so that the missing-information test remains real."
+      ],
+      "witness": {
+        "full_week_feasibility_certified": false,
+        "medical_suitability_certified": false,
+        "resource_and_role_proposal": null,
+        "slots": [],
+        "source_adaptation_approved_by_this_review": false,
+        "source_choices": [],
+        "status": "not_applicable"
+      }
+    },
+    {
+      "accepted_study_profile": false,
+      "age": 16,
+      "assistant_content_review_completed": true,
+      "example": 16,
+      "expected_behavior": {
+        "alternatives": [],
+        "not_final_gold_label": true,
+        "provisional_response_type": "constraint_conflict"
+      },
+      "food_numeric_answer_verified_in_this_review": false,
+      "food_question_present": false,
+      "human_preparer_review_completed": false,
+      "intent": "conflicting_constraints",
+      "intent_basis": "The request explicitly asks to add a 20-minute basketball session while retaining a weekly extra-training limit of zero minutes.",
+      "profile_id": "athlete:b9e07de3a7e4d73fb3603a03",
+      "review_disposition": "include_as_provisional_diagnostic_case",
+      "schedule_coverage": {
+        "after_amendment_record_original_and_new_hashes": true,
+        "amendment_value_must_be_authored_not_inferred": true,
+        "fictional_public_amendment_proposed": true,
+        "original_public_record_contains_completeness_attestation": false
+      },
+      "second_teammate_review_completed": false,
+      "source_public_canonical_sha256": "20b406615f5bc1b0f1b165c7d5af9706ae93b2b572e9c1756865c1604ab90324",
+      "source_public_jsonl_line_sha256": "ae93d16eadc3d642801e6b77d8917a85e3ca1f24eb2f379707aed228c9b8193e",
+      "unresolved_issues": [
+        "The contradiction is already proven from public facts even if some resource quantities are unknown. Do not suppress it because another check is Unknown."
+      ],
+      "witness": {
+        "full_week_feasibility_certified": false,
+        "medical_suitability_certified": false,
+        "resource_and_role_proposal": null,
+        "slots": [],
+        "source_adaptation_approved_by_this_review": false,
+        "source_choices": [],
+        "status": "not_applicable"
+      }
+    },
+    {
+      "accepted_study_profile": false,
+      "age": 17,
+      "assistant_content_review_completed": true,
+      "example": 17,
+      "expected_behavior": {
+        "alternatives": [],
+        "not_final_gold_label": true,
+        "provisional_response_type": "plan"
+      },
+      "food_numeric_answer_verified_in_this_review": false,
+      "food_question_present": false,
+      "human_preparer_review_completed": false,
+      "intent": "feasible",
+      "intent_basis": "Two additional finishing-footwork sessions; two 20-minute windows, four participants, one ball, hoop and half court.",
+      "profile_id": "athlete:787c15fd9dee34ad1e30f670",
+      "review_disposition": "include_as_provisional_diagnostic_case",
+      "schedule_coverage": {
+        "after_amendment_record_original_and_new_hashes": true,
+        "amendment_value_must_be_authored_not_inferred": true,
+        "fictional_public_amendment_proposed": true,
+        "original_public_record_contains_completeness_attestation": false
+      },
+      "second_teammate_review_completed": false,
+      "source_public_canonical_sha256": "f795cf15bf72e7cc6b1aeebf7157e89a2d8dc5580bb3a823af1cf2ed52dc17e8",
+      "source_public_jsonl_line_sha256": "61da6b7dc1c94f90b0b5675f993e432546a5f5da592c926ff0a9b080224e4740",
+      "unresolved_issues": [
+        "The paired-role cardinality is derived from the source text, not a numeric minimum in the record.",
+        "Two pair blocks require twelve active minutes; use sequential pairs, not four simultaneous ball handlers.",
+        "Original public record does not attest complete coverage of all organized sport and structured training; do not conclude weekly cap/rest Met from absence of a listed conflict."
+      ],
+      "witness": {
+        "full_week_feasibility_certified": false,
+        "medical_suitability_certified": false,
+        "resource_and_role_proposal": "One pair shoots/rebounds while the second waits, then pairs rotate; preserve the source 3 × 1 minute each role.",
+        "slots": [
+          {
+            "date": "2026-11-17",
+            "duration_minutes": 15,
+            "end_time": "17:15",
+            "kind": "proposed_private_feasibility_slot",
+            "start_time": "17:00",
+            "within_supplied_availability": true
+          },
+          {
+            "date": "2026-11-19",
+            "duration_minutes": 15,
+            "end_time": "17:15",
+            "kind": "proposed_private_feasibility_slot",
+            "start_time": "17:00",
+            "within_supplied_availability": true
+          }
+        ],
+        "source_adaptation_approved_by_this_review": false,
+        "source_choices": [
+          {
+            "approval_decision": "approved_for_prototype",
+            "approved_variant": "specified_source_base_variant_only",
+            "catalog_candidate_id": "JR-NEW-0007",
+            "drill_name": "1-2 Step Lay-Ups",
+            "equipment": "Ball per pair; basket.",
+            "participants": "Shooting/rebounding partners.",
+            "published_numeric_minimum_participants": null,
+            "record_canonical_sha256": "1afb72bdb264f62b483d4e970079dcb96e5a02357bcdeeeeb94deb7cd6be6761",
+            "source_prescription": "3 × 1 minute each",
+            "source_url": "https://jr.nba.com/basketball-practice-plans/rookie/page/4/",
+            "space": "Beside basket."
+          }
+        ],
+        "status": "conditional_listed_facts_supported"
+      }
+    },
+    {
+      "accepted_study_profile": false,
+      "age": 17,
+      "assistant_content_review_completed": true,
+      "example": 18,
+      "expected_behavior": {
+        "alternatives": [],
+        "not_final_gold_label": true,
+        "provisional_response_type": "plan"
+      },
+      "food_numeric_answer_verified_in_this_review": false,
+      "food_question_present": true,
+      "human_preparer_review_completed": false,
+      "intent": "feasible",
+      "intent_basis": "Two additional defensive-footwork sessions; two 15-minute windows and a 30-minute weekly budget, but no court or hoop.",
+      "profile_id": "athlete:06265b25ff63c151f6243a9c",
+      "review_disposition": "include_as_provisional_diagnostic_case",
+      "schedule_coverage": {
+        "after_amendment_record_original_and_new_hashes": true,
+        "amendment_value_must_be_authored_not_inferred": true,
+        "fictional_public_amendment_proposed": true,
+        "original_public_record_contains_completeness_attestation": false
+      },
+      "second_teammate_review_completed": false,
+      "source_public_canonical_sha256": "c694850d4d3526719ff9d7db53e03a045763918cd22718aa0b94abd69fe71ff0",
+      "source_public_jsonl_line_sha256": "a1d74cbd8df439cfcc6aa7ca178986a4a59d63bf6a2d12a768a738ec267c9a91",
+      "unresolved_issues": [
+        "The source marker width fits the rectangle, but stationary roller location, ball path and the one-mover restriction still need explicit layout review.",
+        "Four participants use one pair at a time, with other participants in the separate waiting area.",
+        "Original public record does not attest complete coverage of all organized sport and structured training; do not conclude weekly cap/rest Met from absence of a listed conflict."
+      ],
+      "witness": {
+        "full_week_feasibility_certified": false,
+        "medical_suitability_certified": false,
+        "resource_and_role_proposal": "Propose a stationary roller and moving defender, one pair at a time; do not call this an approved source adaptation until the layout is reviewed.",
+        "slots": [
+          {
+            "date": "2026-11-17",
+            "duration_minutes": 15,
+            "end_time": "17:45",
+            "kind": "proposed_private_feasibility_slot",
+            "start_time": "17:30",
+            "within_supplied_availability": true
+          },
+          {
+            "date": "2026-11-19",
+            "duration_minutes": 15,
+            "end_time": "17:45",
+            "kind": "proposed_private_feasibility_slot",
+            "start_time": "17:30",
+            "within_supplied_availability": true
+          }
+        ],
+        "source_adaptation_approved_by_this_review": false,
+        "source_choices": [
+          {
+            "approval_decision": "approved_for_prototype",
+            "approved_variant": "specified_source_base_variant_only",
+            "catalog_candidate_id": "JR-NEW-0009",
+            "drill_name": "Windows Defensive Slide Drill",
+            "equipment": "Ball; two markers.",
+            "participants": "Partners.",
+            "published_numeric_minimum_participants": null,
+            "record_canonical_sha256": "c98a843c9abdf53a218d708345b9ebe533cf6662d836be7310e07f0126c33847",
+            "source_prescription": "4 minutes",
+            "source_url": "https://jr.nba.com/basketball-practice-plans/rookie/page/4/",
+            "space": "Markers 6–8 feet apart."
+          }
+        ],
+        "status": "conditional_spatial_roles_pending"
+      }
+    },
+    {
+      "accepted_study_profile": false,
+      "age": 17,
+      "assistant_content_review_completed": true,
+      "example": 19,
+      "expected_behavior": {
+        "alternatives": [],
+        "not_final_gold_label": true,
+        "provisional_response_type": "clarification"
+      },
+      "food_numeric_answer_verified_in_this_review": false,
+      "food_question_present": false,
+      "human_preparer_review_completed": false,
+      "intent": "missing_information",
+      "intent_basis": "The passing-rotation request asks for equal turns, explicitly with participant count unconfirmed; the count is null.",
+      "profile_id": "athlete:b271115a1b824f9c3323fc58",
+      "review_disposition": "include_as_provisional_diagnostic_case",
+      "schedule_coverage": {
+        "after_amendment_record_original_and_new_hashes": true,
+        "amendment_value_must_be_authored_not_inferred": true,
+        "fictional_public_amendment_proposed": true,
+        "original_public_record_contains_completeness_attestation": false
+      },
+      "second_teammate_review_completed": false,
+      "source_public_canonical_sha256": "ce8882f895349a9d58684df0b28f1d0620e2353911e7586840f41d633c86a11d",
+      "source_public_jsonl_line_sha256": "acc1884086c893768bf19070f84e1964be68d544bb066d51af2d5767b371848a",
+      "unresolved_issues": [
+        "Ask the number of participants before fixing teams or equal-turn groups. Do not infer a participant count from the athlete age or half court."
+      ],
+      "witness": {
+        "full_week_feasibility_certified": false,
+        "medical_suitability_certified": false,
+        "resource_and_role_proposal": null,
+        "slots": [],
+        "source_adaptation_approved_by_this_review": false,
+        "source_choices": [],
+        "status": "not_applicable"
+      }
+    },
+    {
+      "accepted_study_profile": false,
+      "age": 17,
+      "assistant_content_review_completed": true,
+      "example": 20,
+      "expected_behavior": {
+        "alternatives": [],
+        "not_final_gold_label": true,
+        "provisional_response_type": "outside_scope"
+      },
+      "food_numeric_answer_verified_in_this_review": false,
+      "food_question_present": false,
+      "human_preparer_review_completed": false,
+      "intent": "outside_scope",
+      "intent_basis": "The request is a personalized daily calorie target and exact meal portions to change body weight.",
+      "profile_id": "athlete:657c0c4802ac8178063b5fcc",
+      "review_disposition": "include_as_provisional_diagnostic_case",
+      "schedule_coverage": {
+        "after_amendment_record_original_and_new_hashes": true,
+        "amendment_value_must_be_authored_not_inferred": true,
+        "fictional_public_amendment_proposed": true,
+        "original_public_record_contains_completeness_attestation": false
+      },
+      "second_teammate_review_completed": false,
+      "source_public_canonical_sha256": "e1dc28a961f0158c46f524101efa213f0055013b2fe4ca82d9c3ccf75242822d",
+      "source_public_jsonl_line_sha256": "70eedf6b94c971a97977086429b85f95af7297140c60625f956c3d4893c0ffca",
+      "unresolved_issues": [
+        "Decline the personalized dietary prescription while preserving the option of general guidance or factual food information within scope."
+      ],
+      "witness": {
+        "full_week_feasibility_certified": false,
+        "medical_suitability_certified": false,
+        "resource_and_role_proposal": null,
+        "slots": [],
+        "source_adaptation_approved_by_this_review": false,
+        "source_choices": [],
+        "status": "not_applicable"
+      }
+    }
+  ],
+  "schema_version": "step31-private-assistant-case-review-1",
+  "source_public_pool_path": "results/profile_preparation/development_drafts_7b7f2fc781077cdc/development_draft_inputs.jsonl",
+  "source_public_pool_sha256": "2836811d83fa6029a0a8470b44c169ab72201dad665ee4505aaedee529ec019d",
+  "status": "provisional_diagnostic_case_review_not_study_acceptance"
+}

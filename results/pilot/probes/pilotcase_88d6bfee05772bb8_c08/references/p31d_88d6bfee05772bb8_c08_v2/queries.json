@@ -1,0 +1,18 @@
+{
+  "queries": [
+    "Basketball practice; Give me a personalized daily cal; goals [\"Improve passing accura; experience {\"experience; equipment [\"Basketball\",\"Cones\",\"H; space full_court; people 4",
+    "Youth basketball participation, rest and recovery; age 14; grade 8; commitments [\"practice\"]; request Give me a personalized daily calorie target a"
+  ],
+  "query_records": [
+    {
+      "query_id": "retrieval-query:2ec3b7a85c5c4b0f83882cbd46b21edeb421eeeab00981121a1f0d19c44daeec",
+      "text": "Basketball practice; Give me a personalized daily cal; goals [\"Improve passing accura; experience {\"experience; equipment [\"Basketball\",\"Cones\",\"H; space full_court; people 4",
+      "text_sha256": "7ae077d1d7668da6f78b43298351c4cdbb133dd71df4c78a01f6c80f1b679f3a"
+    },
+    {
+      "query_id": "retrieval-query:018d53d759fdb485f206ec476014c6bfb9e93ed53a67a0a6f4aeb0c60440a999",
+      "text": "Youth basketball participation, rest and recovery; age 14; grade 8; commitments [\"practice\"]; request Give me a personalized daily calorie target a",
+      "text_sha256": "0138bda9bb20325be63ff3c1a406d15f8d8cee2a56a31a25657bd98f4e17032c"
+    }
+  ]
+}

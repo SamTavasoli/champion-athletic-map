@@ -1,0 +1,42 @@
+{
+  "data": {
+    "age_eligibility_inferred": false,
+    "alias_resolved": false,
+    "approved_variant": "specified_source_base_variant_only",
+    "canonical_drill_id": "JR-ADITI-0012",
+    "catalog_candidate_id": "JR-ADITI-0012",
+    "content_provenance": "Supplied imported brief summary retained with explicitly reviewed base-role/resource corrections; optional modifications and independent adaptations excluded.",
+    "content_use_scope": "Source-linked metadata and original summary only; no approval to redistribute publisher text, diagrams, images or video.",
+    "drill_name": "Jump Stop Game",
+    "duration_minutes": null,
+    "equipment": "Basketball only in the optional dribbling load",
+    "instructions": "Players move across the court and perform balanced jump stops in response to the coach's signals.",
+    "medical_suitability_certified": false,
+    "minimum_participants": null,
+    "participants": "Players responding to coach/leader cues",
+    "primary_goal": "Improve agility",
+    "primary_goal_provenance": "project editorial classification, not publisher-certified assessment",
+    "publisher_attribution": "Jr. NBA/Jr. WNBA instructional curriculum",
+    "requested_drill_id": "JR-ADITI-0012",
+    "rest_seconds": null,
+    "scope": "basketball_drill_candidate",
+    "secondary_skills": [],
+    "solo_adaptation": null,
+    "source_curriculum_level": "Starter",
+    "source_prescription": "Not specified in HTML",
+    "source_representation": "primary_HTML_as_retrieved_2026-11-13",
+    "source_url": "https://jr.nba.com/basketball-practice-plans/starter/",
+    "space": "Court baselines and space for forward movement",
+    "use_conditions": "Use only when the actual equipment, player roles, space, skill prerequisites and supervision are satisfied. Ask for missing facts; do not invent durations, rest, coach availability or solo adaptations. Apply adopted participation rules separately."
+  },
+  "data_version": "team-approved-f0dcb9e9943e381b",
+  "issues": [
+    "Use only the reviewed variant and its stated resource/supervision conditions; unknown time and rest remain unknown."
+  ],
+  "request_id": "34c853c168144a628fdbe9b33097b530",
+  "source_refs": [
+    "JR-ADITI-0012",
+    "https://jr.nba.com/basketball-practice-plans/starter/"
+  ],
+  "status": "found"
+}

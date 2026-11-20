@@ -1,0 +1,23 @@
+source_id,planning_field_group,schema_presence,source_fields,total_records,nonmissing_nonunknown_records,explicit_unknown_records,missing_value_records,schema_absent_records,interpretation_limit
+derived_athlete_profile,age,present,age,30,30,0,0,0,Recorded presence is not verification or a complete planning constraint; available days do not establish total workload.
+derived_athlete_profile,school_grade,absent,,30,0,0,0,30,Recorded presence is not verification or a complete planning constraint; available days do not establish total workload.
+derived_athlete_profile,experience,present,experience_level,30,30,0,0,0,Recorded presence is not verification or a complete planning constraint; available days do not establish total workload.
+derived_athlete_profile,goal,present,goal,30,30,0,0,0,Recorded presence is not verification or a complete planning constraint; available days do not establish total workload.
+derived_athlete_profile,available_days,present,available_days,30,30,0,0,0,Recorded presence is not verification or a complete planning constraint; available days do not establish total workload.
+derived_athlete_profile,session_minutes,absent,,30,0,0,0,30,Recorded presence is not verification or a complete planning constraint; available days do not establish total workload.
+derived_athlete_profile,existing_commitments,absent,,30,0,0,0,30,Recorded presence is not verification or a complete planning constraint; available days do not establish total workload.
+derived_athlete_profile,sleep_information,absent,,30,0,0,0,30,Recorded presence is not verification or a complete planning constraint; available days do not establish total workload.
+derived_athlete_profile,annual_participation,absent,,30,0,0,0,30,Recorded presence is not verification or a complete planning constraint; available days do not establish total workload.
+derived_athlete_profile,equipment,present,equipment,30,30,0,0,0,Recorded presence is not verification or a complete planning constraint; available days do not establish total workload.
+derived_athlete_profile,injury_status,present,injury_status,30,20,10,0,0,Recorded presence is not verification or a complete planning constraint; available days do not establish total workload.
+aditi_synthetic_athletes,age,present,age,60,60,0,0,0,Recorded presence is not verification or a complete planning constraint; available days do not establish total workload.
+aditi_synthetic_athletes,school_grade,absent,,60,0,0,0,60,Recorded presence is not verification or a complete planning constraint; available days do not establish total workload.
+aditi_synthetic_athletes,experience,present,experience_level,60,60,0,0,0,Recorded presence is not verification or a complete planning constraint; available days do not establish total workload.
+aditi_synthetic_athletes,goal,present,primary_goal,60,60,0,0,0,Recorded presence is not verification or a complete planning constraint; available days do not establish total workload.
+aditi_synthetic_athletes,available_days,present,available_days_per_week,60,60,0,0,0,Recorded presence is not verification or a complete planning constraint; available days do not establish total workload.
+aditi_synthetic_athletes,session_minutes,absent,,60,0,0,0,60,Recorded presence is not verification or a complete planning constraint; available days do not establish total workload.
+aditi_synthetic_athletes,existing_commitments,absent,,60,0,0,0,60,Recorded presence is not verification or a complete planning constraint; available days do not establish total workload.
+aditi_synthetic_athletes,sleep_information,absent,,60,0,0,0,60,Recorded presence is not verification or a complete planning constraint; available days do not establish total workload.
+aditi_synthetic_athletes,annual_participation,absent,,60,0,0,0,60,Recorded presence is not verification or a complete planning constraint; available days do not establish total workload.
+aditi_synthetic_athletes,equipment,present,equipment,60,60,0,0,0,Recorded presence is not verification or a complete planning constraint; available days do not establish total workload.
+aditi_synthetic_athletes,injury_status,present,injury_status,60,37,23,0,0,Recorded presence is not verification or a complete planning constraint; available days do not establish total workload.

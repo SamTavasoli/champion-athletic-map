@@ -1,0 +1,19 @@
+planned_concept,table_audited,expected_column,column_present,table_records,current_nonblank_records,related_imported_field,imported_nonblank_records,linked_imported_candidates,handling,evidence_limit
+candidate_identity,catalog,catalog_candidate_id,yes,144,144,,,,Preserve current stable candidate IDs.,Presence is not verification; other project sources may contain additional evidence.
+approved_drill_identity,catalog,approved_drill_id,yes,144,0,,,,Assign only after canonical identity and approval criteria are satisfied.,Presence is not verification; other project sources may contain additional evidence.
+source_identity,registry,evidence_id,yes,156,156,drill_id,23,22,Use explicit registered occurrence IDs.,Presence is not verification; other project sources may contain additional evidence.
+primary_skill,catalog,skill_area,yes,144,144,skill_category,23,22,Preserve current labels pending any documented reconciliation.,Presence is not verification; other project sources may contain additional evidence.
+equipment,catalog,equipment,yes,144,82,equipment,23,22,Retain source-occurrence requirements and unresolved differences.,Presence is not verification; other project sources may contain additional evidence.
+participants,catalog,participants,yes,144,82,group_requirement,23,22,Keep qualitative arrangements distinct from numeric minima.,Presence is not verification; other project sources may contain additional evidence.
+space,catalog,space,yes,144,68,,,,Inspect recorded requirements; avoid inferring dimensions.,Presence is not verification; other project sources may contain additional evidence.
+source_prescription,catalog,source_prescription,yes,144,138,duration,23,22,Preserve mixed source prescriptions as text.,Presence is not verification; other project sources may contain additional evidence.
+source_url,registry,source_url,yes,156,156,,,,Preserve registry source locations.,Presence is not verification; other project sources may contain additional evidence.
+source_instructions,catalog,instructions,no,144,,instructions_summary,23,22,Prepare source-linked summaries with explicit pending review.,Presence is not verification; other project sources may contain additional evidence.
+primary_goal,catalog,primary_goal,no,144,,primary_goal,23,22,Keep imported goal wording and evidence provenance.,Presence is not verification; other project sources may contain additional evidence.
+secondary_skills,catalog,secondary_skills,no,144,,,,,Leave unknown unless reviewed evidence supports additional labels.,Presence is not verification; other project sources may contain additional evidence.
+numeric_minimum_participants,catalog,minimum_participants,no,144,,,,,Do not infer a number from qualitative group labels.,Presence is not verification; other project sources may contain additional evidence.
+separate_duration,catalog,duration,no,144,,,,,Separate elapsed time only when the source and units support it.,Presence is not verification; other project sources may contain additional evidence.
+separate_rest_interval,catalog,rest,no,144,,,,,Leave unknown where no reviewed rest prescription is available.,Presence is not verification; other project sources may contain additional evidence.
+difficulty_modifications,catalog,difficulty_modification,no,144,,difficulty_modification,23,22,Review modification provenance and retain the base activity separately.,Presence is not verification; other project sources may contain additional evidence.
+solo_adaptations,catalog,solo_adaptation,no,144,,solo_adaptation_note,23,22,Retain imported notes without treating them as approved alternatives.,Presence is not verification; other project sources may contain additional evidence.
+adaptation_provenance,catalog,adaptation_provenance,no,144,,,,,Imported file lineage is known; publisher authorship of adaptations is not established.,Presence is not verification; other project sources may contain additional evidence.

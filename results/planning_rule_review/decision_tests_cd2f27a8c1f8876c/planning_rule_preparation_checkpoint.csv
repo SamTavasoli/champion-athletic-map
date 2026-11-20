@@ -1,0 +1,15 @@
+check_name,status,details
+candidate_identity,pass,Source records and templates have distinct candidate identities.
+published_fields_preserved,pass,Every pre-existing published-proposal field is preserved.
+published_review_fields_preserved,pass,Every existing published-guidance review field is preserved.
+user_values_not_invented,pass,Templates contain no invented athlete preferences or supplied limits.
+three_origins,pass,"Source guidance, user constraints, and project policies remain distinct."
+no_adoption_or_activation,pass,Proposal fields have not become actual adoption or runtime decisions.
+reviewers_not_fabricated,pass,No human reviewer or decision is invented.
+unique_test_ids,pass,Development specification IDs are unique.
+test_subject_references,pass,Every case references existing candidate contracts.
+candidate_test_coverage,pass,Every candidate has at least one draft specification; this does not establish exhaustive testing.
+expected_outcomes_present,pass,Each specification states an expected result and prerequisite contract.
+fixture_layer_explicit,pass,Reduced fixtures have an explicit unit-harness context and do not pretend to be complete athlete profiles.
+tests_not_executed_or_reviewed,pass,Draft expectations are not test execution or independent human review.
+fixtures_outside_retrieval,pass,These cases and answer keys remain outside retrieval and final evaluation profiles.

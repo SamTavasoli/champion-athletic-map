@@ -1,0 +1,26 @@
+{
+  "approved": 0,
+  "catalog_candidates": 144,
+  "catalog_version": "0.3.7",
+  "distinct_drills_with_pending_fields": 41,
+  "fields_by_type": {
+    "equipment": 38,
+    "participants": 36
+  },
+  "git_operations_performed": false,
+  "official_source_pages": 9,
+  "pending_wave3_requirement_fields": 74,
+  "planner_eligible": 0,
+  "previous_catalog_and_registry_verified": true,
+  "registered_source_occurrences": 156,
+  "review_priority_by_drill": {
+    "medium": 33,
+    "standard": 8
+  },
+  "review_priority_by_field": {
+    "medium": 36,
+    "standard": 38
+  },
+  "source_cues_are_not_approval": true,
+  "step": "12-59"
+}

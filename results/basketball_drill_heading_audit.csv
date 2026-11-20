@@ -1,0 +1,71 @@
+evidence_id,activity_name,source_level,practice_plan,source_url,fetch_status,heading_status,heading_matches,practice_plan_marker,special_review_flag,equipment_review,timing_review,participants_review,distinctness_review,permission_review,planner_approved
+JR-EVID-0001,Running Stop Drill,Rookie,3,https://jr.nba.com/basketball-practice-plans/rookie/page/3/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0002,Smacks,Rookie,3,https://jr.nba.com/basketball-practice-plans/rookie/page/3/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0003,"Stationary Crossover Low, Middle, High",Rookie,3,https://jr.nba.com/basketball-practice-plans/rookie/page/3/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0004,1.2.3. Triple Threat,Starter,2,https://jr.nba.com/basketball-practice-plans/starter/page/2/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0005,Retreat Dribble Drill,Starter,2,https://jr.nba.com/basketball-practice-plans/starter/page/2/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0006,The Escape Game,Rookie,1,https://jr.nba.com/basketball-practice-plans/rookie/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0007,Hot Ball (Taps),Rookie,1,https://jr.nba.com/basketball-practice-plans/rookie/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0008,Around The World Wraps,Rookie,1,https://jr.nba.com/basketball-practice-plans/rookie/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0009,Run to That Line,Starter,1,https://jr.nba.com/basketball-practice-plans/starter/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0010,Diamond Passing,Starter,1,https://jr.nba.com/basketball-practice-plans/starter/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0011,Cone Dribbling,Starter,1,https://jr.nba.com/basketball-practice-plans/starter/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0012,Gauntlet Dribbling,All-Star,1,https://jr.nba.com/basketball-practice-plans/all-star/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0013,Partner Decision Dribbling Game,All-Star,1,https://jr.nba.com/basketball-practice-plans/all-star/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0014,Skip Pass 2 on 1,All-Star,1,https://jr.nba.com/basketball-practice-plans/all-star/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0015,Cone Dribbling,MVP,1,https://jr.nba.com/basketball-practice-plans/mvp/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0016,Pound Pass Drill,MVP,1,https://jr.nba.com/basketball-practice-plans/mvp/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0017,Slip Pass Drill,MVP,1,https://jr.nba.com/basketball-practice-plans/mvp/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0018,Run to That Line,Rookie,2,https://jr.nba.com/basketball-practice-plans/rookie/page/2/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0019,Forward/Backward/Lateral March,Rookie,2,https://jr.nba.com/basketball-practice-plans/rookie/page/2/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0020,High Knees,Rookie,2,https://jr.nba.com/basketball-practice-plans/rookie/page/2/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0021,Quick Feet,Rookie,2,https://jr.nba.com/basketball-practice-plans/rookie/page/2/,success,heading_found,1,yes,overlapping_source_description,pending,pending,pending,pending,pending,no
+JR-EVID-0022,Side Push,Rookie,2,https://jr.nba.com/basketball-practice-plans/rookie/page/2/,success,heading_found,1,yes,overlapping_source_description,pending,pending,pending,pending,pending,no
+JR-EVID-0023,Toss & Catch,Rookie,2,https://jr.nba.com/basketball-practice-plans/rookie/page/2/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0024,Stationary Dribble Low/Middle,Rookie,2,https://jr.nba.com/basketball-practice-plans/rookie/page/2/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0025,Up or Down Game,Rookie,2,https://jr.nba.com/basketball-practice-plans/rookie/page/2/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0026,1.2.3. Triple Threat,Rookie,2,https://jr.nba.com/basketball-practice-plans/rookie/page/2/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0027,Gates Passing Game,Rookie,2,https://jr.nba.com/basketball-practice-plans/rookie/page/2/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0028,Red Light,Rookie,2,https://jr.nba.com/basketball-practice-plans/rookie/page/2/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0029,Shooting Line Game,Rookie,2,https://jr.nba.com/basketball-practice-plans/rookie/page/2/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0030,Advantage Numbers Game,Rookie,2,https://jr.nba.com/basketball-practice-plans/rookie/page/2/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0031,1 on 1 Half-court,All-Star,2,https://jr.nba.com/basketball-practice-plans/all-star/page/2/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0032,Pivot 1 on 1,All-Star,2,https://jr.nba.com/basketball-practice-plans/all-star/page/2/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0033,3 on 1 Transition,All-Star,2,https://jr.nba.com/basketball-practice-plans/all-star/page/2/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0034,Progression Shooting Competition,All-Star,2,https://jr.nba.com/basketball-practice-plans/all-star/page/2/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0035,3-Second Deny 1 on 1,All-Star,2,https://jr.nba.com/basketball-practice-plans/all-star/page/2/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0036,Jump to the Ball Drill,All-Star,2,https://jr.nba.com/basketball-practice-plans/all-star/page/2/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0037,3 on 3 Dictated – Pass & Cut or Pass & Ball Screen,All-Star,2,https://jr.nba.com/basketball-practice-plans/all-star/page/2/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0038,5 on 5 Dictated – Minimum 4 Passes,All-Star,2,https://jr.nba.com/basketball-practice-plans/all-star/page/2/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0039,Catch a Second Ball Series,MVP,2,https://jr.nba.com/basketball-practice-plans/mvp/page/2/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0040,Rhythm Dribbling,MVP,2,https://jr.nba.com/basketball-practice-plans/mvp/page/2/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0041,Hook Pass Drill,MVP,2,https://jr.nba.com/basketball-practice-plans/mvp/page/2/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0042,Floater Series,MVP,2,https://jr.nba.com/basketball-practice-plans/mvp/page/2/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0043,Pick & Pop Shooting,MVP,2,https://jr.nba.com/basketball-practice-plans/mvp/page/2/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0044,Rebound & Score,MVP,2,https://jr.nba.com/basketball-practice-plans/mvp/page/2/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0045,1 on 1 – Stunt & Recover,MVP,2,https://jr.nba.com/basketball-practice-plans/mvp/page/2/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0046,4 on 4 Shell to Rebound,MVP,2,https://jr.nba.com/basketball-practice-plans/mvp/page/2/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0047,Jail Break,Starter,3,https://jr.nba.com/basketball-practice-plans/starter/page/3/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0048,Tuck Back Drill,Starter,3,https://jr.nba.com/basketball-practice-plans/starter/page/3/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0049,Rooted 1 on 1,Starter,3,https://jr.nba.com/basketball-practice-plans/starter/page/3/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0050,The Kick Pass Drill,Starter,3,https://jr.nba.com/basketball-practice-plans/starter/page/3/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0051,Free Throw Golf,Starter,3,https://jr.nba.com/basketball-practice-plans/starter/page/3/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0052,2 on 2 Box Out Game,Starter,3,https://jr.nba.com/basketball-practice-plans/starter/page/3/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0053,2-Person Closeout Drill,Starter,3,https://jr.nba.com/basketball-practice-plans/starter/page/3/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0054,4 on 4 Continuous with Constraints,Starter,3,https://jr.nba.com/basketball-practice-plans/starter/page/3/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0055,1 on 1 Dribble Battle,All-Star,3,https://jr.nba.com/basketball-practice-plans/all-star/page/3/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0056,1 on 1+1 Half-court,All-Star,3,https://jr.nba.com/basketball-practice-plans/all-star/page/3/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0057,Pound Pass 1 on 1,All-Star,3,https://jr.nba.com/basketball-practice-plans/all-star/page/3/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0058,Animal Layups,All-Star,3,https://jr.nba.com/basketball-practice-plans/all-star/page/3/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0059,3-Person Shooting,All-Star,3,https://jr.nba.com/basketball-practice-plans/all-star/page/3/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0060,Get Open 1 on 1,All-Star,3,https://jr.nba.com/basketball-practice-plans/all-star/page/3/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0061,3 on 1 Drive and Kick Reaction,All-Star,3,https://jr.nba.com/basketball-practice-plans/all-star/page/3/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0062,3 on 3 from Help the Helper,All-Star,3,https://jr.nba.com/basketball-practice-plans/all-star/page/3/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0063,2-Ball Jab Drill,MVP,3,https://jr.nba.com/basketball-practice-plans/mvp/page/3/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0064,2 Ball Alternate & React,MVP,3,https://jr.nba.com/basketball-practice-plans/mvp/page/3/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0065,Loop Shooting Drill,MVP,3,https://jr.nba.com/basketball-practice-plans/mvp/page/3/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0066,Filling the Corner Drill,MVP,3,https://jr.nba.com/basketball-practice-plans/mvp/page/3/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0067,Spin 5 Series,MVP,3,https://jr.nba.com/basketball-practice-plans/mvp/page/3/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0068,Pocket Pass & Shoot,MVP,3,https://jr.nba.com/basketball-practice-plans/mvp/page/3/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0069,5 on 0 Fast Break,MVP,3,https://jr.nba.com/basketball-practice-plans/mvp/page/3/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no
+JR-EVID-0070,Balance the Floor Drill,MVP,3,https://jr.nba.com/basketball-practice-plans/mvp/page/3/,success,heading_found,1,yes,,pending,pending,pending,pending,pending,no

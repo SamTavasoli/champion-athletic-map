@@ -1,0 +1,2 @@
+imported_group_id,imported_name,existing_candidate_id,existing_name,name_similarity,token_jaccard,decision
+JR-ADITI-0015,"Stationary Crossover Low, Mid, High",JR-REVIEW-0061,"Stationary Crossover Low, Middle, High",0.9565,0.6667,pending_manual_distinctness_review

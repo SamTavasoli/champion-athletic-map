@@ -1,0 +1,672 @@
+{
+  "$id": "urn:champion-athletic-map:pilot-public-profile:2",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "input": {
+      "additionalProperties": false,
+      "properties": {
+        "age": {
+          "anyOf": [
+            {
+              "maximum": 17,
+              "minimum": 13,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "athlete_request": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "type": "string"
+        },
+        "availability": {
+          "anyOf": [
+            {
+              "items": {
+                "additionalProperties": false,
+                "minProperties": 1,
+                "properties": {
+                  "date": {
+                    "anyOf": [
+                      {
+                        "enum": [
+                          "2026-11-16",
+                          "2026-11-17",
+                          "2026-11-18",
+                          "2026-11-19",
+                          "2026-11-20",
+                          "2026-11-21",
+                          "2026-11-22"
+                        ],
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "end_time": {
+                    "anyOf": [
+                      {
+                        "pattern": "^(?:[01][0-9]|2[0-3]):[0-5][0-9]$",
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "start_time": {
+                    "anyOf": [
+                      {
+                        "pattern": "^(?:[01][0-9]|2[0-3]):[0-5][0-9]$",
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  }
+                },
+                "type": "object"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "basketball_background": {
+          "anyOf": [
+            {
+              "additionalProperties": false,
+              "properties": {
+                "experience_level": {
+                  "anyOf": [
+                    {
+                      "enum": [
+                        "beginner",
+                        "intermediate",
+                        "advanced"
+                      ],
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "position": {
+                  "anyOf": [
+                    {
+                      "minLength": 1,
+                      "pattern": "\\S",
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "reported_skill_level": {
+                  "anyOf": [
+                    {
+                      "minLength": 1,
+                      "pattern": "\\S",
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "type": "object"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "equipment": {
+          "anyOf": [
+            {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "name": {
+                    "minLength": 1,
+                    "pattern": "\\S",
+                    "type": "string"
+                  },
+                  "quantity": {
+                    "anyOf": [
+                      {
+                        "minimum": 0,
+                        "type": "integer"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  }
+                },
+                "required": [
+                  "name"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "existing_commitments": {
+          "anyOf": [
+            {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "activity_kind": {
+                    "anyOf": [
+                      {
+                        "enum": [
+                          "practice",
+                          "game",
+                          "training",
+                          "conditioning",
+                          "informal",
+                          "school",
+                          "travel",
+                          "other"
+                        ],
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "activity_type": {
+                    "anyOf": [
+                      {
+                        "enum": [
+                          "organized_basketball",
+                          "other_organized_sport",
+                          "general_conditioning",
+                          "informal_activity",
+                          "nontraining"
+                        ],
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "date": {
+                    "anyOf": [
+                      {
+                        "enum": [
+                          "2026-11-16",
+                          "2026-11-17",
+                          "2026-11-18",
+                          "2026-11-19",
+                          "2026-11-20",
+                          "2026-11-21",
+                          "2026-11-22"
+                        ],
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "description": {
+                    "minLength": 1,
+                    "pattern": "\\S",
+                    "type": "string"
+                  },
+                  "end_time": {
+                    "anyOf": [
+                      {
+                        "pattern": "^(?:[01][0-9]|2[0-3]):[0-5][0-9]$",
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "sport": {
+                    "anyOf": [
+                      {
+                        "minLength": 1,
+                        "pattern": "\\S",
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "start_time": {
+                    "anyOf": [
+                      {
+                        "pattern": "^(?:[01][0-9]|2[0-3]):[0-5][0-9]$",
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  }
+                },
+                "required": [
+                  "description"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "food_question": {
+          "anyOf": [
+            {
+              "minLength": 1,
+              "pattern": "\\S",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Optional factual food-composition question supported by the frozen reference; scope requires review."
+        },
+        "goals": {
+          "anyOf": [
+            {
+              "items": {
+                "minLength": 1,
+                "pattern": "\\S",
+                "type": "string"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "history": {
+          "anyOf": [
+            {
+              "additionalProperties": false,
+              "properties": {
+                "annual_participation": {
+                  "anyOf": [
+                    {
+                      "additionalProperties": false,
+                      "properties": {
+                        "months_without_organized_basketball": {
+                          "anyOf": [
+                            {
+                              "minimum": 0,
+                              "type": "number"
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "organized_basketball_months": {
+                          "anyOf": [
+                            {
+                              "minimum": 0,
+                              "type": "number"
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "other_sports_description": {
+                          "anyOf": [
+                            {
+                              "minLength": 1,
+                              "pattern": "\\S",
+                              "type": "string"
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "reporting_period_end": {
+                          "anyOf": [
+                            {
+                              "format": "date",
+                              "type": "string"
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "reporting_period_start": {
+                          "anyOf": [
+                            {
+                              "format": "date",
+                              "type": "string"
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        }
+                      },
+                      "type": "object"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "sleep": {
+                  "anyOf": [
+                    {
+                      "additionalProperties": false,
+                      "properties": {
+                        "average_hours_per_night": {
+                          "anyOf": [
+                            {
+                              "maximum": 24,
+                              "minimum": 0,
+                              "type": "number"
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "reporting_period_end": {
+                          "anyOf": [
+                            {
+                              "format": "date",
+                              "type": "string"
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        },
+                        "reporting_period_start": {
+                          "anyOf": [
+                            {
+                              "format": "date",
+                              "type": "string"
+                            },
+                            {
+                              "type": "null"
+                            }
+                          ]
+                        }
+                      },
+                      "type": "object"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "type": "object"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "participants_available": {
+          "anyOf": [
+            {
+              "description": "Total available participants including the athlete; never assume a partner or solo count.",
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "planning_window": {
+          "additionalProperties": false,
+          "properties": {
+            "end_date": {
+              "const": "2026-11-22"
+            },
+            "start_date": {
+              "const": "2026-11-16"
+            },
+            "timezone": {
+              "const": "America/Los_Angeles"
+            }
+          },
+          "required": [
+            "start_date",
+            "end_date",
+            "timezone"
+          ],
+          "type": "object"
+        },
+        "reported_limitations": {
+          "anyOf": [
+            {
+              "items": {
+                "minLength": 1,
+                "pattern": "\\S",
+                "type": "string"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "schedule_coverage": {
+          "anyOf": [
+            {
+              "additionalProperties": false,
+              "properties": {
+                "end_date": {
+                  "format": "date",
+                  "type": "string"
+                },
+                "existing_commitments_complete": {
+                  "type": "boolean"
+                },
+                "start_date": {
+                  "format": "date",
+                  "type": "string"
+                },
+                "timezone": {
+                  "minLength": 1,
+                  "pattern": "\\S",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "start_date",
+                "end_date",
+                "timezone",
+                "existing_commitments_complete"
+              ],
+              "type": "object"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "school_grade": {
+          "anyOf": [
+            {
+              "maximum": 12,
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "space": {
+          "anyOf": [
+            {
+              "additionalProperties": false,
+              "properties": {
+                "court_access": {
+                  "anyOf": [
+                    {
+                      "enum": [
+                        "none",
+                        "single_hoop_area",
+                        "half_court",
+                        "full_court"
+                      ],
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "hoop_access": {
+                  "anyOf": [
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "restrictions": {
+                  "anyOf": [
+                    {
+                      "items": {
+                        "minLength": 1,
+                        "pattern": "\\S",
+                        "type": "string"
+                      },
+                      "type": "array"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "usable_area_description": {
+                  "anyOf": [
+                    {
+                      "minLength": 1,
+                      "pattern": "\\S",
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "type": "object"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "time_limits": {
+          "anyOf": [
+            {
+              "additionalProperties": false,
+              "properties": {
+                "max_additional_minutes_per_week": {
+                  "anyOf": [
+                    {
+                      "minimum": 0,
+                      "type": "integer"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "max_additional_sessions_per_week": {
+                  "anyOf": [
+                    {
+                      "minimum": 0,
+                      "type": "integer"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "max_session_minutes": {
+                  "anyOf": [
+                    {
+                      "minimum": 0,
+                      "type": "integer"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "type": "object"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "planning_window",
+        "athlete_request"
+      ],
+      "type": "object"
+    },
+    "profile_id": {
+      "minLength": 1,
+      "pattern": "\\S",
+      "type": "string"
+    },
+    "schema_version": {
+      "const": "athlete-profile-input-2",
+      "type": "string"
+    }
+  },
+  "required": [
+    "profile_id",
+    "schema_version",
+    "input"
+  ],
+  "title": "Pilot public athlete input with explicit weekly coverage",
+  "type": "object"
+}

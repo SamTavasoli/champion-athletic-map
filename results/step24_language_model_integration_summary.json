@@ -1,0 +1,268 @@
+{
+  "accepted_study_profiles": 0,
+  "benchmark_reruns_in_this_cell": 0,
+  "calendar_checks": {
+    "calendar_fulfilled": true,
+    "checks": {
+      "commitments_preserved": true,
+      "completed_response": true,
+      "no_extra_activities": true,
+      "no_invented_source_ids": true,
+      "no_unrequested_food_facts": true,
+      "planning_window_matches": true,
+      "resources_within_available": true,
+      "response_is_plan": true,
+      "rest_days_recorded": true,
+      "seven_days_match": true,
+      "standalone_sessions": true
+    },
+    "issues": []
+  },
+  "calendar_example_scope": "fictional_existing_commitments_only",
+  "calendar_request_status": "fulfilled",
+  "calendar_response_explanation": "A seven-day calendar with existing basketball practices only.",
+  "checks": [
+    {
+      "check": "current_backend_response",
+      "detail": "returned",
+      "evidence": "results/integration/model_calls/step24_12_calendar_example_07",
+      "status": "pass"
+    },
+    {
+      "check": "current_response_format",
+      "detail": "plan",
+      "evidence": "results/integration/model_calls/step24_12_calendar_example_07",
+      "status": "pass"
+    },
+    {
+      "check": "current_complete_prompt_budget",
+      "detail": "Includes reserved output capacity",
+      "evidence": "results/integration/model_calls/step24_12_calendar_example_07",
+      "status": "pass"
+    },
+    {
+      "check": "calendar_request_answered",
+      "detail": "Seven dates; both supplied practices preserved; no additional activities",
+      "evidence": "results/integration/model_calls/step24_12_calendar_example_07",
+      "status": "pass"
+    },
+    {
+      "check": "version_1_reference_boundary",
+      "detail": "Reference packet rejected",
+      "evidence": "results/integration/reference_packets/step24_10_example_01.json",
+      "status": "pass"
+    },
+    {
+      "check": "versions_2_4_matched_packet",
+      "detail": "Identical model-visible reference data",
+      "evidence": "results/integration/reference_packets/step24_10_example_01.json",
+      "status": "pass"
+    },
+    {
+      "check": "saved_references_lookup",
+      "detail": "found",
+      "evidence": "results/integration/reference_tools/example_722784ccdcf8.json",
+      "status": "pass"
+    },
+    {
+      "check": "saved_food_lookup",
+      "detail": "found",
+      "evidence": "results/integration/reference_tools/example_722784ccdcf8.json",
+      "status": "pass"
+    },
+    {
+      "check": "saved_drill_availability",
+      "detail": "not_eligible",
+      "evidence": "results/integration/reference_tools/example_722784ccdcf8.json",
+      "status": "pass"
+    },
+    {
+      "check": "saved_exercise_availability",
+      "detail": "not_eligible",
+      "evidence": "results/integration/reference_tools/example_722784ccdcf8.json",
+      "status": "pass"
+    },
+    {
+      "check": "saved_rules_availability",
+      "detail": "unavailable",
+      "evidence": "results/integration/reference_tools/example_722784ccdcf8.json",
+      "status": "pass"
+    },
+    {
+      "check": "earlier_exact_echo_fixture",
+      "detail": "Original emoji mismatch retained",
+      "evidence": "results/integration/chat_compatibility/checks_38c2bd48e7fdead4/step24_5_chat_measurement_summary.json",
+      "status": "fail"
+    },
+    {
+      "check": "source_approvals_and_rule_adoption",
+      "detail": "Active approved resource release verified; automatic rule checking remains pending",
+      "evidence": "results/resource_approval_activation_summary.json",
+      "status": "pass"
+    },
+    {
+      "check": "reference_generation_current_configuration",
+      "detail": "Not established by these development examples",
+      "evidence": "Steps 25–31 and source review",
+      "status": "pending"
+    },
+    {
+      "check": "representative_workflow_capacity",
+      "detail": "Not established by these development examples",
+      "evidence": "Steps 25–31 and source review",
+      "status": "pending"
+    },
+    {
+      "check": "automatic_rule_checking",
+      "detail": "Not established by these development examples",
+      "evidence": "Steps 25–31 and source review",
+      "status": "pending"
+    },
+    {
+      "check": "accepted_study_profiles",
+      "detail": "Not established by these development examples",
+      "evidence": "Steps 25–31 and source review",
+      "status": "pending"
+    },
+    {
+      "check": "operational_generation_readiness",
+      "detail": "Not established by these development examples",
+      "evidence": "Steps 25–31 and source review",
+      "status": "pending"
+    }
+  ],
+  "current_approved_resource_availability": {
+    "approval_label": "Approved by team — under Sam’s delegated authority",
+    "automatic_rule_checking_ready": false,
+    "basketball_variants": 127,
+    "distinct_drill_target_verified": false,
+    "gym_exercises_approved_for_planning": 0,
+    "held_drills": 7,
+    "resource_release": "team-approved-f0dcb9e9943e381b",
+    "rule_definitions": 29,
+    "warmups": 9
+  },
+  "current_budget": {
+    "backend_added_system_prefix": "",
+    "backend_added_system_suffix": "",
+    "backend_token_count_agreement_verified": false,
+    "configured_context_tokens": 8192,
+    "counting_basis": "native_encoder_over_complete_actual_backend_render_only_prompt",
+    "effective_backend_context_verified": false,
+    "exact_submitted_content_preserved": true,
+    "input_ceiling_after_output_and_margin": 5888,
+    "local_input_tokens_with_boundary_reserve": 986,
+    "operational_generation_ready": false,
+    "output_format": "native_json_schema",
+    "output_reserve": 2048,
+    "remaining_tokens_after_all_reserves": 4902,
+    "rendered_body_tokens": 984,
+    "rendered_bos_present": false,
+    "rendered_prompt_sha256": "34b0b80fd55f54056adb4164046e0a0e28a92cf75e2c79a8587499c87895f458",
+    "request_sha256": "19057418168859461b592cdde054f877ae824cc4561ddfa45a2c9032c32714c7",
+    "safety_margin": 256,
+    "status": "within_local_budget",
+    "token_count_is_provisional": true,
+    "unverified_boundary_reserve": 2
+  },
+  "current_configuration": {
+    "active_resource_release": "team-approved-f0dcb9e9943e381b",
+    "automatic_repairs": 0,
+    "automatic_retries": 0,
+    "boundary_reserve_tokens": 2,
+    "concurrent_model_requests": 1,
+    "contracts_directory": "artifacts/language_model/shared_contracts/contracts_3293242853ce2cf7",
+    "endpoint": "http://127.0.0.1:11434/api/chat",
+    "fresh_messages_per_job": true,
+    "model": "llama3.1:8b",
+    "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+    "operational_generation_ready": false,
+    "options": {
+      "num_ctx": 8192,
+      "num_predict": 2048,
+      "seed": 42,
+      "temperature": 0
+    },
+    "output_mode": "native_json_schema",
+    "packet_policy_version": "shared-reference-packet-policy-2-approved-availability",
+    "prompt_version": "shared-json-instructions-8",
+    "purpose": "Shared development foundation; final operating limits remain pending.",
+    "quantization": "Q4_K_M",
+    "reference_access": {
+      "1": "none",
+      "2_3_4": "same_case_same_packet"
+    },
+    "reference_packet_tokens": 2200,
+    "runtime_version_from_saved_response": "0.40.16",
+    "safety_margin_tokens": 256,
+    "schema_serialization": "insertion_order_json",
+    "schema_version": "step24-integration-1",
+    "stream": false,
+    "timeouts_seconds": {
+      "generation": 120,
+      "metadata": 8,
+      "render": 60
+    }
+  },
+  "current_configuration_reference_generation_verified": false,
+  "current_observed_response_type": "plan",
+  "current_response_format_valid": true,
+  "earlier_diagnostic_status": "saved_response_differences_recorded_original_gate_preserved",
+  "earlier_exact_echo_compatibility": false,
+  "earlier_fixture_count_agreement": true,
+  "evidence_sha256": {
+    "artifacts/language_model/active_resource_release.json": "b05bfd994b9d722e6179ee2a3e2136975118a51468eb490bec166c231f15303b",
+    "artifacts/language_model/approved_resources/team-approved-f0dcb9e9943e381b/adopted_drills.json": "32ee86843189f03aa6d02270313c2b4b84ebb0f221f4561b938b62c50d90368f",
+    "artifacts/language_model/approved_resources/team-approved-f0dcb9e9943e381b/adopted_rules.json": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b",
+    "artifacts/language_model/approved_resources/team-approved-f0dcb9e9943e381b/decisions.json": "1b30e7607f26c9c451bce921ce623b622a8342a1978a624b2f9a0daba8fce4a2",
+    "artifacts/language_model/approved_resources/team-approved-f0dcb9e9943e381b/manifest.json": "d048af8432bfc339a2504460cbbdbca7011745774d92f0024aa15148dc55db6b",
+    "artifacts/language_model/shared_contracts/contracts_3293242853ce2cf7/planner_response_schema.json": "5e812df290ffe5bfbdf17c847abbe7136fa5eae5c084d815caab5a5e5bd1f6f8",
+    "artifacts/language_model/shared_contracts/contracts_3293242853ce2cf7/public_input.py": "56d406a462a35687aaa69fd1820140aca80e6386b22452e9032b5f8d7a12835c",
+    "artifacts/language_model/shared_contracts/contracts_3293242853ce2cf7/public_profile_record_schema.json": "c608b6a369395ef578cd4aa77b709a5e50889ef7e9a2e715b0904fb55c3da2c8",
+    "artifacts/language_model/shared_contracts/contracts_3293242853ce2cf7/response_contract.py": "572bf36fc98056eff77a6d63b428703f1315e5056d935ed6b6815171b7e57ac5",
+    "results/integration/chat_compatibility/checks_38c2bd48e7fdead4/step24_5_chat_measurement_summary.json": "40d3af96d6c7311522e031134fac88acd6afc35bb43c7ad0e81afb1641ee4f41",
+    "results/integration/chat_diagnostics/diagnostic_1a28dcb3b1151c49/step24_6_response_diagnosis_summary.json": "af51af8c51f6878cb14d2ee66a3f133e54d15b13f9fa15f0c858f000c25e42e2",
+    "results/integration/model_calls/step24_11_reference_example_01/request.json": "568d592b60221c3299c68074978a164643c5dac72fd1ad250f05ac025a94b63f",
+    "results/integration/model_calls/step24_11_reference_example_01/result.json": "9b652646179d0ca48db51c3607cf39cfccaa6ccdd1431c6da103e84296536992",
+    "results/integration/model_calls/step24_12_calendar_example_01/request.json": "3c0a0587a316ca67ec46244cd8a523a300ecf4f66bb65564c5722e6fb506b768",
+    "results/integration/model_calls/step24_12_calendar_example_01/result.json": "d711166536dbb7614d07ca08fb50cb28a06383539bfaefad83bae7fc4ffcb030",
+    "results/integration/model_calls/step24_12_calendar_example_02/request.json": "f8660f13e465b912e6f88305a4b6cd481363e0890e755ac506af0de45877b6aa",
+    "results/integration/model_calls/step24_12_calendar_example_02/result.json": "296b7dc98f49d1cc5c64fa7e0d58bc0236bd61811f25ca930daf88e403850988",
+    "results/integration/model_calls/step24_12_calendar_example_03/request.json": "ccfe31c651590fe8e478f3b9875318b0dff3015147f6c33d0ecf93cb0814537f",
+    "results/integration/model_calls/step24_12_calendar_example_03/result.json": "067741feb3cc98919baccdce0c29932396fc366e2d552429f87c26899dd8e03e",
+    "results/integration/model_calls/step24_12_calendar_example_04/request.json": "9003dd6eda8d1726e4aee5dba545c0ea8820ed500b4970060fbd69f520a6a7c2",
+    "results/integration/model_calls/step24_12_calendar_example_04/result.json": "7597d09c78fa3336a8dfd701c3a884d82e89d68a9f6288fc66743215a8f08af2",
+    "results/integration/model_calls/step24_12_calendar_example_05/request.json": "8a95b991361758ff59e400ec3c3091c800602cae3f8cf8034357c9b69f77dcd1",
+    "results/integration/model_calls/step24_12_calendar_example_05/result.json": "84b4029b7bf2dac19bea9cd9caf09055a9b3ec444dc66d575e83424371e348ee",
+    "results/integration/model_calls/step24_12_calendar_example_06/request.json": "cd1d51288c3978d33bd72dd73aadae067238c76457992eb4d854c08252ff9657",
+    "results/integration/model_calls/step24_12_calendar_example_06/result.json": "3bcfc02839ad4b1d7a3226d9b19696ced139cee67f0b8672e917f78213b7629f",
+    "results/integration/model_calls/step24_12_calendar_example_07/backend_response.json": "92936f2e1481f9a940c4cb867a9971316d3be015339d34648f6f6448dc288419",
+    "results/integration/model_calls/step24_12_calendar_example_07/calendar_check.json": "acf31bf566ef57fb4949cc2f1e1ef5a1c21adbe68823351902fd1488c2cea0a0",
+    "results/integration/model_calls/step24_12_calendar_example_07/rendered_prompt.txt": "34b0b80fd55f54056adb4164046e0a0e28a92cf75e2c79a8587499c87895f458",
+    "results/integration/model_calls/step24_12_calendar_example_07/request.json": "3ae4e52dc5643a65da70fe323745b130abefa47431abaf5ed794eae9446955f3",
+    "results/integration/model_calls/step24_12_calendar_example_07/result.json": "039af27ebb379de3522c2cb200e11140cb4bb14148835bbfec2ef9f9f7d9278d",
+    "results/integration/model_calls/step24_8_example_01/request.json": "aa1f941b82265350efdc855b4c52f9251e8e42c19cc661f888caf560a5c457bc",
+    "results/integration/model_calls/step24_8_example_01/result.json": "a09e140bdc903d54fabd1866594797e4ee5e8c2e0eae502a913ac2c97d04231f",
+    "results/integration/model_calls/step24_8_example_02/request.json": "c8714a2c9bc29b0878165c96c9700ca81782dc2a464a79348f40cc5b21c82e5b",
+    "results/integration/model_calls/step24_8_example_02/result.json": "7498e8a884a201fdac97a2a44ee6c1f8a2908dfb8fb394e9a6877112453ea1bb",
+    "results/integration/reference_packets/step24_10_example_01.json": "d5de8d5b647630f29fc92bed86cd937e6967e2c20ab8657faa26f2d061fc2304",
+    "results/integration/reference_tools/example_722784ccdcf8.json": "fba623964630c5c797b066375d67e3843362ca92e5a001ca83af0693a9bc0ee2",
+    "results/resource_approval_activation_summary.json": "35a2245662abe4ad310a1fe1503e5b04104411f7c79c6c58e8411aa857f5064c",
+    "src/champion_athletic_map/llm.py": "838ae0b8ca97a2dbf1154813f3c517b796ddaf95cb32f96a30cf7c59ab353145",
+    "src/champion_athletic_map/reference_packets.py": "bd89d9fb6f667260b59dd75eb0af551a3433509091771eb202272611c41fb633",
+    "src/champion_athletic_map/reference_tools.py": "6e2125f4a4b21ffc44ee8d6180f81dc10bfccd223fff398913b205cc9b4bc132"
+  },
+  "http_requests_in_this_cell": 0,
+  "model_calls_in_this_cell": 0,
+  "operational_generation_ready": false,
+  "output_sha256": {
+    "artifacts/language_model/integration_config.json": "5cd4b3e8f31180ccb717f9d5713be95faa337f9ca2add247f09a815494bf6bc4",
+    "docs/model_integration.md": "903b3a5609362fb3c00c652b13aa78c43af6b120a381579f238f1b16f2532fd9",
+    "docs/reference_tool_contracts.md": "9dcd2042908f7293d030551a52fc70d13579472c0c32283a8083a9ea43b318ed",
+    "results/integration/development_checks.csv": "86fc871e7ac5202a9d54d98795247801a25769651c929f376debbc3a2be0beb4",
+    "results/integration/development_run_log.jsonl": "eee30fda3c10d870012010020e1e890359cebdcf4155453428d90de3b0cb9dd9"
+  },
+  "ready_for_step25": "development_with_documented_limitations",
+  "schema_version": "step24-integration-summary-1",
+  "status": "shared_integration_saved_calendar_example_verified"
+}

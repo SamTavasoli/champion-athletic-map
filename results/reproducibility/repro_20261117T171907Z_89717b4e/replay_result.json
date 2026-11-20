@@ -1,0 +1,604 @@
+{
+  "adopted_feasible_families": 150,
+  "analysis_folder": "results/statistical_analysis/analysis_d5e368e9f92725a9d389",
+  "analysis_id": "d5e368e9f92725a9d3892b1d32878294d5bac243215dfb7f313ce69347daeba5",
+  "automatic_scores_changed": false,
+  "best_planner_selected": false,
+  "bootstrap_intervals": 28,
+  "bootstrap_seed": 42,
+  "classifier": {
+    "class_count": 16,
+    "groups": 385,
+    "observed": {
+      "logistic_regression": {
+        "accuracy": 0.7328767123287672,
+        "macro_f1": 0.614255071399779
+      },
+      "majority": {
+        "accuracy": 0.23059360730593606,
+        "macro_f1": 0.023423005565862708
+      },
+      "neural": {
+        "accuracy": 0.678082191780822,
+        "macro_f1": 0.5287925884445915
+      }
+    },
+    "reason": null,
+    "records": 438,
+    "status": "complete"
+  },
+  "cumulative_planner_model_submissions": 2636,
+  "feasible_profiles_per_planner": 150,
+  "findings_path": "results/statistical_analysis/analysis_d5e368e9f92725a9d389/statistical_analysis_findings.md",
+  "formal_significance_claimed": false,
+  "headline_planner_rows": [
+    {
+      "denominator": 200,
+      "families": 200,
+      "metric": "strict_format_valid",
+      "numerator": 75,
+      "percent": 37.5,
+      "planner": 1,
+      "population": "all_planner"
+    },
+    {
+      "denominator": 200,
+      "families": 200,
+      "metric": "strict_format_valid",
+      "numerator": 62,
+      "percent": 31.0,
+      "planner": 2,
+      "population": "all_planner"
+    },
+    {
+      "denominator": 200,
+      "families": 200,
+      "metric": "strict_format_valid",
+      "numerator": 67,
+      "percent": 33.5,
+      "planner": 3,
+      "population": "all_planner"
+    },
+    {
+      "denominator": 200,
+      "families": 200,
+      "metric": "strict_format_valid",
+      "numerator": 69,
+      "percent": 34.5,
+      "planner": 4,
+      "population": "all_planner"
+    },
+    {
+      "denominator": 200,
+      "families": 200,
+      "metric": "designated_workflow_completed",
+      "numerator": 199,
+      "percent": 99.5,
+      "planner": 1,
+      "population": "all_planner"
+    },
+    {
+      "denominator": 200,
+      "families": 200,
+      "metric": "designated_workflow_completed",
+      "numerator": 186,
+      "percent": 93.0,
+      "planner": 2,
+      "population": "all_planner"
+    },
+    {
+      "denominator": 200,
+      "families": 200,
+      "metric": "designated_workflow_completed",
+      "numerator": 199,
+      "percent": 99.5,
+      "planner": 3,
+      "population": "all_planner"
+    },
+    {
+      "denominator": 200,
+      "families": 200,
+      "metric": "designated_workflow_completed",
+      "numerator": 198,
+      "percent": 99.0,
+      "planner": 4,
+      "population": "all_planner"
+    },
+    {
+      "denominator": 150,
+      "families": 150,
+      "metric": "automated_feasible_plan_success",
+      "numerator": 0,
+      "percent": 0.0,
+      "planner": 1,
+      "population": "feasible"
+    },
+    {
+      "denominator": 150,
+      "families": 150,
+      "metric": "automated_feasible_plan_success",
+      "numerator": 0,
+      "percent": 0.0,
+      "planner": 2,
+      "population": "feasible"
+    },
+    {
+      "denominator": 150,
+      "families": 150,
+      "metric": "automated_feasible_plan_success",
+      "numerator": 0,
+      "percent": 0.0,
+      "planner": 3,
+      "population": "feasible"
+    },
+    {
+      "denominator": 150,
+      "families": 150,
+      "metric": "automated_feasible_plan_success",
+      "numerator": 0,
+      "percent": 0.0,
+      "planner": 4,
+      "population": "feasible"
+    },
+    {
+      "denominator": 150,
+      "families": 150,
+      "metric": "automated_declared_checks_pass",
+      "numerator": 0,
+      "percent": 0.0,
+      "planner": 1,
+      "population": "feasible"
+    },
+    {
+      "denominator": 150,
+      "families": 150,
+      "metric": "automated_declared_checks_pass",
+      "numerator": 0,
+      "percent": 0.0,
+      "planner": 2,
+      "population": "feasible"
+    },
+    {
+      "denominator": 150,
+      "families": 150,
+      "metric": "automated_declared_checks_pass",
+      "numerator": 0,
+      "percent": 0.0,
+      "planner": 3,
+      "population": "feasible"
+    },
+    {
+      "denominator": 150,
+      "families": 150,
+      "metric": "automated_declared_checks_pass",
+      "numerator": 0,
+      "percent": 0.0,
+      "planner": 4,
+      "population": "feasible"
+    },
+    {
+      "denominator": 150,
+      "families": 150,
+      "metric": "complete_request_fulfillment_verified",
+      "numerator": 0,
+      "percent": 0.0,
+      "planner": 1,
+      "population": "feasible"
+    },
+    {
+      "denominator": 150,
+      "families": 150,
+      "metric": "complete_request_fulfillment_verified",
+      "numerator": 0,
+      "percent": 0.0,
+      "planner": 2,
+      "population": "feasible"
+    },
+    {
+      "denominator": 150,
+      "families": 150,
+      "metric": "complete_request_fulfillment_verified",
+      "numerator": 0,
+      "percent": 0.0,
+      "planner": 3,
+      "population": "feasible"
+    },
+    {
+      "denominator": 150,
+      "families": 150,
+      "metric": "complete_request_fulfillment_verified",
+      "numerator": 0,
+      "percent": 0.0,
+      "planner": 4,
+      "population": "feasible"
+    },
+    {
+      "denominator": 150,
+      "families": 150,
+      "metric": "completed_valid_plan",
+      "numerator": 45,
+      "percent": 30.0,
+      "planner": 1,
+      "population": "feasible"
+    },
+    {
+      "denominator": 150,
+      "families": 150,
+      "metric": "completed_valid_plan",
+      "numerator": 40,
+      "percent": 26.666666666666668,
+      "planner": 2,
+      "population": "feasible"
+    },
+    {
+      "denominator": 150,
+      "families": 150,
+      "metric": "completed_valid_plan",
+      "numerator": 39,
+      "percent": 26.0,
+      "planner": 3,
+      "population": "feasible"
+    },
+    {
+      "denominator": 150,
+      "families": 150,
+      "metric": "completed_valid_plan",
+      "numerator": 47,
+      "percent": 31.333333333333332,
+      "planner": 4,
+      "population": "feasible"
+    },
+    {
+      "denominator": 20,
+      "families": 20,
+      "metric": "category_response_success",
+      "numerator": 0,
+      "percent": 0.0,
+      "planner": 1,
+      "population": "missing_information"
+    },
+    {
+      "denominator": 20,
+      "families": 20,
+      "metric": "category_response_success",
+      "numerator": 0,
+      "percent": 0.0,
+      "planner": 2,
+      "population": "missing_information"
+    },
+    {
+      "denominator": 20,
+      "families": 20,
+      "metric": "category_response_success",
+      "numerator": 0,
+      "percent": 0.0,
+      "planner": 3,
+      "population": "missing_information"
+    },
+    {
+      "denominator": 20,
+      "families": 20,
+      "metric": "category_response_success",
+      "numerator": 0,
+      "percent": 0.0,
+      "planner": 4,
+      "population": "missing_information"
+    },
+    {
+      "denominator": 20,
+      "families": 20,
+      "metric": "declared_response_type_match",
+      "numerator": 0,
+      "percent": 0.0,
+      "planner": 1,
+      "population": "missing_information"
+    },
+    {
+      "denominator": 20,
+      "families": 20,
+      "metric": "declared_response_type_match",
+      "numerator": 0,
+      "percent": 0.0,
+      "planner": 2,
+      "population": "missing_information"
+    },
+    {
+      "denominator": 20,
+      "families": 20,
+      "metric": "declared_response_type_match",
+      "numerator": 0,
+      "percent": 0.0,
+      "planner": 3,
+      "population": "missing_information"
+    },
+    {
+      "denominator": 20,
+      "families": 20,
+      "metric": "declared_response_type_match",
+      "numerator": 0,
+      "percent": 0.0,
+      "planner": 4,
+      "population": "missing_information"
+    },
+    {
+      "denominator": 15,
+      "families": 15,
+      "metric": "category_response_success",
+      "numerator": 0,
+      "percent": 0.0,
+      "planner": 1,
+      "population": "conflicting_constraints"
+    },
+    {
+      "denominator": 15,
+      "families": 15,
+      "metric": "category_response_success",
+      "numerator": 0,
+      "percent": 0.0,
+      "planner": 2,
+      "population": "conflicting_constraints"
+    },
+    {
+      "denominator": 15,
+      "families": 15,
+      "metric": "category_response_success",
+      "numerator": 0,
+      "percent": 0.0,
+      "planner": 3,
+      "population": "conflicting_constraints"
+    },
+    {
+      "denominator": 15,
+      "families": 15,
+      "metric": "category_response_success",
+      "numerator": 0,
+      "percent": 0.0,
+      "planner": 4,
+      "population": "conflicting_constraints"
+    },
+    {
+      "denominator": 15,
+      "families": 15,
+      "metric": "declared_response_type_match",
+      "numerator": 0,
+      "percent": 0.0,
+      "planner": 1,
+      "population": "conflicting_constraints"
+    },
+    {
+      "denominator": 15,
+      "families": 15,
+      "metric": "declared_response_type_match",
+      "numerator": 0,
+      "percent": 0.0,
+      "planner": 2,
+      "population": "conflicting_constraints"
+    },
+    {
+      "denominator": 15,
+      "families": 15,
+      "metric": "declared_response_type_match",
+      "numerator": 0,
+      "percent": 0.0,
+      "planner": 3,
+      "population": "conflicting_constraints"
+    },
+    {
+      "denominator": 15,
+      "families": 15,
+      "metric": "declared_response_type_match",
+      "numerator": 0,
+      "percent": 0.0,
+      "planner": 4,
+      "population": "conflicting_constraints"
+    },
+    {
+      "denominator": 15,
+      "families": 15,
+      "metric": "category_response_success",
+      "numerator": 3,
+      "percent": 20.0,
+      "planner": 1,
+      "population": "outside_scope"
+    },
+    {
+      "denominator": 15,
+      "families": 15,
+      "metric": "category_response_success",
+      "numerator": 5,
+      "percent": 33.333333333333336,
+      "planner": 2,
+      "population": "outside_scope"
+    },
+    {
+      "denominator": 15,
+      "families": 15,
+      "metric": "category_response_success",
+      "numerator": 8,
+      "percent": 53.333333333333336,
+      "planner": 3,
+      "population": "outside_scope"
+    },
+    {
+      "denominator": 15,
+      "families": 15,
+      "metric": "category_response_success",
+      "numerator": 3,
+      "percent": 20.0,
+      "planner": 4,
+      "population": "outside_scope"
+    },
+    {
+      "denominator": 15,
+      "families": 15,
+      "metric": "declared_response_type_match",
+      "numerator": 3,
+      "percent": 20.0,
+      "planner": 1,
+      "population": "outside_scope"
+    },
+    {
+      "denominator": 15,
+      "families": 15,
+      "metric": "declared_response_type_match",
+      "numerator": 5,
+      "percent": 33.333333333333336,
+      "planner": 2,
+      "population": "outside_scope"
+    },
+    {
+      "denominator": 15,
+      "families": 15,
+      "metric": "declared_response_type_match",
+      "numerator": 8,
+      "percent": 53.333333333333336,
+      "planner": 3,
+      "population": "outside_scope"
+    },
+    {
+      "denominator": 15,
+      "families": 15,
+      "metric": "declared_response_type_match",
+      "numerator": 3,
+      "percent": 20.0,
+      "planner": 4,
+      "population": "outside_scope"
+    }
+  ],
+  "independent_reviewer_agreement": {
+    "computed": false,
+    "reason": "No two actual independent teammate rating sets were collected."
+  },
+  "input_manifest_sha256": "d5e368e9f92725a9d3892b1d32878294d5bac243215dfb7f313ce69347daeba5",
+  "native_runtime_status": "complete",
+  "new_model_calls": 0,
+  "new_predictions": 0,
+  "new_reference_queries": 0,
+  "original_outcomes_changed": false,
+  "paired_planner_contrasts": [
+    "V2-V1",
+    "V3-V2",
+    "V4-V3",
+    "V4-V1"
+  ],
+  "pending_original_design_components": [
+    "two_independent_teammate_ratings_and_agreement"
+  ],
+  "planner_outcomes": 800,
+  "planner_profiles": 200,
+  "primary_metric_limitation": "Goal check unimplemented; resource coverage limited. Constant zero verification intervals do not prove no useful plans or equal true quality.",
+  "report_path": "results/statistical_analysis/analysis_d5e368e9f92725a9d389/analysis_report.html",
+  "resamples": 2000,
+  "retrieval": {
+    "delivered_required_companions_verified": true,
+    "empty_relevant_sets": 6,
+    "generation_prompt_delivery_verified": false,
+    "heldout_evaluation_id": "retrieval-heldout-evaluation:62d4b123570c2ca80af25ece9e418112f9eda622496d703296026e844175c01a",
+    "heldout_questions": 30,
+    "new_queries_or_encodings": 0,
+    "original_step35_planned_answerable": 20,
+    "original_step35_planned_unsupported": 10,
+    "primary_metrics_preserved": true,
+    "protocol_population_discrepancy": true,
+    "question_families": 15,
+    "ranking_scored_denominator": 24,
+    "reported_route_metrics": [
+      {
+        "all_queries_completed_and_judged": true,
+        "complete_evidence_scored_denominator": 20,
+        "complete_evidence_set_coverage_rate_at_5": 1.0,
+        "completed_outcomes": 30,
+        "empty_relevant_set_queries": 6,
+        "failed_outcomes": 0,
+        "mean_recall_at_5": 1.0,
+        "missing_outcomes": 0,
+        "mrr_at_5": 0.9791666666666666,
+        "not_run_outcomes": 0,
+        "pending_judgment_queries": 0,
+        "population_queries": 30,
+        "question_families": 15,
+        "ranking_establishes_answerability_or_abstention_accuracy": false,
+        "ranking_scored_denominator": 24,
+        "ranking_selection_denominator": 24,
+        "route": "semantic",
+        "scores_are_heldout_ranking_evidence": true,
+        "split": "held_out",
+        "used_for_method_selection": false
+      }
+    ],
+    "selected_route": "semantic",
+    "step33_adoption_verified": true,
+    "support_status_counts": {
+      "partially_supported": 2,
+      "supported": 20,
+      "unsupported": 8
+    },
+    "supported_coverage_denominator": 20
+  },
+  "review_dimension_entries": 800,
+  "review_method": "single_assisted_supplementary_review",
+  "review_profiles": 40,
+  "review_responses": 160,
+  "schema_version": "step35-statistical-analysis-1",
+  "status": "saved_evidence_analysis_complete_with_recorded_limits",
+  "timing_all_terminal": [
+    {
+      "maximum_seconds": 22.59782989998348,
+      "mean_seconds": 10.435265166503669,
+      "measured": 200,
+      "median_seconds": 10.56872530002147,
+      "minimum_seconds": 1.7098062000004575,
+      "missing": 0,
+      "outcomes": 200,
+      "p95_method": "linear percentile",
+      "p95_seconds": 15.102737190015604,
+      "planner": 1,
+      "population": "all_terminal",
+      "scope": "Measured saved end-to-end request time; external scoring excluded."
+    },
+    {
+      "maximum_seconds": 40.17866129998583,
+      "mean_seconds": 18.896839500499773,
+      "measured": 200,
+      "median_seconds": 18.411986849969253,
+      "minimum_seconds": 8.75793290004367,
+      "missing": 0,
+      "outcomes": 200,
+      "p95_method": "linear percentile",
+      "p95_seconds": 29.49729396998591,
+      "planner": 2,
+      "population": "all_terminal",
+      "scope": "Measured saved end-to-end request time; external scoring excluded."
+    },
+    {
+      "maximum_seconds": 38.14385310001671,
+      "mean_seconds": 26.613149089001237,
+      "measured": 200,
+      "median_seconds": 26.981344950007042,
+      "minimum_seconds": 12.672922900004778,
+      "missing": 0,
+      "outcomes": 200,
+      "p95_method": "linear percentile",
+      "p95_seconds": 32.93450514503347,
+      "planner": 3,
+      "population": "all_terminal",
+      "scope": "Measured saved end-to-end request time; external scoring excluded."
+    },
+    {
+      "maximum_seconds": 828.3115348999854,
+      "mean_seconds": 66.2172328754983,
+      "measured": 200,
+      "median_seconds": 62.10372750001261,
+      "minimum_seconds": 29.11078520002775,
+      "missing": 0,
+      "outcomes": 200,
+      "p95_method": "linear percentile",
+      "p95_seconds": 81.25466996497126,
+      "planner": 4,
+      "population": "all_terminal",
+      "scope": "Measured saved end-to-end request time; external scoring excluded."
+    }
+  ],
+  "wording_patterns_full_population": 14,
+  "wording_patterns_in_feasible_subset": 3
+}

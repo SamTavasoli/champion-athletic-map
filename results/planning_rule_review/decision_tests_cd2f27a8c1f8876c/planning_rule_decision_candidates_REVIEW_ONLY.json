@@ -1,0 +1,2501 @@
+{
+  "actual_user_constraints_supplied": false,
+  "application_rules_adopted": 0,
+  "records": [
+    {
+      "activity_scope_proposal": "organized_basketball",
+      "adopted_threshold": null,
+      "adoption_status": "not_adopted",
+      "applicability_definition_status": "pending",
+      "application_enforcement": null,
+      "assistant_evidence_assessment": "direct_publisher_page_statement_support",
+      "candidate_rule_id": "NBA_A12_14_MAX_HOURS",
+      "comparison_operator": null,
+      "current_source_review_status": "pending",
+      "decision_proposal": {
+        "enforcement": "required",
+        "operator": "<=",
+        "rationale": "Proposed comparison only, subject to adopted applicability, window, and qualifications."
+      },
+      "enabled_for_planner": false,
+      "evaluation_treatment_status": "pending",
+      "evidence_card_ids": [
+        "NBA_TABLES"
+      ],
+      "evidence_checked_on": "2026-11-08",
+      "imported_record": {
+        "age_max": "14",
+        "age_min": "12",
+        "applicability_notes": "NBA age segment; where age and grade segments overlap (e.g. age 14 in grade 9), resolve using published player segmentation; not a medical clearance. Includes games, practice and focused structured training; excludes unstructured pickup.",
+        "domain": "youth_basketball_recovery_and_participation",
+        "grade_max": "",
+        "grade_min": "",
+        "metric": "organized_basketball_hours_per_week",
+        "planner_handling": "flag_exceeding_maximum_for_coach_parent_review",
+        "rule_id": "NBA_A12_14_MAX_HOURS",
+        "rule_type": "maximum",
+        "segment": "ages_12_to_14",
+        "source_organization": "NBA and USA Basketball",
+        "source_section": "Maximum Participation Guidelines",
+        "source_url": "https://youthguidelines.nba.com/",
+        "unit": "hours/week",
+        "value_max": "10",
+        "value_min": "",
+        "verification_status": "source_verified_policy_reference_not_individual_prescription"
+      },
+      "input_reference": "data/references/recovery/youth_basketball_recovery_rules_v0_1.csv",
+      "input_row_number": 1,
+      "interpretation_flags": [
+        "current_source_and_qualifications_review_pending",
+        "peer_review_and_adoption_pending",
+        "maximum_is_not_training_target_or_clearance",
+        "review_age_grade_overlap_without_assuming_precedence",
+        "review_publisher_table_coverage_and_footnotes",
+        "upstream_segmentation_precedence_note_needs_interpretation_review",
+        "structured_training_classification_and_complete_schedule_required",
+        "review_concurrent_sport_qualification"
+      ],
+      "interpretation_note": "Source population matching does not resolve precedence between overlapping age/grade categories.",
+      "interpretation_review_status": "pending",
+      "measurement_window_proposal": "seven_day_window_definition_pending",
+      "metric_or_topic": "organized_basketball_hours_per_week",
+      "missing_information_proposal": {
+        "essential_profile_input": "request_clarification",
+        "known_conflict_with_partial_information": "retain_established_conflict_after_applicability_review",
+        "not_applicable": "requires_established_exclusion",
+        "required_plan_output": "incomplete_response",
+        "unresolved_applicability": "Unknown"
+      },
+      "peer_review_status": "pending",
+      "project_target_age_range": [
+        13,
+        17
+      ],
+      "proposal_version": "step13-decision-candidates-1",
+      "record_kind": "structured_reference",
+      "required_information_proposal": {
+        "measurement": [
+          "dated_complete_schedule",
+          "activity_classification",
+          "durations",
+          "session_component_links",
+          "other_sport_and_event_context"
+        ],
+        "population": [
+          "age"
+        ],
+        "segment_resolution": [
+          "school_grade"
+        ]
+      },
+      "rule_origin": "published_guidance",
+      "runtime_activation_status": "inactive",
+      "source_id": "GUID-SRC-80a2fd2378ca883484e8",
+      "source_population_conditions": {
+        "age_max": 14,
+        "age_min": 12,
+        "grade_max": null,
+        "grade_min": null
+      },
+      "source_population_logic": "candidate_conditions_not_yet_adopted",
+      "source_rule_type": "maximum",
+      "source_statement_values_typed": {
+        "published_maximum": 10
+      },
+      "source_unit": "hours/week",
+      "upstream_verification_assertion": "source_verified_policy_reference_not_individual_prescription"
+    },
+    {
+      "activity_scope_proposal": "organized_basketball",
+      "adopted_threshold": null,
+      "adoption_status": "not_adopted",
+      "applicability_definition_status": "pending",
+      "application_enforcement": null,
+      "assistant_evidence_assessment": "direct_publisher_page_statement_support",
+      "candidate_rule_id": "NBA_G9_12_MAX_HOURS",
+      "comparison_operator": null,
+      "current_source_review_status": "pending",
+      "decision_proposal": {
+        "enforcement": "required",
+        "operator": "<=",
+        "rationale": "Proposed comparison only, subject to adopted applicability, window, and qualifications."
+      },
+      "enabled_for_planner": false,
+      "evaluation_treatment_status": "pending",
+      "evidence_card_ids": [
+        "NBA_TABLES"
+      ],
+      "evidence_checked_on": "2026-11-08",
+      "imported_record": {
+        "age_max": "",
+        "age_min": "",
+        "applicability_notes": "NBA grade-based segment; use verified school grade, not age alone; not a medical clearance. Includes games, practice and focused structured training; excludes unstructured pickup.",
+        "domain": "youth_basketball_recovery_and_participation",
+        "grade_max": "12",
+        "grade_min": "9",
+        "metric": "organized_basketball_hours_per_week",
+        "planner_handling": "flag_exceeding_maximum_for_coach_parent_review",
+        "rule_id": "NBA_G9_12_MAX_HOURS",
+        "rule_type": "maximum",
+        "segment": "grades_9_to_12",
+        "source_organization": "NBA and USA Basketball",
+        "source_section": "Maximum Participation Guidelines",
+        "source_url": "https://youthguidelines.nba.com/",
+        "unit": "hours/week",
+        "value_max": "14",
+        "value_min": "",
+        "verification_status": "source_verified_policy_reference_not_individual_prescription"
+      },
+      "input_reference": "data/references/recovery/youth_basketball_recovery_rules_v0_1.csv",
+      "input_row_number": 2,
+      "interpretation_flags": [
+        "current_source_and_qualifications_review_pending",
+        "peer_review_and_adoption_pending",
+        "maximum_is_not_training_target_or_clearance",
+        "review_age_grade_overlap_without_assuming_precedence",
+        "review_publisher_table_coverage_and_footnotes",
+        "structured_training_classification_and_complete_schedule_required"
+      ],
+      "interpretation_note": "Source population matching does not resolve precedence between overlapping age/grade categories.",
+      "interpretation_review_status": "pending",
+      "measurement_window_proposal": "seven_day_window_definition_pending",
+      "metric_or_topic": "organized_basketball_hours_per_week",
+      "missing_information_proposal": {
+        "essential_profile_input": "request_clarification",
+        "known_conflict_with_partial_information": "retain_established_conflict_after_applicability_review",
+        "not_applicable": "requires_established_exclusion",
+        "required_plan_output": "incomplete_response",
+        "unresolved_applicability": "Unknown"
+      },
+      "peer_review_status": "pending",
+      "project_target_age_range": [
+        13,
+        17
+      ],
+      "proposal_version": "step13-decision-candidates-1",
+      "record_kind": "structured_reference",
+      "required_information_proposal": {
+        "measurement": [
+          "dated_complete_schedule",
+          "activity_classification",
+          "durations",
+          "session_component_links",
+          "other_sport_and_event_context"
+        ],
+        "population": [
+          "age",
+          "school_grade"
+        ],
+        "segment_resolution": [
+          "school_grade"
+        ]
+      },
+      "rule_origin": "published_guidance",
+      "runtime_activation_status": "inactive",
+      "source_id": "GUID-SRC-80a2fd2378ca883484e8",
+      "source_population_conditions": {
+        "age_max": null,
+        "age_min": null,
+        "grade_max": 12,
+        "grade_min": 9
+      },
+      "source_population_logic": "candidate_conditions_not_yet_adopted",
+      "source_rule_type": "maximum",
+      "source_statement_values_typed": {
+        "published_maximum": 14
+      },
+      "source_unit": "hours/week",
+      "upstream_verification_assertion": "source_verified_policy_reference_not_individual_prescription"
+    },
+    {
+      "activity_scope_proposal": "rest_from_organized_basketball",
+      "adopted_threshold": null,
+      "adoption_status": "not_adopted",
+      "applicability_definition_status": "pending",
+      "application_enforcement": null,
+      "assistant_evidence_assessment": "direct_publisher_page_statement_support",
+      "candidate_rule_id": "NBA_A12_14_MIN_REST",
+      "comparison_operator": null,
+      "current_source_review_status": "pending",
+      "decision_proposal": {
+        "enforcement": "required",
+        "operator": ">=",
+        "rationale": "Proposed comparison only, subject to adopted scope and schedule completeness."
+      },
+      "enabled_for_planner": false,
+      "evaluation_treatment_status": "pending",
+      "evidence_card_ids": [
+        "NBA_TABLES"
+      ],
+      "evidence_checked_on": "2026-11-08",
+      "imported_record": {
+        "age_max": "14",
+        "age_min": "12",
+        "applicability_notes": "NBA age segment; where age and grade segments overlap (e.g. age 14 in grade 9), resolve using published player segmentation; not a medical clearance. Published minimum rest days each week.",
+        "domain": "youth_basketball_recovery_and_participation",
+        "grade_max": "",
+        "grade_min": "",
+        "metric": "rest_days_per_week",
+        "planner_handling": "flag_fewer_rest_days",
+        "rule_id": "NBA_A12_14_MIN_REST",
+        "rule_type": "minimum",
+        "segment": "ages_12_to_14",
+        "source_organization": "NBA and USA Basketball",
+        "source_section": "Rest Guidelines",
+        "source_url": "https://youthguidelines.nba.com/",
+        "unit": "days/week",
+        "value_max": "",
+        "value_min": "1",
+        "verification_status": "source_verified_policy_reference_not_individual_prescription"
+      },
+      "input_reference": "data/references/recovery/youth_basketball_recovery_rules_v0_1.csv",
+      "input_row_number": 3,
+      "interpretation_flags": [
+        "current_source_and_qualifications_review_pending",
+        "peer_review_and_adoption_pending",
+        "review_age_grade_overlap_without_assuming_precedence",
+        "review_publisher_table_coverage_and_footnotes",
+        "upstream_segmentation_precedence_note_needs_interpretation_review"
+      ],
+      "interpretation_note": "Source population matching does not resolve precedence between overlapping age/grade categories.",
+      "interpretation_review_status": "pending",
+      "measurement_window_proposal": "seven_day_window_definition_pending",
+      "metric_or_topic": "rest_days_per_week",
+      "missing_information_proposal": {
+        "essential_profile_input": "request_clarification",
+        "known_conflict_with_partial_information": "retain_established_conflict_after_applicability_review",
+        "not_applicable": "requires_established_exclusion",
+        "required_plan_output": "incomplete_response",
+        "unresolved_applicability": "Unknown"
+      },
+      "peer_review_status": "pending",
+      "project_target_age_range": [
+        13,
+        17
+      ],
+      "proposal_version": "step13-decision-candidates-1",
+      "record_kind": "structured_reference",
+      "required_information_proposal": {
+        "measurement": [
+          "dated_complete_schedule",
+          "organized_basketball_days",
+          "existing_and_proposed_commitments"
+        ],
+        "population": [
+          "age"
+        ],
+        "segment_resolution": [
+          "school_grade"
+        ]
+      },
+      "rule_origin": "published_guidance",
+      "runtime_activation_status": "inactive",
+      "source_id": "GUID-SRC-80a2fd2378ca883484e8",
+      "source_population_conditions": {
+        "age_max": 14,
+        "age_min": 12,
+        "grade_max": null,
+        "grade_min": null
+      },
+      "source_population_logic": "candidate_conditions_not_yet_adopted",
+      "source_rule_type": "minimum",
+      "source_statement_values_typed": {
+        "published_minimum": 1
+      },
+      "source_unit": "days/week",
+      "upstream_verification_assertion": "source_verified_policy_reference_not_individual_prescription"
+    },
+    {
+      "activity_scope_proposal": "rest_from_organized_basketball",
+      "adopted_threshold": null,
+      "adoption_status": "not_adopted",
+      "applicability_definition_status": "pending",
+      "application_enforcement": null,
+      "assistant_evidence_assessment": "direct_publisher_page_statement_support",
+      "candidate_rule_id": "NBA_G9_12_MIN_REST",
+      "comparison_operator": null,
+      "current_source_review_status": "pending",
+      "decision_proposal": {
+        "enforcement": "required",
+        "operator": ">=",
+        "rationale": "Proposed comparison only, subject to adopted scope and schedule completeness."
+      },
+      "enabled_for_planner": false,
+      "evaluation_treatment_status": "pending",
+      "evidence_card_ids": [
+        "NBA_TABLES"
+      ],
+      "evidence_checked_on": "2026-11-08",
+      "imported_record": {
+        "age_max": "",
+        "age_min": "",
+        "applicability_notes": "NBA grade-based segment; use verified school grade, not age alone; not a medical clearance. Published minimum rest days each week.",
+        "domain": "youth_basketball_recovery_and_participation",
+        "grade_max": "12",
+        "grade_min": "9",
+        "metric": "rest_days_per_week",
+        "planner_handling": "flag_fewer_rest_days",
+        "rule_id": "NBA_G9_12_MIN_REST",
+        "rule_type": "minimum",
+        "segment": "grades_9_to_12",
+        "source_organization": "NBA and USA Basketball",
+        "source_section": "Rest Guidelines",
+        "source_url": "https://youthguidelines.nba.com/",
+        "unit": "days/week",
+        "value_max": "",
+        "value_min": "1",
+        "verification_status": "source_verified_policy_reference_not_individual_prescription"
+      },
+      "input_reference": "data/references/recovery/youth_basketball_recovery_rules_v0_1.csv",
+      "input_row_number": 4,
+      "interpretation_flags": [
+        "current_source_and_qualifications_review_pending",
+        "peer_review_and_adoption_pending",
+        "review_age_grade_overlap_without_assuming_precedence",
+        "review_publisher_table_coverage_and_footnotes"
+      ],
+      "interpretation_note": "Source population matching does not resolve precedence between overlapping age/grade categories.",
+      "interpretation_review_status": "pending",
+      "measurement_window_proposal": "seven_day_window_definition_pending",
+      "metric_or_topic": "rest_days_per_week",
+      "missing_information_proposal": {
+        "essential_profile_input": "request_clarification",
+        "known_conflict_with_partial_information": "retain_established_conflict_after_applicability_review",
+        "not_applicable": "requires_established_exclusion",
+        "required_plan_output": "incomplete_response",
+        "unresolved_applicability": "Unknown"
+      },
+      "peer_review_status": "pending",
+      "project_target_age_range": [
+        13,
+        17
+      ],
+      "proposal_version": "step13-decision-candidates-1",
+      "record_kind": "structured_reference",
+      "required_information_proposal": {
+        "measurement": [
+          "dated_complete_schedule",
+          "organized_basketball_days",
+          "existing_and_proposed_commitments"
+        ],
+        "population": [
+          "age",
+          "school_grade"
+        ],
+        "segment_resolution": [
+          "school_grade"
+        ]
+      },
+      "rule_origin": "published_guidance",
+      "runtime_activation_status": "inactive",
+      "source_id": "GUID-SRC-80a2fd2378ca883484e8",
+      "source_population_conditions": {
+        "age_max": null,
+        "age_min": null,
+        "grade_max": 12,
+        "grade_min": 9
+      },
+      "source_population_logic": "candidate_conditions_not_yet_adopted",
+      "source_rule_type": "minimum",
+      "source_statement_values_typed": {
+        "published_minimum": 1
+      },
+      "source_unit": "days/week",
+      "upstream_verification_assertion": "source_verified_policy_reference_not_individual_prescription"
+    },
+    {
+      "activity_scope_proposal": "organized_basketball",
+      "adopted_threshold": null,
+      "adoption_status": "not_adopted",
+      "applicability_definition_status": "pending",
+      "application_enforcement": null,
+      "assistant_evidence_assessment": "direct_publisher_page_statement_support",
+      "candidate_rule_id": "NBA_A12_14_MAX_MONTHS",
+      "comparison_operator": null,
+      "current_source_review_status": "pending",
+      "decision_proposal": {
+        "enforcement": "advisory",
+        "operator": "<=",
+        "rationale": "Proposed comparison only, subject to adopted applicability, window, and qualifications."
+      },
+      "enabled_for_planner": false,
+      "evaluation_treatment_status": "pending",
+      "evidence_card_ids": [
+        "NBA_TABLES"
+      ],
+      "evidence_checked_on": "2026-11-08",
+      "imported_record": {
+        "age_max": "14",
+        "age_min": "12",
+        "applicability_notes": "NBA age segment; where age and grade segments overlap (e.g. age 14 in grade 9), resolve using published player segmentation; not a medical clearance.",
+        "domain": "youth_basketball_recovery_and_participation",
+        "grade_max": "",
+        "grade_min": "",
+        "metric": "organized_basketball_months_per_year",
+        "planner_handling": "document_seasonal_limit_for_parent_coach_review",
+        "rule_id": "NBA_A12_14_MAX_MONTHS",
+        "rule_type": "maximum",
+        "segment": "ages_12_to_14",
+        "source_organization": "NBA and USA Basketball",
+        "source_section": "Rest Guidelines",
+        "source_url": "https://youthguidelines.nba.com/",
+        "unit": "months/year",
+        "value_max": "7",
+        "value_min": "",
+        "verification_status": "source_verified_policy_reference_not_individual_prescription"
+      },
+      "input_reference": "data/references/recovery/youth_basketball_recovery_rules_v0_1.csv",
+      "input_row_number": 5,
+      "interpretation_flags": [
+        "current_source_and_qualifications_review_pending",
+        "peer_review_and_adoption_pending",
+        "maximum_is_not_training_target_or_clearance",
+        "review_age_grade_overlap_without_assuming_precedence",
+        "review_publisher_table_coverage_and_footnotes",
+        "upstream_segmentation_precedence_note_needs_interpretation_review",
+        "annual_history_required_not_inferable_from_weekly_plan"
+      ],
+      "interpretation_note": "Source population matching does not resolve precedence between overlapping age/grade categories.",
+      "interpretation_review_status": "pending",
+      "measurement_window_proposal": "annual_window_and_month_counting_pending",
+      "metric_or_topic": "organized_basketball_months_per_year",
+      "missing_information_proposal": {
+        "essential_profile_input": "request_clarification",
+        "known_conflict_with_partial_information": "retain_established_conflict_after_applicability_review",
+        "not_applicable": "requires_established_exclusion",
+        "required_plan_output": "incomplete_response",
+        "unresolved_applicability": "Unknown"
+      },
+      "peer_review_status": "pending",
+      "project_target_age_range": [
+        13,
+        17
+      ],
+      "proposal_version": "step13-decision-candidates-1",
+      "record_kind": "structured_reference",
+      "required_information_proposal": {
+        "measurement": [
+          "annual_participation_history",
+          "annual_window",
+          "month_counting_convention"
+        ],
+        "population": [
+          "age"
+        ],
+        "segment_resolution": [
+          "school_grade"
+        ]
+      },
+      "rule_origin": "published_guidance",
+      "runtime_activation_status": "inactive",
+      "source_id": "GUID-SRC-80a2fd2378ca883484e8",
+      "source_population_conditions": {
+        "age_max": 14,
+        "age_min": 12,
+        "grade_max": null,
+        "grade_min": null
+      },
+      "source_population_logic": "candidate_conditions_not_yet_adopted",
+      "source_rule_type": "maximum",
+      "source_statement_values_typed": {
+        "published_maximum": 7
+      },
+      "source_unit": "months/year",
+      "upstream_verification_assertion": "source_verified_policy_reference_not_individual_prescription"
+    },
+    {
+      "activity_scope_proposal": "organized_basketball",
+      "adopted_threshold": null,
+      "adoption_status": "not_adopted",
+      "applicability_definition_status": "pending",
+      "application_enforcement": null,
+      "assistant_evidence_assessment": "direct_publisher_page_statement_support",
+      "candidate_rule_id": "NBA_G9_12_MAX_MONTHS",
+      "comparison_operator": null,
+      "current_source_review_status": "pending",
+      "decision_proposal": {
+        "enforcement": "review_only",
+        "operator": "review_published_maximum_range",
+        "rationale": "No universal cutoff or minimum participation value has been selected."
+      },
+      "enabled_for_planner": false,
+      "evaluation_treatment_status": "pending",
+      "evidence_card_ids": [
+        "NBA_TABLES"
+      ],
+      "evidence_checked_on": "2026-11-08",
+      "imported_record": {
+        "age_max": "",
+        "age_min": "",
+        "applicability_notes": "NBA grade-based segment; use verified school grade, not age alone; not a medical clearance. Source gives 9-10 months, not a single universal cutoff.",
+        "domain": "youth_basketball_recovery_and_participation",
+        "grade_max": "12",
+        "grade_min": "9",
+        "metric": "organized_basketball_months_per_year",
+        "planner_handling": "display_guideline_range_not_hard_auto_rule",
+        "rule_id": "NBA_G9_12_MAX_MONTHS",
+        "rule_type": "published_range_9_to_10",
+        "segment": "grades_9_to_12",
+        "source_organization": "NBA and USA Basketball",
+        "source_section": "Rest Guidelines",
+        "source_url": "https://youthguidelines.nba.com/",
+        "unit": "months/year",
+        "value_max": "10",
+        "value_min": "9",
+        "verification_status": "source_verified_policy_reference_not_individual_prescription"
+      },
+      "input_reference": "data/references/recovery/youth_basketball_recovery_rules_v0_1.csv",
+      "input_row_number": 6,
+      "interpretation_flags": [
+        "current_source_and_qualifications_review_pending",
+        "peer_review_and_adoption_pending",
+        "review_age_grade_overlap_without_assuming_precedence",
+        "review_publisher_table_coverage_and_footnotes",
+        "annual_history_required_not_inferable_from_weekly_plan",
+        "published_maximum_range_lower_endpoint_is_not_minimum_participation"
+      ],
+      "interpretation_note": "Source population matching does not resolve precedence between overlapping age/grade categories.",
+      "interpretation_review_status": "pending",
+      "measurement_window_proposal": "annual_window_and_month_counting_pending",
+      "metric_or_topic": "organized_basketball_months_per_year",
+      "missing_information_proposal": {
+        "essential_profile_input": "request_clarification",
+        "known_conflict_with_partial_information": "retain_established_conflict_after_applicability_review",
+        "not_applicable": "requires_established_exclusion",
+        "required_plan_output": "incomplete_response",
+        "unresolved_applicability": "Unknown"
+      },
+      "peer_review_status": "pending",
+      "project_target_age_range": [
+        13,
+        17
+      ],
+      "proposal_version": "step13-decision-candidates-1",
+      "record_kind": "structured_reference",
+      "required_information_proposal": {
+        "measurement": [
+          "annual_participation_history",
+          "annual_window",
+          "month_counting_convention"
+        ],
+        "population": [
+          "age",
+          "school_grade"
+        ],
+        "segment_resolution": [
+          "school_grade"
+        ]
+      },
+      "rule_origin": "published_guidance",
+      "runtime_activation_status": "inactive",
+      "source_id": "GUID-SRC-80a2fd2378ca883484e8",
+      "source_population_conditions": {
+        "age_max": null,
+        "age_min": null,
+        "grade_max": 12,
+        "grade_min": 9
+      },
+      "source_population_logic": "candidate_conditions_not_yet_adopted",
+      "source_rule_type": "published_range_9_to_10",
+      "source_statement_values_typed": {
+        "range_of_published_maximums": [
+          9,
+          10
+        ],
+        "selected_application_cutoff": null
+      },
+      "source_unit": "months/year",
+      "upstream_verification_assertion": "source_verified_policy_reference_not_individual_prescription"
+    },
+    {
+      "activity_scope_proposal": "reported_sleep",
+      "adopted_threshold": null,
+      "adoption_status": "not_adopted",
+      "applicability_definition_status": "pending",
+      "application_enforcement": null,
+      "assistant_evidence_assessment": "direct_publisher_page_statement_support",
+      "candidate_rule_id": "NBA_A13_14_SLEEP",
+      "comparison_operator": null,
+      "current_source_review_status": "pending",
+      "decision_proposal": {
+        "enforcement": "advisory",
+        "operator": "describe_recommendation",
+        "rationale": "Recommendation position does not automatically make a plan fail a required check."
+      },
+      "enabled_for_planner": false,
+      "evaluation_treatment_status": "pending",
+      "evidence_card_ids": [
+        "NBA_TABLES"
+      ],
+      "evidence_checked_on": "2026-11-08",
+      "imported_record": {
+        "age_max": "14",
+        "age_min": "13",
+        "applicability_notes": "Source ages 12-14 gives 8-10 except for 12-year-olds, who are recommended 9-12.",
+        "domain": "youth_basketball_recovery_and_participation",
+        "grade_max": "",
+        "grade_min": "",
+        "metric": "sleep_hours_per_night",
+        "planner_handling": "information_only_no_medical_assessment",
+        "rule_id": "NBA_A13_14_SLEEP",
+        "rule_type": "recommended_range",
+        "segment": "ages_13_to_14",
+        "source_organization": "NBA and USA Basketball",
+        "source_section": "Rest Guidelines",
+        "source_url": "https://youthguidelines.nba.com/",
+        "unit": "hours/night",
+        "value_max": "10",
+        "value_min": "8",
+        "verification_status": "source_verified_policy_reference_not_individual_prescription"
+      },
+      "input_reference": "data/references/recovery/youth_basketball_recovery_rules_v0_1.csv",
+      "input_row_number": 7,
+      "interpretation_flags": [
+        "current_source_and_qualifications_review_pending",
+        "peer_review_and_adoption_pending",
+        "recommendation_not_mandatory_participation_requirement",
+        "review_age_grade_overlap_without_assuming_precedence",
+        "review_publisher_table_coverage_and_footnotes",
+        "reported_sleep_history_required",
+        "preserve_nightly_versus_daily_measurement_period"
+      ],
+      "interpretation_note": "Source population matching does not resolve precedence between overlapping age/grade categories. The recorded 13-14 subset reflects the 12-14 sleep row and separate age-12 footnote.",
+      "interpretation_review_status": "pending",
+      "measurement_window_proposal": "reported_night",
+      "metric_or_topic": "sleep_hours_per_night",
+      "missing_information_proposal": {
+        "essential_profile_input": "request_clarification",
+        "known_conflict_with_partial_information": "retain_established_conflict_after_applicability_review",
+        "not_applicable": "requires_established_exclusion",
+        "required_plan_output": "incomplete_response",
+        "unresolved_applicability": "Unknown"
+      },
+      "peer_review_status": "pending",
+      "project_target_age_range": [
+        13,
+        17
+      ],
+      "proposal_version": "step13-decision-candidates-1",
+      "record_kind": "structured_reference",
+      "required_information_proposal": {
+        "measurement": [
+          "reported_sleep",
+          "reporting_dates",
+          "nightly_measurement_period"
+        ],
+        "population": [
+          "age"
+        ],
+        "segment_resolution": [
+          "school_grade"
+        ]
+      },
+      "rule_origin": "published_guidance",
+      "runtime_activation_status": "inactive",
+      "source_id": "GUID-SRC-80a2fd2378ca883484e8",
+      "source_population_conditions": {
+        "age_max": 14,
+        "age_min": 13,
+        "grade_max": null,
+        "grade_min": null
+      },
+      "source_population_logic": "candidate_conditions_not_yet_adopted",
+      "source_rule_type": "recommended_range",
+      "source_statement_values_typed": {
+        "published_recommended_range": [
+          8,
+          10
+        ]
+      },
+      "source_unit": "hours/night",
+      "upstream_verification_assertion": "source_verified_policy_reference_not_individual_prescription"
+    },
+    {
+      "activity_scope_proposal": "reported_sleep",
+      "adopted_threshold": null,
+      "adoption_status": "not_adopted",
+      "applicability_definition_status": "pending",
+      "application_enforcement": null,
+      "assistant_evidence_assessment": "direct_publisher_page_statement_support",
+      "candidate_rule_id": "NBA_G9_12_SLEEP",
+      "comparison_operator": null,
+      "current_source_review_status": "pending",
+      "decision_proposal": {
+        "enforcement": "advisory",
+        "operator": "describe_recommendation",
+        "rationale": "Recommendation position does not automatically make a plan fail a required check."
+      },
+      "enabled_for_planner": false,
+      "evaluation_treatment_status": "pending",
+      "evidence_card_ids": [
+        "NBA_TABLES"
+      ],
+      "evidence_checked_on": "2026-11-08",
+      "imported_record": {
+        "age_max": "",
+        "age_min": "",
+        "applicability_notes": "NBA grade-based segment; use verified school grade, not age alone; not a medical clearance.",
+        "domain": "youth_basketball_recovery_and_participation",
+        "grade_max": "12",
+        "grade_min": "9",
+        "metric": "sleep_hours_per_night",
+        "planner_handling": "information_only_no_medical_assessment",
+        "rule_id": "NBA_G9_12_SLEEP",
+        "rule_type": "recommended_range",
+        "segment": "grades_9_to_12",
+        "source_organization": "NBA and USA Basketball",
+        "source_section": "Rest Guidelines",
+        "source_url": "https://youthguidelines.nba.com/",
+        "unit": "hours/night",
+        "value_max": "10",
+        "value_min": "8",
+        "verification_status": "source_verified_policy_reference_not_individual_prescription"
+      },
+      "input_reference": "data/references/recovery/youth_basketball_recovery_rules_v0_1.csv",
+      "input_row_number": 8,
+      "interpretation_flags": [
+        "current_source_and_qualifications_review_pending",
+        "peer_review_and_adoption_pending",
+        "recommendation_not_mandatory_participation_requirement",
+        "review_age_grade_overlap_without_assuming_precedence",
+        "review_publisher_table_coverage_and_footnotes",
+        "reported_sleep_history_required",
+        "preserve_nightly_versus_daily_measurement_period"
+      ],
+      "interpretation_note": "Source population matching does not resolve precedence between overlapping age/grade categories.",
+      "interpretation_review_status": "pending",
+      "measurement_window_proposal": "reported_night",
+      "metric_or_topic": "sleep_hours_per_night",
+      "missing_information_proposal": {
+        "essential_profile_input": "request_clarification",
+        "known_conflict_with_partial_information": "retain_established_conflict_after_applicability_review",
+        "not_applicable": "requires_established_exclusion",
+        "required_plan_output": "incomplete_response",
+        "unresolved_applicability": "Unknown"
+      },
+      "peer_review_status": "pending",
+      "project_target_age_range": [
+        13,
+        17
+      ],
+      "proposal_version": "step13-decision-candidates-1",
+      "record_kind": "structured_reference",
+      "required_information_proposal": {
+        "measurement": [
+          "reported_sleep",
+          "reporting_dates",
+          "nightly_measurement_period"
+        ],
+        "population": [
+          "age",
+          "school_grade"
+        ],
+        "segment_resolution": [
+          "school_grade"
+        ]
+      },
+      "rule_origin": "published_guidance",
+      "runtime_activation_status": "inactive",
+      "source_id": "GUID-SRC-80a2fd2378ca883484e8",
+      "source_population_conditions": {
+        "age_max": null,
+        "age_min": null,
+        "grade_max": 12,
+        "grade_min": 9
+      },
+      "source_population_logic": "candidate_conditions_not_yet_adopted",
+      "source_rule_type": "recommended_range",
+      "source_statement_values_typed": {
+        "published_recommended_range": [
+          8,
+          10
+        ]
+      },
+      "source_unit": "hours/night",
+      "upstream_verification_assertion": "source_verified_policy_reference_not_individual_prescription"
+    },
+    {
+      "activity_scope_proposal": "reported_sleep",
+      "adopted_threshold": null,
+      "adoption_status": "not_adopted",
+      "applicability_definition_status": "pending",
+      "application_enforcement": null,
+      "assistant_evidence_assessment": "direct_publisher_page_statement_support",
+      "candidate_rule_id": "NBA_A12_SLEEP",
+      "comparison_operator": null,
+      "current_source_review_status": "pending",
+      "decision_proposal": {
+        "enforcement": "review_only",
+        "operator": "retain_outside_target_reference",
+        "rationale": "Retain the exception without applying it to the 13-17 project target."
+      },
+      "enabled_for_planner": false,
+      "evaluation_treatment_status": "pending",
+      "evidence_card_ids": [
+        "NBA_TABLES"
+      ],
+      "evidence_checked_on": "2026-11-08",
+      "imported_record": {
+        "age_max": "12",
+        "age_min": "12",
+        "applicability_notes": "Special footnote for 12-year-olds; outside our current 13-17 target but retained to prevent inappropriate application.",
+        "domain": "youth_basketball_recovery_and_participation",
+        "grade_max": "",
+        "grade_min": "",
+        "metric": "sleep_hours_per_night",
+        "planner_handling": "information_only_not_for_target_ages",
+        "rule_id": "NBA_A12_SLEEP",
+        "rule_type": "recommended_range",
+        "segment": "age_12",
+        "source_organization": "NBA and USA Basketball",
+        "source_section": "Rest Guidelines",
+        "source_url": "https://youthguidelines.nba.com/",
+        "unit": "hours/night",
+        "value_max": "12",
+        "value_min": "9",
+        "verification_status": "source_verified_policy_reference_not_individual_prescription"
+      },
+      "input_reference": "data/references/recovery/youth_basketball_recovery_rules_v0_1.csv",
+      "input_row_number": 9,
+      "interpretation_flags": [
+        "current_source_and_qualifications_review_pending",
+        "peer_review_and_adoption_pending",
+        "recommendation_not_mandatory_participation_requirement",
+        "review_age_grade_overlap_without_assuming_precedence",
+        "review_publisher_table_coverage_and_footnotes",
+        "reported_sleep_history_required",
+        "preserve_nightly_versus_daily_measurement_period",
+        "outside_project_target_ages_13_to_17"
+      ],
+      "interpretation_note": "Source population matching does not resolve precedence between overlapping age/grade categories.",
+      "interpretation_review_status": "pending",
+      "measurement_window_proposal": "reported_night",
+      "metric_or_topic": "sleep_hours_per_night",
+      "missing_information_proposal": {
+        "essential_profile_input": "request_clarification",
+        "known_conflict_with_partial_information": "retain_established_conflict_after_applicability_review",
+        "not_applicable": "requires_established_exclusion",
+        "required_plan_output": "incomplete_response",
+        "unresolved_applicability": "Unknown"
+      },
+      "peer_review_status": "pending",
+      "project_target_age_range": [
+        13,
+        17
+      ],
+      "proposal_version": "step13-decision-candidates-1",
+      "record_kind": "structured_reference",
+      "required_information_proposal": {
+        "measurement": [
+          "reported_sleep",
+          "reporting_dates",
+          "nightly_measurement_period"
+        ],
+        "population": [
+          "age"
+        ],
+        "segment_resolution": [
+          "school_grade"
+        ]
+      },
+      "rule_origin": "published_guidance",
+      "runtime_activation_status": "inactive",
+      "source_id": "GUID-SRC-80a2fd2378ca883484e8",
+      "source_population_conditions": {
+        "age_max": 12,
+        "age_min": 12,
+        "grade_max": null,
+        "grade_min": null
+      },
+      "source_population_logic": "candidate_conditions_not_yet_adopted",
+      "source_rule_type": "recommended_range",
+      "source_statement_values_typed": {
+        "published_recommended_range": [
+          9,
+          12
+        ]
+      },
+      "source_unit": "hours/night",
+      "upstream_verification_assertion": "source_verified_policy_reference_not_individual_prescription"
+    },
+    {
+      "activity_scope_proposal": "organized_practice_session",
+      "adopted_threshold": null,
+      "adoption_status": "not_adopted",
+      "applicability_definition_status": "pending",
+      "application_enforcement": null,
+      "assistant_evidence_assessment": "direct_publisher_page_statement_support",
+      "candidate_rule_id": "NBA_A12_14_PRACTICE_LENGTH",
+      "comparison_operator": null,
+      "current_source_review_status": "pending",
+      "decision_proposal": {
+        "enforcement": "advisory",
+        "operator": "describe_recommendation",
+        "rationale": "Recommendation position does not automatically make a plan fail a required check."
+      },
+      "enabled_for_planner": false,
+      "evaluation_treatment_status": "pending",
+      "evidence_card_ids": [
+        "NBA_TABLES"
+      ],
+      "evidence_checked_on": "2026-11-08",
+      "imported_record": {
+        "age_max": "14",
+        "age_min": "12",
+        "applicability_notes": "NBA age segment; where age and grade segments overlap (e.g. age 14 in grade 9), resolve using published player segmentation; not a medical clearance.",
+        "domain": "youth_basketball_recovery_and_participation",
+        "grade_max": "",
+        "grade_min": "",
+        "metric": "practice_duration_minutes",
+        "planner_handling": "informational_guideline_not_fitness_prescription",
+        "rule_id": "NBA_A12_14_PRACTICE_LENGTH",
+        "rule_type": "recommended_range",
+        "segment": "ages_12_to_14",
+        "source_organization": "NBA and USA Basketball",
+        "source_section": "Recommended Participation Guidelines",
+        "source_url": "https://youthguidelines.nba.com/",
+        "unit": "minutes/practice",
+        "value_max": "90",
+        "value_min": "60",
+        "verification_status": "source_verified_policy_reference_not_individual_prescription"
+      },
+      "input_reference": "data/references/recovery/youth_basketball_recovery_rules_v0_1.csv",
+      "input_row_number": 10,
+      "interpretation_flags": [
+        "current_source_and_qualifications_review_pending",
+        "peer_review_and_adoption_pending",
+        "recommendation_not_mandatory_participation_requirement",
+        "review_age_grade_overlap_without_assuming_precedence",
+        "review_publisher_table_coverage_and_footnotes",
+        "upstream_segmentation_precedence_note_needs_interpretation_review"
+      ],
+      "interpretation_note": "Source population matching does not resolve precedence between overlapping age/grade categories.",
+      "interpretation_review_status": "pending",
+      "measurement_window_proposal": "one_practice_session",
+      "metric_or_topic": "practice_duration_minutes",
+      "missing_information_proposal": {
+        "essential_profile_input": "request_clarification",
+        "known_conflict_with_partial_information": "retain_established_conflict_after_applicability_review",
+        "not_applicable": "requires_established_exclusion",
+        "required_plan_output": "incomplete_response",
+        "unresolved_applicability": "Unknown"
+      },
+      "peer_review_status": "pending",
+      "project_target_age_range": [
+        13,
+        17
+      ],
+      "proposal_version": "step13-decision-candidates-1",
+      "record_kind": "structured_reference",
+      "required_information_proposal": {
+        "measurement": [
+          "practice_session_ids",
+          "practice_durations"
+        ],
+        "population": [
+          "age"
+        ],
+        "segment_resolution": [
+          "school_grade"
+        ]
+      },
+      "rule_origin": "published_guidance",
+      "runtime_activation_status": "inactive",
+      "source_id": "GUID-SRC-80a2fd2378ca883484e8",
+      "source_population_conditions": {
+        "age_max": 14,
+        "age_min": 12,
+        "grade_max": null,
+        "grade_min": null
+      },
+      "source_population_logic": "candidate_conditions_not_yet_adopted",
+      "source_rule_type": "recommended_range",
+      "source_statement_values_typed": {
+        "published_recommended_range": [
+          60,
+          90
+        ]
+      },
+      "source_unit": "minutes/practice",
+      "upstream_verification_assertion": "source_verified_policy_reference_not_individual_prescription"
+    },
+    {
+      "activity_scope_proposal": "organized_practice_session",
+      "adopted_threshold": null,
+      "adoption_status": "not_adopted",
+      "applicability_definition_status": "pending",
+      "application_enforcement": null,
+      "assistant_evidence_assessment": "direct_publisher_page_statement_support",
+      "candidate_rule_id": "NBA_G9_12_PRACTICE_LENGTH",
+      "comparison_operator": null,
+      "current_source_review_status": "pending",
+      "decision_proposal": {
+        "enforcement": "advisory",
+        "operator": "describe_recommendation",
+        "rationale": "Recommendation position does not automatically make a plan fail a required check."
+      },
+      "enabled_for_planner": false,
+      "evaluation_treatment_status": "pending",
+      "evidence_card_ids": [
+        "NBA_TABLES"
+      ],
+      "evidence_checked_on": "2026-11-08",
+      "imported_record": {
+        "age_max": "",
+        "age_min": "",
+        "applicability_notes": "NBA grade-based segment; use verified school grade, not age alone; not a medical clearance.",
+        "domain": "youth_basketball_recovery_and_participation",
+        "grade_max": "12",
+        "grade_min": "9",
+        "metric": "practice_duration_minutes",
+        "planner_handling": "informational_guideline_not_fitness_prescription",
+        "rule_id": "NBA_G9_12_PRACTICE_LENGTH",
+        "rule_type": "recommended_range",
+        "segment": "grades_9_to_12",
+        "source_organization": "NBA and USA Basketball",
+        "source_section": "Recommended Participation Guidelines",
+        "source_url": "https://youthguidelines.nba.com/",
+        "unit": "minutes/practice",
+        "value_max": "120",
+        "value_min": "90",
+        "verification_status": "source_verified_policy_reference_not_individual_prescription"
+      },
+      "input_reference": "data/references/recovery/youth_basketball_recovery_rules_v0_1.csv",
+      "input_row_number": 11,
+      "interpretation_flags": [
+        "current_source_and_qualifications_review_pending",
+        "peer_review_and_adoption_pending",
+        "recommendation_not_mandatory_participation_requirement",
+        "review_age_grade_overlap_without_assuming_precedence",
+        "review_publisher_table_coverage_and_footnotes"
+      ],
+      "interpretation_note": "Source population matching does not resolve precedence between overlapping age/grade categories.",
+      "interpretation_review_status": "pending",
+      "measurement_window_proposal": "one_practice_session",
+      "metric_or_topic": "practice_duration_minutes",
+      "missing_information_proposal": {
+        "essential_profile_input": "request_clarification",
+        "known_conflict_with_partial_information": "retain_established_conflict_after_applicability_review",
+        "not_applicable": "requires_established_exclusion",
+        "required_plan_output": "incomplete_response",
+        "unresolved_applicability": "Unknown"
+      },
+      "peer_review_status": "pending",
+      "project_target_age_range": [
+        13,
+        17
+      ],
+      "proposal_version": "step13-decision-candidates-1",
+      "record_kind": "structured_reference",
+      "required_information_proposal": {
+        "measurement": [
+          "practice_session_ids",
+          "practice_durations"
+        ],
+        "population": [
+          "age",
+          "school_grade"
+        ],
+        "segment_resolution": [
+          "school_grade"
+        ]
+      },
+      "rule_origin": "published_guidance",
+      "runtime_activation_status": "inactive",
+      "source_id": "GUID-SRC-80a2fd2378ca883484e8",
+      "source_population_conditions": {
+        "age_max": null,
+        "age_min": null,
+        "grade_max": 12,
+        "grade_min": 9
+      },
+      "source_population_logic": "candidate_conditions_not_yet_adopted",
+      "source_rule_type": "recommended_range",
+      "source_statement_values_typed": {
+        "published_recommended_range": [
+          90,
+          120
+        ]
+      },
+      "source_unit": "minutes/practice",
+      "upstream_verification_assertion": "source_verified_policy_reference_not_individual_prescription"
+    },
+    {
+      "activity_scope_proposal": "organized_practice_sessions",
+      "adopted_threshold": null,
+      "adoption_status": "not_adopted",
+      "applicability_definition_status": "pending",
+      "application_enforcement": null,
+      "assistant_evidence_assessment": "direct_publisher_page_statement_support",
+      "candidate_rule_id": "NBA_A12_14_PRACTICES",
+      "comparison_operator": null,
+      "current_source_review_status": "pending",
+      "decision_proposal": {
+        "enforcement": "advisory",
+        "operator": "describe_recommendation",
+        "rationale": "Recommendation position does not automatically make a plan fail a required check."
+      },
+      "enabled_for_planner": false,
+      "evaluation_treatment_status": "pending",
+      "evidence_card_ids": [
+        "NBA_TABLES"
+      ],
+      "evidence_checked_on": "2026-11-08",
+      "imported_record": {
+        "age_max": "14",
+        "age_min": "12",
+        "applicability_notes": "NBA age segment; where age and grade segments overlap (e.g. age 14 in grade 9), resolve using published player segmentation; not a medical clearance.",
+        "domain": "youth_basketball_recovery_and_participation",
+        "grade_max": "",
+        "grade_min": "",
+        "metric": "practices_per_week",
+        "planner_handling": "informational_guideline",
+        "rule_id": "NBA_A12_14_PRACTICES",
+        "rule_type": "recommended_range",
+        "segment": "ages_12_to_14",
+        "source_organization": "NBA and USA Basketball",
+        "source_section": "Recommended Participation Guidelines",
+        "source_url": "https://youthguidelines.nba.com/",
+        "unit": "practices/week",
+        "value_max": "4",
+        "value_min": "2",
+        "verification_status": "source_verified_policy_reference_not_individual_prescription"
+      },
+      "input_reference": "data/references/recovery/youth_basketball_recovery_rules_v0_1.csv",
+      "input_row_number": 12,
+      "interpretation_flags": [
+        "current_source_and_qualifications_review_pending",
+        "peer_review_and_adoption_pending",
+        "recommendation_not_mandatory_participation_requirement",
+        "review_age_grade_overlap_without_assuming_precedence",
+        "review_publisher_table_coverage_and_footnotes",
+        "upstream_segmentation_precedence_note_needs_interpretation_review"
+      ],
+      "interpretation_note": "Source population matching does not resolve precedence between overlapping age/grade categories.",
+      "interpretation_review_status": "pending",
+      "measurement_window_proposal": "seven_day_window_definition_pending",
+      "metric_or_topic": "practices_per_week",
+      "missing_information_proposal": {
+        "essential_profile_input": "request_clarification",
+        "known_conflict_with_partial_information": "retain_established_conflict_after_applicability_review",
+        "not_applicable": "requires_established_exclusion",
+        "required_plan_output": "incomplete_response",
+        "unresolved_applicability": "Unknown"
+      },
+      "peer_review_status": "pending",
+      "project_target_age_range": [
+        13,
+        17
+      ],
+      "proposal_version": "step13-decision-candidates-1",
+      "record_kind": "structured_reference",
+      "required_information_proposal": {
+        "measurement": [
+          "practice_session_ids",
+          "dated_complete_schedule",
+          "session_component_links"
+        ],
+        "population": [
+          "age"
+        ],
+        "segment_resolution": [
+          "school_grade"
+        ]
+      },
+      "rule_origin": "published_guidance",
+      "runtime_activation_status": "inactive",
+      "source_id": "GUID-SRC-80a2fd2378ca883484e8",
+      "source_population_conditions": {
+        "age_max": 14,
+        "age_min": 12,
+        "grade_max": null,
+        "grade_min": null
+      },
+      "source_population_logic": "candidate_conditions_not_yet_adopted",
+      "source_rule_type": "recommended_range",
+      "source_statement_values_typed": {
+        "published_recommended_range": [
+          2,
+          4
+        ]
+      },
+      "source_unit": "practices/week",
+      "upstream_verification_assertion": "source_verified_policy_reference_not_individual_prescription"
+    },
+    {
+      "activity_scope_proposal": "organized_practice_sessions",
+      "adopted_threshold": null,
+      "adoption_status": "not_adopted",
+      "applicability_definition_status": "pending",
+      "application_enforcement": null,
+      "assistant_evidence_assessment": "direct_publisher_page_statement_support",
+      "candidate_rule_id": "NBA_G9_12_PRACTICES",
+      "comparison_operator": null,
+      "current_source_review_status": "pending",
+      "decision_proposal": {
+        "enforcement": "advisory",
+        "operator": "describe_recommendation",
+        "rationale": "Recommendation position does not automatically make a plan fail a required check."
+      },
+      "enabled_for_planner": false,
+      "evaluation_treatment_status": "pending",
+      "evidence_card_ids": [
+        "NBA_TABLES"
+      ],
+      "evidence_checked_on": "2026-11-08",
+      "imported_record": {
+        "age_max": "",
+        "age_min": "",
+        "applicability_notes": "NBA grade-based segment; use verified school grade, not age alone; not a medical clearance.",
+        "domain": "youth_basketball_recovery_and_participation",
+        "grade_max": "12",
+        "grade_min": "9",
+        "metric": "practices_per_week",
+        "planner_handling": "informational_guideline",
+        "rule_id": "NBA_G9_12_PRACTICES",
+        "rule_type": "recommended_range",
+        "segment": "grades_9_to_12",
+        "source_organization": "NBA and USA Basketball",
+        "source_section": "Recommended Participation Guidelines",
+        "source_url": "https://youthguidelines.nba.com/",
+        "unit": "practices/week",
+        "value_max": "4",
+        "value_min": "3",
+        "verification_status": "source_verified_policy_reference_not_individual_prescription"
+      },
+      "input_reference": "data/references/recovery/youth_basketball_recovery_rules_v0_1.csv",
+      "input_row_number": 13,
+      "interpretation_flags": [
+        "current_source_and_qualifications_review_pending",
+        "peer_review_and_adoption_pending",
+        "recommendation_not_mandatory_participation_requirement",
+        "review_age_grade_overlap_without_assuming_precedence",
+        "review_publisher_table_coverage_and_footnotes"
+      ],
+      "interpretation_note": "Source population matching does not resolve precedence between overlapping age/grade categories.",
+      "interpretation_review_status": "pending",
+      "measurement_window_proposal": "seven_day_window_definition_pending",
+      "metric_or_topic": "practices_per_week",
+      "missing_information_proposal": {
+        "essential_profile_input": "request_clarification",
+        "known_conflict_with_partial_information": "retain_established_conflict_after_applicability_review",
+        "not_applicable": "requires_established_exclusion",
+        "required_plan_output": "incomplete_response",
+        "unresolved_applicability": "Unknown"
+      },
+      "peer_review_status": "pending",
+      "project_target_age_range": [
+        13,
+        17
+      ],
+      "proposal_version": "step13-decision-candidates-1",
+      "record_kind": "structured_reference",
+      "required_information_proposal": {
+        "measurement": [
+          "practice_session_ids",
+          "dated_complete_schedule",
+          "session_component_links"
+        ],
+        "population": [
+          "age",
+          "school_grade"
+        ],
+        "segment_resolution": [
+          "school_grade"
+        ]
+      },
+      "rule_origin": "published_guidance",
+      "runtime_activation_status": "inactive",
+      "source_id": "GUID-SRC-80a2fd2378ca883484e8",
+      "source_population_conditions": {
+        "age_max": null,
+        "age_min": null,
+        "grade_max": 12,
+        "grade_min": 9
+      },
+      "source_population_logic": "candidate_conditions_not_yet_adopted",
+      "source_rule_type": "recommended_range",
+      "source_statement_values_typed": {
+        "published_recommended_range": [
+          3,
+          4
+        ]
+      },
+      "source_unit": "practices/week",
+      "upstream_verification_assertion": "source_verified_policy_reference_not_individual_prescription"
+    },
+    {
+      "activity_scope_proposal": "organized_games",
+      "adopted_threshold": null,
+      "adoption_status": "not_adopted",
+      "applicability_definition_status": "pending",
+      "application_enforcement": null,
+      "assistant_evidence_assessment": "direct_publisher_page_statement_support",
+      "candidate_rule_id": "NBA_A12_14_GAMES_WEEK",
+      "comparison_operator": null,
+      "current_source_review_status": "pending",
+      "decision_proposal": {
+        "enforcement": "advisory",
+        "operator": "describe_recommendation",
+        "rationale": "Recommendation position does not automatically make a plan fail a required check."
+      },
+      "enabled_for_planner": false,
+      "evaluation_treatment_status": "pending",
+      "evidence_card_ids": [
+        "NBA_TABLES"
+      ],
+      "evidence_checked_on": "2026-11-08",
+      "imported_record": {
+        "age_max": "14",
+        "age_min": "12",
+        "applicability_notes": "NBA age segment; where age and grade segments overlap (e.g. age 14 in grade 9), resolve using published player segmentation; not a medical clearance.",
+        "domain": "youth_basketball_recovery_and_participation",
+        "grade_max": "",
+        "grade_min": "",
+        "metric": "games_per_week",
+        "planner_handling": "informational_guideline",
+        "rule_id": "NBA_A12_14_GAMES_WEEK",
+        "rule_type": "recommended_exact",
+        "segment": "ages_12_to_14",
+        "source_organization": "NBA and USA Basketball",
+        "source_section": "Recommended Participation Guidelines",
+        "source_url": "https://youthguidelines.nba.com/",
+        "unit": "games/week",
+        "value_max": "2",
+        "value_min": "2",
+        "verification_status": "source_verified_policy_reference_not_individual_prescription"
+      },
+      "input_reference": "data/references/recovery/youth_basketball_recovery_rules_v0_1.csv",
+      "input_row_number": 14,
+      "interpretation_flags": [
+        "current_source_and_qualifications_review_pending",
+        "peer_review_and_adoption_pending",
+        "recommendation_not_mandatory_participation_requirement",
+        "review_age_grade_overlap_without_assuming_precedence",
+        "review_publisher_table_coverage_and_footnotes",
+        "upstream_segmentation_precedence_note_needs_interpretation_review"
+      ],
+      "interpretation_note": "Source population matching does not resolve precedence between overlapping age/grade categories.",
+      "interpretation_review_status": "pending",
+      "measurement_window_proposal": "seven_day_window_definition_pending",
+      "metric_or_topic": "games_per_week",
+      "missing_information_proposal": {
+        "essential_profile_input": "request_clarification",
+        "known_conflict_with_partial_information": "retain_established_conflict_after_applicability_review",
+        "not_applicable": "requires_established_exclusion",
+        "required_plan_output": "incomplete_response",
+        "unresolved_applicability": "Unknown"
+      },
+      "peer_review_status": "pending",
+      "project_target_age_range": [
+        13,
+        17
+      ],
+      "proposal_version": "step13-decision-candidates-1",
+      "record_kind": "structured_reference",
+      "required_information_proposal": {
+        "measurement": [
+          "game_ids",
+          "dated_complete_schedule",
+          "tournament_and_multigame_context"
+        ],
+        "population": [
+          "age"
+        ],
+        "segment_resolution": [
+          "school_grade"
+        ]
+      },
+      "rule_origin": "published_guidance",
+      "runtime_activation_status": "inactive",
+      "source_id": "GUID-SRC-80a2fd2378ca883484e8",
+      "source_population_conditions": {
+        "age_max": 14,
+        "age_min": 12,
+        "grade_max": null,
+        "grade_min": null
+      },
+      "source_population_logic": "candidate_conditions_not_yet_adopted",
+      "source_rule_type": "recommended_exact",
+      "source_statement_values_typed": {
+        "published_recommended_value": 2
+      },
+      "source_unit": "games/week",
+      "upstream_verification_assertion": "source_verified_policy_reference_not_individual_prescription"
+    },
+    {
+      "activity_scope_proposal": "organized_games",
+      "adopted_threshold": null,
+      "adoption_status": "not_adopted",
+      "applicability_definition_status": "pending",
+      "application_enforcement": null,
+      "assistant_evidence_assessment": "direct_publisher_page_statement_support",
+      "candidate_rule_id": "NBA_G9_12_GAMES_WEEK",
+      "comparison_operator": null,
+      "current_source_review_status": "pending",
+      "decision_proposal": {
+        "enforcement": "advisory",
+        "operator": "describe_recommendation",
+        "rationale": "Recommendation position does not automatically make a plan fail a required check."
+      },
+      "enabled_for_planner": false,
+      "evaluation_treatment_status": "pending",
+      "evidence_card_ids": [
+        "NBA_TABLES"
+      ],
+      "evidence_checked_on": "2026-11-08",
+      "imported_record": {
+        "age_max": "",
+        "age_min": "",
+        "applicability_notes": "NBA grade-based segment; use verified school grade, not age alone; not a medical clearance.",
+        "domain": "youth_basketball_recovery_and_participation",
+        "grade_max": "12",
+        "grade_min": "9",
+        "metric": "games_per_week",
+        "planner_handling": "informational_guideline",
+        "rule_id": "NBA_G9_12_GAMES_WEEK",
+        "rule_type": "recommended_range",
+        "segment": "grades_9_to_12",
+        "source_organization": "NBA and USA Basketball",
+        "source_section": "Recommended Participation Guidelines",
+        "source_url": "https://youthguidelines.nba.com/",
+        "unit": "games/week",
+        "value_max": "3",
+        "value_min": "2",
+        "verification_status": "source_verified_policy_reference_not_individual_prescription"
+      },
+      "input_reference": "data/references/recovery/youth_basketball_recovery_rules_v0_1.csv",
+      "input_row_number": 15,
+      "interpretation_flags": [
+        "current_source_and_qualifications_review_pending",
+        "peer_review_and_adoption_pending",
+        "recommendation_not_mandatory_participation_requirement",
+        "review_age_grade_overlap_without_assuming_precedence",
+        "review_publisher_table_coverage_and_footnotes"
+      ],
+      "interpretation_note": "Source population matching does not resolve precedence between overlapping age/grade categories.",
+      "interpretation_review_status": "pending",
+      "measurement_window_proposal": "seven_day_window_definition_pending",
+      "metric_or_topic": "games_per_week",
+      "missing_information_proposal": {
+        "essential_profile_input": "request_clarification",
+        "known_conflict_with_partial_information": "retain_established_conflict_after_applicability_review",
+        "not_applicable": "requires_established_exclusion",
+        "required_plan_output": "incomplete_response",
+        "unresolved_applicability": "Unknown"
+      },
+      "peer_review_status": "pending",
+      "project_target_age_range": [
+        13,
+        17
+      ],
+      "proposal_version": "step13-decision-candidates-1",
+      "record_kind": "structured_reference",
+      "required_information_proposal": {
+        "measurement": [
+          "game_ids",
+          "dated_complete_schedule",
+          "tournament_and_multigame_context"
+        ],
+        "population": [
+          "age",
+          "school_grade"
+        ],
+        "segment_resolution": [
+          "school_grade"
+        ]
+      },
+      "rule_origin": "published_guidance",
+      "runtime_activation_status": "inactive",
+      "source_id": "GUID-SRC-80a2fd2378ca883484e8",
+      "source_population_conditions": {
+        "age_max": null,
+        "age_min": null,
+        "grade_max": 12,
+        "grade_min": 9
+      },
+      "source_population_logic": "candidate_conditions_not_yet_adopted",
+      "source_rule_type": "recommended_range",
+      "source_statement_values_typed": {
+        "published_recommended_range": [
+          2,
+          3
+        ]
+      },
+      "source_unit": "games/week",
+      "upstream_verification_assertion": "source_verified_policy_reference_not_individual_prescription"
+    },
+    {
+      "activity_scope_proposal": "reported_sleep",
+      "adopted_threshold": null,
+      "adoption_status": "not_adopted",
+      "applicability_definition_status": "pending",
+      "application_enforcement": null,
+      "assistant_evidence_assessment": "direct_publisher_page_statement_support",
+      "candidate_rule_id": "CDC_TEENS_SLEEP",
+      "comparison_operator": null,
+      "current_source_review_status": "pending",
+      "decision_proposal": {
+        "enforcement": "advisory",
+        "operator": "describe_recommendation",
+        "rationale": "Recommendation position does not automatically make a plan fail a required check."
+      },
+      "enabled_for_planner": false,
+      "evaluation_treatment_status": "pending",
+      "evidence_card_ids": [
+        "CDC_SLEEP"
+      ],
+      "evidence_checked_on": "2026-11-08",
+      "imported_record": {
+        "age_max": "17",
+        "age_min": "13",
+        "applicability_notes": "General teen sleep recommendation, not basketball-specific.",
+        "domain": "youth_basketball_recovery_and_participation",
+        "grade_max": "",
+        "grade_min": "",
+        "metric": "sleep_hours_per_24h",
+        "planner_handling": "informational_guideline",
+        "rule_id": "CDC_TEENS_SLEEP",
+        "rule_type": "recommended_range",
+        "segment": "ages_13_to_17",
+        "source_organization": "CDC",
+        "source_section": "Getting Enough Sleep",
+        "source_url": "https://www.cdc.gov/sleep/about/",
+        "unit": "hours/day",
+        "value_max": "10",
+        "value_min": "8",
+        "verification_status": "source_verified_policy_reference_not_individual_prescription"
+      },
+      "input_reference": "data/references/recovery/youth_basketball_recovery_rules_v0_1.csv",
+      "input_row_number": 16,
+      "interpretation_flags": [
+        "current_source_and_qualifications_review_pending",
+        "peer_review_and_adoption_pending",
+        "recommendation_not_mandatory_participation_requirement",
+        "reported_sleep_history_required",
+        "preserve_nightly_versus_daily_measurement_period"
+      ],
+      "interpretation_note": "Preserve daily reporting separately from nightly sleep measurements.",
+      "interpretation_review_status": "pending",
+      "measurement_window_proposal": "reported_daily_period",
+      "metric_or_topic": "sleep_hours_per_24h",
+      "missing_information_proposal": {
+        "essential_profile_input": "request_clarification",
+        "known_conflict_with_partial_information": "retain_established_conflict_after_applicability_review",
+        "not_applicable": "requires_established_exclusion",
+        "required_plan_output": "incomplete_response",
+        "unresolved_applicability": "Unknown"
+      },
+      "peer_review_status": "pending",
+      "project_target_age_range": [
+        13,
+        17
+      ],
+      "proposal_version": "step13-decision-candidates-1",
+      "record_kind": "structured_reference",
+      "required_information_proposal": {
+        "measurement": [
+          "reported_sleep",
+          "reporting_dates",
+          "daily_measurement_period"
+        ],
+        "population": [
+          "age"
+        ],
+        "segment_resolution": []
+      },
+      "rule_origin": "published_guidance",
+      "runtime_activation_status": "inactive",
+      "source_id": "GUID-SRC-ee04609f55557dd1ceaf",
+      "source_population_conditions": {
+        "age_max": 17,
+        "age_min": 13,
+        "grade_max": null,
+        "grade_min": null
+      },
+      "source_population_logic": "candidate_conditions_not_yet_adopted",
+      "source_rule_type": "recommended_range",
+      "source_statement_values_typed": {
+        "published_recommended_range": [
+          8,
+          10
+        ]
+      },
+      "source_unit": "hours/day",
+      "upstream_verification_assertion": "source_verified_policy_reference_not_individual_prescription"
+    },
+    {
+      "activity_scope_proposal": "broad_youth_sport_context_pending_scope_review",
+      "adopted_threshold": null,
+      "adoption_status": "not_adopted",
+      "applicability_definition_status": "pending",
+      "application_enforcement": null,
+      "assistant_evidence_assessment": "official_AAP_summary_support_full_article_access_pending",
+      "candidate_rule_id": "AAP_WEEKLY_SPORT_REST",
+      "comparison_operator": null,
+      "current_source_review_status": "pending",
+      "decision_proposal": {
+        "enforcement": "review_only",
+        "operator": "review_broad_rest_recommendation",
+        "rationale": "Full-report scope review remains pending; two is not a ceiling on rest."
+      },
+      "enabled_for_planner": false,
+      "evaluation_treatment_status": "pending",
+      "evidence_card_ids": [
+        "AAP_REST_SUMMARY"
+      ],
+      "evidence_checked_on": "2026-11-08",
+      "imported_record": {
+        "age_max": "",
+        "age_min": "",
+        "applicability_notes": "AAP 2024 clinical report; this is a broad youth sports recommendation, not a hard basketball-specific threshold.",
+        "domain": "youth_basketball_recovery_and_participation",
+        "grade_max": "",
+        "grade_min": "",
+        "metric": "days_off_competition_and_sport_specific_training_per_week",
+        "planner_handling": "flag_for_human_review_not_diagnosis",
+        "rule_id": "AAP_WEEKLY_SPORT_REST",
+        "rule_type": "recommended_range",
+        "segment": "youth_athletes",
+        "source_organization": "American Academy of Pediatrics",
+        "source_section": "Guidance for the Clinician",
+        "source_url": "https://publications.aap.org/pediatrics/article/153/2/e2023065129/196435",
+        "unit": "days/week",
+        "value_max": "2",
+        "value_min": "1",
+        "verification_status": "source_verified_policy_reference_not_individual_prescription"
+      },
+      "input_reference": "data/references/recovery/youth_basketball_recovery_rules_v0_1.csv",
+      "input_row_number": 17,
+      "interpretation_flags": [
+        "current_source_and_qualifications_review_pending",
+        "peer_review_and_adoption_pending",
+        "recommendation_not_mandatory_participation_requirement",
+        "broad_sport_guidance_not_basketball_specific",
+        "do_not_treat_upper_rest_value_as_ceiling"
+      ],
+      "interpretation_note": "Broad sport-rest scope needs report-level review; the upper rest value is not a ceiling.",
+      "interpretation_review_status": "pending",
+      "measurement_window_proposal": "seven_day_window_definition_pending",
+      "metric_or_topic": "days_off_competition_and_sport_specific_training_per_week",
+      "missing_information_proposal": {
+        "essential_profile_input": "request_clarification",
+        "known_conflict_with_partial_information": "retain_established_conflict_after_applicability_review",
+        "not_applicable": "requires_established_exclusion",
+        "required_plan_output": "incomplete_response",
+        "unresolved_applicability": "Unknown"
+      },
+      "peer_review_status": "pending",
+      "project_target_age_range": [
+        13,
+        17
+      ],
+      "proposal_version": "step13-decision-candidates-1",
+      "record_kind": "structured_reference",
+      "required_information_proposal": {
+        "measurement": [
+          "complete_sport_schedule",
+          "competition_and_training_classification"
+        ],
+        "population": [
+          "age"
+        ],
+        "segment_resolution": []
+      },
+      "rule_origin": "published_guidance",
+      "runtime_activation_status": "inactive",
+      "source_id": "GUID-SRC-99d3191bcecc4f3eb644",
+      "source_population_conditions": {
+        "age_max": null,
+        "age_min": null,
+        "grade_max": null,
+        "grade_min": null
+      },
+      "source_population_logic": "candidate_conditions_not_yet_adopted",
+      "source_rule_type": "recommended_range",
+      "source_statement_values_typed": {
+        "published_rest_recommendation": [
+          1,
+          2
+        ],
+        "upper_value_is_rest_ceiling": false
+      },
+      "source_unit": "days/week",
+      "upstream_verification_assertion": "source_verified_policy_reference_not_individual_prescription"
+    },
+    {
+      "activity_scope_proposal": "qualitative_guidance_context",
+      "adopted_threshold": null,
+      "adoption_status": "not_adopted",
+      "applicability_definition_status": "pending",
+      "application_enforcement": null,
+      "assistant_evidence_assessment": "direct_publisher_page_statement_support",
+      "candidate_rule_id": "RECOVERY-GUIDANCE-ed612a4be4514a8669e0",
+      "comparison_operator": null,
+      "current_source_review_status": "pending",
+      "decision_proposal": {
+        "enforcement": "advisory",
+        "operator": "contextual_guidance_only",
+        "rationale": "Retain context and related records without duplicate scoring or numeric extraction."
+      },
+      "enabled_for_planner": false,
+      "evaluation_treatment_status": "pending",
+      "evidence_card_ids": [
+        "CDC_SLEEP"
+      ],
+      "evidence_checked_on": "2026-11-08",
+      "imported_record": {
+        "guidance": "Ages 13-17: aim for 8-10 hours of sleep daily.",
+        "source": "CDC",
+        "source_url": "https://www.cdc.gov/sleep/about/",
+        "topic": "Sleep"
+      },
+      "input_reference": "data/processed/recovery_guidance.csv",
+      "input_row_number": 1,
+      "interpretation_flags": [
+        "current_source_and_qualifications_review_pending",
+        "peer_review_and_adoption_pending",
+        "unstructured_guidance_do_not_infer_numeric_cutoff",
+        "reported_sleep_history_required",
+        "review_relation_to_structured_sleep_records"
+      ],
+      "interpretation_note": "Related daily sleep record; retain both inputs and review duplicate scoring.",
+      "interpretation_review_status": "pending",
+      "measurement_window_proposal": "not_a_numeric_comparison",
+      "metric_or_topic": "Sleep",
+      "missing_information_proposal": {
+        "essential_profile_input": "request_clarification",
+        "known_conflict_with_partial_information": "retain_established_conflict_after_applicability_review",
+        "not_applicable": "requires_established_exclusion",
+        "required_plan_output": "incomplete_response",
+        "unresolved_applicability": "Unknown"
+      },
+      "peer_review_status": "pending",
+      "project_target_age_range": [
+        13,
+        17
+      ],
+      "proposal_version": "step13-decision-candidates-1",
+      "record_kind": "general_guidance",
+      "related_structured_candidate_ids": [
+        "CDC_TEENS_SLEEP"
+      ],
+      "required_information_proposal": {
+        "measurement": [
+          "relevant_reported_context"
+        ],
+        "population": [
+          "age"
+        ],
+        "segment_resolution": []
+      },
+      "rule_origin": "published_guidance",
+      "runtime_activation_status": "inactive",
+      "source_id": "GUID-SRC-ee04609f55557dd1ceaf",
+      "source_population_conditions": null,
+      "source_population_logic": "candidate_conditions_not_yet_adopted",
+      "source_rule_type": "unstructured_guidance",
+      "source_statement_values_typed": null,
+      "source_unit": "",
+      "upstream_verification_assertion": ""
+    },
+    {
+      "activity_scope_proposal": "qualitative_guidance_context",
+      "adopted_threshold": null,
+      "adoption_status": "not_adopted",
+      "applicability_definition_status": "pending",
+      "application_enforcement": null,
+      "assistant_evidence_assessment": "official_AAP_summary_support_full_article_access_pending",
+      "candidate_rule_id": "RECOVERY-GUIDANCE-b4431f70157742ed152d",
+      "comparison_operator": null,
+      "current_source_review_status": "pending",
+      "decision_proposal": {
+        "enforcement": "advisory",
+        "operator": "contextual_guidance_only",
+        "rationale": "Retain context and related records without duplicate scoring or numeric extraction."
+      },
+      "enabled_for_planner": false,
+      "evaluation_treatment_status": "pending",
+      "evidence_card_ids": [
+        "AAP_REST_SUMMARY"
+      ],
+      "evidence_checked_on": "2026-11-08",
+      "imported_record": {
+        "guidance": "Aim for 1-2 days off weekly from sport-specific training and competition.",
+        "source": "AAP",
+        "source_url": "https://doi.org/10.1542/peds.2023-065129",
+        "topic": "Rest"
+      },
+      "input_reference": "data/processed/recovery_guidance.csv",
+      "input_row_number": 2,
+      "interpretation_flags": [
+        "current_source_and_qualifications_review_pending",
+        "peer_review_and_adoption_pending",
+        "unstructured_guidance_do_not_infer_numeric_cutoff",
+        "broad_sport_guidance_not_basketball_specific",
+        "review_relation_to_AAP_structured_rest_record",
+        "do_not_treat_rest_range_as_ceiling"
+      ],
+      "interpretation_note": "Related broad sports-rest record; retain source-URL alias and scope review.",
+      "interpretation_review_status": "pending",
+      "measurement_window_proposal": "not_a_numeric_comparison",
+      "metric_or_topic": "Rest",
+      "missing_information_proposal": {
+        "essential_profile_input": "request_clarification",
+        "known_conflict_with_partial_information": "retain_established_conflict_after_applicability_review",
+        "not_applicable": "requires_established_exclusion",
+        "required_plan_output": "incomplete_response",
+        "unresolved_applicability": "Unknown"
+      },
+      "peer_review_status": "pending",
+      "project_target_age_range": [
+        13,
+        17
+      ],
+      "proposal_version": "step13-decision-candidates-1",
+      "record_kind": "general_guidance",
+      "related_structured_candidate_ids": [
+        "AAP_WEEKLY_SPORT_REST"
+      ],
+      "required_information_proposal": {
+        "measurement": [
+          "relevant_reported_context"
+        ],
+        "population": [
+          "age"
+        ],
+        "segment_resolution": []
+      },
+      "rule_origin": "published_guidance",
+      "runtime_activation_status": "inactive",
+      "source_id": "GUID-SRC-02a6f52948e23af63d62",
+      "source_population_conditions": null,
+      "source_population_logic": "candidate_conditions_not_yet_adopted",
+      "source_rule_type": "unstructured_guidance",
+      "source_statement_values_typed": null,
+      "source_unit": "",
+      "upstream_verification_assertion": ""
+    },
+    {
+      "activity_scope_proposal": "qualitative_guidance_context",
+      "adopted_threshold": null,
+      "adoption_status": "not_adopted",
+      "applicability_definition_status": "pending",
+      "application_enforcement": null,
+      "assistant_evidence_assessment": "official_AAP_summary_support_full_article_access_pending",
+      "candidate_rule_id": "RECOVERY-GUIDANCE-6e306f115a65dbdd9e95",
+      "comparison_operator": null,
+      "current_source_review_status": "pending",
+      "decision_proposal": {
+        "enforcement": "advisory",
+        "operator": "contextual_guidance_only",
+        "rationale": "Retain context and related records without duplicate scoring or numeric extraction."
+      },
+      "enabled_for_planner": false,
+      "evaluation_treatment_status": "pending",
+      "evidence_card_ids": [
+        "AAP_OVERUSE_SUMMARY"
+      ],
+      "evidence_checked_on": "2026-11-08",
+      "imported_record": {
+        "guidance": "Increase weekly training volume gradually.",
+        "source": "AAP",
+        "source_url": "https://doi.org/10.1542/peds.2023-065129",
+        "topic": "Training load"
+      },
+      "input_reference": "data/processed/recovery_guidance.csv",
+      "input_row_number": 3,
+      "interpretation_flags": [
+        "current_source_and_qualifications_review_pending",
+        "peer_review_and_adoption_pending",
+        "unstructured_guidance_do_not_infer_numeric_cutoff",
+        "broad_sport_guidance_not_basketball_specific"
+      ],
+      "interpretation_note": "Qualitative progression prompt; no numeric percentage adopted.",
+      "interpretation_review_status": "pending",
+      "measurement_window_proposal": "not_a_numeric_comparison",
+      "metric_or_topic": "Training load",
+      "missing_information_proposal": {
+        "essential_profile_input": "request_clarification",
+        "known_conflict_with_partial_information": "retain_established_conflict_after_applicability_review",
+        "not_applicable": "requires_established_exclusion",
+        "required_plan_output": "incomplete_response",
+        "unresolved_applicability": "Unknown"
+      },
+      "peer_review_status": "pending",
+      "project_target_age_range": [
+        13,
+        17
+      ],
+      "proposal_version": "step13-decision-candidates-1",
+      "record_kind": "general_guidance",
+      "related_structured_candidate_ids": [],
+      "required_information_proposal": {
+        "measurement": [
+          "relevant_reported_context"
+        ],
+        "population": [
+          "age"
+        ],
+        "segment_resolution": []
+      },
+      "rule_origin": "published_guidance",
+      "runtime_activation_status": "inactive",
+      "source_id": "GUID-SRC-02a6f52948e23af63d62",
+      "source_population_conditions": null,
+      "source_population_logic": "candidate_conditions_not_yet_adopted",
+      "source_rule_type": "unstructured_guidance",
+      "source_statement_values_typed": null,
+      "source_unit": "",
+      "upstream_verification_assertion": ""
+    },
+    {
+      "activity_scope_proposal": "qualitative_guidance_context",
+      "adopted_threshold": null,
+      "adoption_status": "not_adopted",
+      "applicability_definition_status": "pending",
+      "application_enforcement": null,
+      "assistant_evidence_assessment": "official_AAP_summary_support_full_article_access_pending",
+      "candidate_rule_id": "RECOVERY-GUIDANCE-48fe143c5cd140813352",
+      "comparison_operator": null,
+      "current_source_review_status": "pending",
+      "decision_proposal": {
+        "enforcement": "advisory",
+        "operator": "contextual_guidance_only",
+        "rationale": "Retain context and related records without duplicate scoring or numeric extraction."
+      },
+      "enabled_for_planner": false,
+      "evaluation_treatment_status": "pending",
+      "evidence_card_ids": [
+        "AAP_FATIGUE_SUMMARY"
+      ],
+      "evidence_checked_on": "2026-11-08",
+      "imported_record": {
+        "guidance": "Persistent fatigue, mood changes, or declining performance warrant review for possible overtraining.",
+        "source": "AAP",
+        "source_url": "https://doi.org/10.1542/peds.2023-065129",
+        "topic": "Fatigue"
+      },
+      "input_reference": "data/processed/recovery_guidance.csv",
+      "input_row_number": 4,
+      "interpretation_flags": [
+        "current_source_and_qualifications_review_pending",
+        "peer_review_and_adoption_pending",
+        "unstructured_guidance_do_not_infer_numeric_cutoff",
+        "broad_sport_guidance_not_basketball_specific"
+      ],
+      "interpretation_note": "Contextual review prompt, without a diagnosis or symptom threshold.",
+      "interpretation_review_status": "pending",
+      "measurement_window_proposal": "not_a_numeric_comparison",
+      "metric_or_topic": "Fatigue",
+      "missing_information_proposal": {
+        "essential_profile_input": "request_clarification",
+        "known_conflict_with_partial_information": "retain_established_conflict_after_applicability_review",
+        "not_applicable": "requires_established_exclusion",
+        "required_plan_output": "incomplete_response",
+        "unresolved_applicability": "Unknown"
+      },
+      "peer_review_status": "pending",
+      "project_target_age_range": [
+        13,
+        17
+      ],
+      "proposal_version": "step13-decision-candidates-1",
+      "record_kind": "general_guidance",
+      "related_structured_candidate_ids": [],
+      "required_information_proposal": {
+        "measurement": [
+          "relevant_reported_context"
+        ],
+        "population": [
+          "age"
+        ],
+        "segment_resolution": []
+      },
+      "rule_origin": "published_guidance",
+      "runtime_activation_status": "inactive",
+      "source_id": "GUID-SRC-02a6f52948e23af63d62",
+      "source_population_conditions": null,
+      "source_population_logic": "candidate_conditions_not_yet_adopted",
+      "source_rule_type": "unstructured_guidance",
+      "source_statement_values_typed": null,
+      "source_unit": "",
+      "upstream_verification_assertion": ""
+    },
+    {
+      "activity_scope_proposal": "qualitative_guidance_context",
+      "adopted_threshold": null,
+      "adoption_status": "not_adopted",
+      "applicability_definition_status": "pending",
+      "application_enforcement": null,
+      "assistant_evidence_assessment": "official_AAP_summary_support_full_article_access_pending",
+      "candidate_rule_id": "RECOVERY-GUIDANCE-9918e3d81af2dba2604b",
+      "comparison_operator": null,
+      "current_source_review_status": "pending",
+      "decision_proposal": {
+        "enforcement": "advisory",
+        "operator": "contextual_guidance_only",
+        "rationale": "Retain context and related records without duplicate scoring or numeric extraction."
+      },
+      "enabled_for_planner": false,
+      "evaluation_treatment_status": "pending",
+      "evidence_card_ids": [
+        "AAP_OVERUSE_SUMMARY"
+      ],
+      "evidence_checked_on": "2026-11-08",
+      "imported_record": {
+        "guidance": "Repetitive stress without adequate recovery can cause overuse injuries.",
+        "source": "AAP",
+        "source_url": "https://doi.org/10.1542/peds.2023-065129",
+        "topic": "Injury"
+      },
+      "input_reference": "data/processed/recovery_guidance.csv",
+      "input_row_number": 5,
+      "interpretation_flags": [
+        "current_source_and_qualifications_review_pending",
+        "peer_review_and_adoption_pending",
+        "unstructured_guidance_do_not_infer_numeric_cutoff",
+        "broad_sport_guidance_not_basketball_specific"
+      ],
+      "interpretation_note": "Contextual scope statement, without inferred injury state or medical clearance.",
+      "interpretation_review_status": "pending",
+      "measurement_window_proposal": "not_a_numeric_comparison",
+      "metric_or_topic": "Injury",
+      "missing_information_proposal": {
+        "essential_profile_input": "request_clarification",
+        "known_conflict_with_partial_information": "retain_established_conflict_after_applicability_review",
+        "not_applicable": "requires_established_exclusion",
+        "required_plan_output": "incomplete_response",
+        "unresolved_applicability": "Unknown"
+      },
+      "peer_review_status": "pending",
+      "project_target_age_range": [
+        13,
+        17
+      ],
+      "proposal_version": "step13-decision-candidates-1",
+      "record_kind": "general_guidance",
+      "related_structured_candidate_ids": [],
+      "required_information_proposal": {
+        "measurement": [
+          "relevant_reported_context"
+        ],
+        "population": [
+          "age"
+        ],
+        "segment_resolution": []
+      },
+      "rule_origin": "published_guidance",
+      "runtime_activation_status": "inactive",
+      "source_id": "GUID-SRC-02a6f52948e23af63d62",
+      "source_population_conditions": null,
+      "source_population_logic": "candidate_conditions_not_yet_adopted",
+      "source_rule_type": "unstructured_guidance",
+      "source_statement_values_typed": null,
+      "source_unit": "",
+      "upstream_verification_assertion": ""
+    },
+    {
+      "actual_athlete_value": null,
+      "adopted_threshold": null,
+      "adoption_status": "not_adopted",
+      "application_enforcement": null,
+      "candidate_rule_id": "USER_AVAILABLE_TIME",
+      "comparison_operator": null,
+      "current_source_review_status": "not_required_for_this_origin",
+      "decision_proposal": {
+        "enforcement": "required",
+        "operator": "project_contract_pending_review",
+        "rationale": "Assess supplied availability; clarify missing essential values."
+      },
+      "description": "Available days and session budgets",
+      "enabled_for_planner": false,
+      "imported_record": null,
+      "interpretation_review_status": "pending",
+      "peer_review_status": "pending",
+      "project_review_status": "pending",
+      "proposal_version": "step13-decision-candidates-1",
+      "proposed_response": "Assess supplied availability; clarify missing essential values.",
+      "record_kind": "user_constraint_template",
+      "required_information_proposal": {
+        "case_inputs": [
+          "available_days",
+          "time_slots",
+          "session_time_budgets"
+        ]
+      },
+      "rule_origin": "user_constraint",
+      "runtime_activation_status": "inactive",
+      "source_statement_values_typed": null
+    },
+    {
+      "actual_athlete_value": null,
+      "adopted_threshold": null,
+      "adoption_status": "not_adopted",
+      "application_enforcement": null,
+      "candidate_rule_id": "USER_EQUIPMENT_SPACE",
+      "comparison_operator": null,
+      "current_source_review_status": "not_required_for_this_origin",
+      "decision_proposal": {
+        "enforcement": "required",
+        "operator": "project_contract_pending_review",
+        "rationale": "Compare supplied resources with established activity requirements."
+      },
+      "description": "Available equipment and space",
+      "enabled_for_planner": false,
+      "imported_record": null,
+      "interpretation_review_status": "pending",
+      "peer_review_status": "pending",
+      "project_review_status": "pending",
+      "proposal_version": "step13-decision-candidates-1",
+      "proposed_response": "Compare supplied resources with established activity requirements.",
+      "record_kind": "user_constraint_template",
+      "required_information_proposal": {
+        "case_inputs": [
+          "available_equipment",
+          "available_space",
+          "reviewed_activity_requirements"
+        ]
+      },
+      "rule_origin": "user_constraint",
+      "runtime_activation_status": "inactive",
+      "source_statement_values_typed": null
+    },
+    {
+      "actual_athlete_value": null,
+      "adopted_threshold": null,
+      "adoption_status": "not_adopted",
+      "application_enforcement": null,
+      "candidate_rule_id": "USER_PARTICIPANTS",
+      "comparison_operator": null,
+      "current_source_review_status": "not_required_for_this_origin",
+      "decision_proposal": {
+        "enforcement": "required",
+        "operator": "project_contract_pending_review",
+        "rationale": "Unknown activity requirements remain unknown rather than assumed feasible."
+      },
+      "description": "Available participants and roles",
+      "enabled_for_planner": false,
+      "imported_record": null,
+      "interpretation_review_status": "pending",
+      "peer_review_status": "pending",
+      "project_review_status": "pending",
+      "proposal_version": "step13-decision-candidates-1",
+      "proposed_response": "Unknown activity requirements remain unknown rather than assumed feasible.",
+      "record_kind": "user_constraint_template",
+      "required_information_proposal": {
+        "case_inputs": [
+          "participant_availability",
+          "reviewed_participant_requirements"
+        ]
+      },
+      "rule_origin": "user_constraint",
+      "runtime_activation_status": "inactive",
+      "source_statement_values_typed": null
+    },
+    {
+      "actual_athlete_value": null,
+      "adopted_threshold": null,
+      "adoption_status": "not_adopted",
+      "application_enforcement": null,
+      "candidate_rule_id": "USER_EXISTING_COMMITMENTS",
+      "comparison_operator": null,
+      "current_source_review_status": "not_required_for_this_origin",
+      "decision_proposal": {
+        "enforcement": "required",
+        "operator": "project_contract_pending_review",
+        "rationale": "Include known commitments without silently removing them."
+      },
+      "description": "Existing practices, games, and other commitments",
+      "enabled_for_planner": false,
+      "imported_record": null,
+      "interpretation_review_status": "pending",
+      "peer_review_status": "pending",
+      "project_review_status": "pending",
+      "proposal_version": "step13-decision-candidates-1",
+      "proposed_response": "Include known commitments without silently removing them.",
+      "record_kind": "user_constraint_template",
+      "required_information_proposal": {
+        "case_inputs": [
+          "existing_commitments",
+          "schedule_completeness"
+        ]
+      },
+      "rule_origin": "user_constraint",
+      "runtime_activation_status": "inactive",
+      "source_statement_values_typed": null
+    },
+    {
+      "actual_athlete_value": null,
+      "adopted_threshold": null,
+      "adoption_status": "not_adopted",
+      "application_enforcement": null,
+      "candidate_rule_id": "POLICY_REQUIRED_INFORMATION",
+      "comparison_operator": null,
+      "current_source_review_status": "not_required_for_this_origin",
+      "decision_proposal": {
+        "enforcement": "required",
+        "operator": "project_contract_pending_review",
+        "rationale": "Distinguish a clarification request from incomplete planner output."
+      },
+      "description": "Case-level essential information",
+      "enabled_for_planner": false,
+      "imported_record": null,
+      "interpretation_review_status": "pending",
+      "peer_review_status": "pending",
+      "project_review_status": "pending",
+      "proposal_version": "step13-decision-candidates-1",
+      "proposed_response": "Distinguish a clarification request from incomplete planner output.",
+      "record_kind": "project_policy_template",
+      "required_information_proposal": {
+        "case_inputs": [
+          "adopted_required_inputs",
+          "profile_completeness",
+          "required_output_fields"
+        ]
+      },
+      "rule_origin": "project_policy",
+      "runtime_activation_status": "inactive",
+      "source_statement_values_typed": null
+    },
+    {
+      "actual_athlete_value": null,
+      "adopted_threshold": null,
+      "adoption_status": "not_adopted",
+      "application_enforcement": null,
+      "candidate_rule_id": "POLICY_TIMING_INTEGRITY",
+      "comparison_operator": null,
+      "current_source_review_status": "not_required_for_this_origin",
+      "decision_proposal": {
+        "enforcement": "required",
+        "operator": "project_contract_pending_review",
+        "rationale": "Keep source prescriptions separate from planned time; validate overlap and unknown values."
+      },
+      "description": "Durations, units, time budgets, and overlap",
+      "enabled_for_planner": false,
+      "imported_record": null,
+      "interpretation_review_status": "pending",
+      "peer_review_status": "pending",
+      "project_review_status": "pending",
+      "proposal_version": "step13-decision-candidates-1",
+      "proposed_response": "Keep source prescriptions separate from planned time; validate overlap and unknown values.",
+      "record_kind": "project_policy_template",
+      "required_information_proposal": {
+        "case_inputs": [
+          "dated_schedule",
+          "valid_durations",
+          "units",
+          "time_zone"
+        ]
+      },
+      "rule_origin": "project_policy",
+      "runtime_activation_status": "inactive",
+      "source_statement_values_typed": null
+    },
+    {
+      "actual_athlete_value": null,
+      "adopted_threshold": null,
+      "adoption_status": "not_adopted",
+      "application_enforcement": null,
+      "candidate_rule_id": "POLICY_SESSION_ACCOUNTING",
+      "comparison_operator": null,
+      "current_source_review_status": "not_required_for_this_origin",
+      "decision_proposal": {
+        "enforcement": "required",
+        "operator": "project_contract_pending_review",
+        "rationale": "Count each scheduled activity once and retain classification uncertainty."
+      },
+      "description": "Activity classification and component accounting",
+      "enabled_for_planner": false,
+      "imported_record": null,
+      "interpretation_review_status": "pending",
+      "peer_review_status": "pending",
+      "project_review_status": "pending",
+      "proposal_version": "step13-decision-candidates-1",
+      "proposed_response": "Count each scheduled activity once and retain classification uncertainty.",
+      "record_kind": "project_policy_template",
+      "required_information_proposal": {
+        "case_inputs": [
+          "activity_classification",
+          "session_ids",
+          "parent_component_links",
+          "planning_window"
+        ]
+      },
+      "rule_origin": "project_policy",
+      "runtime_activation_status": "inactive",
+      "source_statement_values_typed": null
+    },
+    {
+      "actual_athlete_value": null,
+      "adopted_threshold": null,
+      "adoption_status": "not_adopted",
+      "application_enforcement": null,
+      "candidate_rule_id": "POLICY_CATALOG_ELIGIBILITY",
+      "comparison_operator": null,
+      "current_source_review_status": "not_required_for_this_origin",
+      "decision_proposal": {
+        "enforcement": "required",
+        "operator": "project_contract_pending_review",
+        "rationale": "Use only eligible activities with the information needed for the case."
+      },
+      "description": "Approved and sufficiently documented activities",
+      "enabled_for_planner": false,
+      "imported_record": null,
+      "interpretation_review_status": "pending",
+      "peer_review_status": "pending",
+      "project_review_status": "pending",
+      "proposal_version": "step13-decision-candidates-1",
+      "proposed_response": "Use only eligible activities with the information needed for the case.",
+      "record_kind": "project_policy_template",
+      "required_information_proposal": {
+        "case_inputs": [
+          "catalog_approval",
+          "planner_eligibility",
+          "reviewed_requirements"
+        ]
+      },
+      "rule_origin": "project_policy",
+      "runtime_activation_status": "inactive",
+      "source_statement_values_typed": null
+    },
+    {
+      "actual_athlete_value": null,
+      "adopted_threshold": null,
+      "adoption_status": "not_adopted",
+      "application_enforcement": null,
+      "candidate_rule_id": "POLICY_SCOPE",
+      "comparison_operator": null,
+      "current_source_review_status": "not_required_for_this_origin",
+      "decision_proposal": {
+        "enforcement": "required",
+        "operator": "project_contract_pending_review",
+        "rationale": "Apply target-age and content boundaries without inferring medical clearance."
+      },
+      "description": "Project age and content scope",
+      "enabled_for_planner": false,
+      "imported_record": null,
+      "interpretation_review_status": "pending",
+      "peer_review_status": "pending",
+      "project_review_status": "pending",
+      "proposal_version": "step13-decision-candidates-1",
+      "proposed_response": "Apply target-age and content boundaries without inferring medical clearance.",
+      "record_kind": "project_policy_template",
+      "required_information_proposal": {
+        "case_inputs": [
+          "age",
+          "request_type",
+          "reported_restrictions"
+        ]
+      },
+      "rule_origin": "project_policy",
+      "runtime_activation_status": "inactive",
+      "source_statement_values_typed": null
+    },
+    {
+      "actual_athlete_value": null,
+      "adopted_threshold": null,
+      "adoption_status": "not_adopted",
+      "application_enforcement": null,
+      "candidate_rule_id": "POLICY_RESULT_SEMANTICS",
+      "comparison_operator": null,
+      "current_source_review_status": "not_required_for_this_origin",
+      "decision_proposal": {
+        "enforcement": "required",
+        "operator": "project_contract_pending_review",
+        "rationale": "Missing information is not a pass or an established exclusion; retain proven conflicts."
+      },
+      "description": "Met, Violated, Unknown, and Not applicable",
+      "enabled_for_planner": false,
+      "imported_record": null,
+      "interpretation_review_status": "pending",
+      "peer_review_status": "pending",
+      "project_review_status": "pending",
+      "proposal_version": "step13-decision-candidates-1",
+      "proposed_response": "Missing information is not a pass or an established exclusion; retain proven conflicts.",
+      "record_kind": "project_policy_template",
+      "required_information_proposal": {
+        "case_inputs": [
+          "rule_applicability",
+          "input_coverage",
+          "known_conflicts"
+        ]
+      },
+      "rule_origin": "project_policy",
+      "runtime_activation_status": "inactive",
+      "source_statement_values_typed": null
+    },
+    {
+      "actual_athlete_value": null,
+      "adopted_threshold": null,
+      "adoption_status": "not_adopted",
+      "application_enforcement": null,
+      "candidate_rule_id": "POLICY_INDEPENDENT_EVALUATION",
+      "comparison_operator": null,
+      "current_source_review_status": "not_required_for_this_origin",
+      "decision_proposal": {
+        "enforcement": "required",
+        "operator": "project_contract_pending_review",
+        "rationale": "Use Step 2 denominators and independent evaluation for all four versions."
+      },
+      "description": "Common evaluation and denominators",
+      "enabled_for_planner": false,
+      "imported_record": null,
+      "interpretation_review_status": "pending",
+      "peer_review_status": "pending",
+      "project_review_status": "pending",
+      "proposal_version": "step13-decision-candidates-1",
+      "proposed_response": "Use Step 2 denominators and independent evaluation for all four versions.",
+      "record_kind": "project_policy_template",
+      "required_information_proposal": {
+        "case_inputs": [
+          "frozen_case_checks",
+          "job_status",
+          "required_outcomes",
+          "independent_scores"
+        ]
+      },
+      "rule_origin": "project_policy",
+      "runtime_activation_status": "inactive",
+      "source_statement_values_typed": null
+    },
+    {
+      "actual_athlete_value": null,
+      "adopted_threshold": null,
+      "adoption_status": "not_adopted",
+      "application_enforcement": null,
+      "candidate_rule_id": "POLICY_REVIEW_ACTIVATION",
+      "comparison_operator": null,
+      "current_source_review_status": "not_required_for_this_origin",
+      "decision_proposal": {
+        "enforcement": "required",
+        "operator": "project_contract_pending_review",
+        "rationale": "Preparation or source matching alone does not adopt or activate a rule."
+      },
+      "description": "Separate preparation, adoption, and activation",
+      "enabled_for_planner": false,
+      "imported_record": null,
+      "interpretation_review_status": "pending",
+      "peer_review_status": "pending",
+      "project_review_status": "pending",
+      "proposal_version": "step13-decision-candidates-1",
+      "proposed_response": "Preparation or source matching alone does not adopt or activate a rule.",
+      "record_kind": "project_policy_template",
+      "required_information_proposal": {
+        "case_inputs": [
+          "source_review",
+          "interpretation_review",
+          "peer_review",
+          "adoption_decision",
+          "activation_decision"
+        ]
+      },
+      "rule_origin": "project_policy",
+      "runtime_activation_status": "inactive",
+      "source_statement_values_typed": null
+    }
+  ],
+  "runtime_rules_enabled": 0,
+  "schema_version": "step13-decision-candidates-1",
+  "status": "draft_pending_review"
+}

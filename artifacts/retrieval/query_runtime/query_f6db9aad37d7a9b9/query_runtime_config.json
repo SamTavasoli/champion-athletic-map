@@ -1,0 +1,187 @@
+{
+  "corpus_id": "expanded-corpus:aa58799145ccff5c8ea285b3b1eb0bc4fdc41ef85ad90ffb03db3ce3c4687c58",
+  "expanded_index_manifest_relative_path": "artifacts/retrieval/expanded/expanded_ee12915cfac22530/expanded_manifest.json",
+  "expanded_index_manifest_sha256": "11ff18ae4e3856f0d09e1f7b493892229231a2978755b4b7a2b04e3ead933c7f",
+  "expanded_retrieval_id": "expanded-retrieval-index:ee12915cfac22530096a9b573f046c886696c5b769aca11f6f20967f0068f5b9",
+  "max_query_rows": 60,
+  "model_metadata": {
+    "all_checkpoint_tensors_accounted_for": true,
+    "boundary_fixtures": [
+      {
+        "encoded_tokens_including_specials": 199,
+        "model_forward_batches": 1,
+        "rejected_before_model_forward": false
+      },
+      {
+        "encoded_tokens_including_specials": 200,
+        "model_forward_batches": 1,
+        "rejected_before_model_forward": false
+      },
+      {
+        "encoded_tokens_including_specials": 201,
+        "model_forward_batches": 0,
+        "rejected_before_model_forward": true
+      }
+    ],
+    "checkpoint_state_tensor_count": 103,
+    "cpu_threads": 1,
+    "deterministic_algorithms_enabled": true,
+    "device": "cpu",
+    "diagnostic_untruncated_token_counts": [
+      10,
+      10,
+      12,
+      5,
+      12,
+      10
+    ],
+    "dimension": 384,
+    "dtype": "float32",
+    "effective_project_encoded_limit": 200,
+    "evaluation_mode": true,
+    "license_basis": "pinned_README_front_matter",
+    "license_declared": "apache-2.0",
+    "loaded_tokenizer_model_max_length": 256,
+    "matched_nonpersistent_buffer_keys": [
+      "embeddings.position_ids"
+    ],
+    "model_max_position_embeddings": 512,
+    "native_encoder_truncation_is_not_used_to_satisfy_project_budget": true,
+    "normalized_embeddings": true,
+    "parameters_frozen": true,
+    "pooling": "attention_masked_mean_then_l2_normalization",
+    "raw_tokenizer_declared_model_max_length": 512,
+    "repo_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "safetensors_only": true,
+    "sentence_transformer_max_seq_length": 256,
+    "special_tokens_per_single_sequence": 2,
+    "tokenizer_fast": true,
+    "trust_remote_code": false
+  },
+  "model_source_manifest": {
+    "files": [
+      {
+        "bytes": 10502,
+        "hash_basis": "actual_official_immutable_revision_file_bytes",
+        "relative_path": "README.md",
+        "sha256": "dcd602d2fd35c203a247304a06fec6654a12f7941b739f9221a064fe8dc3b7f0"
+      },
+      {
+        "bytes": 612,
+        "hash_basis": "actual_official_immutable_revision_file_bytes",
+        "relative_path": "config.json",
+        "sha256": "953f9c0d463486b10a6871cc2fd59f223b2c70184f49815e7efbcab5d8908b41"
+      },
+      {
+        "bytes": 116,
+        "hash_basis": "actual_official_immutable_revision_file_bytes",
+        "relative_path": "config_sentence_transformers.json",
+        "sha256": "061ca9d39661d6c6d6de5ba27f79a1cd5770ea247f8d46412a68a498dc5ac9f3"
+      },
+      {
+        "bytes": 53,
+        "hash_basis": "actual_official_immutable_revision_file_bytes",
+        "relative_path": "sentence_bert_config.json",
+        "sha256": "fc1993fde0a95c24ec6c022539d41cf6e2f7c9721e5415d6fb6897472a9cd4b7"
+      },
+      {
+        "bytes": 112,
+        "hash_basis": "actual_official_immutable_revision_file_bytes",
+        "relative_path": "special_tokens_map.json",
+        "sha256": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3"
+      },
+      {
+        "bytes": 350,
+        "hash_basis": "actual_official_immutable_revision_file_bytes",
+        "relative_path": "tokenizer_config.json",
+        "sha256": "acb92769e8195aabd29b7b2137a9e6d6e25c476a4f15aa4355c233426c61576b"
+      },
+      {
+        "bytes": 466247,
+        "hash_basis": "actual_official_immutable_revision_file_bytes",
+        "relative_path": "tokenizer.json",
+        "sha256": "be50c3628f2bf5bb5e3a7f17b1f74611b2561a3a27eeab05e5aa30f411572037"
+      },
+      {
+        "bytes": 231508,
+        "hash_basis": "actual_official_immutable_revision_file_bytes",
+        "relative_path": "vocab.txt",
+        "sha256": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3"
+      },
+      {
+        "bytes": 349,
+        "hash_basis": "actual_official_immutable_revision_file_bytes",
+        "relative_path": "modules.json",
+        "sha256": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf"
+      },
+      {
+        "bytes": 190,
+        "hash_basis": "actual_official_immutable_revision_file_bytes",
+        "relative_path": "1_Pooling/config.json",
+        "sha256": "4be450dde3b0273bb9787637cfbd28fe04a7ba6ab9d36ac48e92b11e350ffc23"
+      },
+      {
+        "bytes": 90868376,
+        "hash_basis": "publisher_HF_LFS_sha256_to_verify_after_download",
+        "relative_path": "model.safetensors",
+        "sha256": "53aa51172d142c89d9012cce15ae4d6cc0ca6895895114379cacb4fab128d9db"
+      }
+    ],
+    "license_basis": "README.md front matter at pinned revision; no LICENSE file in repository tree",
+    "license_declared": "apache-2.0",
+    "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+    "max_seq_length": 256,
+    "model_card_url": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/blob/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md",
+    "model_max_positions": 512,
+    "output_dimension": 384,
+    "pooling": "attention_masked_mean_then_l2_normalization",
+    "repo_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "tokenizer_model_max_length": 512,
+    "tokenizer_normalization": "BertTokenizer config do_lower_case=True; sentence-transformers wrapper do_lower_case=False"
+  },
+  "overlength_query_policy": "reject full untruncated count above 200 including special tokens before any model forward",
+  "query_encoded_limit": 200,
+  "query_worker_sha256": "ac750f90be4bfa2e09ce316c08b63b0f899ba4c0e1ccca2dae9dccb6ea35f8de",
+  "raw_query_contract": "exact UTF-8 text hash; nonblank string; native tokenizer only; no classifier preparation or task prefix",
+  "retrieval_source_sha256": "f95a2df8c4f77af47cf3509900b16ae1a8b16e6f355f09979eec1c32a5135636",
+  "route_selection_policy": "caller explicitly requests lexical and/or semantic; no winning route or answerability threshold selected",
+  "runtime_environment": {
+    "platform_machine": "AMD64",
+    "platform_system": "Windows",
+    "python_full_version": "3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)]",
+    "python_version": "3.12.6",
+    "versions": {
+      "certifi": "2026.10.23",
+      "charset-normalizer": "3.5.2",
+      "filelock": "4.2.4",
+      "fsspec": "2026.9.0",
+      "hf-xet": null,
+      "huggingface-hub": "0.36.0",
+      "idna": "3.20",
+      "jinja2": "3.1.6",
+      "markupsafe": "3.0.3",
+      "networkx": "3.7",
+      "numpy": "2.5.4",
+      "packaging": "26.3",
+      "pillow": "13.0.0",
+      "pyyaml": "6.0.3",
+      "regex": "2026.11.9",
+      "requests": "2.34.2",
+      "safetensors": "0.6.2",
+      "scikit-learn": "1.9.1",
+      "scipy": "1.18.1",
+      "sentence-transformers": "5.1.2",
+      "sympy": "1.14.0",
+      "tokenizers": "0.22.1",
+      "torch": "2.14.1+cu126",
+      "tqdm": "4.70.1",
+      "transformers": "4.57.1",
+      "typing-extensions": "4.16.0",
+      "urllib3": "2.8.0"
+    }
+  },
+  "schema_version": "step23-query-runtime-config-1",
+  "semantic_runtime_adoption_id": "semantic-runtime-adoption:1e7ec007d3464722a59d16ef72a82588526f7071588771fa37a84c39f7213654"
+}

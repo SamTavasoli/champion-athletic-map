@@ -1,0 +1,207 @@
+[
+  {
+    "cell": 74,
+    "before": "Step 18 will fit learned text preparation on training records only. This includes vocabulary, TF-IDF statistics, and any learned feature transformations.",
+    "after": "Steps 18 and 19 will derive learned text preparation from training records only. Step 18 will build the neural vocabulary and sequence settings; Step 19 will fit the TF-IDF vocabulary and statistics within the complete logistic regression pipeline.",
+    "reason": "Corrects ownership mismatch: Step 18 explicitly saves the TF-IDF configuration, while Step 19 fits the complete pipeline.",
+    "priority": "medium"
+  },
+  {
+    "cell": 77,
+    "before": "There is an important dependency on the earlier steps: our current basketball catalog has no planner-eligible drills, and the planning rules remain unadopted.",
+    "after": "At the Step 14 checkpoint recorded in this notebook, the basketball catalog had no planner-eligible drills and the planning rules were not yet adopted. We will recheck those statuses before accepting profiles.",
+    "reason": "Makes this status a dated checkpoint rather than a statement that becomes stale as later reviews proceed.",
+    "priority": "low"
+  },
+  {
+    "cell": 80,
+    "before": "| Unknown | Information, interpretation, or checker execution is insufficient |",
+    "after": "| Unknown | Required information or rule interpretation is insufficient |",
+    "reason": "External checker execution failures are assessment defects, which later Steps 33 and 35 correctly distinguish from model outcomes.",
+    "priority": "high"
+  },
+  {
+    "cell": 80,
+    "before": "A missing value or checker error will not become “not applicable.” If a required condition cannot be established, its result will remain unknown and the feasible case will not succeed.",
+    "after": "A missing value will not become “not applicable.” If required information is insufficient, the condition will remain unknown and the feasible case will not succeed.\n\nA checker execution error will be recorded separately as an assessment failure. It will keep the affected external evaluation incomplete until resolved, rather than count as evidence that the planner violated the condition.",
+    "reason": "Aligns external scoring failure handling with Steps 33 and 35; missing output information remains a scored unknown, while broken assessment remains incomplete.",
+    "priority": "high"
+  },
+  {
+    "cell": 86,
+    "before": "- Classes with relatively few independent groups.",
+    "after": "- Classes with relatively few distinct exercise groups.",
+    "reason": "Conservative grouping reduces known overlap but does not establish statistical independence.",
+    "priority": "medium"
+  },
+  {
+    "cell": 101,
+    "priority": "medium",
+    "category": "consistency",
+    "before": "The packet will have an identifier and content hash. Role-specific views may differ, but they must remain traceable to that shared packet.",
+    "after": "The packet will have an identifier and content hash. Each role will receive the same canonical packet; its role-specific instructions will be recorded separately.",
+    "reason": "Align Step 24.8 with Step 27.4, which supplies the same canonical packet to every specialist and the coordinator."
+  },
+  {
+    "cell": 104,
+    "priority": "low",
+    "category": "tone",
+    "before": "We will give this baseline a clear and complete prompt. Its strengths and weaknesses will come from the measured results rather than an assumption that a more complex workflow must perform better.",
+    "after": "We will use a complete baseline prompt and compare its measured performance with the more complex workflows.",
+    "reason": "Shorten a defensive explanation while preserving the fair-baseline commitment."
+  },
+  {
+    "cell": 107,
+    "priority": "low",
+    "category": "tone",
+    "before": "The packet builder will collect information. The planner will remain responsible for producing the schedule or choosing an appropriate clarification, conflict, or outside-scope response.",
+    "after": "The packet builder will supply reference information. The planner will decide whether to produce a schedule, ask for clarification, explain a conflict, or explain that the request is outside scope.",
+    "reason": "Use direct verbs while retaining the same division of responsibilities."
+  },
+  {
+    "cell": 119,
+    "priority": "low",
+    "category": "tone",
+    "before": "We will concentrate on consequential behavior rather than create repetitive tests for minor presentation details.",
+    "after": "Tests will focus on behavior that affects calculations, reference access, application state, and research results.",
+    "reason": "Use concrete terms instead of the abstract phrase consequential behavior."
+  },
+  {
+    "cell": 123,
+    "before": "The reference answers will be the frozen benchmark labels recorded in the Step 15 split manifest. These labels include any documented corrections adopted before the evaluation was frozen. We will describe their source and review status accurately, since they have not all been independently verified by an anatomy expert.",
+    "after": "We will use the benchmark labels saved in the Step 15 split manifest, including corrections accepted before the evaluation was frozen. We will report their source and review status; they have not all been independently verified by an anatomy expert.",
+    "reason": "Shorten a dense paragraph while preserving the benchmark-label qualification."
+  },
+  {
+    "cell": 123,
+    "before": "Vocabulary coverage and truncation can now be measured on the test set. These measurements will be diagnostic; they will not change the vocabulary, sequence limit, thresholds, or evaluated population.",
+    "after": "We will measure vocabulary coverage and truncation on the test set to help explain the results. These diagnostics will not change the vocabulary, sequence limit, thresholds, or evaluated population.",
+    "reason": "Keep planned work in consistent future tense and explain the diagnostic purpose plainly."
+  },
+  {
+    "cell": 125,
+    "before": "The 800 scheduled responses will remain matched observations from 200 constructed profiles. They will not represent 800 independent users.",
+    "after": "The 800 scheduled jobs will provide matched outcomes for 200 fictional profiles. They will not represent 800 independent users.",
+    "reason": "A job can fail without producing a response; use the same unit as the run manifest."
+  },
+  {
+    "cell": 127,
+    "before": "The 1,600 entries will include numeric ratings and explicit not-applicable decisions. They will not necessarily all be numeric scores.",
+    "after": "Each of the 1,600 completed entries will contain a numeric rating or a justified not-applicable decision.",
+    "reason": "State the completion requirement directly without repeating the distinction."
+  },
+  {
+    "cell": 127,
+    "before": "An absent model response will also remain separate from an absent reviewer rating. Reviewers must still complete the required assessment of a failed run.",
+    "after": "A missing model response and an unfinished reviewer rating are different situations. Reviewers must still complete the required assessment of a failed run.",
+    "reason": "Use more natural wording for an important distinction."
+  },
+  {
+    "cell": 127,
+    "before": "We will preserve correction history. Validation will resolve omissions and invalid values, rather than pressure reviewers to agree.",
+    "after": "We will keep a correction history and use validation to resolve missing or invalid entries. Valid disagreements will remain in the original ratings.",
+    "reason": "Replace indirect contrastive language with a clear description of the process."
+  },
+  {
+    "cell": 129,
+    "before": "For feasible-plan analysis, a family containing challenge profiles will contribute only its feasible members. We will define the population before grouping rather than sample all 200 profiles and filter afterward.",
+    "after": "For feasible-plan analysis, we will first select the 150 feasible profiles and then group them by family. A family containing challenge profiles will contribute only its feasible members.",
+    "reason": "Explain the correct implementation in execution order."
+  },
+  {
+    "cell": 131,
+    "before": "The workflow will work from the supported project and notebook locations without depending on a teammate’s personal directory.",
+    "after": "The workflow will run from the documented project and notebook locations without depending on a teammate’s personal directory.",
+    "reason": "Remove the awkward repeated “work.”"
+  },
+  {
+    "cell": 133,
+    "before": "Where saved records show a connection between evidence preparation and a planning problem, we will explain it. A plausible connection will remain an interpretation unless the evidence establishes the cause.",
+    "after": "We will describe a link between evidence preparation and a planning problem when the saved records support it. Other explanations will be identified as interpretations.",
+    "reason": "Make the evidence-versus-interpretation distinction easier to read."
+  },
+  {
+    "cell": 135,
+    "before": "We will record the requirements we actually verify. Items mentioned in an earlier draft will not automatically become confirmed course requirements.",
+    "after": "We will record the verified requirements and their sources, and check earlier planning notes against them.",
+    "reason": "Describe the verification action more directly."
+  },
+  {
+    "cell": 137,
+    "before": "Earlier proposed dates will remain planning estimates until checked against the current instructions.",
+    "after": "We will check any earlier proposed dates against the current instructions before adding them to the team schedule.",
+    "reason": "State the action in plain team language."
+  },
+  {
+    "cell": 137,
+    "before": "An upload attempt will not, by itself, establish successful delivery.",
+    "after": "We will verify the received status after uploading the materials.",
+    "reason": "Replace a repeated negative caution with its concrete verification action."
+  },
+  {
+    "cell": 8,
+    "before": "The following diagram shows the shared generation and response flow. Reference access applies to Versions 2–4; the application branch uses Version 4.\n\n![Planned profile, reference, response, application, and evaluation flow.](attachment:step04_generation_flow.svg)",
+    "after": "The table summarizes our planned components. Reference access applies to Versions 2–4, and the application uses Version 4.",
+    "reason": "Remove the broken reference to an SVG attachment absent from the notebook and project; retain the architecture table and access rules."
+  },
+  {
+    "cell": 8,
+    "before": "Each substantive edit will create a new version, rerun relevant coded checks, and mark the earlier evaluator assessment as outdated.",
+    "after": "Each substantive edit will create a new version, rerun the full coded check set, and mark the earlier evaluator assessment as outdated.",
+    "reason": "Use the same complete recheck policy as Steps 29 and 30."
+  },
+  {
+    "cell": 12,
+    "before": "We will update the observations after inspecting the output from the revised check.",
+    "after": "We will record the observations after inspecting the check output.",
+    "reason": "Remove unnecessary drafting-history language."
+  },
+  {
+    "cell": 47,
+    "before": "The high proportion of missing descriptions supports comparing name-only and combined name-and-description inputs under matched partitions. We will preserve usable name-only records, examine performance separately by text availability, and avoid generating unsupported replacement descriptions.",
+    "after": "The high proportion of missing descriptions supports retaining usable name-only records and examining performance separately by description availability. All models will use the same name-and-available-description input contract and frozen partitions. We will not generate replacement descriptions.",
+    "reason": "Align the EDA implication with the fixed classifier input contract; no extra input-ablation experiment is planned."
+  },
+  {
+    "cell": 46,
+    "before": "Review findings remain open; the observations and final Data Summary await local review.",
+    "after": "The content-review findings described above remain open.",
+    "reason": "Remove a stale editorial handoff while preserving open review status."
+  },
+  {
+    "cell": 47,
+    "before": "Review findings remain open, and the final Data Summary awaits local review.",
+    "after": "The content-review findings described above remain open.",
+    "reason": "Remove a stale editorial handoff inside the completed draft section."
+  },
+  {
+    "cell": 57,
+    "before": "AI may help organize candidate records and draft tests. We will retain the supporting evidence and require the planned review decisions before describing a rule as adopted.",
+    "after": "We will link candidate records and draft tests to their supporting evidence and record the required review decisions before adopting a rule.",
+    "reason": "Use direct team planning language while retaining the review requirement."
+  },
+  {
+    "cell": 59,
+    "before": "# Evidence below records assistant web review; this cell performs no live fetch.",
+    "after": "# These dated source-review notes were prepared before this run; this cell does not fetch publisher pages.",
+    "reason": "Make the comment a direct description of cell behavior; retain all actual origin fields and schema identifiers."
+  },
+  {
+    "cell": 63,
+    "before": "We prepared five dated evidence cards and seven source-access records. The cards documented assistant web review on **November 8, 2026, in America/Los_Angeles time**. The notebook cells performed no live publisher fetch.",
+    "after": "We prepared five dated evidence cards and seven source-access records from the source review dated **November 8, 2026, in America/Los_Angeles time**. The notebook cells performed no live publisher fetch.",
+    "reason": "Use a neutral narrative description; actual preparation provenance remains in the code and saved records."
+  },
+  {
+    "cell": 63,
+    "before": "All specifications remained assistant-authored drafts pending independent review.",
+    "after": "All specifications remained drafts pending independent review.",
+    "reason": "Keep the independent-review status explicit without repeating origin metadata in the narrative."
+  },
+  {
+    "cell": 95,
+    "before": "6. Return the prediction, model version, and relevant handling flags.\n",
+    "after": "6. Return the prediction, model version, and relevant handling flags.\n\nFor logistic regression, canonical text will go directly into the complete saved pipeline. The neural interface will apply its saved normalization and token preparation. Each route will apply its preparation exactly once.\n",
+    "reason": "Make pipeline ownership explicit and prevent double normalization."
+  }
+]

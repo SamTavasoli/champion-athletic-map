@@ -1,0 +1,18 @@
+{
+  "changes": "Any addition, removal, or identity replacement creates a new policy and reference version.",
+  "inclusion": "Use the supplied explicit 100-ID list. Preserve exact source descriptions, including raw/cooked/prepared distinctions.",
+  "not_used": [
+    "nutrient rankings",
+    "calorie targets",
+    "athlete needs",
+    "complete-fiber or portion requirements",
+    "automatic name merging"
+  ],
+  "policy_version": "ordinary-food-demo-1.0.0",
+  "purpose": "Familiar food-lookup examples with preparation and category variation; a demonstration subset, not a complete food database.",
+  "schema_version": "step14-explicit-food-selection-policy-1",
+  "scope_note": "Selected examples are not recommended foods, a balanced diet, or a population-representative sample.",
+  "selected_foods": 100,
+  "selection_type": "explicit_source_ID_and_exact_description_list",
+  "source_archive_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0"
+}

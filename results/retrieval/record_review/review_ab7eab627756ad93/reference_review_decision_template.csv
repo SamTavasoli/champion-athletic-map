@@ -1,0 +1,1 @@
+review_event_id,review_target_id,resource_family,candidate_id,record_version_sha256,review_scope,decision,reviewer,reviewer_role,reviewed_at,decision_reason,evidence_id,evidence_locator,evidence_sha256,source_version_sha256,permission_basis,permitted_use_scope,supersedes_review_event_id

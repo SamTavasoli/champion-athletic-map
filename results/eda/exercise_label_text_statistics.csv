@@ -1,0 +1,52 @@
+body_part,population,records,mean_words,median_words,p25_words,p75_words,p95_words,maximum_words
+abdominals,exercise_name_all,660,3.8167,4.0,3.0,5.0,7.0,9
+abdominals,description_available_only,296,53.9324,54.0,43.0,65.0,77.25,106
+abdominals,classifier_text_all,660,28.0045,7.0,4.0,55.0,75.0,108
+abductors,exercise_name_all,21,2.9048,3.0,2.0,3.0,5.0,5
+abductors,description_available_only,8,50.875,47.0,43.5,53.25,72.35,79
+abductors,classifier_text_all,21,22.2857,4.0,3.0,48.0,62.0,82
+adductors,exercise_name_all,17,3.0,3.0,2.0,4.0,4.0,4
+adductors,description_available_only,7,52.7143,56.0,45.0,58.5,72.29999999999998,78
+adductors,classifier_text_all,17,24.7059,4.0,3.0,55.0,66.39999999999999,80
+biceps,exercise_name_all,168,4.2381,4.0,3.0,5.0,6.0,9
+biceps,description_available_only,101,51.7723,52.0,38.0,65.0,82.0,91
+biceps,classifier_text_all,168,35.3631,38.0,5.0,58.0,80.65,97
+calves,exercise_name_all,47,4.0426,4.0,3.0,5.0,7.0,9
+calves,description_available_only,26,44.9615,46.0,35.0,52.0,64.75,72
+calves,classifier_text_all,47,28.9149,34.0,4.0,51.5,67.19999999999997,74
+chest,exercise_name_all,260,3.7692,4.0,3.0,5.0,6.0,7
+chest,description_available_only,147,52.8435,51.0,38.5,69.5,84.0,106
+chest,classifier_text_all,260,33.6462,34.0,4.75,58.0,86.0,109
+forearms,exercise_name_all,31,4.0323,4.0,3.0,5.0,6.5,7
+forearms,description_available_only,16,50.9375,49.5,35.0,58.25,80.25,99
+forearms,classifier_text_all,31,30.3226,26.0,5.0,52.5,76.0,103
+glutes,exercise_name_all,81,3.6296,3.0,3.0,4.0,6.0,8
+glutes,description_available_only,29,49.5862,47.0,32.0,67.0,87.39999999999998,92
+glutes,classifier_text_all,81,21.3827,5.0,3.0,37.0,78.0,96
+hamstrings,exercise_name_all,121,3.2893,3.0,2.0,4.0,5.0,6
+hamstrings,description_available_only,50,54.9,61.5,41.75,70.75,79.0,93
+hamstrings,classifier_text_all,121,25.9752,4.0,3.0,54.0,76.0,97
+lats,exercise_name_all,124,3.6613,4.0,3.0,4.0,6.0,9
+lats,description_available_only,69,57.7391,56.0,43.0,75.0,87.79999999999998,94
+lats,classifier_text_all,124,35.7903,36.5,4.0,61.25,85.0,96
+lower back,exercise_name_all,97,3.5876,3.0,3.0,4.0,5.0,10
+lower back,description_available_only,42,60.3571,64.0,46.25,68.75,101.74999999999997,106
+lower back,classifier_text_all,97,29.7216,5.0,3.0,64.0,86.7999999999999,111
+middle back,exercise_name_all,116,4.0086,4.0,3.0,5.0,6.25,8
+middle back,description_available_only,47,56.617,62.0,41.0,68.5,88.89999999999998,95
+middle back,classifier_text_all,116,26.9483,5.0,4.0,55.25,82.25,98
+neck,exercise_name_all,8,4.25,4.5,3.0,6.0,6.0,6
+neck,description_available_only,0,,,,,,
+neck,classifier_text_all,8,4.25,4.5,3.0,6.0,6.0,6
+quadriceps,exercise_name_all,645,3.8651,4.0,3.0,5.0,7.0,11
+quadriceps,description_available_only,244,56.0369,54.0,42.75,68.25,95.0,102
+quadriceps,classifier_text_all,645,25.0636,6.0,4.0,49.0,82.79999999999995,106
+shoulders,exercise_name_all,338,4.1864,4.0,3.0,5.0,7.0,10
+shoulders,description_available_only,172,57.1919,58.0,42.0,70.0,89.0,99
+shoulders,classifier_text_all,338,33.2899,28.0,4.0,62.0,81.0,104
+traps,exercise_name_all,24,3.1667,3.0,2.0,4.0,4.849999999999998,5
+traps,description_available_only,17,48.5294,48.0,38.0,55.0,71.4,73
+traps,classifier_text_all,24,37.5417,42.5,4.0,56.0,73.39999999999999,76
+triceps,exercise_name_all,151,3.9735,4.0,3.0,5.0,6.0,7
+triceps,description_available_only,88,52.4659,54.5,38.0,65.0,85.0,108
+triceps,classifier_text_all,151,34.5497,30.0,4.5,62.0,84.0,113

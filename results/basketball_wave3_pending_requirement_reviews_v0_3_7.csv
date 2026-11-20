@@ -1,0 +1,75 @@
+candidate_group_id,evidence_id,drill_name,field,current_value,source_url,required_next_action,reviewer_decision,team_signoff
+JR-REVIEW-0055,JR-EVID-0029,Shooting Line Game,participants,Two or more groups,https://jr.nba.com/basketball-practice-plans/rookie/page/2/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0036,JR-EVID-0007,Hot Ball (Taps),equipment,Basketball,https://jr.nba.com/basketball-practice-plans/rookie/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0022,JR-EVID-0008,Around The World Wraps,equipment,Basketball,https://jr.nba.com/basketball-practice-plans/rookie/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0040,JR-EVID-0013,Partner Decision Dribbling Game,equipment,Basketball and hoop,https://jr.nba.com/basketball-practice-plans/all-star/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0040,JR-EVID-0013,Partner Decision Dribbling Game,participants,Two players per pair,https://jr.nba.com/basketball-practice-plans/all-star/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0057,JR-EVID-0014,Skip Pass 2 on 1,equipment,Basketballs and hoop,https://jr.nba.com/basketball-practice-plans/all-star/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0057,JR-EVID-0014,Skip Pass 2 on 1,participants,Multiple players including defender,https://jr.nba.com/basketball-practice-plans/all-star/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0045,JR-EVID-0016,Pound Pass Drill,equipment,One basketball per pair,https://jr.nba.com/basketball-practice-plans/mvp/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0045,JR-EVID-0016,Pound Pass Drill,participants,Two players per pair,https://jr.nba.com/basketball-practice-plans/mvp/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0058,JR-EVID-0017,Slip Pass Drill,equipment,Basketball and hoop,https://jr.nba.com/basketball-practice-plans/mvp/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0058,JR-EVID-0017,Slip Pass Drill,participants,Group with defender or coach,https://jr.nba.com/basketball-practice-plans/mvp/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0065,JR-EVID-0023,Toss & Catch,equipment,Basketball,https://jr.nba.com/basketball-practice-plans/rookie/page/2/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0062,JR-EVID-0024,Stationary Dribble Low/Middle,equipment,Basketball,https://jr.nba.com/basketball-practice-plans/rookie/page/2/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0049,JR-EVID-0028,Red Light,equipment,Basketball,https://jr.nba.com/basketball-practice-plans/rookie/page/2/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0049,JR-EVID-0028,Red Light,participants,Coach-directed group,https://jr.nba.com/basketball-practice-plans/rookie/page/2/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0020,JR-EVID-0030,Advantage Numbers Game,equipment,Basketball and hoop,https://jr.nba.com/basketball-practice-plans/rookie/page/2/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0020,JR-EVID-0030,Advantage Numbers Game,participants,Two teams and coach,https://jr.nba.com/basketball-practice-plans/rookie/page/2/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0046,JR-EVID-0034,Progression Shooting Competition,equipment,Basketball and hoop,https://jr.nba.com/basketball-practice-plans/all-star/page/2/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0046,JR-EVID-0034,Progression Shooting Competition,participants,Teams,https://jr.nba.com/basketball-practice-plans/all-star/page/2/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0038,JR-EVID-0036,Jump to the Ball Drill,equipment,Basketball and hoop,https://jr.nba.com/basketball-practice-plans/all-star/page/2/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0038,JR-EVID-0036,Jump to the Ball Drill,participants,Multiple players and coach,https://jr.nba.com/basketball-practice-plans/all-star/page/2/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0024,JR-EVID-0039,Catch a Second Ball Series,equipment,Two basketballs per pair,https://jr.nba.com/basketball-practice-plans/mvp/page/2/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0024,JR-EVID-0039,Catch a Second Ball Series,participants,Two players per pair,https://jr.nba.com/basketball-practice-plans/mvp/page/2/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0051,JR-EVID-0040,Rhythm Dribbling,equipment,Basketball,https://jr.nba.com/basketball-practice-plans/mvp/page/2/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0028,JR-EVID-0042,Floater Series,equipment,Basketball and hoop,https://jr.nba.com/basketball-practice-plans/mvp/page/2/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0028,JR-EVID-0042,Floater Series,participants,Small groups,https://jr.nba.com/basketball-practice-plans/mvp/page/2/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0041,JR-EVID-0043,Pick & Pop Shooting,equipment,Basketball and hoop,https://jr.nba.com/basketball-practice-plans/mvp/page/2/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0041,JR-EVID-0043,Pick & Pop Shooting,participants,"Guards, post players, and coach",https://jr.nba.com/basketball-practice-plans/mvp/page/2/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0048,JR-EVID-0044,Rebound & Score,equipment,Basketball and hoop,https://jr.nba.com/basketball-practice-plans/mvp/page/2/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0048,JR-EVID-0044,Rebound & Score,participants,Three active players plus substitutes,https://jr.nba.com/basketball-practice-plans/mvp/page/2/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0005,JR-EVID-0045,1 on 1 – Stunt & Recover,equipment,Basketball and hoop,https://jr.nba.com/basketball-practice-plans/mvp/page/2/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0005,JR-EVID-0045,1 on 1 – Stunt & Recover,participants,Players and coach,https://jr.nba.com/basketball-practice-plans/mvp/page/2/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0017,JR-EVID-0046,4 on 4 Shell to Rebound,equipment,Basketball and hoop,https://jr.nba.com/basketball-practice-plans/mvp/page/2/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0017,JR-EVID-0046,4 on 4 Shell to Rebound,participants,Two teams of four,https://jr.nba.com/basketball-practice-plans/mvp/page/2/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0037,JR-EVID-0047,Jail Break,equipment,Basketball,https://jr.nba.com/basketball-practice-plans/starter/page/3/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0037,JR-EVID-0047,Jail Break,participants,Two groups,https://jr.nba.com/basketball-practice-plans/starter/page/3/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0066,JR-EVID-0048,Tuck Back Drill,equipment,Basketball optional for base movement,https://jr.nba.com/basketball-practice-plans/starter/page/3/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0066,JR-EVID-0048,Tuck Back Drill,participants,Coach-directed players,https://jr.nba.com/basketball-practice-plans/starter/page/3/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0052,JR-EVID-0049,Rooted 1 on 1,equipment,Basketball and hoop,https://jr.nba.com/basketball-practice-plans/starter/page/3/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0052,JR-EVID-0049,Rooted 1 on 1,participants,Offense and defense,https://jr.nba.com/basketball-practice-plans/starter/page/3/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0064,JR-EVID-0050,The Kick Pass Drill,equipment,Basketball and hoop,https://jr.nba.com/basketball-practice-plans/starter/page/3/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0064,JR-EVID-0050,The Kick Pass Drill,participants,Offense and defenders,https://jr.nba.com/basketball-practice-plans/starter/page/3/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0008,JR-EVID-0052,2 on 2 Box Out Game,equipment,Basketball and hoop,https://jr.nba.com/basketball-practice-plans/starter/page/3/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0008,JR-EVID-0052,2 on 2 Box Out Game,participants,Two teams of two,https://jr.nba.com/basketball-practice-plans/starter/page/3/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0009,JR-EVID-0053,2-Person Closeout Drill,equipment,Basketball and hoop,https://jr.nba.com/basketball-practice-plans/starter/page/3/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0009,JR-EVID-0053,2-Person Closeout Drill,participants,Players and coach or passer,https://jr.nba.com/basketball-practice-plans/starter/page/3/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0016,JR-EVID-0054,4 on 4 Continuous with Constraints,participants,Three teams of four in source example,https://jr.nba.com/basketball-practice-plans/starter/page/3/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0003,JR-EVID-0055,1 on 1 Dribble Battle,equipment,Basketball per player,https://jr.nba.com/basketball-practice-plans/all-star/page/3/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0003,JR-EVID-0055,1 on 1 Dribble Battle,participants,Pairs,https://jr.nba.com/basketball-practice-plans/all-star/page/3/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0044,JR-EVID-0057,Pound Pass 1 on 1,equipment,Basketball,https://jr.nba.com/basketball-practice-plans/all-star/page/3/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0044,JR-EVID-0057,Pound Pass 1 on 1,participants,Pairs,https://jr.nba.com/basketball-practice-plans/all-star/page/3/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0007,JR-EVID-0063,2-Ball Jab Drill,equipment,Two basketballs per active player or shared,https://jr.nba.com/basketball-practice-plans/mvp/page/3/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0007,JR-EVID-0063,2-Ball Jab Drill,participants,Coach-directed players,https://jr.nba.com/basketball-practice-plans/mvp/page/3/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0006,JR-EVID-0064,2 Ball Alternate & React,equipment,Two basketballs per active player or shared,https://jr.nba.com/basketball-practice-plans/mvp/page/3/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0006,JR-EVID-0064,2 Ball Alternate & React,participants,Coach-directed players,https://jr.nba.com/basketball-practice-plans/mvp/page/3/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0039,JR-EVID-0065,Loop Shooting Drill,equipment,Basketballs and hoop,https://jr.nba.com/basketball-practice-plans/mvp/page/3/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0039,JR-EVID-0065,Loop Shooting Drill,participants,Multiple players in lines,https://jr.nba.com/basketball-practice-plans/mvp/page/3/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0027,JR-EVID-0066,Filling the Corner Drill,equipment,Basketball and hoop,https://jr.nba.com/basketball-practice-plans/mvp/page/3/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0027,JR-EVID-0066,Filling the Corner Drill,participants,Two lines of players,https://jr.nba.com/basketball-practice-plans/mvp/page/3/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0060,JR-EVID-0067,Spin 5 Series,equipment,Basketball and hoop,https://jr.nba.com/basketball-practice-plans/mvp/page/3/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0060,JR-EVID-0067,Spin 5 Series,participants,Players and coach,https://jr.nba.com/basketball-practice-plans/mvp/page/3/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0043,JR-EVID-0068,Pocket Pass & Shoot,equipment,Basketball and hoop,https://jr.nba.com/basketball-practice-plans/mvp/page/3/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0043,JR-EVID-0068,Pocket Pass & Shoot,participants,"Guards, post players, coach",https://jr.nba.com/basketball-practice-plans/mvp/page/3/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0023,JR-EVID-0070,Balance the Floor Drill,participants,Players and coach,https://jr.nba.com/basketball-practice-plans/mvp/page/3/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0032,JR-EVID-0012,Gauntlet Dribbling,equipment,"Basketball, cones or markers, and hoop",https://jr.nba.com/basketball-practice-plans/all-star/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0032,JR-EVID-0012,Gauntlet Dribbling,participants,Group with multiple defenders,https://jr.nba.com/basketball-practice-plans/all-star/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0067,JR-EVID-0025,Up or Down Game,equipment,Basketball and cones,https://jr.nba.com/basketball-practice-plans/rookie/page/2/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0067,JR-EVID-0025,Up or Down Game,participants,Two teams,https://jr.nba.com/basketball-practice-plans/rookie/page/2/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0031,JR-EVID-0027,Gates Passing Game,equipment,Basketball and cone pairs,https://jr.nba.com/basketball-practice-plans/rookie/page/2/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0031,JR-EVID-0027,Gates Passing Game,participants,Partners,https://jr.nba.com/basketball-practice-plans/rookie/page/2/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0035,JR-EVID-0041,Hook Pass Drill,equipment,"Basketball, hoop, cone or chair",https://jr.nba.com/basketball-practice-plans/mvp/page/2/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0035,JR-EVID-0041,Hook Pass Drill,participants,Players and coach or receiver,https://jr.nba.com/basketball-practice-plans/mvp/page/2/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0030,JR-EVID-0051,Free Throw Golf,equipment,Basketball and hoop,https://jr.nba.com/basketball-practice-plans/starter/page/3/,individual_source_verification_and_signoff,pending,pending
+JR-REVIEW-0030,JR-EVID-0051,Free Throw Golf,participants,Rotating shooters,https://jr.nba.com/basketball-practice-plans/starter/page/3/,individual_source_verification_and_signoff,pending,pending

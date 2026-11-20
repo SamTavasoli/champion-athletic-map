@@ -1,0 +1,47 @@
+source_id,field,value,records,denominator_records,percent,record_unit
+aditi_jr_nba_drills,skill_category,Ball Handling,6,23,26.087,source_occurrences
+aditi_jr_nba_drills,skill_category,Shooting,6,23,26.087,source_occurrences
+aditi_jr_nba_drills,skill_category,Team Concepts,3,23,13.0435,source_occurrences
+aditi_jr_nba_drills,skill_category,Footwork & Conditioning,2,23,8.6957,source_occurrences
+aditi_jr_nba_drills,skill_category,Offense,2,23,8.6957,source_occurrences
+aditi_jr_nba_drills,skill_category,Passing,2,23,8.6957,source_occurrences
+aditi_jr_nba_drills,skill_category,Defense,1,23,4.3478,source_occurrences
+aditi_jr_nba_drills,skill_category,Warm-Up,1,23,4.3478,source_occurrences
+catalog_basketball_v01,skill_area,ball_handling,17,67,25.3731,candidate_groups_v0.1_historical
+catalog_basketball_v01,skill_area,passing,10,67,14.9254,candidate_groups_v0.1_historical
+catalog_basketball_v01,skill_area,footwork,8,67,11.9403,candidate_groups_v0.1_historical
+catalog_basketball_v01,skill_area,offense,6,67,8.9552,candidate_groups_v0.1_historical
+catalog_basketball_v01,skill_area,shooting,6,67,8.9552,candidate_groups_v0.1_historical
+catalog_basketball_v01,skill_area,defense,5,67,7.4627,candidate_groups_v0.1_historical
+catalog_basketball_v01,skill_area,basketball_skill,3,67,4.4776,candidate_groups_v0.1_historical
+catalog_basketball_v01,skill_area,finishing,3,67,4.4776,candidate_groups_v0.1_historical
+catalog_basketball_v01,skill_area,rebounding,2,67,2.9851,candidate_groups_v0.1_historical
+catalog_basketball_v01,skill_area,team_offense,2,67,2.9851,candidate_groups_v0.1_historical
+catalog_basketball_v01,skill_area,ball_handling_warmup,1,67,1.4925,candidate_groups_v0.1_historical
+catalog_basketball_v01,skill_area,general_warmup,1,67,1.4925,candidate_groups_v0.1_historical
+catalog_basketball_v01,skill_area,off_ball_movement,1,67,1.4925,candidate_groups_v0.1_historical
+catalog_basketball_v01,skill_area,team_defense,1,67,1.4925,candidate_groups_v0.1_historical
+catalog_basketball_v01,skill_area,transition_offense,1,67,1.4925,candidate_groups_v0.1_historical
+catalog_basketball_v02,skill_area,ball_handling,26,129,20.155,candidate_groups_v0.2_historical
+catalog_basketball_v02,skill_area,shooting,19,129,14.7287,candidate_groups_v0.2_historical
+catalog_basketball_v02,skill_area,passing,17,129,13.1783,candidate_groups_v0.2_historical
+catalog_basketball_v02,skill_area,defense,10,129,7.7519,candidate_groups_v0.2_historical
+catalog_basketball_v02,skill_area,footwork,10,129,7.7519,candidate_groups_v0.2_historical
+catalog_basketball_v02,skill_area,finishing,9,129,6.9767,candidate_groups_v0.2_historical
+catalog_basketball_v02,skill_area,offense,8,129,6.2016,candidate_groups_v0.2_historical
+catalog_basketball_v02,skill_area,team_offense,7,129,5.4264,candidate_groups_v0.2_historical
+catalog_basketball_v02,skill_area,warmup,6,129,4.6512,candidate_groups_v0.2_historical
+catalog_basketball_v02,skill_area,rebounding,5,129,3.876,candidate_groups_v0.2_historical
+catalog_basketball_v02,skill_area,basketball_skill,3,129,2.3256,candidate_groups_v0.2_historical
+catalog_basketball_v02,skill_area,off_ball_movement,3,129,2.3256,candidate_groups_v0.2_historical
+catalog_basketball_v02,skill_area,team_defense,2,129,1.5504,candidate_groups_v0.2_historical
+catalog_basketball_v02,skill_area,transition_offense,2,129,1.5504,candidate_groups_v0.2_historical
+catalog_basketball_v02,skill_area,ball_handling_warmup,1,129,0.7752,candidate_groups_v0.2_historical
+catalog_basketball_v02,skill_area,general_warmup,1,129,0.7752,candidate_groups_v0.2_historical
+local_basketball_drills,proposed_primary_skill,defense,8,32,25.0,local_candidate_items
+local_basketball_drills,proposed_primary_skill,ball_handling,6,32,18.75,local_candidate_items
+local_basketball_drills,proposed_primary_skill,shooting,5,32,15.625,local_candidate_items
+local_basketball_drills,proposed_primary_skill,finishing,4,32,12.5,local_candidate_items
+local_basketball_drills,proposed_primary_skill,footwork,4,32,12.5,local_candidate_items
+local_basketball_drills,proposed_primary_skill,passing,4,32,12.5,local_candidate_items
+local_basketball_drills,proposed_primary_skill,offense,1,32,3.125,local_candidate_items

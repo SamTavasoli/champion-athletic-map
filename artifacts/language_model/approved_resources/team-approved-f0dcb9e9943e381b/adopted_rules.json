@@ -1,0 +1,2196 @@
+{
+  "current_public_input_gaps": [
+    "No explicit schedule-completeness field; no automatic Met from a missing activity list.",
+    "Sleep history is a nightly average, not a daily 24-hour report.",
+    "Annual history lacks a month-counting convention."
+  ],
+  "open_scoring_questions": [
+    "Final common content/case scoring for model-generated noncatalog activity descriptions must remain consistent across versions; this review adds no hidden-ID or catalog-membership gate."
+  ],
+  "project_overlap_policy": {
+    "advisory_ranges": "Show applicable contextual guidance; do not invent a precedence rule or turn recommended lower values into required minimum training.",
+    "origin": "team_adopted_project_policy_not_publisher_precedence",
+    "overlapping_required_bounds": "Use the most restrictive supported applicable bound as one conceptual check; do not score aliases twice. Age 14/grade 9 therefore uses 600 minutes for this prototype.",
+    "policy_id": "PROJECT_NBA_OVERLAP_CONSERVATIVE_V1",
+    "population_matching": "Match reported age category and separately reported grade category. Never infer grade from age. Project scope is 13–17.",
+    "unknown_grade": "A known applicable age-based bound remains usable; age 15–17 with unknown grade does not establish a grade-based rule."
+  },
+  "records": [
+    {
+      "adoption_status": "adopted_by_team_delegation",
+      "applicability": {
+        "overlap_policy": "PROJECT_NBA_OVERLAP_CONSERVATIVE_V1",
+        "project_age_max": 17,
+        "project_age_min": 13,
+        "source_conditions": {
+          "age_max": 14,
+          "age_min": 12,
+          "grade_max": null,
+          "grade_min": null
+        }
+      },
+      "approval_authority": "Sam’s delegated team authority",
+      "assistant_decision": "approved_for_prototype",
+      "candidate_rule_id": "NBA_A12_14_MAX_HOURS",
+      "checked_on": "2026-11-13",
+      "corrections_and_qualifications": [
+        "Publisher category facts are retained; overlap resolution is PROJECT_NBA_OVERLAP_CONSERVATIVE_V1, not asserted publisher precedence.",
+        "Count games, practices and focused structured basketball; exclude genuinely informal peer/self play. App-prescribed structured basketball counts by project policy.",
+        "Include known existing commitments. Components do not add time already inside a parent session. A cap is not a training target.",
+        "A known distinct-session lower bound above the cap establishes Violated. Met requires complete classified dated coverage; otherwise Unknown.",
+        "An explicit public schedule-completeness mechanism and checker implementation are needed before automatic Met results.",
+        "Retain concurrent-sport, multi-game and camp qualifications; the cap is not unconditional permission."
+      ],
+      "display_name": "Weekly basketball limit — ages 13–14 in project scope",
+      "enabled_for_planner": true,
+      "evaluation_group_id": "NBA_WEEKLY_ORGANIZED_BASKETBALL_MINUTES",
+      "evidence_access": "primary_page_search_index_rechecked; direct_open_timed_out; saved_2026_11_08_evidence_retained",
+      "independent_human_review_status": "not_completed",
+      "manual_sam_review_claimed": false,
+      "measurement_window": {
+        "end_field": "/planning_window/end_date",
+        "kind": "seven_consecutive_local_dates",
+        "policy_origin": "project_window_interpretation_not_publisher_window_definition",
+        "required_day_count": 7,
+        "start_field": "/planning_window/start_date",
+        "timezone_field": "/planning_window/timezone"
+      },
+      "missing_and_null_handling": {
+        "known_conflict": "A proven violation remains Violated even when other information is missing",
+        "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+        "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+        "not_applicable": "Only after population or request-mode exclusion is established"
+      },
+      "original_candidate_sha256": "264a0724c4361bb8df6769ad7981560104e8d0c7133f530167d1d52fdb519ee5",
+      "policy_origin": "published_guidance_with_explicit_project_interpretation",
+      "reason": "Published cap matches; exact minute conversion and conservative overlap are project decisions.",
+      "record_kind": "structured_reference",
+      "required_inputs": {
+        "measurement": [
+          "dated_complete_schedule",
+          "activity_classification",
+          "durations",
+          "session_component_links",
+          "other_sport_and_event_context"
+        ],
+        "population": [
+          "age"
+        ],
+        "segment_resolution": [
+          "school_grade"
+        ]
+      },
+      "reviewed_enforcement": "required_prototype_constraint",
+      "reviewed_operator": "<=",
+      "reviewed_threshold": 600,
+      "reviewed_unit": "minutes/declared_seven_day_window",
+      "reviewer_role": "assistant_evidence_assessment",
+      "revision_id": "assistant-prototype-rule-review-2026-11-13:1",
+      "runtime_activation_status": "available_as_reference_when_release_installed",
+      "sam_review_status": "delegated_authority_finalized",
+      "source_evidence_ref": "turn8search0",
+      "source_population_conditions": {
+        "age_max": 14,
+        "age_min": 12,
+        "grade_max": null,
+        "grade_min": null
+      },
+      "source_statement_values_typed": {
+        "published_maximum": 10
+      },
+      "source_unit": "hours/week",
+      "source_url": "https://youthguidelines.nba.com/",
+      "team_decision": "approved_for_prototype",
+      "validator_execution_ready": false
+    },
+    {
+      "adoption_status": "adopted_by_team_delegation",
+      "applicability": {
+        "overlap_policy": "PROJECT_NBA_OVERLAP_CONSERVATIVE_V1",
+        "project_age_max": 17,
+        "project_age_min": 13,
+        "source_conditions": {
+          "age_max": null,
+          "age_min": null,
+          "grade_max": 12,
+          "grade_min": 9
+        }
+      },
+      "approval_authority": "Sam’s delegated team authority",
+      "assistant_decision": "approved_for_prototype",
+      "candidate_rule_id": "NBA_G9_12_MAX_HOURS",
+      "checked_on": "2026-11-13",
+      "corrections_and_qualifications": [
+        "Publisher category facts are retained; overlap resolution is PROJECT_NBA_OVERLAP_CONSERVATIVE_V1, not asserted publisher precedence.",
+        "Count games, practices and focused structured basketball; exclude genuinely informal peer/self play. App-prescribed structured basketball counts by project policy.",
+        "Include known existing commitments. Components do not add time already inside a parent session. A cap is not a training target.",
+        "A known distinct-session lower bound above the cap establishes Violated. Met requires complete classified dated coverage; otherwise Unknown.",
+        "An explicit public schedule-completeness mechanism and checker implementation are needed before automatic Met results.",
+        "Retain concurrent-sport, multi-game and camp qualifications; the cap is not unconditional permission."
+      ],
+      "display_name": "Weekly basketball limit — grades 9–12",
+      "enabled_for_planner": true,
+      "evaluation_group_id": "NBA_WEEKLY_ORGANIZED_BASKETBALL_MINUTES",
+      "evidence_access": "primary_page_search_index_rechecked; direct_open_timed_out; saved_2026_11_08_evidence_retained",
+      "independent_human_review_status": "not_completed",
+      "manual_sam_review_claimed": false,
+      "measurement_window": {
+        "end_field": "/planning_window/end_date",
+        "kind": "seven_consecutive_local_dates",
+        "policy_origin": "project_window_interpretation_not_publisher_window_definition",
+        "required_day_count": 7,
+        "start_field": "/planning_window/start_date",
+        "timezone_field": "/planning_window/timezone"
+      },
+      "missing_and_null_handling": {
+        "known_conflict": "A proven violation remains Violated even when other information is missing",
+        "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+        "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+        "not_applicable": "Only after population or request-mode exclusion is established"
+      },
+      "original_candidate_sha256": "e8823dd2af00d375db9ca79a8115051b7bd0dae8edb3577bee7ad80459948a52",
+      "policy_origin": "published_guidance_with_explicit_project_interpretation",
+      "reason": "Published cap matches; exact minute conversion and conservative overlap are project decisions.",
+      "record_kind": "structured_reference",
+      "required_inputs": {
+        "measurement": [
+          "dated_complete_schedule",
+          "activity_classification",
+          "durations",
+          "session_component_links",
+          "other_sport_and_event_context"
+        ],
+        "population": [
+          "age",
+          "school_grade"
+        ],
+        "segment_resolution": [
+          "school_grade"
+        ]
+      },
+      "reviewed_enforcement": "required_prototype_constraint",
+      "reviewed_operator": "<=",
+      "reviewed_threshold": 840,
+      "reviewed_unit": "minutes/declared_seven_day_window",
+      "reviewer_role": "assistant_evidence_assessment",
+      "revision_id": "assistant-prototype-rule-review-2026-11-13:1",
+      "runtime_activation_status": "available_as_reference_when_release_installed",
+      "sam_review_status": "delegated_authority_finalized",
+      "source_evidence_ref": "turn8search0",
+      "source_population_conditions": {
+        "age_max": null,
+        "age_min": null,
+        "grade_max": 12,
+        "grade_min": 9
+      },
+      "source_statement_values_typed": {
+        "published_maximum": 14
+      },
+      "source_unit": "hours/week",
+      "source_url": "https://youthguidelines.nba.com/",
+      "team_decision": "approved_for_prototype",
+      "validator_execution_ready": false
+    },
+    {
+      "adoption_status": "adopted_by_team_delegation",
+      "applicability": {
+        "overlap_policy": "PROJECT_NBA_OVERLAP_CONSERVATIVE_V1",
+        "project_age_max": 17,
+        "project_age_min": 13,
+        "source_conditions": {
+          "age_max": 14,
+          "age_min": 12,
+          "grade_max": null,
+          "grade_min": null
+        }
+      },
+      "approval_authority": "Sam’s delegated team authority",
+      "assistant_decision": "approved_for_prototype",
+      "candidate_rule_id": "NBA_A12_14_MIN_REST",
+      "checked_on": "2026-11-13",
+      "corrections_and_qualifications": [
+        "Publisher category facts are retained; overlap resolution is PROJECT_NBA_OVERLAP_CONSERVATIVE_V1, not asserted publisher precedence.",
+        "A rest day has no organized basketball; other ordinary activity does not by itself cancel this basketball-specific rest day.",
+        "All seven dates known to contain organized basketball establishes Violated. A rest-day pass requires complete classified day coverage; otherwise Unknown.",
+        "Existing commitments and newly proposed sessions count together. Source scope differs from broader AAP sports-rest advice."
+      ],
+      "display_name": "Basketball rest day — ages 13–14",
+      "enabled_for_planner": true,
+      "evaluation_group_id": "NBA_WEEKLY_ORGANIZED_BASKETBALL_REST_DAYS",
+      "evidence_access": "primary_page_search_index_rechecked; direct_open_timed_out; saved_2026_11_08_evidence_retained",
+      "independent_human_review_status": "not_completed",
+      "manual_sam_review_claimed": false,
+      "measurement_window": {
+        "end_field": "/planning_window/end_date",
+        "kind": "seven_consecutive_local_dates",
+        "policy_origin": "project_window_interpretation_not_publisher_window_definition",
+        "required_day_count": 7,
+        "start_field": "/planning_window/start_date",
+        "timezone_field": "/planning_window/timezone"
+      },
+      "missing_and_null_handling": {
+        "known_conflict": "A proven violation remains Violated even when other information is missing",
+        "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+        "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+        "not_applicable": "Only after population or request-mode exclusion is established"
+      },
+      "original_candidate_sha256": "7fceeab76034db104784a4184b4c584da911b0cee048c1a9ce111b8f74f36ea4",
+      "policy_origin": "published_guidance_with_explicit_project_interpretation",
+      "reason": "Published minimum matches; day counting is an explicit prototype convention.",
+      "record_kind": "structured_reference",
+      "required_inputs": {
+        "measurement": [
+          "dated_complete_schedule",
+          "organized_basketball_days",
+          "existing_and_proposed_commitments"
+        ],
+        "population": [
+          "age"
+        ],
+        "segment_resolution": [
+          "school_grade"
+        ]
+      },
+      "reviewed_enforcement": "required_prototype_constraint",
+      "reviewed_operator": ">=",
+      "reviewed_threshold": 1,
+      "reviewed_unit": "local_days/declared_seven_day_window",
+      "reviewer_role": "assistant_evidence_assessment",
+      "revision_id": "assistant-prototype-rule-review-2026-11-13:1",
+      "runtime_activation_status": "available_as_reference_when_release_installed",
+      "sam_review_status": "delegated_authority_finalized",
+      "source_evidence_ref": "turn8search0",
+      "source_population_conditions": {
+        "age_max": 14,
+        "age_min": 12,
+        "grade_max": null,
+        "grade_min": null
+      },
+      "source_statement_values_typed": {
+        "published_minimum": 1
+      },
+      "source_unit": "days/week",
+      "source_url": "https://youthguidelines.nba.com/",
+      "team_decision": "approved_for_prototype",
+      "validator_execution_ready": false
+    },
+    {
+      "adoption_status": "adopted_by_team_delegation",
+      "applicability": {
+        "overlap_policy": "PROJECT_NBA_OVERLAP_CONSERVATIVE_V1",
+        "project_age_max": 17,
+        "project_age_min": 13,
+        "source_conditions": {
+          "age_max": null,
+          "age_min": null,
+          "grade_max": 12,
+          "grade_min": 9
+        }
+      },
+      "approval_authority": "Sam’s delegated team authority",
+      "assistant_decision": "approved_for_prototype",
+      "candidate_rule_id": "NBA_G9_12_MIN_REST",
+      "checked_on": "2026-11-13",
+      "corrections_and_qualifications": [
+        "Publisher category facts are retained; overlap resolution is PROJECT_NBA_OVERLAP_CONSERVATIVE_V1, not asserted publisher precedence.",
+        "A rest day has no organized basketball; other ordinary activity does not by itself cancel this basketball-specific rest day.",
+        "All seven dates known to contain organized basketball establishes Violated. A rest-day pass requires complete classified day coverage; otherwise Unknown.",
+        "Existing commitments and newly proposed sessions count together. Source scope differs from broader AAP sports-rest advice."
+      ],
+      "display_name": "Basketball rest day — grades 9–12",
+      "enabled_for_planner": true,
+      "evaluation_group_id": "NBA_WEEKLY_ORGANIZED_BASKETBALL_REST_DAYS",
+      "evidence_access": "primary_page_search_index_rechecked; direct_open_timed_out; saved_2026_11_08_evidence_retained",
+      "independent_human_review_status": "not_completed",
+      "manual_sam_review_claimed": false,
+      "measurement_window": {
+        "end_field": "/planning_window/end_date",
+        "kind": "seven_consecutive_local_dates",
+        "policy_origin": "project_window_interpretation_not_publisher_window_definition",
+        "required_day_count": 7,
+        "start_field": "/planning_window/start_date",
+        "timezone_field": "/planning_window/timezone"
+      },
+      "missing_and_null_handling": {
+        "known_conflict": "A proven violation remains Violated even when other information is missing",
+        "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+        "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+        "not_applicable": "Only after population or request-mode exclusion is established"
+      },
+      "original_candidate_sha256": "63aa91197b185056de5daf3c8453f702934f0d3f8fe07ce89e90f0578e643951",
+      "policy_origin": "published_guidance_with_explicit_project_interpretation",
+      "reason": "Published minimum matches; day counting is an explicit prototype convention.",
+      "record_kind": "structured_reference",
+      "required_inputs": {
+        "measurement": [
+          "dated_complete_schedule",
+          "organized_basketball_days",
+          "existing_and_proposed_commitments"
+        ],
+        "population": [
+          "age",
+          "school_grade"
+        ],
+        "segment_resolution": [
+          "school_grade"
+        ]
+      },
+      "reviewed_enforcement": "required_prototype_constraint",
+      "reviewed_operator": ">=",
+      "reviewed_threshold": 1,
+      "reviewed_unit": "local_days/declared_seven_day_window",
+      "reviewer_role": "assistant_evidence_assessment",
+      "revision_id": "assistant-prototype-rule-review-2026-11-13:1",
+      "runtime_activation_status": "available_as_reference_when_release_installed",
+      "sam_review_status": "delegated_authority_finalized",
+      "source_evidence_ref": "turn8search0",
+      "source_population_conditions": {
+        "age_max": null,
+        "age_min": null,
+        "grade_max": 12,
+        "grade_min": 9
+      },
+      "source_statement_values_typed": {
+        "published_minimum": 1
+      },
+      "source_unit": "days/week",
+      "source_url": "https://youthguidelines.nba.com/",
+      "team_decision": "approved_for_prototype",
+      "validator_execution_ready": false
+    },
+    {
+      "adoption_status": "adopted_by_team_delegation",
+      "applicability": {
+        "overlap_policy": "PROJECT_NBA_OVERLAP_CONSERVATIVE_V1",
+        "project_age_max": 17,
+        "project_age_min": 13,
+        "source_conditions": {
+          "age_max": 14,
+          "age_min": 13,
+          "grade_max": null,
+          "grade_min": null
+        }
+      },
+      "approval_authority": "Sam’s delegated team authority",
+      "assistant_decision": "approved_for_prototype",
+      "candidate_rule_id": "NBA_A13_14_SLEEP",
+      "checked_on": "2026-11-13",
+      "corrections_and_qualifications": [
+        "Publisher category facts are retained; overlap resolution is PROJECT_NBA_OVERLAP_CONSERVATIVE_V1, not asserted publisher precedence.",
+        "Reported average_hours_per_night is not proof that every night met the range. Do not substitute it for a 24-hour daily total.",
+        "Use alongside the CDC record as contextual support, not an extra scored duplicate."
+      ],
+      "display_name": "Nightly sleep guidance — ages 13–14",
+      "enabled_for_planner": true,
+      "evaluation_group_id": "SLEEP_CONTEXT_NO_DUPLICATE_SCORING",
+      "evidence_access": "primary_page_search_index_rechecked; direct_open_timed_out; saved_2026_11_08_evidence_retained",
+      "independent_human_review_status": "not_completed",
+      "manual_sam_review_claimed": false,
+      "measurement_window": "reported_night",
+      "missing_and_null_handling": {
+        "known_conflict": "A proven violation remains Violated even when other information is missing",
+        "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+        "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+        "not_applicable": "Only after population or request-mode exclusion is established"
+      },
+      "original_candidate_sha256": "ebdd45283df16dc384c539cc7d1e4a8e3ab07275730b95c4f8bd77305af10c77",
+      "policy_origin": "published_guidance_with_explicit_project_interpretation",
+      "reason": "Supported as nightly guidance; not a required plan-failure threshold.",
+      "record_kind": "structured_reference",
+      "required_inputs": {
+        "measurement": [
+          "reported_sleep",
+          "reporting_dates",
+          "nightly_measurement_period"
+        ],
+        "population": [
+          "age"
+        ],
+        "segment_resolution": [
+          "school_grade"
+        ]
+      },
+      "reviewed_enforcement": "advisory",
+      "reviewed_operator": "describe_nightly_recommended_range",
+      "reviewed_threshold": [
+        8,
+        10
+      ],
+      "reviewed_unit": "hours/night",
+      "reviewer_role": "assistant_evidence_assessment",
+      "revision_id": "assistant-prototype-rule-review-2026-11-13:1",
+      "runtime_activation_status": "available_as_reference_when_release_installed",
+      "sam_review_status": "delegated_authority_finalized",
+      "source_evidence_ref": "turn8search0",
+      "source_population_conditions": {
+        "age_max": 14,
+        "age_min": 13,
+        "grade_max": null,
+        "grade_min": null
+      },
+      "source_statement_values_typed": {
+        "published_recommended_range": [
+          8,
+          10
+        ]
+      },
+      "source_unit": "hours/night",
+      "source_url": "https://youthguidelines.nba.com/",
+      "team_decision": "approved_for_prototype",
+      "validator_execution_ready": false
+    },
+    {
+      "adoption_status": "adopted_by_team_delegation",
+      "applicability": {
+        "overlap_policy": "PROJECT_NBA_OVERLAP_CONSERVATIVE_V1",
+        "project_age_max": 17,
+        "project_age_min": 13,
+        "source_conditions": {
+          "age_max": null,
+          "age_min": null,
+          "grade_max": 12,
+          "grade_min": 9
+        }
+      },
+      "approval_authority": "Sam’s delegated team authority",
+      "assistant_decision": "approved_for_prototype",
+      "candidate_rule_id": "NBA_G9_12_SLEEP",
+      "checked_on": "2026-11-13",
+      "corrections_and_qualifications": [
+        "Publisher category facts are retained; overlap resolution is PROJECT_NBA_OVERLAP_CONSERVATIVE_V1, not asserted publisher precedence.",
+        "Reported average_hours_per_night is not proof that every night met the range. Do not substitute it for a 24-hour daily total.",
+        "Use alongside the CDC record as contextual support, not an extra scored duplicate."
+      ],
+      "display_name": "Nightly sleep guidance — grades 9–12",
+      "enabled_for_planner": true,
+      "evaluation_group_id": "SLEEP_CONTEXT_NO_DUPLICATE_SCORING",
+      "evidence_access": "primary_page_search_index_rechecked; direct_open_timed_out; saved_2026_11_08_evidence_retained",
+      "independent_human_review_status": "not_completed",
+      "manual_sam_review_claimed": false,
+      "measurement_window": "reported_night",
+      "missing_and_null_handling": {
+        "known_conflict": "A proven violation remains Violated even when other information is missing",
+        "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+        "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+        "not_applicable": "Only after population or request-mode exclusion is established"
+      },
+      "original_candidate_sha256": "b1ac860831c20ec63528c23b8944de5d9df90e23509faa37a280b19e0ac9df33",
+      "policy_origin": "published_guidance_with_explicit_project_interpretation",
+      "reason": "Supported as nightly guidance; not a required plan-failure threshold.",
+      "record_kind": "structured_reference",
+      "required_inputs": {
+        "measurement": [
+          "reported_sleep",
+          "reporting_dates",
+          "nightly_measurement_period"
+        ],
+        "population": [
+          "age",
+          "school_grade"
+        ],
+        "segment_resolution": [
+          "school_grade"
+        ]
+      },
+      "reviewed_enforcement": "advisory",
+      "reviewed_operator": "describe_nightly_recommended_range",
+      "reviewed_threshold": [
+        8,
+        10
+      ],
+      "reviewed_unit": "hours/night",
+      "reviewer_role": "assistant_evidence_assessment",
+      "revision_id": "assistant-prototype-rule-review-2026-11-13:1",
+      "runtime_activation_status": "available_as_reference_when_release_installed",
+      "sam_review_status": "delegated_authority_finalized",
+      "source_evidence_ref": "turn8search0",
+      "source_population_conditions": {
+        "age_max": null,
+        "age_min": null,
+        "grade_max": 12,
+        "grade_min": 9
+      },
+      "source_statement_values_typed": {
+        "published_recommended_range": [
+          8,
+          10
+        ]
+      },
+      "source_unit": "hours/night",
+      "source_url": "https://youthguidelines.nba.com/",
+      "team_decision": "approved_for_prototype",
+      "validator_execution_ready": false
+    },
+    {
+      "adoption_status": "adopted_by_team_delegation",
+      "applicability": {
+        "overlap_policy": "PROJECT_NBA_OVERLAP_CONSERVATIVE_V1",
+        "project_age_max": 17,
+        "project_age_min": 13,
+        "source_conditions": {
+          "age_max": 14,
+          "age_min": 12,
+          "grade_max": null,
+          "grade_min": null
+        }
+      },
+      "approval_authority": "Sam’s delegated team authority",
+      "assistant_decision": "approved_for_prototype",
+      "candidate_rule_id": "NBA_A12_14_PRACTICE_LENGTH",
+      "checked_on": "2026-11-13",
+      "corrections_and_qualifications": [
+        "Publisher category facts are retained; overlap resolution is PROJECT_NBA_OVERLAP_CONSERVATIVE_V1, not asserted publisher precedence.",
+        "Do not force recommended minimum frequency or duration when the user has less time, requests fewer sessions, or is organizing existing commitments.",
+        "Practice length applies to a whole practice, not each drill or a component warm-up. Game frequency recommendations do not replace daily-event qualifications."
+      ],
+      "display_name": "Practice length guidance — ages 13–14",
+      "enabled_for_planner": true,
+      "evaluation_group_id": "NBA_A12_14_PRACTICE_LENGTH",
+      "evidence_access": "primary_page_search_index_rechecked; direct_open_timed_out; saved_2026_11_08_evidence_retained",
+      "independent_human_review_status": "not_completed",
+      "manual_sam_review_claimed": false,
+      "measurement_window": "one_practice_session",
+      "missing_and_null_handling": {
+        "known_conflict": "A proven violation remains Violated even when other information is missing",
+        "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+        "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+        "not_applicable": "Only after population or request-mode exclusion is established"
+      },
+      "original_candidate_sha256": "ab9cecbbd2e4efc2930e2570f287d97df84ef058112aaab886a1219b77018bc9",
+      "policy_origin": "published_guidance_with_explicit_project_interpretation",
+      "reason": "Recommendation retained as guidance, not required training volume.",
+      "record_kind": "structured_reference",
+      "required_inputs": {
+        "measurement": [
+          "practice_session_ids",
+          "practice_durations"
+        ],
+        "population": [
+          "age"
+        ],
+        "segment_resolution": [
+          "school_grade"
+        ]
+      },
+      "reviewed_enforcement": "advisory",
+      "reviewed_operator": "describe_recommended_value_or_range",
+      "reviewed_threshold": [
+        60,
+        90
+      ],
+      "reviewed_unit": "minutes/practice",
+      "reviewer_role": "assistant_evidence_assessment",
+      "revision_id": "assistant-prototype-rule-review-2026-11-13:1",
+      "runtime_activation_status": "available_as_reference_when_release_installed",
+      "sam_review_status": "delegated_authority_finalized",
+      "source_evidence_ref": "turn8search0",
+      "source_population_conditions": {
+        "age_max": 14,
+        "age_min": 12,
+        "grade_max": null,
+        "grade_min": null
+      },
+      "source_statement_values_typed": {
+        "published_recommended_range": [
+          60,
+          90
+        ]
+      },
+      "source_unit": "minutes/practice",
+      "source_url": "https://youthguidelines.nba.com/",
+      "team_decision": "approved_for_prototype",
+      "validator_execution_ready": false
+    },
+    {
+      "adoption_status": "adopted_by_team_delegation",
+      "applicability": {
+        "overlap_policy": "PROJECT_NBA_OVERLAP_CONSERVATIVE_V1",
+        "project_age_max": 17,
+        "project_age_min": 13,
+        "source_conditions": {
+          "age_max": null,
+          "age_min": null,
+          "grade_max": 12,
+          "grade_min": 9
+        }
+      },
+      "approval_authority": "Sam’s delegated team authority",
+      "assistant_decision": "approved_for_prototype",
+      "candidate_rule_id": "NBA_G9_12_PRACTICE_LENGTH",
+      "checked_on": "2026-11-13",
+      "corrections_and_qualifications": [
+        "Publisher category facts are retained; overlap resolution is PROJECT_NBA_OVERLAP_CONSERVATIVE_V1, not asserted publisher precedence.",
+        "Do not force recommended minimum frequency or duration when the user has less time, requests fewer sessions, or is organizing existing commitments.",
+        "Practice length applies to a whole practice, not each drill or a component warm-up. Game frequency recommendations do not replace daily-event qualifications."
+      ],
+      "display_name": "Practice length guidance — grades 9–12",
+      "enabled_for_planner": true,
+      "evaluation_group_id": "NBA_G9_12_PRACTICE_LENGTH",
+      "evidence_access": "primary_page_search_index_rechecked; direct_open_timed_out; saved_2026_11_08_evidence_retained",
+      "independent_human_review_status": "not_completed",
+      "manual_sam_review_claimed": false,
+      "measurement_window": "one_practice_session",
+      "missing_and_null_handling": {
+        "known_conflict": "A proven violation remains Violated even when other information is missing",
+        "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+        "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+        "not_applicable": "Only after population or request-mode exclusion is established"
+      },
+      "original_candidate_sha256": "5e3cd507230f5662a7f97b79017e8a2975f20ff978389895b1ee2cc2d107510c",
+      "policy_origin": "published_guidance_with_explicit_project_interpretation",
+      "reason": "Recommendation retained as guidance, not required training volume.",
+      "record_kind": "structured_reference",
+      "required_inputs": {
+        "measurement": [
+          "practice_session_ids",
+          "practice_durations"
+        ],
+        "population": [
+          "age",
+          "school_grade"
+        ],
+        "segment_resolution": [
+          "school_grade"
+        ]
+      },
+      "reviewed_enforcement": "advisory",
+      "reviewed_operator": "describe_recommended_value_or_range",
+      "reviewed_threshold": [
+        90,
+        120
+      ],
+      "reviewed_unit": "minutes/practice",
+      "reviewer_role": "assistant_evidence_assessment",
+      "revision_id": "assistant-prototype-rule-review-2026-11-13:1",
+      "runtime_activation_status": "available_as_reference_when_release_installed",
+      "sam_review_status": "delegated_authority_finalized",
+      "source_evidence_ref": "turn8search0",
+      "source_population_conditions": {
+        "age_max": null,
+        "age_min": null,
+        "grade_max": 12,
+        "grade_min": 9
+      },
+      "source_statement_values_typed": {
+        "published_recommended_range": [
+          90,
+          120
+        ]
+      },
+      "source_unit": "minutes/practice",
+      "source_url": "https://youthguidelines.nba.com/",
+      "team_decision": "approved_for_prototype",
+      "validator_execution_ready": false
+    },
+    {
+      "adoption_status": "adopted_by_team_delegation",
+      "applicability": {
+        "overlap_policy": "PROJECT_NBA_OVERLAP_CONSERVATIVE_V1",
+        "project_age_max": 17,
+        "project_age_min": 13,
+        "source_conditions": {
+          "age_max": 14,
+          "age_min": 12,
+          "grade_max": null,
+          "grade_min": null
+        }
+      },
+      "approval_authority": "Sam’s delegated team authority",
+      "assistant_decision": "approved_for_prototype",
+      "candidate_rule_id": "NBA_A12_14_PRACTICES",
+      "checked_on": "2026-11-13",
+      "corrections_and_qualifications": [
+        "Publisher category facts are retained; overlap resolution is PROJECT_NBA_OVERLAP_CONSERVATIVE_V1, not asserted publisher precedence.",
+        "Do not force recommended minimum frequency or duration when the user has less time, requests fewer sessions, or is organizing existing commitments.",
+        "Practice length applies to a whole practice, not each drill or a component warm-up. Game frequency recommendations do not replace daily-event qualifications."
+      ],
+      "display_name": "Practice frequency guidance — ages 13–14",
+      "enabled_for_planner": true,
+      "evaluation_group_id": "NBA_A12_14_PRACTICES",
+      "evidence_access": "primary_page_search_index_rechecked; direct_open_timed_out; saved_2026_11_08_evidence_retained",
+      "independent_human_review_status": "not_completed",
+      "manual_sam_review_claimed": false,
+      "measurement_window": {
+        "end_field": "/planning_window/end_date",
+        "kind": "seven_consecutive_local_dates",
+        "policy_origin": "project_window_interpretation_not_publisher_window_definition",
+        "required_day_count": 7,
+        "start_field": "/planning_window/start_date",
+        "timezone_field": "/planning_window/timezone"
+      },
+      "missing_and_null_handling": {
+        "known_conflict": "A proven violation remains Violated even when other information is missing",
+        "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+        "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+        "not_applicable": "Only after population or request-mode exclusion is established"
+      },
+      "original_candidate_sha256": "38f58c2f727989879852a40cfde98127e06bd0df8223096a51ee4b89bfc19236",
+      "policy_origin": "published_guidance_with_explicit_project_interpretation",
+      "reason": "Recommendation retained as guidance, not required training volume.",
+      "record_kind": "structured_reference",
+      "required_inputs": {
+        "measurement": [
+          "practice_session_ids",
+          "dated_complete_schedule",
+          "session_component_links"
+        ],
+        "population": [
+          "age"
+        ],
+        "segment_resolution": [
+          "school_grade"
+        ]
+      },
+      "reviewed_enforcement": "advisory",
+      "reviewed_operator": "describe_recommended_value_or_range",
+      "reviewed_threshold": [
+        2,
+        4
+      ],
+      "reviewed_unit": "practices/week",
+      "reviewer_role": "assistant_evidence_assessment",
+      "revision_id": "assistant-prototype-rule-review-2026-11-13:1",
+      "runtime_activation_status": "available_as_reference_when_release_installed",
+      "sam_review_status": "delegated_authority_finalized",
+      "source_evidence_ref": "turn8search0",
+      "source_population_conditions": {
+        "age_max": 14,
+        "age_min": 12,
+        "grade_max": null,
+        "grade_min": null
+      },
+      "source_statement_values_typed": {
+        "published_recommended_range": [
+          2,
+          4
+        ]
+      },
+      "source_unit": "practices/week",
+      "source_url": "https://youthguidelines.nba.com/",
+      "team_decision": "approved_for_prototype",
+      "validator_execution_ready": false
+    },
+    {
+      "adoption_status": "adopted_by_team_delegation",
+      "applicability": {
+        "overlap_policy": "PROJECT_NBA_OVERLAP_CONSERVATIVE_V1",
+        "project_age_max": 17,
+        "project_age_min": 13,
+        "source_conditions": {
+          "age_max": null,
+          "age_min": null,
+          "grade_max": 12,
+          "grade_min": 9
+        }
+      },
+      "approval_authority": "Sam’s delegated team authority",
+      "assistant_decision": "approved_for_prototype",
+      "candidate_rule_id": "NBA_G9_12_PRACTICES",
+      "checked_on": "2026-11-13",
+      "corrections_and_qualifications": [
+        "Publisher category facts are retained; overlap resolution is PROJECT_NBA_OVERLAP_CONSERVATIVE_V1, not asserted publisher precedence.",
+        "Do not force recommended minimum frequency or duration when the user has less time, requests fewer sessions, or is organizing existing commitments.",
+        "Practice length applies to a whole practice, not each drill or a component warm-up. Game frequency recommendations do not replace daily-event qualifications."
+      ],
+      "display_name": "Practice frequency guidance — grades 9–12",
+      "enabled_for_planner": true,
+      "evaluation_group_id": "NBA_G9_12_PRACTICES",
+      "evidence_access": "primary_page_search_index_rechecked; direct_open_timed_out; saved_2026_11_08_evidence_retained",
+      "independent_human_review_status": "not_completed",
+      "manual_sam_review_claimed": false,
+      "measurement_window": {
+        "end_field": "/planning_window/end_date",
+        "kind": "seven_consecutive_local_dates",
+        "policy_origin": "project_window_interpretation_not_publisher_window_definition",
+        "required_day_count": 7,
+        "start_field": "/planning_window/start_date",
+        "timezone_field": "/planning_window/timezone"
+      },
+      "missing_and_null_handling": {
+        "known_conflict": "A proven violation remains Violated even when other information is missing",
+        "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+        "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+        "not_applicable": "Only after population or request-mode exclusion is established"
+      },
+      "original_candidate_sha256": "3879aaf5addc6105023f3cdc6e6b2e111155cf32cb4323d944765b34fbf2ff49",
+      "policy_origin": "published_guidance_with_explicit_project_interpretation",
+      "reason": "Recommendation retained as guidance, not required training volume.",
+      "record_kind": "structured_reference",
+      "required_inputs": {
+        "measurement": [
+          "practice_session_ids",
+          "dated_complete_schedule",
+          "session_component_links"
+        ],
+        "population": [
+          "age",
+          "school_grade"
+        ],
+        "segment_resolution": [
+          "school_grade"
+        ]
+      },
+      "reviewed_enforcement": "advisory",
+      "reviewed_operator": "describe_recommended_value_or_range",
+      "reviewed_threshold": [
+        3,
+        4
+      ],
+      "reviewed_unit": "practices/week",
+      "reviewer_role": "assistant_evidence_assessment",
+      "revision_id": "assistant-prototype-rule-review-2026-11-13:1",
+      "runtime_activation_status": "available_as_reference_when_release_installed",
+      "sam_review_status": "delegated_authority_finalized",
+      "source_evidence_ref": "turn8search0",
+      "source_population_conditions": {
+        "age_max": null,
+        "age_min": null,
+        "grade_max": 12,
+        "grade_min": 9
+      },
+      "source_statement_values_typed": {
+        "published_recommended_range": [
+          3,
+          4
+        ]
+      },
+      "source_unit": "practices/week",
+      "source_url": "https://youthguidelines.nba.com/",
+      "team_decision": "approved_for_prototype",
+      "validator_execution_ready": false
+    },
+    {
+      "adoption_status": "adopted_by_team_delegation",
+      "applicability": {
+        "overlap_policy": "PROJECT_NBA_OVERLAP_CONSERVATIVE_V1",
+        "project_age_max": 17,
+        "project_age_min": 13,
+        "source_conditions": {
+          "age_max": 14,
+          "age_min": 12,
+          "grade_max": null,
+          "grade_min": null
+        }
+      },
+      "approval_authority": "Sam’s delegated team authority",
+      "assistant_decision": "approved_for_prototype",
+      "candidate_rule_id": "NBA_A12_14_GAMES_WEEK",
+      "checked_on": "2026-11-13",
+      "corrections_and_qualifications": [
+        "Publisher category facts are retained; overlap resolution is PROJECT_NBA_OVERLAP_CONSERVATIVE_V1, not asserted publisher precedence.",
+        "Do not force recommended minimum frequency or duration when the user has less time, requests fewer sessions, or is organizing existing commitments.",
+        "Practice length applies to a whole practice, not each drill or a component warm-up. Game frequency recommendations do not replace daily-event qualifications."
+      ],
+      "display_name": "Game frequency guidance — ages 13–14",
+      "enabled_for_planner": true,
+      "evaluation_group_id": "NBA_A12_14_GAMES_WEEK",
+      "evidence_access": "primary_page_search_index_rechecked; direct_open_timed_out; saved_2026_11_08_evidence_retained",
+      "independent_human_review_status": "not_completed",
+      "manual_sam_review_claimed": false,
+      "measurement_window": {
+        "end_field": "/planning_window/end_date",
+        "kind": "seven_consecutive_local_dates",
+        "policy_origin": "project_window_interpretation_not_publisher_window_definition",
+        "required_day_count": 7,
+        "start_field": "/planning_window/start_date",
+        "timezone_field": "/planning_window/timezone"
+      },
+      "missing_and_null_handling": {
+        "known_conflict": "A proven violation remains Violated even when other information is missing",
+        "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+        "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+        "not_applicable": "Only after population or request-mode exclusion is established"
+      },
+      "original_candidate_sha256": "6dd6b5e4400c1753c8b2772e6488f8b323a044a2bc942f1504811fefdbd39866",
+      "policy_origin": "published_guidance_with_explicit_project_interpretation",
+      "reason": "Recommendation retained as guidance, not required training volume.",
+      "record_kind": "structured_reference",
+      "required_inputs": {
+        "measurement": [
+          "game_ids",
+          "dated_complete_schedule",
+          "tournament_and_multigame_context"
+        ],
+        "population": [
+          "age"
+        ],
+        "segment_resolution": [
+          "school_grade"
+        ]
+      },
+      "reviewed_enforcement": "advisory",
+      "reviewed_operator": "describe_recommended_value_or_range",
+      "reviewed_threshold": 2,
+      "reviewed_unit": "games/week",
+      "reviewer_role": "assistant_evidence_assessment",
+      "revision_id": "assistant-prototype-rule-review-2026-11-13:1",
+      "runtime_activation_status": "available_as_reference_when_release_installed",
+      "sam_review_status": "delegated_authority_finalized",
+      "source_evidence_ref": "turn8search0",
+      "source_population_conditions": {
+        "age_max": 14,
+        "age_min": 12,
+        "grade_max": null,
+        "grade_min": null
+      },
+      "source_statement_values_typed": {
+        "published_recommended_value": 2
+      },
+      "source_unit": "games/week",
+      "source_url": "https://youthguidelines.nba.com/",
+      "team_decision": "approved_for_prototype",
+      "validator_execution_ready": false
+    },
+    {
+      "adoption_status": "adopted_by_team_delegation",
+      "applicability": {
+        "overlap_policy": "PROJECT_NBA_OVERLAP_CONSERVATIVE_V1",
+        "project_age_max": 17,
+        "project_age_min": 13,
+        "source_conditions": {
+          "age_max": null,
+          "age_min": null,
+          "grade_max": 12,
+          "grade_min": 9
+        }
+      },
+      "approval_authority": "Sam’s delegated team authority",
+      "assistant_decision": "approved_for_prototype",
+      "candidate_rule_id": "NBA_G9_12_GAMES_WEEK",
+      "checked_on": "2026-11-13",
+      "corrections_and_qualifications": [
+        "Publisher category facts are retained; overlap resolution is PROJECT_NBA_OVERLAP_CONSERVATIVE_V1, not asserted publisher precedence.",
+        "Do not force recommended minimum frequency or duration when the user has less time, requests fewer sessions, or is organizing existing commitments.",
+        "Practice length applies to a whole practice, not each drill or a component warm-up. Game frequency recommendations do not replace daily-event qualifications."
+      ],
+      "display_name": "Game frequency guidance — grades 9–12",
+      "enabled_for_planner": true,
+      "evaluation_group_id": "NBA_G9_12_GAMES_WEEK",
+      "evidence_access": "primary_page_search_index_rechecked; direct_open_timed_out; saved_2026_11_08_evidence_retained",
+      "independent_human_review_status": "not_completed",
+      "manual_sam_review_claimed": false,
+      "measurement_window": {
+        "end_field": "/planning_window/end_date",
+        "kind": "seven_consecutive_local_dates",
+        "policy_origin": "project_window_interpretation_not_publisher_window_definition",
+        "required_day_count": 7,
+        "start_field": "/planning_window/start_date",
+        "timezone_field": "/planning_window/timezone"
+      },
+      "missing_and_null_handling": {
+        "known_conflict": "A proven violation remains Violated even when other information is missing",
+        "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+        "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+        "not_applicable": "Only after population or request-mode exclusion is established"
+      },
+      "original_candidate_sha256": "df9d563290af661a6f39197dcd550a4081df87f8e05f0d0ae987ca3289aa9905",
+      "policy_origin": "published_guidance_with_explicit_project_interpretation",
+      "reason": "Recommendation retained as guidance, not required training volume.",
+      "record_kind": "structured_reference",
+      "required_inputs": {
+        "measurement": [
+          "game_ids",
+          "dated_complete_schedule",
+          "tournament_and_multigame_context"
+        ],
+        "population": [
+          "age",
+          "school_grade"
+        ],
+        "segment_resolution": [
+          "school_grade"
+        ]
+      },
+      "reviewed_enforcement": "advisory",
+      "reviewed_operator": "describe_recommended_value_or_range",
+      "reviewed_threshold": [
+        2,
+        3
+      ],
+      "reviewed_unit": "games/week",
+      "reviewer_role": "assistant_evidence_assessment",
+      "revision_id": "assistant-prototype-rule-review-2026-11-13:1",
+      "runtime_activation_status": "available_as_reference_when_release_installed",
+      "sam_review_status": "delegated_authority_finalized",
+      "source_evidence_ref": "turn8search0",
+      "source_population_conditions": {
+        "age_max": null,
+        "age_min": null,
+        "grade_max": 12,
+        "grade_min": 9
+      },
+      "source_statement_values_typed": {
+        "published_recommended_range": [
+          2,
+          3
+        ]
+      },
+      "source_unit": "games/week",
+      "source_url": "https://youthguidelines.nba.com/",
+      "team_decision": "approved_for_prototype",
+      "validator_execution_ready": false
+    },
+    {
+      "adoption_status": "adopted_by_team_delegation",
+      "applicability": {
+        "project_age_max": 17,
+        "project_age_min": 13,
+        "source_conditions": {
+          "age_max": 17,
+          "age_min": 13,
+          "grade_max": null,
+          "grade_min": null
+        }
+      },
+      "approval_authority": "Sam’s delegated team authority",
+      "assistant_decision": "approved_for_prototype",
+      "candidate_rule_id": "CDC_TEENS_SLEEP",
+      "checked_on": "2026-11-13",
+      "corrections_and_qualifications": [
+        "No automated daily-sleep violation or pass from average_hours_per_night alone. Preserve daily versus nightly measurement and naps.",
+        "Show guidance without treating it as a training target, diagnosis, or medical clearance."
+      ],
+      "display_name": "Daily sleep guidance — ages 13–17",
+      "enabled_for_planner": true,
+      "evaluation_group_id": "SLEEP_CONTEXT_NO_DUPLICATE_SCORING",
+      "evidence_access": "live_official_page_opened",
+      "independent_human_review_status": "not_completed",
+      "manual_sam_review_claimed": false,
+      "measurement_window": "reported_daily_period",
+      "missing_and_null_handling": {
+        "known_conflict": "A proven violation remains Violated even when other information is missing",
+        "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+        "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+        "not_applicable": "Only after population or request-mode exclusion is established"
+      },
+      "original_candidate_sha256": "5dc402987ea77312d446bed7e34f98f19c99bf4be6294ae24887d275d2a82081",
+      "policy_origin": "published_guidance_with_explicit_project_interpretation",
+      "reason": "Daily teen range matches; current input supplies nightly averages, not full daily totals.",
+      "record_kind": "structured_reference",
+      "required_inputs": {
+        "measurement": [
+          "reported_sleep",
+          "reporting_dates",
+          "daily_measurement_period"
+        ],
+        "population": [
+          "age"
+        ],
+        "segment_resolution": []
+      },
+      "reviewed_enforcement": "advisory",
+      "reviewed_operator": "describe_daily_recommended_range",
+      "reviewed_threshold": [
+        8,
+        10
+      ],
+      "reviewed_unit": "hours/24_hours",
+      "reviewer_role": "assistant_evidence_assessment",
+      "revision_id": "assistant-prototype-rule-review-2026-11-13:1",
+      "runtime_activation_status": "available_as_reference_when_release_installed",
+      "sam_review_status": "delegated_authority_finalized",
+      "source_evidence_ref": "turn12view0",
+      "source_population_conditions": {
+        "age_max": 17,
+        "age_min": 13,
+        "grade_max": null,
+        "grade_min": null
+      },
+      "source_statement_values_typed": {
+        "published_recommended_range": [
+          8,
+          10
+        ]
+      },
+      "source_unit": "hours/day",
+      "source_url": "https://www.cdc.gov/sleep/about/",
+      "team_decision": "approved_for_prototype",
+      "validator_execution_ready": false
+    },
+    {
+      "adoption_status": "adopted_by_team_delegation",
+      "applicability": {
+        "project_age_max": 17,
+        "project_age_min": 13,
+        "source_conditions": {
+          "age_max": null,
+          "age_min": null,
+          "grade_max": null,
+          "grade_min": null
+        }
+      },
+      "approval_authority": "Sam’s delegated team authority",
+      "assistant_decision": "approved_for_prototype",
+      "candidate_rule_id": "AAP_WEEKLY_SPORT_REST",
+      "checked_on": "2026-11-13",
+      "corrections_and_qualifications": [
+        "Scope is competition and sport-specific training, including other organized sports; it is not limited to basketball and does not forbid free play.",
+        "Keep advisory; two days is not a maximum. No claim of direct full-clinical-report review."
+      ],
+      "display_name": "Weekly rest from sport-specific training and competition",
+      "enabled_for_planner": true,
+      "evaluation_group_id": "AAP_WEEKLY_SPORT_REST",
+      "evidence_access": "live_official_AAP_summary_opened; clinical_article_index_checked; direct_full_article_login_blocked",
+      "independent_human_review_status": "not_completed",
+      "manual_sam_review_claimed": false,
+      "measurement_window": {
+        "end_field": "/planning_window/end_date",
+        "kind": "seven_consecutive_local_dates",
+        "policy_origin": "project_window_interpretation_not_publisher_window_definition",
+        "required_day_count": 7,
+        "start_field": "/planning_window/start_date",
+        "timezone_field": "/planning_window/timezone"
+      },
+      "missing_and_null_handling": {
+        "known_conflict": "A proven violation remains Violated even when other information is missing",
+        "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+        "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+        "not_applicable": "Only after population or request-mode exclusion is established"
+      },
+      "original_candidate_sha256": "5af7ea4f812df25b504255abd6ab4aae93a9d58dd2b5d95bfca3f4497a5ef8aa",
+      "policy_origin": "published_guidance_with_explicit_project_interpretation",
+      "reason": "Official summaries support advice; keep broad sports scope and no upper rest ceiling.",
+      "record_kind": "structured_reference",
+      "required_inputs": {
+        "measurement": [
+          "complete_sport_schedule",
+          "competition_and_training_classification"
+        ],
+        "population": [
+          "age"
+        ],
+        "segment_resolution": []
+      },
+      "reviewed_enforcement": "advisory",
+      "reviewed_operator": "describe_broad_sports_rest_recommendation",
+      "reviewed_threshold": {
+        "minimum_guidance": 1,
+        "preferred_range": [
+          1,
+          2
+        ],
+        "upper_value_is_rest_ceiling": false
+      },
+      "reviewed_unit": "days/week",
+      "reviewer_role": "assistant_evidence_assessment",
+      "revision_id": "assistant-prototype-rule-review-2026-11-13:1",
+      "runtime_activation_status": "available_as_reference_when_release_installed",
+      "sam_review_status": "delegated_authority_finalized",
+      "source_evidence_ref": "turn16view2;turn10search5",
+      "source_population_conditions": {
+        "age_max": null,
+        "age_min": null,
+        "grade_max": null,
+        "grade_min": null
+      },
+      "source_statement_values_typed": {
+        "published_rest_recommendation": [
+          1,
+          2
+        ],
+        "upper_value_is_rest_ceiling": false
+      },
+      "source_unit": "days/week",
+      "source_url": "https://www.healthychildren.org/English/health-issues/injuries-emergencies/sports-injuries/Pages/Too-Much-Too-Soon-Overtraining.aspx",
+      "team_decision": "approved_for_prototype",
+      "validator_execution_ready": false
+    },
+    {
+      "adoption_status": "adopted_by_team_delegation",
+      "applicability": {
+        "project_age_max": 17,
+        "project_age_min": 13,
+        "source_conditions": null
+      },
+      "approval_authority": "Sam’s delegated team authority",
+      "assistant_decision": "approved_for_prototype",
+      "candidate_rule_id": "RECOVERY-GUIDANCE-6e306f115a65dbdd9e95",
+      "checked_on": "2026-11-13",
+      "corrections_and_qualifications": [
+        "The DOI and publisher/AAP summary URLs are related source aliases, not independently corroborating studies. Keep attribution and source versions.",
+        "Do not score a qualitative reminder as a numeric health check. Existing or persistent symptoms require an appropriate human review rather than model diagnosis."
+      ],
+      "display_name": "Gradual training progression — contextual advice",
+      "enabled_for_planner": true,
+      "evaluation_group_id": "RECOVERY-GUIDANCE-6e306f115a65dbdd9e95",
+      "evidence_access": "live_official_AAP_summary_opened",
+      "independent_human_review_status": "not_completed",
+      "manual_sam_review_claimed": false,
+      "measurement_window": "not_a_numeric_comparison",
+      "missing_and_null_handling": {
+        "known_conflict": "A proven violation remains Violated even when other information is missing",
+        "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+        "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+        "not_applicable": "Only after population or request-mode exclusion is established"
+      },
+      "original_candidate_sha256": "fcc0f47b48ae46d55a7076086d12deb868004207f28253c1f2a9cd5f8b1ffd58",
+      "policy_origin": "published_guidance_with_explicit_project_interpretation",
+      "reason": "Qualitative support is adequate; no percentage limit, diagnosis, or inferred injury.",
+      "record_kind": "general_guidance",
+      "required_inputs": {
+        "measurement": [
+          "relevant_reported_context"
+        ],
+        "population": [
+          "age"
+        ],
+        "segment_resolution": []
+      },
+      "reviewed_enforcement": "contextual_advisory",
+      "reviewed_operator": "contextual_reminder_only",
+      "reviewed_threshold": null,
+      "reviewed_unit": "",
+      "reviewer_role": "assistant_evidence_assessment",
+      "revision_id": "assistant-prototype-rule-review-2026-11-13:1",
+      "runtime_activation_status": "available_as_reference_when_release_installed",
+      "sam_review_status": "delegated_authority_finalized",
+      "source_evidence_ref": "turn14view1",
+      "source_population_conditions": null,
+      "source_statement_values_typed": null,
+      "source_unit": "",
+      "source_url": "https://www.healthychildren.org/English/health-issues/injuries-emergencies/sports-injuries/Pages/Preventing-Overuse-Injuries.aspx",
+      "team_decision": "approved_for_prototype",
+      "validator_execution_ready": false
+    },
+    {
+      "adoption_status": "adopted_by_team_delegation",
+      "applicability": {
+        "project_age_max": 17,
+        "project_age_min": 13,
+        "source_conditions": null
+      },
+      "approval_authority": "Sam’s delegated team authority",
+      "assistant_decision": "approved_for_prototype",
+      "candidate_rule_id": "RECOVERY-GUIDANCE-48fe143c5cd140813352",
+      "checked_on": "2026-11-13",
+      "corrections_and_qualifications": [
+        "The DOI and publisher/AAP summary URLs are related source aliases, not independently corroborating studies. Keep attribution and source versions.",
+        "Do not score a qualitative reminder as a numeric health check. Existing or persistent symptoms require an appropriate human review rather than model diagnosis."
+      ],
+      "display_name": "Persistent fatigue — request human review",
+      "enabled_for_planner": true,
+      "evaluation_group_id": "RECOVERY-GUIDANCE-48fe143c5cd140813352",
+      "evidence_access": "live_official_AAP_summary_opened",
+      "independent_human_review_status": "not_completed",
+      "manual_sam_review_claimed": false,
+      "measurement_window": "not_a_numeric_comparison",
+      "missing_and_null_handling": {
+        "known_conflict": "A proven violation remains Violated even when other information is missing",
+        "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+        "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+        "not_applicable": "Only after population or request-mode exclusion is established"
+      },
+      "original_candidate_sha256": "a2832aba16c89e644fef7acef7fb5e3021d5ee38697d8448fd3f073d53994056",
+      "policy_origin": "published_guidance_with_explicit_project_interpretation",
+      "reason": "Qualitative support is adequate; no percentage limit, diagnosis, or inferred injury.",
+      "record_kind": "general_guidance",
+      "required_inputs": {
+        "measurement": [
+          "relevant_reported_context"
+        ],
+        "population": [
+          "age"
+        ],
+        "segment_resolution": []
+      },
+      "reviewed_enforcement": "contextual_advisory",
+      "reviewed_operator": "contextual_reminder_only",
+      "reviewed_threshold": null,
+      "reviewed_unit": "",
+      "reviewer_role": "assistant_evidence_assessment",
+      "revision_id": "assistant-prototype-rule-review-2026-11-13:1",
+      "runtime_activation_status": "available_as_reference_when_release_installed",
+      "sam_review_status": "delegated_authority_finalized",
+      "source_evidence_ref": "turn14view2",
+      "source_population_conditions": null,
+      "source_statement_values_typed": null,
+      "source_unit": "",
+      "source_url": "https://www.healthychildren.org/English/news/Pages/AAP-calls-out-causes-of-injury-overtraining-and-burnout-in-youth-sports.aspx",
+      "team_decision": "approved_for_prototype",
+      "validator_execution_ready": false
+    },
+    {
+      "adoption_status": "adopted_by_team_delegation",
+      "applicability": {
+        "project_age_max": 17,
+        "project_age_min": 13,
+        "source_conditions": null
+      },
+      "approval_authority": "Sam’s delegated team authority",
+      "assistant_decision": "approved_for_prototype",
+      "candidate_rule_id": "RECOVERY-GUIDANCE-9918e3d81af2dba2604b",
+      "checked_on": "2026-11-13",
+      "corrections_and_qualifications": [
+        "The DOI and publisher/AAP summary URLs are related source aliases, not independently corroborating studies. Keep attribution and source versions.",
+        "Do not score a qualitative reminder as a numeric health check. Existing or persistent symptoms require an appropriate human review rather than model diagnosis."
+      ],
+      "display_name": "Overuse and recovery — contextual advice",
+      "enabled_for_planner": true,
+      "evaluation_group_id": "RECOVERY-GUIDANCE-9918e3d81af2dba2604b",
+      "evidence_access": "live_official_AAP_summary_opened",
+      "independent_human_review_status": "not_completed",
+      "manual_sam_review_claimed": false,
+      "measurement_window": "not_a_numeric_comparison",
+      "missing_and_null_handling": {
+        "known_conflict": "A proven violation remains Violated even when other information is missing",
+        "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+        "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+        "not_applicable": "Only after population or request-mode exclusion is established"
+      },
+      "original_candidate_sha256": "b25db753ac8448d6195dc97f10bdb005e52937970f84b91f8245d989e1980cdc",
+      "policy_origin": "published_guidance_with_explicit_project_interpretation",
+      "reason": "Qualitative support is adequate; no percentage limit, diagnosis, or inferred injury.",
+      "record_kind": "general_guidance",
+      "required_inputs": {
+        "measurement": [
+          "relevant_reported_context"
+        ],
+        "population": [
+          "age"
+        ],
+        "segment_resolution": []
+      },
+      "reviewed_enforcement": "contextual_advisory",
+      "reviewed_operator": "contextual_reminder_only",
+      "reviewed_threshold": null,
+      "reviewed_unit": "",
+      "reviewer_role": "assistant_evidence_assessment",
+      "revision_id": "assistant-prototype-rule-review-2026-11-13:1",
+      "runtime_activation_status": "available_as_reference_when_release_installed",
+      "sam_review_status": "delegated_authority_finalized",
+      "source_evidence_ref": "turn14view1",
+      "source_population_conditions": null,
+      "source_statement_values_typed": null,
+      "source_unit": "",
+      "source_url": "https://www.healthychildren.org/English/health-issues/injuries-emergencies/sports-injuries/Pages/Preventing-Overuse-Injuries.aspx",
+      "team_decision": "approved_for_prototype",
+      "validator_execution_ready": false
+    },
+    {
+      "adoption_status": "adopted_by_team_delegation",
+      "applicability": {
+        "project_age_max": 17,
+        "project_age_min": 13,
+        "source_conditions": null
+      },
+      "approval_authority": "Sam’s delegated team authority",
+      "assistant_decision": "approved_for_prototype",
+      "candidate_rule_id": "USER_AVAILABLE_TIME",
+      "checked_on": "2026-11-13",
+      "corrections_and_qualifications": [
+        "These are project software requirements, not health claims or publisher rules. Human peer review has not been fabricated."
+      ],
+      "display_name": "Available days and session budgets",
+      "enabled_for_planner": true,
+      "evaluation_group_id": "USER_AVAILABLE_TIME",
+      "evidence_access": "local_project_files_read",
+      "independent_human_review_status": "not_completed",
+      "manual_sam_review_claimed": false,
+      "measurement_window": {
+        "end_field": "/planning_window/end_date",
+        "kind": "seven_consecutive_local_dates",
+        "policy_origin": "project_window_interpretation_not_publisher_window_definition",
+        "required_day_count": 7,
+        "start_field": "/planning_window/start_date",
+        "timezone_field": "/planning_window/timezone"
+      },
+      "missing_and_null_handling": {
+        "known_conflict": "A proven violation remains Violated even when other information is missing",
+        "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+        "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+        "not_applicable": "Only after population or request-mode exclusion is established"
+      },
+      "original_candidate_sha256": "1e4582336f54ea67df1146feb2cc8513bb2fd57d9df20bcfd31affe79b4eca06",
+      "policy_origin": "project_design_not_medical_guidance",
+      "project_definition": {
+        "definition": "Every newly added session must fit a supplied date/time slot and known additional-session/minute limits. Preserve zero limits. Existing commitments are included as supplied rather than tested as newly added sessions.",
+        "fields": [
+          "/availability",
+          "/time_limits",
+          "/existing_commitments"
+        ],
+        "unknown": "Clarify only availability or budget information essential to the requested new activities. An existing-commitments-only calendar does not need new availability."
+      },
+      "reason": "Approved as explicit project behavior, with the revised definition below.",
+      "record_kind": "user_constraint_template",
+      "required_inputs": {
+        "public_or_review_inputs": [
+          "/availability",
+          "/time_limits",
+          "/existing_commitments"
+        ]
+      },
+      "reviewed_enforcement": "required_project_policy",
+      "reviewed_operator": "new_sessions_within_supplied_availability_and_budgets",
+      "reviewed_threshold": null,
+      "reviewed_unit": "",
+      "reviewer_role": "assistant_evidence_assessment",
+      "revision_id": "assistant-prototype-rule-review-2026-11-13:1",
+      "runtime_activation_status": "available_as_reference_when_release_installed",
+      "sam_review_status": "delegated_authority_finalized",
+      "source_evidence_ref": "local_project_notebook_and_profile_contract",
+      "source_population_conditions": null,
+      "source_statement_values_typed": null,
+      "source_unit": "",
+      "source_url": "",
+      "team_decision": "approved_for_prototype",
+      "validator_execution_ready": false
+    },
+    {
+      "adoption_status": "adopted_by_team_delegation",
+      "applicability": {
+        "project_age_max": 17,
+        "project_age_min": 13,
+        "source_conditions": null
+      },
+      "approval_authority": "Sam’s delegated team authority",
+      "assistant_decision": "approved_for_prototype",
+      "candidate_rule_id": "USER_EQUIPMENT_SPACE",
+      "checked_on": "2026-11-13",
+      "corrections_and_qualifications": [
+        "These are project software requirements, not health claims or publisher rules. Human peer review has not been fabricated."
+      ],
+      "display_name": "Available equipment and space",
+      "enabled_for_planner": true,
+      "evaluation_group_id": "USER_EQUIPMENT_SPACE",
+      "evidence_access": "local_project_files_read",
+      "independent_human_review_status": "not_completed",
+      "manual_sam_review_claimed": false,
+      "measurement_window": {
+        "end_field": "/planning_window/end_date",
+        "kind": "seven_consecutive_local_dates",
+        "policy_origin": "project_window_interpretation_not_publisher_window_definition",
+        "required_day_count": 7,
+        "start_field": "/planning_window/start_date",
+        "timezone_field": "/planning_window/timezone"
+      },
+      "missing_and_null_handling": {
+        "known_conflict": "A proven violation remains Violated even when other information is missing",
+        "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+        "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+        "not_applicable": "Only after population or request-mode exclusion is established"
+      },
+      "original_candidate_sha256": "d5ee55258deacbaf7bee37782d687b21e29ce73d90be1e5bb8c9d5890ab06c6f",
+      "policy_origin": "project_design_not_medical_guidance",
+      "project_definition": {
+        "definition": "Compare reviewed equipment quantities and space requirements with the supplied resources; true/false/null and unknown quantities remain distinct. Existing practices are facts, not newly recommended catalog activities.",
+        "fields": [
+          "/equipment",
+          "/space"
+        ],
+        "unknown": "Unverified activity requirements or essential resources yield Unknown, not an assumed hoop, court, ball, or partner."
+      },
+      "reason": "Approved as explicit project behavior, with the revised definition below.",
+      "record_kind": "user_constraint_template",
+      "required_inputs": {
+        "public_or_review_inputs": [
+          "/equipment",
+          "/space"
+        ]
+      },
+      "reviewed_enforcement": "required_project_policy",
+      "reviewed_operator": "new_activity_requirements_supported_by_supplied_resources",
+      "reviewed_threshold": null,
+      "reviewed_unit": "",
+      "reviewer_role": "assistant_evidence_assessment",
+      "revision_id": "assistant-prototype-rule-review-2026-11-13:1",
+      "runtime_activation_status": "available_as_reference_when_release_installed",
+      "sam_review_status": "delegated_authority_finalized",
+      "source_evidence_ref": "local_project_notebook_and_profile_contract",
+      "source_population_conditions": null,
+      "source_statement_values_typed": null,
+      "source_unit": "",
+      "source_url": "",
+      "team_decision": "approved_for_prototype",
+      "validator_execution_ready": false
+    },
+    {
+      "adoption_status": "adopted_by_team_delegation",
+      "applicability": {
+        "project_age_max": 17,
+        "project_age_min": 13,
+        "source_conditions": null
+      },
+      "approval_authority": "Sam’s delegated team authority",
+      "assistant_decision": "approved_for_prototype",
+      "candidate_rule_id": "USER_PARTICIPANTS",
+      "checked_on": "2026-11-13",
+      "corrections_and_qualifications": [
+        "These are project software requirements, not health claims or publisher rules. Human peer review has not been fabricated."
+      ],
+      "display_name": "Available participants and roles",
+      "enabled_for_planner": true,
+      "evaluation_group_id": "USER_PARTICIPANTS",
+      "evidence_access": "local_project_files_read",
+      "independent_human_review_status": "not_completed",
+      "manual_sam_review_claimed": false,
+      "measurement_window": {
+        "end_field": "/planning_window/end_date",
+        "kind": "seven_consecutive_local_dates",
+        "policy_origin": "project_window_interpretation_not_publisher_window_definition",
+        "required_day_count": 7,
+        "start_field": "/planning_window/start_date",
+        "timezone_field": "/planning_window/timezone"
+      },
+      "missing_and_null_handling": {
+        "known_conflict": "A proven violation remains Violated even when other information is missing",
+        "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+        "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+        "not_applicable": "Only after population or request-mode exclusion is established"
+      },
+      "original_candidate_sha256": "6b8001b87b285d009ef4e9f1677767a5b483afcc71fd877c4934d63b8a500999",
+      "policy_origin": "project_design_not_medical_guidance",
+      "project_definition": {
+        "definition": "participants_available includes the athlete. Match both count and required roles; do not assume a partner or treat an unknown requirement as solo-compatible.",
+        "fields": [
+          "/participants_available"
+        ],
+        "unknown": "Clarify essential missing participant facts before adding an activity; no partner is required merely to display an existing practice."
+      },
+      "reason": "Approved as explicit project behavior, with the revised definition below.",
+      "record_kind": "user_constraint_template",
+      "required_inputs": {
+        "public_or_review_inputs": [
+          "/participants_available"
+        ]
+      },
+      "reviewed_enforcement": "required_project_policy",
+      "reviewed_operator": "available_participants_meet_reviewed_minimum_and_roles",
+      "reviewed_threshold": null,
+      "reviewed_unit": "",
+      "reviewer_role": "assistant_evidence_assessment",
+      "revision_id": "assistant-prototype-rule-review-2026-11-13:1",
+      "runtime_activation_status": "available_as_reference_when_release_installed",
+      "sam_review_status": "delegated_authority_finalized",
+      "source_evidence_ref": "local_project_notebook_and_profile_contract",
+      "source_population_conditions": null,
+      "source_statement_values_typed": null,
+      "source_unit": "",
+      "source_url": "",
+      "team_decision": "approved_for_prototype",
+      "validator_execution_ready": false
+    },
+    {
+      "adoption_status": "adopted_by_team_delegation",
+      "applicability": {
+        "project_age_max": 17,
+        "project_age_min": 13,
+        "source_conditions": null
+      },
+      "approval_authority": "Sam’s delegated team authority",
+      "assistant_decision": "approved_for_prototype",
+      "candidate_rule_id": "USER_EXISTING_COMMITMENTS",
+      "checked_on": "2026-11-13",
+      "corrections_and_qualifications": [
+        "These are project software requirements, not health claims or publisher rules. Human peer review has not been fabricated."
+      ],
+      "display_name": "Existing practices, games, and other commitments",
+      "enabled_for_planner": true,
+      "evaluation_group_id": "USER_EXISTING_COMMITMENTS",
+      "evidence_access": "local_project_files_read",
+      "independent_human_review_status": "not_completed",
+      "manual_sam_review_claimed": false,
+      "measurement_window": {
+        "end_field": "/planning_window/end_date",
+        "kind": "seven_consecutive_local_dates",
+        "policy_origin": "project_window_interpretation_not_publisher_window_definition",
+        "required_day_count": 7,
+        "start_field": "/planning_window/start_date",
+        "timezone_field": "/planning_window/timezone"
+      },
+      "missing_and_null_handling": {
+        "known_conflict": "A proven violation remains Violated even when other information is missing",
+        "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+        "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+        "not_applicable": "Only after population or request-mode exclusion is established"
+      },
+      "original_candidate_sha256": "4921cf094f2e765499ca526b80de2685c48318a00d562ce1d0c9672b67d5c62f",
+      "policy_origin": "project_design_not_medical_guidance",
+      "project_definition": {
+        "definition": "Preserve supplied dates/times/content and link schedule entries through existing_commitment_refs. Keep known commitments when assessing participation; never silently delete them to fit a new plan. Existing facts need no catalog approval.",
+        "fields": [
+          "/existing_commitments"
+        ],
+        "unknown": "Retain unknown times as unknown. Ask only when needed for the requested calculation or new schedule; a known conflict remains reportable."
+      },
+      "reason": "Approved as explicit project behavior, with the revised definition below.",
+      "record_kind": "user_constraint_template",
+      "required_inputs": {
+        "public_or_review_inputs": [
+          "/existing_commitments"
+        ]
+      },
+      "reviewed_enforcement": "required_project_policy",
+      "reviewed_operator": "preserve_supplied_commitments_and_count_them",
+      "reviewed_threshold": null,
+      "reviewed_unit": "",
+      "reviewer_role": "assistant_evidence_assessment",
+      "revision_id": "assistant-prototype-rule-review-2026-11-13:1",
+      "runtime_activation_status": "available_as_reference_when_release_installed",
+      "sam_review_status": "delegated_authority_finalized",
+      "source_evidence_ref": "local_project_notebook_and_profile_contract",
+      "source_population_conditions": null,
+      "source_statement_values_typed": null,
+      "source_unit": "",
+      "source_url": "",
+      "team_decision": "approved_for_prototype",
+      "validator_execution_ready": false
+    },
+    {
+      "adoption_status": "adopted_by_team_delegation",
+      "applicability": {
+        "project_age_max": 17,
+        "project_age_min": 13,
+        "source_conditions": null
+      },
+      "approval_authority": "Sam’s delegated team authority",
+      "assistant_decision": "approved_for_prototype",
+      "candidate_rule_id": "POLICY_REQUIRED_INFORMATION",
+      "checked_on": "2026-11-13",
+      "corrections_and_qualifications": [
+        "These are project software requirements, not health claims or publisher rules. Human peer review has not been fabricated."
+      ],
+      "display_name": "Case-level essential information",
+      "enabled_for_planner": true,
+      "evaluation_group_id": "POLICY_REQUIRED_INFORMATION",
+      "evidence_access": "local_project_files_read",
+      "independent_human_review_status": "not_completed",
+      "manual_sam_review_claimed": false,
+      "measurement_window": {
+        "end_field": "/planning_window/end_date",
+        "kind": "seven_consecutive_local_dates",
+        "policy_origin": "project_window_interpretation_not_publisher_window_definition",
+        "required_day_count": 7,
+        "start_field": "/planning_window/start_date",
+        "timezone_field": "/planning_window/timezone"
+      },
+      "missing_and_null_handling": {
+        "known_conflict": "A proven violation remains Violated even when other information is missing",
+        "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+        "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+        "not_applicable": "Only after population or request-mode exclusion is established"
+      },
+      "original_candidate_sha256": "9310ef961fedecaefb2ec1a1ed2d5e12426972688bdfbb25b64ad2a1ada1462f",
+      "policy_origin": "project_design_not_medical_guidance",
+      "project_definition": {
+        "definition": "Ask clarification for missing athlete facts essential to the requested action. Treat malformed/incomplete model output as output failure. A supplied-practices-only calendar can be a plan with zero added training.",
+        "fields": [
+          "/athlete_request",
+          "/planning_window",
+          "/existing_commitments"
+        ],
+        "unknown": "Do not ask irrelevant equipment/partner questions when no new activity is proposed; do not use outside_scope merely because a source approval is pending."
+      },
+      "reason": "Approved as explicit project behavior, with the revised definition below.",
+      "record_kind": "project_policy_template",
+      "required_inputs": {
+        "public_or_review_inputs": [
+          "/athlete_request",
+          "/planning_window",
+          "/existing_commitments"
+        ]
+      },
+      "reviewed_enforcement": "required_project_policy",
+      "reviewed_operator": "task_relevant_essential_information_only",
+      "reviewed_threshold": null,
+      "reviewed_unit": "",
+      "reviewer_role": "assistant_evidence_assessment",
+      "revision_id": "assistant-prototype-rule-review-2026-11-13:1",
+      "runtime_activation_status": "available_as_reference_when_release_installed",
+      "sam_review_status": "delegated_authority_finalized",
+      "source_evidence_ref": "local_project_notebook_and_profile_contract",
+      "source_population_conditions": null,
+      "source_statement_values_typed": null,
+      "source_unit": "",
+      "source_url": "",
+      "team_decision": "approved_for_prototype",
+      "validator_execution_ready": false
+    },
+    {
+      "adoption_status": "adopted_by_team_delegation",
+      "applicability": {
+        "project_age_max": 17,
+        "project_age_min": 13,
+        "source_conditions": null
+      },
+      "approval_authority": "Sam’s delegated team authority",
+      "assistant_decision": "approved_for_prototype",
+      "candidate_rule_id": "POLICY_TIMING_INTEGRITY",
+      "checked_on": "2026-11-13",
+      "corrections_and_qualifications": [
+        "These are project software requirements, not health claims or publisher rules. Human peer review has not been fabricated."
+      ],
+      "display_name": "Durations, units, time budgets, and overlap",
+      "enabled_for_planner": true,
+      "evaluation_group_id": "POLICY_TIMING_INTEGRITY",
+      "evidence_access": "local_project_files_read",
+      "independent_human_review_status": "not_completed",
+      "manual_sam_review_claimed": false,
+      "measurement_window": {
+        "end_field": "/planning_window/end_date",
+        "kind": "seven_consecutive_local_dates",
+        "policy_origin": "project_window_interpretation_not_publisher_window_definition",
+        "required_day_count": 7,
+        "start_field": "/planning_window/start_date",
+        "timezone_field": "/planning_window/timezone"
+      },
+      "missing_and_null_handling": {
+        "known_conflict": "A proven violation remains Violated even when other information is missing",
+        "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+        "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+        "not_applicable": "Only after population or request-mode exclusion is established"
+      },
+      "original_candidate_sha256": "a95f5fe9e43caa2e3b87a67ade67cd7f9aea416806e626e441866e0909def55a",
+      "policy_origin": "project_design_not_medical_guidance",
+      "project_definition": {
+        "definition": "Use valid local dates and HH:MM times. Where both endpoints exist, duration must agree. Do not convert source repetitions into minutes. Do not guess an overnight end date from end_time earlier than start_time. Distinct overlapping sessions require conflict review.",
+        "fields": [
+          "/planning_window",
+          "/availability",
+          "/existing_commitments"
+        ],
+        "unknown": "Unknown duration is not zero; inconsistent endpoints are a conflict or clarification need. Preserve unknown values."
+      },
+      "reason": "Approved as explicit project behavior, with the revised definition below.",
+      "record_kind": "project_policy_template",
+      "required_inputs": {
+        "public_or_review_inputs": [
+          "/planning_window",
+          "/availability",
+          "/existing_commitments"
+        ]
+      },
+      "reviewed_enforcement": "required_project_policy",
+      "reviewed_operator": "consistent_duration_units_and_no_unsupported_overlap",
+      "reviewed_threshold": null,
+      "reviewed_unit": "",
+      "reviewer_role": "assistant_evidence_assessment",
+      "revision_id": "assistant-prototype-rule-review-2026-11-13:1",
+      "runtime_activation_status": "available_as_reference_when_release_installed",
+      "sam_review_status": "delegated_authority_finalized",
+      "source_evidence_ref": "local_project_notebook_and_profile_contract",
+      "source_population_conditions": null,
+      "source_statement_values_typed": null,
+      "source_unit": "",
+      "source_url": "",
+      "team_decision": "approved_for_prototype",
+      "validator_execution_ready": false
+    },
+    {
+      "adoption_status": "adopted_by_team_delegation",
+      "applicability": {
+        "project_age_max": 17,
+        "project_age_min": 13,
+        "source_conditions": null
+      },
+      "approval_authority": "Sam’s delegated team authority",
+      "assistant_decision": "approved_for_prototype",
+      "candidate_rule_id": "POLICY_SESSION_ACCOUNTING",
+      "checked_on": "2026-11-13",
+      "corrections_and_qualifications": [
+        "These are project software requirements, not health claims or publisher rules. Human peer review has not been fabricated."
+      ],
+      "display_name": "Activity classification and component accounting",
+      "enabled_for_planner": true,
+      "evaluation_group_id": "POLICY_SESSION_ACCOUNTING",
+      "evidence_access": "local_project_files_read",
+      "independent_human_review_status": "not_completed",
+      "manual_sam_review_claimed": false,
+      "measurement_window": {
+        "end_field": "/planning_window/end_date",
+        "kind": "seven_consecutive_local_dates",
+        "policy_origin": "project_window_interpretation_not_publisher_window_definition",
+        "required_day_count": 7,
+        "start_field": "/planning_window/start_date",
+        "timezone_field": "/planning_window/timezone"
+      },
+      "missing_and_null_handling": {
+        "known_conflict": "A proven violation remains Violated even when other information is missing",
+        "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+        "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+        "not_applicable": "Only after population or request-mode exclusion is established"
+      },
+      "original_candidate_sha256": "ea85cf0453d1d4c5f13091bd83b8248287def11239ae7a7dae99c40a98acfb70",
+      "policy_origin": "project_design_not_medical_guidance",
+      "project_definition": {
+        "definition": "Count a separate session once. A component must reference an existing non-self parent and is not an extra independent session. Parent/component spans must be consistent; do not double count included warm-ups or source-commitment links.",
+        "fields": [
+          "response/weekly_schedule/*/activities",
+          "/existing_commitments"
+        ],
+        "unknown": "If links or extents cannot establish a reliable total, return Unknown rather than choosing the smallest total."
+      },
+      "reason": "Approved as explicit project behavior, with the revised definition below.",
+      "record_kind": "project_policy_template",
+      "required_inputs": {
+        "public_or_review_inputs": [
+          "response/weekly_schedule/*/activities",
+          "/existing_commitments"
+        ]
+      },
+      "reviewed_enforcement": "required_project_policy",
+      "reviewed_operator": "count_distinct_parent_sessions_once",
+      "reviewed_threshold": null,
+      "reviewed_unit": "",
+      "reviewer_role": "assistant_evidence_assessment",
+      "revision_id": "assistant-prototype-rule-review-2026-11-13:1",
+      "runtime_activation_status": "available_as_reference_when_release_installed",
+      "sam_review_status": "delegated_authority_finalized",
+      "source_evidence_ref": "local_project_notebook_and_profile_contract",
+      "source_population_conditions": null,
+      "source_statement_values_typed": null,
+      "source_unit": "",
+      "source_url": "",
+      "team_decision": "approved_for_prototype",
+      "validator_execution_ready": false
+    },
+    {
+      "adoption_status": "adopted_by_team_delegation",
+      "applicability": {
+        "project_age_max": 17,
+        "project_age_min": 13,
+        "source_conditions": null
+      },
+      "approval_authority": "Sam’s delegated team authority",
+      "assistant_decision": "approved_for_prototype",
+      "candidate_rule_id": "POLICY_CATALOG_ELIGIBILITY",
+      "checked_on": "2026-11-13",
+      "corrections_and_qualifications": [
+        "These are project software requirements, not health claims or publisher rules. Human peer review has not been fabricated."
+      ],
+      "display_name": "Approved and sufficiently documented activities",
+      "enabled_for_planner": true,
+      "evaluation_group_id": "POLICY_CATALOG_ELIGIBILITY",
+      "evidence_access": "local_project_files_read",
+      "independent_human_review_status": "not_completed",
+      "manual_sam_review_claimed": false,
+      "measurement_window": {
+        "end_field": "/planning_window/end_date",
+        "kind": "seven_consecutive_local_dates",
+        "policy_origin": "project_window_interpretation_not_publisher_window_definition",
+        "required_day_count": 7,
+        "start_field": "/planning_window/start_date",
+        "timezone_field": "/planning_window/timezone"
+      },
+      "missing_and_null_handling": {
+        "known_conflict": "A proven violation remains Violated even when other information is missing",
+        "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+        "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+        "not_applicable": "Only after population or request-mode exclusion is established"
+      },
+      "original_candidate_sha256": "8d4170e3510fb45f004c939d825d6c94899c5db2728e3273f05b5b1b7ba0118b",
+      "policy_origin": "project_design_not_medical_guidance",
+      "project_definition": {
+        "definition": "A workflow that actually selects an available catalog record must honor that record's approval, source and case-relevant resource conditions. This is not a requirement that every model-generated description name a catalog entry. Version 1 has no catalog access: source/catalog IDs remain optional, IDs must not be invented, and observable content/resource checks remain independent. Existing user commitments need no catalog ID or approval but still contribute to participation checks.",
+        "fields": [
+          "planner_version",
+          "explicit_catalog_selection",
+          "response/weekly_schedule/*/activities",
+          "/existing_commitments"
+        ],
+        "unknown": "Never fail Version 1 solely for an absent source/catalog ID or hidden catalog membership. Exclude known ineligible records from actual catalog lookups. Cross-version content scoring and denominators remain governed by the frozen protocol; new catalog-membership scoring is not adopted here."
+      },
+      "reason": "Approved as explicit project behavior, with the revised definition below.",
+      "record_kind": "project_policy_template",
+      "required_inputs": {
+        "public_or_review_inputs": [
+          "planner_version",
+          "explicit_catalog_selection",
+          "response/weekly_schedule/*/activities",
+          "/existing_commitments"
+        ]
+      },
+      "reviewed_enforcement": "required_project_policy",
+      "reviewed_operator": "explicit_catalog_selections_require_reviewed_eligibility",
+      "reviewed_threshold": null,
+      "reviewed_unit": "",
+      "reviewer_role": "assistant_evidence_assessment",
+      "revision_id": "assistant-prototype-rule-review-2026-11-13:1",
+      "runtime_activation_status": "available_as_reference_when_release_installed",
+      "sam_review_status": "delegated_authority_finalized",
+      "source_evidence_ref": "local_project_notebook_and_profile_contract",
+      "source_population_conditions": null,
+      "source_statement_values_typed": null,
+      "source_unit": "",
+      "source_url": "",
+      "team_decision": "approved_for_prototype",
+      "validator_execution_ready": false
+    },
+    {
+      "adoption_status": "adopted_by_team_delegation",
+      "applicability": {
+        "project_age_max": 17,
+        "project_age_min": 13,
+        "source_conditions": null
+      },
+      "approval_authority": "Sam’s delegated team authority",
+      "assistant_decision": "approved_for_prototype",
+      "candidate_rule_id": "POLICY_SCOPE",
+      "checked_on": "2026-11-13",
+      "corrections_and_qualifications": [
+        "These are project software requirements, not health claims or publisher rules. Human peer review has not been fabricated."
+      ],
+      "display_name": "Project age and content scope",
+      "enabled_for_planner": true,
+      "evaluation_group_id": "POLICY_SCOPE",
+      "evidence_access": "local_project_files_read",
+      "independent_human_review_status": "not_completed",
+      "manual_sam_review_claimed": false,
+      "measurement_window": {
+        "end_field": "/planning_window/end_date",
+        "kind": "seven_consecutive_local_dates",
+        "policy_origin": "project_window_interpretation_not_publisher_window_definition",
+        "required_day_count": 7,
+        "start_field": "/planning_window/start_date",
+        "timezone_field": "/planning_window/timezone"
+      },
+      "missing_and_null_handling": {
+        "known_conflict": "A proven violation remains Violated even when other information is missing",
+        "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+        "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+        "not_applicable": "Only after population or request-mode exclusion is established"
+      },
+      "original_candidate_sha256": "091d5f6e809d820742e964bef20226fe4d09531d6ca664b5645edc620f32faa6",
+      "policy_origin": "project_design_not_medical_guidance",
+      "project_definition": {
+        "definition": "Scope includes weekly basketball skill planning for ages 13–17, organizing supplied basketball commitments, relevant clarifications/conflicts, and optional factual food composition. Unknown essential age prompts clarification; known outside-target age or unrelated content uses outside_scope. No medical diagnosis, clearance, weight-cutting or individualized diet prescription.",
+        "fields": [
+          "/age",
+          "/athlete_request",
+          "/reported_limitations",
+          "/food_question"
+        ],
+        "unknown": "An in-scope request with missing resources remains clarification/constraint_conflict as appropriate; a request to display two supplied practices is in scope."
+      },
+      "reason": "Approved as explicit project behavior, with the revised definition below.",
+      "record_kind": "project_policy_template",
+      "required_inputs": {
+        "public_or_review_inputs": [
+          "/age",
+          "/athlete_request",
+          "/reported_limitations",
+          "/food_question"
+        ]
+      },
+      "reviewed_enforcement": "required_project_policy",
+      "reviewed_operator": "basketball_planning_and_supplied_calendar_are_in_scope",
+      "reviewed_threshold": null,
+      "reviewed_unit": "",
+      "reviewer_role": "assistant_evidence_assessment",
+      "revision_id": "assistant-prototype-rule-review-2026-11-13:1",
+      "runtime_activation_status": "available_as_reference_when_release_installed",
+      "sam_review_status": "delegated_authority_finalized",
+      "source_evidence_ref": "local_project_notebook_and_profile_contract",
+      "source_population_conditions": null,
+      "source_statement_values_typed": null,
+      "source_unit": "",
+      "source_url": "",
+      "team_decision": "approved_for_prototype",
+      "validator_execution_ready": false
+    },
+    {
+      "adoption_status": "adopted_by_team_delegation",
+      "applicability": {
+        "project_age_max": 17,
+        "project_age_min": 13,
+        "source_conditions": null
+      },
+      "approval_authority": "Sam’s delegated team authority",
+      "assistant_decision": "approved_for_prototype",
+      "candidate_rule_id": "POLICY_RESULT_SEMANTICS",
+      "checked_on": "2026-11-13",
+      "corrections_and_qualifications": [
+        "These are project software requirements, not health claims or publisher rules. Human peer review has not been fabricated."
+      ],
+      "display_name": "Met, Violated, Unknown, and Not applicable",
+      "enabled_for_planner": true,
+      "evaluation_group_id": "POLICY_RESULT_SEMANTICS",
+      "evidence_access": "local_project_files_read",
+      "independent_human_review_status": "not_completed",
+      "manual_sam_review_claimed": false,
+      "measurement_window": {
+        "end_field": "/planning_window/end_date",
+        "kind": "seven_consecutive_local_dates",
+        "policy_origin": "project_window_interpretation_not_publisher_window_definition",
+        "required_day_count": 7,
+        "start_field": "/planning_window/start_date",
+        "timezone_field": "/planning_window/timezone"
+      },
+      "missing_and_null_handling": {
+        "known_conflict": "A proven violation remains Violated even when other information is missing",
+        "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+        "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+        "not_applicable": "Only after population or request-mode exclusion is established"
+      },
+      "original_candidate_sha256": "097066b94e91182547a80d503b0bd7d764dab80b9c1f5ddc531241b8ccc7ad2b",
+      "policy_origin": "project_design_not_medical_guidance",
+      "project_definition": {
+        "definition": "Use Met, Violated, Unknown and Not applicable with explicit evidence. Partial known information can establish a violation; incomplete information does not establish a pass or exclusion.",
+        "fields": [
+          "check_applicability",
+          "known_inputs",
+          "accounting_integrity"
+        ],
+        "unknown": "Follow shared result semantics; do not replace Unknown by Met."
+      },
+      "reason": "Approved as explicit project behavior, with the revised definition below.",
+      "record_kind": "project_policy_template",
+      "required_inputs": {
+        "public_or_review_inputs": [
+          "check_applicability",
+          "known_inputs",
+          "accounting_integrity"
+        ]
+      },
+      "reviewed_enforcement": "required_project_policy",
+      "reviewed_operator": "four_state_check_results",
+      "reviewed_threshold": null,
+      "reviewed_unit": "",
+      "reviewer_role": "assistant_evidence_assessment",
+      "revision_id": "assistant-prototype-rule-review-2026-11-13:1",
+      "runtime_activation_status": "available_as_reference_when_release_installed",
+      "sam_review_status": "delegated_authority_finalized",
+      "source_evidence_ref": "local_project_notebook_and_profile_contract",
+      "source_population_conditions": null,
+      "source_statement_values_typed": null,
+      "source_unit": "",
+      "source_url": "",
+      "team_decision": "approved_for_prototype",
+      "validator_execution_ready": false
+    },
+    {
+      "adoption_status": "adopted_by_team_delegation",
+      "applicability": {
+        "project_age_max": 17,
+        "project_age_min": 13,
+        "source_conditions": null
+      },
+      "approval_authority": "Sam’s delegated team authority",
+      "assistant_decision": "approved_for_prototype",
+      "candidate_rule_id": "POLICY_INDEPENDENT_EVALUATION",
+      "checked_on": "2026-11-13",
+      "corrections_and_qualifications": [
+        "These are project software requirements, not health claims or publisher rules. Human peer review has not been fabricated."
+      ],
+      "display_name": "Common evaluation and denominators",
+      "enabled_for_planner": true,
+      "evaluation_group_id": "POLICY_INDEPENDENT_EVALUATION",
+      "evidence_access": "local_project_files_read",
+      "independent_human_review_status": "not_completed",
+      "manual_sam_review_claimed": false,
+      "measurement_window": "workflow_or_release",
+      "missing_and_null_handling": {
+        "known_conflict": "A proven violation remains Violated even when other information is missing",
+        "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+        "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+        "not_applicable": "Only after population or request-mode exclusion is established"
+      },
+      "original_candidate_sha256": "770621f437486716f6be581071ef6de6866b1cf03db3e82e4f3acc56e78a5ed1",
+      "policy_origin": "project_design_not_medical_guidance",
+      "project_definition": {
+        "definition": "Use the shared protocol, complete planned-job denominator and case-level checks fixed before final outcomes. The scorer stays separate from Version 4 self-evaluation; preserve failures and missing outputs. No private labels or feasibility witnesses enter model prompts.",
+        "fields": [
+          "docs/evaluation_protocol.md",
+          "frozen_case_checks",
+          "job_status",
+          "independent_scores"
+        ],
+        "unknown": "Record missing scores/outcomes as specified by the protocol; never remove failed jobs to improve a rate."
+      },
+      "reason": "Approved as explicit project behavior, with the revised definition below.",
+      "record_kind": "project_policy_template",
+      "required_inputs": {
+        "public_or_review_inputs": [
+          "docs/evaluation_protocol.md",
+          "frozen_case_checks",
+          "job_status",
+          "independent_scores"
+        ]
+      },
+      "reviewed_enforcement": "required_project_policy",
+      "reviewed_operator": "same_frozen_job_level_protocol_for_all_versions",
+      "reviewed_threshold": null,
+      "reviewed_unit": "",
+      "reviewer_role": "assistant_evidence_assessment",
+      "revision_id": "assistant-prototype-rule-review-2026-11-13:1",
+      "runtime_activation_status": "available_as_reference_when_release_installed",
+      "sam_review_status": "delegated_authority_finalized",
+      "source_evidence_ref": "local_project_notebook_and_profile_contract",
+      "source_population_conditions": null,
+      "source_statement_values_typed": null,
+      "source_unit": "",
+      "source_url": "",
+      "team_decision": "approved_for_prototype",
+      "validator_execution_ready": false
+    },
+    {
+      "adoption_status": "adopted_by_team_delegation",
+      "applicability": {
+        "project_age_max": 17,
+        "project_age_min": 13,
+        "source_conditions": null
+      },
+      "approval_authority": "Sam’s delegated team authority",
+      "assistant_decision": "approved_for_prototype",
+      "candidate_rule_id": "POLICY_REVIEW_ACTIVATION",
+      "checked_on": "2026-11-13",
+      "corrections_and_qualifications": [
+        "These are project software requirements, not health claims or publisher rules. Human peer review has not been fabricated."
+      ],
+      "display_name": "Separate preparation, adoption, and activation",
+      "enabled_for_planner": true,
+      "evaluation_group_id": "POLICY_REVIEW_ACTIVATION",
+      "evidence_access": "local_project_files_read",
+      "independent_human_review_status": "not_completed",
+      "manual_sam_review_claimed": false,
+      "measurement_window": "workflow_or_release",
+      "missing_and_null_handling": {
+        "known_conflict": "A proven violation remains Violated even when other information is missing",
+        "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+        "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+        "not_applicable": "Only after population or request-mode exclusion is established"
+      },
+      "original_candidate_sha256": "50b0c352bc8b50b8a9c1d63628c02fc0f36d0e941cec77d6111ce711f5762469",
+      "policy_origin": "project_design_not_medical_guidance",
+      "project_definition": {
+        "authorization": "Use the final team approval record and its evidence; do not invent individual reviewer actions.",
+        "definition": "The recorded final team decision under authorized delegation establishes adoption. No additional manual confirmation is required. Resource installation and automatic validator implementation remain separate facts.",
+        "independent_human_peer_review_claimed": false,
+        "installation": "Reference availability begins after the approved release is installed and its manifest is verified.",
+        "validator": "Installing definitions does not claim that automatic rule evaluation is implemented."
+      },
+      "reason": "Approved as explicit project behavior, with the revised definition below.",
+      "record_kind": "project_policy_template",
+      "required_inputs": {
+        "public_or_review_inputs": [
+          "final_team_approval_record",
+          "active_resource_release_manifest",
+          "reference_availability",
+          "validator_implementation_status"
+        ]
+      },
+      "reviewed_enforcement": "required_project_policy",
+      "reviewed_operator": "reviewed_package_requires_recorded_adoption_and_activation",
+      "reviewed_threshold": null,
+      "reviewed_unit": "",
+      "reviewer_role": "assistant_evidence_assessment",
+      "revision_id": "assistant-prototype-rule-review-2026-11-13:1",
+      "runtime_activation_status": "available_as_reference_when_release_installed",
+      "sam_review_status": "delegated_authority_finalized",
+      "source_evidence_ref": "local_project_notebook_and_profile_contract",
+      "source_population_conditions": null,
+      "source_statement_values_typed": null,
+      "source_unit": "",
+      "source_url": "",
+      "team_decision": "approved_for_prototype",
+      "validator_execution_ready": false
+    }
+  ],
+  "shared_result_semantics": {
+    "known_conflict": "A proven violation remains Violated even when other information is missing",
+    "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+    "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+    "not_applicable": "Only after population or request-mode exclusion is established"
+  },
+  "validator_execution_ready": false
+}

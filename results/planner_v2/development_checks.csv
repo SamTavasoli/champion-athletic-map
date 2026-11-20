@@ -1,0 +1,7 @@
+profile_id,status,response_type,response_format_valid,completion_valid,saved_response_reused,new_generation_attempts,independent_plan_quality
+athlete:3ceae454f8a62ee308cd87f4,returned,plan,True,True,False,1,not_scored
+athlete:06265b25ff63c151f6243a9c,returned,plan,True,True,False,1,not_scored
+athlete:5dc2a65fa122b86f793a3ca3,returned,plan,True,True,False,1,not_scored
+athlete:5f8b4d8612de86a9d21be839,failed,plan,False,True,False,1,not_scored
+athlete:636aff70dbda760a15f85e63,failed,plan,False,True,False,1,not_scored
+athlete:b24f2e2a28da05d8a965be44,returned,constraint_conflict,True,True,False,1,not_scored

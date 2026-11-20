@@ -1,0 +1,18 @@
+{
+  "queries": [
+    "Basketball practice; I want intense training every da; goals [\"Build mental resilienc; experience {\"experience; equipment [\"Basketball\",\"Hoop\",\"Gy; space single_hoop_; people 2",
+    "Youth basketball participation, rest and recovery; age 13; grade 7; commitments [\"practice\"]; request I want intense training every day without res"
+  ],
+  "query_records": [
+    {
+      "query_id": "retrieval-query:47979d924c9f295e96791298916b90e6945e7b89bc51ccdccb93a6b98b4b5e62",
+      "text": "Basketball practice; I want intense training every da; goals [\"Build mental resilienc; experience {\"experience; equipment [\"Basketball\",\"Hoop\",\"Gy; space single_hoop_; people 2",
+      "text_sha256": "8bdbe49ce9b84672f1ee2a2490f9c34e8e3e01682a97702c43307fa697a92cda"
+    },
+    {
+      "query_id": "retrieval-query:3ca06a376816ec5222f1fabfb8456185e9a930fa21878172fd048579f017c862",
+      "text": "Youth basketball participation, rest and recovery; age 13; grade 7; commitments [\"practice\"]; request I want intense training every day without res",
+      "text_sha256": "f6f23b4166e5a286a3446b710270916abdc88317853e567104535a7609374f60"
+    }
+  ]
+}

@@ -1,0 +1,1455 @@
+{
+  "probes": [
+    {
+      "arguments": [
+        [
+          "toy:a"
+        ],
+        [
+          {
+            "cache_state": "unknown",
+            "job_id": "toy:a",
+            "job_status": "returned",
+            "lookup_calls": 0,
+            "retrieval_calls": 0,
+            "stages": [
+              {
+                "elapsed_seconds": 9,
+                "stage_id": "coordinator"
+              },
+              {
+                "elapsed_seconds": 8,
+                "stage_id": "specialist"
+              },
+              {
+                "elapsed_seconds": 2,
+                "stage_id": "last_model_call"
+              }
+            ],
+            "startup_elapsed_seconds": 30,
+            "workflow_elapsed_seconds": 12
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "returned_does_not_establish_planner_success": true,
+        "stage_durations_summed": false,
+        "stage_observations": 3,
+        "startup_included_in_request_time": false,
+        "startup_measurements_available": 1,
+        "workflow_seconds.returned.complete_mean": 12,
+        "workflow_seconds.returned.complete_total": 12
+      },
+      "function": "summarize_workflow_runtime",
+      "group": "workflow_time",
+      "name": "whole_workflow_and_overlapping_stages"
+    },
+    {
+      "arguments": [
+        [
+          "toy:a",
+          "toy:b",
+          "toy:c"
+        ],
+        [
+          {
+            "cache_state": "unknown",
+            "job_id": "toy:a",
+            "job_status": "returned",
+            "lookup_calls": 0,
+            "retrieval_calls": 0,
+            "stages": [],
+            "startup_elapsed_seconds": null,
+            "workflow_elapsed_seconds": 12
+          },
+          {
+            "cache_state": "unknown",
+            "job_id": "toy:b",
+            "job_status": "failed",
+            "lookup_calls": 0,
+            "retrieval_calls": 0,
+            "stages": [],
+            "startup_elapsed_seconds": null,
+            "workflow_elapsed_seconds": 5
+          },
+          {
+            "cache_state": "unknown",
+            "job_id": "toy:c",
+            "job_status": "timeout",
+            "lookup_calls": 0,
+            "retrieval_calls": 0,
+            "stages": [],
+            "startup_elapsed_seconds": null,
+            "workflow_elapsed_seconds": 20
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "execution_complete": true,
+        "workflow_seconds.all_terminal.complete_mean": 12.333333333333334,
+        "workflow_seconds.all_terminal.complete_total": 37,
+        "workflow_seconds.failed.complete_total": 5,
+        "workflow_seconds.returned.complete_mean": 12,
+        "workflow_seconds.timeout.complete_total": 20
+      },
+      "function": "summarize_workflow_runtime",
+      "group": "workflow_time",
+      "name": "failures_and_timeouts_retain_consumed_time"
+    },
+    {
+      "arguments": [
+        [
+          "toy:a",
+          "toy:b"
+        ],
+        [
+          {
+            "cache_state": "unknown",
+            "job_id": "toy:a",
+            "job_status": "returned",
+            "lookup_calls": 0,
+            "retrieval_calls": 0,
+            "stages": [],
+            "startup_elapsed_seconds": null,
+            "workflow_elapsed_seconds": 8
+          },
+          {
+            "cache_state": "unknown",
+            "job_id": "toy:b",
+            "job_status": "returned",
+            "lookup_calls": 0,
+            "retrieval_calls": 0,
+            "stages": [],
+            "startup_elapsed_seconds": null,
+            "workflow_elapsed_seconds": null
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "execution_complete": true,
+        "workflow_seconds.returned.available_measurements": 1,
+        "workflow_seconds.returned.complete_mean": null,
+        "workflow_seconds.returned.complete_total": null,
+        "workflow_seconds.returned.missing_measurements": 1,
+        "workflow_seconds.returned.observed_mean": 8
+      },
+      "function": "summarize_workflow_runtime",
+      "group": "workflow_time",
+      "name": "missing_duration_is_not_zero"
+    },
+    {
+      "arguments": [
+        [
+          "toy:a"
+        ],
+        [
+          {
+            "cache_state": "unknown",
+            "job_id": "toy:a",
+            "job_status": "returned",
+            "lookup_calls": 0,
+            "retrieval_calls": 0,
+            "stages": [],
+            "startup_elapsed_seconds": null,
+            "workflow_elapsed_seconds": 0
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "workflow_seconds.returned.complete_mean": 0,
+        "workflow_seconds.returned.complete_total": 0
+      },
+      "function": "summarize_workflow_runtime",
+      "group": "workflow_time",
+      "name": "explicit_zero_duration_is_valid"
+    },
+    {
+      "arguments": [
+        [
+          "toy:a",
+          "toy:b",
+          "toy:c",
+          "toy:d"
+        ],
+        [
+          {
+            "cache_state": "unknown",
+            "job_id": "toy:a",
+            "job_status": "returned",
+            "lookup_calls": 0,
+            "retrieval_calls": 0,
+            "stages": [],
+            "startup_elapsed_seconds": null,
+            "workflow_elapsed_seconds": 6
+          },
+          {
+            "cache_state": "unknown",
+            "job_id": "toy:b",
+            "job_status": "not_started",
+            "lookup_calls": 0,
+            "retrieval_calls": 0,
+            "stages": [],
+            "startup_elapsed_seconds": null,
+            "workflow_elapsed_seconds": null
+          },
+          {
+            "cache_state": "unknown",
+            "job_id": "toy:c",
+            "job_status": "running",
+            "lookup_calls": 0,
+            "retrieval_calls": 0,
+            "stages": [],
+            "startup_elapsed_seconds": null,
+            "workflow_elapsed_seconds": null
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "execution_complete": false,
+        "status_counts.failed": 0,
+        "status_counts.not_recorded": 1,
+        "status_counts.not_started": 1,
+        "status_counts.running": 1,
+        "workflow_seconds.returned.complete_mean": null,
+        "workflow_seconds.returned.observed_mean": 6
+      },
+      "function": "summarize_workflow_runtime",
+      "group": "workflow_time",
+      "name": "pending_jobs_are_not_failures"
+    },
+    {
+      "arguments": [
+        [
+          "toy:a"
+        ],
+        [
+          {
+            "cache_state": "unknown",
+            "job_id": "toy:a",
+            "job_status": "returned",
+            "lookup_calls": 0,
+            "retrieval_calls": 0,
+            "stages": [],
+            "startup_elapsed_seconds": null,
+            "workflow_elapsed_seconds": 10
+          }
+        ],
+        false
+      ],
+      "expected": {
+        "execution_complete": false,
+        "workflow_seconds.returned.complete_mean": null,
+        "workflow_seconds.returned.observed_mean": 10
+      },
+      "function": "summarize_workflow_runtime",
+      "group": "workflow_time",
+      "name": "incomplete_job_inventory_cannot_make_full_latency"
+    },
+    {
+      "arguments": [
+        [],
+        [],
+        true
+      ],
+      "expected": {
+        "expected_jobs": 0,
+        "retrieval_calls.complete_total": 0,
+        "workflow_seconds.all_terminal.observed_total": null,
+        "workflow_seconds.returned.complete_mean": null
+      },
+      "function": "summarize_workflow_runtime",
+      "group": "workflow_time",
+      "name": "empty_runtime_group_has_no_latency"
+    },
+    {
+      "arguments": [
+        [
+          "toy:a",
+          "toy:b"
+        ],
+        [
+          {
+            "cache_state": "unknown",
+            "job_id": "toy:a",
+            "job_status": "returned",
+            "lookup_calls": 1,
+            "retrieval_calls": 2,
+            "stages": [],
+            "startup_elapsed_seconds": null,
+            "workflow_elapsed_seconds": 10
+          },
+          {
+            "cache_state": "unknown",
+            "job_id": "toy:b",
+            "job_status": "returned",
+            "lookup_calls": 3,
+            "retrieval_calls": null,
+            "stages": [],
+            "startup_elapsed_seconds": null,
+            "workflow_elapsed_seconds": 10
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "lookup_calls.complete_total": 4,
+        "retrieval_calls.complete_total": null,
+        "retrieval_calls.missing_measurements": 1,
+        "retrieval_calls.observed_total": 2
+      },
+      "function": "summarize_workflow_runtime",
+      "group": "workflow_time",
+      "name": "unknown_lookups_are_not_zero"
+    },
+    {
+      "arguments": [
+        [
+          "toy:a"
+        ],
+        [
+          {
+            "cache_state": "unknown",
+            "job_id": "toy:a",
+            "job_status": "returned",
+            "lookup_calls": 0,
+            "retrieval_calls": 0,
+            "stages": [
+              {
+                "elapsed_seconds": null,
+                "stage_id": "toy:stage"
+              }
+            ],
+            "startup_elapsed_seconds": null,
+            "workflow_elapsed_seconds": 10
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "stage_measurements_missing": 1,
+        "workflow_seconds.returned.complete_total": 10
+      },
+      "function": "summarize_workflow_runtime",
+      "group": "workflow_time",
+      "name": "unknown_stage_duration_stays_missing"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "call_id": "toy:c1",
+            "phase": "initial",
+            "revision_index": 0,
+            "role": "coordinator"
+          },
+          {
+            "call_id": "toy:c2",
+            "phase": "initial",
+            "revision_index": 0,
+            "role": "specialist"
+          },
+          {
+            "call_id": "toy:c3",
+            "phase": "revision",
+            "revision_index": 1,
+            "role": "coordinator"
+          }
+        ],
+        [
+          {
+            "attempt_id": "toy:a1",
+            "attempt_status": "failed",
+            "call_id": "toy:c1",
+            "cost_estimate": {
+              "amount": 0.02,
+              "basis_ref": "toy:price-basis-v1",
+              "currency": "USD"
+            },
+            "input_tokens": 5,
+            "output_tokens": 0
+          },
+          {
+            "attempt_id": "toy:a2",
+            "attempt_status": "returned",
+            "call_id": "toy:c1",
+            "cost_estimate": {
+              "amount": 0.03,
+              "basis_ref": "toy:price-basis-v1",
+              "currency": "USD"
+            },
+            "input_tokens": 7,
+            "output_tokens": 3
+          },
+          {
+            "attempt_id": "toy:a3",
+            "attempt_status": "returned",
+            "call_id": "toy:c2",
+            "cost_estimate": {
+              "amount": 0.04,
+              "basis_ref": "toy:price-basis-v1",
+              "currency": "USD"
+            },
+            "input_tokens": 11,
+            "output_tokens": 4
+          },
+          {
+            "attempt_id": "toy:a4",
+            "attempt_status": "returned",
+            "call_id": "toy:c3",
+            "cost_estimate": {
+              "amount": 0.05,
+              "basis_ref": "toy:price-basis-v1",
+              "currency": "USD"
+            },
+            "input_tokens": 13,
+            "output_tokens": 6
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "input_tokens.complete_total": 36,
+        "logical_call_phases_observed.revision": 1,
+        "logical_call_roles_observed.coordinator": 2,
+        "logical_calls_total": 3,
+        "model_transport_cost_estimate.currency": "USD",
+        "model_transport_cost_estimate.estimate_total": 0.14,
+        "output_tokens.complete_total": 13,
+        "retry_attempts_total": 1,
+        "revision_calls_observed": 1,
+        "revision_rounds_total": 1,
+        "role_and_phase_breakdowns_overlap": true,
+        "transport_attempts_total": 4
+      },
+      "function": "summarize_model_transport",
+      "group": "model_usage",
+      "name": "retries_revisions_and_roles_remain_separate"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "call_id": "toy:c1",
+            "phase": "revision",
+            "revision_index": 1,
+            "role": "specialist"
+          },
+          {
+            "call_id": "toy:c2",
+            "phase": "revision",
+            "revision_index": 1,
+            "role": "evaluator"
+          }
+        ],
+        [
+          {
+            "attempt_id": "toy:a1",
+            "attempt_status": "returned",
+            "call_id": "toy:c1",
+            "cost_estimate": {
+              "amount": 0.1,
+              "basis_ref": "toy:price-basis-v1",
+              "currency": "USD"
+            },
+            "input_tokens": 10,
+            "output_tokens": 4
+          },
+          {
+            "attempt_id": "toy:a2",
+            "attempt_status": "returned",
+            "call_id": "toy:c2",
+            "cost_estimate": {
+              "amount": 0.1,
+              "basis_ref": "toy:price-basis-v1",
+              "currency": "USD"
+            },
+            "input_tokens": 10,
+            "output_tokens": 4
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "retry_attempts_total": 0,
+        "revision_calls_observed": 2,
+        "revision_rounds_total": 1
+      },
+      "function": "summarize_model_transport",
+      "group": "model_usage",
+      "name": "multiple_calls_in_one_revision_round"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "call_id": "toy:c",
+            "phase": "initial",
+            "revision_index": 0,
+            "role": "generator"
+          }
+        ],
+        [
+          {
+            "attempt_id": "toy:a",
+            "attempt_status": "timeout",
+            "call_id": "toy:c",
+            "cost_estimate": {
+              "amount": 0.03,
+              "basis_ref": "toy:price-basis-v1",
+              "currency": "USD"
+            },
+            "input_tokens": 9,
+            "output_tokens": 2
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "attempt_status_counts.timeout": 1,
+        "input_tokens.complete_total": 9,
+        "model_transport_cost_estimate.estimate_total": 0.03,
+        "output_tokens.complete_total": 2,
+        "usage_complete": true
+      },
+      "function": "summarize_model_transport",
+      "group": "model_usage",
+      "name": "failed_attempts_keep_measured_usage"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "call_id": "toy:c",
+            "phase": "initial",
+            "revision_index": 0,
+            "role": "generator"
+          }
+        ],
+        [
+          {
+            "attempt_id": "toy:a",
+            "attempt_status": "returned",
+            "call_id": "toy:c",
+            "cost_estimate": {
+              "amount": 0.1,
+              "basis_ref": "toy:price-basis-v1",
+              "currency": "USD"
+            },
+            "input_tokens": 12,
+            "output_tokens": 4
+          },
+          {
+            "attempt_id": "toy:b",
+            "attempt_status": "returned",
+            "call_id": "toy:c",
+            "cost_estimate": {
+              "amount": 0.1,
+              "basis_ref": "toy:price-basis-v1",
+              "currency": "USD"
+            },
+            "input_tokens": null,
+            "output_tokens": null
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "input_tokens.complete_total": null,
+        "input_tokens.missing_measurements": 1,
+        "input_tokens.observed_total": 12,
+        "output_tokens.complete_total": null,
+        "output_tokens.observed_total": 4
+      },
+      "function": "summarize_model_transport",
+      "group": "model_usage",
+      "name": "partial_tokens_do_not_become_full_total"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "call_id": "toy:c",
+            "phase": "initial",
+            "revision_index": 0,
+            "role": "generator"
+          }
+        ],
+        [
+          {
+            "attempt_id": "toy:a",
+            "attempt_status": "returned",
+            "call_id": "toy:c",
+            "cost_estimate": {
+              "amount": 0.1,
+              "basis_ref": "toy:price-basis-v1",
+              "currency": "USD"
+            },
+            "input_tokens": 10,
+            "output_tokens": 4
+          }
+        ],
+        false
+      ],
+      "expected": {
+        "input_tokens.complete_total": null,
+        "input_tokens.observed_total": 10,
+        "logical_calls_observed": 1,
+        "logical_calls_total": null,
+        "model_transport_cost_estimate.estimate_total": null,
+        "transport_attempts_total": null
+      },
+      "function": "summarize_model_transport",
+      "group": "model_usage",
+      "name": "incomplete_call_inventory_keeps_total_unavailable"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "call_id": "toy:c",
+            "phase": "initial",
+            "revision_index": 0,
+            "role": "generator"
+          }
+        ],
+        [
+          {
+            "attempt_id": "toy:a",
+            "attempt_status": "running",
+            "call_id": "toy:c",
+            "cost_estimate": null,
+            "input_tokens": null,
+            "output_tokens": null
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "input_tokens.complete_total": null,
+        "transport_attempts_observed": 1,
+        "transport_attempts_total": null,
+        "usage_complete": false
+      },
+      "function": "summarize_model_transport",
+      "group": "model_usage",
+      "name": "running_attempt_not_completed_usage"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "call_id": "toy:c",
+            "phase": "initial",
+            "revision_index": 0,
+            "role": "generator"
+          }
+        ],
+        [],
+        true
+      ],
+      "expected": {
+        "calls_without_attempts": 1,
+        "logical_calls_total": null,
+        "usage_complete": false
+      },
+      "function": "summarize_model_transport",
+      "group": "model_usage",
+      "name": "declared_call_without_attempt_is_incomplete"
+    },
+    {
+      "arguments": [
+        [],
+        [],
+        true
+      ],
+      "expected": {
+        "input_tokens.complete_total": 0,
+        "logical_calls_total": 0,
+        "model_transport_cost_estimate.estimate_total": null,
+        "output_tokens.complete_total": 0,
+        "transport_attempts_total": 0
+      },
+      "function": "summarize_model_transport",
+      "group": "model_usage",
+      "name": "complete_empty_call_inventory_has_zero_counts_tokens"
+    },
+    {
+      "arguments": [
+        [],
+        [],
+        false
+      ],
+      "expected": {
+        "input_tokens.complete_total": null,
+        "input_tokens.observed_total": null,
+        "logical_calls_total": null
+      },
+      "function": "summarize_model_transport",
+      "group": "model_usage",
+      "name": "incomplete_empty_inventory_is_not_zero_usage"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "call_id": "toy:c",
+            "phase": "initial",
+            "revision_index": 0,
+            "role": "generator"
+          }
+        ],
+        [
+          {
+            "attempt_id": "toy:a",
+            "attempt_status": "returned",
+            "call_id": "toy:c",
+            "cost_estimate": null,
+            "input_tokens": 10,
+            "output_tokens": 4
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "model_transport_cost_estimate.estimate_total": null,
+        "model_transport_cost_estimate.missing_estimates": 1,
+        "model_transport_cost_estimate.unavailable_reason": "missing_estimates"
+      },
+      "function": "summarize_model_transport",
+      "group": "cost_estimates",
+      "name": "missing_estimate_is_not_free_usage"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "call_id": "toy:c",
+            "phase": "initial",
+            "revision_index": 0,
+            "role": "generator"
+          }
+        ],
+        [
+          {
+            "attempt_id": "toy:a",
+            "attempt_status": "returned",
+            "call_id": "toy:c",
+            "cost_estimate": {
+              "amount": 0.1,
+              "basis_ref": "toy:price-basis-v1",
+              "currency": "USD"
+            },
+            "input_tokens": 10,
+            "output_tokens": 4
+          },
+          {
+            "attempt_id": "toy:b",
+            "attempt_status": "returned",
+            "call_id": "toy:c",
+            "cost_estimate": {
+              "amount": 0.2,
+              "basis_ref": "toy:price-basis-v1",
+              "currency": "EUR"
+            },
+            "input_tokens": 10,
+            "output_tokens": 4
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "model_transport_cost_estimate.currency": null,
+        "model_transport_cost_estimate.estimate_total": null,
+        "model_transport_cost_estimate.observed_totals_by_currency": {
+          "EUR": 0.2,
+          "USD": 0.1
+        },
+        "model_transport_cost_estimate.unavailable_reason": "mixed_currencies"
+      },
+      "function": "summarize_model_transport",
+      "group": "cost_estimates",
+      "name": "mixed_currency_estimates_are_not_added"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "call_id": "toy:c",
+            "phase": "initial",
+            "revision_index": 0,
+            "role": "generator"
+          }
+        ],
+        [
+          {
+            "attempt_id": "toy:a",
+            "attempt_status": "returned",
+            "call_id": "toy:c",
+            "cost_estimate": {
+              "amount": 0,
+              "basis_ref": "toy:price-basis-v1",
+              "currency": "USD"
+            },
+            "input_tokens": 0,
+            "output_tokens": 0
+          }
+        ],
+        true
+      ],
+      "expected": {
+        "input_tokens.complete_total": 0,
+        "model_transport_cost_estimate.currency": "USD",
+        "model_transport_cost_estimate.estimate_total": 0,
+        "output_tokens.complete_total": 0
+      },
+      "function": "summarize_model_transport",
+      "group": "cost_estimates",
+      "name": "explicit_zero_estimate_requires_basis"
+    },
+    {
+      "arguments": [
+        [
+          "toy:a"
+        ],
+        [
+          {
+            "cache_state": "unknown",
+            "job_id": "toy:a",
+            "job_status": "returned",
+            "lookup_calls": 0,
+            "retrieval_calls": 0,
+            "stages": [],
+            "startup_elapsed_seconds": null,
+            "workflow_elapsed_seconds": -1
+          }
+        ],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_workflow_runtime",
+      "group": "input_rejection",
+      "name": "negative_duration"
+    },
+    {
+      "arguments": [
+        [
+          "toy:a"
+        ],
+        [
+          {
+            "cache_state": "unknown",
+            "job_id": "toy:a",
+            "job_status": "returned",
+            "lookup_calls": 0,
+            "retrieval_calls": 0,
+            "stages": [],
+            "startup_elapsed_seconds": null,
+            "workflow_elapsed_seconds": true
+          }
+        ],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_workflow_runtime",
+      "group": "input_rejection",
+      "name": "boolean_duration"
+    },
+    {
+      "arguments": [
+        [
+          "toy:a"
+        ],
+        [
+          {
+            "cache_state": "unknown",
+            "job_id": "toy:a",
+            "job_status": "returned",
+            "lookup_calls": 0,
+            "retrieval_calls": 0,
+            "stages": [],
+            "startup_elapsed_seconds": null,
+            "workflow_elapsed_seconds": "12"
+          }
+        ],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_workflow_runtime",
+      "group": "input_rejection",
+      "name": "nonnumeric_duration"
+    },
+    {
+      "arguments": [
+        [
+          "toy:a"
+        ],
+        [
+          {
+            "cache_state": "unknown",
+            "job_id": "toy:a",
+            "job_status": "returned",
+            "lookup_calls": 0,
+            "retrieval_calls": 0,
+            "stages": [],
+            "startup_elapsed_seconds": null,
+            "workflow_elapsed_seconds": 10
+          },
+          {
+            "cache_state": "unknown",
+            "job_id": "toy:a",
+            "job_status": "returned",
+            "lookup_calls": 0,
+            "retrieval_calls": 0,
+            "stages": [],
+            "startup_elapsed_seconds": null,
+            "workflow_elapsed_seconds": 10
+          }
+        ],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_workflow_runtime",
+      "group": "input_rejection",
+      "name": "duplicate_job_ids"
+    },
+    {
+      "arguments": [
+        [
+          "toy:a"
+        ],
+        [
+          {
+            "cache_state": "unknown",
+            "job_id": "toy:b",
+            "job_status": "returned",
+            "lookup_calls": 0,
+            "retrieval_calls": 0,
+            "stages": [],
+            "startup_elapsed_seconds": null,
+            "workflow_elapsed_seconds": 10
+          }
+        ],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_workflow_runtime",
+      "group": "input_rejection",
+      "name": "out_of_roster_job"
+    },
+    {
+      "arguments": [
+        [
+          "toy:a"
+        ],
+        [
+          {
+            "cache_state": "unknown",
+            "job_id": "toy:a",
+            "job_status": "running",
+            "lookup_calls": 0,
+            "retrieval_calls": 0,
+            "stages": [],
+            "startup_elapsed_seconds": null,
+            "workflow_elapsed_seconds": 5
+          }
+        ],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_workflow_runtime",
+      "group": "input_rejection",
+      "name": "pending_job_with_completed_duration"
+    },
+    {
+      "arguments": [
+        [
+          "toy:a"
+        ],
+        [
+          {
+            "cache_state": "unknown",
+            "job_id": "toy:a",
+            "job_status": "not_started",
+            "lookup_calls": 0,
+            "retrieval_calls": 1,
+            "stages": [],
+            "startup_elapsed_seconds": null,
+            "workflow_elapsed_seconds": null
+          }
+        ],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_workflow_runtime",
+      "group": "input_rejection",
+      "name": "unstarted_job_with_activity"
+    },
+    {
+      "arguments": [
+        [
+          "toy:a"
+        ],
+        [
+          {
+            "cache_state": "unknown",
+            "job_id": "toy:a",
+            "job_status": "returned",
+            "lookup_calls": 0,
+            "retrieval_calls": 0,
+            "stages": [
+              {
+                "elapsed_seconds": 20,
+                "stage_id": "x"
+              }
+            ],
+            "startup_elapsed_seconds": null,
+            "workflow_elapsed_seconds": 10
+          }
+        ],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_workflow_runtime",
+      "group": "input_rejection",
+      "name": "stage_exceeds_whole_workflow"
+    },
+    {
+      "arguments": [
+        [
+          "toy:a"
+        ],
+        [
+          {
+            "cache_state": "unknown",
+            "job_id": "toy:a",
+            "job_status": "returned",
+            "lookup_calls": 0,
+            "retrieval_calls": 0,
+            "stages": [
+              {
+                "elapsed_seconds": 2,
+                "stage_id": "x"
+              },
+              {
+                "elapsed_seconds": 2,
+                "stage_id": "x"
+              }
+            ],
+            "startup_elapsed_seconds": null,
+            "workflow_elapsed_seconds": 10
+          }
+        ],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_workflow_runtime",
+      "group": "input_rejection",
+      "name": "duplicate_stage_identity"
+    },
+    {
+      "arguments": [
+        [
+          "toy:a"
+        ],
+        [
+          {
+            "cache_state": "unknown",
+            "job_id": "toy:a",
+            "job_status": "returned",
+            "lookup_calls": false,
+            "retrieval_calls": 0,
+            "stages": [],
+            "startup_elapsed_seconds": null,
+            "workflow_elapsed_seconds": 10
+          }
+        ],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_workflow_runtime",
+      "group": "input_rejection",
+      "name": "boolean_lookup_count"
+    },
+    {
+      "arguments": [
+        [
+          "toy:a",
+          "toy:a"
+        ],
+        [],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_workflow_runtime",
+      "group": "input_rejection",
+      "name": "duplicate_scheduled_job"
+    },
+    {
+      "arguments": [
+        [],
+        [],
+        1
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_workflow_runtime",
+      "group": "input_rejection",
+      "name": "nonboolean_job_inventory"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "call_id": "toy:c",
+            "phase": "initial",
+            "revision_index": 0,
+            "role": "generator"
+          },
+          {
+            "call_id": "toy:c",
+            "phase": "initial",
+            "revision_index": 0,
+            "role": "generator"
+          }
+        ],
+        [],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_model_transport",
+      "group": "input_rejection",
+      "name": "duplicate_call_id"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "call_id": "toy:c",
+            "phase": "initial",
+            "revision_index": 0,
+            "role": "generator"
+          }
+        ],
+        [
+          {
+            "attempt_id": "toy:a",
+            "attempt_status": "returned",
+            "call_id": "toy:c",
+            "cost_estimate": {
+              "amount": 0.1,
+              "basis_ref": "toy:price-basis-v1",
+              "currency": "USD"
+            },
+            "input_tokens": 10,
+            "output_tokens": 4
+          },
+          {
+            "attempt_id": "toy:a",
+            "attempt_status": "returned",
+            "call_id": "toy:c",
+            "cost_estimate": {
+              "amount": 0.1,
+              "basis_ref": "toy:price-basis-v1",
+              "currency": "USD"
+            },
+            "input_tokens": 10,
+            "output_tokens": 4
+          }
+        ],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_model_transport",
+      "group": "input_rejection",
+      "name": "duplicate_attempt_id"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "call_id": "toy:c",
+            "phase": "initial",
+            "revision_index": 0,
+            "role": "generator"
+          }
+        ],
+        [
+          {
+            "attempt_id": "toy:a",
+            "attempt_status": "returned",
+            "call_id": "toy:other",
+            "cost_estimate": {
+              "amount": 0.1,
+              "basis_ref": "toy:price-basis-v1",
+              "currency": "USD"
+            },
+            "input_tokens": 10,
+            "output_tokens": 4
+          }
+        ],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_model_transport",
+      "group": "input_rejection",
+      "name": "unknown_call_parent"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "call_id": "toy:c",
+            "phase": "initial",
+            "revision_index": 0,
+            "role": "generator"
+          }
+        ],
+        [
+          {
+            "attempt_id": "toy:a",
+            "attempt_status": "returned",
+            "call_id": "toy:c",
+            "cost_estimate": {
+              "amount": 0.1,
+              "basis_ref": "toy:price-basis-v1",
+              "currency": "USD"
+            },
+            "input_tokens": true,
+            "output_tokens": 4
+          }
+        ],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_model_transport",
+      "group": "input_rejection",
+      "name": "boolean_token_count"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "call_id": "toy:c",
+            "phase": "initial",
+            "revision_index": 0,
+            "role": "generator"
+          }
+        ],
+        [
+          {
+            "attempt_id": "toy:a",
+            "attempt_status": "returned",
+            "call_id": "toy:c",
+            "cost_estimate": {
+              "amount": 0.1,
+              "basis_ref": "toy:price-basis-v1",
+              "currency": "USD"
+            },
+            "input_tokens": 10,
+            "output_tokens": 1.5
+          }
+        ],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_model_transport",
+      "group": "input_rejection",
+      "name": "fractional_token_count"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "call_id": "toy:c",
+            "phase": "initial",
+            "revision_index": 0,
+            "role": "generator"
+          }
+        ],
+        [
+          {
+            "attempt_id": "toy:a",
+            "attempt_status": "returned",
+            "call_id": "toy:c",
+            "cost_estimate": {
+              "amount": 0.1,
+              "basis_ref": "toy:price-basis-v1",
+              "currency": "USD"
+            },
+            "input_tokens": -1,
+            "output_tokens": 4
+          }
+        ],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_model_transport",
+      "group": "input_rejection",
+      "name": "negative_token_count"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "call_id": "toy:c",
+            "phase": "initial",
+            "revision_index": 0,
+            "role": "generator"
+          }
+        ],
+        [
+          {
+            "attempt_id": "toy:a",
+            "attempt_status": "returned",
+            "call_id": "toy:c",
+            "cost_estimate": {
+              "amount": 0.1,
+              "basis_ref": " ",
+              "currency": "USD"
+            },
+            "input_tokens": 10,
+            "output_tokens": 4
+          }
+        ],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_model_transport",
+      "group": "input_rejection",
+      "name": "unrecorded_cost_basis"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "call_id": "toy:c",
+            "phase": "initial",
+            "revision_index": 0,
+            "role": "generator"
+          }
+        ],
+        [
+          {
+            "attempt_id": "toy:a",
+            "attempt_status": "returned",
+            "call_id": "toy:c",
+            "cost_estimate": {
+              "amount": 0.1,
+              "basis_ref": "toy:price-basis-v1",
+              "currency": ""
+            },
+            "input_tokens": 10,
+            "output_tokens": 4
+          }
+        ],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_model_transport",
+      "group": "input_rejection",
+      "name": "missing_currency"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "call_id": "toy:c",
+            "phase": "initial",
+            "revision_index": 0,
+            "role": "generator"
+          }
+        ],
+        [
+          {
+            "attempt_id": "toy:a",
+            "attempt_status": "returned",
+            "call_id": "toy:c",
+            "cost_estimate": {
+              "amount": -1,
+              "basis_ref": "toy:price-basis-v1",
+              "currency": "USD"
+            },
+            "input_tokens": 10,
+            "output_tokens": 4
+          }
+        ],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_model_transport",
+      "group": "input_rejection",
+      "name": "negative_estimate"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "call_id": "toy:c",
+            "phase": "initial",
+            "revision_index": false,
+            "role": "generator"
+          }
+        ],
+        [],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_model_transport",
+      "group": "input_rejection",
+      "name": "boolean_revision_index"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "call_id": "toy:c",
+            "phase": "revision",
+            "revision_index": 0,
+            "role": "generator"
+          }
+        ],
+        [],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_model_transport",
+      "group": "input_rejection",
+      "name": "revision_with_zero_index"
+    },
+    {
+      "arguments": [
+        [
+          {
+            "call_id": "toy:c",
+            "input_tokens": 10,
+            "phase": "initial",
+            "revision_index": 0,
+            "role": "generator"
+          }
+        ],
+        [],
+        true
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_model_transport",
+      "group": "input_rejection",
+      "name": "double_countable_logical_tokens"
+    },
+    {
+      "arguments": [
+        [],
+        [],
+        "yes"
+      ],
+      "expected_exception": "ValueError",
+      "function": "summarize_model_transport",
+      "group": "input_rejection",
+      "name": "nonboolean_usage_inventory"
+    }
+  ],
+  "scope": "artificial observations with hand-specified accounting expectations; no actual jobs or usage"
+}

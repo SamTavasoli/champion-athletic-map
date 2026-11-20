@@ -1,0 +1,10 @@
+entity_type,master_records,prepared_domain_records,role,interpretation_limit
+athlete_profile,30,30,heterogeneous source index; historical/context/reference domains remain separate,Domain totals are not independent athlete examples or rows of a jointly labeled training matrix.
+basketball_season,24625,24625,heterogeneous source index; historical/context/reference domains remain separate,Domain totals are not independent athlete examples or rows of a jointly labeled training matrix.
+exercise,2909,2909,heterogeneous source index; historical/context/reference domains remain separate,Domain totals are not independent athlete examples or rows of a jointly labeled training matrix.
+food_category,28,28,heterogeneous source index; historical/context/reference domains remain separate,Domain totals are not independent athlete examples or rows of a jointly labeled training matrix.
+food_portion,10951,10951,heterogeneous source index; historical/context/reference domains remain separate,Domain totals are not independent athlete examples or rows of a jointly labeled training matrix.
+food_sample_link,75055,75055,heterogeneous source index; historical/context/reference domains remain separate,Domain totals are not independent athlete examples or rows of a jointly labeled training matrix.
+nutrient_result,134267,134267,heterogeneous source index; historical/context/reference domains remain separate,Domain totals are not independent athlete examples or rows of a jointly labeled training matrix.
+player_bio,3922,3922,heterogeneous source index; historical/context/reference domains remain separate,Domain totals are not independent athlete examples or rows of a jointly labeled training matrix.
+player_career,4550,4550,heterogeneous source index; historical/context/reference domains remain separate,Domain totals are not independent athlete examples or rows of a jointly labeled training matrix.

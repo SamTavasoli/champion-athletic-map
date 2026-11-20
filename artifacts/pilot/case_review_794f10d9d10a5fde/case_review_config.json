@@ -1,0 +1,35 @@
+{
+  "accepted_study_profiles": 0,
+  "adopted_families": 0,
+  "case_review": "development_diagnostic_only",
+  "common_task_addendum": "The optional schedule_coverage object is supplied public athlete information. A true existing_commitments_complete value applies only to its stated period and means that all existing training and sport activity, including informal activity, has been listed. False, null, or absent coverage does not mean complete. Preserve supplied commitments and their dates, times and durations. Keep included components inside their parent sessions. Use the supplied public facts; a coverage declaration is not approval of a proposed plan.",
+  "component_sha256": {
+    "src/champion_athletic_map/pilot_case_review.py": "d10477a184fc99fdcbc0a0adcc79c2ae58a4130b7c2c303489935e82aaf3f694",
+    "src/champion_athletic_map/pilot_schedule.py": "a7479c3f6342eafad07926ee6545bcca9c5292389c1001b6549062323acf11ce",
+    "src/champion_athletic_map/planning_checks.py": "935fef910fca8650d8912df490ec44c22b3adb66afc086edcc89f201d6151dcb",
+    "src/champion_athletic_map/rule_checks.py": "38b555a0682bca84c39da8013bb8d05f748ce1ab64b183a9c16132a07bb298b0"
+  },
+  "full_resource_verification_ready": false,
+  "human_reviews_claimed": 0,
+  "independent_scoring_ready": false,
+  "original_inputs_preserved": true,
+  "parent_preparation_files": {
+    "artifacts/pilot/preparation_801c320ae09420e9/case_review_queue.csv": "f49b1edcc874eba3d4a078edc5f219e61264e3a03fc85ee4ad878485464a2d5d",
+    "artifacts/pilot/preparation_801c320ae09420e9/planned_pilot_jobs.csv": "ede8f876d086209287ff96fbabec41e8575b2e0663106d1e1ee2a88a00afbdcb",
+    "artifacts/pilot/preparation_801c320ae09420e9/preparation_config.json": "44ddfa95f5bf11298d652c7f98517b3d8a20ce9698ae32ea921c82a26cfeff74",
+    "artifacts/pilot/preparation_801c320ae09420e9/provisional_selection.csv": "e8400329c8a9ed812a58a3685ced1130602662dacc80e78004eda1e066699169",
+    "artifacts/pilot/preparation_801c320ae09420e9/public_profiles.jsonl": "ce734a9903da1a097fbbdb5f8d043e5dc33841b91359fa0003d8c0ff5c8245ad"
+  },
+  "parent_preparation_id": "pilot-preparation:801c320ae09420e97281e2dbabeb7c8e8ddf919230624b5cc41a86c6e583b3f6",
+  "pilot_jobs_run": 0,
+  "protocol_frozen": false,
+  "public_schema_sha256": "5b15c04fca2b82ec6473ed62cc1f8bdfef8c7a7ecdd94e19817546b7e1bbe364",
+  "resource_file_sha256": {
+    "adopted_drills.json": "32ee86843189f03aa6d02270313c2b4b84ebb0f221f4561b938b62c50d90368f",
+    "adopted_rules.json": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b"
+  },
+  "resource_release_id": "team-approved-f0dcb9e9943e381b",
+  "review_type": "assistant_under_Sam_delegated_authority",
+  "schema_version": "pilot-case-review-1",
+  "source_review_sha256": "c1c785dc7e03e7da73da44743f2be666fd7c57c7157c3776b9803db4c12dff29"
+}

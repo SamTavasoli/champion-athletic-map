@@ -1,0 +1,18 @@
+{
+  "queries": [
+    "Basketball practice; Could you arrange 1 additional p; goals [\"Control my dribble whi; experience {\"experience; equipment [\"Basketball\",\"Cones\"]; space half_court; people 3",
+    "Youth basketball participation, rest and recovery; age 17; grade 11; commitments []; request Could you arrange 1 additional practice block"
+  ],
+  "query_records": [
+    {
+      "query_id": "retrieval-query:68650d0b01032c3d44e1c5908b5dce5ebad773512443fb1601ec605c0200ee99",
+      "text": "Basketball practice; Could you arrange 1 additional p; goals [\"Control my dribble whi; experience {\"experience; equipment [\"Basketball\",\"Cones\"]; space half_court; people 3",
+      "text_sha256": "e95ee9631304884110a653d55aed079faa2d01e6b5efbd3e58bea426a6e1d694"
+    },
+    {
+      "query_id": "retrieval-query:92997b65195db4f5c08124b3fc72e835eaa5d1b5dd68f766a1b1a0ee6b897e73",
+      "text": "Youth basketball participation, rest and recovery; age 17; grade 11; commitments []; request Could you arrange 1 additional practice block",
+      "text_sha256": "9c339afab91ec23677d672baab24d4fe57141e4a79004ecc62db7732f106a739"
+    }
+  ]
+}

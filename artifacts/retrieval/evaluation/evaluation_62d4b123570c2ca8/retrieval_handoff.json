@@ -1,0 +1,42 @@
+{
+  "audit_provenance": {
+    "development_comparison_id": "retrieval-development-comparison:8a912950decb6f7cde229661dd95442772da63053b279b92d8925c3b38cd4102",
+    "heldout_evaluation_id": "retrieval-heldout-evaluation:62d4b123570c2ca80af25ece9e418112f9eda622496d703296026e844175c01a",
+    "selection_freeze_id": "retrieval-method-selection:724eb24082e2fa21c47fe778566d5d97e04bc33e4479a54533af107545bf2ff5",
+    "selection_freeze_sha256": "35bd34f478a1de00f428dbd32451a05b7f5a7d1864e3ad5095fa9f4cb23933fc"
+  },
+  "broader_basketball_drill_coverage": "not_established",
+  "completion_scope": "eleven_reference_scoped_pilot_and_benchmark",
+  "food_facts_and_executable_planning_rules": "separate_structured_tool_routes",
+  "generation_context_budget_verified": false,
+  "handoff_id": "scoped-retrieval-handoff:0bb09cf3eaf9146f3ab1f26ac67cd00af8aa3727eecb72a2b1502278bc6088ce",
+  "human_source_peer_review": "not_performed",
+  "operational_retrieval_ready": false,
+  "planner_eligibility": "independently_pending",
+  "reference_retrieval_component_verified": true,
+  "reference_scope": "eleven_admitted_reference_units_in_three_related_source_families",
+  "required_delivery_policy": {
+    "complete_companion_must_remain_attached": true,
+    "generation_model_tokenizer_and_full_prompt_budget": "pending_step24_before_generation",
+    "oversized_delivery_companions_must_not_be_silently_truncated": true,
+    "publisher_credit_nonendorsement_license_and_required_qualifications_must_be_preserved": true,
+    "standalone_core_delivery_allowed": false
+  },
+  "runtime": {
+    "corpus_id": "expanded-corpus:aa58799145ccff5c8ea285b3b1eb0bc4fdc41ef85ad90ffb03db3ce3c4687c58",
+    "expanded_index_manifest_relative_path": "artifacts/retrieval/expanded/expanded_ee12915cfac22530/expanded_manifest.json",
+    "expanded_index_manifest_sha256": "11ff18ae4e3856f0d09e1f7b493892229231a2978755b4b7a2b04e3ead933c7f",
+    "expanded_retrieval_id": "expanded-retrieval-index:ee12915cfac22530096a9b573f046c886696c5b769aca11f6f20967f0068f5b9",
+    "lexical_zero_score_fill": false,
+    "query_manifest_relative_path": "artifacts/retrieval/query_runtime/query_f6db9aad37d7a9b9/query_runtime_manifest.json",
+    "query_manifest_sha256": "8daf73c245153a4fdfbf6282b4d6ff56d3dd42cf0013ffc9c7579c80bce10166",
+    "query_preparation_id": "retrieval-query-preparation:f6db9aad37d7a9b920acb188429f9858ba7669273396843bd629ee3726dc2474",
+    "ranking_k": 5,
+    "selected_route": "semantic",
+    "semantic_answerability_threshold": null,
+    "unit_score": "maximum_passage_score"
+  },
+  "runtime_context_allowlist": "retrieved_reference_results_with_their_complete_required_delivery_records_only",
+  "schema_version": "step23-step24-scoped-retrieval-handoff-1",
+  "source_freshness": "pending_step31_final_freeze"
+}

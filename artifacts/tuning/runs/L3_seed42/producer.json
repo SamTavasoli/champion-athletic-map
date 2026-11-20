@@ -1,0 +1,228 @@
+{
+  "artifacts": {
+    "attempt_log.csv": {
+      "bytes": 977,
+      "sha256": "2cdad6960742e5ff2c98d1d09544afc9dedd9618ada4ede52aa9888be4fe7caf"
+    },
+    "checks.csv": {
+      "bytes": 1227,
+      "sha256": "4dd52df9d04299a20415f45c3dd12f02bfd7e76881fbf347a9cf9bcd325cc3b5"
+    },
+    "class_report.csv": {
+      "bytes": 1421,
+      "sha256": "9533e3a4a1d61472f11d842690df1267a0d82fec7c1f7d39822a8d9b1b03d71e"
+    },
+    "feature_diagnostics.csv": {
+      "bytes": 635,
+      "sha256": "9753cb2634d12937a5357071ca3afb9584994395956daefc7003fb8e5f45b51a"
+    },
+    "model.joblib": {
+      "bytes": 1161211,
+      "sha256": "29e72e591511b880d89f8f7975aa3f5c7310585654a11ff5189a9ea1e0e50894"
+    },
+    "run_config.json": {
+      "bytes": 583683,
+      "sha256": "0cf3e207e40f5ffddcf784e75c3d2ff08d70795832c228962a085571a10f6217"
+    },
+    "run_log.csv": {
+      "bytes": 977,
+      "sha256": "2cdad6960742e5ff2c98d1d09544afc9dedd9618ada4ede52aa9888be4fe7caf"
+    },
+    "validation_class_report.csv": {
+      "bytes": 1421,
+      "sha256": "9533e3a4a1d61472f11d842690df1267a0d82fec7c1f7d39822a8d9b1b03d71e"
+    },
+    "validation_metrics.csv": {
+      "bytes": 370,
+      "sha256": "2fa298a83ff3d03b744120becc1676a977be6cdbf3533e440131b4500bc9945b"
+    },
+    "validation_predictions.csv": {
+      "bytes": 282356,
+      "sha256": "bf18045d375e0bf29839e19865eba85beb3dcc184db0e0f3c5d36ebf41a2e81e"
+    }
+  },
+  "candidate_digest": "e07b741ddc4713f22cdbda5a2a6277b08cd2f1be6bd59e0c27665eba9dbdd462",
+  "candidate_id": "L3",
+  "completion_marker": true,
+  "fresh_process_reload": {
+    "candidate_id": "L3",
+    "checks": [
+      {
+        "check": "original_and_candidate_bytes_reverified",
+        "observed": "True",
+        "status": "pass"
+      },
+      {
+        "check": "recorded_software_matches_fresh_process",
+        "observed": "True",
+        "status": "pass"
+      },
+      {
+        "check": "saved_canonical_preprocessor_imported",
+        "observed": "True",
+        "status": "pass"
+      },
+      {
+        "check": "complete_ordered_validation_partition",
+        "observed": "True",
+        "status": "pass"
+      },
+      {
+        "check": "candidate_predictions_have_frozen_population",
+        "observed": "True",
+        "status": "pass"
+      },
+      {
+        "check": "complete_saved_pipeline_loaded",
+        "observed": "True",
+        "status": "pass"
+      },
+      {
+        "check": "saved_pipeline_state_matches_fitted_candidate",
+        "observed": "True",
+        "status": "pass"
+      },
+      {
+        "check": "all_validation_predictions_reproduced",
+        "observed": "True",
+        "status": "pass"
+      },
+      {
+        "check": "all_frozen_probability_columns_reproduced",
+        "observed": "True",
+        "status": "pass"
+      },
+      {
+        "check": "frozen_metric_source_bound",
+        "observed": "True",
+        "status": "pass"
+      },
+      {
+        "check": "reloaded_metrics_match_full_precision_candidate",
+        "observed": "True",
+        "status": "pass"
+      },
+      {
+        "check": "candidate_weights_and_feature_statistics_unchanged",
+        "observed": "True",
+        "status": "pass"
+      },
+      {
+        "check": "reload_performed_no_fitting",
+        "observed": "True",
+        "status": "pass"
+      },
+      {
+        "check": "bound_bytes_unchanged_after_candidate_replay",
+        "observed": "True",
+        "status": "pass"
+      }
+    ],
+    "model_fits": 0,
+    "probability_columns_verified": 16,
+    "status": "logistic_candidate_reloaded_predictions_matched",
+    "test_text_processed": false,
+    "validation_prediction_rows_verified": 435
+  },
+  "input_hashes": {
+    "Champions_Athletic_Agent_Ready_Dataset _Package/exercise_clean.csv": "6a7d71d6ed6a34c5a95b294adb9374ead80e9308caab448478e6dbcaf4b7f81c",
+    "artifacts/baselines/baseline_config.json": "a1e45c7cec0a39281ae309a348b195c035d4d7d5f693c257f260b3eb2f76cf9c",
+    "artifacts/baselines/majority_classifier.joblib": "5c30d2b1c7048754f125f3466ca6c2adda5157f84b831327614287b3b5fdbd51",
+    "artifacts/baselines/tfidf_logistic_regression.joblib": "12b14f855df49eebf7863ff5bc2ee7a077501faca3cd9099c569ffb9dd6b10f7",
+    "artifacts/evaluation/classifier_metrics_db3e5f3df78a126c/classifier_metric_config.json": "9c0ff72c83509deac20945d122babde529a17a1e23dcc069804da6e7edbf1116",
+    "artifacts/evaluation/classifier_metrics_db3e5f3df78a126c/classifier_metric_probe_checks.csv": "40d742299ca57f20bf527ba3896eb03e7fa6cdbd3a32b28f087d63a26e27af49",
+    "artifacts/evaluation/classifier_metrics_db3e5f3df78a126c/classifier_metric_probes.json": "6a962b5c9721b16e87f1b551b351144bc5584f3fcd488c1cb6ac6a1ff7fa6604",
+    "artifacts/evaluation/classifier_metrics_db3e5f3df78a126c/classifier_metrics.py": "10b026d0deed9eb674a1a2b194f9523b9445f54e6a139aaca64aae578aa165d6",
+    "artifacts/evaluation/classifier_metrics_db3e5f3df78a126c/step17_classifier_metric_summary.json": "fcc69484579048b344648287334f29d8c364d239f9f422969a453d96bd9292b1",
+    "artifacts/evaluation/scoring_config.json": "3034c30e3c7c802e0d73d9dfcd544f4a628520ffe8c7bf2c5a6823745ddbe97a",
+    "artifacts/neural/initial_model_state.pt": "9194bf6875326f3380c17642016c79165dd2dfb7f83389810b70e8049d96d16d",
+    "artifacts/neural/initial_run_config.json": "5b27706a997e22ca804f85e24f4a1012490bf763c881ed7af0d5e463f3bc176d",
+    "artifacts/preprocessing/label_mapping.json": "b7d17468a94811c58e9e337a5417a0a2ecb438b28a3fddb6e235672251ca5f6a",
+    "artifacts/preprocessing/neural_vocabulary.json": "654d3be2bd15b82112ce542c8727080810b0d8a7677b1e3533bf56ce6ec1d059",
+    "artifacts/preprocessing/preprocessing_config.json": "23e4b7568fc52b30674122a4a6e5372e3d66b6eab7bc3e5471b2077c353f6ce7",
+    "artifacts/splits/exercise_split_config.json": "1694be410134288b9df58f651f20c9dc19f1a811f338b99e2dffb61ef4829f1a",
+    "data/processed/exercise_catalog.csv": "ecf9e7ebe88f71e4350c747291b269976c0d2b01ba295dcdd63459065a3246fe",
+    "data/processed/exercise_groups.csv": "30190adb8245a348a3243fcdff4bc40515cca773e2f874ebab83739f02d9c764",
+    "data/processed/exercise_model_inputs.csv": "bcab28b545a6520097c403d486b5364c76566554a3051f5f703fab31ee473caf",
+    "data/processed/exercise_split_manifest.csv": "c0723b13ce259f964c2c7952b4203edba75a7553146c5bdb4a637ed134a4f5ac",
+    "results/baselines/baseline_checks.csv": "47e6814c57ad9ad2dc348e00d6aba10fdc047da3e22ac2f36225d3a387fc1ef4",
+    "results/baselines/feature_diagnostics.csv": "cf7b9b510c85cb61e748048542fc081cb11066ef3880caef265abd8e02a62e08",
+    "results/baselines/training_run_log.csv": "7c24ca54aae7855e3487b5cc6949977e5e8ff0c39f51e78de7dc8b3703c45f8f",
+    "results/baselines/validation_class_report.csv": "71ab0e041d0a5503460a9ffd54988124a70db638279182563b2a024ed3801f3b",
+    "results/baselines/validation_diagnostics.csv": "7250103e45c3812449a003d65080b466ea8d41ab5a83cbe9d60f84b595e880e4",
+    "results/baselines/validation_errors.csv": "e659e1bcceb91daae151f2859f7d54e66a335e79a8aa9048c96db1893be40422",
+    "results/baselines/validation_metrics.csv": "d34c96f8b24fa1505ecd2830d87944ae6d7d060f198e3c7a9f751cefb33800ca",
+    "results/baselines/validation_predictions.csv": "dd323c34282a8df118bd8d55c3337eac911c0f07283cab3476b178e0ed3870d3",
+    "results/eda/exercise_body_part_distribution.csv": "91ff3934bb22a65069190cb5a1b47665d4cc5a8a4c28602a0c23f8c543e433ca",
+    "results/eda/exercise_categorical_associations.csv": "74c66c302c61d48d18df6703dc6d2c80bc5f0e5a0f1e5804c5e467d243557b61",
+    "results/eda/exercise_comparison_summary.csv": "b84f078517011fd565a19683ef2262483653125a77b3477d880b76f664199732",
+    "results/eda/exercise_description_coverage.csv": "9785156c11ca9c6d4557c97c8d313e3623cfac4a6e159c11e209db1684dbb215",
+    "results/eda/exercise_difficulty_distribution.csv": "248d797d08f7b9d967e2bccab796d6491ec05bd25572768bd50d22c6c1764332",
+    "results/eda/exercise_eda_findings.csv": "36b74916a622411817a9218f93e7fd50e84e3124ae5f85ec34b747e9ee2beb31",
+    "results/eda/exercise_equipment_distribution.csv": "4b4615c27e3a368140eb335605daa42eebb7d64be7d49dc7b4ab5a62bade5bbc",
+    "results/eda/exercise_field_completeness.csv": "f52f7218a12d5dc5720ec26f5706fa227f20966a331fb6599cdf38eaac406c4b",
+    "results/eda/exercise_label_metadata_crosstabs.csv": "774ef2dbe0acc39b739d8b58e3ac6b69995a8a04a93c24ad662af717ff32bcb3",
+    "results/eda/exercise_label_readiness.csv": "0693aedd8333430be42bb1f7ff1cf84d0cd50f86c957977e5a9b669787100612",
+    "results/eda/exercise_label_text_statistics.csv": "cf5f76e674af6eb39d00113eb3d0b4909e709948322dfa61c53304361c5a14e7",
+    "results/eda/exercise_preparation_summary.csv": "2fdc1c0a63977c54f1045381747a16a5dcd5ca45acbec6f44274ec3754c06aae",
+    "results/eda/exercise_review_issues.csv": "30ba31dcd778d03e2049063f63789eaf25b44262add89763c31502b586c85181",
+    "results/eda/exercise_review_status.csv": "4274319143bdc55ce16eac389f5fa460b8b41bc9e39f13ba590d6a8b32a4dd09",
+    "results/eda/exercise_split_group_size_distribution.csv": "c0f5f41e1de24ec4597759068261fc63f3bba45c16cea5ace7677d7aaa71da67",
+    "results/eda/exercise_split_group_summary.csv": "1c860bdb6d55541e6ab887ca6594c2c0697c798490f7056aa8fbaebf7c606e4b",
+    "results/eda/exercise_text_length_statistics.csv": "323561b10634dd9994e858ab4765e3ee3508148e884098d19ea5c2534d978d32",
+    "results/eda/exercise_text_lengths.csv": "b6823b833ab1e5423b8a80603aa8001865dde4d72fcf66ece4be590445de5d05",
+    "results/eda/exercise_type_distribution.csv": "8712297873ef4e01e2a02ba8adb28cd980d917fc7f8a2e43eaec0dbf2b56c004",
+    "results/exercise_benchmark_review_decisions.csv": "cfdf0e29094e76fc6400fc12580dfedb7748f1dd85b67968705cd3af85ff32b1",
+    "results/exercise_class_eligibility.csv": "560d130d9aa2c136b552d1dd61735eb448105691c58b7f9729e3cdd6dd8ebeb0",
+    "results/exercise_cleaning_log.csv": "287f89e2a4ac280176719754c37bb1b81e383db3779af44972657e7293dd7a1b",
+    "results/exercise_group_membership.csv": "f708420a3334d7f17f7ef73b3fe51123e1f9baff9cd6bc64a6a0e6d4dc7264a3",
+    "results/exercise_review_carryover.csv": "c3a72f9b877e357518078cd6180e8684f5464202ee1e0c270dabf190c14db573",
+    "results/exercise_review_queue.csv": "e46a4ab4a61f1ad299d40f3a42f672531ee9948c718bda9e9214507fce363acd",
+    "results/exercise_split_candidates.csv": "d659186e893a9ae7c1f652bbe00f7ce5e30c9afafcd5dd9c091d16972dcd6f02",
+    "results/exercise_split_checks.csv": "eca5e80d470ddf3f8b41b174cb39e5d2f5582e478b672412a5eed29109c83212",
+    "results/exercise_split_summary.csv": "42ed48528dc4be8c7693bd75b9a921ce2fc93c7675db6dd42fdd4fc52bbdbaf2",
+    "results/figures/exercise_body_part_distribution.png": "edb68de1a34f8403dc28698bfb556b6bf019f00f15b48fe1cc5d657bb2ffdf5e",
+    "results/figures/exercise_description_word_length.png": "9de36adb496d945c4f8a6258b3f741b8ee2e1d3c6ee89520e102451f92d16b48",
+    "results/figures/exercise_missing_description_by_class.png": "de1881d4d56ec8fad01c350e73e1aabc806ec1374f2f11c492115cf3500420d5",
+    "results/figures/exercise_name_word_length.png": "023a95d8de5e49d2b5ad63ae79ed8079e144ffa057bad723e89f2c155635bee4",
+    "results/figures/exercise_split_group_support_by_class.png": "085f7dc33591d790ee2732c38c4df47c46402afad641483e6fae60f06e0fabfc",
+    "results/figures/step19_majority_confusion_counts.png": "0d2d2616df18195e159f132305ef25ed5d5e3113877b6845726061a5ef7e6c41",
+    "results/figures/step19_majority_confusion_normalized.png": "5738ae37bc54eb5b05154980a32aae143e53c7c668f34cbe6af59e650e65262c",
+    "results/figures/step19_tfidf_logistic_confusion_counts.png": "6673d18ccbbee48a707487d2e33234768a2cf8a3fdfa7c6a665422d16781961b",
+    "results/figures/step19_tfidf_logistic_confusion_normalized.png": "f8ca3eb17fde79530da4234a9011be4838dcc2b653aaa802f0e873bdd9624394",
+    "results/figures/step20_n0_confusion_counts.png": "2a2c5a957871e6739ea1166367245ccf2a3d5783e3ca5701260b264e3794fc16",
+    "results/figures/step20_n0_confusion_normalized.png": "88b093dff5b2d8544c668c2f48d6cd28dd4b2cd887e672478b462d4c4cd51560",
+    "results/figures/step20_n0_learning_loss.png": "160491916b0698ae0f67087ab2442fa01e61c8291a11bcedf53df45f22eb9284",
+    "results/figures/step20_n0_validation_macro_f1.png": "93fb5f45c0e86d0188e4f821eeaffe9af4c55c783c0c1e128a8c913ffa08f6e0",
+    "results/neural/initial_baseline_comparison.csv": "5f8f0130c6c22a56f81a157f549da45034c52b62d4c42261453746cc16829295",
+    "results/neural/initial_confusion_pairs.csv": "a035b64b56922c2e01b58ea2d1b3f037f0703a07c5fe806967ab1b2f9b6fb780",
+    "results/neural/initial_epoch_order_log.csv": "8f6c8d7703e6b075af32b14e990b58a88891164a4607302e9ad30b7a632d6fb7",
+    "results/neural/initial_run_log.csv": "e23e6100f9e802686e9235ca6924fb2e7a36a1ee55e2e2e153ec68be70fee987",
+    "results/neural/initial_training_checks.csv": "08e2275d164d37ad63853a788a28f1f2fda3c81a7ea777344ec6036112133165",
+    "results/neural/initial_training_history.csv": "d0094323e7449f1b39264417192f251365247535e1d8eb7e673e039416c1aa3f",
+    "results/neural/initial_validation_class_report.csv": "ab0529ab8ca0a991fd751e316f223637164f902111ab1912796f871dab86c759",
+    "results/neural/initial_validation_confusion.csv": "e1cdb16dc6e33e46e3fb542d37c3376948ad67b46d129a97b0b0c43985aa4732",
+    "results/neural/initial_validation_diagnostics.csv": "a76546c2f1ccf5478880cc22e8add752e4ff7531c3b68352e34df4577fba2b9d",
+    "results/neural/initial_validation_errors.csv": "10d9703b1fbcb4df47606ed9c4b81f2eb551f6e56e920c90094b4c090ebd122b",
+    "results/neural/initial_validation_metrics.csv": "9be2151445d072ae4ecdfd8b9360e8d06b9b353edb87cf8ff281fbf79c5c0659",
+    "results/neural/initial_validation_predictions.csv": "a83ff615f62d32cf6309973a482fc1736230db9bf884fa78874e2698d7857f6b",
+    "results/preprocessing_checks.csv": "dc621577515d31c85b4ef0f3766756cc2d89c773fa840214508249ba9b932df4",
+    "results/preprocessing_diagnostics.csv": "537ca6aa484e33340984a56e8088d9b7a5a5cadc4d9f1be02ff108e0ff1ae480",
+    "results/step10_exercise_preparation.json": "e5a86eb8224e579bac479c88844dddbb491c40bde11c61ba6ee00a804c689fa2",
+    "results/step11_eda_summary.json": "3c69a8ca870ecd3355055c6a76db894f260f63d9b05fcaf7ea1b5c5713fe5584",
+    "results/step15_exercise_split_summary.json": "e3d4f7cf0de057d2d28f74716e03e41a0a4f4f46d75d49f8f3f6b05d0bbe554d",
+    "results/step17_evaluation_design_summary.json": "4f2f330d9b8acd578dcc46737c34ffa1c7ce58254ba0687b2f65e45db0576254",
+    "results/step18_preprocessing_summary.json": "df6aa5730303fa00e000c90ba73388bd6ad757a482161ae655e2ba4b8e4ad743",
+    "results/step19_baseline_summary.json": "24e9643f83739a5d237a9542a0e44c6b49ea7dd68ad105172f6eb6826d454a46",
+    "results/step20_neural_training_summary.json": "b8ccae1c6c870b242ff0415b9951cd3a0b65e57900bc1138277ad992267cf35c",
+    "src/champion_athletic_map/neural_classifier.py": "4caaf5c1554da121ec47cf9d1cc84bd106eefece631776850c5c2008ec2eee51",
+    "src/champion_athletic_map/text_preprocessing.py": "47bbaa42eea1ed56634969c65546ab371b7303d8e728dcbf5e8cb151c7986db2"
+  },
+  "model_selection_finalized": false,
+  "plan_digest": "9f5fd448b6d590611f0007cd552017c72e2cf5e282bc603ba83513facb9bd5b4",
+  "plan_id": "classifier-search:9f5fd448b6d590611f0007cd552017c72e2cf5e282bc603ba83513facb9bd5b4",
+  "producer_digest": "c414d112986d93945e8d438cc2dfa138c7afa0575410b6f6e007f73e6c699596",
+  "schema_version": "step21-logistic-candidate-producer-1",
+  "status": "completed",
+  "test_text_processed": false
+}

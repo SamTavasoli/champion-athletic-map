@@ -1,0 +1,128 @@
+{
+  "cache_policy": "fresh_per_job; verified continuation reuses its original work",
+  "configuration_id": "0486705af0306a9a231a6bffbd592aa493f1c87970b67b9670009bfc5f87346b",
+  "job_id": "fjob_a8bae0afa93efb3a44299b71",
+  "module_bindings": {
+    "artifacts/language_model/active_resource_release.json": "b05bfd994b9d722e6179ee2a3e2136975118a51468eb490bec166c231f15303b",
+    "artifacts/language_model/approved_resources/team-approved-f0dcb9e9943e381b/manifest.json": "d048af8432bfc339a2504460cbbdbca7011745774d92f0024aa15148dc55db6b",
+    "docs/prompts/shared_task_addendum_candidate.txt": "2cb82db51b8ebd886b5b6dfc5d5e3993ceae10f686a6620c235be68b88ae43cd",
+    "src/champion_athletic_map/bounded_revision.py": "2dc8e716519d2a1bb992ff239674080040201eb6f9da0e793db5fcc9493d5bfa",
+    "src/champion_athletic_map/contract_runtime.py": "32f64adcce847fb4e6923875b1902e03c9af9f1becae58521f6d0bb662c5ee90",
+    "src/champion_athletic_map/corrected_runtime.py": "5f66a624f8e5e884a30da31b37f441fb16aaf2a48cf60446f24f924dcac87f59",
+    "src/champion_athletic_map/food_fact_focus.py": "ecf43325ffb6ae4c790de9894e8ed8fe5e2f7ff792f1a08df4e5fbda3f904988",
+    "src/champion_athletic_map/food_reference_encoding.py": "db841540750da94ab4284148b9969b55d36fd274add55e1c47ed7c6509cdd117",
+    "src/champion_athletic_map/food_response_validation.py": "3b4ff2266017dada8b11b57baab0cc870cd7f4132ac0b3922c7a3ae568eebc85",
+    "src/champion_athletic_map/live_reviewed_runtime.py": "a7cfbb0ce737a8fcde4af20df3a387c5cd211b43fad1d607f6c30c433fae8226",
+    "src/champion_athletic_map/operational_runtime.py": "a38f008071b04783ebe60ee1eb581d93c058f6ab433d5d8da09490b7eda525c1",
+    "src/champion_athletic_map/pilot_references.py": "ec1197ffd0e8c327b0f535cc270a5010b3e4679cccd8af842b515819ea513c64",
+    "src/champion_athletic_map/reference_context.py": "e9e7ee5bdd1f2ef28aa3edb03713a1439bc18614a92b88d85c2035552432542c",
+    "src/champion_athletic_map/reference_preparation.py": "50e27d8d5cd84313b1935ae3d6212e90bcb2a83177eab5b4cd1b4e8db788392c",
+    "src/champion_athletic_map/reviewed_planning_checks.py": "5da2b2898ae89104baec63809ad3198a3fd5982641db069b1f820a03e172faf6",
+    "src/champion_athletic_map/reviewed_runtime.py": "1e73486653c4cd1f552a35404bc9dd552b49d53f195e8394fff497e5d9d970d7",
+    "src/champion_athletic_map/selected_drill_context.py": "f878153e1d214f484fbafab31788c79ea5ffbfb66e44d1cf2a11a9630c38bb27"
+  },
+  "policy_sha256": "59e7ffcbe50bfb3fb0557bc3c32f29805e03f283c4269c784369c3ef95e79fae",
+  "public_input_sha256": "455b7b416396437d17f78a24032ce1f2da1466defdca2afeb0a745daf117a93f",
+  "public_record": {
+    "input": {
+      "age": 14,
+      "athlete_request": "For the week shown, help me work toward this priority: Stay balanced while moving laterally on defense. Pick 2 additional practice blocks within my recorded limits.",
+      "availability": [
+        {
+          "date": "2026-11-17",
+          "end_time": "19:05",
+          "start_time": "18:20"
+        },
+        {
+          "date": "2026-11-18",
+          "end_time": "19:05",
+          "start_time": "18:20"
+        },
+        {
+          "date": "2026-11-20",
+          "end_time": "19:05",
+          "start_time": "18:20"
+        }
+      ],
+      "basketball_background": {
+        "experience_level": "advanced",
+        "reported_skill_level": "I am working on keeping the requested movement consistent."
+      },
+      "equipment": [
+        {
+          "name": "Basketball",
+          "quantity": 1
+        },
+        {
+          "name": "Cones",
+          "quantity": 3
+        },
+        {
+          "name": "Hoop",
+          "quantity": 1
+        }
+      ],
+      "existing_commitments": [
+        {
+          "activity_kind": "travel",
+          "activity_type": "nontraining",
+          "date": "2026-11-19",
+          "description": "School-related travel",
+          "end_time": "16:00",
+          "start_time": "15:00"
+        }
+      ],
+      "goals": [
+        "Stay balanced while moving laterally on defense"
+      ],
+      "participants_available": 3,
+      "planning_window": {
+        "end_date": "2026-11-22",
+        "start_date": "2026-11-16",
+        "timezone": "America/Los_Angeles"
+      },
+      "reported_limitations": [],
+      "schedule_coverage": {
+        "end_date": "2026-11-22",
+        "existing_commitments_complete": true,
+        "start_date": "2026-11-16",
+        "timezone": "America/Los_Angeles"
+      },
+      "school_grade": 8,
+      "space": {
+        "court_access": "single_hoop_area",
+        "hoop_access": true,
+        "restrictions": [],
+        "usable_area_description": "One outdoor hoop with an open paved practice area."
+      },
+      "time_limits": {
+        "max_additional_minutes_per_week": 90,
+        "max_additional_sessions_per_week": 2,
+        "max_session_minutes": 45
+      }
+    },
+    "profile_id": "athlete:0baccd4a2b3510281c33fddd",
+    "schema_version": "athlete-profile-input-2"
+  },
+  "query_runtime_configuration_sha256": "2b4736babf13c86cf1ba56054fb614861439d56730ccd8e955ff165bad8eeca9",
+  "schema_sha256": "a0f87a6932f16ca8001111729470e19a0aeb41127f84bac68ecda5f7d612a684",
+  "schema_version": "pilot-fresh-references-1",
+  "source_bindings": {
+    "artifacts/language_model/active_resource_release.json": "b05bfd994b9d722e6179ee2a3e2136975118a51468eb490bec166c231f15303b",
+    "artifacts/language_model/approved_resources/team-approved-f0dcb9e9943e381b/adopted_drills.json": "32ee86843189f03aa6d02270313c2b4b84ebb0f221f4561b938b62c50d90368f",
+    "artifacts/language_model/approved_resources/team-approved-f0dcb9e9943e381b/adopted_rules.json": "9dbba81662e4e4377dccb2192e5c157607d1b6120a480087d3c94c3ab846203b",
+    "artifacts/language_model/approved_resources/team-approved-f0dcb9e9943e381b/decisions.json": "1b30e7607f26c9c451bce921ce623b622a8342a1978a624b2f9a0daba8fce4a2",
+    "artifacts/language_model/approved_resources/team-approved-f0dcb9e9943e381b/manifest.json": "d048af8432bfc339a2504460cbbdbca7011745774d92f0024aa15148dc55db6b",
+    "artifacts/language_model/shared_contracts/contracts_3293242853ce2cf7/step24_7_shared_contract_summary.json": "519362b211147f88651839f4001ea63bd4e01e77698c93538f985e6dbaca8da9",
+    "artifacts/language_model/shared_contracts/contracts_3293242853ce2cf7/verified_inputs.json": "a32910d258af3c4b829594c568a84a4b5a353c6a5a985f3658dacff58639ad0d",
+    "artifacts/retrieval/query_runtime/query_f6db9aad37d7a9b9/query_runtime_manifest.json": "8daf73c245153a4fdfbf6282b4d6ff56d3dd42cf0013ffc9c7579c80bce10166",
+    "data/processed/usda_sr_legacy_2018_04/reference_ee67cf780262d24b/step14_food_reference_summary.json": "ee67cf780262d24bf02bcc7230104e65bcbfe6508b44f3c36eb03100d85295af",
+    "data/processed/usda_sr_legacy_2018_04/reference_ee67cf780262d24b/usda_food_reference.py": "b665381f328e9ebfefbe8c42ef01e6905a7085dc4789290939194b4488b69136",
+    "data/unified/v1/READ_ME_FIRST.txt": "780d9adde210fadc443bb70e9fde9b0b278233bee937926d52d6bbd521bd1504",
+    "data/unified/v1/champions_unified_dataset.csv": "ee8903644570bc158440821e7b307aa6a4c5277b9070c724faf59119848ba625",
+    "data/unified/v1/dataset_manifest.json": "21e56bbef6151a2aa4cdef4af6aba7a2a156aaf811714198d9afdb5615a06de2",
+    "data/unified/v1/load_unified_dataset.py": "69af88c450180cc70af260798cb5cb081aee086e2bf79bca06998b13db2b1668",
+    "results/step24_language_model_integration_summary.json": "37961c8189167a2889ad9dfb4fc1801d3b1e6fd9c1cb28aeee82e56b0c89db06",
+    "src/champion_athletic_map/reference_tools.py": "6e2125f4a4b21ffc44ee8d6180f81dc10bfccd223fff398913b205cc9b4bc132"
+  }
+}

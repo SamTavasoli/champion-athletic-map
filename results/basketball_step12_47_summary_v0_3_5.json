@@ -1,0 +1,34 @@
+{
+  "catalog_changes": 0,
+  "catalog_groups_preserved": 144,
+  "catalog_version": "0.3.5",
+  "input_sha256": {
+    "catalog": "492a7410446f0c7e261a42b35382ac858b3811cbdf936d4d17e262983cb5cb99",
+    "field_comparisons": "f5b8ccd46439e72ef287857dfe21fc98140eaac905919797b340fa2e185912bc",
+    "registry": "f27de2f4b6c9d62d33aa1f27bc97c650355076886535ba63e9a6d78d9931478a",
+    "review_queue": "bff51f2e6ba0d3f11eed1b9a3e06d5af87001b80d7af46244d784602a56cb52a",
+    "source_checks": "8a84db50bda3370b18895e558b0e603248dfea582c958238fd32f78ee205060f",
+    "step46_summary": "f6748e8de5b1d1a5f184a5addb33d0bc40fac9409d98fdafa225ca405d3e7a29"
+  },
+  "limitations": "Short published prescriptions are preliminary source evidence; no inferred timing or court space is promoted. Instructions, permissions, canonical identity, and youth planning checks require separate review.",
+  "planner_eligibility_changes": 0,
+  "prescription_results": {
+    "no_standalone_prescription_visible_in_html": 3,
+    "publisher_recorded_prescription_difference": 6,
+    "same_prescription_after_notation_normalization": 3
+  },
+  "prescriptions_flagged_in_step46": 12,
+  "publisher_pages_fetched": 7,
+  "publisher_pages_requested": 7,
+  "report_sha256": {
+    "prescription_decisions": "3150ef2e64fc01786636d16fd4ac6be85db76c94c3920b5eb99f07eb34de6640",
+    "prescription_evidence": "81b8b497e229eebf4ec62859162e209da6986ab0f86d2159bfeebe03549523c6",
+    "space_followups": "9fcb5125bb8eb339557c092c86bb65f7e198558748efa195709e71129928eb70"
+  },
+  "reviewer_approvals_recorded": 0,
+  "source_occurrences_preserved": 156,
+  "source_review_date": "2026-11-07",
+  "space_followups": 18,
+  "step": "12-47",
+  "wave3_candidates": 42
+}

@@ -1,0 +1,377 @@
+{
+  "packet_id": "reference-packet:07d1378e4f356b949a0526ee107a4108c4ded4280970d1f104ff1c097180e0ec",
+  "payload": {
+    "catalog_records": [
+      {
+        "data": {
+          "age_eligibility_inferred": false,
+          "alias_resolved": false,
+          "approved_variant": "specified_source_base_variant_only",
+          "canonical_drill_id": "JR-NEW-0057",
+          "catalog_candidate_id": "JR-NEW-0057",
+          "content_provenance": "Original brief description and factual resources reviewed against primary source.",
+          "content_use_scope": "Source-linked metadata and original summary only; no approval to redistribute publisher text, diagrams, images or video.",
+          "drill_name": "Early-Cross Jab Series",
+          "duration_minutes": null,
+          "equipment": "Ball",
+          "instructions": "Approach a partner, change hands before closing the distance, then jab in the opposite direction past the defender. Work both hands and exchange roles.",
+          "medical_suitability_certified": false,
+          "minimum_participants": null,
+          "participants": "Partners",
+          "primary_goal": "Crossover footwork",
+          "primary_goal_provenance": "project editorial classification, not publisher-certified assessment",
+          "publisher_attribution": "Jr. NBA/Jr. WNBA instructional curriculum",
+          "requested_drill_id": "JR-NEW-0057",
+          "rest_seconds": null,
+          "scope": "basketball_drill_candidate",
+          "secondary_skills": [],
+          "solo_adaptation": null,
+          "source_curriculum_level": "MVP",
+          "source_prescription": "4 minutes",
+          "source_representation": "official linked PDF read 2026-11-13",
+          "source_url": "https://ak-static.cms.nba.com/wp-content/uploads/sites/52/2016/12/JrNBA17_Curriculum_MVP_PP_05.pdf",
+          "space": "Court space",
+          "use_conditions": "Use only when the actual equipment, player roles, space, skill prerequisites and supervision are satisfied. Ask for missing facts; do not invent durations, rest, coach availability or solo adaptations. Apply adopted participation rules separately."
+        },
+        "data_version": "team-approved-f0dcb9e9943e381b",
+        "issues": [
+          "Use only the reviewed variant and its stated resource/supervision conditions; unknown time and rest remain unknown."
+        ],
+        "kind": "drill",
+        "requested_id": "JR-NEW-0057",
+        "source_refs": [
+          "JR-NEW-0057",
+          "https://ak-static.cms.nba.com/wp-content/uploads/sites/52/2016/12/JrNBA17_Curriculum_MVP_PP_05.pdf"
+        ],
+        "status": "found"
+      }
+    ],
+    "catalog_selection": {
+      "feasibility_certified": false,
+      "status": "delivered_conditionally"
+    },
+    "context_limitations": [
+      "References are evidence, not a feasibility, age-eligibility or safety certification. Use only complete reviewed variants and retain their conditions; ask about missing facts."
+    ],
+    "food_lookup": [
+      {
+        "data": {
+          "description": "Rice, brown, long-grain, cooked (Includes foods for USDA's Food Distribution Program)",
+          "food_id": "169704",
+          "grams": "180",
+          "nutrients": [
+            {
+              "NDB_number": "20037",
+              "amount": "221.4",
+              "amount_per_100g_raw": "123",
+              "catalog_release": "2018-04",
+              "description": "Rice, brown, long-grain, cooked (Includes foods for USDA's Food Distribution Program)",
+              "fdc_id": "169704",
+              "grams": "180",
+              "nutrient_id": "1008",
+              "nutrient_name": "Energy",
+              "reason": null,
+              "reference_basis": "edible_food",
+              "reference_mass_g": "100",
+              "source_archive_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0",
+              "source_data_type": "sr_legacy_food",
+              "source_derivation_code": "NC",
+              "source_derivation_description": "Calculated",
+              "source_derivation_id": "49",
+              "source_food_nutrient_id": "1462903",
+              "source_food_table": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/food.csv",
+              "source_footnote": "",
+              "source_record_url": "https://fdc.nal.usda.gov/food-details/169704/nutrients",
+              "status": "available",
+              "unit": "KCAL"
+            },
+            {
+              "NDB_number": "20037",
+              "amount": "4.932",
+              "amount_per_100g_raw": "2.74",
+              "catalog_release": "2018-04",
+              "description": "Rice, brown, long-grain, cooked (Includes foods for USDA's Food Distribution Program)",
+              "fdc_id": "169704",
+              "grams": "180",
+              "nutrient_id": "1003",
+              "nutrient_name": "Protein",
+              "reason": null,
+              "reference_basis": "edible_food",
+              "reference_mass_g": "100",
+              "source_archive_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0",
+              "source_data_type": "sr_legacy_food",
+              "source_derivation_code": "A",
+              "source_derivation_description": "Analytical",
+              "source_derivation_id": "1",
+              "source_food_nutrient_id": "1462868",
+              "source_food_table": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/food.csv",
+              "source_footnote": "",
+              "source_record_url": "https://fdc.nal.usda.gov/food-details/169704/nutrients",
+              "status": "available",
+              "unit": "G"
+            },
+            {
+              "NDB_number": "20037",
+              "amount": "1.746",
+              "amount_per_100g_raw": "0.97",
+              "catalog_release": "2018-04",
+              "description": "Rice, brown, long-grain, cooked (Includes foods for USDA's Food Distribution Program)",
+              "fdc_id": "169704",
+              "grams": "180",
+              "nutrient_id": "1004",
+              "nutrient_name": "Total lipid (fat)",
+              "reason": null,
+              "reference_basis": "edible_food",
+              "reference_mass_g": "100",
+              "source_archive_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0",
+              "source_data_type": "sr_legacy_food",
+              "source_derivation_code": "A",
+              "source_derivation_description": "Analytical",
+              "source_derivation_id": "1",
+              "source_food_nutrient_id": "1462901",
+              "source_food_table": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/food.csv",
+              "source_footnote": "",
+              "source_record_url": "https://fdc.nal.usda.gov/food-details/169704/nutrients",
+              "status": "available",
+              "unit": "G"
+            },
+            {
+              "NDB_number": "20037",
+              "amount": "46.044",
+              "amount_per_100g_raw": "25.58",
+              "catalog_release": "2018-04",
+              "description": "Rice, brown, long-grain, cooked (Includes foods for USDA's Food Distribution Program)",
+              "fdc_id": "169704",
+              "grams": "180",
+              "nutrient_id": "1005",
+              "nutrient_name": "Carbohydrate, by difference",
+              "reason": null,
+              "reference_basis": "edible_food",
+              "reference_mass_g": "100",
+              "source_archive_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0",
+              "source_data_type": "sr_legacy_food",
+              "source_derivation_code": "NC",
+              "source_derivation_description": "Calculated",
+              "source_derivation_id": "49",
+              "source_food_nutrient_id": "1462902",
+              "source_food_table": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/food.csv",
+              "source_footnote": "",
+              "source_record_url": "https://fdc.nal.usda.gov/food-details/169704/nutrients",
+              "status": "available",
+              "unit": "G"
+            },
+            {
+              "NDB_number": "20037",
+              "amount": "2.88",
+              "amount_per_100g_raw": "1.6",
+              "catalog_release": "2018-04",
+              "description": "Rice, brown, long-grain, cooked (Includes foods for USDA's Food Distribution Program)",
+              "fdc_id": "169704",
+              "grams": "180",
+              "nutrient_id": "1079",
+              "nutrient_name": "Fiber, total dietary",
+              "reason": null,
+              "reference_basis": "edible_food",
+              "reference_mass_g": "100",
+              "source_archive_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0",
+              "source_data_type": "sr_legacy_food",
+              "source_derivation_code": "A",
+              "source_derivation_description": "Analytical",
+              "source_derivation_id": "1",
+              "source_food_nutrient_id": "1462853",
+              "source_food_table": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/food.csv",
+              "source_footnote": "",
+              "source_record_url": "https://fdc.nal.usda.gov/food-details/169704/nutrients",
+              "status": "available",
+              "unit": "G"
+            }
+          ],
+          "portion": null
+        },
+        "data_version": "sr-legacy-2018-04:ee67cf780262d24b",
+        "issues": [],
+        "source_refs": [
+          "https://fdc.nal.usda.gov/food-details/169704/nutrients"
+        ],
+        "status": "found"
+      }
+    ],
+    "planning_rules": {
+      "population_qualifications": {
+        "advisory_ranges": "Show applicable contextual guidance; do not invent a precedence rule or turn recommended lower values into required minimum training.",
+        "origin": "team_adopted_project_policy_not_publisher_precedence",
+        "overlapping_required_bounds": "Use the most restrictive supported applicable bound as one conceptual check; do not score aliases twice. Age 14/grade 9 therefore uses 600 minutes for this prototype.",
+        "policy_id": "PROJECT_NBA_OVERLAP_CONSERVATIVE_V1",
+        "population_matching": "Match reported age category and separately reported grade category. Never infer grade from age. Project scope is 13–17.",
+        "unknown_grade": "A known applicable age-based bound remains usable; age 15–17 with unknown grade does not establish a grade-based rule."
+      },
+      "rules": [
+        {
+          "applicability": {
+            "project_age_max": 17,
+            "project_age_min": 13,
+            "source_conditions": {
+              "age_max": 17,
+              "age_min": 13,
+              "grade_max": null,
+              "grade_min": null
+            }
+          },
+          "applicability_assessment": {
+            "basis": "Population scope only; request mode, complete schedule and other required inputs remain unassessed.",
+            "known_outside_scope_inputs": [],
+            "missing_scope_inputs": [],
+            "status": "matched"
+          },
+          "candidate_rule_id": "CDC_TEENS_SLEEP",
+          "corrections_and_qualifications": [
+            "No automated daily-sleep violation or pass from average_hours_per_night alone. Preserve daily versus nightly measurement and naps.",
+            "Show guidance without treating it as a training target, diagnosis, or medical clearance."
+          ],
+          "display_name": "Daily sleep guidance — ages 13–17",
+          "measurement_window": "reported_daily_period",
+          "missing_and_null_handling": {
+            "known_conflict": "A proven violation remains Violated even when other information is missing",
+            "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+            "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+            "not_applicable": "Only after population or request-mode exclusion is established"
+          },
+          "policy_origin": "published_guidance_with_explicit_project_interpretation",
+          "record_kind": "structured_reference",
+          "required_inputs": {
+            "measurement": [
+              "reported_sleep",
+              "reporting_dates",
+              "daily_measurement_period"
+            ],
+            "population": [
+              "age"
+            ],
+            "segment_resolution": []
+          },
+          "reviewed_enforcement": "advisory",
+          "reviewed_operator": "describe_daily_recommended_range",
+          "reviewed_threshold": [
+            8,
+            10
+          ],
+          "reviewed_unit": "hours/24_hours",
+          "source_population_conditions": {
+            "age_max": 17,
+            "age_min": 13,
+            "grade_max": null,
+            "grade_min": null
+          },
+          "source_statement_values_typed": {
+            "published_recommended_range": [
+              8,
+              10
+            ]
+          },
+          "source_unit": "hours/day",
+          "source_url": "https://www.cdc.gov/sleep/about/"
+        },
+        {
+          "applicability": {
+            "overlap_policy": "PROJECT_NBA_OVERLAP_CONSERVATIVE_V1",
+            "project_age_max": 17,
+            "project_age_min": 13,
+            "source_conditions": {
+              "age_max": 14,
+              "age_min": 13,
+              "grade_max": null,
+              "grade_min": null
+            }
+          },
+          "applicability_assessment": {
+            "basis": "Population scope only; request mode, complete schedule and other required inputs remain unassessed.",
+            "known_outside_scope_inputs": [],
+            "missing_scope_inputs": [],
+            "status": "matched"
+          },
+          "candidate_rule_id": "NBA_A13_14_SLEEP",
+          "corrections_and_qualifications": [
+            "Publisher category facts are retained; overlap resolution is PROJECT_NBA_OVERLAP_CONSERVATIVE_V1, not asserted publisher precedence.",
+            "Reported average_hours_per_night is not proof that every night met the range. Do not substitute it for a 24-hour daily total.",
+            "Use alongside the CDC record as contextual support, not an extra scored duplicate."
+          ],
+          "display_name": "Nightly sleep guidance — ages 13–14",
+          "measurement_window": "reported_night",
+          "missing_and_null_handling": {
+            "known_conflict": "A proven violation remains Violated even when other information is missing",
+            "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+            "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+            "not_applicable": "Only after population or request-mode exclusion is established"
+          },
+          "policy_origin": "published_guidance_with_explicit_project_interpretation",
+          "record_kind": "structured_reference",
+          "required_inputs": {
+            "measurement": [
+              "reported_sleep",
+              "reporting_dates",
+              "nightly_measurement_period"
+            ],
+            "population": [
+              "age"
+            ],
+            "segment_resolution": [
+              "school_grade"
+            ]
+          },
+          "reviewed_enforcement": "advisory",
+          "reviewed_operator": "describe_nightly_recommended_range",
+          "reviewed_threshold": [
+            8,
+            10
+          ],
+          "reviewed_unit": "hours/night",
+          "source_population_conditions": {
+            "age_max": 14,
+            "age_min": 13,
+            "grade_max": null,
+            "grade_min": null
+          },
+          "source_statement_values_typed": {
+            "published_recommended_range": [
+              8,
+              10
+            ]
+          },
+          "source_unit": "hours/night",
+          "source_url": "https://youthguidelines.nba.com/"
+        }
+      ],
+      "status": "found",
+      "validator_execution_ready": false
+    },
+    "references": []
+  },
+  "preparation": {
+    "active_resource_pointer_sha256": "b05bfd994b9d722e6179ee2a3e2136975118a51468eb490bec166c231f15303b",
+    "builder_policy": "shared-planning-references-1",
+    "delivered_catalog_ids": [
+      "JR-NEW-0057"
+    ],
+    "delivered_rule_ids": [
+      "CDC_TEENS_SLEEP",
+      "NBA_A13_14_SLEEP"
+    ],
+    "drill_selection_version": "public-goal-drill-context-1",
+    "feasibility_certified": false,
+    "food_lookup_mode": "literal_quoted_name_and_grams",
+    "full_prompt_budget_verified": false,
+    "max_packet_tokens": 2200,
+    "max_rule_bundles": 2,
+    "omission_count": 22,
+    "packet_budget_basis": "lossless-food-model-view-1",
+    "packet_text_tokens": 2134,
+    "query_templates_version": "public-two-query-1",
+    "release_manifest_sha256": "d048af8432bfc339a2504460cbbdbca7011745774d92f0024aa15148dc55db6b",
+    "resource_release_id": "team-approved-f0dcb9e9943e381b",
+    "rule_checks_executed": false,
+    "selected_reference_ids": [],
+    "source_configuration_sha256": "4c620fb0c6119c237ad79de9a37d44dcde311118919a5489ab95be0b3a3bfb2e"
+  },
+  "public_input_sha256": "417527a0b41add17331965188b42cc78ef5ae472828a09e6fe94712a7108831d",
+  "schema_version": "shared-reference-packet-1"
+}

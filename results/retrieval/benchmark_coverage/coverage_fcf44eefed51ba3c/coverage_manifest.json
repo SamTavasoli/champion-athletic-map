@@ -1,0 +1,15 @@
+{
+  "actual_benchmark_questions_or_judgments_created": 0,
+  "benchmark_coverage_audit_id": "benchmark-coverage-audit:fcf44eefed51ba3c1e268ac79c495eb9c35750ab325883e3999a3fe6093ee2b6",
+  "corpus_id": "pilot-corpus:917f12a3f56929da76a59808167bcca057fc9017047b57b5fb46fe2d1409884d",
+  "full_planned_benchmark_ready": false,
+  "payload_hashes": {
+    "benchmark_design_contract.json": "fa738bb6601087ff0503eab1d547573b5bd01e8b325a79848a9456edc3dfe3e1",
+    "category_coverage.csv": "9359b0fad4d93d5424d89a89ed1f3e6430adb3b9973d420d91f8b1881355f746",
+    "coverage_checks.csv": "034a54e01afdee0d1c19df979d9ad2df8e8c60da3e7e7fb4067643c4c82290e4",
+    "coverage_gaps.json": "7c19bdae5b6f66d8d92044ff900a1a20db6a3496d156f11e1d45025cf92c902f",
+    "passage_coverage.csv": "cf9bbb0aa002188dfd41f5994560ba5b6c8a8ca0c673efd98531e11ee29b1951"
+  },
+  "pilot_retrieval_id": "pilot-retrieval-index:d62cdbc989ab524d98286569a289b9c2f8b0876ca08c80fcb2d21ddab36bb448",
+  "schema_version": "step23-benchmark-coverage-manifest-1"
+}

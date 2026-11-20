@@ -1,0 +1,34 @@
+{
+  "aliases": {
+    "JR-ADITI-0015": "JR-REVIEW-0061"
+  },
+  "approval_state": "finalized_under_team_delegation",
+  "authority": {
+    "authority_basis": "User explicitly delegated approval of supported items to the assistant.",
+    "authorization_date": "2026-11-13",
+    "authorization_excerpt": "I leave all of it to you.",
+    "decision_label": "Approved by team — under Sam’s delegated authority",
+    "delegating_team_member": "Sam",
+    "independent_human_peer_review_claimed": false
+  },
+  "classifier_label_retention_only": true,
+  "gym_exercise_planner_approvals": 0,
+  "held_drill_ids": [
+    "JR-REVIEW-0047",
+    "JR-REVIEW-0048",
+    "JR-NEW-0021",
+    "JR-NEW-0030",
+    "JR-NEW-0032",
+    "JR-NEW-0038",
+    "JR-ADITI-0010"
+  ],
+  "held_rule_ids": [
+    "NBA_A12_14_MAX_MONTHS",
+    "NBA_G9_12_MAX_MONTHS",
+    "NBA_A12_SLEEP",
+    "RECOVERY-GUIDANCE-ed612a4be4514a8669e0",
+    "RECOVERY-GUIDANCE-b4431f70157742ed152d"
+  ],
+  "target_100_distinct_verified": false,
+  "verified_distinct_basketball_count": null
+}

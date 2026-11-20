@@ -1,0 +1,4 @@
+model,model_id,accuracy,macro_f1,records,groups
+majority,majority_class,0.23059360730593606,0.023423005565862708,438,385
+logistic_regression,tfidf_logistic_regression,0.7328767123287672,0.614255071399779,438,385
+neural,neural_classifier,0.678082191780822,0.5287925884445915,438,385

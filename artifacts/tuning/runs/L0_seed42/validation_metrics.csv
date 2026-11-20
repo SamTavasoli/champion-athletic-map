@@ -1,0 +1,2 @@
+candidate_id,model_id,configuration_id,run_id,split,status,records,groups,correct_records,accuracy,macro_f1,class_denominator
+L0,tfidf_logistic_regression,logistic-tuning-config:4f86d982991c354784bf13b21914b35c8238a876646f32bacca1c2c12c54fca1,logistic-tuning-run:79213606cb064bb5aa8291271acb2b71,validation,available,435,384,204,0.4689655172413793,0.14645257214015803,16

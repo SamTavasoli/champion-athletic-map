@@ -1,0 +1,30 @@
+{
+  "source_zip": "zipflieyouwanted.zip",
+  "input_catalog_groups": 67,
+  "input_evidence_occurrences": 70,
+  "existing_metadata_reviewed": 17,
+  "existing_draft_groups": 50,
+  "new_title_occurrences": 63,
+  "new_unique_title_keys": 62,
+  "new_name_collisions_with_original": [],
+  "new_title_duplicates_within_batch": {
+    "variation shooting": 2
+  },
+  "output_provisional_name_groups": 129,
+  "output_basketball_name_groups_pending_review": 117,
+  "output_warmup_name_groups": 12,
+  "catalog_approved_drills": 0,
+  "planner_eligible_drills": 0,
+  "review_status": "not_complete",
+  "permission_note": "NBA conditions require permissions review for reproduction/redistribution and use in a public or commercial app.",
+  "verification_scope": "Previously reviewed title headings matched by local checks; newly added headings reviewed on official page4/5 public HTML. Not all details confirmed.",
+  "new_sources": [
+    "https://jr.nba.com/basketball-practice-plans/all-star/page/4/",
+    "https://jr.nba.com/basketball-practice-plans/all-star/page/5/",
+    "https://jr.nba.com/basketball-practice-plans/mvp/page/4/",
+    "https://jr.nba.com/basketball-practice-plans/mvp/page/5/",
+    "https://jr.nba.com/basketball-practice-plans/rookie/page/4/",
+    "https://jr.nba.com/basketball-practice-plans/starter/page/4/",
+    "https://jr.nba.com/basketball-practice-plans/starter/page/5/"
+  ]
+}

@@ -1,0 +1,35 @@
+evidence_id,official_drill_name,check,status
+JR-EVID-0004,1.2.3. Triple Threat,cross_source_name_review,needs_review
+JR-EVID-0006,The Escape Game,general_warmup_scope_review,needs_review
+JR-EVID-0009,Run to That Line,cross_source_name_review,needs_review
+JR-EVID-0009,Run to That Line,general_warmup_scope_review,needs_review
+JR-EVID-0011,Cone Dribbling,cross_source_name_review,needs_review
+JR-EVID-0012,Gauntlet Dribbling,source_timing_not_verified,needs_review
+JR-EVID-0013,Partner Decision Dribbling Game,source_timing_not_verified,needs_review
+JR-EVID-0015,Cone Dribbling,cross_source_name_review,needs_review
+JR-EVID-0018,Run to That Line,cross_source_name_review,needs_review
+JR-EVID-0018,Run to That Line,general_warmup_scope_review,needs_review
+JR-EVID-0018,Run to That Line,summary_not_prepared,needs_review
+JR-EVID-0019,Forward/Backward/Lateral March,general_warmup_scope_review,needs_review
+JR-EVID-0019,Forward/Backward/Lateral March,source_timing_not_verified,needs_review
+JR-EVID-0019,Forward/Backward/Lateral March,summary_not_prepared,needs_review
+JR-EVID-0020,High Knees,general_warmup_scope_review,needs_review
+JR-EVID-0020,High Knees,source_timing_not_verified,needs_review
+JR-EVID-0020,High Knees,summary_not_prepared,needs_review
+JR-EVID-0021,Quick Feet,general_warmup_scope_review,needs_review
+JR-EVID-0021,Quick Feet,source_description_overlap_review,needs_review
+JR-EVID-0021,Quick Feet,source_timing_not_verified,needs_review
+JR-EVID-0021,Quick Feet,summary_not_prepared,needs_review
+JR-EVID-0022,Side Push,general_warmup_scope_review,needs_review
+JR-EVID-0022,Side Push,source_description_overlap_review,needs_review
+JR-EVID-0022,Side Push,source_timing_not_verified,needs_review
+JR-EVID-0022,Side Push,summary_not_prepared,needs_review
+JR-EVID-0023,Toss & Catch,summary_not_prepared,needs_review
+JR-EVID-0024,Stationary Dribble Low/Middle,summary_not_prepared,needs_review
+JR-EVID-0025,Up or Down Game,summary_not_prepared,needs_review
+JR-EVID-0026,1.2.3. Triple Threat,cross_source_name_review,needs_review
+JR-EVID-0026,1.2.3. Triple Threat,summary_not_prepared,needs_review
+JR-EVID-0027,Gates Passing Game,summary_not_prepared,needs_review
+JR-EVID-0028,Red Light,summary_not_prepared,needs_review
+JR-EVID-0029,Shooting Line Game,summary_not_prepared,needs_review
+JR-EVID-0030,Advantage Numbers Game,summary_not_prepared,needs_review

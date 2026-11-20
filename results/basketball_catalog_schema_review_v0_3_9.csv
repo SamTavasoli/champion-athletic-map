@@ -1,0 +1,19 @@
+planned_concept,table_audited,expected_column,representation,column_present,rows_in_table,nonblank_values,interpretation
+candidate_identity,catalog,catalog_candidate_id,dedicated_column,yes,144,144,Text presence does not establish verification or numeric duration.
+approved_drill_identity,catalog,approved_drill_id,dedicated_column,yes,144,0,Text presence does not establish verification or numeric duration.
+source_identity,registry,evidence_id,dedicated_column,yes,156,156,Text presence does not establish verification or numeric duration.
+primary_skill,catalog,skill_area,dedicated_column,yes,144,144,Text presence does not establish verification or numeric duration.
+equipment,catalog,equipment,dedicated_column,yes,144,82,Text presence does not establish verification or numeric duration.
+participants,catalog,participants,dedicated_column,yes,144,82,Text presence does not establish verification or numeric duration.
+space,catalog,space,dedicated_column,yes,144,68,Text presence does not establish verification or numeric duration.
+source_prescription,catalog,source_prescription,mixed_prescription_text,yes,144,138,Text presence does not establish verification or numeric duration.
+source_url,registry,source_url,dedicated_column,yes,156,156,Text presence does not establish verification or numeric duration.
+source_instructions,catalog,instructions,no_dedicated_column_in_this_table,no,144,,May exist in source or other project artifacts; do not invent missing values.
+primary_goal,catalog,primary_goal,no_dedicated_column_in_this_table,no,144,,May exist in source or other project artifacts; do not invent missing values.
+secondary_skills,catalog,secondary_skills,no_dedicated_column_in_this_table,no,144,,May exist in source or other project artifacts; do not invent missing values.
+numeric_minimum_participants,catalog,minimum_participants,no_dedicated_column_in_this_table,no,144,,May exist in source or other project artifacts; do not invent missing values.
+separate_duration,catalog,duration,no_dedicated_column_in_this_table,no,144,,May exist in source or other project artifacts; do not invent missing values.
+separate_rest_interval,catalog,rest,no_dedicated_column_in_this_table,no,144,,May exist in source or other project artifacts; do not invent missing values.
+difficulty_modifications,catalog,difficulty_modification,no_dedicated_column_in_this_table,no,144,,May exist in source or other project artifacts; do not invent missing values.
+solo_adaptations,catalog,solo_adaptation,no_dedicated_column_in_this_table,no,144,,May exist in source or other project artifacts; do not invent missing values.
+adaptation_provenance,catalog,adaptation_provenance,no_dedicated_column_in_this_table,no,144,,May exist in source or other project artifacts; do not invent missing values.

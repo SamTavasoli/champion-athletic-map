@@ -1,0 +1,193 @@
+{
+  "backbone_forward_batches": 1,
+  "batch_size": 8,
+  "checkpoint_state_tensors_verified": 103,
+  "checkpoint_verification_tensor_loads": 1,
+  "checks": [
+    {
+      "check": "loaded_encoder_and_tokenizer_match_adopted_limits_and_recipe",
+      "observed": "True",
+      "status": "pass"
+    },
+    {
+      "check": "published_attention_mean_and_l2_modules_are_unchanged",
+      "observed": "True",
+      "status": "pass"
+    },
+    {
+      "check": "encoder_is_evaluation_only_frozen_cpu_float32",
+      "observed": "True",
+      "status": "pass"
+    },
+    {
+      "check": "all_103_checkpoint_state_tensors_and_position_buffer_match",
+      "observed": "True",
+      "status": "pass"
+    },
+    {
+      "check": "query_token_ids_are_valid_and_within_200_before_any_forward_1",
+      "observed": "True",
+      "status": "pass"
+    },
+    {
+      "check": "query_token_ids_are_valid_and_within_200_before_any_forward_2",
+      "observed": "True",
+      "status": "pass"
+    },
+    {
+      "check": "all_explicit_queries_were_counted_before_any_forward",
+      "observed": "True",
+      "status": "pass"
+    },
+    {
+      "check": "backbone_received_only_the_exact_prechecked_query_rows",
+      "observed": "True",
+      "status": "pass"
+    },
+    {
+      "check": "query_vectors_are_finite_float32_normalized_in_input_row_order",
+      "observed": "True",
+      "status": "pass"
+    },
+    {
+      "check": "encoder_weights_buffers_and_gradients_are_unchanged",
+      "observed": "True",
+      "status": "pass"
+    },
+    {
+      "check": "all_eleven_pinned_model_files_remain_unchanged",
+      "observed": "True",
+      "status": "pass"
+    }
+  ],
+  "classifier_preprocessing_or_task_prompt_applied": false,
+  "classifier_texts_processed": 0,
+  "comparison_atol": 1e-06,
+  "comparison_rtol": 1e-05,
+  "computed_array_content_sha256": "fed4f2d0c06f78c9f7f595f48c749ad5b65872e52e9878205844b2322edeba42",
+  "corpus_embeddings_created": 0,
+  "corpus_id": "expanded-corpus:aa58799145ccff5c8ea285b3b1eb0bc4fdc41ef85ad90ffb03db3ce3c4687c58",
+  "corpus_payloads_loaded": 0,
+  "cpu_interop_threads": 1,
+  "cpu_threads": 1,
+  "default_prompt_name": null,
+  "delivery_texts_embedded": 0,
+  "deterministic_algorithms_enabled": true,
+  "device": "cpu",
+  "dtype": "float32",
+  "embedding_api_requests": 1,
+  "embedding_dimension": 384,
+  "embedding_shape": [
+    2,
+    384
+  ],
+  "embeddings_file_sha256": "06eeee104638f5332c2c771b98388f37a3112d8784e55108c07f8f31337e833b",
+  "evaluation_mode": true,
+  "expanded_retrieval_id": "expanded-retrieval-index:ee12915cfac22530096a9b573f046c886696c5b769aca11f6f20967f0068f5b9",
+  "forward_input_rows_checked": 2,
+  "full_untruncated_pre_forward_token_ids_verified": true,
+  "generation_context_budget_verified": false,
+  "gpu_runtime_verified": false,
+  "matched_nonpersistent_position_buffer": true,
+  "max_absolute_difference_from_saved_matrix": null,
+  "mode": "encode_queries",
+  "model_file_hashes": {
+    "1_Pooling/config.json": "4be450dde3b0273bb9787637cfbd28fe04a7ba6ab9d36ac48e92b11e350ffc23",
+    "README.md": "dcd602d2fd35c203a247304a06fec6654a12f7941b739f9221a064fe8dc3b7f0",
+    "config.json": "953f9c0d463486b10a6871cc2fd59f223b2c70184f49815e7efbcab5d8908b41",
+    "config_sentence_transformers.json": "061ca9d39661d6c6d6de5ba27f79a1cd5770ea247f8d46412a68a498dc5ac9f3",
+    "model.safetensors": "53aa51172d142c89d9012cce15ae4d6cc0ca6895895114379cacb4fab128d9db",
+    "modules.json": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf",
+    "sentence_bert_config.json": "fc1993fde0a95c24ec6c022539d41cf6e2f7c9721e5415d6fb6897472a9cd4b7",
+    "special_tokens_map.json": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3",
+    "tokenizer.json": "be50c3628f2bf5bb5e3a7f17b1f74611b2561a3a27eeab05e5aa30f411572037",
+    "tokenizer_config.json": "acb92769e8195aabd29b7b2137a9e6d6e25c476a4f15aa4355c233426c61576b",
+    "vocab.txt": "07eced375cec144d27c900241f3e339478dec958f92fddbc551f295c992038a3"
+  },
+  "model_instances_loaded": 1,
+  "model_repo_id": "sentence-transformers/all-MiniLM-L6-v2",
+  "model_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "model_state_fingerprint_policy": "sorted_named_parameters_and_all_named_buffers_including_nonpersistent",
+  "model_state_sha256_after": "66ab9e15c47972755fc95b6742af1707b8f8b23b3780f54b39bcc5f1c3eb3fd5",
+  "model_state_sha256_before": "66ab9e15c47972755fc95b6742af1707b8f8b23b3780f54b39bcc5f1c3eb3fd5",
+  "model_training_or_finetuning_runs": 0,
+  "native_encoder_truncation_did_not_change_any_forward_input": true,
+  "normalized_embeddings": true,
+  "parameters_frozen": true,
+  "pooling": "attention_masked_mean_then_l2_normalization",
+  "project_encoded_query_limit": 200,
+  "publisher_or_model_download_requests": 0,
+  "queries_generated": 0,
+  "queries_received": 2,
+  "query_bindings": [
+    {
+      "encoded_token_ids_sha256": "5ee1b46da059fb292df67ff6aa41b7f4e761e4e20ad338311067337e695b63ca",
+      "encoded_tokens_including_specials": 47,
+      "query_id": "retrieval-query:cb187c756a01e30e0d9b2ec926a7aff7e0365b68bb2f1feabba50e3874fc7d17",
+      "text_sha256": "1f941dc112ccc1a351499528584d795394f3fc19096af1b3499e21e4d6d595da"
+    },
+    {
+      "encoded_token_ids_sha256": "bf650c795b7c203ae60cd846f0dea97d558fc93eeaf3c881dc185f2a3fa38689",
+      "encoded_tokens_including_specials": 38,
+      "query_id": "retrieval-query:06124ca492b1f9a2c820c1bfd117bcbd058a7cabc27087b51af52bd7cd04a4b4",
+      "text_sha256": "aa102ad732cff91134f6b1e34fe48de47b634aee63ee18c80630a68cc036af90"
+    }
+  ],
+  "query_embedding_requests": 1,
+  "query_embedding_rows_computed": 2,
+  "query_embedding_rows_saved": 2,
+  "query_population": "explicit_caller_supplied_texts_only",
+  "query_token_counts": [
+    47,
+    38
+  ],
+  "raw_utf8_query_hashes_preserved": true,
+  "registered_prompt_names": [
+    "document",
+    "query"
+  ],
+  "registered_prompt_texts_are_empty": true,
+  "relevance_judgments_created": 0,
+  "retrieval_requests": 0,
+  "runtime_environment": {
+    "python_version": "3.12.6",
+    "versions": {
+      "certifi": "2026.10.23",
+      "charset-normalizer": "3.5.2",
+      "filelock": "4.2.4",
+      "fsspec": "2026.9.0",
+      "hf-xet": null,
+      "huggingface-hub": "0.36.0",
+      "idna": "3.20",
+      "jinja2": "3.1.6",
+      "markupsafe": "3.0.3",
+      "networkx": "3.7",
+      "numpy": "2.5.4",
+      "packaging": "26.3",
+      "pillow": "13.0.0",
+      "pyyaml": "6.0.3",
+      "regex": "2026.11.9",
+      "requests": "2.34.2",
+      "safetensors": "0.6.2",
+      "scikit-learn": "1.9.1",
+      "scipy": "1.18.1",
+      "sentence-transformers": "5.1.2",
+      "sympy": "1.14.0",
+      "tokenizers": "0.22.1",
+      "torch": "2.14.1+cu126",
+      "tqdm": "4.70.1",
+      "transformers": "4.57.1",
+      "typing-extensions": "4.16.0",
+      "urllib3": "2.8.0"
+    }
+  },
+  "saved_query_rows_reverified": 0,
+  "schema_version": "step23-semantic-query-worker-report-1",
+  "semantic_runtime_adoption_id": "semantic-runtime-adoption:1e7ec007d3464722a59d16ef72a82588526f7071588771fa37a84c39f7213654",
+  "status": "verified_semantic_query_embeddings",
+  "task_prompt_applied": false,
+  "tokenizer_requests": 2,
+  "truncate_dim": null,
+  "trust_remote_code": false,
+  "weight_format": "safetensors"
+}

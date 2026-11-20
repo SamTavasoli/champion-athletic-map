@@ -1,0 +1,1502 @@
+{
+  "cases_verified": 200,
+  "comparison": {
+    "best_planner_selected": false,
+    "cases": 200,
+    "coded_measure_interpretation": "Coded-check passes exclude the unimplemented goal parent, but still require the saved coded constraints and resource evidence. Unknown requirements are not passes.",
+    "cumulative_model_submissions": 2636,
+    "evidence_support_rates": {
+      "cited_claim_support": null,
+      "reason": "These claim-level measures are not inferred from parent-check status or identifier resolution alone.",
+      "source_dependent_claim_attribution": null,
+      "source_id_resolution": null
+    },
+    "manifest_id": "22662ab54985a88db179496fb22ec4e4265d0fc1b58c9fd4c0b1a8e8bfd2d8e4",
+    "new_model_calls": 0,
+    "new_query_encodings": 0,
+    "outcomes": 800,
+    "paired_intervals_computed": false,
+    "planners": {
+      "1": {
+        "case_denominator": 200,
+        "challenges": {
+          "conflicting_constraints": {
+            "denominator": 15,
+            "handling_checks_passed": 0,
+            "matching_label_alone_is_success": false,
+            "matching_response_type": 0
+          },
+          "missing_information": {
+            "denominator": 20,
+            "handling_checks_passed": 0,
+            "matching_label_alone_is_success": false,
+            "matching_response_type": 0
+          },
+          "outside_scope": {
+            "denominator": 15,
+            "handling_checks_passed": 3,
+            "matching_label_alone_is_success": false,
+            "matching_response_type": 3
+          }
+        },
+        "feasible": {
+          "coded_checks_passed": 0,
+          "completed_valid_plan_responses": 45,
+          "denominator": 150,
+          "full_verification": 0,
+          "required_parent_findings": [
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "output_structure",
+              "met": 45,
+              "not_applicable": 0,
+              "unknown": 0,
+              "violated": 105
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "existing_commitments",
+              "met": 17,
+              "not_applicable": 0,
+              "unknown": 105,
+              "violated": 28
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "additional_training_limits",
+              "met": 22,
+              "not_applicable": 0,
+              "unknown": 105,
+              "violated": 23
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "requested_session_count",
+              "met": 23,
+              "not_applicable": 0,
+              "unknown": 105,
+              "violated": 22
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "food_answer_completeness",
+              "met": 0,
+              "not_applicable": 130,
+              "unknown": 0,
+              "violated": 20
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "availability_and_collisions",
+              "met": 32,
+              "not_applicable": 0,
+              "unknown": 107,
+              "violated": 11
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "reference_identity",
+              "met": 39,
+              "not_applicable": 0,
+              "unknown": 105,
+              "violated": 6
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "activity_accounting",
+              "met": 43,
+              "not_applicable": 0,
+              "unknown": 105,
+              "violated": 2
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "declared_resource_consistency",
+              "met": 24,
+              "not_applicable": 0,
+              "unknown": 125,
+              "violated": 1
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "timing_durations",
+              "met": 42,
+              "not_applicable": 0,
+              "unknown": 107,
+              "violated": 1
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "public_goal_fulfillment",
+              "met": 0,
+              "not_applicable": 0,
+              "unknown": 150,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "resource_requirements_evidence",
+              "met": 0,
+              "not_applicable": 0,
+              "unknown": 150,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "NBA_WEEKLY_ORGANIZED_BASKETBALL_MINUTES",
+              "met": 13,
+              "not_applicable": 0,
+              "unknown": 137,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "NBA_WEEKLY_ORGANIZED_BASKETBALL_REST_DAYS",
+              "met": 13,
+              "not_applicable": 0,
+              "unknown": 137,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "calendar_window",
+              "met": 45,
+              "not_applicable": 0,
+              "unknown": 105,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "response_type_basis",
+              "met": 45,
+              "not_applicable": 0,
+              "unknown": 105,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "food_numeric_correctness",
+              "met": 0,
+              "not_applicable": 130,
+              "unknown": 20,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "execution_completion",
+              "met": 150,
+              "not_applicable": 0,
+              "unknown": 0,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "requested_session_duration",
+              "met": 0,
+              "not_applicable": 150,
+              "unknown": 0,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 90,
+              "check_id": "rule:NBA_A12_14_MAX_HOURS",
+              "met": 0,
+              "not_applicable": 90,
+              "unknown": 0,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 90,
+              "check_id": "rule:NBA_A12_14_MIN_REST",
+              "met": 0,
+              "not_applicable": 90,
+              "unknown": 0,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 43,
+              "check_id": "rule:NBA_G9_12_MAX_HOURS",
+              "met": 0,
+              "not_applicable": 43,
+              "unknown": 0,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 43,
+              "check_id": "rule:NBA_G9_12_MIN_REST",
+              "met": 0,
+              "not_applicable": 43,
+              "unknown": 0,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "rule:POLICY_INDEPENDENT_EVALUATION",
+              "met": 150,
+              "not_applicable": 0,
+              "unknown": 0,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "rule:POLICY_RESULT_SEMANTICS",
+              "met": 150,
+              "not_applicable": 0,
+              "unknown": 0,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "rule:POLICY_REVIEW_ACTIVATION",
+              "met": 150,
+              "not_applicable": 0,
+              "unknown": 0,
+              "violated": 0
+            }
+          ],
+          "returned_plan_type": 150
+        },
+        "food": {
+          "findings": {
+            "food_answer_completeness": {
+              "met": 0,
+              "not_applicable": 0,
+              "unknown": 0,
+              "violated": 20
+            },
+            "food_numeric_correctness": {
+              "met": 0,
+              "not_applicable": 0,
+              "unknown": 20,
+              "violated": 0
+            },
+            "food_source_grounding": {
+              "met": 0,
+              "not_applicable": 19,
+              "unknown": 1,
+              "violated": 0
+            }
+          },
+          "question_denominator": 20
+        },
+        "format_valid": 75,
+        "parent_coverage": {
+          "advisory": {
+            "applicable_parent_instances": 1640,
+            "coverage_is_not_a_pass_rate": true,
+            "determinate_coverage": 0.04085365853658537,
+            "parent_instances": 2400,
+            "status_counts": {
+              "met": 0,
+              "not_applicable": 760,
+              "unknown": 1573,
+              "violated": 67
+            },
+            "unit": "parent-check instances; policy aliases are not counted again"
+          },
+          "required": {
+            "applicable_parent_instances": 3787,
+            "coverage_is_not_a_pass_rate": true,
+            "determinate_coverage": 0.4327964087668339,
+            "parent_instances": 4758,
+            "status_counts": {
+              "met": 1336,
+              "not_applicable": 971,
+              "unknown": 2148,
+              "violated": 303
+            },
+            "unit": "parent-check instances; policy aliases are not counted again"
+          }
+        },
+        "resource_findings_on_feasible_cases": {
+          "declared_resource_consistency": {
+            "met": 24,
+            "not_applicable": 0,
+            "unknown": 125,
+            "violated": 1
+          },
+          "resource_requirements_evidence": {
+            "met": 0,
+            "not_applicable": 0,
+            "unknown": 150,
+            "violated": 0
+          }
+        },
+        "response_type_counts": {
+          "clarification": 5,
+          "constraint_conflict": 6,
+          "outside_scope": 3,
+          "plan": 185,
+          "unavailable": 1
+        },
+        "timing_all_terminal": {
+          "mean_seconds": 10.435265166503669,
+          "measured": 200,
+          "median_seconds": 10.56872530002147,
+          "missing": 0,
+          "outcomes": 200,
+          "p95_method": "nearest rank: sorted elapsed[ceil(0.95*n)-1]",
+          "p95_seconds": 15.07497020001756,
+          "scope": "All designated terminal workflows, including failures; missing elapsed time is not zero."
+        },
+        "timing_coded_check_passes": {
+          "mean_seconds": null,
+          "measured": 0,
+          "median_seconds": null,
+          "missing": 0,
+          "outcomes": 0,
+          "p95_method": "nearest rank: sorted elapsed[ceil(0.95*n)-1]",
+          "p95_seconds": null,
+          "scope": "All designated terminal workflows, including failures; missing elapsed time is not zero."
+        },
+        "workflow_completed": 199
+      },
+      "2": {
+        "case_denominator": 200,
+        "challenges": {
+          "conflicting_constraints": {
+            "denominator": 15,
+            "handling_checks_passed": 0,
+            "matching_label_alone_is_success": false,
+            "matching_response_type": 0
+          },
+          "missing_information": {
+            "denominator": 20,
+            "handling_checks_passed": 0,
+            "matching_label_alone_is_success": false,
+            "matching_response_type": 0
+          },
+          "outside_scope": {
+            "denominator": 15,
+            "handling_checks_passed": 5,
+            "matching_label_alone_is_success": false,
+            "matching_response_type": 5
+          }
+        },
+        "feasible": {
+          "coded_checks_passed": 0,
+          "completed_valid_plan_responses": 40,
+          "denominator": 150,
+          "full_verification": 0,
+          "required_parent_findings": [
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "output_structure",
+              "met": 40,
+              "not_applicable": 0,
+              "unknown": 0,
+              "violated": 110
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "requested_session_count",
+              "met": 5,
+              "not_applicable": 0,
+              "unknown": 112,
+              "violated": 33
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "existing_commitments",
+              "met": 8,
+              "not_applicable": 0,
+              "unknown": 110,
+              "violated": 32
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "additional_training_limits",
+              "met": 13,
+              "not_applicable": 0,
+              "unknown": 112,
+              "violated": 25
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "food_answer_completeness",
+              "met": 0,
+              "not_applicable": 130,
+              "unknown": 2,
+              "violated": 18
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "availability_and_collisions",
+              "met": 19,
+              "not_applicable": 0,
+              "unknown": 118,
+              "violated": 13
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "activity_accounting",
+              "met": 30,
+              "not_applicable": 0,
+              "unknown": 110,
+              "violated": 10
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "execution_completion",
+              "met": 141,
+              "not_applicable": 0,
+              "unknown": 0,
+              "violated": 9
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "timing_durations",
+              "met": 27,
+              "not_applicable": 0,
+              "unknown": 118,
+              "violated": 5
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "declared_resource_consistency",
+              "met": 7,
+              "not_applicable": 9,
+              "unknown": 132,
+              "violated": 2
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "public_goal_fulfillment",
+              "met": 0,
+              "not_applicable": 0,
+              "unknown": 150,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "NBA_WEEKLY_ORGANIZED_BASKETBALL_MINUTES",
+              "met": 2,
+              "not_applicable": 0,
+              "unknown": 148,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "NBA_WEEKLY_ORGANIZED_BASKETBALL_REST_DAYS",
+              "met": 2,
+              "not_applicable": 0,
+              "unknown": 148,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "resource_requirements_evidence",
+              "met": 0,
+              "not_applicable": 9,
+              "unknown": 141,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "calendar_window",
+              "met": 40,
+              "not_applicable": 0,
+              "unknown": 110,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "reference_identity",
+              "met": 40,
+              "not_applicable": 0,
+              "unknown": 110,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "response_type_basis",
+              "met": 40,
+              "not_applicable": 0,
+              "unknown": 110,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "food_numeric_correctness",
+              "met": 0,
+              "not_applicable": 130,
+              "unknown": 20,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "requested_session_duration",
+              "met": 0,
+              "not_applicable": 150,
+              "unknown": 0,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 90,
+              "check_id": "rule:NBA_A12_14_MAX_HOURS",
+              "met": 0,
+              "not_applicable": 90,
+              "unknown": 0,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 90,
+              "check_id": "rule:NBA_A12_14_MIN_REST",
+              "met": 0,
+              "not_applicable": 90,
+              "unknown": 0,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 43,
+              "check_id": "rule:NBA_G9_12_MAX_HOURS",
+              "met": 0,
+              "not_applicable": 43,
+              "unknown": 0,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 43,
+              "check_id": "rule:NBA_G9_12_MIN_REST",
+              "met": 0,
+              "not_applicable": 43,
+              "unknown": 0,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "rule:POLICY_INDEPENDENT_EVALUATION",
+              "met": 150,
+              "not_applicable": 0,
+              "unknown": 0,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "rule:POLICY_RESULT_SEMANTICS",
+              "met": 150,
+              "not_applicable": 0,
+              "unknown": 0,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "rule:POLICY_REVIEW_ACTIVATION",
+              "met": 150,
+              "not_applicable": 0,
+              "unknown": 0,
+              "violated": 0
+            }
+          ],
+          "returned_plan_type": 141
+        },
+        "food": {
+          "findings": {
+            "food_answer_completeness": {
+              "met": 0,
+              "not_applicable": 0,
+              "unknown": 2,
+              "violated": 18
+            },
+            "food_numeric_correctness": {
+              "met": 0,
+              "not_applicable": 0,
+              "unknown": 20,
+              "violated": 0
+            },
+            "food_source_grounding": {
+              "met": 0,
+              "not_applicable": 16,
+              "unknown": 4,
+              "violated": 0
+            }
+          },
+          "question_denominator": 20
+        },
+        "format_valid": 62,
+        "parent_coverage": {
+          "advisory": {
+            "applicable_parent_instances": 1627,
+            "coverage_is_not_a_pass_rate": true,
+            "determinate_coverage": 0.040565457897971724,
+            "parent_instances": 2400,
+            "status_counts": {
+              "met": 0,
+              "not_applicable": 773,
+              "unknown": 1561,
+              "violated": 66
+            },
+            "unit": "parent-check instances; policy aliases are not counted again"
+          },
+          "required": {
+            "applicable_parent_instances": 3745,
+            "coverage_is_not_a_pass_rate": true,
+            "determinate_coverage": 0.3895861148197597,
+            "parent_instances": 4758,
+            "status_counts": {
+              "met": 1131,
+              "not_applicable": 1013,
+              "unknown": 2286,
+              "violated": 328
+            },
+            "unit": "parent-check instances; policy aliases are not counted again"
+          }
+        },
+        "resource_findings_on_feasible_cases": {
+          "declared_resource_consistency": {
+            "met": 7,
+            "not_applicable": 9,
+            "unknown": 132,
+            "violated": 2
+          },
+          "resource_requirements_evidence": {
+            "met": 0,
+            "not_applicable": 9,
+            "unknown": 141,
+            "violated": 0
+          }
+        },
+        "response_type_counts": {
+          "clarification": 5,
+          "constraint_conflict": 5,
+          "outside_scope": 5,
+          "plan": 171,
+          "unavailable": 14
+        },
+        "timing_all_terminal": {
+          "mean_seconds": 18.896839500499773,
+          "measured": 200,
+          "median_seconds": 18.411986849969253,
+          "missing": 0,
+          "outcomes": 200,
+          "p95_method": "nearest rank: sorted elapsed[ceil(0.95*n)-1]",
+          "p95_seconds": 29.496191199985333,
+          "scope": "All designated terminal workflows, including failures; missing elapsed time is not zero."
+        },
+        "timing_coded_check_passes": {
+          "mean_seconds": null,
+          "measured": 0,
+          "median_seconds": null,
+          "missing": 0,
+          "outcomes": 0,
+          "p95_method": "nearest rank: sorted elapsed[ceil(0.95*n)-1]",
+          "p95_seconds": null,
+          "scope": "All designated terminal workflows, including failures; missing elapsed time is not zero."
+        },
+        "workflow_completed": 186
+      },
+      "3": {
+        "case_denominator": 200,
+        "challenges": {
+          "conflicting_constraints": {
+            "denominator": 15,
+            "handling_checks_passed": 0,
+            "matching_label_alone_is_success": false,
+            "matching_response_type": 0
+          },
+          "missing_information": {
+            "denominator": 20,
+            "handling_checks_passed": 0,
+            "matching_label_alone_is_success": false,
+            "matching_response_type": 0
+          },
+          "outside_scope": {
+            "denominator": 15,
+            "handling_checks_passed": 8,
+            "matching_label_alone_is_success": false,
+            "matching_response_type": 8
+          }
+        },
+        "feasible": {
+          "coded_checks_passed": 0,
+          "completed_valid_plan_responses": 39,
+          "denominator": 150,
+          "full_verification": 0,
+          "required_parent_findings": [
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "output_structure",
+              "met": 39,
+              "not_applicable": 0,
+              "unknown": 0,
+              "violated": 111
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "requested_session_count",
+              "met": 13,
+              "not_applicable": 0,
+              "unknown": 111,
+              "violated": 26
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "additional_training_limits",
+              "met": 14,
+              "not_applicable": 0,
+              "unknown": 111,
+              "violated": 25
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "existing_commitments",
+              "met": 15,
+              "not_applicable": 0,
+              "unknown": 111,
+              "violated": 24
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "food_answer_completeness",
+              "met": 0,
+              "not_applicable": 130,
+              "unknown": 1,
+              "violated": 19
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "activity_accounting",
+              "met": 36,
+              "not_applicable": 0,
+              "unknown": 111,
+              "violated": 3
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "timing_durations",
+              "met": 4,
+              "not_applicable": 0,
+              "unknown": 145,
+              "violated": 1
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "availability_and_collisions",
+              "met": 6,
+              "not_applicable": 0,
+              "unknown": 143,
+              "violated": 1
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "declared_resource_consistency",
+              "met": 18,
+              "not_applicable": 2,
+              "unknown": 129,
+              "violated": 1
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "execution_completion",
+              "met": 149,
+              "not_applicable": 0,
+              "unknown": 0,
+              "violated": 1
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "public_goal_fulfillment",
+              "met": 0,
+              "not_applicable": 0,
+              "unknown": 150,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "NBA_WEEKLY_ORGANIZED_BASKETBALL_MINUTES",
+              "met": 1,
+              "not_applicable": 0,
+              "unknown": 149,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "NBA_WEEKLY_ORGANIZED_BASKETBALL_REST_DAYS",
+              "met": 1,
+              "not_applicable": 0,
+              "unknown": 149,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "resource_requirements_evidence",
+              "met": 0,
+              "not_applicable": 2,
+              "unknown": 148,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "calendar_window",
+              "met": 39,
+              "not_applicable": 0,
+              "unknown": 111,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "reference_identity",
+              "met": 39,
+              "not_applicable": 0,
+              "unknown": 111,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "response_type_basis",
+              "met": 39,
+              "not_applicable": 0,
+              "unknown": 111,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "food_numeric_correctness",
+              "met": 0,
+              "not_applicable": 130,
+              "unknown": 20,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "requested_session_duration",
+              "met": 0,
+              "not_applicable": 150,
+              "unknown": 0,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 90,
+              "check_id": "rule:NBA_A12_14_MAX_HOURS",
+              "met": 0,
+              "not_applicable": 90,
+              "unknown": 0,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 90,
+              "check_id": "rule:NBA_A12_14_MIN_REST",
+              "met": 0,
+              "not_applicable": 90,
+              "unknown": 0,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 43,
+              "check_id": "rule:NBA_G9_12_MAX_HOURS",
+              "met": 0,
+              "not_applicable": 43,
+              "unknown": 0,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 43,
+              "check_id": "rule:NBA_G9_12_MIN_REST",
+              "met": 0,
+              "not_applicable": 43,
+              "unknown": 0,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "rule:POLICY_INDEPENDENT_EVALUATION",
+              "met": 150,
+              "not_applicable": 0,
+              "unknown": 0,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "rule:POLICY_RESULT_SEMANTICS",
+              "met": 150,
+              "not_applicable": 0,
+              "unknown": 0,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "rule:POLICY_REVIEW_ACTIVATION",
+              "met": 150,
+              "not_applicable": 0,
+              "unknown": 0,
+              "violated": 0
+            }
+          ],
+          "returned_plan_type": 149
+        },
+        "food": {
+          "findings": {
+            "food_answer_completeness": {
+              "met": 0,
+              "not_applicable": 0,
+              "unknown": 1,
+              "violated": 19
+            },
+            "food_numeric_correctness": {
+              "met": 0,
+              "not_applicable": 0,
+              "unknown": 20,
+              "violated": 0
+            },
+            "food_source_grounding": {
+              "met": 0,
+              "not_applicable": 17,
+              "unknown": 3,
+              "violated": 0
+            }
+          },
+          "question_denominator": 20
+        },
+        "format_valid": 67,
+        "parent_coverage": {
+          "advisory": {
+            "applicable_parent_instances": 1599,
+            "coverage_is_not_a_pass_rate": true,
+            "determinate_coverage": 0.04065040650406504,
+            "parent_instances": 2400,
+            "status_counts": {
+              "met": 0,
+              "not_applicable": 801,
+              "unknown": 1534,
+              "violated": 65
+            },
+            "unit": "parent-check instances; policy aliases are not counted again"
+          },
+          "required": {
+            "applicable_parent_instances": 3726,
+            "coverage_is_not_a_pass_rate": true,
+            "determinate_coverage": 0.39237788513150834,
+            "parent_instances": 4758,
+            "status_counts": {
+              "met": 1184,
+              "not_applicable": 1032,
+              "unknown": 2264,
+              "violated": 278
+            },
+            "unit": "parent-check instances; policy aliases are not counted again"
+          }
+        },
+        "resource_findings_on_feasible_cases": {
+          "declared_resource_consistency": {
+            "met": 18,
+            "not_applicable": 2,
+            "unknown": 129,
+            "violated": 1
+          },
+          "resource_requirements_evidence": {
+            "met": 0,
+            "not_applicable": 2,
+            "unknown": 148,
+            "violated": 0
+          }
+        },
+        "response_type_counts": {
+          "clarification": 5,
+          "constraint_conflict": 1,
+          "outside_scope": 8,
+          "plan": 185,
+          "unavailable": 1
+        },
+        "timing_all_terminal": {
+          "mean_seconds": 26.613149089001237,
+          "measured": 200,
+          "median_seconds": 26.981344950007042,
+          "missing": 0,
+          "outcomes": 200,
+          "p95_method": "nearest rank: sorted elapsed[ceil(0.95*n)-1]",
+          "p95_seconds": 32.92389770003501,
+          "scope": "All designated terminal workflows, including failures; missing elapsed time is not zero."
+        },
+        "timing_coded_check_passes": {
+          "mean_seconds": null,
+          "measured": 0,
+          "median_seconds": null,
+          "missing": 0,
+          "outcomes": 0,
+          "p95_method": "nearest rank: sorted elapsed[ceil(0.95*n)-1]",
+          "p95_seconds": null,
+          "scope": "All designated terminal workflows, including failures; missing elapsed time is not zero."
+        },
+        "workflow_completed": 199
+      },
+      "4": {
+        "case_denominator": 200,
+        "challenges": {
+          "conflicting_constraints": {
+            "denominator": 15,
+            "handling_checks_passed": 0,
+            "matching_label_alone_is_success": false,
+            "matching_response_type": 0
+          },
+          "missing_information": {
+            "denominator": 20,
+            "handling_checks_passed": 0,
+            "matching_label_alone_is_success": false,
+            "matching_response_type": 0
+          },
+          "outside_scope": {
+            "denominator": 15,
+            "handling_checks_passed": 3,
+            "matching_label_alone_is_success": false,
+            "matching_response_type": 3
+          }
+        },
+        "feasible": {
+          "coded_checks_passed": 0,
+          "completed_valid_plan_responses": 47,
+          "denominator": 150,
+          "full_verification": 0,
+          "required_parent_findings": [
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "output_structure",
+              "met": 47,
+              "not_applicable": 0,
+              "unknown": 0,
+              "violated": 103
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "additional_training_limits",
+              "met": 10,
+              "not_applicable": 0,
+              "unknown": 104,
+              "violated": 36
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "requested_session_count",
+              "met": 10,
+              "not_applicable": 0,
+              "unknown": 104,
+              "violated": 36
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "existing_commitments",
+              "met": 19,
+              "not_applicable": 0,
+              "unknown": 103,
+              "violated": 28
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "food_answer_completeness",
+              "met": 0,
+              "not_applicable": 130,
+              "unknown": 2,
+              "violated": 18
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "activity_accounting",
+              "met": 42,
+              "not_applicable": 0,
+              "unknown": 104,
+              "violated": 4
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "availability_and_collisions",
+              "met": 6,
+              "not_applicable": 0,
+              "unknown": 141,
+              "violated": 3
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "timing_durations",
+              "met": 7,
+              "not_applicable": 0,
+              "unknown": 141,
+              "violated": 2
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "declared_resource_consistency",
+              "met": 18,
+              "not_applicable": 0,
+              "unknown": 131,
+              "violated": 1
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "execution_completion",
+              "met": 149,
+              "not_applicable": 0,
+              "unknown": 0,
+              "violated": 1
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "public_goal_fulfillment",
+              "met": 0,
+              "not_applicable": 0,
+              "unknown": 150,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "resource_requirements_evidence",
+              "met": 0,
+              "not_applicable": 0,
+              "unknown": 150,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "NBA_WEEKLY_ORGANIZED_BASKETBALL_MINUTES",
+              "met": 3,
+              "not_applicable": 0,
+              "unknown": 147,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "NBA_WEEKLY_ORGANIZED_BASKETBALL_REST_DAYS",
+              "met": 3,
+              "not_applicable": 0,
+              "unknown": 147,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "calendar_window",
+              "met": 47,
+              "not_applicable": 0,
+              "unknown": 103,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "reference_identity",
+              "met": 47,
+              "not_applicable": 0,
+              "unknown": 103,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "response_type_basis",
+              "met": 47,
+              "not_applicable": 0,
+              "unknown": 103,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "food_numeric_correctness",
+              "met": 0,
+              "not_applicable": 130,
+              "unknown": 20,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "requested_session_duration",
+              "met": 0,
+              "not_applicable": 150,
+              "unknown": 0,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 90,
+              "check_id": "rule:NBA_A12_14_MAX_HOURS",
+              "met": 0,
+              "not_applicable": 90,
+              "unknown": 0,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 90,
+              "check_id": "rule:NBA_A12_14_MIN_REST",
+              "met": 0,
+              "not_applicable": 90,
+              "unknown": 0,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 43,
+              "check_id": "rule:NBA_G9_12_MAX_HOURS",
+              "met": 0,
+              "not_applicable": 43,
+              "unknown": 0,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 43,
+              "check_id": "rule:NBA_G9_12_MIN_REST",
+              "met": 0,
+              "not_applicable": 43,
+              "unknown": 0,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "rule:POLICY_INDEPENDENT_EVALUATION",
+              "met": 150,
+              "not_applicable": 0,
+              "unknown": 0,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "rule:POLICY_RESULT_SEMANTICS",
+              "met": 150,
+              "not_applicable": 0,
+              "unknown": 0,
+              "violated": 0
+            },
+            {
+              "case_denominator": 150,
+              "cases_with_parent": 150,
+              "check_id": "rule:POLICY_REVIEW_ACTIVATION",
+              "met": 150,
+              "not_applicable": 0,
+              "unknown": 0,
+              "violated": 0
+            }
+          ],
+          "returned_plan_type": 149
+        },
+        "food": {
+          "findings": {
+            "food_answer_completeness": {
+              "met": 0,
+              "not_applicable": 0,
+              "unknown": 2,
+              "violated": 18
+            },
+            "food_numeric_correctness": {
+              "met": 0,
+              "not_applicable": 0,
+              "unknown": 20,
+              "violated": 0
+            },
+            "food_source_grounding": {
+              "met": 0,
+              "not_applicable": 14,
+              "unknown": 6,
+              "violated": 0
+            }
+          },
+          "question_denominator": 20
+        },
+        "format_valid": 69,
+        "parent_coverage": {
+          "advisory": {
+            "applicable_parent_instances": 1645,
+            "coverage_is_not_a_pass_rate": true,
+            "determinate_coverage": 0.04072948328267477,
+            "parent_instances": 2400,
+            "status_counts": {
+              "met": 0,
+              "not_applicable": 755,
+              "unknown": 1578,
+              "violated": 67
+            },
+            "unit": "parent-check instances; policy aliases are not counted again"
+          },
+          "required": {
+            "applicable_parent_instances": 3785,
+            "coverage_is_not_a_pass_rate": true,
+            "determinate_coverage": 0.40105680317040954,
+            "parent_instances": 4758,
+            "status_counts": {
+              "met": 1210,
+              "not_applicable": 973,
+              "unknown": 2267,
+              "violated": 308
+            },
+            "unit": "parent-check instances; policy aliases are not counted again"
+          }
+        },
+        "resource_findings_on_feasible_cases": {
+          "declared_resource_consistency": {
+            "met": 18,
+            "not_applicable": 0,
+            "unknown": 131,
+            "violated": 1
+          },
+          "resource_requirements_evidence": {
+            "met": 0,
+            "not_applicable": 0,
+            "unknown": 150,
+            "violated": 0
+          }
+        },
+        "response_type_counts": {
+          "clarification": 3,
+          "outside_scope": 3,
+          "plan": 192,
+          "unavailable": 2
+        },
+        "timing_all_terminal": {
+          "mean_seconds": 66.2172328754983,
+          "measured": 200,
+          "median_seconds": 62.10372750001261,
+          "missing": 0,
+          "outcomes": 200,
+          "p95_method": "nearest rank: sorted elapsed[ceil(0.95*n)-1]",
+          "p95_seconds": 81.24333039997146,
+          "scope": "All designated terminal workflows, including failures; missing elapsed time is not zero."
+        },
+        "timing_coded_check_passes": {
+          "mean_seconds": null,
+          "measured": 0,
+          "median_seconds": null,
+          "missing": 0,
+          "outcomes": 0,
+          "p95_method": "nearest rank: sorted elapsed[ceil(0.95*n)-1]",
+          "p95_seconds": null,
+          "scope": "All designated terminal workflows, including failures; missing elapsed time is not zero."
+        },
+        "workflow_completed": 198
+      }
+    },
+    "primary_interpretation": "The frozen full-verification measure is conservative. Automatic skill-goal verification is unimplemented for the explicit feasible-case goals. Its zeros are verification-coverage findings, not proof that every plan is unusable.",
+    "reviewer_agreement_computed": false,
+    "saved_replies_or_original_assessments_changed": false,
+    "schema_version": "final-saved-results-comparison-1",
+    "submission_count_scope": "All final generation submissions from the leaf journals; a batch count is not substituted.",
+    "team_response_ratings": "pending"
+  },
+  "cumulative_model_submissions": 2636,
+  "export_id": "2deafedb8ae039bdf5c3924fbabb8208dc5501299b8e184229ae5f8ecb5d4fef",
+  "last_batch_model_submissions": 67,
+  "manifest_id": "22662ab54985a88db179496fb22ec4e4265d0fc1b58c9fd4c0b1a8e8bfd2d8e4",
+  "model_calls": 0,
+  "new_query_encodings": 0,
+  "outcomes_verified": 800,
+  "package_directory": "results/final_case_review/review_cb1efb8523e7c29384d3/case_freeze_fb284f388934e7c0a7e6/final_comparison_22662ab54985a88db179/saved_review_2deafedb8ae039bdf5c3",
+  "private_review_archive": "results/step33_saved_results_review.zip",
+  "private_review_archive_sha256": "dfaf369a8708efcc81f1f462e9088efeec2e97264b17613b84212d1476e3f8ba",
+  "review_packet_directory": "results/final_case_review/review_cb1efb8523e7c29384d3/case_freeze_fb284f388934e7c0a7e6/final_comparison_22662ab54985a88db179/saved_review_2deafedb8ae039bdf5c3/team_review",
+  "saved_responses_or_assessments_changed": false,
+  "schema_version": "final-saved-results-export-1",
+  "software_fixture": false,
+  "summary_path": "results/step33_saved_results_comparison_summary.json",
+  "team_review": {
+    "actual_assigned_reviewers": 0,
+    "actual_response_ratings": 0,
+    "blank_rating_entries": 1600,
+    "development_calibration_completed": false,
+    "exact_raw_text_preserved": true,
+    "existing_pre_output_sample_reused": true,
+    "masked_designated_replies": 160,
+    "model_calls": 0,
+    "neutral_reference_files_verified_by_this_module": false,
+    "new_sample_selected": false,
+    "presentation_packets": 2,
+    "private_labels_in_public_packet": false,
+    "ratings_are_templates_only": true,
+    "sample_profiles": 40,
+    "schema_version": "designated-final-team-review-packets-1",
+    "team_review_ready_to_rate": false
+  },
+  "team_review_archive": "results/step33_team_review_packets.zip",
+  "team_review_archive_sha256": "5b1c58912b4e9dc9e07d3bd592804a335771e246a53c9e4999942f87de547902"
+}

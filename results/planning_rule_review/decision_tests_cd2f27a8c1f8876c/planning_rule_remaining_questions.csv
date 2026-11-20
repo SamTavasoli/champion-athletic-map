@@ -1,0 +1,13 @@
+question_id,evidence_id,question_or_scope_gap,status,new_rule_created
+NBA_GAME_LENGTH,NBA_TABLES,Published game-length recommendations are outside the imported structured set.,pending,no
+NBA_GAMES_PER_DAY,NBA_TABLES,Review daily game limits and associated qualifications before adding a check.,pending,no
+NBA_MULTIGAME_RECOVERY,NBA_TABLES,Review multiple-game and recovery qualifications.,pending,no
+NBA_CONCURRENT_SPORT,NBA_TABLES,Retain the concurrent-sport qualification near weekly limits.,pending,no
+NBA_CAMPS_ACADEMIES,NBA_TABLES,Retain qualified treatment of camps and academies.,pending,no
+AGE_GRADE_PRECEDENCE,NBA_TABLES,Resolve applicability separately from competition segmentation and record the decision.,pending,no
+ANNUAL_WINDOW,,Define annual windows and month counting; do not select a universal cutoff from a maximum range.,pending,no
+AAP_FULL_REPORT_ACCESS,,Full clinical-report access and exact sport-rest scope remain pending.,pending,no
+GUIDANCE_DUPLICATES,,Review related sleep/rest records and AAP source aliases without automatic merging or duplicate scoring.,pending,no
+APP_ASSIGNED_ACTIVITY,,Document classification of app-assigned structured basketball as a project interpretation.,pending,no
+ENFORCEMENT_DECISIONS,,Adopt required/advisory/review-only behavior separately from published statement type.,pending,no
+PEER_REVIEW_ADOPTION,,Record the planned independent review and adoption decisions before activation.,pending,no

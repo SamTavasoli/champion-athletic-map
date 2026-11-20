@@ -1,0 +1,12 @@
+field,meaning
+imported_record,Original source record preserved verbatim as field values.
+source_statement_values_typed,Typed published values; not adopted application bounds.
+source_population_conditions,Source age/grade conditions; precedence remains unresolved.
+required_information_proposal,"Inputs proposed for population, segment resolution, and measurement review."
+measurement_window_proposal,"Proposed aggregation or reporting period, distinct from missing history."
+evidence_card_ids,"Pointers to dated assistant evidence records, not hashes of publisher page bytes."
+assistant_evidence_assessment,Supporting access scope; not a peer-review or adoption decision.
+application_enforcement,"Unadopted project enforcement decision, left null."
+comparison_operator,"Unadopted application operator, left null."
+adopted_threshold,"Unadopted application threshold, left null."
+missing_information_proposal,Proposed four-outcome behavior for later review and test specifications.

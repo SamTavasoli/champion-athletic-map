@@ -1,0 +1,7 @@
+check,model,status,records
+complete_aligned_prediction_coverage,majority,passed,438
+complete_aligned_prediction_coverage,logistic_regression,passed,438
+complete_aligned_prediction_coverage,neural,passed,438
+same_frozen_targets_and_groups,all,passed,438
+same_sixteen_class_order,all,passed,438
+no_successful_subset_scores,all,passed,438

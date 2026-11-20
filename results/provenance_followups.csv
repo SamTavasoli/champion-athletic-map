@@ -1,0 +1,15 @@
+issue_id,priority,issue,next_action,status
+P01,high,Original input files not available locally,Locate originals and verify source versions.,open
+P02,high,Exercise dataset license and release need evidence,Verify Kaggle release and applicable dataset license.,open
+P03,high,Food table release and relationships unverified,"Verify USDA source files, keys, and nutrient units.",open
+P04,medium,Historical basketball source provenance incomplete,Identify original publishers and dataset versions.,open
+P05,high,Existing athlete profile creation process unknown,Verify origin of the 30 prepared profiles.,open
+P06,high,Coaching-resource reuse permissions need review,"Check extraction, storage, display, and redistribution terms.",open
+P07,medium,Record-level original-row traceability not established,Review source_row generation and preserve original IDs.,open
+P08,high,Basketball drill catalog overlap,Reconcile 23 occurrences with v0.2 source candidates.,open
+P09,high,Jr. NBA reuse and adaptation permissions,"Check permitted reuse, citations and adaptations.",open
+P10,high,USDA incomplete and anomalous nutrient values,Review missing fields and negative carbohydrate values.,open
+P11,medium,Synthetic evaluation coverage,Expand development cases and isolate final test profiles.,open
+P12,high,Recovery-rule age/grade applicability,Verify applicability and prioritization before use.,open
+P13,medium,Google Colab-specific notebook paths,Adapt imported notebooks for local VS Code.,open
+P14,medium,Foundation Foods raw source version,"Verify archive, nutrient units, and transformation lineage.",open

@@ -1,0 +1,250 @@
+{
+  "packet_id": "reference-packet:8e1d526b2451450527d8d948f9be1468a77b047eebd754587a32daf2523b4255",
+  "payload": {
+    "catalog_records": [],
+    "context_limitations": [
+      "Only listed complete units were delivered; other available material may be omitted. Reference availability does not establish answerability or rule compliance."
+    ],
+    "food_lookup": [
+      {
+        "data": {
+          "description": "Grapes, red or green (European type, such as Thompson seedless), raw",
+          "food_id": "174683",
+          "grams": "100",
+          "nutrients": [
+            {
+              "NDB_number": "9132",
+              "amount": "69",
+              "amount_per_100g_raw": "69",
+              "catalog_release": "2018-04",
+              "description": "Grapes, red or green (European type, such as Thompson seedless), raw",
+              "fdc_id": "174683",
+              "grams": "100",
+              "nutrient_id": "1008",
+              "nutrient_name": "Energy",
+              "reason": null,
+              "reference_basis": "edible_food",
+              "reference_mass_g": "100",
+              "source_archive_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0",
+              "source_data_type": "sr_legacy_food",
+              "source_derivation_code": "NC",
+              "source_derivation_description": "Calculated",
+              "source_derivation_id": "49",
+              "source_food_nutrient_id": "1877584",
+              "source_food_table": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/food.csv",
+              "source_footnote": "",
+              "source_record_url": "https://fdc.nal.usda.gov/food-details/174683/nutrients",
+              "status": "available",
+              "unit": "KCAL"
+            },
+            {
+              "NDB_number": "9132",
+              "amount": "0.72",
+              "amount_per_100g_raw": "0.72",
+              "catalog_release": "2018-04",
+              "description": "Grapes, red or green (European type, such as Thompson seedless), raw",
+              "fdc_id": "174683",
+              "grams": "100",
+              "nutrient_id": "1003",
+              "nutrient_name": "Protein",
+              "reason": null,
+              "reference_basis": "edible_food",
+              "reference_mass_g": "100",
+              "source_archive_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0",
+              "source_data_type": "sr_legacy_food",
+              "source_derivation_code": "A",
+              "source_derivation_description": "Analytical",
+              "source_derivation_id": "1",
+              "source_food_nutrient_id": "1877528",
+              "source_food_table": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/food.csv",
+              "source_footnote": "",
+              "source_record_url": "https://fdc.nal.usda.gov/food-details/174683/nutrients",
+              "status": "available",
+              "unit": "G"
+            },
+            {
+              "NDB_number": "9132",
+              "amount": "0.16",
+              "amount_per_100g_raw": "0.16",
+              "catalog_release": "2018-04",
+              "description": "Grapes, red or green (European type, such as Thompson seedless), raw",
+              "fdc_id": "174683",
+              "grams": "100",
+              "nutrient_id": "1004",
+              "nutrient_name": "Total lipid (fat)",
+              "reason": null,
+              "reference_basis": "edible_food",
+              "reference_mass_g": "100",
+              "source_archive_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0",
+              "source_data_type": "sr_legacy_food",
+              "source_derivation_code": "A",
+              "source_derivation_description": "Analytical",
+              "source_derivation_id": "1",
+              "source_food_nutrient_id": "1877525",
+              "source_food_table": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/food.csv",
+              "source_footnote": "",
+              "source_record_url": "https://fdc.nal.usda.gov/food-details/174683/nutrients",
+              "status": "available",
+              "unit": "G"
+            },
+            {
+              "NDB_number": "9132",
+              "amount": "18.1",
+              "amount_per_100g_raw": "18.1",
+              "catalog_release": "2018-04",
+              "description": "Grapes, red or green (European type, such as Thompson seedless), raw",
+              "fdc_id": "174683",
+              "grams": "100",
+              "nutrient_id": "1005",
+              "nutrient_name": "Carbohydrate, by difference",
+              "reason": null,
+              "reference_basis": "edible_food",
+              "reference_mass_g": "100",
+              "source_archive_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0",
+              "source_data_type": "sr_legacy_food",
+              "source_derivation_code": "NC",
+              "source_derivation_description": "Calculated",
+              "source_derivation_id": "49",
+              "source_food_nutrient_id": "1877583",
+              "source_food_table": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/food.csv",
+              "source_footnote": "",
+              "source_record_url": "https://fdc.nal.usda.gov/food-details/174683/nutrients",
+              "status": "available",
+              "unit": "G"
+            },
+            {
+              "NDB_number": "9132",
+              "amount": "0.9",
+              "amount_per_100g_raw": "0.9",
+              "catalog_release": "2018-04",
+              "description": "Grapes, red or green (European type, such as Thompson seedless), raw",
+              "fdc_id": "174683",
+              "grams": "100",
+              "nutrient_id": "1079",
+              "nutrient_name": "Fiber, total dietary",
+              "reason": null,
+              "reference_basis": "edible_food",
+              "reference_mass_g": "100",
+              "source_archive_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0",
+              "source_data_type": "sr_legacy_food",
+              "source_derivation_code": "A",
+              "source_derivation_description": "Analytical",
+              "source_derivation_id": "1",
+              "source_food_nutrient_id": "1877557",
+              "source_food_table": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/food.csv",
+              "source_footnote": "",
+              "source_record_url": "https://fdc.nal.usda.gov/food-details/174683/nutrients",
+              "status": "available",
+              "unit": "G"
+            }
+          ],
+          "portion": null
+        },
+        "data_version": "sr-legacy-2018-04:ee67cf780262d24b",
+        "issues": [],
+        "source_refs": [
+          "https://fdc.nal.usda.gov/food-details/174683/nutrients"
+        ],
+        "status": "found"
+      }
+    ],
+    "planning_rules": {
+      "rules": [
+        {
+          "applicability": {
+            "project_age_max": 17,
+            "project_age_min": 13,
+            "source_conditions": {
+              "age_max": 17,
+              "age_min": 13,
+              "grade_max": null,
+              "grade_min": null
+            }
+          },
+          "applicability_assessment": {
+            "basis": "Population scope only; request mode, complete schedule and other required inputs remain unassessed.",
+            "known_outside_scope_inputs": [],
+            "missing_scope_inputs": [],
+            "status": "matched"
+          },
+          "candidate_rule_id": "CDC_TEENS_SLEEP",
+          "corrections_and_qualifications": [
+            "No automated daily-sleep violation or pass from average_hours_per_night alone. Preserve daily versus nightly measurement and naps.",
+            "Show guidance without treating it as a training target, diagnosis, or medical clearance."
+          ],
+          "display_name": "Daily sleep guidance — ages 13–17",
+          "measurement_window": "reported_daily_period",
+          "missing_and_null_handling": {
+            "known_conflict": "A proven violation remains Violated even when other information is missing",
+            "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+            "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+            "not_applicable": "Only after population or request-mode exclusion is established"
+          },
+          "policy_origin": "published_guidance_with_explicit_project_interpretation",
+          "record_kind": "structured_reference",
+          "required_inputs": {
+            "measurement": [
+              "reported_sleep",
+              "reporting_dates",
+              "daily_measurement_period"
+            ],
+            "population": [
+              "age"
+            ],
+            "segment_resolution": []
+          },
+          "reviewed_enforcement": "advisory",
+          "reviewed_operator": "describe_daily_recommended_range",
+          "reviewed_threshold": [
+            8,
+            10
+          ],
+          "reviewed_unit": "hours/24_hours",
+          "source_population_conditions": {
+            "age_max": 17,
+            "age_min": 13,
+            "grade_max": null,
+            "grade_min": null
+          },
+          "source_statement_values_typed": {
+            "published_recommended_range": [
+              8,
+              10
+            ]
+          },
+          "source_unit": "hours/day",
+          "source_url": "https://www.cdc.gov/sleep/about/"
+        }
+      ],
+      "status": "found",
+      "validator_execution_ready": false
+    },
+    "references": [
+      {
+        "complete_required_delivery_text": "Off-ball spacing and team context\n\nThe UGA chapter describes offensive spacing as distributing teammates so defenders are spread across the court. Positioning depends on the ball carrier and the opposing defense. When a teammate drives toward the basket, an off-ball player may have different options according to how the defense responds; helping create a score does not necessarily mean taking the shot personally. The chapter also connects effective positioning with learning teammates’ tendencies over time.\n\nGeneral introductory basketball reference, selected and paraphrased from the cited chapter. No youth-specific suitability, training dose, medical clearance or planner approval is established.\n\nSource: 5. Fundamentals – Spacing & Rebounding, Ch.1 - Basketball, UGA PEDB Program. https://open.online.uga.edu/basketball/chapter/4-fundamentals-spacing-rebounding/\nCh.1 - Basketball Copyright © by UGA PEDB Program is licensed under a Creative Commons Attribution 4.0 International License, except where otherwise noted. https://creativecommons.org/licenses/by/4.0/\nSelected explanatory text was paraphrased and shortened; listed omissions are outside this reference unit.\nThe selected paraphrase is shared under CC BY 4.0. UGA endorsement is not implied. License rights and disclaimers remain available at https://creativecommons.org/licenses/by/4.0/ and https://creativecommons.org/licenses/by/4.0/legalcode.en.",
+        "passage_id": "uga-retrieval-passage:388fa8f67c1e0907ff591e5bd5a47da4e81b69e835b189dd85e6e92f36720661",
+        "reference_unit_id": "uga-reference-unit:4a6bb370f8d4ab32bd5d06fc1187ff3a9918eb09bceb9e67730372983afb0e60"
+      }
+    ]
+  },
+  "preparation": {
+    "builder_policy": "shared-planning-references-1",
+    "delivered_rule_ids": [
+      "CDC_TEENS_SLEEP"
+    ],
+    "food_lookup_mode": "literal_quoted_name_and_grams",
+    "full_prompt_budget_verified": false,
+    "max_packet_tokens": 2200,
+    "max_rule_bundles": 2,
+    "omission_count": 16,
+    "packet_text_tokens": 2156,
+    "query_templates_version": "public-two-query-1",
+    "rule_checks_executed": false,
+    "selected_reference_ids": [
+      "uga-reference-unit:4a6bb370f8d4ab32bd5d06fc1187ff3a9918eb09bceb9e67730372983afb0e60"
+    ],
+    "source_configuration_sha256": "f50e956ba9b63911b45e4f94926819339edfe1a4afda38d23ae036e3606fecfd"
+  },
+  "public_input_sha256": "52060c597a58b9126d0fe18213e27a16cddf7b7f21dfda4c72b5fe7eb95b35bf",
+  "schema_version": "shared-reference-packet-1"
+}

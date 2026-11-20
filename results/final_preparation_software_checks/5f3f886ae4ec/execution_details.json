@@ -1,0 +1,758 @@
+{
+  "schema_version": "step30-pytest-execution-1",
+  "pytest_exit_code": 0,
+  "collected": [
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_incomplete_or_unapproved_step32_stops_before_profile_inputs[status-incomplete]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step33/test_final_case_review.py:77",
+      "description": "test_incomplete_or_unapproved_step32_stops_before_profile_inputs[status-incomplete]"
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_incomplete_or_unapproved_step32_stops_before_profile_inputs[all_models_complete-False]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step33/test_final_case_review.py:77",
+      "description": "test_incomplete_or_unapproved_step32_stops_before_profile_inputs[all_models_complete-False]"
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_incomplete_or_unapproved_step32_stops_before_profile_inputs[injected_test_dependencies-True]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step33/test_final_case_review.py:77",
+      "description": "test_incomplete_or_unapproved_step32_stops_before_profile_inputs[injected_test_dependencies-True]"
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_incomplete_or_unapproved_step32_stops_before_profile_inputs[protocol_id-artificial_unapproved_protocol]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step33/test_final_case_review.py:77",
+      "description": "test_incomplete_or_unapproved_step32_stops_before_profile_inputs[protocol_id-artificial_unapproved_protocol]"
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_incomplete_or_unapproved_step32_stops_before_profile_inputs[records-437]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step33/test_final_case_review.py:77",
+      "description": "test_incomplete_or_unapproved_step32_stops_before_profile_inputs[records-437]"
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_incomplete_or_unapproved_step32_stops_before_profile_inputs[groups-384]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step33/test_final_case_review.py:77",
+      "description": "test_incomplete_or_unapproved_step32_stops_before_profile_inputs[groups-384]"
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_incomplete_or_unapproved_step32_stops_before_profile_inputs[class_count-15]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step33/test_final_case_review.py:77",
+      "description": "test_incomplete_or_unapproved_step32_stops_before_profile_inputs[class_count-15]"
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_incomplete_or_unapproved_step32_stops_before_profile_inputs[schema_version-unrecognized]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step33/test_final_case_review.py:77",
+      "description": "test_incomplete_or_unapproved_step32_stops_before_profile_inputs[schema_version-unrecognized]"
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_step32_requires_the_same_complete_three_model_population[missing_family]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step33/test_final_case_review.py:92",
+      "description": "test_step32_requires_the_same_complete_three_model_population[missing_family]"
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_step32_requires_the_same_complete_three_model_population[extra_family]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step33/test_final_case_review.py:92",
+      "description": "test_step32_requires_the_same_complete_three_model_population[extra_family]"
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_step32_requires_the_same_complete_three_model_population[partial_family]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step33/test_final_case_review.py:92",
+      "description": "test_step32_requires_the_same_complete_three_model_population[partial_family]"
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_missing_step32_summary_prevents_case_access",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step33/test_final_case_review.py:106",
+      "description": "test_missing_step32_summary_prevents_case_access"
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_step32_preflight_keeps_classifier_prediction_payloads_opaque",
+      "requirement": "30.6",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step33/test_final_case_review.py:115",
+      "description": "test_step32_preflight_keeps_classifier_prediction_payloads_opaque"
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_two_hundred_case_package_keeps_exact_public_copies_and_private_boundary",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step33/test_final_case_review.py:205",
+      "description": "test_two_hundred_case_package_keeps_exact_public_copies_and_private_boundary"
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_package_has_no_invented_review_approval_predictions_or_generation",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step33/test_final_case_review.py:242",
+      "description": "test_package_has_no_invented_review_approval_predictions_or_generation"
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_rerun_preserves_mutable_review_work_and_all_source_snapshots",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step33/test_final_case_review.py:260",
+      "description": "test_rerun_preserves_mutable_review_work_and_all_source_snapshots"
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_changed_immutable_review_snapshot_is_rejected_without_overwrite",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step33/test_final_case_review.py:275",
+      "description": "test_changed_immutable_review_snapshot_is_rejected_without_overwrite"
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_saved_retrieval_evidence_is_reused_with_its_scoped_denominators",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step33/test_final_case_review.py:287",
+      "description": "test_saved_retrieval_evidence_is_reused_with_its_scoped_denominators"
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_corrupt_preparation_hash_stops_before_candidate_decoding",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step33/test_final_case_review.py:301",
+      "description": "test_corrupt_preparation_hash_stops_before_candidate_decoding"
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_invalid_candidate_or_private_join_is_rejected_before_output[missing_record]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step33/test_final_case_review.py:325",
+      "description": "test_invalid_candidate_or_private_join_is_rejected_before_output[missing_record]"
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_invalid_candidate_or_private_join_is_rejected_before_output[duplicate_id]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step33/test_final_case_review.py:325",
+      "description": "test_invalid_candidate_or_private_join_is_rejected_before_output[duplicate_id]"
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_invalid_candidate_or_private_join_is_rejected_before_output[record_hash]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step33/test_final_case_review.py:325",
+      "description": "test_invalid_candidate_or_private_join_is_rejected_before_output[record_hash]"
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_invalid_candidate_or_private_join_is_rejected_before_output[wrong_age]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step33/test_final_case_review.py:325",
+      "description": "test_invalid_candidate_or_private_join_is_rejected_before_output[wrong_age]"
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_invalid_candidate_or_private_join_is_rejected_before_output[private_approval]",
+      "requirement": "30.3",
+      "fixture_version": "step30-authored-fixtures-1",
+      "expected_outcome_source": "tests/step33/test_final_case_review.py:325",
+      "description": "test_invalid_candidate_or_private_join_is_rejected_before_output[private_approval]"
+    }
+  ],
+  "phases": [
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_incomplete_or_unapproved_step32_stops_before_profile_inputs[status-incomplete]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.01925030001439154,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_incomplete_or_unapproved_step32_stops_before_profile_inputs[status-incomplete]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.015145600016694516,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_incomplete_or_unapproved_step32_stops_before_profile_inputs[status-incomplete]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00016979995416477323,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_incomplete_or_unapproved_step32_stops_before_profile_inputs[all_models_complete-False]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0011661999742500484,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_incomplete_or_unapproved_step32_stops_before_profile_inputs[all_models_complete-False]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.009518800012301654,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_incomplete_or_unapproved_step32_stops_before_profile_inputs[all_models_complete-False]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014749995898455381,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_incomplete_or_unapproved_step32_stops_before_profile_inputs[injected_test_dependencies-True]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0012027000193484128,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_incomplete_or_unapproved_step32_stops_before_profile_inputs[injected_test_dependencies-True]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.008773799985647202,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_incomplete_or_unapproved_step32_stops_before_profile_inputs[injected_test_dependencies-True]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00012909999350085855,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_incomplete_or_unapproved_step32_stops_before_profile_inputs[protocol_id-artificial_unapproved_protocol]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0010320000001229346,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_incomplete_or_unapproved_step32_stops_before_profile_inputs[protocol_id-artificial_unapproved_protocol]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.008873699989635497,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_incomplete_or_unapproved_step32_stops_before_profile_inputs[protocol_id-artificial_unapproved_protocol]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013699999544769526,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_incomplete_or_unapproved_step32_stops_before_profile_inputs[records-437]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.001031499996315688,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_incomplete_or_unapproved_step32_stops_before_profile_inputs[records-437]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00810729997465387,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_incomplete_or_unapproved_step32_stops_before_profile_inputs[records-437]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001395999570377171,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_incomplete_or_unapproved_step32_stops_before_profile_inputs[groups-384]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0011891999747604132,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_incomplete_or_unapproved_step32_stops_before_profile_inputs[groups-384]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.008343399967998266,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_incomplete_or_unapproved_step32_stops_before_profile_inputs[groups-384]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00012340000830590725,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_incomplete_or_unapproved_step32_stops_before_profile_inputs[class_count-15]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0009982999763451517,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_incomplete_or_unapproved_step32_stops_before_profile_inputs[class_count-15]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.008441100013442338,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_incomplete_or_unapproved_step32_stops_before_profile_inputs[class_count-15]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013700005365535617,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_incomplete_or_unapproved_step32_stops_before_profile_inputs[schema_version-unrecognized]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0010571999591775239,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_incomplete_or_unapproved_step32_stops_before_profile_inputs[schema_version-unrecognized]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.008462600002530962,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_incomplete_or_unapproved_step32_stops_before_profile_inputs[schema_version-unrecognized]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013000000035390258,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_step32_requires_the_same_complete_three_model_population[missing_family]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0011078999959863722,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_step32_requires_the_same_complete_three_model_population[missing_family]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.009156999993138015,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_step32_requires_the_same_complete_three_model_population[missing_family]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013000000035390258,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_step32_requires_the_same_complete_three_model_population[extra_family]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0009766999864950776,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_step32_requires_the_same_complete_three_model_population[extra_family]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.008127100009005517,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_step32_requires_the_same_complete_three_model_population[extra_family]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001387999509461224,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_step32_requires_the_same_complete_three_model_population[partial_family]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.001157199963927269,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_step32_requires_the_same_complete_three_model_population[partial_family]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00870439998107031,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_step32_requires_the_same_complete_three_model_population[partial_family]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001240999554283917,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_missing_step32_summary_prevents_case_access",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0009484000038355589,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_missing_step32_summary_prevents_case_access",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0006218000198714435,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_missing_step32_summary_prevents_case_access",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 9.960000170394778e-05,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_step32_preflight_keeps_classifier_prediction_payloads_opaque",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.000803199945949018,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_step32_preflight_keeps_classifier_prediction_payloads_opaque",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.014484799990896136,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_step32_preflight_keeps_classifier_prediction_payloads_opaque",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013110000872984529,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_two_hundred_case_package_keeps_exact_public_copies_and_private_boundary",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.029331900004763156,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_two_hundred_case_package_keeps_exact_public_copies_and_private_boundary",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.19132449995959178,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_two_hundred_case_package_keeps_exact_public_copies_and_private_boundary",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001370999962091446,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_package_has_no_invented_review_approval_predictions_or_generation",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.033982599969021976,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_package_has_no_invented_review_approval_predictions_or_generation",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.10842300002695993,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_package_has_no_invented_review_approval_predictions_or_generation",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00013689999468624592,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_rerun_preserves_mutable_review_work_and_all_source_snapshots",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.024132699996698648,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_rerun_preserves_mutable_review_work_and_all_source_snapshots",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.29228619998320937,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_rerun_preserves_mutable_review_work_and_all_source_snapshots",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001441999920643866,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_changed_immutable_review_snapshot_is_rejected_without_overwrite",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.028428399993572384,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_changed_immutable_review_snapshot_is_rejected_without_overwrite",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.1913207999896258,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_changed_immutable_review_snapshot_is_rejected_without_overwrite",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.0001436000457033515,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_saved_retrieval_evidence_is_reused_with_its_scoped_denominators",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.036514800041913986,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_saved_retrieval_evidence_is_reused_with_its_scoped_denominators",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.12483319995226339,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_saved_retrieval_evidence_is_reused_with_its_scoped_denominators",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014109996845945716,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_corrupt_preparation_hash_stops_before_candidate_decoding",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.001139500003773719,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_corrupt_preparation_hash_stops_before_candidate_decoding",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.007960400020238012,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_corrupt_preparation_hash_stops_before_candidate_decoding",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014359998749569058,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_invalid_candidate_or_private_join_is_rejected_before_output[missing_record]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.026275500014889985,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_invalid_candidate_or_private_join_is_rejected_before_output[missing_record]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.005402899987529963,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_invalid_candidate_or_private_join_is_rejected_before_output[missing_record]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00012669997522607446,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_invalid_candidate_or_private_join_is_rejected_before_output[duplicate_id]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.025131800037343055,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_invalid_candidate_or_private_join_is_rejected_before_output[duplicate_id]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.005340399977285415,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_invalid_candidate_or_private_join_is_rejected_before_output[duplicate_id]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00012199999764561653,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_invalid_candidate_or_private_join_is_rejected_before_output[record_hash]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.0298406999791041,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_invalid_candidate_or_private_join_is_rejected_before_output[record_hash]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.00788670004112646,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_invalid_candidate_or_private_join_is_rejected_before_output[record_hash]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00014260003808885813,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_invalid_candidate_or_private_join_is_rejected_before_output[wrong_age]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.024138999986462295,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_invalid_candidate_or_private_join_is_rejected_before_output[wrong_age]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.008464999962598085,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_invalid_candidate_or_private_join_is_rejected_before_output[wrong_age]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.000152299995534122,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_invalid_candidate_or_private_join_is_rejected_before_output[private_approval]",
+      "phase": "setup",
+      "outcome": "passed",
+      "duration_seconds": 0.024416000000201166,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_invalid_candidate_or_private_join_is_rejected_before_output[private_approval]",
+      "phase": "call",
+      "outcome": "passed",
+      "duration_seconds": 0.0172813999815844,
+      "expected_failure": false,
+      "detail": null
+    },
+    {
+      "test_id": "tests/step33/test_final_case_review.py::test_invalid_candidate_or_private_join_is_rejected_before_output[private_approval]",
+      "phase": "teardown",
+      "outcome": "passed",
+      "duration_seconds": 0.00018590001855045557,
+      "expected_failure": false,
+      "detail": null
+    }
+  ],
+  "collection_errors": [],
+  "deselected": [],
+  "new_model_calls": 0,
+  "query_encoder_processes": 0,
+  "network_policy": "blocked_in_routine_tests",
+  "fixtures": "authored_public_examples"
+}

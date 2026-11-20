@@ -1,0 +1,377 @@
+{
+  "packet_id": "reference-packet:a22aea2a29a9487d74399032ec27d8c41155eb5658f331a339972f3dfa07509a",
+  "payload": {
+    "catalog_records": [
+      {
+        "data": {
+          "age_eligibility_inferred": false,
+          "alias_resolved": false,
+          "approved_variant": "specified_source_base_variant_only",
+          "canonical_drill_id": "JR-ADITI-0011",
+          "catalog_candidate_id": "JR-ADITI-0011",
+          "content_provenance": "Supplied imported brief summary retained with explicitly reviewed base-role/resource corrections; optional modifications and independent adaptations excluded.",
+          "content_use_scope": "Source-linked metadata and original summary only; no approval to redistribute publisher text, diagrams, images or video.",
+          "drill_name": "Form Shooting - 1 Hand",
+          "duration_minutes": null,
+          "equipment": "Basketball; basket",
+          "instructions": "Players practice one-handed shooting close to the basket, focusing on shooting form and follow-through.",
+          "medical_suitability_certified": false,
+          "minimum_participants": null,
+          "participants": "Partnered players in the published setup",
+          "primary_goal": "Improve shooting",
+          "primary_goal_provenance": "project editorial classification, not publisher-certified assessment",
+          "publisher_attribution": "Jr. NBA/Jr. WNBA instructional curriculum",
+          "requested_drill_id": "JR-ADITI-0011",
+          "rest_seconds": null,
+          "scope": "basketball_drill_candidate",
+          "secondary_skills": [],
+          "solo_adaptation": null,
+          "source_curriculum_level": "Starter",
+          "source_prescription": "2 × 10",
+          "source_representation": "primary_HTML_as_retrieved_2026-11-13",
+          "source_url": "https://jr.nba.com/basketball-practice-plans/starter/",
+          "space": "Within a few feet of basket",
+          "use_conditions": "Use only when the actual equipment, player roles, space, skill prerequisites and supervision are satisfied. Ask for missing facts; do not invent durations, rest, coach availability or solo adaptations. Apply adopted participation rules separately."
+        },
+        "data_version": "team-approved-f0dcb9e9943e381b",
+        "issues": [
+          "Use only the reviewed variant and its stated resource/supervision conditions; unknown time and rest remain unknown."
+        ],
+        "kind": "drill",
+        "requested_id": "JR-ADITI-0011",
+        "source_refs": [
+          "JR-ADITI-0011",
+          "https://jr.nba.com/basketball-practice-plans/starter/"
+        ],
+        "status": "found"
+      }
+    ],
+    "catalog_selection": {
+      "feasibility_certified": false,
+      "status": "delivered_conditionally"
+    },
+    "context_limitations": [
+      "References are evidence, not a feasibility, age-eligibility or safety certification. Use only complete reviewed variants and retain their conditions; ask about missing facts."
+    ],
+    "food_lookup": [
+      {
+        "data": {
+          "description": "Fish, cod, Atlantic, cooked, dry heat",
+          "food_id": "171956",
+          "grams": "80",
+          "nutrients": [
+            {
+              "NDB_number": "15016",
+              "amount": "84",
+              "amount_per_100g_raw": "105",
+              "catalog_release": "2018-04",
+              "description": "Fish, cod, Atlantic, cooked, dry heat",
+              "fdc_id": "171956",
+              "grams": "80",
+              "nutrient_id": "1008",
+              "nutrient_name": "Energy",
+              "reason": null,
+              "reference_basis": "edible_food",
+              "reference_mass_g": "100",
+              "source_archive_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0",
+              "source_data_type": "sr_legacy_food",
+              "source_derivation_code": "NC",
+              "source_derivation_description": "Calculated",
+              "source_derivation_id": "49",
+              "source_food_nutrient_id": "1653493",
+              "source_food_table": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/food.csv",
+              "source_footnote": "",
+              "source_record_url": "https://fdc.nal.usda.gov/food-details/171956/nutrients",
+              "status": "available",
+              "unit": "KCAL"
+            },
+            {
+              "NDB_number": "15016",
+              "amount": "18.264",
+              "amount_per_100g_raw": "22.83",
+              "catalog_release": "2018-04",
+              "description": "Fish, cod, Atlantic, cooked, dry heat",
+              "fdc_id": "171956",
+              "grams": "80",
+              "nutrient_id": "1003",
+              "nutrient_name": "Protein",
+              "reason": null,
+              "reference_basis": "edible_food",
+              "reference_mass_g": "100",
+              "source_archive_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0",
+              "source_data_type": "sr_legacy_food",
+              "source_derivation_code": "",
+              "source_derivation_description": "",
+              "source_derivation_id": "",
+              "source_food_nutrient_id": "1653526",
+              "source_food_table": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/food.csv",
+              "source_footnote": "",
+              "source_record_url": "https://fdc.nal.usda.gov/food-details/171956/nutrients",
+              "status": "available",
+              "unit": "G"
+            },
+            {
+              "NDB_number": "15016",
+              "amount": "0.688",
+              "amount_per_100g_raw": "0.86",
+              "catalog_release": "2018-04",
+              "description": "Fish, cod, Atlantic, cooked, dry heat",
+              "fdc_id": "171956",
+              "grams": "80",
+              "nutrient_id": "1004",
+              "nutrient_name": "Total lipid (fat)",
+              "reason": null,
+              "reference_basis": "edible_food",
+              "reference_mass_g": "100",
+              "source_archive_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0",
+              "source_data_type": "sr_legacy_food",
+              "source_derivation_code": "",
+              "source_derivation_description": "",
+              "source_derivation_id": "",
+              "source_food_nutrient_id": "1653497",
+              "source_food_table": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/food.csv",
+              "source_footnote": "",
+              "source_record_url": "https://fdc.nal.usda.gov/food-details/171956/nutrients",
+              "status": "available",
+              "unit": "G"
+            },
+            {
+              "NDB_number": "15016",
+              "amount": "0",
+              "amount_per_100g_raw": "0",
+              "catalog_release": "2018-04",
+              "description": "Fish, cod, Atlantic, cooked, dry heat",
+              "fdc_id": "171956",
+              "grams": "80",
+              "nutrient_id": "1005",
+              "nutrient_name": "Carbohydrate, by difference",
+              "reason": null,
+              "reference_basis": "edible_food",
+              "reference_mass_g": "100",
+              "source_archive_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0",
+              "source_data_type": "sr_legacy_food",
+              "source_derivation_code": "Z",
+              "source_derivation_description": "Assumed zero (Insignificant amount or not naturally occurring in a food, such as fiber in meat)",
+              "source_derivation_id": "68",
+              "source_food_nutrient_id": "1653498",
+              "source_food_table": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/food.csv",
+              "source_footnote": "",
+              "source_record_url": "https://fdc.nal.usda.gov/food-details/171956/nutrients",
+              "status": "available",
+              "unit": "G"
+            },
+            {
+              "NDB_number": "15016",
+              "amount": "0",
+              "amount_per_100g_raw": "0",
+              "catalog_release": "2018-04",
+              "description": "Fish, cod, Atlantic, cooked, dry heat",
+              "fdc_id": "171956",
+              "grams": "80",
+              "nutrient_id": "1079",
+              "nutrient_name": "Fiber, total dietary",
+              "reason": null,
+              "reference_basis": "edible_food",
+              "reference_mass_g": "100",
+              "source_archive_sha256": "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0",
+              "source_data_type": "sr_legacy_food",
+              "source_derivation_code": "Z",
+              "source_derivation_description": "Assumed zero (Insignificant amount or not naturally occurring in a food, such as fiber in meat)",
+              "source_derivation_id": "68",
+              "source_food_nutrient_id": "1653528",
+              "source_food_table": "data/raw/usda/sr_legacy_2018_04/acquisition_8fbe825dc443d08d/tables/sr_legacy/food.csv",
+              "source_footnote": "",
+              "source_record_url": "https://fdc.nal.usda.gov/food-details/171956/nutrients",
+              "status": "available",
+              "unit": "G"
+            }
+          ],
+          "portion": null
+        },
+        "data_version": "sr-legacy-2018-04:ee67cf780262d24b",
+        "issues": [],
+        "source_refs": [
+          "https://fdc.nal.usda.gov/food-details/171956/nutrients"
+        ],
+        "status": "found"
+      }
+    ],
+    "planning_rules": {
+      "population_qualifications": {
+        "advisory_ranges": "Show applicable contextual guidance; do not invent a precedence rule or turn recommended lower values into required minimum training.",
+        "origin": "team_adopted_project_policy_not_publisher_precedence",
+        "overlapping_required_bounds": "Use the most restrictive supported applicable bound as one conceptual check; do not score aliases twice. Age 14/grade 9 therefore uses 600 minutes for this prototype.",
+        "policy_id": "PROJECT_NBA_OVERLAP_CONSERVATIVE_V1",
+        "population_matching": "Match reported age category and separately reported grade category. Never infer grade from age. Project scope is 13–17.",
+        "unknown_grade": "A known applicable age-based bound remains usable; age 15–17 with unknown grade does not establish a grade-based rule."
+      },
+      "rules": [
+        {
+          "applicability": {
+            "project_age_max": 17,
+            "project_age_min": 13,
+            "source_conditions": {
+              "age_max": 17,
+              "age_min": 13,
+              "grade_max": null,
+              "grade_min": null
+            }
+          },
+          "applicability_assessment": {
+            "basis": "Population scope only; request mode, complete schedule and other required inputs remain unassessed.",
+            "known_outside_scope_inputs": [],
+            "missing_scope_inputs": [],
+            "status": "matched"
+          },
+          "candidate_rule_id": "CDC_TEENS_SLEEP",
+          "corrections_and_qualifications": [
+            "No automated daily-sleep violation or pass from average_hours_per_night alone. Preserve daily versus nightly measurement and naps.",
+            "Show guidance without treating it as a training target, diagnosis, or medical clearance."
+          ],
+          "display_name": "Daily sleep guidance — ages 13–17",
+          "measurement_window": "reported_daily_period",
+          "missing_and_null_handling": {
+            "known_conflict": "A proven violation remains Violated even when other information is missing",
+            "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+            "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+            "not_applicable": "Only after population or request-mode exclusion is established"
+          },
+          "policy_origin": "published_guidance_with_explicit_project_interpretation",
+          "record_kind": "structured_reference",
+          "required_inputs": {
+            "measurement": [
+              "reported_sleep",
+              "reporting_dates",
+              "daily_measurement_period"
+            ],
+            "population": [
+              "age"
+            ],
+            "segment_resolution": []
+          },
+          "reviewed_enforcement": "advisory",
+          "reviewed_operator": "describe_daily_recommended_range",
+          "reviewed_threshold": [
+            8,
+            10
+          ],
+          "reviewed_unit": "hours/24_hours",
+          "source_population_conditions": {
+            "age_max": 17,
+            "age_min": 13,
+            "grade_max": null,
+            "grade_min": null
+          },
+          "source_statement_values_typed": {
+            "published_recommended_range": [
+              8,
+              10
+            ]
+          },
+          "source_unit": "hours/day",
+          "source_url": "https://www.cdc.gov/sleep/about/"
+        },
+        {
+          "applicability": {
+            "overlap_policy": "PROJECT_NBA_OVERLAP_CONSERVATIVE_V1",
+            "project_age_max": 17,
+            "project_age_min": 13,
+            "source_conditions": {
+              "age_max": 14,
+              "age_min": 13,
+              "grade_max": null,
+              "grade_min": null
+            }
+          },
+          "applicability_assessment": {
+            "basis": "Population scope only; request mode, complete schedule and other required inputs remain unassessed.",
+            "known_outside_scope_inputs": [],
+            "missing_scope_inputs": [],
+            "status": "matched"
+          },
+          "candidate_rule_id": "NBA_A13_14_SLEEP",
+          "corrections_and_qualifications": [
+            "Publisher category facts are retained; overlap resolution is PROJECT_NBA_OVERLAP_CONSERVATIVE_V1, not asserted publisher precedence.",
+            "Reported average_hours_per_night is not proof that every night met the range. Do not substitute it for a 24-hour daily total.",
+            "Use alongside the CDC record as contextual support, not an extra scored duplicate."
+          ],
+          "display_name": "Nightly sleep guidance — ages 13–14",
+          "measurement_window": "reported_night",
+          "missing_and_null_handling": {
+            "known_conflict": "A proven violation remains Violated even when other information is missing",
+            "met": "Requires sufficient applicable inputs and valid accounting, not merely absence of a detected conflict",
+            "missing_or_null": "Unknown when needed; never assume zero, a resource, a grade, or schedule completeness",
+            "not_applicable": "Only after population or request-mode exclusion is established"
+          },
+          "policy_origin": "published_guidance_with_explicit_project_interpretation",
+          "record_kind": "structured_reference",
+          "required_inputs": {
+            "measurement": [
+              "reported_sleep",
+              "reporting_dates",
+              "nightly_measurement_period"
+            ],
+            "population": [
+              "age"
+            ],
+            "segment_resolution": [
+              "school_grade"
+            ]
+          },
+          "reviewed_enforcement": "advisory",
+          "reviewed_operator": "describe_nightly_recommended_range",
+          "reviewed_threshold": [
+            8,
+            10
+          ],
+          "reviewed_unit": "hours/night",
+          "source_population_conditions": {
+            "age_max": 14,
+            "age_min": 13,
+            "grade_max": null,
+            "grade_min": null
+          },
+          "source_statement_values_typed": {
+            "published_recommended_range": [
+              8,
+              10
+            ]
+          },
+          "source_unit": "hours/night",
+          "source_url": "https://youthguidelines.nba.com/"
+        }
+      ],
+      "status": "found",
+      "validator_execution_ready": false
+    },
+    "references": []
+  },
+  "preparation": {
+    "active_resource_pointer_sha256": "b05bfd994b9d722e6179ee2a3e2136975118a51468eb490bec166c231f15303b",
+    "builder_policy": "shared-planning-references-1",
+    "delivered_catalog_ids": [
+      "JR-ADITI-0011"
+    ],
+    "delivered_rule_ids": [
+      "CDC_TEENS_SLEEP",
+      "NBA_A13_14_SLEEP"
+    ],
+    "drill_selection_version": "public-goal-drill-context-1",
+    "feasibility_certified": false,
+    "food_lookup_mode": "literal_quoted_name_and_grams",
+    "full_prompt_budget_verified": false,
+    "max_packet_tokens": 2200,
+    "max_rule_bundles": 2,
+    "omission_count": 21,
+    "packet_budget_basis": "lossless-food-model-view-1",
+    "packet_text_tokens": 2119,
+    "query_templates_version": "public-two-query-1",
+    "release_manifest_sha256": "d048af8432bfc339a2504460cbbdbca7011745774d92f0024aa15148dc55db6b",
+    "resource_release_id": "team-approved-f0dcb9e9943e381b",
+    "rule_checks_executed": false,
+    "selected_reference_ids": [],
+    "source_configuration_sha256": "0effe51cc11edde425e9e55cc94b39bcb35267dc99e8c7613ba7c446199f63ba"
+  },
+  "public_input_sha256": "6975c6b03f1b93d65e83c0b825d6890e669963a68b7454a602cf4717693bbf08",
+  "schema_version": "shared-reference-packet-1"
+}

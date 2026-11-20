@@ -1,0 +1,15 @@
+source_id,field,value,records,denominator_records,percent,record_unit
+aditi_jr_nba_drills,source_document,Jr. NBA Starter Practice Plan 1,13,23,56.5217,source_occurrences
+aditi_jr_nba_drills,source_document,Jr. NBA Starter Practice Plan 2,10,23,43.4783,source_occurrences
+catalog_basketball_v02,source_plan,from_existing_evidence,67,129,51.938,candidate_groups_v0.2_historical
+catalog_basketball_v02,source_plan,MVP Plan 4,14,129,10.8527,candidate_groups_v0.2_historical
+catalog_basketball_v02,source_plan,Rookie Plan 4,10,129,7.7519,candidate_groups_v0.2_historical
+catalog_basketball_v02,source_plan,Starter Plan 4,10,129,7.7519,candidate_groups_v0.2_historical
+catalog_basketball_v02,source_plan,All-Star Plan 4,9,129,6.9767,candidate_groups_v0.2_historical
+catalog_basketball_v02,source_plan,Starter Plan 5,8,129,6.2016,candidate_groups_v0.2_historical
+catalog_basketball_v02,source_plan,MVP Plan 5,6,129,4.6512,candidate_groups_v0.2_historical
+catalog_basketball_v02,source_plan,All-Star Plan 5,5,129,3.876,candidate_groups_v0.2_historical
+local_basketball_drills,source_id,jr_nba_all_star,8,32,25.0,local_candidate_items
+local_basketball_drills,source_id,jr_nba_mvp,8,32,25.0,local_candidate_items
+local_basketball_drills,source_id,jr_nba_rookie,8,32,25.0,local_candidate_items
+local_basketball_drills,source_id,jr_nba_starter,8,32,25.0,local_candidate_items

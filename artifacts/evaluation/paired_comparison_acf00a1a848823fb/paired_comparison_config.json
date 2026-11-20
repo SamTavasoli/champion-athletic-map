@@ -1,0 +1,84 @@
+{
+  "analyst_version_order": [
+    "V1",
+    "V2",
+    "V3",
+    "V4"
+  ],
+  "completion_scope": "A completed contrast can be reported even if a different noncompared version remains pending; the whole four-version experiment stays incomplete. An empty population cannot establish a completed experiment.",
+  "contrast_order": [
+    {
+      "earlier": "V1",
+      "label": "V2_minus_V1",
+      "later": "V2"
+    },
+    {
+      "earlier": "V2",
+      "label": "V3_minus_V2",
+      "later": "V3"
+    },
+    {
+      "earlier": "V3",
+      "label": "V4_minus_V3",
+      "later": "V4"
+    },
+    {
+      "earlier": "V1",
+      "label": "V4_minus_V1",
+      "later": "V4"
+    }
+  ],
+  "family_policy": "Retain supplied family identifiers and sizes for later resampling. This component adopts no family proposals, merges no profiles, establishes no case independence, and inspects no protected family records.",
+  "helper_version": "paired-feasible-accounting-1",
+  "independent_outcomes": "The compact outcome schema accepts externally established disposition/success/completeness. It does not parse responses, implement rule checks, select a designated response, verify provenance or establish that a claimed external score is correct. The later score-ledger adapter must bind run, profile, family, frozen version, designated response hash and independent scorer version before comparison.",
+  "independent_scoring_policy": {
+    "designated_response": "Freeze each workflow's designated returned response rule before final runs. Independently score that saved response before user edits; bind its hash. Do not silently substitute an earlier diagnostic draft or choose the strongest of multiple completed generations.",
+    "optional_source_ids": "Optional source-ID fields stay optional formatting. Missing attribution can affect evidence findings without introducing an unplanned format requirement.",
+    "post_result_changes": "Preserve failed outcomes. Changes prompted by final results require a documented new experiment, not a silent amendment of the current comparison.",
+    "revision_cap": "If the frozen Version 4 workflow specifies return of its last checked candidate at the revision cap, independently score that designated candidate under the same rules. A fatal workflow error remains an execution failure; do not fall back to a diagnostic draft.",
+    "shared_conditions": "Use the same public profile inputs, shared input/output/parsing contracts, base model and common generation settings. Record retrieval, specialists, internal evaluation and revision as intended workflow differences.",
+    "version4_internal_flag": "Version 4 internal acceptance is not the independent research result; it cannot set external success."
+  },
+  "missing_policy": "Missing rows, unstarted execution, unfinished assessment and not-ready outcomes remain unscored, not False. Do not drop incomplete pairs into a smaller complete-case denominator. Full rates/differences remain null for an unready population, incomplete contrasted outcomes or a zero denominator.",
+  "operational_implementations": {
+    "accepted_feasible_roster_binding": "pending",
+    "adopted_family_binding": "pending",
+    "designated_response_hash_binding": "pending",
+    "frozen_workflow_alias_mapping": "pending",
+    "independent_score_ledger_adapter": "pending",
+    "paired_group_bootstrap": "pending"
+  },
+  "paired_outcomes": "Retain every profile/family link. Count improved, worsened, unchanged success, unchanged non-success and incomplete pairs. Match by profile/version identifiers, not row position. Retain known partner outcomes when the other is pending.",
+  "point_estimate": "Each profile has one equal weight. Success rate uses all declared feasible profiles per version. Pair differences are later minus earlier in percentage points: 100 * (improved - worsened) / profile_count. Families do not reweight the point estimate.",
+  "population": {
+    "planned_count_enforced_by_pure_helper": false,
+    "planned_final_feasible_profiles": 150,
+    "readiness": "population_ready is a supplied prerequisite, not an acceptance validator. Before actual use, verify the complete accepted feasible population, adopted families, expectations, rules/references and scoring versions. A partial or unaccepted roster must not be marked ready.",
+    "scope": "declared feasible-case profile roster only"
+  },
+  "protocol_ready": false,
+  "recipe_version": "paired-comparison-contract-0.1.0",
+  "schema_version": "paired-comparison-config-1",
+  "software": {
+    "pandas": "3.1.1",
+    "python": "3.12.6"
+  },
+  "status": "supplied_independent_outcome_accounting_only",
+  "step31_uncertainty_handoff": {
+    "bootstrap_performed": false,
+    "estimands": "Recompute profile-level planner metrics and record-level classifier metrics on each resample. Do not replace them with unweighted averages of family/group scores.",
+    "interpretation": "Intervals describe sensitivity to the constructed benchmark cases, not real-athlete outcomes or training-seed variability.",
+    "interval_level": 0.95,
+    "interval_method": "percentile",
+    "interval_scope": "individual, not simultaneous",
+    "paired_group_units": {
+      "classifier": "frozen exercise split groups",
+      "planner": "adopted profile families"
+    },
+    "pairing": "Keep matched model/version outcomes together within each sampled group and include every member of a drawn group with its multiplicity.",
+    "resamples": 2000,
+    "seed": 42,
+    "status": "planned; operational procedure and implementation pending Step 31"
+  },
+  "version_mapping": "V1 through V4 are fixed analyst aliases for the four planned workflows. Bind them to frozen runner/workflow versions before real evaluation; this cell assigns no actual run IDs."
+}
